@@ -20,7 +20,9 @@ Each batch = 1 Ad Set in Meta Ads Manager:
 - **2 Headlines** (1 direct, 1 curiosity → tests which HOOK pulls clicks)
 - **1 Description** (consistent across variations)
 
-Meta will automatically test all combinations (3×2×2 = 12 variations per ad set). The algorithm finds the best creative + copy + headline combo.
+Use **Advantage+ Creative** — upload all assets and let Meta assemble combinations automatically.
+
+> **Copy Placement Rule:** Body Copy 1 (Native/Camouflage) is written for native-style ad placements only — it mimics organic posts and should be paired with native/organic-looking creatives. Body Copy 2 (Direct Response) works across all placements. Not every ad needs a native body copy — use it where the camouflage format adds value.
 
 ---
 
@@ -40,29 +42,35 @@ Meta will automatically test all combinations (3×2×2 = 12 variations per ad se
 
 ### Creatives 1-3: USE FROM Baseline_Batches_1-5.md
 
-B1C1 (Stat Bomb "50%"), B1C2 ("This Is Not" Reframe), and B1C3 (Question Hook Native Post) are all about NAD+ decline science and the outcome of restoration. No changes needed.
+B1C1 (Stat Bomb — update to remove specific percentage, use "significant decline"), B1C2 ("This Is Not" Reframe), and B1C3 (Question Hook Native Post) are all about NAD+ decline science and the outcome of restoration. **Compliance note:** Update B1C1 stat text in Baseline_Batches_1-5.md to replace "50%" with language like "significant age-related decline" before producing creatives.
 
 ---
 
-### Body Copy 1 (Native/Camouflage — 220 words)
+### Body Copy 1 (Native/Camouflage — Q&A Format, 200 words)
 
-I turned 44 and my body just... stopped cooperating.
+> **Placement:** Native/camouflage ads only. Pair with B1C3 (Native Post) or organic-looking creatives.
 
-It wasn't one thing. It was everything. Hangovers that used to last a morning started lasting two days. I'd wake up at 6am feeling like I hadn't slept. A pickup basketball game would wreck me for a week.
+Things I believed before I turned 44:
 
-I tried the usual stuff. More sleep. Better diet. Magnesium. B12 shots. A $200 blood panel that came back "normal." My doctor said I was healthy. I didn't feel healthy.
+"It's just stress." — It wasn't. My stress levels were the same as 35. My recovery wasn't.
 
-Then a friend — a molecular biologist, not a supplement guy — mentioned something I'd never heard of: NAD+. A coenzyme in every cell responsible for energy production and DNA repair. By age 50, you've lost roughly half of it. Not "maybe." Published research.
+"I need more sleep." — I was getting 7-8 hours. Waking up exhausted anyway.
 
-He said it's like your cells slowly running out of fuel. Everything still works — just worse. Slower recovery. Less energy. More fog. Sound familiar?
+"My blood work is fine, so I'm fine." — $200 panel. Everything "normal." Still felt like I aged a decade.
 
-I looked into NMN — the precursor your body uses to rebuild NAD+. Not a stimulant. Not a vitamin. The actual raw material your cells need to produce energy at the cellular level.
+"Supplements don't really do anything." — Fair. Most didn't.
 
-I started taking Baseline NMN. Week one, nothing dramatic. Week three, I stopped needing that second coffee. Week six, my wife said I seemed like myself again.
+Here's what actually changed my mind:
 
-I'm not 25. But I stopped feeling like I was falling apart.
+NAD+. A coenzyme in every cell responsible for energy production and cellular maintenance. Your levels decline significantly in your 40s and 50s. Published research, not a wellness trend.
 
-→ Baseline NMN. Restore what was lost.
+NMN is the precursor your body converts into NAD+. Not a stimulant. Not another multivitamin. The raw material your cells are running low on.
+
+I didn't notice anything for two weeks. Week three, the afternoon fog cleared. Week six, my wife said I seemed like myself again.
+
+I didn't need a miracle. I needed my cells to have fuel again.
+
+→ Stop declining. Start restoring.
 
 ---
 
@@ -72,13 +80,13 @@ I'm not 25. But I stopped feeling like I was falling apart.
 
 Sound familiar? There's a reason.
 
-By age 50, your cells lose ~50% of NAD+ — the molecule behind energy production, DNA repair, and cellular maintenance. That slow decline you're feeling isn't vague. It's specific. And it's measurable.
+As you age, your cells produce less NAD+ — the molecule behind energy production and cellular maintenance. That slow decline you're feeling isn't vague. It's specific. And it's measurable.
 
 NMN is the direct precursor your body uses to restore NAD+ levels. Not a stimulant. Not a band-aid. The actual fuel your cells have been running low on.
 
 Your body didn't break. It ran out of fuel.
 
-→ Restore your baseline.
+→ Stop declining. Start restoring.
 
 ---
 
@@ -90,7 +98,7 @@ Your body didn't break. It ran out of fuel.
 
 ---
 
-# BATCH 2: "The 3pm Wall Hitter"
+# BATCH 2: "The 3pm Wall Hitter" ⟵ HOLD FOR WEEK 3-4 ROTATION
 
 **Ad Set Name:** `B2_3pmWallHitter_RestorationVsStimulation`
 **Sub-Avatar:** #1 — The 3pm Wall Hitter (universal daily experience)
@@ -110,6 +118,8 @@ B2C1 (Us vs Them Split — coffee vs NMN), B2C2 (Exaggeration — Slumped at Des
 
 ### Body Copy 1 (Native/Camouflage — 200 words)
 
+> **Placement:** Native/camouflage ads only. Pair with B2C3 (Bold Text native) or organic-looking creatives.
+
 I used to have energy. Now I just have coffee.
 
 Three cups by noon. Sometimes four. And still, every single afternoon around 2:30, the wall hits. Not tired-from-exercise tired. Tired-for-no-reason tired. The kind where you read the same email three times and still don't know what it says.
@@ -126,7 +136,7 @@ That's the difference between stimulation and restoration.
 
 Caffeine gives you a spike. This raised my baseline.
 
-→ Try Baseline NMN.
+→ Ditch the third cup.
 
 ---
 
@@ -140,7 +150,7 @@ NMN works differently. It's the precursor your body uses to restore NAD+ — the
 
 Stop chasing spikes. Raise your baseline.
 
-→ Shop Baseline.
+→ Ditch the third cup.
 
 ---
 
@@ -231,6 +241,8 @@ Stop chasing spikes. Raise your baseline.
 
 ### Body Copy 1 (Native/Camouflage — 225 words)
 
+> **Placement:** Native/camouflage ads only. Pair with B3C3 (Honest Review Native Post) or organic-looking creatives.
+
 I have a cabinet full of supplements I don't trust anymore.
 
 Turmeric. Ashwagandha. Vitamin D. Magnesium. Fish oil. Collagen. I bought every one of them because some article or podcast said it would change my life. None of them did.
@@ -247,7 +259,7 @@ I tried Baseline NMN expecting nothing. Week one confirmed that — nothing. Wee
 
 I'm still skeptical of supplements. I'm just not skeptical of this one.
 
-→ Baseline NMN.
+→ One more try. This one's different.
 
 ---
 
@@ -259,11 +271,11 @@ Turmeric didn't change your energy. Ashwagandha didn't fix your focus. Collagen 
 
 Here's why NMN is different: it's not adding something extra. It's restoring something specific your body lost.
 
-NAD+ is the molecule your cells use for energy production and DNA repair. By your 40s, levels drop significantly. NMN is the direct precursor your body converts into NAD+.
+NAD+ is the molecule your cells use for energy production and cellular maintenance. By your 40s, levels drop significantly. NMN is the direct precursor your body converts into NAD+.
 
 This isn't another promise. It's a precursor to a molecule you're measurably low on.
 
-→ Try Baseline NMN.
+→ One more try. This one's different.
 
 ---
 
@@ -308,23 +320,30 @@ B4C1 (Avatar Call Out — tired parent on bench), B4C2 (Ideal Outcome — Playin
 
 ---
 
-### Body Copy 1 (Native/Camouflage — 205 words)
+### Body Copy 1 (Native/Camouflage — Letter Format, 195 words)
 
-Last Saturday my daughter asked me to take her to the park. I said maybe later. She stopped asking.
+> **Placement:** Native/camouflage ads only. Pair with B4C3 (Bold Text) or organic-looking creatives.
 
-That was my moment. Not a health scare. Not a doctor's warning. A six-year-old who learned that "maybe later" means no.
+To the parent sitting on the bench while their kids play:
 
-I wasn't lazy. I was empty. I'd get home from work and have nothing left. Weekends were supposed to be family time but they felt like recovery time. I'd sit on the couch while my kids played in the other room, feeling guilty but too exhausted to move.
+I was you. Not lazy. Not checked out. Just empty by 5pm. Every single day.
 
-I tried sleeping more. Tried eating cleaner. Tried forcing myself to be more present. None of it worked because none of it addressed why I was depleted in the first place.
+Last Saturday my daughter asked me to take her to the park. I said maybe later. She stopped asking. That was the moment I knew something had to change.
 
-Your body's cellular energy depends on a molecule called NAD+. By your 40s, levels drop significantly. Everything still runs — just slower, harder, emptier. Especially by 5pm.
+Here's what I learned:
 
-I started taking Baseline NMN. Not expecting much. By week three, I wasn't dragging through evenings anymore. By week six, I took my daughter to the park on a Wednesday. After work. Without thinking about it.
+Your cells run on a molecule called NAD+. By your 40s, you produce significantly less of it. That's not a theory — it's measurable. And it explains why willpower, sleep, and clean eating weren't enough. The tank was genuinely empty.
+
+NMN is what your body converts into NAD+. Not caffeine. Not another supplement promise. The actual cellular fuel you're running low on.
+
+Week three on Baseline NMN: I stopped dreading evenings.
+Week six: I took my daughter to the park on a Wednesday. After work. Without thinking about it.
 
 She didn't say anything. She just grabbed my hand and ran to the swings.
 
-→ Baseline NMN. Show up.
+You're not a bad parent. You're a depleted one.
+
+→ Be the parent who says yes.
 
 ---
 
@@ -338,7 +357,7 @@ NMN is the precursor your body uses to rebuild NAD+ levels. Not caffeine. Not wi
 
 They won't remember your job title. They'll remember if you had the energy to play.
 
-→ Restore your baseline.
+→ Be the parent who says yes.
 
 ---
 
@@ -350,7 +369,7 @@ They won't remember your job title. They'll remember if you had the energy to pl
 
 ---
 
-# BATCH 5: "The Invisible Woman"
+# BATCH 5: "The Invisible Woman" ⟵ HOLD FOR WEEK 3-4 ROTATION
 
 **Ad Set Name:** `B5_InvisibleWoman_CellularFunction`
 **Sub-Avatar:** #7 — The Invisible Woman (underserved market, women 40-55)
@@ -364,11 +383,13 @@ They won't remember your job title. They'll remember if you had the energy to pl
 
 ### Creatives 1-3: USE FROM Baseline_Batches_1-5.md
 
-B5C1 (Indirect Avatar — Sophisticated Woman), B5C2 (Question Hook "85%"), and B5C3 (Strikethrough Pain List) are identity/emotion-driven with no product-specific claims. No changes needed.
+B5C1 (Indirect Avatar — Sophisticated Woman), B5C2 (Question Hook — update to remove "85%" stat, use qualitative language), and B5C3 (Strikethrough Pain List) are identity/emotion-driven. **Compliance note:** Update B5C2 in Baseline_Batches_1-5.md to replace "85% of women over 40" with verifiable language before producing creatives.
 
 ---
 
 ### Body Copy 1 (Native/Camouflage — 210 words)
+
+> **Placement:** Native/camouflage ads only. Pair with organic-looking creatives.
 
 I went from running my household, my career, and half the school's volunteer committee — to needing a nap by 2pm.
 
@@ -386,7 +407,7 @@ Six weeks in: the fog lifted. Eight weeks: I stopped canceling plans. My energy 
 
 This isn't about looking younger. It's about actually functioning again.
 
-→ Baseline NMN.
+→ Function first. Everything else follows.
 
 ---
 
@@ -404,7 +425,7 @@ NMN is the precursor your body uses to restore NAD+ levels. Not a cosmetic fix. 
 
 This is about function, not appearance.
 
-→ Shop Baseline.
+→ Function first. Everything else follows.
 
 ---
 
@@ -418,11 +439,15 @@ This is about function, not appearance.
 
 # LAUNCH SEQUENCE
 
-## Week 1: Launch All 5 Batches Simultaneously
+## Week 1: Launch 3 Ad Sets
 
-Per Origins Marksman Method: launch all 5 ad sets at the same time. Each ad set gets the same daily budget. Let Meta's algorithm test the 12 combinations per ad set (3 creatives × 2 body copies × 2 headlines).
+Launch B1 (Reluctant Decliner), B3 (Skeptic's NMN), and B4 (Exhausted Parent) simultaneously. These have the strongest differentiation and highest emotional range. Hold B2 and B5 for Week 3-4 rotation.
 
-**Recommended starting budget:** $20-$30 CAD/day per ad set = $100-$150 CAD/day total
+Each ad set gets the same daily budget. Use **Advantage+ Creative** — upload all creatives, body copies, and headlines as assets and let Meta assemble combinations automatically.
+
+**Recommended starting budget:** $30-$50 CAD/day per ad set = $90-$150 CAD/day total
+
+**Targeting:** Go broad. Age + gender + geo only. No interest targeting. Let the creative do the targeting.
 
 ## Week 1-2: Monitor (Do NOT Touch)
 
@@ -441,11 +466,12 @@ After 14 days with sufficient data:
 3. **Increase budget** on ad sets with CPA at or below target
 4. **Identify** the winning creative + copy + headline combination in each surviving ad set
 
-## Week 3-4: Sniper Method
+## Week 3-4: Introduce Held Batches + Sniper Method
 
-Take the WINNING angle/sub-avatar and create 3 NEW video variations of that ONE angle:
-- Same sub-avatar, same message, 3 different video formats
-- This is the Sniper Method — depth, not breadth
+1. **Rotate in B2 (3pm Wall Hitter) and/or B5 (Invisible Woman)** as fresh ad sets to replace killed batches
+2. Take the WINNING angle/sub-avatar from Weeks 1-2 and create 3 NEW video variations of that ONE angle:
+   - Same sub-avatar, same message, 3 different video formats
+   - This is the Sniper Method — depth, not breadth
 
 ---
 
