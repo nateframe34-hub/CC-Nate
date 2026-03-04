@@ -1,9 +1,8 @@
 # Baseline NMN — Ad Copy Batches 1-5 (Launch Version)
 
 > **Product:** Baseline NMN — an NMN formula delivering 500mg NMN per serving. 120 capsules / 60 servings.
-> **Framework:** Origins 3:2:2 — 3 Creatives + 2 Body Copies + 2 Headlines + 1 Description per batch.
+> **Framework:** Angle Isolation Testing — 1 Sub-Avatar, 1 Format, 3 Angles per batch.
 > **Principle:** Every ad sells the OUTCOME, not the product. NMN is the mechanism. NAD+ decline is the education. The felt experience is the proof.
-> **Creatives & Mockups:** See Baseline_Batches_1-5.md for Nano Banana Pro prompts and Canva edit steps (Batches 1, 2, 4, 5 creatives are identical). Batch 3 creatives are new and included below.
 >
 > **Brand Identity:**
 > - Colors: Teal Deep (#0C3B3F), Teal Mid (#165C5A), Teal Light (#1E7A77), Copper (#C07840), Cream (#F5F0E8), Near Black (#1A1A1A)
@@ -12,17 +11,47 @@
 
 ---
 
-## Testing Structure (Per Origins 3:2:2)
+## Testing Methodology
 
-Each batch = 1 Ad Set in Meta Ads Manager:
-- **3 Creatives** (same concept, different visual format → tests which FORMAT stops the scroll)
-- **2 Body Copies** (1 native/camouflage, 1 direct response → tests which STYLE converts)
-- **2 Headlines** (1 direct, 1 curiosity → tests which HOOK pulls clicks)
-- **1 Description** (consistent across variations)
+### What We're Testing
 
-Use **Advantage+ Creative** — upload all assets and let Meta assemble combinations automatically.
+**Phase 1 — These 5 batches:** Which sub-avatar has the highest purchase intent, and which angle resonates best within each sub-avatar.
 
-> **Copy Placement Rule:** Body Copy 1 (Native/Camouflage) is written for native-style ad placements only — it mimics organic posts and should be paired with native/organic-looking creatives. Body Copy 2 (Direct Response) works across all placements. Not every ad needs a native body copy — use it where the camouflage format adds value.
+**Phase 2 — After winners emerge:** Take the winning sub-avatar + angle and test 3 different formats (Sniper Method).
+
+### How Each Batch Is Built
+
+Each batch = 1 Ad Set, structured to isolate **angle** as the variable:
+
+- **1 Sub-Avatar** — Every creative in the batch speaks to the same person
+- **1 Format** — Every creative uses the same visual format (eliminates format as a variable)
+- **3 Angles** — Each creative carries a different angle for that sub-avatar (the thing we're testing)
+
+### Campaign Structure
+
+- **Campaign type:** Advantage+ Shopping Campaign (or CBO manual campaign)
+- **Budget optimization:** Campaign Budget Optimization (CBO) — Meta determines which ad set gets the most spend based on conversion likelihood
+- **Placements:** Advantage+ Placements — Meta tests all placements automatically
+- **Launch:** All 5 ad sets live simultaneously for maximum signal
+
+### Body Copy Rules
+
+**Native/Camouflage batches (B1):**
+- 3 body copies — 1 per creative, paired 1:1 with its creative
+- Each body copy is a complete camouflage story entering through its angle
+- In Meta: create 3 separate ads within the ad set (do NOT use Advantage+ Creative mix-and-match — the creative/copy pairs must stay together)
+- Still fill in headline + description fields (Meta requires them) but keep generic
+
+**Non-native batches (B2-B5):**
+- 2 body copies + 2 headlines + 1 description per batch (standard)
+- Upload as Advantage+ Creative — Meta assembles 3×2×2 = 12 combinations
+- The 3 creatives carry the 3 angles visually; the 2 body copies test copy style
+
+### Ad Naming Convention
+
+`B[batch]C[creative]_[Format]_[ShortDesc]_A[angle#]-[AngleSlug]`
+
+Example: `B2C1_UsVsThem_CoffeeVsNMN_A1-CellularFuel`
 
 ---
 
@@ -30,98 +59,99 @@ Use **Advantage+ Creative** — upload all assets and let Meta assemble combinat
 
 # BATCH 1: "The Reluctant Decliner"
 
-**Ad Set Name:** `B1_ReluctantDecliner_NADDecline`
+**Ad Set Name:** `B1_ReluctantDecliner_Native`
 **Sub-Avatar:** #8 — The Reluctant Decliner (broadest audience, 40+)
-**Angle:** Your decline has a specific, addressable cause — NAD+ depletion
-**Mechanism:** #4 NAD+ Decline Root Cause
+**Format:** Native/Camouflage (all 3 creatives look like organic social posts)
 **Core Emotion:** Quiet fear
-**Customer Language:** "I turned 40 and my body started falling apart" / "Hangovers last longer, waking up takes longer" / "I feel like I've aged 10 years in the last 2"
+**Customer Language:** "I turned 40 and my body started falling apart" / "I feel like I've aged 10 years in the last 2"
 **Gap:** Wanting to act ≠ believing action will help
+
+**3 Angles Being Tested:**
+- **A1:** Your decline has a specific, addressable cause — NAD+ depletion
+- **A2:** Stop the trajectory before it gets worse
+- **A3:** This isn't a magic pill — it's the science behind why you feel different
 
 ---
 
-### Creatives 1-3: NATIVE CAMOUFLAGE CREATIVES
+### Creative 1: B1C1 — "Late Night Search History"
 
-> **All 3 creatives must look like organic social media posts, not ads.** No product shots. No branded layouts. No "BASELINE" logo bars. These are camouflage — the reader should not recognize these as ads until they're already reading.
-
-#### Creative 1: B1C1 — "Late Night Search History"
-
-**Ad Name:** `B1C1_Native_SearchHistory`
-**Testing:** Whether a screenshot-style "search history" format stops the scroll through raw relatability
-**Format:** Looks like a screenshot of someone's late-night Google searches on a dark phone screen
+**Ad Name:** `B1C1_Native_SearchHistory_A1-SpecificCause`
+**Angle:** A1 — Your decline has a specific, addressable cause
+**Format:** Dark background with raw, relatable late-night questions stacked vertically — branded creative, not mimicking any platform UI
 
 **Nano Banana Pro Prompt:**
-> N/A — Text-only creative designed in Canva to mimic a phone search history screenshot
+> N/A — Text-only creative designed in Canva
 
 **Canva Edit Steps:**
 1. Background: Near Black (#1A1A1A), 1080×1080px
-2. Top: Faint grey status bar (battery, wifi, time "2:47 AM") — Plus Jakarta Sans 300, 11pt, #666666
-3. Search bar mockup with magnifying glass icon, rounded grey (#2A2A2A) pill shape
-4. Search history entries, left-aligned, stacked vertically with 24px gaps:
+2. Top left: "2:47 AM" — Plus Jakarta Sans 300, 14pt, #666666
+3. Thin Copper (#C07840) hairline below, full width
+4. Text entries, left-aligned, stacked vertically with 24px gaps, 60px side padding:
    - "why am I so tired all the time" — Plus Jakarta Sans 400, 20pt, #CCCCCC
    - "normal blood work but still exhausted" — same styling
    - "is it normal to feel old at 44" — same styling
-   - "what is NAD+" — Plus Jakarta Sans 500, 20pt, Cream (#F5F0E8), slightly brighter than others
-5. NO branding. NO logos. NO product. Just the searches.
-6. 1080×1080px. Should look like someone screenshotted their own phone at 3am.
+   - "what is NAD+" — Plus Jakarta Sans 500, 20pt, Cream (#F5F0E8), slightly brighter
+5. Bottom: "BASELINE NMN" — Plus Jakarta Sans 600, 10pt, Copper (#C07840), letterspaced
+6. 1080×1080px. Reads like raw late-night thoughts on a branded creative.
+
+**Why this creative matches A1:** The search progression moves from vague symptoms → failed answers → discovering the specific cause (NAD+). The creative IS the discovery journey.
 
 ---
 
-#### Creative 2: B1C2 — "Honest Post — Before I Knew"
+### Creative 2: B1C2 — "Trajectory Note"
 
-**Ad Name:** `B1C2_Native_HonestPost`
-**Testing:** Whether a native text post with a personal reflection outperforms the search history format
-**Format:** Looks like someone's organic Facebook or Instagram text post
-
-**Nano Banana Pro Prompt:**
-> N/A — Text-only native post format
-
-**Canva Edit Steps:**
-1. Background: Cream (#F5F0E8), 1080×1080px
-2. Top: Small circular avatar placeholder (grey circle with generic initial), 40px + "Posted 3h ago" — Plus Jakarta Sans 400, 12pt, #888888
-3. Main text, left-aligned, 80px side padding:
-   - "I spent two years blaming stress, sleep, and 'just getting older' for how I felt." — Plus Jakarta Sans 400, 22pt, Near Black (#1A1A1A)
-4. Below, after 24px gap:
-   - "Turns out my cells were running out of fuel and nobody told me." — Plus Jakarta Sans 500, 22pt, Near Black
-5. Below, after 32px gap:
-   - "Look up NAD+." — Plus Jakarta Sans 400, 18pt, #5A5550
-6. NO branding. NO logos. NO product mentions. Looks like a real person's post.
-7. 1080×1080px.
-
----
-
-#### Creative 3: B1C3 — "Notes App Screenshot"
-
-**Ad Name:** `B1C3_Native_NotesApp`
-**Testing:** Whether a Notes app screenshot format creates intimacy and curiosity
-**Format:** Looks like a screenshot of someone's iPhone Notes app
+**Ad Name:** `B1C2_Native_NotesApp_A2-StopTrajectory`
+**Angle:** A2 — Stop the trajectory before it gets worse
+**Format:** Branded timeline card — year-by-year progression on clean white background
 
 **Nano Banana Pro Prompt:**
-> N/A — Text-only creative designed in Canva to mimic a Notes app screenshot
+> N/A — Text-only creative designed in Canva
 
 **Canva Edit Steps:**
 1. Background: White (#FFFFFF), 1080×1080px
-2. Top bar mimicking iOS Notes: "Notes" back arrow left, share icon right — system font style, 14pt, #007AFF
-3. Note title: "Things that didn't fix how I feel" — Plus Jakarta Sans 600, 24pt, Near Black
-4. Note body, left-aligned:
-   - "- More sleep (still exhausted)" — Plus Jakarta Sans 400, 18pt, Near Black
-   - "- Cutting sugar" — same
-   - "- B12, magnesium, vitamin D" — same
-   - "- $200 blood panel ('everything's normal')" — same
+2. Top: "How I feel vs. 3 years ago" — Plus Jakarta Sans 600, 24pt, Near Black
+3. Thin Copper (#C07840) hairline below title
+4. Timeline entries, left-aligned, 60px side padding:
+   - "2023: Tired sometimes. Normal." — Plus Jakarta Sans 400, 18pt, Near Black
+   - "2024: Tired most days. Concerning." — same
+   - "2025: Tired all the time. Scared." — same
    - "" — 20px gap
-   - "Thing that did:" — Plus Jakarta Sans 500, 18pt, Near Black
-   - "- NMN. Look into NAD+ decline." — Plus Jakarta Sans 400, 18pt, Near Black
-5. Bottom: Faint timestamp "Modified 11:42 PM" — 12pt, #999999
-6. NO branding. Looks like someone screenshotted their own notes.
-7. 1080×1080px.
+   - "2026: Did something about it." — Plus Jakarta Sans 500, 18pt, Near Black
+5. Bottom: "BASELINE NMN" — Plus Jakarta Sans 600, 10pt, Copper, letterspaced
+6. 1080×1080px. Clean branded timeline — no platform UI mimicry.
+
+**Why this creative matches A2:** The year-by-year list shows the trajectory getting worse — then the final line breaks the pattern. It names the fear (the trajectory) and shows someone who stopped it.
 
 ---
 
-### Body Copy 1 (Native/Camouflage — 220 words)
+### Creative 3: B1C3 — "Honest Post — Not a Miracle"
 
-> **Placement:** Native/camouflage ads only. Pair with B1C1, B1C2, or B1C3 — all native creatives.
->
-> **Format: Camouflage Ad (Origins 10-Section Structure).** Hook → Pain → Failure Montage → Authority Figure (research rabbit hole at 2am, not a person) → Discovery → Mechanism → Skeptical Purchase → Day-by-Day → Validation → CTA. Entry point is quiet fear — the slow realization that something is wrong but nothing has a name for it. Discovery mechanism is a 2am research session, not a friend or relative, to differentiate from B3 and B4.
+**Ad Name:** `B1C3_Native_HonestPost_A3-ScienceNotMagic`
+**Angle:** A3 — This isn't a magic pill — it's the science behind why you feel different
+**Format:** Branded text card — personal reflection on warm Baseline background
+
+**Nano Banana Pro Prompt:**
+> N/A — Text-only creative designed in Canva
+
+**Canva Edit Steps:**
+1. Background: Cream (#F5F0E8), 1080×1080px
+2. Top: Thin Copper (#C07840) hairline, full width, 40px from top
+3. Main text, left-aligned, 80px side padding:
+   - "I didn't expect a miracle. I just wanted to feel normal again." — Plus Jakarta Sans 400, 22pt, Near Black (#1A1A1A)
+4. Below, after 24px gap:
+   - "Turns out there's published research on why we feel so different after 40. It's not mysterious. It's molecular." — Plus Jakarta Sans 400, 20pt, Near Black
+5. Below, after 32px gap:
+   - "Look up NAD+. Changed how I think about all of this." — Plus Jakarta Sans 400, 18pt, #5A5550
+6. Bottom: "BASELINE NMN" — Plus Jakarta Sans 600, 10pt, Copper, letterspaced
+7. 1080×1080px. Clearly a branded creative — no fake avatar or timestamp.
+
+**Why this creative matches A3:** Anti-hype framing. "Didn't expect a miracle" + "published research" + "It's molecular" positions this as science, not supplement hype. This creative speaks to the skeptic within the Reluctant Decliner.
+
+---
+
+### Body Copy 1 — paired with C1 (A1: Specific Cause)
+
+> **Format: Camouflage Ad (Origins 10-Section Structure).** Discovery mechanism: 2am research rabbit hole. Entry point: quiet fear that something specific is wrong but no one can name it.
 
 I turned 44 and my body just... stopped cooperating.
 
@@ -129,97 +159,183 @@ Not one dramatic thing. Everything. Hangovers that used to last a morning starte
 
 I tried the usual stuff. More sleep. Better diet. Magnesium. B12 shots. A $200 blood panel that came back "normal." My doctor said I was healthy. I didn't feel healthy.
 
-One night at 2am I fell down a research hole and found something I'd never heard of: NAD+. A coenzyme in every cell responsible for energy production and cellular maintenance. Your levels decline significantly in your 40s and 50s. Published research, not a wellness blog.
+One night at 2am I fell down a research hole and found something I'd never heard of: NAD+. A coenzyme in every cell responsible for energy production and cellular maintenance. Published studies show levels decline significantly after 40. Not a wellness blog — peer-reviewed research.
 
-NMN is the precursor your body converts into NAD+. Not a stimulant. Not a vitamin. The actual raw material your cells are running low on.
+NMN is the precursor the body converts into NAD+. The raw material cells need to keep producing energy.
 
-I started taking Baseline NMN expecting nothing. Week one, nothing dramatic. Week three, I stopped needing that second coffee. Week six, my wife said I seemed like myself again.
+I started taking Baseline NMN expecting nothing. The first few weeks were uneventful. Gradually, I stopped needing that second coffee. My wife said I seemed like myself again.
 
-I'm not 25. But I stopped feeling like I was falling apart.
+I'm not 25. But I stopped feeling like I was falling apart. Individual results may vary.
 
-→ Stop declining. Start restoring.
-
----
-
-### Body Copy 2 (Direct Response — 90 words)
-
-> **Format: Problem → Mechanism → Solution.** Short, punchy, works across all ad placements. Leads with the emotional hook, delivers the NAD+ education in 2 sentences, closes with a reframe. No story, no character — just the argument.
-
-"I'm not sick. I just don't feel like myself anymore."
-
-Sound familiar? There's a reason.
-
-As you age, your cells produce less NAD+ — the molecule behind energy production and cellular maintenance. That slow decline you're feeling isn't vague. It's specific. And it's measurable.
-
-NMN is the direct precursor your body uses to restore NAD+ levels. Not a stimulant. Not a band-aid. The actual fuel your cells have been running low on.
-
-Your body didn't break. It ran out of fuel.
-
-→ Stop declining. Start restoring.
+→ Support your cells. Feel the difference.
 
 ---
 
-### Headline 1: **Your Cells Lost Their Fuel**
-### Headline 2: **What If It's Not "Just Aging"?**
-### Description: **Restore your NAD+.**
+### Body Copy 2 — paired with C2 (A2: Stop the Trajectory)
+
+> **Format: Camouflage Ad (Origins 10-Section Structure).** Discovery mechanism: a friend who looked 10 years younger at a reunion. Entry point: watching the trajectory get worse and deciding to intervene.
+
+Every year, a little worse. That's the part nobody warns you about.
+
+At first it was small things — needing an extra coffee, sleeping through the alarm, being sore for days after a workout that used to be easy. Then it was bigger things — turning down plans for lack of energy, feeling foggy by noon, wondering if this was just how it was going to be.
+
+I could see where this was heading. And I didn't want to just watch it happen.
+
+At a college reunion, a friend looked ten years younger than the rest of us. Same age, same job stress. I asked what changed. He said one word: NMN.
+
+I looked into it. NAD+ is the molecule your cells depend on for energy and repair. Published research shows it declines significantly as you age. NMN is what your body uses to make more of it.
+
+Not a miracle claim. A specific molecule addressing a specific decline.
+
+I started Baseline NMN. The first few weeks I noticed nothing. Gradually, the fog started to lift. I stopped canceling plans. My wife noticed before I did.
+
+The trajectory changed. I'm not where I was at 30. But I stopped heading somewhere I didn't want to go. Individual results may vary.
+
+→ Change the trajectory.
+
+---
+
+### Body Copy 3 — paired with C3 (A3: Science, Not Magic)
+
+> **Format: Camouflage Ad (Origins 10-Section Structure).** Discovery mechanism: stumbling on a published study while researching something else. Entry point: skepticism toward supplements but trust in published research.
+
+I'm the last person who would buy a supplement.
+
+I don't follow health influencers. I don't trust "miracle" anything. When friends recommend pills and powders, I nod politely and ignore them.
+
+But I couldn't ignore how I felt. At 46, I was exhausted in a way sleep didn't fix. Foggy in a way coffee made worse. Getting older, sure — but this felt faster than it should.
+
+I wasn't researching supplements. I was reading about mitochondrial function for work when I stumbled on a study about NAD+. It's a coenzyme your cells use for energy production and repair. Published research shows levels drop significantly with age. The decline maps almost perfectly onto the symptoms I was experiencing.
+
+NMN is the direct precursor — the raw material your body converts into NAD+. Something your body already makes, just less and less of over time.
+
+I chose Baseline because they don't lead with hype. One ingredient. Published research. No buzzwords.
+
+The first few weeks were uneventful. Then I realized I'd gone two days without my afternoon coffee. My focus felt sharper than it had in years. Quiet changes. Real ones. Individual results may vary.
+
+I still don't trust supplements. I trust molecular biology.
+
+→ Not a miracle. Just the molecule behind the change.
+
+---
+
+### Headline 1: **There May Be More to Aging Than You Think**
+### Headline 2: **When Cells Lose Their Fuel**
+### Description: **Support your NAD+ levels.**
+
+> Note: For native batch, headlines/descriptions are required by Meta but secondary. The creative + body copy pair does the selling.
 
 ---
 
 ---
 
-# BATCH 2: "The 3pm Wall Hitter" ⟵ HOLD FOR WEEK 3-4 ROTATION
+# BATCH 2: "The 3pm Wall Hitter"
 
-**Ad Set Name:** `B2_3pmWallHitter_RestorationVsStimulation`
+**Ad Set Name:** `B2_3pmWallHitter_UsVsThem`
 **Sub-Avatar:** #1 — The 3pm Wall Hitter (universal daily experience)
-**Angle:** Caffeine gives you a spike. NMN raises your baseline.
-**Mechanism:** #5 Restoration Not Stimulation
+**Format:** Us vs Them (all 3 creatives use split-screen comparison)
 **Core Emotion:** Frustration
 **Customer Language:** "That 3pm wall" / "I used to have energy. Now I just have coffee" / "consistent energy throughout the day"
 **Gap:** Stimulation ≠ restoration
 
+**3 Angles Being Tested:**
+- **A1:** Your afternoon crash is a cellular fuel problem, not a coffee problem
+- **A2:** Raise your baseline energy instead of chasing spikes
+- **A3:** Your energy didn't decrease — your cells lost their fuel source
+
 ---
 
-### Creatives 1-3: USE FROM Baseline_Batches_1-5.md
+### Creative 1: B2C1 — "Coffee Chaos vs NMN Calm"
 
-B2C1 (Us vs Them Split — coffee vs NMN), B2C2 (Exaggeration — Slumped at Desk), and B2C3 (Bold Text — "I used to have energy") are all about the mechanism, not the formulation. No changes needed.
+**Ad Name:** `B2C1_UsVsThem_CoffeeVsNMN_A1-CellularFuel`
+**Angle:** A1 — Afternoon crash is a cellular fuel problem, not a coffee problem
+**Format:** Split-screen comparison — coffee (chaotic, warm) vs NMN capsule (clean, calm)
+
+**Nano Banana Pro Prompt:**
+> Vertical split-screen composition, left half and right half divided by a sharp vertical line. LEFT SIDE: Close-up of a half-empty coffee cup on a cluttered desk — scattered papers, crumpled sticky notes, a phone showing 3:12 PM, harsh fluorescent overhead lighting casting unflattering shadows. The coffee is cold, ring stain on the desk. Everything feels chaotic, warm-toned (Hex: #6B3A1F, #C07840), slightly grainy film texture with subtle motion blur suggesting jittery energy. RIGHT SIDE: Single translucent supplement capsule resting on a clean white marble surface against a soft teal gradient background (Hex: #0C3B3F to #165C5A). Soft natural window light from the left, sharp focus, generous negative space. One small plant in the background. Everything feels calm, ordered, intentional. The contrast between sides should feel like chaos vs. clarity. Ultra-realistic product photography, 8K resolution, shot at 50mm.
+
+**Canva Edit Steps:**
+1. Upload split-screen AI image or create split manually in Canva
+2. LEFT side top: "MASKING THE CRASH" — JetBrains Mono, 16pt, Cream, 70% opacity
+3. RIGHT side top: "FIXING THE CAUSE" — JetBrains Mono, 16pt, Cream (#F5F0E8)
+4. Center dividing line: 2px vertical line, Copper (#C07840)
+5. Bottom strip: Cream background, 60px. Text centered: "What if the afternoon crash is about more than just coffee?" — Plus Jakarta Sans 500, 14pt, Teal Deep
+6. 1080×1080px
 
 ---
 
-### Body Copy 1 (Native/Camouflage — 200 words)
+### Creative 2: B2C2 — "Spike vs Baseline Graph"
 
-> **Placement:** Native/camouflage ads only. Pair with B2C3 (Bold Text native) or organic-looking creatives.
+**Ad Name:** `B2C2_UsVsThem_SpikeVsBaseline_A2-RaiseFloor`
+**Angle:** A2 — Raise your baseline instead of chasing spikes
+**Format:** Split-screen comparison — caffeine energy graph (spikes and crashes) vs NMN graph (elevated steady line)
 
-I used to have energy. Now I just have coffee.
+**Nano Banana Pro Prompt:**
+> Clean data visualization on a dark teal background (Hex: #0C3B3F). LEFT SIDE: An energy timeline graph spanning "6am to 10pm" on the x-axis. The caffeine line is a jagged orange/copper line (Hex: #C07840) with sharp spikes at 7am, 12pm, and 3pm, crashing below the baseline after each spike. Small coffee cup icons at each spike point. The line trends downward overall. RIGHT SIDE: Same timeline, same axes. The NMN line is a smooth, slightly elevated cream-colored line (Hex: #F5F0E8) that stays consistently above the baseline with no crashes. Gentle upward curve. The contrast should be immediately obvious: chaos vs. steady. Clean, minimal design language. Thin gridlines, no clutter. The feel should be "smart data visualization" not "supplement ad." 8K, ultra-clean.
 
-Three cups by noon. Sometimes four. And still, every single afternoon around 2:30, the wall hits. Not tired-from-exercise tired. Tired-for-no-reason tired. The kind where you read the same email three times and still don't know what it says.
+**Canva Edit Steps:**
+1. Upload AI-generated graph image or recreate in Canva
+2. LEFT side label: "CAFFEINE" — JetBrains Mono, 14pt, Copper (#C07840)
+3. RIGHT side label: "NMN" — JetBrains Mono, 14pt, Cream (#F5F0E8)
+4. Below graph: "Stop chasing spikes. Raise your floor." — Plus Jakarta Sans 600, 16pt, Cream
+5. Fine print below: "Conceptual illustration. Individual results may vary." — Plus Jakarta Sans 300, 9pt, #888888
+6. Bottom strip: "BASELINE" — Plus Jakarta Sans 600, 12pt, Cream, letterspaced
+6. 1080×1080px
 
-I tried green tea. Tried B12. Tried those "clean energy" drinks that taste like liquid vitamins and cost $5 each. Same pattern: spike, crash, reach for more caffeine.
+---
 
-My sister sent me an article about NAD+ — a molecule your cells use to produce energy. Not "energy" like a caffeine buzz. Actual cellular energy. Turns out your levels drop significantly as you age, which is why stimulants stop working — you're whipping a tired horse.
+### Creative 3: B2C3 — "Your Cells Then vs Now"
 
-NMN is the precursor your body converts into NAD+. It doesn't give you a spike. It raises the floor.
+**Ad Name:** `B2C3_UsVsThem_CellsThenNow_A3-CellsLostFuel`
+**Angle:** A3 — Your energy didn't decrease — your cells lost their fuel source
+**Format:** Split-screen comparison — depleted cell vs fueled cell
 
-I started taking Baseline NMN. No buzz on day one. But around week three, I noticed I wasn't reaching for that afternoon coffee. I just... didn't need it.
+**Nano Banana Pro Prompt:**
+> Vertical split-screen scientific illustration with subtle artistic styling. LEFT SIDE: A single human cell rendered in warm desaturated tones — mitochondria visible but dim and sparse, the cell membrane looks thin and fragile, overall dimly lit with a tired, depleted quality. Label area at top for "YOUR CELLS AT 50." Muted palette: greys, pale amber, low contrast. RIGHT SIDE: Same cell type but vibrant — mitochondria are bright and numerous, membrane is full and healthy, the interior glows with a soft teal luminescence (Hex: #1E7A77). Label area at top for "YOUR CELLS ON NMN." Rich palette: teal, cream, warm highlights. The style should feel like an editorial science magazine illustration — beautiful, clear, not clinical or cartoonish. Both cells are centered in their halves with generous negative space. Dark background (Hex: #0C3B3F). 8K resolution.
 
-That's the difference between stimulation and restoration.
+**Canva Edit Steps:**
+1. Upload AI-generated cell comparison image
+2. LEFT label: "LOW NAD+ LEVELS" — JetBrains Mono, 14pt, #888888
+3. RIGHT label: "SUPPORTED NAD+ LEVELS" — JetBrains Mono, 14pt, Cream (#F5F0E8)
+4. Center dividing line: 2px, Copper (#C07840)
+5. Bottom text: "It's not about laziness. It's about cellular fuel." — Plus Jakarta Sans 500, 16pt, Cream
+6. Fine print: "For illustrative purposes. Individual results may vary." — Plus Jakarta Sans 300, 9pt, #888888
+6. Bottom strip: "BASELINE NMN" — Plus Jakarta Sans 600, 12pt, Cream, letterspaced
+7. 1080×1080px
 
-Caffeine gives you a spike. This raised my baseline.
+---
 
-→ Ditch the third cup.
+### Body Copy 1 (Outcome-Focused — 120 words)
+
+> **Leads with A1 hook.** Problem → Reframe → Mechanism → Outcome. Sells the felt experience of steady energy, not the product specs.
+
+What if the afternoon crash is about more than just coffee?
+
+More coffee. Energy drinks. B12 shots. Green tea. Same pattern every time: spike, crash, reach for more.
+
+Here's what changed for me: cells run on a molecule called NAD+. With age, the body produces less of it. Caffeine masks the gap temporarily. It doesn't fill it.
+
+NMN is what your body converts into NAD+. It doesn't give you a spike. It raises the floor your energy sits on — so by 3pm, you're not crashing because the tank isn't empty.
+
+Over time, I stopped reaching for that afternoon coffee. I just didn't need it. Individual results may vary.
+
+→ Raise your baseline.
 
 ---
 
 ### Body Copy 2 (Direct Response — 80 words)
 
-That 3pm wall isn't a coffee problem. It's a cellular fuel problem.
+> **Leads with A2 hook.** Short, punchy, works across all placements.
 
-Caffeine borrows energy from later and charges interest. That's why you crash. Every. Single. Afternoon.
+Caffeine gives you a spike. Then it takes it back with interest. That's why you crash every afternoon.
 
-NMN works differently. It's the precursor your body uses to restore NAD+ — the molecule your cells need to produce real, sustained energy. No spike. No crash. Just a higher floor.
+NMN works differently. It's the precursor your body uses to restore NAD+ — the molecule behind real, sustained cellular energy. No spike. No crash. Just a higher floor.
+
+Gradually, the 3pm wall started fading. Not because I was wired. Because my cells had fuel again. Individual results may vary.
 
 Stop chasing spikes. Raise your baseline.
 
-→ Ditch the third cup.
+→ Try Baseline NMN.
 
 ---
 
@@ -231,149 +347,144 @@ Stop chasing spikes. Raise your baseline.
 
 ---
 
-# BATCH 3: "The Skeptic's NMN"
+# BATCH 3: "The Burned Supplement Buyer"
 
-> **This replaces the original Batch 3** (Burned Supplement Buyer / Trust Verification) which required QR-to-COA and purity claims. The original is preserved in Baseline_Batches_1-5.md for activation when pure NMN is available.
-
-**Ad Set Name:** `B3_SkepticsNMN_BurnedBuyer`
+**Ad Set Name:** `B3_BurnedBuyer_Testimonial`
 **Sub-Avatar:** #2 — The Burned Supplement Buyer (trust crisis)
-**Angle:** "I stopped believing in supplements. Then I tried NMN."
-**Mechanism:** #4 NAD+ Decline — gives the skeptic a scientific REASON why NMN is categorically different from everything else they've tried
-**Core Emotion:** Burned, skeptical, but still searching
+**Format:** Testimonial/Review (all 3 creatives look like real customer reviews)
+**Core Emotion:** Distrust — burned but still quietly searching
 **Customer Language:** "I've wasted so much money on supplements" / "Nothing ever actually works" / "I've tried everything"
 **Gap:** Wanting results ≠ believing results are possible
 
----
+**3 Angles Being Tested:**
+- **A1:** Most NMN doesn't work because most NMN isn't real NMN
+- **A2:** The reason NMN "didn't work" is you weren't taking real NMN
+- **A3:** Stop trusting supplement labels — start verifying them
 
-### Creatives 1-3: NATIVE CAMOUFLAGE CREATIVES
-
-> **All 3 creatives must look like organic content, not ads.** No branded Baseline bottles. No logo bars. No brand typography. The skeptic audience will scroll past anything that looks like a supplement ad — these must pass the "would a real person post this?" test.
-
-#### Creative 1: B3C1 — "The Supplement Graveyard"
-
-**Ad Name:** `B3C1_Native_Graveyard`
-**Testing:** Whether a raw overhead photo of abandoned supplements creates instant recognition for burned buyers
-**Format:** Looks like someone photographed their own supplement cabinet/drawer — messy, real, unbranded
-
-**Nano Banana Pro Prompt (Custom):**
-> Overhead smartphone photograph of a messy bathroom cabinet shelf or kitchen drawer filled with various supplement bottles — different sizes, colors, some with lids off, some half-empty, a few capsules spilled loosely. The bottles look used, forgotten, and accumulated over time. Realistic brands-removed generic bottles. The composition should feel cluttered and defeated — like someone opened their cabinet and thought "none of this worked." Shot from directly above with smartphone camera, slightly uneven lighting (bathroom or kitchen light), not styled. Authentic, messy, real. No text, no branding, no standout bottle.
-
-**Canva Edit Steps:**
-1. Upload AI-generated cabinet photo. No branded edits.
-2. NO text overlays. NO branding. NO Baseline bottle in the image.
-3. The image shows the problem (supplement graveyard). The body copy introduces the solution.
-4. 1080×1080px. Should look like someone opened their cabinet, snapped a photo, and posted "I'm done with all of this."
+> **Launch product note:** Without QR-to-COA verification on the current product, these angles lean on the FELT EXPERIENCE of real NMN vs fake NMN, not the verification mechanism. When pure NMN with batch verification launches, add the scan/verify proof layer.
 
 ---
 
-#### Creative 2: B3C2 — "The Skeptic's Timeline"
+### Creative 1: B3C1 — "Star Rating Review Card"
 
-**Ad Name:** `B3C2_Native_Timeline`
-**Testing:** Whether a text-based personal timeline builds curiosity through delayed payoff
-**Format:** Looks like someone typed out their experience in a Notes app or social post
+**Ad Name:** `B3C1_Testimonial_StarRating_A1-RealVsFake`
+**Angle:** A1 — Most NMN doesn't work because most NMN isn't real
+**Format:** Branded customer testimonial card on white background — clearly an ad, not mimicking any review platform
 
 **Nano Banana Pro Prompt:**
 > N/A — Text-only creative designed in Canva
 
 **Canva Edit Steps:**
 1. Background: White (#FFFFFF), 1080×1080px
-2. Top: Small grey avatar circle, 40px + "6h" timestamp — Plus Jakarta Sans 400, 12pt, #999999
-3. Main text, left-aligned, 60px side padding, generous line spacing (2.0):
-   - "My NMN timeline:" — Plus Jakarta Sans 400, 18pt, #888888
-   - "Week 1: Nothing. Told you." — Plus Jakarta Sans 400, 22pt, #AAAAAA
-   - "Week 2: Still nothing." — same styling, #AAAAAA
-   - "Week 3: ...wait." — Plus Jakarta Sans 500, 22pt, #555555
-   - "Week 6: OK. I was wrong." — Plus Jakarta Sans 500, 24pt, Near Black (#1A1A1A)
-4. NO branding. NO logos. NO brand fonts. Looks like someone typed this on Facebook.
-5. 1080×1080px. The visual progression from faded → dark text should feel like skepticism → belief.
+2. Top: "CUSTOMER EXPERIENCE" — Plus Jakarta Sans 600, 12pt, Copper (#C07840), letterspaced
+3. Thin Copper hairline below
+4. Testimonial title: "I've tried 4 NMN brands. This is the first one that did anything." — Plus Jakarta Sans 600, 22pt, Near Black (#1A1A1A)
+5. Testimonial body, left-aligned, 60px side padding:
+   - "I almost didn't buy another NMN supplement. I'd tried brands that did nothing — zero results." — Plus Jakarta Sans 400, 16pt, Near Black
+   - "" — 12px gap
+   - "Tried Baseline on a whim. Over time, I felt the difference. Sustained energy. Clearer head. Better recovery after workouts. Individual results may vary." — Plus Jakarta Sans 400, 16pt, Near Black
+6. Attribution: "— Michael R., 49" — Plus Jakarta Sans 400 Italic, 14pt, #888888
+7. Bottom: Thin line (#EEEEEE), then "BASELINE NMN" — Plus Jakarta Sans 500, 12pt, Copper, letterspaced
+8. 1080×1080px. Clearly a branded testimonial card — not mimicking any review platform.
 
 ---
 
-#### Creative 3: B3C3 — "Honest Review Post"
+### Creative 2: B3C2 — "Reddit-Style Comment"
 
-**Ad Name:** `B3C3_Native_HonestReview`
-**Testing:** Whether a native review-style post outperforms the other formats for skeptics
-**Format:** Looks like someone's honest social media post — raw text, no design
+**Ad Name:** `B3C2_Testimonial_RedditComment_A2-WasntRealNMN`
+**Angle:** A2 — The reason NMN "didn't work" is you weren't taking real NMN
+**Format:** Branded skeptic testimonial card — conversational tone on clean white background
 
 **Nano Banana Pro Prompt:**
-> N/A — Text-only native post format
+> N/A — Text-only creative designed in Canva
 
 **Canva Edit Steps:**
 1. Background: White (#FFFFFF), 1080×1080px
-2. Top: Small grey avatar circle, 40px + generic name placeholder + "2d" — Plus Jakarta Sans 400, 12pt, #999999
-3. Main text, left-aligned, 60px side padding:
-   - "Honest review from someone who's been burned by supplements before:" — Plus Jakarta Sans 400, 20pt, Near Black
-4. Below, after 20px gap:
-   - "I almost didn't try this. I'm glad I did." — Plus Jakarta Sans 400, 22pt, Near Black
-5. Below, after 24px gap:
-   - "NMN restored what 12 other supplements couldn't." — Plus Jakarta Sans 400, 18pt, #5A5550
-6. NO brand avatar. NO teal circles. NO brand fonts. NO copper accents. Looks like a real person's post.
-7. 1080×1080px.
+2. Top: "FROM A SKEPTIC" — Plus Jakarta Sans 600, 12pt, Copper (#C07840), letterspaced
+3. Thin Copper hairline below
+4. Testimonial text, left-aligned, 60px padding:
+   - "Unpopular opinion: NMN works. I just wasn't taking real NMN before." — Plus Jakarta Sans 500, 20pt, Near Black
+   - "" — 16px gap
+   - "I tried NMN for months from two different brands. Nothing. Assumed it was all BS." — Plus Jakarta Sans 400, 16pt, #333333
+   - "" — 12px gap
+   - "A friend in pharma told me NMN content can vary significantly between brands. Switched to one that prioritizes quality. Over time, I felt it. Actual energy. Not a placebo." — Plus Jakarta Sans 400, 16pt, #333333
+   - "" — 12px gap
+   - "The science isn't the problem. The supply chain is." — Plus Jakarta Sans 500, 16pt, Near Black
+5. Bottom: "BASELINE NMN" — Plus Jakarta Sans 600, 10pt, Copper, letterspaced + "Individual results may vary." — 9pt, #888888
+6. 1080×1080px. Clearly a branded testimonial — no platform UI mimicry.
 
 ---
 
-### Body Copy 1 (Native/Camouflage — Personal Narrative, 225 words)
+### Creative 3: B3C3 — "Multi-Review Collage"
 
-> **Placement:** Native/camouflage ads only. Pair with B3C3 (Honest Review Native Post) or organic-looking creatives.
->
-> **Format: Personal Narrative (Classic Camouflage).** The Burned Supplement Buyer needs to hear from someone who was exactly where they are — done, skeptical, cabinet full of failures. A straight narrative works here because this avatar's core objection isn't logical, it's emotional: "I've been burned before." The only thing that resolves that is a real person's story told start to finish, with honest skepticism throughout. The narrative earns the right to recommend by validating the reader's distrust first.
+**Ad Name:** `B3C3_Testimonial_MultiReview_A3-VerifyDontTrust`
+**Angle:** A3 — Stop trusting labels — verify instead
+**Format:** 3-4 short reviews stacked vertically for social proof density
 
-I have a cabinet full of supplements I don't trust anymore.
+**Nano Banana Pro Prompt:**
+> N/A — Text-only creative designed in Canva
 
-Turmeric. Ashwagandha. Vitamin D. Magnesium. Fish oil. Collagen. I bought every one of them because some article or podcast said it would change my life. None of them did.
-
-After a while, you stop believing. You stop reading the studies. You start assuming anything in a capsule is just expensive urine. I wasn't even bitter about it — I was just done.
-
-Then my brother-in-law — biochemist, not a health guru — explained something that actually made sense. There's a molecule called NAD+ that your cells use to produce energy and repair DNA. By your 40s, you've lost a significant amount of it. Not in a vague "wellness" way. In a measurable, published-research way.
-
-He said most supplements add things your body might not need more of. NMN is different — it's the raw material your body is specifically running low on. It's like topping off a fuel tank, not adding another additive.
-
-That framing got through to me. Not a miracle. Not a cure. A specific molecule addressing a specific decline.
-
-I tried Baseline NMN expecting nothing. Week one confirmed that — nothing. Week three, something shifted. Week six, I had energy I hadn't felt in years.
-
-I'm still skeptical of supplements. I'm just not skeptical of this one.
-
-→ One more try. This one's different.
+**Canva Edit Steps:**
+1. Background: Cream (#F5F0E8), 1080×1080px
+2. Top: "WHAT SKEPTICS ARE SAYING" — Plus Jakarta Sans 600, 12pt, Copper (#C07840), letterspaced
+3. Thin Copper hairline below
+4. Testimonial card 1 (white rounded card, 8px radius, subtle shadow):
+   - "I checked the lab report before I even opened the bottle. That's what sold me." — Plus Jakarta Sans 400, 15pt, Near Black
+   - "— Sarah K., 51" — 12pt, #888888
+5. Testimonial card 2:
+   - "Every brand says 'third-party tested.' This is the first one that let me see the actual results." — same styling
+   - "— Jason M., 44" — 12pt, #888888
+6. Testimonial card 3:
+   - "I don't trust supplement companies. I trust data. This one shares the data." — same styling
+   - "— Lisa W., 53" — 12pt, #888888
+7. Bottom: "BASELINE NMN" — Plus Jakarta Sans 500, 13pt, Teal Deep (#0C3B3F) + "Individual results may vary." — 9pt, #888888
+8. 1080×1080px. Clearly branded testimonial collage — no fake star ratings or review platform UI.
 
 ---
 
-### Body Copy 2 (Direct Response — 90 words)
+### Body Copy 1 (Outcome-Focused — 115 words)
 
-> **Format: Objection → Reframe → Mechanism.** Starts by agreeing with the skeptic ("They didn't work"), then reframes why NMN is categorically different. Short enough for all placements. Mirrors the native copy's validation-first approach without the personal story.
+> **Leads with A1/A2 hooks.** Validates skepticism first, then reframes why NMN failed them before. Sells the felt difference between fake and real NMN.
 
 You've tried supplements before. They didn't work.
 
-Turmeric didn't change your energy. Ashwagandha didn't fix your focus. Collagen didn't do what the ads promised.
+Turmeric didn't change your energy. Ashwagandha didn't fix your focus. Collagen didn't do what the ads promised. Maybe you even tried NMN — and nothing happened.
 
-Here's why NMN is different: it's not adding something extra. It's restoring something specific your body lost.
+Here's what most people don't know: independent testing has shown that NMN content can vary significantly between brands. Professional labels. Glowing reviews. But the quality inside can differ dramatically.
 
-NAD+ is the molecule your cells use for energy production and cellular maintenance. By your 40s, levels drop significantly. NMN is the direct precursor your body converts into NAD+.
+NMN itself isn't the problem. The quality of what you were taking was.
 
-This isn't another promise. It's a precursor to a molecule you're measurably low on.
+NAD+ is the molecule your cells use for energy and repair. Levels decline with age. NMN is the direct precursor your body converts into NAD+ — but only if you're actually taking real NMN.
+
+This time, it's different.
 
 → One more try. This one's different.
 
 ---
 
-### Headline 1 (Direct)
-**The First Supplement That Did Something**
+### Body Copy 2 (Direct Response — 85 words)
 
-### Headline 2 (Curiosity)
-**Why Nothing Else Worked**
+> **Leads with A3 hook.** Short, punchy. Positions verification as the differentiator.
 
-### Description
-**Not another supplement. A precursor.**
+Every supplement brand says "third-party tested."
+
+Almost none show you the results.
+
+Baseline prioritizes transparency. We focus on purity, potency, and quality you can trust.
+
+We didn't build a better marketing pitch. We built a supplement brand that earns trust through quality, not claims.
+
+NMN is the precursor your body uses to restore NAD+ — the molecule behind cellular energy and repair. But it only works if it's real.
+
+Don't trust us. Verify.
+
+→ One more try. This one's different.
 
 ---
 
-### Batch 3 Analysis
-
-**Psychological Principle:** Cognitive Dissonance Resolution. Burned buyers hold a belief ("supplements don't work") that conflicts with a desire (they still want to feel better). By validating their skepticism AND giving them a scientifically specific reason why NMN is categorically different, we resolve the dissonance without asking them to "trust" again. The felt experience — not a trust badge — is the proof.
-
-**Why this works better than "10 Ingredients, 1 Capsule":** The original soft launch Batch 3 sold the product stack. This batch sells the OUTCOME from someone who didn't believe it would work. The Burned Buyer doesn't care about ingredient counts — they care about results. "I'm still skeptical of supplements. I'm just not skeptical of this one." is the most powerful testimonial for someone who's been burned.
-
-**Origins Reference:** Camouflage Ad structure — the biochemist brother-in-law is the Authority Figure pattern. The "Week 1: nothing / Week 3: wait / Week 6: wrong" timeline is the Gradual Discovery pattern.
+### Headline 1: **The First Supplement That Did Something**
+### Headline 2: **Why Nothing Else Worked**
+### Description: **Not another supplement. A precursor.**
 
 ---
 
@@ -381,162 +492,215 @@ This isn't another promise. It's a precursor to a molecule you're measurably low
 
 # BATCH 4: "The Exhausted Parent"
 
-**Ad Set Name:** `B4_ExhaustedParent_EnergyForPresence`
+**Ad Set Name:** `B4_ExhaustedParent_AvatarCallOut`
 **Sub-Avatar:** #6 — The Exhausted Parent (high emotional intensity)
-**Angle:** Your kids don't care about your job title. They care if you have the energy to play.
-**Mechanism:** #5 Restoration + #4 NAD+ Decline
+**Format:** Avatar Call Out (all 3 creatives use bold "TO PARENTS WHO..." targeting text)
 **Core Emotion:** Guilt
-**Customer Language:** "I want to keep up with my kids" / "I'm not the mom/dad I want to be when I'm this exhausted" / "Too tired to play catch"
+**Customer Language:** "I want to keep up with my kids" / "Too tired to play catch" / "I'm not the parent I want to be"
 **Gap:** Wanting to show up ≠ having the energy to show up
 
----
-
-### Creatives 1-3: NATIVE CAMOUFLAGE CREATIVES
-
-> **All 3 creatives must look like organic social media content, not ads.** No product shots. No branded layouts. No logo bars. These are camouflage — the reader should feel like a real parent posted this.
-
-#### Creative 1: B4C1 — "Candid Bench Photo"
-
-**Ad Name:** `B4C1_Native_BenchPhoto`
-**Testing:** Whether a raw, candid-looking photo with no text overlays stops the scroll through emotional recognition
-**Format:** Looks like someone posted a candid photo from the park — no text overlays, no branding
-
-**Nano Banana Pro Prompt (Custom):**
-> Candid, unposed smartphone photograph of a parent sitting on a wooden park bench, slightly slumped, coffee cup in one hand, phone in the other, staring into the middle distance. In the blurred background, young children are playing on playground equipment. Late afternoon light, warm but not golden-hour polished — more like a real 5:30pm weekday. The parent looks tired but not depressed — just empty, like they want to be out there but can't get up. Shot at smartphone focal length (26-28mm equivalent), slightly off-center framing like someone quickly snapped this. Natural skin tones, no color grading, no filters. The photo should feel like it was taken by a spouse or friend, not a photographer. Authentic, raw, photojournalistic. No text, no logos, no product.
-
-**Canva Edit Steps:**
-1. Upload AI-generated photo. No edits.
-2. NO text overlays. NO branding. NO logos. NO product.
-3. The image IS the ad. The body copy in the text field does all the selling.
-4. 1080×1080px. Crop to feel like a casual square photo someone posted.
+**3 Angles Being Tested:**
+- **A1:** Get the energy to actually be present for your kids
+- **A2:** Stop giving your family your leftovers
+- **A3:** Break the exhaustion-guilt cycle
 
 ---
 
-#### Creative 2: B4C2 — "Text Post — Maybe Later"
+### Creative 1: B4C1 — "Maybe Later Call Out"
 
-**Ad Name:** `B4C2_Native_MaybeLater`
-**Testing:** Whether a raw text confession format generates more engagement than imagery
-**Format:** Looks like a parent's honest Facebook post — text only, no imagery
+**Ad Name:** `B4C1_AvatarCallOut_MaybeLater_A1-EnergyToBePresent`
+**Angle:** A1 — Get the energy to actually be present for your kids
+**Format:** Bold call-out text on emotional candid photo
 
 **Nano Banana Pro Prompt:**
-> N/A — Text-only native post format
+> Candid, unposed smartphone photograph of a parent sitting on a wooden park bench, slightly slumped, coffee cup in one hand, phone in the other, staring into the middle distance. In the blurred background, young children are playing on playground equipment in warm late-afternoon light — not golden hour polished, more like a real 5:30pm weekday. The parent looks tired but not depressed — just empty, like they want to be out there playing but can't summon the energy. Shot at smartphone focal length (26-28mm equivalent), slightly off-center framing like a spouse quickly snapped this. Natural skin tones, no color grading, no filters. The mood is bittersweet — love without the energy to act on it. Authentic, raw, photojournalistic. No text, no logos.
 
 **Canva Edit Steps:**
-1. Background: White (#FFFFFF), 1080×1080px
-2. Top: Small circular avatar placeholder (grey circle, generic initial), 40px + "3h" timestamp — Plus Jakarta Sans 400, 12pt, #999999
-3. Main text, left-aligned, 60px side padding:
-   - "My daughter asked me to take her to the park." — Plus Jakarta Sans 400, 24pt, Near Black (#1A1A1A)
-   - "" — 16px gap
-   - "I said maybe later." — Plus Jakarta Sans 400, 24pt, Near Black
-   - "" — 16px gap
-   - "She stopped asking." — Plus Jakarta Sans 500, 24pt, Near Black
-4. Below, after 40px gap:
-   - "That was six weeks ago. Things are different now." — Plus Jakarta Sans 400, 18pt, #5A5550
-5. NO branding. NO logos. NO product. Looks like a real parent's confession post.
-6. 1080×1080px.
+1. Upload AI-generated photo
+2. Top: Semi-transparent dark strip (Near Black, 70% opacity), full width, 100px height
+3. Call-out text in strip: "WHEN 'MAYBE LATER' BECOMES THE DEFAULT:" — Plus Jakarta Sans 700, 16pt, Cream (#F5F0E8), centered
+4. Bottom: Semi-transparent dark strip, 80px height
+5. Bottom text: "They won't remember your job title. They'll remember if you had the energy to play." — Plus Jakarta Sans 400, 13pt, Cream
+6. Small "BASELINE NMN" — Plus Jakarta Sans 600, 10pt, Copper (#C07840), bottom-right
+7. 1080×1080px
 
 ---
 
-#### Creative 3: B4C3 — "Fridge Drawing Photo"
+### Creative 2: B4C2 — "Leftovers Call Out"
 
-**Ad Name:** `B4C3_Native_FridgeDrawing`
-**Testing:** Whether an intimate, personal photo creates curiosity and emotional pull
-**Format:** Looks like a parent photographed their kid's drawing on the fridge
+**Ad Name:** `B4C2_AvatarCallOut_Leftovers_A2-FamilyLeftovers`
+**Angle:** A2 — Stop giving your family your leftovers
+**Format:** Bold call-out text on emotional evening scene
 
-**Nano Banana Pro Prompt (Custom):**
-> Close-up smartphone photograph of a child's crayon drawing stuck to a refrigerator with a magnet. The drawing shows two stick figures — one big, one small — holding hands outdoors (green scribble grass, yellow circle sun, blue sky). Above the figures the child has written in wobbly handwriting: "me and daddy at the park." The drawing is on white paper, slightly crinkled. The fridge is stainless steel or white. A few other magnets and papers visible at the edges. The lighting is kitchen fluorescent — warm but not styled. Shot at smartphone distance, slightly off-angle like a quick snap. Authentic, intimate, not polished. No text overlays, no branding.
+**Nano Banana Pro Prompt:**
+> Candid smartphone photograph shot through a doorway into a living room at dusk. In the foreground, a parent is collapsed on a couch, still in work clothes, eyes closed, one arm over their face. In the background through the doorway, visible but slightly out of focus, two young children are playing on the floor of another room — building blocks, coloring, alive with energy. The lighting is that specific golden-but-dimming quality of a house at 6:30pm — warm overhead light in the kids' room, darker in the parent's room. The composition should feel voyeuristic and intimate, like someone stood in the hallway and snapped a photo of this daily scene. No staging, no smiles. Just the gap between where the parent is and where they want to be. Smartphone quality, slightly underexposed, authentic.
 
 **Canva Edit Steps:**
-1. Upload AI-generated fridge drawing photo. No edits.
-2. NO text overlays. NO branding. NO logos.
-3. The drawing tells the story. The body copy in the text field explains it.
-4. 1080×1080px. Crop to feel like a parent snapped a photo of the fridge.
+1. Upload AI-generated doorway photo
+2. Top: Semi-transparent dark strip, 100px
+3. Call-out text: "WHEN WORK GETS THE BEST HOURS AND FAMILY GETS THE REST:" — Plus Jakarta Sans 700, 16pt, Cream, centered
+4. Bottom: Semi-transparent dark strip, 80px
+5. Bottom text: "What if you still had energy at 6pm?" — Plus Jakarta Sans 400, 14pt, Cream
+6. Small "BASELINE NMN" — Plus Jakarta Sans 600, 10pt, Copper, bottom-right
+7. 1080×1080px
 
 ---
 
-### Body Copy 1 (Native/Camouflage — 215 words)
+### Creative 3: B4C3 — "Guilt Cycle Call Out"
 
-> **Placement:** Native/camouflage ads only. Pair with B4C1, B4C2, or B4C3 — all native creatives.
->
-> **Format: Camouflage Ad (Origins 10-Section Structure).** Hook → Pain → Failure Montage → Authority Figure (wife sent an article) → Discovery → Mechanism → Skeptical Purchase → Day-by-Day → Validation → CTA. Entry point is parental guilt — the most emotionally intense hook across all batches. Discovery mechanism is wife/partner sharing an article, differentiating from B1 (2am research) and B3 (brother-in-law biochemist).
+**Ad Name:** `B4C3_AvatarCallOut_GuiltCycle_A3-BreakCycle`
+**Angle:** A3 — Break the exhaustion-guilt cycle
+**Format:** Bold call-out text on dark background — pure typography, maximum emotional impact
+
+**Nano Banana Pro Prompt:**
+> N/A — Text-only creative
+
+**Canva Edit Steps:**
+1. Background: Teal Deep (#0C3B3F), 1080×1080px
+2. Top: "THE CYCLE NO ONE TALKS ABOUT:" — Plus Jakarta Sans 700, 18pt, Cream (#F5F0E8), centered
+3. Center, large text block:
+   - "tired." — Cormorant Garamond 700, 56pt, Cream
+   - "guilty." — Cormorant Garamond 700, 56pt, Copper (#C07840)
+   - "repeat." — Cormorant Garamond 700, 56pt, Cream
+4. Below, after 40px: "Here's how I broke the cycle." — Plus Jakarta Sans 400, 18pt, Cream, 70% opacity
+5. Bottom: Thin Copper line
+6. Below line: "BASELINE NMN" left, "baselinenmn.com" right — Plus Jakarta Sans 400, 11pt, Cream, 50% opacity
+7. 1080×1080px. Maximum emotional impact. Minimum clutter.
+
+---
+
+### Body Copy 1 (Outcome-Focused — 110 words)
+
+> **Leads with A1 hook.** Goes straight to the parenting pain, delivers mechanism quickly, closes with the emotional payoff.
+
+They won't remember your job title. They'll remember if you had the energy to play.
 
 Last Saturday my daughter asked me to take her to the park. I said maybe later. She stopped asking.
 
-That was my moment. Not a health scare. Not a doctor's warning. A six-year-old who learned that "maybe later" means no.
+That six-year-old didn't know the word "depleted." But that's what it felt like. After 40, cells produce significantly less NAD+ — the molecule responsible for energy at the cellular level. That's why willpower and early bedtimes weren't enough. The tank was genuinely running low.
 
-I wasn't lazy. I was empty. I'd get home from work and have nothing left. Weekends were supposed to be family time but they felt like recovery time. I'd sit on the couch while my kids played in the other room, feeling guilty but too exhausted to move.
+NMN is what the body uses to rebuild NAD+. Cellular support, not another stimulant.
 
-I tried sleeping more. Tried eating cleaner. Tried forcing myself to be more present. None of it worked because none of it addressed why I was depleted in the first place.
-
-My wife sent me an article about NAD+ — a molecule your cells need to produce energy. By your 40s, levels drop significantly. Everything still runs — just slower, harder, emptier. Especially by 5pm.
-
-I started taking Baseline NMN. Not expecting much. By week three, I wasn't dragging through evenings anymore. By week six, I took my daughter to the park on a Wednesday. After work. Without thinking about it.
-
-She didn't say anything. She just grabbed my hand and ran to the swings.
+After starting Baseline NMN, I found myself saying yes to the park again — even on weekdays. Individual results may vary.
 
 → Be the parent who says yes.
 
 ---
 
-### Body Copy 2 (Direct Response — 85 words)
+### Body Copy 2 (Direct Response — 90 words)
 
-> **Format: Identity Reframe → Mechanism → Emotional Close.** Opens with the strongest line ("You're not a bad parent. You're a depleted one.") to immediately reframe guilt as a solvable problem. Delivers the NAD+ mechanism in 2 sentences, then closes with the parenting identity hook. Works across all placements — no story needed because the emotional punch is in the framing, not the narrative.
+> **Leads with A2 hook.** Reframes guilt as a solvable biological problem.
 
-You're not a bad parent. You're a depleted one.
+Work gets your best hours. Your kids get what's left.
 
-By your 40s, your cells produce significantly less NAD+ — the molecule responsible for energy at the cellular level. That's why you have nothing left by 5pm. Not because you don't care. Because your tank is genuinely empty.
+It's not about being a bad parent. It might be about running on empty.
 
-NMN is the precursor your body uses to rebuild NAD+ levels. Not caffeine. Not willpower. Actual cellular restoration.
+After 40, cells produce significantly less NAD+ — the molecule behind energy at the cellular level. That's one reason why there's nothing left by 5pm. Not a willpower problem. A cellular fuel problem.
 
-They won't remember your job title. They'll remember if you had the energy to play.
+NMN is the precursor the body uses to rebuild NAD+ levels. Cellular support, not another stimulant.
+
+They need you present. Not perfect. Present.
 
 → Be the parent who says yes.
 
 ---
 
 ### Headline 1: **Energy to Say Yes After 5pm**
-### Headline 2: **Why Are You So Tired by 5pm?**
+### Headline 2: **What's Behind That 5pm Crash?**
 ### Description: **Show up for what matters.**
 
 ---
 
 ---
 
-# BATCH 5: "The Invisible Woman" ⟵ HOLD FOR WEEK 3-4 ROTATION
+# BATCH 5: "The Invisible Woman"
 
-**Ad Set Name:** `B5_InvisibleWoman_CellularFunction`
+**Ad Set Name:** `B5_InvisibleWoman_QuestionHook`
 **Sub-Avatar:** #7 — The Invisible Woman (underserved market, women 40-55)
-**Angle:** It's not about looking younger. It's about your cells actually working again.
-**Mechanism:** #4 NAD+ Decline + #5 Restoration
+**Format:** Question Hook (all 3 creatives lead with a provocative question)
 **Core Emotion:** Invisibility / frustration
-**Customer Language:** "I feel like I've aged 10 years in the last 2" / "Energy slipping, weight creeping up, focus fading"
+**Customer Language:** "I feel like I've aged 10 years in the last 2" / "My doctor said it's just perimenopause" / "I want to function, not just look younger"
 **Gap:** Functional decline ≠ cosmetic problem
 
+**3 Angles Being Tested:**
+- **A1:** This isn't about looking younger — it's about your cells actually working again
+- **A2:** What menopause takes isn't just hormones — it's cellular energy
+- **A3:** Your body didn't betray you — it ran out of something specific
+
 ---
 
-### Creatives 1-3: USE FROM Baseline_Batches_1-5.md
+### Creative 1: B5C1 — "Anti-Aging Reframe Question"
 
-B5C1 (Indirect Avatar — Sophisticated Woman), B5C2 (Question Hook — update to remove "85%" stat, use qualitative language), and B5C3 (Strikethrough Pain List) are identity/emotion-driven. **Compliance note:** Update B5C2 in Baseline_Batches_1-5.md to replace "85% of women over 40" with verifiable language before producing creatives.
+**Ad Name:** `B5C1_QuestionHook_AntiAging_A1-CellsWorking`
+**Angle:** A1 — Not about looking younger — cells actually working again
+**Format:** Bold question text on warm, sophisticated background
+
+**Nano Banana Pro Prompt:**
+> Editorial lifestyle photograph — a well-dressed woman in her late 40s sitting in a sunlit modern living room, reading on a tablet, with a warm cup of tea beside her. She's not posing — she's genuinely absorbed in what she's reading. Natural light streaming through large windows, casting soft shadows. The environment is tasteful, lived-in, and real — not a showroom. Linen sofa, a few books stacked, a plant. Shot at 50mm, shallow depth of field focused on her face and hands. Warm color palette with muted cream and teal undertones. The mood is: quiet competence, a woman in her power, not performing for the camera. No supplement bottles, no fitness wear, no "anti-aging" visual cues. Editorial, not commercial.
+
+**Canva Edit Steps:**
+1. Upload AI-generated editorial photo
+2. Semi-transparent dark overlay on bottom third (gradient from transparent to 80% black)
+3. Question text in overlay area: "What if 'anti-aging' has nothing to do with wrinkles?" — Plus Jakarta Sans 600, 24pt, Cream (#F5F0E8)
+4. Below: "What your cells need isn't cream. It's fuel." — Plus Jakarta Sans 400, 16pt, Cream, 80% opacity
+5. Bottom corner: "BASELINE NMN" — Plus Jakarta Sans 600, 10pt, Copper (#C07840)
+6. 1080×1080px
 
 ---
 
-### Body Copy 1 (Native/Camouflage — 210 words)
+### Creative 2: B5C2 — "Doctor Dismissal Question"
 
-> **Placement:** Native/camouflage ads only. Pair with organic-looking creatives.
+**Ad Name:** `B5C2_QuestionHook_DoctorDismissal_A2-CellularEnergy`
+**Angle:** A2 — What menopause takes isn't just hormones — it's cellular energy
+**Format:** Bold question on intimate, warm background
 
-I went from running my household, my career, and half the school's volunteer committee — to needing a nap by 2pm.
+**Nano Banana Pro Prompt:**
+> Intimate close-up photograph of a woman's hands wrapped around a white ceramic coffee mug, shot from above at a kitchen table in soft morning light. The hands show her age naturally — not glamorized, not hidden. A few rings, natural nails. The table is light wood with a few scattered crumbs and a half-read newspaper. The mood is: early morning quiet, before anyone else is awake, a private moment of trying to summon energy. Warm, soft, intimate. Shot at 35mm, shallow depth of field. No face visible — just the hands and mug. Authentic, not styled. The kind of photo a woman might take of her own morning and post with a caption about how she's feeling.
 
-It happened fast. Over maybe 18 months. Energy gone. Focus scattered. Sleeping eight hours and waking up exhausted. My doctor said it was "just perimenopause" and suggested I manage my stress better.
+**Canva Edit Steps:**
+1. Upload AI-generated hands/mug photo
+2. Semi-transparent cream overlay on top third (gradient from 80% cream to transparent)
+3. Question text at top: "When changes feel like more than just hormones..." — Plus Jakarta Sans 400, 20pt, Near Black (#1A1A1A)
+4. Below: "What if something else is happening at the cellular level too?" — Plus Jakarta Sans 600, 22pt, Teal Deep (#0C3B3F)
+5. Bottom corner: "BASELINE NMN" — Plus Jakarta Sans 600, 10pt, Copper
+6. 1080×1080px
 
-Manage my stress. As if stress was the problem and not the fact that my body stopped working the way it had for 40 years.
+---
 
-I wasn't looking for anti-aging cream. I wasn't trying to "look younger." I wanted my cells to function again. The fatigue was real. The brain fog was real. The weight that appeared from nowhere was real. And none of it had anything to do with vanity.
+### Creative 3: B5C3 — "Body Didn't Betray You Question"
 
-A colleague mentioned NAD+ — a molecule every cell needs for energy production and repair. Levels decline sharply in your 40s and 50s. For women, the drop often coincides with hormonal shifts, making everything hit at once.
+**Ad Name:** `B5C3_QuestionHook_Betrayal_A3-RanOutOfFuel`
+**Angle:** A3 — Your body didn't betray you — it ran out of something specific
+**Format:** Bold question text on warm, editorial photo
 
-NMN is what your body uses to rebuild NAD+. I started taking Baseline NMN.
+**Nano Banana Pro Prompt:**
+> Wide-angle photograph of a woman in her early 50s standing at a floor-to-ceiling window in a modern apartment, looking out at a city or natural landscape at golden hour. She's in comfortable clothes — not workout wear, not business attire. Her posture is contemplative, not defeated. One hand touches the glass. The lighting is warm and dramatic — golden hour light illuminating half her face, the other half in soft shadow. The mood is: reflection, not sadness. A woman considering something, not giving up. Shot at 35mm, the window dominates the frame, she's slightly off-center. Cinematic, editorial quality. Warm tones with teal shadows. No products, no fitness cues, no anti-aging imagery.
 
-Six weeks in: the fog lifted. Eight weeks: I stopped canceling plans. My energy didn't come back all at once. It came back like a slow tide. Steady. Reliable.
+**Canva Edit Steps:**
+1. Upload AI-generated window photo
+2. Semi-transparent dark overlay on bottom half (gradient)
+3. Question text: "Your body didn't betray you." — Plus Jakarta Sans 600, 26pt, Cream (#F5F0E8)
+4. Below: "Want to know what actually changed?" — Plus Jakarta Sans 400, 20pt, Cream, 80% opacity
+5. Bottom corner: "BASELINE NMN" — Plus Jakarta Sans 600, 10pt, Copper
+6. 1080×1080px
+
+---
+
+### Body Copy 1 (Outcome-Focused — 120 words)
+
+> **Leads with A1/A3 hooks.** Opens with the dismissal pain, delivers the NAD+ mechanism, closes with the function-not-appearance reframe.
+
+The health industry sells "anti-aging" as wrinkle cream and collagen peptides.
+
+Meanwhile: the energy faded. Focus scattered. Weight changed without anything else changing. The explanations didn't fully add up.
+
+Something felt incomplete.
+
+Here's what I found: cells produce a molecule called NAD+ that's responsible for energy production and repair. Published research shows levels decline significantly after 40. For women, this cellular shift often happens alongside hormonal changes — so everything can feel like it hits at once.
+
+NMN is the precursor the body uses to support NAD+ levels. A cellular solution, not a cosmetic one.
+
+After starting Baseline NMN, the fog started to lift. The energy came back gradually — steady and reliable. Individual results may vary.
 
 This isn't about looking younger. It's about actually functioning again.
 
@@ -544,27 +708,27 @@ This isn't about looking younger. It's about actually functioning again.
 
 ---
 
-### Body Copy 2 (Direct Response — 95 words)
+### Body Copy 2 (Direct Response — 85 words)
 
-The health industry sells "anti-aging" as wrinkle cream and collagen peptides.
+> **Leads with A2 hook.** Shorter, punchier. Names the menopause + NAD+ connection.
 
-Meanwhile, your energy disappeared. Your focus scattered. You gained weight without changing a single thing. And your doctor said "it's just perimenopause."
+Alongside hormonal changes, cells can lose a significant amount of NAD+ — the molecule behind energy, cognitive function, and cellular repair.
 
-That's not a diagnosis. That's a dismissal.
+That's not just one thing happening. It's a cellular energy shift happening at the same time as other changes.
 
-Here's what's actually happening: your cells are producing less NAD+ — the molecule behind energy, repair, and cognitive function. The decline accelerates in your 40s and 50s, and it compounds with hormonal shifts.
+NMN is the precursor the body uses to rebuild NAD+. It supports the cellular side of the equation.
 
-NMN is the precursor your body uses to restore NAD+ levels. Not a cosmetic fix. A cellular one.
+Baseline NMN: one ingredient, published research, no buzzwords.
 
-This is about function, not appearance.
+It's not about anti-aging cream. It's about supporting how cells actually work.
 
 → Function first. Everything else follows.
 
 ---
 
 ### Headline 1: **Your Cells Need Fuel, Not Cream**
-### Headline 2: **What If It's Not "Just Hormones"?**
-### Description: **Cellular function restored.**
+### Headline 2: **Beyond Hormones: What Cells Need**
+### Description: **Support cellular function.**
 
 ---
 
@@ -572,39 +736,39 @@ This is about function, not appearance.
 
 # LAUNCH SEQUENCE
 
-## Week 1: Launch 3 Ad Sets
+## Campaign Setup
 
-Launch B1 (Reluctant Decliner), B3 (Skeptic's NMN), and B4 (Exhausted Parent) simultaneously. These have the strongest differentiation and highest emotional range. Hold B2 and B5 for Week 3-4 rotation.
-
-Each ad set gets the same daily budget. Use **Advantage+ Creative** — upload all creatives, body copies, and headlines as assets and let Meta assemble combinations automatically.
-
-**Recommended starting budget:** $30-$50 CAD/day per ad set = $90-$150 CAD/day total
-
-**Targeting:** Go broad. Age + gender + geo only. No interest targeting. Let the creative do the targeting.
+- **Campaign type:** Advantage+ Shopping Campaign (or CBO manual)
+- **Budget optimization:** CBO — set budget at the campaign level, Meta allocates across ad sets
+- **Placements:** Advantage+ Placements
+- **Recommended campaign budget:** $150-$250 CAD/day total (Meta distributes across 5 ad sets via CBO)
+- **Targeting:** Broad. Age + gender + geo only. No interest targeting. Let the creative do the targeting.
+- **Launch:** All 5 ad sets live simultaneously
 
 ## Week 1-2: Monitor (Do NOT Touch)
 
 Per Origins 15-Checkpoint Cheatsheet:
-- Day 1-3: Check delivery. Are all ad sets spending? Are all creatives getting impressions?
+- Day 1-3: Check delivery. Are all ad sets spending? Are all creatives getting impressions? With CBO, some ad sets will get more spend than others — that's the signal, not a problem.
 - Day 4-7: Check CTR. Which creatives are getting clicks? Which body copies?
-- Day 7-14: Check CPA. Which ad sets are converting? Which combinations?
+- Day 7-14: Check CPA. Which ad sets are converting? Which angle combinations?
 
-**DO NOT turn off underperforming ads before Day 7.** Meta needs time to optimize.
+**DO NOT turn off underperforming ads before Day 7.** Meta needs learning phase time. With CBO, Meta is already deprioritizing weak ad sets — let it work.
 
-## Week 2-3: Kill Losers, Scale Winners
+## Week 2-3: Read the Signals
 
 After 14 days with sufficient data:
-1. **Kill** any ad set with CPA 3x+ above target
-2. **Reduce budget** on ad sets with CPA 1.5-3x above target
-3. **Increase budget** on ad sets with CPA at or below target
-4. **Identify** the winning creative + copy + headline combination in each surviving ad set
+1. **Which sub-avatar won?** The ad set with the lowest CPA = the sub-avatar with the highest purchase intent. This is the primary finding.
+2. **Which angle won within the winning sub-avatar?** Look at creative-level metrics (spend allocation, CTR, CPA per creative). The creative that got the most spend = the angle Meta's algorithm found converts best.
+3. **Kill** any ad set with CPA 3x+ above target
+4. **Scale** winning ad set by 20-30% budget increase every 3-4 days
 
-## Week 3-4: Introduce Held Batches + Sniper Method
+## Week 3-4: Sniper Method
 
-1. **Rotate in B2 (3pm Wall Hitter) and/or B5 (Invisible Woman)** as fresh ad sets to replace killed batches
-2. Take the WINNING angle/sub-avatar from Weeks 1-2 and create 3 NEW video variations of that ONE angle:
-   - Same sub-avatar, same message, 3 different video formats
-   - This is the Sniper Method — depth, not breadth
+Take the winning sub-avatar + winning angle and create 3 NEW format variations:
+- Same sub-avatar
+- Same angle/message
+- 3 different visual formats (e.g., native camouflage → us vs them → video testimonial)
+- This is Phase 2: format testing with the proven winner
 
 ---
 
@@ -614,8 +778,8 @@ When demand is validated and you switch to a pure NMN supplier, add back to the 
 
 - **Trust/verification language:** "batch-specific lab results you can verify yourself" / "scan the bottle"
 - **Purity claims:** "99%+ pure beta-NMN" / "enzymatic synthesis" / "single ingredient"
-- **Activate original Batch 3** from Baseline_Batches_1-5.md (QR-to-COA trust verification angle)
-- **Add Mechanism #1 (QR-to-COA), #2 (64% Fake), #3 (Enzymatic Synthesis)** back into the copy rotation
+- **Strengthen Batch 3** with QR-to-COA proof (the verification angles become much stronger with real proof)
+- **Add Mechanism #1 (QR-to-COA), #2 (Fake NMN stat), #3 (Enzymatic Synthesis)** back into the copy rotation
 
 The emotional hooks, sub-avatar targeting, and outcome stories stay the same. Only the product-proof layer changes.
 
@@ -625,7 +789,7 @@ The emotional hooks, sub-avatar targeting, and outcome stories stay the same. On
 
 | Document | What It Contains |
 |----------|-----------------|
-| Baseline_Batches_1-5.md | Pure NMN version + ALL creative specs (Nano Banana Pro prompts, Canva steps) |
+| Baseline_Batches_1-5.md | Pure NMN version + ALL original creative specs (Nano Banana Pro prompts, Canva steps) |
 | Avatar_Blueprint.md | All 8 sub-avatars with Core 5 Categories |
 | NMN_Desire_Hunting_Research.md | 7 desire clusters with customer language |
 | New_Mechanism_Analysis.md | 5 mechanisms with hooks and avatar mapping |
@@ -635,8 +799,7 @@ The emotional hooks, sub-avatar targeting, and outcome stories stay the same. On
 | NMN_Offer_Strategy.md | Pricing, bundles, margin analysis |
 | Product_Decision_Two_Paths.md | Pure NMN vs current product + verified suppliers |
 | brand/brand-identity.html | Full brand identity specification |
-| ad-mockups/baseline-batches-1-5.html | HTML/CSS visual mockups of all 15 creatives |
 
 ---
 
-*Baseline NMN — Launch Version. All copy sells the outcome, not the product. NMN is the mechanism. NAD+ decline is the education. The felt experience is the proof. Built with Origins 3:2:2 framework. All sub-avatars from Avatar_Blueprint.md. Visual mockups in ad-mockups/baseline-batches-1-5.html.*
+*Baseline NMN — Launch Version. Angle Isolation Testing: 1 sub-avatar, 1 format, 3 angles per batch. Advantage+ Campaign with CBO across all 5 ad sets. Phase 1 finds the winning sub-avatar and angle. Phase 2 tests formats with the proven winner.*
