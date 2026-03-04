@@ -1,49 +1,50 @@
-# Baseline NMN — Soft Launch Ad Copy (10-in-1 Product)
+# Baseline NMN — Ad Copy Batches 1-5 (Launch Version)
 
-> **Purpose:** Modified ad copy for validating market demand with the current 10-in-1 NMN product before transitioning to pure NMN.
-> **What changed:** All purity claims, "single ingredient," enzymatic synthesis, and QR-to-COA references removed. Batch 3 completely replaced. Emotional hooks, sub-avatar targeting, and desire channeling are unchanged.
-> **Product:** NMN Ultimate 10-in-1 — 500mg NMN + Resveratrol, Grape Seed Extract, CoQ10, Glutathione, TMG, Quercetin, Astaxanthin, Apigenin + Vitamin C per serving. 120 capsules / 60 servings.
-> **Transition plan:** Once demand is validated, switch to pure NMN supplier (see Product_Decision_Two_Paths.md) and activate the full mechanism stack from Baseline_Batches_1-5.md.
-
----
-
-## WHAT CHANGED VS THE PURE NMN VERSION
-
-| Element | Pure NMN Version | Soft Launch Version |
-|---------|-----------------|---------------------|
-| "Pure, single-ingredient NMN" | Used | **REMOVED** — replaced with "NMN + 8 longevity compounds" |
-| "99%+ beta-NMN" | Used | **REMOVED** — replaced with "500mg NMN per serving" |
-| QR-to-COA / "scan the bottle" | Used | **REMOVED** entirely |
-| "Enzymatic synthesis" | Used | **REMOVED** entirely |
-| "No proprietary blend" | Used | **REMOVED** — obviously |
-| "Just NMN. Nothing else." | Used | **REMOVED** |
-| Batch 3 (trust/verification) | 64% fake + QR-to-COA | **REPLACED** with "The Complete Stack" simplification angle |
-| NAD+ decline science | Used | **KEPT** — education, not a product claim |
-| "Restoration not stimulation" | Used | **KEPT** — works for any NMN product |
-| All emotional hooks | Used | **KEPT** — desire-driven, not product-driven |
-| Sub-avatar targeting | Used | **KEPT** — unchanged |
-| Camouflage ad structure | Used | **KEPT** — unchanged |
+> **Product:** Baseline NMN — an NMN formula delivering 500mg NMN per serving. 120 capsules / 60 servings.
+> **Framework:** Origins 3:2:2 — 3 Creatives + 2 Body Copies + 2 Headlines + 1 Description per batch.
+> **Principle:** Every ad sells the OUTCOME, not the product. NMN is the mechanism. NAD+ decline is the education. The felt experience is the proof.
+> **Creatives & Mockups:** See Baseline_Batches_1-5.md for Nano Banana Pro prompts and Canva edit steps (Batches 1, 2, 4, 5 creatives are identical). Batch 3 creatives are new and included below.
+>
+> **Brand Identity:**
+> - Colors: Teal Deep (#0C3B3F), Teal Mid (#165C5A), Teal Light (#1E7A77), Copper (#C07840), Cream (#F5F0E8), Near Black (#1A1A1A)
+> - Typography: Cormorant Garamond (serif, headlines), Plus Jakarta Sans (body), JetBrains Mono (data/stats)
+> - Voice: Clean, scientific, anti-hype. No "revolutionary," "game-changing," "miracle," or "breakthrough."
 
 ---
 
----
+## Testing Structure (Per Origins 3:2:2)
 
-# BATCH 1 (Soft Launch): "The Reluctant Decliner"
+Each batch = 1 Ad Set in Meta Ads Manager:
+- **3 Creatives** (same concept, different visual format → tests which FORMAT stops the scroll)
+- **2 Body Copies** (1 native/camouflage, 1 direct response → tests which STYLE converts)
+- **2 Headlines** (1 direct, 1 curiosity → tests which HOOK pulls clicks)
+- **1 Description** (consistent across variations)
 
-**Ad Set Name:** `SL_B1_ReluctantDecliner_NADDecline`
-**Everything unchanged EXCEPT body copy product references.**
-
-### Creatives 1-3: NO CHANGES NEEDED
-
-B1C1 (Stat Bomb "50%"), B1C2 ("This Is Not" Reframe), and B1C3 (Question Hook Native Post) are all about NAD+ decline science and don't make product-specific claims. Use the exact same creatives from Baseline_Batches_1-5.md.
-
-**One exception — B1C2 text change:**
-- Old: "It's the molecule your cells stopped making."
-- New: Same. No change needed. This is about NAD+, not the product.
+Meta will automatically test all combinations (3×2×2 = 12 variations per ad set). The algorithm finds the best creative + copy + headline combo.
 
 ---
 
-### Body Copy 1 (Soft Launch — Native/Camouflage — 225 words)
+---
+
+# BATCH 1: "The Reluctant Decliner"
+
+**Ad Set Name:** `B1_ReluctantDecliner_NADDecline`
+**Sub-Avatar:** #8 — The Reluctant Decliner (broadest audience, 40+)
+**Angle:** Your decline has a specific, addressable cause — NAD+ depletion
+**Mechanism:** #4 NAD+ Decline Root Cause
+**Core Emotion:** Quiet fear
+**Customer Language:** "I turned 40 and my body started falling apart" / "Hangovers last longer, waking up takes longer" / "I feel like I've aged 10 years in the last 2"
+**Gap:** Wanting to act ≠ believing action will help
+
+---
+
+### Creatives 1-3: USE FROM Baseline_Batches_1-5.md
+
+B1C1 (Stat Bomb "50%"), B1C2 ("This Is Not" Reframe), and B1C3 (Question Hook Native Post) are all about NAD+ decline science and the outcome of restoration. No changes needed.
+
+---
+
+### Body Copy 1 (Native/Camouflage — 220 words)
 
 I turned 44 and my body just... stopped cooperating.
 
@@ -55,9 +56,9 @@ Then a friend — a molecular biologist, not a supplement guy — mentioned some
 
 He said it's like your cells slowly running out of fuel. Everything still works — just worse. Slower recovery. Less energy. More fog. Sound familiar?
 
-I looked into NMN — the precursor your body uses to rebuild NAD+. Not a stimulant. Not a vitamin. The actual raw material your cells need to produce energy at the cellular level. Baseline combines 500mg of NMN with compounds like Resveratrol and CoQ10 that support the same cellular pathways.
+I looked into NMN — the precursor your body uses to rebuild NAD+. Not a stimulant. Not a vitamin. The actual raw material your cells need to produce energy at the cellular level.
 
-Week one, nothing dramatic. Week three, I stopped needing that second coffee. Week six, my wife said I seemed like myself again.
+I started taking Baseline NMN. Week one, nothing dramatic. Week three, I stopped needing that second coffee. Week six, my wife said I seemed like myself again.
 
 I'm not 25. But I stopped feeling like I was falling apart.
 
@@ -65,7 +66,7 @@ I'm not 25. But I stopped feeling like I was falling apart.
 
 ---
 
-### Body Copy 2 (Soft Launch — Direct Response — 100 words)
+### Body Copy 2 (Direct Response — 90 words)
 
 "I'm not sick. I just don't feel like myself anymore."
 
@@ -73,7 +74,7 @@ Sound familiar? There's a reason.
 
 By age 50, your cells lose ~50% of NAD+ — the molecule behind energy production, DNA repair, and cellular maintenance. That slow decline you're feeling isn't vague. It's specific. And it's measurable.
 
-NMN is the direct precursor your body uses to restore NAD+ levels. Baseline delivers 500mg of NMN alongside Resveratrol, CoQ10, and 6 more compounds that support cellular restoration.
+NMN is the direct precursor your body uses to restore NAD+ levels. Not a stimulant. Not a band-aid. The actual fuel your cells have been running low on.
 
 Your body didn't break. It ran out of fuel.
 
@@ -81,28 +82,33 @@ Your body didn't break. It ran out of fuel.
 
 ---
 
-### Headline 1: **Your Cells Lost Their Fuel** (no change)
-### Headline 2: **What If It's Not "Just Aging"?** (no change)
-### Description: **Restore your NAD+.** (no change)
+### Headline 1: **Your Cells Lost Their Fuel**
+### Headline 2: **What If It's Not "Just Aging"?**
+### Description: **Restore your NAD+.**
 
 ---
 
 ---
 
-# BATCH 2 (Soft Launch): "The 3pm Wall Hitter"
+# BATCH 2: "The 3pm Wall Hitter"
 
-**Ad Set Name:** `SL_B2_3pmWallHitter_RestorationVsStimulation`
-**Everything unchanged EXCEPT body copy product references.**
-
-### Creatives 1-3: MINOR CHANGES
-
-- B2C1 (Us vs Them Split): No change — coffee vs NMN is about the mechanism, not the formulation
-- B2C2 (Exaggeration — Slumped at Desk): No change
-- B2C3 (Bold Text): No change — "I used to have energy. Now I just have coffee." is customer language
+**Ad Set Name:** `B2_3pmWallHitter_RestorationVsStimulation`
+**Sub-Avatar:** #1 — The 3pm Wall Hitter (universal daily experience)
+**Angle:** Caffeine gives you a spike. NMN raises your baseline.
+**Mechanism:** #5 Restoration Not Stimulation
+**Core Emotion:** Frustration
+**Customer Language:** "That 3pm wall" / "I used to have energy. Now I just have coffee" / "consistent energy throughout the day"
+**Gap:** Stimulation ≠ restoration
 
 ---
 
-### Body Copy 1 (Soft Launch — Native/Camouflage — 205 words)
+### Creatives 1-3: USE FROM Baseline_Batches_1-5.md
+
+B2C1 (Us vs Them Split — coffee vs NMN), B2C2 (Exaggeration — Slumped at Desk), and B2C3 (Bold Text — "I used to have energy") are all about the mechanism, not the formulation. No changes needed.
+
+---
+
+### Body Copy 1 (Native/Camouflage — 200 words)
 
 I used to have energy. Now I just have coffee.
 
@@ -112,9 +118,9 @@ I tried green tea. Tried B12. Tried those "clean energy" drinks that taste like 
 
 My sister sent me an article about NAD+ — a molecule your cells use to produce energy. Not "energy" like a caffeine buzz. Actual cellular energy. Turns out your levels drop significantly as you age, which is why stimulants stop working — you're whipping a tired horse.
 
-NMN is the precursor your body converts into NAD+. It doesn't give you a spike. It raises the floor. Baseline pairs 500mg of NMN with Resveratrol and CoQ10 for full cellular energy support.
+NMN is the precursor your body converts into NAD+. It doesn't give you a spike. It raises the floor.
 
-I started taking it. No buzz on day one. But around week three, I noticed I wasn't reaching for that afternoon coffee. I just... didn't need it.
+I started taking Baseline NMN. No buzz on day one. But around week three, I noticed I wasn't reaching for that afternoon coffee. I just... didn't need it.
 
 That's the difference between stimulation and restoration.
 
@@ -124,7 +130,7 @@ Caffeine gives you a spike. This raised my baseline.
 
 ---
 
-### Body Copy 2 (Soft Launch — Direct Response — 95 words)
+### Body Copy 2 (Direct Response — 80 words)
 
 That 3pm wall isn't a coffee problem. It's a cellular fuel problem.
 
@@ -132,179 +138,177 @@ Caffeine borrows energy from later and charges interest. That's why you crash. E
 
 NMN works differently. It's the precursor your body uses to restore NAD+ — the molecule your cells need to produce real, sustained energy. No spike. No crash. Just a higher floor.
 
-Baseline delivers 500mg NMN plus Resveratrol, CoQ10, and 6 more compounds targeting cellular energy.
-
 Stop chasing spikes. Raise your baseline.
 
 → Shop Baseline.
 
 ---
 
-### Headline 1: **Raise Your Baseline Energy** (no change)
-### Headline 2: **Why Caffeine Stopped Working** (no change)
-### Description: **Not a spike. A baseline.** (no change)
+### Headline 1: **Raise Your Baseline Energy**
+### Headline 2: **Why Caffeine Stopped Working**
+### Description: **Not a spike. A baseline.**
 
 ---
 
 ---
 
-# BATCH 3 (Soft Launch): "The Supplement Simplifier" — NEW BATCH
+# BATCH 3: "The Skeptic's NMN"
 
-> **This replaces the original Batch 3** (Burned Supplement Buyer / Trust Verification) which required QR-to-COA and purity claims. The original Batch 3 is preserved in Baseline_Batches_1-5.md for activation when pure NMN is available.
+> **This replaces the original Batch 3** (Burned Supplement Buyer / Trust Verification) which required QR-to-COA and purity claims. The original is preserved in Baseline_Batches_1-5.md for activation when pure NMN is available.
 
-**Ad Set Name:** `SL_B3_SupplementSimplifier_CompleteStack`
-**Sub-Avatar:** #2 — The Burned Supplement Buyer (same target, different angle)
-**Angle:** "I used to take 6 different supplements. Now I take 1."
-**Mechanism:** Simplification + Synergistic Formula (new, temporary mechanism)
-**Core Emotion:** Frustration / exhaustion with supplement complexity
-**Customer Language:** "I threw a lot of money at a lot of supplements" / "Not sure which ones worked" / "The supplement industry feels like the Wild West"
-**Gap:** Wanting optimal supplementation ≠ knowing which pills to take
+**Ad Set Name:** `B3_SkepticsNMN_BurnedBuyer`
+**Sub-Avatar:** #2 — The Burned Supplement Buyer (trust crisis)
+**Angle:** "I stopped believing in supplements. Then I tried NMN."
+**Mechanism:** #4 NAD+ Decline — gives the skeptic a scientific REASON why NMN is categorically different from everything else they've tried
+**Core Emotion:** Burned, skeptical, but still searching
+**Customer Language:** "I've wasted so much money on supplements" / "Nothing ever actually works" / "I've tried everything"
+**Gap:** Wanting results ≠ believing results are possible
 
 ---
 
-### Creative 1: B3C1 — "The Pill Pile"
+### Creative 1: B3C1 — "The Supplement Graveyard"
 
-**Ad Name:** `SL_B3C1_PillPile_BeforeAfter`
-**Testing:** Whether a visual "pill overwhelm → one bottle" comparison stops the scroll
-**Format:** Split or before/after — chaotic pile of supplement bottles vs one clean Baseline bottle
+**Ad Name:** `B3C1_Graveyard_12Brands`
+**Testing:** Whether a visual "graveyard of supplements I've tried" resonates with burned buyers
+**Format:** Overhead shot of abandoned supplement bottles with one Baseline bottle standing apart
 
 **Nano Banana Pro Prompt (Custom):**
-> Overhead product photography. LEFT side of frame: chaotic pile of 8-10 different supplement bottles, various sizes, colors, and labels, scattered across a white surface with loose capsules and pills around them, slightly messy, overwhelming. RIGHT side: a single clean teal supplement bottle (Hex: #0C3B3F) with copper cap, standing upright on a clean cream surface, one capsule beside it. Shot from directly above, studio lighting, clean and minimal. The contrast should feel like: chaos vs simplicity, overwhelm vs clarity. Photorealistic, 8K.
+> Overhead flat-lay photography of 10-12 various supplement bottles scattered across a white marble countertop — different sizes, colors, brands, some with lids off, some half-empty, a few capsules scattered loosely. The bottles look used and abandoned. One single clean teal bottle (Hex: #0C3B3F) with copper cap sits separate from the clutter in the bottom-right corner, upright and pristine, with two capsules placed neatly beside it. The composition should feel like chaos vs clarity, past vs present. Shot from directly above, soft studio lighting, clean shadows. Photorealistic, 8K.
 
 **Canva Edit Steps:**
-1. Upload AI-generated image
-2. Left side label: "Before" — Plus Jakarta Sans 300 Italic, 16pt, text-secondary
-3. Right side label: "After" — Plus Jakarta Sans 600, 16pt, Teal Deep
-4. Bottom: "10 ingredients. 1 capsule. 0 guessing." — Plus Jakarta Sans 500, 18pt, Near Black
-5. Corner: "BASELINE" — Plus Jakarta Sans 600, 12pt, letterspaced
-6. 1080×1080px
+1. Upload AI-generated flat-lay image
+2. Top text: "After 12 supplements that did nothing." — Plus Jakarta Sans 500, 22pt, Near Black (#1A1A1A)
+3. Bottom text: "I found one that did." — Cormorant Garamond 500 Italic, 28pt, Teal Deep (#0C3B3F)
+4. Corner: "BASELINE NMN" — Plus Jakarta Sans 600, 12pt, letterspaced
+5. 1080×1080px
 
 ---
 
-### Creative 2: B3C2 — "The Cost Calculator"
+### Creative 2: B3C2 — "The Skeptic's Timeline"
 
-**Ad Name:** `SL_B3C2_CostCalc_SaveMoney`
-**Testing:** Whether a financial comparison (cost of separate supplements vs one) converts
-**Format:** Clean infographic-style comparison
+**Ad Name:** `B3C2_Timeline_WeekByWeek`
+**Testing:** Whether a text-based personal timeline builds curiosity through delayed payoff
+**Format:** Clean timeline on cream background — skepticism fading into belief
 
 **Nano Banana Pro Prompt:**
-> N/A — Graphic design, built in Canva
+> N/A — Text-only creative designed in Canva
 
 **Canva Edit Steps:**
 1. Background: Cream (#F5F0E8), 1080×1080px
-2. Top: "What you're probably paying:" — Plus Jakarta Sans 500, 20pt, Near Black
-3. List (left-aligned, struck-through styling):
-   - "NMN — $45/mo" (strikethrough, 50% opacity)
-   - "Resveratrol — $25/mo" (strikethrough, 50% opacity)
-   - "CoQ10 — $20/mo" (strikethrough, 50% opacity)
-   - "TMG — $15/mo" (strikethrough, 50% opacity)
-   - "Quercetin — $18/mo" (strikethrough, 50% opacity)
-   - All in Plus Jakarta Sans 400, 18pt
-4. Below list: "Total: ~$123+/month" — Plus Jakarta Sans 400, 18pt, text-secondary, strikethrough
-5. Below that, larger: "Baseline: $69/month. All 10." — Plus Jakarta Sans 700, 28pt, Teal Deep
-6. Bottom: Thin Copper line, "BASELINE" below
-7. 1080×1080px
+2. Top: "My NMN timeline:" — Plus Jakarta Sans 500, 18pt, text-secondary (#5A5550)
+3. Timeline entries, left-aligned, generous line spacing (2.0):
+   - "Week 1: Nothing. Told you." — Plus Jakarta Sans 400, 24pt, Near Black, 50% opacity
+   - "Week 2: Still nothing." — same styling, 50% opacity
+   - "Week 3: ...wait." — Plus Jakarta Sans 500, 24pt, Near Black, 80% opacity
+   - "Week 6: OK. I was wrong." — Cormorant Garamond 600, 32pt, Teal Deep (#0C3B3F), 100% opacity
+4. Below: thin Copper (#C07840) hairline
+5. Bottom: "BASELINE NMN" — Plus Jakarta Sans 600, 12pt, Teal Deep, letterspaced 0.15em
+6. 1080×1080px. The visual progression from faded → bold should feel like skepticism → belief.
 
 ---
 
-### Creative 3: B3C3 — "The Medicine Cabinet"
+### Creative 3: B3C3 — "Honest Review" Native Post
 
-**Ad Name:** `SL_B3C3_MedCabinet_Relatable`
-**Testing:** Whether a native/relatable format outperforms the comparison formats
-**Format:** Looks like someone's social post about their supplement routine
+**Ad Name:** `B3C3_NativePost_HonestReview`
+**Testing:** Whether a native/organic-looking post format outperforms polished designs for skeptics
+**Format:** Looks like someone's organic social media post — raw and honest
 
 **Nano Banana Pro Prompt:**
 > N/A — Text-only native post format
 
 **Canva Edit Steps:**
 1. Background: Cream (#F5F0E8), 1080×1080px
-2. Top: Small avatar circle + "Baseline" name (same as B1C3 native format)
+2. Top: Small circular avatar placeholder (teal circle with "B" initial), 48px + "Baseline" — Plus Jakarta Sans 600, 14pt, Near Black
 3. Main text:
-   - "My husband opened the supplement cabinet and said:" — Plus Jakarta Sans 400, 22pt
-   - "'Do you actually know what any of these do?'" — Cormorant Garamond 500 Italic, 28pt, Teal Deep
-4. Below: "I didn't. So I found one that does what all of them were supposed to." — Plus Jakarta Sans 400, 20pt
-5. Below: Thin Copper hairline
-6. Below line: "NMN + Resveratrol + CoQ10 + 7 more. One capsule." — Plus Jakarta Sans 300, 16pt, text-secondary
-7. Bottom: "Learn more →" in Copper
-8. 1080×1080px
+   - "Honest review from someone who's been burned by supplements before:" — Plus Jakarta Sans 400, 22pt, Near Black
+4. Below: "I almost didn't try this. I'm glad I did." — Cormorant Garamond 500 Italic, 28pt, Teal Deep (#0C3B3F)
+5. Below: thin Copper hairline
+6. Below line: "NMN restored what 12 other supplements couldn't." — Plus Jakarta Sans 300, 16pt, text-secondary (#5A5550)
+7. Bottom: "Read more →" in Copper (#C07840), 14pt
+8. 1080×1080px. Should look like a friend's honest post, not an ad.
 
 ---
 
-### Body Copy 1 (Soft Launch — Native/Camouflage — 200 words)
+### Body Copy 1 (Native/Camouflage — 225 words)
 
-Open my medicine cabinet and you'll find a pharmacy.
+I have a cabinet full of supplements I don't trust anymore.
 
-NMN. Resveratrol. CoQ10. TMG. Quercetin. Glutathione. At one point I was taking 8 different pills every morning. Each one recommended by a different podcast, article, or Reddit thread.
+Turmeric. Ashwagandha. Vitamin D. Magnesium. Fish oil. Collagen. I bought every one of them because some article or podcast said it would change my life. None of them did.
 
-The thing is, I wasn't even sure which ones were working. I just kept adding. "This one's supposed to help with energy." "This one's for antioxidants." "This one pairs well with NMN." It felt like managing a science experiment, not a morning routine.
+After a while, you stop believing. You stop reading the studies. You start assuming anything in a capsule is just expensive urine. I wasn't even bitter about it — I was just done.
 
-My partner asked me one day: "Do you actually know what any of those do?" I didn't. Not really. I just knew I was spending over $120 a month on pills I wasn't confident in.
+Then my brother-in-law — biochemist, not a health guru — explained something that actually made sense. There's a molecule called NAD+ that your cells use to produce energy and repair DNA. By your 40s, you've lost a significant amount of it. Not in a vague "wellness" way. In a measurable, published-research way.
 
-I found Baseline because they combined everything I was already taking — NMN, Resveratrol, CoQ10, TMG, Quercetin, Glutathione, and more — into one capsule. 500mg of NMN plus 8 compounds that support the same cellular pathways.
+He said most supplements add things your body might not need more of. NMN is different — it's the raw material your body is specifically running low on. It's like topping off a fuel tank, not adding another additive.
 
-No more guessing which ones interact with each other. No more forgetting which bottle I ran out of. No more $120 monthly supplement budget.
+That framing got through to me. Not a miracle. Not a cure. A specific molecule addressing a specific decline.
 
-One capsule. One routine. Everything my cells actually need.
+I tried Baseline NMN expecting nothing. Week one confirmed that — nothing. Week three, something shifted. Week six, I had energy I hadn't felt in years.
 
-It's not about taking more. It's about taking smarter.
+I'm still skeptical of supplements. I'm just not skeptical of this one.
 
-→ Baseline NMN. Simplified.
+→ Baseline NMN.
 
 ---
 
-### Body Copy 2 (Soft Launch — Direct Response — 100 words)
+### Body Copy 2 (Direct Response — 90 words)
 
-How many supplements are you taking right now?
+You've tried supplements before. They didn't work.
 
-3? 5? 8? And are you sure they're even working together?
+Turmeric didn't change your energy. Ashwagandha didn't fix your focus. Collagen didn't do what the ads promised.
 
-Most longevity stacks require buying NMN, Resveratrol, CoQ10, TMG, and Quercetin separately. That's 5+ bottles, $120+/month, and zero guarantee they're dosed to complement each other.
+Here's why NMN is different: it's not adding something extra. It's restoring something specific your body lost.
 
-Baseline combined all 10 into one capsule. 500mg NMN. Resveratrol. CoQ10. Glutathione. TMG. Quercetin. Astaxanthin. Apigenin. Plus Vitamin C.
+NAD+ is the molecule your cells use for energy production and DNA repair. By your 40s, levels drop significantly. NMN is the direct precursor your body converts into NAD+.
 
-One capsule. One price. One routine that actually makes sense.
+This isn't another promise. It's a precursor to a molecule you're measurably low on.
 
-Stop managing a pharmacy. Start taking Baseline.
-
-→ Shop Baseline.
+→ Try Baseline NMN.
 
 ---
 
 ### Headline 1 (Direct)
-**10 Ingredients. 1 Capsule.**
+**The First Supplement That Did Something**
 
 ### Headline 2 (Curiosity)
-**Are Your Supplements Working Together?**
+**Why Nothing Else Worked**
 
 ### Description
-**Your stack, simplified.**
+**Not another supplement. A precursor.**
 
 ---
 
-### Batch 3 Soft Launch Analysis
+### Batch 3 Analysis
 
-**Psychological Principle:** Choice Overload Reduction + Consolidation Bias. Research shows that when people face too many options (the supplement cabinet), they either freeze or simplify. This batch positions Baseline as the simplification — reducing 8 decisions to 1.
+**Psychological Principle:** Cognitive Dissonance Resolution. Burned buyers hold a belief ("supplements don't work") that conflicts with a desire (they still want to feel better). By validating their skepticism AND giving them a scientifically specific reason why NMN is categorically different, we resolve the dissonance without asking them to "trust" again. The felt experience — not a trust badge — is the proof.
 
-**Honest assessment:** This is a weaker angle than the original Batch 3 (QR-to-COA trust verification). The original addresses the burned buyer's CORE emotion (distrust). This addresses a secondary frustration (complexity). It will likely convert at a lower rate. That's acceptable — this is a validation test, not the final brand launch.
+**Why this works better than "10 Ingredients, 1 Capsule":** The original soft launch Batch 3 sold the product stack. This batch sells the OUTCOME from someone who didn't believe it would work. The Burned Buyer doesn't care about ingredient counts — they care about results. "I'm still skeptical of supplements. I'm just not skeptical of this one." is the most powerful testimonial for someone who's been burned.
 
-**What this tests:** Whether the "simplification" message resonates enough to generate sales. If it does, that validates demand for NMN-adjacent products from Meta ads. If it doesn't but Batches 1/2/4/5 do, that tells you the emotion-driven angles work and simplification doesn't — useful data for the pure NMN transition.
-
----
+**Origins Reference:** Camouflage Ad structure — the biochemist brother-in-law is the Authority Figure pattern. The "Week 1: nothing / Week 3: wait / Week 6: wrong" timeline is the Gradual Discovery pattern.
 
 ---
 
-# BATCH 4 (Soft Launch): "The Exhausted Parent"
+---
 
-**Ad Set Name:** `SL_B4_ExhaustedParent_EnergyForPresence`
-**Everything unchanged EXCEPT body copy product references.**
+# BATCH 4: "The Exhausted Parent"
 
-### Creatives 1-3: NO CHANGES NEEDED
-
-B4C1 (Avatar Call Out), B4C2 (Ideal Outcome — Playing with Kids), and B4C3 ("Too Tired to Play Catch" Bold Text) are all emotion-driven visuals with no product-specific claims. Use exact same creatives from Baseline_Batches_1-5.md.
+**Ad Set Name:** `B4_ExhaustedParent_EnergyForPresence`
+**Sub-Avatar:** #6 — The Exhausted Parent (high emotional intensity)
+**Angle:** Your kids don't care about your job title. They care if you have the energy to play.
+**Mechanism:** #5 Restoration + #4 NAD+ Decline
+**Core Emotion:** Guilt
+**Customer Language:** "I want to keep up with my kids" / "I'm not the mom/dad I want to be when I'm this exhausted" / "Too tired to play catch"
+**Gap:** Wanting to show up ≠ having the energy to show up
 
 ---
 
-### Body Copy 1 (Soft Launch — Native/Camouflage — 215 words)
+### Creatives 1-3: USE FROM Baseline_Batches_1-5.md
+
+B4C1 (Avatar Call Out — tired parent on bench), B4C2 (Ideal Outcome — Playing with Kids), and B4C3 ("Too Tired to Play Catch" Bold Text) are emotion-driven visuals with no product-specific claims. No changes needed.
+
+---
+
+### Body Copy 1 (Native/Camouflage — 205 words)
 
 Last Saturday my daughter asked me to take her to the park. I said maybe later. She stopped asking.
 
@@ -316,7 +320,7 @@ I tried sleeping more. Tried eating cleaner. Tried forcing myself to be more pre
 
 Your body's cellular energy depends on a molecule called NAD+. By your 40s, levels drop significantly. Everything still runs — just slower, harder, emptier. Especially by 5pm.
 
-I started Baseline NMN — 500mg of NMN plus Resveratrol, CoQ10, and 7 more compounds supporting cellular energy. Not expecting much. By week three, I wasn't dragging through evenings anymore. By week six, I took my daughter to the park on a Wednesday. After work. Without thinking about it.
+I started taking Baseline NMN. Not expecting much. By week three, I wasn't dragging through evenings anymore. By week six, I took my daughter to the park on a Wednesday. After work. Without thinking about it.
 
 She didn't say anything. She just grabbed my hand and ran to the swings.
 
@@ -324,13 +328,13 @@ She didn't say anything. She just grabbed my hand and ran to the swings.
 
 ---
 
-### Body Copy 2 (Soft Launch — Direct Response — 100 words)
+### Body Copy 2 (Direct Response — 85 words)
 
 You're not a bad parent. You're a depleted one.
 
 By your 40s, your cells produce significantly less NAD+ — the molecule responsible for energy at the cellular level. That's why you have nothing left by 5pm. Not because you don't care. Because your tank is genuinely empty.
 
-NMN is the precursor your body uses to rebuild NAD+ levels. Baseline delivers 500mg of NMN plus Resveratrol, CoQ10, and 7 more compounds for complete cellular restoration.
+NMN is the precursor your body uses to rebuild NAD+ levels. Not caffeine. Not willpower. Actual cellular restoration.
 
 They won't remember your job title. They'll remember if you had the energy to play.
 
@@ -338,28 +342,33 @@ They won't remember your job title. They'll remember if you had the energy to pl
 
 ---
 
-### Headline 1: **Energy to Say Yes After 5pm** (no change)
-### Headline 2: **Why Are You So Tired by 5pm?** (no change)
-### Description: **Show up for what matters.** (no change)
+### Headline 1: **Energy to Say Yes After 5pm**
+### Headline 2: **Why Are You So Tired by 5pm?**
+### Description: **Show up for what matters.**
 
 ---
 
 ---
 
-# BATCH 5 (Soft Launch): "The Invisible Woman"
+# BATCH 5: "The Invisible Woman"
 
-**Ad Set Name:** `SL_B5_InvisibleWoman_CellularFunction`
-**Everything unchanged EXCEPT body copy product references.**
-
-### Creatives 1-3: MINOR CHANGES
-
-- B5C1 (Indirect Avatar — Sophisticated Woman): No change
-- B5C2 (Question Hook "85%"): No change — stat is about fatigue, not product
-- B5C3 (Strikethrough Pain List): No change
+**Ad Set Name:** `B5_InvisibleWoman_CellularFunction`
+**Sub-Avatar:** #7 — The Invisible Woman (underserved market, women 40-55)
+**Angle:** It's not about looking younger. It's about your cells actually working again.
+**Mechanism:** #4 NAD+ Decline + #5 Restoration
+**Core Emotion:** Invisibility / frustration
+**Customer Language:** "I feel like I've aged 10 years in the last 2" / "Energy slipping, weight creeping up, focus fading"
+**Gap:** Functional decline ≠ cosmetic problem
 
 ---
 
-### Body Copy 1 (Soft Launch — Native/Camouflage — 220 words)
+### Creatives 1-3: USE FROM Baseline_Batches_1-5.md
+
+B5C1 (Indirect Avatar — Sophisticated Woman), B5C2 (Question Hook "85%"), and B5C3 (Strikethrough Pain List) are identity/emotion-driven with no product-specific claims. No changes needed.
+
+---
+
+### Body Copy 1 (Native/Camouflage — 210 words)
 
 I went from running my household, my career, and half the school's volunteer committee — to needing a nap by 2pm.
 
@@ -371,9 +380,9 @@ I wasn't looking for anti-aging cream. I wasn't trying to "look younger." I want
 
 A colleague mentioned NAD+ — a molecule every cell needs for energy production and repair. Levels decline sharply in your 40s and 50s. For women, the drop often coincides with hormonal shifts, making everything hit at once.
 
-NMN is what your body uses to rebuild NAD+. Baseline combines 500mg NMN with Resveratrol, CoQ10, Glutathione, and 6 more compounds that support cellular energy and repair.
+NMN is what your body uses to rebuild NAD+. I started taking Baseline NMN.
 
-Six weeks in: the fog lifted. Eight weeks: I stopped canceling plans. My energy came back like a slow tide. Steady. Reliable.
+Six weeks in: the fog lifted. Eight weeks: I stopped canceling plans. My energy didn't come back all at once. It came back like a slow tide. Steady. Reliable.
 
 This isn't about looking younger. It's about actually functioning again.
 
@@ -381,7 +390,7 @@ This isn't about looking younger. It's about actually functioning again.
 
 ---
 
-### Body Copy 2 (Soft Launch — Direct Response — 108 words)
+### Body Copy 2 (Direct Response — 95 words)
 
 The health industry sells "anti-aging" as wrinkle cream and collagen peptides.
 
@@ -391,7 +400,7 @@ That's not a diagnosis. That's a dismissal.
 
 Here's what's actually happening: your cells are producing less NAD+ — the molecule behind energy, repair, and cognitive function. The decline accelerates in your 40s and 50s, and it compounds with hormonal shifts.
 
-NMN is the precursor your body uses to restore NAD+ levels. Baseline delivers 500mg NMN with Resveratrol, CoQ10, and 8 more cellular support compounds.
+NMN is the precursor your body uses to restore NAD+ levels. Not a cosmetic fix. A cellular one.
 
 This is about function, not appearance.
 
@@ -399,27 +408,76 @@ This is about function, not appearance.
 
 ---
 
-### Headline 1: **Your Cells Need Fuel, Not Cream** (no change)
-### Headline 2: **What If It's Not "Just Hormones"?** (no change)
-### Description: **Cellular function restored.** (no change)
+### Headline 1: **Your Cells Need Fuel, Not Cream**
+### Headline 2: **What If It's Not "Just Hormones"?**
+### Description: **Cellular function restored.**
 
 ---
 
 ---
 
-# SOFT LAUNCH → PURE NMN TRANSITION CHECKLIST
+# LAUNCH SEQUENCE
 
-When demand is validated and you're ready to switch to pure NMN:
+## Week 1: Launch All 5 Batches Simultaneously
 
-- [ ] Order from Makers Nutrition, NutraScience Labs, or NutraLab Canada
-- [ ] Receive product, verify COA
-- [ ] Set up QR-to-COA system (simple landing page per batch linking to COA PDF)
-- [ ] Update Shopify product listing: new images, new description, new supplement facts
-- [ ] Switch ALL ad copy from soft-launch versions (this document) to pure NMN versions (Baseline_Batches_1-5.md)
-- [ ] Activate original Batch 3 (trust/verification angle with QR-to-COA)
-- [ ] Announce to existing customers: "Baseline is now pure, single-ingredient NMN"
-- [ ] Retire the 10-in-1 product or rebrand as "Baseline Complete Stack" upsell
+Per Origins Marksman Method: launch all 5 ad sets at the same time. Each ad set gets the same daily budget. Let Meta's algorithm test the 12 combinations per ad set (3 creatives × 2 body copies × 2 headlines).
+
+**Recommended starting budget:** $20-$30 CAD/day per ad set = $100-$150 CAD/day total
+
+## Week 1-2: Monitor (Do NOT Touch)
+
+Per Origins 15-Checkpoint Cheatsheet:
+- Day 1-3: Check delivery. Are all ad sets spending? Are all creatives getting impressions?
+- Day 4-7: Check CTR. Which creatives are getting clicks? Which body copies?
+- Day 7-14: Check CPA. Which ad sets are converting? Which combinations?
+
+**DO NOT turn off underperforming ads before Day 7.** Meta needs time to optimize.
+
+## Week 2-3: Kill Losers, Scale Winners
+
+After 14 days with sufficient data:
+1. **Kill** any ad set with CPA 3x+ above target
+2. **Reduce budget** on ad sets with CPA 1.5-3x above target
+3. **Increase budget** on ad sets with CPA at or below target
+4. **Identify** the winning creative + copy + headline combination in each surviving ad set
+
+## Week 3-4: Sniper Method
+
+Take the WINNING angle/sub-avatar and create 3 NEW video variations of that ONE angle:
+- Same sub-avatar, same message, 3 different video formats
+- This is the Sniper Method — depth, not breadth
 
 ---
 
-*Soft launch copy created March 2026. All emotional hooks, sub-avatar targeting, and desire channeling identical to pure NMN versions. Only product-specific claims modified. Original pure NMN versions preserved in Baseline_Batches_1-5.md.*
+# PURE NMN TRANSITION
+
+When demand is validated and you switch to a pure NMN supplier, add back to the copy:
+
+- **Trust/verification language:** "batch-specific lab results you can verify yourself" / "scan the bottle"
+- **Purity claims:** "99%+ pure beta-NMN" / "enzymatic synthesis" / "single ingredient"
+- **Activate original Batch 3** from Baseline_Batches_1-5.md (QR-to-COA trust verification angle)
+- **Add Mechanism #1 (QR-to-COA), #2 (64% Fake), #3 (Enzymatic Synthesis)** back into the copy rotation
+
+The emotional hooks, sub-avatar targeting, and outcome stories stay the same. Only the product-proof layer changes.
+
+---
+
+# REFERENCE INDEX
+
+| Document | What It Contains |
+|----------|-----------------|
+| Baseline_Batches_1-5.md | Pure NMN version + ALL creative specs (Nano Banana Pro prompts, Canva steps) |
+| Avatar_Blueprint.md | All 8 sub-avatars with Core 5 Categories |
+| NMN_Desire_Hunting_Research.md | 7 desire clusters with customer language |
+| New_Mechanism_Analysis.md | 5 mechanisms with hooks and avatar mapping |
+| NMN_Marketing_Angles_and_Hooks.md | Extracted angles and hooks per sub-avatar |
+| Origins_Swipe_File_Analysis.md | Camouflage ad structure, static formats |
+| 1000_Winning_Ad_Templates_Analysis.md | 16 framework categories from 100 templates |
+| NMN_Offer_Strategy.md | Pricing, bundles, margin analysis |
+| Product_Decision_Two_Paths.md | Pure NMN vs current product + verified suppliers |
+| brand/brand-identity.html | Full brand identity specification |
+| ad-mockups/baseline-batches-1-5.html | HTML/CSS visual mockups of all 15 creatives |
+
+---
+
+*Baseline NMN — Launch Version. All copy sells the outcome, not the product. NMN is the mechanism. NAD+ decline is the education. The felt experience is the proof. Built with Origins 3:2:2 framework. All sub-avatars from Avatar_Blueprint.md. Visual mockups in ad-mockups/baseline-batches-1-5.html.*
