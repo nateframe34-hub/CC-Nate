@@ -102,23 +102,24 @@ Example: `B2C1_UsVsThem_CoffeeVsNMN_A1-CellularFuel`
 
 **Ad Name:** `B1C2_Native_NotesApp_A2-StopTrajectory`
 **Angle:** A2 — Stop the trajectory before it gets worse
-**Format:** Branded timeline card — year-by-year progression on clean white background
+**Format:** Looks like a screenshot of someone's iPhone Notes app
 
 **Nano Banana Pro Prompt:**
-> N/A — Text-only creative designed in Canva
+> N/A — Text-only creative designed in Canva to mimic a Notes app screenshot
 
 **Canva Edit Steps:**
 1. Background: White (#FFFFFF), 1080×1080px
-2. Top: "How I feel vs. 3 years ago" — Plus Jakarta Sans 600, 24pt, Near Black
-3. Thin Copper (#C07840) hairline below title
-4. Timeline entries, left-aligned, 60px side padding:
+2. Top bar mimicking iOS Notes: "Notes" back arrow left, share icon right — system font style, 14pt, #007AFF
+3. Note title: "How I feel vs. 3 years ago" — Plus Jakarta Sans 600, 24pt, Near Black
+4. Note body, left-aligned:
    - "2023: Tired sometimes. Normal." — Plus Jakarta Sans 400, 18pt, Near Black
    - "2024: Tired most days. Concerning." — same
    - "2025: Tired all the time. Scared." — same
    - "" — 20px gap
    - "2026: Did something about it." — Plus Jakarta Sans 500, 18pt, Near Black
-5. Bottom: "BASELINE NMN" — Plus Jakarta Sans 600, 10pt, Copper, letterspaced
-6. 1080×1080px. Clean branded timeline — no platform UI mimicry.
+5. Bottom: Faint timestamp "Modified 11:42 PM" — 12pt, #999999
+6. NO branding. Looks like someone screenshotted their own notes.
+7. 1080×1080px.
 
 **Why this creative matches A2:** The year-by-year list shows the trajectory getting worse — then the final line breaks the pattern. It names the fear (the trajectory) and shows someone who stopped it.
 
@@ -128,22 +129,22 @@ Example: `B2C1_UsVsThem_CoffeeVsNMN_A1-CellularFuel`
 
 **Ad Name:** `B1C3_Native_HonestPost_A3-ScienceNotMagic`
 **Angle:** A3 — This isn't a magic pill — it's the science behind why you feel different
-**Format:** Branded text card — personal reflection on warm Baseline background
+**Format:** Looks like someone's organic Facebook or Instagram text post
 
 **Nano Banana Pro Prompt:**
-> N/A — Text-only creative designed in Canva
+> N/A — Text-only native post format
 
 **Canva Edit Steps:**
 1. Background: Cream (#F5F0E8), 1080×1080px
-2. Top: Thin Copper (#C07840) hairline, full width, 40px from top
+2. Top: Small circular avatar placeholder (grey circle with generic initial), 40px + "Posted 3h ago" — Plus Jakarta Sans 400, 12pt, #888888
 3. Main text, left-aligned, 80px side padding:
    - "I didn't expect a miracle. I just wanted to feel normal again." — Plus Jakarta Sans 400, 22pt, Near Black (#1A1A1A)
 4. Below, after 24px gap:
    - "Turns out there's published research on why we feel so different after 40. It's not mysterious. It's molecular." — Plus Jakarta Sans 400, 20pt, Near Black
 5. Below, after 32px gap:
    - "Look up NAD+. Changed how I think about all of this." — Plus Jakarta Sans 400, 18pt, #5A5550
-6. Bottom: "BASELINE NMN" — Plus Jakarta Sans 600, 10pt, Copper, letterspaced
-7. 1080×1080px. Clearly a branded creative — no fake avatar or timestamp.
+6. NO branding. NO logos. NO product mentions. Looks like a real person's post.
+7. 1080×1080px.
 
 **Why this creative matches A3:** Anti-hype framing. "Didn't expect a miracle" + "published research" + "It's molecular" positions this as science, not supplement hype. This creative speaks to the skeptic within the Reluctant Decliner.
 
