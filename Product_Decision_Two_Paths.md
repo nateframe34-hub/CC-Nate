@@ -33,19 +33,34 @@ Drop the current 10-in-1 supplier. Source pure NMN (single ingredient) from a pr
 - **Canada:** NMN is **approved as a Natural Health Product** under Health Canada's NPN system. No legal barriers.
 - **United States:** As of September 2025, the **FDA reversed its 2022 ban** and confirmed NMN is lawful in dietary supplements. NMN is back on Amazon US. However, manufacturers must file a New Dietary Ingredient Notification (NDIN) or source from a supplier with an existing NDIN.
 
-#### Top Supplier Options
+#### Top Supplier Options (Verified March 2026)
 
-| Supplier | Location | Synthesis | Purity | MOQ | Key Advantage |
-|----------|----------|-----------|--------|-----|---------------|
-| **NutraLab Canada** | Markham, ON, Canada | Ask | COA via in-house lab | Contact required | **CANADIAN** — 45,000 sq ft facility, Health Canada GMP approved, FDA registered, 500+ pre-registered NPN formulas, in-house NuChem Analytical Lab. 25+ years experience. |
-| **Abinopharm** | Shelton, CT, USA | **Enzymatic** | >99.0% | Contact required | Only NMN ingredient with human clinical trial data (300mg, 600mg, 900mg doses); pharmaceutical-grade ICH guidelines; FDA-registered cGMP; 100+ tons/year capacity |
-| **Regalabs** | USA | Ask — not specified | COA available | ~1,000 units (flexible) | Both white-label (instant) and private-label (custom); startup-friendly tiers at 1K/5K/10K |
-| **Superior Supplement Mfg** | USA | Ask | 99%+ beta-NMN | 2,500 units (bottles) | NMN-specific expertise; humidity-controlled production (sub-40% RH); 8-week lead time; capsule range 125-500mg |
-| **NutraSeller** | USA | Ask — stock formulas | COA available | ~500 units | Very low MOQ; batch COA provided; white-label ready |
-| **Pure Private Label** | Statesville, NC, USA | Ask — custom formulation | Depends on source | **144 units** | Lowest confirmed MOQ; ideal for first test run; sample program available |
-| **Vitalpax** | USA | Ask | COA per lot | Pilot batches available | Full turnkey service; regulatory review of claims; Kosher/Halal/Organic pathways |
-| **Vesta Nutra** | USA | Ask | COA available | ~1,000 units | Fast lead times (6-8 weeks); can piggyback on other orders |
-| **Hygieia Biotech** | Shenzhen, China | Ask | 99.7%+ (Intertek, Eurofins, CTI) | Flexible (small orders OK) | Lowest cost per unit; 100+ stock NMN formulas; graphic design services |
+> **WARNING:** Many companies marketing "NMN private label" are actually dropshippers, resellers, or only offer blended formulas. The suppliers below have been verified as real manufacturers with their own facilities and equipment, or flagged where uncertain.
+
+**TIER 1 — Verified Real Manufacturers (Own Facilities, Confirmed Equipment)**
+
+| Manufacturer | Location | Facility | NMN Confirmed? | MOQ | Est. Entry Cost |
+|---|---|---|---|---|---|
+| **Makers Nutrition** | Long Island, NY | 177,000 sq ft, own lab, FDA-registered, NSF GMP (2025) | **YES — explicitly** | 1,500 bottles | **~$4,000-$6,000** |
+| **NutraScience Labs** | Farmingdale, NY | 21M+ capsules/day capacity, own encapsulation equipment | **YES — actively marketing NMN** | 1,500 bottles | Contact for quote |
+| **Vitaquest** | West Caldwell, NJ | 500,000+ sq ft, 14+ encapsulation lines, 240M caps/month | Custom capable (4,000+ formulas) | Contact | Contact for quote |
+| **NutraLab Canada** | Markham, ON | 45,000 sq ft, Health Canada GMP, FDA registered, in-house lab | **Not confirmed — ask** | Contact | Contact for quote |
+
+**TIER 2 — Ingredient Suppliers (Make NMN Raw Material, Not Finished Capsules)**
+
+| Supplier | Location | Role | Purity | Notes |
+|---|---|---|---|---|
+| **Abinopharm (AbinoNutra)** | Shelton, CT | NMN raw ingredient manufacturer | >99.0% enzymatic | Makes the NMN powder, outsources capsule production. Their finished capsules contain fillers (MCC, Mag Stearate, SiO2). Best used as a raw material source for Tier 1 manufacturers. |
+| **Uthever (EffePharm)** | China (US distributor: ProHealth) | #1 trademarked NMN ingredient brand | >99.8% enzymatic | 40+ brands use Uthever. Buy bulk via ProHealth wholesale (wholesale@prohealth.com) or uthevernmnbulk.com. |
+
+**FLAGGED — Avoid or Verify Independently**
+
+| Company | Issue |
+|---|---|
+| **Regalabs** | Primarily a white-label/dropshipping storefront, not a manufacturer. |
+| **NutraSeller** | Only offers blended NMN formulas (NMN + Resveratrol + Pterostilbene), not pure NMN. |
+| **Superior Supplement Mfg** | NSF issued public notice for unauthorized certification claims. Operates from a suite address. Likely a broker. |
+| **Hygieia Biotech** | Real Chinese manufacturer, but for a Canadian startup targeting North America, sourcing from China adds import complexity, quality control distance, and regulatory risk. |
 
 #### Raw Ingredient Suppliers (Two-Step Option)
 
@@ -94,21 +109,30 @@ A supplement labeled "99% pure NMN" can actually contain a 50/50 mix of alpha-NM
 
 **Option 2 (Maximum ingredient-brand recognition):**
 - Raw material: **Uthever** (EffePharm) — #1 global NMN ingredient brand, co-branding available
-- Contract manufacturer: Regalabs (1,000 MOQ) or NutraLab Canada
+- Contract manufacturer: Makers Nutrition or NutraLab Canada
 - Result: "Powered by Uthever — the world's #1 clinically validated NMN ingredient." Strong marketing angle.
 
-**Option 3 (Fastest to market, lowest risk):**
-- NutraSeller or Regalabs white-label NMN — stock product, your label, ships in weeks
-- Result: Product in hand within 2-4 weeks. Test the market while arranging premium sourcing.
+**Option 3 (Lowest entry cost, fastest to validate):**
+- **Makers Nutrition** stock NMN formula — 1,500 bottle MOQ, ~$4,000-$6,000 entry cost
+- Result: Pure NMN product from a verified manufacturer at a startup-accessible price point.
 
-#### Recommended Contact Sequence
+#### Recommended Contact Sequence (Updated March 2026)
 
-1. **NutraLab Canada** (info@nutralabcorp.com) — Ask about NMN capabilities, NPN formulations they have, MOQ/pricing for 500mg pure NMN capsule. Being Canadian = no cross-border complications.
-2. **Abinopharm** (via ambrosiaz.com) — Request private label pricing, MOQ, and whether they can supply bulk AbinoNutra NMN powder to NutraLab Canada.
-3. **Uthever/EffePharm** (via uthever.com) — Request bulk pricing for 5kg+ and trademark licensing terms.
-4. **Regalabs** — Get a quote for 1,000-unit private label run with custom branding. Ask specifically about enzymatic vs chemical synthesis.
-5. **Order samples** from Nutribl (10-unit MOQ, UK) and NutraSeller (500 units, US) for hands-on quality comparison.
-6. **Ask every supplier:** (a) enzymatic vs chemical synthesis, (b) current batch COA sample, (c) NDIN filing status (for US market), (d) delayed-release capsule availability, (e) alpha vs beta NMN isomer ratio, (f) whether they can support batch-level QR-to-COA systems.
+1. **Makers Nutrition** (844-215-3865, makersnutrition.com) — Explicitly offers NMN manufacturing. 1,500 bottle MOQ. ~$4K entry. Ask for: pure NMN 500mg in HPMC capsule with no fillers, pricing for 1,500 bottles of 60ct, lead time, and COA documentation.
+2. **NutraScience Labs** (855-492-7388, nutrasciencelabs.com) — Actively marketing NMN manufacturing. 1,500 bottle MOQ. Ask same questions.
+3. **NutraLab Canada** (905-752-1823, nutralabcorp.com) — Best for Canadian market. Ask if they can source and encapsulate pure NMN, NPN application support, MOQ/pricing.
+4. **ProHealth Longevity** (wholesale@prohealth.com) — Authorized Uthever NMN bulk distributor. Get bulk powder pricing if you want to supply your own raw material to a contract manufacturer.
+5. **Abinopharm** (abinopharm.com) — Get AbinoNutra NMN bulk powder pricing as alternative to Uthever.
+6. **Ask every manufacturer:** (a) can they do pure NMN + capsule shell ONLY (no MCC, no Mag Stearate), (b) current batch COA sample, (c) delayed-release capsule availability, (d) alpha vs beta NMN isomer ratio, (e) whether they can support batch-level QR-to-COA systems, (f) documentation for Canadian NPN application.
+
+#### Canadian NPN Regulatory Notes
+
+- NMN has an official Health Canada monograph — NPN applications follow the streamlined monograph pathway
+- Products >250mg NMN/day require warning: "Ask a health care practitioner for use beyond 8 weeks"
+- Review timeline: ~60 days for monograph-compliant products
+- Bilingual labeling required (English + French)
+- No application fee
+- If manufacturing in the US: Canadian importer must hold a site license + Quality Assurance Report proving US facility meets Canadian GMP equivalency
 
 ### What You Keep with Path A
 
