@@ -49,6 +49,8 @@ B1C1 (Stat Bomb — update to remove specific percentage, use "significant decli
 ### Body Copy 1 (Native/Camouflage — Q&A Format, 200 words)
 
 > **Placement:** Native/camouflage ads only. Pair with B1C3 (Native Post) or organic-looking creatives.
+>
+> **Format: Q&A / Myth-Busting.** The Reluctant Decliner has already told themselves a story about why they feel this way — "it's just stress," "I need more sleep," "my blood work is fine." A traditional narrative would add another voice to a crowded internal monologue. The Q&A format meets them inside their own objections, dismantles each one in their own language, then introduces NAD+ as the answer they hadn't considered. It reads like someone sorting through their own thoughts, not being sold to.
 
 Things I believed before I turned 44:
 
@@ -75,6 +77,8 @@ I didn't need a miracle. I needed my cells to have fuel again.
 ---
 
 ### Body Copy 2 (Direct Response — 90 words)
+
+> **Format: Problem → Mechanism → Solution.** Short, punchy, works across all ad placements. Leads with the emotional hook, delivers the NAD+ education in 2 sentences, closes with a reframe. No story, no character — just the argument.
 
 "I'm not sick. I just don't feel like myself anymore."
 
@@ -239,9 +243,11 @@ Stop chasing spikes. Raise your baseline.
 
 ---
 
-### Body Copy 1 (Native/Camouflage — 225 words)
+### Body Copy 1 (Native/Camouflage — Personal Narrative, 225 words)
 
 > **Placement:** Native/camouflage ads only. Pair with B3C3 (Honest Review Native Post) or organic-looking creatives.
+>
+> **Format: Personal Narrative (Classic Camouflage).** The Burned Supplement Buyer needs to hear from someone who was exactly where they are — done, skeptical, cabinet full of failures. A straight narrative works here because this avatar's core objection isn't logical, it's emotional: "I've been burned before." The only thing that resolves that is a real person's story told start to finish, with honest skepticism throughout. The narrative earns the right to recommend by validating the reader's distrust first.
 
 I have a cabinet full of supplements I don't trust anymore.
 
@@ -264,6 +270,8 @@ I'm still skeptical of supplements. I'm just not skeptical of this one.
 ---
 
 ### Body Copy 2 (Direct Response — 90 words)
+
+> **Format: Objection → Reframe → Mechanism.** Starts by agreeing with the skeptic ("They didn't work"), then reframes why NMN is categorically different. Short enough for all placements. Mirrors the native copy's validation-first approach without the personal story.
 
 You've tried supplements before. They didn't work.
 
@@ -323,6 +331,8 @@ B4C1 (Avatar Call Out — tired parent on bench), B4C2 (Ideal Outcome — Playin
 ### Body Copy 1 (Native/Camouflage — Letter Format, 195 words)
 
 > **Placement:** Native/camouflage ads only. Pair with B4C3 (Bold Text) or organic-looking creatives.
+>
+> **Format: Open Letter.** The Exhausted Parent doesn't need education — they already know they're depleted. What they need is to feel seen. The letter format ("To the parent sitting on the bench...") creates an instant moment of recognition: someone is speaking directly to me. It skips the slow narrative build and goes straight to emotional identification, which is the right move for an avatar driven by guilt, not curiosity. The "I was you" opening collapses the distance between writer and reader immediately.
 
 To the parent sitting on the bench while their kids play:
 
@@ -348,6 +358,8 @@ You're not a bad parent. You're a depleted one.
 ---
 
 ### Body Copy 2 (Direct Response — 85 words)
+
+> **Format: Identity Reframe → Mechanism → Emotional Close.** Opens with the strongest line ("You're not a bad parent. You're a depleted one.") to immediately reframe guilt as a solvable problem. Delivers the NAD+ mechanism in 2 sentences, then closes with the parenting identity hook. Works across all placements — no story needed because the emotional punch is in the framing, not the narrative.
 
 You're not a bad parent. You're a depleted one.
 
