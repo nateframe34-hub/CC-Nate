@@ -40,37 +40,102 @@ Use **Advantage+ Creative** — upload all assets and let Meta assemble combinat
 
 ---
 
-### Creatives 1-3: USE FROM Baseline_Batches_1-5.md
+### Creatives 1-3: NATIVE CAMOUFLAGE CREATIVES
 
-B1C1 (Stat Bomb — update to remove specific percentage, use "significant decline"), B1C2 ("This Is Not" Reframe), and B1C3 (Question Hook Native Post) are all about NAD+ decline science and the outcome of restoration. **Compliance note:** Update B1C1 stat text in Baseline_Batches_1-5.md to replace "50%" with language like "significant age-related decline" before producing creatives.
+> **All 3 creatives must look like organic social media posts, not ads.** No product shots. No branded layouts. No "BASELINE" logo bars. These are camouflage — the reader should not recognize these as ads until they're already reading.
+
+#### Creative 1: B1C1 — "Late Night Search History"
+
+**Ad Name:** `B1C1_Native_SearchHistory`
+**Testing:** Whether a screenshot-style "search history" format stops the scroll through raw relatability
+**Format:** Looks like a screenshot of someone's late-night Google searches on a dark phone screen
+
+**Nano Banana Pro Prompt:**
+> N/A — Text-only creative designed in Canva to mimic a phone search history screenshot
+
+**Canva Edit Steps:**
+1. Background: Near Black (#1A1A1A), 1080×1080px
+2. Top: Faint grey status bar (battery, wifi, time "2:47 AM") — Plus Jakarta Sans 300, 11pt, #666666
+3. Search bar mockup with magnifying glass icon, rounded grey (#2A2A2A) pill shape
+4. Search history entries, left-aligned, stacked vertically with 24px gaps:
+   - "why am I so tired all the time" — Plus Jakarta Sans 400, 20pt, #CCCCCC
+   - "normal blood work but still exhausted" — same styling
+   - "is it normal to feel old at 44" — same styling
+   - "what is NAD+" — Plus Jakarta Sans 500, 20pt, Cream (#F5F0E8), slightly brighter than others
+5. NO branding. NO logos. NO product. Just the searches.
+6. 1080×1080px. Should look like someone screenshotted their own phone at 3am.
 
 ---
 
-### Body Copy 1 (Native/Camouflage — Q&A Format, 200 words)
+#### Creative 2: B1C2 — "Honest Post — Before I Knew"
 
-> **Placement:** Native/camouflage ads only. Pair with B1C3 (Native Post) or organic-looking creatives.
+**Ad Name:** `B1C2_Native_HonestPost`
+**Testing:** Whether a native text post with a personal reflection outperforms the search history format
+**Format:** Looks like someone's organic Facebook or Instagram text post
+
+**Nano Banana Pro Prompt:**
+> N/A — Text-only native post format
+
+**Canva Edit Steps:**
+1. Background: Cream (#F5F0E8), 1080×1080px
+2. Top: Small circular avatar placeholder (grey circle with generic initial), 40px + "Posted 3h ago" — Plus Jakarta Sans 400, 12pt, #888888
+3. Main text, left-aligned, 80px side padding:
+   - "I spent two years blaming stress, sleep, and 'just getting older' for how I felt." — Plus Jakarta Sans 400, 22pt, Near Black (#1A1A1A)
+4. Below, after 24px gap:
+   - "Turns out my cells were running out of fuel and nobody told me." — Plus Jakarta Sans 500, 22pt, Near Black
+5. Below, after 32px gap:
+   - "Look up NAD+." — Plus Jakarta Sans 400, 18pt, #5A5550
+6. NO branding. NO logos. NO product mentions. Looks like a real person's post.
+7. 1080×1080px.
+
+---
+
+#### Creative 3: B1C3 — "Notes App Screenshot"
+
+**Ad Name:** `B1C3_Native_NotesApp`
+**Testing:** Whether a Notes app screenshot format creates intimacy and curiosity
+**Format:** Looks like a screenshot of someone's iPhone Notes app
+
+**Nano Banana Pro Prompt:**
+> N/A — Text-only creative designed in Canva to mimic a Notes app screenshot
+
+**Canva Edit Steps:**
+1. Background: White (#FFFFFF), 1080×1080px
+2. Top bar mimicking iOS Notes: "Notes" back arrow left, share icon right — system font style, 14pt, #007AFF
+3. Note title: "Things that didn't fix how I feel" — Plus Jakarta Sans 600, 24pt, Near Black
+4. Note body, left-aligned:
+   - "- More sleep (still exhausted)" — Plus Jakarta Sans 400, 18pt, Near Black
+   - "- Cutting sugar" — same
+   - "- B12, magnesium, vitamin D" — same
+   - "- $200 blood panel ('everything's normal')" — same
+   - "" — 20px gap
+   - "Thing that did:" — Plus Jakarta Sans 500, 18pt, Near Black
+   - "- NMN. Look into NAD+ decline." — Plus Jakarta Sans 400, 18pt, Near Black
+5. Bottom: Faint timestamp "Modified 11:42 PM" — 12pt, #999999
+6. NO branding. Looks like someone screenshotted their own notes.
+7. 1080×1080px.
+
+---
+
+### Body Copy 1 (Native/Camouflage — 220 words)
+
+> **Placement:** Native/camouflage ads only. Pair with B1C1, B1C2, or B1C3 — all native creatives.
 >
-> **Format: Q&A / Myth-Busting.** The Reluctant Decliner has already told themselves a story about why they feel this way — "it's just stress," "I need more sleep," "my blood work is fine." A traditional narrative would add another voice to a crowded internal monologue. The Q&A format meets them inside their own objections, dismantles each one in their own language, then introduces NAD+ as the answer they hadn't considered. It reads like someone sorting through their own thoughts, not being sold to.
+> **Format: Camouflage Ad (Origins 10-Section Structure).** Hook → Pain → Failure Montage → Authority Figure (research rabbit hole at 2am, not a person) → Discovery → Mechanism → Skeptical Purchase → Day-by-Day → Validation → CTA. Entry point is quiet fear — the slow realization that something is wrong but nothing has a name for it. Discovery mechanism is a 2am research session, not a friend or relative, to differentiate from B3 and B4.
 
-Things I believed before I turned 44:
+I turned 44 and my body just... stopped cooperating.
 
-"It's just stress." — It wasn't. My stress levels were the same as 35. My recovery wasn't.
+Not one dramatic thing. Everything. Hangovers that used to last a morning started lasting two days. I'd wake up at 6am feeling like I hadn't slept. A pickup basketball game would wreck me for a week.
 
-"I need more sleep." — I was getting 7-8 hours. Waking up exhausted anyway.
+I tried the usual stuff. More sleep. Better diet. Magnesium. B12 shots. A $200 blood panel that came back "normal." My doctor said I was healthy. I didn't feel healthy.
 
-"My blood work is fine, so I'm fine." — $200 panel. Everything "normal." Still felt like I aged a decade.
+One night at 2am I fell down a research hole and found something I'd never heard of: NAD+. A coenzyme in every cell responsible for energy production and cellular maintenance. Your levels decline significantly in your 40s and 50s. Published research, not a wellness blog.
 
-"Supplements don't really do anything." — Fair. Most didn't.
+NMN is the precursor your body converts into NAD+. Not a stimulant. Not a vitamin. The actual raw material your cells are running low on.
 
-Here's what actually changed my mind:
+I started taking Baseline NMN expecting nothing. Week one, nothing dramatic. Week three, I stopped needing that second coffee. Week six, my wife said I seemed like myself again.
 
-NAD+. A coenzyme in every cell responsible for energy production and cellular maintenance. Your levels decline significantly in your 40s and 50s. Published research, not a wellness trend.
-
-NMN is the precursor your body converts into NAD+. Not a stimulant. Not another multivitamin. The raw material your cells are running low on.
-
-I didn't notice anything for two weeks. Week three, the afternoon fog cleared. Week six, my wife said I seemed like myself again.
-
-I didn't need a miracle. I needed my cells to have fuel again.
+I'm not 25. But I stopped feeling like I was falling apart.
 
 → Stop declining. Start restoring.
 
@@ -180,66 +245,70 @@ Stop chasing spikes. Raise your baseline.
 
 ---
 
-### Creative 1: B3C1 — "The Supplement Graveyard"
+### Creatives 1-3: NATIVE CAMOUFLAGE CREATIVES
 
-**Ad Name:** `B3C1_Graveyard_12Brands`
-**Testing:** Whether a visual "graveyard of supplements I've tried" resonates with burned buyers
-**Format:** Overhead shot of abandoned supplement bottles with one Baseline bottle standing apart
+> **All 3 creatives must look like organic content, not ads.** No branded Baseline bottles. No logo bars. No brand typography. The skeptic audience will scroll past anything that looks like a supplement ad — these must pass the "would a real person post this?" test.
+
+#### Creative 1: B3C1 — "The Supplement Graveyard"
+
+**Ad Name:** `B3C1_Native_Graveyard`
+**Testing:** Whether a raw overhead photo of abandoned supplements creates instant recognition for burned buyers
+**Format:** Looks like someone photographed their own supplement cabinet/drawer — messy, real, unbranded
 
 **Nano Banana Pro Prompt (Custom):**
-> Overhead flat-lay photography of 10-12 various supplement bottles scattered across a white marble countertop — different sizes, colors, brands, some with lids off, some half-empty, a few capsules scattered loosely. The bottles look used and abandoned. One single clean teal bottle (Hex: #0C3B3F) with copper cap sits separate from the clutter in the bottom-right corner, upright and pristine, with two capsules placed neatly beside it. The composition should feel like chaos vs clarity, past vs present. Shot from directly above, soft studio lighting, clean shadows. Photorealistic, 8K.
+> Overhead smartphone photograph of a messy bathroom cabinet shelf or kitchen drawer filled with various supplement bottles — different sizes, colors, some with lids off, some half-empty, a few capsules spilled loosely. The bottles look used, forgotten, and accumulated over time. Realistic brands-removed generic bottles. The composition should feel cluttered and defeated — like someone opened their cabinet and thought "none of this worked." Shot from directly above with smartphone camera, slightly uneven lighting (bathroom or kitchen light), not styled. Authentic, messy, real. No text, no branding, no standout bottle.
 
 **Canva Edit Steps:**
-1. Upload AI-generated flat-lay image
-2. Top text: "After 12 supplements that did nothing." — Plus Jakarta Sans 500, 22pt, Near Black (#1A1A1A)
-3. Bottom text: "I found one that did." — Cormorant Garamond 500 Italic, 28pt, Teal Deep (#0C3B3F)
-4. Corner: "BASELINE NMN" — Plus Jakarta Sans 600, 12pt, letterspaced
-5. 1080×1080px
+1. Upload AI-generated cabinet photo. No branded edits.
+2. NO text overlays. NO branding. NO Baseline bottle in the image.
+3. The image shows the problem (supplement graveyard). The body copy introduces the solution.
+4. 1080×1080px. Should look like someone opened their cabinet, snapped a photo, and posted "I'm done with all of this."
 
 ---
 
-### Creative 2: B3C2 — "The Skeptic's Timeline"
+#### Creative 2: B3C2 — "The Skeptic's Timeline"
 
-**Ad Name:** `B3C2_Timeline_WeekByWeek`
+**Ad Name:** `B3C2_Native_Timeline`
 **Testing:** Whether a text-based personal timeline builds curiosity through delayed payoff
-**Format:** Clean timeline on cream background — skepticism fading into belief
+**Format:** Looks like someone typed out their experience in a Notes app or social post
 
 **Nano Banana Pro Prompt:**
 > N/A — Text-only creative designed in Canva
 
 **Canva Edit Steps:**
-1. Background: Cream (#F5F0E8), 1080×1080px
-2. Top: "My NMN timeline:" — Plus Jakarta Sans 500, 18pt, text-secondary (#5A5550)
-3. Timeline entries, left-aligned, generous line spacing (2.0):
-   - "Week 1: Nothing. Told you." — Plus Jakarta Sans 400, 24pt, Near Black, 50% opacity
-   - "Week 2: Still nothing." — same styling, 50% opacity
-   - "Week 3: ...wait." — Plus Jakarta Sans 500, 24pt, Near Black, 80% opacity
-   - "Week 6: OK. I was wrong." — Cormorant Garamond 600, 32pt, Teal Deep (#0C3B3F), 100% opacity
-4. Below: thin Copper (#C07840) hairline
-5. Bottom: "BASELINE NMN" — Plus Jakarta Sans 600, 12pt, Teal Deep, letterspaced 0.15em
-6. 1080×1080px. The visual progression from faded → bold should feel like skepticism → belief.
+1. Background: White (#FFFFFF), 1080×1080px
+2. Top: Small grey avatar circle, 40px + "6h" timestamp — Plus Jakarta Sans 400, 12pt, #999999
+3. Main text, left-aligned, 60px side padding, generous line spacing (2.0):
+   - "My NMN timeline:" — Plus Jakarta Sans 400, 18pt, #888888
+   - "Week 1: Nothing. Told you." — Plus Jakarta Sans 400, 22pt, #AAAAAA
+   - "Week 2: Still nothing." — same styling, #AAAAAA
+   - "Week 3: ...wait." — Plus Jakarta Sans 500, 22pt, #555555
+   - "Week 6: OK. I was wrong." — Plus Jakarta Sans 500, 24pt, Near Black (#1A1A1A)
+4. NO branding. NO logos. NO brand fonts. Looks like someone typed this on Facebook.
+5. 1080×1080px. The visual progression from faded → dark text should feel like skepticism → belief.
 
 ---
 
-### Creative 3: B3C3 — "Honest Review" Native Post
+#### Creative 3: B3C3 — "Honest Review Post"
 
-**Ad Name:** `B3C3_NativePost_HonestReview`
-**Testing:** Whether a native/organic-looking post format outperforms polished designs for skeptics
-**Format:** Looks like someone's organic social media post — raw and honest
+**Ad Name:** `B3C3_Native_HonestReview`
+**Testing:** Whether a native review-style post outperforms the other formats for skeptics
+**Format:** Looks like someone's honest social media post — raw text, no design
 
 **Nano Banana Pro Prompt:**
 > N/A — Text-only native post format
 
 **Canva Edit Steps:**
-1. Background: Cream (#F5F0E8), 1080×1080px
-2. Top: Small circular avatar placeholder (teal circle with "B" initial), 48px + "Baseline" — Plus Jakarta Sans 600, 14pt, Near Black
-3. Main text:
-   - "Honest review from someone who's been burned by supplements before:" — Plus Jakarta Sans 400, 22pt, Near Black
-4. Below: "I almost didn't try this. I'm glad I did." — Cormorant Garamond 500 Italic, 28pt, Teal Deep (#0C3B3F)
-5. Below: thin Copper hairline
-6. Below line: "NMN restored what 12 other supplements couldn't." — Plus Jakarta Sans 300, 16pt, text-secondary (#5A5550)
-7. Bottom: "Read more →" in Copper (#C07840), 14pt
-8. 1080×1080px. Should look like a friend's honest post, not an ad.
+1. Background: White (#FFFFFF), 1080×1080px
+2. Top: Small grey avatar circle, 40px + generic name placeholder + "2d" — Plus Jakarta Sans 400, 12pt, #999999
+3. Main text, left-aligned, 60px side padding:
+   - "Honest review from someone who's been burned by supplements before:" — Plus Jakarta Sans 400, 20pt, Near Black
+4. Below, after 20px gap:
+   - "I almost didn't try this. I'm glad I did." — Plus Jakarta Sans 400, 22pt, Near Black
+5. Below, after 24px gap:
+   - "NMN restored what 12 other supplements couldn't." — Plus Jakarta Sans 400, 18pt, #5A5550
+6. NO brand avatar. NO teal circles. NO brand fonts. NO copper accents. Looks like a real person's post.
+7. 1080×1080px.
 
 ---
 
@@ -322,36 +391,88 @@ This isn't another promise. It's a precursor to a molecule you're measurably low
 
 ---
 
-### Creatives 1-3: USE FROM Baseline_Batches_1-5.md
+### Creatives 1-3: NATIVE CAMOUFLAGE CREATIVES
 
-B4C1 (Avatar Call Out — tired parent on bench), B4C2 (Ideal Outcome — Playing with Kids), and B4C3 ("Too Tired to Play Catch" Bold Text) are emotion-driven visuals with no product-specific claims. No changes needed.
+> **All 3 creatives must look like organic social media content, not ads.** No product shots. No branded layouts. No logo bars. These are camouflage — the reader should feel like a real parent posted this.
+
+#### Creative 1: B4C1 — "Candid Bench Photo"
+
+**Ad Name:** `B4C1_Native_BenchPhoto`
+**Testing:** Whether a raw, candid-looking photo with no text overlays stops the scroll through emotional recognition
+**Format:** Looks like someone posted a candid photo from the park — no text overlays, no branding
+
+**Nano Banana Pro Prompt (Custom):**
+> Candid, unposed smartphone photograph of a parent sitting on a wooden park bench, slightly slumped, coffee cup in one hand, phone in the other, staring into the middle distance. In the blurred background, young children are playing on playground equipment. Late afternoon light, warm but not golden-hour polished — more like a real 5:30pm weekday. The parent looks tired but not depressed — just empty, like they want to be out there but can't get up. Shot at smartphone focal length (26-28mm equivalent), slightly off-center framing like someone quickly snapped this. Natural skin tones, no color grading, no filters. The photo should feel like it was taken by a spouse or friend, not a photographer. Authentic, raw, photojournalistic. No text, no logos, no product.
+
+**Canva Edit Steps:**
+1. Upload AI-generated photo. No edits.
+2. NO text overlays. NO branding. NO logos. NO product.
+3. The image IS the ad. The body copy in the text field does all the selling.
+4. 1080×1080px. Crop to feel like a casual square photo someone posted.
 
 ---
 
-### Body Copy 1 (Native/Camouflage — Letter Format, 195 words)
+#### Creative 2: B4C2 — "Text Post — Maybe Later"
 
-> **Placement:** Native/camouflage ads only. Pair with B4C3 (Bold Text) or organic-looking creatives.
+**Ad Name:** `B4C2_Native_MaybeLater`
+**Testing:** Whether a raw text confession format generates more engagement than imagery
+**Format:** Looks like a parent's honest Facebook post — text only, no imagery
+
+**Nano Banana Pro Prompt:**
+> N/A — Text-only native post format
+
+**Canva Edit Steps:**
+1. Background: White (#FFFFFF), 1080×1080px
+2. Top: Small circular avatar placeholder (grey circle, generic initial), 40px + "3h" timestamp — Plus Jakarta Sans 400, 12pt, #999999
+3. Main text, left-aligned, 60px side padding:
+   - "My daughter asked me to take her to the park." — Plus Jakarta Sans 400, 24pt, Near Black (#1A1A1A)
+   - "" — 16px gap
+   - "I said maybe later." — Plus Jakarta Sans 400, 24pt, Near Black
+   - "" — 16px gap
+   - "She stopped asking." — Plus Jakarta Sans 500, 24pt, Near Black
+4. Below, after 40px gap:
+   - "That was six weeks ago. Things are different now." — Plus Jakarta Sans 400, 18pt, #5A5550
+5. NO branding. NO logos. NO product. Looks like a real parent's confession post.
+6. 1080×1080px.
+
+---
+
+#### Creative 3: B4C3 — "Fridge Drawing Photo"
+
+**Ad Name:** `B4C3_Native_FridgeDrawing`
+**Testing:** Whether an intimate, personal photo creates curiosity and emotional pull
+**Format:** Looks like a parent photographed their kid's drawing on the fridge
+
+**Nano Banana Pro Prompt (Custom):**
+> Close-up smartphone photograph of a child's crayon drawing stuck to a refrigerator with a magnet. The drawing shows two stick figures — one big, one small — holding hands outdoors (green scribble grass, yellow circle sun, blue sky). Above the figures the child has written in wobbly handwriting: "me and daddy at the park." The drawing is on white paper, slightly crinkled. The fridge is stainless steel or white. A few other magnets and papers visible at the edges. The lighting is kitchen fluorescent — warm but not styled. Shot at smartphone distance, slightly off-angle like a quick snap. Authentic, intimate, not polished. No text overlays, no branding.
+
+**Canva Edit Steps:**
+1. Upload AI-generated fridge drawing photo. No edits.
+2. NO text overlays. NO branding. NO logos.
+3. The drawing tells the story. The body copy in the text field explains it.
+4. 1080×1080px. Crop to feel like a parent snapped a photo of the fridge.
+
+---
+
+### Body Copy 1 (Native/Camouflage — 215 words)
+
+> **Placement:** Native/camouflage ads only. Pair with B4C1, B4C2, or B4C3 — all native creatives.
 >
-> **Format: Open Letter.** The Exhausted Parent doesn't need education — they already know they're depleted. What they need is to feel seen. The letter format ("To the parent sitting on the bench...") creates an instant moment of recognition: someone is speaking directly to me. It skips the slow narrative build and goes straight to emotional identification, which is the right move for an avatar driven by guilt, not curiosity. The "I was you" opening collapses the distance between writer and reader immediately.
+> **Format: Camouflage Ad (Origins 10-Section Structure).** Hook → Pain → Failure Montage → Authority Figure (wife sent an article) → Discovery → Mechanism → Skeptical Purchase → Day-by-Day → Validation → CTA. Entry point is parental guilt — the most emotionally intense hook across all batches. Discovery mechanism is wife/partner sharing an article, differentiating from B1 (2am research) and B3 (brother-in-law biochemist).
 
-To the parent sitting on the bench while their kids play:
+Last Saturday my daughter asked me to take her to the park. I said maybe later. She stopped asking.
 
-I was you. Not lazy. Not checked out. Just empty by 5pm. Every single day.
+That was my moment. Not a health scare. Not a doctor's warning. A six-year-old who learned that "maybe later" means no.
 
-Last Saturday my daughter asked me to take her to the park. I said maybe later. She stopped asking. That was the moment I knew something had to change.
+I wasn't lazy. I was empty. I'd get home from work and have nothing left. Weekends were supposed to be family time but they felt like recovery time. I'd sit on the couch while my kids played in the other room, feeling guilty but too exhausted to move.
 
-Here's what I learned:
+I tried sleeping more. Tried eating cleaner. Tried forcing myself to be more present. None of it worked because none of it addressed why I was depleted in the first place.
 
-Your cells run on a molecule called NAD+. By your 40s, you produce significantly less of it. That's not a theory — it's measurable. And it explains why willpower, sleep, and clean eating weren't enough. The tank was genuinely empty.
+My wife sent me an article about NAD+ — a molecule your cells need to produce energy. By your 40s, levels drop significantly. Everything still runs — just slower, harder, emptier. Especially by 5pm.
 
-NMN is what your body converts into NAD+. Not caffeine. Not another supplement promise. The actual cellular fuel you're running low on.
-
-Week three on Baseline NMN: I stopped dreading evenings.
-Week six: I took my daughter to the park on a Wednesday. After work. Without thinking about it.
+I started taking Baseline NMN. Not expecting much. By week three, I wasn't dragging through evenings anymore. By week six, I took my daughter to the park on a Wednesday. After work. Without thinking about it.
 
 She didn't say anything. She just grabbed my hand and ran to the swings.
-
-You're not a bad parent. You're a depleted one.
 
 → Be the parent who says yes.
 
