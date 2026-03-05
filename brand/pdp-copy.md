@@ -4,15 +4,42 @@ Soft launch 10-1 product. All copy mapped to Shrine Pro theme sections.
 
 ---
 
+## SEO Metadata
+
+**Page Title Tag (under 60 chars):**
+Baseline NMN | Pure NMN Supplement — 500mg, 60 Capsules
+
+**Meta Description (under 160 chars):**
+99%+ pure NMN supplement, enzymatic synthesis, independently tested every batch. 500mg clinical dose. Support healthy NAD+ levels. Subscribe and save.
+
+**H1 (Product Title — Shopify):**
+Baseline NMN — Pure NMN Supplement, 500mg, 60 Capsules
+
+**Target Keywords:**
+- Primary: NMN supplement, buy NMN supplement
+- Secondary: NAD+ supplement, pure NMN capsules, best NMN supplement
+- Long-tail: NMN supplement 500mg, third party tested NMN, enzymatic NMN supplement
+
+**Schema Markup Notes (for Shopify implementation):**
+- **Product schema:** Shopify handles this automatically — ensure product title, description, price ($49-$55), availability (in stock), and brand (Baseline) are populated.
+- **FAQ schema:** Implement FAQPage structured data on the FAQ section (Section 8). This can win featured snippets for queries like "is NMN safe," "how long does NMN take to work," and "NMN vs NAD supplement." Use a Shopify app (e.g., JSON-LD for SEO) or add manually to the theme's product template.
+- **AggregateRating schema:** Once real reviews are collected, add AggregateRating to the Product schema for star ratings in search results. Do NOT add this with placeholder reviews.
+
+---
+
 ## Section 1: Hero
 
-### Product Title
+### Product Title (H1)
 
-Baseline NMN
+Baseline NMN — Pure NMN Supplement, 500mg, 60 Capsules
 
 ### Subtitle / Short Description
 
-Support your body's natural cellular energy with pure NMN. 99%+ purity, enzymatic synthesis, independently tested every batch.
+Support your body's natural cellular energy with pure NMN. Not a stimulant — a foundation. 99%+ purity, enzymatic synthesis, independently tested every batch.
+
+### Who It's For (Small Text Below Subtitle)
+
+For adults 40+ who want to support their cellular health with real science, not hype.
 
 ### Price Display
 
@@ -38,12 +65,22 @@ Take 2 capsules daily with or without food, preferably in the morning. NMN works
 
 Free shipping on all orders. Ships within 1-2 business days. 30-day money-back guarantee — if you're not happy, we'll refund you. No hoops.
 
+### Hero CTA Button
+
+**[Try Baseline NMN]**
+
+**Note:** Hero CTA is soft — no price. Cold traffic from Meta ads hasn't read the page yet. Price CTAs appear in Sections 6 and 7 after the visitor is educated and trusting. Reduces sticker shock and bounce rate from paid traffic.
+
 ### Trust Strip (Below Add to Cart)
 
 - 99%+ Pure
 - 3rd-Party Tested
 - 500mg Clinical Dose
 - 30-Day Guarantee
+
+### Authority Line (Below Trust Strip, Small Text)
+
+Based on published human NAD+ research. Every batch tested by an independent US laboratory.
 
 ---
 
@@ -101,7 +138,7 @@ NMN isn't a stimulant. It supports what your body already makes — but produces
 
 ### Image/Card 3 — Lifestyle / Energy
 
-**Caption:** Higher NAD+ levels are associated with healthy cellular function. People who supplement with NMN commonly report sustained energy, sharper focus, and better recovery. Not a spike — a higher baseline.
+**Caption:** Higher NAD+ levels are associated with healthy cellular function. People who supplement with NMN commonly report sustained energy, sharper focus, and better daily performance. Not a spike and crash — a higher baseline.
 
 ### Bullet Points (Alongside Carousel)
 
@@ -238,6 +275,10 @@ Not all NMN is created equal. Here's what you're actually getting.
 | **Published test results** | No | Rarely | **Yes** |
 | **Price** | $15-25 | $50-80 | **$49/mo subscribe** |
 
+### What This Means for You
+
+Budget NMN is a gamble — you don't know what's in the bottle, and at those doses, it may not matter. Other premium brands make claims but rarely prove them. Baseline costs less than most premium brands and backs every claim with independent lab results. You're not paying more for marketing. You're paying for what's actually inside.
+
 ### CTA Below Table
 
 **[Get Baseline NMN — $49/mo]**
@@ -268,7 +309,7 @@ Every order ships free. Subscription or one-time. No minimum. Delivered to your 
 
 **Stop Guessing. Start Supporting Your Cells.**
 
-Every year, your body produces less NAD+. NMN supports your body's ability to make more. 99%+ pure. Clinically dosed. Independently tested. One ingredient. No guesswork.
+Every year, your body produces less NAD+. NMN supports your body's ability to make more. Not another stimulant. Not another spike and crash. Just the raw material your cells have been missing. 99%+ pure. Clinically dosed. Independently tested.
 
 **[Get Baseline NMN — $49/mo]**
 
@@ -320,6 +361,8 @@ Subscribe and save $6/month ($49 vs $55). Your order ships automatically every 3
 
 We recommend taking 2 capsules in the morning, with or without food. Some people find that taking NMN later in the day may affect their sleep, since it supports cellular energy production. Morning dosing lets you get the benefit throughout the day.
 
+**Implementation note:** Implement FAQPage schema markup on this section. This qualifies for Google's FAQ rich results and can capture featured snippets for high-value queries like "is NMN safe" and "how long does NMN take to work." Use a Shopify SEO app or add JSON-LD directly to the product template.
+
 ---
 
 ## FDA Disclaimer
@@ -354,6 +397,7 @@ Join the List
 - Address the skeptic, not the believer — assume the reader has been burned before
 - "We prove it" over "trust us"
 - Benefits in customer language: "my energy got more consistent," "my baseline went up," "I feel more present"
+- Thread "restoration not stimulation" identity throughout — this is the core positioning that differentiates Baseline from every energy supplement and every NMN competitor
 
 **What's intentionally NOT in this copy:**
 - No QR-to-COA references (not in soft launch)
@@ -394,6 +438,13 @@ This section documents language decisions made for Meta (Facebook/Instagram) adv
 - Reviews must not contain specific medical symptom claims (brain fog, insomnia, chronic fatigue)
 - Educational science claims (NAD+ declines with age) are generally safe when qualified
 - Structure/function claims ("supports cellular energy production") are compliant; disease claims ("prevents age-related decline") are not
+
+**Landing page quality factors for Meta ads:**
+- Hero includes early social proof signals (authority line, trust strip) — improves landing page quality score
+- Hero CTA is soft ("Try Baseline NMN") not price-forward — reduces bounce from cold traffic
+- Price CTAs reserved for Sections 6-7 where visitor is educated — better conversion path for paid traffic
+- "Who it's for" line improves ad-to-page message match when targeting 40+ demographics
+- FAQ section with structured data improves page quality signals for Meta's crawler
 
 **CPM impact:** Meta's ad review AI scans landing pages, not just ad creative. Flagged health claims on the PDP can increase CPMs even if the ad itself is clean. These changes protect both the ad approval rate and the landing page quality score.
 
