@@ -8,11 +8,11 @@ Soft launch 10-1 product. All copy mapped to Shrine Pro theme sections.
 
 ### Product Title
 
-Baseline NMN — Pure Nicotinamide Mononucleotide
+Baseline NMN
 
 ### Subtitle / Short Description
 
-Restore the cellular energy your body has been losing since your 30s. 99%+ pure NMN, enzymatic synthesis, independently tested every batch.
+Support your body's natural cellular energy with pure NMN. 99%+ purity, enzymatic synthesis, independently tested every batch.
 
 ### Price Display
 
@@ -32,11 +32,11 @@ Restore the cellular energy your body has been losing since your 30s. 99%+ pure 
 
 ### Collapsible Row 2: How to Take
 
-Take 2 capsules daily with or without food, preferably in the morning. NMN works best with consistent daily use — most people notice changes within 2-4 weeks.
+Take 2 capsules daily with or without food, preferably in the morning. NMN works best with consistent daily use — most people report noticing a difference within 2-4 weeks.
 
 ### Collapsible Row 3: Shipping & Returns
 
-Free shipping on all orders. Ships within 1-2 business days. 30-day money-back guarantee — if you're not satisfied, we'll refund you. No hoops.
+Free shipping on all orders. Ships within 1-2 business days. 30-day money-back guarantee — if you're not happy, we'll refund you. No hoops.
 
 ### Trust Strip (Below Add to Cart)
 
@@ -55,7 +55,7 @@ How It Works
 
 ### Section Subheadline
 
-Three steps. Real science. No gimmicks.
+One molecule. Three steps.
 
 ### Step 1
 
@@ -67,13 +67,13 @@ Three steps. Real science. No gimmicks.
 
 **Your Body Converts NMN into NAD+**
 
-NMN is a direct precursor to NAD+ — the molecule your cells need to produce energy, repair DNA, and maintain themselves. Your body absorbs the NMN and converts it into NAD+ inside your cells.
+NMN is a direct precursor to NAD+ — the molecule your cells use to produce energy, maintain DNA, and keep themselves running. Your body absorbs the NMN and converts it into NAD+ inside your cells.
 
 ### Step 3
 
 **Your Cells Get Their Fuel Back**
 
-With NAD+ restored, your cells can produce energy, repair damage, and function the way they did when you were younger. Not a stimulant spike. A higher baseline.
+With NAD+ levels supported, your cells can produce energy and maintain themselves the way they're designed to. Not a stimulant spike. A higher baseline.
 
 ### Footer Note (Small Text Below Steps)
 
@@ -85,28 +85,28 @@ That's it. No proprietary blend to decode. No 12-ingredient stack to research. O
 
 ### Section Headline
 
-The Science You Can Feel
+The Science Behind NAD+
 
 ### Section Subheadline
 
-NMN isn't a stimulant. It restores what your body already makes — but has been losing since your 30s.
+NMN isn't a stimulant. It supports what your body already makes — but produces less of as you age.
 
 ### Image/Card 1 — NAD+ Decline Visual
 
-**Caption:** By age 50, your NAD+ levels have dropped by half. NAD+ powers every cell in your body — energy production, DNA repair, cellular maintenance. When it drops, you feel it.
+**Caption:** NAD+ levels naturally decline with age — research shows they can drop by as much as 50% between your 30s and 60s. NAD+ is involved in hundreds of cellular processes, including energy production and DNA maintenance. When levels drop, your cells have less to work with.
 
 ### Image/Card 2 — NMN Molecule / Capsule Shot
 
-**Caption:** NMN is what your body uses to make more NAD+. It's not synthetic energy. It's the raw material your cells need to refuel themselves naturally.
+**Caption:** NMN is a natural precursor your body uses to produce NAD+. Supplementing with NMN supports your body's own NAD+ production — giving your cells more of the raw material they need.
 
 ### Image/Card 3 — Lifestyle / Energy
 
-**Caption:** More NAD+ means cells that work like they used to. Sustained energy. Sharper focus. Faster recovery. Not a spike — a higher baseline.
+**Caption:** Higher NAD+ levels are associated with healthy cellular function. People who supplement with NMN commonly report sustained energy, sharper focus, and better recovery. Not a spike — a higher baseline.
 
 ### Bullet Points (Alongside Carousel)
 
-- Replenishes declining NAD+ levels at the cellular level
-- Supports natural energy production — no caffeine, no crash
+- Supports your body's natural NAD+ production
+- Promotes healthy cellular energy — no caffeine, no crash
 - Backed by published human clinical research
 - One ingredient, clinically dosed, independently tested
 
@@ -126,25 +126,25 @@ In a market full of empty promises, we chose proof over hype.
 
 **99%+ Purity, Enzymatic Synthesis**
 
-Most cheap NMN is produced through chemical synthesis — a process that can leave residual solvents and impurities. Baseline uses enzymatic synthesis, a cleaner biological process that mirrors how NMN is made in nature. The result: pharmaceutical-grade purity your body can actually use.
+Enzymatic synthesis mirrors how NMN is produced in nature — cleaner than chemical synthesis, with fewer impurities and better bioavailability.
 
 ### Benefit Block 2 — Testing Icon
 
 **Every Batch Independently Tested**
 
-Every single production batch is tested by a US-based independent lab — not our own lab, not the manufacturer's lab. Purity, potency, heavy metals, microbial contamination. All verified. What's on the label is what's in the bottle.
+Every production batch is tested by a US-based independent lab. Purity, potency, heavy metals, microbial contamination — all verified. What's on the label is what's in the bottle.
 
 ### Benefit Block 3 — Dosing Icon
 
 **500mg Clinical Dose**
 
-A lot of NMN brands sell 125mg or even 50mg capsules to hit a lower price point. That's not enough to move the needle. Baseline delivers 500mg daily — the dose used in published human NMN research. This is what the science is actually based on.
+Not 50mg. Not 125mg. 500mg daily — the dose used in published human NMN research. This is what the science is actually based on.
 
 ### Benefit Block 4 — Clean Formula Icon
 
 **No Fillers. No Proprietary Blends.**
 
-One ingredient: NMN. The full formula is on the label — no hidden blends, no filler ingredients, no "bonus compounds" padding out the capsule. Every milligram is NMN. Every milligram is accounted for.
+One ingredient: NMN. The full formula is on the label. Every milligram is NMN. Every milligram is accounted for.
 
 ---
 
@@ -160,7 +160,7 @@ What Customers Are Saying
 
 Rating: 5 stars
 
-"I have a rule — if I can't verify what's in it, I don't take it. Baseline passed every test I threw at it. Two months in, my afternoon crashes are gone. Not a jolt of energy — more like my normal came back. This is the first supplement I've reordered in years."
+"I have a rule — if I can't verify what's in it, I don't take it. Baseline passed every test I threw at it. Two months in, my afternoon energy is noticeably more consistent. Not a jolt — more like my normal came back. This is the first supplement I've reordered in years."
 
 — *David R., 54*
 
@@ -170,7 +170,7 @@ Rating: 5 stars
 
 Rating: 5 stars
 
-"One ingredient. Real dose. Independent testing. That's all I wanted. Every other NMN brand has some proprietary blend or 8-ingredient stack trying to justify their price. Baseline is just... honest. And it works. I wake up feeling like I actually slept."
+"One ingredient. Real dose. Independent testing. That's all I wanted. Every other NMN brand has some proprietary blend or 8-ingredient stack trying to justify their price. Baseline is just... honest. And I'm waking up feeling like I actually slept."
 
 — *Karen M., 48*
 
@@ -180,27 +180,27 @@ Rating: 5 stars
 
 Rating: 5 stars
 
-"I tried two other NMN brands from Amazon — felt nothing. Wrote off NMN entirely. My daughter convinced me to try Baseline because of the third-party testing. Six weeks in and I genuinely feel different. More energy, better recovery after workouts. I think the other brands were just... nothing."
+"I tried two other NMN brands from Amazon — noticed nothing. Wrote off NMN entirely. My daughter convinced me to try Baseline because of the independent testing. Six weeks in and I genuinely feel like I have more in the tank. I think the other brands were just... nothing."
 
 — *Robert T., 61*
 
-### Review 4 — Recovery / Fitness
+### Review 4 — Honest / Pratfall
 
-**"My recovery time cut in half"**
+**"Took a few weeks, but I'm glad I stuck with it"**
 
-Rating: 5 stars
+Rating: 4 stars
 
-"I work out 4-5 days a week and the soreness was getting worse every year. Started Baseline about 6 weeks ago. The difference in recovery is noticeable. I'm not dragging for two days after leg day anymore. Subtle but real."
+"I'll be honest — I didn't notice anything the first two weeks and almost gave up. But around week three something shifted. My energy through the afternoon got more consistent and I stopped reaching for that second coffee. It's not dramatic, it's subtle. But it's real. Only reason for 4 stars is I wish it kicked in faster."
 
-— *James L., 47*
+— *Mark P., 50*
 
 ### Review 5 — Mental Clarity
 
-**"The brain fog finally lifted"**
+**"I can actually focus through the afternoon now"**
 
 Rating: 5 stars
 
-"I didn't expect a supplement to help with mental clarity, but here we are. About three weeks in, the fog I'd been living with for years started clearing. I can focus through the afternoon without that wall hitting me. My wife noticed before I did."
+"About three weeks in, the afternoon wall I'd been hitting for years started to ease. I can focus through meetings without fading out. My wife noticed before I did — said I seemed more 'present.' Subtle but unmistakable."
 
 — *Michael S., 52*
 
@@ -228,7 +228,7 @@ See How Baseline Compares
 
 Not all NMN is created equal. Here's what you're actually getting.
 
-| Feature | Cheap Amazon NMN | Other Premium Brands | **Baseline** |
+| Feature | Budget NMN | Other Premium Brands | **Baseline** |
 |---|---|---|---|
 | **Purity** | Unknown / untested | Claims 99% | **99%+ verified** |
 | **Synthesis method** | Chemical (residual solvents) | Varies / undisclosed | **Enzymatic (clean)** |
@@ -240,7 +240,7 @@ Not all NMN is created equal. Here's what you're actually getting.
 
 ### CTA Below Table
 
-Add to Cart — $49/mo
+**[Get Baseline NMN — $49/mo]**
 
 ---
 
@@ -250,13 +250,13 @@ Add to Cart — $49/mo
 
 **30-Day Money-Back Guarantee**
 
-Try it for a full month. If you don't feel a difference, email us and we'll refund you. No return shipping. No restocking fees. No 47-question survey. We'd rather lose a sale than keep a customer who isn't happy.
+Try it for a full month. If you're not happy with it, email us and we'll refund you. No return shipping. No restocking fees. No 47-question survey. We'd rather lose a sale than keep a customer who isn't satisfied.
 
 ### Bonus / Value Block 1
 
 **Subscribe & Save $6/Month**
 
-$49/month instead of $55. Ships automatically. Skip, pause, or cancel anytime with one click. No commitments. No fine print.
+$49/month instead of $55. Ships automatically. Skip, pause, or cancel anytime with one click. You've already decided to invest in your health — we just make it easy to stay consistent.
 
 ### Bonus / Value Block 2
 
@@ -266,11 +266,11 @@ Every order ships free. Subscription or one-time. No minimum. Delivered to your 
 
 ### Right Column CTA
 
-**Stop Guessing. Start Restoring.**
+**Stop Guessing. Start Supporting Your Cells.**
 
-Your cells lose NAD+ every year. NMN puts it back. 99%+ pure. Clinically dosed. Independently tested. One ingredient. No guesswork.
+Every year, your body produces less NAD+. NMN supports your body's ability to make more. 99%+ pure. Clinically dosed. Independently tested. One ingredient. No guesswork.
 
-**[Add to Cart — $49/mo]**
+**[Get Baseline NMN — $49/mo]**
 
 ---
 
@@ -284,13 +284,13 @@ Frequently Asked Questions
 
 Everything you need to know before you order.
 
-### Q: How long until I feel results?
+### Q: How long until I notice a difference?
 
-Most people notice changes within 2-4 weeks of consistent daily use. The most commonly reported early benefits are sustained energy and better sleep quality. NMN works at the cellular level, so the effects build over time — it's not an instant stimulant hit. Some benefits (like recovery and cognitive clarity) become more noticeable at the 4-8 week mark.
+Most people report noticing changes within 2-4 weeks of consistent daily use. The most commonly reported early benefits are more consistent energy and improved sleep quality. NMN works at the cellular level, so the effects build over time — it's not a stimulant. Some benefits (like recovery and focus) become more noticeable around the 4-8 week mark.
 
 ### Q: Is NMN safe?
 
-NMN has been extensively studied in both animal and human clinical trials. It is generally recognized as safe at the doses used in research (250-500mg daily). NMN is also a naturally occurring molecule — your body already produces it. As with any supplement, consult your doctor if you have specific health conditions or take prescription medications.
+NMN has been studied in both animal and human clinical trials and has a strong safety profile at the doses used in research (250-500mg daily). NMN is also a naturally occurring molecule — your body already produces it. As with any supplement, consult your doctor if you have specific health conditions or take prescription medications.
 
 ### Q: How is Baseline different from other NMN brands?
 
@@ -298,7 +298,7 @@ Three things. First, purity — our NMN is 99%+ pure, produced through enzymatic
 
 ### Q: I tried NMN before and it didn't work. Why would this be different?
 
-Independent testing has shown that a significant percentage of NMN products sold online contain far less NMN than labeled — some contain almost none. If you tried a cheap or unverified NMN product and felt nothing, the problem may not have been NMN itself. It may have been what was actually in the bottle. Baseline is independently tested every batch so you know you're getting what the label says.
+Independent testing has shown that a significant percentage of NMN products sold online contain far less NMN than labeled — some contain almost none. If you tried a cheap or unverified NMN product and noticed nothing, the issue may not have been NMN itself — it may have been what was actually in the bottle. Baseline is independently tested every batch so you know you're getting what the label says.
 
 ### Q: What if it doesn't work for me?
 
@@ -310,7 +310,7 @@ Yes. NMN is commonly taken alongside other supplements. Some people pair it with
 
 ### Q: Why is Baseline $49-55 when some NMN brands are $15-20?
 
-Because the cheap ones are cutting corners you can't see. Chemical synthesis instead of enzymatic. No independent testing. Underdosed capsules. Proprietary blends that hide how much NMN you're actually getting. Baseline costs more because real purity, real dosing, and real testing cost more. You're paying for what's actually in the bottle — and the proof that it's there.
+Because the cheaper options cut corners you can't see. Chemical synthesis instead of enzymatic. No independent testing. Underdosed capsules. Proprietary blends that hide how much NMN you're actually getting. Baseline costs more because real purity, real dosing, and real testing cost more. You're paying for what's actually in the bottle — and the proof that it's there.
 
 ### Q: How does the subscription work?
 
@@ -318,7 +318,15 @@ Subscribe and save $6/month ($49 vs $55). Your order ships automatically every 3
 
 ### Q: When should I take it?
 
-We recommend taking 2 capsules in the morning, with or without food. Some people find that taking NMN later in the day can make it harder to fall asleep, since it supports cellular energy production. Morning dosing gives you the benefit throughout the day.
+We recommend taking 2 capsules in the morning, with or without food. Some people find that taking NMN later in the day may affect their sleep, since it supports cellular energy production. Morning dosing lets you get the benefit throughout the day.
+
+---
+
+## FDA Disclaimer
+
+*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.*
+
+**Placement:** Below the FAQ section, above the email subscribe footer. Standard small text, visible but not prominent. This is required on all supplement PDPs.
 
 ---
 
@@ -334,7 +342,7 @@ Join our list for NAD+ research, longevity science, and honest answers about wha
 
 ### CTA Button Text
 
-Sign Up
+Join the List
 
 ---
 
@@ -345,15 +353,48 @@ Sign Up
 - Science-backed but readable — aim for 6th-8th grade reading level in customer-facing copy
 - Address the skeptic, not the believer — assume the reader has been burned before
 - "We prove it" over "trust us"
-- Benefits in customer language: "feel like I did 10 years ago," "my baseline went up," "the fog lifted"
+- Benefits in customer language: "my energy got more consistent," "my baseline went up," "I feel more present"
 
 **What's intentionally NOT in this copy:**
 - No QR-to-COA references (not in soft launch)
-- No anti-aging miracle claims
+- No anti-aging miracle claims or "reverse aging" language
 - No celebrity endorsements or influencer language
 - No "proprietary" anything — the whole point is radical transparency
 - No urgency/scarcity tactics (limited stock, countdown timers) — trust-first brand
 
 **Placeholder content:**
-- Reviews (Section 5) are written to match avatar language from customer research. Replace with real reviews as they come in. Use these as templates for what to highlight in post-purchase review request emails.
+- Reviews (Section 5) are written to match avatar language from customer research. Replace with real reviews as they come in. Use these as templates for what to highlight/request in post-purchase review emails.
 - Product images referenced but not included — need bottle shots, capsule close-ups, lifestyle photography, and NAD+ decline infographic.
+
+---
+
+## Meta Ads Compliance Notes
+
+This section documents language decisions made for Meta (Facebook/Instagram) advertising policy compliance. If the PDP is used as a landing page for paid traffic, these matter for both ad approval and CPM.
+
+**What was changed and why:**
+
+| Original Copy | Issue | Revised Copy |
+|---|---|---|
+| "Restore the cellular energy" | "Restore" implies reversing a health condition — health claim | "Support your body's natural cellular energy" |
+| "function the way they did when you were younger" | Implies reversing aging — before/after health claim | "maintain themselves the way they're designed to" |
+| "The brain fog finally lifted" (review) | "Brain fog" is a medical symptom — health claim trigger | Replaced with "I can actually focus through the afternoon now" |
+| "My recovery time cut in half" (review) | Specific measurable health outcome claim | Replaced with honest 4-star review (Pratfall Effect), softened language |
+| "better recovery after workouts" (review) | Specific health performance claim | "more in the tank" — subjective experience, not outcome claim |
+| "NAD+ levels have dropped by half" | Acceptable as educational statement, but softened | "can drop by as much as 50%" — qualified, not absolute |
+| "generally recognized as safe" | GRAS has specific FDA legal meaning | "has a strong safety profile" — accurate without legal implication |
+| "If you don't feel a difference" (guarantee) | Ties guarantee to health outcome | "If you're not happy with it" — satisfaction-based, not outcome-based |
+| "Restore" / "Restoring" in CTAs | "Restore" implies treating a condition | "Supporting Your Cells" — structure/function language |
+| "Replenishes declining NAD+ levels" | "Replenish" can imply treating deficiency | "Supports your body's natural NAD+ production" |
+
+**Meta policy principles applied:**
+- Use "support," "promote," "maintain" instead of "restore," "reverse," "fix," "cure"
+- Frame benefits as subjective experience ("people report...") not objective outcomes ("reduces X by Y%")
+- Avoid before/after health state implications ("feel young again" = flagged)
+- Reviews must not contain specific medical symptom claims (brain fog, insomnia, chronic fatigue)
+- Educational science claims (NAD+ declines with age) are generally safe when qualified
+- Structure/function claims ("supports cellular energy production") are compliant; disease claims ("prevents age-related decline") are not
+
+**CPM impact:** Meta's ad review AI scans landing pages, not just ad creative. Flagged health claims on the PDP can increase CPMs even if the ad itself is clean. These changes protect both the ad approval rate and the landing page quality score.
+
+**FTC compliance note:** All placeholder reviews are clearly marked as templates. When real reviews are collected, they must reflect genuine customer experiences. Fabricated testimonials violate FTC endorsement guidelines. The 4-star review template is included intentionally — mixed ratings increase consumer trust and are viewed favorably by both the FTC and review platform algorithms.
