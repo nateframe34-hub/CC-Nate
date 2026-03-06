@@ -149,6 +149,95 @@ All events blocked. You'd essentially be running blind — optimizing for impres
 
 **Option C: Adapt your campaign structure** (if classification sticks — see Part 4)
 
+**Option D: Server-side data cleansing** (technical but powerful)
+Use a middleware layer between Shopify and Meta to control exactly what data reaches Meta:
+- Tools: Server-Side Google Tag Manager (free), CustomerLabs, Able CDP, or PixelFlow
+- How it works: Intercepts your pixel/CAPI data, strips health-related product names, condition-specific URLs, and PHI-like parameters, then forwards only "safe" data to Meta
+- Instead of sending `product_name: "NMN Anti-Aging Supplement"`, send `product_name: "Daily Wellness Capsule"` or just a SKU number
+- **Critical Shopify note:** Shopify's default pixel integration automatically sends product names and categories in event payloads. If your product name contains health terms, Shopify is handing Meta the evidence to restrict you. A server-side intermediary fixes this regardless of what your product is named on the frontend.
+
+---
+
+## PART 3.5: WORKAROUND CAMPAIGN STRUCTURES (If Tier 2)
+
+Before the full adjusted campaign structure, here are three proven workarounds that successful supplement brands use under Tier 2 restrictions:
+
+### Workaround 1: Video Retargeting Funnel
+
+This is the most reliable bypass for website retargeting restrictions:
+
+```
+STEP 1: Video Awareness Campaign
+├── Objective: Engagement or Awareness
+├── Optimization: ThruPlay (15+ second views)
+├── Creative: Educational/storytelling video (not product pitch)
+├── Targeting: Broad (40+, US)
+├── Budget: 30-40% of total spend
+└── Purpose: Build a retargetable audience that Meta CAN track
+    (on-platform engagement is NOT restricted)
+
+STEP 2: Traffic Retargeting Campaign
+├── Objective: Traffic
+├── Optimization: Landing Page Views
+├── Audience: Custom audience of 50%+ video viewers from Step 1
+├── Creative: Camouflage static ads (B1, B2v2, B3) with PDP link
+├── Budget: 40-50% of total spend
+└── Purpose: Drive warm, interested traffic to your store
+
+STEP 3: Email Capture (Optional but Valuable)
+├── Objective: Lead Generation
+├── Format: Meta Instant Forms (on-platform — NOT affected by restrictions)
+├── Offer: "Find your cellular age" quiz or "Free NMN guide"
+├── Budget: 10-20% of total spend
+└── Purpose: Build first-party email list for Klaviyo conversion
+```
+
+**Why this works:** Website visitor retargeting is restricted, but on-platform engagement audiences (video viewers, page engagers) are NOT restricted. By running a video first, you build a retargetable warm audience entirely within Meta's platform — then drive them to your store with a traffic campaign.
+
+### Workaround 2: Lead Form → Email Nurture
+
+Meta's on-platform Instant Forms are completely unaffected by health/wellness restrictions:
+- Run a Lead Generation campaign with an Instant Form
+- Offer something valuable: "Free guide: The NAD+ Science Explained" or "Take the Cellular Energy Quiz"
+- Capture name + email directly on Facebook/Instagram
+- Import leads into Klaviyo automatically (Meta → Zapier → Klaviyo)
+- Nurture with your email welcome sequence → convert off-platform
+
+This bypasses ALL pixel/tracking restrictions because the lead capture happens on Meta's own platform, not your website.
+
+### Workaround 3: First-Party Data Loop
+
+Build a self-reinforcing cycle that doesn't depend on Meta's pixel:
+1. Run traffic/engagement ads (allowed under all tiers)
+2. Capture emails via popup on your PDP (use Klaviyo or Privy)
+3. Upload email list back to Meta as a custom audience (still allowed)
+4. Build lookalike audiences from your email list (still allowed)
+5. Run traffic ads to the lookalike audience
+6. Repeat — each cycle makes your custom audience and lookalike more refined
+
+---
+
+## PART 3.6: ENFORCEMENT TIMELINE
+
+Understanding when each restriction hit helps predict what's coming:
+
+| Date | What Happened |
+|------|---------------|
+| **Nov 2024** | Meta sent initial notifications to impacted advertisers about upcoming categorization |
+| **Dec 2024** | Specific classification notices sent. Appeal window opened. |
+| **Jan 6, 2025** | "Request more time" button appeared in Events Manager (30-day extension, available for 7 days) |
+| **Jan 13-20, 2025** | **Wave 1 enforcement:** Lower-funnel event restrictions (Purchase, Add to Cart) went live for flagged brands |
+| **Feb 14, 2025** | Full enforcement for brands that didn't request extensions |
+| **Mar 2025** | Detailed targeting exclusions removed for ALL advertisers (not just health) |
+| **Throughout 2025** | Enforcement expanded to custom audiences and lookalikes built from restricted data. Interest targeting options consolidated and retired. |
+| **Sep 2, 2025** | Meta began **proactively scanning and disabling** custom audiences and conversion events referencing protected health attributes — even previously approved ones |
+| **Jan 15, 2026** | Consolidated interest targeting fully enforced |
+| **Early 2026 (expected)** | **Wave 2:** Expected to restrict Lead, Schedule, and CompleteRegistration events. May expand "sensitive data" classification to appointment booking pages. |
+
+**Trajectory:** Restrictions are getting **actively stricter**, not stabilizing. Industry sources report a **30-40% drop in ad efficiency** for affected health brands since Wave 1. Meta's motivation is FTC settlements (BetterHelp, GoodRx in 2023) and lawsuits over health data sharing via Meta Pixel. This regulatory pressure is not going away.
+
+**What this means for your timing:** Launch sooner rather than later. Wave 2 (early 2026) may restrict Lead events, which would break Workaround 2 (Lead Form → Email Nurture). Getting your account established, your pixel warmed, and your first-party list built NOW gives you a foundation before the next restriction wave hits.
+
 ---
 
 ## PART 4: ADJUSTED CAMPAIGN STRUCTURE (If Tier 2)
@@ -295,6 +384,47 @@ This supplements Part 3.5 of your Media Buying Plan. Here's the specific languag
 
 ---
 
+## PART 6.5: NMN-SPECIFIC RISK FACTORS
+
+NMN supplement brands face **elevated classification risk** compared to general supplements for several reasons:
+
+### FDA Regulatory History
+
+The FDA determined in late 2022 that NMN was **excluded from dietary supplement classification** due to prior investigation as a pharmaceutical drug (by Metro International Biotech/Sinclair). This created regulatory uncertainty that made NMN brands more visible to enforcement.
+
+**However:** In September 2025, NMN was confirmed as a lawful dietary supplement, resolving this uncertainty. This is good news for your brand's legal standing — but Meta's classification systems may not have caught up. Meta's automated scanner likely still has "NMN" flagged from the 2022-2025 period when it was in regulatory limbo.
+
+### Anti-Aging Positioning Risk
+
+NMN is almost universally marketed around longevity, anti-aging, NAD+ replenishment, and cellular health. These are exactly the terms that push a brand from "general wellness" into "health/medical" classification:
+
+| High-Risk NMN Language | Lower-Risk Alternative |
+|------------------------|----------------------|
+| "Anti-aging supplement" | "Daily wellness capsule" |
+| "Reverses biological age" | "Supports cellular vitality" |
+| "NAD+ restoration / cellular repair" | "Supports energy at the cellular level" |
+| "NMN longevity supplement" | "Baseline NMN" (just the brand name) |
+| "Fights aging at the molecular level" | "Supports your body's natural processes" |
+
+### Science-Heavy Marketing Risk
+
+NMN brands typically reference studies, biological mechanisms (NAD+, sirtuins, mitochondrial function), and aging-related outcomes. This language reads as medical to Meta's automated systems — even if it's technically structure/function claims.
+
+**Recommendation:** Save the science for your email marketing, blog, and PDP education sections. On your Meta ad landing pages and in ad copy, lead with lifestyle benefits (daily vitality, consistent energy, feeling your best) rather than biological mechanisms. The science converts people who are already interested — but it can get your ads restricted before they reach those people.
+
+### Practical Positioning Guidance
+
+For Meta's classification system, you want to be seen as:
+
+| Classification | Risk Level | Your Goal |
+|---------------|-----------|-----------|
+| General ecommerce | No restrictions | Ideal but hard to achieve for supplements |
+| Beauty/cosmetic | Least restricted health category | Possible if you position around "cellular vitality" |
+| **Wellness** | **Partially restricted** | **Most likely landing spot — plan for this** |
+| Health/medical | Most restricted | Avoid — keep medical language off your domain |
+
+---
+
 ## PART 7: LAUNCH CHECKLIST (Updated for Restrictions)
 
 ### Before Your First Ad Dollar
@@ -319,7 +449,10 @@ This supplements Part 3.5 of your Media Buying Plan. Here's the specific languag
 - Set up manual attribution via UTM + Shopify Analytics
 - Lean harder into camouflage creative (engagement-first ads)
 - Monitor Shopify conversion rate as your primary success metric
-- Consider adding an email capture popup on your PDP to build a first-party list (this becomes your retargeting channel since Meta retargeting is restricted)
+- Add an email capture popup on your PDP (Klaviyo or Privy) — this becomes your retargeting channel since Meta website retargeting is restricted
+- Consider the Video Retargeting Funnel (Part 3.5, Workaround 1) — run a video campaign first to build on-platform audiences, then retarget with traffic ads
+- Consider Lead Form campaigns (Part 3.5, Workaround 2) — on-platform Instant Forms are NOT affected by restrictions. Capture emails directly on Meta, then convert via Klaviyo
+- Set up server-side data cleansing (Part 3, Option D) — strip health-related product names from CAPI payloads before they reach Meta
 
 **If Tier 3 (unlikely):**
 - Pause Meta ads
