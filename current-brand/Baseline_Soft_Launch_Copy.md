@@ -232,7 +232,7 @@ I still don't trust supplements. I trust molecular biology.
 
 # BATCH 2: "The 3pm Wall Hitter" (v2 — Rebuilt for Camouflage)
 
-> **v2 Note:** Creatives rebuilt to use camouflage formats. See Baseline_Batches_1-5.md for complete v2 specifications. The Soft Launch Copy file retains the angle-isolation testing body copy below, which pairs with the new v2 creatives.
+> **v2 Note:** Creatives rebuilt to use camouflage formats. See ../future-brand/Baseline_Batches_1-5.md for complete v2 specifications. The Soft Launch Copy file retains the angle-isolation testing body copy below, which pairs with the new v2 creatives.
 
 **Ad Set Name:** `B2_3pmWallHitter_RestorationVsStimulation`
 **Sub-Avatar:** #1 — The 3pm Wall Hitter (universal daily experience)
@@ -241,7 +241,7 @@ I still don't trust supplements. I trust molecular biology.
 **Customer Language:** "That 3pm wall" / "I used to have energy. Now I just have coffee" / "consistent energy throughout the day"
 **Gap:** Stimulation ≠ restoration
 
-**v2 Creatives (full specs in Baseline_Batches_1-5.md):**
+**v2 Creatives (full specs in ../future-brand/Baseline_Batches_1-5.md):**
 - **B2C1:** "The Notes App List" — Phone screenshot of a failure montage list
 - **B2C2:** "The Text Thread" — iMessage conversation between friends discovering NMN
 - **B2C3:** "The Quiet Confession" — Unbranded emotional statement on off-white background
@@ -733,15 +733,15 @@ The emotional hooks, sub-avatar targeting, and outcome stories stay the same. On
 
 | Document | What It Contains |
 |----------|-----------------|
-| Baseline_Batches_1-5.md | Pure NMN version + ALL original creative specs (Nano Banana Pro prompts, Canva steps) |
-| Avatar_Blueprint.md | All 8 sub-avatars with Core 5 Categories |
-| NMN_Desire_Hunting_Research.md | 7 desire clusters with customer language |
-| New_Mechanism_Analysis.md | 5 mechanisms with hooks and avatar mapping |
-| NMN_Marketing_Angles_and_Hooks.md | Extracted angles and hooks per sub-avatar |
-| Origins_Swipe_File_Analysis.md | Camouflage ad structure, static formats |
-| 1000_Winning_Ad_Templates_Analysis.md | 16 framework categories from 100 templates |
+| ../future-brand/../future-brand/Baseline_Batches_1-5.md | Pure NMN version + ALL original creative specs (Nano Banana Pro prompts, Canva steps) |
+| ../research/Avatar_Blueprint.md | All 8 sub-avatars with Core 5 Categories |
+| ../research/NMN_Desire_Hunting_Research.md | 7 desire clusters with customer language |
+| ../research/New_Mechanism_Analysis.md | 5 mechanisms with hooks and avatar mapping |
+| ../research/NMN_Marketing_Angles_and_Hooks.md | Extracted angles and hooks per sub-avatar |
+| ../research/Origins_Swipe_File_Analysis.md | Camouflage ad structure, static formats |
+| ../research/1000_Winning_Ad_Templates_Analysis.md | 16 framework categories from 100 templates |
 | NMN_Offer_Strategy.md | Pricing, bundles, margin analysis |
-| Product_Decision_Two_Paths.md | Pure NMN vs current product + verified suppliers |
+| ../research/Product_Decision_Two_Paths.md | Pure NMN vs current product + verified suppliers |
 | brand/brand-identity.html | Full brand identity specification |
 
 ---

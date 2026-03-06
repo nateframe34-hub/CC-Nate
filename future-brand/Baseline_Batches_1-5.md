@@ -3,9 +3,9 @@
 > **Document:** Complete 3:2:2 ad set specifications for Meta (Facebook/Instagram)
 > **Brand:** Baseline NMN — Premium Pure NMN Supplement
 > **Format:** 3 Creatives + 2 Body Copies + 2 Headlines + 1 Description per batch
-> **Built for:** Path A (Pure NMN product). See Product_Decision_Two_Paths.md for product decision context.
+> **Built for:** Path A (Pure NMN product). See ../research/Product_Decision_Two_Paths.md for product decision context.
 > **Testing Method:** Marksman (3 different formats/executions of ONE concept per batch)
-> **Visual Mockups:** See ad-mockups/baseline-batches-1-5.html for full HTML/CSS mockups
+> **Visual Mockups:** See ../current-brand/ad-mockups/baseline-batches-1-5.html for full HTML/CSS mockups
 >
 > **Brand Identity:**
 > - Colors: Teal Deep (#0C3B3F), Teal Mid (#165C5A), Teal Light (#1E7A77), Copper (#C07840), Cream (#F5F0E8), Near Black (#1A1A1A)
@@ -822,17 +822,17 @@ Take the WINNING angle/sub-avatar and create 3 NEW video variations of that ONE 
 
 | Document | What It Contains |
 |----------|-----------------|
-| Avatar_Blueprint.md | All 8 sub-avatars with Core 5 Categories |
-| NMN_Desire_Hunting_Research.md | 7 desire clusters with customer language |
-| New_Mechanism_Analysis.md | 5 mechanisms with hooks and avatar mapping |
-| NMN_Marketing_Angles_and_Hooks.md | Extracted angles and hooks per sub-avatar |
-| Origins_Swipe_File_Analysis.md | Camouflage ad structure, static formats |
-| 1000_Winning_Ad_Templates_Analysis.md | 16 framework categories from 100 templates |
-| NMN_Offer_Strategy.md | Pricing, bundles, margin analysis |
-| Product_Decision_Two_Paths.md | Pure NMN vs 10-in-1 product decision |
-| brand/brand-identity.html | Full brand identity specification |
-| ad-mockups/baseline-batches-1-5.html | HTML/CSS visual mockups of all 15 creatives |
+| ../research/Avatar_Blueprint.md | All 8 sub-avatars with Core 5 Categories |
+| ../research/NMN_Desire_Hunting_Research.md | 7 desire clusters with customer language |
+| ../research/New_Mechanism_Analysis.md | 5 mechanisms with hooks and avatar mapping |
+| ../research/NMN_Marketing_Angles_and_Hooks.md | Extracted angles and hooks per sub-avatar |
+| ../research/Origins_Swipe_File_Analysis.md | Camouflage ad structure, static formats |
+| ../research/1000_Winning_Ad_Templates_Analysis.md | 16 framework categories from 100 templates |
+| ../current-brand/NMN_Offer_Strategy.md | Pricing, bundles, margin analysis |
+| ../research/Product_Decision_Two_Paths.md | Pure NMN vs 10-in-1 product decision |
+| ../current-brand/brand/brand-identity.html | Full brand identity specification |
+| ../current-brand/../current-brand/ad-mockups/baseline-batches-1-5.html | HTML/CSS visual mockups of all 15 creatives |
 
 ---
 
-*Baseline Batches 1-5. Built with Origins 3:2:2 framework. All copy uses customer language from desire research. All mechanisms from New_Mechanism_Analysis.md. All sub-avatars from Avatar_Blueprint.md. Visual mockups in ad-mockups/baseline-batches-1-5.html.*
+*Baseline Batches 1-5. Built with Origins 3:2:2 framework. All copy uses customer language from desire research. All mechanisms from New_Mechanism_Analysis.md. All sub-avatars from Avatar_Blueprint.md. Visual mockups in ../current-brand/ad-mockups/baseline-batches-1-5.html.*
