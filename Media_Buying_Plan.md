@@ -1,5 +1,13 @@
 # Baseline NMN — Complete Media Buying & Launch Plan
 
+### Currency Note
+
+**All prices and revenue figures in this plan are in USD.** The selling price ($49.99), AOV, and customer-facing numbers are USD — that's what your US audience sees and pays.
+
+**All ad spend, CPA, and budget figures are in CAD.** Your Meta ad account is billed in CAD since you're based in Canada. When this plan says "$50/day budget" or "target CPA of $25," that's CAD.
+
+**Why this matters for ROAS:** Your revenue comes in USD and your ad spend goes out in CAD. At ~$0.73 USD/CAD, a $49.99 USD sale is ~$68.48 CAD in revenue. This means your *actual* ROAS (in matched currency) is ~35% better than what Meta reports if it's mixing currencies. Always convert to one currency when calculating true ROAS. Use CAD for consistency since that's what leaves your bank account.
+
 ---
 
 ## PART 1: PRE-LAUNCH INFRASTRUCTURE (Build Before You Spend $1)
@@ -49,6 +57,59 @@ Why:
 - No requirement to return the bottle (shipping costs eat the margin on returns — just refund and move on)
 - One refund per customer (prevents abuse)
 - Process refunds within 3-5 business days
+
+### Legal Pages (Build These in Shopify Before Launch)
+
+You need three legal pages live before your first ad dollar is spent. Meta can flag stores missing them during ad review, and Shopify requires them for payment processing. Use Shopify's built-in legal page templates (Settings → Policies) as your starting framework, then customize with the copy below.
+
+**Privacy Policy — Key Sections to Include:**
+
+Use Shopify's auto-generated privacy policy template as your base (Settings → Policies → Privacy Policy → "Create from template"). It auto-fills your store name and covers GDPR/CCPA basics. Customize these sections:
+
+> **What personal information we collect:**
+> When you visit the site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. As you browse the site, we collect information about the individual web pages or products that you view, what websites or search terms referred you to the site, and information about how you interact with the site. When you make a purchase, we collect your name, billing address, shipping address, payment information, email address, and phone number.
+>
+> **How we use your personal information:**
+> We use the order information we collect to fulfill orders placed through the site (including processing payment, arranging shipping, and providing order confirmations and updates). We also use this information to communicate with you, screen orders for potential risk or fraud, and — when in line with the preferences you have shared with us — provide you with information or advertising relating to our products or services.
+>
+> **Sharing your personal information:**
+> We share your personal information with third parties to help us use your information as described above. We use Shopify to power our online store — you can read more about how Shopify uses your personal information at https://www.shopify.com/legal/privacy. We also use Meta Pixel and Klaviyo to help us understand how you use the site and to deliver relevant advertising.
+>
+> **Your rights:**
+> If you are a resident of the United States, you have the right to access the personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. To exercise these rights, please contact us at [your support email].
+>
+> **Contact us:**
+> For questions about our privacy practices, please contact us at [your support email].
+
+**Terms of Service — Key Sections to Include:**
+
+Use Shopify's auto-generated terms template as your base. Customize:
+
+> **Overview:**
+> This website is operated by Baseline. Throughout the site, the terms "we", "us" and "our" refer to Baseline. We offer this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here.
+>
+> **Products:**
+> We have made every effort to display as accurately as possible the colors and images of our products. We cannot guarantee that your computer monitor's display of any color will be accurate. We reserve the right to limit the quantities of any products or services that we offer. All descriptions of products or product pricing are subject to change at any time without notice. We reserve the right to discontinue any product at any time.
+>
+> **Accuracy of information:**
+> We are not responsible if information made available on this site is not accurate, complete, or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete, or more timely sources of information.
+>
+> **Dietary supplement disclaimer:**
+> Our products are dietary supplements. These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Consult your physician before use if you are pregnant, nursing, taking medication, or have a medical condition.
+>
+> **Returns and refunds:**
+> We offer a 30-day money-back guarantee from the date of delivery. To initiate a return, contact us at [your support email]. See our Refund Policy page for full details.
+
+**Where These Pages Need to Live:**
+- **Footer navigation:** Link all three legal pages (Privacy Policy, Terms of Service, Refund Policy) in the footer. This is where Meta's reviewers and customers both look.
+- **Checkout page:** Shopify automatically links to your policies at checkout if they're set up in Settings → Policies.
+- **Popup (10% off):** Add a small line: "By subscribing, you agree to our Privacy Policy" with a link. Required for email compliance.
+
+### Inventory & Fulfillment
+
+**Current stock: 1,000+ units** via dropshipping auto-fulfillment. This is more than enough for the discovery phase — at a $25 CAD CPA and $50 CAD/day budget, you'd sell ~60 units in the first 4 weeks. Even if ads perform 3x above target, you have runway.
+
+**Monitor inventory weekly once ads are live.** Selling out mid-discovery phase wastes ad spend and resets pixel learning. Set a reorder trigger at 200 units remaining.
 
 ---
 
@@ -360,6 +421,12 @@ CAMPAIGN: Baseline NMN — Scale (CBO)
     └── Creatives: Testimonial-style, proof-heavy (Batch 3 creative style)
 ```
 
+### Post-Purchase Attribution Survey (Add After 20+ Sales)
+
+Once you're past ~20 sales, add a one-question "How did you hear about us?" survey to your Shopify thank-you page. Not needed at launch — when you're only running Meta ads, you know where every sale came from. But once you have volume, this gives you a ground-truth check against Meta's self-reported attribution, which tends to over-claim.
+
+**When to add it:** After you hit 20+ total sales. Use Shopify's built-in post-purchase survey (Settings → Checkout → Post-purchase page) or a free app like Fairing / KnoCommerce.
+
 ### Exiting Learning Phase Math
 
 To exit learning phase you need ~50 conversion events per week per ad set.
@@ -649,7 +716,10 @@ This would mean the product-market fit isn't there yet, NOT that the ads are bad
 - [ ] FDA disclaimer on PDP: *"These statements have not been evaluated by the FDA..."*
 - [ ] 30-day money-back guarantee badge on PDP
 - [ ] Return policy page published (linked in footer)
+- [ ] Privacy policy page published (linked in footer)
+- [ ] Terms of service page published (linked in footer)
 - [ ] Product images produced and uploaded
+- [ ] Inventory confirmed: 1,000+ units in stock via dropship fulfillment
 - [ ] Mobile checkout tested on phone
 - [ ] Payment processing tested (place a real test order)
 
