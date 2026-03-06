@@ -168,7 +168,9 @@ Your body didn't break. It ran out of fuel.
 
 ---
 
-# BATCH 2: "The 3pm Wall Hitter"
+# BATCH 2: "The 3pm Wall Hitter" (v2 — Rebuilt for Camouflage)
+
+> **Why this batch was rebuilt:** The original B2 creatives (split-screen coffee vs capsule, slumped-at-desk stock imagery) used the most generic visual formats in supplement advertising. Competitive analysis confirmed that every energy supplement brand runs split-screen comparison ads and "person exhausted at desk" imagery. The v2 rebuild keeps the same angle (stimulation vs restoration) and the same sub-avatar, but replaces the visuals with camouflage formats that don't look like supplement ads — matching the creative approach that makes B1, B3, and B4 effective.
 
 **Ad Set Name:** `B2_3pmWallHitter_RestorationVsStimulation`
 **Sub-Avatar:** #1 — The 3pm Wall Hitter (universal daily experience)
@@ -180,68 +182,120 @@ Your body didn't break. It ran out of fuel.
 
 ---
 
-### Creative 1: B2C1 — "Us vs Them Split"
+### Creative 1: B2C1 — "The Notes App List"
 
-**Ad Name:** `B2C1_UsVsThem_CaffeineVsNMN`
-**Testing:** Whether a direct visual comparison (coffee vs NMN) communicates the angle instantly
-**Format:** Split-screen — coffee cup on left (grainy, warm, chaotic) vs NMN capsule on right (clean, teal, calm)
+**Ad Name:** `B2C1_NotesApp_ThingsITried`
+**Testing:** Whether a "phone screenshot" camouflage format outperforms traditional product comparison
+**Format:** Fake iPhone Notes screenshot — someone's personal list of everything they tried before finding NMN. This is the Origins "failure montage" pattern compressed into a single scroll-stopping visual.
 
-**Nano Banana Pro Prompt (Custom — inspired by ID 10600 Vertical Split-Screen):**
-> Vertical split-screen composition, left half and right half divided by a sharp vertical line. LEFT SIDE: Close-up of a coffee cup, harsh warm orange lighting, grainy film texture, slight motion blur on the rim suggesting trembling/jittery energy, dark brown liquid with crema, shot from above at 45 degrees, chaotic warm palette (Hex: #6B3A1F, #C07840). RIGHT SIDE: Single translucent supplement capsule floating against a clean teal background (Hex: #0C3B3F), soft studio lighting, sharp focus, calm and minimal, no other objects, just the capsule and clean gradient. The contrast between sides should feel like chaos vs calm, spike vs steady. Ultra-realistic, product photography quality, 8K.
+**Why this format works:** It looks like someone screenshotted their own phone and shared it. The viewer processes it as content, not advertising. The list format triggers pattern recognition — every 40+ person has tried some version of this list. The strikethrough text creates a visual "nothing worked" narrative without requiring a single sentence of copy. And the final un-crossed item creates curiosity.
+
+**Nano Banana Pro Prompt:**
+> N/A — Designed in Canva to look like an iPhone Notes screenshot
 
 **Canva Edit Steps:**
-1. Upload split-screen AI image or create split manually in Canva
-2. LEFT side label: "SPIKE" — JetBrains Mono, 20pt, Cream, top-left corner
-3. RIGHT side label: "BASELINE" — JetBrains Mono, 20pt, Copper (#C07840), top-right corner
-4. Center dividing line: 2px vertical line, Copper (#C07840)
-5. Bottom strip: Cream background, "Caffeine gives you a spike. NMN raises your baseline." — Plus Jakarta Sans 500, 16pt, Teal Deep
-6. 1080×1080px square
+1. Background: iPhone Notes-style off-white (#FEFEFE), 1080×1080px
+2. Top bar: Simulate iOS Notes header — left arrow icon, "Notes" in SF Pro or Plus Jakarta Sans 400, 16pt, system-blue (#007AFF). Right side: share icon and ellipsis. Time/battery bar at very top (10:47 AM, wifi, battery 67%)
+3. Note title: "things I tried before it actually worked" — Plus Jakarta Sans 600, 22pt, Near Black (#1A1A1A)
+4. Date line: "September 14, 2025" — Plus Jakarta Sans 300, 12pt, gray (#8E8E93)
+5. List body (each item on its own line, handwriting-style spacing):
+   - "~~coffee (4 cups/day — still crashed by 2:30)~~" — Plus Jakarta Sans 400, 18pt, gray (#8E8E93), strikethrough
+   - "~~green tea (marginally better? no)~~" — same style, strikethrough
+   - "~~B12 shots — $40/week, felt nothing~~" — same style, strikethrough
+   - "~~those $5 'clean energy' drinks (liquid vitamins that taste like regret)~~" — same style, strikethrough
+   - "~~ashwagandha (3 months, maybe placebo)~~" — same style, strikethrough
+   - "~~cold showers (lasted 4 days)~~" — same style, strikethrough
+   - "NMN ← week 3: didn't need the afternoon coffee" — Plus Jakarta Sans 500, 18pt, Near Black, NO strikethrough
+6. Below list, after whitespace: "the difference between stimulation and restoration" — Plus Jakarta Sans 400 Italic, 14pt, gray (#8E8E93)
+7. Very bottom of note, small: "Baseline NMN" — Plus Jakarta Sans 300, 12pt, gray (#8E8E93), almost invisible. Subtle enough that it barely registers as branded.
+8. NO product image. NO logo treatment. NO badges. This must look like a real Notes screenshot.
+9. 1080×1080px
+
+**Visual Test:** Show this to someone without context. If they say "oh, someone shared their notes," it works. If they say "that's an ad," redesign until it doesn't.
 
 ---
 
-### Creative 2: B2C2 — "Solution Exaggeration"
+### Creative 2: B2C2 — "The Text Thread"
 
-**Ad Name:** `B2C2_Exaggeration_SlumpedAtDesk`
-**Testing:** Whether an exaggerated visual pain point (person slumped at desk) triggers recognition
-**Format:** Person dramatically slumped over desk at 3pm — exaggerated/stylized, not real photo
+**Ad Name:** `B2C2_TextThread_HowDoYouHaveEnergy`
+**Testing:** Whether a fake text conversation format generates higher engagement and shares than product imagery
+**Format:** Simulated iMessage conversation between two friends. One asks how the other suddenly has energy. The discovery feels organic — exactly how real people actually find out about NMN. This format also addresses the meta-objection ("that sounds like an ad") head-on with humor.
 
-**Nano Banana Pro Prompt (Custom):**
-> Cinematic overhead photograph of a person slumped face-down on an office desk at exactly 3:00pm (clock visible on wall showing 3:00). Multiple empty coffee cups scattered around them. Laptop open with blurred screen. Warm, slightly desaturated afternoon lighting through office window. Shot from slightly above at 45 degrees. The scene should feel relatable and slightly humorous, not depressing. Color palette: warm amber office tones contrasted with one teal-colored supplement bottle standing upright on the desk corner — the only object in sharp focus. Shallow depth of field, 85mm lens look, cinematic color grading with teal shadows and warm highlights.
+**Why this format works:** Text threads are the single most shared visual format on Instagram and Facebook. People screenshot real conversations constantly. This creative weaponizes that behavior — it looks native, it reads fast, and the "that sounds like an ad / lol I know" exchange disarms the viewer's ad-detection instinct. It's also the "Reluctant Discoverer" pattern from the Origins Camouflage framework: the narrator finds the product through a friend, not through an ad.
+
+**Nano Banana Pro Prompt:**
+> N/A — Designed in Canva to look like an iMessage conversation screenshot
 
 **Canva Edit Steps:**
-1. Upload AI-generated desk scene
-2. Add text overlay at top: "3:17 PM." — JetBrains Mono 700, 48pt, Near Black (#1A1A1A)
-3. Below: "Cup #4 didn't work either." — Plus Jakarta Sans 400, 22pt, text-secondary (#5A5550)
-4. Bottom bar: Teal Deep (#0C3B3F) strip
-5. In bottom bar: "Raise your baseline." — Plus Jakarta Sans 500, 16pt, Cream, left-aligned
-6. "BASELINE" logo, right-aligned in Cream
-7. 1080×1080px
+1. Background: iMessage conversation view — light gray (#E5E5EA for received bubbles, #007AFF for sent bubbles), 1080×1350px (4:5 vertical — optimal for feed)
+2. Top bar: iOS Messages header — back arrow, contact name "Sarah" with gray avatar circle, video/call icons. Time bar: 2:47 PM
+3. Message thread (alternate left/right, standard iMessage sizing):
+
+   **Sarah (gray bubble, left):** "ok genuinely asking — how do you have energy now"
+
+   **Sarah (gray bubble, left):** "you used to crash every single day by like 2pm"
+
+   **Me (blue bubble, right):** "honestly? I stopped trying to fix it with caffeine"
+
+   **Sarah (gray bubble, left):** "what do you mean"
+
+   **Me (blue bubble, right):** "caffeine doesn't give you energy. it borrows it from later. that's why you crash"
+
+   **Me (blue bubble, right):** "I started taking something called NMN. it's a molecule that helps your cells actually produce energy instead of just borrowing it"
+
+   **Sarah (gray bubble, left):** "that sounds like an ad 😂"
+
+   **Me (blue bubble, right):** "lol I KNOW. I said the exact same thing when my sister told me"
+
+   **Me (blue bubble, right):** "but by week 3 I wasn't reaching for coffee at 2pm anymore. not because I was trying not to. I just didn't need it"
+
+   **Sarah (gray bubble, left):** "ok wait what's it called again"
+
+   **Me (blue bubble, right):** "Baseline NMN. one ingredient. they show you the lab results and everything"
+
+   **Sarah (gray bubble, left):** "sending this to mike he needs to hear this"
+
+4. Typography: San Francisco (iOS system font) or Plus Jakarta Sans 400, 16pt, dark text on gray bubbles, white text on blue bubbles
+5. Message spacing and bubble sizing must match real iMessage exactly — any deviation breaks the illusion
+6. NO product images. NO logos. NO branding anywhere except the product name mentioned naturally in conversation.
+7. Bottom: Optional thin gray bar simulating the iMessage input field with "iMessage" placeholder text
+8. 1080×1350px (4:5 vertical)
+
+**Visual Test:** Show this to someone. If they try to tap the reply field, it works.
+
+**Engagement prediction:** High comment rate. People will tag friends ("this is literally us"). The "sending this to mike" line plants the sharing behavior.
 
 ---
 
-### Creative 3: B2C3 — "Relatable Hook Bold Text"
+### Creative 3: B2C3 — "The Quiet Confession"
 
-**Ad Name:** `B2C3_BoldText_UsedToHaveEnergy`
-**Testing:** Whether pure typography (no product, no image) outperforms visual creatives
-**Format:** Bold text on clean background — customer language as the hook
+**Ad Name:** `B2C3_QuietConfession_UsedToHaveEnergy`
+**Testing:** Whether a minimal, emotionally raw text statement outperforms camouflage formats
+**Format:** Oversized typography on a clean background — but styled to feel like a personal confession posted as content, not a branded ad card. The key difference from v1: this version removes ALL visible branding from the creative itself. The brand exists only in the body copy below.
+
+**Why this format works:** "I used to have energy. Now I just have coffee." is one of the strongest lines in the entire creative set. It's direct customer language that triggers instant recognition in the target audience. The v1 version diluted this by adding a branded bottom bar and an explanatory subtitle. The v2 strips everything away and lets the line hit with full emotional weight — like a quote someone posted on their story.
 
 **Nano Banana Pro Prompt:**
 > N/A — Text-only creative designed in Canva
 
 **Canva Edit Steps:**
-1. Background: Teal Deep (#0C3B3F), 1080×1080px
-2. Center text block:
-   - "I used to have energy." — Cormorant Garamond 600, 52pt, Cream (#F5F0E8)
-   - Line break
-   - "Now I just have coffee." — Cormorant Garamond 400 Italic, 52pt, Copper (#C07840)
-3. Below, smaller: "There's a difference between stimulation and restoration." — Plus Jakarta Sans 300, 18pt, Cream, 70% opacity
-4. Bottom-left: "BASELINE" — Plus Jakarta Sans 600, 12pt, Cream, letterspaced 0.15em
-5. Bottom-right: "baselinenmn.com" — Plus Jakarta Sans 300, 12pt, Cream, 60% opacity
-6. Generous whitespace. Nothing else. The text IS the ad.
+1. Background: Warm off-white (#FAF7F2) — NOT the brand teal. This should feel like paper, not a branded card. 1080×1080px
+2. Center text block, left-aligned, generous left padding (100px):
+   - "I used to have energy." — Cormorant Garamond 600, 56pt, Near Black (#1A1A1A)
+   - Line break (generous, ~40px)
+   - "Now I just have coffee." — Cormorant Garamond 400 Italic, 56pt, Near Black (#1A1A1A)
+3. That's it. Nothing else on the creative.
+4. No subtitle. No "stimulation vs restoration" explainer. No logo. No URL. No product name.
+5. The brand and product information lives entirely in the body copy below the image — not on the image itself.
+6. 1080×1080px
+
+**Why remove the branding:** Under Meta's landing-page-view optimization (likely given Tier 2 restrictions), the algorithm rewards ads that people pause on and engage with. A raw emotional statement with zero branding creates a "wait, what is this?" moment that stops the scroll. The viewer reads the body copy to find out what it is — which is exactly the behavior you want when you're optimizing for engagement and clicks, not purchases.
+
+**What this creative tests:** Whether stripping ALL branding from the visual and relying on the body copy for product discovery outperforms the camouflage formats (B2C1 and B2C2) that embed the product mention within a native format.
 
 ---
 
-### Body Copy 1 (Native/Camouflage — 210 words)
+### Body Copy 1 (Native/Camouflage — 215 words)
 
 I used to have energy. Now I just have coffee.
 
@@ -249,7 +303,7 @@ Three cups by noon. Sometimes four. And still, every single afternoon around 2:3
 
 I tried green tea. Tried B12. Tried those "clean energy" drinks that taste like liquid vitamins and cost $5 each. Same pattern: spike, crash, reach for more caffeine.
 
-My sister sent me an article about NAD+ — a molecule your cells use to produce energy. Not "energy" like a caffeine buzz. Actual cellular energy. Turns out your levels drop significantly as you age, which is why stimulants stop working — you're whipping a tired horse.
+My sister sent me an article about NAD+ — a molecule your cells use to produce energy. Not "energy" like a caffeine buzz. Actual cellular energy. Turns out levels drop significantly as we age, which is why stimulants stop working — you're whipping a tired horse.
 
 NMN is the precursor your body converts into NAD+. It doesn't give you a spike. It raises the floor.
 
@@ -263,42 +317,53 @@ Caffeine gives you a spike. This raised my baseline.
 
 ---
 
-### Body Copy 2 (Direct Response — 95 words)
+### Body Copy 2 (Direct Response — 100 words)
 
 That 3pm wall isn't a coffee problem. It's a cellular fuel problem.
 
 Caffeine borrows energy from later and charges interest. That's why you crash. Every. Single. Afternoon.
 
-NMN works differently. It's the precursor your body uses to restore NAD+ — the molecule your cells need to produce real, sustained energy. No spike. No crash. Just a higher floor.
+NMN works differently. It's the precursor that helps restore NAD+ — the molecule behind real, sustained cellular energy. No spike. No crash. Just a higher floor.
 
-Baseline NMN: pure, verified, one ingredient.
+Baseline NMN: pure, verified, one ingredient. Lab results you can check yourself.
 
 Stop chasing spikes. Raise your baseline.
 
-"I used to have energy. Now I just have coffee." Sound familiar? This changes that.
+"I used to have energy. Now I just have coffee." Sound familiar?
 
 → Shop Baseline.
 
 ---
 
 ### Headline 1 (Direct)
-**Raise Your Baseline Energy**
+**Why Caffeine Stopped Working**
 
 ### Headline 2 (Curiosity)
-**Why Caffeine Stopped Working**
+**The Difference Between a Spike and a Baseline**
 
 ### Description
 **Not a spike. A baseline.**
 
 ---
 
-### Batch 2 Analysis
+### Batch 2 Analysis (v2)
 
-**Psychological Principle:** Contrast Effect + Pattern Recognition. The spike-vs-baseline contrast creates an immediate "ah-ha" — the audience has LIVED the spike-crash cycle and never had language for the alternative. Naming "restoration" as distinct from "stimulation" gives them a new mental model.
+**What changed from v1:**
+- **B2C1:** Split-screen coffee vs capsule → Notes app "failure list." Tests the phone-screenshot camouflage format. The failure montage is one of Origins' most powerful persuasion patterns — the v2 compresses it into a single visual.
+- **B2C2:** Slumped-at-desk stock imagery → iMessage text thread between friends. Tests conversational camouflage. This is the most engagement-optimized creative in the entire batch set — designed for comments, tags, and shares.
+- **B2C3:** Branded bold text card → Unbranded emotional statement. Same killer line, but stripped of all branding to maximize scroll-stop. The product discovery happens in the body copy, not the visual.
+- **Body Copy:** Minor compliance adjustments — changed "your levels drop" to "levels drop as we age" (avoids personal health assertion flag). Copy substance is unchanged.
+- **Headlines:** Swapped order (curiosity headline now primary) and replaced "Raise Your Baseline Energy" with "The Difference Between a Spike and a Baseline" for stronger curiosity pull.
 
-**Risk:** The caffeine comparison must avoid making NMN sound like "another energy supplement." Creative 3 (bold text) mitigates this by leading with the emotional language, not the product comparison.
+**Psychological Principle:** Contrast Effect + Pattern Recognition + Camouflage Discovery. The spike-vs-baseline contrast still drives the angle, but now the discovery feels organic. B2C1 shows you a person's journey. B2C2 shows you a person's conversation. B2C3 hits you with a feeling. None of them look like a supplement ad.
 
-**Origins Reference:** Section 11 — "The best image ads use the Simplified Us vs Them format — use universally understood objects." Coffee cup = universally understood object.
+**Competitive differentiation:** The competitive analysis confirmed that every NMN/energy supplement brand uses split-screen comparison and stock lifestyle imagery. Zero brands use phone-screenshot, text-thread, or stripped-down confession formats. This batch is now structurally differentiated from the entire competitive set.
+
+**Risk (updated):** The camouflage formats must be executed well enough to pass as organic content. If the Notes app screenshot has wrong fonts or the iMessage thread has wrong bubble sizing, the illusion breaks and the ad feels uncanny rather than authentic. Reference real iOS screenshots for pixel-perfect execution.
+
+**Origins Reference:** Section 12 — "Camouflage ads disguise themselves as organic content." All three v2 creatives are camouflage formats. Section 11 — "The best image ads use universally understood objects." Notes app = universally understood. Text thread = universally understood.
+
+**Meta Compliance Note:** These creatives are the safest in the entire batch set. No health claims appear in the visuals. No personal health assertions. No before/after implications. The strongest health language exists only in the body copy, where it uses "supports" framing. B2C3 has zero words that could trigger health flags — it's just a sentence about coffee.
 
 ---
 

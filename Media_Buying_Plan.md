@@ -307,9 +307,9 @@ CAMPAIGN: Baseline NMN — Avatar Discovery (CBO)
 │
 ├── AD SET 2: Batch 2 — The 3pm Wall Hitter (MOST UNIVERSAL)
 │   ├── Targeting: Broad (35+, your geo)
-│   ├── Creative 1: B2C1 "Coffee Chaos vs NMN Calm"
-│   ├── Creative 2: B2C2 "Spike vs Baseline Graph"
-│   └── Creative 3: B2C3 "Cells Then vs Now"
+│   ├── Creative 1: B2C1 "Notes App List" (camouflage)
+│   ├── Creative 2: B2C2 "Text Thread" (camouflage)
+│   └── Creative 3: B2C3 "Quiet Confession" (unbranded)
 │
 └── AD SET 3: Batch 3 — The Burned Supplement Buyer (STRONGEST PATTERN INTERRUPT)
     ├── Targeting: Broad (35+, your geo)

@@ -230,79 +230,21 @@ I still don't trust supplements. I trust molecular biology.
 
 ---
 
-# BATCH 2: "The 3pm Wall Hitter"
+# BATCH 2: "The 3pm Wall Hitter" (v2 — Rebuilt for Camouflage)
 
-**Ad Set Name:** `B2_3pmWallHitter_UsVsThem`
+> **v2 Note:** Creatives rebuilt to use camouflage formats. See Baseline_Batches_1-5.md for complete v2 specifications. The Soft Launch Copy file retains the angle-isolation testing body copy below, which pairs with the new v2 creatives.
+
+**Ad Set Name:** `B2_3pmWallHitter_RestorationVsStimulation`
 **Sub-Avatar:** #1 — The 3pm Wall Hitter (universal daily experience)
-**Format:** Us vs Them (all 3 creatives use split-screen comparison)
+**Format:** Camouflage (Notes app screenshot, iMessage thread, unbranded confession)
 **Core Emotion:** Frustration
 **Customer Language:** "That 3pm wall" / "I used to have energy. Now I just have coffee" / "consistent energy throughout the day"
 **Gap:** Stimulation ≠ restoration
 
-**3 Angles Being Tested:**
-- **A1:** Your afternoon crash is a cellular fuel problem, not a coffee problem
-- **A2:** Raise your baseline energy instead of chasing spikes
-- **A3:** Your energy didn't decrease — your cells lost their fuel source
-
----
-
-### Creative 1: B2C1 — "Coffee Chaos vs NMN Calm"
-
-**Ad Name:** `B2C1_UsVsThem_CoffeeVsNMN_A1-CellularFuel`
-**Angle:** A1 — Afternoon crash is a cellular fuel problem, not a coffee problem
-**Format:** Split-screen comparison — coffee (chaotic, warm) vs NMN capsule (clean, calm)
-
-**Nano Banana Pro Prompt:**
-> Vertical split-screen composition, left half and right half divided by a sharp vertical line. LEFT SIDE: Close-up of a half-empty coffee cup on a cluttered desk — scattered papers, crumpled sticky notes, a phone showing 3:12 PM, harsh fluorescent overhead lighting casting unflattering shadows. The coffee is cold, ring stain on the desk. Everything feels chaotic, warm-toned (Hex: #6B3A1F, #C07840), slightly grainy film texture with subtle motion blur suggesting jittery energy. RIGHT SIDE: Single translucent supplement capsule resting on a clean white marble surface against a soft teal gradient background (Hex: #0C3B3F to #165C5A). Soft natural window light from the left, sharp focus, generous negative space. One small plant in the background. Everything feels calm, ordered, intentional. The contrast between sides should feel like chaos vs. clarity. Ultra-realistic product photography, 8K resolution, shot at 50mm.
-
-**Canva Edit Steps:**
-1. Upload split-screen AI image or create split manually in Canva
-2. LEFT side top: "MASKING THE CRASH" — JetBrains Mono, 16pt, Cream, 70% opacity
-3. RIGHT side top: "FIXING THE CAUSE" — JetBrains Mono, 16pt, Cream (#F5F0E8)
-4. Center dividing line: 2px vertical line, Copper (#C07840)
-5. Bottom strip: Cream background, 60px. Text centered: "What if the afternoon crash is about more than just coffee?" — Plus Jakarta Sans 500, 14pt, Teal Deep
-6. 1080×1080px
-
----
-
-### Creative 2: B2C2 — "Spike vs Baseline Graph"
-
-**Ad Name:** `B2C2_UsVsThem_SpikeVsBaseline_A2-RaiseFloor`
-**Angle:** A2 — Raise your baseline instead of chasing spikes
-**Format:** Split-screen comparison — caffeine energy graph (spikes and crashes) vs NMN graph (elevated steady line)
-
-**Nano Banana Pro Prompt:**
-> Clean data visualization on a dark teal background (Hex: #0C3B3F). LEFT SIDE: An energy timeline graph spanning "6am to 10pm" on the x-axis. The caffeine line is a jagged orange/copper line (Hex: #C07840) with sharp spikes at 7am, 12pm, and 3pm, crashing below the baseline after each spike. Small coffee cup icons at each spike point. The line trends downward overall. RIGHT SIDE: Same timeline, same axes. The NMN line is a smooth, slightly elevated cream-colored line (Hex: #F5F0E8) that stays consistently above the baseline with no crashes. Gentle upward curve. The contrast should be immediately obvious: chaos vs. steady. Clean, minimal design language. Thin gridlines, no clutter. The feel should be "smart data visualization" not "supplement ad." 8K, ultra-clean.
-
-**Canva Edit Steps:**
-1. Upload AI-generated graph image or recreate in Canva
-2. LEFT side label: "CAFFEINE" — JetBrains Mono, 14pt, Copper (#C07840)
-3. RIGHT side label: "NMN" — JetBrains Mono, 14pt, Cream (#F5F0E8)
-4. Below graph: "Stop chasing spikes. Raise your floor." — Plus Jakarta Sans 600, 16pt, Cream
-5. Fine print below: "Conceptual illustration. Individual results may vary." — Plus Jakarta Sans 300, 9pt, #888888
-6. Bottom strip: "BASELINE" — Plus Jakarta Sans 600, 12pt, Cream, letterspaced
-6. 1080×1080px
-
----
-
-### Creative 3: B2C3 — "Your Cells Then vs Now"
-
-**Ad Name:** `B2C3_UsVsThem_CellsThenNow_A3-CellsLostFuel`
-**Angle:** A3 — Your energy didn't decrease — your cells lost their fuel source
-**Format:** Split-screen comparison — depleted cell vs fueled cell
-
-**Nano Banana Pro Prompt:**
-> Vertical split-screen scientific illustration with subtle artistic styling. LEFT SIDE: A single human cell rendered in warm desaturated tones — mitochondria visible but dim and sparse, the cell membrane looks thin and fragile, overall dimly lit with a tired, depleted quality. Label area at top for "YOUR CELLS AT 50." Muted palette: greys, pale amber, low contrast. RIGHT SIDE: Same cell type but vibrant — mitochondria are bright and numerous, membrane is full and healthy, the interior glows with a soft teal luminescence (Hex: #1E7A77). Label area at top for "YOUR CELLS ON NMN." Rich palette: teal, cream, warm highlights. The style should feel like an editorial science magazine illustration — beautiful, clear, not clinical or cartoonish. Both cells are centered in their halves with generous negative space. Dark background (Hex: #0C3B3F). 8K resolution.
-
-**Canva Edit Steps:**
-1. Upload AI-generated cell comparison image
-2. LEFT label: "LOW NAD+ LEVELS" — JetBrains Mono, 14pt, #888888
-3. RIGHT label: "SUPPORTED NAD+ LEVELS" — JetBrains Mono, 14pt, Cream (#F5F0E8)
-4. Center dividing line: 2px, Copper (#C07840)
-5. Bottom text: "It's not about laziness. It's about cellular fuel." — Plus Jakarta Sans 500, 16pt, Cream
-6. Fine print: "For illustrative purposes. Individual results may vary." — Plus Jakarta Sans 300, 9pt, #888888
-6. Bottom strip: "BASELINE NMN" — Plus Jakarta Sans 600, 12pt, Cream, letterspaced
-7. 1080×1080px
+**v2 Creatives (full specs in Baseline_Batches_1-5.md):**
+- **B2C1:** "The Notes App List" — Phone screenshot of a failure montage list
+- **B2C2:** "The Text Thread" — iMessage conversation between friends discovering NMN
+- **B2C3:** "The Quiet Confession" — Unbranded emotional statement on off-white background
 
 ---
 
@@ -340,8 +282,8 @@ Stop chasing spikes. Raise your baseline.
 
 ---
 
-### Headline 1: **Raise Your Baseline Energy**
-### Headline 2: **Why Caffeine Stopped Working**
+### Headline 1: **Why Caffeine Stopped Working**
+### Headline 2: **The Difference Between a Spike and a Baseline**
 ### Description: **Not a spike. A baseline.**
 
 ---
