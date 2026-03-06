@@ -248,19 +248,21 @@ I still don't trust supplements. I trust molecular biology.
 
 ---
 
-### Body Copy 1 (Outcome-Focused — 120 words)
+### Body Copy 1 (Listicle Format — 125 words)
 
-> **Leads with A1 hook.** Problem → Reframe → Mechanism → Outcome. Sells the felt experience of steady energy, not the product specs.
+> **Leads with A1 hook.** Listicle structure — breaks the camouflage narrative pattern used in B1. Scannable, shareable, direct.
 
-What if the afternoon crash is about more than just coffee?
+5 things I wish I'd known about the 3pm crash:
 
-More coffee. Energy drinks. B12 shots. Green tea. Same pattern every time: spike, crash, reach for more.
+1. Caffeine doesn't give you energy. It borrows it from later. That's why you crash.
 
-Here's what changed for me: cells run on a molecule called NAD+. With age, the body produces less of it. Caffeine masks the gap temporarily. It doesn't fill it.
+2. The crash isn't a discipline problem. Your cells literally produce less energy fuel (NAD+) as you age.
 
-NMN is what your body converts into NAD+. It doesn't give you a spike. It raises the floor your energy sits on — so by 3pm, you're not crashing because the tank isn't empty.
+3. B12, green tea, "clean energy" drinks — they all target symptoms, not the cause.
 
-Over time, I stopped reaching for that afternoon coffee. I just didn't need it. Individual results may vary.
+4. NMN is what your body converts into NAD+. It raises the floor your energy sits on, instead of spiking and crashing.
+
+5. I stopped needing the afternoon coffee around week 3. Not through willpower. It just stopped being necessary. Individual results may vary.
 
 → Raise your baseline.
 
@@ -629,23 +631,22 @@ They need you present. Not perfect. Present.
 
 ---
 
-### Body Copy 1 (Outcome-Focused — 120 words)
+### Body Copy 1 (Myth vs Reality Format — 130 words)
 
-> **Leads with A1/A3 hooks.** Opens with the dismissal pain, delivers the NAD+ mechanism, closes with the function-not-appearance reframe.
+> **Leads with A1/A3 hooks.** Myth-vs-reality structure — breaks the camouflage narrative pattern used in B1/B4. Scannable, educational, disarms skepticism through format.
 
-The health industry sells "anti-aging" as wrinkle cream and collagen peptides.
+What women over 40 are told vs. what's actually happening:
 
-Meanwhile: the energy faded. Focus scattered. Weight changed without anything else changing. The explanations didn't fully add up.
+Told: "It's just hormones."
+Reality: Hormonal shifts are real — but cells also lose significant NAD+ in your 40s and 50s. Both happen at once. That's why it can feel like everything changes overnight.
 
-Something felt incomplete.
+Told: "Try this cream. Try this collagen."
+Reality: The decline isn't cosmetic. It's cellular. Energy production, cognitive function, recovery — these run on NAD+.
 
-Here's what I found: cells produce a molecule called NAD+ that's responsible for energy production and repair. Published research shows levels decline significantly after 40. For women, this cellular shift often happens alongside hormonal changes — so everything can feel like it hits at once.
+Told: "Manage your stress."
+Reality: Stress management helps. But it doesn't restore what your cells have lost.
 
-NMN is the precursor the body uses to support NAD+ levels. A cellular solution, not a cosmetic one.
-
-After starting Baseline NMN, the fog started to lift. The energy came back gradually — steady and reliable. Individual results may vary.
-
-This isn't about looking younger. It's about actually functioning again.
+NMN is the precursor the body uses to support NAD+ levels. One ingredient. Published research. No buzzwords. Individual results may vary.
 
 → Function first. Everything else follows.
 

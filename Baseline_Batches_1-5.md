@@ -43,20 +43,20 @@ Meta will automatically test all combinations (3×2×2 = 12 variations per ad se
 ### Creative 1: B1C1 — "Stat Bomb"
 
 **Ad Name:** `B1C1_StatBomb_50Percent`
-**Testing:** Whether a bold data-driven stat visual stops the scroll for the 40+ audience
-**Format:** Large "50%" stat text with supplement capsules, dark teal background
+**Testing:** Whether a bold data-driven visual stops the scroll for the 40+ audience
+**Format:** Large stat text with supplement capsules, dark teal background
 
 **Nano Banana Pro Prompt (Remixed from ID 8561 — Macro Capsule Shot):**
 > Extreme close-up macro photography of translucent supplement capsules filled with fine white powder, floating weightlessly against a deep teal gradient background (Hex: #0C3B3F to #165C5A). Soft directional studio key light from upper left producing controlled specular highlights on the capsule shells. Clean negative space in the center-left for overlay text. Capsules are elongated ovals with semi-transparent shells showing powder settling toward lower halves. Background is smooth gradient, no texture. Color palette: deep teal, warm cream capsules, copper accent highlights. Ultra-sharp focus, 8K resolution, professional pharmaceutical advertising look. No text in the image itself.
 
 **Canva Edit Steps:**
 1. Upload AI-generated capsule image as background
-2. Add large "50%" text — JetBrains Mono, 280pt, Copper (#C07840), centered
-3. Add subtext below: "of your cellular fuel. Gone by 50." — Plus Jakarta Sans, 24pt, Cream (#F5F0E8)
+2. Add large headline text "YOUR CELLS ARE RUNNING LOW" — JetBrains Mono, 64pt, Copper (#C07840), centered
+3. Add subtext below: "on the molecule behind energy, recovery, and repair." — Plus Jakarta Sans, 24pt, Cream (#F5F0E8)
 4. Add bottom bar: Cream (#F5F0E8) strip, 80px height
 5. In bottom bar: "BASELINE" logo left-aligned, "baselinenmn.com" right-aligned, both Teal Deep (#0C3B3F)
 6. Ensure 1080×1080px square format
-7. Check: Does the "50%" read instantly at thumbnail size? If not, increase to 320pt
+7. Check: Does the headline read instantly at thumbnail size? If not, increase font size
 
 ---
 
@@ -97,7 +97,7 @@ Meta will automatically test all combinations (3×2×2 = 12 variations per ad se
    - "is actually just running low" — same
    - "on one molecule?" — Cormorant Garamond 600 Italic, 32pt, Teal Deep (#0C3B3F)
 5. Below text: thin hairline rule, Copper (#C07840)
-6. Below rule: "NAD+ drops 50% by age 50. NMN puts it back." — Plus Jakarta Sans 300, 16pt, text-secondary (#5A5550)
+6. Below rule: "NAD+ declines significantly after 40. NMN helps restore it." — Plus Jakarta Sans 300, 16pt, text-secondary (#5A5550)
 7. Bottom: "Learn more →" in Copper, 14pt
 8. NO product image. NO logos. NO badges. This should look like a friend's post, not an ad.
 
@@ -111,11 +111,11 @@ It wasn't one thing. It was everything. Hangovers that used to last a morning st
 
 I tried the usual stuff. More sleep. Better diet. Magnesium. B12 shots. A $200 blood panel that came back "normal." My doctor said I was healthy. I didn't feel healthy.
 
-Then a friend — a molecular biologist, not a supplement guy — mentioned something I'd never heard of: NAD+. A coenzyme in every cell responsible for energy production and DNA repair. By age 50, you've lost roughly half of it. Not "maybe." Published research.
+Then a friend — a molecular biologist, not a supplement guy — mentioned something I'd never heard of: NAD+. A coenzyme in every cell responsible for energy production and cellular maintenance. Published studies show levels decline significantly after 40. Not a wellness blog — peer-reviewed research.
 
 He said it's like your cells slowly running out of fuel. Everything still works — just worse. Slower recovery. Less energy. More fog. Sound familiar?
 
-I looked into NMN — the precursor your body uses to rebuild NAD+. Not a stimulant. Not a vitamin. The actual raw material your cells need to produce energy at the cellular level.
+I looked into NMN — the precursor your body uses to rebuild NAD+. The actual raw material your cells need to produce energy at the cellular level.
 
 I ordered Baseline because they publish batch-specific lab results you can verify yourself. No trust required.
 
@@ -123,7 +123,7 @@ Week one, nothing dramatic. Week three, I stopped needing that second coffee. We
 
 I'm not 25. But I stopped feeling like I was falling apart.
 
-→ Baseline NMN. Restore what was lost.
+→ Stop declining. Start restoring.
 
 ---
 
@@ -133,15 +133,15 @@ I'm not 25. But I stopped feeling like I was falling apart.
 
 Sound familiar? There's a reason.
 
-By age 50, your cells lose ~50% of NAD+ — the molecule behind energy production, DNA repair, and cellular maintenance. That slow decline you're feeling isn't vague. It's specific. And it's measurable.
+After 40, your cells produce significantly less NAD+ — the molecule behind energy production and cellular maintenance. That slow decline you're feeling isn't vague. It's specific. And it's measurable.
 
-NMN is the direct precursor your body uses to restore NAD+ levels. Not a stimulant. Not a band-aid. The actual fuel your cells have been running low on.
+NMN is the direct precursor your body uses to restore NAD+ levels. The actual fuel your cells have been running low on.
 
 Baseline NMN: pure, third-party verified, with lab results you can check yourself.
 
 Your body didn't break. It ran out of fuel.
 
-→ Restore your baseline.
+→ Stop declining. Start restoring.
 
 ---
 
@@ -158,7 +158,7 @@ Your body didn't break. It ran out of fuel.
 
 ### Batch 1 Analysis
 
-**Psychological Principle:** Loss Aversion + Specificity Bias. The "50% lost" framing triggers loss aversion (losing something you had > never having it). The molecular specificity makes an abstract feeling ("I'm getting older") concrete and addressable.
+**Psychological Principle:** Loss Aversion + Specificity Bias. The NAD+ decline framing triggers loss aversion (losing something you had > never having it). The molecular specificity makes an abstract feeling ("I'm getting older") concrete and addressable.
 
 **Risk:** The word "molecule" may feel too scientific for some audiences. Creative 3 (native post) tests whether a warmer, conversational approach outperforms the data-driven approach of Creatives 1-2.
 
@@ -331,7 +331,7 @@ Stop chasing spikes. Raise your baseline.
 
 "I used to have energy. Now I just have coffee." Sound familiar?
 
-→ Shop Baseline.
+→ Ditch the third cup. Raise your baseline.
 
 ---
 
@@ -373,8 +373,8 @@ Stop chasing spikes. Raise your baseline.
 
 **Ad Set Name:** `B3_BurnedBuyer_TrustVerification`
 **Sub-Avatar:** #2 — The Burned Supplement Buyer (trust crisis)
-**Angle:** 64% of NMN on Amazon is fake. This bottle proves it isn't.
-**Mechanism:** #1 QR-to-COA + #2 64% Fake Stat
+**Angle:** Most NMN on the market doesn't contain what it claims. This bottle proves it does.
+**Mechanism:** #1 QR-to-COA + #2 NMN Purity Crisis
 **Core Emotion:** Skeptical but still searching
 **Customer Language:** "I don't want to be the sucker who buys empty capsules" / "The supplement industry feels like the Wild West"
 **Gap:** Willingness to buy ≠ ability to trust
@@ -392,8 +392,8 @@ Stop chasing spikes. Raise your baseline.
 
 **Canva Edit Steps:**
 1. Upload AI image of spilled bottle vs premium bottle
-2. Top overlay: Red-tinted banner, angled 2 degrees: "⚠️ 64% OF NMN ON AMAZON IS FAKE" — Plus Jakarta Sans 700, 22pt, white on semi-transparent red (#C0392B at 85%)
-3. Below banner: "Independent lab testing confirmed it." — Plus Jakarta Sans 400, 14pt, Near Black
+2. Top overlay: Red-tinted banner, angled 2 degrees: "⚠️ MOST NMN ON AMAZON ISN'T REAL NMN" — Plus Jakarta Sans 700, 22pt, white on semi-transparent red (#C0392B at 85%)
+3. Below banner: "Independent lab testing keeps finding the same problem." — Plus Jakarta Sans 400, 14pt, Near Black
 4. Bottom bar: Teal Deep, "This bottle has a QR code that proves it isn't." — Plus Jakarta Sans 500, 16pt, Cream
 5. Corner: "BASELINE" logo in Cream
 6. 1080×1080px
@@ -446,7 +446,7 @@ I have a cabinet full of supplements I don't trust anymore.
 
 Three different NMN brands. Two from Amazon, one from a "premium" website. Five-star reviews across the board. None of them did anything. I started wondering if I was the problem — maybe NMN just doesn't work for me.
 
-Then I found a study that ruined my day: independent lab testing showed 64% of NMN supplements sold online contain barely any actual NMN. Some were essentially rice flour in capsules. Five-star reviews. Professional labels. Zero active ingredient.
+Then I found something that ruined my day: independent lab testing has repeatedly shown that many NMN supplements sold online contain far less NMN than what's on the label. Some were essentially rice flour in capsules. Five-star reviews. Professional labels. Questionable contents.
 
 I wasn't the problem. The products were.
 
@@ -466,9 +466,9 @@ You shouldn't have to trust supplement brands. You should be able to verify them
 
 ### Body Copy 2 (Direct Response — 115 words)
 
-64% of NMN supplements tested contain barely any NMN.
+Independent lab testing keeps finding the same thing: many NMN supplements contain far less NMN than what's on the label.
 
-That's not a marketing claim. That's independent lab testing. The bottles look professional. The reviews are glowing. The capsules are empty.
+The bottles look professional. The reviews are glowing. The contents don't match the claims.
 
 Every supplement brand says "third-party tested." Almost none of them show you the results.
 
@@ -497,9 +497,9 @@ Don't trust us. Scan the code.
 
 ### Batch 3 Analysis
 
-**Psychological Principle:** Third-Person Effect + Verification Bias. People believe THEY are too smart to be fooled — but 64% means most ARE being fooled. The QR-to-COA converts skepticism into agency: "I don't have to trust anyone. I can verify myself."
+**Psychological Principle:** Third-Person Effect + Verification Bias. People believe THEY are too smart to be fooled — but widespread purity issues mean many ARE getting shortchanged. The QR-to-COA converts skepticism into agency: "I don't have to trust anyone. I can verify myself."
 
-**Risk:** The 64% stat must be defensible. Source: independent lab testing reported in supplement industry analysis and NMN community research. Ensure you can back this claim if challenged.
+**Risk:** Purity claims must be defensible. Cite specific, verifiable independent testing sources if challenged. Avoid specific percentages unless you have a named study to reference.
 
 **Origins Reference:** Section 12 — "The Negative Review format is a pattern interrupt that creates engagement through unexpected framing." The rice flour review (B3C3) uses this exact pattern.
 
@@ -609,13 +609,13 @@ You're not a bad parent. You're a depleted one.
 
 By your 40s, your cells produce significantly less NAD+ — the molecule responsible for energy at the cellular level. That's why you have nothing left by 5pm. Not because you don't care. Because your tank is genuinely empty.
 
-NMN is the precursor your body uses to rebuild NAD+ levels. Not caffeine. Not willpower. Actual cellular restoration.
+NMN is the precursor your body uses to rebuild NAD+ levels. Cellular support, not another stimulant.
 
 Baseline NMN: pure, verified, one ingredient.
 
 They won't remember your job title. They'll remember if you had the energy to play.
 
-→ Restore your baseline.
+→ Be the parent who says yes.
 
 ---
 
@@ -676,20 +676,20 @@ They won't remember your job title. They'll remember if you had the energy to pl
 ### Creative 2: B5C2 — "Question Hook with Stat"
 
 **Ad Name:** `B5C2_QuestionStat_85Percent`
-**Testing:** Whether a stat targeted specifically at women (85% fatigue) outperforms the lifestyle approach
-**Format:** Clean stat-focused design — "85%" prominently displayed
+**Testing:** Whether a direct-question format targeted specifically at women outperforms the lifestyle approach
+**Format:** Clean question-driven design with editorial styling
 
 **Nano Banana Pro Prompt:**
 > N/A — Graphic design creative, built in Canva
 
 **Canva Edit Steps:**
 1. Background: Warm gradient from Cream (#F5F0E8) to slightly darker cream (#EBE4D8), 1080×1080px
-2. Top: "85%" — JetBrains Mono 700, 200pt, Teal Deep (#0C3B3F)
-3. Below: "of women report fatigue during perimenopause." — Plus Jakarta Sans 400, 22pt, Near Black (#1A1A1A)
-4. Below, after whitespace: "Your doctor said 'manage your stress.'" — Plus Jakarta Sans 400 Italic, 18pt, text-secondary (#5A5550)
-5. Below: "We said: check your NAD+ levels." — Plus Jakarta Sans 600, 18pt, Teal Deep (#0C3B3F)
+2. Top question: "What if the fatigue isn't just hormonal?" — Cormorant Garamond 600, 48pt, Teal Deep (#0C3B3F)
+3. Below: "Perimenopause changes everything. But something else may be changing too — at the cellular level." — Plus Jakarta Sans 400, 20pt, Near Black (#1A1A1A)
+4. Below, after whitespace: "NAD+ declines significantly in your 40s and 50s — compounding alongside hormonal shifts." — Plus Jakarta Sans 400 Italic, 18pt, text-secondary (#5A5550)
+5. Below: "Supporting your cells may support the rest." — Plus Jakarta Sans 600, 18pt, Teal Deep (#0C3B3F)
 6. Bottom: Thin Copper line, "BASELINE" below it, Plus Jakarta Sans 600, 12pt, Teal Deep, letterspaced
-7. 1080×1080px. Source: SWAN study (cite in ad if Meta requires).
+7. 1080×1080px.
 
 ---
 
@@ -738,7 +738,7 @@ Six weeks in: the fog lifted. Eight weeks: I stopped canceling plans. My energy 
 
 This isn't about looking younger. It's about actually functioning again.
 
-→ Baseline NMN.
+→ Function first. Everything else follows.
 
 ---
 
@@ -746,19 +746,19 @@ This isn't about looking younger. It's about actually functioning again.
 
 The health industry sells "anti-aging" as wrinkle cream and collagen peptides.
 
-Meanwhile, your energy disappeared. Your focus scattered. You gained weight without changing a single thing. And your doctor said "it's just perimenopause."
+Meanwhile, your energy disappeared. Your focus scattered. You gained weight without changing a single thing. The explanations didn't fully add up.
 
-That's not a diagnosis. That's a dismissal.
+Something felt incomplete.
 
 Here's what's actually happening: your cells are producing less NAD+ — the molecule behind energy, repair, and cognitive function. The decline accelerates in your 40s and 50s, and it compounds with hormonal shifts.
 
-NMN is the precursor your body uses to restore NAD+ levels. Not a cosmetic fix. A cellular one.
+NMN is the precursor your body uses to restore NAD+ levels. A cellular solution for a cellular problem.
 
 Baseline NMN: pure, verified, no proprietary blends.
 
 This is about function, not appearance.
 
-→ Shop Baseline.
+→ Function first. Everything else follows.
 
 ---
 
@@ -775,9 +775,9 @@ This is about function, not appearance.
 
 ### Batch 5 Analysis
 
-**Psychological Principle:** Identity Validation + Medical Gaslighting Reframe. The "That's not a diagnosis. That's a dismissal." line validates the frustration of being medically minimized. The anti-vanity positioning ("not about looking younger") creates identity alignment with an audience that feels invisible in the supplement market.
+**Psychological Principle:** Identity Validation + Incomplete Answer Reframe. The "Something felt incomplete" line validates the frustration of feeling unheard without attacking medical professionals. The anti-vanity positioning ("not about looking younger") creates identity alignment with an audience that feels invisible in the supplement market.
 
-**Risk:** Must avoid coming across as dismissing hormonal treatments or medical advice. The copy challenges the DISMISSAL, not the diagnosis. "What if it's not JUST hormones" implies there may be more to it — not that hormones don't matter.
+**Risk:** Must avoid coming across as dismissing hormonal treatments or medical advice. The copy suggests there may be an additional cellular dimension worth exploring — it works alongside medical care, not against it.
 
 **Origins Reference:** Section 7 — "The underserved avatar is the biggest opportunity. If you find a group that nobody is talking to, and you speak directly to their experience, you create a competitive moat." No NMN brand targets women 40-55 with non-cosmetic messaging.
 
