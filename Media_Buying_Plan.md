@@ -23,8 +23,32 @@ Why:
 - Mobile-optimized (80%+ of Meta traffic is mobile)
 - Page load under 3 seconds
 - Product images (use your image generation prompts to produce these)
+- Shipping info on PDP: "Ships within 1-2 business days. Delivers in 3-7 business days." (Adjust based on your actual fulfillment timeline)
+- FDA disclaimer on PDP: *"These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."* — Required by law for supplements, and Meta checks your landing page for this during ad review.
+- 30-day money-back guarantee badge visible on PDP (see Return & Guarantee Policy section below)
+- Launch geo: **Canada-only** recommended if you're shipping from Canada — simpler logistics, no cross-border complications, no USD pricing confusion. Expand to US once fulfillment is dialed in.
 
 **Why single SKU at launch:** You're testing avatars and angles, not offer tiers. One SKU = one variable removed. The 3-tier Bundle & Save (Starter / Protocol / Transformation) comes in Phase 2 once you have data, reviews, and a winning avatar — at which point the single-bottle price rises to $59.99 or $69.
+
+### Return & Guarantee Policy
+
+**Offer a 30-day money-back guarantee.** Not 60. Here's why:
+
+- Your hero SKU is a 60-day supply. A 60-day guarantee means someone could use the entire bottle over 59 days and then return it. A 30-day window closes before they've finished half the bottle — if they're unhappy by day 30, that's a legitimate refund. If they're still taking it on day 31, the product is working.
+- 30 days is the industry standard for supplements. It's long enough to feel fair to the customer, short enough to protect your margins.
+- Expected refund rate at this price point: **3-5%** with a 30-day window (vs 5-8% with 60-day). That's ~1-2 refunds per 50 orders.
+
+**Where the guarantee needs to appear:**
+- **PDP:** Dedicated badge or section — "30-Day Money-Back Guarantee. Try it risk-free."
+- **Footer:** Link to full return policy page (Shopify has a template for this)
+- **Checkout page:** Small guarantee badge near the payment button — reduces cart abandonment
+- **Abandoned cart emails (AC1 & AC2):** Mention it as an objection-handler — "Not sure? You're covered by our 30-day guarantee."
+
+**Return policy details:**
+- Customer contacts support (email is fine at this volume) within 30 days of delivery
+- No requirement to return the bottle (shipping costs eat the margin on returns — just refund and move on)
+- One refund per customer (prevents abuse)
+- Process refunds within 3-5 business days
 
 ---
 
@@ -75,6 +99,19 @@ You're starting with a brand-new Business Manager and ad account. Meta treats ne
 
 **Do NOT use your old kitchen tools BM.** The ~$2k CAD of historical spend isn't enough to offset the niche mismatch. Meta's algorithm would try to find kitchen tool buyers for your NMN ads. Start clean.
 
+### Facebook / Instagram Page Setup (Before Warm-Up)
+
+Meta's review team checks your page when reviewing ads from new accounts. A blank or half-built page is a red flag. Complete this before you boost a single post:
+
+- [ ] **Profile photo:** Baseline logo (clean, recognizable at small sizes)
+- [ ] **Cover photo:** Branded image — product shot, lifestyle imagery, or simple brand tagline graphic. Not blank.
+- [ ] **About section:** Fill completely. Brand description, what you sell, your website URL.
+- [ ] **Page category:** Set to "Health/Wellness" or "Vitamin/Supplement Store"
+- [ ] **Business address and contact info:** Populated (even if it's just a city + email). Meta wants to see a real business.
+- [ ] **Instagram connected:** Link your IG account to the FB page through Meta Business Suite. Ads can run on both placements from the same account.
+
+**Why this matters:** Meta's ad review is partially automated, partially human. On a brand-new ad account spending its first dollars, a complete, professional-looking page signals "legitimate business." An empty page with a stock photo profile pic signals "potential policy violator." The review outcome can literally differ based on this.
+
 ### Warm-Up Sequence (No Video Required — All Static Ads at Launch)
 
 Since all 5 batches are static image creatives, we skip the ThruPlay warm-up (which requires video). Instead:
@@ -106,6 +143,86 @@ Since all 5 batches are static image creatives, we skip the ThruPlay warm-up (wh
 ### Transition to Purchase Campaign
 
 After 1-2 weeks of organic posts with some engagement (even modest — a few likes/comments is fine), you're ready to launch your purchase-optimized discovery campaign.
+
+---
+
+## PART 3.5: META AD POLICY FOR SUPPLEMENTS (Compliance Check Before Any Ad Goes Live)
+
+### Why This Matters More Than Anything Else in This Plan
+
+A rejected ad on a new ad account is one of the fastest ways to get your entire account flagged or restricted. Meta reviews new accounts more aggressively — one health claim violation can trigger manual review of your entire account, delay all future ad approvals, or in worst cases, permanently restrict the account before you've spent $100.
+
+**Run every ad variation and your PDP through a compliance check before uploading anything to Meta.**
+
+### Claims That Will Get Your Ads Rejected
+
+Meta's Advertising Standards prohibit health claims that assert or imply the ability to prevent, treat, or cure any disease or medical condition. For supplements, this extends to:
+
+| Claim Type | Example (WILL BE REJECTED) | Why It Gets Flagged |
+|------------|---------------------------|---------------------|
+| **Disease/condition claims** | "Reverses aging," "Fights Alzheimer's," "Prevents heart disease" | Direct medical claim — immediate rejection |
+| **Diagnosis/cure language** | "Cure your fatigue," "Fix your metabolism," "Treat age-related decline" | Implies the product treats a medical condition |
+| **Before/after implications** | "Look 10 years younger," "Turn back the clock" | Implies guaranteed physical transformation |
+| **Absolute outcome claims** | "Guaranteed energy boost," "You WILL feel different," "100% effective" | No supplement can guarantee outcomes |
+| **Personal health assertions** | "Your cells are dying," "Your body is broken," "You're aging faster than you should" | Asserts knowledge of user's personal health status — Meta flags this aggressively |
+
+### Safe Language That Passes Review
+
+The key word is **"supports."** Meta allows structure/function claims that describe how a supplement interacts with normal body processes, as long as you don't cross into disease territory.
+
+| Unsafe (REJECTED) | Safe Replacement (APPROVED) |
+|--------------------|----------------------------|
+| "Reverses aging" | "Supports cellular health as you age" |
+| "Cures fatigue" | "Supports consistent daily energy" |
+| "Fixes your metabolism" | "Supports healthy metabolic function" |
+| "Boosts your immune system" | "Supports normal immune function" |
+| "Prevents cognitive decline" | "Supports brain health and mental clarity" |
+| "Your cells are dying" | "NAD+ levels naturally decline with age" |
+| "Guaranteed results" | "Backed by peer-reviewed research" |
+| "Turn back the clock" | "Support your body at the cellular level" |
+| "You WILL feel more energy" | "Many people notice more consistent energy" |
+
+### Compliance Check Process — Do This Before Uploading
+
+Run every piece of ad-facing content through this checklist:
+
+**For all 18 ad variations (3 batches × 3 creatives × 2 body copies):**
+
+- [ ] No disease, diagnosis, treatment, or cure language
+- [ ] No "before/after" transformation claims
+- [ ] No personal health assertions ("your body is…", "you are…")
+- [ ] No absolute guarantees ("you will," "guaranteed," "proven to")
+- [ ] All claims use "supports," "promotes," "helps maintain" language
+- [ ] No references to specific medical conditions (Alzheimer's, diabetes, cancer, etc.)
+- [ ] Ad images contain no misleading before/after comparisons
+- [ ] No implication that users currently have a health deficiency
+
+**For your PDP (same rules apply — Meta reviews your landing page too):**
+
+- [ ] FDA disclaimer present: *"These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease."*
+- [ ] No disease claims in product description, benefits section, or FAQ
+- [ ] No customer testimonials claiming to cure or treat a condition
+- [ ] Research citations reference "supports" not "proves" or "cures"
+
+### What to Do If an Ad Gets Rejected
+
+On a new account, how you handle rejections matters:
+
+1. **Do NOT immediately appeal.** Appeals draw human reviewer attention to your entire account. On a new account with no spend history, this is risky.
+2. **Duplicate the ad with softer language.** Identify the flagged claim, rewrite it using the safe language table above, and submit as a new ad.
+3. **Wait 24-48 hours after the rejection clears before appealing** (if you even need to). Often the duplicate with softer language gets approved and you move on.
+4. **If multiple ads get rejected in the same batch,** pause all ads in that batch. Rewrite the entire batch before resubmitting. Multiple rapid rejections compound the account risk.
+5. **Keep a rejection log.** Track which words/phrases triggered rejections so you build your own "banned words" list over time.
+
+### Your Batches — Specific Compliance Notes
+
+| Batch | Risk Level | Watch For |
+|-------|-----------|-----------|
+| **Batch 1 (Reluctant Decliner)** | Medium | "Decline" language can edge toward medical claims. "Your body is declining" = rejected. "NAD+ naturally declines with age" = safe. |
+| **Batch 2 (3pm Wall Hitter)** | Low | Energy/fatigue is the safest supplement angle. Just avoid "cures fatigue" or "fixes your energy." |
+| **Batch 3 (Burned Supplement Buyer)** | Low | Trust/verification angle — barely touches health claims. Safest batch. |
+| **Batch 4 (Exhausted Parent)** | Medium | "Exhaustion" can trigger health flags. Use "tired" or "low energy" instead. Avoid implying a medical condition. |
+| **Batch 5 (Invisible Woman)** | Medium-High | Menopause/hormonal language will get flagged immediately. Frame around energy and vitality, not hormonal symptoms. |
 
 ---
 
@@ -392,6 +509,41 @@ This flow is CRITICAL. NMN takes 2-4 weeks to build NAD+ levels. If you don't se
 
 ---
 
+### Review Collection Strategy
+
+Reviews are the lifeblood of a supplement brand. Without them, your Batch 3 (Burned Supplement Buyer) ads are running on hypothetical social proof. Here's how to get real reviews fast.
+
+**Review App: Judge.me (Free Tier)**
+- Free plan covers everything you need at launch: automated review request emails, photo reviews, star rating widget on PDP
+- Integrates natively with Shopify and Klaviyo
+- Upgrade to paid ($15/month) only when you need Google Shopping integration or review carousels
+
+**Review Request Email — Add to Post-Purchase Flow**
+
+Insert between PP3 (Day 14 check-in) and PP4 (Day 30 midpoint):
+
+| Email | Timing | Subject Line | Content | Goal |
+|-------|--------|-------------|---------|------|
+| **PP-Review** | Day 28 | "How's Baseline working for you?" | "You've been taking Baseline for almost a month — that's long enough to notice a difference. We'd love to hear about your experience. Leave a quick review — it takes 30 seconds and helps other people decide if NMN is right for them." Single CTA button to Judge.me review form. | Collect first reviews at the point where results are most noticeable |
+
+**Why Day 28:** NMN takes 2-4 weeks to produce noticeable effects. Day 28 catches people at the peak of their "this is actually working" moment — right when positive sentiment is highest and they're most willing to leave a review.
+
+**Seeding Strategy for First 5-10 Reviews (Pre-Launch)**
+
+You need reviews visible on the PDP before ads start driving traffic. Zero reviews on a supplement PDP kills conversion.
+
+1. **Give product to 5-10 people you know** — friends, family, gym contacts. At cost ($11/bottle), not free. People who pay something give more credible reviews.
+2. **Ask for honest reviews** — don't script them. Genuine language ("I've been sleeping better and I have more energy in the afternoon") converts better than polished marketing copy.
+3. **Photo reviews are gold.** Ask reviewers to snap a photo of the bottle on their counter or desk. Photo reviews get 3-5x more engagement than text-only.
+4. **Target a minimum of 5 reviews before first ad dollar is spent.** 5 reviews with an average of 4.5+ stars is enough to remove the "zero reviews" objection.
+
+**How Reviews Feed Back Into Ads:**
+- Once you have 10+ real reviews, your Batch 3 ads (Star Rating Card, Reddit-Style Comment, Multi-Review Collage) can reference actual customer language instead of hypothetical testimonials
+- Pull direct quotes from reviews for ad copy iterations in the Champion Ad Set testing phase
+- Screenshot real reviews for social proof ad creatives in Phase 2
+
+---
+
 ### Flow 4: Browse Abandonment (Lower Priority — Build After Launch)
 
 **Trigger:** Viewed PDP 2+ times without adding to cart
@@ -489,26 +641,43 @@ This would mean the product-market fit isn't there yet, NOT that the ads are bad
 
 ### Before Warm-Up (Week -1)
 
+**Store & Product:**
 - [ ] Shopify store live with PDP fully built (Shrine Pro sections populated)
 - [ ] Single hero SKU live: 120ct at $49.99, compare-at $69.99
 - [ ] Free shipping included
-- [ ] Meta Pixel installed and firing on: PageView, ViewContent, AddToCart, InitiateCheckout, Purchase
+- [ ] Shipping info on PDP ("Ships within 1-2 business days, delivers in 3-7 business days")
+- [ ] FDA disclaimer on PDP: *"These statements have not been evaluated by the FDA..."*
+- [ ] 30-day money-back guarantee badge on PDP
+- [ ] Return policy page published (linked in footer)
 - [ ] Product images produced and uploaded
+- [ ] Mobile checkout tested on phone
+- [ ] Payment processing tested (place a real test order)
+
+**Reviews:**
+- [ ] Judge.me (or review app) installed and configured on PDP
+- [ ] Minimum 5 seeded reviews live on PDP before first ad spend
+
+**Email & Automations:**
 - [ ] Klaviyo connected to Shopify
 - [ ] Welcome flow live (5 emails)
 - [ ] Abandoned cart flow live (3 emails + optional SMS)
-- [ ] Post-purchase flow live (5 emails)
+- [ ] Post-purchase flow live (5 emails + review request at Day 28)
 - [ ] 10% popup live on site
-- [ ] Payment processing tested (place a real test order)
-- [ ] Mobile checkout tested on phone
 - [ ] eBook PDF created and delivery automated
-- [ ] 3-5 organic posts published on FB/IG page
+
+**Meta Setup:**
+- [ ] Meta Pixel installed and firing on: PageView, ViewContent, AddToCart, InitiateCheckout, Purchase
 - [ ] New Business Manager and ad account created (NOT your old kitchen tools BM)
+- [ ] Facebook page fully set up (profile photo, cover photo, about section, category, contact info)
+- [ ] Instagram account connected to Facebook page via Meta Business Suite
+- [ ] 3-5 organic posts published on FB/IG page
 
 ### Before Purchase Campaign (Week 1)
 
 - [ ] Organic posts running for 1-2 weeks with some engagement
 - [ ] Paid warm-up complete: 2-3 days of boosted organic post at $5-10/day, no ad rejections or account flags
+- [ ] **All 18 ad variations compliance-checked** (see Part 3.5 checklist — no health claim violations)
+- [ ] **PDP compliance-checked** (FDA disclaimer present, no disease claims in copy, testimonials clean)
 - [ ] 18 ad variations uploaded to Meta (3 batches × 3 creatives × 2 body copies) — all static images
 - [ ] CBO campaign structure built per Part 4
 - [ ] UTM parameters on all ad links for tracking
