@@ -83,15 +83,23 @@ Since all 5 batches are static image creatives, we skip the ThruPlay warm-up (wh
 |-------|----------|-------------|-------------|---------|
 | **Pixel install** | Day 1 | $0 | Install Meta pixel + Conversions API (CAPI) on Shopify immediately. Browse your own store. Send it to friends. | Start building pixel data (ViewContent events) before any ad spend. |
 | **Organic posts** | Week 1-2 | $0 | Post 3-5 educational posts on your FB/IG page. NAD+ stats, "did you know" content, behind-the-scenes of lab testing/sourcing. | Show Meta your page is real and active. Establishes content category. |
-| **Go live** | Week 2+ | $50/day | Launch purchase-optimized discovery campaign directly with static ads. | No paid warm-up needed — the organic posts + pixel install are enough. |
+| **Paid warm-up (optional but recommended)** | 2-3 days | $5-10/day | Run a **Post Engagement campaign** boosting one of your best organic posts (an educational NAD+ post, NOT unrelated content). Target broad 40+. | Gives Meta a clean spend history + ad approval with no policy flags. Builds a small "engaged with page" audience. Keeps you in your actual content category so Meta starts learning your niche from day 1. |
+| **Go live** | After warm-up | $50/day | Launch purchase-optimized discovery campaign with static ads. | Warmed account transitions to real campaign. |
 
-**Total warm-up cost: $0**
+**Total warm-up cost: $10-$30 CAD**
 
-**Why skip the paid warm-up:**
-- ThruPlay requires video — you don't have video yet and shouldn't pay for it on an unvalidated product
-- A traffic campaign would spend $50-100 attracting browsers, not buyers — better to put that toward actual purchase-optimized spend
-- The CPM "tax" on a new ad account is real but small (~$10-20 extra over the first week at $50/day). Not worth an entire warm-up phase to avoid.
-- Organic posts for 1-2 weeks + pixel install give Meta enough signal that you're a real page in the health/wellness category
+**Why boost your own post (not an unrelated "like if you love God" image):**
+- Both achieve the same thing: clean spend history, approved ads, no policy violations
+- But boosting your own content teaches Meta your actual audience from day 1 (health/wellness, 40+)
+- Unrelated content creates a niche mismatch — Meta learns "people who engage with religious content" then has to course-correct when your real ads go live
+- You also build a small retargetable "engaged with page" audience that's actually relevant to your brand
+- Same cost ($10-30), better signal
+
+**What the warm-up actually does for you:**
+- Establishes clean account history (no rejections, no reports)
+- Gives Meta's system a first look at your ad creative style and audience response
+- Slightly reduces the CPM "tax" new accounts pay in their first week of real spend
+- Costs almost nothing — worst case you spent $30 on engagement for a post you were making anyway
 
 **When video enters the picture:** Once you identify a winning avatar + angle, THEN commission a UGC-style review video built around that winning angle. This becomes your Phase 2 creative — tested on a validated product and proven hook, not a guess. Much better ROI on the UGC investment.
 
@@ -409,7 +417,8 @@ This flow is CRITICAL. NMN takes 2-4 weeks to build NAD+ levels. If you don't se
 |------|--------|---------------|-----------------|
 | **Week -2** | Build Shopify PDP, set up Klaviyo flows, install Meta pixel + CAPI, create product images | $0 | $0 |
 | **Week -1** | Organic posts on FB/IG page (3-5 educational posts). Final PDP review, test checkout, verify pixel. | $0 | $0 |
-| **Week 1** | Launch Batches 1, 2, 3 in CBO at $50/day. **DO NOT TOUCH.** | $50/day | $350 |
+| **Days 1-3** | Paid warm-up: boost best organic post as engagement campaign. $5-10/day for 2-3 days. | $5-10/day | $10-$30 |
+| **Week 1** | Launch Batches 1, 2, 3 in CBO at $50/day. **DO NOT TOUCH.** | $50/day | $360-$380 |
 | **Week 2** | Continue observation. First light cuts on individual ads (not ad sets). | $50/day | $700 |
 | **Week 3** | Swap weakest batch for Batch 4. Continue testing. | $50/day | $1,050 |
 | **Week 4** | Swap or add Batch 5. Identify winning avatar + angle. | $50/day | $1,400 |
@@ -499,6 +508,7 @@ This would mean the product-market fit isn't there yet, NOT that the ads are bad
 ### Before Purchase Campaign (Week 1)
 
 - [ ] Organic posts running for 1-2 weeks with some engagement
+- [ ] Paid warm-up complete: 2-3 days of boosted organic post at $5-10/day, no ad rejections or account flags
 - [ ] 18 ad variations uploaded to Meta (3 batches × 3 creatives × 2 body copies) — all static images
 - [ ] CBO campaign structure built per Part 4
 - [ ] UTM parameters on all ad links for tracking
