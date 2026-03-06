@@ -17,84 +17,129 @@ Why:
 
 **What your PDP needs before launch:**
 - All Shrine Pro sections populated with your copy
-- 3-tier Bundle & Save (Starter / Protocol / Transformation) live and functional
-- Free shipping threshold set at $59+
+- Single hero SKU live: 120ct (60-day supply) at **$49.99** launch price
+- Free shipping included (baked into the price at this tier — removes all friction)
 - Subscription option visible but not forced
 - Mobile-optimized (80%+ of Meta traffic is mobile)
 - Page load under 3 seconds
 - Product images (use your image generation prompts to produce these)
 
----
-
-## PART 2: COMPARE AT PRICE STRATEGY
-
-### Set Your "Compare At" Price to $89 for the 120ct Hero SKU
-
-| SKU | Selling Price | Compare At Price | Perceived Savings | Why This Number |
-|-----|--------------|-----------------|-------------------|-----------------|
-| 60ct (The Starter) | $49 | $59 | Save $10 (17%) | Anchors against low-end competitors; modest enough to be believable |
-| 120ct (The Protocol) | $69 | $89 | Save $20 (22%) | $89 is where PartiQlar and mid-premium brands sit for 60-day supply |
-| 2x 120ct (The Transformation) | $119 | $178 | Save $59 (33%) | 2x the compare-at of a single 120ct; the math checks out visually |
-
-**Rules:**
-- Compare-at must be a price you could *believably* charge. $89 for a 60-day NMN supply is within market range (PartiQlar = $86, GenuinePurity = $80).
-- Never set compare-at more than 40% above selling price — it looks fake.
-- Shopify will show the strikethrough price automatically. Don't add additional "SALE" language — it cheapens the brand.
+**Why single SKU at launch:** You're testing avatars and angles, not offer tiers. One SKU = one variable removed. The 3-tier Bundle & Save (Starter / Protocol / Transformation) comes in Phase 2 once you have data, reviews, and a winning avatar — at which point the single-bottle price rises to $59.99 or $69.
 
 ---
 
-## PART 3: CAMPAIGN STRUCTURE (Meta Ads)
+## PART 2: PRICING STRATEGY
 
-### Your Instinct Is Right — Here's the Refined Version
+### Launch Pricing: $49.99 for the 120ct Hero SKU
+
+| Phase | SKU | Selling Price | Compare At | Margin $ | Margin % | $/Day | Breakeven ROAS |
+|-------|-----|--------------|-----------|----------|----------|-------|----------------|
+| **Launch (Phase 1)** | 120ct (60-day) | **$49.99** | $69.99 | $38.99 | 78.0% | $0.83 | 1.28x |
+| **Post-validation (Phase 2)** | 120ct (60-day) | $59.99 | $79.99 | $48.99 | 81.7% | $1.00 | 1.22x |
+| **Mature (Phase 3)** | 120ct (60-day) | $69.00 | $89.00 | $58.00 | 84.1% | $1.15 | 1.19x |
+
+**Why $49.99 at launch:**
+- Stays under the $50 psychological threshold — meaningful conversion lift vs $59.99
+- At $0.83/day, you undercut every credible NMN brand on the market
+- 78% margin is still extremely healthy — breakeven ROAS of 1.28x
+- Lower price = lower CPA = faster data collection on a smaller budget
+- Early customers become "founding customers" who got the best price. Everyone after pays more.
+
+**Why NOT $39.99:**
+- Signals "budget brand" — contradicts your entire trust-first, lab-verified positioning
+- Customers in the supplement space associate low price with low quality
+- Only saves the customer $10 more, but costs you credibility
+
+**Compare-At Price: $69.99**
+- This is your actual future Phase 3 price, so it's not fabricated
+- 29% perceived savings — meaningful but believable
+- Shopify shows the strikethrough automatically. Don't add "SALE" language — it cheapens the brand.
+
+### Price Escalation Plan
+
+| Trigger | Action |
+|---------|--------|
+| 50+ orders OR 30 days (whichever first) | Raise to $54.99 |
+| 100+ orders OR winning avatar identified | Raise to $59.99, introduce 3-tier bundles |
+| Strong reviews + repeat purchase data | Raise to $69, full Bundle & Save structure |
+
+This gives you a natural progression: early adopters get rewarded, price rises as social proof accumulates, and you never have to discount from your "real" price.
+
+---
+
+## PART 3: AD ACCOUNT WARM-UP (Before Purchase Campaigns)
+
+### Why Warm Up
+
+You're starting with a brand-new Business Manager and ad account. Meta treats new accounts with zero spend history as higher risk — CPMs will be inflated and delivery can be inconsistent. A warm-up phase establishes your account as legitimate before you ask it to optimize for purchases.
+
+**Do NOT use your old kitchen tools BM.** The ~$2k CAD of historical spend isn't enough to offset the niche mismatch. Meta's algorithm would try to find kitchen tool buyers for your NMN ads. Start clean.
+
+### Warm-Up Sequence
+
+| Phase | Duration | Daily Spend | Campaign Type | Creative | Purpose |
+|-------|----------|-------------|---------------|----------|---------|
+| **Organic posts** | Week 1-2 | $0 | None — just post | 3-5 educational posts (NAD+ stats, "did you know" content, behind-the-scenes lab testing) | Show Meta your page is real and active |
+| **Pixel install** | Day 1 | $0 | None | N/A | Install pixel on Shopify immediately. Even your own browsing starts building data. |
+| **ThruPlay campaign** | Week 2-3 (5-7 days) | $10-15/day | Video Views (ThruPlay) | B1C1 "Late Night Search History" as a 30-60 sec video. Target broad 40+. | Warm up ad account with clean spend. Build video view audience for retargeting. Let Meta learn your content category. |
+
+**Total warm-up cost: $50-$105 CAD**
+
+**Why ThruPlay and NOT Engagement:**
+- Engagement campaigns attract engagement farmers (people who like/comment on everything but never buy)
+- ThruPlay selects for people who actually watch content — much closer to your buyer profile
+- Video viewers become a retargetable audience (people who watched 50%+ or 75%+) that you can use later
+
+### Transition to Purchase Campaign
+
+After 5-7 days of ThruPlay spend with no issues (no ad rejections, no account flags, consistent delivery), you're ready to launch your purchase-optimized discovery campaign.
+
+---
+
+## PART 4: CAMPAIGN STRUCTURE (Meta Ads)
+
+### Discovery Campaign — 3 Batches at $50/day
+
+At $50/day, running 5 ad sets gives each one only $10/day — not enough signal. **Launch with your 3 strongest batches first.** Each gets ~$16-17/day, which is thin but workable.
 
 ```
 CAMPAIGN: Baseline NMN — Avatar Discovery (CBO)
-├── Budget: $150-$250 CAD/day
+├── Budget: $50 CAD/day
 ├── Optimization: Purchases
 ├── Attribution: 7-day click, 1-day view
 │
-├── AD SET 1: Batch 1 — The Reluctant Decliner
+├── AD SET 1: Batch 1 — The Reluctant Decliner (BROADEST)
 │   ├── Targeting: Broad (40+, your geo)
 │   ├── Creative 1: B1C1 "Late Night Search History"
 │   ├── Creative 2: B1C2 "Trajectory Note"
 │   └── Creative 3: B1C3 "Honest Post"
 │
-├── AD SET 2: Batch 2 — The 3pm Wall Hitter
+├── AD SET 2: Batch 2 — The 3pm Wall Hitter (MOST UNIVERSAL)
 │   ├── Targeting: Broad (35+, your geo)
 │   ├── Creative 1: B2C1 "Coffee Chaos vs NMN Calm"
 │   ├── Creative 2: B2C2 "Spike vs Baseline Graph"
 │   └── Creative 3: B2C3 "Cells Then vs Now"
 │
-├── AD SET 3: Batch 3 — The Burned Supplement Buyer
-│   ├── Targeting: Broad (35+, your geo)
-│   ├── Creative 1: B3C1 "Star Rating Card"
-│   ├── Creative 2: B3C2 "Reddit-Style Comment"
-│   └── Creative 3: B3C3 "Multi-Review Collage"
-│
-├── AD SET 4: Batch 4 — The Exhausted Parent
-│   ├── Targeting: Broad (35-55, your geo)
-│   ├── Creative 1: B4C1 "Maybe Later"
-│   ├── Creative 2: B4C2 "Leftovers"
-│   └── Creative 3: B4C3 "Guilt Cycle"
-│
-└── AD SET 5: Batch 5 — The Invisible Woman
-    ├── Targeting: Broad (40-55, Female, your geo)
-    ├── Creative 1: B5C1 "Anti-Aging Reframe"
-    ├── Creative 2: B5C2 "Doctor Dismissal"
-    └── Creative 3: B5C3 "Body Didn't Betray You"
+└── AD SET 3: Batch 3 — The Burned Supplement Buyer (STRONGEST PATTERN INTERRUPT)
+    ├── Targeting: Broad (35+, your geo)
+    ├── Creative 1: B3C1 "Star Rating Card"
+    ├── Creative 2: B3C2 "Reddit-Style Comment"
+    └── Creative 3: B3C3 "Multi-Review Collage"
 ```
+
+**Batches 4 & 5 (Exhausted Parent, Invisible Woman):** Hold in reserve. After 7-10 days, if you have a clear loser among the first 3, swap it out for Batch 4 or 5. This lets you test all 5 avatars without spreading $50/day too thin.
 
 ### Why CBO (Not ABO)
 
 - CBO lets Meta allocate spend toward whichever ad set is converting. You're not guessing which avatar wins — you're letting the algorithm tell you.
-- With $150-$250/day across 5 ad sets, CBO will naturally starve the losers and feed the winners within 3-5 days.
-- You're right that these ad sets won't individually exit learning phase — and that's fine. The goal here is **signal, not scale.**
+- At $50/day across 3 ad sets, CBO will naturally starve the losers and feed the winners within 5-7 days.
+- These ad sets won't individually exit learning phase — and that's fine. The goal here is **signal, not scale.**
 
 ### Body Copy Per Ad
 
-Each creative runs with **2 body copy variants** (already written in your batches doc). So each ad set has 3 creatives × 2 body copies = **6 ad variations per ad set, 30 total ads in the campaign.**
+Each creative runs with **2 body copy variants** (already written in your batches doc). So each ad set has 3 creatives × 2 body copies = **6 ad variations per ad set, 18 total ads in the campaign.**
 
-This is a lot. Meta will aggressively allocate to the top performers. That's exactly what you want.
+Meta will aggressively allocate to the top performers. That's exactly what you want.
 
 ### Headlines
 
@@ -102,26 +147,38 @@ Use the 2 headlines per batch that you already have. Pair each headline with eac
 
 ---
 
-## PART 4: BATCH LAUNCH SEQUENCE
+## PART 5: BATCH LAUNCH SEQUENCE
 
-### Launch All 5 Batches Simultaneously — Day 1
+### Launch 3 Batches Simultaneously — Day 1
 
-**Do NOT stagger batches.** Here's why:
+Launch Batches 1, 2, and 3 together in the CBO. Here's why these three:
 
-1. **You don't know which avatar converts until you test.** Launching Batch 1 first because it's "broadest" is a hypothesis, not a fact. Let the data speak.
-2. **CBO is designed for simultaneous testing.** It will automatically allocate budget to the winner. Staggering defeats the purpose.
-3. **Time is money.** At $200/day, every week of staggered testing is $1,400 spent without full data. Launch all 5, get signal in 7 days.
+1. **Batch 1 (Reluctant Decliner)** — broadest emotional appeal, speaks to virtually everyone 40+ noticing decline
+2. **Batch 2 (3pm Wall Hitter)** — most universal pain point, tangible daily experience everyone can relate to
+3. **Batch 3 (Burned Supplement Buyer)** — strongest pattern interrupt, leverages your #1 competitive advantage (trust/verification)
 
-### The 7-Day Rule
+### Batch Rotation Strategy
 
-- **Do not touch anything for 7 days.** No pausing ads, no adjusting budgets, no killing "underperformers" at day 3. Meta's algorithm needs 50 conversion events to optimize. At $200/day you'll need roughly 7 days to accumulate enough data.
-- Exception: if an ad is spending >40% of budget with zero purchases by day 5, you can kill that specific ad (not the ad set).
+| Timing | Action |
+|--------|--------|
+| Day 1-10 | Run Batches 1, 2, 3. Do not touch. |
+| Day 10-11 | Review data. Identify the weakest performing batch (lowest CTR + no purchases). |
+| Day 11+ | Pause weakest batch. Swap in **Batch 4 (Exhausted Parent)**. Run for 7-10 days. |
+| Day 18-20 | If Batch 4 outperforms, keep it. If not, swap for **Batch 5 (Invisible Woman)**. |
+| Day 25+ | You've now tested all 5 avatars. Build Champion Ad Set with winners. |
+
+This gives you full coverage of all 5 avatars within ~4 weeks without ever spreading your $50/day budget too thin.
+
+### The 7-Day Rule (Adjusted for $50/day)
+
+- **Do not touch anything for 7-10 days.** At $50/day you accumulate data slower. Give the algorithm more time, not less.
+- Exception: if a single ad is eating >40% of budget with zero add-to-carts by day 7, you can kill that specific ad (not the ad set).
 
 ---
 
-## PART 5: READING THE DATA & BUILDING YOUR CHAMPION AD SET
+## PART 6: READING THE DATA & BUILDING YOUR CHAMPION AD SET
 
-### Week 1 (Days 1-7): Observation Only
+### Days 1-10: Observation Only
 
 Track these metrics daily but change NOTHING:
 
@@ -134,25 +191,26 @@ Track these metrics daily but change NOTHING:
 | Cost per Purchase | Which avatar actually buys | Ad-level metrics |
 | ROAS | Which avatar is profitable | Ad-level metrics |
 
-### Week 2 (Days 8-14): First Cuts
+### Days 10-14: First Cuts
 
 **Kill criteria** (apply to individual ads, not ad sets):
-- CTR below 0.8% after $50+ spend → the hook isn't working
-- CPC above $5 CAD after $50+ spend → the creative isn't resonating
-- No purchases after $75+ spend → the angle isn't converting
+- CTR below 0.8% after $30+ spend → the hook isn't working
+- CPC above $5 CAD after $30+ spend → the creative isn't resonating
+- No add-to-carts after $50+ spend → the angle isn't connecting (at $50/day budget, use ATC as a leading indicator since purchases will be sparse)
 
 **Keep criteria:**
-- Any ad with a purchase at <$50 CAD CPA → promising
+- Any ad with a purchase at any CPA → promising (at this budget, even 1 purchase is signal)
 - Any ad with CTR >1.5% → strong hook, worth iterating on
-- Any ad set receiving >25% of CBO budget → Meta is finding conversions there
+- Any ad set receiving >35% of CBO budget → Meta is finding conversions there
+- Multiple add-to-carts even without purchases → the angle works, PDP may need optimization
 
-### Week 2-3: Build the Champion Ad Set
+### Days 25-30: Build the Champion Ad Set
 
 Once you have clear signal on which sub-avatar and angle converts:
 
 ```
 CAMPAIGN: Baseline NMN — Scale (CBO)
-├── Budget: Start at $100/day, scale 20% every 3 days if ROAS holds
+├── Budget: Start at $75/day, scale 20% every 3 days if ROAS holds
 │
 ├── AD SET: Champion Ad Set ⭐
 │   ├── Targeting: Same broad targeting as winning ad set
@@ -167,7 +225,7 @@ CAMPAIGN: Baseline NMN — Scale (CBO)
 │       (don't switch avatars — go deeper on what works)
 │
 └── RETARGETING AD SET
-    ├── Audience: Website visitors (7-day), ATC (14-day), engaged (30-day)
+    ├── Audience: Website visitors (7-day), ATC (14-day), video viewers (75%+, from warm-up phase)
     ├── Budget cap: 15% of total
     └── Creatives: Testimonial-style, proof-heavy (Batch 3 creative style)
 ```
@@ -176,33 +234,45 @@ CAMPAIGN: Baseline NMN — Scale (CBO)
 
 To exit learning phase you need ~50 conversion events per week per ad set.
 
+At $49.99 price point with lower CPA expectations:
+
 | Daily Budget | Avg CPA | Purchases/Day | Purchases/Week | Learning Phase? |
 |-------------|---------|---------------|-----------------|-----------------|
-| $100/day | $30 | 3.3 | 23 | Still learning |
-| $200/day | $30 | 6.7 | 47 | Almost there |
-| $250/day | $30 | 8.3 | 58 | Exited |
-| $350/day | $30 | 11.7 | 82 | Comfortably exited |
+| $50/day | $25 | 2.0 | 14 | Still learning (discovery phase — this is fine) |
+| $75/day | $25 | 3.0 | 21 | Still learning (but getting meaningful data) |
+| $100/day | $25 | 4.0 | 28 | Getting closer |
+| $150/day | $25 | 6.0 | 42 | Almost there |
+| $200/day | $25 | 8.0 | 56 | Exited |
 
-**Your breakeven CPA** (based on your margins):
-- Protocol SKU ($69, 84.1% margin): Breakeven CPA = **$58**
-- Transformation SKU ($119, 81.5% margin): Breakeven CPA = **$97**
-- Starter SKU ($49, 81.6% margin): Breakeven CPA = **$40**
+**Your breakeven CPA at launch pricing ($49.99):**
+- Breakeven CPA = **$38.99** (your full margin on the 120ct at $49.99)
+- Target CPA for healthy profit: **$20-25 CAD**
+- At $25 CPA you make ~$14 profit per customer on day 1 (before COGS, after ad spend)
 
-You have enormous headroom. Even at a $40 CPA you're profitable on every SKU.
+**Budget scaling path to exit learning phase:**
+
+| Phase | Daily Budget | Duration | Weekly Purchases (at $25 CPA) |
+|-------|-------------|----------|-------------------------------|
+| Discovery | $50/day | 3-4 weeks | ~14/week |
+| Validation | $75/day | 2 weeks | ~21/week |
+| Early scale | $100-125/day | 2 weeks | ~28-35/week |
+| Learning phase exit | $175-200/day | Ongoing | ~50+/week |
+
+**Timeline to exit learning phase: ~7-10 weeks from first purchase campaign.** Yes, this is slower than launching at $200/day. But you'll arrive there with validated creative, a warmed pixel, and confidence in your numbers — not a $3,000 hole and guesswork.
 
 ---
 
-## PART 6: KPIs & TARGETS
+## PART 7: KPIs & TARGETS
 
 ### Primary KPIs (Check Daily)
 
 | KPI | Target (Discovery Phase) | Target (Scale Phase) | Why |
 |-----|-------------------------|---------------------|-----|
-| **ROAS** | >1.5x (profitable) | >2.0x (healthy profit) | Breakeven is 1.19-1.27x — anything above that is gravy |
-| **CPA (Cost Per Acquisition)** | <$50 CAD | <$40 CAD | Leaves $19-$79 margin depending on SKU |
+| **ROAS** | >1.5x (profitable) | >2.0x (healthy profit) | Breakeven is 1.28x at $49.99 — anything above is profit |
+| **CPA (Cost Per Acquisition)** | <$35 CAD | <$25 CAD | At $49.99 price, breakeven CPA is $38.99 |
 | **CTR (Link Click-Through)** | >1.0% | >1.5% | Below 1% = creative isn't resonating |
 | **CVR (Conversion Rate on PDP)** | >1.5% | >2.5% | Below 1.5% = PDP problem, not ad problem |
-| **AOV (Average Order Value)** | >$65 | >$75 | Tells you if customers are choosing Protocol/Transformation |
+| **AOV (Average Order Value)** | ~$50 | >$55 (post-bundle launch) | Single SKU at launch so AOV = price. Track for post-bundle phase. |
 
 ### Secondary KPIs (Check Weekly)
 
@@ -221,8 +291,8 @@ You have enormous headroom. Even at a $40 CPA you're profitable on every SKU.
 |-----|---------|--------|
 | **Blended ROAS** | Total Revenue / Total Ad Spend | >2.0x |
 | **Contribution Margin** | (Revenue - COGS - Ad Spend) / Revenue | >40% |
-| **Customer Acquisition Cost (CAC)** | Total Marketing Spend / New Customers | <$50 |
-| **Profit Per Customer (Day 1)** | AOV - COGS - CAC | >$10 |
+| **Customer Acquisition Cost (CAC)** | Total Marketing Spend / New Customers | <$35 |
+| **Profit Per Customer (Day 1)** | AOV - COGS - CAC | >$5 (discovery), >$14 (scale) |
 | **MER (Marketing Efficiency Ratio)** | Total Revenue / Total Marketing Spend | >2.5x |
 
 ### The "North Star" Dashboard (What You Actually Look At)
@@ -232,11 +302,11 @@ Every morning, check these 4 numbers:
 1. **Yesterday's ROAS** — Are we profitable?
 2. **Yesterday's CPA** — Is it getting better or worse?
 3. **This week's purchases** — Are we on pace to exit learning phase?
-4. **AOV** — Are people buying the Protocol tier or defaulting to Starter?
+4. **Add-to-Cart Rate** — Are people engaging with the PDP or bouncing? (AOV becomes relevant once bundles launch)
 
 ---
 
-## PART 7: EMAIL & SMS FLOWS
+## PART 8: EMAIL & SMS FLOWS
 
 ### Pre-Launch Setup (Must Have Before Running Ads)
 
@@ -255,9 +325,10 @@ You need 4 flows live before your first ad dollar is spent. These are revenue re
 > *Join 500+ people restoring their cellular energy.*
 
 **Why 10% (not 15% or $10 off):**
-- 10% on the Protocol ($69) = $6.90 discount. Customer pays $62.10. Your margin is still $51.10 (82.3%). Almost no margin damage.
+- 10% on the 120ct at $49.99 = $5.00 discount. Customer pays $44.99. Your margin is still $33.99 (75.5%). Minimal margin damage.
 - 10% feels meaningful to the customer without training them to expect deep discounts.
 - It's the industry standard — anything less feels stingy, anything more is unnecessary at these margins.
+- As prices rise in Phase 2/3, the 10% popup becomes even more valuable as an acquisition tool.
 
 **Email Sequence:**
 
@@ -267,7 +338,7 @@ You need 4 flows live before your first ad dollar is spent. These are revenue re
 | **E2: The NAD+ Story** | 24 hours later | "Why you lost 50% of your cellular fuel (and didn't know it)" | Educate on NAD+ decline. The 50% by 50 stat. How NMN restores it. No hard sell — just the science. Link to PDP. | Build belief in the mechanism |
 | **E3: Why Most NMN Doesn't Work** | 48 hours after E2 | "64% of NMN on Amazon failed lab testing" | The trust angle. Enzymatic vs chemical synthesis. QR-to-COA verification. Position Baseline as the answer to the trust problem. | Overcome skepticism, differentiate |
 | **E4: Social Proof + Urgency** | 48 hours after E3 | "Here's what people notice first" | Customer language/testimonials. "More consistent energy," "the 3pm crash is gone," "I actually play with my kids after work." Remind them their 10% code expires in 48 hours. | Convert with proof + soft deadline |
-| **E5: Last Chance** | 48 hours after E4 (code expiry) | "Your 10% code expires tonight" | Short. Direct. "Your code [CODE] expires at midnight. The Protocol (60-day supply) is just $62.10 with your code." Single CTA button. | Final conversion push |
+| **E5: Last Chance** | 48 hours after E4 (code expiry) | "Your 10% code expires tonight" | Short. Direct. "Your code [CODE] expires at midnight. 60-day supply for just $44.99 with your code." Single CTA button. | Final conversion push |
 
 **Code Expiry:** 7 days from signup. Creates natural urgency without fake scarcity.
 
@@ -325,22 +396,30 @@ This flow is CRITICAL. NMN takes 2-4 weeks to build NAD+ levels. If you don't se
 
 ---
 
-## PART 8: BUDGET & TIMELINE SUMMARY
+## PART 9: BUDGET & TIMELINE SUMMARY
 
 ### Week-by-Week Launch Plan
 
 | Week | Action | Daily Ad Spend | Cumulative Spend |
 |------|--------|---------------|-----------------|
 | **Week -2** | Build Shopify PDP, set up Klaviyo flows, install Meta pixel, create product images | $0 | $0 |
-| **Week -1** | Final PDP review, test checkout flow, verify pixel fires, warm up email domain | $0 | $0 |
-| **Week 1** | Launch all 5 batches in CBO. **DO NOT TOUCH.** | $150-200/day | $1,050-$1,400 |
-| **Week 2** | Review data. Kill dead ads (not ad sets). Identify winning avatar + angle. | $150-200/day | $2,100-$2,800 |
-| **Week 3** | Build Champion Ad Set with winning creative. Start scaling. Add retargeting. | $200-300/day | $3,500-$4,900 |
-| **Week 4** | Scale Champion Ad Set 20% every 3 days if ROAS holds. Iterate new creatives. | $250-400/day | $5,250-$7,700 |
+| **Week -1** | Organic posts on FB/IG page (3-5 educational posts). Final PDP review, test checkout, verify pixel. | $0 | $0 |
+| **Week 0** | ThruPlay warm-up campaign. 30-60 sec video, broad 40+ targeting. | $10-15/day | $50-$105 |
+| **Week 1** | Launch Batches 1, 2, 3 in CBO at $50/day. **DO NOT TOUCH.** | $50/day | $400-$455 |
+| **Week 2** | Continue observation. First light cuts on individual ads (not ad sets). | $50/day | $750-$805 |
+| **Week 3** | Swap weakest batch for Batch 4. Continue testing. | $50/day | $1,100-$1,155 |
+| **Week 4** | Swap or add Batch 5. Identify winning avatar + angle. | $50-75/day | $1,450-$1,680 |
+| **Week 5** | Build Champion Ad Set. Move to Scale campaign at $75/day. | $75/day | $1,975-$2,205 |
+| **Week 6-7** | Scale Champion Ad Set 20% every 3 days. $75 → $90 → $108 → $130. | $75-130/day | $2,925-$4,025 |
+| **Week 8-10** | Push toward learning phase exit. $130 → $156 → $187 → $200+. | $130-200/day | $5,000-$7,500 |
 
-### Total Discovery Phase Budget: ~$2,800-$4,200 CAD (2 weeks)
+### Total Discovery Phase Budget: ~$1,100-$1,700 CAD (4 weeks)
 
-This is the cost to find your winning avatar, angle, and creative. Think of it as market research — not wasted ad spend.
+At $50/day you spend roughly $350/week during discovery. The total cost to test all 5 avatars and identify your winner is ~$1,400 — half the cost of the aggressive approach, with more confidence in the data.
+
+### Total Budget to Learning Phase Exit: ~$5,000-$7,500 CAD (8-10 weeks)
+
+This includes warm-up, discovery, validation, and scaling to 50+ purchases/week. It's a marathon, not a sprint — but you arrive with a warmed pixel, validated creative, and real data.
 
 ### When to Increase Budget
 
@@ -356,24 +435,22 @@ Stop scaling and hold IF:
 
 ### When to Kill the Campaign
 
-Pull the plug if after $3,000 in spend you have:
-- Zero purchases
+Pull the plug if after $1,000 in purchase-campaign spend (~3 weeks at $50/day) you have:
+- Zero purchases AND zero add-to-carts
 - CTR below 0.5% across all batches
 - No ad set receiving meaningful CBO allocation
 
-This would mean the product-market fit isn't there yet, NOT that the ads are bad. Revisit positioning, price, or offer before re-launching.
+This would mean the product-market fit isn't there yet, NOT that the ads are bad. Revisit positioning, price, or offer before re-launching. At $50/day, this decision point costs you ~$1,000 instead of $3,000 — much cheaper to learn from.
 
 ---
 
-## PART 9: LAUNCH CHECKLIST
+## PART 10: LAUNCH CHECKLIST
 
-### Before You Turn On Ads
+### Before Warm-Up (Week -1)
 
 - [ ] Shopify store live with PDP fully built (Shrine Pro sections populated)
-- [ ] 3-tier Bundle & Save functional (Starter $49 / Protocol $69 / Transformation $119)
-- [ ] Compare-at prices set ($59 / $89 / $178)
-- [ ] Free shipping threshold at $59+
-- [ ] Subscription option live ($42/mo for 60ct, $59/60d for 120ct)
+- [ ] Single hero SKU live: 120ct at $49.99, compare-at $69.99
+- [ ] Free shipping included
 - [ ] Meta Pixel installed and firing on: PageView, ViewContent, AddToCart, InitiateCheckout, Purchase
 - [ ] Product images produced and uploaded
 - [ ] Klaviyo connected to Shopify
@@ -384,13 +461,20 @@ This would mean the product-market fit isn't there yet, NOT that the ads are bad
 - [ ] Payment processing tested (place a real test order)
 - [ ] Mobile checkout tested on phone
 - [ ] eBook PDF created and delivery automated
-- [ ] All 30 ad variations uploaded to Meta (5 batches × 3 creatives × 2 body copies)
-- [ ] CBO campaign structure built per Part 3
+- [ ] 3-5 organic posts published on FB/IG page
+- [ ] New Business Manager and ad account created (NOT your old kitchen tools BM)
+
+### Before Purchase Campaign (Week 0-1)
+
+- [ ] ThruPlay warm-up campaign ran for 5-7 days with no ad rejections or account flags
+- [ ] 18 ad variations uploaded to Meta (3 batches × 3 creatives × 2 body copies)
+- [ ] CBO campaign structure built per Part 4
 - [ ] UTM parameters on all ad links for tracking
+- [ ] Conversion API (CAPI) set up for redundant tracking alongside pixel
 
 ---
 
-## PART 10: COMMON MISTAKES TO AVOID
+## PART 11: COMMON MISTAKES TO AVOID
 
 1. **Don't kill ads before day 7.** The algorithm needs time. Resist the urge.
 2. **Don't duplicate the CBO campaign.** One campaign, one learning phase. Duplicating resets everything.
