@@ -71,28 +71,33 @@ This gives you a natural progression: early adopters get rewarded, price rises a
 
 ### Why Warm Up
 
-You're starting with a brand-new Business Manager and ad account. Meta treats new accounts with zero spend history as higher risk — CPMs will be inflated and delivery can be inconsistent. A warm-up phase establishes your account as legitimate before you ask it to optimize for purchases.
+You're starting with a brand-new Business Manager and ad account. Meta treats new accounts with zero spend history as higher risk — CPMs will be inflated and delivery can be inconsistent.
 
 **Do NOT use your old kitchen tools BM.** The ~$2k CAD of historical spend isn't enough to offset the niche mismatch. Meta's algorithm would try to find kitchen tool buyers for your NMN ads. Start clean.
 
-### Warm-Up Sequence
+### Warm-Up Sequence (No Video Required — All Static Ads at Launch)
 
-| Phase | Duration | Daily Spend | Campaign Type | Creative | Purpose |
-|-------|----------|-------------|---------------|----------|---------|
-| **Organic posts** | Week 1-2 | $0 | None — just post | 3-5 educational posts (NAD+ stats, "did you know" content, behind-the-scenes lab testing) | Show Meta your page is real and active |
-| **Pixel install** | Day 1 | $0 | None | N/A | Install pixel on Shopify immediately. Even your own browsing starts building data. |
-| **ThruPlay campaign** | Week 2-3 (5-7 days) | $10-15/day | Video Views (ThruPlay) | B1C1 "Late Night Search History" as a 30-60 sec video. Target broad 40+. | Warm up ad account with clean spend. Build video view audience for retargeting. Let Meta learn your content category. |
+Since all 5 batches are static image creatives, we skip the ThruPlay warm-up (which requires video). Instead:
 
-**Total warm-up cost: $50-$105 CAD**
+| Phase | Duration | Daily Spend | What You Do | Purpose |
+|-------|----------|-------------|-------------|---------|
+| **Pixel install** | Day 1 | $0 | Install Meta pixel + Conversions API (CAPI) on Shopify immediately. Browse your own store. Send it to friends. | Start building pixel data (ViewContent events) before any ad spend. |
+| **Organic posts** | Week 1-2 | $0 | Post 3-5 educational posts on your FB/IG page. NAD+ stats, "did you know" content, behind-the-scenes of lab testing/sourcing. | Show Meta your page is real and active. Establishes content category. |
+| **Go live** | Week 2+ | $50/day | Launch purchase-optimized discovery campaign directly with static ads. | No paid warm-up needed — the organic posts + pixel install are enough. |
 
-**Why ThruPlay and NOT Engagement:**
-- Engagement campaigns attract engagement farmers (people who like/comment on everything but never buy)
-- ThruPlay selects for people who actually watch content — much closer to your buyer profile
-- Video viewers become a retargetable audience (people who watched 50%+ or 75%+) that you can use later
+**Total warm-up cost: $0**
+
+**Why skip the paid warm-up:**
+- ThruPlay requires video — you don't have video yet and shouldn't pay for it on an unvalidated product
+- A traffic campaign would spend $50-100 attracting browsers, not buyers — better to put that toward actual purchase-optimized spend
+- The CPM "tax" on a new ad account is real but small (~$10-20 extra over the first week at $50/day). Not worth an entire warm-up phase to avoid.
+- Organic posts for 1-2 weeks + pixel install give Meta enough signal that you're a real page in the health/wellness category
+
+**When video enters the picture:** Once you identify a winning avatar + angle, THEN commission a UGC-style review video built around that winning angle. This becomes your Phase 2 creative — tested on a validated product and proven hook, not a guess. Much better ROI on the UGC investment.
 
 ### Transition to Purchase Campaign
 
-After 5-7 days of ThruPlay spend with no issues (no ad rejections, no account flags, consistent delivery), you're ready to launch your purchase-optimized discovery campaign.
+After 1-2 weeks of organic posts with some engagement (even modest — a few likes/comments is fine), you're ready to launch your purchase-optimized discovery campaign.
 
 ---
 
@@ -225,7 +230,7 @@ CAMPAIGN: Baseline NMN — Scale (CBO)
 │       (don't switch avatars — go deeper on what works)
 │
 └── RETARGETING AD SET
-    ├── Audience: Website visitors (7-day), ATC (14-day), video viewers (75%+, from warm-up phase)
+    ├── Audience: Website visitors (7-day), ATC (14-day), engaged with page/ads (30-day)
     ├── Budget cap: 15% of total
     └── Creatives: Testimonial-style, proof-heavy (Batch 3 creative style)
 ```
@@ -283,7 +288,7 @@ At $49.99 price point with lower CPA expectations:
 | **Add to Cart Rate** | >5% of visitors | Measures purchase intent before checkout friction |
 | **Cart Abandonment Rate** | <75% | Above 75% = checkout friction, shipping surprise, or trust issue |
 | **Frequency** | <2.0 in first 14 days | Above 2.0 = audience is too small, you're showing ads too often |
-| **Hook Rate (3-sec video views / impressions)** | >25% | For video ads — tells you if the opening frame stops the scroll |
+| **Thumb-Stop Rate** | Monitor | For static ads: high CTR = strong thumb-stop. For future video ads: 3-sec views / impressions >25%. |
 
 ### Financial KPIs (Check Weekly)
 
@@ -398,28 +403,55 @@ This flow is CRITICAL. NMN takes 2-4 weeks to build NAD+ levels. If you don't se
 
 ## PART 9: BUDGET & TIMELINE SUMMARY
 
-### Week-by-Week Launch Plan
+### Week-by-Week Launch Plan (Conservative Start)
 
 | Week | Action | Daily Ad Spend | Cumulative Spend |
 |------|--------|---------------|-----------------|
-| **Week -2** | Build Shopify PDP, set up Klaviyo flows, install Meta pixel, create product images | $0 | $0 |
+| **Week -2** | Build Shopify PDP, set up Klaviyo flows, install Meta pixel + CAPI, create product images | $0 | $0 |
 | **Week -1** | Organic posts on FB/IG page (3-5 educational posts). Final PDP review, test checkout, verify pixel. | $0 | $0 |
-| **Week 0** | ThruPlay warm-up campaign. 30-60 sec video, broad 40+ targeting. | $10-15/day | $50-$105 |
-| **Week 1** | Launch Batches 1, 2, 3 in CBO at $50/day. **DO NOT TOUCH.** | $50/day | $400-$455 |
-| **Week 2** | Continue observation. First light cuts on individual ads (not ad sets). | $50/day | $750-$805 |
-| **Week 3** | Swap weakest batch for Batch 4. Continue testing. | $50/day | $1,100-$1,155 |
-| **Week 4** | Swap or add Batch 5. Identify winning avatar + angle. | $50-75/day | $1,450-$1,680 |
-| **Week 5** | Build Champion Ad Set. Move to Scale campaign at $75/day. | $75/day | $1,975-$2,205 |
-| **Week 6-7** | Scale Champion Ad Set 20% every 3 days. $75 → $90 → $108 → $130. | $75-130/day | $2,925-$4,025 |
-| **Week 8-10** | Push toward learning phase exit. $130 → $156 → $187 → $200+. | $130-200/day | $5,000-$7,500 |
+| **Week 1** | Launch Batches 1, 2, 3 in CBO at $50/day. **DO NOT TOUCH.** | $50/day | $350 |
+| **Week 2** | Continue observation. First light cuts on individual ads (not ad sets). | $50/day | $700 |
+| **Week 3** | Swap weakest batch for Batch 4. Continue testing. | $50/day | $1,050 |
+| **Week 4** | Swap or add Batch 5. Identify winning avatar + angle. | $50/day | $1,400 |
+| **Week 5+** | Build Champion Ad Set. Scale based on data (see acceleration rules below). | $75+/day | Depends on performance |
 
-### Total Discovery Phase Budget: ~$1,100-$1,700 CAD (4 weeks)
+### Total Discovery Phase Budget: ~$1,400 CAD (4 weeks at $50/day)
 
-At $50/day you spend roughly $350/week during discovery. The total cost to test all 5 avatars and identify your winner is ~$1,400 — half the cost of the aggressive approach, with more confidence in the data.
+The cost to test all 5 avatars and identify your winner. Think of it as market research.
 
-### Total Budget to Learning Phase Exit: ~$5,000-$7,500 CAD (8-10 weeks)
+### Acceleration Rules — When Data Is Good, Move Fast
 
-This includes warm-up, discovery, validation, and scaling to 50+ purchases/week. It's a marathon, not a sprint — but you arrive with a warmed pixel, validated creative, and real data.
+The 10-week crawl is the conservative default. **If the first 2 weeks show strong signal, compress the timeline aggressively:**
+
+| Signal You See (Week 1-2) | What You Do | New Timeline |
+|---------------------------|-------------|--------------|
+| Multiple purchases at <$30 CPA, one ad set clearly winning | Skip batch rotation. Build Champion Ad Set immediately (Week 3). Jump to $75-100/day. | 4-6 weeks to learning phase exit |
+| Purchases coming in, but no clear winner yet | Stay at $50/day. Complete batch rotation as planned. | 7-10 weeks to learning phase exit |
+| Good CTR + ATCs but no purchases | Stay at $50/day. The ads work — investigate PDP conversion. Don't scale until PDP is fixed. | Pause timeline until PDP is optimized |
+| Low CTR, no ATCs, no purchases | Stay at $50/day through full rotation. If all 5 batches fail, kill at $1,000 spend. | Revisit strategy before more spend |
+
+**The rule is simple: scale as fast as the data justifies.** $50/day is the floor, not the ceiling. If week 1 gives you a 2.0x ROAS ad set, there's no reason to sit at $50/day for 3 more weeks — push to $100, then $150, then $200. The plan is conservative at the start because you have zero data. The moment you have data, let it drive the pace.
+
+**Budget scaling jumps (when ROAS holds):**
+- $50 → $75 (50% increase — first scale after winning signal)
+- $75 → $100 (33% increase)
+- $100 → $130 (30% increase)
+- $130 → $175 (35% increase)
+- $175 → $225 (29% increase — learning phase exit territory)
+
+Wait 2-3 days between each jump. If CPA holds, keep going. If CPA spikes >25%, hold for 3 days and reassess.
+
+### Budget for UGC Video (Phase 2)
+
+Once you have a winning avatar + angle from the static ad testing:
+
+| Item | Estimated Cost | When |
+|------|---------------|------|
+| UGC creator (1 video, 60-90 sec) | $150-400 CAD | After winning angle is confirmed |
+| 2-3 hook variations of same video | Often included, or +$50-100 each | Same order |
+| B-roll / product shots | $0-100 (can often be done yourself) | Same time |
+
+**Don't commission UGC until you can tell the creator:** "Here's the exact avatar, the exact angle, and the exact hook that's already converting with static ads. Film this." That brief will produce a 10x better video than "just talk about our NMN supplement."
 
 ### When to Increase Budget
 
@@ -464,10 +496,10 @@ This would mean the product-market fit isn't there yet, NOT that the ads are bad
 - [ ] 3-5 organic posts published on FB/IG page
 - [ ] New Business Manager and ad account created (NOT your old kitchen tools BM)
 
-### Before Purchase Campaign (Week 0-1)
+### Before Purchase Campaign (Week 1)
 
-- [ ] ThruPlay warm-up campaign ran for 5-7 days with no ad rejections or account flags
-- [ ] 18 ad variations uploaded to Meta (3 batches × 3 creatives × 2 body copies)
+- [ ] Organic posts running for 1-2 weeks with some engagement
+- [ ] 18 ad variations uploaded to Meta (3 batches × 3 creatives × 2 body copies) — all static images
 - [ ] CBO campaign structure built per Part 4
 - [ ] UTM parameters on all ad links for tracking
 - [ ] Conversion API (CAPI) set up for redundant tracking alongside pixel
