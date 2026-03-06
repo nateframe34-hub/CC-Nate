@@ -26,7 +26,7 @@ Why:
 - Shipping info on PDP: "Ships within 1-2 business days. Delivers in 3-7 business days." (Adjust based on your actual fulfillment timeline)
 - FDA disclaimer on PDP: *"These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."* — Required by law for supplements, and Meta checks your landing page for this during ad review.
 - 30-day money-back guarantee badge visible on PDP (see Return & Guarantee Policy section below)
-- Launch geo: **Canada-only** recommended if you're shipping from Canada — simpler logistics, no cross-border complications, no USD pricing confusion. Expand to US once fulfillment is dialed in.
+- Launch geo: **US-only** — largest supplement market, USD pricing, and the deepest Meta ad inventory. Keep it single-country at launch so the pixel learns one audience cleanly. Expand to Canada or other geos once you have a winning ad set and stable CPA.
 
 **Why single SKU at launch:** You're testing avatars and angles, not offer tiers. One SKU = one variable removed. The 3-tier Bundle & Save (Starter / Protocol / Transformation) comes in Phase 2 once you have data, reviews, and a winning avatar — at which point the single-bottle price rises to $59.99 or $69.
 
