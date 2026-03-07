@@ -39,6 +39,8 @@ Baseline NMN — Pure NMN Supplement, 500mg, 60 Capsules
 
 You didn't lose your energy. Your cells lost their fuel.
 
+You used to have more. More focus. More drive. More left in the tank at the end of the day. That didn't fade because you stopped trying — it faded because your cells stopped getting what they need.
+
 After 40, your body produces less NAD+ — the molecule behind energy, focus, and recovery. NMN is what your body uses to make more. Not a stimulant. A foundation. 99%+ pure, clinically dosed, independently tested every batch.
 
 ### Who It's For (Small Text Below Subtitle)
@@ -153,19 +155,19 @@ Simple enough to explain in 30 seconds. Backed by enough research to fill a libr
 
 **Take 2 Capsules Daily**
 
-500mg of pure NMN — the dose used in clinical human research. Take them in the morning with or without food. That's it.
+Two capsules. Morning. With or without food. That's your entire routine. 500mg of pure NMN — the same dose used in clinical human research. No loading phase. No cycling. No complicated protocol.
 
 ### Step 2
 
-**Your Body Converts NMN into NAD+**
+**Your Body Does What It Already Knows How to Do**
 
-NMN is a direct precursor to NAD+ — the molecule your cells use to produce energy, maintain DNA, and keep themselves running. Your body absorbs the NMN and converts it into NAD+ inside your cells.
+Your body isn't learning something new here. NMN is a direct precursor to NAD+ — the molecule your cells already use to produce energy, maintain DNA, and keep everything running. You're just giving it more of what it's been running low on.
 
 ### Step 3
 
-**Your Cells Get Their Fuel Back**
+**You Start Feeling Like You Again**
 
-With NAD+ levels supported, your cells can produce energy and maintain themselves the way they're designed to. Not a stimulant spike. A higher baseline.
+More consistent energy. Sharper focus. That thing where you get to 4pm and you're still *there* — still present, still engaged, still you. Not a stimulant spike and crash. A higher baseline. The kind of change that's subtle until someone else notices it first.
 
 ### Footer Note (Small Text Below Steps)
 
@@ -202,7 +204,7 @@ Budget NMN is a gamble — you don't know what's in the bottle, and at those dos
 
 ### CTA Below Table
 
-**[Get Baseline NMN — $49.95]**
+**[See What's Actually in the Bottle — $49.95]**
 
 ---
 
@@ -411,7 +413,7 @@ $0.83/day. Less than your afternoon coffee — and it actually addresses the cra
 
 30-day guarantee. If you don't feel it, we refund you. No hoops.
 
-**[Get Baseline NMN — $49.95]**
+**[Start Your 60-Day Protocol — $49.95]**
 
 or Subscribe & Save: **$42.95 every 60 days** — lock in launch pricing before it goes up.
 
@@ -500,6 +502,8 @@ Capsules provide consistent, measurable dosing — you get exactly 250mg per cap
 It depends on how committed you are. One bottle (60-day supply) is enough to feel whether NMN works for you — most people notice changes within 2-4 weeks. The 2-pack (120 days) and 3-pack (180 days) cost less per day and ensure you don't run out during the period when benefits are building. If you're not sure, start with one and subscribe — you can always upgrade later.
 
 **Implementation note:** Implement FAQPage schema markup on this section. This qualifies for Google's FAQ rich results and can capture featured snippets for high-value queries like "is NMN safe," "how long does NMN take to work," "NMN vs NR," and "can I take NMN during menopause." Use a Shopify SEO app or add JSON-LD directly to the product template.
+
+**UX note:** Show the first 8 FAQs by default. Collapse questions 9-16 behind a "Show More Questions" toggle to reduce scroll fatigue — especially on mobile. The top 8 cover the highest-intent objections (timing, safety, differentiation, skeptic recovery, guarantee, stacking, price justification, subscription). The remaining 8 are valuable for SEO and deep-funnel visitors but shouldn't slow down the primary scroll path.
 
 ---
 
