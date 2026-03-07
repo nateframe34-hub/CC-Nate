@@ -1,0 +1,28 @@
+Product / Offer Name,# Bottles,Product Cost,Shipping Cost,Total COGS,Gateway (3.3%),Total Cost For Us,Price Before Discounts,Price On Site,Shipping To Customer,Total Revenue,Margin $,Margin %,BE ROAS,Savings $,Savings %,Target CPA 2x ROAS,Target CPA 2.5x ROAS,Eff. $/Bottle,Origins Strategy
+--- BASELINE (No Offer) ---,,,,,,,,,,,,,,,,,,,
+1x 120ct Full Price (Anchor),1,$4.03,$7.70,$11.73,$2.31,$14.04,$69.95,$69.95,$0.00,$69.95,$55.91,79.93%,1.25,$0.00,0.00%,$34.98,$27.98,$69.95,Anchor price — establishes value baseline
+--- BUNDLE & SAVE (Origins #1 Recommended) ---,,,,,,,,,,,,,,,,,,,
+"The Starter (1x 120ct, 60 Days)",1,$4.03,$7.70,$11.73,$2.31,$14.04,$69.95,$69.95,$0.00,$69.95,$55.91,79.93%,1.25,$0.00,0.00%,$34.98,$27.98,$69.95,Tier 1 — entry point. $1.17/day. Pushes to Protocol via free shipping threshold
+"The Protocol (2x 120ct, 120 Days) MOST POPULAR",2,$8.06,$10.83,$18.89,$3.96,$22.85,$139.90,$119.90,$0.00,$119.90,$97.05,80.94%,1.24,$20.00,14.30%,$59.95,$47.96,$59.95,"Tier 2 — hero offer. $1.00/day. Best balance of AOV, margin, and perceived value"
+"The Transformation (3x 120ct, 180 Days) BEST VALUE",3,$12.09,$13.96,$26.05,$5.61,$31.66,$209.85,$169.95,$0.00,$169.95,$138.29,81.37%,1.23,$39.90,19.01%,$84.98,$67.98,$56.65,"Tier 3 — best value positioning. $0.94/day. Law of Large Numbers: use $ off ($40 saved) since it looks bigger than 19%"
+"The Longevity Stack (6x 120ct, 360 Days)",6,$24.18,$23.35,$47.53,$9.90,$57.43,$419.70,$299.95,$0.00,$299.95,$242.52,80.85%,1.24,$119.75,28.53%,$149.98,$119.98,$49.99,"Max AOV play. $0.83/day. Law of Large Numbers: use $ off ($120 saved). Only offer if site supports large orders"
+--- BUY X GET X FREE (Origins Highly Recommended) ---,,,,,,,,,,,,,,,,,,,
+Buy 1 Get 1 Free (2 bottles),2,$8.06,$10.83,$18.89,$2.31,$21.20,$139.90,$69.95,$0.00,$69.95,$48.75,69.69%,1.43,$69.95,50.00%,$34.98,$27.98,$34.98,"AGGRESSIVE — 50% off perception. Lowest margin. Use for major launch event ONLY, then kill it. Per Origins: offers are addictive"
+Buy 2 Get 1 Free (3 bottles),3,$12.09,$13.96,$26.05,$4.62,$30.67,$209.85,$139.90,$0.00,$139.90,$109.23,78.08%,1.28,$69.95,33.37%,$69.95,$55.96,$46.63,"SWEET SPOT for BXGX. 33% off perception, still 78% margin. Reserve for 2-3 major events/year per Origins warning"
+Buy 3 Get 1 Free (4 bottles),4,$16.12,$17.09,$33.21,$6.93,$40.14,$279.80,$209.85,$0.00,$209.85,$169.71,80.87%,1.24,$69.95,25.00%,$104.93,$83.94,$52.46,Strong AOV + margin. 25% off perception. Good for holiday/Black Friday bundles
+--- $X OFF FIRST ORDER (Origins Highly Recommended — Acquisition Layer) ---,,,,,,,,,,,,,,,,,,,
+$10 Off First Order (1 bottle),1,$4.03,$7.70,$11.73,$1.98,$13.71,$69.95,$59.95,$0.00,$59.95,$46.24,77.13%,1.30,$10.00,14.30%,$29.98,$23.98,$59.95,"Layer ON TOP of bundles per Origins. Still 77% margin. Use as cold traffic acquisition sweetener"
+$15 Off First Order (1 bottle),1,$4.03,$7.70,$11.73,$1.81,$13.54,$69.95,$54.95,$0.00,$54.95,$41.41,75.36%,1.33,$15.00,21.44%,$27.48,$21.98,$54.95,More aggressive acquisition. Law of Large Numbers: 21% vs $15 — use $15 off since it sounds bigger
+$20 Off First Order (1 bottle),1,$4.03,$7.70,$11.73,$1.65,$13.38,$69.95,$49.95,$0.00,$49.95,$36.57,73.21%,1.37,$20.00,28.59%,$24.98,$19.98,$49.95,Most aggressive single-bottle acquisition. Still 73% margin. $20 off sounds substantial
+--- SUBSCRIBE & SAVE (Recurring Revenue Engine) ---,,,,,,,,,,,,,,,,,,,
+"Sub: 1x 120ct Every 60 Days (14% off)",1,$4.03,$7.70,$11.73,$1.98,$13.71,$69.95,$59.95,$0.00,$59.95,$46.24,77.13%,1.30,$10.00,14.30%,$29.98,$23.98,$59.95,"$1.00/day. $29.98/mo effective. Recurring margin $46.24/shipment. 5-cycle LTV = $299.75, margin = $231.20"
+"Sub: 2x 120ct Every 120 Days (21% off)",2,$8.06,$10.83,$18.89,$3.63,$22.52,$139.90,$109.90,$0.00,$109.90,$87.38,79.51%,1.26,$30.00,21.44%,$54.95,$43.96,$54.95,"$0.92/day. $27.48/mo effective. Best $/day in the NMN market. 5-cycle LTV = $549.50, margin = $436.90"
+--- COMBO OFFERS (Bundle + $X Off Stacked) ---,,,,,,,,,,,,,,,,,,,
+"Protocol Bundle + $10 Off First Order",2,$8.06,$10.83,$18.89,$3.63,$22.52,$139.90,$109.90,$0.00,$109.90,$87.38,79.51%,1.26,$30.00,21.44%,$54.95,$43.96,$54.95,"Stack: $119.90 bundle - $10 first order = $109.90. Still 79.5% margin. Converts cold traffic to high-AOV first purchase"
+"Transformation Bundle + $10 Off First Order",3,$12.09,$13.96,$26.05,$5.28,$31.33,$209.85,$159.95,$0.00,$159.95,$128.62,80.41%,1.24,$49.90,23.78%,$79.98,$63.98,$53.32,"Stack: $169.95 bundle - $10 first order = $159.95. Massive perceived savings ($50). 80.4% margin."
+--- EMPTY SLOTS FOR TESTING ---,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
