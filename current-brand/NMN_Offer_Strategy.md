@@ -165,58 +165,76 @@ Before setting prices, here's what the market actually charges for a 60-day supp
 
 ## THE RECOMMENDATION: What To Actually Run
 
-### Why 120-Count Should Be Your Hero SKU
+### Why $49.95 Launch Price (Not $69.95 or $39.95)
 
-1. **$2 more COGS for 2x the product** — your margin % is actually HIGHER on 120ct (84.1% vs 81.6%)
+We evaluated three price points for launch. Here's why $49.95 wins:
+
+| Metric | $39.95 | **$49.95 (Winner)** | $69.95 |
+|--------|--------|---------------------|--------|
+| Margin/order | $26.90 | **$36.57** | $55.91 |
+| Margin % | 67.3% | **73.2%** | 79.9% |
+| CPA ceiling (2x ROAS) | $19.98 | **$24.98** | $34.98 |
+| BE ROAS | 1.49 | **1.37** | 1.25 |
+| vs. Neurogan ($44.95) | $5 below | **$5 above** | $25 above |
+| Impulse threshold | Under $40 | **Under $50** | Over $50 |
+| Risk | Looks cheap | **Signals quality at fair price** | Too expensive for unknown brand |
+
+**Why not $39.95:** CPA ceiling of only $19.98 is below typical Meta supplement CPAs ($20-40). You'd need 36% more conversions to match $49.95 margin dollars — a $10 price drop only lifts conversion ~10-20%. And being the cheapest NMN undermines your "most NMN isn't real NMN" positioning.
+
+**Why not $69.95 at launch:** Unknown brand + no reviews + no social proof = high friction at $70. Save this price for post-launch when you've earned trust. You can always raise prices — it's much harder to lower them.
+
+**Why $49.95:** Under $50 impulse threshold, $5 above cheapest competitor (signals quality), 73% margin still gives $25 CPA ceiling for profitable ad testing, and you can test $39.95 as a "$10 off first order" promo to measure the conversion lift directly.
+
+### Why 120-Count Is the Hero SKU
+
+1. **$2 more COGS for 2x the product** — margin stays strong even at $49.95 (73.2%)
 2. **60-day supply = customer commits longer** — NMN takes 2-4 weeks to build NAD+ levels. A 30-day supply barely gives them time to feel it. 60 days guarantees they experience results.
-3. **Higher AOV** — $69-$179 range vs $49-$119 range
-4. **Natural subscription bridge** — 60-day auto-ship is a perfect cycle length
-5. **Competitive moat** — most competitors sell 30-day supply. At $69 for 60 days ($1.15/day), you undercut most premium brands while offering 2x the supply.
-6. **Best $/day in the mid-tier** — $1.15/day beats GenuinePurity ($1.33), PartiQlar ($1.43), Double Wood ($1.63), and every liposomal brand.
+3. **Natural subscription bridge** — 60-day auto-ship is a perfect cycle length
+4. **Competitive moat** — at $49.95 for 60 days ($0.83/day), you undercut EVERY competitor in the market except Neurogan
+5. **Best $/day period** — $0.83/day beats Neurogan ($0.75 but on iHerb marketplace), GenuinePurity ($1.33), PartiQlar ($1.43), Double Wood ($1.63), and every liposomal brand
 
-### Recommended Offer Structure: Bundle & Save + Add-Ons
+### Launch Offer Structure: Bundle & Save + Add-Ons
 
-Use the 60-count as the **anchor** (shows the "expensive" per-day rate), and the 120-count bundles as the **hero**.
+**Anchor the "regular" price at $69.95** (compare-at price on site), then show the launch price of $49.95. This creates instant perceived value.
 
 #### Landing Page Offer Tiers:
 
 ```
-┌─────────────────┬──────────────────────┬──────────────────────┐
-│   THE STARTER   │    THE PROTOCOL      │   THE TRANSFORMATION │
-│    1x 60ct      │     1x 120ct         │     2x 120ct         │
-│   (30 Days)     │    (60 Days)         │    (120 Days)        │
-│                 │   ★ MOST POPULAR ★   │   ★ BEST VALUE ★     │
-│     $49         │       $69            │       $119           │
-│   $1.63/day     │     $1.15/day        │     $0.99/day        │
-│                 │    Save $29          │    Save $77          │
-│   + Free eBook  │  + Free Shipping     │  + Free Shipping     │
-│                 │  + Free eBook        │  + Free eBook        │
-└─────────────────┴──────────────────────┴──────────────────────┘
+┌──────────────────────┬──────────────────────┬───────────────────────┐
+│     THE STARTER      │     THE PROTOCOL     │  THE TRANSFORMATION   │
+│     1x 120ct         │      2x 120ct        │      3x 120ct         │
+│    (60 Days)         │    (120 Days)        │    (180 Days)         │
+│                      │  ★ MOST POPULAR ★    │   ★ BEST VALUE ★      │
+│   ~~$69.95~~ $49.95  │ ~~$99.90~~ $89.90   │ ~~$149.85~~ $119.85  │
+│     $0.83/day        │    $0.75/day         │     $0.67/day         │
+│     Save $20         │    Save $10          │     Save $30          │
+│  + Free Shipping     │  + Free Shipping     │  + Free Shipping      │
+│  + Free eBook        │  + Free eBook        │  + Free eBook         │
+└──────────────────────┴──────────────────────┴───────────────────────┘
 ```
 
-*"Save $XX" = vs buying equivalent 60ct bottles at full price ($49 each)*
+*Savings on bundles = vs buying multiple singles at $49.95. Compare-at $69.95 "regular" price creates additional urgency on single bottle.*
 
-#### Margin Breakdown Per Tier:
+#### Margin Breakdown Per Tier (Exact COGS: $11.73/bottle):
 
-| Tier | Price | COGS | Margin $ | Margin % | AOV | $/Day |
-|------|-------|------|----------|----------|-----|-------|
-| The Starter (1x 60ct) | $49 | $9 | $40 | 81.6% | $49 | $1.63 |
-| The Protocol (1x 120ct) | $69 | $11 | $58 | 84.1% | $69 | $1.15 |
-| The Transformation (2x 120ct) | $119 | $22 | $97 | 81.5% | $119 | $0.99 |
+| Tier | Price | Total COGS | Gateway | Total Cost | Margin $ | Margin % | AOV | $/Day | BE ROAS |
+|------|-------|-----------|---------|-----------|----------|----------|-----|-------|---------|
+| The Starter (1x 120ct) | $49.95 | $11.73 | $1.65 | $13.38 | $36.57 | 73.2% | $49.95 | $0.83 | 1.37 |
+| The Protocol (2x 120ct) | $89.90 | $18.89 | $2.97 | $21.86 | $68.04 | 75.7% | $89.90 | $0.75 | 1.32 |
+| The Transformation (3x 120ct) | $119.85 | $26.05 | $3.96 | $30.01 | $89.84 | 75.0% | $119.85 | $0.67 | 1.33 |
 
 #### Subscription Pricing (The Goal):
 
 | Tier | One-Time | Subscribe & Save | Savings | Effective $/Month | COGS | Margin $ | Margin % |
 |------|----------|-----------------|---------|-------------------|------|----------|----------|
-| 60ct monthly | $49 | **$42/mo** | $7 (14%) | $42.00 | $9 | $33 | 78.6% |
-| 120ct every 60 days | $69 | **$59/60 days** | $10 (14%) | $29.50 | $11 | $48 | 81.4% |
+| 1x 120ct every 60 days | $49.95 | **$42.95/60 days** | $7 (14%) | $21.48 | $11.73 | $29.80 | 69.4% |
+| 2x 120ct every 120 days | $89.90 | **$77.30/120 days** | $12.60 (14%) | $19.33 | $18.89 | $55.86 | 72.3% |
 
-**Subscription LTV projections (5-month avg retention):**
-- 60ct @ $42/mo × 5 months = **$210 LTV**, $165 total margin
-- 120ct @ $59/60 days × 2.5 cycles (5 months) = **$147.50 LTV**, $120 total margin
-- 120ct @ $59/60 days × 5 cycles (10 months) = **$295 LTV**, $240 total margin
+**Subscription LTV projections (5-cycle avg retention):**
+- 1x 120ct @ $42.95/60 days × 5 cycles (10 months) = **$214.75 LTV**, $149.00 total margin
+- 2x 120ct @ $77.30/120 days × 5 cycles (20 months) = **$386.50 LTV**, $279.30 total margin
 
-The 120ct subscription has slightly lower short-term LTV but **dramatically better retention** because customers actually feel the product working before their supply runs out. At $29.50/month effective cost, the 120ct subscription is the best value in the NMN market — a serious competitive advantage.
+At $21.48/month effective for the 1x sub and $19.33/month for the 2x sub, these are the best values in the NMN market — a serious competitive advantage for retention.
 
 ---
 
@@ -224,17 +242,15 @@ The 120ct subscription has slightly lower short-term LTV but **dramatically bett
 
 **Formula:** Breakeven ROAS = 1 / Gross Profit %
 
-| Offer | Gross Profit % | Breakeven ROAS | Target ROAS (2x profit) |
-|-------|---------------|----------------|------------------------|
-| Starter (1x 60ct @ $49) | 81.6% | 1.23x | 2.45x |
-| Protocol (1x 120ct @ $69) | 84.1% | 1.19x | 2.38x |
-| Transformation (2x 120ct @ $119) | 81.5% | 1.23x | 2.45x |
-| Sub: 60ct @ $42/mo | 78.6% | 1.27x | 2.55x |
-| Sub: 120ct @ $59/60d | 81.4% | 1.23x | 2.45x |
+| Offer | Gross Profit % | Breakeven ROAS | Target CPA (2x ROAS) | Target CPA (2.5x ROAS) |
+|-------|---------------|----------------|----------------------|------------------------|
+| Starter (1x @ $49.95) | 73.2% | 1.37x | $24.98 | $19.98 |
+| Protocol (2x @ $89.90) | 75.7% | 1.32x | $44.95 | $35.96 |
+| Transformation (3x @ $119.85) | 75.0% | 1.33x | $59.93 | $47.94 |
+| Sub: 1x @ $42.95/60d | 69.4% | 1.44x | $21.48 | $17.18 |
+| Sub: 2x @ $77.30/120d | 72.3% | 1.38x | $38.65 | $30.92 |
 
-**Your margins are so strong that your breakeven ROAS is only ~1.2x across all offers.** Even at the revised lower prices, this gives you enormous room to be aggressive with ad spend while staying profitable.
-
-For context from the Origins example: a typical brand has a breakeven ROAS of 1.43x-1.82x. Yours is 1.19x-1.27x. You can outspend competitors and still profit.
+**Even at the aggressive $49.95 launch price, your breakeven ROAS is only 1.37x.** A typical brand has breakeven of 1.43x-1.82x. You still have room to outspend competitors while profitable.
 
 ---
 
@@ -243,19 +259,24 @@ For context from the Origins example: a typical brand has a breakeven ROAS of 1.
 Per Origins, Free Gift and Free Shipping are **add-ons, not core offers**. Stack them on top of your Bundle & Save:
 
 **Launch Stack:**
-1. **Core:** Bundle & Save (3-tier structure above)
-2. **Add-on:** Free Shipping at $59+ (pushes Starter → Protocol)
+1. **Core:** Bundle & Save (3-tier structure above) at $49.95 / $89.90 / $119.85
+2. **Add-on:** Free Shipping on ALL orders (at these prices, absorb shipping to remove friction)
 3. **Add-on:** Free eBook "The NAD+ Protocol: Your 60-Day Cellular Restoration Guide" on all orders
-4. **Future add-on:** Subscribe & Save pricing (14% off one-time)
+4. **Add-on:** Compare-at pricing ($69.95 "regular" crossed out)
 
-**Acquisition Offer (cold traffic):**
-- "Save $10 on First Orders" applied ON TOP of bundle pricing
-- Protocol tier becomes $59 (first order only) — still $48 margin (81.4%)
-- Creates urgency without destroying margins
+**Acquisition Offer (cold traffic — layer on top):**
+- "$5 off first order" via email popup / exit intent — brings Starter to $44.95 (still 70.6% margin)
+- "$10 off first order" for aggressive campaigns — brings Starter to $39.95 (67.3% margin, tests the lower price point)
+- Best combo: "$10 off Protocol Bundle" = $79.90 for 2 bottles, $63.21 margin (74.5%), highest AOV acquisition play
 
 **Seasonal/Flash Offers (use sparingly per Origins warning):**
-- B2G1 Free on 120ct — customer pays $138, gets 3 bottles (180-day supply), your margin is $105 (76.1%)
-- "Save 15% Sitewide" — use for inventory clearance or major sales events only
+- B2G1 Free on 120ct — customer pays $99.90, gets 3 bottles (180-day supply), margin is $70.55 (70.6%)
+- Reserve for 2-3 major events/year only
+
+**Post-Launch Price Increase (after 50+ reviews + proven CPA):**
+- Raise base to $59.95 (77.1% margin, $29.98 CPA ceiling)
+- Rebundle at $109.90 / $159.85
+- This becomes the sustainable long-term structure
 
 ---
 
@@ -264,11 +285,13 @@ Per Origins, Free Gift and Free Shipping are **add-ons, not core offers**. Stack
 Per the Origins framework: Offers can take your ROAS from 2x to 4x overnight, but they can be IMPOSSIBLE to get off of.
 
 **Rules to follow:**
-1. Start with the Bundle & Save structure — it's sustainable and doesn't train customers to wait for discounts
-2. Don't run % off or $ off offers more than once per quarter
-3. B2G1 Free should be a 2-3x per year event (Black Friday, launch, etc.)
-4. Always calculate new breakeven ROAS before launching any promotional offer
-5. If you add a 20% off offer and revenue goes up but profit goes down — kill it immediately
+1. The $49.95 launch price IS the offer — don't stack heavy discounts on top of an already-aggressive price
+2. The $69.95 "compare-at" gives you a built-in savings message without running a promo
+3. Don't run % off or $ off offers more than once per quarter
+4. B2G1 Free should be a 2-3x per year event (Black Friday, launch, etc.)
+5. Always calculate new breakeven ROAS before launching any promotional offer
+6. Plan to raise prices to $59.95 once you have social proof — don't get stuck at $49.95 forever
+7. If you add a discount and revenue goes up but profit goes down — kill it immediately
 
 ---
 
@@ -276,10 +299,11 @@ Per the Origins framework: Offers can take your ROAS from 2x to 4x overnight, bu
 
 | Priority | Action | Why |
 |----------|--------|-----|
-| 1 | Set up 3-tier Bundle & Save (Starter / Protocol / Transformation) | Highest margins, highest AOV, sustainable |
-| 2 | Price tiers at **$49 / $69 / $119** | Competitive with market, still 81-84% margins |
-| 3 | Add free shipping threshold at $59+ | Pushes AOV from $49 to $69+ |
+| 1 | Set launch price at **$49.95** (compare-at $69.95) | Under $50 impulse threshold, 73% margin, max customer acquisition |
+| 2 | Set up 3-tier Bundle & Save (Starter $49.95 / Protocol $89.90 / Transformation $119.85) | Origins #1 recommended offer type, raises AOV |
+| 3 | Free shipping on ALL orders | At $49.95 price point, any shipping charge kills conversion |
 | 4 | Create free eBook as value stack | $0 COGS, positions brand as education-first |
-| 5 | Build subscription at $42/mo (60ct) and $59/60d (120ct) | The long-term revenue engine |
-| 6 | Use "$10 off first order" for cold acquisition | Layer on top of bundles, still 81%+ margin |
-| 7 | Reserve B2G1 and % off for 2-3 major events/year | Don't get addicted |
+| 5 | Build subscription at $42.95/60d (1x) and $77.30/120d (2x) | 14% off one-time, long-term revenue engine |
+| 6 | Use "$5-$10 off first order" for cold acquisition | Layer on top for email popups and retargeting |
+| 7 | Plan price increase to $59.95 after 50+ reviews | Graduate from launch pricing once trust is established |
+| 8 | Reserve B2G1 and flash sales for 2-3 major events/year | Don't get addicted |
