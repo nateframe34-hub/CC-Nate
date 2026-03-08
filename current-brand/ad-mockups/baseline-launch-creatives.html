@@ -1,0 +1,1789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baseline NMN — Launch Creative Mockups</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal-deep: #0C3B3F;
+    --teal-mid: #165C5A;
+    --teal-light: #1E7A77;
+    --copper: #C07840;
+    --copper-light: #D4944E;
+    --cream: #F5F0E8;
+    --cream-dark: #EBE4D8;
+    --near-black: #1A1A1A;
+    --text-secondary: #5A5550;
+    --gray-light: #B0A8A0;
+    --white: #FFFFFF;
+    --warning-red: #C0392B;
+    --success-green: #2ECC71;
+    --star-yellow: #F1C40F;
+    --orange-warm: #E8A45C;
+    --orange-bg: #FDF0E2;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: #0a0a0a;
+    color: var(--cream);
+    overflow-x: hidden;
+  }
+
+  /* ========== HERO / MASTHEAD ========== */
+  .masthead {
+    padding: 80px 60px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(180deg, var(--teal-deep) 0%, #0a1a1c 100%);
+  }
+  .masthead::before {
+    content: '';
+    position: absolute;
+    top: -200px; left: -200px;
+    width: 600px; height: 600px;
+    border: 1px solid rgba(192,120,64,0.06);
+    border-radius: 50%;
+  }
+  .masthead::after {
+    content: '';
+    position: absolute;
+    bottom: -150px; right: -100px;
+    width: 500px; height: 500px;
+    border: 1px solid rgba(245,240,232,0.03);
+    border-radius: 50%;
+  }
+  .masthead h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--cream);
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 1;
+  }
+  .masthead h1 span { color: var(--copper); }
+  .masthead .sub {
+    font-size: 0.85rem;
+    color: rgba(245,240,232,0.5);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+  }
+  .masthead .framework-bar {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    position: relative;
+    z-index: 1;
+  }
+  .masthead .fw-item {
+    text-align: center;
+  }
+  .masthead .fw-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--copper);
+  }
+  .masthead .fw-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.35);
+    margin-top: 2px;
+  }
+
+  /* ========== BATCH NAVIGATION ========== */
+  .batch-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(10,10,10,0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(245,240,232,0.06);
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+  }
+  .batch-nav a {
+    padding: 16px 28px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.4);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+  .batch-nav a:hover {
+    color: var(--copper);
+    border-bottom-color: var(--copper);
+  }
+
+  /* ========== BATCH SECTIONS ========== */
+  .batch-section {
+    padding: 80px 60px;
+    border-bottom: 1px solid rgba(245,240,232,0.04);
+  }
+  .batch-header {
+    margin-bottom: 48px;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .batch-number {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgba(192,120,64,0.15);
+    line-height: 0.85;
+    flex-shrink: 0;
+  }
+  .batch-info h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--cream);
+    margin-bottom: 4px;
+  }
+  .batch-info .meta-row {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .batch-info .meta-tag {
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.35);
+  }
+  .batch-info .meta-tag span {
+    color: var(--copper);
+    font-weight: 600;
+  }
+
+  /* ========== AD GRID ========== */
+  .ad-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-bottom: 48px;
+  }
+  @media (max-width: 1200px) {
+    .ad-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 800px) {
+    .ad-grid { grid-template-columns: 1fr; }
+    .batch-section { padding: 40px 20px; }
+    .masthead { padding: 40px 20px; }
+  }
+
+  .ad-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .ad-card-label {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.3);
+    margin-bottom: 10px;
+    padding-left: 4px;
+  }
+  .ad {
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.4), 0 2px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .ad:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 60px rgba(0,0,0,0.5), 0 4px 12px rgba(0,0,0,0.4);
+  }
+
+  /* ========== BODY COPY PREVIEW ========== */
+  .copy-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 16px;
+  }
+  .copy-card {
+    background: rgba(245,240,232,0.03);
+    border: 1px solid rgba(245,240,232,0.06);
+    border-radius: 8px;
+    padding: 32px;
+  }
+  .copy-card-label {
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(192,120,64,0.15);
+  }
+  .copy-card p {
+    font-size: 0.85rem;
+    line-height: 1.65;
+    color: rgba(245,240,232,0.7);
+    margin-bottom: 12px;
+  }
+  .copy-card p:last-child { margin-bottom: 0; }
+  .copy-card .cta-line {
+    color: var(--copper);
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-top: 16px;
+  }
+  .headlines-row {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(245,240,232,0.04);
+  }
+  .headline-card {
+    flex: 1;
+    background: rgba(245,240,232,0.02);
+    border: 1px solid rgba(245,240,232,0.04);
+    border-radius: 6px;
+    padding: 16px 20px;
+    text-align: center;
+  }
+  .headline-card .hl-type {
+    font-size: 0.55rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.3);
+    margin-bottom: 6px;
+  }
+  .headline-card .hl-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--cream);
+  }
+  .desc-card {
+    text-align: center;
+    padding: 12px;
+    font-size: 0.75rem;
+    color: rgba(245,240,232,0.4);
+    letter-spacing: 0.06em;
+  }
+
+  /* ============================================
+     BATCH 1: THE RELUCTANT DECLINER
+     ============================================ */
+
+  .b1c1 {
+    background: var(--teal-deep);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+  }
+  .b1c1::before {
+    content: '';
+    position: absolute;
+    top: -12%; right: -12%;
+    width: 60%;
+    height: 60%;
+    border: 1px solid rgba(245,240,232,0.06);
+    border-radius: 50%;
+  }
+  .b1c1::after {
+    content: '';
+    position: absolute;
+    bottom: -15%; left: -8%;
+    width: 45%;
+    height: 45%;
+    border: 1px solid rgba(245,240,232,0.04);
+    border-radius: 50%;
+  }
+  .b1c1 .stat {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10vw;
+    font-weight: 700;
+    color: var(--copper);
+    line-height: 0.85;
+    position: relative;
+    z-index: 1;
+  }
+  @media (min-width: 1200px) {
+    .b1c1 .stat { font-size: 7rem; }
+  }
+  .b1c1 .stat-sub {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--cream);
+    margin-top: 12px;
+    opacity: 0.9;
+    position: relative;
+    z-index: 1;
+  }
+  .b1c1 .stat-sub em {
+    font-style: normal;
+    color: var(--copper-light);
+  }
+  .b1c1 .logo {
+    position: absolute;
+    bottom: 6%;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.3);
+  }
+
+  .b1c2 {
+    background: var(--cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+  }
+  .b1c2 .capsule-shape {
+    width: 22%;
+    aspect-ratio: 2.3/1;
+    border-radius: 100px;
+    background: linear-gradient(135deg, var(--teal-mid) 0%, var(--teal-deep) 100%);
+    margin-bottom: 8%;
+    box-shadow: 0 4px 16px rgba(12,59,63,0.2);
+    position: relative;
+  }
+  .b1c2 .capsule-shape::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 50%;
+    width: 1px; height: 100%;
+    background: rgba(245,240,232,0.15);
+  }
+  .b1c2 h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--near-black);
+    line-height: 1.3;
+    margin-bottom: 4px;
+  }
+  .b1c2 .reframe {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--teal-deep);
+    margin-top: 4px;
+  }
+  .b1c2 .bottom-line {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--copper);
+  }
+  .b1c2 .logo-bl {
+    position: absolute;
+    bottom: 6%; left: 8%;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--teal-deep);
+    opacity: 0.4;
+  }
+  .b1c2 .cta-bl {
+    position: absolute;
+    bottom: 6%; right: 8%;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--copper);
+  }
+
+  .b1c3 {
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .b1c3 .native-header {
+    display: flex;
+    align-items: center;
+    padding: 5% 5% 2%;
+    gap: 3%;
+  }
+  .b1c3 .avatar-circle {
+    width: 10%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--teal-mid), var(--teal-deep));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--cream);
+    flex-shrink: 0;
+  }
+  .b1c3 .poster-name {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--near-black);
+  }
+  .b1c3 .poster-meta {
+    font-size: 0.65rem;
+    color: var(--gray-light);
+  }
+  .b1c3 .native-body {
+    padding: 2% 6% 5%;
+    font-size: 1.1rem;
+    line-height: 1.55;
+    color: var(--near-black);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .b1c3 .native-body .hook {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--near-black);
+    margin-bottom: 8px;
+  }
+  .b1c3 .native-body .serif-line {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--teal-deep);
+    margin: 8px 0;
+  }
+  .b1c3 .hairline {
+    width: 60px;
+    height: 2px;
+    background: var(--copper);
+    margin: 12px 0;
+  }
+  .b1c3 .fine-print {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+  .b1c3 .link-preview {
+    margin-top: auto;
+    border-top: 1px solid #E8E4DC;
+    background: #FAFAF8;
+    padding: 4% 5%;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+  }
+  .b1c3 .lp-brand {
+    width: 12%;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    background: var(--teal-deep);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--copper);
+    flex-shrink: 0;
+  }
+  .b1c3 .lp-url { font-size: 0.6rem; color: var(--gray-light); text-transform: uppercase; letter-spacing: 0.05em; }
+  .b1c3 .lp-title { font-size: 0.8rem; font-weight: 600; color: var(--near-black); margin-top: 2px; }
+  .b1c3 .lp-desc { font-size: 0.65rem; color: var(--text-secondary); margin-top: 1px; }
+
+  /* ============================================
+     BATCH 2: THE 3PM WALL HITTER
+     ============================================ */
+
+  .b2c1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .b2c1 .split {
+    display: flex;
+    flex: 1;
+  }
+  .b2c1 .side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8%;
+  }
+  .b2c1 .side-left {
+    background: var(--orange-bg);
+    position: relative;
+  }
+  .b2c1 .side-left::after {
+    content: '';
+    position: absolute;
+    right: 0; top: 10%; height: 80%; width: 2px;
+    background: rgba(0,0,0,0.06);
+  }
+  .b2c1 .side-right {
+    background: var(--teal-deep);
+  }
+  .b2c1 .cup-icon {
+    width: 60px; height: 72px;
+    border: 3px solid var(--orange-warm);
+    border-radius: 4px 4px 8px 8px;
+    position: relative;
+    margin-bottom: 16px;
+  }
+  .b2c1 .cup-icon::after {
+    content: '';
+    position: absolute;
+    right: -16px; top: 12px;
+    width: 14px; height: 26px;
+    border: 3px solid var(--orange-warm);
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+  }
+  .b2c1 .cup-steam {
+    position: absolute;
+    top: -14px; left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    color: var(--orange-warm);
+    opacity: 0.5;
+  }
+  .b2c1 .capsule-icon {
+    width: 72px; height: 32px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, var(--teal-light) 50%, var(--copper) 50%);
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  .b2c1 .side-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+  }
+  .b2c1 .side-left .side-label { color: var(--orange-warm); }
+  .b2c1 .side-right .side-label { color: var(--cream); }
+  .b2c1 .bottom-bar {
+    background: var(--near-black);
+    padding: 4% 6%;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--cream);
+  }
+  .b2c1 .bottom-bar em {
+    font-style: normal;
+    color: var(--copper-light);
+  }
+
+  .b2c2 {
+    background: var(--cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    text-align: center;
+    position: relative;
+  }
+  .b2c2 .time {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--near-black);
+    margin-bottom: 4px;
+  }
+  .b2c2 .time-sub {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+  }
+  .b2c2 .cups-row {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 24px;
+    align-items: flex-end;
+  }
+  .b2c2 .mini-cup {
+    width: 32px; height: 28px;
+    border: 2px solid var(--orange-warm);
+    border-radius: 2px 2px 4px 4px;
+    position: relative;
+  }
+  .b2c2 .mini-cup.crossed::after {
+    content: '';
+    position: absolute;
+    top: -4px; left: -4px; right: -4px; bottom: -4px;
+    background: linear-gradient(135deg, transparent 45%, var(--warning-red) 45%, var(--warning-red) 55%, transparent 55%);
+    opacity: 0.5;
+  }
+  .b2c2 .tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--teal-deep);
+  }
+  .b2c2 .logo-b {
+    position: absolute;
+    bottom: 6%;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--teal-deep);
+    opacity: 0.3;
+  }
+
+  .b2c3 {
+    background: var(--teal-deep);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+    position: relative;
+  }
+  .b2c3::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: var(--copper);
+  }
+  .b2c3 h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--cream);
+    line-height: 1.05;
+    margin-bottom: 6px;
+  }
+  .b2c3 .accent {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: var(--copper);
+    font-style: italic;
+    margin-bottom: 24px;
+  }
+  .b2c3 .explain {
+    font-size: 0.8rem;
+    color: rgba(245,240,232,0.55);
+    max-width: 85%;
+    line-height: 1.5;
+  }
+  .b2c3 .logo-b2 {
+    position: absolute;
+    bottom: 6%; left: 8%;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.25);
+  }
+  .b2c3 .url-b2 {
+    position: absolute;
+    bottom: 6%; right: 8%;
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: rgba(245,240,232,0.2);
+  }
+
+  /* ============================================
+     BATCH 3: THE SKEPTIC'S NMN (NEW)
+     ============================================ */
+
+  .b3c1-new {
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    position: relative;
+  }
+  .b3c1-new .bottles-chaos {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 6px;
+    padding: 4% 2%;
+    position: relative;
+  }
+  .b3c1-new .dead-bottle {
+    border-radius: 4px;
+    opacity: 0.35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.3);
+    position: relative;
+  }
+  .b3c1-new .dead-bottle:nth-child(1) { background: #E8D5C4; transform: rotate(-3deg); }
+  .b3c1-new .dead-bottle:nth-child(2) { background: #C4D4C4; transform: rotate(2deg); }
+  .b3c1-new .dead-bottle:nth-child(3) { background: #D4C4D4; transform: rotate(-1deg); }
+  .b3c1-new .dead-bottle:nth-child(4) { background: #C4C4D4; transform: rotate(4deg); }
+  .b3c1-new .dead-bottle:nth-child(5) { background: #D4D4C4; transform: rotate(-2deg); }
+  .b3c1-new .dead-bottle:nth-child(6) { background: #C4D4D4; transform: rotate(1deg); }
+  .b3c1-new .dead-bottle:nth-child(7) { background: #D4C4C4; transform: rotate(3deg); }
+  .b3c1-new .dead-bottle:nth-child(8) { background: #C8C4C0; transform: rotate(-4deg); }
+  .b3c1-new .dead-bottle:nth-child(9) { background: #D0C8C0; transform: rotate(2deg); }
+  .b3c1-new .dead-bottle:nth-child(10) { background: #C4C8CC; transform: rotate(-1deg); }
+  .b3c1-new .dead-bottle:nth-child(11) { background: #CCC8C4; transform: rotate(3deg); }
+  .b3c1-new .baseline-bottle {
+    background: var(--teal-deep) !important;
+    opacity: 1 !important;
+    transform: rotate(0deg) !important;
+    border: 2px solid var(--copper);
+    color: var(--copper) !important;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.7rem !important;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    box-shadow: 0 4px 20px rgba(12,59,63,0.3);
+  }
+  .b3c1-new .top-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--near-black);
+    margin-bottom: 8px;
+  }
+  .b3c1-new .bottom-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--teal-deep);
+    margin-top: auto;
+  }
+  .b3c1-new .corner-logo {
+    position: absolute;
+    bottom: 5%; right: 6%;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--teal-deep);
+    opacity: 0.4;
+  }
+
+  .b3c2-new {
+    background: var(--cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 12%;
+  }
+  .b3c2-new .tl-header {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 10%;
+  }
+  .b3c2-new .tl-entry {
+    margin-bottom: 6%;
+    line-height: 1.2;
+  }
+  .b3c2-new .tl-entry.faded {
+    opacity: 0.4;
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: var(--near-black);
+  }
+  .b3c2-new .tl-entry.mid {
+    opacity: 0.7;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--near-black);
+  }
+  .b3c2-new .tl-entry.bold {
+    opacity: 1;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--teal-deep);
+  }
+  .b3c2-new .tl-divider {
+    width: 40px;
+    height: 2px;
+    background: var(--copper);
+    margin: 6% 0;
+  }
+  .b3c2-new .tl-brand {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--teal-deep);
+    opacity: 0.5;
+  }
+
+  .b3c3-new {
+    background: var(--cream);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .b3c3-new .native-header {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    padding: 5% 6% 3%;
+  }
+  .b3c3-new .av {
+    width: 10%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: var(--teal-deep);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--cream);
+    flex-shrink: 0;
+  }
+  .b3c3-new .av-name {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--near-black);
+  }
+  .b3c3-new .native-main {
+    padding: 2% 7%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .b3c3-new .hook-text {
+    font-size: 1rem;
+    color: var(--near-black);
+    line-height: 1.5;
+    margin-bottom: 6%;
+  }
+  .b3c3-new .quote-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.35rem;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--teal-deep);
+    margin-bottom: 4%;
+  }
+  .b3c3-new .divider {
+    width: 40px;
+    height: 2px;
+    background: var(--copper);
+    margin-bottom: 4%;
+  }
+  .b3c3-new .sub-text {
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: var(--text-secondary);
+  }
+  .b3c3-new .read-more {
+    margin-top: auto;
+    padding: 3% 7% 5%;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--copper);
+  }
+
+  /* ============================================
+     BATCH 4: THE EXHAUSTED PARENT
+     ============================================ */
+
+  .b4c1 {
+    background: var(--teal-deep);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+  }
+  .b4c1 .text-area {
+    padding: 10% 8% 5%;
+    z-index: 2;
+  }
+  .b4c1 h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--cream);
+    margin-bottom: 8px;
+  }
+  .b4c1 .big-line {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--cream);
+    line-height: 1;
+  }
+  .b4c1 .big-line .copper { color: var(--copper); }
+  .b4c1 .photo-area {
+    flex: 1;
+    background: linear-gradient(180deg, rgba(12,59,63,0) 0%, rgba(12,59,63,0.8) 100%),
+                linear-gradient(135deg, rgba(30,122,119,0.15) 0%, rgba(12,59,63,0.4) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .b4c1 .placeholder {
+    font-size: 0.65rem;
+    color: rgba(245,240,232,0.15);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .b4c1 .fix-line {
+    position: absolute;
+    bottom: 6%; left: 8%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--copper);
+  }
+
+  .b4c2 {
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    position: relative;
+  }
+  .b4c2::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--copper) 0%, var(--copper-light) 100%);
+  }
+  .b4c2 .ugc-tag {
+    display: inline-block;
+    font-size: 0.55rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--copper);
+    background: rgba(192,120,64,0.1);
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-bottom: 5%;
+    align-self: flex-start;
+  }
+  .b4c2 .story-head {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--near-black);
+    line-height: 1.1;
+    margin-bottom: 5%;
+  }
+  .b4c2 .story-head .age { color: var(--copper); }
+  .b4c2 .body {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: 5%;
+  }
+  .b4c2 .body strong {
+    color: var(--near-black);
+    font-weight: 600;
+  }
+  .b4c2 .strip {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 4%;
+    border-top: 1px solid #EEE;
+  }
+  .b4c2 .mini-cap {
+    width: 44px; height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, var(--teal-mid) 50%, var(--copper) 50%);
+    flex-shrink: 0;
+  }
+  .b4c2 .strip-text {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+  }
+  .b4c2 .strip-text strong { color: var(--teal-deep); }
+
+  .b4c3 {
+    background: var(--teal-deep);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10% 10%;
+    position: relative;
+  }
+  .b4c3 .pain {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--cream);
+    line-height: 0.95;
+  }
+  .b4c3 .pain .copper { color: var(--copper); }
+  .b4c3 .wake-up {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: rgba(245,240,232,0.5);
+    margin-top: 8%;
+  }
+  .b4c3 .bottom-line {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--copper);
+  }
+  .b4c3 .logo-b4 {
+    position: absolute;
+    bottom: 5%; left: 10%;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.2);
+  }
+  .b4c3 .url-b4 {
+    position: absolute;
+    bottom: 5%; right: 10%;
+    font-size: 0.55rem;
+    font-weight: 300;
+    color: rgba(245,240,232,0.15);
+  }
+
+  /* ============================================
+     BATCH 5: THE INVISIBLE WOMAN
+     ============================================ */
+
+  .b5c1 {
+    background: var(--cream);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+  }
+  .b5c1 .accent-bar {
+    height: 5px;
+    background: linear-gradient(90deg, var(--teal-deep) 0%, var(--teal-light) 100%);
+  }
+  .b5c1 .content {
+    padding: 8%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .b5c1 h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--near-black);
+    line-height: 1.5;
+    margin-bottom: 4%;
+  }
+  .b5c1 .reframe-line {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--teal-deep);
+    margin-bottom: 6%;
+  }
+  .b5c1 .explain {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    max-width: 90%;
+  }
+  .b5c1 .explain strong { color: var(--near-black); font-weight: 600; }
+  .b5c1 .cta-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto;
+    padding-top: 4%;
+  }
+  .b5c1 .p-cap {
+    width: 48px; height: 22px;
+    border-radius: 11px;
+    background: linear-gradient(90deg, var(--teal-mid) 50%, var(--copper) 50%);
+    box-shadow: 0 2px 6px rgba(12,59,63,0.2);
+    flex-shrink: 0;
+  }
+  .b5c1 .cta-link {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--copper);
+  }
+
+  .b5c2 {
+    background: var(--teal-deep);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+    position: relative;
+  }
+  .b5c2::before {
+    content: '';
+    position: absolute;
+    top: -20%; left: -20%;
+    width: 80%; height: 80%;
+    border: 1px solid rgba(245,240,232,0.03);
+    border-radius: 50%;
+  }
+  .b5c2 .big-stat {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 7rem;
+    font-weight: 700;
+    color: var(--copper);
+    line-height: 0.85;
+    position: relative;
+    z-index: 1;
+  }
+  .b5c2 .stat-context {
+    font-size: 1rem;
+    color: var(--cream);
+    margin-top: 12px;
+    opacity: 0.85;
+    position: relative;
+    z-index: 1;
+  }
+  .b5c2 .question {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(245,240,232,0.55);
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  .b5c2 .logo-b5 {
+    position: absolute;
+    bottom: 6%;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.25);
+  }
+
+  .b5c3 {
+    background: var(--teal-deep);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10% 12%;
+  }
+  .b5c3 .list-header {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 6%;
+  }
+  .b5c3 .pain-item {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: var(--cream);
+    text-decoration: line-through;
+    text-decoration-color: rgba(192,76,64,0.6);
+    text-decoration-thickness: 2px;
+    opacity: 0.4;
+    margin-bottom: 4%;
+  }
+  .b5c3 .divider {
+    width: 40px;
+    height: 2px;
+    background: var(--copper);
+    margin: 6% 0;
+  }
+  .b5c3 .restored {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--copper);
+    margin-bottom: 3%;
+  }
+  .b5c3 .brand-bottom {
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.25);
+    margin-top: auto;
+    padding-top: 6%;
+  }
+</style>
+</head>
+<body>
+
+<!-- ===================== MASTHEAD ===================== -->
+<header class="masthead">
+  <h1>Baseline <span>NMN</span></h1>
+  <p class="sub">Launch Creative Mockups &middot; Soft Launch Version</p>
+  <div class="framework-bar">
+    <div class="fw-item">
+      <div class="fw-num">5</div>
+      <div class="fw-label">Batches</div>
+    </div>
+    <div class="fw-item">
+      <div class="fw-num">15</div>
+      <div class="fw-label">Creatives</div>
+    </div>
+    <div class="fw-item">
+      <div class="fw-num">10</div>
+      <div class="fw-label">Body Copies</div>
+    </div>
+    <div class="fw-item">
+      <div class="fw-num">60</div>
+      <div class="fw-label">Combinations</div>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== NAV ===================== -->
+<nav class="batch-nav">
+  <a href="#batch1">B1 Reluctant Decliner</a>
+  <a href="#batch2">B2 3pm Wall Hitter</a>
+  <a href="#batch3">B3 Skeptic's NMN</a>
+  <a href="#batch4">B4 Exhausted Parent</a>
+  <a href="#batch5">B5 Invisible Woman</a>
+</nav>
+
+<!-- ===================== BATCH 1 ===================== -->
+<section class="batch-section" id="batch1">
+  <div class="batch-header">
+    <div class="batch-number">01</div>
+    <div class="batch-info">
+      <h2>The Reluctant Decliner</h2>
+      <div class="meta-row">
+        <span class="meta-tag">Sub-Avatar <span>#8</span></span>
+        <span class="meta-tag">Emotion <span>Quiet Fear</span></span>
+        <span class="meta-tag">Mechanism <span>NAD+ Decline</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ad-grid">
+    <div class="ad-card">
+      <div class="ad-card-label">C1 &mdash; Stat Bomb "50%"</div>
+      <div class="ad b1c1">
+        <div class="stat">50%</div>
+        <div class="stat-sub">of your cellular fuel. <em>Gone by 50.</em></div>
+        <div class="logo">Baseline</div>
+      </div>
+    </div>
+
+    <div class="ad-card">
+      <div class="ad-card-label">C2 &mdash; "This Is Not" Reframe</div>
+      <div class="ad b1c2">
+        <div class="capsule-shape"></div>
+        <h2>This is not a supplement.</h2>
+        <div class="reframe">It's the molecule your cells stopped making.</div>
+        <div class="bottom-line"></div>
+        <div class="logo-bl">Baseline</div>
+        <div class="cta-bl">Learn more &rarr;</div>
+      </div>
+    </div>
+
+    <div class="ad-card">
+      <div class="ad-card-label">C3 &mdash; Question Hook (Native Post)</div>
+      <div class="ad b1c3">
+        <div class="native-header">
+          <div class="avatar-circle">B</div>
+          <div>
+            <div class="poster-name">Baseline</div>
+            <div class="poster-meta">Sponsored</div>
+          </div>
+        </div>
+        <div class="native-body">
+          <div class="hook">What if "just getting older" is actually just running low</div>
+          <div class="serif-line">on one molecule?</div>
+          <div class="hairline"></div>
+          <div class="fine-print">NAD+ drops 50% by age 50. NMN puts it back.</div>
+        </div>
+        <div class="link-preview">
+          <div class="lp-brand">B</div>
+          <div>
+            <div class="lp-url">baselinenmn.com</div>
+            <div class="lp-title">The Science of NAD+ Decline</div>
+            <div class="lp-desc">What your doctor isn't telling you about cellular energy.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copy-section">
+    <div class="copy-card">
+      <div class="copy-card-label">Body Copy 1 &mdash; Native / Camouflage (220 words)</div>
+      <p>I turned 44 and my body just... stopped cooperating.</p>
+      <p>It wasn't one thing. It was everything. Hangovers that used to last a morning started lasting two days. I'd wake up at 6am feeling like I hadn't slept.</p>
+      <p>Then a friend &mdash; a molecular biologist, not a supplement guy &mdash; mentioned something I'd never heard of: NAD+. A coenzyme in every cell responsible for energy production and cellular maintenance. Published research shows levels decline significantly after 40.</p>
+      <p>I started taking Baseline NMN. Week one, nothing dramatic. Week three, I stopped needing that second coffee. Week six, my wife said I seemed like myself again.</p>
+      <div class="cta-line">&rarr; Baseline NMN. Support your cells. Feel the difference.</div>
+    </div>
+    <div class="copy-card">
+      <div class="copy-card-label">Body Copy 2 &mdash; Direct Response (90 words)</div>
+      <p>"I'm not sick. I just don't feel like myself anymore."</p>
+      <p>Sound familiar? There's a reason.</p>
+      <p>After 40, your cells produce less NAD+ &mdash; the molecule behind energy production and cellular maintenance. The decline is measurable.</p>
+      <p>NMN is the direct precursor your body uses to restore NAD+ levels. Not a stimulant. Not a band-aid. The actual fuel your cells have been running low on.</p>
+      <p>Your body didn't break. It ran out of fuel.</p>
+      <div class="cta-line">&rarr; Raise your baseline.</div>
+    </div>
+  </div>
+
+  <div class="headlines-row">
+    <div class="headline-card">
+      <div class="hl-type">Headline 1 (Direct)</div>
+      <div class="hl-text">Your Cells Lost Their Fuel</div>
+    </div>
+    <div class="headline-card">
+      <div class="hl-type">Headline 2 (Curiosity)</div>
+      <div class="hl-text">What If It's Not "Just Aging"?</div>
+    </div>
+  </div>
+  <div class="desc-card">Description: Support your NAD+ levels.</div>
+</section>
+
+<!-- ===================== BATCH 2 ===================== -->
+<section class="batch-section" id="batch2">
+  <div class="batch-header">
+    <div class="batch-number">02</div>
+    <div class="batch-info">
+      <h2>The 3pm Wall Hitter</h2>
+      <div class="meta-row">
+        <span class="meta-tag">Sub-Avatar <span>#1</span></span>
+        <span class="meta-tag">Emotion <span>Frustration</span></span>
+        <span class="meta-tag">Mechanism <span>Restoration vs Stimulation</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ad-grid">
+    <div class="ad-card">
+      <div class="ad-card-label">C1 &mdash; Us vs Them Split</div>
+      <div class="ad b2c1">
+        <div class="split">
+          <div class="side side-left">
+            <div class="cup-icon"><span class="cup-steam">~</span></div>
+            <div class="side-label">SPIKE</div>
+          </div>
+          <div class="side side-right">
+            <div class="capsule-icon"></div>
+            <div class="side-label">BASELINE</div>
+          </div>
+        </div>
+        <div class="bottom-bar">Caffeine borrows energy. <em>NMN restores it.</em></div>
+      </div>
+    </div>
+
+    <div class="ad-card">
+      <div class="ad-card-label">C2 &mdash; "3:17 PM" Exaggeration</div>
+      <div class="ad b2c2">
+        <div class="time">3:17 PM</div>
+        <div class="time-sub">Cup #4 didn't work either.</div>
+        <div class="cups-row">
+          <div class="mini-cup crossed"></div>
+          <div class="mini-cup crossed"></div>
+          <div class="mini-cup crossed"></div>
+          <div class="mini-cup crossed"></div>
+        </div>
+        <div class="tagline">Raise your baseline.</div>
+        <div class="logo-b">Baseline</div>
+      </div>
+    </div>
+
+    <div class="ad-card">
+      <div class="ad-card-label">C3 &mdash; Relatable Hook Bold Text</div>
+      <div class="ad b2c3">
+        <h2>I used to have energy.</h2>
+        <div class="accent">Now I just have coffee.</div>
+        <div class="explain">There's a difference between stimulation and restoration.</div>
+        <div class="logo-b2">BASELINE</div>
+        <div class="url-b2">baselinenmn.com</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copy-section">
+    <div class="copy-card">
+      <div class="copy-card-label">Body Copy 1 &mdash; Native / Camouflage (200 words)</div>
+      <p>I used to have energy. Now I just have coffee.</p>
+      <p>Three cups by noon. Sometimes four. And still, every single afternoon around 2:30, the wall hits. Not tired-from-exercise tired. Tired-for-no-reason tired.</p>
+      <p>My sister sent me an article about NAD+ &mdash; a molecule your cells use to produce energy. Turns out your levels drop significantly as you age, which is why stimulants stop working &mdash; you're whipping a tired horse.</p>
+      <p>I started taking Baseline NMN. No buzz on day one. But around week three, I noticed I wasn't reaching for that afternoon coffee.</p>
+      <p>Caffeine gives you a spike. This raised my baseline.</p>
+      <div class="cta-line">&rarr; Try Baseline NMN.</div>
+    </div>
+    <div class="copy-card">
+      <div class="copy-card-label">Body Copy 2 &mdash; Direct Response (80 words)</div>
+      <p>That 3pm wall isn't a coffee problem. It's a cellular fuel problem.</p>
+      <p>Caffeine borrows energy from later and charges interest. That's why you crash. Every. Single. Afternoon.</p>
+      <p>NMN works differently. It's the precursor your body uses to restore NAD+. No spike. No crash. Just a higher floor.</p>
+      <p>Stop chasing spikes. Raise your baseline.</p>
+      <div class="cta-line">&rarr; Shop Baseline.</div>
+    </div>
+  </div>
+
+  <div class="headlines-row">
+    <div class="headline-card">
+      <div class="hl-type">Headline 1 (Direct)</div>
+      <div class="hl-text">Raise Your Baseline Energy</div>
+    </div>
+    <div class="headline-card">
+      <div class="hl-type">Headline 2 (Curiosity)</div>
+      <div class="hl-text">Why Caffeine Stopped Working</div>
+    </div>
+  </div>
+  <div class="desc-card">Description: Not a spike. A baseline.</div>
+</section>
+
+<!-- ===================== BATCH 3 (NEW) ===================== -->
+<section class="batch-section" id="batch3">
+  <div class="batch-header">
+    <div class="batch-number">03</div>
+    <div class="batch-info">
+      <h2>The Skeptic's NMN</h2>
+      <div class="meta-row">
+        <span class="meta-tag">Sub-Avatar <span>#2 Burned Buyer</span></span>
+        <span class="meta-tag">Emotion <span>Skeptical but Searching</span></span>
+        <span class="meta-tag">Mechanism <span>NAD+ Decline (Why NMN Is Different)</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ad-grid">
+    <div class="ad-card">
+      <div class="ad-card-label">C1 &mdash; "The Supplement Graveyard"</div>
+      <div class="ad b3c1-new">
+        <div class="top-text">After 12 supplements that did nothing.</div>
+        <div class="bottles-chaos">
+          <div class="dead-bottle">Brand A</div>
+          <div class="dead-bottle">Brand B</div>
+          <div class="dead-bottle">Brand C</div>
+          <div class="dead-bottle">Brand D</div>
+          <div class="dead-bottle">Brand E</div>
+          <div class="dead-bottle">Brand F</div>
+          <div class="dead-bottle">Brand G</div>
+          <div class="dead-bottle">Brand H</div>
+          <div class="dead-bottle">Brand I</div>
+          <div class="dead-bottle">Brand J</div>
+          <div class="dead-bottle">Brand K</div>
+          <div class="dead-bottle baseline-bottle">B</div>
+        </div>
+        <div class="bottom-text">I found one that did.</div>
+        <div class="corner-logo">BASELINE NMN</div>
+      </div>
+    </div>
+
+    <div class="ad-card">
+      <div class="ad-card-label">C2 &mdash; "The Skeptic's Timeline"</div>
+      <div class="ad b3c2-new">
+        <div class="tl-header">My NMN timeline:</div>
+        <div class="tl-entry faded">Week 1: Nothing. Told you.</div>
+        <div class="tl-entry faded">Week 2: Still nothing.</div>
+        <div class="tl-entry mid">Week 3: ...wait.</div>
+        <div class="tl-entry bold">Week 6: OK. I was wrong.</div>
+        <div class="tl-divider"></div>
+        <div class="tl-brand">BASELINE NMN</div>
+      </div>
+    </div>
+
+    <div class="ad-card">
+      <div class="ad-card-label">C3 &mdash; "Honest Review" Native Post</div>
+      <div class="ad b3c3-new">
+        <div class="native-header">
+          <div class="av">B</div>
+          <div>
+            <div class="av-name">Baseline</div>
+          </div>
+        </div>
+        <div class="native-main">
+          <div class="hook-text">Honest review from someone who's been burned by supplements before:</div>
+          <div class="quote-text">I almost didn't try this. I'm glad I did.</div>
+          <div class="divider"></div>
+          <div class="sub-text">NMN restored what 12 other supplements couldn't.</div>
+        </div>
+        <div class="read-more">Read more &rarr;</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copy-section">
+    <div class="copy-card">
+      <div class="copy-card-label">Body Copy 1 &mdash; Native / Camouflage (225 words)</div>
+      <p>I have a cabinet full of supplements I don't trust anymore.</p>
+      <p>Turmeric. Ashwagandha. Vitamin D. Magnesium. Fish oil. Collagen. I bought every one of them because some article or podcast said it would change my life. None of them did.</p>
+      <p>Then my brother-in-law &mdash; biochemist, not a health guru &mdash; explained something that actually made sense. There's a molecule called NAD+ that your cells use to produce energy and repair DNA. By your 40s, you've lost a significant amount of it.</p>
+      <p>He said most supplements add things your body might not need more of. NMN is different &mdash; it's the raw material your body is specifically running low on.</p>
+      <p>I tried Baseline NMN expecting nothing. Week one confirmed that. Week three, something shifted. Week six, I had energy I hadn't felt in years.</p>
+      <p>I'm still skeptical of supplements. I'm just not skeptical of this one.</p>
+      <div class="cta-line">&rarr; Baseline NMN.</div>
+    </div>
+    <div class="copy-card">
+      <div class="copy-card-label">Body Copy 2 &mdash; Direct Response (90 words)</div>
+      <p>You've tried supplements before. They didn't work.</p>
+      <p>Turmeric didn't change your energy. Ashwagandha didn't fix your focus. Collagen didn't do what the ads promised.</p>
+      <p>Here's why NMN is different: it's not adding something extra. It's restoring something specific your body lost.</p>
+      <p>NAD+ is the molecule your cells use for energy production and cellular maintenance. By your 40s, levels drop significantly. NMN is what your body converts into NAD+.</p>
+      <p>This isn't another promise. It's a precursor to a molecule you're measurably low on.</p>
+      <div class="cta-line">&rarr; Try Baseline NMN.</div>
+    </div>
+  </div>
+
+  <div class="headlines-row">
+    <div class="headline-card">
+      <div class="hl-type">Headline 1 (Direct)</div>
+      <div class="hl-text">The First Supplement That Did Something</div>
+    </div>
+    <div class="headline-card">
+      <div class="hl-type">Headline 2 (Curiosity)</div>
+      <div class="hl-text">Why Nothing Else Worked</div>
+    </div>
+  </div>
+  <div class="desc-card">Description: Not another supplement. A precursor.</div>
+</section>
+
+<!-- ===================== BATCH 4 ===================== -->
+<section class="batch-section" id="batch4">
+  <div class="batch-header">
+    <div class="batch-number">04</div>
+    <div class="batch-info">
+      <h2>The Exhausted Parent</h2>
+      <div class="meta-row">
+        <span class="meta-tag">Sub-Avatar <span>#6</span></span>
+        <span class="meta-tag">Emotion <span>Guilt</span></span>
+        <span class="meta-tag">Mechanism <span>Restoration + NAD+ Decline</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ad-grid">
+    <div class="ad-card">
+      <div class="ad-card-label">C1 &mdash; Avatar Call Out</div>
+      <div class="ad b4c1">
+        <div class="text-area">
+          <h2>TO PARENTS WHO ARE TOO TIRED BY 5PM:</h2>
+          <div class="big-line">Your kids don't care<br>about your <span class="copper">job title.</span></div>
+        </div>
+        <div class="photo-area">
+          <span class="placeholder">[Lifestyle: parent on bench, child on swings]</span>
+        </div>
+        <div class="fix-line">This is fixable.</div>
+      </div>
+    </div>
+
+    <div class="ad-card">
+      <div class="ad-card-label">C2 &mdash; Ideal Outcome</div>
+      <div class="ad b4c2">
+        <div class="ugc-tag">Real Story</div>
+        <div class="story-head">I Stopped Being The "Tired Dad" At <span class="age">47</span></div>
+        <div class="body">
+          Two capsules. Every morning. That's it.
+          <br><br>
+          I didn't expect much. But by week three, I stopped making excuses at 5pm. I had something left in the tank when it actually mattered.
+          <br><br>
+          <strong>They won't remember your job title. They'll remember if you showed up.</strong>
+        </div>
+        <div class="strip">
+          <div class="mini-cap"></div>
+          <div class="strip-text"><strong>Baseline NMN</strong> &middot; Support your energy</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ad-card">
+      <div class="ad-card-label">C3 &mdash; Pain Point Bold Text</div>
+      <div class="ad b4c3">
+        <div class="pain">Too tired<br><span class="copper">to play catch.</span></div>
+        <div class="wake-up">That was my wake-up call.</div>
+        <div class="bottom-line"></div>
+        <div class="logo-b4">BASELINE NMN</div>
+        <div class="url-b4">baselinenmn.com</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copy-section">
+    <div class="copy-card">
+      <div class="copy-card-label">Body Copy 1 &mdash; Native / Camouflage (205 words)</div>
+      <p>Last Saturday my daughter asked me to take her to the park. I said maybe later. She stopped asking.</p>
+      <p>That was my moment. Not a health scare. A six-year-old who learned that "maybe later" means no.</p>
+      <p>I wasn't lazy. I was empty. I'd get home from work and have nothing left. Weekends felt like recovery time.</p>
+      <p>Your body's cellular energy depends on a molecule called NAD+. By your 40s, levels drop significantly. Especially by 5pm.</p>
+      <p>I started taking Baseline NMN. By week three, I wasn't dragging through evenings anymore. By week six, I took my daughter to the park on a Wednesday. After work.</p>
+      <p>She didn't say anything. She just grabbed my hand and ran to the swings.</p>
+      <div class="cta-line">&rarr; Baseline NMN. Show up.</div>
+    </div>
+    <div class="copy-card">
+      <div class="copy-card-label">Body Copy 2 &mdash; Direct Response (85 words)</div>
+      <p>You're not a bad parent. You're a depleted one.</p>
+      <p>By your 40s, your cells produce significantly less NAD+ &mdash; the molecule responsible for energy at the cellular level. That's why you have nothing left by 5pm.</p>
+      <p>NMN is the precursor your body uses to rebuild NAD+ levels. Not caffeine. Not willpower. Actual cellular restoration.</p>
+      <p>They won't remember your job title. They'll remember if you had the energy to play.</p>
+      <div class="cta-line">&rarr; Raise your baseline.</div>
+    </div>
+  </div>
+
+  <div class="headlines-row">
+    <div class="headline-card">
+      <div class="hl-type">Headline 1 (Direct)</div>
+      <div class="hl-text">Energy to Say Yes After 5pm</div>
+    </div>
+    <div class="headline-card">
+      <div class="hl-type">Headline 2 (Curiosity)</div>
+      <div class="hl-text">Why Are You So Tired by 5pm?</div>
+    </div>
+  </div>
+  <div class="desc-card">Description: Show up for what matters.</div>
+</section>
+
+<!-- ===================== BATCH 5 ===================== -->
+<section class="batch-section" id="batch5">
+  <div class="batch-header">
+    <div class="batch-number">05</div>
+    <div class="batch-info">
+      <h2>The Invisible Woman</h2>
+      <div class="meta-row">
+        <span class="meta-tag">Sub-Avatar <span>#7</span></span>
+        <span class="meta-tag">Emotion <span>Invisibility / Frustration</span></span>
+        <span class="meta-tag">Mechanism <span>NAD+ Decline + Restoration</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ad-grid">
+    <div class="ad-card">
+      <div class="ad-card-label">C1 &mdash; Indirect Avatar</div>
+      <div class="ad b5c1">
+        <div class="accent-bar"></div>
+        <div class="content">
+          <h2>It's not about looking younger.</h2>
+          <div class="reframe-line">It's about your cells actually working again.</div>
+          <div class="explain">
+            Your cells lost a molecule called <strong>NAD+</strong>. It's what every cell uses for energy and repair. By 50, you've lost half.
+            <br><br>
+            NMN is the precursor that helps your body rebuild it.
+          </div>
+          <div class="cta-row">
+            <div class="p-cap"></div>
+            <div class="cta-link">Learn more &rarr;</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ad-card">
+      <div class="ad-card-label">C2 &mdash; Question Hook "85%"</div>
+      <div class="ad b5c2">
+        <div class="big-stat">85%</div>
+        <div class="stat-context">of women report fatigue during perimenopause.</div>
+        <div class="question">What if it's not just hormones?</div>
+        <div class="logo-b5">Baseline</div>
+      </div>
+    </div>
+
+    <div class="ad-card">
+      <div class="ad-card-label">C3 &mdash; Strikethrough Pain List</div>
+      <div class="ad b5c3">
+        <div class="list-header">What she got back:</div>
+        <div class="pain-item">Afternoon crashes</div>
+        <div class="pain-item">Can't focus by noon</div>
+        <div class="pain-item">Weight that appeared from nowhere</div>
+        <div class="pain-item">Waking up exhausted after 8 hours</div>
+        <div class="pain-item">"It's just perimenopause"</div>
+        <div class="divider"></div>
+        <div class="restored">Her energy.</div>
+        <div class="restored">Her clarity.</div>
+        <div class="restored">Her baseline.</div>
+        <div class="brand-bottom">BASELINE NMN</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copy-section">
+    <div class="copy-card">
+      <div class="copy-card-label">Body Copy 1 &mdash; Native / Camouflage (210 words)</div>
+      <p>I went from running my household, my career, and half the school's volunteer committee &mdash; to needing a nap by 2pm.</p>
+      <p>It happened fast. Over maybe 18 months. Energy gone. Focus scattered. My doctor said it was "just perimenopause" and suggested I manage my stress better.</p>
+      <p>Manage my stress. As if stress was the problem.</p>
+      <p>A colleague mentioned NAD+ &mdash; a molecule every cell needs for energy production and repair. Levels decline sharply in your 40s and 50s. For women, the drop often coincides with hormonal shifts, making everything hit at once.</p>
+      <p>NMN is what your body uses to rebuild NAD+. I started taking Baseline NMN.</p>
+      <p>Six weeks in: the fog lifted. Eight weeks: I stopped canceling plans. My energy came back like a slow tide. Steady. Reliable.</p>
+      <p>This isn't about looking younger. It's about actually functioning again.</p>
+      <div class="cta-line">&rarr; Baseline NMN.</div>
+    </div>
+    <div class="copy-card">
+      <div class="copy-card-label">Body Copy 2 &mdash; Direct Response (95 words)</div>
+      <p>The health industry sells "anti-aging" as wrinkle cream and collagen peptides.</p>
+      <p>Meanwhile, your energy disappeared. Your focus scattered. And your doctor said "it's just perimenopause."</p>
+      <p>That's not a diagnosis. That's a dismissal.</p>
+      <p>Here's what's actually happening: your cells are producing less NAD+ &mdash; the molecule behind energy, repair, and cognitive function.</p>
+      <p>NMN is the precursor your body uses to restore NAD+ levels. Not a cosmetic fix. A cellular one.</p>
+      <p>This is about function, not appearance.</p>
+      <div class="cta-line">&rarr; Shop Baseline.</div>
+    </div>
+  </div>
+
+  <div class="headlines-row">
+    <div class="headline-card">
+      <div class="hl-type">Headline 1 (Direct)</div>
+      <div class="hl-text">Your Cells Need Fuel, Not Cream</div>
+    </div>
+    <div class="headline-card">
+      <div class="hl-type">Headline 2 (Curiosity)</div>
+      <div class="hl-text">What If It's Not "Just Hormones"?</div>
+    </div>
+  </div>
+  <div class="desc-card">Description: Cellular function restored.</div>
+</section>
+
+</body>
+</html>

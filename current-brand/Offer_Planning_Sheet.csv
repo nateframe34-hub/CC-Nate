@@ -1,0 +1,29 @@
+Product / Offer Name,# Bottles,Product Cost,Shipping Cost,Total COGS,Gateway (3.3%),Total Cost For Us,Price Before Discounts,Price On Site,Shipping To Customer,Total Revenue,Margin $,Margin %,BE ROAS,Savings $,Savings %,Target CPA 2x ROAS,Target CPA 2.5x ROAS,Eff. $/Bottle,Origins Strategy
+--- LAUNCH PRICING ($49.95 Anchor) ---,,,,,,,,,,,,,,,,,,,
+"1x 120ct Launch Price (Hero SKU, 60 Days)",1,$4.03,$7.70,$11.73,$1.65,$13.38,$69.95,$49.95,$0.00,$49.95,$36.57,73.21%,1.37,$20.00,28.59%,$24.98,$19.98,$49.95,"Launch anchor. Under $50 impulse threshold. $0.83/day. 73% margin still strong — BE ROAS only 1.37. $20 off ""regular"" $69.95 creates urgency"
+--- BUNDLE & SAVE (Origins #1 Recommended) ---,,,,,,,,,,,,,,,,,,,
+"The Starter (1x 120ct, 60 Days)",1,$4.03,$7.70,$11.73,$1.65,$13.38,$69.95,$49.95,$0.00,$49.95,$36.57,73.21%,1.37,$20.00,28.59%,$24.98,$19.98,$49.95,Tier 1 — entry point. $0.83/day. Free shipping included. Lowest friction first purchase
+"The Protocol (2x 120ct, 120 Days) MOST POPULAR",2,$8.06,$10.83,$18.89,$2.97,$21.86,$99.90,$89.90,$0.00,$89.90,$68.04,75.68%,1.32,$10.00,10.01%,$44.95,$35.96,$44.95,"Tier 2 — hero bundle. $0.75/day. Best balance of AOV + margin. Save $10 vs buying 2 singles"
+"The Transformation (3x 120ct, 180 Days) BEST VALUE",3,$12.09,$13.96,$26.05,$3.96,$30.01,$149.85,$119.85,$0.00,$119.85,$89.84,74.96%,1.33,$30.00,20.02%,$59.93,$47.94,$39.95,"Tier 3 — best value. $0.67/day. Save $30. Law of Large Numbers: $30 saved looks bigger than 20% — lead with dollar amount"
+--- BUY X GET X FREE (Reserve for Major Events ONLY) ---,,,,,,,,,,,,,,,,,,,
+Buy 1 Get 1 Free (2 bottles),2,$8.06,$10.83,$18.89,$1.65,$20.54,$99.90,$49.95,$0.00,$49.95,$29.41,58.88%,1.70,$49.95,50.00%,$24.98,$19.98,$24.98,"WARNING: 58.9% margin and 1.70 BE ROAS. Only use for launch week blitz to seed initial reviews, then KILL IT. Per Origins: offers are addictive"
+Buy 2 Get 1 Free (3 bottles),3,$12.09,$13.96,$26.05,$3.30,$29.35,$149.85,$99.90,$0.00,$99.90,$70.55,70.62%,1.42,$49.95,33.34%,$49.95,$39.96,$33.30,"Better BXGX option. 70.6% margin. 33% off perception. Reserve for 2-3 events/year per Origins warning"
+Buy 3 Get 1 Free (4 bottles),4,$16.12,$17.09,$33.21,$4.95,$38.16,$199.80,$149.85,$0.00,$149.85,$111.69,74.54%,1.34,$49.95,25.00%,$74.93,$59.94,$37.46,Strong AOV at $149.85. 74.5% margin. Good for Black Friday / holiday bundles
+--- $X OFF FIRST ORDER (Acquisition Layer — Stack on Bundles) ---,,,,,,,,,,,,,,,,,,,
+$5 Off First Order (1 bottle),1,$4.03,$7.70,$11.73,$1.48,$13.21,$49.95,$44.95,$0.00,$44.95,$31.74,70.61%,1.42,$5.00,10.01%,$22.48,$17.98,$44.95,"Light sweetener on top of launch price. Still 70.6% margin. Use for email popup / exit intent"
+$10 Off First Order (1 bottle),1,$4.03,$7.70,$11.73,$1.32,$13.05,$49.95,$39.95,$0.00,$39.95,$26.90,67.33%,1.49,$10.00,20.02%,$19.98,$15.98,$39.95,"Aggressive acquisition. Tests the $39.95 price point without committing to it permanently. 67.3% margin still healthy"
+$5 Off Protocol Bundle (2 bottles),2,$8.06,$10.83,$18.89,$2.80,$21.69,$99.90,$84.90,$0.00,$84.90,$63.21,74.45%,1.34,$15.00,15.02%,$42.45,$33.96,$42.45,"Stack: $89.90 bundle - $5 first order = $84.90. Pushes new customers to higher AOV. 74.5% margin"
+$10 Off Transformation Bundle (3 bottles),3,$12.09,$13.96,$26.05,$3.63,$29.68,$149.85,$109.85,$0.00,$109.85,$80.17,72.98%,1.37,$40.00,26.69%,$54.93,$43.94,$36.62,"Stack: $119.85 bundle - $10 first order = $109.85. $40 perceived savings. 73% margin. Best acquisition + AOV combo"
+--- SUBSCRIBE & SAVE (Recurring Revenue Engine) ---,,,,,,,,,,,,,,,,,,,
+"Sub: 1x 120ct Every 60 Days (14% off)",1,$4.03,$7.70,$11.73,$1.42,$13.15,$49.95,$42.95,$0.00,$42.95,$29.80,69.38%,1.44,$7.00,14.01%,$21.48,$17.18,$42.95,"$0.72/day. $21.48/mo effective. Recurring margin $29.80/shipment. 5-cycle LTV = $214.75, total margin = $149.00"
+"Sub: 2x 120ct Every 120 Days (14% off)",2,$8.06,$10.83,$18.89,$2.55,$21.44,$89.90,$77.30,$0.00,$77.30,$55.86,72.26%,1.38,$12.60,14.01%,$38.65,$30.92,$38.65,"$0.64/day. $19.33/mo effective. Best $/day in the NMN market. 5-cycle LTV = $386.50, total margin = $279.30"
+--- FUTURE PRICE INCREASE (Post-Launch — After Reviews + Social Proof) ---,,,,,,,,,,,,,,,,,,,
+"1x 120ct Full Price (Post-Launch)",1,$4.03,$7.70,$11.73,$1.98,$13.71,$69.95,$59.95,$0.00,$59.95,$46.24,77.13%,1.30,$10.00,14.30%,$29.98,$23.98,$59.95,"Raise to $59.95 once you have 50+ reviews and proven CPA. 77% margin gives more ad spend room"
+"2x 120ct Bundle (Post-Launch)",2,$8.06,$10.83,$18.89,$3.63,$22.52,$119.90,$109.90,$0.00,$109.90,$87.38,79.51%,1.26,$10.00,8.34%,$54.95,$43.96,$54.95,"Post-launch bundle. 79.5% margin. Massive CPA ceiling of $54.95 at 2x ROAS"
+"3x 120ct Bundle (Post-Launch)",3,$12.09,$13.96,$26.05,$5.28,$31.33,$179.85,$159.85,$0.00,$159.85,$128.52,80.40%,1.24,$20.00,11.12%,$79.93,$63.94,$53.28,"Post-launch best value. 80.4% margin. This is the long-term sustainable offer structure"
+--- EMPTY SLOTS FOR TESTING ---,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
