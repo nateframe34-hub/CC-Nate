@@ -133,7 +133,7 @@ Ordered for the soft launch 10-1 NMN product. This is a single-product store —
 #### 8. FAQ Accordion
 - Target the top objections and questions:
   - "How long until I feel results?" (2-4 weeks for most people)
-  - "Is NMN safe?" (well-studied, generally recognized as safe)
+  - "Is NMN safe?" (well-studied, has a strong safety profile at clinical doses)
   - "How is this different from other NMN brands?" (enzymatic synthesis, third-party tested, clinically relevant dose)
   - "What if it doesn't work for me?" (money-back guarantee / return policy)
   - "Can I take it with other supplements?"

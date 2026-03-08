@@ -429,7 +429,7 @@ Yes. Baseline NMN contains one ingredient (NMN) in a vegetable cellulose capsule
 
 **Q: Can I take NMN during perimenopause or menopause?**
 
-Yes. NMN is commonly used by women in perimenopause and menopause. NAD+ decline happens alongside hormonal changes — both contribute to the fatigue, brain fog, and reduced energy many women experience during this transition. NMN supports NAD+ production at the cellular level, which addresses the energy side of the equation. As always, consult your doctor if you take prescription medications.
+Yes. NMN is commonly used by women in perimenopause and menopause. NAD+ decline happens alongside hormonal changes — both contribute to the fatigue and reduced energy many women experience during this transition. NMN supports NAD+ production at the cellular level, which addresses the energy side of the equation. As always, consult your doctor if you take prescription medications.
 
 **Q: Why capsules instead of sublingual or powder?**
 
