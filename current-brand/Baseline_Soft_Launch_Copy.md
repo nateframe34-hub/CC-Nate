@@ -162,7 +162,7 @@ I tried the usual stuff. More sleep. Better diet. Magnesium. B12 shots. A $200 b
 
 One night at 2am I fell down a research hole and found something I'd never heard of: NAD+. A coenzyme in every cell responsible for energy production and cellular maintenance. Published studies show levels decline significantly after 40. Not a wellness blog — peer-reviewed research.
 
-NMN is the precursor the body converts into NAD+. The raw material cells need to keep producing energy.
+NMN is what your body converts into NAD+. Think of it as refilling the tank your cells have been running on empty.
 
 I started taking Baseline NMN expecting nothing. The first few weeks were uneventful. Gradually, I stopped needing that second coffee. My wife said I seemed like myself again.
 
@@ -206,7 +206,7 @@ I don't follow health influencers. I don't trust "miracle" anything. When friend
 
 But I couldn't ignore how I felt. At 46, I was exhausted in a way sleep didn't fix. Foggy in a way coffee made worse. Getting older, sure — but this felt faster than it should.
 
-I wasn't researching supplements. I was reading about mitochondrial function for work when I stumbled on a study about NAD+. It's a coenzyme your cells use for energy production and repair. Published research shows levels drop significantly with age. The decline maps almost perfectly onto the symptoms I was experiencing.
+I wasn't researching supplements. I was reading about mitochondrial function for work when I stumbled on a study about NAD+. It's a coenzyme your cells use for energy production and cellular maintenance. Published research shows levels drop significantly with age. The decline maps almost perfectly onto the symptoms I was experiencing.
 
 NMN is the direct precursor — the raw material your body converts into NAD+. Something your body already makes, just less and less of over time.
 
@@ -274,13 +274,13 @@ I still don't trust supplements. I trust molecular biology.
 
 Caffeine gives you a spike. Then it takes it back with interest. That's why you crash every afternoon.
 
-NMN works differently. It's the precursor your body uses to restore NAD+ — the molecule behind real, sustained cellular energy. No spike. No crash. Just a higher floor.
+NMN works differently. Instead of borrowing energy from later, it gives your cells more of the raw fuel (NAD+) they actually run on. No spike. No crash. Just a higher floor.
 
 Gradually, the 3pm wall started fading. Not because I was wired. Because my cells had fuel again. Individual results may vary.
 
 Stop chasing spikes. Raise your baseline.
 
-→ Try Baseline NMN.
+→ Ditch the third cup.
 
 ---
 
@@ -399,7 +399,7 @@ Here's what most people don't know: independent testing has shown that NMN conte
 
 NMN itself isn't the problem. The quality of what you were taking was.
 
-NAD+ is the molecule your cells use for energy and repair. Levels decline with age. NMN is the direct precursor your body converts into NAD+ — but only if you're actually taking real NMN.
+NAD+ is the molecule your cells depend on for energy and cellular maintenance. Levels decline with age. NMN is what the body uses to make more — but only if what's in the bottle is actually NMN.
 
 This time, it's different.
 
@@ -419,7 +419,7 @@ Baseline prioritizes transparency. We focus on purity, potency, and quality you 
 
 We didn't build a better marketing pitch. We built a supplement brand that earns trust through quality, not claims.
 
-NMN is the precursor your body uses to restore NAD+ — the molecule behind cellular energy and repair. But it only works if it's real.
+Your cells need NAD+ to function. NMN is how they make it. But the supplement has to be real for any of this to matter.
 
 Don't trust us. Verify.
 
@@ -646,27 +646,27 @@ Reality: The decline isn't cosmetic. It's cellular. Energy production, cognitive
 Told: "Manage your stress."
 Reality: Stress management helps. But it doesn't restore what your cells have lost.
 
-NMN is the precursor the body uses to support NAD+ levels. One ingredient. Published research. No buzzwords. Individual results may vary.
+NMN supports NAD+ production at the cellular level. One ingredient. Published research. No buzzwords. Individual results may vary.
 
 → Function first. Everything else follows.
 
 ---
 
-### Body Copy 2 (Direct Response — 85 words)
+### Body Copy 2 (Open Letter Format — 90 words)
 
-> **Leads with A2 hook.** Shorter, punchier. Names the menopause + NAD+ connection.
+> **Leads with A2/A3 hooks.** Open letter format — breaks the narrative/listicle/myth patterns used in other batches. Direct, intimate, addressed to a specific reader. No authority figure discovery mechanism.
 
-Alongside hormonal changes, cells can lose a significant amount of NAD+ — the molecule behind energy, cognitive function, and cellular repair.
+To the woman whose doctor said "it's just perimenopause":
 
-That's not just one thing happening. It's a cellular energy shift happening at the same time as other changes.
+He's not wrong. But that answer felt incomplete.
 
-NMN is the precursor the body uses to rebuild NAD+. It supports the cellular side of the equation.
+Hormonal shifts are real. So is this: your cells also produce significantly less NAD+ during this transition. Energy, focus, recovery — they all depend on it.
 
-Baseline NMN: one ingredient, published research, no buzzwords.
+One molecule. Clinically dosed. Published research. No collagen. No wrinkle cream. No "glow from within" nonsense.
 
-It's not about anti-aging cream. It's about supporting how cells actually work.
+Just cellular support for a body going through something real. Individual results may vary.
 
-→ Function first. Everything else follows.
+→ You deserve more than "it's just hormones."
 
 ---
 

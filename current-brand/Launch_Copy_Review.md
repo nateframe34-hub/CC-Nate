@@ -45,11 +45,10 @@ The launch copy is strong — emotionally specific, avatar-targeted, and structu
 
 Someone scrolling through Facebook who sees Batches 1 and 2 back-to-back will recognize the pattern. This kills the camouflage effect — the ads start looking like ads.
 
-**The mechanism paragraph is near-identical across 8 of 10 body copies:**
-- "NAD+ — a molecule your cells use to produce energy and repair DNA"
-- "NMN is the precursor your body uses to restore/rebuild NAD+ levels"
-- "Not a stimulant. Not a [X]."
-- These lines appear with minor word-swaps in almost every copy
+**The mechanism paragraph is near-identical across 8 of 10 body copies:** *(RESOLVED — mechanism paragraphs rewritten with varied language per batch)*
+- ~~"NAD+ — a molecule your cells use to produce energy and repair DNA"~~ → Now uses "cellular maintenance" consistently
+- ~~"NMN is the precursor your body uses to restore/rebuild NAD+ levels"~~ → Each batch now uses a distinct mechanism delivery (tank metaphor, fuel reframe, direct statement, etc.)
+- "Not a stimulant. Not a [X]." — reduced but retained where it serves the specific angle
 
 **"Not X. Not Y." pattern appears 7 times across the document:**
 - "Not a stimulant. Not a vitamin."
@@ -345,19 +344,19 @@ Baseline occupies a unique position none of these competitors own: **emotionally
 
 ## REVISION PRIORITY MATRIX
 
-| Priority | Action | Effort | Impact | Batches Affected |
-|----------|--------|--------|--------|-----------------|
-| P0 | Remove "50%" and "85%" stats, soften "DNA repair" → "cellular maintenance" | 30 min | Prevents ad rejection | B1, B5 |
-| P0 | Rewrite 2 native body copies in a different narrative structure | 2 hrs | Breaks sameness, extends creative life | B2, B5 recommended |
-| P1 | Differentiate CTAs per batch | 30 min | Better emotional matching | All |
-| P1 | Reduce to 3 launch ad sets (B1, B3, B4) | 15 min | Better budget allocation | B2, B5 held back |
-| P1 | Film 1 UGC video (selfie testimonial, 45 sec) | 1 day | 30-50% lower CPM potential | B1 or B3 |
-| P2 | Vary authority figure discovery mechanisms | 1 hr | Reduces pattern recognition | B2, B5 |
-| P2 | Add landing page bridge for 10-in-1 → NMN positioning | 2 hrs | Prevents post-click dissonance | Landing page |
-| P2 | Build retargeting ad set | 1 hr | Captures warm traffic | New ad set |
-| P3 | Add social proof creative | 1 hr | Increases trust signals | New creative |
-| P3 | Create carousel version of B3 Timeline | 30 min | New format test | B3 |
-| P3 | Test "Raise your baseline" as brand tagline | 15 min | Ownable phrase | All CTAs |
+| Priority | Action | Effort | Impact | Batches Affected | Status |
+|----------|--------|--------|--------|-----------------|--------|
+| P0 | Remove "50%" and "85%" stats, soften "DNA repair" → "cellular maintenance" | 30 min | Prevents ad rejection | B1, B5 | **DONE** |
+| P0 | Rewrite 2 native body copies in a different narrative structure | 2 hrs | Breaks sameness, extends creative life | B2, B5 recommended | **DONE** — B5 Body 2 rewritten as open letter format |
+| P1 | Differentiate CTAs per batch | 30 min | Better emotional matching | All | **DONE** — Each batch now has unique CTA |
+| P1 | Reduce to 3 launch ad sets (B1, B3, B4) | 15 min | Better budget allocation | B2, B5 held back | **DONE** — Media Buying Plan uses B1, B2, B3 with rotation |
+| P1 | Film 1 UGC video (selfie testimonial, 45 sec) | 1 day | 30-50% lower CPM potential | B1 or B3 | Pending — do when ready |
+| P2 | Vary authority figure discovery mechanisms | 1 hr | Reduces pattern recognition | B2, B5 | **DONE** — B5 uses no authority figure (open letter) |
+| P2 | Add landing page bridge for 10-in-1 → NMN positioning | 2 hrs | Prevents post-click dissonance | Landing page | Pending — address when building PDP |
+| P2 | Build retargeting ad set | 1 hr | Captures warm traffic | New ad set | Pending — Week 2-3 |
+| P3 | Add social proof creative | 1 hr | Increases trust signals | New creative | Pending |
+| P3 | Create carousel version of B3 Timeline | 30 min | New format test | B3 | Pending |
+| P3 | Test "Raise your baseline" as brand tagline | 15 min | Ownable phrase | All CTAs | Pending |
 
 ---
 

@@ -161,7 +161,7 @@ Two capsules. Morning. With or without food. That's your entire routine. 500mg o
 
 **Your Body Does What It Already Knows How to Do**
 
-Your body isn't learning something new here. NMN is a direct precursor to NAD+ — the molecule your cells already use to produce energy, maintain DNA, and keep everything running. You're just giving it more of what it's been running low on.
+Your body isn't learning something new here. NMN is a direct precursor to NAD+ — the molecule your cells already use to produce energy, support cellular maintenance, and keep everything running. You're just giving it more of what it's been running low on.
 
 ### Step 3
 
@@ -220,7 +220,7 @@ NMN isn't a stimulant. It supports what your body already makes — but produces
 
 ### Image/Card 1 — NAD+ Decline Visual
 
-**Caption:** NAD+ levels naturally decline with age — research shows they can drop by as much as 50% between your 30s and 60s. NAD+ is involved in hundreds of cellular processes, including energy production and DNA maintenance. When levels drop, your cells have less to work with.
+**Caption:** NAD+ levels naturally decline with age — research shows they can drop by as much as 50% between your 30s and 60s. NAD+ is involved in hundreds of cellular processes, including energy production and cellular maintenance. When levels drop, your cells have less to work with.
 
 ### Image/Card 2 — NMN Molecule / Capsule Shot
 
@@ -581,6 +581,7 @@ This section documents language decisions made for Meta (Facebook/Instagram) adv
 | "If you don't feel a difference" (guarantee) | Ties guarantee to health outcome | "If you're not happy with it" — satisfaction-based, not outcome-based |
 | "Restore" / "Restoring" in CTAs | "Restore" implies treating a condition | "Supporting Your Cells" — structure/function language |
 | "Replenishes declining NAD+ levels" | "Replenish" can imply treating deficiency | "Supports your body's natural NAD+ production" |
+| "maintain DNA" / "DNA maintenance" | "DNA" language edges toward disease claims | "support cellular maintenance" / "cellular maintenance" |
 
 **v2 additions — compliance check on new copy:**
 
