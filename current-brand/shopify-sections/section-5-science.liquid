@@ -1,0 +1,296 @@
+{% comment %}
+  ============================================================
+  SECTION 5: THE SCIENCE BEHIND NAD+
+  ============================================================
+  Drop this into a Shopify Custom Liquid block.
+
+  IMAGES — Replace the URLs below with your Shopify CDN links:
+  ============================================================
+{% endcomment %}
+
+{% assign science_image = 'https://cdn.shopify.com/s/files/1/0978/0399/3409/files/freepik__remove-the-new-arrival-50-off-and-60-off-stickers__58967.png?v=1773088967' %}
+
+{% comment %} ============================================================ {% endcomment %}
+
+<style>
+  .bl-science {
+    background: #E8F2F1;
+    padding: 80px 40px;
+  }
+  .bl-science-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .bl-science-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .bl-science-header h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 12px;
+    line-height: 1.2;
+  }
+  .bl-science-header p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    color: #5A5550;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  /* Two-column grid */
+  .bl-science-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+  }
+
+  /* Image column */
+  .bl-science-img-col {
+    position: relative;
+  }
+  .bl-science-img-col img {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+    aspect-ratio: 4 / 5;
+    display: block;
+  }
+  .bl-science-badge {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+    background: rgba(12, 59, 63, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 12px;
+    padding: 20px 24px;
+  }
+  .bl-science-badge-stat {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #C07840;
+    line-height: 1;
+    margin: 0 0 4px;
+  }
+  .bl-science-badge-label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(245, 240, 232, 0.8);
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+
+  /* Content column */
+  .bl-science-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  /* Science cards */
+  .bl-science-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .bl-science-card {
+    background: #FFFFFF;
+    border: 1px solid #DDD6CC;
+    border-radius: 12px;
+    padding: 24px 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .bl-science-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #C07840;
+    border-radius: 3px 0 0 3px;
+  }
+  .bl-science-card summary {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0;
+    line-height: 1.3;
+    cursor: default;
+    list-style: none;
+  }
+  .bl-science-card summary::-webkit-details-marker {
+    display: none;
+  }
+  .bl-science-card summary::after {
+    content: '';
+    display: none;
+  }
+  .bl-science-card p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    color: #5A5550;
+    line-height: 1.7;
+    margin: 8px 0 0;
+  }
+
+  /* Bullet box */
+  .bl-science-bullets {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 24px 28px;
+    margin: 0;
+    background: #0C3B3F;
+    border-radius: 12px;
+  }
+  .bl-science-bullets li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    color: rgba(245, 240, 232, 0.9);
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .bl-science-bullets li .bl-bullet {
+    color: #C07840;
+    font-size: 14px;
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .bl-science {
+      padding: 56px 20px;
+    }
+    .bl-science-grid {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+    .bl-science-img-col img {
+      aspect-ratio: 3 / 2;
+    }
+    .bl-science-badge {
+      position: relative;
+      bottom: auto;
+      left: auto;
+      right: auto;
+      margin-top: 12px;
+      padding: 16px 20px;
+      border-radius: 12px;
+    }
+    .bl-science-badge-stat {
+      font-size: 28px;
+    }
+    .bl-science-header h2 {
+      font-size: 28px;
+    }
+    /* Collapsible cards on mobile */
+    .bl-science-card summary {
+      cursor: pointer;
+      position: relative;
+      padding-right: 28px;
+    }
+    .bl-science-card summary::after {
+      content: '+';
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      color: #C07840;
+      line-height: 1;
+      transition: transform 0.2s ease;
+    }
+    .bl-science-card[open] summary::after {
+      content: '−';
+    }
+    .bl-science-card p {
+      margin-top: 12px;
+    }
+    /* First card open by default handled in HTML */
+  }
+</style>
+
+<section class="bl-science">
+  <div class="bl-science-inner">
+    <div class="bl-science-header">
+      <h2>The Science Behind NAD+</h2>
+      <p>NMN isn't a stimulant. It supports what your body already makes — but produces less of as you age.</p>
+    </div>
+    <div class="bl-science-grid">
+
+      <!-- Image -->
+      <div class="bl-science-img-col">
+        <img src="{{ science_image }}" alt="Baseline NMN supplement — pure NMN capsules for daily NAD+ support" loading="lazy">
+        <div class="bl-science-badge">
+          <p class="bl-science-badge-stat">50%</p>
+          <p class="bl-science-badge-label">NAD+ decline between your 30s and 60s</p>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="bl-science-content">
+        <div class="bl-science-cards">
+          <details class="bl-science-card" open>
+            <summary>NAD+ Decline with Age</summary>
+            <p>NAD+ levels naturally decline with age — research shows they can drop by as much as 50% between your 30s and 60s. NAD+ is involved in hundreds of cellular processes, including energy production and cellular maintenance. When levels drop, your cells have less to work with.</p>
+          </details>
+          <details class="bl-science-card" open>
+            <summary>The Synergy Visual (NMN + Supporting Cast)</summary>
+            <p>NAD+ doesn't work in isolation. It works alongside antioxidants (glutathione, astaxanthin), sirtuin activators (resveratrol), mitochondrial fuel (CoQ10), and methyl donors (TMG). This formula supports the full cellular ecosystem — not just one piece of it.</p>
+          </details>
+          <details class="bl-science-card" open>
+            <summary>Lifestyle / Energy</summary>
+            <p>Higher NAD+ levels are associated with healthy cellular function. People who supplement with NMN commonly report sustained energy, sharper focus, and better daily performance. Not a spike and crash — a higher baseline.</p>
+          </details>
+        </div>
+        <ul class="bl-science-bullets">
+          <li><span class="bl-bullet">◆</span> Supports your body's natural NAD+ production with 500mg NMN</li>
+          <li><span class="bl-bullet">◆</span> 8 additional ingredients that support how NAD+ works in your cells</li>
+          <li><span class="bl-bullet">◆</span> Promotes cellular energy, antioxidant defense, and healthy aging</li>
+          <li><span class="bl-bullet">◆</span> One serving replaces multiple separate supplements</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  (function() {
+    var mq = window.matchMedia('(max-width: 768px)');
+    function initCards(mobile) {
+      var cards = document.querySelectorAll('.bl-science-card');
+      cards.forEach(function(card, i) {
+        if (mobile) {
+          // On mobile: only first card open by default
+          if (i > 0) card.removeAttribute('open');
+        } else {
+          // On desktop: force all open
+          card.setAttribute('open', '');
+        }
+      });
+    }
+    initCards(mq.matches);
+    mq.addListener(function(e) { initCards(e.matches); });
+  })();
+</script>
