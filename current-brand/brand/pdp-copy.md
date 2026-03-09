@@ -37,15 +37,11 @@ Baseline NMN — Pure NMN Supplement, 500mg, 60 Capsules
 
 ### Subtitle / Short Description
 
-You didn't lose your energy. Your cells lost their fuel.
+**You didn't lose your energy. Your cells lost their fuel.**
 
-You used to have more. More focus. More drive. More left in the tank at the end of the day. That didn't fade because you stopped trying — it faded because your cells stopped getting what they need.
+After 40, your body produces less NAD+ — the molecule behind energy, focus, and recovery. NMN is what your body uses to make more. Not a stimulant. A foundation.
 
-After 40, your body produces less NAD+ — the molecule behind energy, focus, and recovery. NMN is what your body uses to make more. Not a stimulant. A foundation. 99%+ pure, clinically dosed, independently tested every batch.
-
-### Who It's For (Small Text Below Subtitle)
-
-If your energy isn't what it was 5 years ago — and coffee stopped being the answer — this was built for you.
+**Mobile note:** This is the entire above-the-fold description. The previous middle paragraph ("You used to have more. More focus. More drive...") and the "Who It's For" italic line were cut for mobile scroll depth — the visitor needs to reach the price within one thumb scroll. The cut paragraph's emotional thread is picked up by the "Is This You?" cards in Section 2.
 
 ### Price Display
 
