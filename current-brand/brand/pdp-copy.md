@@ -1,30 +1,30 @@
-# Baseline NMN — Product Detail Page Copy (v2 — Post-Audit Rewrite)
+# Baseline NMN 10-in-1 — Product Detail Page Copy (v3 — 10-in-1 Rewrite)
 
-Soft launch 10-1 product. All copy mapped to Shrine Pro theme sections.
+Soft launch product: NMN 10-in-1 Ultimate. All copy mapped to Shrine Pro theme sections.
 
-**v2 Changes:** Hero rewritten for emotional thread continuity from ads. New "Is This You?" message-match section added. Trust strip upgraded with proof extensions. 3 new reviews for avatar coverage (Parent, Woman, NMN switcher). Comparison table moved to Section 4. Launch pricing urgency added. 8 new FAQ entries. Final CTA rewritten with $0.83/day reframe. See PDP_Audit_and_Rewrites.md for full rationale.
+**v3 Changes:** Complete rewrite for the 10-in-1 formula. Product positioning shifted from "pure NMN, single ingredient" to "500mg clinical NMN + 8 synergistic longevity ingredients." All single-ingredient purity claims removed. Anti-proprietary-blend language removed. Comparison table repositioned around dose + comprehensiveness. "Is This You?" section updated. Reviews updated. FAQ expanded for multi-ingredient questions. Compliance notes updated. See Product_Decision_Two_Paths.md for full context on product decision.
 
 ---
 
 ## SEO Metadata
 
 **Page Title Tag (under 60 chars):**
-Baseline NMN | Pure NMN Supplement — 500mg, 60 Capsules
+Baseline NMN 10-in-1 | NMN + Resveratrol + CoQ10 Supplement
 
 **Meta Description (under 160 chars):**
-99%+ pure NMN supplement, enzymatic synthesis, independently tested every batch. 500mg clinical dose. Support healthy NAD+ levels. Subscribe and save.
+500mg NMN plus resveratrol, CoQ10, glutathione & 5 more longevity ingredients. Complete cellular support in 2 capsules. Independently tested. Subscribe and save.
 
 **H1 (Product Title — Shopify):**
-Baseline NMN — Pure NMN Supplement, 500mg, 60 Capsules
+Baseline NMN 10-in-1 — Complete Cellular Support
 
 **Target Keywords:**
-- Primary: NMN supplement, buy NMN supplement
-- Secondary: NAD+ supplement, pure NMN capsules, best NMN supplement
-- Long-tail: NMN supplement 500mg, third party tested NMN, enzymatic NMN supplement
+- Primary: NMN supplement, NMN 10-in-1, NAD+ supplement
+- Secondary: NMN resveratrol supplement, NMN CoQ10, longevity supplement stack
+- Long-tail: NMN supplement with resveratrol and CoQ10, best NMN supplement stack, all-in-one NAD+ supplement
 
 **Schema Markup Notes (for Shopify implementation):**
-- **Product schema:** Shopify handles this automatically — ensure product title, description, price ($49-$55), availability (in stock), and brand (Baseline) are populated.
-- **FAQ schema:** Implement FAQPage structured data on the FAQ section (Section 9). This can win featured snippets for queries like "is NMN safe," "how long does NMN take to work," and "NMN vs NAD supplement." Use a Shopify app (e.g., JSON-LD for SEO) or add manually to the theme's product template.
+- **Product schema:** Shopify handles this automatically — ensure product title, description, price, availability (in stock), and brand (Baseline) are populated.
+- **FAQ schema:** Implement FAQPage structured data on the FAQ section (Section 9). This can win featured snippets for queries like "is NMN safe," "NMN and resveratrol together," and "best NMN supplement stack." Use a Shopify app (e.g., JSON-LD for SEO) or add manually to the theme's product template.
 - **AggregateRating schema:** Once real reviews are collected, add AggregateRating to the Product schema for star ratings in search results. Do NOT add this with placeholder reviews.
 
 ---
@@ -33,7 +33,7 @@ Baseline NMN — Pure NMN Supplement, 500mg, 60 Capsules
 
 ### Product Title (H1)
 
-Baseline NMN — Pure NMN Supplement, 500mg, 60 Capsules
+Baseline NMN 10-in-1 — Complete Cellular Support
 
 ### Subtitle / Short Description
 
@@ -41,30 +41,50 @@ Baseline NMN — Pure NMN Supplement, 500mg, 60 Capsules
 
 After 40, your body produces less NAD+ — the molecule behind energy, focus, and recovery. NMN is what your body uses to make more. Not a stimulant. A foundation.
 
-**Mobile note:** This is the entire above-the-fold description. The previous middle paragraph ("You used to have more. More focus. More drive...") and the "Who It's For" italic line were cut for mobile scroll depth — the visitor needs to reach the price within one thumb scroll. The cut paragraph's emotional thread is picked up by the "Is This You?" cards in Section 2.
+After 40, your body produces less NAD+ — the molecule behind energy, focus, and recovery. NMN is what your body uses to make more. But NAD+ doesn't work alone — it works alongside antioxidants, methyl donors, and cellular protectors. That's why we combined 500mg of NMN with 8 synergistic longevity ingredients in one daily serving. Not a stimulant. A foundation.
+
+### Who It's For (Small Text Below Subtitle)
+
+If your energy isn't what it was 5 years ago — and coffee stopped being the answer — this was built for you.
 
 ### Price Display
 
-~~$69.95~~ **$49.95** | Subscribe & Save: **$42.95** every 60 days
+~~$69.99~~ **$49.99** | Subscribe & Save: **$42.99** every 60 days
 
-**$0.83/day — less than your afternoon coffee.**
+**Less than your afternoon coffee.**
+
+### Packaging Options
+
+60 Capsules (30-Day Supply) | 90 Capsules (45-Day Supply) | **120 Capsules (60-Day Supply)**
 
 ### Collapsible Row 1: What's Inside
 
-**Pure NMN. Nothing else.**
+**500mg NMN + 8 Synergistic Ingredients**
 
-500mg daily dose (2 capsules). 99%+ purity via enzymatic synthesis — the cleanest production method available. No fillers, no proprietary blends, no mystery ingredients. Every milligram is accounted for.
+Each serving delivers 500mg of NMN (β-nicotinamide mononucleotide) — the same dose used in published human research — plus a targeted blend of longevity-supporting compounds that work alongside NAD+ in your cells.
 
 **Supplement Facts:**
-- Serving Size: 2 Capsules
-- Servings Per Container: 60
-- NMN (Nicotinamide Mononucleotide): 250mg per capsule (500mg daily dose)
-- Other Ingredients: Vegetable cellulose capsule
-- Vegan. Gluten-free. No artificial colors or preservatives.
+- Serving Size: 2 Vegetarian Capsules
+- Servings Per Container: 60 (120ct bottle)
+- Vitamin C (as ascorbyl palmitate): 50mg (56% DV)
+- NMN (β-nicotinamide mononucleotide): 500mg †
+- Proprietary Longevity Blend: 450mg †
+  - Resveratrol (from Polygonum cuspidatum root, standardized to 98% Trans-Resveratrol)
+  - Grape Seed Extract (from Vitis vinifera seed)
+  - CoQ10 (as ubiquinone)
+  - Glutathione (reduced form)
+  - TMG / Trimethylglycine (betaine anhydrous)
+  - Quercetin (as quercetin dihydrate)
+  - Astaxanthin (from Haematococcus pluvialis microalgae)
+  - Apigenin
+- Other Ingredients: Vegetable cellulose (capsule)
+- † Daily Value not established
+
+**Free of:** Wheat, gluten, soy, dairy, and tree nuts. Vegan. No artificial colors or preservatives.
 
 ### Collapsible Row 2: How to Take
 
-Take 2 capsules daily with or without food, preferably in the morning. NMN works best with consistent daily use — most people report noticing a difference within 2-4 weeks.
+Take 2 capsules daily with or without food, preferably in the morning. This formula works best with consistent daily use — most people report noticing a difference within 2-4 weeks.
 
 ### Collapsible Row 3: Shipping & Returns
 
@@ -72,26 +92,26 @@ Free shipping on all orders. Ships within 1-2 business days. 30-day money-back g
 
 ### Hero CTA Button
 
-**[Try Baseline NMN — 60-Day Supply]**
+**[Try Baseline NMN 10-in-1 — 60-Day Supply]**
 
-**Note:** Hero CTA is soft — includes supply duration but no price. Cold traffic from Meta ads hasn't read the page yet. Price CTAs appear in Sections 7 and 8 after the visitor is educated and trusting. "60-Day Supply" communicates value and sets the expectation that this is a real protocol, not a sample.
+**Note:** Hero CTA is soft — includes supply duration but no price. Cold traffic from Meta ads hasn't read the page yet. Price CTAs appear in Sections 7 and 8 after the visitor is educated and trusting.
 
 ### Trust Strip (Below Add to Cart)
 
-- 99%+ Pure — Verified Every Batch
-- $0.83/Day — Less Than Your Afternoon Coffee
-- 500mg Clinical Dose — Same as Published Research
+- 500mg NMN — Clinical Dose from Published Research
+- 10 Longevity Ingredients — One Daily Serving
+- 98% Trans-Resveratrol — Premium Standardized Extract
 - 30-Day Money Back — No Questions
 
 ### Authority Line (Below Trust Strip, Small Text)
 
-Based on published human NAD+ research. Every batch tested by an independent US laboratory.
+Based on published NAD+ research. 10 ingredients chosen for how they work together at the cellular level.
 
 ---
 
 ## Section 2: Is This You?
 
-> **New section.** This is the message-match layer that catches traffic from ALL 5 ad batches. No matter which ad brought the visitor here, one of these cards mirrors their emotional state and continues the thread.
+> **Message-match layer.** Catches traffic from all ad batches. No matter which ad brought the visitor here, one of these cards mirrors their emotional state and continues the thread.
 
 ### Section Headline
 
@@ -105,31 +125,31 @@ If any of this sounds familiar, you're in the right place.
 
 **"I hit a wall every afternoon — no matter how much coffee I drink."**
 
-The crash isn't a caffeine problem. It's a cellular energy problem. Your cells produce less NAD+ with age — which means less sustained fuel, more crashes. NMN is what your body uses to support that fuel production.
+The crash isn't a caffeine problem. It's a cellular energy problem. Your cells produce less NAD+ with age — which means less sustained fuel, more crashes. NMN is what your body uses to support that fuel production. CoQ10 supports your mitochondria — the power plants inside every cell. Together, they address the crash where it actually starts.
 
 ### Card 2 — The Burned Buyer (B3 match)
 
 **"I've tried supplements before. Nothing worked."**
 
-There's a reason. Independent testing shows NMN quality varies dramatically between brands. If you tried NMN and felt nothing, the issue may not have been NMN — it may have been what was actually in the bottle.
+There's a reason. Most supplement stacks are a grab bag of underdosed ingredients that look good on a label but don't do much in your body. This formula leads with 500mg of NMN — the full clinical dose from published research — and pairs it with ingredients like trans-resveratrol and glutathione that have their own body of evidence. Every ingredient is here for a reason.
 
 ### Card 3 — The Reluctant Decliner (B1 match)
 
 **"I feel like I've aged 10 years in the last 2."**
 
-That feeling has a name: NAD+ decline. It's measurable, it's published science, and it's addressable. Not with hype. With the molecule your cells have been running low on.
+That feeling has a name: NAD+ decline. It's measurable, it's published science, and it's addressable. But NAD+ is only part of the picture — oxidative stress, methylation, and mitochondrial function all play a role. That's why this formula doesn't just support NAD+ — it supports the full cellular environment your body needs to function.
 
 ### Card 4 — The Exhausted Parent (B4 match)
 
 **"I just want enough energy to actually show up for my family."**
 
-The exhaustion isn't a willpower problem. After 40, your cells produce significantly less of the molecule responsible for sustained energy. NMN supports your body's ability to produce more of it — so you have something left at 6pm.
+The exhaustion isn't a willpower problem. After 40, your cells produce significantly less of the molecule responsible for sustained energy. NMN supports your body's ability to produce more of it — and the additional ingredients in this formula support the antioxidant defense and cellular maintenance systems that keep that energy consistent through the day.
 
 ### Card 5 — The Invisible Woman (B5 match)
 
 **"Every 'anti-aging' product is about wrinkles. I just want to function."**
 
-The decline you're feeling isn't cosmetic — it's cellular. Alongside hormonal changes, NAD+ levels drop significantly in your 40s and 50s. NMN supports the energy side of the equation from the inside. Not cream. Fuel.
+The decline you're feeling isn't cosmetic — it's cellular. Alongside hormonal changes, NAD+ levels drop significantly in your 40s and 50s. This formula supports energy production, antioxidant defense, and cellular maintenance from the inside — with NMN, glutathione, resveratrol, and quercetin working together. Not cream. Fuel.
 
 ### Implementation Note
 
@@ -151,13 +171,13 @@ Simple enough to explain in 30 seconds. Backed by enough research to fill a libr
 
 **Take 2 Capsules Daily**
 
-Two capsules. Morning. With or without food. That's your entire routine. 500mg of pure NMN — the same dose used in clinical human research. No loading phase. No cycling. No complicated protocol.
+Two capsules. Morning. With or without food. That's your entire routine — 500mg of NMN plus 8 synergistic ingredients, all in one serving. No separate bottles. No complicated stacking protocol. No timing 5 different supplements around meals.
 
 ### Step 2
 
 **Your Body Does What It Already Knows How to Do**
 
-Your body isn't learning something new here. NMN is a direct precursor to NAD+ — the molecule your cells already use to produce energy, support cellular maintenance, and keep everything running. You're just giving it more of what it's been running low on.
+NMN is a direct precursor to NAD+ — the molecule your cells already use to produce energy and support cellular maintenance. Resveratrol activates sirtuins — the proteins that regulate how your cells age. CoQ10 fuels your mitochondria. TMG supports methylation. Glutathione defends against oxidative stress. You're not adding something foreign — you're giving your cells more of what they already use.
 
 ### Step 3
 
@@ -167,40 +187,65 @@ More consistent energy. Sharper focus. That thing where you get to 4pm and you'r
 
 ### Footer Note (Small Text Below Steps)
 
-That's it. No proprietary blend to decode. No 12-ingredient stack to research. One molecule. Clinically dosed. Independently verified.
+That's it. Ten ingredients. One serving. Two capsules. Everything your cells need to support the energy, defense, and maintenance systems that decline with age.
 
 ---
 
-## Section 4: What You're Actually Getting vs. What Most Brands Sell You
+## Section 4: What's Actually Inside (The 10-in-1 Breakdown)
 
-> **Moved from Section 6 to Section 4.** The Burned Supplement Buyer (B3) needs trust proof early. By the old Section 6 position, they've already bounced. Putting the comparison table here catches them while they're still engaged.
+> **This section replaces the old comparison table.** Instead of attacking other brands, we educate the visitor on what each ingredient does and why it's in the formula. This builds trust through transparency about what they're taking.
 
 ### Section Headline
 
-What You're Actually Getting vs. What Most Brands Sell You
+What's Actually Inside — And Why Each Ingredient Is Here
 
 ### Section Subheadline
 
-Not all NMN is created equal. Here's what's actually different.
+Every ingredient in this formula was chosen for a specific role in cellular health. Here's what each one does.
 
-| Feature | Budget NMN | Other Premium Brands | **Baseline** |
-|---|---|---|---|
-| **Purity** | Unknown / untested | Claims 99% | **99%+ verified** |
-| **Synthesis method** | Chemical (residual solvents) | Varies / undisclosed | **Enzymatic (clean)** |
-| **Daily dose** | 50-250mg | 250-500mg | **500mg (clinical)** |
-| **Independent testing** | No | "Third-party tested" badge | **Every batch, US lab** |
-| **Fillers / proprietary blends** | Yes | Often | **None** |
-| **Published test results** | No | Rarely | **Yes** |
-| **Supply** | 30 days (too short to feel results) | 30-60 days | **60 days (full protocol)** |
-| **Price per day** | $0.50-0.83 | $1.50-2.50 | **$0.83 ($0.72 subscribed)** |
+### The NMN Foundation (Disclosed Dose)
 
-### What This Means for You
+**NMN (β-Nicotinamide Mononucleotide) — 500mg**
 
-Budget NMN is a gamble — you don't know what's in the bottle, and at those doses, it may not matter. Other premium brands make claims but rarely prove them — and charge $1.50-2.50/day for the privilege. Baseline costs less than most premium brands and backs every claim with independent lab results. You're not paying more for marketing. You're paying for what's actually inside.
+The star of the formula. NMN is a direct precursor to NAD+ — the molecule involved in hundreds of cellular processes including energy production, DNA maintenance, and sirtuin activation. 500mg is the dose used in published human clinical research. This isn't a token amount — it's the real thing.
 
-### CTA Below Table
+**Vitamin C (as Ascorbyl Palmitate) — 50mg**
 
-**[See What's Actually in the Bottle — $49.95]**
+A fat-soluble form of vitamin C that supports antioxidant defense and helps protect cells from oxidative damage. Works alongside the other antioxidants in the formula.
+
+### The Synergy Blend (450mg Combined)
+
+**Resveratrol** (from Polygonum cuspidatum root, standardized to 98% Trans-Resveratrol)
+The sirtuin activator. Resveratrol activates the same longevity pathways that NMN fuels — NMN provides the NAD+ and resveratrol tells your cells what to do with it. This is the most-studied NMN pairing in longevity research. Standardized to 98% trans-resveratrol — the bioactive form.
+
+**CoQ10** (as Ubiquinone)
+The mitochondrial fuel. CoQ10 is essential for energy production inside your mitochondria — the power plants in every cell. Your body produces less CoQ10 as you age, just like NAD+. Supports cellular energy alongside NMN.
+
+**Glutathione** (Reduced Form)
+Your body's master antioxidant. Reduced glutathione is the active form — it neutralizes free radicals and supports detoxification at the cellular level. NAD+ production and antioxidant defense work hand-in-hand.
+
+**TMG / Trimethylglycine** (Betaine Anhydrous)
+The methyl donor. NMN metabolism uses methyl groups. TMG replenishes them — supporting healthy methylation, which is critical for DNA regulation, detoxification, and cellular signaling. This is why serious NMN users pair NMN with TMG.
+
+**Grape Seed Extract** (from Vitis vinifera)
+A potent source of proanthocyanidins — powerful antioxidants that support cardiovascular health and protect cells from oxidative stress. Complements the antioxidant defense provided by glutathione and vitamin C.
+
+**Quercetin** (as Quercetin Dihydrate)
+A flavonoid with senolytic properties — meaning it supports your body's ability to clear damaged, aging cells. Also supports a healthy inflammatory response, which becomes increasingly important with age.
+
+**Astaxanthin** (from Haematococcus pluvialis microalgae)
+One of the most powerful natural antioxidants known — up to 6,000 times stronger than vitamin C in certain assays. Crosses the blood-brain barrier, supporting both brain and body at the cellular level.
+
+**Apigenin** (Flavonoid)
+Supports NAD+ levels through a different pathway — by inhibiting CD38, an enzyme that breaks down NAD+ as you age. While NMN helps your body produce more NAD+, apigenin helps your body keep more of it. A two-sided approach.
+
+### Why These 10 Together
+
+Most people who research longevity supplements end up taking 5-8 separate products — NMN, resveratrol, CoQ10, glutathione, quercetin — each from a different brand, at different times, adding up to $150-$300/month. This formula combines the most-studied longevity ingredients into one serving, designed to work together. One bottle instead of five.
+
+### CTA Below Section
+
+**[Get the Complete Stack — Starting at $49.99]**
 
 ---
 
@@ -218,9 +263,9 @@ NMN isn't a stimulant. It supports what your body already makes — but produces
 
 **Caption:** NAD+ levels naturally decline with age — research shows they can drop by as much as 50% between your 30s and 60s. NAD+ is involved in hundreds of cellular processes, including energy production and cellular maintenance. When levels drop, your cells have less to work with.
 
-### Image/Card 2 — NMN Molecule / Capsule Shot
+### Image/Card 2 — The Synergy Visual (NMN + Supporting Cast)
 
-**Caption:** NMN is a natural precursor your body uses to produce NAD+. Supplementing with NMN supports your body's own NAD+ production — giving your cells more of the raw material they need.
+**Caption:** NAD+ doesn't work in isolation. It works alongside antioxidants (glutathione, astaxanthin), sirtuin activators (resveratrol), mitochondrial fuel (CoQ10), and methyl donors (TMG). This formula supports the full cellular ecosystem — not just one piece of it.
 
 ### Image/Card 3 — Lifestyle / Energy
 
@@ -228,14 +273,14 @@ NMN isn't a stimulant. It supports what your body already makes — but produces
 
 ### Bullet Points (Alongside Carousel)
 
-- Supports your body's natural NAD+ production
-- Promotes healthy cellular energy — no caffeine, no crash
-- Backed by published human clinical research
-- One ingredient, clinically dosed, independently tested
+- Supports your body's natural NAD+ production with 500mg NMN
+- 8 additional ingredients that support how NAD+ works in your cells
+- Promotes cellular energy, antioxidant defense, and healthy aging
+- One serving replaces multiple separate supplements
 
 ---
 
-## Section 6: Why Baseline NMN?
+## Section 6: Why Baseline?
 
 ### Section Headline
 
@@ -243,31 +288,31 @@ Why Baseline?
 
 ### Section Subheadline
 
-In a market full of empty promises, we chose proof over hype.
+One formula. Ten ingredients. Every one backed by research.
 
-### Benefit Block 1 — Purity Icon
+### Benefit Block 1 — Clinical NMN Dose Icon
 
-**99%+ Purity, Enzymatic Synthesis**
+**500mg NMN — The Dose That Matters**
 
-Enzymatic synthesis mirrors how NMN is produced in nature — cleaner than chemical synthesis, with fewer impurities and better bioavailability.
+Not 50mg. Not 125mg. 500mg daily — the dose used in published human NMN research. The NMN in this formula isn't a supporting player. It's the foundation, at the dose the science is actually based on.
 
-### Benefit Block 2 — Testing Icon
+### Benefit Block 2 — Complete Formula Icon
 
-**Every Batch Independently Tested**
+**10 Synergistic Ingredients, One Serving**
 
-Every production batch is tested by a US-based independent lab. Purity, potency, heavy metals, microbial contamination — all verified. What's on the label is what's in the bottle.
+NMN, resveratrol, CoQ10, glutathione, TMG, quercetin, astaxanthin, apigenin, grape seed extract, and vitamin C. Each chosen for a specific role in cellular health. No random filler ingredients — everything in this formula has published research behind it.
 
-### Benefit Block 3 — Dosing Icon
+### Benefit Block 3 — Simplicity Icon
 
-**500mg Clinical Dose**
+**Replace Your Entire Stack**
 
-Not 50mg. Not 125mg. 500mg daily — the dose used in published human NMN research. This is what the science is actually based on.
+Most longevity-focused people take 5-8 separate supplements from different brands. This formula consolidates the most important ones into 2 capsules. Simpler routine. Lower total cost. Better consistency.
 
-### Benefit Block 4 — Clean Formula Icon
+### Benefit Block 4 — Quality Icon
 
-**No Fillers. No Proprietary Blends.**
+**Premium Ingredient Forms**
 
-One ingredient: NMN. The full formula is on the label. Every milligram is NMN. Every milligram is accounted for.
+98% trans-resveratrol (the bioactive form, not cheap extract). Reduced glutathione (not oxidized). CoQ10 as ubiquinone. Astaxanthin from Haematococcus pluvialis (not synthetic). The forms matter as much as the ingredients.
 
 ---
 
@@ -279,21 +324,21 @@ What Customers Are Saying
 
 ### Review 1 — Energy / The Restorer
 
-**"First supplement I've trusted in years"**
+**"First supplement stack I've trusted in years"**
 
 Rating: 5 stars
 
-"I have a rule — if I can't verify what's in it, I don't take it. Baseline passed every test I threw at it. Two months in, my afternoon energy is noticeably more consistent. Not a jolt — more like my normal came back. This is the first supplement I've reordered in years."
+"I used to take NMN, resveratrol, and CoQ10 from three different brands. Expensive and annoying. Switched to Baseline's 10-in-1 and within a month my afternoon energy was noticeably more consistent. Same ingredients I was already taking, just in one bottle. This is the first time I've actually stuck with a supplement routine."
 
 — *David R., 54*
 
 ### Review 2 — Simplicity
 
-**"Finally, a brand that doesn't try to confuse you"**
+**"Finally, one bottle instead of five"**
 
 Rating: 5 stars
 
-"One ingredient. Real dose. Independent testing. That's all I wanted. Every other NMN brand has some proprietary blend or 8-ingredient stack trying to justify their price. Baseline is just... honest. And I'm waking up feeling like I actually slept."
+"I spent $200/month on separate NMN, glutathione, resveratrol, and CoQ10 bottles. Managing all of them was a chore and I kept running out of different ones at different times. Baseline's 10-in-1 simplified everything. Two capsules, done. And I'm waking up feeling like I actually slept."
 
 — *Karen M., 48*
 
@@ -303,7 +348,7 @@ Rating: 5 stars
 
 Rating: 5 stars
 
-"I tried two other NMN brands from Amazon — noticed nothing. Wrote off NMN entirely. My daughter convinced me to try Baseline because of the independent testing. Six weeks in and I genuinely feel like I have more in the tank. I think the other brands were just... nothing."
+"I tried two other NMN brands from Amazon — noticed nothing. Wrote off NMN entirely. My daughter convinced me to try Baseline because of the 10-in-1 formula — she said the resveratrol and CoQ10 make a real difference alongside NMN. Six weeks in and I genuinely feel like I have more in the tank. I think the other brands were just underdosed."
 
 — *Robert T., 61*
 
@@ -323,17 +368,17 @@ Rating: 4 stars
 
 Rating: 5 stars
 
-"About three weeks in, the afternoon wall I'd been hitting for years started to ease. I can focus through meetings without fading out. My wife noticed before I did — said I seemed more 'present.' Subtle but unmistakable."
+"About three weeks in, the afternoon wall I'd been hitting for years started to ease. I can focus through meetings without fading out. My wife noticed before I did — said I seemed more 'present.' I like that this has the NMN dose plus the supporting ingredients — feels like a more complete approach."
 
 — *Michael S., 52*
 
-### Review 6 — Trust / Transparency
+### Review 6 — Value
 
-**"Finally — a brand I'd actually recommend"**
+**"Replaced $200/month in separate supplements"**
 
 Rating: 5 stars
 
-"I've been researching NMN for over a year. Most brands make big claims with zero proof. Baseline actually publishes their test results. The clean formula, the real dosing, the independent testing — it's everything the supplement industry should be but isn't. Already told three friends about it."
+"I was taking NMN, resveratrol, CoQ10, glutathione, and quercetin separately. Five different bottles, five different brands, five different reorder schedules. Baseline put all of them in one formula at a fraction of the cost. The convenience alone was worth switching — but I'm also feeling better than I did on the separate stack."
 
 — *Lisa K., 44*
 
@@ -353,21 +398,21 @@ Rating: 5 stars
 
 Rating: 5 stars
 
-"Perimenopause hit me at 46. Energy gone. Focus gone. Every brand sold me collagen and wrinkle cream. I don't care about wrinkles — I want to FUNCTION. Baseline is the first brand that seemed to understand that. Two months in and the afternoon fog has lifted. I feel like my cells woke up. Individual results may vary."
+"Perimenopause hit me at 46. Energy gone. Focus gone. Every brand sold me collagen and wrinkle cream. I don't care about wrinkles — I want to FUNCTION. Baseline is the first brand that seemed to understand that. The NMN plus the antioxidants in the formula — glutathione, astaxanthin — it feels like my cells woke up. Two months in and the afternoon fog has lifted. Individual results may vary."
 
 — *Jennifer A., 46*
 
-### Review 9 — NMN Brand Comparison (B3 avatar match)
+### Review 9 — Stack Simplifier (B3 avatar match)
 
-**"I've spent $400 on NMN that did nothing"**
+**"I'm done managing 6 different supplement bottles"**
 
 Rating: 5 stars
 
-"Two different NMN brands from Amazon. Both 'third-party tested.' Neither did anything. I was done with NMN until a friend showed me Baseline's testing approach. The difference is real — I can verify what's actually in this bottle. Four weeks in and I'm a believer. Individual results may vary."
+"I was spending more time organizing my supplements than actually taking them consistently. NMN from one brand, resveratrol from another, CoQ10 from a third — it was a mess. Baseline's 10-in-1 replaced almost my entire stack. Four weeks in and I feel at least as good as I did on the separate bottles — probably better because I'm actually taking it every day now. Individual results may vary."
 
 — *Alex W., 52*
 
-**Soft launch note:** Replace these with real reviews as they come in. These are written to reflect the avatar language and core desires from customer research — use them as a template for what to highlight/request in post-purchase review emails. Reviews 7-9 added specifically to create emotional resonance for Exhausted Parent (B4), Invisible Woman (B5), and Burned Buyer (B3) ad traffic.
+**Soft launch note:** Replace these with real reviews as they come in. These are written to reflect the avatar language and core desires from customer research — use them as a template for what to highlight/request in post-purchase review emails. Reviews 7-9 added specifically to create emotional resonance for Exhausted Parent (B4), Invisible Woman (B5), and Stack Simplifier (B3) ad traffic.
 
 ---
 
@@ -381,15 +426,15 @@ Try it for a full month. If you're not happy with it, email us and we'll refund 
 
 ### Subscribe & Save Block
 
-**Subscribe & Save — $42.95 Every 60 Days**
+**Subscribe & Save — $42.99 Every 60 Days**
 
-$0.72/day instead of $0.83/day. Ships automatically every 60 days. Skip, pause, or cancel anytime with one click. You've already decided to invest in your health — we just make it easy to stay consistent.
+Ships automatically every 60 days. Skip, pause, or cancel anytime with one click. You've already decided to invest in your health — we just make it easy to stay consistent.
 
 ### Launch Pricing Block
 
 **Launch Pricing — Won't Last**
 
-Our introductory price of $49.95 won't be here forever. Once we hit our initial milestone, pricing moves to $59.95. Subscribe now and you lock in $42.95/shipment — even after the price goes up.
+Our introductory price of $49.99 won't be here forever. Once we hit our initial milestone, pricing moves to $59.99. Subscribe now and you lock in $42.99/shipment — even after the price goes up.
 
 *Current subscribers keep launch pricing permanently.*
 
@@ -401,17 +446,17 @@ Every order ships free. Subscription or one-time. No minimum. Delivered to your 
 
 ### Right Column CTA
 
-**You've Read the Science. You've Seen the Proof. Now Feel the Difference.**
+**You've Read the Science. You've Seen What's Inside. Now Feel the Difference.**
 
-$0.83/day. Less than your afternoon coffee — and it actually addresses the crash instead of borrowing from tomorrow.
+Less than your afternoon coffee — and it actually addresses the crash instead of borrowing from tomorrow.
 
-60-day supply. Long enough to feel the change that NMN users describe — more consistent energy, sharper focus, and the feeling of getting your baseline back.
+10 ingredients. One serving. Everything your cells need to support energy production, antioxidant defense, and healthy aging — without managing a shelf full of separate bottles.
 
 30-day guarantee. If you don't feel it, we refund you. No hoops.
 
-**[Start Your 60-Day Protocol — $49.95]**
+**[Start Your 60-Day Protocol — $49.99]**
 
-or Subscribe & Save: **$42.95 every 60 days** — lock in launch pricing before it goes up.
+or Subscribe & Save: **$42.99 every 60 days** — lock in launch pricing before it goes up.
 
 ---
 
@@ -427,79 +472,75 @@ Everything you need to know before you order.
 
 ### Q: How long until I notice a difference?
 
-Most people report noticing changes within 2-4 weeks of consistent daily use. The most commonly reported early benefits are more consistent energy and improved sleep quality. NMN works at the cellular level, so the effects build over time — it's not a stimulant. Some benefits (like recovery and focus) become more noticeable around the 4-8 week mark.
+Most people report noticing changes within 2-4 weeks of consistent daily use. The most commonly reported early benefits are more consistent energy and improved sleep quality. NMN and the supporting ingredients work at the cellular level, so the effects build over time — it's not a stimulant. Some benefits (like recovery and focus) become more noticeable around the 4-8 week mark.
 
-### Q: Is NMN safe?
+### Q: Is this supplement safe?
 
-NMN has been studied in both animal and human clinical trials and has a strong safety profile at the doses used in research (250-500mg daily). NMN is also a naturally occurring molecule — your body already produces it. As with any supplement, consult your doctor if you have specific health conditions or take prescription medications.
+NMN has been studied in both animal and human clinical trials and has a strong safety profile at the doses used in research (250-500mg daily). The other ingredients in the formula — resveratrol, CoQ10, glutathione, TMG, quercetin, grape seed extract, astaxanthin, and apigenin — are all well-studied and widely used in supplements. As with any supplement, consult your doctor if you have specific health conditions or take prescription medications.
 
-### Q: How is Baseline different from other NMN brands?
+### Q: What makes this different from taking NMN alone?
 
-Three things. First, purity — our NMN is 99%+ pure, produced through enzymatic synthesis (not the cheaper chemical process). Second, testing — every single batch is independently tested by a US-based lab for purity, potency, heavy metals, and microbial contamination. Third, dosing — 500mg daily, the dose used in published human NMN research. No proprietary blends. No filler ingredients. No guesswork.
+NAD+ doesn't work in isolation inside your cells. It works alongside antioxidant defense systems (glutathione, astaxanthin, grape seed extract), sirtuin-activating pathways (resveratrol), mitochondrial energy production (CoQ10), and methylation support (TMG). This formula supports the full cellular environment — not just one piece of it. Think of NMN as the fuel and the other ingredients as the systems that help your cells use that fuel effectively.
+
+### Q: Why is there a proprietary blend?
+
+The 450mg synergy blend contains 8 ingredients at a combined dose. While individual ingredient doses within the blend aren't listed separately, every ingredient was chosen based on published research for its role in cellular health. The NMN dose — which is the foundation of the formula — is fully disclosed at 500mg per serving.
 
 ### Q: I tried NMN before and it didn't work. Why would this be different?
 
-Independent testing has shown that a significant percentage of NMN products sold online contain far less NMN than labeled — some contain almost none. If you tried a cheap or unverified NMN product and noticed nothing, the issue may not have been NMN itself — it may have been what was actually in the bottle. Baseline is independently tested every batch so you know you're getting what the label says.
+Two possible reasons. First, many NMN products are significantly underdosed — some contain far less NMN than labeled. This formula delivers 500mg, the clinical dose. Second, NMN works best when your cells have the supporting infrastructure — antioxidants, methyl donors, mitochondrial fuel. If you took NMN alone and the supporting systems were depleted, you may not have gotten the full benefit. This formula addresses both.
 
 ### Q: What if it doesn't work for me?
 
 We offer a 30-day money-back guarantee. If you're not satisfied for any reason, email us and we'll refund your purchase. No return shipping required. No restocking fees.
 
-### Q: Can I take NMN with other supplements?
+### Q: Can I take this with other supplements?
 
-Yes. NMN is commonly taken alongside other supplements. Some people pair it with resveratrol or TMG (trimethylglycine), though NMN works effectively on its own at the 500mg dose. If you take prescription medications, check with your doctor first.
+Yes. However, since this formula already contains NMN, resveratrol, CoQ10, glutathione, TMG, quercetin, astaxanthin, apigenin, and vitamin C, check what you're currently taking to avoid doubling up on any ingredients. If you take prescription medications, check with your doctor first.
 
-### Q: Why is Baseline $49.95 when some NMN brands are $15-20?
+### Q: Why is Baseline $49.99 when some NMN supplements are $15-20?
 
-Because the cheaper options cut corners you can't see. Chemical synthesis instead of enzymatic. No independent testing. Underdosed capsules. Proprietary blends that hide how much NMN you're actually getting. Baseline costs more because real purity, real dosing, and real testing cost more. You're paying for what's actually in the bottle — and the proof that it's there.
+Because this isn't just NMN. It's 500mg of NMN plus 8 additional longevity ingredients including 98% trans-resveratrol, reduced glutathione, and CoQ10. Buying these ingredients separately from quality brands would cost $150-$300/month. This formula consolidates them into one serving at a fraction of the cost.
 
 ### Q: How does the subscription work?
 
-Subscribe and save — $42.95 every 60 days ($0.72/day vs $0.83/day). Your order ships automatically. You can skip a shipment, pause, or cancel anytime — one click, no phone calls, no hoops. NMN works best with consistent daily use, and a 60-day auto-ship makes that easy.
+Subscribe and save — $42.99 every 60 days. Your order ships automatically. You can skip a shipment, pause, or cancel anytime — one click, no phone calls, no hoops. This formula works best with consistent daily use, and a 60-day auto-ship makes that easy.
 
 ### Q: When should I take it?
 
 We recommend taking 2 capsules in the morning, with or without food. Some people find that taking NMN later in the day may affect their sleep, since it supports cellular energy production. Morning dosing lets you get the benefit throughout the day.
 
-### Q: Where is Baseline NMN made?
+### Q: Why 10 ingredients? Isn't simpler better?
 
-Baseline NMN is manufactured in a cGMP-certified facility and independently tested by a US-based laboratory. Every batch is verified for purity (99%+), potency, heavy metals, and microbial contamination before it ships.
-
-### Q: Can I see the lab results?
-
-Yes. We believe in transparency, not trust-me claims. Contact us for the Certificate of Analysis (COA) for your specific batch. We're building a system to make this even easier — our goal is lab results accessible directly from every bottle.
-
-### Q: Is this the same NMN from longevity research?
-
-Yes. NMN (nicotinamide mononucleotide) is the molecule studied in published human clinical research on NAD+ and aging. Baseline NMN uses the same form at the same clinical dose (500mg daily) referenced in that research. We don't make our own claims — we match what the science uses.
+It depends on what you're trying to do. If you want just NMN, there are single-ingredient options available. But research increasingly shows that NAD+ works within a larger cellular system — antioxidant defense, methylation, mitochondrial function, sirtuin activation. This formula supports the full system. It's not 10 random ingredients — it's 10 ingredients with specific, complementary roles in cellular health.
 
 ### Q: What's the difference between NMN and NR?
 
 Both NMN and NR (nicotinamide riboside) are NAD+ precursors. NMN is one step closer to NAD+ in the metabolic pathway — your body converts NMN directly into NAD+ without the extra conversion step that NR requires. Published research on both molecules continues to evolve. We chose NMN because of the growing body of human clinical evidence supporting it.
 
-### Q: What happens if I stop taking NMN?
+### Q: What happens if I stop taking this supplement?
 
-NMN isn't addictive and doesn't create dependency. If you stop, your body continues producing NAD+ naturally — just at the lower age-related levels it was producing before supplementation. Most people who stop notice a gradual return to how they felt previously over a few weeks. There's no withdrawal or negative effect from stopping.
+This formula isn't addictive and doesn't create dependency. If you stop, your body continues its normal processes — just without the supplemental support. Most people who stop notice a gradual return to how they felt previously over a few weeks. There's no withdrawal or negative effect from stopping.
 
-### Q: Is Baseline NMN vegan / allergen-free?
+### Q: Is this supplement vegan / allergen-free?
 
-Yes. Baseline NMN contains one ingredient (NMN) in a vegetable cellulose capsule. No gelatin. No gluten. No dairy. No soy. No nuts. No artificial colors or preservatives. Suitable for vegan diets.
+Yes. The formula uses vegetable cellulose capsules. Free of wheat, gluten, soy, dairy, and tree nuts. No artificial colors or preservatives. Suitable for vegan diets.
 
-### Q: Can I take NMN during perimenopause or menopause?
+### Q: Can I take this during perimenopause or menopause?
 
-Yes. NMN is commonly used by women in perimenopause and menopause. NAD+ decline happens alongside hormonal changes — both contribute to the fatigue and reduced energy many women experience during this transition. NMN supports NAD+ production at the cellular level, which addresses the energy side of the equation. As always, consult your doctor if you take prescription medications.
+Yes. This formula is commonly used by women in perimenopause and menopause. NAD+ decline happens alongside hormonal changes — both contribute to the fatigue and reduced energy many women experience during this transition. The combination of NMN for NAD+ support, glutathione and astaxanthin for antioxidant defense, and quercetin for healthy inflammatory response addresses multiple aspects of cellular health during this time. As always, consult your doctor if you take prescription medications.
 
 ### Q: Why capsules instead of sublingual or powder?
 
-Capsules provide consistent, measurable dosing — you get exactly 250mg per capsule, 500mg per daily serving. Recent research has shown that oral NMN is well-absorbed, reaching the bloodstream effectively. Capsules are also more convenient for daily use and more stable for storage than powder or sublingual formats.
+Capsules provide consistent, measurable dosing — you get the exact same formula every time. Recent research has shown that oral NMN is well-absorbed, reaching the bloodstream effectively. Capsules are also more convenient for a 10-ingredient formula and more stable for storage than powder or sublingual formats.
 
-### Q: How many bottles should I get?
+### Q: What sizes are available?
 
-It depends on how committed you are. One bottle (60-day supply) is enough to feel whether NMN works for you — most people notice changes within 2-4 weeks. The 2-pack (120 days) and 3-pack (180 days) cost less per day and ensure you don't run out during the period when benefits are building. If you're not sure, start with one and subscribe — you can always upgrade later.
+Three options: 60 capsules (30-day supply), 90 capsules (45-day supply), and 120 capsules (60-day supply). The 120-count is the most popular — it gives the formula enough time to build in your system and it's the best value per serving. If you're not sure, start with 60 to see how you feel, then switch to the 120 on subscription.
 
-**Implementation note:** Implement FAQPage schema markup on this section. This qualifies for Google's FAQ rich results and can capture featured snippets for high-value queries like "is NMN safe," "how long does NMN take to work," "NMN vs NR," and "can I take NMN during menopause." Use a Shopify SEO app or add JSON-LD directly to the product template.
+**Implementation note:** Implement FAQPage schema markup on this section. This qualifies for Google's FAQ rich results and can capture featured snippets for high-value queries like "is NMN safe," "NMN and resveratrol together," "NMN supplement stack," and "can I take NMN during menopause." Use a Shopify SEO app or add JSON-LD directly to the product template.
 
-**UX note:** Show the first 8 FAQs by default. Collapse questions 9-16 behind a "Show More Questions" toggle to reduce scroll fatigue — especially on mobile. The top 8 cover the highest-intent objections (timing, safety, differentiation, skeptic recovery, guarantee, stacking, price justification, subscription). The remaining 8 are valuable for SEO and deep-funnel visitors but shouldn't slow down the primary scroll path.
+**UX note:** Show the first 8 FAQs by default. Collapse questions 9-17 behind a "Show More Questions" toggle to reduce scroll fatigue — especially on mobile. The top 8 cover the highest-intent objections (timing, safety, differentiation, blend transparency, skeptic recovery, guarantee, stacking, price justification). The remaining questions are valuable for SEO and deep-funnel visitors but shouldn't slow down the primary scroll path.
 
 ---
 
@@ -533,29 +574,48 @@ Join the List
 - Direct, confident, no hype
 - Science-backed but readable — aim for 6th-8th grade reading level in customer-facing copy
 - Address the skeptic, not the believer — assume the reader has been burned before
-- "We prove it" over "trust us"
 - Benefits in customer language: "my energy got more consistent," "my baseline went up," "I feel more present"
-- Thread "restoration not stimulation" identity throughout — this is the core positioning that differentiates Baseline from every energy supplement and every NMN competitor
+- Thread "restoration not stimulation" identity throughout
+- Position the 10-in-1 as SIMPLIFICATION, not complexity — "one bottle instead of five"
+
+**Key messaging pillars for the 10-in-1:**
+1. **500mg NMN** — the clinical dose, fully disclosed, the foundation
+2. **Synergistic formula** — these ingredients work together, not randomly combined
+3. **Stack replacement** — replaces $150-300/month in separate supplements
+4. **Premium forms** — 98% trans-resveratrol, reduced glutathione, natural astaxanthin
+5. **Simplicity** — 2 capsules, one serving, done
 
 **What's intentionally NOT in this copy:**
-- No QR-to-COA references (not in soft launch — acknowledged in FAQ as "coming soon")
+- No "pure NMN" or "single ingredient" claims (this is a multi-ingredient formula)
+- No attacks on proprietary blends (this formula contains one)
+- No individual dose claims for blend ingredients (doses are not disclosed)
+- No QR-to-COA references (not applicable for this product)
 - No anti-aging miracle claims or "reverse aging" language
 - No celebrity endorsements or influencer language
-- No "proprietary" anything — the whole point is radical transparency
-- No fake urgency/scarcity tactics (limited stock, countdown timers) — launch pricing urgency is REAL and on-brand
+- No fake urgency/scarcity tactics — launch pricing urgency is REAL and on-brand
+
+**What IS honest about this product:**
+- 500mg NMN is a real, clinical dose and it's fully disclosed
+- Each ingredient has published research behind it
+- The ingredient forms are premium (98% trans-resveratrol, reduced glutathione, natural astaxanthin)
+- The "stack replacement" value proposition is genuine — buying these separately costs more
+- TMG + NMN and Resveratrol + NMN are well-documented pairings in longevity research
 
 **Placeholder content:**
-- Reviews (Section 7) are written to match avatar language from customer research. Replace with real reviews as they come in. Use these as templates for what to highlight/request in post-purchase review emails.
-- Product images referenced but not included — need bottle shots, capsule close-ups, lifestyle photography, and NAD+ decline infographic.
+- Reviews (Section 7) are written to match avatar language from customer research. Replace with real reviews as they come in.
+- Product images referenced but not included — need bottle shots, capsule close-ups, lifestyle photography, NAD+ decline infographic, and ingredient synergy visual.
 
-**v2 Structural Changes:**
-- New Section 2 "Is This You?" — message-match layer for all 5 ad batches
-- Comparison table moved from Section 6 → Section 4 (catches Burned Buyer earlier)
-- 3 new reviews added (Reviews 7-9) for B4/B5/B3 avatar coverage
-- Launch pricing urgency block added to Section 8 (honest, not fake scarcity)
-- 8 new FAQ entries covering manufacturing, lab results, NMN vs NR, menopause, capsule format, dependency, vegan/allergen, and bundle guidance
-- Price display updated to reflect Offer Plan ($49.95, $42.95 sub, $/day reframe)
-- Subscription updated to 60-day cycle per Offer Plan
+**v3 Structural Changes:**
+- Complete product positioning shift from pure NMN to 10-in-1 formula
+- New Section 4: "What's Actually Inside" ingredient breakdown (replaces comparison table)
+- All "single ingredient" and "no proprietary blends" language removed
+- New differentiator axis: comprehensiveness + stack replacement + premium forms
+- Reviews updated to reference multi-ingredient benefits and stack simplification
+- 4 new FAQ entries (proprietary blend transparency, 10 vs simple, sizes, NMN alone vs 10-in-1)
+- Supplement facts updated to match actual product label
+- Pricing updated to $49.99 with 60/90/120ct options
+- SEO keywords updated for "NMN 10-in-1" and multi-ingredient queries
+- Trust strip updated (removed purity claims, added ingredient count and resveratrol quality)
 
 ---
 
@@ -567,7 +627,7 @@ This section documents language decisions made for Meta (Facebook/Instagram) adv
 
 | Original Copy | Issue | Revised Copy |
 |---|---|---|
-| "Restore the cellular energy" | "Restore" implies reversing a health condition — health claim | "Support your body's natural cellular energy" |
+| "Restore the cellular energy" | "Restore" implies reversing a health condition | "Support your body's natural cellular energy" |
 | "function the way they did when you were younger" | Implies reversing aging — before/after health claim | "maintain themselves the way they're designed to" |
 | "The brain fog finally lifted" (review) | "Brain fog" is a medical symptom — health claim trigger | Replaced with "I can actually focus through the afternoon now" |
 | "My recovery time cut in half" (review) | Specific measurable health outcome claim | Replaced with honest 4-star review (Pratfall Effect), softened language |
@@ -577,36 +637,38 @@ This section documents language decisions made for Meta (Facebook/Instagram) adv
 | "If you don't feel a difference" (guarantee) | Ties guarantee to health outcome | "If you're not happy with it" — satisfaction-based, not outcome-based |
 | "Restore" / "Restoring" in CTAs | "Restore" implies treating a condition | "Supporting Your Cells" — structure/function language |
 | "Replenishes declining NAD+ levels" | "Replenish" can imply treating deficiency | "Supports your body's natural NAD+ production" |
-| "maintain DNA" / "DNA maintenance" | "DNA" language edges toward disease claims | "support cellular maintenance" / "cellular maintenance" |
+| "maintain DNA" / "DNA maintenance" | "DNA" language edges toward disease claims | "support cellular maintenance" |
 
-**v2 additions — compliance check on new copy:**
+**v3 compliance notes for 10-in-1 specific copy:**
 
 | New Copy | Compliance Status | Notes |
 |---|---|---|
-| "You didn't lose your energy. Your cells lost their fuel." | SAFE | Metaphorical/educational. Does not claim to treat a condition. |
-| "Is This You?" cards | SAFE | All use "support" language and subjective framing |
-| "I feel like my cells woke up" (Review 8) | SAFE | Subjective experience, not health outcome claim |
-| "Perimenopause hit me at 46" (Review 8) | MONITOR | References a health condition but describes personal experience, not a treatment claim. Meta may flag — have a backup version ready. |
-| "The afternoon fog has lifted" (Review 8) | SAFE | "Fog" used colloquially, not as medical symptom. Safer than "brain fog." |
-| Launch pricing urgency block | SAFE | Price/availability claim, not health claim |
-| NMN vs NR FAQ | SAFE | Educational comparison, no superiority health claim |
-| Menopause FAQ | SAFE | Uses "support" language, recommends doctor consultation |
+| "500mg NMN + 8 synergistic longevity ingredients" | SAFE | Factual product description |
+| Ingredient mechanism descriptions (Section 4) | SAFE | All use structure/function language ("supports," "promotes") |
+| "Replace your entire stack" | SAFE | Value/convenience claim, not health claim |
+| "These ingredients work together" | SAFE | General synergy statement, not a specific health outcome |
+| "Standardized to 98% trans-resveratrol" | SAFE | Factual quality specification |
+| "Senolytic properties" (quercetin) | MONITOR | Scientific term, not a health claim per se, but Meta AI may flag unfamiliar terms. Have backup: "supports cellular cleanup" |
+| "6,000 times stronger than vitamin C" (astaxanthin) | MONITOR | Common marketing claim for astaxanthin. Qualified with "in certain assays." May need softening if Meta flags. |
+| "it feels like my cells woke up" (Review 8) | SAFE | Subjective experience |
+| "Perimenopause hit me at 46" (Review 8) | MONITOR | References a health condition but describes personal experience. Meta may flag — have backup ready. |
 
 **Meta policy principles applied:**
 - Use "support," "promote," "maintain" instead of "restore," "reverse," "fix," "cure"
 - Frame benefits as subjective experience ("people report...") not objective outcomes ("reduces X by Y%")
 - Avoid before/after health state implications ("feel young again" = flagged)
-- Reviews must not contain specific medical symptom claims (brain fog, insomnia, chronic fatigue)
+- Reviews must not contain specific medical symptom claims
 - Educational science claims (NAD+ declines with age) are generally safe when qualified
 - Structure/function claims ("supports cellular energy production") are compliant; disease claims ("prevents age-related decline") are not
+- Ingredient mechanism descriptions should use "supports" language, not treatment language
 
 **Landing page quality factors for Meta ads:**
-- Hero now mirrors ad emotional thread — improves message-match score and reduces bounce
+- Hero mirrors ad emotional thread — improves message-match score and reduces bounce
 - "Is This You?" section creates multiple message-match points for different ad batches
-- Trust strip includes $0.83/day reframe — reduces price shock from cold traffic
+- Trust strip includes clinical dose and ingredient count — reduces skepticism from cold traffic
 - Hero CTA includes "60-Day Supply" — communicates value without price
-- Comparison table moved earlier — trust proof visible before most visitors bounce
-- FAQ section expanded with 8 new entries — improves page quality signals for Meta's crawler
+- Ingredient breakdown (Section 4) builds education and trust before purchase decision
+- FAQ section covers common objections — improves page quality signals for Meta's crawler
 - Launch pricing urgency is factual (real price increase planned) — not a fake countdown
 
 **CPM impact:** Meta's ad review AI scans landing pages, not just ad creative. Flagged health claims on the PDP can increase CPMs even if the ad itself is clean. These changes protect both the ad approval rate and the landing page quality score.
