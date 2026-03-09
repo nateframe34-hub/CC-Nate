@@ -37,9 +37,9 @@ Baseline NMN 10-in-1 — Complete Cellular Support
 
 ### Subtitle / Short Description
 
-You didn't lose your energy. Your cells lost their fuel.
+**You didn't lose your energy. Your cells lost their fuel.**
 
-You used to have more. More focus. More drive. More left in the tank at the end of the day. That didn't fade because you stopped trying — it faded because your cells stopped getting what they need.
+After 40, your body produces less NAD+ — the molecule behind energy, focus, and recovery. NMN is what your body uses to make more. Not a stimulant. A foundation.
 
 After 40, your body produces less NAD+ — the molecule behind energy, focus, and recovery. NMN is what your body uses to make more. But NAD+ doesn't work alone — it works alongside antioxidants, methyl donors, and cellular protectors. That's why we combined 500mg of NMN with 8 synergistic longevity ingredients in one daily serving. Not a stimulant. A foundation.
 
