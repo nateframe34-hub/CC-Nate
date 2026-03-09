@@ -1,0 +1,444 @@
+{% comment %}
+  ============================================================
+  SECTION 8: GUARANTEE + BUNDLE CTA
+  ============================================================
+  Drop this into a Shopify Custom Liquid block.
+
+  IMAGE — Replace the placeholder URL below with your CDN link
+  for creation_2535247061.png (bottle + "30 days. No questions." card):
+  ============================================================
+{% endcomment %}
+
+{% assign guarantee_image = 'REPLACE_WITH_CDN_LINK' %}
+
+<style>
+  /* ── Section wrapper ── */
+  .bl-guarantee {
+    background: #F5F0E8;
+    padding: 80px 40px;
+  }
+  .bl-guarantee-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .bl-guarantee-header {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+  .bl-guarantee-header h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 12px;
+    line-height: 1.2;
+  }
+  .bl-guarantee-header p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    color: #5A5550;
+    max-width: 580px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  /* ── Two-column layout ── */
+  .bl-guarantee-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+
+  /* ── Left column: Guarantee + trust blocks ── */
+  .bl-guarantee-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  /* Image */
+  .bl-guarantee-img {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  /* Trust cards */
+  .bl-trust-card {
+    background: #FFFFFF;
+    border: 1px solid #DDD6CC;
+    border-radius: 12px;
+    padding: 24px 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .bl-trust-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #C07840;
+    border-radius: 3px 0 0 3px;
+  }
+  .bl-trust-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 8px;
+    line-height: 1.3;
+  }
+  .bl-trust-card p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    color: #5A5550;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* ── Right column: Bundle tiers + CTA ── */
+  .bl-guarantee-right {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  /* CTA intro text */
+  .bl-cta-intro h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 8px;
+    line-height: 1.3;
+  }
+  .bl-cta-intro p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    color: #5A5550;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* Bundle tier cards */
+  .bl-bundle-tiers {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .bl-bundle-card {
+    background: #FFFFFF;
+    border: 2px solid #DDD6CC;
+    border-radius: 12px;
+    padding: 20px 24px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 16px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+  }
+  .bl-bundle-card:hover {
+    border-color: #C07840;
+    box-shadow: 0 4px 16px rgba(192, 120, 64, 0.12);
+  }
+  .bl-bundle-card.bl-featured {
+    border-color: #0C3B3F;
+    background: #0C3B3F;
+  }
+  .bl-bundle-card.bl-featured .bl-bundle-name,
+  .bl-bundle-card.bl-featured .bl-bundle-supply,
+  .bl-bundle-card.bl-featured .bl-bundle-price,
+  .bl-bundle-card.bl-featured .bl-bundle-compare,
+  .bl-bundle-card.bl-featured .bl-bundle-save,
+  .bl-bundle-card.bl-featured .bl-bundle-per-day {
+    color: #F5F0E8;
+  }
+  .bl-bundle-card.bl-featured .bl-bundle-save {
+    color: #C07840;
+  }
+  .bl-bundle-card.bl-featured:hover {
+    border-color: #C07840;
+  }
+
+  .bl-bundle-tag {
+    display: inline-block;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+  }
+  .bl-tag-popular {
+    background: #C07840;
+    color: #FFFFFF;
+  }
+  .bl-tag-value {
+    background: #E8F2F1;
+    color: #0C3B3F;
+  }
+  .bl-bundle-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 2px;
+    line-height: 1.3;
+  }
+  .bl-bundle-supply {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    color: #5A5550;
+    margin: 0;
+  }
+
+  .bl-bundle-pricing {
+    text-align: right;
+  }
+  .bl-bundle-compare {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    color: #999;
+    text-decoration: line-through;
+    margin: 0 0 2px;
+  }
+  .bl-bundle-price {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #0C3B3F;
+    margin: 0;
+    line-height: 1;
+  }
+  .bl-bundle-per-day {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    color: #5A5550;
+    margin: 4px 0 0;
+  }
+  .bl-bundle-save {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #C07840;
+    margin: 2px 0 0;
+  }
+
+  /* Value stack icons */
+  .bl-value-stack {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 16px 0 0;
+  }
+  .bl-value-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #5A5550;
+  }
+  .bl-value-item svg {
+    flex-shrink: 0;
+    color: #C07840;
+  }
+
+  /* Bottom CTA block */
+  .bl-final-cta {
+    background: #0C3B3F;
+    border-radius: 12px;
+    padding: 28px 32px;
+    text-align: center;
+  }
+  .bl-final-cta p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    color: rgba(245, 240, 232, 0.85);
+    line-height: 1.6;
+    margin: 0 0 20px;
+  }
+  .bl-final-cta p strong {
+    color: #F5F0E8;
+  }
+  .bl-final-cta-btn {
+    display: inline-block;
+    background: #C07840;
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 36px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+    letter-spacing: 0.01em;
+  }
+  .bl-final-cta-btn:hover {
+    background: #A8653A;
+    color: #FFFFFF;
+  }
+  .bl-final-cta-sub {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    color: rgba(245, 240, 232, 0.6);
+    margin: 12px 0 0;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 768px) {
+    .bl-guarantee {
+      padding: 56px 20px;
+    }
+    .bl-guarantee-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    .bl-guarantee-header h2 {
+      font-size: 28px;
+    }
+    .bl-bundle-card {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+    .bl-bundle-pricing {
+      text-align: left;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .bl-bundle-price {
+      font-size: 24px;
+    }
+    .bl-value-stack {
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .bl-guarantee-img {
+      aspect-ratio: 3 / 2;
+    }
+  }
+</style>
+
+<section class="bl-guarantee">
+  <div class="bl-guarantee-inner">
+    <div class="bl-guarantee-header">
+      <h2>Your Order Is Risk-Free</h2>
+      <p>30-day guarantee. Free shipping. Choose the supply that fits your goals.</p>
+    </div>
+
+    <div class="bl-guarantee-grid">
+
+      <!-- Left Column: Guarantee + Trust -->
+      <div class="bl-guarantee-left">
+        <img class="bl-guarantee-img" src="{{ guarantee_image }}" alt="Baseline NMN 10-in-1 bottle with 30-day money-back guarantee" loading="lazy">
+
+        <div class="bl-trust-card">
+          <h3>30-Day Money-Back Guarantee</h3>
+          <p>Try it for a full month. If you're not happy with it, email us and we'll refund you. No return shipping. No restocking fees. No 47-question survey. We'd rather lose a sale than keep a customer who isn't satisfied.</p>
+        </div>
+
+        <div class="bl-trust-card">
+          <h3>Launch Pricing — Won't Last</h3>
+          <p>Our introductory pricing won't be here forever. Once we hit our initial milestone, prices move up. Lock in today's price while it's still available.</p>
+        </div>
+
+        <div class="bl-trust-card">
+          <h3>Free Shipping on Every Order</h3>
+          <p>Every order ships free. No minimum. No threshold. Delivered to your door within 3-5 business days.</p>
+        </div>
+      </div>
+
+      <!-- Right Column: Bundle Tiers + CTA -->
+      <div class="bl-guarantee-right">
+        <div class="bl-cta-intro">
+          <h3>You've Read the Science. You've Seen What's Inside.</h3>
+          <p>10 ingredients. One serving. Everything your cells need to support energy production, antioxidant defense, and healthy aging — without managing a shelf full of separate bottles.</p>
+        </div>
+
+        <div class="bl-bundle-tiers">
+          <!-- Tier 1: The Starter -->
+          <a href="#" class="bl-bundle-card" aria-label="Add The Starter bundle to cart">
+            <div>
+              <p class="bl-bundle-name">The Starter</p>
+              <p class="bl-bundle-supply">1 Bottle — 120ct (60-Day Supply)</p>
+            </div>
+            <div class="bl-bundle-pricing">
+              <p class="bl-bundle-compare">$69.95</p>
+              <p class="bl-bundle-price">$49.95</p>
+              <p class="bl-bundle-per-day">$0.83/day</p>
+              <p class="bl-bundle-save">Save $20</p>
+            </div>
+          </a>
+
+          <!-- Tier 2: The Protocol (Featured) -->
+          <a href="#" class="bl-bundle-card bl-featured" aria-label="Add The Protocol bundle to cart">
+            <div>
+              <span class="bl-bundle-tag bl-tag-popular">Most Popular</span>
+              <p class="bl-bundle-name">The Protocol</p>
+              <p class="bl-bundle-supply">2 Bottles — 240ct (120-Day Supply)</p>
+            </div>
+            <div class="bl-bundle-pricing">
+              <p class="bl-bundle-compare">$99.90</p>
+              <p class="bl-bundle-price">$89.90</p>
+              <p class="bl-bundle-per-day">$0.75/day</p>
+              <p class="bl-bundle-save">Save $10</p>
+            </div>
+          </a>
+
+          <!-- Tier 3: The Transformation -->
+          <a href="#" class="bl-bundle-card" aria-label="Add The Transformation bundle to cart">
+            <div>
+              <span class="bl-bundle-tag bl-tag-value">Best Value</span>
+              <p class="bl-bundle-name">The Transformation</p>
+              <p class="bl-bundle-supply">3 Bottles — 360ct (180-Day Supply)</p>
+            </div>
+            <div class="bl-bundle-pricing">
+              <p class="bl-bundle-compare">$149.85</p>
+              <p class="bl-bundle-price">$119.85</p>
+              <p class="bl-bundle-per-day">$0.67/day</p>
+              <p class="bl-bundle-save">Save $30</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Value stack -->
+        <div class="bl-value-stack">
+          <span class="bl-value-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            Free Shipping
+          </span>
+          <span class="bl-value-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            30-Day Guarantee
+          </span>
+          <span class="bl-value-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            Launch Pricing
+          </span>
+        </div>
+
+        <!-- Final CTA -->
+        <div class="bl-final-cta">
+          <p><strong>Less than your afternoon coffee</strong> — and it actually addresses the crash instead of borrowing from tomorrow.</p>
+          <a href="#" class="bl-final-cta-btn">Start Your Protocol — From $49.95</a>
+          <p class="bl-final-cta-sub">30-day guarantee. If you don't feel it, we refund you. No hoops.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
