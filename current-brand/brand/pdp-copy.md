@@ -322,97 +322,97 @@ Most longevity-focused people take 5-8 separate supplements from different brand
 
 What Customers Are Saying
 
-### Review 1 — Energy / The Restorer
+### Review 1 — Energy / Trust
 
-**"First supplement stack I've trusted in years"**
+**"Actually feel like I know what I'm taking"**
 
 Rating: 5 stars
 
-"I used to take NMN, resveratrol, and CoQ10 from three different brands. Expensive and annoying. Switched to Baseline's 10-in-1 and within a month my afternoon energy was noticeably more consistent. Same ingredients I was already taking, just in one bottle. This is the first time I've actually stuck with a supplement routine."
+"Two months in. Afternoon energy is way more consistent and I can actually verify what's in the bottle. First supplement I've reordered in years."
 
 — *David R., 54*
 
 ### Review 2 — Simplicity
 
-**"Finally, one bottle instead of five"**
+**"One ingredient. That's it."**
 
 Rating: 5 stars
 
-"I spent $200/month on separate NMN, glutathione, resveratrol, and CoQ10 bottles. Managing all of them was a chore and I kept running out of different ones at different times. Baseline's 10-in-1 simplified everything. Two capsules, done. And I'm waking up feeling like I actually slept."
+"No proprietary blends, no 12-ingredient stack. Just NMN at a real dose with actual test results. I'm sleeping better too which I didn't expect."
 
 — *Karen M., 48*
 
 ### Review 3 — Skeptic Converted
 
-**"I was the biggest NMN skeptic. Not anymore."**
+**"Wrote off NMN entirely until this"**
 
 Rating: 5 stars
 
-"I tried two other NMN brands from Amazon — noticed nothing. Wrote off NMN entirely. My daughter convinced me to try Baseline because of the 10-in-1 formula — she said the resveratrol and CoQ10 make a real difference alongside NMN. Six weeks in and I genuinely feel like I have more in the tank. I think the other brands were just underdosed."
+"Tried two other brands. Nothing. My daughter found Baseline and the independent testing convinced me to try again. Six weeks in and I genuinely feel a difference."
 
 — *Robert T., 61*
 
 ### Review 4 — Honest / Pratfall
 
-**"Took a few weeks, but I'm glad I stuck with it"**
+**"Give it a few weeks"**
 
 Rating: 4 stars
 
-"I'll be honest — I didn't notice anything the first two weeks and almost gave up. But around week three something shifted. My energy through the afternoon got more consistent and I stopped reaching for that second coffee. It's not dramatic, it's subtle. But it's real. Only reason for 4 stars is I wish it kicked in faster."
+"Didn't notice anything for the first two weeks and almost stopped. Around week three the afternoon crash eased up. It's subtle but it's real. Wish it kicked in faster."
 
 — *Mark P., 50*
 
 ### Review 5 — Mental Clarity
 
-**"I can actually focus through the afternoon now"**
+**"The 3pm wall is gone"**
 
 Rating: 5 stars
 
-"About three weeks in, the afternoon wall I'd been hitting for years started to ease. I can focus through meetings without fading out. My wife noticed before I did — said I seemed more 'present.' I like that this has the NMN dose plus the supporting ingredients — feels like a more complete approach."
+"About three weeks in and I can actually focus through the afternoon. My wife said I seem more present. Not dramatic, just steady."
 
 — *Michael S., 52*
 
-### Review 6 — Value
+### Review 6 — Trust / Transparency
 
-**"Replaced $200/month in separate supplements"**
+**"Finally a brand that publishes their lab results"**
 
 Rating: 5 stars
 
-"I was taking NMN, resveratrol, CoQ10, glutathione, and quercetin separately. Five different bottles, five different brands, five different reorder schedules. Baseline put all of them in one formula at a fraction of the cost. The convenience alone was worth switching — but I'm also feeling better than I did on the separate stack."
+"I researched NMN for a year before buying anything. Most brands make big claims with zero proof. Baseline actually shows you what's in it. Already told three friends."
 
 — *Lisa K., 44*
 
 ### Review 7 — Parental Presence (B4 avatar match)
 
-**"My kids got their dad back"**
+**"I stopped saying 'maybe later' to my kids"**
 
 Rating: 5 stars
 
-"I'm 47 with two kids under 10. I was the guy who said 'maybe later' to everything by 5pm — too tired to play catch, too wiped to stay up for movie night. Three months on Baseline and the biggest change isn't how I feel. It's how my kids look at me when I say yes instead of later. Individual results may vary."
+"Two kids under 10 and I was done by 5pm every day. Three months in and I have more in the tank when it matters. Individual results may vary."
 
 — *Chris D., 47*
 
 ### Review 8 — The Invisible Woman (B5 avatar match)
 
-**"The first supplement that actually gets it"**
+**"Not another collagen pitch"**
 
 Rating: 5 stars
 
-"Perimenopause hit me at 46. Energy gone. Focus gone. Every brand sold me collagen and wrinkle cream. I don't care about wrinkles — I want to FUNCTION. Baseline is the first brand that seemed to understand that. The NMN plus the antioxidants in the formula — glutathione, astaxanthin — it feels like my cells woke up. Two months in and the afternoon fog has lifted. Individual results may vary."
+"Perimenopause wiped my energy at 46. Every brand wanted to sell me wrinkle cream. I don't care about wrinkles — I want to function. Two months on Baseline and the afternoon fog lifted. Individual results may vary."
 
 — *Jennifer A., 46*
 
-### Review 9 — Stack Simplifier (B3 avatar match)
+### Review 9 — Brand Comparison (B3 avatar match)
 
-**"I'm done managing 6 different supplement bottles"**
+**"Spent $400 on NMN that did nothing"**
 
 Rating: 5 stars
 
-"I was spending more time organizing my supplements than actually taking them consistently. NMN from one brand, resveratrol from another, CoQ10 from a third — it was a mess. Baseline's 10-in-1 replaced almost my entire stack. Four weeks in and I feel at least as good as I did on the separate bottles — probably better because I'm actually taking it every day now. Individual results may vary."
+"Two different Amazon brands. Both 'third-party tested.' Neither worked. Baseline's the first one where I can actually verify what's in the bottle. Four weeks in and I get it now. Individual results may vary."
 
 — *Alex W., 52*
 
-**Soft launch note:** Replace these with real reviews as they come in. These are written to reflect the avatar language and core desires from customer research — use them as a template for what to highlight/request in post-purchase review emails. Reviews 7-9 added specifically to create emotional resonance for Exhausted Parent (B4), Invisible Woman (B5), and Stack Simplifier (B3) ad traffic.
+**Soft launch note:** Replace these with real reviews as they come in. These are modeled on real Trustpilot/Amazon review length and tone — 1-3 sentences, casual language, specific timeframes. Use them as a template for what to highlight/request in post-purchase review emails.
 
 ---
 
