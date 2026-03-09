@@ -1,0 +1,140 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  .hiw-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .hiw-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .hiw-header h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 12px;
+    line-height: 1.2;
+  }
+  .hiw-header p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    color: #5A5550;
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  .hiw-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .hiw-step {
+    text-align: center;
+  }
+  .hiw-step-number {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 42px;
+    font-weight: 700;
+    color: #C07840;
+    opacity: 0.3;
+    margin-bottom: 4px;
+    line-height: 1;
+  }
+  .hiw-step h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 10px;
+    line-height: 1.3;
+  }
+  .hiw-step p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    color: #5A5550;
+    line-height: 1.7;
+    margin: 0 auto;
+    max-width: 480px;
+  }
+  .hiw-step p em {
+    font-style: italic;
+  }
+
+  .hiw-footer {
+    text-align: center;
+    margin-top: 32px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    color: #8A8480;
+    font-style: italic;
+    line-height: 1.6;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Divider between steps on mobile */
+  .hiw-divider {
+    width: 40px;
+    height: 2px;
+    background: #DDD6CC;
+    margin: 0 auto;
+    border-radius: 1px;
+  }
+
+  /* Desktop: 3-column row */
+  @media (min-width: 769px) {
+    .hiw-section { padding: 0 40px; }
+    .hiw-header { margin-bottom: 48px; }
+    .hiw-header h2 { font-size: 36px; }
+    .hiw-steps {
+      flex-direction: row;
+      gap: 40px;
+    }
+    .hiw-step {
+      flex: 1;
+    }
+    .hiw-step p {
+      max-width: none;
+    }
+    .hiw-divider { display: none; }
+    .hiw-footer { margin-top: 36px; }
+  }
+</style>
+
+<div class="hiw-section">
+  <div class="hiw-header">
+    <h2>How It Works</h2>
+    <p>Simple enough to explain in 30 seconds. Backed by enough research to fill a library.</p>
+  </div>
+
+  <div class="hiw-steps">
+    <div class="hiw-step">
+      <div class="hiw-step-number">01</div>
+      <h3>Take 2 Capsules Daily</h3>
+      <p>Two capsules. Morning. With or without food. That's your entire routine — 500mg of NMN plus 8 synergistic ingredients, all in one serving. No separate bottles. No complicated stacking protocol. No timing 5 different supplements around meals.</p>
+    </div>
+
+    <div class="hiw-divider"></div>
+
+    <div class="hiw-step">
+      <div class="hiw-step-number">02</div>
+      <h3>Your Body Does What It Already Knows How to Do</h3>
+      <p>NMN is a direct precursor to NAD+ — the molecule your cells already use to produce energy and support cellular maintenance. Resveratrol activates sirtuins — the proteins that regulate how your cells age. CoQ10 fuels your mitochondria. TMG supports methylation. Glutathione defends against oxidative stress. You're not adding something foreign — you're giving your cells more of what they already use.</p>
+    </div>
+
+    <div class="hiw-divider"></div>
+
+    <div class="hiw-step">
+      <div class="hiw-step-number">03</div>
+      <h3>You Start Feeling Like You Again</h3>
+      <p>More consistent energy. Sharper focus. That thing where you get to 4pm and you're still <em>there</em> — still present, still engaged, still you. Not a stimulant spike and crash. A higher baseline. The kind of change that's subtle until someone else notices it first.</p>
+    </div>
+  </div>
+
+  <p class="hiw-footer">That's it. Ten ingredients. One serving. Two capsules. Everything your cells need to support the energy, defense, and maintenance systems that decline with age.</p>
+</div>
