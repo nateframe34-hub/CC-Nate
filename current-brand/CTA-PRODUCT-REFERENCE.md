@@ -20,7 +20,7 @@
 |---|---|
 | Product Handle | `[GET FROM SHOPIFY ADMIN — see instructions below]` |
 | Product URL | `https://baseline-9962.myshopify.com/products/[HANDLE]` |
-| Product Price | $49.95 (one-time) / $42.95 (subscribe & save) |
+| Product Price | $49.99 (one-time) / $42.95 (subscribe & save) |
 | Product Name | Baseline NMN — Pure NMN Supplement, 500mg, 60 Capsules |
 
 ### How to Get the Product Handle & ID
