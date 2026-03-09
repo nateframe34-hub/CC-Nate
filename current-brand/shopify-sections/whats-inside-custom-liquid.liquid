@@ -1,0 +1,409 @@
+<style>
+  .wai-section {
+    background: #F5F0E8;
+    padding: 48px 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wai-header {
+    text-align: center;
+    margin-bottom: 32px;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wai-header h2 {
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 8px;
+    line-height: 1.2;
+  }
+  .wai-header p {
+    font-size: 14px;
+    color: #5A5550;
+    margin: 0;
+    line-height: 1.5;
+  }
+  .wai-hero-img {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    border-radius: 12px;
+    margin: 0 auto 36px;
+    object-fit: cover;
+  }
+  .wai-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* Foundation ingredient — always visible */
+  .wai-foundation {
+    background: #FFFFFF;
+    border: 1px solid #DDD6CC;
+    border-radius: 12px;
+    padding: 22px 20px;
+    margin-bottom: 14px;
+  }
+  .wai-foundation-name {
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 4px;
+    line-height: 1.3;
+  }
+  .wai-foundation-dose {
+    font-size: 13px;
+    font-weight: 600;
+    color: #C07840;
+    margin: 0 0 10px;
+    letter-spacing: 0.02em;
+  }
+  .wai-foundation-desc {
+    font-size: 13px;
+    color: #5A5550;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* Blend section */
+  .wai-blend-label {
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0C3B3F;
+    text-align: center;
+    margin: 28px 0 14px;
+    line-height: 1.3;
+  }
+  .wai-blend-sub {
+    text-align: center;
+    font-size: 13px;
+    color: #5A5550;
+    margin: -6px 0 18px;
+    line-height: 1.5;
+  }
+
+  /* Ingredient accordion cards */
+  .wai-card {
+    background: #FFFFFF;
+    border: 1px solid #DDD6CC;
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 10px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .wai-card:active {
+    border-color: #C07840;
+    box-shadow: 0 2px 12px rgba(192, 120, 64, 0.1);
+  }
+  .wai-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    gap: 12px;
+  }
+  .wai-card-title {
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0C3B3F;
+    line-height: 1.3;
+    margin: 0;
+  }
+  .wai-card-role {
+    font-size: 12px;
+    color: #C07840;
+    font-weight: 600;
+    margin: 2px 0 0;
+    letter-spacing: 0.02em;
+  }
+  .wai-card-toggle {
+    flex-shrink: 0;
+    font-size: 14px;
+    color: #C07840;
+    transition: transform 0.3s ease;
+    line-height: 1;
+  }
+  .wai-card.is-open .wai-card-toggle {
+    transform: rotate(180deg);
+  }
+  .wai-card-body {
+    font-size: 13px;
+    color: #5A5550;
+    line-height: 1.7;
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+  .wai-card.is-open .wai-card-body {
+    max-height: 300px;
+    opacity: 1;
+    margin-top: 10px;
+  }
+
+  /* Why these 10 together */
+  .wai-why {
+    background: #0C3B3F;
+    border-radius: 12px;
+    padding: 24px 20px;
+    margin-top: 28px;
+    text-align: center;
+  }
+  .wai-why h3 {
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 0 0 10px;
+    line-height: 1.3;
+  }
+  .wai-why p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    margin: 0 0 18px;
+  }
+  .wai-cta {
+    display: inline-block;
+    background: #C07840;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s;
+    letter-spacing: 0.02em;
+  }
+  .wai-cta:hover {
+    background: #A8663A;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  /* Desktop */
+  @media (min-width: 769px) {
+    .wai-section {
+      padding: 80px 40px;
+    }
+    .wai-header {
+      margin-bottom: 48px;
+    }
+    .wai-header h2 {
+      font-size: 36px;
+    }
+    .wai-header p {
+      font-size: 16px;
+    }
+    .wai-hero-img {
+      max-width: 720px;
+      margin-bottom: 48px;
+    }
+    .wai-foundation {
+      padding: 28px;
+    }
+    .wai-foundation-name {
+      font-size: 20px;
+    }
+    .wai-foundation-dose {
+      font-size: 14px;
+    }
+    .wai-foundation-desc {
+      font-size: 14px;
+    }
+    .wai-blend-label {
+      font-size: 24px;
+      margin-top: 36px;
+    }
+    .wai-blend-sub {
+      font-size: 14px;
+    }
+    .wai-ingredients-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .wai-card {
+      padding: 22px 24px;
+      margin-bottom: 0;
+    }
+    .wai-card:hover {
+      border-color: #C07840;
+      box-shadow: 0 4px 20px rgba(192, 120, 64, 0.1);
+    }
+    .wai-card-title {
+      font-size: 18px;
+    }
+    .wai-card-role {
+      font-size: 13px;
+    }
+    .wai-card-toggle {
+      display: none;
+    }
+    .wai-card-body {
+      max-height: none;
+      opacity: 1;
+      margin-top: 10px;
+    }
+    .wai-why {
+      padding: 36px;
+      margin-top: 36px;
+    }
+    .wai-why h3 {
+      font-size: 24px;
+    }
+    .wai-why p {
+      font-size: 14px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 24px;
+    }
+    .wai-cta {
+      font-size: 15px;
+      padding: 16px 40px;
+    }
+  }
+</style>
+
+<div class="wai-section">
+  <div class="wai-header">
+    <h2>What's Actually Inside — And Why</h2>
+    <p>Every ingredient was chosen for a specific role in cellular health. No filler. No random additions.</p>
+  </div>
+
+  <img class="wai-hero-img" src="https://cdn.shopify.com/s/files/1/0978/0399/3409/files/creation_2535244682.png?v=1773042962" alt="Natural supplement ingredients arranged in small dishes showing the raw materials behind the formula" loading="lazy">
+
+  <div class="wai-content">
+    <!-- NMN Foundation — always visible -->
+    <div class="wai-foundation">
+      <p class="wai-foundation-name">NMN (β-Nicotinamide Mononucleotide)</p>
+      <p class="wai-foundation-dose">500mg — Full Clinical Dose</p>
+      <p class="wai-foundation-desc">The foundation of the formula. NMN converts directly to NAD+ — the molecule behind energy production, DNA maintenance, and sirtuin activation. 500mg is the dose used in published human research. Not a token amount.</p>
+    </div>
+
+    <div class="wai-foundation">
+      <p class="wai-foundation-name">Vitamin C (as Ascorbyl Palmitate)</p>
+      <p class="wai-foundation-dose">50mg — Fat-Soluble Form</p>
+      <p class="wai-foundation-desc">A fat-soluble form of vitamin C that supports antioxidant defense and protects cells from oxidative damage. Works alongside the other antioxidants in the formula.</p>
+    </div>
+
+    <!-- Synergy Blend -->
+    <p class="wai-blend-label">The Synergy Blend</p>
+    <p class="wai-blend-sub">450mg combined — 8 ingredients that support how NAD+ works in your cells</p>
+
+    <div class="wai-ingredients-grid">
+      <div class="wai-card">
+        <div class="wai-card-header" onclick="this.parentElement.classList.toggle('is-open')">
+          <div>
+            <p class="wai-card-title">Resveratrol</p>
+            <p class="wai-card-role">The Sirtuin Activator</p>
+          </div>
+          <span class="wai-card-toggle">&#9660;</span>
+        </div>
+        <p class="wai-card-body">Standardized to 98% trans-resveratrol — the bioactive form. NMN provides the NAD+ fuel; resveratrol tells your cells what to do with it. The most-studied NMN pairing in longevity research.</p>
+      </div>
+
+      <div class="wai-card">
+        <div class="wai-card-header" onclick="this.parentElement.classList.toggle('is-open')">
+          <div>
+            <p class="wai-card-title">CoQ10</p>
+            <p class="wai-card-role">The Mitochondrial Fuel</p>
+          </div>
+          <span class="wai-card-toggle">&#9660;</span>
+        </div>
+        <p class="wai-card-body">Essential for energy production inside your mitochondria. Your body produces less CoQ10 as you age — just like NAD+. Supports cellular energy alongside NMN.</p>
+      </div>
+
+      <div class="wai-card">
+        <div class="wai-card-header" onclick="this.parentElement.classList.toggle('is-open')">
+          <div>
+            <p class="wai-card-title">Glutathione</p>
+            <p class="wai-card-role">The Master Antioxidant</p>
+          </div>
+          <span class="wai-card-toggle">&#9660;</span>
+        </div>
+        <p class="wai-card-body">Reduced (active) form. Neutralizes free radicals and supports detoxification at the cellular level. NAD+ production and antioxidant defense work hand-in-hand.</p>
+      </div>
+
+      <div class="wai-card">
+        <div class="wai-card-header" onclick="this.parentElement.classList.toggle('is-open')">
+          <div>
+            <p class="wai-card-title">TMG / Trimethylglycine</p>
+            <p class="wai-card-role">The Methyl Donor</p>
+          </div>
+          <span class="wai-card-toggle">&#9660;</span>
+        </div>
+        <p class="wai-card-body">NMN metabolism uses methyl groups. TMG replenishes them — supporting healthy methylation for DNA regulation and cellular signaling. This is why serious NMN users pair NMN with TMG.</p>
+      </div>
+
+      <div class="wai-card">
+        <div class="wai-card-header" onclick="this.parentElement.classList.toggle('is-open')">
+          <div>
+            <p class="wai-card-title">Grape Seed Extract</p>
+            <p class="wai-card-role">The Cardiovascular Protector</p>
+          </div>
+          <span class="wai-card-toggle">&#9660;</span>
+        </div>
+        <p class="wai-card-body">A potent source of proanthocyanidins — powerful antioxidants that support cardiovascular health and protect cells from oxidative stress.</p>
+      </div>
+
+      <div class="wai-card">
+        <div class="wai-card-header" onclick="this.parentElement.classList.toggle('is-open')">
+          <div>
+            <p class="wai-card-title">Quercetin</p>
+            <p class="wai-card-role">The Cellular Cleanup</p>
+          </div>
+          <span class="wai-card-toggle">&#9660;</span>
+        </div>
+        <p class="wai-card-body">A flavonoid that supports your body's ability to clear damaged, aging cells. Also supports a healthy inflammatory response — increasingly important with age.</p>
+      </div>
+
+      <div class="wai-card">
+        <div class="wai-card-header" onclick="this.parentElement.classList.toggle('is-open')">
+          <div>
+            <p class="wai-card-title">Astaxanthin</p>
+            <p class="wai-card-role">The Deep-Cell Antioxidant</p>
+          </div>
+          <span class="wai-card-toggle">&#9660;</span>
+        </div>
+        <p class="wai-card-body">From Haematococcus pluvialis microalgae — one of the most powerful natural antioxidants known. Crosses the blood-brain barrier, supporting both brain and body.</p>
+      </div>
+
+      <div class="wai-card">
+        <div class="wai-card-header" onclick="this.parentElement.classList.toggle('is-open')">
+          <div>
+            <p class="wai-card-title">Apigenin</p>
+            <p class="wai-card-role">The NAD+ Protector</p>
+          </div>
+          <span class="wai-card-toggle">&#9660;</span>
+        </div>
+        <p class="wai-card-body">Inhibits CD38 — an enzyme that breaks down NAD+ as you age. NMN helps produce more NAD+. Apigenin helps you keep more of it. A two-sided approach.</p>
+      </div>
+    </div>
+
+    <!-- Why These 10 Together -->
+    <div class="wai-why">
+      <h3>Why These 10 Together</h3>
+      <p>Most people who research longevity end up taking 5-8 separate products — $150-$300/month from different brands. This formula combines them into one serving. One bottle instead of five.</p>
+      <a href="#product-form" class="wai-cta">Get the Complete Stack — $49.99</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Auto-open the first ingredient card on mobile
+  (function() {
+    if (window.innerWidth < 769) {
+      var firstCard = document.querySelector('.wai-card');
+      if (firstCard) firstCard.classList.add('is-open');
+    }
+  })();
+</script>
