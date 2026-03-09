@@ -332,17 +332,7 @@ Rating: 5 stars
 
 — *David R., 54*
 
-### Review 2 — Simplicity
-
-**"One ingredient. That's it."**
-
-Rating: 5 stars
-
-"No proprietary blends, no 12-ingredient stack. Just NMN at a real dose with actual test results. I'm sleeping better too which I didn't expect."
-
-— *Karen M., 48*
-
-### Review 3 — Skeptic Converted
+### Review 2 — Skeptic Converted
 
 **"Wrote off NMN entirely until this"**
 
@@ -352,7 +342,7 @@ Rating: 5 stars
 
 — *Robert T., 61*
 
-### Review 4 — Honest / Pratfall
+### Review 3 — Honest / Pratfall
 
 **"Give it a few weeks"**
 
@@ -362,7 +352,7 @@ Rating: 4 stars
 
 — *Mark P., 50*
 
-### Review 5 — Mental Clarity
+### Review 4 — Mental Clarity
 
 **"The 3pm wall is gone"**
 
@@ -372,17 +362,7 @@ Rating: 5 stars
 
 — *Michael S., 52*
 
-### Review 6 — Trust / Transparency
-
-**"Finally a brand that publishes their lab results"**
-
-Rating: 5 stars
-
-"I researched NMN for a year before buying anything. Most brands make big claims with zero proof. Baseline actually shows you what's in it. Already told three friends."
-
-— *Lisa K., 44*
-
-### Review 7 — Parental Presence (B4 avatar match)
+### Review 5 — Parental Presence (B4 avatar match)
 
 **"I stopped saying 'maybe later' to my kids"**
 
@@ -392,7 +372,7 @@ Rating: 5 stars
 
 — *Chris D., 47*
 
-### Review 8 — The Invisible Woman (B5 avatar match)
+### Review 6 — The Invisible Woman (B5 avatar match)
 
 **"Not another collagen pitch"**
 
@@ -402,7 +382,7 @@ Rating: 5 stars
 
 — *Jennifer A., 46*
 
-### Review 9 — Brand Comparison (B3 avatar match)
+### Review 7 — Brand Comparison (B3 avatar match)
 
 **"Spent $400 on NMN that did nothing"**
 
