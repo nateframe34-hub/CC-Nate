@@ -429,7 +429,8 @@
       </style>
     </noscript>
 
-    <link rel="stylesheet" href="{{ 'base.css' | asset_url }}">
+    <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ 'base.css' | asset_url }}"></noscript>
     {% if is_rtl %}
       <link rel="preload" href="{{ 'rtl.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
       <noscript><link rel="stylesheet" href="{{ 'rtl.css' | asset_url }}"></noscript>
