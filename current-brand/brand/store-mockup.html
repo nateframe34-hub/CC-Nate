@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Baseline NMN — Store Mockup</title>
+<title>Baseline NMN | Pure NMN Supplement — 500mg, 60 Capsules</title>
+<meta name="description" content="99%+ pure NMN supplement, enzymatic synthesis, independently tested every batch. 500mg clinical dose. Support healthy NAD+ levels. Subscribe and save.">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -219,18 +220,12 @@
   .hero-subtitle strong {
     color: var(--text);
   }
-  .hero-who {
-    font-size: 14px;
-    color: var(--text-tertiary);
-    font-style: italic;
-    margin-bottom: 28px;
-    padding-bottom: 28px;
-    border-bottom: 1px solid var(--outline-button);
-  }
 
   /* Price display */
   .price-block {
     margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--outline-button);
   }
   .price-row {
     display: flex;
@@ -447,6 +442,33 @@
   .collapsible-header .icon {
     color: var(--text-tertiary);
     font-size: 18px;
+    transition: transform 0.2s;
+  }
+  .collapsible-content {
+    display: none;
+    padding-top: 12px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+  .collapsible.open .collapsible-content {
+    display: block;
+  }
+  .collapsible.open .icon {
+    transform: rotate(45deg);
+  }
+  .collapsible-content ul {
+    list-style: none;
+    margin-top: 12px;
+  }
+  .collapsible-content ul li {
+    padding: 2px 0;
+    font-size: 13px;
+  }
+  .collapsible-content ul li::before {
+    content: '· ';
+    color: var(--accent-2);
+    font-weight: 700;
   }
 
   /* ======================= */
@@ -616,6 +638,14 @@
   .comparison-table tbody tr:last-child td {
     border-bottom: none;
   }
+  .comparison-below {
+    max-width: 780px;
+    margin: 32px auto 0;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    text-align: center;
+  }
   .table-cta {
     text-align: center;
     margin-top: 36px;
@@ -753,6 +783,12 @@
     color: var(--text-tertiary);
     font-style: italic;
   }
+  .review-disclaimer {
+    font-size: 11px;
+    color: var(--text-tertiary);
+    font-style: italic;
+    margin-top: 4px;
+  }
 
   /* ======================= */
   /* GUARANTEE + CTA SECTION  */
@@ -888,6 +924,7 @@
     color: var(--accent-2);
     font-size: 20px;
     font-weight: 400;
+    transition: transform 0.2s;
   }
   .faq-answer {
     padding: 0 0 20px;
@@ -901,6 +938,32 @@
   }
   .faq-item.open .faq-toggle {
     transform: rotate(45deg);
+  }
+  .faq-show-more {
+    text-align: center;
+    margin-top: 24px;
+  }
+  .faq-show-more button {
+    background: none;
+    border: 2px solid var(--outline-button);
+    border-radius: 10px;
+    padding: 12px 28px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .faq-show-more button:hover {
+    border-color: var(--accent-1);
+    color: var(--accent-1);
+  }
+  .faq-extra {
+    display: none;
+  }
+  .faq-extra.visible {
+    display: block;
   }
 
   /* ======================= */
@@ -1141,13 +1204,30 @@
       <!-- Collapsibles -->
       <div class="collapsibles">
         <div class="collapsible">
-          <div class="collapsible-header">What's Inside <span class="icon">+</span></div>
+          <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">What's Inside <span class="icon">+</span></div>
+          <div class="collapsible-content">
+            <p><strong>Pure NMN. Nothing else.</strong></p>
+            <p style="margin-top: 8px;">500mg daily dose (2 capsules). 99%+ purity via enzymatic synthesis — the cleanest production method available. No fillers, no proprietary blends, no mystery ingredients. Every milligram is accounted for.</p>
+            <ul style="margin-top: 12px;">
+              <li>Serving Size: 2 Capsules</li>
+              <li>Servings Per Container: 60</li>
+              <li>NMN (Nicotinamide Mononucleotide): 250mg per capsule (500mg daily dose)</li>
+              <li>Other Ingredients: Vegetable cellulose capsule</li>
+              <li>Vegan. Gluten-free. No artificial colors or preservatives.</li>
+            </ul>
+          </div>
         </div>
         <div class="collapsible">
-          <div class="collapsible-header">How to Take <span class="icon">+</span></div>
+          <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">How to Take <span class="icon">+</span></div>
+          <div class="collapsible-content">
+            <p>Take 2 capsules daily with or without food, preferably in the morning. NMN works best with consistent daily use — most people report noticing a difference within 2-4 weeks.</p>
+          </div>
         </div>
         <div class="collapsible">
-          <div class="collapsible-header">Shipping & Returns <span class="icon">+</span></div>
+          <div class="collapsible-header" onclick="this.parentElement.classList.toggle('open')">Shipping & Returns <span class="icon">+</span></div>
+          <div class="collapsible-content">
+            <p>Free shipping on all orders. Ships within 1-2 business days. 30-day money-back guarantee — if you're not happy, we'll refund you. No hoops.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -1197,20 +1277,20 @@
       <div class="step">
         <div class="step-number">01</div>
         <h3 class="serif">Take 2 Capsules Daily</h3>
-        <p>Two capsules. Morning. With or without food. That's your entire routine. 500mg of pure NMN — the same dose used in clinical human research.</p>
+        <p>Two capsules. Morning. With or without food. That's your entire routine. 500mg of pure NMN — the same dose used in clinical human research. No loading phase. No cycling. No complicated protocol.</p>
       </div>
       <div class="step">
         <div class="step-number">02</div>
-        <h3 class="serif">Your Body Does What It Already Knows</h3>
-        <p>NMN is a direct precursor to NAD+. You're just giving your cells more of what they've been running low on. No learning curve — your body already knows this pathway.</p>
+        <h3 class="serif">Your Body Does What It Already Knows How to Do</h3>
+        <p>Your body isn't learning something new here. NMN is a direct precursor to NAD+ — the molecule your cells already use to produce energy, support cellular maintenance, and keep everything running. You're just giving it more of what it's been running low on.</p>
       </div>
       <div class="step">
         <div class="step-number">03</div>
         <h3 class="serif">You Start Feeling Like You Again</h3>
-        <p>More consistent energy. Sharper focus. That thing where you get to 4pm and you're still <em>there</em>. Not a stimulant spike and crash. A higher baseline.</p>
+        <p>More consistent energy. Sharper focus. That thing where you get to 4pm and you're still <em>there</em> — still present, still engaged, still you. Not a stimulant spike and crash. A higher baseline. The kind of change that's subtle until someone else notices it first.</p>
       </div>
     </div>
-    <p class="steps-footer">No proprietary blend to decode. No 12-ingredient stack to research. One molecule. Clinically dosed. Independently verified.</p>
+    <p class="steps-footer">That's it. No proprietary blend to decode. No 12-ingredient stack to research. One molecule. Clinically dosed. Independently verified.</p>
   </div>
 </section>
 
@@ -1218,7 +1298,7 @@
 <section class="bg-cream">
   <div class="section">
     <div class="section-header">
-      <h2 class="serif">What You're Actually Getting</h2>
+      <h2 class="serif">What You're Actually Getting vs. What Most Brands Sell You</h2>
       <p>Not all NMN is created equal. Here's what's actually different.</p>
     </div>
     <div class="comparison-table-wrap">
@@ -1239,44 +1319,51 @@
             <td>99%+ verified</td>
           </tr>
           <tr>
-            <td>Synthesis</td>
+            <td>Synthesis method</td>
             <td>Chemical (residual solvents)</td>
             <td>Varies / undisclosed</td>
             <td>Enzymatic (clean)</td>
           </tr>
           <tr>
-            <td>Daily Dose</td>
+            <td>Daily dose</td>
             <td>50–250mg</td>
             <td>250–500mg</td>
             <td>500mg (clinical)</td>
           </tr>
           <tr>
-            <td>Independent Testing</td>
+            <td>Independent testing</td>
             <td>No</td>
             <td>"Third-party tested" badge</td>
             <td>Every batch, US lab</td>
           </tr>
           <tr>
-            <td>Fillers</td>
+            <td>Fillers / proprietary blends</td>
             <td>Yes</td>
             <td>Often</td>
             <td>None</td>
           </tr>
           <tr>
+            <td>Published test results</td>
+            <td>No</td>
+            <td>Rarely</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
             <td>Supply</td>
-            <td>30 days</td>
+            <td>30 days (too short to feel results)</td>
             <td>30–60 days</td>
             <td>60 days (full protocol)</td>
           </tr>
           <tr>
-            <td>Price/Day</td>
+            <td>Price per day</td>
             <td>$0.50–0.83</td>
             <td>$1.50–2.50</td>
-            <td>$0.83 ($0.72 sub)</td>
+            <td>$0.83 ($0.72 subscribed)</td>
           </tr>
         </tbody>
       </table>
     </div>
+    <p class="comparison-below">Budget NMN is a gamble — you don't know what's in the bottle, and at those doses, it may not matter. Other premium brands make claims but rarely prove them — and charge $1.50-2.50/day for the privilege. Baseline costs less than most premium brands and backs every claim with independent lab results. You're not paying more for marketing. You're paying for what's actually inside.</p>
     <div class="table-cta">
       <button class="btn-secondary" style="display: inline-block; width: auto; padding: 16px 40px;">See What's Actually in the Bottle — $49.95</button>
     </div>
@@ -1294,7 +1381,7 @@
       <div class="science-cards">
         <div class="science-card">
           <h4 class="serif">NAD+ Decline with Age</h4>
-          <p>NAD+ levels naturally decline with age — research shows they can drop by as much as 50% between your 30s and 60s. NAD+ is involved in hundreds of cellular processes, including energy production and cellular maintenance.</p>
+          <p>NAD+ levels naturally decline with age — research shows they can drop by as much as 50% between your 30s and 60s. NAD+ is involved in hundreds of cellular processes, including energy production and cellular maintenance. When levels drop, your cells have less to work with.</p>
         </div>
         <div class="science-card">
           <h4 class="serif">NMN → NAD+ Pathway</h4>
@@ -1302,7 +1389,7 @@
         </div>
         <div class="science-card">
           <h4 class="serif">What Higher NAD+ Means for You</h4>
-          <p>Higher NAD+ levels are associated with healthy cellular function. People who supplement with NMN commonly report sustained energy, sharper focus, and better daily performance. A higher baseline.</p>
+          <p>Higher NAD+ levels are associated with healthy cellular function. People who supplement with NMN commonly report sustained energy, sharper focus, and better daily performance. Not a spike and crash — a higher baseline.</p>
         </div>
       </div>
       <ul class="science-bullets">
@@ -1326,22 +1413,22 @@
       <div class="benefit-card">
         <div class="benefit-icon">⬡</div>
         <h4 class="serif">99%+ Purity, Enzymatic Synthesis</h4>
-        <p>Cleaner than chemical synthesis, with fewer impurities and better bioavailability. The way NMN is produced in nature.</p>
+        <p>Enzymatic synthesis mirrors how NMN is produced in nature — cleaner than chemical synthesis, with fewer impurities and better bioavailability.</p>
       </div>
       <div class="benefit-card">
         <div class="benefit-icon">⊘</div>
         <h4 class="serif">Every Batch Independently Tested</h4>
-        <p>Purity, potency, heavy metals, microbial contamination — all verified by a US-based independent lab.</p>
+        <p>Every production batch is tested by a US-based independent lab. Purity, potency, heavy metals, microbial contamination — all verified. What's on the label is what's in the bottle.</p>
       </div>
       <div class="benefit-card">
         <div class="benefit-icon">Rx</div>
         <h4 class="serif">500mg Clinical Dose</h4>
-        <p>The dose used in published human NMN research. Not 50mg. Not 125mg. What the science is actually based on.</p>
+        <p>Not 50mg. Not 125mg. 500mg daily — the dose used in published human NMN research. This is what the science is actually based on.</p>
       </div>
       <div class="benefit-card">
         <div class="benefit-icon">◉</div>
-        <h4 class="serif">No Fillers. No Blends.</h4>
-        <p>One ingredient: NMN. The full formula is on the label. Every milligram is accounted for.</p>
+        <h4 class="serif">No Fillers. No Proprietary Blends.</h4>
+        <p>One ingredient: NMN. The full formula is on the label. Every milligram is NMN. Every milligram is accounted for.</p>
       </div>
     </div>
   </div>
@@ -1354,41 +1441,71 @@
       <h2 class="serif">What Customers Are Saying</h2>
     </div>
     <div class="reviews-grid">
+      <!-- Review 1 — Energy / The Restorer -->
       <div class="review-card">
         <div class="review-stars">★★★★★</div>
         <p class="review-title">"First supplement I've trusted in years"</p>
-        <p class="review-body">I have a rule — if I can't verify what's in it, I don't take it. Baseline passed every test I threw at it. Two months in, my afternoon energy is noticeably more consistent.</p>
+        <p class="review-body">I have a rule — if I can't verify what's in it, I don't take it. Baseline passed every test I threw at it. Two months in, my afternoon energy is noticeably more consistent. Not a jolt — more like my normal came back. This is the first supplement I've reordered in years.</p>
         <p class="review-author">— David R., 54</p>
       </div>
+      <!-- Review 2 — Simplicity -->
       <div class="review-card">
         <div class="review-stars">★★★★★</div>
         <p class="review-title">"Finally, a brand that doesn't try to confuse you"</p>
-        <p class="review-body">One ingredient. Real dose. Independent testing. That's all I wanted. Every other NMN brand has some proprietary blend trying to justify their price. Baseline is just... honest.</p>
+        <p class="review-body">One ingredient. Real dose. Independent testing. That's all I wanted. Every other NMN brand has some proprietary blend or 8-ingredient stack trying to justify their price. Baseline is just... honest. And I'm waking up feeling like I actually slept.</p>
         <p class="review-author">— Karen M., 48</p>
       </div>
+      <!-- Review 3 — Skeptic Converted -->
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-title">"I was the biggest NMN skeptic. Not anymore."</p>
+        <p class="review-body">I tried two other NMN brands from Amazon — noticed nothing. Wrote off NMN entirely. My daughter convinced me to try Baseline because of the independent testing. Six weeks in and I genuinely feel like I have more in the tank. I think the other brands were just... nothing.</p>
+        <p class="review-author">— Robert T., 61</p>
+      </div>
+      <!-- Review 4 — Honest / Pratfall -->
       <div class="review-card">
         <div class="review-stars">★★★★☆</div>
         <p class="review-title">"Took a few weeks, but I'm glad I stuck with it"</p>
-        <p class="review-body">I didn't notice anything the first two weeks and almost gave up. But around week three something shifted. My energy through the afternoon got more consistent. It's not dramatic, it's subtle. But it's real.</p>
+        <p class="review-body">I'll be honest — I didn't notice anything the first two weeks and almost gave up. But around week three something shifted. My energy through the afternoon got more consistent and I stopped reaching for that second coffee. It's not dramatic, it's subtle. But it's real. Only reason for 4 stars is I wish it kicked in faster.</p>
         <p class="review-author">— Mark P., 50</p>
       </div>
+      <!-- Review 5 — Mental Clarity -->
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-title">"I can actually focus through the afternoon now"</p>
+        <p class="review-body">About three weeks in, the afternoon wall I'd been hitting for years started to ease. I can focus through meetings without fading out. My wife noticed before I did — said I seemed more 'present.' Subtle but unmistakable.</p>
+        <p class="review-author">— Michael S., 52</p>
+      </div>
+      <!-- Review 6 — Trust / Transparency -->
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-title">"Finally — a brand I'd actually recommend"</p>
+        <p class="review-body">I've been researching NMN for over a year. Most brands make big claims with zero proof. Baseline actually publishes their test results. The clean formula, the real dosing, the independent testing — it's everything the supplement industry should be but isn't. Already told three friends about it.</p>
+        <p class="review-author">— Lisa K., 44</p>
+      </div>
+      <!-- Review 7 — Parental Presence (B4) -->
       <div class="review-card">
         <div class="review-stars">★★★★★</div>
         <p class="review-title">"My kids got their dad back"</p>
-        <p class="review-body">I'm 47 with two kids under 10. I was the guy who said 'maybe later' to everything by 5pm. Three months on Baseline and the biggest change isn't how I feel. It's how my kids look at me when I say yes instead of later.</p>
+        <p class="review-body">I'm 47 with two kids under 10. I was the guy who said 'maybe later' to everything by 5pm — too tired to play catch, too wiped to stay up for movie night. Three months on Baseline and the biggest change isn't how I feel. It's how my kids look at me when I say yes instead of later.</p>
         <p class="review-author">— Chris D., 47</p>
+        <p class="review-disclaimer">Individual results may vary.</p>
       </div>
+      <!-- Review 8 — The Invisible Woman (B5) -->
       <div class="review-card">
         <div class="review-stars">★★★★★</div>
         <p class="review-title">"The first supplement that actually gets it"</p>
-        <p class="review-body">Perimenopause hit me at 46. Energy gone. Focus gone. Every brand sold me collagen and wrinkle cream. I don't care about wrinkles — I want to FUNCTION. Two months in and the afternoon fog has lifted.</p>
+        <p class="review-body">Perimenopause hit me at 46. Energy gone. Focus gone. Every brand sold me collagen and wrinkle cream. I don't care about wrinkles — I want to FUNCTION. Baseline is the first brand that seemed to understand that. Two months in and the afternoon fog has lifted. I feel like my cells woke up.</p>
         <p class="review-author">— Jennifer A., 46</p>
+        <p class="review-disclaimer">Individual results may vary.</p>
       </div>
+      <!-- Review 9 — NMN Brand Comparison (B3) -->
       <div class="review-card">
         <div class="review-stars">★★★★★</div>
         <p class="review-title">"I've spent $400 on NMN that did nothing"</p>
-        <p class="review-body">Two different NMN brands from Amazon. Both 'third-party tested.' Neither did anything. The difference is real — I can verify what's actually in this bottle. Four weeks in and I'm a believer.</p>
+        <p class="review-body">Two different NMN brands from Amazon. Both 'third-party tested.' Neither did anything. I was done with NMN until a friend showed me Baseline's testing approach. The difference is real — I can verify what's actually in this bottle. Four weeks in and I'm a believer.</p>
         <p class="review-author">— Alex W., 52</p>
+        <p class="review-disclaimer">Individual results may vary.</p>
       </div>
     </div>
   </div>
@@ -1401,11 +1518,11 @@
       <div class="guarantee-blocks">
         <div class="guarantee-block money-back">
           <h4 class="serif">30-Day Money-Back Guarantee</h4>
-          <p>Try it for a full month. If you're not happy with it, email us and we'll refund you. No return shipping. No restocking fees. No hoops.</p>
+          <p>Try it for a full month. If you're not happy with it, email us and we'll refund you. No return shipping. No restocking fees. No 47-question survey. We'd rather lose a sale than keep a customer who isn't satisfied.</p>
         </div>
         <div class="guarantee-block subscribe">
           <h4 class="serif">Subscribe & Save — <span class="highlight">$42.95</span> Every 60 Days</h4>
-          <p>$0.72/day instead of $0.83/day. Ships automatically. Skip, pause, or cancel anytime with one click. You've already decided to invest in your health — we just make it easy to stay consistent.</p>
+          <p>$0.72/day instead of $0.83/day. Ships automatically every 60 days. Skip, pause, or cancel anytime with one click. You've already decided to invest in your health — we just make it easy to stay consistent.</p>
         </div>
         <div class="guarantee-block launch">
           <h4 class="serif">Launch Pricing — Won't Last</h4>
@@ -1414,7 +1531,7 @@
         </div>
         <div class="guarantee-block shipping">
           <h4 class="serif">Free Shipping on Every Order</h4>
-          <p>Every order ships free. Subscription or one-time. No minimum. Delivered within 3–5 business days.</p>
+          <p>Every order ships free. Subscription or one-time. No minimum. Delivered to your door within 3-5 business days.</p>
         </div>
       </div>
 
@@ -1425,7 +1542,7 @@
         <p>30-day guarantee. If you don't feel it, we refund you. No hoops.</p>
         <p class="cta-price">$0.83/day · 60-day supply · Free shipping</p>
         <button class="btn-copper">Start Your 60-Day Protocol — $49.95</button>
-        <p class="final-sub-text">or Subscribe & Save: <strong>$42.95 every 60 days</strong></p>
+        <p class="final-sub-text">or Subscribe & Save: <strong>$42.95 every 60 days</strong> — lock in launch pricing before it goes up.</p>
       </div>
     </div>
   </div>
@@ -1439,33 +1556,34 @@
       <p>Everything you need to know before you order.</p>
     </div>
     <div class="faq-list">
+      <!-- Top 8 FAQs — visible by default -->
       <div class="faq-item open">
         <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
           How long until I notice a difference?
           <span class="faq-toggle">+</span>
         </div>
-        <div class="faq-answer">Most people report noticing changes within 2–4 weeks of consistent daily use. The most commonly reported early benefits are more consistent energy and improved sleep quality. NMN works at the cellular level, so the effects build over time — it's not a stimulant.</div>
+        <div class="faq-answer">Most people report noticing changes within 2-4 weeks of consistent daily use. The most commonly reported early benefits are more consistent energy and improved sleep quality. NMN works at the cellular level, so the effects build over time — it's not a stimulant. Some benefits (like recovery and focus) become more noticeable around the 4-8 week mark.</div>
       </div>
       <div class="faq-item">
         <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
           Is NMN safe?
           <span class="faq-toggle">+</span>
         </div>
-        <div class="faq-answer">NMN has been studied in both animal and human clinical trials and has a strong safety profile at the doses used in research (250–500mg daily). NMN is also a naturally occurring molecule — your body already produces it. As with any supplement, consult your doctor if you have specific health conditions.</div>
+        <div class="faq-answer">NMN has been studied in both animal and human clinical trials and has a strong safety profile at the doses used in research (250-500mg daily). NMN is also a naturally occurring molecule — your body already produces it. As with any supplement, consult your doctor if you have specific health conditions or take prescription medications.</div>
       </div>
       <div class="faq-item">
         <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
           How is Baseline different from other NMN brands?
           <span class="faq-toggle">+</span>
         </div>
-        <div class="faq-answer">Three things. First, purity — 99%+ pure via enzymatic synthesis. Second, testing — every batch independently tested by a US-based lab. Third, dosing — 500mg daily, the dose used in published research. No proprietary blends. No filler ingredients. No guesswork.</div>
+        <div class="faq-answer">Three things. First, purity — our NMN is 99%+ pure, produced through enzymatic synthesis (not the cheaper chemical process). Second, testing — every single batch is independently tested by a US-based lab for purity, potency, heavy metals, and microbial contamination. Third, dosing — 500mg daily, the dose used in published human NMN research. No proprietary blends. No filler ingredients. No guesswork.</div>
       </div>
       <div class="faq-item">
         <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
           I tried NMN before and it didn't work. Why would this be different?
           <span class="faq-toggle">+</span>
         </div>
-        <div class="faq-answer">Independent testing has shown that many NMN products sold online contain far less NMN than labeled — some contain almost none. If you tried a cheap or unverified product and noticed nothing, the issue may not have been NMN itself — it may have been what was actually in the bottle.</div>
+        <div class="faq-answer">Independent testing has shown that a significant percentage of NMN products sold online contain far less NMN than labeled — some contain almost none. If you tried a cheap or unverified NMN product and noticed nothing, the issue may not have been NMN itself — it may have been what was actually in the bottle. Baseline is independently tested every batch so you know you're getting what the label says.</div>
       </div>
       <div class="faq-item">
         <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
@@ -1476,24 +1594,103 @@
       </div>
       <div class="faq-item">
         <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
-          Why is Baseline $49.95 when some brands are $15–20?
+          Can I take NMN with other supplements?
           <span class="faq-toggle">+</span>
         </div>
-        <div class="faq-answer">Because the cheaper options cut corners you can't see. Chemical synthesis. No independent testing. Underdosed capsules. Proprietary blends. Baseline costs more because real purity, real dosing, and real testing cost more. You're paying for what's actually in the bottle.</div>
+        <div class="faq-answer">Yes. NMN is commonly taken alongside other supplements. Some people pair it with resveratrol or TMG (trimethylglycine), though NMN works effectively on its own at the 500mg dose. If you take prescription medications, check with your doctor first.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          Why is Baseline $49.95 when some NMN brands are $15–20?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Because the cheaper options cut corners you can't see. Chemical synthesis instead of enzymatic. No independent testing. Underdosed capsules. Proprietary blends that hide how much NMN you're actually getting. Baseline costs more because real purity, real dosing, and real testing cost more. You're paying for what's actually in the bottle — and the proof that it's there.</div>
       </div>
       <div class="faq-item">
         <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
           How does the subscription work?
           <span class="faq-toggle">+</span>
         </div>
-        <div class="faq-answer">$42.95 every 60 days. Ships automatically. Skip, pause, or cancel anytime — one click, no phone calls, no hoops. NMN works best with consistent daily use, and the 60-day auto-ship makes that easy.</div>
+        <div class="faq-answer">Subscribe and save — $42.95 every 60 days ($0.72/day vs $0.83/day). Your order ships automatically. You can skip a shipment, pause, or cancel anytime — one click, no phone calls, no hoops. NMN works best with consistent daily use, and a 60-day auto-ship makes that easy.</div>
       </div>
-      <div class="faq-item">
-        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
-          Can I take NMN during perimenopause or menopause?
-          <span class="faq-toggle">+</span>
+
+      <!-- Show More toggle -->
+      <div class="faq-show-more" id="faqShowMore">
+        <button onclick="document.getElementById('faqExtra').classList.add('visible'); this.parentElement.style.display='none';">Show More Questions</button>
+      </div>
+
+      <!-- Extra 8 FAQs — hidden by default -->
+      <div class="faq-extra" id="faqExtra">
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+            When should I take it?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">We recommend taking 2 capsules in the morning, with or without food. Some people find that taking NMN later in the day may affect their sleep, since it supports cellular energy production. Morning dosing lets you get the benefit throughout the day.</div>
         </div>
-        <div class="faq-answer">Yes. NAD+ decline happens alongside hormonal changes — both contribute to the fatigue many women experience during this transition. NMN supports NAD+ production at the cellular level, which addresses the energy side of the equation. As always, consult your doctor if you take prescription medications.</div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+            Where is Baseline NMN made?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">Baseline NMN is manufactured in a cGMP-certified facility and independently tested by a US-based laboratory. Every batch is verified for purity (99%+), potency, heavy metals, and microbial contamination before it ships.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+            Can I see the lab results?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">Yes. We believe in transparency, not trust-me claims. Contact us for the Certificate of Analysis (COA) for your specific batch. We're building a system to make this even easier — our goal is lab results accessible directly from every bottle.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+            Is this the same NMN from longevity research?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">Yes. NMN (nicotinamide mononucleotide) is the molecule studied in published human clinical research on NAD+ and aging. Baseline NMN uses the same form at the same clinical dose (500mg daily) referenced in that research. We don't make our own claims — we match what the science uses.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+            What's the difference between NMN and NR?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">Both NMN and NR (nicotinamide riboside) are NAD+ precursors. NMN is one step closer to NAD+ in the metabolic pathway — your body converts NMN directly into NAD+ without the extra conversion step that NR requires. Published research on both molecules continues to evolve. We chose NMN because of the growing body of human clinical evidence supporting it.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+            What happens if I stop taking NMN?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">NMN isn't addictive and doesn't create dependency. If you stop, your body continues producing NAD+ naturally — just at the lower age-related levels it was producing before supplementation. Most people who stop notice a gradual return to how they felt previously over a few weeks. There's no withdrawal or negative effect from stopping.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+            Is Baseline NMN vegan / allergen-free?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">Yes. Baseline NMN contains one ingredient (NMN) in a vegetable cellulose capsule. No gelatin. No gluten. No dairy. No soy. No nuts. No artificial colors or preservatives. Suitable for vegan diets.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+            Can I take NMN during perimenopause or menopause?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">Yes. NMN is commonly used by women in perimenopause and menopause. NAD+ decline happens alongside hormonal changes — both contribute to the fatigue and reduced energy many women experience during this transition. NMN supports NAD+ production at the cellular level, which addresses the energy side of the equation. As always, consult your doctor if you take prescription medications.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+            Why capsules instead of sublingual or powder?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">Capsules provide consistent, measurable dosing — you get exactly 250mg per capsule, 500mg per daily serving. Recent research has shown that oral NMN is well-absorbed, reaching the bloodstream effectively. Capsules are also more convenient for daily use and more stable for storage than powder or sublingual formats.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+            How many bottles should I get?
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">It depends on how committed you are. One bottle (60-day supply) is enough to feel whether NMN works for you — most people notice changes within 2-4 weeks. The 2-pack (120 days) and 3-pack (180 days) cost less per day and ensure you don't run out during the period when benefits are building. If you're not sure, start with one and subscribe — you can always upgrade later.</div>
+        </div>
       </div>
     </div>
   </div>
@@ -1541,7 +1738,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    © 2026 Baseline. All rights reserved. &nbsp;·&nbsp; Privacy Policy &nbsp;·&nbsp; Terms of Service
+    &copy; 2026 Baseline. All rights reserved. &nbsp;&middot;&nbsp; Privacy Policy &nbsp;&middot;&nbsp; Terms of Service
   </div>
 </footer>
 

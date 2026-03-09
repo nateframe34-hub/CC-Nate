@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baseline — Logo (The Monogram)</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal-deep: #0C3B3F;
+    --teal-mid: #165C5A;
+    --teal-light: #1E7A77;
+    --teal-tint: #E8F2F1;
+    --copper: #C07840;
+    --copper-light: #D4944E;
+    --cream: #F5F0E8;
+    --cream-dark: #EBE4D8;
+    --near-black: #1A1A1A;
+    --text-secondary: #5A5550;
+    --text-tertiary: #8A8480;
+    --border: #DDD6CC;
+    --white: #FFFFFF;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: var(--cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 80px;
+    padding: 60px 40px;
+  }
+
+  h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-tertiary);
+    text-align: center;
+  }
+
+  .logo-variants {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .variant-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-tertiary);
+    margin-bottom: 16px;
+  }
+
+  /* ======================= */
+  /* LOGO STAGES             */
+  /* ======================= */
+  .logo-stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 48px;
+  }
+
+  .logo-stage-dark {
+    background: var(--teal-deep);
+  }
+
+  .logo-stage-light {
+    background: var(--white);
+    border: 1px solid var(--border);
+  }
+
+  .logo-stage-cream {
+    background: var(--cream-dark);
+  }
+
+  /* ======================= */
+  /* THE MONOGRAM MARK       */
+  /* ======================= */
+  .mark-monogram {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .mark-monogram-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--teal-mid);
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .mark-monogram-icon .mono-b {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--cream);
+    line-height: 1;
+    position: relative;
+  }
+
+  .mark-monogram-icon .mono-line {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .mark-monogram-icon .mono-line span {
+    flex: 1;
+    background: var(--copper);
+    border-radius: 1px;
+  }
+
+  .mark-monogram-word {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cream);
+    letter-spacing: -0.5px;
+  }
+
+  .mark-monogram-word-dark {
+    color: var(--teal-deep);
+  }
+
+  /* ======================= */
+  /* SIZE VARIANTS            */
+  /* ======================= */
+
+  /* Large */
+  .mark-monogram.size-lg .mark-monogram-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 16px;
+  }
+  .mark-monogram.size-lg .mark-monogram-icon .mono-b {
+    font-size: 44px;
+  }
+  .mark-monogram.size-lg .mark-monogram-icon .mono-line {
+    left: 21px;
+    height: 36px;
+    width: 3px;
+    gap: 4px;
+  }
+  .mark-monogram.size-lg .mark-monogram-word {
+    font-size: 52px;
+  }
+  .mark-monogram.size-lg {
+    gap: 20px;
+  }
+
+  /* Small */
+  .mark-monogram.size-sm .mark-monogram-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+  }
+  .mark-monogram.size-sm .mark-monogram-icon .mono-b {
+    font-size: 20px;
+  }
+  .mark-monogram.size-sm .mark-monogram-icon .mono-line {
+    left: 9px;
+    height: 16px;
+    width: 1.5px;
+    gap: 2px;
+  }
+  .mark-monogram.size-sm .mark-monogram-word {
+    font-size: 24px;
+  }
+  .mark-monogram.size-sm {
+    gap: 10px;
+  }
+
+  /* Icon only */
+  .mark-monogram.icon-only .mark-monogram-word {
+    display: none;
+  }
+
+  /* Icon only large */
+  .icon-only-lg .mark-monogram-icon {
+    width: 96px;
+    height: 96px;
+    border-radius: 22px;
+  }
+  .icon-only-lg .mark-monogram-icon .mono-b {
+    font-size: 58px;
+  }
+  .icon-only-lg .mark-monogram-icon .mono-line {
+    left: 28px;
+    height: 48px;
+    width: 3px;
+    gap: 5px;
+  }
+
+  /* ======================= */
+  /* ICON ROW                 */
+  /* ======================= */
+  .icon-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  /* ======================= */
+  /* RESPONSIVE               */
+  /* ======================= */
+  @media (max-width: 600px) {
+    body { padding: 40px 20px; gap: 48px; }
+    .logo-stage { padding: 32px 24px; }
+    .mark-monogram.size-lg .mark-monogram-icon { width: 56px; height: 56px; }
+    .mark-monogram.size-lg .mark-monogram-icon .mono-b { font-size: 34px; }
+    .mark-monogram.size-lg .mark-monogram-word { font-size: 40px; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Baseline — Logo: The Monogram</h1>
+
+<div class="logo-variants">
+
+  <!-- On Dark Background (Primary) -->
+  <div>
+    <p class="variant-label">On Dark — Primary</p>
+    <div class="logo-stage logo-stage-dark">
+      <div class="mark-monogram size-lg">
+        <div class="mark-monogram-icon">
+          <span class="mono-b">B</span>
+          <div class="mono-line">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <span class="mark-monogram-word">Baseline</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- On Light Background -->
+  <div>
+    <p class="variant-label">On Light — Reversed</p>
+    <div class="logo-stage logo-stage-light">
+      <div class="mark-monogram size-lg">
+        <div class="mark-monogram-icon" style="background: var(--teal-deep);">
+          <span class="mono-b">B</span>
+          <div class="mono-line">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <span class="mark-monogram-word mark-monogram-word-dark">Baseline</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- On Cream Background -->
+  <div>
+    <p class="variant-label">On Cream — Brand Background</p>
+    <div class="logo-stage logo-stage-cream">
+      <div class="mark-monogram size-lg">
+        <div class="mark-monogram-icon" style="background: var(--teal-deep);">
+          <span class="mono-b">B</span>
+          <div class="mono-line">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <span class="mark-monogram-word mark-monogram-word-dark">Baseline</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Size Comparison -->
+  <div>
+    <p class="variant-label">Size Variants</p>
+    <div class="logo-stage logo-stage-dark" style="flex-direction: column; gap: 32px; align-items: flex-start; padding: 48px 64px;">
+      <div class="mark-monogram size-lg">
+        <div class="mark-monogram-icon">
+          <span class="mono-b">B</span>
+          <div class="mono-line"><span></span><span></span><span></span></div>
+        </div>
+        <span class="mark-monogram-word">Baseline</span>
+      </div>
+      <div class="mark-monogram">
+        <div class="mark-monogram-icon">
+          <span class="mono-b">B</span>
+          <div class="mono-line"><span></span><span></span><span></span></div>
+        </div>
+        <span class="mark-monogram-word">Baseline</span>
+      </div>
+      <div class="mark-monogram size-sm">
+        <div class="mark-monogram-icon">
+          <span class="mono-b">B</span>
+          <div class="mono-line"><span></span><span></span><span></span></div>
+        </div>
+        <span class="mark-monogram-word">Baseline</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Icon Only -->
+  <div>
+    <p class="variant-label">Icon Only — App / Favicon / Social</p>
+    <div class="logo-stage logo-stage-dark">
+      <div class="icon-row">
+        <div class="mark-monogram icon-only icon-only-lg">
+          <div class="mark-monogram-icon">
+            <span class="mono-b">B</span>
+            <div class="mono-line"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+        <div class="mark-monogram icon-only">
+          <div class="mark-monogram-icon">
+            <span class="mono-b">B</span>
+            <div class="mono-line"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+        <div class="mark-monogram icon-only size-sm">
+          <div class="mark-monogram-icon">
+            <span class="mono-b">B</span>
+            <div class="mono-line"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Icon Only on Light -->
+  <div>
+    <p class="variant-label">Icon Only — Light Background</p>
+    <div class="logo-stage logo-stage-light">
+      <div class="icon-row">
+        <div class="mark-monogram icon-only icon-only-lg">
+          <div class="mark-monogram-icon" style="background: var(--teal-deep);">
+            <span class="mono-b">B</span>
+            <div class="mono-line"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+        <div class="mark-monogram icon-only">
+          <div class="mark-monogram-icon" style="background: var(--teal-deep);">
+            <span class="mono-b">B</span>
+            <div class="mono-line"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+        <div class="mark-monogram icon-only size-sm">
+          <div class="mark-monogram-icon" style="background: var(--teal-deep);">
+            <span class="mono-b">B</span>
+            <div class="mono-line"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
