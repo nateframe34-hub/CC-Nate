@@ -1,0 +1,445 @@
+{% comment %}
+  ============================================================
+  SECTION 9: FAQ ACCORDION
+  ============================================================
+  Drop this into a Shopify Custom Liquid block.
+
+  All copy aligned to the NMN 10-in-1 product.
+  First 8 FAQs visible by default.
+  Questions 9-15 collapsed behind "Show More Questions" toggle.
+  Includes FAQPage schema markup for Google rich results.
+  ============================================================
+{% endcomment %}
+
+<style>
+  /* ── Section wrapper ── */
+  .bl-faq {
+    background: #FFFFFF;
+    padding: 80px 40px;
+  }
+  .bl-faq-inner {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .bl-faq-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .bl-faq-header h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 12px;
+    line-height: 1.2;
+  }
+  .bl-faq-header p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    color: #5A5550;
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  /* FAQ items */
+  .bl-faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .bl-faq-item {
+    border-bottom: 1px solid #E8E3DB;
+  }
+  .bl-faq-item:first-child {
+    border-top: 1px solid #E8E3DB;
+  }
+  .bl-faq-item summary {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0C3B3F;
+    padding: 20px 36px 20px 0;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    line-height: 1.4;
+  }
+  .bl-faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+  .bl-faq-item summary::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #C07840;
+    line-height: 1;
+    transition: transform 0.2s ease;
+  }
+  .bl-faq-item[open] summary::after {
+    content: '\2212';
+  }
+  .bl-faq-item .bl-faq-answer {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    color: #5A5550;
+    line-height: 1.7;
+    padding: 0 0 20px;
+    margin: 0;
+  }
+
+  /* Hidden FAQs container */
+  .bl-faq-hidden {
+    display: none;
+  }
+  .bl-faq-hidden.bl-faq-visible {
+    display: block;
+  }
+
+  /* Show More toggle */
+  .bl-faq-toggle-wrap {
+    text-align: center;
+    margin-top: 32px;
+  }
+  .bl-faq-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #C07840;
+    background: none;
+    border: 2px solid #C07840;
+    border-radius: 8px;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .bl-faq-toggle:hover {
+    background: #C07840;
+    color: #FFFFFF;
+  }
+  .bl-faq-toggle svg {
+    transition: transform 0.2s ease;
+  }
+  .bl-faq-toggle.bl-expanded svg {
+    transform: rotate(180deg);
+  }
+
+  /* FDA disclaimer */
+  .bl-fda-disclaimer {
+    text-align: center;
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid #E8E3DB;
+  }
+  .bl-fda-disclaimer p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    color: #999;
+    line-height: 1.6;
+    font-style: italic;
+    margin: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 768px) {
+    .bl-faq {
+      padding: 56px 20px;
+    }
+    .bl-faq-header h2 {
+      font-size: 28px;
+    }
+    .bl-faq-item summary {
+      font-size: 15px;
+      padding: 18px 32px 18px 0;
+    }
+  }
+</style>
+
+<section class="bl-faq">
+  <div class="bl-faq-inner">
+    <div class="bl-faq-header">
+      <h2>Frequently Asked Questions</h2>
+      <p>Everything you need to know before you order.</p>
+    </div>
+
+    <div class="bl-faq-list">
+
+      <!-- FAQ 1 -->
+      <details class="bl-faq-item">
+        <summary>How long until I notice a difference?</summary>
+        <p class="bl-faq-answer">Most people report noticing changes within 2-4 weeks of consistent daily use. The most commonly reported early benefits are more consistent energy and improved sleep quality. NMN and the supporting ingredients work at the cellular level, so the effects build over time — it's not a stimulant. Some benefits like recovery and focus become more noticeable around the 4-8 week mark.</p>
+      </details>
+
+      <!-- FAQ 2 -->
+      <details class="bl-faq-item">
+        <summary>Is this supplement safe?</summary>
+        <p class="bl-faq-answer">NMN has been studied in both animal and human clinical trials and has a strong safety profile at the doses used in research (250-500mg daily). The other ingredients in the 10-in-1 formula — resveratrol, CoQ10, glutathione, TMG, quercetin, grape seed extract, astaxanthin, and apigenin — are all well-studied and widely used in supplements. As with any supplement, consult your doctor if you have specific health conditions or take prescription medications.</p>
+      </details>
+
+      <!-- FAQ 3 -->
+      <details class="bl-faq-item">
+        <summary>What makes this different from taking NMN alone?</summary>
+        <p class="bl-faq-answer">NAD+ doesn't work in isolation inside your cells. It works alongside antioxidant defense systems (glutathione, astaxanthin, grape seed extract), sirtuin-activating pathways (resveratrol), mitochondrial energy production (CoQ10), and methylation support (TMG). The 10-in-1 formula supports the full cellular environment — not just one piece of it. Think of NMN as the fuel and the other 8 ingredients as the systems that help your cells use that fuel effectively.</p>
+      </details>
+
+      <!-- FAQ 4 -->
+      <details class="bl-faq-item">
+        <summary>Why is there a proprietary blend?</summary>
+        <p class="bl-faq-answer">The 450mg synergy blend contains 8 ingredients at a combined dose. While individual ingredient doses within the blend aren't listed separately, every ingredient was chosen based on published research for its role in cellular health. The NMN dose — which is the foundation of the formula — is fully disclosed at 500mg per serving.</p>
+      </details>
+
+      <!-- FAQ 5 -->
+      <details class="bl-faq-item">
+        <summary>I tried NMN before and it didn't work. Why would this be different?</summary>
+        <p class="bl-faq-answer">Two possible reasons. First, many NMN products are significantly underdosed — some contain far less NMN than labeled. This formula delivers 500mg, the clinical dose. Second, NMN works best when your cells have the supporting infrastructure — antioxidants, methyl donors, mitochondrial fuel. If you took NMN alone and the supporting systems were depleted, you may not have gotten the full benefit. The 10-in-1 formula addresses both.</p>
+      </details>
+
+      <!-- FAQ 6 -->
+      <details class="bl-faq-item">
+        <summary>What if it doesn't work for me?</summary>
+        <p class="bl-faq-answer">We offer a 30-day money-back guarantee. If you're not satisfied for any reason, email us and we'll refund your purchase. No return shipping required. No restocking fees.</p>
+      </details>
+
+      <!-- FAQ 7 -->
+      <details class="bl-faq-item">
+        <summary>Can I take this with other supplements?</summary>
+        <p class="bl-faq-answer">Yes. However, since this formula already contains NMN, resveratrol, CoQ10, glutathione, TMG, quercetin, astaxanthin, apigenin, and vitamin C, check what you're currently taking to avoid doubling up on any ingredients. If you take prescription medications, check with your doctor first.</p>
+      </details>
+
+      <!-- FAQ 8 -->
+      <details class="bl-faq-item">
+        <summary>Why is Baseline $49.95 when some NMN supplements are $15-20?</summary>
+        <p class="bl-faq-answer">Because this isn't just NMN. It's 500mg of NMN plus 8 additional longevity ingredients including 98% trans-resveratrol, reduced glutathione, and CoQ10. Buying these ingredients separately from quality brands would cost $150-$300/month. The 10-in-1 formula consolidates them into one serving at a fraction of the cost.</p>
+      </details>
+
+    </div>
+
+    <!-- Hidden FAQs (9-15) -->
+    <div class="bl-faq-hidden" id="blFaqMore">
+      <div class="bl-faq-list">
+
+        <!-- FAQ 9 -->
+        <details class="bl-faq-item">
+          <summary>Which bundle should I start with?</summary>
+          <p class="bl-faq-answer">If you're new to NMN, The Starter (1 bottle, 60-day supply) lets you experience the formula before committing. That said, most customers choose The Protocol (2 bottles, 120-day supply) — NMN works best with consistent daily use, and 120 days gives the formula enough time to fully build in your system. The Transformation (3 bottles, 180-day supply) is the best per-day value at $0.67/day.</p>
+        </details>
+
+        <!-- FAQ 10 -->
+        <details class="bl-faq-item">
+          <summary>When should I take it?</summary>
+          <p class="bl-faq-answer">We recommend taking 2 capsules in the morning, with or without food. Some people find that taking NMN later in the day may affect their sleep, since it supports cellular energy production. Morning dosing lets you get the benefit throughout the day.</p>
+        </details>
+
+        <!-- FAQ 11 -->
+        <details class="bl-faq-item">
+          <summary>Why 10 ingredients? Isn't simpler better?</summary>
+          <p class="bl-faq-answer">It depends on what you're trying to do. If you want just NMN, there are single-ingredient options available. But research increasingly shows that NAD+ works within a larger cellular system — antioxidant defense, methylation, mitochondrial function, sirtuin activation. The 10-in-1 formula supports the full system. It's not 10 random ingredients — it's 10 ingredients with specific, complementary roles in cellular health.</p>
+        </details>
+
+        <!-- FAQ 12 -->
+        <details class="bl-faq-item">
+          <summary>What's the difference between NMN and NR?</summary>
+          <p class="bl-faq-answer">Both NMN and NR (nicotinamide riboside) are NAD+ precursors. NMN is one step closer to NAD+ in the metabolic pathway — your body converts NMN directly into NAD+ without the extra conversion step that NR requires. Published research on both molecules continues to evolve. We chose NMN because of the growing body of human clinical evidence supporting it.</p>
+        </details>
+
+        <!-- FAQ 13 -->
+        <details class="bl-faq-item">
+          <summary>What happens if I stop taking this supplement?</summary>
+          <p class="bl-faq-answer">This formula isn't addictive and doesn't create dependency. If you stop, your body continues its normal processes — just without the supplemental support. Most people who stop notice a gradual return to how they felt previously over a few weeks. There's no withdrawal or negative effect from stopping.</p>
+        </details>
+
+        <!-- FAQ 14 -->
+        <details class="bl-faq-item">
+          <summary>Is this supplement vegan / allergen-free?</summary>
+          <p class="bl-faq-answer">Yes. The formula uses vegetable cellulose capsules. Free of wheat, gluten, soy, dairy, and tree nuts. No artificial colors or preservatives. Suitable for vegan diets.</p>
+        </details>
+
+        <!-- FAQ 15 -->
+        <details class="bl-faq-item">
+          <summary>Can I take this during perimenopause or menopause?</summary>
+          <p class="bl-faq-answer">Yes. The 10-in-1 formula is commonly used by women in perimenopause and menopause. NAD+ decline happens alongside hormonal changes — both contribute to the fatigue and reduced energy many women experience during this transition. The combination of NMN for NAD+ support, glutathione and astaxanthin for antioxidant defense, and quercetin for healthy inflammatory response addresses multiple aspects of cellular health during this time. As always, consult your doctor if you take prescription medications.</p>
+        </details>
+
+      </div>
+    </div>
+
+    <!-- Show More toggle -->
+    <div class="bl-faq-toggle-wrap">
+      <button class="bl-faq-toggle" id="blFaqToggle" aria-expanded="false" aria-controls="blFaqMore">
+        Show More Questions
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+    </div>
+
+    <!-- FDA Disclaimer -->
+    <div class="bl-fda-disclaimer">
+      <p>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- FAQPage Schema Markup (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long until I notice a difference?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most people report noticing changes within 2-4 weeks of consistent daily use. The most commonly reported early benefits are more consistent energy and improved sleep quality. NMN and the supporting ingredients work at the cellular level, so the effects build over time — it's not a stimulant. Some benefits like recovery and focus become more noticeable around the 4-8 week mark."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this supplement safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NMN has been studied in both animal and human clinical trials and has a strong safety profile at the doses used in research (250-500mg daily). The other ingredients in the 10-in-1 formula — resveratrol, CoQ10, glutathione, TMG, quercetin, grape seed extract, astaxanthin, and apigenin — are all well-studied and widely used in supplements. As with any supplement, consult your doctor if you have specific health conditions or take prescription medications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes this different from taking NMN alone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NAD+ doesn't work in isolation inside your cells. It works alongside antioxidant defense systems (glutathione, astaxanthin, grape seed extract), sirtuin-activating pathways (resveratrol), mitochondrial energy production (CoQ10), and methylation support (TMG). The 10-in-1 formula supports the full cellular environment — not just one piece of it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is there a proprietary blend?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 450mg synergy blend contains 8 ingredients at a combined dose. While individual ingredient doses within the blend aren't listed separately, every ingredient was chosen based on published research for its role in cellular health. The NMN dose — which is the foundation of the formula — is fully disclosed at 500mg per serving."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "I tried NMN before and it didn't work. Why would this be different?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Two possible reasons. First, many NMN products are significantly underdosed. This formula delivers 500mg, the clinical dose. Second, NMN works best when your cells have the supporting infrastructure — antioxidants, methyl donors, mitochondrial fuel. The 10-in-1 formula addresses both."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if it doesn't work for me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer a 30-day money-back guarantee. If you're not satisfied for any reason, email us and we'll refund your purchase. No return shipping required. No restocking fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I take this with other supplements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. However, since this formula already contains NMN, resveratrol, CoQ10, glutathione, TMG, quercetin, astaxanthin, apigenin, and vitamin C, check what you're currently taking to avoid doubling up on any ingredients. If you take prescription medications, check with your doctor first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Baseline $49.95 when some NMN supplements are $15-20?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because this isn't just NMN. It's 500mg of NMN plus 8 additional longevity ingredients including 98% trans-resveratrol, reduced glutathione, and CoQ10. Buying these ingredients separately from quality brands would cost $150-$300/month. The 10-in-1 formula consolidates them into one serving at a fraction of the cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which bundle should I start with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you're new to NMN, The Starter (1 bottle, 60-day supply) lets you experience the formula before committing. Most customers choose The Protocol (2 bottles, 120-day supply) — NMN works best with consistent daily use, and 120 days gives the formula enough time to fully build in your system. The Transformation (3 bottles, 180-day supply) is the best per-day value at $0.67/day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I take it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We recommend taking 2 capsules in the morning, with or without food. Some people find that taking NMN later in the day may affect their sleep, since it supports cellular energy production. Morning dosing lets you get the benefit throughout the day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why 10 ingredients? Isn't simpler better?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on what you're trying to do. If you want just NMN, there are single-ingredient options available. But research increasingly shows that NAD+ works within a larger cellular system — antioxidant defense, methylation, mitochondrial function, sirtuin activation. The 10-in-1 formula supports the full system. It's not 10 random ingredients — it's 10 ingredients with specific, complementary roles in cellular health."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between NMN and NR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both NMN and NR (nicotinamide riboside) are NAD+ precursors. NMN is one step closer to NAD+ in the metabolic pathway — your body converts NMN directly into NAD+ without the extra conversion step that NR requires. We chose NMN because of the growing body of human clinical evidence supporting it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I stop taking this supplement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This formula isn't addictive and doesn't create dependency. If you stop, your body continues its normal processes — just without the supplemental support. Most people who stop notice a gradual return to how they felt previously over a few weeks. There's no withdrawal or negative effect from stopping."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this supplement vegan / allergen-free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The formula uses vegetable cellulose capsules. Free of wheat, gluten, soy, dairy, and tree nuts. No artificial colors or preservatives. Suitable for vegan diets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I take this during perimenopause or menopause?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The 10-in-1 formula is commonly used by women in perimenopause and menopause. NAD+ decline happens alongside hormonal changes — both contribute to the fatigue and reduced energy many women experience during this transition. The combination of NMN for NAD+ support, glutathione and astaxanthin for antioxidant defense, and quercetin for healthy inflammatory response addresses multiple aspects of cellular health during this time. As always, consult your doctor if you take prescription medications."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Show More Toggle Script -->
+<script>
+  (function() {
+    var toggleBtn = document.getElementById('blFaqToggle');
+    var hiddenFaqs = document.getElementById('blFaqMore');
+    if (!toggleBtn || !hiddenFaqs) return;
+
+    toggleBtn.addEventListener('click', function() {
+      var isExpanded = hiddenFaqs.classList.contains('bl-faq-visible');
+      if (isExpanded) {
+        hiddenFaqs.classList.remove('bl-faq-visible');
+        toggleBtn.classList.remove('bl-expanded');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+        toggleBtn.innerHTML = 'Show More Questions <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>';
+      } else {
+        hiddenFaqs.classList.add('bl-faq-visible');
+        toggleBtn.classList.add('bl-expanded');
+        toggleBtn.setAttribute('aria-expanded', 'true');
+        toggleBtn.innerHTML = 'Show Fewer Questions <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>';
+      }
+    });
+  })();
+</script>
