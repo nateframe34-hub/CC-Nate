@@ -49,15 +49,39 @@
     color: #0C3B3F;
     line-height: 1.4;
     margin: 0 0 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .ity-quote .ity-toggle {
+    flex-shrink: 0;
+    font-size: 14px;
+    font-style: normal;
+    color: #C07840;
+    transition: transform 0.3s ease;
+    line-height: 1.4;
+  }
+  .ity-card.is-open .ity-quote .ity-toggle {
+    transform: rotate(180deg);
   }
   .ity-body {
     font-size: 13px;
     color: #5A5550;
     line-height: 1.7;
     margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+  .ity-card.is-open .ity-body {
+    max-height: 300px;
+    opacity: 1;
   }
 
-  /* Desktop: 2-column grid */
+  /* Desktop: 2-column grid, always expanded */
   @media (min-width: 769px) {
     .ity-section {
       padding: 80px 40px;
@@ -91,9 +115,15 @@
     .ity-quote {
       font-size: 20px;
       margin-bottom: 12px;
+      cursor: default;
+    }
+    .ity-quote .ity-toggle {
+      display: none;
     }
     .ity-body {
       font-size: 14px;
+      max-height: none;
+      opacity: 1;
     }
   }
 </style>
@@ -105,24 +135,34 @@
   </div>
   <div class="ity-grid">
     <div class="ity-card">
-      <p class="ity-quote">"I hit a wall every afternoon — no matter how much coffee I drink."</p>
+      <p class="ity-quote" onclick="this.parentElement.classList.toggle('is-open')">"I hit a wall every afternoon — no matter how much coffee I drink." <span class="ity-toggle">&#9660;</span></p>
       <p class="ity-body">The crash isn't a caffeine problem. It's a cellular energy problem. Your cells produce less NAD+ with age — which means less sustained fuel, more crashes. NMN is what your body uses to support that fuel production.</p>
     </div>
     <div class="ity-card">
-      <p class="ity-quote">"I've tried supplements before. Nothing worked."</p>
+      <p class="ity-quote" onclick="this.parentElement.classList.toggle('is-open')">"I've tried supplements before. Nothing worked." <span class="ity-toggle">&#9660;</span></p>
       <p class="ity-body">There's a reason. Independent testing shows NMN quality varies dramatically between brands. If you tried NMN and felt nothing, the issue may not have been NMN — it may have been what was actually in the bottle.</p>
     </div>
     <div class="ity-card">
-      <p class="ity-quote">"I feel like I've aged 10 years in the last 2."</p>
+      <p class="ity-quote" onclick="this.parentElement.classList.toggle('is-open')">"I feel like I've aged 10 years in the last 2." <span class="ity-toggle">&#9660;</span></p>
       <p class="ity-body">That feeling has a name: NAD+ decline. It's measurable, it's published science, and it's addressable. Not with hype. With the molecule your cells have been running low on.</p>
     </div>
     <div class="ity-card">
-      <p class="ity-quote">"I just want enough energy to actually show up for my family."</p>
+      <p class="ity-quote" onclick="this.parentElement.classList.toggle('is-open')">"I just want enough energy to actually show up for my family." <span class="ity-toggle">&#9660;</span></p>
       <p class="ity-body">The exhaustion isn't a willpower problem. After 40, your cells produce significantly less of the molecule responsible for sustained energy. NMN supports your body's ability to produce more of it — so you have something left at 6pm.</p>
     </div>
     <div class="ity-card">
-      <p class="ity-quote">"Every 'anti-aging' product is about wrinkles. I just want to function."</p>
+      <p class="ity-quote" onclick="this.parentElement.classList.toggle('is-open')">"Every 'anti-aging' product is about wrinkles. I just want to function." <span class="ity-toggle">&#9660;</span></p>
       <p class="ity-body">The decline you're feeling isn't cosmetic — it's cellular. Alongside hormonal changes, NAD+ levels drop significantly in your 40s and 50s. NMN supports the energy side of the equation from the inside. Not cream. Fuel.</p>
     </div>
   </div>
 </div>
+
+<script>
+  // Auto-open the first card on mobile so visitors see the pattern
+  (function() {
+    if (window.innerWidth < 769) {
+      var firstCard = document.querySelector('.ity-card');
+      if (firstCard) firstCard.classList.add('is-open');
+    }
+  })();
+</script>
