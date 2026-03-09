@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baseline NMN — Store Mockup</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* Exact colors from your Shopify theme settings */
+    --solid-button-label: #FFFFFF;
+    --accent-1: #0C3B3F;       /* Deep Teal */
+    --accent-1-hover: #0A2F32;
+    --accent-2: #C07840;       /* Copper */
+    --accent-2-hover: #D4944E;
+    --text: #1A1A1A;           /* Near Black */
+    --outline-button: #DDD6CC; /* Sand/Border */
+    --bg-1: #F5F0E8;          /* Cream */
+    --bg-2: #FFFFFF;           /* White */
+
+    /* Extended palette from brand identity */
+    --teal-mid: #165C5A;
+    --teal-light: #1E7A77;
+    --teal-tint: #E8F2F1;
+    --copper-glow: rgba(192, 120, 64, 0.15);
+    --cream-dark: #EBE4D8;
+    --text-secondary: #5A5550;
+    --text-tertiary: #8A8480;
+    --success: #3B8A6E;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: var(--bg-1);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    line-height: 1.6;
+  }
+
+  .serif { font-family: 'Cormorant Garamond', serif; }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+
+  /* ======================= */
+  /* ANNOUNCEMENT BAR        */
+  /* ======================= */
+  .announcement-bar {
+    background: var(--accent-1);
+    color: var(--bg-1);
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  .announcement-bar span {
+    color: var(--accent-2);
+    font-weight: 700;
+  }
+
+  /* ======================= */
+  /* NAVIGATION              */
+  /* ======================= */
+  .nav {
+    background: var(--bg-2);
+    border-bottom: 1px solid var(--outline-button);
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .nav-logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--accent-1);
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  .nav-links {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover {
+    color: var(--accent-2);
+  }
+  .nav-cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .cart-count {
+    background: var(--accent-2);
+    color: white;
+    font-size: 10px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+
+  /* ======================= */
+  /* HERO / PRODUCT SECTION  */
+  /* ======================= */
+  .hero {
+    background: var(--bg-2);
+    padding: 60px 40px 80px;
+  }
+  .hero-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+  }
+  .hero-images {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .hero-main-image {
+    background: var(--bg-1);
+    border-radius: 12px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--outline-button);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-main-image::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(12,59,63,0.03) 0%, rgba(192,120,64,0.05) 100%);
+  }
+  .product-placeholder {
+    text-align: center;
+    color: var(--text-secondary);
+    z-index: 1;
+  }
+  .product-placeholder .bottle-icon {
+    font-size: 120px;
+    display: block;
+    margin-bottom: 12px;
+    opacity: 0.6;
+  }
+  .product-placeholder span {
+    font-size: 13px;
+    font-style: italic;
+  }
+  .hero-thumbs {
+    display: flex;
+    gap: 12px;
+  }
+  .hero-thumb {
+    width: 80px;
+    height: 80px;
+    background: var(--bg-1);
+    border-radius: 8px;
+    border: 2px solid var(--outline-button);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: var(--text-tertiary);
+    cursor: pointer;
+    transition: border-color 0.2s;
+  }
+  .hero-thumb:first-child {
+    border-color: var(--accent-1);
+  }
+  .hero-thumb:hover {
+    border-color: var(--accent-2);
+  }
+
+  .hero-info {
+    padding-top: 8px;
+  }
+  .hero-info h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--accent-1);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  .hero-subtitle {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+  }
+  .hero-subtitle strong {
+    color: var(--text);
+  }
+  .hero-who {
+    font-size: 14px;
+    color: var(--text-tertiary);
+    font-style: italic;
+    margin-bottom: 28px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--outline-button);
+  }
+
+  /* Price display */
+  .price-block {
+    margin-bottom: 24px;
+  }
+  .price-row {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 6px;
+  }
+  .price-original {
+    text-decoration: line-through;
+    color: var(--text-tertiary);
+    font-size: 16px;
+  }
+  .price-current {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--accent-1);
+  }
+  .price-badge {
+    background: var(--copper-glow);
+    color: var(--accent-2);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 4px;
+  }
+  .price-sub {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+  }
+  .price-sub strong {
+    color: var(--accent-2);
+  }
+  .price-daily {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--text-tertiary);
+  }
+
+  /* Purchase options */
+  .purchase-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .purchase-option {
+    border: 2px solid var(--outline-button);
+    border-radius: 10px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .purchase-option.active {
+    border-color: var(--accent-1);
+    background: var(--teal-tint);
+  }
+  .purchase-option:hover {
+    border-color: var(--accent-1);
+  }
+  .radio-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--outline-button);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .active .radio-circle {
+    border-color: var(--accent-1);
+  }
+  .active .radio-circle::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: var(--accent-1);
+    border-radius: 50%;
+  }
+  .option-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .option-label small {
+    font-weight: 400;
+    color: var(--text-secondary);
+  }
+  .option-save {
+    margin-left: auto;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent-2);
+    background: var(--copper-glow);
+    padding: 3px 10px;
+    border-radius: 4px;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 18px 32px;
+    background: var(--accent-1);
+    color: var(--solid-button-label);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+  }
+  .btn-primary:hover {
+    background: var(--accent-1-hover);
+  }
+  .btn-secondary {
+    display: block;
+    width: 100%;
+    padding: 14px 32px;
+    background: var(--accent-2);
+    color: var(--solid-button-label);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-align: center;
+    text-decoration: none;
+  }
+  .btn-secondary:hover {
+    background: var(--accent-2-hover);
+  }
+  .btn-outline {
+    display: inline-block;
+    padding: 14px 32px;
+    background: transparent;
+    color: var(--accent-1);
+    border: 2px solid var(--outline-button);
+    border-radius: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+    text-decoration: none;
+  }
+  .btn-outline:hover {
+    border-color: var(--accent-1);
+    background: var(--teal-tint);
+  }
+
+  /* Trust strip */
+  .trust-strip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--outline-button);
+  }
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-secondary);
+  }
+  .trust-check {
+    color: var(--success);
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .authority-line {
+    grid-column: 1 / -1;
+    margin-top: 8px;
+    padding-top: 12px;
+    border-top: 1px solid var(--outline-button);
+    font-size: 11px;
+    color: var(--text-tertiary);
+    font-style: italic;
+  }
+
+  /* Collapsible rows */
+  .collapsibles {
+    margin-top: 24px;
+    border-top: 1px solid var(--outline-button);
+  }
+  .collapsible {
+    border-bottom: 1px solid var(--outline-button);
+    padding: 16px 0;
+  }
+  .collapsible-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .collapsible-header .icon {
+    color: var(--text-tertiary);
+    font-size: 18px;
+  }
+
+  /* ======================= */
+  /* SECTION STYLES           */
+  /* ======================= */
+  .section {
+    padding: 80px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section-full {
+    padding: 80px 40px;
+  }
+  .section-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .section-header h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--accent-1);
+    margin-bottom: 12px;
+  }
+  .section-header p {
+    font-size: 16px;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Backgrounds */
+  .bg-cream { background: var(--bg-1); }
+  .bg-white { background: var(--bg-2); }
+  .bg-teal {
+    background: var(--accent-1);
+    color: var(--bg-1);
+  }
+  .bg-teal .section-header h2 { color: var(--bg-1); }
+  .bg-teal .section-header p { color: rgba(245, 240, 232, 0.7); }
+  .bg-tint { background: var(--teal-tint); }
+
+  /* ======================= */
+  /* IS THIS YOU? SECTION    */
+  /* ======================= */
+  .persona-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .persona-card {
+    background: var(--bg-2);
+    border: 1px solid var(--outline-button);
+    border-radius: 12px;
+    padding: 28px;
+    transition: all 0.2s;
+  }
+  .persona-card:hover {
+    border-color: var(--accent-2);
+    box-shadow: 0 4px 20px rgba(192, 120, 64, 0.1);
+  }
+  .persona-card:last-child {
+    grid-column: 1 / -1;
+    max-width: 50%;
+    justify-self: center;
+  }
+  .persona-quote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--accent-1);
+    font-style: italic;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+  .persona-body {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  /* ======================= */
+  /* HOW IT WORKS SECTION    */
+  /* ======================= */
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  .step {
+    text-align: center;
+  }
+  .step-number {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--accent-2);
+    opacity: 0.3;
+    margin-bottom: 8px;
+  }
+  .step h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--accent-1);
+    margin-bottom: 12px;
+  }
+  .step p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+  .steps-footer {
+    text-align: center;
+    margin-top: 36px;
+    font-size: 13px;
+    color: var(--text-tertiary);
+    font-style: italic;
+  }
+
+  /* ======================= */
+  /* COMPARISON TABLE         */
+  /* ======================= */
+  .comparison-table-wrap {
+    overflow-x: auto;
+  }
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .comparison-table thead th {
+    padding: 16px 20px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid var(--outline-button);
+    color: var(--text-secondary);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .comparison-table thead th:last-child {
+    background: var(--accent-1);
+    color: var(--bg-1);
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+  }
+  .comparison-table tbody td {
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--outline-button);
+    color: var(--text-secondary);
+  }
+  .comparison-table tbody td:first-child {
+    font-weight: 600;
+    color: var(--text);
+  }
+  .comparison-table tbody td:last-child {
+    background: rgba(12, 59, 63, 0.04);
+    color: var(--accent-1);
+    font-weight: 600;
+    text-align: center;
+  }
+  .comparison-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+  .table-cta {
+    text-align: center;
+    margin-top: 36px;
+  }
+
+  /* ======================= */
+  /* SCIENCE SECTION          */
+  /* ======================= */
+  .science-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+  .science-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .science-card {
+    background: var(--bg-2);
+    border: 1px solid var(--outline-button);
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .science-card h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--accent-1);
+    margin-bottom: 8px;
+  }
+  .science-card p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+  .science-bullets {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .science-bullets li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 15px;
+    color: var(--text);
+    font-weight: 500;
+  }
+  .science-bullets li .bullet-icon {
+    color: var(--accent-2);
+    font-size: 16px;
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+
+  /* ======================= */
+  /* WHY BASELINE SECTION     */
+  /* ======================= */
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  .benefit-card {
+    background: var(--bg-2);
+    border: 1px solid var(--outline-button);
+    border-radius: 12px;
+    padding: 28px 24px;
+    text-align: center;
+  }
+  .benefit-icon {
+    width: 56px;
+    height: 56px;
+    background: var(--teal-tint);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    font-size: 24px;
+    color: var(--accent-1);
+  }
+  .benefit-card h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--accent-1);
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+  .benefit-card p {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* ======================= */
+  /* REVIEWS SECTION          */
+  /* ======================= */
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .review-card {
+    background: var(--bg-2);
+    border: 1px solid var(--outline-button);
+    border-radius: 12px;
+    padding: 28px;
+  }
+  .review-stars {
+    color: var(--accent-2);
+    font-size: 16px;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+  }
+  .review-title {
+    font-weight: 700;
+    color: var(--text);
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  .review-body {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+  .review-author {
+    font-size: 13px;
+    color: var(--text-tertiary);
+    font-style: italic;
+  }
+
+  /* ======================= */
+  /* GUARANTEE + CTA SECTION  */
+  /* ======================= */
+  .guarantee-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+  .guarantee-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .guarantee-block {
+    padding: 24px;
+    border-radius: 12px;
+  }
+  .guarantee-block.money-back {
+    background: var(--teal-tint);
+    border: 1px solid rgba(12, 59, 63, 0.1);
+  }
+  .guarantee-block.subscribe {
+    background: var(--copper-glow);
+    border: 1px solid rgba(192, 120, 64, 0.15);
+  }
+  .guarantee-block.launch {
+    background: var(--bg-2);
+    border: 1px solid var(--outline-button);
+  }
+  .guarantee-block.shipping {
+    background: var(--bg-2);
+    border: 1px solid var(--outline-button);
+  }
+  .guarantee-block h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--accent-1);
+    margin-bottom: 8px;
+  }
+  .guarantee-block p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+  .guarantee-block .highlight {
+    color: var(--accent-2);
+    font-weight: 600;
+  }
+
+  .final-cta-box {
+    background: var(--accent-1);
+    color: var(--bg-1);
+    border-radius: 16px;
+    padding: 40px 36px;
+    position: sticky;
+    top: 92px;
+  }
+  .final-cta-box h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: var(--bg-1);
+  }
+  .final-cta-box p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(245, 240, 232, 0.8);
+    margin-bottom: 16px;
+  }
+  .final-cta-box .cta-price {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: var(--accent-2);
+    margin-bottom: 20px;
+  }
+  .btn-copper {
+    display: block;
+    width: 100%;
+    padding: 18px 32px;
+    background: var(--accent-2);
+    color: var(--solid-button-label);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .btn-copper:hover {
+    background: var(--accent-2-hover);
+  }
+  .final-sub-text {
+    text-align: center;
+    font-size: 13px;
+    color: rgba(245, 240, 232, 0.6);
+  }
+  .final-sub-text strong {
+    color: var(--accent-2);
+  }
+
+  /* ======================= */
+  /* FAQ SECTION              */
+  /* ======================= */
+  .faq-list {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--outline-button);
+  }
+  .faq-question {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .faq-question:hover {
+    color: var(--accent-1);
+  }
+  .faq-toggle {
+    color: var(--accent-2);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .faq-answer {
+    padding: 0 0 20px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    display: none;
+  }
+  .faq-item.open .faq-answer {
+    display: block;
+  }
+  .faq-item.open .faq-toggle {
+    transform: rotate(45deg);
+  }
+
+  /* ======================= */
+  /* FDA DISCLAIMER           */
+  /* ======================= */
+  .fda-disclaimer {
+    text-align: center;
+    padding: 32px 40px;
+    font-size: 11px;
+    color: var(--text-tertiary);
+    font-style: italic;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  /* ======================= */
+  /* EMAIL SUBSCRIBE FOOTER   */
+  /* ======================= */
+  .email-section {
+    background: var(--accent-1);
+    padding: 80px 40px;
+    text-align: center;
+  }
+  .email-section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--bg-1);
+    margin-bottom: 12px;
+  }
+  .email-section p {
+    font-size: 15px;
+    color: rgba(245, 240, 232, 0.7);
+    margin-bottom: 32px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .email-form {
+    display: flex;
+    gap: 12px;
+    max-width: 460px;
+    margin: 0 auto;
+  }
+  .email-input {
+    flex: 1;
+    padding: 14px 18px;
+    border: 1px solid rgba(245, 240, 232, 0.2);
+    background: rgba(255,255,255,0.08);
+    border-radius: 8px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    color: var(--bg-1);
+    outline: none;
+  }
+  .email-input::placeholder {
+    color: rgba(245, 240, 232, 0.4);
+  }
+  .email-btn {
+    padding: 14px 28px;
+    background: var(--accent-2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.2s;
+  }
+  .email-btn:hover {
+    background: var(--accent-2-hover);
+  }
+
+  /* ======================= */
+  /* FOOTER                   */
+  /* ======================= */
+  .footer {
+    background: var(--accent-1-hover);
+    padding: 48px 40px 32px;
+  }
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+  }
+  .footer-brand .nav-logo {
+    display: block;
+    margin-bottom: 12px;
+    color: var(--bg-1);
+  }
+  .footer-brand p {
+    font-size: 13px;
+    color: rgba(245, 240, 232, 0.5);
+    line-height: 1.6;
+    max-width: 280px;
+  }
+  .footer-col h4 {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(245, 240, 232, 0.5);
+    margin-bottom: 16px;
+  }
+  .footer-col a {
+    display: block;
+    font-size: 14px;
+    color: rgba(245, 240, 232, 0.7);
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.2s;
+  }
+  .footer-col a:hover {
+    color: var(--accent-2);
+  }
+  .footer-bottom {
+    max-width: 1200px;
+    margin: 32px auto 0;
+    padding-top: 24px;
+    border-top: 1px solid rgba(245, 240, 232, 0.1);
+    font-size: 12px;
+    color: rgba(245, 240, 232, 0.35);
+    text-align: center;
+  }
+
+  /* ======================= */
+  /* RESPONSIVE               */
+  /* ======================= */
+  @media (max-width: 768px) {
+    .hero-grid { grid-template-columns: 1fr; gap: 32px; }
+    .steps-grid { grid-template-columns: 1fr; gap: 24px; }
+    .persona-cards { grid-template-columns: 1fr; }
+    .persona-card:last-child { max-width: 100%; }
+    .benefits-grid { grid-template-columns: 1fr 1fr; }
+    .reviews-grid { grid-template-columns: 1fr; }
+    .guarantee-grid { grid-template-columns: 1fr; }
+    .science-grid { grid-template-columns: 1fr; }
+    .footer-inner { grid-template-columns: 1fr 1fr; }
+    .section, .section-full { padding: 56px 20px; }
+    .hero { padding: 32px 20px 48px; }
+    .nav { padding: 0 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== ANNOUNCEMENT BAR ===== -->
+<div class="announcement-bar">
+  Launch Pricing — <span>$49.95</span> (regular $69.95) &nbsp;·&nbsp; Free shipping on every order
+</div>
+
+<!-- ===== NAVIGATION ===== -->
+<nav class="nav">
+  <a href="#" class="nav-logo">Baseline</a>
+  <div class="nav-links">
+    <a href="#">Shop</a>
+    <a href="#">Our Story</a>
+    <a href="#">Science</a>
+    <a href="#">Lab Results</a>
+    <a href="#" class="nav-cart">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+      <span class="cart-count">0</span>
+    </a>
+  </div>
+</nav>
+
+<!-- ===== SECTION 1: HERO ===== -->
+<section class="hero">
+  <div class="hero-grid">
+    <!-- Left: Product Images -->
+    <div class="hero-images">
+      <div class="hero-main-image">
+        <div class="product-placeholder">
+          <span class="bottle-icon">🧴</span>
+          <span>Product photography here</span>
+        </div>
+      </div>
+      <div class="hero-thumbs">
+        <div class="hero-thumb">Front</div>
+        <div class="hero-thumb">Back</div>
+        <div class="hero-thumb">Capsule</div>
+        <div class="hero-thumb">Lifestyle</div>
+      </div>
+    </div>
+
+    <!-- Right: Product Info -->
+    <div class="hero-info">
+      <h1 class="serif">Baseline NMN — Pure NMN Supplement, 500mg, 60 Capsules</h1>
+      <p class="hero-subtitle">
+        <strong>You didn't lose your energy. Your cells lost their fuel.</strong><br><br>
+        You used to have more. More focus. More drive. More left in the tank at the end of the day. That didn't fade because you stopped trying — it faded because your cells stopped getting what they need.<br><br>
+        After 40, your body produces less NAD+ — the molecule behind energy, focus, and recovery. NMN is what your body uses to make more. Not a stimulant. A foundation.
+      </p>
+      <p class="hero-who">If your energy isn't what it was 5 years ago — and coffee stopped being the answer — this was built for you.</p>
+
+      <!-- Price -->
+      <div class="price-block">
+        <div class="price-row">
+          <span class="price-original">$69.95</span>
+          <span class="price-current">$49.95</span>
+          <span class="price-badge">LAUNCH PRICE</span>
+        </div>
+        <p class="price-sub">Subscribe & Save: <strong>$42.95</strong> every 60 days</p>
+        <p class="price-daily">$0.83/day — less than your afternoon coffee.</p>
+      </div>
+
+      <!-- Purchase Options -->
+      <div class="purchase-options">
+        <div class="purchase-option active">
+          <div class="radio-circle"></div>
+          <span class="option-label">Subscribe & Save <small>· every 60 days</small></span>
+          <span class="option-save">SAVE 14%</span>
+        </div>
+        <div class="purchase-option">
+          <div class="radio-circle"></div>
+          <span class="option-label">One-time purchase</span>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <button class="btn-primary">Try Baseline NMN — 60-Day Supply</button>
+
+      <!-- Trust Strip -->
+      <div class="trust-strip">
+        <div class="trust-item"><span class="trust-check">✓</span> 99%+ Pure — Verified Every Batch</div>
+        <div class="trust-item"><span class="trust-check">✓</span> $0.83/Day — Less Than Coffee</div>
+        <div class="trust-item"><span class="trust-check">✓</span> 500mg Clinical Dose</div>
+        <div class="trust-item"><span class="trust-check">✓</span> 30-Day Money Back — No Questions</div>
+        <p class="authority-line">Based on published human NAD+ research. Every batch tested by an independent US laboratory.</p>
+      </div>
+
+      <!-- Collapsibles -->
+      <div class="collapsibles">
+        <div class="collapsible">
+          <div class="collapsible-header">What's Inside <span class="icon">+</span></div>
+        </div>
+        <div class="collapsible">
+          <div class="collapsible-header">How to Take <span class="icon">+</span></div>
+        </div>
+        <div class="collapsible">
+          <div class="collapsible-header">Shipping & Returns <span class="icon">+</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 2: IS THIS YOU? ===== -->
+<section class="bg-cream">
+  <div class="section">
+    <div class="section-header">
+      <h2 class="serif">Is This You?</h2>
+      <p>If any of this sounds familiar, you're in the right place.</p>
+    </div>
+    <div class="persona-cards">
+      <div class="persona-card">
+        <p class="persona-quote">"I hit a wall every afternoon — no matter how much coffee I drink."</p>
+        <p class="persona-body">The crash isn't a caffeine problem. It's a cellular energy problem. Your cells produce less NAD+ with age — which means less sustained fuel, more crashes. NMN is what your body uses to support that fuel production.</p>
+      </div>
+      <div class="persona-card">
+        <p class="persona-quote">"I've tried supplements before. Nothing worked."</p>
+        <p class="persona-body">There's a reason. Independent testing shows NMN quality varies dramatically between brands. If you tried NMN and felt nothing, the issue may not have been NMN — it may have been what was actually in the bottle.</p>
+      </div>
+      <div class="persona-card">
+        <p class="persona-quote">"I feel like I've aged 10 years in the last 2."</p>
+        <p class="persona-body">That feeling has a name: NAD+ decline. It's measurable, it's published science, and it's addressable. Not with hype. With the molecule your cells have been running low on.</p>
+      </div>
+      <div class="persona-card">
+        <p class="persona-quote">"I just want enough energy to actually show up for my family."</p>
+        <p class="persona-body">The exhaustion isn't a willpower problem. After 40, your cells produce significantly less of the molecule responsible for sustained energy. NMN supports your body's ability to produce more of it — so you have something left at 6pm.</p>
+      </div>
+      <div class="persona-card">
+        <p class="persona-quote">"Every 'anti-aging' product is about wrinkles. I just want to function."</p>
+        <p class="persona-body">The decline you're feeling isn't cosmetic — it's cellular. Alongside hormonal changes, NAD+ levels drop significantly in your 40s and 50s. NMN supports the energy side of the equation from the inside. Not cream. Fuel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 3: HOW IT WORKS ===== -->
+<section class="bg-white">
+  <div class="section">
+    <div class="section-header">
+      <h2 class="serif">How It Works</h2>
+      <p>Simple enough to explain in 30 seconds. Backed by enough research to fill a library.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step">
+        <div class="step-number">01</div>
+        <h3 class="serif">Take 2 Capsules Daily</h3>
+        <p>Two capsules. Morning. With or without food. That's your entire routine. 500mg of pure NMN — the same dose used in clinical human research.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">02</div>
+        <h3 class="serif">Your Body Does What It Already Knows</h3>
+        <p>NMN is a direct precursor to NAD+. You're just giving your cells more of what they've been running low on. No learning curve — your body already knows this pathway.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">03</div>
+        <h3 class="serif">You Start Feeling Like You Again</h3>
+        <p>More consistent energy. Sharper focus. That thing where you get to 4pm and you're still <em>there</em>. Not a stimulant spike and crash. A higher baseline.</p>
+      </div>
+    </div>
+    <p class="steps-footer">No proprietary blend to decode. No 12-ingredient stack to research. One molecule. Clinically dosed. Independently verified.</p>
+  </div>
+</section>
+
+<!-- ===== SECTION 4: COMPARISON TABLE ===== -->
+<section class="bg-cream">
+  <div class="section">
+    <div class="section-header">
+      <h2 class="serif">What You're Actually Getting</h2>
+      <p>Not all NMN is created equal. Here's what's actually different.</p>
+    </div>
+    <div class="comparison-table-wrap">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Budget NMN</th>
+            <th>Other Premium</th>
+            <th>Baseline</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Purity</td>
+            <td>Unknown / untested</td>
+            <td>Claims 99%</td>
+            <td>99%+ verified</td>
+          </tr>
+          <tr>
+            <td>Synthesis</td>
+            <td>Chemical (residual solvents)</td>
+            <td>Varies / undisclosed</td>
+            <td>Enzymatic (clean)</td>
+          </tr>
+          <tr>
+            <td>Daily Dose</td>
+            <td>50–250mg</td>
+            <td>250–500mg</td>
+            <td>500mg (clinical)</td>
+          </tr>
+          <tr>
+            <td>Independent Testing</td>
+            <td>No</td>
+            <td>"Third-party tested" badge</td>
+            <td>Every batch, US lab</td>
+          </tr>
+          <tr>
+            <td>Fillers</td>
+            <td>Yes</td>
+            <td>Often</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Supply</td>
+            <td>30 days</td>
+            <td>30–60 days</td>
+            <td>60 days (full protocol)</td>
+          </tr>
+          <tr>
+            <td>Price/Day</td>
+            <td>$0.50–0.83</td>
+            <td>$1.50–2.50</td>
+            <td>$0.83 ($0.72 sub)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table-cta">
+      <button class="btn-secondary" style="display: inline-block; width: auto; padding: 16px 40px;">See What's Actually in the Bottle — $49.95</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 5: SCIENCE ===== -->
+<section class="bg-tint">
+  <div class="section">
+    <div class="section-header">
+      <h2 class="serif">The Science Behind NAD+</h2>
+      <p>NMN isn't a stimulant. It supports what your body already makes — but produces less of as you age.</p>
+    </div>
+    <div class="science-grid">
+      <div class="science-cards">
+        <div class="science-card">
+          <h4 class="serif">NAD+ Decline with Age</h4>
+          <p>NAD+ levels naturally decline with age — research shows they can drop by as much as 50% between your 30s and 60s. NAD+ is involved in hundreds of cellular processes, including energy production and cellular maintenance.</p>
+        </div>
+        <div class="science-card">
+          <h4 class="serif">NMN → NAD+ Pathway</h4>
+          <p>NMN is a natural precursor your body uses to produce NAD+. Supplementing with NMN supports your body's own NAD+ production — giving your cells more of the raw material they need.</p>
+        </div>
+        <div class="science-card">
+          <h4 class="serif">What Higher NAD+ Means for You</h4>
+          <p>Higher NAD+ levels are associated with healthy cellular function. People who supplement with NMN commonly report sustained energy, sharper focus, and better daily performance. A higher baseline.</p>
+        </div>
+      </div>
+      <ul class="science-bullets">
+        <li><span class="bullet-icon">◆</span> Supports your body's natural NAD+ production</li>
+        <li><span class="bullet-icon">◆</span> Promotes healthy cellular energy — no caffeine, no crash</li>
+        <li><span class="bullet-icon">◆</span> Backed by published human clinical research</li>
+        <li><span class="bullet-icon">◆</span> One ingredient, clinically dosed, independently tested</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 6: WHY BASELINE ===== -->
+<section class="bg-white">
+  <div class="section">
+    <div class="section-header">
+      <h2 class="serif">Why Baseline?</h2>
+      <p>In a market full of empty promises, we chose proof over hype.</p>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="benefit-icon">⬡</div>
+        <h4 class="serif">99%+ Purity, Enzymatic Synthesis</h4>
+        <p>Cleaner than chemical synthesis, with fewer impurities and better bioavailability. The way NMN is produced in nature.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">⊘</div>
+        <h4 class="serif">Every Batch Independently Tested</h4>
+        <p>Purity, potency, heavy metals, microbial contamination — all verified by a US-based independent lab.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">Rx</div>
+        <h4 class="serif">500mg Clinical Dose</h4>
+        <p>The dose used in published human NMN research. Not 50mg. Not 125mg. What the science is actually based on.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">◉</div>
+        <h4 class="serif">No Fillers. No Blends.</h4>
+        <p>One ingredient: NMN. The full formula is on the label. Every milligram is accounted for.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 7: REVIEWS ===== -->
+<section class="bg-cream">
+  <div class="section">
+    <div class="section-header">
+      <h2 class="serif">What Customers Are Saying</h2>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-title">"First supplement I've trusted in years"</p>
+        <p class="review-body">I have a rule — if I can't verify what's in it, I don't take it. Baseline passed every test I threw at it. Two months in, my afternoon energy is noticeably more consistent.</p>
+        <p class="review-author">— David R., 54</p>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-title">"Finally, a brand that doesn't try to confuse you"</p>
+        <p class="review-body">One ingredient. Real dose. Independent testing. That's all I wanted. Every other NMN brand has some proprietary blend trying to justify their price. Baseline is just... honest.</p>
+        <p class="review-author">— Karen M., 48</p>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★☆</div>
+        <p class="review-title">"Took a few weeks, but I'm glad I stuck with it"</p>
+        <p class="review-body">I didn't notice anything the first two weeks and almost gave up. But around week three something shifted. My energy through the afternoon got more consistent. It's not dramatic, it's subtle. But it's real.</p>
+        <p class="review-author">— Mark P., 50</p>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-title">"My kids got their dad back"</p>
+        <p class="review-body">I'm 47 with two kids under 10. I was the guy who said 'maybe later' to everything by 5pm. Three months on Baseline and the biggest change isn't how I feel. It's how my kids look at me when I say yes instead of later.</p>
+        <p class="review-author">— Chris D., 47</p>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-title">"The first supplement that actually gets it"</p>
+        <p class="review-body">Perimenopause hit me at 46. Energy gone. Focus gone. Every brand sold me collagen and wrinkle cream. I don't care about wrinkles — I want to FUNCTION. Two months in and the afternoon fog has lifted.</p>
+        <p class="review-author">— Jennifer A., 46</p>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-title">"I've spent $400 on NMN that did nothing"</p>
+        <p class="review-body">Two different NMN brands from Amazon. Both 'third-party tested.' Neither did anything. The difference is real — I can verify what's actually in this bottle. Four weeks in and I'm a believer.</p>
+        <p class="review-author">— Alex W., 52</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 8: GUARANTEE + CTA ===== -->
+<section class="bg-white">
+  <div class="section">
+    <div class="guarantee-grid">
+      <div class="guarantee-blocks">
+        <div class="guarantee-block money-back">
+          <h4 class="serif">30-Day Money-Back Guarantee</h4>
+          <p>Try it for a full month. If you're not happy with it, email us and we'll refund you. No return shipping. No restocking fees. No hoops.</p>
+        </div>
+        <div class="guarantee-block subscribe">
+          <h4 class="serif">Subscribe & Save — <span class="highlight">$42.95</span> Every 60 Days</h4>
+          <p>$0.72/day instead of $0.83/day. Ships automatically. Skip, pause, or cancel anytime with one click. You've already decided to invest in your health — we just make it easy to stay consistent.</p>
+        </div>
+        <div class="guarantee-block launch">
+          <h4 class="serif">Launch Pricing — Won't Last</h4>
+          <p>Our introductory price of $49.95 won't be here forever. Once we hit our initial milestone, pricing moves to $59.95. Subscribe now and you lock in <span class="highlight">$42.95/shipment</span> — even after the price goes up.</p>
+          <p style="margin-top: 8px; font-style: italic; font-size: 13px;"><em>Current subscribers keep launch pricing permanently.</em></p>
+        </div>
+        <div class="guarantee-block shipping">
+          <h4 class="serif">Free Shipping on Every Order</h4>
+          <p>Every order ships free. Subscription or one-time. No minimum. Delivered within 3–5 business days.</p>
+        </div>
+      </div>
+
+      <div class="final-cta-box">
+        <h3 class="serif">You've Read the Science. You've Seen the Proof. Now Feel the Difference.</h3>
+        <p>$0.83/day. Less than your afternoon coffee — and it actually addresses the crash instead of borrowing from tomorrow.</p>
+        <p>60-day supply. Long enough to feel the change that NMN users describe — more consistent energy, sharper focus, and the feeling of getting your baseline back.</p>
+        <p>30-day guarantee. If you don't feel it, we refund you. No hoops.</p>
+        <p class="cta-price">$0.83/day · 60-day supply · Free shipping</p>
+        <button class="btn-copper">Start Your 60-Day Protocol — $49.95</button>
+        <p class="final-sub-text">or Subscribe & Save: <strong>$42.95 every 60 days</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 9: FAQ ===== -->
+<section class="bg-cream">
+  <div class="section">
+    <div class="section-header">
+      <h2 class="serif">Frequently Asked Questions</h2>
+      <p>Everything you need to know before you order.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item open">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          How long until I notice a difference?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Most people report noticing changes within 2–4 weeks of consistent daily use. The most commonly reported early benefits are more consistent energy and improved sleep quality. NMN works at the cellular level, so the effects build over time — it's not a stimulant.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          Is NMN safe?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">NMN has been studied in both animal and human clinical trials and has a strong safety profile at the doses used in research (250–500mg daily). NMN is also a naturally occurring molecule — your body already produces it. As with any supplement, consult your doctor if you have specific health conditions.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          How is Baseline different from other NMN brands?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Three things. First, purity — 99%+ pure via enzymatic synthesis. Second, testing — every batch independently tested by a US-based lab. Third, dosing — 500mg daily, the dose used in published research. No proprietary blends. No filler ingredients. No guesswork.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          I tried NMN before and it didn't work. Why would this be different?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Independent testing has shown that many NMN products sold online contain far less NMN than labeled — some contain almost none. If you tried a cheap or unverified product and noticed nothing, the issue may not have been NMN itself — it may have been what was actually in the bottle.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          What if it doesn't work for me?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">We offer a 30-day money-back guarantee. If you're not satisfied for any reason, email us and we'll refund your purchase. No return shipping required. No restocking fees.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          Why is Baseline $49.95 when some brands are $15–20?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Because the cheaper options cut corners you can't see. Chemical synthesis. No independent testing. Underdosed capsules. Proprietary blends. Baseline costs more because real purity, real dosing, and real testing cost more. You're paying for what's actually in the bottle.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          How does the subscription work?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">$42.95 every 60 days. Ships automatically. Skip, pause, or cancel anytime — one click, no phone calls, no hoops. NMN works best with consistent daily use, and the 60-day auto-ship makes that easy.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+          Can I take NMN during perimenopause or menopause?
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">Yes. NAD+ decline happens alongside hormonal changes — both contribute to the fatigue many women experience during this transition. NMN supports NAD+ production at the cellular level, which addresses the energy side of the equation. As always, consult your doctor if you take prescription medications.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FDA DISCLAIMER ===== -->
+<div class="fda-disclaimer">
+  *These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+</div>
+
+<!-- ===== SECTION 10: EMAIL SUBSCRIBE ===== -->
+<section class="email-section">
+  <h2 class="serif">The Science of Feeling Like Yourself Again</h2>
+  <p>Join our list for NAD+ research, longevity science, and honest answers about what actually works.</p>
+  <div class="email-form">
+    <input type="email" class="email-input" placeholder="Your email address">
+    <button class="email-btn">Join the List</button>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="#" class="nav-logo">Baseline</a>
+      <p>Pure NMN. Independently tested every batch. Supporting your body's natural NAD+ production.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <a href="#">NMN Supplement</a>
+      <a href="#">Subscribe & Save</a>
+      <a href="#">Gift Cards</a>
+    </div>
+    <div class="footer-col">
+      <h4>Learn</h4>
+      <a href="#">The Science</a>
+      <a href="#">Lab Results</a>
+      <a href="#">FAQs</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">Our Story</a>
+      <a href="#">Contact</a>
+      <a href="#">Shipping & Returns</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 Baseline. All rights reserved. &nbsp;·&nbsp; Privacy Policy &nbsp;·&nbsp; Terms of Service
+  </div>
+</footer>
+
+</body>
+</html>
