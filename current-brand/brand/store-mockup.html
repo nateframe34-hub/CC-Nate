@@ -656,9 +656,48 @@
   /* ======================= */
   .science-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 48px;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
     align-items: center;
+  }
+  .science-image-col {
+    position: relative;
+  }
+  .science-image-col img {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+    aspect-ratio: 4 / 5;
+  }
+  .science-image-badge {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+    background: rgba(12, 59, 63, 0.92);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    padding: 20px 24px;
+    color: var(--bg-1);
+  }
+  .science-image-badge .badge-stat {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--accent-2);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .science-image-badge .badge-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(245, 240, 232, 0.8);
+    letter-spacing: 0.02em;
+  }
+  .science-content-col {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
   }
   .science-cards {
     display: flex;
@@ -669,11 +708,23 @@
     background: var(--bg-2);
     border: 1px solid var(--outline-button);
     border-radius: 12px;
-    padding: 24px;
+    padding: 24px 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .science-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--accent-2);
+    border-radius: 3px 0 0 3px;
   }
   .science-card h4 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
     color: var(--accent-1);
     margin-bottom: 8px;
@@ -687,19 +738,23 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 14px;
+    padding: 24px 28px;
+    background: var(--accent-1);
+    border-radius: 12px;
   }
   .science-bullets li {
     display: flex;
     align-items: flex-start;
     gap: 12px;
-    font-size: 15px;
-    color: var(--text);
+    font-size: 14px;
+    color: rgba(245, 240, 232, 0.9);
     font-weight: 500;
+    line-height: 1.5;
   }
   .science-bullets li .bullet-icon {
     color: var(--accent-2);
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 2px;
     flex-shrink: 0;
   }
@@ -1108,7 +1163,10 @@
     .benefits-grid { grid-template-columns: 1fr 1fr; }
     .reviews-grid { grid-template-columns: 1fr; }
     .guarantee-grid { grid-template-columns: 1fr; }
-    .science-grid { grid-template-columns: 1fr; }
+    .science-grid { grid-template-columns: 1fr; gap: 32px; }
+    .science-image-col img { aspect-ratio: 3 / 2; }
+    .science-image-badge { bottom: 16px; left: 16px; right: 16px; padding: 16px 20px; }
+    .science-image-badge .badge-stat { font-size: 28px; }
     .footer-inner { grid-template-columns: 1fr 1fr; }
     .section, .section-full { padding: 56px 20px; }
     .hero { padding: 32px 20px 48px; }
@@ -1383,26 +1441,35 @@
       <p>NMN isn't a stimulant. It supports what your body already makes — but produces less of as you age.</p>
     </div>
     <div class="science-grid">
-      <div class="science-cards">
-        <div class="science-card">
-          <h4 class="serif">NAD+ Decline with Age</h4>
-          <p>NAD+ levels naturally decline with age — research shows they can drop by as much as 50% between your 30s and 60s. NAD+ is involved in hundreds of cellular processes, including energy production and cellular maintenance. When levels drop, your cells have less to work with.</p>
-        </div>
-        <div class="science-card">
-          <h4 class="serif">NMN → NAD+ Pathway</h4>
-          <p>NMN is a natural precursor your body uses to produce NAD+. Supplementing with NMN supports your body's own NAD+ production — giving your cells more of the raw material they need.</p>
-        </div>
-        <div class="science-card">
-          <h4 class="serif">What Higher NAD+ Means for You</h4>
-          <p>Higher NAD+ levels are associated with healthy cellular function. People who supplement with NMN commonly report sustained energy, sharper focus, and better daily performance. Not a spike and crash — a higher baseline.</p>
+      <div class="science-image-col">
+        <img src="https://cdn.shopify.com/s/files/1/0978/0399/3409/files/freepik__remove-the-new-arrival-50-off-and-60-off-stickers__58967.png?v=1773088967" alt="Baseline NMN supplement — pure NMN capsules for daily NAD+ support" loading="lazy">
+        <div class="science-image-badge">
+          <div class="badge-stat">50%</div>
+          <div class="badge-label">NAD+ decline between your 30s and 60s</div>
         </div>
       </div>
-      <ul class="science-bullets">
-        <li><span class="bullet-icon">◆</span> Supports your body's natural NAD+ production</li>
-        <li><span class="bullet-icon">◆</span> Promotes healthy cellular energy — no caffeine, no crash</li>
-        <li><span class="bullet-icon">◆</span> Backed by published human clinical research</li>
-        <li><span class="bullet-icon">◆</span> One ingredient, clinically dosed, independently tested</li>
-      </ul>
+      <div class="science-content-col">
+        <div class="science-cards">
+          <div class="science-card">
+            <h4 class="serif">NAD+ Decline with Age</h4>
+            <p>NAD+ levels naturally decline with age — research shows they can drop by as much as 50% between your 30s and 60s. NAD+ is involved in hundreds of cellular processes, including energy production and cellular maintenance. When levels drop, your cells have less to work with.</p>
+          </div>
+          <div class="science-card">
+            <h4 class="serif">NMN → NAD+ Pathway</h4>
+            <p>NMN is a natural precursor your body uses to produce NAD+. Supplementing with NMN supports your body's own NAD+ production — giving your cells more of the raw material they need.</p>
+          </div>
+          <div class="science-card">
+            <h4 class="serif">What Higher NAD+ Means for You</h4>
+            <p>Higher NAD+ levels are associated with healthy cellular function. People who supplement with NMN commonly report sustained energy, sharper focus, and better daily performance. Not a spike and crash — a higher baseline.</p>
+          </div>
+        </div>
+        <ul class="science-bullets">
+          <li><span class="bullet-icon">◆</span> Supports your body's natural NAD+ production</li>
+          <li><span class="bullet-icon">◆</span> Promotes healthy cellular energy — no caffeine, no crash</li>
+          <li><span class="bullet-icon">◆</span> Backed by published human clinical research</li>
+          <li><span class="bullet-icon">◆</span> One ingredient, clinically dosed, independently tested</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
