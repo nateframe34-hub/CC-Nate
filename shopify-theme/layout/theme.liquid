@@ -8,6 +8,12 @@
     <link rel="canonical" href="{{ canonical_url }}">
 
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    {%- if product != blank -%}
+      {%- assign lcp_image = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
+      {%- if lcp_image != blank -%}
+        <link rel="preload" as="image" href="{{ lcp_image | image_url: width: 1946 }}" imagesrcset="{{ lcp_image | image_url: width: 493 }} 493w, {{ lcp_image | image_url: width: 713 }} 713w, {{ lcp_image | image_url: width: 990 }} 990w, {{ lcp_image | image_url: width: 1946 }} 1946w" imagesizes="(min-width: 1400px) 715px, (min-width: 990px) calc(55.0vw - 10rem), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)" fetchpriority="high">
+      {%- endif -%}
+    {%- endif -%}
     {% liquid
       assign is_rtl = false
       if settings.enable_rtl == true
@@ -423,8 +429,7 @@
       </style>
     </noscript>
 
-    <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="{{ 'base.css' | asset_url }}"></noscript>
+    <link rel="stylesheet" href="{{ 'base.css' | asset_url }}">
     {% if is_rtl %}
       <link rel="preload" href="{{ 'rtl.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
       <noscript><link rel="stylesheet" href="{{ 'rtl.css' | asset_url }}"></noscript>
