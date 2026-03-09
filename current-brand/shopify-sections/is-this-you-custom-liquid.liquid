@@ -1,0 +1,128 @@
+<style>
+  .ity-section {
+    background: #F5F0E8;
+    padding: 48px 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .ity-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .ity-header h2 {
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 8px;
+    line-height: 1.2;
+  }
+  .ity-header p {
+    font-size: 14px;
+    color: #5A5550;
+    margin: 0;
+    line-height: 1.5;
+  }
+  .ity-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .ity-card {
+    background: #FFFFFF;
+    border: 1px solid #DDD6CC;
+    border-radius: 12px;
+    padding: 22px 20px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .ity-card:active {
+    border-color: #C07840;
+    box-shadow: 0 2px 12px rgba(192, 120, 64, 0.1);
+  }
+  .ity-quote {
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    color: #0C3B3F;
+    line-height: 1.4;
+    margin: 0 0 10px;
+  }
+  .ity-body {
+    font-size: 13px;
+    color: #5A5550;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* Desktop: 2-column grid */
+  @media (min-width: 769px) {
+    .ity-section {
+      padding: 80px 40px;
+    }
+    .ity-header {
+      margin-bottom: 48px;
+    }
+    .ity-header h2 {
+      font-size: 36px;
+    }
+    .ity-header p {
+      font-size: 16px;
+    }
+    .ity-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .ity-card {
+      padding: 28px;
+    }
+    .ity-card:hover {
+      border-color: #C07840;
+      box-shadow: 0 4px 20px rgba(192, 120, 64, 0.1);
+    }
+    .ity-card:last-child {
+      grid-column: 1 / -1;
+      max-width: 50%;
+      justify-self: center;
+    }
+    .ity-quote {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+    .ity-body {
+      font-size: 14px;
+    }
+  }
+</style>
+
+<div class="ity-section">
+  <div class="ity-header">
+    <h2>Is This You?</h2>
+    <p>If any of this sounds familiar, you're in the right place.</p>
+  </div>
+  <div class="ity-grid">
+    <div class="ity-card">
+      <p class="ity-quote">"I hit a wall every afternoon — no matter how much coffee I drink."</p>
+      <p class="ity-body">The crash isn't a caffeine problem. It's a cellular energy problem. Your cells produce less NAD+ with age — which means less sustained fuel, more crashes. NMN is what your body uses to support that fuel production.</p>
+    </div>
+    <div class="ity-card">
+      <p class="ity-quote">"I've tried supplements before. Nothing worked."</p>
+      <p class="ity-body">There's a reason. Independent testing shows NMN quality varies dramatically between brands. If you tried NMN and felt nothing, the issue may not have been NMN — it may have been what was actually in the bottle.</p>
+    </div>
+    <div class="ity-card">
+      <p class="ity-quote">"I feel like I've aged 10 years in the last 2."</p>
+      <p class="ity-body">That feeling has a name: NAD+ decline. It's measurable, it's published science, and it's addressable. Not with hype. With the molecule your cells have been running low on.</p>
+    </div>
+    <div class="ity-card">
+      <p class="ity-quote">"I just want enough energy to actually show up for my family."</p>
+      <p class="ity-body">The exhaustion isn't a willpower problem. After 40, your cells produce significantly less of the molecule responsible for sustained energy. NMN supports your body's ability to produce more of it — so you have something left at 6pm.</p>
+    </div>
+    <div class="ity-card">
+      <p class="ity-quote">"Every 'anti-aging' product is about wrinkles. I just want to function."</p>
+      <p class="ity-body">The decline you're feeling isn't cosmetic — it's cellular. Alongside hormonal changes, NAD+ levels drop significantly in your 40s and 50s. NMN supports the energy side of the equation from the inside. Not cream. Fuel.</p>
+    </div>
+  </div>
+</div>
