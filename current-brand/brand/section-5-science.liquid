@@ -120,20 +120,29 @@
     background: #C07840;
     border-radius: 3px 0 0 3px;
   }
-  .bl-science-card h4 {
+  .bl-science-card summary {
     font-family: 'Cormorant Garamond', serif;
     font-size: 19px;
     font-weight: 600;
     color: #0C3B3F;
-    margin: 0 0 8px;
+    margin: 0;
     line-height: 1.3;
+    cursor: default;
+    list-style: none;
+  }
+  .bl-science-card summary::-webkit-details-marker {
+    display: none;
+  }
+  .bl-science-card summary::after {
+    content: '';
+    display: none;
   }
   .bl-science-card p {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 14px;
     color: #5A5550;
     line-height: 1.7;
-    margin: 0;
+    margin: 8px 0 0;
   }
 
   /* Bullet box */
@@ -191,6 +200,33 @@
     .bl-science-header h2 {
       font-size: 28px;
     }
+    /* Collapsible cards on mobile */
+    .bl-science-card summary {
+      cursor: pointer;
+      position: relative;
+      padding-right: 28px;
+    }
+    .bl-science-card summary::after {
+      content: '+';
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      color: #C07840;
+      line-height: 1;
+      transition: transform 0.2s ease;
+    }
+    .bl-science-card[open] summary::after {
+      content: '−';
+    }
+    .bl-science-card p {
+      margin-top: 12px;
+    }
+    /* First card open by default handled in HTML */
   }
 </style>
 
@@ -214,18 +250,18 @@
       <!-- Content -->
       <div class="bl-science-content">
         <div class="bl-science-cards">
-          <div class="bl-science-card">
-            <h4>NAD+ Decline with Age</h4>
+          <details class="bl-science-card" open>
+            <summary>NAD+ Decline with Age</summary>
             <p>NAD+ levels naturally decline with age — research shows they can drop by as much as 50% between your 30s and 60s. NAD+ is involved in hundreds of cellular processes, including energy production and cellular maintenance. When levels drop, your cells have less to work with.</p>
-          </div>
-          <div class="bl-science-card">
-            <h4>The Synergy Visual (NMN + Supporting Cast)</h4>
+          </details>
+          <details class="bl-science-card" open>
+            <summary>The Synergy Visual (NMN + Supporting Cast)</summary>
             <p>NAD+ doesn't work in isolation. It works alongside antioxidants (glutathione, astaxanthin), sirtuin activators (resveratrol), mitochondrial fuel (CoQ10), and methyl donors (TMG). This formula supports the full cellular ecosystem — not just one piece of it.</p>
-          </div>
-          <div class="bl-science-card">
-            <h4>Lifestyle / Energy</h4>
+          </details>
+          <details class="bl-science-card" open>
+            <summary>Lifestyle / Energy</summary>
             <p>Higher NAD+ levels are associated with healthy cellular function. People who supplement with NMN commonly report sustained energy, sharper focus, and better daily performance. Not a spike and crash — a higher baseline.</p>
-          </div>
+          </details>
         </div>
         <ul class="bl-science-bullets">
           <li><span class="bl-bullet">◆</span> Supports your body's natural NAD+ production with 500mg NMN</li>
@@ -238,3 +274,23 @@
     </div>
   </div>
 </section>
+
+<script>
+  (function() {
+    var mq = window.matchMedia('(max-width: 768px)');
+    function initCards(mobile) {
+      var cards = document.querySelectorAll('.bl-science-card');
+      cards.forEach(function(card, i) {
+        if (mobile) {
+          // On mobile: only first card open by default
+          if (i > 0) card.removeAttribute('open');
+        } else {
+          // On desktop: force all open
+          card.setAttribute('open', '');
+        }
+      });
+    }
+    initCards(mq.matches);
+    mq.addListener(function(e) { initCards(e.matches); });
+  })();
+</script>
