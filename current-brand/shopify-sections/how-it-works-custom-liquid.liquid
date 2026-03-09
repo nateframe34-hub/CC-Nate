@@ -1,0 +1,143 @@
+<style>
+  .hiw-section {
+    background: #FFFFFF;
+    padding: 48px 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .hiw-header {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  .hiw-header h2 {
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 8px;
+    line-height: 1.2;
+  }
+  .hiw-header p {
+    font-size: 14px;
+    color: #5A5550;
+    margin: 0;
+    line-height: 1.5;
+  }
+  .hiw-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .hiw-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hiw-step-img {
+    width: 100%;
+    max-width: 320px;
+    aspect-ratio: 1 / 1;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  .hiw-step-number {
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    font-size: 48px;
+    font-weight: 300;
+    color: #C07840;
+    opacity: 0.4;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .hiw-step h3 {
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0C3B3F;
+    margin: 0 0 10px;
+    line-height: 1.3;
+  }
+  .hiw-step p {
+    font-size: 14px;
+    color: #5A5550;
+    line-height: 1.7;
+    margin: 0;
+    max-width: 480px;
+  }
+  .hiw-footer {
+    text-align: center;
+    margin-top: 36px;
+    font-size: 13px;
+    font-style: italic;
+    color: #5A5550;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Desktop: 3-column layout */
+  @media (min-width: 769px) {
+    .hiw-section {
+      padding: 80px 40px;
+    }
+    .hiw-header {
+      margin-bottom: 56px;
+    }
+    .hiw-header h2 {
+      font-size: 36px;
+    }
+    .hiw-header p {
+      font-size: 16px;
+    }
+    .hiw-steps {
+      flex-direction: row;
+      gap: 32px;
+    }
+    .hiw-step {
+      flex: 1;
+    }
+    .hiw-step-img {
+      max-width: 100%;
+    }
+    .hiw-step h3 {
+      font-size: 22px;
+    }
+    .hiw-footer {
+      margin-top: 56px;
+      font-size: 14px;
+    }
+  }
+</style>
+
+<div class="hiw-section">
+  <div class="hiw-header">
+    <h2>How It Works</h2>
+    <p>Simple enough to explain in 30 seconds. Backed by enough research to fill a library.</p>
+  </div>
+  <div class="hiw-steps">
+    <div class="hiw-step">
+      <img class="hiw-step-img" src="https://cdn.shopify.com/s/files/1/0978/0399/3409/files/creation_2535242702.png?v=1773046548" alt="Hand holding two small white capsules with a glass of water" loading="lazy">
+      <div class="hiw-step-number">01</div>
+      <h3>Take 2 Capsules Daily</h3>
+      <p>Two capsules. Morning. With or without food. That's your entire routine — 500mg of NMN plus 8 synergistic ingredients, all in one serving. No separate bottles. No complicated stacking protocol. No timing 5 different supplements around meals.</p>
+    </div>
+    <div class="hiw-step">
+      <img class="hiw-step-img" src="https://cdn.shopify.com/s/files/1/0978/0399/3409/files/creation_2535243161.png?v=1773046556" alt="Scientific illustration of a human cell showing NMN converting to NAD+ in mitochondria" loading="lazy">
+      <div class="hiw-step-number">02</div>
+      <h3>Your Body Does What It Already Knows How to Do</h3>
+      <p>NMN is a direct precursor to NAD+ — the molecule your cells already use to produce energy and support cellular maintenance. Resveratrol activates sirtuins — the proteins that regulate how your cells age. CoQ10 fuels your mitochondria. TMG supports methylation. Glutathione defends against oxidative stress. You're not adding something foreign — you're giving your cells more of what they already use.</p>
+    </div>
+    <div class="hiw-step">
+      <img class="hiw-step-img" src="https://cdn.shopify.com/s/files/1/0978/0399/3409/files/creation_2535244279.png?v=1773046564" alt="Man in his 50s walking through a park with his child, looking energized and present" loading="lazy">
+      <div class="hiw-step-number">03</div>
+      <h3>You Start Feeling Like You Again</h3>
+      <p>More consistent energy. Sharper focus. That thing where you get to 4pm and you're still <em>there</em> — still present, still engaged, still you. Not a stimulant spike and crash. A higher baseline. The kind of change that's subtle until someone else notices it first.</p>
+    </div>
+  </div>
+  <p class="hiw-footer">That's it. Ten ingredients. One serving. Two capsules. Everything your cells need to support the energy, defense, and maintenance systems that decline with age.</p>
+</div>
