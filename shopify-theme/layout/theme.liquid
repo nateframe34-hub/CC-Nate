@@ -29,8 +29,8 @@
     <script src="{{ 'main.js' | asset_url }}" defer="defer" data-defer="true" data-country-list-function="{{ settings.country_list_function }}" data-country-list="{{ settings.country_list }}" data-country-list-error="{{ settings.country_invalid_error_msg }}" data-animations-type="{{ settings.animations_type }}"></script>
     <script src="{{ 'secondary.js' | asset_url }}" defer="defer" data-defer="true" data-is-rtl="{{ is_rtl }}"></script>
     
-    <link rel="dns-prefetch" href="https://www.gstatic.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -97,7 +97,7 @@
           --font-body-weight-bold: {{ settings.custom_body_font_weight | plus: 300 | at_most: 1000 }};
         }
       {% endif %}
-      {% if settings.animations_type == blank or settings.animations_type.size < 196 %}main{visibility:hidden !important;}{% endif %}
+      {% comment %}Removed: visibility:hidden guard was hiding main content until JS loaded, killing FCP/LCP scores{% endcomment %}
       {% if settings.custom_header_font_link == blank %}
         {{ settings.type_header_font | font_face: font_display: 'swap' }}
         :root {
@@ -429,8 +429,7 @@
       </style>
     </noscript>
 
-    <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="{{ 'base.css' | asset_url }}"></noscript>
+    {{ 'base.css' | asset_url | stylesheet_tag }}
     {% if is_rtl %}
       <link rel="preload" href="{{ 'rtl.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
       <noscript><link rel="stylesheet" href="{{ 'rtl.css' | asset_url }}"></noscript>
