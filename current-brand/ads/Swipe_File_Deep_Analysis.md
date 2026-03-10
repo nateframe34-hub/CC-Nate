@@ -1,6 +1,6 @@
 # Swipe File Deep Analysis — Origins Native + Meta Statics
 
-> **Purpose:** Break down exactly HOW each winning ad in the swipe file works — creative + body copy synergy — so we can reverse-engineer the same mechanics for Baseline NMN.
+> **Purpose:** Break down exactly HOW each winning ad in the swipe file works — creative + body copy synergy — so we can reverse-engineer the same mechanics for our own ads.
 >
 > **Key insight before we start:** Every single native/camouflage ad follows the same core architecture:
 > 1. Creative stops the scroll (curiosity or pattern interrupt)
@@ -294,7 +294,7 @@
 
 7. **The CTA section is heavy on risk reversal:** 90-day guarantees, no auto-billing, made in USA, FDA-registered facility. Every possible objection is addressed.
 
-8. **Multiple angles for the same product:** Uflora has ads from the "shame/hygiene" angle (#1) AND the "relationship destruction" angle (#2). Provitalize has the "medical gaslighting" angle (#3) AND the "educational diagnosis" angle (#4). This is EXACTLY what Origins teaches — test 3 different angles per sub-avatar.
+8. **Multiple angles for the same product:** Uflora has ads from the "shame/hygiene" angle (#1) AND the "relationship destruction" angle (#2). Provitalize has the "medical gaslighting" angle (#3) AND the "educational diagnosis" angle (#4). This is exactly what Origins teaches — test 3 different angles per sub-avatar.
 
 ### How Static Ads Work (The Architecture)
 
@@ -304,20 +304,45 @@
 4. **Statics work best for:** awareness, engagement, retargeting, product-aware audiences.
 5. **Native ads work best for:** cold traffic, problem-aware/unaware audiences, longer sales cycles, higher AOV products.
 
+### Creative-to-Copy Synergy Patterns (What Makes Them Work Together)
+
+| Creative Type | Body Copy Style | Synergy Mechanism | Best For |
+|---|---|---|---|
+| Medical illustration/diagram | First-person story with authority figure | Creative promises "education" → copy delivers medical truth | Cold traffic, problem-unaware |
+| Romantic/lifestyle photo | Raw, visceral personal narrative | Creative sets emotional expectation → copy shatters it with reality | High-emotion pain points |
+| POV personal photo | Casual, conversational testimonial | Creative IS the testimonial → copy just extends it | Broad reach, authenticity |
+| Multi-image collage | Long-form sales letter disguised as journey | Creative looks like article → copy reads like article | Sophisticated buyers, higher AOV |
+| X-ray/diagnostic | Education-first, mechanism-driven | Creative creates "what is this?" → copy names the condition | Recognition-based selling |
+| Hotel/aspirational | Data-driven, optimizer-focused narrative | Creative creates contrast → copy explains why | Male audience, health-tech overlap |
+| Bold text on dark/plain | Short testimonial or one-line hook | Creative IS the message → copy adds specificity | Statics, retargeting |
+
+### Discovery Mechanism Inventory (How Characters Find the Product)
+
+These are the different ways the winning ads introduce the product — each one feels organic in a different way:
+
+1. **The Doctor Visit** — Authority figure diagnoses the problem and recommends the product (Ads #1, #3, #4)
+2. **The 2AM Research Rabbit Hole** — Narrator finds published research late at night (can be adapted for our NMN stories)
+3. **The Forum/Reddit Thread** — Narrator finds real people sharing results in an online community (Ad #2)
+4. **The Conference Overhearing** — Narrator accidentally learns about the product through researchers (Ad #5)
+5. **The Friend Who Looks Younger** — Social comparison triggers research (can be adapted for our reunion/friend stories)
+6. **The Surgeon's Casual Recommendation** — Authority figure mentions it offhand, not as a prescription (Ad #6)
+7. **The Word-of-Mouth** — Husband's friend, colleague, family member shares what worked (Ad #7)
+8. **The Happy Accident** — Product discovered through an unrelated experience (Ad #8, hotel scene)
+9. **The Data Discovery** — Health tracking data reveals the problem, research reveals the solution (Ad #8, Apple Watch)
+
+### Emotional Entry Points That Win
+
+| Emotion | How It's Used | Which Ads |
+|---|---|---|
+| Shame | "I'm doing everything right and still failing" | #1, #2 |
+| Outrage | "The system is dismissing me" | #3, #5 |
+| Quiet fear | "This trajectory is getting worse" | #8, and our B1 target |
+| Recognition | "THAT'S what I have!" | #4 |
+| Vindication | "Finally someone believes me" | #3, #5 |
+| Guilt | "I can't show up for the people who need me" | Adapted for our B4 |
+| Frustration | "Nothing works and I've tried everything" | #7, and our B3 target |
+| Hope through proof | "If it worked for HER, maybe..." | #2, #5, #7 |
+
 ---
 
-## KEY PRINCIPLES FOR OUR NMN ADS
-
-Based on this analysis, here's what makes native ads work for health supplements specifically:
-
-1. **The creative must be a "pattern interrupt disguised as organic content."** For NMN, this means: medical diagrams of cells/mitochondria, personal photos of tired-looking people, before/after energy journal screenshots, Apple Watch sleep data screenshots, pill bottle cabinets, etc.
-
-2. **The body copy must tell a STORY, not sell a product.** The product is the resolution of the story, not the subject of it.
-
-3. **We need an authority figure.** For NMN, this could be: a doctor who ran bloodwork, a longevity researcher, a spouse who works in medicine, or even a forum of educated users.
-
-4. **The "new information" is our biggest asset:** The 64% fake stat, NAD+ decline as a specific cause, enzymatic vs. chemical synthesis, QR-to-COA verification — these are our mechanism reveals that make the story pivot from "problem" to "solution."
-
-5. **We should run native ads through a partner account (not the brand account).** This is CRITICAL for camouflage ads. Running through a non-brand page (using Meta's partner feature) makes the ads look even more like organic personal stories. This is standard practice for winning native ads in health supplements. The swipe file ads are clearly NOT running from brand pages — they look like individual people sharing their experiences.
-
-6. **Each batch of 3 ads should target ONE sub-avatar with THREE different angles.** This is how the swipe file does it (Uflora has multiple angles for the same BV avatar, Provitalize has multiple angles for the same hip pain avatar).
+*Analysis document — pure breakdown of Origins swipe file mechanics. Batch plans and Baseline NMN ad concepts are in a separate document: `Ad_Batch_Plans_B1-B3.md`*
