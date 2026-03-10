@@ -59,7 +59,7 @@
         -%}
         {{
           section.settings.image
-          | image_url: width: 3840
+          | image_url: width: 2000
           | image_tag:
             loading: 'eager',
             fetchpriority: 'high',
@@ -67,7 +67,7 @@
             height: image_height,
             class: image_class,
             sizes: sizes,
-            widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+            widths: '375, 550, 750, 1100, 1500, 1780, 2000'
         }}
       </div>
     {%- elsif section.settings.image_2 == blank -%}
@@ -92,7 +92,7 @@
         -%}
         {{
           section.settings.image_2
-          | image_url: width: 3840
+          | image_url: width: 2000
           | image_tag:
             loading: 'eager',
             fetchpriority: 'high',
@@ -100,7 +100,7 @@
             height: image_height_2,
             class: image_class_2,
             sizes: sizes,
-            widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+            widths: '375, 550, 750, 1100, 1500, 1780, 2000'
         }}
       </div>
     {%- endif -%}
