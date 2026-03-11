@@ -52,6 +52,8 @@ Why this matters:
 3. Run B1-B3's camouflage ads from that page
 4. The page should have some organic posts to look established — health tips, personal anecdotes, etc.
 
+**⚠️ This is NOT the same as Sarah Lawson's partner page.** Sarah's page (see `Partner_Page_Identity_and_Post_Plan.md`) is a separate organic content engine with its own identity, voice, and posting plan. The ad partner page is a simpler, more generic health/wellness page used solely to make paid ads look native. The B1-B3 body copies feature multiple different narrators (male and female, various ages) — they don't need to match any single page identity. Keep these two pages separate.
+
 ### Campaign Structure
 
 - **Campaign type:** Advantage+ Shopping Campaign (or CBO manual campaign)
@@ -102,7 +104,7 @@ Example: `B1C1_Native_DoctorVisit_A1-SpecificCause`
 **Why this creative matches A1:** The medical/clinical creative sets up the "your decline has a SPECIFIC cause" frame. It promises new information about WHY you feel different — and the body copy delivers that answer (NAD+ decline). Mirrors how Camouflage Ad #1 used a medical illustration to set up a clinical education frame, then delivered on it with real medical terminology.
 
 **Body Copy Approach:**
-First-person story from a 48-year-old. Describes gradual decline over 2-3 years (exhaustion, brain fog, recovery taking longer). Goes to multiple doctors who say "it's just aging." Finally finds a doctor/naturopath who runs proper tests and discovers NAD+ levels have dropped significantly. Doctor introduces the concept of cellular energy decline. Narrator discovers NMN through the doctor's recommendation + their own research. Results timeline (Week 1, 2, 4, 8). Spouse notices the change before they do.
+First-person story from a 48-year-old. Describes gradual decline over 2-3 years (exhaustion, brain fog, recovery taking longer). Goes to multiple doctors who say "it's just aging." Finally finds a functional medicine practitioner who runs more comprehensive panels and identifies a pattern consistent with age-related cellular energy decline. Doctor introduces the concept of NAD+ — not through a specific NAD+ lab test (which isn't standard), but through recognizing the symptom pattern and the research on cellular energy decline. Narrator discovers NMN through the doctor's recommendation + their own research. Results timeline (Week 1, 2, 4, 8). Spouse notices the change before they do.
 
 **Discovery mechanism:** The Doctor Visit (authority figure introduces new information)
 **Authority figure:** Functional medicine doctor / naturopath who runs actual lab work
@@ -113,9 +115,9 @@ First-person story from a 48-year-old. Describes gradual decline over 2-3 years 
 
 ---
 
-### Creative 2: B1C2 — "The 387 Days"
+### Creative 2: B1C2 — "The 187 Days"
 
-**Ad Name:** `B1C2_Native_387Days_A2-RawTestimonial`
+**Ad Name:** `B1C2_Native_187Days_A2-RawTestimonial`
 **Angle:** A2 — Raw, real, understated testimonial
 **Format:** POV personal photo — looks like a real Facebook post from a real person
 **Modeled after:** Camouflage Ads #2 (raw emotional), #6 (understated POV), #7 (real testimonial)
@@ -245,17 +247,19 @@ Opens with a specific guilt moment: "My 7-year-old asked me to play catch. I sai
 **Nano Banana Pro Prompt:**
 > N/A — This is a text/screenshot creative designed in Canva
 
-**Canva Edit Steps:**
-1. Background: Black (#000000), 1080×1080px (phone screen at night)
-2. Top status bar: "2:17 AM" left, battery icon at 12% right, Wi-Fi icon — system font style, white text
-3. Browser/search bar: Google search field with typed text: "why am I so tired during perimenopause"
-4. Below search bar: 2-3 search result previews (truncated, realistic):
-   - "Perimenopause Fatigue: Why It Happens and What..." — truncated
-   - "NAD+ Decline During Menopause — What Women Should..." — this one slightly highlighted/tapped
-   - "Reddit: Has anyone else lost ALL their energy at 45?" — truncated
-5. Bottom: faint iOS-style home bar
-6. NO branding. NO logos. Looks like someone screenshotted their own 2AM search session.
+**Canva Edit Steps (Compliance-Safe Version):**
+1. Background: Dark charcoal (#1A1A1A), 1080×1080px — suggests nighttime without mimicking a phone UI
+2. Top left: "2:17 AM" in a simple sans-serif font, white text, 14pt — time stamp without a full status bar (no battery icon, no Wi-Fi icon, no iOS elements)
+3. Center: Search query text in a slightly larger font: "why am I so tired during perimenopause" — styled as a quote/search term, NOT inside a Google search bar mockup
+4. Below, smaller text in light gray, separated by thin lines:
+   - "Perimenopause Fatigue: Why It Happens and What..."
+   - "NAD+ Decline During Menopause — What Women Should..." — this one in slightly brighter white
+   - "Has anyone else lost ALL their energy at 45?"
+5. NO phone UI elements (no status bar, no battery icon, no home bar, no browser chrome). The creative SUGGESTS a late-night search through typography and dark background without replicating any platform interface.
+6. NO branding. NO logos.
 7. 1080×1080px.
+
+**⚠️ Compliance Note:** The original concept replicated iOS phone UI elements (status bar, battery, home bar, browser search field). Meta's ad review team may flag this as platform UI mimicry even though it's a Canva build — they review the final image, not the source file. This simplified version achieves the same emotional impact (2AM, dark screen, desperate search) without triggering UI mimicry flags.
 
 **Why this creative matches A3:** The 2AM research session is UNIVERSAL for this demographic. The swipe file's Ad #2 referenced the narrator staying up until sunrise reading forums. This captures that exact behavior and makes it the entry point. The creative IS the audience's life — they DO this every night.
 
@@ -283,6 +287,8 @@ Opens at 2AM: "It's 2:17 AM. I'm googling 'perimenopause fatigue not going away'
 **Gap:** Stimulation ≠ restoration
 
 **Why this sub-avatar third:** Most universal daily experience. Everyone 35+ knows the afternoon crash. The caffeine-vs-baseline angle is the clearest product differentiation. Easy to visualize in creatives. Could also be run through the brand account since the messaging is less "personal story" and more "educational pattern interrupt" — but partner account recommended for consistency.
+
+**⚠️ B1/B3 Overlap Note:** B1 (Reluctant Decliner) and B3 (3pm Wall Hitter) both target 40+ energy decline. B1C3 and B3C3 are both data-driven journal formats. B1C2 and B3C1 are both casual-guy testimonials. With CBO, Meta may struggle to differentiate audiences. **Mitigation:** Ensure B3 targeting skews younger (35-45) vs. B1 (45-55) to create audience separation. Monitor early signals — if B1 and B3 cannibalize each other's spend, pause the weaker one and reallocate to B2. If planning future batches, consider replacing B3 with Sub-Avatar #5 (Proactive Optimizer) for clearer differentiation.
 
 **3 Angles Being Tested:**
 - **A1:** 5 cups of coffee and still crashing — the understated real-guy story (Casual testimonial)
@@ -344,7 +350,7 @@ Casual, conversational voice. "I'm a 47-year-old software developer. I drink 5 c
 **Why this creative matches A2:** The side-by-side visual IS the education — before reading a word of body copy, the viewer understands that caffeine spikes and crashes while NMN elevates the baseline. This is the "new information" presented visually. Mirrors how Ad #4 used X-ray images to educate FIRST, then sold through the story.
 
 **Body Copy Approach:**
-Opens with the reframe: "That 3pm crash isn't a coffee problem. It's a cellular fuel problem." Educational tone, not personal story. Explains NAD+ decline in accessible language. Uses the "your body didn't break, it ran out of fuel" framework. Presents NMN as the restoration solution — not another stimulant, but the raw material your cells use to produce steady energy. Ends with: "Two capsules with breakfast. That's it. No jitters. No crash. Just your baseline, raised. Individual results may vary."
+First-person story from a high school biology teacher who teaches cellular energy production but didn't realize he was living the decline he lectures about. He explains the caffeine vs. NAD+ mechanism through his professional knowledge — "I give my students the textbook answer about why caffeine stops working... then I realized that's literally my entire afternoon." Education-first angle delivered through personal authority, not abstract explanation. Maintains native/first-person format consistency with B3C1 and B3C3 while keeping the education-first angle as the variable being tested.
 
 **Discovery mechanism:** The Education Reframe (new information changes how you think about the problem)
 **Authority figure:** Published research (referenced but not dramatized)
@@ -417,6 +423,23 @@ Structured as a log/journal format. "BEFORE: 6AM — alarm. Hit snooze 3x. 7AM �
 - **Targeting:** Broad. Age + gender + geo only. No interest targeting. Let the creative do the targeting.
 - **Launch:** All 3 ad sets live simultaneously
 
+### Budget Math Check
+
+At $150 CAD/day across 3 ad sets = ~$50/ad set/day = ~$17/creative/day. Meta's learning phase requires ~50 conversions per ad set per week.
+
+| Target CPA | Weekly conversions at $50/day | Exits learning phase? |
+|------------|------------------------------|----------------------|
+| $7 CAD | ~50/week | ✅ Yes — barely |
+| $15 CAD | ~23/week | ❌ No — stuck in learning |
+| $25 CAD | ~14/week | ❌ No — stuck in learning |
+| $40 CAD | ~9/week | ❌ No — stuck in learning |
+
+**If your target CPA is above ~$10 CAD**, the $150/day budget won't exit learning phase across 3 ad sets. Options:
+1. **Increase budget to $200-250/day** — gives each ad set ~$70-85/day, improving learning phase odds
+2. **Launch 2 batches first** (B1 + B2), run for 2 weeks, then launch B3 — concentrates spend for faster learning
+3. **Use "Purchase" optimization but expect longer learning** — accept 14-21 days instead of 7 for learning phase exit
+4. **Define "kill" vs. "iterate" thresholds:** If ALL 3 batches have CPA above 2x target after 14 days, the issue is likely the offer/landing page, not the creative. Pause and diagnose before iterating on ads.
+
 ## Week 1-2: Monitor (Do NOT Touch)
 
 Per Origins 15-Checkpoint Cheatsheet:
@@ -442,6 +465,8 @@ Take the winning sub-avatar + winning angle and create 3 NEW format variations:
 - 3 different visual formats (e.g., native camouflage → us vs them → video testimonial)
 - This is Phase 2: format testing with the proven winner
 
+**⚠️ Production Timeline:** Creating 3 new format variations requires creative production. Start concept development during Week 1 so assets are ready when winners emerge in Week 2-3. Don't wait for results before beginning production — have 2-3 format concepts roughed out for each potential winning sub-avatar. You can finalize the one that matches the actual winner.
+
 ---
 
 # NANO BANANA PRO PROMPTS — REFINED
@@ -466,7 +491,7 @@ A photorealistic photograph of someone's laptop screen showing a colorful scient
 
 ---
 
-### B1C2 — "The 387 Days" (POV Morning Routine)
+### B1C2 — "The 187 Days" (POV Morning Routine)
 
 ```
 A photorealistic first-person POV photograph of a kitchen counter in soft morning light. A person's left hand is reaching for a small white supplement bottle with a purple-accented label, positioned next to a steaming white ceramic coffee mug. The counter is light granite or quartz, slightly cluttered with everyday items: a set of car keys, a pair of reading glasses, a torn-open piece of mail, and a small potted succulent pushed to the side. The morning sun streams through a window to the left, creating warm golden light and soft shadows across the counter. Everything is slightly imperfect — the mail is crumpled, the keys tossed casually, a few water drops near the coffee mug. Shot from the person's eye level looking down at the counter, smartphone camera quality, slight motion blur on the reaching hand. The image should feel like someone snapped a quick photo of their morning routine to post on Facebook with a caption. Warm, lived-in, authentic. No face visible. 4:5 aspect ratio.

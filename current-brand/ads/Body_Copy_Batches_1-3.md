@@ -40,17 +40,19 @@ I didn't feel healthy for my age. I felt like someone had slowly turned the dimm
 
 I went to a second doctor — an internist — who said the same thing. Fine. Normal. Just aging.
 
-The third doctor was different. A functional medicine practitioner my neighbor recommended after watching me limp off the tennis court. She ran panels the others didn't.
+The third doctor was different. A functional medicine practitioner my neighbor recommended after watching me limp off the tennis court. She ran more comprehensive panels than the others — inflammation markers, metabolic markers, things my GP hadn't looked at.
 
-"Your NAD+ levels are significantly below where I'd want them for someone your age," she said.
+The results weren't alarming. But they told a different story than "you're fine."
 
-I'd never heard of NAD+.
+"Your markers are consistent with what I see in patients experiencing age-related cellular energy decline," she said. "Have you heard of NAD+?"
 
-She explained: it's a coenzyme in every cell of your body. Your cells use it for energy production and cellular maintenance. It's not a vitamin. It's not a mineral. It's the fuel behind the fuel — the thing your mitochondria need to do their job. And it declines as you age. Significantly.
+I hadn't.
 
-"The fatigue, the brain fog, the slow recovery — this is consistent with what I'm seeing in your panel," she said. "Your cells are running on less than they need."
+She explained: it's a coenzyme in every cell of your body. Your cells use it for energy production and cellular maintenance. It's not a vitamin. It's not a mineral. It's the fuel behind the fuel — the thing your mitochondria need to do their job. And it declines as you age. Significantly. Research suggests the decline accelerates in your 40s.
 
-She recommended NMN — the direct precursor. What your body converts into NAD+. She said to give it 6-8 weeks. Not a magic fix. A molecular one.
+"The fatigue, the brain fog, the slow recovery — it all fits the pattern," she said. "Your cells may be running on less than they need."
+
+She recommended looking into NMN — the direct precursor your body converts into NAD+. She said to give it 6-8 weeks. Not a magic fix. A molecular one.
 
 I found Baseline because they didn't promise miracles. One ingredient. Published research. Transparent about what's in the bottle.
 
@@ -72,9 +74,9 @@ That was enough. Individual results may vary.
 
 ---
 
-## B1C2 — "The 387 Days" | A2: Raw Testimonial
+## B1C2 — "The 187 Days" | A2: Raw Testimonial
 
-> **Ad Name:** `B1C2_Native_387Days_A2-RawTestimonial`
+> **Ad Name:** `B1C2_Native_187Days_A2-RawTestimonial`
 > **Creative:** POV photo — hand reaching for a supplement bottle next to morning coffee on a kitchen counter. Casual, everyday, looks like a real Facebook post.
 > **Discovery mechanism:** The Reddit/Forum Thread (organic community discovery)
 > **Structure:** Raw testimonial — short punchy paragraphs, conversational, understated. NOT a narrative arc. A guy just telling you what happened.
@@ -106,7 +108,7 @@ It's not a lightning bolt. It's more like someone quietly turned the lights back
 
 It's been 187 days. I still take two capsules with my morning coffee. That's it. That's the whole routine.
 
-I'm not going to tell you this will change your life. I'm going to tell you it changed my baseline. And for me, that was the thing I'd been looking for. Individual results may vary.
+I can't promise this will work for everyone — bodies are different, and I'm not a doctor. But I can tell you it changed my baseline. And for me, that was the thing I'd been looking for.
 
 → Stop declining. Start restoring.
 
@@ -122,9 +124,7 @@ I'm not going to tell you this will change your life. I'm going to tell you it c
 
 ---
 
-What if "just getting older" is actually just running low on one molecule?
-
-I'm an engineer. I track things. Heart rate variability, sleep stages, resting heart rate, daily energy on a 1-10 scale. I've logged this data every day for three years.
+I'm an engineer. I track everything. Heart rate variability, sleep stages, resting heart rate, daily energy on a 1-10 scale. I've logged this data every day for three years. And two years ago, my numbers started telling me a story I didn't want to hear.
 
 Here's what the data showed me:
 
@@ -140,7 +140,7 @@ The decline curve in the research mapped almost exactly onto my own tracking dat
 
 NMN is the direct precursor — the molecule your body converts into NAD+. I was skeptical. I've been burned by supplements before. But the published research was specific and the mechanism was clear. This wasn't "proprietary blend" hand-waving. It was biochemistry.
 
-I chose Baseline because the label matched what the research said mattered. No unnecessary fillers. No exaggerated claims. Published research backing the formulation.
+I chose Baseline because the dose matched the research. 500mg NMN — the same amount used in the studies I'd read. Most brands sell 125 or 250mg and hope you don't notice. An engineer notices.
 
 I tracked the results the same way I track everything else:
 
@@ -152,7 +152,9 @@ I tracked the results the same way I track everything else:
 
 The trend line changed. That's the most honest thing I can say. My baseline went up. Not dramatically. Not overnight. But measurably, consistently, and in a direction the data hadn't moved in two years.
 
-I'm still tracking. Still skeptical of most supplements. But the numbers don't lie, and these numbers say something changed at the cellular level. Individual results may vary.
+I'm still tracking. Still skeptical of most supplements. But the numbers don't lie, and these numbers say something changed at the cellular level.
+
+Will it work the same for you? I don't know. I only know what my data says. But the research on NAD+ decline is real, and my tracking confirms it did something measurable. Individual results may vary.
 
 → Stop declining. Start restoring.
 
@@ -203,11 +205,17 @@ I looked it up. She was right. Published research. NAD+ is a coenzyme in every c
 
 NMN is the precursor your body uses to produce NAD+. Not a hormone. Not a stimulant. Just the raw material your cells need to do what they used to do without you noticing.
 
-I found Baseline because they didn't talk to me like I needed fixing. No "anti-aging" language. No before-and-after nonsense. Just the science and the ingredient.
+Liz sent me a link to Baseline. "This is the one I take," she said. "You can scan the QR code on the bottle and see the actual lab results for your specific batch." After getting sold collagen powders and jade rollers, being able to verify instead of trust was exactly what I needed.
 
-I noticed it around week 4. Not a miracle. Just... the fog started clearing. I made it past 2pm without wanting to lie down. I could hold a thought through a full conversation. I stopped canceling plans.
+**Week 2:** My husband said I "seemed different" one morning. I didn't feel different. I thought he was being nice.
 
-My doctor still says it's "just perimenopause." She's not wrong about the diagnosis. But that answer felt incomplete. This was the part that was missing. Individual results may vary.
+**Week 3:** He said it again. And then I realized — I'd made it to school pickup without needing to sit in the car first. Two days in a row.
+
+**Week 5:** The fog started clearing. I could hold a thought through a full conversation. I stopped canceling Friday plans by Wednesday.
+
+**Week 7:** I wasn't tracking it anymore. That was the sign. I stopped monitoring my energy because I didn't need to.
+
+My doctor still says it's "just perimenopause." She's not wrong about the diagnosis. But that answer was incomplete. This was the part that was missing. Individual results may vary.
 
 → Function first. Everything else follows.
 
@@ -243,7 +251,7 @@ That's when I found something I hadn't seen before. NAD+ — a coenzyme your cel
 
 NMN is the molecule your body converts into NAD+. Think of it as refilling the tank that's been running dry underneath everything else.
 
-I found Baseline because it was the first brand that didn't talk to me like I was broken. No "anti-aging." No "restore your youth." Just one ingredient, published research, and a straight answer.
+I found Baseline because it came as a 60-day supply. That sounds like a small thing. But everything else was 30 days — and the research said NAD+ levels take 3-4 weeks to build. A 30-day bottle means quitting right when it starts working. Baseline gave me enough time to actually find out.
 
 **Weeks 1-2:** Nothing.
 
@@ -255,7 +263,9 @@ I found Baseline because it was the first brand that didn't talk to me like I wa
 
 I'm not a different person. My hormones are still doing whatever they're doing. But something underneath started working again. The cellular part. The part nobody told me about.
 
-I have two kids who want me present. Not perfect. Present. And most days now, I can be. Individual results may vary.
+I have two kids who want me present. Not perfect. Present. And most days now, I can be.
+
+I don't know if this is the answer for every exhausted parent out there. I know it was the missing piece for me. Individual results may vary.
 
 → Function first. Everything else follows.
 
@@ -366,7 +376,9 @@ It's not like caffeine. There's no buzz. There's no moment where you feel it kic
 
 I still drink coffee. Three cups now instead of five. But I drink it because I like it, not because I'll collapse without it.
 
-My 3pm still isn't my best hour. But I can get through it without wanting to lie down. And honestly? That's all I wanted. Individual results may vary.
+My 3pm still isn't my best hour. But I can get through it without wanting to lie down. And honestly? That's all I wanted.
+
+Your mileage may vary — I'm one guy with one desk and too many coffee cups. But if you've tried everything else and you're still crashing, maybe the problem isn't discipline. Maybe it's fuel. Individual results may vary.
 
 → Ditch the third cup.
 
@@ -376,41 +388,41 @@ My 3pm still isn't my best hour. But I can get through it without wanting to lie
 
 > **Ad Name:** `B3C2_Native_CaffeineVsBaseline_A2-EducationFirst`
 > **Creative:** Clean infographic — "STIMULATION vs. RESTORATION" with two line graphs. Caffeine shows spikes and crashes. NMN/baseline shows a steady elevated line. Educational, not product-forward. Looks like health content from a podcast summary.
-> **Discovery mechanism:** The Education Reframe (new information changes how you think about the problem)
-> **Structure:** Education-first — NO personal story. Pure mechanism reframe. Short, punchy, explanatory. Modeled after Camouflage Ad #4 (Provitalize diagnostic approach). The new information IS the hook.
-> **Psychological lever:** Problem Reframing — repositions the 3pm crash from a caffeine/discipline problem to a cellular fuel problem. This is Confirmation Bias redirection: the reader believes caffeine should work → you explain why it can't → you offer the correct framework.
+> **Discovery mechanism:** The Education Reframe (professional knowledge applied to personal problem)
+> **Structure:** Education-first through first-person — a biology teacher who teaches cellular energy realizes he's living the decline he lectures about. The narrator's expertise IS the authority. Modeled after Camouflage Ad #4's diagnostic approach but wrapped in a personal voice to maintain native format consistency with B3C1 and B3C3.
+> **Psychological lever:** Problem Reframing + Authority via Profession — repositions the 3pm crash from a caffeine/discipline problem to a cellular fuel problem. The narrator's teaching background makes the science feel earned, not preachy.
 
 ---
 
-That 3pm crash isn't a coffee problem. It's a cellular fuel problem.
+I teach high school biology. I spend all day explaining how cells produce energy. And for the last three years, by 3pm, I couldn't produce any of my own.
 
-Here's what's actually happening:
+Five cups of coffee a day. Minimum. And still crashing.
 
-**Caffeine** blocks adenosine receptors in your brain. That's it. It doesn't give you energy — it blocks your brain's ability to register that you're tired. When the caffeine wears off, all the accumulated fatigue hits at once. That's the crash.
+One of my students asked me once why caffeine stops working after a few hours. I gave her the textbook answer — caffeine blocks adenosine receptors, it doesn't create energy, it just blocks your brain from knowing you're tired. When it wears off, all the fatigue you've been hiding hits at once. That's the crash.
 
-You didn't run out of caffeine. You ran out of the ability to pretend you weren't tired.
+I said it out loud and thought: that's literally my entire afternoon. Every day.
 
-**The real issue** is downstream. Your cells produce energy through a process that depends on a coenzyme called NAD+. Every cell in your body uses it. Energy production. Cellular maintenance. The basic machinery of being alive and alert.
+I started wondering what the actual energy problem was. Not the perceived energy. The cellular energy. The stuff I teach.
 
-NAD+ levels decline significantly as you age. By your 40s, your cells are working with measurably less fuel than they had a decade ago. Same demand. Less supply.
+I went back to the research I already knew but hadn't applied to myself. Your cells produce energy through a process that depends on a coenzyme called NAD+. Every cell uses it. Energy production. Cellular maintenance. The basic machinery of being alive and alert.
 
-That's why the 3pm wall gets worse every year. That's why more coffee doesn't fix it. You're masking a fuel shortage with a signal blocker.
+NAD+ levels decline significantly as you age. By your 40s, your cells have measurably less fuel than a decade ago. Same demand. Less supply.
 
-**The difference:**
+I'd been teaching this concept for fifteen years without realizing I was living it.
 
-Caffeine = stimulation. It borrows energy from later and charges interest.
+More coffee wasn't going to fix a fuel shortage. I was masking the problem with a signal blocker.
 
-NMN = restoration. It's the direct precursor your body converts into NAD+. Instead of blocking the "tired" signal, it supports the actual energy supply your cells run on.
+NMN is the direct precursor your body converts into NAD+. Not a stimulant. Not caffeine. It supports the actual energy supply your cells run on. I knew the mechanism. It was solid biochemistry, not supplement marketing.
 
-One spikes and crashes. The other raises the floor.
-
-Baseline NMN delivers NMN in a form your body can convert into NAD+. No caffeine. No stimulants. No crash cycle. Just the molecular support your cells need to produce steady energy.
+I chose Baseline because the formulation matched what the research supports. No unnecessary fillers. No exaggerated claims. Just the molecule at the dose the studies actually use.
 
 Two capsules with breakfast. That's it.
 
-You might not feel it the way you feel coffee. There's no jolt. No buzz. What people report is more subtle: the crash gets smaller. The afternoons get easier. The third cup of coffee stops being necessary.
+There's no jolt. No buzz. It's nothing like coffee. What I noticed after about three weeks was more subtle — the crash got smaller. Then the afternoons got easier. I stopped reaching for that fourth cup out of desperation.
 
-Not a spike. A higher floor your energy sits on. Individual results may vary.
+My students still ask me about caffeine. Now I tell them: caffeine borrows energy from later and charges interest. There are other approaches that support the actual fuel supply. One spikes and crashes. The other raises the floor.
+
+I can't promise it'll work the same for everyone. I can tell you the mechanism is real — I've been teaching it for fifteen years. And now I'm finally using it. Individual results may vary.
 
 → Ditch the third cup.
 
@@ -449,7 +461,9 @@ I logged days like this for two weeks before starting. The pattern was identical
 
 Then I read about NAD+ — the coenzyme your cells depend on for energy production. Published research shows levels decline significantly after 40. Caffeine can't fix what's happening at the cellular level. It just masks it.
 
-NMN is the precursor your body converts into NAD+. I decided to run a proper experiment. Same routine. Same diet. Same sleep schedule. One variable: two capsules of Baseline NMN with breakfast.
+NMN is the precursor your body converts into NAD+. I decided to run a proper experiment. Same routine. Same diet. Same sleep schedule. One variable added.
+
+I chose Baseline because the label showed every ingredient and every amount — no proprietary blends, no hidden doses. If I'm running an experiment, I need to know exactly what the variable is. Two capsules with breakfast.
 
 **DAY 15 — FIRST SHIFT:**
 
@@ -535,7 +549,7 @@ The journal doesn't lie. My baseline went up. Not a miracle. Not superhuman ener
 | B2C2 | Single-scene expansion (one guilt moment radiates outward) | Raw, emotional, intimate | ~500 words | 2AM Research Hole |
 | B2C3 | Stream of consciousness (2AM voice, fragments, raw and messy) | Unfiltered, exhausted, real | ~475 words | 2AM Research Rabbit Hole |
 | B3C1 | Casual guy sharing (short, shrugging, understated) | Self-deprecating, dry humor | ~400 words | Podcast/Article |
-| B3C2 | Education-first reframe (no personal story, pure mechanism) | Explanatory, clear, direct | ~350 words | Education Reframe |
+| B3C2 | Education-first through first-person (biology teacher applies classroom knowledge to own life) | Professional, relatable, wry | ~425 words | Professional Knowledge Applied |
 | B3C3 | Journal/log format (time-stamped entries, before/after) | Observational, documentary | ~500 words | Personal Experiment |
 
 ---
