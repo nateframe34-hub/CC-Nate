@@ -6,6 +6,22 @@
 
 ---
 
+## FTC Disclosure Compliance
+
+**The FTC requires that material connections between endorsers and brands be disclosed clearly and conspicuously.** "Material connection" includes any partnership, free product, affiliate commission, or payment — even if the endorser genuinely uses and likes the product.
+
+**Key rules for Sarah's page:**
+
+1. **Per-post disclosure required** on any post that mentions, shows, or features Baseline. The FTC has explicitly ruled that bio-only disclosure is insufficient — users see individual posts via Explore, Reels, shares, and embeds without visiting the profile.
+2. **Disclosure must appear before the "more" fold** — not buried at the end or in hashtags below the fold. `#BaselinePartner` at the start of the caption satisfies this.
+3. **Instagram branded content tag** (`Paid partnership with @baselinenmn`) is the gold standard — use it on all Baseline-featuring posts when available.
+4. **Posts that don't mention Baseline** (personal, parenting, general science) need no disclosure. Sarah is a real person posting real content — only the brand-connected content triggers the requirement.
+5. **Stories and Reels** also require disclosure. Use Instagram's "Paid partnership" label or a text overlay with `#BaselinePartner` visible for the full duration.
+
+**Reference:** FTC Endorsement Guides (16 CFR Part 255), updated June 2023. The FTC can pursue enforcement against both the endorser AND the brand for inadequate disclosure.
+
+---
+
 # PART 1: FULL IDENTITY PLAN
 
 ---
@@ -199,7 +215,7 @@ Lower frequency than the brand page. A real person doesn't post every day like a
 ### Day 5 (Friday) — PRODUCT MENTION (FIRST — NATURAL)
 **Format:** Casual photo — morning routine shot, bottle visible but not centered
 **Photo:** Kitchen counter, morning light. Coffee cup, journal, Baseline bottle visible among other items (vitamins, water glass, keys).
-**Caption:** "Someone asked what NMN I take — it's @baselinenmn. I chose it because I could verify what's in the bottle. That mattered to me after getting burned before. Two capsules with my morning coffee. That's the whole routine."
+**Caption:** "#BaselinePartner — Someone asked what NMN I take — it's @baselinenmn. I chose it because I could verify what's in the bottle. That mattered to me after getting burned before. Two capsules with my morning coffee. That's the whole routine."
 
 ---
 
@@ -209,7 +225,7 @@ Lower frequency than the brand page. A real person doesn't post every day like a
 **Format:** Carousel
 **Topic:** "Perimenopause and NAD+: The Connection Nobody's Talking About"
 **Content:** "85% of women report fatigue during perimenopause. But most longevity brands market exclusively to men in hoodies talking about 'optimizing performance.' The cellular decline is the same. The experience isn't. Here's what I wish someone had told me at 41."
-**Caption:** Tag @baselinenmn with: "One of the few brands that doesn't market NMN like it's a pre-workout for tech bros."
+**Caption:** "#BaselinePartner — One of the few brands that doesn't market NMN like it's a pre-workout for tech bros." Tag @baselinenmn.
 
 ### Day 2 (Tuesday) — DAILY LIFE
 **Format:** Reel or candid
@@ -249,7 +265,7 @@ Lower frequency than the brand page. A real person doesn't post every day like a
 ### Day 3 (Wednesday) — PRODUCT MENTION
 **Format:** Short video — QR code scan
 **Content:** 15-second video: "People keep asking how I verify my supplements. Here's literally how." *scans QR code on Baseline bottle → shows lab report on phone screen* "That's it. Purity, potency, heavy metals, microbial — for MY specific batch. Every bottle."
-**Caption:** "I've recommended supplements to patients for over a decade. This is the first time I could show them PROOF instead of asking for trust. @baselinenmn"
+**Caption:** "#BaselinePartner — I've recommended supplements to patients for over a decade. This is the first time I could show them PROOF instead of asking for trust. @baselinenmn"
 
 ### Day 4 (Thursday) — SCIENCE
 **Format:** Carousel
@@ -305,7 +321,7 @@ Lower frequency than the brand page. A real person doesn't post every day like a
 
 ## Red Lines — Never Do This
 
-1. **Always disclose the partnership naturally** — "Partner @baselinenmn" in bio covers every organic post. No need for #ad #sponsored stacking in captions — a bio-level disclosure is clean, honest, and what real practitioners do. Paid Meta ads are automatically labeled "Sponsored" by the platform.
+1. **Always disclose the partnership — in every post that mentions Baseline, not just the bio.** The FTC requires disclosure to be "clear and conspicuous" in the same post where the endorsement appears — bio-only disclosure is NOT sufficient because users can see individual posts without visiting the profile (shared posts, Explore feed, Reels, embeds). **For any post that mentions, features, or shows Baseline:** add `#BaselinePartner` at the beginning of the caption (before the fold). This is the minimum. You can also use `#ad` or `Paid partnership with @baselinenmn` (Instagram's built-in branded content tag). **For posts that don't mention Baseline at all** (the 80%+ of content that's personal, parenting, science): no disclosure needed — she's just being a person. **Bio disclosure ("Partner @baselinenmn") stays** — it adds transparency, but it doesn't replace per-post disclosure on posts that feature the brand.
 2. **Never post identical language to the Baseline brand page** — she has her own voice
 3. **Never post ONLY about supplements** — minimum 50% of content must be non-supplement
 4. **Never make medical claims** — "supports" not "treats," "I noticed" not "it cures"

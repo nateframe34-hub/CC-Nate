@@ -54,7 +54,7 @@ She explained: it's a coenzyme in every cell of your body. Your cells use it for
 
 She recommended looking into NMN — the direct precursor your body converts into NAD+. She said to give it 6-8 weeks. Not a magic fix. A molecular one.
 
-I found Baseline because they didn't promise miracles. One ingredient. Published research. Transparent about what's in the bottle.
+I found Baseline because they didn't promise miracles. 500mg of NMN — the dose the research actually uses — plus a handful of supporting compounds for absorption and cellular function. Published research. Transparent about what's in the bottle.
 
 **Week 1-2:** Nothing. I almost stopped.
 
@@ -305,7 +305,7 @@ Not my gynecologist. Not the menopause forums. Not the wellness influencers sell
 
 NMN is the molecule your body converts into NAD+. The direct precursor. Published research supports it. It's not a hormone. It's not a stimulant. It's what your cells already use — they just have less of it.
 
-I ordered Baseline NMN at 3am that night. I chose it because there was no "miracle" language. No "turn back the clock" garbage. Just the ingredient, the research, and a brand that didn't insult my intelligence.
+I ordered Baseline NMN at 3am that night. I chose it because there was no "miracle" language. No "turn back the clock" garbage. 500mg NMN with supporting ingredients for absorption — the research, the dose, and a brand that didn't insult my intelligence.
 
 I expected nothing.
 
@@ -414,7 +414,7 @@ More coffee wasn't going to fix a fuel shortage. I was masking the problem with 
 
 NMN is the direct precursor your body converts into NAD+. Not a stimulant. Not caffeine. It supports the actual energy supply your cells run on. I knew the mechanism. It was solid biochemistry, not supplement marketing.
 
-I chose Baseline because the formulation matched what the research supports. No unnecessary fillers. No exaggerated claims. Just the molecule at the dose the studies actually use.
+I chose Baseline because the formulation matched what the research supports. 500mg NMN — the dose the studies actually use — with supporting compounds for absorption and cellular function. No exaggerated claims. Every ingredient and dose listed on the label.
 
 Two capsules with breakfast. That's it.
 
