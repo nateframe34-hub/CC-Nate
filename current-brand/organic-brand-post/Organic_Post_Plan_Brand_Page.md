@@ -146,11 +146,12 @@ Every post falls into one of 5 pillars. Rotate daily to keep the feed diverse an
 **Content:** "85% of women report fatigue during perimenopause/menopause. But most NMN brands market exclusively to male biohackers."
 **Caption:** "The energy crisis isn't gendered. The marketing is. Baseline is for anyone whose cells need fuel — regardless of what the biohacker bro aesthetic tells you."
 
-### Day 5 (Friday) — OFFER / CTA
-**Format:** Product image with overlay
-**Topic:** Launch pricing
-**Content:** "60-day supply. $49.95. $0.83/day. Less than your daily coffee."
-**Caption:** "We priced it under $50 on purpose. Because your first NMN supplement shouldn't feel like a financial risk — it should feel like a fair trade. 120 capsules. 60-day supply. Batch-verified. Link in bio."
+### Day 5 (Friday) — SOCIAL PROOF
+**Format:** Text card or DM screenshot
+**Topic:** Community response to early content
+**Content:** Share a comment or DM from someone who found the Week 1-2 educational content helpful. "This is the first time someone explained NAD+ without trying to sell me something."
+**Caption:** "We didn't build this page to sell. We built it to explain. The selling part comes later — if you decide it's right for you. Link in bio if you want to learn more."
+**CTA:** Soft — educational, no pricing
 
 ---
 
@@ -187,6 +188,39 @@ Every post falls into one of 5 pillars. Rotate daily to keep the feed diverse an
 
 ---
 
+## Week 5 — First Real CTA
+
+### Day 1 (Monday) — EDUCATION
+**Format:** Carousel
+**Topic:** "What 60 Days of NMN Actually Looks Like (Realistic Timeline)"
+**Content:** Week-by-week expectations. Week 1-2: probably nothing. Week 3-4: subtle shifts. Week 5-8: consistent improvements. The honesty builds credibility for the offer post later this week.
+**Caption:** "This is why 60-day supply matters. If you buy a 30-day bottle, you're quitting right when it starts working."
+
+### Day 2 (Tuesday) — TRANSPARENCY
+**Format:** Short video or carousel
+**Topic:** "How We Price Our NMN (And Why We Chose Under $50)"
+**Content:** Behind-the-scenes on pricing decisions. Cost breakdown philosophy — not the actual margins, but the thinking: "Your first NMN shouldn't feel like a financial risk."
+**Caption:** "We could charge more. We chose not to. Because the biggest risk isn't the price — it's buying something you can't verify."
+
+### Day 3 (Wednesday) — RELATABILITY
+**Format:** Text graphic or Reel
+**Topic:** "The Moment You Realize It's Not Just Aging"
+**Content:** Relatable moment of realization — connecting daily fatigue to something addressable, not just inevitable.
+**Caption:** Short, emotional. Connects to the offer without being the offer.
+
+### Day 4 (Thursday) — SOCIAL PROOF
+**Format:** Customer/community quote
+**Topic:** Specific results language from early customers
+**Caption:** "This is what people notice first." Keep it understated.
+
+### Day 5 (Friday) — OFFER / CTA (First Real CTA Post)
+**Format:** Product image with overlay
+**Topic:** Launch pricing
+**Content:** "60-day supply. $49.95. $0.83/day. Less than your daily coffee."
+**Caption:** "We priced it under $50 on purpose. Because your first NMN supplement shouldn't feel like a financial risk — it should feel like a fair trade. 120 capsules. 60-day supply. Batch-verified. Link in bio."
+
+---
+
 ## Ongoing Monthly Content Themes
 
 | Month | Theme | Focus |
@@ -219,8 +253,11 @@ Run 3-5 stories per day alongside the feed posts:
 1. **Reply to every comment within 2 hours** — especially skeptical ones. Don't delete negativity; address it with data.
 2. **Never make health claims** — say "supports cellular energy" not "cures fatigue." See Meta_Health_Ad_Restrictions_Guide.md.
 3. **Save high-performing organic posts** — any post with 2x+ average engagement becomes a paid ad candidate.
-4. **Cross-post to Facebook** — same content, adjusted formatting (longer captions perform better on FB).
-5. **Use hashtags strategically** — 5-10 targeted hashtags per post: #NMN #NAD #cellularhealth #longevity #energyrestoration #over40 #supplementtransparency #baselinenmn #antiaging #biohacking
+4. **Cross-post to Facebook with platform-specific adjustments:**
+   - **Facebook:** Longer, more conversational captions (300-500 words). Facebook rewards text-heavy posts. Lead with a hook line, then expand. Add paragraph breaks. Use the post text as a mini-article — Facebook users read more than Instagram users scroll.
+   - **Instagram:** Visual-first. Keep captions punchy (100-200 words max for non-carousel posts). Put the hook in line 1 before the "... more" fold. Save longer educational content for carousels where each slide carries the weight.
+   - **Shared:** Same core message and visual assets. Adjust the wrapper, not the substance.
+5. **Use hashtags strategically** — 5-10 targeted hashtags per post: #NMN #NADplus #cellularhealth #cellularenergy #longevity #energyrestoration #over40 #supplementtransparency #baselinenmn #perimenopauseenergy (avoid #antiaging and #biohacking — they contradict the brand voice)
 
 ---
 
@@ -231,6 +268,24 @@ Run 3-5 stories per day alongside the feed posts:
 3. **Daily:** 15 min engaging with comments, DMs, and adjacent accounts
 4. **Friday:** Review week's analytics — note top performer for potential ad promotion
 5. **Monthly:** Audit pillar balance, refresh underperforming pillar with new angles
+
+---
+
+---
+
+## Content Lane Separation (Brand Page vs. Partner Page vs. Paid Ads)
+
+To prevent overlap for people who follow multiple touchpoints:
+
+| Lane | Brand Page Owns | Partner Page (Sarah) Owns | Paid Ads Own |
+|------|----------------|--------------------------|--------------|
+| **Science/Authority** | NAD+ research, ingredient breakdowns, COA walkthroughs | Personal interpretation of research, "what I tell my clients" | Mechanism reveals within personal stories |
+| **Social Proof** | Aggregated customer quotes, community results | Her own personal results, her family noticing changes | Individual narrator stories with specific timelines |
+| **Transparency** | Lab reports, QR-to-COA demos, ingredient sourcing | "Why I trust this brand" from a practitioner lens | Trust journey woven into discovery narratives |
+| **Lifestyle** | Universal relatability (3pm crash, supplement cabinet) | Her specific life (kids, Austin, perimenopause) | Narrator-specific scenes (desk, couch, kitchen) |
+| **CTA/Offer** | Pricing, bundles, direct product promotion | Soft recommendation via personal experience | Product as resolution to the narrator's story |
+
+**Rule:** If the brand page and partner page are saying the same thing in the same week, one of them needs a different angle. Check weekly content calendars against each other before posting.
 
 ---
 

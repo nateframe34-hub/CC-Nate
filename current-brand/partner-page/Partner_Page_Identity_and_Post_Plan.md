@@ -14,12 +14,12 @@
 
 | Attribute | Detail |
 |-----------|--------|
-| **Name** | Dr. Sarah Lawson |
+| **Name** | Sarah Lawson |
 | **Handle** | @sarahlawson.wellness |
 | **Age** | 44 |
 | **Location** | Austin, TX |
 | **Occupation** | Functional health practitioner / wellness consultant (semi-retired from clinical practice) |
-| **Education** | Doctor of Naturopathic Medicine (ND) — but she leads with "health practitioner" not "doctor" to stay accessible |
+| **Education** | Trained in naturopathic medicine — leads with "health practitioner" not "doctor" to stay accessible and avoid medical endorsement liability |
 | **Relationship status** | Married, 2 kids (ages 8 and 11) |
 | **Personality** | Warm but no-BS. Skeptical of supplement hype. Data-driven but emotionally aware. Talks like a smart friend who happens to know the science. |
 
@@ -37,7 +37,7 @@
 
 5. **Naturopathic background gives authority** without being intimidating. She can explain NAD+ science in plain language because she's trained to translate clinical research for everyday people.
 
-6. **Austin, TX** is a wellness-forward city that feels aspirational but not unreachable. Not LA (too influencer-coded). Not NYC (too corporate). Austin = health-conscious but grounded.
+6. **Austin, TX** — wellness-forward, aspirational but grounded.
 
 ---
 
@@ -45,9 +45,9 @@
 
 Sarah practiced naturopathic medicine for 12 years before scaling back to part-time consulting when her kids were young. Around age 41, she hit perimenopause hard — crushing fatigue, brain fog, mood swings — and was frustrated that the solutions available were either hormone-heavy or cosmetic ("anti-aging cream" when she needed energy to get through the day).
 
-She started researching NAD+ decline after reading David Sinclair's work and seeing the research stack up in clinical journals she already followed. Tried 3 NMN brands before finding one she trusted. Most were underdosed or had no verifiable testing. When she found Baseline and scanned the QR code to see the actual batch COA, it was the first time she felt confident about what was in the bottle.
+She started researching NAD+ decline after reading David Sinclair's work and seeing the research stack up in clinical journals she already followed. Tried a few NMN brands before finding one she trusted. Most were underdosed or had questionable testing. Baseline was the first one that met the same criteria she'd apply when recommending supplements to patients.
 
-She doesn't endorse Baseline because she's paid. She endorses it because it's the first NMN brand that passed her professional scrutiny. (This is the narrative — adjust based on actual partnership terms.)
+She partners with Baseline because it's the one brand that passed her professional scrutiny. She's transparent about the partnership — it's in her bio. (Adjust specifics based on actual partnership terms.)
 
 ---
 
@@ -73,10 +73,11 @@ She doesn't endorse Baseline because she's paid. She endorses it because it's th
 
 ### Bio
 ```
-Dr. Sarah Lawson, ND
+Sarah Lawson
 Health practitioner. Mom of 2. 44.
 Translating longevity science into things that actually help.
 Perimenopause hit me like a truck. I studied my way out.
+Partner @baselinenmn
 ↓ What I actually take & why ↓
 [link to Linktree or simple landing page]
 ```
@@ -198,7 +199,7 @@ Lower frequency than the brand page. A real person doesn't post every day like a
 ### Day 5 (Friday) — PRODUCT MENTION (FIRST — NATURAL)
 **Format:** Casual photo — morning routine shot, bottle visible but not centered
 **Photo:** Kitchen counter, morning light. Coffee cup, journal, Baseline bottle visible among other items (vitamins, water glass, keys).
-**Caption:** "Morning stack: coffee (non-negotiable), NMN (the one thing that actually changed how my afternoons feel), magnesium at night. That's it. I used to take 8 supplements. Now I take 3 that I can explain the mechanism for. Someone asked which NMN I use — it's @baselinenmn. The thing that sold me was the QR code on the bottle that links to the actual lab report for my batch. After getting burned twice, being able to verify instead of trust was the thing I needed."
+**Caption:** "Someone asked what NMN I take — it's @baselinenmn. I chose it because I could verify what's in the bottle. That mattered to me after getting burned before. Two capsules with my morning coffee. That's the whole routine."
 
 ---
 
@@ -304,12 +305,37 @@ Lower frequency than the brand page. A real person doesn't post every day like a
 
 ## Red Lines — Never Do This
 
-1. **Never post a "gifted" or "#ad" disclosure** unless legally required (this breaks the organic feel)
+1. **Always disclose the partnership naturally** — "Partner @baselinenmn" in bio covers every organic post. No need for #ad #sponsored stacking in captions — a bio-level disclosure is clean, honest, and what real practitioners do. Paid Meta ads are automatically labeled "Sponsored" by the platform.
 2. **Never post identical language to the Baseline brand page** — she has her own voice
 3. **Never post ONLY about supplements** — minimum 50% of content must be non-supplement
 4. **Never make medical claims** — "supports" not "treats," "I noticed" not "it cures"
-5. **Never respond to "is this an ad?" with defensiveness** — respond with: "No one's paying me to share this. I share what works for me. If it stops working, you'll hear about that too."
+5. **Never respond to "is this an ad?" with defensiveness** — respond honestly: "I partner with Baseline because it's the one brand that passed my professional scrutiny. I only share what I actually use. If it stops working, you'll hear about that too."
 6. **Never post before the personal identity is established** — Week 1 has ZERO product mentions for a reason
+
+---
+
+---
+
+## Crisis Management — "Is This a Brand Account?"
+
+If someone accuses Sarah of being a fake brand account:
+- **Never deny the partnership.** It's in the bio. Transparency is the defense.
+- **Response template:** "I partner with Baseline — it's right in my bio. I only partner with brands I actually use and can verify. If it ever stops working, you'll hear about that too."
+- **Never get defensive.** Skepticism is healthy. Respond with openness and let the content history speak for itself.
+- **If it escalates:** Don't engage in arguments. One clear, honest response is enough. The audience will judge based on the body of content, not one comment thread.
+
+---
+
+## Relationship to Paid Ads (B1-B3)
+
+**Sarah's page is NOT the partner page for running B1-B3 paid ads.** The paid ad partner page is a separate, generic health/wellness page (see `Ad_Batch_Plans_B1-B3.md` → Partner Account Setup). The B1-B3 body copies feature multiple different narrators (male and female, various ages) — they are not "Sarah's" ads.
+
+**Sarah's page is for organic content only.** Her role is to:
+1. Create organic social proof through her personal health journey content
+2. Tag and engage with @baselinenmn naturally
+3. Provide a real-feeling content engine that the Baseline brand page can reshare
+
+The paid ad partner page and Sarah's organic page serve different functions and should remain separate.
 
 ---
 
