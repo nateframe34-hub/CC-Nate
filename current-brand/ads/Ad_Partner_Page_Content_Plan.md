@@ -97,15 +97,15 @@ This page doesn't need to be a content machine. It needs to pass the credibility
 
 ### How to Seed Followers (In Priority Order)
 
-**1. Run a Page Likes/Followers campaign ($3-5/day for 7-10 days) — $20-50 total**
+**1. Run an engagement/followers campaign ($5-10/day) — primary method**
 
-This is the fastest, cheapest way to get real followers in your target demo:
-- **Objective:** Page Likes (Facebook) or Profile Visits (Instagram)
-- **Budget:** $3-5 CAD/day for 7-10 days
-- **Targeting:** Broad, 40+, US, interests: health & wellness, supplements, longevity, fitness over 40
-- **Creative:** Use one of your best organic posts from the pre-launch schedule (a relatable health observation or science share — NOT a product ad)
-- **Expected result:** 150-400 followers at $0.10-0.25 per follower
-- **Why this works:** These are real people in your actual demo who chose to follow based on relevant content. When someone checks the page later, they see real followers who fit the health/wellness profile.
+This is the fastest, cheapest way to get real followers and warm up the ad account simultaneously:
+- **Objective:** Engagement / Page Likes (Facebook) or Profile Visits (Instagram)
+- **Budget:** $5-10 CAD/day
+- **Targeting:** Broad — no need to narrow to your purchase demo. These followers exist for social proof and account warming, not conversion.
+- **Creative:** Broad-appeal engagement content works fine here — feel-good posts, relatable humor, pet content, etc. The goal is cheap follows, not audience qualification.
+- **Expected result:** 200-500+ followers at low cost per follower
+- **Why this works:** Gets the follower count to a credible level AND builds ad account spend history before the real purchase campaigns launch. Since engagement and purchase campaigns use separate optimization signals, this won't affect B1-B3 delivery or learning.
 
 **Important:** Run this through the ad partner page's OWN ad account or your main BM — NOT through the Baseline brand page account. The ad partner page needs its own follower base independent of Baseline.
 
@@ -121,11 +121,21 @@ Comment on health/wellness and 40+ lifestyle Facebook groups FROM the page (swit
 
 Follow and comment on other health/wellness pages from your ad partner page. Casual, genuine engagement. Some of those pages' followers will click through to yours.
 
+### Low-Budget Engagement Campaigns Are Fine
+
+Running a broad engagement campaign like "follow if you like cats" or similar feel-good content is a valid tactic here. The purpose is twofold:
+
+1. **Warm up the ad account.** A new ad account with zero spend history is a red flag to Meta. Running a small engagement campaign builds spend history and account trust before you launch purchase-optimized B1-B3 ads.
+2. **Get the follower count up.** The followers don't need to be in your target demo — they just need to be real people. Someone checking the page sees "1,200 followers" and moves on. They're not auditing the follower list.
+
+**Why this doesn't hurt your purchase campaigns:** Meta builds separate learning profiles per campaign objective. An engagement campaign optimizing for page likes/follows operates on completely different signals than a purchase campaign optimizing for conversions. The engagement followers won't pollute the Pixel's learning data, audience modeling, or delivery optimization for B1-B3.
+
+**Budget:** $5-10 CAD/day. This is throwaway spend for account warming and social proof — treat it accordingly.
+
 ### What NOT To Do
 
-- **Do NOT run "follow if you love [unrelated topic]" campaigns.** Cat lovers, motivational quote followers, or "like if you agree" audiences create niche mismatch. Meta builds your page's audience profile from its followers — polluting that profile with irrelevant followers hurts ad delivery when B1-B3 go live. Every follower should plausibly be interested in health/wellness content.
 - **Do NOT buy followers from follower farms.** Fake accounts get purged, tank your engagement rate, and can get the page flagged.
-- **Do NOT rush to thousands.** 200-500 real, demo-relevant followers is the target. A page with 350 followers and genuine health content passes the sniff test. A page with 5,000 followers and no engagement looks bought.
+- **Do NOT rush to thousands.** 200-500 real followers is the target for launch. A page with 350 followers and genuine health content passes the sniff test. A page with 5,000 followers and no engagement looks bought.
 
 ### Follower Milestone Checklist
 
