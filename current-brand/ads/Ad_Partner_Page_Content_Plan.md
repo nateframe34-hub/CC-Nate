@@ -89,6 +89,53 @@ This page doesn't need to be a content machine. It needs to pass the credibility
 
 ---
 
+## Follower Seeding — Solving the 0 Followers Problem
+
+**The problem:** Someone clicks a camouflage ad, checks the page, and sees 0 followers. Camouflage instantly collapses. Even 200-500 followers makes the page look real. You don't need thousands — you need enough to pass the sniff test.
+
+**Target: 200-500 followers before the first B1-B3 ad goes live.**
+
+### How to Seed Followers (In Priority Order)
+
+**1. Run a Page Likes/Followers campaign ($3-5/day for 7-10 days) — $20-50 total**
+
+This is the fastest, cheapest way to get real followers in your target demo:
+- **Objective:** Page Likes (Facebook) or Profile Visits (Instagram)
+- **Budget:** $3-5 CAD/day for 7-10 days
+- **Targeting:** Broad, 40+, US, interests: health & wellness, supplements, longevity, fitness over 40
+- **Creative:** Use one of your best organic posts from the pre-launch schedule (a relatable health observation or science share — NOT a product ad)
+- **Expected result:** 150-400 followers at $0.10-0.25 per follower
+- **Why this works:** These are real people in your actual demo who chose to follow based on relevant content. When someone checks the page later, they see real followers who fit the health/wellness profile.
+
+**Important:** Run this through the ad partner page's OWN ad account or your main BM — NOT through the Baseline brand page account. The ad partner page needs its own follower base independent of Baseline.
+
+**2. Invite friends and family to like the page (free)**
+
+Facebook lets you invite your personal connections to like a page. Have 5-10 people do this. Gets you 30-50 followers instantly. These won't be in your target demo, but the number matters more than the profile at this stage.
+
+**3. Engage in Facebook groups (free, ongoing)**
+
+Comment on health/wellness and 40+ lifestyle Facebook groups FROM the page (switch to posting as the page, not your personal profile). Thoughtful, value-adding comments — not promotion. People who find the comment helpful will click through and follow.
+
+**4. Cross-engage with similar pages (free, ongoing)**
+
+Follow and comment on other health/wellness pages from your ad partner page. Casual, genuine engagement. Some of those pages' followers will click through to yours.
+
+### What NOT To Do
+
+- **Do NOT run "follow if you love [unrelated topic]" campaigns.** Cat lovers, motivational quote followers, or "like if you agree" audiences create niche mismatch. Meta builds your page's audience profile from its followers — polluting that profile with irrelevant followers hurts ad delivery when B1-B3 go live. Every follower should plausibly be interested in health/wellness content.
+- **Do NOT buy followers from follower farms.** Fake accounts get purged, tank your engagement rate, and can get the page flagged.
+- **Do NOT rush to thousands.** 200-500 real, demo-relevant followers is the target. A page with 350 followers and genuine health content passes the sniff test. A page with 5,000 followers and no engagement looks bought.
+
+### Follower Milestone Checklist
+
+- [ ] 50 followers — minimum viable (invite friends/family)
+- [ ] 150 followers — Page Likes campaign running
+- [ ] 200-300 followers — safe to start running B1-B3 ads through the page
+- [ ] 500+ followers — comfortable buffer, stop the Page Likes campaign
+
+---
+
 ## Setup Checklist
 
 - [ ] Choose page name (see options above)

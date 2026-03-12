@@ -293,6 +293,131 @@ Lower frequency than the brand page. A real person doesn't post every day like a
 
 ---
 
+## Stories & Reels Strategy
+
+### Cadence: 3-5 Stories/day, 2-3 Reels/week
+
+Stories are where Sarah feels most real. They're raw, unscripted, and disappear — which makes them the highest-trust content format. Feed posts establish authority. Stories build intimacy.
+
+### Story Types (Rotate Daily)
+
+| Type | Frequency | Purpose |
+|------|-----------|---------|
+| **Morning check-in** | 3-4x/week | Quick "here's how I'm feeling today" — coffee in hand, no makeup, real |
+| **Poll / Question box** | 2x/week | Drive engagement, learn audience pain points |
+| **Science nugget** | 2x/week | One stat or fact from NAD+/longevity research, 1-2 slides max |
+| **Mom moment** | 2-3x/week | Kid chaos, school run, cooking, the real stuff |
+| **Supplement stack** | 1x/week | Morning routine showing what she takes and why (Baseline visible but not centered) |
+| **Reply to DM** | 1x/week | Screenshot a question (anonymized), answer it in Stories |
+
+### Ready-to-Post Stories — Week 1
+
+**Monday (Morning check-in):**
+- Slide 1: Selfie with coffee, morning light. Text overlay: "6:47am. Kids aren't up yet. This is my 11 minutes of silence."
+- Slide 2: Text on plain background: "Energy check: 6/10. Better than last year's 3/10. I'll take it."
+
+**Tuesday (Poll):**
+- Slide 1: "Quick question for my over-40 crowd:"
+- Slide 2: Poll — "When does your energy crash hit?" → "2pm" / "3pm" / "It never left" / "Wait, you guys have energy?"
+
+**Wednesday (Science nugget):**
+- Slide 1: Text on cream background: "Thing I learned this week:"
+- Slide 2: "Your cells produce less NAD+ every year after 40. NAD+ is the molecule behind every energy reaction in your body. Less fuel = less you. That's not a metaphor. It's biochemistry."
+
+**Thursday (Mom moment):**
+- Slide 1: Quick video — kitchen chaos, backpacks, cereal spilled, one kid yelling about shoes. Caption: "The morning routine nobody posts about."
+- Slide 2: Text: "Made it to drop-off. Barely. Coffee count: 2."
+
+**Friday (Supplement stack):**
+- Slide 1: "#BaselinePartner — Morning lineup." Photo of counter: Baseline bottle, water glass, coffee mug, vitamins.
+- Slide 2: "NMN first thing (before coffee). That's the whole protocol. Not complicated."
+
+### Ready-to-Post Stories — Week 2
+
+**Monday (Morning check-in):**
+- Slide 1: Car selfie at school drop-off. Text: "I used to sit in this car for 10 minutes after drop-off because I didn't have the energy to drive home. Today I went straight to the grocery store. Small wins."
+
+**Tuesday (Reply to DM):**
+- Slide 1: Screenshot of anonymized DM: "How long before you noticed anything with NMN?"
+- Slide 2: "Honest answer: 3 weeks before anything subtle. 5-6 weeks before I stopped tracking. Everyone's different. But if you quit at day 10 you'll never know."
+
+**Wednesday (Poll):**
+- Slide 1: "Be honest:"
+- Slide 2: Poll — "How many abandoned supplement bottles do you have right now?" → "1-3" / "4-7" / "I've lost count" / "My cabinet is a graveyard"
+
+**Thursday (Science nugget):**
+- Slide 1: "NAD+ fact of the week:"
+- Slide 2: "Caffeine doesn't give you energy. It blocks the receptor that tells your brain you're tired. When it wears off, all the fatigue hits at once. That's the crash. The actual energy system runs on NAD+."
+
+**Friday (Mom moment):**
+- Slide 1: Short video — kid grabbing her hand, running to the backyard. Caption: "She asked me to come outside. I said yes. Six months ago I would've said 'maybe later.'"
+- Slide 2: Text on plain background: "Being present isn't about productivity. It's about having something left when it matters."
+
+### Ready-to-Post Stories — Week 3
+
+**Monday (Morning check-in):**
+- Slide 1: Photo of notebook and coffee. Text: "Planning the week. Energy level: actually enough to plan. Progress."
+
+**Tuesday (Question box):**
+- Slide 1: "Ask me anything about NMN, NAD+, or what I actually take and why."
+- Slide 2: Question box sticker. (Answers become content for the rest of the week.)
+
+**Wednesday (Science nugget):**
+- Slide 1: "One thing I tell friends who ask about supplements:"
+- Slide 2: "If the brand won't show you third-party test results, they're not confident in what's in the bottle. That's not transparency. That's marketing."
+
+**Thursday (Supplement stack):**
+- Slide 1: "#BaselinePartner — 90 days in. Still taking it. Still noticing the difference."
+- Slide 2: "The biggest change isn't dramatic. It's that I stopped canceling Friday plans by Wednesday."
+
+**Friday (Mom moment + poll):**
+- Slide 1: Text: "Things my kids say that hit different when you're exhausted:"
+- Slide 2: Poll — "'Mom, watch this!' when you..." → "Have energy to watch" / "Are pretending to watch from the couch"
+
+### Reels Strategy (2-3/week)
+
+| Reel Type | Frequency | Format | Duration |
+|-----------|-----------|--------|----------|
+| **Talking head** | 1x/week | Sarah to camera, casual, kitchen or home office | 15-30s |
+| **Text overlay with trending audio** | 1x/week | Relatable text on screen, popular sound | 10-15s |
+| **Educational mini** | 1x/week | Quick fact or myth-bust, clean graphics | 15-20s |
+
+**Ready-to-Post Reels:**
+
+**Reel 1 — Talking Head:**
+Sarah to camera, kitchen counter, morning light.
+"So here's what nobody told me about perimenopause. Everyone talks about the hormones. And that's real. But there's a second thing happening at the same time — your cells are producing less of the molecule they need to make energy. It's called NAD+. And nobody mentions it. Not your doctor, not the wellness influencers, nobody. I found out at 2am on PubMed because that's what we do now, right?"
+Caption: "The conversation about perimenopause is incomplete. #NADplus #perimenopause #over40"
+
+**Reel 2 — Text Overlay:**
+Trending audio (something about "things that just make sense").
+Text sequence:
+- "Drinking 4 coffees and still crashing at 3pm" ✗
+- "Taking B-vitamins because the internet said to" ✗
+- "Restoring the actual molecule your cells run on" ✓
+Caption: "Caffeine masks it. NMN addresses it. #cellularenergy #NMN"
+
+**Reel 3 — Educational Mini:**
+Clean text slides, 3 seconds each:
+- "Your cells have energy factories called mitochondria"
+- "Mitochondria run on a molecule called NAD+"
+- "NAD+ declines ~50% by age 50"
+- "NMN is the precursor that restores it"
+- "Not a stimulant. Not a vitamin. The actual fuel."
+Caption: "Save this for someone who thinks they just need more coffee. #NADplus #longevity"
+
+### Stories Highlights (Pin These)
+
+| Highlight | Content |
+|-----------|---------|
+| **"My Stack"** | What she takes daily, why, and how |
+| **"NAD+ 101"** | Best science nugget stories, saved for newcomers |
+| **"Real Talk"** | Raw morning check-ins, honest energy updates |
+| **"Q&A"** | Best question-box answers |
+| **"Mom Life"** | The chaos, the guilt, the wins |
+
+---
+
 ## Cross-Posting / Engagement Strategy
 
 ### With the Baseline Brand Page:

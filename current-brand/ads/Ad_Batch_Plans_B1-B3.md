@@ -224,10 +224,10 @@ Opens with the frustration of being marketed wrinkle creams when the real proble
 **Why this creative matches A2:** The creative shows the GAP — the exhausted parent surrounded by evidence of the life she wants to participate in but can't. The body copy takes this emotional setup and builds a guilt-hope-resolution arc that ends with her being PRESENT again.
 
 **Body Copy Approach:**
-Opens with a specific guilt moment: "My 7-year-old asked me to play catch. I said 'maybe later.' That was three weeks ago and he stopped asking." Story follows the exhaustion-guilt cycle, the failed remedies (coffee, vitamins, "just push through"), the gradual realization that this isn't normal tiredness — something is actually depleted. Discovery of NAD+ decline through research during a late night when she can't sleep. NMN as the answer. Results focused on being PRESENT — not performance metrics. "I said yes to catch last Saturday. We played for 40 minutes. He hasn't stopped smiling."
+Opens with a specific guilt moment: "My 7-year-old asked me to play catch. I said 'maybe later.' That was three weeks ago and he stopped asking." Story follows the exhaustion-guilt cycle, the failed remedies (coffee, vitamins, "just push through"), the gradual realization that this isn't normal tiredness — something is actually depleted. Discovery of NAD+ through a private parenting Facebook group — a mom in the comments shares her experience with cellular energy decline and links to the research. NMN as the answer. Results focused on being PRESENT — not performance metrics. "I said yes to catch last Saturday. We played for 40 minutes."
 
-**Discovery mechanism:** The 2AM Research Hole (late-night desperation research)
-**Authority figure:** Published research + other women's forum posts
+**Discovery mechanism:** The Mom Group Thread (passive discovery through a private parenting Facebook group)
+**Authority figure:** Another mom in the group + published research she linked to
 **Mechanism reveal:** Cellular energy decline as the hidden factor alongside perimenopause — "it's not just hormones"
 
 **Headline:** "My kids stopped asking me to play. That was my wake-up call."
