@@ -427,35 +427,43 @@ Once you're past ~20 sales, add a one-question "How did you hear about us?" surv
 
 **When to add it:** After you hit 20+ total sales. Use Shopify's built-in post-purchase survey (Settings → Checkout → Post-purchase page) or a free app like Fairing / KnoCommerce.
 
-### Exiting Learning Phase Math
+### Budget Strategy: Two Goals, Two Phases
 
-To exit learning phase you need ~50 conversion events per week per ad set.
+**The Decision:** Your budget strategy has two sequential goals — and you don't move to Goal 2 until Goal 1 is achieved.
 
-At $49.99 price point with lower CPA expectations:
+**Goal 1 — Find the winning sub-avatar + angle.** This is the ONLY goal during the Discovery and Validation phases. You are NOT trying to exit learning phase. You are spending $50/day to let CBO tell you which sub-avatar converts. Learning phase status is irrelevant here — you're buying data, not scale.
 
-| Daily Budget | Avg CPA | Purchases/Day | Purchases/Week | Learning Phase? |
-|-------------|---------|---------------|-----------------|-----------------|
-| $50/day | $25 | 2.0 | 14 | Still learning (discovery phase — this is fine) |
-| $75/day | $25 | 3.0 | 21 | Still learning (but getting meaningful data) |
-| $100/day | $25 | 4.0 | 28 | Getting closer |
-| $150/day | $25 | 6.0 | 42 | Almost there |
-| $200/day | $25 | 8.0 | 56 | Exited |
+**Goal 2 — Exit learning phase with the champion ad set.** This goal activates ONLY after you've identified the winning sub-avatar + angle. You consolidate budget into the champion ad set and scale to 50+ purchases/week. Don't attempt this until Goal 1 is done — scaling an unvalidated ad set is the fastest way to burn cash.
+
+### Budget Scaling Path
+
+| Phase | Goal | Daily Budget | Duration | Weekly Purchases (at $25 CPA) |
+|-------|------|-------------|----------|-------------------------------|
+| **Discovery** | **Find the winner** | $50/day | 3-4 weeks | ~14/week (signal, not scale) |
+| **Validation** | **Confirm the winner holds** | $75/day | 2 weeks | ~21/week |
+| **Scale** | **Exit learning phase** | $100-200/day | Ongoing | Scale 20%/3 days until 50+/week |
+
+**Trigger to move from Discovery → Validation:** One sub-avatar is clearly outperforming (receiving >40% of CBO spend AND producing the best CPA/ATC metrics across 10+ days).
+
+**Trigger to move from Validation → Scale:** The champion ad set maintains ROAS >1.5x and CPA <$35 across 2 full weeks at $75/day. If it holds, build the Scale campaign structure (champion + testing + retargeting) and ramp budget.
+
+### The Math on Exiting Learning Phase
+
+To exit learning phase: ~50 conversion events per week per ad set.
+
+| Daily Budget | Avg CPA | Purchases/Week | Status |
+|-------------|---------|-----------------|--------|
+| $50/day | $25 | ~14/week | Discovery — finding the winner |
+| $75/day | $25 | ~21/week | Validation — confirming the winner |
+| $125/day | $25 | ~35/week | Scaling — approaching learning phase exit |
+| $175-200/day | $25 | ~50-56/week | **Exited learning phase** |
 
 **Your breakeven CPA at launch pricing ($49.99):**
 - Breakeven CPA = **$38.99** (your full margin on the 120ct at $49.99)
 - Target CPA for healthy profit: **$20-25 CAD**
 - At $25 CPA you make ~$14 profit per customer on day 1 (before COGS, after ad spend)
 
-**Budget scaling path to exit learning phase:**
-
-| Phase | Daily Budget | Duration | Weekly Purchases (at $25 CPA) |
-|-------|-------------|----------|-------------------------------|
-| Discovery | $50/day | 3-4 weeks | ~14/week |
-| Validation | $75/day | 2 weeks | ~21/week |
-| Early scale | $100-125/day | 2 weeks | ~28-35/week |
-| Learning phase exit | $175-200/day | Ongoing | ~50+/week |
-
-**Timeline to exit learning phase: ~7-10 weeks from first purchase campaign.** Yes, this is slower than launching at $200/day. But you'll arrive there with validated creative, a warmed pixel, and confidence in your numbers — not a $3,000 hole and guesswork.
+**Timeline to exit learning phase: ~7-10 weeks from first purchase campaign.** This is intentionally slower than launching at $200/day. You arrive with a validated winner, a warmed pixel, and confidence in your numbers — not a $3,000 hole and guesswork.
 
 ---
 

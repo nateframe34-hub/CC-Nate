@@ -54,7 +54,7 @@ She explained: it's a coenzyme in every cell of your body. Your cells use it for
 
 She recommended looking into NMN — the direct precursor your body converts into NAD+. She said to give it 6-8 weeks. Not a magic fix. A molecular one.
 
-I found Baseline because they didn't promise miracles. One ingredient. Published research. Transparent about what's in the bottle.
+I found Baseline because they didn't promise miracles. 500mg of NMN — the dose the research actually uses — plus a handful of supporting compounds for absorption and cellular function. Published research. Transparent about what's in the bottle.
 
 **Week 1-2:** Nothing. I almost stopped.
 
@@ -225,7 +225,7 @@ My doctor still says it's "just perimenopause." She's not wrong about the diagno
 
 > **Ad Name:** `B2C2_Native_ExhaustedMom_A2-ParentalGuilt`
 > **Creative:** Candid photo of a woman on a couch, looking depleted, kids' toys scattered around. Baby monitor on the end table. Looks like a real parent's daily scene, not a product ad.
-> **Discovery mechanism:** The 2AM Research Hole (late-night desperation research)
+> **Discovery mechanism:** The Mom Group Thread (passive discovery through a private parenting Facebook group)
 > **Structure:** Single-scene expansion — opens on ONE specific guilt moment and radiates outward. Not a chronological journey. A snapshot of exhaustion, then the discovery, then the resolution circling back to the opening scene.
 > **Psychological lever:** Identity-Based Motivation — "I'm not the mom I want to be" is the most powerful behavioral driver in the document. The ad resolves the identity threat, not just the symptom.
 
@@ -245,11 +245,11 @@ It's not laziness. I go to bed at 9:30. I eat well. I exercise when I can. I tak
 
 My doctor said "it's perimenopause." My mom said "welcome to 40." The internet said "manage your stress better."
 
-One night at 2am — because I can't sleep either, that's the other thing — I was reading about perimenopause fatigue. Down the rabbit hole. Forum posts. Research papers. Other women describing exactly what I was feeling: "bone-numbing fatigue where nothing helped."
+I'm in one of those private parenting groups on Facebook — the kind where moms actually say how they're doing. One afternoon a woman posted something that stopped my scroll. She described exactly what I was living: "I have nothing left for my kids by 4pm and I hate myself for it." Dozens of comments. All the same story.
 
-That's when I found something I hadn't seen before. NAD+ — a coenzyme your cells depend on for energy production. Not hormonal. Cellular. Levels decline significantly in your 40s, and that decline happens on top of hormonal shifts. Both are real. But only one gets talked about.
+But one reply was different. A mom — also 40s, also in perimenopause — said she'd found something that wasn't hormones or caffeine or another vitamin. A molecule called NAD+. A coenzyme your cells depend on for energy production. Levels decline significantly in your 40s, and that decline happens on top of hormonal shifts. Both are real. But only one gets talked about.
 
-NMN is the molecule your body converts into NAD+. Think of it as refilling the tank that's been running dry underneath everything else.
+She linked to the research. I read it that night. NMN is the molecule your body converts into NAD+. Think of it as refilling the tank that's been running dry underneath everything else.
 
 I found Baseline because it came as a 60-day supply. That sounds like a small thing. But everything else was 30 days — and the research said NAD+ levels take 3-4 weeks to build. A 30-day bottle means quitting right when it starts working. Baseline gave me enough time to actually find out.
 
@@ -305,7 +305,7 @@ Not my gynecologist. Not the menopause forums. Not the wellness influencers sell
 
 NMN is the molecule your body converts into NAD+. The direct precursor. Published research supports it. It's not a hormone. It's not a stimulant. It's what your cells already use — they just have less of it.
 
-I ordered Baseline NMN at 3am that night. I chose it because there was no "miracle" language. No "turn back the clock" garbage. Just the ingredient, the research, and a brand that didn't insult my intelligence.
+I ordered Baseline NMN at 3am that night. I chose it because there was no "miracle" language. No "turn back the clock" garbage. 500mg NMN with supporting ingredients for absorption — the research, the dose, and a brand that didn't insult my intelligence.
 
 I expected nothing.
 
@@ -414,7 +414,7 @@ More coffee wasn't going to fix a fuel shortage. I was masking the problem with 
 
 NMN is the direct precursor your body converts into NAD+. Not a stimulant. Not caffeine. It supports the actual energy supply your cells run on. I knew the mechanism. It was solid biochemistry, not supplement marketing.
 
-I chose Baseline because the formulation matched what the research supports. No unnecessary fillers. No exaggerated claims. Just the molecule at the dose the studies actually use.
+I chose Baseline because the formulation matched what the research supports. 500mg NMN — the dose the studies actually use — with supporting compounds for absorption and cellular function. No exaggerated claims. Every ingredient and dose listed on the label.
 
 Two capsules with breakfast. That's it.
 
@@ -542,15 +542,15 @@ The journal doesn't lie. My baseline went up. Not a miracle. Not superhuman ener
 
 | Ad | Structure Type | Voice | Length | Discovery Mechanism |
 |---|---|---|---|---|
-| B1C1 | Classic narrative arc (pain → system failure → authority → mechanism → results) | Measured, reflective | ~450 words | Doctor Visit |
-| B1C2 | Raw testimonial (punchy paragraphs, conversational, day count) | Casual, understated guy | ~400 words | Reddit/Forum Thread |
-| B1C3 | Data/tracking hybrid (numbers-first, skeptic engineer voice) | Analytical, precise | ~450 words | Data Discovery |
-| B2C1 | Frustration manifesto (systemic critique with personal story woven through) | Frustrated, sharp, articulate | ~475 words | Friend Recommendation |
-| B2C2 | Single-scene expansion (one guilt moment radiates outward) | Raw, emotional, intimate | ~500 words | 2AM Research Hole |
-| B2C3 | Stream of consciousness (2AM voice, fragments, raw and messy) | Unfiltered, exhausted, real | ~475 words | 2AM Research Rabbit Hole |
-| B3C1 | Casual guy sharing (short, shrugging, understated) | Self-deprecating, dry humor | ~400 words | Podcast/Article |
-| B3C2 | Education-first through first-person (biology teacher applies classroom knowledge to own life) | Professional, relatable, wry | ~425 words | Professional Knowledge Applied |
-| B3C3 | Journal/log format (time-stamped entries, before/after) | Observational, documentary | ~500 words | Personal Experiment |
+| B1C1 | Classic narrative arc (pain → system failure → authority → mechanism → results) | Measured, reflective | ~465 words | Doctor Visit |
+| B1C2 | Raw testimonial (punchy paragraphs, conversational, day count) | Casual, understated guy | ~350 words | Reddit/Forum Thread |
+| B1C3 | Data/tracking hybrid (numbers-first, skeptic engineer voice) | Analytical, precise | ~435 words | Data Discovery |
+| B2C1 | Frustration manifesto (systemic critique with personal story woven through) | Frustrated, sharp, articulate | ~495 words | Friend Recommendation |
+| B2C2 | Single-scene expansion (one guilt moment radiates outward) | Raw, emotional, intimate | ~505 words | Mom Group Thread |
+| B2C3 | Stream of consciousness (2AM voice, fragments, raw and messy) | Unfiltered, exhausted, real | ~435 words | 2AM Research Rabbit Hole |
+| B3C1 | Casual guy sharing (short, shrugging, understated) | Self-deprecating, dry humor | ~390 words | Podcast/Article |
+| B3C2 | Education-first through first-person (biology teacher applies classroom knowledge to own life) | Professional, relatable, wry | ~400 words | Professional Knowledge Applied |
+| B3C3 | Journal/log format (time-stamped entries, before/after) | Observational, documentary | ~490 words | Personal Experiment |
 
 ---
 
