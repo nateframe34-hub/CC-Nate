@@ -1,5 +1,7 @@
 # General Swipe File Ad Analysis — Frameworks, Patterns & NMN Ad Blueprints
 
+> **NOTE (March 2026):** The current product is the **Baseline NMN 10-in-1** supplement. References to QR-to-COA batch verification throughout this document were developed for the original pure NMN concept and are **not a feature of the current 10-in-1 product**. QR-to-COA remains a planned future feature.
+
 This document analyzes all non-Origins ads in the Swipe File: **13 named framework breakdowns** and **60+ real-world media reference ads**. Every pattern is mapped to a concrete NMN ad concept.
 
 ---

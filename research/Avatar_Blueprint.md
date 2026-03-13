@@ -1,5 +1,7 @@
 # Baseline NMN — Avatar Blueprint
 
+> **NOTE (March 2026):** The current product is the **Baseline NMN 10-in-1** supplement. References to QR-to-COA batch verification throughout this document were developed for the original pure NMN concept and are **not a feature of the current 10-in-1 product**. QR-to-COA remains a planned future feature.
+
 > **Purpose:** Define the Core Avatar and Sub-Avatars for Baseline NMN using the Origins Core 5 Categories framework. Every avatar element below is sourced from customer research (Reddit, Amazon reviews, forums, Trustpilot, longevity communities, market reports) — not guesswork.
 >
 > **Framework:** Origins Avatar Module — Start with Desires (not demographics). Build 1 Core Avatar, then layer additional categories to create Sub-Avatars.
