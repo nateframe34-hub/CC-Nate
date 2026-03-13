@@ -1,5 +1,7 @@
 # Partner Page (Sarah Lawson) — Execution Tracker & Content Calendar
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. Posts referencing QR code scanning (e.g., Post 18) describe a **future feature not available on the current 10-in-1 product**. Replace with ingredient breakdown / independently tested content. A standalone pure NMN product with QR-to-COA is a **future goal, contingent on the 10-in-1 performing well**.
+
 > **Purpose:** Track every planned post across Sarah's organic partner page (@sarahlawson.wellness). Each post has a status, planned date, and notes field. Use this to coordinate the 35+ posts across the seeding period and ongoing monthly cadence.
 >
 > **Reference:** `Partner_Page_Identity_and_Post_Plan.md` for full copy, `Master_Launch_Timeline.md` for sequencing against brand page and ad partner page.
@@ -116,7 +118,7 @@
 |---|-------------|------|-----------------|--------|-------------|-------|
 | 16 | Day 0 (Mon) | Education (Carousel) | "The Supplement Industry's Dirty Secret: Label Claims vs. Reality" — 64% stat | [ ] | | |
 | 17 | Day 1 (Tue) | Daily Life | Non-health content — family, cooking, reading, nature | [ ] | | |
-| 18 | Day 2 (Wed) | Product Mention (Video) | QR code scan video — 15s — "Here's literally how." `#BaselinePartner` | [ ] | | FTC disclosure required |
+| 18 | Day 2 (Wed) | Product Mention (Video) | **[REPLACE: QR scan video is a future feature]** Ingredient breakdown video — 15s — "Here's what's actually inside." `#BaselinePartner` | [ ] | | FTC disclosure required |
 | 19 | Day 3 (Thu) | Education (Carousel) | "What Happens in Your First 60 Days on NMN" — week-by-week timeline | [ ] | | |
 | 20 | Day 4 (Fri) | Personal Journey | Health journey reflection — "I'm not trying to reverse aging" | [ ] | | |
 
@@ -179,7 +181,7 @@ Track interactions between Sarah's page, the Brand Page, and the Ad Partner Page
 | | Sarah tags @baselinenmn in carousel | Sarah | Brand | |
 | | Baseline reshares Sarah's post | Brand | Sarah | "One of our customers said it better than we could" |
 | | Sarah comments on Baseline educational post | Sarah | Brand | Added practitioner context |
-| | Baseline comments on Sarah's science post | Brand | Sarah | "This is exactly why we built QR-to-COA" |
+| | Baseline comments on Sarah's science post | Brand | Sarah | "This is exactly why we chose these 10 ingredients" **[NOTE: QR-to-COA is a future feature]** |
 
 ---
 

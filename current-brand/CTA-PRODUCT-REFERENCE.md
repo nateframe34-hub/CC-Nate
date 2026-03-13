@@ -1,5 +1,7 @@
 # CTA Product Reference — Baseline NMN
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. The product name below has been updated to reflect the current 10-in-1 product.
+>
 > This document is the single source of truth for linking CTAs to the Baseline NMN product.
 > Any future CTA (homepage sections, landing pages, ads, email) should use these values.
 
@@ -21,7 +23,7 @@
 | Product Handle | `[GET FROM SHOPIFY ADMIN — see instructions below]` |
 | Product URL | `https://baseline-9962.myshopify.com/products/[HANDLE]` |
 | Product Price | $49.99 (one-time) / $42.95 (subscribe & save) |
-| Product Name | Baseline NMN — Pure NMN Supplement, 500mg, 60 Capsules |
+| Product Name | Baseline NMN 10-in-1 — 500mg NMN + 8 Synergistic Longevity Ingredients |
 
 ### How to Get the Product Handle & ID
 

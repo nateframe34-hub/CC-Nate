@@ -1,5 +1,7 @@
 # Baseline NMN Launch Copy — Comprehensive Multi-Skill Review
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. References to "pure NMN," "single ingredient," QR-to-COA, and enzymatic synthesis in this review were written against an earlier product concept and are **not features of the current 10-in-1 product**. A standalone pure NMN product is a **future goal, contingent on the 10-in-1 performing well**.
+
 > **Document reviewed:** Baseline_Soft_Launch_Copy.md (Launch Version, Batches 1-5)
 > **Visual mockups reviewed:** ad-mockups/baseline-launch-creatives.html
 > **Skills applied:** Copywriting, Frontend Design, Marketing Psychology, Paid Ads Strategy, Marketing Strategy (PMM), Brand Consistency Audit, Competitive Analysis, NAD+ Fact-Check, Brainstorming

@@ -1,5 +1,7 @@
 # Baseline NMN — Master Launch Timeline
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. The QR code / transparency video referenced below is a **future feature not available on the current 10-in-1 product** — replace with ingredient breakdown / independently tested content. A standalone pure NMN product with QR-to-COA is a **future goal, contingent on the 10-in-1 performing well**.
+
 > **Purpose:** Single-source sequencing for all three pages, ad creative production, and paid ad launch. Everything flows backward from **Ad Launch Day (Day 0)** — the day B1-B3 purchase campaigns go live.
 >
 > **Three pages in play:**
@@ -69,7 +71,7 @@ All 3 pages start posting. The goal: when ads go live, every page looks establis
 | Day | Content | Reference |
 |-----|---------|-----------|
 | -21 (Mon) | Carousel: "What Actually Happens Inside Your Cells After 40" | Brand Post Plan, Week 1 Day 1 |
-| -20 (Tue) | QR code / transparency video | Brand Post Plan, Week 1 Day 2 |
+| -20 (Tue) | Ingredient breakdown / transparency post **[NOTE: QR code video is a future feature — use 10-in-1 ingredient content instead]** | Brand Post Plan, Week 1 Day 2 |
 | -19 (Wed) | "The 3pm Wall" relatable graphic | Brand Post Plan, Week 1 Day 3 |
 | -18 (Thu) | "64% of NMN on Amazon Fails Purity Testing" stat graphic | Brand Post Plan, Week 1 Day 4 |
 | -17 (Fri) | Social proof quote | Brand Post Plan, Week 1 Day 5 |

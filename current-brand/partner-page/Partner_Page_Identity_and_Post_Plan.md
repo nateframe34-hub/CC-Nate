@@ -1,5 +1,7 @@
 # Partner Page — Full Identity Plan & Organic Post Plan
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. Several posts in this plan reference QR-to-COA bottle scanning — this is **not a feature of the current 10-in-1 product** and should NOT be posted as-is. Replace QR-to-COA content with "independently tested" / "10 research-backed ingredients" messaging for the current product. A standalone pure NMN product with QR-to-COA is a **future goal, contingent on the 10-in-1 performing well**.
+
 > **Purpose:** A "real person" page that feels like a genuine health-conscious individual who happens to use and recommend Baseline NMN. This page exists to create native-feeling content, seed social proof, tag the brand page, and reach audiences that don't follow supplement brands directly.
 >
 > **Critical Rule:** This page must never feel like a brand account. It should feel like a real person sharing their real health journey. The Baseline recommendation emerges naturally from that journey — it is NEVER the center of the content.
@@ -462,16 +464,21 @@ Lower frequency than the brand page. A real person doesn't post every day like a
 > ```
 
 ### Day 3 (Wednesday) — PRODUCT MENTION
-**Format:** Short video — QR code scan
-**Content:** 15-second video: "People keep asking how I verify my supplements. Here's literally how." *scans QR code on Baseline bottle → shows lab report on phone screen* "That's it. Purity, potency, heavy metals, microbial — for MY specific batch. Every bottle."
-**Caption:** "#BaselinePartner — I've recommended supplements to patients for over a decade. This is the first time I could show them PROOF instead of asking for trust. @baselinenmn"
+**Format:** Short video — ingredient breakdown
+**Content:** 15-second video: "People keep asking what's actually in my NMN supplement. Here's literally everything." *shows bottle label → walks through the 10 ingredients* "500mg NMN plus 8 synergistic longevity ingredients. No filler. No proprietary mystery. Every ingredient chosen for how it supports NAD+ at the cellular level."
+**Caption:** "#BaselinePartner — I've recommended supplements to patients for over a decade. This is the first formula where every ingredient has published research behind it. @baselinenmn"
 
-> **Nano Banana Pro — Video Thumbnail Prompt:**
+> **[EDIT NOTE: Replaced QR-to-COA scanning video with ingredient breakdown video — current 10-in-1 product does not have QR-to-COA. Original QR post and prompts preserved below for future pure NMN launch, contingent on 10-in-1 success.]**
+>
+> **FUTURE (Pure NMN launch) — Original QR-to-COA post:**
+> Format: Short video — QR code scan. Content: 15-second video scanning QR code on bottle showing lab report. Caption about showing patients PROOF.
+>
+> **Nano Banana Pro — Video Thumbnail Prompt (FUTURE — for pure NMN launch):**
 > ```
 > Ultra-realistic close-up photo of a woman's hand holding a smartphone showing a lab results screen (generic COA-style document with green checkmarks and data tables visible on screen). In the slightly blurred background, a white supplement bottle with a QR code visible on its label sits on a light kitchen counter. Natural indoor lighting, warm tones. Focus is sharp on the phone screen showing the lab report. The composition suggests "look, I'm showing you proof." iPhone quality, casual framing. 16:9 aspect ratio for video thumbnail, 4K, photorealistic.
 > ```
 >
-> **Content Creation Prompt — Caption Variations:**
+> **Content Creation Prompt — Caption Variations (FUTURE — for pure NMN launch):**
 > ```
 > You are Sarah Lawson, Baseline NMN partner. Write 3 Instagram captions for a 15-second QR code scan video showing Baseline's batch-specific lab results. Must start with #BaselinePartner. Tone: matter-of-fact, impressed but not gushy — this is the first time in 12 years of practice you could show patients PROOF. Tag @baselinenmn. 40-70 words each. Focus on verification, not product benefits.
 > ```
@@ -730,7 +737,7 @@ Caption: "Save this for someone who thinks they just need more coffee. #NADplus 
 - Sarah tags @baselinenmn in relevant posts (not every post)
 - Baseline reposts/shares Sarah's content with "One of our customers said it better than we could"
 - Sarah comments on Baseline's educational posts with added practitioner context
-- Baseline comments on Sarah's science posts: "This is exactly why we built the QR-to-COA system"
+- Baseline comments on Sarah's science posts: "This is exactly why we chose these 10 ingredients" **[NOTE: "QR-to-COA system" language is for future pure NMN product — use 10-in-1 ingredient messaging for now]**
 
 ### With Her Own Audience:
 - Reply to every comment (especially skeptical ones — this builds trust)

@@ -1,6 +1,6 @@
 # New Mechanism Analysis — Baseline NMN
 
-> **NOTE (March 2026):** The current product is the **Baseline NMN 10-in-1** supplement. References to QR-to-COA batch verification throughout this document were developed for the original pure NMN concept and are **not a feature of the current 10-in-1 product**. QR-to-COA remains a planned future feature.
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. References to QR-to-COA batch verification, pure NMN, single-ingredient positioning, and enzymatic synthesis throughout this document were developed for an original pure NMN concept and are **not features of the current 10-in-1 product**. A standalone pure NMN product with QR-to-COA verification is a **future goal, contingent on the 10-in-1 performing well**.
 
 > **Purpose:** Identify new mechanisms for Facebook/Instagram direct response campaigns that break through Stage 3-4 market sophistication and create NEW HOPE that this product will solve the target desire.
 >
