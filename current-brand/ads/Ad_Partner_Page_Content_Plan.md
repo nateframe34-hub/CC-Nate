@@ -103,7 +103,7 @@ This is the fastest, cheapest way to get real followers and warm up the ad accou
 - **Objective:** Engagement / Page Likes (Facebook) or Profile Visits (Instagram)
 - **Budget:** $5-10 CAD/day
 - **Targeting:** Broad — no need to narrow to your purchase demo. These followers exist for social proof and account warming, not conversion.
-- **Creative:** Broad-appeal engagement content works fine here — feel-good posts, relatable humor, pet content, etc. The goal is cheap follows, not audience qualification.
+- **Creative:** Broad-appeal engagement content works fine here — feel-good posts, relatable humor, etc. The goal is cheap follows, not audience qualification. A simple "Follow us" CTA is enough — don't promise specific content themes you won't deliver on.
 - **Expected result:** 200-500+ followers at low cost per follower
 - **Why this works:** Gets the follower count to a credible level AND builds ad account spend history before the real purchase campaigns launch. Since engagement and purchase campaigns use separate optimization signals, this won't affect B1-B3 delivery or learning.
 
@@ -123,7 +123,7 @@ Follow and comment on other health/wellness pages from your ad partner page. Cas
 
 ### Low-Budget Engagement Campaigns Are Fine
 
-Running a broad engagement campaign like "follow if you like cats" or similar feel-good content is a valid tactic here. The purpose is twofold:
+Running a broad engagement campaign with a simple "Follow us" CTA is a valid tactic here — no need to promise specific content themes. The purpose is twofold:
 
 1. **Warm up the ad account.** A new ad account with zero spend history is a red flag to Meta. Running a small engagement campaign builds spend history and account trust before you launch purchase-optimized B1-B3 ads.
 2. **Get the follower count up.** The followers don't need to be in your target demo — they just need to be real people. Someone checking the page sees "1,200 followers" and moves on. They're not auditing the follower list.
