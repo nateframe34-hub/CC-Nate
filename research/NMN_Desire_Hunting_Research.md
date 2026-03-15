@@ -1,5 +1,7 @@
 # NMN Desire Hunting Research
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. References to QR-to-COA batch verification, pure NMN, single-ingredient positioning, and enzymatic synthesis throughout this document were developed for an original pure NMN concept and are **not features of the current 10-in-1 product**. A standalone pure NMN product with QR-to-COA verification is a **future goal, contingent on the 10-in-1 performing well**.
+
 > **Brand:** TBD (NMN Longevity Supplement)
 > **Compiled:** March 2026
 > **Sources:** Reddit (r/NMN, r/longevity, r/Supplements, r/biohacking), Amazon reviews, Trustpilot, longevity forums (LongeCity, Age Reversal Forum), Mumsnet, health blogs

@@ -1,5 +1,7 @@
 # PDP Audit: From Solid to Irresistible
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. This audit was written against an earlier PDP version that positioned the product as "pure NMN" with single-ingredient and QR-to-COA language. Those references describe an **original concept that is not the current product**. A standalone pure NMN product is a **future goal, contingent on the 10-in-1 performing well**. The rewrites in this document have been updated for the 10-in-1, but legacy references to "pure NMN," "one ingredient," and "enzymatic synthesis" remain in the audit sections for context.
+
 ## The 3 Questions This Audit Answers
 
 1. **Are the ads and PDP congruent across all 5 batches?**
@@ -403,13 +405,15 @@ The Offer Plan already defines a post-launch price increase ($49.95 → $59.95).
 
 **Q: Where is Baseline NMN made?**
 
-Baseline NMN is manufactured in a cGMP-certified facility and independently tested by a US-based laboratory. Every batch is verified for purity (99%+), potency, heavy metals, and microbial contamination before it ships.
+Baseline NMN is manufactured in a cGMP-certified facility and independently tested by a US-based laboratory. Every batch is verified for potency, heavy metals, and microbial contamination before it ships.
+
+> **[EDIT NOTE: Removed "99%+ purity" claim — this applies to a future pure NMN product, not the current 10-in-1 formula.]**
 
 **Q: Can I see the lab results?**
 
 Yes. We believe in transparency, not trust-me claims. Contact us for the Certificate of Analysis (COA) for your batch. We're building a system to make this even easier — our goal is lab results accessible directly from every bottle.
 
-*(Note: This is honest about where the product is now while signaling the QR-to-COA future. Doesn't overpromise.)*
+*(Note: This is honest about where the product is now while signaling the QR-to-COA future. QR-to-COA is a future goal, contingent on the 10-in-1 performing well.)*
 
 **Q: Is this the same NMN from longevity research?**
 
@@ -425,7 +429,9 @@ NMN isn't addictive and doesn't create dependency. If you stop, your body contin
 
 **Q: Is Baseline NMN vegan / allergen-free?**
 
-Yes. Baseline NMN contains one ingredient (NMN) in a vegetable cellulose capsule. No gelatin. No gluten. No dairy. No soy. No nuts. No artificial colors or preservatives. Suitable for vegan diets.
+Yes. Baseline NMN 10-in-1 uses vegetable cellulose capsules. No gelatin. No gluten. No dairy. No soy. No nuts. No artificial colors or preservatives. Suitable for vegan diets.
+
+> **[EDIT NOTE: Removed "one ingredient (NMN)" — the current product is a 10-in-1 formula with 500mg NMN + 8 synergistic ingredients, not a single-ingredient product. "One ingredient" language is for a future pure NMN product, contingent on the 10-in-1 performing well.]**
 
 **Q: Can I take NMN during perimenopause or menopause?**
 

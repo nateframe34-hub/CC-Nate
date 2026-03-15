@@ -1,5 +1,7 @@
 # Baseline NMN — Organic Post Plan (Brand Page)
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. Several posts below reference QR-to-COA bottle scanning and lab report verification — these are **not features of the current 10-in-1 product** and should NOT be posted as-is. Replace QR-to-COA content with "independently tested" / ingredient breakdown content for the 10-in-1. A standalone pure NMN product with QR-to-COA is a **future goal, contingent on the 10-in-1 performing well**.
+
 > **Platform:** Instagram / Facebook (Baseline official page)
 > **Voice:** Clean, scientific, anti-hype. Educational authority. Never "revolutionary," "game-changing," or "miracle."
 > **Visual Identity:** White bottle with purple/violet accents, cream/teal tones, botanical elements, Cormorant Garamond headers, Plus Jakarta Sans body, JetBrains Mono for data.
@@ -15,7 +17,7 @@ Every post falls into one of 5 pillars. Rotate daily to keep the feed diverse an
 |--------|---------|-------------|-----------|
 | **Education** | Build authority, explain NAD+/NMN science | 30% | ~2x/week |
 | **Social Proof / Results** | Show real outcomes, build trust | 20% | ~1x/week |
-| **Product Transparency** | QR-to-COA, lab reports, ingredient breakdowns | 20% | ~1x/week |
+| **Product Transparency** | Lab reports, ingredient breakdowns, independent testing **[NOTE: QR-to-COA is a future feature — not available on current 10-in-1]** | 20% | ~1x/week |
 | **Lifestyle / Relatability** | Connect with avatar's daily experience | 20% | ~1x/week |
 | **Offer / CTA** | Drive traffic to store, promote bundles | 10% | ~1x every 2 weeks |
 
@@ -40,10 +42,12 @@ Every post falls into one of 5 pillars. Rotate daily to keep the feed diverse an
 
 ### Day 2 (Tuesday) — PRODUCT TRANSPARENCY
 **Format:** Single image or short video (15-30s)
-**Topic:** "Why We Put a QR Code on Every Bottle"
-**Content:** Close-up of bottle QR code → phone scanning it → lab report appearing
-**Caption:** "Every NMN brand says 'third-party tested.' We're the ones that prove it. Scan the QR code on your bottle → see the independent lab report for YOUR specific batch. Purity. Potency. Heavy metals. Microbial. All of it. You shouldn't have to trust us. You should be able to verify us."
+**Topic:** "What's Actually Inside (All 10 Ingredients Explained)"
+**Content:** Clean graphic showing all 10 ingredients with their roles — NMN, resveratrol, CoQ10, glutathione, TMG, quercetin, astaxanthin, apigenin, grape seed extract, vitamin C
+**Caption:** "Every NMN brand says 'third-party tested.' We go further — 10 research-backed ingredients, each chosen for how they support NAD+ and cellular health. No filler. No hype. Just published science. You shouldn't have to trust us. You should be able to see exactly what's inside."
 **CTA:** None (builds trust)
+
+> **[EDIT NOTE: Replaced QR-to-COA post — current 10-in-1 product does not have QR-to-COA. Original QR post preserved for future pure NMN launch, contingent on 10-in-1 success.]**
 
 ### Day 3 (Wednesday) — LIFESTYLE / RELATABILITY
 **Format:** Text-on-image or meme-style
@@ -244,7 +248,7 @@ Run 3-5 stories per day alongside the feed posts:
 | **Quick Tip** | 2x/week | "Take NMN in the morning for best absorption" / "Why 60-day supply > 30-day supply" |
 | **Behind the Scenes** | 1x/week | Warehouse, lab report review, packaging, team |
 | **Customer DM Screenshot** | 1x/week | (with permission) Share real messages about results |
-| **Product in Action** | 1x/week | Morning routine with Baseline, scanning QR code, bottle on desk |
+| **Product in Action** | 1x/week | Morning routine with Baseline, bottle on desk, ingredient callouts **[NOTE: QR code scanning is a future feature — not available on current 10-in-1]** |
 
 ---
 
@@ -281,7 +285,7 @@ To prevent overlap for people who follow multiple touchpoints:
 |------|----------------|--------------------------|--------------|
 | **Science/Authority** | NAD+ research, ingredient breakdowns, COA walkthroughs | Personal interpretation of research, "what I tell my clients" | Mechanism reveals within personal stories |
 | **Social Proof** | Aggregated customer quotes, community results | Her own personal results, her family noticing changes | Individual narrator stories with specific timelines |
-| **Transparency** | Lab reports, QR-to-COA demos, ingredient sourcing | "Why I trust this brand" from a practitioner lens | Trust journey woven into discovery narratives |
+| **Transparency** | Lab reports, ingredient breakdowns, independent testing **[QR-to-COA demos are a future feature]** | "Why I trust this brand" from a practitioner lens | Trust journey woven into discovery narratives |
 | **Lifestyle** | Universal relatability (3pm crash, supplement cabinet) | Her specific life (kids, Austin, perimenopause) | Narrator-specific scenes (desk, couch, kitchen) |
 | **CTA/Offer** | Pricing, bundles, direct product promotion | Soft recommendation via personal experience | Product as resolution to the narrator's story |
 

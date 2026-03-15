@@ -1,5 +1,7 @@
 # Baseline NMN — Complete Media Buying & Launch Plan
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. Some email/retargeting sequences in this plan reference QR-to-COA verification and enzymatic synthesis — these are **not features of the current 10-in-1 product** and should be replaced with 10-in-1 specific proof points (independently tested, 10 synergistic ingredients, published research). A standalone pure NMN product with these features is a **future goal, contingent on the 10-in-1 performing well**.
+
 ### Currency Note
 
 **All prices and revenue figures in this plan are in USD.** The selling price ($49.99), AOV, and customer-facing numbers are USD — that's what your US audience sees and pays.
@@ -541,7 +543,7 @@ You need 4 flows live before your first ad dollar is spent. These are revenue re
 |-------|--------|-------------|---------|------|
 | **E1: Welcome + Code** | Immediate | "Your 10% code is inside (+ a free guide)" | Deliver the discount code. Deliver the eBook PDF. One line about what Baseline is. CTA to shop. | Deliver value, get first click |
 | **E2: The NAD+ Story** | 24 hours later | "Why you lost 50% of your cellular fuel (and didn't know it)" | Educate on NAD+ decline. The 50% by 50 stat. How NMN restores it. No hard sell — just the science. Link to PDP. | Build belief in the mechanism |
-| **E3: Why Most NMN Doesn't Work** | 48 hours after E2 | "64% of NMN on Amazon failed lab testing" | The trust angle. Enzymatic vs chemical synthesis. QR-to-COA verification. Position Baseline as the answer to the trust problem. | Overcome skepticism, differentiate |
+| **E3: Why Most NMN Doesn't Work** | 48 hours after E2 | "64% of NMN on Amazon failed lab testing" | The trust angle. Independent testing. Position Baseline as the answer to the trust problem. **[NOTE: Enzymatic synthesis and QR-to-COA are future pure NMN features — use "independently tested" and "10 research-backed ingredients" for current 10-in-1 product.]** | Overcome skepticism, differentiate |
 | **E4: Social Proof + Urgency** | 48 hours after E3 | "Here's what people notice first" | Customer language/testimonials. "More consistent energy," "the 3pm crash is gone," "I actually play with my kids after work." Remind them their 10% code expires in 48 hours. | Convert with proof + soft deadline |
 | **E5: Last Chance** | 48 hours after E4 (code expiry) | "Your 10% code expires tonight" | Short. Direct. "Your code [CODE] expires at midnight. 60-day supply for just $44.99 with your code." Single CTA button. | Final conversion push |
 
@@ -626,7 +628,7 @@ You need reviews visible on the PDP before ads start driving traffic. Zero revie
 | Email | Timing | Subject Line | Content |
 |-------|--------|-------------|---------|
 | **BA1** | 24 hours | "Still researching NMN?" | Educational angle — link to a blog post or the eBook. Position Baseline as the "do your research" brand. Soft CTA. |
-| **BA2** | 72 hours | "Here's what convinced most people" | Testimonials + the trust mechanism (QR, lab testing, enzymatic synthesis). |
+| **BA2** | 72 hours | "Here's what convinced most people" | Testimonials + the trust mechanism (independent lab testing, research-backed formula). **[NOTE: QR and enzymatic synthesis are future pure NMN features — not applicable to current 10-in-1.]** |
 
 ---
 

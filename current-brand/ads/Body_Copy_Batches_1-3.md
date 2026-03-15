@@ -1,5 +1,7 @@
 # Body Copy — Batches 1-3 (Native/Camouflage)
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. Any references to QR-to-COA scanning or single-ingredient language in the body copies below are holdovers from an earlier pure NMN concept and **do not describe the current product**. A standalone pure NMN product with QR-to-COA is a **future goal, contingent on the 10-in-1 performing well**.
+
 > **Product:** Baseline NMN — 500mg NMN + synergistic ingredients. 120 capsules / 60 servings.
 > **Format:** All 9 body copies are native/camouflage — first-person stories that feel like organic social posts, NOT ads.
 > **Compliance:** "Individual results may vary" in every copy. Structure/function language only. No disease claims. No specific percentage claims. "Cellular maintenance" not "DNA repair."
@@ -205,7 +207,9 @@ I looked it up. She was right. Published research. NAD+ is a coenzyme in every c
 
 NMN is the precursor your body uses to produce NAD+. Not a hormone. Not a stimulant. Just the raw material your cells need to do what they used to do without you noticing.
 
-Liz sent me a link to Baseline. "This is the one I take," she said. "You can scan the QR code on the bottle and see the actual lab results for your specific batch." After getting sold collagen powders and jade rollers, being able to verify instead of trust was exactly what I needed.
+Liz sent me a link to Baseline. "This is the one I take," she said. "They publish their lab results and they don't hide behind proprietary hype." After getting sold collagen powders and jade rollers, being able to see the research instead of just trusting was exactly what I needed.
+
+> **[EDIT NOTE: Replaced QR-to-COA scanning reference — we are running the 10-in-1 which does not have QR-to-COA. Original line preserved in future-brand/Baseline_Batches_1-5.md for when pure NMN launches.]**
 
 **Week 2:** My husband said I "seemed different" one morning. I didn't feel different. I thought he was being nice.
 

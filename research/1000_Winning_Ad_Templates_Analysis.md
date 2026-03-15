@@ -1,5 +1,7 @@
 # 1000 Winning Ad Templates — Complete Analysis & NMN Application
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. References to QR-to-COA batch verification, pure NMN, single-ingredient positioning, and enzymatic synthesis throughout this document were developed for an original pure NMN concept and are **not features of the current 10-in-1 product**. A standalone pure NMN product with QR-to-COA verification is a **future goal, contingent on the 10-in-1 performing well**.
+
 ## Overview
 
 The "1000 Winning Ad Templates" collection contains **100 ready-to-customize static ad templates** across 4 PDFs (25 templates each). Each template is a **810x810px square format** designed for Meta (Facebook/Instagram) feed placement. The templates are organized into distinct framework categories, each with a specific persuasion strategy.

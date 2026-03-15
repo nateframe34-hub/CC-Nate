@@ -1,5 +1,7 @@
 # Marketing Angles & Hooks — Baseline NMN
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. References to QR-to-COA batch verification, scanning the bottle, batch-level COA access, pure NMN, single-ingredient positioning, and enzymatic synthesis throughout this document were developed for an original pure NMN concept and are **not features of the current 10-in-1 product**. A standalone pure NMN product with QR-to-COA verification is a **future goal, contingent on the 10-in-1 performing well**.
+
 > **Product:** NMN (Nicotinamide Mononucleotide) Longevity Supplement
 > **Core Avatar Desire:** "I want to feel like I did 10 years ago."
 > **Framework:** Origins Angle Extraction from Sub-Avatar Profiles

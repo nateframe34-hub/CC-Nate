@@ -1,5 +1,7 @@
 # NMN Supplier Guide
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. References to QR-to-COA batch verification, pure NMN, single-ingredient positioning, and enzymatic synthesis throughout this document were developed for an original pure NMN concept and are **not features of the current 10-in-1 product**. A standalone pure NMN product with QR-to-COA verification is a **future goal, contingent on the 10-in-1 performing well**.
+
 > **Purpose:** Actionable supplier options for sourcing 99%+ purity NMN at different business stages.
 > **Compiled:** March 2026
 

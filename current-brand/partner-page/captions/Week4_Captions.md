@@ -1,5 +1,7 @@
 # Week 4 — Natural Recommendation Loop
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. Post 18 below contains QR-to-COA scanning captions — this is **not a feature of the current 10-in-1 product** and these captions should NOT be used as-is. They are preserved here for a **future pure NMN launch, contingent on the 10-in-1 performing well**. For the current product, replace Post 18 with an ingredient breakdown or "independently tested" angle.
+
 ---
 
 ## POST 16 (Monday) — EDUCATION
@@ -31,7 +33,9 @@ Golden hour on the greenbelt. The kids actually walked ahead without arguing. Au
 ---
 
 ## POST 18 (Wednesday) — PRODUCT MENTION
-**Short video:** QR code scan showing lab results
+> **[DO NOT USE AS-IS]** — QR-to-COA is a future feature, not available on the current 10-in-1 product. Replace with ingredient breakdown video for the 10-in-1. Original QR captions preserved below for future pure NMN launch.
+
+**Short video:** QR code scan showing lab results **(FUTURE — not current product)**
 
 ### Caption A
 #BaselinePartner In 12 years of practice, I recommended hundreds of supplements. Not once could I show a patient independent proof of what was actually inside. I just scanned the QR code on my @baselinenmn bottle. Batch-specific lab results. Right there. Purity, potency, heavy metals — all verified by a third-party lab. This is what transparency actually looks like. Not a claim on a website. A scannable, verifiable Certificate of Analysis on every single bottle.

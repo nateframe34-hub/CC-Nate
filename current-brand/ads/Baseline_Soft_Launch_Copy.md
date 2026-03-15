@@ -1,5 +1,7 @@
 # Baseline NMN — Ad Copy Batches 1-5 (Launch Version)
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. Any references to "one ingredient," "pure NMN," QR-to-COA, or enzymatic synthesis in individual ad copies below are holdovers from an earlier pure NMN concept and **do not describe the current product**. A standalone pure NMN product is a **future goal, contingent on the 10-in-1 performing well**. See the "PURE NMN TRANSITION" section at the bottom for the planned switchover details.
+
 > **Product:** Baseline NMN — an NMN formula delivering 500mg NMN per serving. 120 capsules / 60 servings.
 > **Framework:** Angle Isolation Testing — 1 Sub-Avatar, 1 Format, 3 Angles per batch.
 > **Principle:** Every ad sells the OUTCOME, not the product. NMN is the mechanism. NAD+ decline is the education. The felt experience is the proof.
@@ -210,7 +212,9 @@ I wasn't researching supplements. I was reading about mitochondrial function for
 
 NMN is the direct precursor — the raw material your body converts into NAD+. Something your body already makes, just less and less of over time.
 
-I chose Baseline because they don't lead with hype. One ingredient. Published research. No buzzwords.
+I chose Baseline because they don't lead with hype. Research-backed ingredients. No buzzwords.
+
+> **[EDIT NOTE: Changed "One ingredient" to "Research-backed ingredients" — we are running the 10-in-1, not a single-ingredient product.]**
 
 The first few weeks were uneventful. Then I realized I'd gone two days without my afternoon coffee. My focus felt sharper than it had in years. Quiet changes. Real ones. Individual results may vary.
 
@@ -306,7 +310,7 @@ Stop chasing spikes. Raise your baseline.
 - **A2:** The reason NMN "didn't work" is you weren't taking real NMN
 - **A3:** Stop trusting supplement labels — start verifying them
 
-> **Launch product note:** Without QR-to-COA verification on the current product, these angles lean on the FELT EXPERIENCE of real NMN vs fake NMN, not the verification mechanism. When pure NMN with batch verification launches, add the scan/verify proof layer.
+> **Launch product note:** Without QR-to-COA verification on the current 10-in-1 product, these angles lean on the FELT EXPERIENCE of real NMN vs fake NMN, not the verification mechanism. QR-to-COA and pure NMN are **future goals, contingent on the 10-in-1 performing well**. If/when the pure NMN product launches, add the scan/verify proof layer.
 
 ---
 
@@ -646,7 +650,9 @@ Reality: The decline isn't cosmetic. It's cellular. Energy production, cognitive
 Told: "Manage your stress."
 Reality: Stress management helps. But it doesn't restore what your cells have lost.
 
-NMN supports NAD+ production at the cellular level. One ingredient. Published research. No buzzwords. Individual results may vary.
+NMN supports NAD+ production at the cellular level. Research-backed ingredients. No buzzwords. Individual results may vary.
+
+> **[EDIT NOTE: Changed "One ingredient" to "Research-backed ingredients" — we are running the 10-in-1, not a single-ingredient product.]**
 
 → Function first. Everything else follows.
 
@@ -716,9 +722,11 @@ Take the winning sub-avatar + winning angle and create 3 NEW format variations:
 
 ---
 
-# PURE NMN TRANSITION
+# PURE NMN TRANSITION (FUTURE — CONTINGENT ON 10-IN-1 SUCCESS)
 
-When demand is validated and you switch to a pure NMN supplier, add back to the copy:
+> **This section describes a future product transition, NOT the current state.** The pure NMN product is a goal contingent on the 10-in-1 performing well. None of the below should be used in current copy.
+
+When demand is validated with the 10-in-1 and you switch to a pure NMN supplier, add back to the copy:
 
 - **Trust/verification language:** "batch-specific lab results you can verify yourself" / "scan the bottle"
 - **Purity claims:** "99%+ pure beta-NMN" / "enzymatic synthesis" / "single ingredient"

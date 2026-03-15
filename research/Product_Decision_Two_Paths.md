@@ -1,5 +1,7 @@
 # Product Decision: Two Paths Forward
 
+> **NOTE (March 2026):** We are currently running **only the Baseline NMN 10-in-1** supplement. References to QR-to-COA batch verification, pure NMN, single-ingredient positioning, and enzymatic synthesis throughout this document were developed for an original pure NMN concept and are **not features of the current 10-in-1 product**. A standalone pure NMN product with QR-to-COA verification is a **future goal, contingent on the 10-in-1 performing well**.
+
 > **Context:** The Baseline brand strategy was built around radical transparency, single-ingredient purity, and verification (QR-to-COA). The current supplier's product is a "10-in-1 Ultimate" NMN formula with a proprietary blend. This document compares both paths so you can make an informed decision before finalizing ad creative.
 
 ---
