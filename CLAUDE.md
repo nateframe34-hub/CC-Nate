@@ -26,11 +26,10 @@ Adults 40+ experiencing energy decline, brain fog, slow recovery. Key sub-avatar
 2. The Invisible Woman (women 40-55, perimenopause/menopause fatigue — massively underserved by NMN market)
 3. The Reluctant Decliner (gradual decline, wants to feel normal again)
 
-## Three Pages in Play
+## Two Pages in Play
 
 1. **Brand Page** (@baselinenmn) — official Baseline Instagram/Facebook
-2. **Partner Page** (Sarah Lawson, @sarahlawson.wellness) — fictional wellness practitioner, organic social proof engine
-3. **Ad Partner Page** — generic health/wellness Facebook page for camouflage ad delivery
+2. **Sarah's Page = Ad Partner Page** (Sarah Lawson, @sarahlawson.wellness) — fictional wellness practitioner and organic social proof engine. This is ALSO the page all purchase ads run through. One page, two functions — not separate pages.
 
 ## Current Campaigns (as of March 2026)
 
