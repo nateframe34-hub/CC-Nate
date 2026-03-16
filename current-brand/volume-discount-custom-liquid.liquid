@@ -20,6 +20,7 @@
     color: var(--vdt-text);
     margin: 0 0 0.6rem;
     text-transform: uppercase;
+    text-align: center;
   }
   .vdt__tiers { display: flex; flex-direction: column; gap: 0.5rem; }
   .vdt__tier {
@@ -42,21 +43,20 @@
     box-shadow: 0 0 0 1px var(--vdt-accent);
   }
 
-  /* Radio — filled solid circle when active */
+  /* Radio — purple dot inside white circle when active */
   .vdt__radio {
     flex-shrink: 0; width: 22px; height: 22px;
     border: 2px solid var(--vdt-border); border-radius: 50%;
     background: #fff;
     display: flex; align-items: center; justify-content: center;
-    transition: border-color 0.2s, background 0.2s;
+    transition: border-color 0.2s;
   }
   .vdt__tier--active .vdt__radio {
     border-color: var(--vdt-accent);
-    background: var(--vdt-accent);
   }
   .vdt__radio-dot {
-    width: 8px; height: 8px; border-radius: 50%;
-    background: #fff;
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--vdt-accent);
     transform: scale(0); transition: transform 0.2s;
   }
   .vdt__tier--active .vdt__radio-dot { transform: scale(1); }
@@ -86,12 +86,13 @@
   .vdt__price { font-weight: 700; font-size: 1.05rem; color: var(--vdt-text); }
   .vdt__compare { font-size: 0.8rem; color: var(--vdt-compare); text-decoration: line-through; }
 
-  /* Save badges — bigger, bolder, more visible */
+  /* Save badges — brand purple, positioned next to tier name */
   .vdt__save {
-    display: inline-block; padding: 0.2rem 0.55rem;
+    display: inline-block; padding: 0.15rem 0.5rem;
     font-size: 0.78rem; font-weight: 700;
-    color: #fff; background: #2E7D32; border-radius: 4px;
-    margin-top: 0.15rem; letter-spacing: 0.01em;
+    color: var(--vdt-accent);
+    background: none;
+    margin: 0; letter-spacing: 0.01em;
   }
 </style>
 
@@ -119,13 +120,13 @@
         <div class="vdt__top-row">
           <span class="vdt__label">Commit</span>
           <span class="vdt__badge">Most Popular</span>
+          <span class="vdt__save">Save $10</span>
         </div>
         <div class="vdt__supply">120-Day Supply</div>
       </div>
       <div class="vdt__pricing">
         <span class="vdt__price">$89.99</span>
         <span class="vdt__compare">{{ product.compare_at_price | times: 2 | money }}</span>
-        <span class="vdt__save">Save $10</span>
       </div>
     </div>
 
@@ -135,13 +136,13 @@
         <div class="vdt__top-row">
           <span class="vdt__label">Transform</span>
           <span class="vdt__badge">Best Value</span>
+          <span class="vdt__save">Save $30</span>
         </div>
         <div class="vdt__supply">180-Day Supply</div>
       </div>
       <div class="vdt__pricing">
         <span class="vdt__price">$119.85</span>
         <span class="vdt__compare">{{ product.compare_at_price | times: 3 | money }}</span>
-        <span class="vdt__save">Save $30</span>
       </div>
     </div>
 
