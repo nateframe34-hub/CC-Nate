@@ -1,0 +1,178 @@
+<style>
+  .vdt {
+    --vdt-accent: #7C5CBF;
+    --vdt-accent-light: #F3EEFB;
+    --vdt-border: #E2DDD7;
+    --vdt-bg: #FDFBF7;
+    --vdt-text: #2C2C2C;
+    --vdt-text-muted: #7A7A7A;
+    --vdt-compare: #999999;
+    --vdt-radius: 10px;
+    width: 100%;
+    margin: 0.8rem 0 0.4rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  .vdt__heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--vdt-text);
+    margin: 0 0 0.6rem;
+    text-transform: uppercase;
+  }
+  .vdt__tiers { display: flex; flex-direction: column; gap: 0.5rem; }
+  .vdt__tier {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1rem;
+    border: 2px solid var(--vdt-border);
+    border-radius: var(--vdt-radius);
+    background: var(--vdt-bg);
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .vdt__tier:hover { border-color: var(--vdt-accent); }
+  .vdt__tier--active {
+    border-color: var(--vdt-accent);
+    background: var(--vdt-accent-light);
+    box-shadow: 0 0 0 1px var(--vdt-accent);
+  }
+  .vdt__radio {
+    flex-shrink: 0; width: 20px; height: 20px;
+    border: 2px solid var(--vdt-border); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    transition: border-color 0.2s;
+  }
+  .vdt__tier--active .vdt__radio { border-color: var(--vdt-accent); }
+  .vdt__radio-dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    background: var(--vdt-accent);
+    transform: scale(0); transition: transform 0.2s;
+  }
+  .vdt__tier--active .vdt__radio-dot { transform: scale(1); }
+  .vdt__content { flex: 1; min-width: 0; }
+  .vdt__top-row { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+  .vdt__label { font-weight: 700; font-size: 0.95rem; color: var(--vdt-text); }
+  .vdt__badge {
+    display: inline-block; padding: 0.15rem 0.5rem;
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.03em;
+    text-transform: uppercase; color: #fff; background: var(--vdt-accent);
+    border-radius: 4px; line-height: 1.4;
+  }
+  .vdt__supply { font-size: 0.8rem; color: var(--vdt-text-muted); margin-top: 0.15rem; }
+  .vdt__pricing {
+    flex-shrink: 0; text-align: right;
+    display: flex; flex-direction: column; align-items: flex-end; gap: 0.1rem;
+  }
+  .vdt__price { font-weight: 700; font-size: 1.05rem; color: var(--vdt-text); }
+  .vdt__compare { font-size: 0.8rem; color: var(--vdt-compare); text-decoration: line-through; }
+  .vdt__save {
+    display: inline-block; padding: 0.1rem 0.4rem;
+    font-size: 0.7rem; font-weight: 600;
+    color: #2E7D32; background: #E8F5E9; border-radius: 3px; margin-top: 0.1rem;
+  }
+</style>
+
+<div class="vdt" id="VolumeDiscountTiers">
+  <p class="vdt__heading">Bundle & Save</p>
+  <div class="vdt__tiers">
+
+    <div class="vdt__tier vdt__tier--active" data-tier-qty="1" role="button" tabindex="0">
+      <div class="vdt__radio"><div class="vdt__radio-dot"></div></div>
+      <div class="vdt__content">
+        <div class="vdt__top-row">
+          <span class="vdt__label">Try it</span>
+        </div>
+        <div class="vdt__supply">60-Day Supply</div>
+      </div>
+      <div class="vdt__pricing">
+        <span class="vdt__price">{{ product.price | money }}</span>
+        <span class="vdt__compare">{{ product.compare_at_price | money }}</span>
+      </div>
+    </div>
+
+    <div class="vdt__tier" data-tier-qty="2" role="button" tabindex="0">
+      <div class="vdt__radio"><div class="vdt__radio-dot"></div></div>
+      <div class="vdt__content">
+        <div class="vdt__top-row">
+          <span class="vdt__label">Commit</span>
+          <span class="vdt__badge">Most Popular</span>
+        </div>
+        <div class="vdt__supply">120-Day Supply</div>
+      </div>
+      <div class="vdt__pricing">
+        <span class="vdt__price">$89.99</span>
+        <span class="vdt__compare">{{ product.compare_at_price | times: 2 | money }}</span>
+        <span class="vdt__save">Save $10</span>
+      </div>
+    </div>
+
+    <div class="vdt__tier" data-tier-qty="3" role="button" tabindex="0">
+      <div class="vdt__radio"><div class="vdt__radio-dot"></div></div>
+      <div class="vdt__content">
+        <div class="vdt__top-row">
+          <span class="vdt__label">Transform</span>
+          <span class="vdt__badge">Best Value</span>
+        </div>
+        <div class="vdt__supply">180-Day Supply</div>
+      </div>
+      <div class="vdt__pricing">
+        <span class="vdt__price">$119.85</span>
+        <span class="vdt__compare">{{ product.compare_at_price | times: 3 | money }}</span>
+        <span class="vdt__save">Save $30</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function() {
+  var container = document.getElementById('VolumeDiscountTiers');
+  if (!container) return;
+  var tiers = container.querySelectorAll('.vdt__tier');
+
+  function findQuantityInput() {
+    return document.querySelector('.main-product-form [name="quantity"]')
+      || document.querySelector('form[data-type="add-to-cart-form"] [name="quantity"]');
+  }
+
+  function ensureQuantityInput() {
+    var input = findQuantityInput();
+    if (input) return input;
+    var form = document.querySelector('.main-product-form form')
+      || document.querySelector('form[data-type="add-to-cart-form"]');
+    if (!form) return null;
+    input = document.createElement('input');
+    input.type = 'hidden';
+    input.name = 'quantity';
+    input.value = '1';
+    form.appendChild(input);
+    return input;
+  }
+
+  function selectTier(el) {
+    var qty = parseInt(el.getAttribute('data-tier-qty'), 10);
+    tiers.forEach(function(t) { t.classList.remove('vdt__tier--active'); });
+    el.classList.add('vdt__tier--active');
+    var input = ensureQuantityInput();
+    if (input) {
+      input.value = qty;
+      input.dispatchEvent(new Event('change', { bubbles: true }));
+    }
+  }
+
+  tiers.forEach(function(tier) {
+    tier.addEventListener('click', function() { selectTier(tier); });
+    tier.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); selectTier(tier); }
+    });
+  });
+
+  selectTier(tiers[0]);
+})();
+</script>
