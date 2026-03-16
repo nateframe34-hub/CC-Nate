@@ -8,11 +8,12 @@ on:
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
+    if: github.ref != 'refs/heads/claude/add-contributor-DJC10'
     steps:
-      - name: Checkout main
+      - name: Checkout default branch
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: claude/add-contributor-DJC10
           fetch-depth: 0
 
       - name: Configure git
@@ -23,7 +24,7 @@ jobs:
       - name: Merge pushed branch
         run: |
           BRANCH="${GITHUB_REF#refs/heads/}"
-          echo "Merging $BRANCH into main"
+          echo "Merging $BRANCH into claude/add-contributor-DJC10"
           git fetch origin "$BRANCH"
           git merge "origin/$BRANCH" --no-edit
-          git push origin main
+          git push origin claude/add-contributor-DJC10
