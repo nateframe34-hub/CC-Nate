@@ -45,21 +45,23 @@
 
   /* Radio — purple dot inside white circle when active */
   .vdt__radio {
-    flex-shrink: 0; width: 22px; height: 22px;
+    flex-shrink: 0; width: 24px; height: 24px;
     border: 2px solid var(--vdt-border); border-radius: 50%;
-    background: #fff;
+    background: #fff !important;
     display: flex; align-items: center; justify-content: center;
     transition: border-color 0.2s;
+    box-sizing: border-box;
   }
   .vdt__tier--active .vdt__radio {
-    border-color: var(--vdt-accent);
+    border-color: var(--vdt-accent) !important;
+    background: #fff !important;
   }
   .vdt__radio-dot {
-    width: 10px; height: 10px; border-radius: 50%;
+    width: 12px; height: 12px; border-radius: 50%;
     background: var(--vdt-accent);
-    transform: scale(0); transition: transform 0.2s;
+    opacity: 0; transition: opacity 0.2s;
   }
-  .vdt__tier--active .vdt__radio-dot { transform: scale(1); }
+  .vdt__tier--active .vdt__radio-dot { opacity: 1; }
 
   .vdt__content { flex: 1; min-width: 0; }
   .vdt__top-row { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
@@ -86,14 +88,16 @@
   .vdt__price { font-weight: 700; font-size: 1.05rem; color: var(--vdt-text); }
   .vdt__compare { font-size: 0.8rem; color: var(--vdt-compare); text-decoration: line-through; }
 
-  /* Save badges — amber/gold with subtle background for visibility */
+  /* Save badges — brand copper background with cream text */
   .vdt__save {
     display: inline-block; padding: 0.15rem 0.5rem;
-    font-size: 0.78rem; font-weight: 800;
-    color: #B8860B;
-    background: #FFF3D0;
+    font-size: 0.7rem; font-weight: 700;
+    color: #F5F0E8;
+    background: #C07840;
     border-radius: 4px;
-    margin: 0; letter-spacing: 0.01em;
+    margin: 0; letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.4;
   }
 </style>
 
