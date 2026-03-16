@@ -41,25 +41,40 @@
     background: var(--vdt-accent-light);
     box-shadow: 0 0 0 1px var(--vdt-accent);
   }
+
+  /* Radio — filled solid circle when active */
   .vdt__radio {
-    flex-shrink: 0; width: 20px; height: 20px;
+    flex-shrink: 0; width: 22px; height: 22px;
     border: 2px solid var(--vdt-border); border-radius: 50%;
+    background: #fff;
     display: flex; align-items: center; justify-content: center;
-    transition: border-color 0.2s;
+    transition: border-color 0.2s, background 0.2s;
   }
-  .vdt__tier--active .vdt__radio { border-color: var(--vdt-accent); }
-  .vdt__radio-dot {
-    width: 10px; height: 10px; border-radius: 50%;
+  .vdt__tier--active .vdt__radio {
+    border-color: var(--vdt-accent);
     background: var(--vdt-accent);
+  }
+  .vdt__radio-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #fff;
     transform: scale(0); transition: transform 0.2s;
   }
   .vdt__tier--active .vdt__radio-dot { transform: scale(1); }
+
   .vdt__content { flex: 1; min-width: 0; }
   .vdt__top-row { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
-  .vdt__label { font-weight: 700; font-size: 0.95rem; color: var(--vdt-text); }
+
+  /* Bolder, larger tier titles */
+  .vdt__label {
+    font-weight: 800;
+    font-size: 1.05rem;
+    color: var(--vdt-text);
+    letter-spacing: 0.01em;
+  }
+
   .vdt__badge {
     display: inline-block; padding: 0.15rem 0.5rem;
-    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.03em;
+    font-size: 0.65rem; font-weight: 700; letter-spacing: 0.03em;
     text-transform: uppercase; color: #fff; background: var(--vdt-accent);
     border-radius: 4px; line-height: 1.4;
   }
@@ -70,22 +85,25 @@
   }
   .vdt__price { font-weight: 700; font-size: 1.05rem; color: var(--vdt-text); }
   .vdt__compare { font-size: 0.8rem; color: var(--vdt-compare); text-decoration: line-through; }
+
+  /* Save badges — bigger, bolder, more visible */
   .vdt__save {
-    display: inline-block; padding: 0.1rem 0.4rem;
-    font-size: 0.7rem; font-weight: 600;
-    color: #2E7D32; background: #E8F5E9; border-radius: 3px; margin-top: 0.1rem;
+    display: inline-block; padding: 0.2rem 0.55rem;
+    font-size: 0.78rem; font-weight: 700;
+    color: #fff; background: #2E7D32; border-radius: 4px;
+    margin-top: 0.15rem; letter-spacing: 0.01em;
   }
 </style>
 
 <div class="vdt" id="VolumeDiscountTiers">
-  <p class="vdt__heading">Bundle & Save</p>
+  <p class="vdt__heading">Choose Your Protocol</p>
   <div class="vdt__tiers">
 
-    <div class="vdt__tier vdt__tier--active" data-tier-qty="1" role="button" tabindex="0">
+    <div class="vdt__tier" data-tier-qty="1" role="button" tabindex="0">
       <div class="vdt__radio"><div class="vdt__radio-dot"></div></div>
       <div class="vdt__content">
         <div class="vdt__top-row">
-          <span class="vdt__label">Try it</span>
+          <span class="vdt__label">Try It</span>
         </div>
         <div class="vdt__supply">60-Day Supply</div>
       </div>
@@ -95,7 +113,7 @@
       </div>
     </div>
 
-    <div class="vdt__tier" data-tier-qty="2" role="button" tabindex="0">
+    <div class="vdt__tier vdt__tier--active" data-tier-qty="2" role="button" tabindex="0">
       <div class="vdt__radio"><div class="vdt__radio-dot"></div></div>
       <div class="vdt__content">
         <div class="vdt__top-row">
@@ -173,6 +191,7 @@
     });
   });
 
-  selectTier(tiers[0]);
+  /* Auto-select tier 2 (Commit) on load */
+  selectTier(tiers[1]);
 })();
 </script>
