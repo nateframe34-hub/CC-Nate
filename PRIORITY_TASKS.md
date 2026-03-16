@@ -271,4 +271,26 @@
 
 ---
 
+## On Spare Time — Learn & Research
+
+*No deadline on these. Watch/read between tasks, on the couch, whenever. This is what separates good ads from the best ads.*
+
+### Meta Ads (Make the Best Ads Possible)
+
+- [ ] **Charley T / Disrupter School** — One-campaign structure, 3-2-2 method, creative as the targeting lever. Most aligned with your CBO approach. Start here.
+- [ ] **Ben Heath** — 425K+ subs, $700M+ generated for clients. Practical campaign structure, creative strategy, scaling. Covers everything.
+- [ ] **Dara Denney** — Focused specifically on ad creative strategy and creative testing frameworks. Great for the "how do I make better creatives" question.
+- [ ] **Social Media Examiner** — Stay current on Meta algorithm changes (Andromeda, Advantage+, GEM). Less tactical, more "why things work."
+
+### Customer Research (Know Your Buyers Better Than They Know Themselves)
+
+- [ ] **Read Amazon reviews on competitor NMN products** — 1-star and 3-star reviews are gold. Real people, unfiltered, using their own words. That language goes straight into ad copy.
+- [ ] **Browse r/Supplements, r/NMN, r/Longevity** — See what real 40+ people say about NMN, what they're skeptical about, what made them try it.
+- [ ] **Browse r/Menopause, r/Perimenopause** — Your Invisible Woman avatar lives here. Read their language, their frustrations, what they've tried and given up on.
+- [ ] **Facebook groups for women's health over 40 / supplement users / longevity** — Same idea, different platform. Note the words they use — that's your copy.
+- [ ] **Copy Posse (Alex Cattoni)** — Customer avatar exercises with real frameworks. Good for pressure-testing your existing avatars.
+- [ ] **DigitalMarketer** — Their avatar worksheet is the gold standard. Useful for going deeper on the 3pm Wall Hitter, Invisible Woman, and Reluctant Decliner.
+
+---
+
 *All reference docs live in this repo. See `CLAUDE.md` for the full file index.*
