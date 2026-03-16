@@ -5,10 +5,12 @@ on:
     branches:
       - 'claude/**'
 
+permissions:
+  contents: write
+
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
-    # Don't run on the default branch itself
     if: github.ref != 'refs/heads/claude/add-contributor-DJC10'
     steps:
       - name: Checkout default branch
