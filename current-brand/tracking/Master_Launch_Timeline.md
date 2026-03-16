@@ -1,6 +1,6 @@
 # Baseline NMN — Master Launch Timeline
 
-> **Updated March 16, 2026.** Timeline restructured around a **spend-gated launch trigger** instead of fixed calendar dates. Purchase ads go live when the engagement campaign hits $100 USD in cumulative clean spend — not on a predetermined day.
+> **Updated March 16, 2026.** Timeline restructured around a **spend-gated launch trigger** instead of fixed calendar dates. Purchase ads go live when the ad account hits $100 USD in cumulative clean spend across warm-up campaigns — not on a predetermined day.
 
 > **NOTE:** We are currently running **only the Baseline NMN 10-in-1** supplement. QR-to-COA verification is a **future feature** — not available on the current product.
 
@@ -17,24 +17,43 @@
 
 **Purchase ads go live when ALL of the following are true:**
 
-1. **Engagement campaign has $100 USD cumulative clean spend** — no policy violations, no rejected ads
+1. **$100 USD cumulative clean spend across warm-up campaigns** — no policy violations, no rejected ads
 2. **Infrastructure complete** — PDP live, pixel firing, email flows working
 3. **9 ad creatives finalized** and compliance-checked
 4. **All 3 pages have content** — not empty shells
 
 That's it. No arbitrary waiting period. The $100 threshold is the gate.
 
+### Dual Warm-Up Campaign Strategy
+
+Run **two campaigns simultaneously** to warm the account. Both count toward the $100 threshold.
+
+| Campaign | Objective | Budget | What It Does |
+|----------|-----------|--------|--------------|
+| **Engagement** (already running) | Page followers + post engagement | $5 CAD/day | Grows page, builds account trust |
+| **Traffic** (launch when PDP is live) | Landing page views → PDP | $5-10 CAD/day | Warms the pixel with real visitor data (ViewContent, AddToCart events), tests audience response to PDP |
+
+**Combined budget: $10-15 CAD/day** → hits $100 USD threshold in ~12-15 days.
+
+**Why two campaigns instead of just engagement:**
+- The engagement campaign warms the account but teaches the pixel nothing about your buyers
+- The traffic campaign sends real people to your PDP — the pixel starts collecting ViewContent, AddToCart, and time-on-site signals
+- When purchase ads launch, the pixel already has upstream data about who engages with your product page — it's not starting completely cold
+- Each campaign optimizes for its own objective independently. The traffic campaign's "clicker" data does NOT contaminate the purchase campaign's optimization. Meta treats them as separate learners.
+
 ### Current Status
 
 | Metric | Value | Updated |
 |--------|-------|---------|
 | Engagement spend to date | $6.83 USD | March 16, 2026 |
+| Traffic campaign spend to date | $0 (not yet launched — needs PDP) | |
+| **Total account spend** | **$6.83 USD** | |
 | Spend remaining to threshold | ~$93 USD | |
 | Policy violations | 0 | |
-| Estimated days to threshold (at current pace ~$3.40/day) | ~27 days | |
-| Estimated days to threshold (at $10-15 CAD/day) | ~12-15 days | |
+| Estimated days to threshold (engagement only, ~$3.40/day) | ~27 days | |
+| Estimated days to threshold (both campaigns, ~$10 CAD/day) | ~12-15 days | |
 
-> **To accelerate:** Increase engagement campaign budget from current level to $10-15 CAD/day. Hits threshold faster AND grows followers faster. No downside.
+> **Traffic campaign launches when PDP is live.** Until then, engagement runs alone. Once both are running, the threshold approaches roughly twice as fast.
 
 ---
 
@@ -155,7 +174,7 @@ These block purchase ad launch. If any are incomplete when spend hits $100, the 
 | Email flows connected | Post-purchase retention | [ ] |
 | Sarah's profile photo generated | Partner page content | [ ] |
 | Brand page profile/cover/bio set | Brand organic content | [ ] |
-| **$100 USD clean engagement spend** | **Account trust** | **$6.83 / $100** |
+| **$100 USD clean account spend** (engagement + traffic) | **Account trust** | **$6.83 / $100** |
 
 ---
 
@@ -166,8 +185,12 @@ NOW ──────── Engagement campaign running ($6.83 USD spent)
              Build infrastructure in parallel
              Post organic content daily across all 3 pages
 
-~$80 USD ─── Upload ads to Meta, final prep
+PDP LIVE ─── Launch traffic campaign → PDP ($5-10 CAD/day)
+             Both campaigns now warming account + pixel
+
+~$80 USD ─── Upload purchase ads to Meta, final prep
 ~$100 USD ── B1-B3 PURCHASE ADS GO LIVE ($50/day CBO)
+             Pause traffic campaign (purchase campaign takes over)
 
 Day 7 ────── First data read (no changes before this)
 Day 14 ───── Kill losers, identify trends
@@ -179,4 +202,4 @@ Day 70 ───── Target: learning phase exit
 
 ---
 
-*Launch gated by $100 USD engagement spend, not calendar dates. Everything else runs in parallel. The moment the account is warm and infrastructure is ready, purchase ads go live.*
+*Launch gated by $100 USD total account spend (engagement + traffic), not calendar dates. Everything runs in parallel. The moment the account is warm and infrastructure is ready, purchase ads go live.*
