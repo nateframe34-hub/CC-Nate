@@ -46,15 +46,15 @@ The third doctor was different. A functional medicine practitioner my neighbor r
 
 The results weren't alarming. But they told a different story than "you're fine."
 
-"Your markers are consistent with what I see in patients experiencing age-related cellular energy decline," she said. "Have you heard of NAD+?"
+"Have you looked into NAD+?" she asked.
 
 I hadn't.
 
-She explained: it's a coenzyme in every cell of your body. Your cells use it for energy production and cellular maintenance. It's not a vitamin. It's not a mineral. It's the fuel behind the fuel — the thing your mitochondria need to do their job. And it declines as you age. Significantly. Research suggests the decline accelerates in your 40s.
+She explained: it's a coenzyme in every cell. Cells use it for energy production and cellular maintenance. It's not a vitamin. It's not a mineral. It's the fuel behind the fuel — the thing mitochondria need to do their job. And levels decline with age. Significantly. Research suggests the decline accelerates after 40.
 
-"The fatigue, the brain fog, the slow recovery — it all fits the pattern," she said. "Your cells may be running on less than they need."
+"What you're describing is consistent with what I see when that system starts running low," she said. "It's worth exploring."
 
-She recommended looking into NMN — the direct precursor your body converts into NAD+. She said to give it 6-8 weeks. Not a magic fix. A molecular one.
+She mentioned that some of her patients had been looking into NMN — the direct precursor the body converts into NAD+. She said to give it 6-8 weeks. Not a magic fix. A molecular one.
 
 I found Baseline because they didn't promise miracles. 500mg of NMN — the dose the research actually uses — plus a handful of supporting compounds for absorption and cellular function. Published research. Transparent about what's in the bottle.
 
@@ -72,7 +72,7 @@ I'm not 30 again. I don't want to be. I just wanted to stop feeling like I was f
 
 That was enough. Individual results may vary.
 
-→ Stop declining. Start restoring.
+→ Support your baseline.
 
 ---
 
@@ -86,7 +86,7 @@ That was enough. Individual results may vary.
 
 ---
 
-I'm 52. I'm writing this at 9pm on a Tuesday and I still have gas in the tank. Six months ago that sentence would've been impossible.
+I'm 52. I'm writing this at 9pm on a Tuesday and I still have gas in the tank. Six months ago, most evenings looked very different.
 
 Here's what happened.
 
@@ -96,9 +96,9 @@ I tried the things you try. More sleep. Better food. B-vitamins. Magnesium. An $
 
 Nothing moved the needle.
 
-Late one night I was on Reddit — r/Supplements or r/longevity, I don't remember which — and someone posted about NAD+ decline. How your cells produce less of this specific coenzyme as you age. How it affects energy production at the cellular level. They linked to actual published research, not a blog. I read for two hours.
+Late one night I was on Reddit — r/Supplements or r/longevity, I don't remember which — and someone posted about NAD+ decline. How cells produce less of this specific coenzyme with age. How it affects energy production at the cellular level. They linked to actual published research, not a blog. I read for two hours.
 
-NMN kept coming up. The precursor your body converts into NAD+. Not a stimulant. Not a vitamin stack. Just the raw material your cells already use, delivered in a form they can actually work with.
+NMN kept coming up. The precursor the body converts into NAD+. Not a stimulant. Not a vitamin stack. Just the raw material cells already use, delivered in a form they can actually work with.
 
 I ordered Baseline because a few people in the thread recommended it. Transparent label. No hype. No "reverse your age" nonsense.
 
@@ -110,9 +110,9 @@ It's not a lightning bolt. It's more like someone quietly turned the lights back
 
 It's been 187 days. I still take two capsules with my morning coffee. That's it. That's the whole routine.
 
-I can't promise this will work for everyone — bodies are different, and I'm not a doctor. But I can tell you it changed my baseline. And for me, that was the thing I'd been looking for.
+I can't promise this will work for everyone — bodies are different, and I'm not a doctor. But I can tell you something shifted for me. And that was the thing I'd been looking for.
 
-→ Stop declining. Start restoring.
+→ Support your baseline.
 
 ---
 
@@ -140,7 +140,7 @@ I spent a weekend reading published research on cellular aging. Not wellness blo
 
 The decline curve in the research mapped almost exactly onto my own tracking data. Same age range. Same trajectory.
 
-NMN is the direct precursor — the molecule your body converts into NAD+. I was skeptical. I've been burned by supplements before. But the published research was specific and the mechanism was clear. This wasn't "proprietary blend" hand-waving. It was biochemistry.
+NMN is the direct precursor — the molecule the body converts into NAD+. I was skeptical. I've been burned by supplements before. But the published research was specific and the mechanism was clear. This wasn't "proprietary blend" hand-waving. It was biochemistry.
 
 I chose Baseline because the dose matched the research. 500mg NMN — the same amount used in the studies I'd read. Most brands sell 125 or 250mg and hope you don't notice. An engineer notices.
 
@@ -148,17 +148,17 @@ I tracked the results the same way I track everything else:
 
 **Day 1-14:** No measurable change. Energy score held at 5.1 average. Sleep data unchanged.
 
-**Day 15-30:** Energy average moved to 5.8. Small but outside normal variance. Deep sleep increased by 12 minutes average. HRV started trending up.
+**Day 15-30:** Energy average started creeping up. Small but outside normal variance. Deep sleep trended longer. HRV started moving in the right direction.
 
-**Day 31-60:** Energy average: 6.7. Recovery after a hard workout dropped from 72 hours back to roughly 36. I had to check my data twice because I didn't believe it.
+**Day 31-60:** Energy average kept climbing. Recovery after hard workouts started feeling manageable again — closer to what it was two years ago. I had to check my data twice because I didn't believe the trend.
 
 The trend line changed. That's the most honest thing I can say. My baseline went up. Not dramatically. Not overnight. But measurably, consistently, and in a direction the data hadn't moved in two years.
 
-I'm still tracking. Still skeptical of most supplements. But the numbers don't lie, and these numbers say something changed at the cellular level.
+I'm still tracking. Still skeptical of most supplements. But the numbers don't lie, and these numbers say something changed.
 
 Will it work the same for you? I don't know. I only know what my data says. But the research on NAD+ decline is real, and my tracking confirms it did something measurable. Individual results may vary.
 
-→ Stop declining. Start restoring.
+→ Support your baseline.
 
 ---
 
@@ -169,7 +169,7 @@ Will it work the same for you? I don't know. I only know what my data says. But 
 **Ad Set Name:** `B2_InvisibleWoman_Native`
 **Sub-Avatar:** #7 — The Invisible Woman (underserved market, women 40-55)
 **Core Emotion:** Invisibility / frustration
-**Customer Language:** "I feel like I've aged 10 years in the last 2" / "My doctor said it's just perimenopause" / "I want to function, not just look younger"
+**Customer Language:** "I feel like I've aged 10 years in the last 2" / "My doctor said this is normal for my age" / "I want to function, not just look younger"
 
 ---
 
@@ -189,9 +189,9 @@ I don't.
 
 I want to stop feeling like someone pulled the plug on my entire operating system three years ago.
 
-I hit perimenopause at 44. Within two years, everything changed. Not my face — my function. Energy disappeared. Brain fog moved in and stayed. I gained weight without changing a single thing about my diet. Recovery from a normal day — just a normal Tuesday — took everything I had.
+Something shifted when I was 44. Within two years, everything changed. Not my face — my function. Energy disappeared. Brain fog moved in and stayed. I gained weight without changing a single thing about my diet. Recovery from a normal day — just a normal Tuesday — took everything I had.
 
-I went to my doctor. "It's perimenopause. This is normal."
+I went to my doctor. "This is normal for your age."
 
 Normal for whom? Because this didn't feel like a phase. It felt like a system failure.
 
@@ -201,11 +201,11 @@ The problem wasn't my skin. The problem was I couldn't think straight by 11am.
 
 My friend Liz — same age, same chaos, two kids — mentioned something she'd been reading about. Not a cream. Not hormones. A molecule called NAD+.
 
-"It's not an anti-aging thing," she said. "It's a cellular energy thing. Your cells literally run on it. And levels drop when you hit your 40s — on top of everything else."
+"It's not an anti-aging thing," she said. "It's a cellular energy thing. Every cell runs on it. And levels drop after 40 — on top of everything else going on."
 
-I looked it up. She was right. Published research. NAD+ is a coenzyme in every cell, responsible for energy production and cellular maintenance. Levels decline significantly with age. And here's what no one told me: this decline happens alongside hormonal changes. They're not the same thing. Hormonal shifts are real. But so is the cellular energy drop — and almost nobody talks about it.
+I looked it up. She was right. Published research. NAD+ is a coenzyme in every cell, responsible for energy production and cellular maintenance. Levels decline significantly with age. And here's what no one told me: this decline happens on its own timeline — separate from everything else the body is going through. Both are real. But only one gets talked about.
 
-NMN is the precursor your body uses to produce NAD+. Not a hormone. Not a stimulant. Just the raw material your cells need to do what they used to do without you noticing.
+NMN is the precursor the body uses to produce NAD+. Not a hormone. Not a stimulant. Just the raw material cells need to do what they used to do without you noticing.
 
 Liz sent me a link to Baseline. "This is the one I take," she said. "They publish their lab results and they don't hide behind proprietary hype." After getting sold collagen powders and jade rollers, being able to see the research instead of just trusting was exactly what I needed.
 
@@ -219,7 +219,7 @@ Liz sent me a link to Baseline. "This is the one I take," she said. "They publis
 
 **Week 7:** I wasn't tracking it anymore. That was the sign. I stopped monitoring my energy because I didn't need to.
 
-My doctor still says it's "just perimenopause." She's not wrong about the diagnosis. But that answer was incomplete. This was the part that was missing. Individual results may vary.
+My doctor's advice wasn't wrong. But that answer was incomplete. There was another piece I hadn't been told about — the cellular energy side. Individual results may vary.
 
 → Function first. Everything else follows.
 
@@ -247,13 +247,13 @@ I'm 43. I have two kids who want me. And most days I have nothing left to give t
 
 It's not laziness. I go to bed at 9:30. I eat well. I exercise when I can. I take vitamins. I drink water. I do all the things you're supposed to do. And by 4pm every single day, I am empty.
 
-My doctor said "it's perimenopause." My mom said "welcome to 40." The internet said "manage your stress better."
+My doctor didn't have answers. My mom said "welcome to 40." The internet said "manage your stress better."
 
 I'm in one of those private parenting groups on Facebook — the kind where moms actually say how they're doing. One afternoon a woman posted something that stopped my scroll. She described exactly what I was living: "I have nothing left for my kids by 4pm and I hate myself for it." Dozens of comments. All the same story.
 
-But one reply was different. A mom — also 40s, also in perimenopause — said she'd found something that wasn't hormones or caffeine or another vitamin. A molecule called NAD+. A coenzyme your cells depend on for energy production. Levels decline significantly in your 40s, and that decline happens on top of hormonal shifts. Both are real. But only one gets talked about.
+But one reply was different. A mom — also in her 40s, also dealing with the same kind of exhaustion — said she'd found something that wasn't caffeine or another vitamin. A molecule called NAD+. A coenzyme every cell depends on for energy production. Levels decline significantly after 40, and that decline happens on its own timeline — separate from everything else. Both are real. But only one gets talked about.
 
-She linked to the research. I read it that night. NMN is the molecule your body converts into NAD+. Think of it as refilling the tank that's been running dry underneath everything else.
+She linked to the research. I read it that night. NMN is the molecule the body converts into NAD+. Think of it as supporting a system that may need more fuel than it's getting.
 
 I found Baseline because it came as a 60-day supply. That sounds like a small thing. But everything else was 30 days — and the research said NAD+ levels take 3-4 weeks to build. A 30-day bottle means quitting right when it starts working. Baseline gave me enough time to actually find out.
 
@@ -265,7 +265,7 @@ I found Baseline because it came as a 60-day supply. That sounds like a small th
 
 **Week 6:** I said yes to catch. We played for 40 minutes in the backyard. He grabbed my hand on the way inside and said "that was so fun, Mom."
 
-I'm not a different person. My hormones are still doing whatever they're doing. But something underneath started working again. The cellular part. The part nobody told me about.
+I'm not a different person. My body is still doing whatever it's doing. But something underneath felt different. Like a system I didn't know about was finally getting what it needed.
 
 I have two kids who want me present. Not perfect. Present. And most days now, I can be.
 
@@ -278,14 +278,14 @@ I don't know if this is the answer for every exhausted parent out there. I know 
 ## B2C3 — "The 2AM Research" | A3: Raw Discovery
 
 > **Ad Name:** `B2C3_Native_2AMResearch_A3-RawDiscovery`
-> **Creative:** Screenshot of a phone screen at 2:17 AM showing a Google search for "why am I so tired during perimenopause." Looks EXTREMELY native — the kind of screenshot someone posts with "anyone else doing this at 2am?"
+> **Creative:** Screenshot of a phone screen at 2:17 AM showing a Google search for "why am I still this tired at 45." Looks EXTREMELY native — the kind of screenshot someone posts with "anyone else doing this at 2am?"
 > **Discovery mechanism:** The 2AM Research Rabbit Hole (identical to how the reader is discovering this ad)
 > **Structure:** Stream of consciousness — written in the raw, unfiltered voice of 2AM. Short fragments. Incomplete thoughts. Punctuated by research findings. This is NOT a polished narrative. It reads like someone typing directly into a Facebook post at 2 in the morning.
 > **Psychological lever:** Mere Exposure + Recognition — the creative IS the reader's life. They DO this every night. The familiarity collapses the distance between "ad" and "my experience."
 
 ---
 
-It's 2:17 AM. I'm googling "perimenopause fatigue not going away" for the third time this week.
+It's 2:17 AM. I'm googling "why am I still this tired at 45" for the third time this week.
 
 Same results. Same advice. "Get more sleep." "Manage stress." "Talk to your doctor about HRT." "Try yoga."
 
@@ -295,19 +295,19 @@ I've tried going to bed at 9pm. I've tried cutting caffeine. I've tried "gentle 
 
 I am so tired that some mornings I sit in my car in the driveway for ten minutes before work because I need that ten minutes to gather enough energy to walk through the door.
 
-My doctor ran blood work. Everything normal. "It's just menopause. This is what it looks like."
+My doctor ran blood work. Everything normal. "This is just what your 40s look like."
 
 It doesn't feel like "just" anything.
 
-Tonight I clicked something different. A research paper. Not a blog. An actual study about NAD+ — a coenzyme in every cell responsible for energy production and cellular maintenance. Levels decline significantly with age. Especially in your 40s and 50s.
+Tonight I clicked something different. A research paper. Not a blog. An actual study about NAD+ — a coenzyme in every cell responsible for energy production and cellular maintenance. Levels decline significantly with age. Especially after 40.
 
-I kept reading. Another study. Another one. This wasn't about hormones. It was about cellular fuel. The energy your cells need to function — separate from estrogen, separate from progesterone, separate from everything my doctor is tracking. A different system declining at the same time.
+I kept reading. Another study. Another one. This was about something different — cellular fuel. The energy every cell needs to function. A separate system entirely. And it declines on its own timeline after 40.
 
 Nobody mentioned this.
 
-Not my gynecologist. Not the menopause forums. Not the wellness influencers selling me adaptogenic lattes. Nobody.
+Not my doctor. Not the wellness forums. Not the influencers selling me adaptogenic lattes. Nobody.
 
-NMN is the molecule your body converts into NAD+. The direct precursor. Published research supports it. It's not a hormone. It's not a stimulant. It's what your cells already use — they just have less of it.
+NMN is the molecule the body converts into NAD+. The direct precursor. Published research supports its role in cellular energy production. It's not a hormone. It's not a stimulant. It's what cells already use — they just have less of it.
 
 I ordered Baseline NMN at 3am that night. I chose it because there was no "miracle" language. No "turn back the clock" garbage. 500mg NMN with supporting ingredients for absorption — the research, the dose, and a brand that didn't insult my intelligence.
 
@@ -323,7 +323,7 @@ I expected nothing.
 
 **Week 7:** I told my friend Amy about it. She said "you look like yourself again." I didn't know I'd stopped.
 
-I'm still in perimenopause. I still have hard days. But I'm not googling at 2am anymore.
+I still have hard days. But I'm not googling at 2am anymore.
 
 If you're reading this at 2am — I see you. And there might be a piece of this puzzle nobody told you about. Individual results may vary.
 
@@ -364,9 +364,9 @@ Still crashing at 3pm.
 
 My buddy Dave sent me a podcast clip while we were complaining about this exact thing. Some researcher explaining that caffeine doesn't give you energy — it blocks your brain's ability to feel tired. That's why the crash hits. You borrowed from later and later came to collect.
 
-The researcher talked about NAD+ — a coenzyme your cells use to produce actual energy. Not perceived energy. Cellular energy. And levels decline as you age. Your cells literally have less fuel to work with. Caffeine masks it. But the tank is still running low.
+The researcher talked about NAD+ — a coenzyme every cell uses to produce actual energy. Not perceived energy. Cellular energy. And levels decline with age. Cells literally have less fuel to work with. Caffeine masks it. But the tank is still running low.
 
-NMN is what your body converts into NAD+. The researcher called it "restoring the fuel supply instead of just ignoring the warning light."
+NMN is what the body converts into NAD+. The researcher called it "supporting the fuel supply instead of just ignoring the warning light."
 
 That stuck with me.
 
@@ -408,15 +408,15 @@ I said it out loud and thought: that's literally my entire afternoon. Every day.
 
 I started wondering what the actual energy problem was. Not the perceived energy. The cellular energy. The stuff I teach.
 
-I went back to the research I already knew but hadn't applied to myself. Your cells produce energy through a process that depends on a coenzyme called NAD+. Every cell uses it. Energy production. Cellular maintenance. The basic machinery of being alive and alert.
+I went back to the research I already knew but hadn't applied to myself. Our cells produce energy through a process that depends on a coenzyme called NAD+. Every cell uses it. Energy production. Cellular maintenance. The basic machinery of being alive and alert.
 
-NAD+ levels decline significantly as you age. By your 40s, your cells have measurably less fuel than a decade ago. Same demand. Less supply.
+NAD+ levels decline significantly with age. By the 40s, cells have measurably less fuel than a decade earlier. Same demand. Less supply.
 
 I'd been teaching this concept for fifteen years without realizing I was living it.
 
 More coffee wasn't going to fix a fuel shortage. I was masking the problem with a signal blocker.
 
-NMN is the direct precursor your body converts into NAD+. Not a stimulant. Not caffeine. It supports the actual energy supply your cells run on. I knew the mechanism. It was solid biochemistry, not supplement marketing.
+NMN is the direct precursor the body converts into NAD+. Not a stimulant. Not caffeine. It supports the actual energy supply cells run on. I knew the mechanism. It was solid biochemistry, not supplement marketing.
 
 I chose Baseline because the formulation matched what the research supports. 500mg NMN — the dose the studies actually use — with supporting compounds for absorption and cellular function. No exaggerated claims. Every ingredient and dose listed on the label.
 
@@ -444,7 +444,7 @@ I can't promise it'll work the same for everyone. I can tell you the mechanism i
 
 I tracked my energy every day for 60 days. Here's my log.
 
-**BEFORE NMN — TYPICAL DAY:**
+**MY TYPICAL DAY (BEFORE I CHANGED ANYTHING):**
 
 6:00 AM — Alarm. Hit snooze three times.
 6:25 AM — Out of bed. Feel like I slept in a cement mixer.
@@ -463,9 +463,9 @@ I tracked my energy every day for 60 days. Here's my log.
 
 I logged days like this for two weeks before starting. The pattern was identical. Every. Single. Day.
 
-Then I read about NAD+ — the coenzyme your cells depend on for energy production. Published research shows levels decline significantly after 40. Caffeine can't fix what's happening at the cellular level. It just masks it.
+Then I read about NAD+ — the coenzyme every cell depends on for energy production. Published research shows levels decline significantly after 40. Caffeine can't address what's happening at that level. It just masks it.
 
-NMN is the precursor your body converts into NAD+. I decided to run a proper experiment. Same routine. Same diet. Same sleep schedule. One variable added.
+NMN is the precursor the body converts into NAD+. I decided to run a proper experiment. Same routine. Same diet. Same sleep schedule. One variable added.
 
 I chose Baseline because the label showed every ingredient and every amount — no proprietary blends, no hidden doses. If I'm running an experiment, I need to know exactly what the variable is. Two capsules with breakfast.
 
@@ -498,7 +498,7 @@ I chose Baseline because the label showed every ingredient and every amount — 
 5:00 PM — Still have something left.
 7:00 PM — Present. Actually present. Not performing "not tired."
 
-The journal doesn't lie. My baseline went up. Not a miracle. Not superhuman energy. Just a floor that's higher than it was two months ago. And at 3pm, that's the only thing that matters. Individual results may vary.
+The journal doesn't lie. Something shifted. Not a miracle. Not superhuman energy. Just a floor that feels higher than it was two months ago. And at 3pm, that's the only thing that matters. Individual results may vary.
 
 → Ditch the third cup.
 
@@ -508,7 +508,7 @@ The journal doesn't lie. My baseline went up. Not a miracle. Not superhuman ener
 
 # META COMPLIANCE NOTES (ALL 3 BATCHES)
 
-**Language compliance:**
+**Language compliance (updated March 2026):**
 - All body copies use first-person experience language ("I felt," "I noticed")
 - Benefits framed as subjective experience, not objective medical outcomes
 - "Supports," "may help" structure/function language throughout
@@ -517,6 +517,10 @@ The journal doesn't lie. My baseline went up. Not a miracle. Not superhuman ener
 - "Cellular maintenance" used instead of "DNA repair"
 - No disease claims — no "cures," "treats," or "prevents" language
 - Authority figures provide education, not prescriptions
+- No "perimenopause" or "menopause" — condition-specific terms removed per Meta policy
+- No second-person health assertions — "your cells"/"your body" replaced with "cells"/"the body"/"our cells"
+- No "restoring" or "fixed" language implying guaranteed health outcomes
+- Specific numerical health claims softened to directional language ("trending up" vs "12 minutes more")
 
 **Creative compliance:**
 - No before/after photos
@@ -528,15 +532,15 @@ The journal doesn't lie. My baseline went up. Not a miracle. Not superhuman ener
 
 | Ad | Headline | Description |
 |---|---|---|
-| B1C1 | "My doctor said my cells were running on half their fuel." | Support your NAD+ levels. |
-| B1C2 | "I didn't expect miracles. I just wanted to feel normal again." | Support your cells. Feel the difference. |
-| B1C3 | "Your cells lose significant fuel after 40. I decided to measure it." | Not a miracle. Just my baseline, raised. |
-| B2C1 | "I didn't need another wrinkle cream. I needed my cells to work again." | What no one told me about perimenopause and cellular energy. |
+| B1C1 | "My doctor explained why my energy kept dropping — and what was happening at the cellular level." | Support your NAD+ levels. |
+| B1C2 | "I didn't expect miracles. I just wanted to feel normal again." | Support cellular energy. Feel the difference. |
+| B1C3 | "After 40, cells have less fuel to work with. I decided to measure it." | Not a miracle. Just a higher floor. |
+| B2C1 | "I didn't need another wrinkle cream. I needed to support what was actually going on." | The cellular energy piece nobody told me about. |
 | B2C2 | "My kids stopped asking me to play. That was my wake-up call." | Show up for what matters. |
-| B2C3 | "At 2AM I found the answer my doctor couldn't give me." | Support cellular function. |
-| B3C1 | "5 cups of coffee. Still crashing at 3pm. Until I fixed the actual problem." | Not a spike. A baseline. |
-| B3C2 | "Caffeine gives you a spike. This raises your baseline." | What your cells need after 40. |
-| B3C3 | "My energy log before and after 60 days of NMN." | Not a miracle. Just my baseline, raised. |
+| B2C3 | "At 2AM I found the piece of the puzzle nobody told me about." | Support cellular function. |
+| B3C1 | "5 cups of coffee. Still crashing at 3pm. Until I tried a different approach." | Not a spike. A baseline. |
+| B3C2 | "Caffeine gives you a spike. This raises the floor." | What cells need after 40. |
+| B3C3 | "I tracked my energy every day for 60 days. Here's what I found." | Not a miracle. Just a higher floor. |
 
 ---
 
@@ -562,7 +566,7 @@ The journal doesn't lie. My baseline went up. Not a miracle. Not superhuman ener
 
 | Batch | CTA | Emotional Payoff |
 |---|---|---|
-| B1 — Reluctant Decliner | "Stop declining. Start restoring." | You CAN change the trajectory |
+| B1 — Reluctant Decliner | "Support your baseline." | You CAN change the trajectory |
 | B2 — Invisible Woman | "Function first. Everything else follows." | You're not broken. Your cells need fuel. |
 | B3 — 3pm Wall Hitter | "Ditch the third cup." | Your energy problem has a different solution |
 
