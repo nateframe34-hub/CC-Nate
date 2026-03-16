@@ -77,6 +77,25 @@ Adults 40+ experiencing energy decline, brain fog, slow recovery. Key sub-avatar
 
 All content must comply with Meta health ad restrictions. Never make direct health claims. Use "supports cellular energy" not "cures fatigue." Reference `research/Meta_Health_Ad_Restrictions_Guide.md` for full rules.
 
+## Session Continuity Protocol
+
+**At the START of every session:**
+1. Read `SESSION_STATE.md` BEFORE doing anything else
+2. This file contains what happened last session, what's in progress, and what's next
+3. Do NOT ask Nate to repeat what's already captured there
+
+**At the END of every session (before final commit/push):**
+1. Update `SESSION_STATE.md` with:
+   - `## Last Session` — What was accomplished (2-3 bullet points max)
+   - `## In Progress` — Anything unfinished or blocked
+   - `## Next Up` — What Nate said he wants to do next, or logical next steps
+   - `## Key Decisions` — Any decisions Nate made this session that future sessions need to know
+   - `## Updated` — Today's date
+2. Keep it SHORT. This is a handoff note, not a journal.
+3. If CLAUDE.md itself needs updating (new campaigns, changed strategy, etc.), update it too.
+
+> This is how we maintain continuity without Nate having to repeat himself every session.
+
 ## What NOT to Do
 
 - Don't assume this is a pet brand or pet-related page — it's an NMN supplement for humans 40+
