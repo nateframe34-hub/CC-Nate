@@ -583,7 +583,7 @@ The journal doesn't lie. Something shifted. Not a miracle. Not superhuman energy
 | `../research/Avatar_Blueprint.md` | All 8 sub-avatars with Core 5 Categories |
 | `../research/NMN_Desire_Hunting_Research.md` | 7 desire clusters with customer language |
 | `../research/Meta_Health_Ad_Restrictions_Guide.md` | Meta tier classification and compliance guide |
-| `../CTA-PRODUCT-REFERENCE.md` | Product links and CTA destinations |
+| `../brand/CTA-PRODUCT-REFERENCE.md` | Product links and CTA destinations |
 
 ---
 

@@ -66,7 +66,7 @@ Adults 40+ experiencing energy decline, brain fog, slow recovery. Key sub-avatar
 | `current-brand/organic-brand-post/Organic_Post_Plan_Brand_Page.md` | Brand page content calendar |
 | `current-brand/partner-page/Partner_Page_Identity_and_Post_Plan.md` | Sarah's page plan |
 | `current-brand/brand/pdp-copy.md` | Product page copy |
-| `current-brand/CTA-PRODUCT-REFERENCE.md` | Product URLs and CTA linking guide |
+| `current-brand/brand/CTA-PRODUCT-REFERENCE.md` | Product URLs and CTA linking guide |
 | `research/Avatar_Blueprint.md` | Customer avatar research |
 | `research/NMN_Marketing_Angles_and_Hooks.md` | Marketing angles |
 | `research/Meta_Health_Ad_Restrictions_Guide.md` | Meta compliance rules |
