@@ -1,5 +1,7 @@
 Date,Campaign,Ad_Set,Ad_Name,Status,Amount_Spent,Delivery,Budget,Impressions,CPM,CTR,CPC,Landing_Page_Views,Adds_To_Cart,Checkouts_Initiated,Purchases,Purchases_Conversion_Value,Cost_Per_Purchase,Purchase_ROAS,Results,Results_Type
 2026-03-14,Engagement Campaign,Engagement Ad Set,Engagement Ad 1,On,1.71,Active,Using campaign budget,46,37.17,,,,,,,0.00,,,2,Follows
 2026-03-14,Engagement Campaign,Engagement Ad Set,Engagement Ad 2,On,2.89,Active,Using campaign budget,136,21.25,1.47,1.45,,,,,0.00,,,5,Follows
+2026-03-15,Engagement Campaign,Engagement Ad Set,Engagement Ad 1,On,0.76,Active,Using campaign budget,41,18.54,,,,,,,0.00,,,4,Follows
+2026-03-15,Engagement Campaign,Engagement Ad Set,Engagement Ad 2,On,1.47,Active,Using campaign budget,72,20.42,1.39,1.47,,,,,0.00,,,3,Follows
 2026-03-16,Engagement Campaign,Engagement Ad Set,Engagement Ad 1,On,2.03,Active,Using campaign budget,91,22.31,3.30,0.68,,,,,0.00,,,4,Follows or likes
 2026-03-16,Engagement Campaign,Engagement Ad Set,Engagement Ad 2,On,3.17,Active,Using campaign budget,115,27.57,3.48,0.79,,,,,0.00,,,10,Follows or likes
