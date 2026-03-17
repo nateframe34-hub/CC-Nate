@@ -355,12 +355,14 @@ All 9 body copies are 350-505 words. On mobile, that's 15-25 taps of "See more."
 
 ### HIGH PRIORITY (Significant Impact)
 
-**6. Consider launching B1 + B2 first, B3 second.**
-- B1 and B3 overlap in audience. Launching all 3 simultaneously fragments your $50/day across partially overlapping audiences.
-- Launch B1 (broadest) + B2 (most differentiated) at $25/day each
-- Run for 14 days, read signals
-- Then launch B3 (or iterate on the winner) with fresh budget
-- This concentrates spend and avoids the cannibalization problem
+**5. Launch B1 + B2 first, B3 second. (DECIDED)**
+- B1 and B3 overlap in audience. Launching all 3 simultaneously fragments $50/day across partially overlapping audiences.
+- Launch B1 (broadest) + B2 (most differentiated) at $50/day CBO across 2 ad sets
+- Each ad set gets ~$25/day instead of ~$16.67 — nearly 2x the data density per creative
+- Run for 10-14 days, read CBO spend allocation + CTR signals
+- Then launch B3 (or iterate on the B1/B2 winner) with fresh budget
+- B1 and B2 have zero audience overlap (broad 40+ vs women 40-55) — clean head-to-head
+- Both B1 and B2 have all 3 creatives built and ready
 
 **7. Add Advantage+ Audience with interest suggestions (not fully broad).**
 - The batch plans say "Broad. Age + gender + geo only. No interest targeting."
@@ -369,14 +371,11 @@ All 9 body copies are 350-505 words. On mobile, that's 15-25 taps of "See more."
 - Age 40+ (or 35+ for B3), US
 - As pixel data builds, the suggestions fade and the algorithm takes over
 
-**8. Prepare a "what to watch" dashboard for the first 7 days.**
-Focus on these metrics IN THIS ORDER:
-1. **Spend distribution by ad set** — which sub-avatar is CBO/ABO favoring?
-2. **CTR by creative** — which images stop the scroll?
-3. **Outbound click rate** — who's actually clicking through to the store?
-4. **Engagement quality** — comments, saves, shares (qualitative, not just quantitative)
-5. **Cost per click** — efficiency indicator
-6. Do NOT look at CPA until day 10+. It's noise before then.
+**7. ~~Prepare a "what to watch" dashboard for the first 7 days.~~ BUILT.**
+- Dashboard built at `current-brand/tracking/purchase-campaign-dashboard.html`
+- Open in browser, paste CSV data, see key signals visually
+- Metrics tracked in priority order: spend distribution, CTR, outbound clicks, CPC, engagement
+- CPA deliberately hidden until day 10+ (noise before then)
 
 ### NICE TO HAVE (Would Help But Not Blocking)
 

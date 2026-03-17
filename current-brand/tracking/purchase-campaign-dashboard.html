@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baseline NMN — Purchase Campaign Dashboard</title>
+<style>
+  :root {
+    --cream: #FAF8F5;
+    --teal: #2A9D8F;
+    --teal-light: #E8F5F3;
+    --purple: #7B68EE;
+    --purple-light: #F0EDFF;
+    --text: #1A1A2E;
+    --text-muted: #6B7280;
+    --border: #E5E7EB;
+    --red: #EF4444;
+    --red-light: #FEF2F2;
+    --green: #10B981;
+    --green-light: #ECFDF5;
+    --amber: #F59E0B;
+    --amber-light: #FFFBEB;
+    --b1-color: #2A9D8F;
+    --b2-color: #7B68EE;
+    --b3-color: #F59E0B;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    line-height: 1.5;
+  }
+
+  .header {
+    background: white;
+    border-bottom: 1px solid var(--border);
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header h1 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .header-meta {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-family: 'JetBrains Mono', monospace, monospace;
+  }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 24px; }
+
+  /* Data input section */
+  .input-section {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+
+  .input-section h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .input-section p {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+  }
+
+  .input-section textarea {
+    width: 100%;
+    height: 120px;
+    font-family: 'JetBrains Mono', monospace, monospace;
+    font-size: 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px;
+    resize: vertical;
+    background: var(--cream);
+  }
+
+  .input-section textarea:focus {
+    outline: none;
+    border-color: var(--teal);
+  }
+
+  .btn-row { display: flex; gap: 12px; margin-top: 12px; }
+
+  .btn {
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.15s;
+  }
+
+  .btn-primary { background: var(--teal); color: white; }
+  .btn-primary:hover { background: #238B7E; }
+  .btn-secondary { background: white; color: var(--text); border: 1px solid var(--border); }
+  .btn-secondary:hover { background: var(--cream); }
+
+  /* Signal banner */
+  .signal-banner {
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .signal-banner.waiting { background: var(--amber-light); border: 1px solid #FDE68A; }
+  .signal-banner.emerging { background: var(--purple-light); border: 1px solid #C4B5FD; }
+  .signal-banner.clear { background: var(--green-light); border: 1px solid #A7F3D0; }
+  .signal-banner.concern { background: var(--red-light); border: 1px solid #FECACA; }
+
+  .signal-icon { font-size: 28px; flex-shrink: 0; }
+  .signal-text h3 { font-size: 15px; font-weight: 700; }
+  .signal-text p { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+
+  /* Grid layout */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+
+  @media (max-width: 800px) {
+    .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  }
+
+  /* Cards */
+  .card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .card h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .card .metric {
+    font-family: 'JetBrains Mono', monospace, monospace;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .card .metric-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  .card .metric-sub {
+    font-family: 'JetBrains Mono', monospace, monospace;
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  /* Spend distribution bars */
+  .spend-bar-group { margin-bottom: 16px; }
+
+  .spend-bar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+
+  .spend-bar-label .name { font-weight: 600; }
+
+  .spend-bar-label .value {
+    font-family: 'JetBrains Mono', monospace, monospace;
+    color: var(--text-muted);
+  }
+
+  .spend-bar-track {
+    height: 28px;
+    background: var(--cream);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .spend-bar-fill {
+    height: 100%;
+    border-radius: 6px;
+    transition: width 0.5s ease;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  .spend-bar-pct {
+    font-family: 'JetBrains Mono', monospace, monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .b1-bar { background: var(--b1-color); }
+  .b2-bar { background: var(--b2-color); }
+  .b3-bar { background: var(--b3-color); }
+
+  /* CTR table */
+  .ctr-table { width: 100%; border-collapse: collapse; }
+
+  .ctr-table th {
+    text-align: left;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .ctr-table td {
+    padding: 10px 0;
+    font-size: 13px;
+    border-bottom: 1px solid #F3F4F6;
+  }
+
+  .ctr-table td.mono {
+    font-family: 'JetBrains Mono', monospace, monospace;
+    font-size: 13px;
+  }
+
+  .ctr-table tr:last-child td { border-bottom: none; }
+
+  .ctr-bar-track {
+    height: 8px;
+    background: var(--cream);
+    border-radius: 4px;
+    overflow: hidden;
+    min-width: 80px;
+  }
+
+  .ctr-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.5s ease;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'JetBrains Mono', monospace, monospace;
+  }
+
+  .badge-good { background: var(--green-light); color: #065F46; }
+  .badge-ok { background: var(--amber-light); color: #92400E; }
+  .badge-bad { background: var(--red-light); color: #991B1B; }
+
+  /* Day tracker */
+  .day-dots {
+    display: flex;
+    gap: 6px;
+    margin-top: 8px;
+  }
+
+  .day-dot {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'JetBrains Mono', monospace, monospace;
+  }
+
+  .day-dot.filled { background: var(--teal); color: white; }
+  .day-dot.empty { background: var(--cream); color: var(--text-muted); border: 1px dashed var(--border); }
+  .day-dot.today { background: var(--purple); color: white; }
+
+  /* Decision rules */
+  .rules-list { list-style: none; }
+
+  .rules-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #F3F4F6;
+    font-size: 13px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .rules-list li:last-child { border-bottom: none; }
+
+  .rule-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .rule-text code {
+    font-family: 'JetBrains Mono', monospace, monospace;
+    font-size: 12px;
+    background: var(--cream);
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+
+  /* Placeholder states */
+  .empty-state {
+    text-align: center;
+    padding: 48px 24px;
+    color: var(--text-muted);
+  }
+
+  .empty-state .icon { font-size: 48px; margin-bottom: 12px; }
+  .empty-state h3 { font-size: 16px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+  .empty-state p { font-size: 13px; }
+
+  /* Footer note */
+  .footer-note {
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-muted);
+    padding: 24px;
+    margin-top: 24px;
+    border-top: 1px solid var(--border);
+  }
+
+  .footer-note code {
+    font-family: 'JetBrains Mono', monospace, monospace;
+    background: var(--cream);
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+
+  .hidden { display: none; }
+
+  /* Ad set tag colors */
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .tag-b1 { background: #E8F5F3; color: #1A7A6E; }
+  .tag-b2 { background: #F0EDFF; color: #5B4BCC; }
+  .tag-b3 { background: #FFFBEB; color: #B45309; }
+
+  /* Daily trend sparkline area */
+  .trend-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid #F3F4F6;
+  }
+  .trend-row:last-child { border-bottom: none; }
+
+  .trend-label { font-size: 13px; font-weight: 600; width: 40px; }
+  .trend-bars { flex: 1; display: flex; gap: 3px; align-items: flex-end; height: 36px; }
+  .trend-bar {
+    flex: 1;
+    min-width: 8px;
+    border-radius: 3px 3px 0 0;
+    transition: height 0.3s ease;
+  }
+
+  .trend-value {
+    font-family: 'JetBrains Mono', monospace, monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    width: 60px;
+    text-align: right;
+  }
+
+  .card-full { grid-column: 1 / -1; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Baseline NMN — Purchase Campaign</h1>
+  <div class="header-meta" id="header-meta">No data loaded</div>
+</div>
+
+<div class="container">
+
+  <!-- Data input -->
+  <div class="input-section" id="input-section">
+    <h2>Paste your CSV data</h2>
+    <p>
+      Copy rows from <code>Ad_Performance_Tracker.csv</code> and paste below.
+      Only include purchase campaign rows (not engagement campaign).
+      Header row is optional — the dashboard will detect it.
+    </p>
+    <textarea id="csv-input" placeholder="Date,Campaign,Ad_Set,Ad_Name,Status,Amount_Spent,Delivery,Budget,Impressions,CPM,CTR,CPC,Landing_Page_Views,Adds_To_Cart,Checkouts_Initiated,Purchases,Purchases_Conversion_Value,Cost_Per_Purchase,Purchase_ROAS,Results,Results_Type
+
+2026-03-20,Purchase Campaign,B1 - Reluctant Decliner,B1C1 - Doctor Visit,On,8.50,Active,...
+2026-03-20,Purchase Campaign,B2 - Invisible Woman,B2C1 - Not About Wrinkles,On,12.30,Active,..."></textarea>
+    <div class="btn-row">
+      <button class="btn btn-primary" onclick="parseAndRender()">Load Data</button>
+      <button class="btn btn-secondary" onclick="loadSampleData()">Load Sample Data (Preview)</button>
+    </div>
+  </div>
+
+  <!-- Dashboard content (hidden until data loaded) -->
+  <div id="dashboard" class="hidden">
+
+    <!-- Signal banner -->
+    <div id="signal-banner" class="signal-banner waiting">
+      <div class="signal-icon" id="signal-icon"></div>
+      <div class="signal-text">
+        <h3 id="signal-title"></h3>
+        <p id="signal-desc"></p>
+      </div>
+    </div>
+
+    <!-- Top metrics -->
+    <div class="grid-3">
+      <div class="card">
+        <h3>Total Spend</h3>
+        <div class="metric" id="total-spend">—</div>
+        <div class="metric-sub" id="spend-usd-equiv"></div>
+      </div>
+      <div class="card">
+        <h3>Total Impressions</h3>
+        <div class="metric" id="total-impressions">—</div>
+        <div class="metric-sub" id="avg-cpm"></div>
+      </div>
+      <div class="card">
+        <h3>Days of Data</h3>
+        <div class="metric" id="days-count">—</div>
+        <div class="day-dots" id="day-dots"></div>
+      </div>
+    </div>
+
+    <!-- Spend distribution — THE key signal -->
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-header">
+          <h3>CBO Spend Distribution — The Signal</h3>
+        </div>
+        <p style="font-size:12px; color:var(--text-muted); margin-bottom:16px;">
+          This is the #1 thing to watch. Where CBO puts the money = which sub-avatar Meta favors.
+        </p>
+        <div id="spend-bars"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3>Daily Spend Trend by Ad Set</h3>
+        </div>
+        <p style="font-size:12px; color:var(--text-muted); margin-bottom:16px;">
+          Watch for CBO shifting spend over time. Day 1-2 = noise. Day 5+ = signal.
+        </p>
+        <div id="spend-trends"></div>
+      </div>
+    </div>
+
+    <!-- CTR by creative -->
+    <div class="card" style="margin-bottom:24px;">
+      <div class="card-header">
+        <h3>CTR by Creative — Scroll-Stop Power</h3>
+      </div>
+      <p style="font-size:12px; color:var(--text-muted); margin-bottom:16px;">
+        Above 2% = strong. 1-2% = average. Below 1% after 500+ impressions = rework the creative.
+      </p>
+      <table class="ctr-table">
+        <thead>
+          <tr>
+            <th>Creative</th>
+            <th>Batch</th>
+            <th>Impressions</th>
+            <th>CTR</th>
+            <th style="min-width:120px;"></th>
+            <th>Signal</th>
+          </tr>
+        </thead>
+        <tbody id="ctr-tbody"></tbody>
+      </table>
+    </div>
+
+    <!-- CPC + Landing Page Views -->
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-header">
+          <h3>Cost Per Click by Creative</h3>
+        </div>
+        <table class="ctr-table">
+          <thead>
+            <tr>
+              <th>Creative</th>
+              <th>CPC</th>
+              <th>Clicks (est.)</th>
+            </tr>
+          </thead>
+          <tbody id="cpc-tbody"></tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3>Funnel Signals</h3>
+        </div>
+        <p style="font-size:12px; color:var(--text-muted); margin-bottom:16px;">
+          Landing page views, add-to-carts, checkouts. Any non-zero = strong early signal.
+        </p>
+        <table class="ctr-table">
+          <thead>
+            <tr>
+              <th>Creative</th>
+              <th>LPVs</th>
+              <th>ATCs</th>
+              <th>Purchases</th>
+            </tr>
+          </thead>
+          <tbody id="funnel-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Decision rules -->
+    <div class="card" style="margin-top:24px;">
+      <div class="card-header">
+        <h3>Decision Rules — What the Numbers Mean</h3>
+      </div>
+      <ul class="rules-list">
+        <li>
+          <div class="rule-icon">1</div>
+          <div class="rule-text">
+            <strong>CBO spend allocation is your primary signal.</strong>
+            If one ad set has <code>60%+</code> of total spend by day 5-7, that's Meta telling you which sub-avatar converts most efficiently. Trust it.
+          </div>
+        </li>
+        <li>
+          <div class="rule-icon">2</div>
+          <div class="rule-text">
+            <strong>CTR below <code>1%</code> after <code>500+</code> impressions = rework.</strong>
+            The creative isn't stopping the scroll. Try a different image or hook before killing the angle entirely.
+          </div>
+        </li>
+        <li>
+          <div class="rule-icon">3</div>
+          <div class="rule-text">
+            <strong>ALL creatives below <code>1%</code> CTR = creative problem, not targeting.</strong>
+            Re-examine the images and opening lines. The algorithm can't sell what people don't stop to look at.
+          </div>
+        </li>
+        <li>
+          <div class="rule-icon">4</div>
+          <div class="rule-text">
+            <strong>Zero add-to-carts after 7 days across all ads = offer or landing page issue.</strong>
+            People are clicking but not converting. Check the product page, price, or trust signals.
+          </div>
+        </li>
+        <li>
+          <div class="rule-icon">5</div>
+          <div class="rule-text">
+            <strong>Ignore CPA until day 10+ with at least 5 purchases.</strong>
+            Before that, CPA is noise. Focus on engagement signals and spend allocation.
+          </div>
+        </li>
+        <li>
+          <div class="rule-icon">6</div>
+          <div class="rule-text">
+            <strong>Read the comments.</strong>
+            "This is me" and friend tags = strong resonance. Questions about the product = purchase intent. Angry reactions = misaligned targeting or creative.
+          </div>
+        </li>
+        <li>
+          <div class="rule-icon">7</div>
+          <div class="rule-text">
+            <strong>Currency reminder:</strong> Meta reports spend in <code>CAD</code>. Revenue is <code>USD</code>.
+            A <code>$40 CAD</code> CPA = ~<code>$29 USD</code> CPA. Your true ROAS is ~35% better than Meta shows.
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<div class="footer-note">
+  Baseline NMN Purchase Campaign Dashboard &middot; Data from <code>Ad_Performance_Tracker.csv</code> &middot; Spend in CAD &middot; Revenue in USD
+</div>
+
+<script>
+// CSV parsing and dashboard rendering
+function parseCSV(text) {
+  const lines = text.trim().split('\n').map(l => l.trim()).filter(l => l.length > 0);
+  if (lines.length === 0) return [];
+
+  // Detect header row
+  let startIdx = 0;
+  if (lines[0].toLowerCase().includes('date') && lines[0].toLowerCase().includes('campaign')) {
+    startIdx = 1;
+  }
+
+  const rows = [];
+  for (let i = startIdx; i < lines.length; i++) {
+    const cols = lines[i].split(',');
+    if (cols.length < 16) continue;
+
+    // Skip engagement campaign rows
+    if (cols[1] && cols[1].toLowerCase().includes('engagement')) continue;
+
+    rows.push({
+      date: cols[0]?.trim() || '',
+      campaign: cols[1]?.trim() || '',
+      adSet: cols[2]?.trim() || '',
+      adName: cols[3]?.trim() || '',
+      status: cols[4]?.trim() || '',
+      spent: parseFloat(cols[5]) || 0,
+      impressions: parseFloat(cols[8]) || 0,
+      cpm: parseFloat(cols[9]) || 0,
+      ctr: parseFloat(cols[10]) || 0,
+      cpc: parseFloat(cols[11]) || 0,
+      lpv: parseFloat(cols[12]) || 0,
+      atc: parseFloat(cols[13]) || 0,
+      checkouts: parseFloat(cols[14]) || 0,
+      purchases: parseFloat(cols[15]) || 0,
+      revenue: parseFloat(cols[16]) || 0,
+      costPerPurchase: parseFloat(cols[17]) || 0,
+      roas: parseFloat(cols[18]) || 0,
+    });
+  }
+  return rows;
+}
+
+function detectBatch(adSet, adName) {
+  const combined = (adSet + ' ' + adName).toLowerCase();
+  if (combined.includes('b1') || combined.includes('reluctant') || combined.includes('batch 1')) return 'B1';
+  if (combined.includes('b2') || combined.includes('invisible') || combined.includes('batch 2')) return 'B2';
+  if (combined.includes('b3') || combined.includes('wall') || combined.includes('3pm') || combined.includes('batch 3')) return 'B3';
+  return 'Unknown';
+}
+
+function getBatchColor(batch) {
+  if (batch === 'B1') return 'var(--b1-color)';
+  if (batch === 'B2') return 'var(--b2-color)';
+  if (batch === 'B3') return 'var(--b3-color)';
+  return 'var(--text-muted)';
+}
+
+function getBatchClass(batch) {
+  if (batch === 'B1') return 'tag-b1';
+  if (batch === 'B2') return 'tag-b2';
+  if (batch === 'B3') return 'tag-b3';
+  return '';
+}
+
+function renderDashboard(rows) {
+  if (rows.length === 0) {
+    alert('No valid purchase campaign rows found. Make sure you\'re pasting purchase campaign data (not engagement).');
+    return;
+  }
+
+  document.getElementById('dashboard').classList.remove('hidden');
+
+  // Aggregate totals
+  const totalSpend = rows.reduce((s, r) => s + r.spent, 0);
+  const totalImpressions = rows.reduce((s, r) => s + r.impressions, 0);
+  const uniqueDates = [...new Set(rows.map(r => r.date))].sort();
+  const totalPurchases = rows.reduce((s, r) => s + r.purchases, 0);
+  const totalATCs = rows.reduce((s, r) => s + r.atc, 0);
+
+  // Top metrics
+  document.getElementById('total-spend').textContent = '$' + totalSpend.toFixed(2);
+  document.getElementById('spend-usd-equiv').textContent = '~$' + (totalSpend * 0.73).toFixed(2) + ' USD equiv.';
+  document.getElementById('total-impressions').textContent = totalImpressions.toLocaleString();
+  document.getElementById('avg-cpm').textContent = totalImpressions > 0 ? ('$' + ((totalSpend / totalImpressions) * 1000).toFixed(2) + ' avg CPM') : '';
+  document.getElementById('days-count').textContent = uniqueDates.length;
+  document.getElementById('header-meta').textContent = uniqueDates.length > 0 ? (uniqueDates[0] + ' → ' + uniqueDates[uniqueDates.length - 1] + ' · ' + rows.length + ' rows') : 'No data';
+
+  // Day dots (up to 14)
+  const dotsHTML = [];
+  for (let i = 1; i <= 14; i++) {
+    if (i <= uniqueDates.length) {
+      const cls = i === uniqueDates.length ? 'today' : 'filled';
+      dotsHTML.push(`<div class="day-dot ${cls}">${i}</div>`);
+    } else {
+      dotsHTML.push(`<div class="day-dot empty">${i}</div>`);
+    }
+  }
+  document.getElementById('day-dots').innerHTML = dotsHTML.join('');
+
+  // Aggregate by ad set (batch)
+  const byAdSet = {};
+  rows.forEach(r => {
+    const batch = detectBatch(r.adSet, r.adName);
+    if (!byAdSet[batch]) byAdSet[batch] = { spent: 0, impressions: 0, name: r.adSet || batch };
+    byAdSet[batch].spent += r.spent;
+    byAdSet[batch].impressions += r.impressions;
+  });
+
+  // Spend distribution bars
+  const spendBarsHTML = Object.entries(byAdSet)
+    .sort((a, b) => b[1].spent - a[1].spent)
+    .map(([batch, data]) => {
+      const pct = totalSpend > 0 ? (data.spent / totalSpend * 100) : 0;
+      const barClass = batch === 'B1' ? 'b1-bar' : batch === 'B2' ? 'b2-bar' : 'b3-bar';
+      return `
+        <div class="spend-bar-group">
+          <div class="spend-bar-label">
+            <span class="name">${data.name || batch}</span>
+            <span class="value">$${data.spent.toFixed(2)} · ${data.impressions.toLocaleString()} impr.</span>
+          </div>
+          <div class="spend-bar-track">
+            <div class="spend-bar-fill ${barClass}" style="width:${Math.max(pct, 3)}%">
+              ${pct > 12 ? `<span class="spend-bar-pct">${pct.toFixed(1)}%</span>` : ''}
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+  document.getElementById('spend-bars').innerHTML = spendBarsHTML;
+
+  // Daily spend trends by batch
+  const dailyByBatch = {};
+  rows.forEach(r => {
+    const batch = detectBatch(r.adSet, r.adName);
+    if (!dailyByBatch[batch]) dailyByBatch[batch] = {};
+    if (!dailyByBatch[batch][r.date]) dailyByBatch[batch][r.date] = 0;
+    dailyByBatch[batch][r.date] += r.spent;
+  });
+
+  const maxDailySpend = Math.max(...Object.values(dailyByBatch).flatMap(d => Object.values(d)), 1);
+  const trendHTML = Object.entries(dailyByBatch)
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([batch, days]) => {
+      const totalBatch = Object.values(days).reduce((s, v) => s + v, 0);
+      const bars = uniqueDates.map(date => {
+        const val = days[date] || 0;
+        const h = Math.max((val / maxDailySpend) * 36, 2);
+        return `<div class="trend-bar" style="height:${h}px; background:${getBatchColor(batch)};opacity:0.8;" title="${date}: $${val.toFixed(2)}"></div>`;
+      }).join('');
+      return `
+        <div class="trend-row">
+          <div class="trend-label" style="color:${getBatchColor(batch)}">${batch}</div>
+          <div class="trend-bars">${bars}</div>
+          <div class="trend-value">$${totalBatch.toFixed(2)}</div>
+        </div>
+      `;
+    }).join('');
+  document.getElementById('spend-trends').innerHTML = trendHTML;
+
+  // Aggregate by creative
+  const byCreative = {};
+  rows.forEach(r => {
+    const key = r.adName || 'Unknown';
+    const batch = detectBatch(r.adSet, r.adName);
+    if (!byCreative[key]) byCreative[key] = { batch, spent: 0, impressions: 0, clicks: 0, lpv: 0, atc: 0, purchases: 0, revenue: 0, ctrSum: 0, cpcSum: 0, rowCount: 0 };
+    byCreative[key].spent += r.spent;
+    byCreative[key].impressions += r.impressions;
+    byCreative[key].lpv += r.lpv;
+    byCreative[key].atc += r.atc;
+    byCreative[key].purchases += r.purchases;
+    byCreative[key].revenue += r.revenue;
+    if (r.ctr > 0) { byCreative[key].ctrSum += r.ctr; byCreative[key].rowCount++; }
+    if (r.cpc > 0) { byCreative[key].cpcSum += r.cpc; byCreative[key].rowCount++; }
+    // Estimate clicks from spend and CPC
+    if (r.cpc > 0) byCreative[key].clicks += r.spent / r.cpc;
+  });
+
+  // CTR table
+  const maxCTR = Math.max(...Object.values(byCreative).map(c => c.rowCount > 0 ? c.ctrSum / c.rowCount : 0), 0.1);
+  const ctrRows = Object.entries(byCreative)
+    .sort((a, b) => {
+      const ctrA = a[1].rowCount > 0 ? a[1].ctrSum / a[1].rowCount : 0;
+      const ctrB = b[1].rowCount > 0 ? b[1].ctrSum / b[1].rowCount : 0;
+      return ctrB - ctrA;
+    })
+    .map(([name, data]) => {
+      const avgCTR = data.rowCount > 0 ? data.ctrSum / data.rowCount : 0;
+      const barW = maxCTR > 0 ? (avgCTR / maxCTR * 100) : 0;
+      let signalBadge = '';
+      if (data.impressions < 500) {
+        signalBadge = '<span class="badge badge-ok">LOW DATA</span>';
+      } else if (avgCTR >= 2) {
+        signalBadge = '<span class="badge badge-good">STRONG</span>';
+      } else if (avgCTR >= 1) {
+        signalBadge = '<span class="badge badge-ok">OK</span>';
+      } else {
+        signalBadge = '<span class="badge badge-bad">REWORK</span>';
+      }
+      return `
+        <tr>
+          <td><strong>${name}</strong></td>
+          <td><span class="tag ${getBatchClass(data.batch)}">${data.batch}</span></td>
+          <td class="mono">${data.impressions.toLocaleString()}</td>
+          <td class="mono">${avgCTR.toFixed(2)}%</td>
+          <td>
+            <div class="ctr-bar-track">
+              <div class="ctr-bar-fill" style="width:${barW}%;background:${getBatchColor(data.batch)}"></div>
+            </div>
+          </td>
+          <td>${signalBadge}</td>
+        </tr>
+      `;
+    }).join('');
+  document.getElementById('ctr-tbody').innerHTML = ctrRows;
+
+  // CPC table
+  const cpcRows = Object.entries(byCreative)
+    .sort((a, b) => {
+      const cpcA = a[1].rowCount > 0 ? a[1].cpcSum / a[1].rowCount : 999;
+      const cpcB = b[1].rowCount > 0 ? b[1].cpcSum / b[1].rowCount : 999;
+      return cpcA - cpcB;
+    })
+    .map(([name, data]) => {
+      const avgCPC = data.rowCount > 0 ? data.cpcSum / data.rowCount : 0;
+      const estClicks = Math.round(data.clicks);
+      return `
+        <tr>
+          <td><strong>${name}</strong></td>
+          <td class="mono">${avgCPC > 0 ? ('$' + avgCPC.toFixed(2)) : '—'}</td>
+          <td class="mono">${estClicks > 0 ? ('~' + estClicks) : '—'}</td>
+        </tr>
+      `;
+    }).join('');
+  document.getElementById('cpc-tbody').innerHTML = cpcRows;
+
+  // Funnel table
+  const funnelRows = Object.entries(byCreative)
+    .sort((a, b) => (b[1].purchases + b[1].atc) - (a[1].purchases + a[1].atc))
+    .map(([name, data]) => {
+      const lpvStr = data.lpv > 0 ? data.lpv.toString() : '—';
+      const atcStr = data.atc > 0 ? `<strong style="color:var(--green)">${data.atc}</strong>` : '—';
+      const purStr = data.purchases > 0 ? `<strong style="color:var(--green)">${data.purchases}</strong>` : '—';
+      return `
+        <tr>
+          <td><strong>${name}</strong></td>
+          <td class="mono">${lpvStr}</td>
+          <td class="mono">${atcStr}</td>
+          <td class="mono">${purStr}</td>
+        </tr>
+      `;
+    }).join('');
+  document.getElementById('funnel-tbody').innerHTML = funnelRows;
+
+  // Signal banner
+  renderSignalBanner(uniqueDates.length, totalSpend, totalImpressions, totalATCs, totalPurchases, byAdSet, byCreative);
+}
+
+function renderSignalBanner(days, spend, impressions, atcs, purchases, byAdSet, byCreative) {
+  const banner = document.getElementById('signal-banner');
+  const icon = document.getElementById('signal-icon');
+  const title = document.getElementById('signal-title');
+  const desc = document.getElementById('signal-desc');
+
+  // Check for concerns first
+  const allCTRs = Object.values(byCreative).filter(c => c.impressions >= 500).map(c => c.rowCount > 0 ? c.ctrSum / c.rowCount : 0);
+  const allLowCTR = allCTRs.length > 0 && allCTRs.every(ctr => ctr < 1);
+
+  if (days >= 7 && atcs === 0 && purchases === 0) {
+    banner.className = 'signal-banner concern';
+    icon.textContent = '!';
+    title.textContent = 'Zero funnel activity after 7+ days';
+    desc.textContent = 'No add-to-carts or purchases across all ads. Check: landing page, price, product page trust signals, or CAPI setup. The problem may not be creative.';
+    return;
+  }
+
+  if (allLowCTR) {
+    banner.className = 'signal-banner concern';
+    icon.textContent = '!';
+    title.textContent = 'All creatives below 1% CTR';
+    desc.textContent = 'Every creative with 500+ impressions has a CTR under 1%. This is a creative problem, not targeting. Rework images and opening lines.';
+    return;
+  }
+
+  // Check for CBO signal
+  const batches = Object.entries(byAdSet);
+  const totalSpend = batches.reduce((s, [, d]) => s + d.spent, 0);
+  if (batches.length >= 2 && totalSpend > 0) {
+    const sorted = batches.sort((a, b) => b[1].spent - a[1].spent);
+    const topPct = sorted[0][1].spent / totalSpend * 100;
+
+    if (days >= 5 && topPct >= 60) {
+      banner.className = 'signal-banner clear';
+      icon.textContent = 'S';
+      title.textContent = `CBO signal emerging: ${sorted[0][0]} at ${topPct.toFixed(0)}% of spend`;
+      desc.textContent = `Meta is favoring ${sorted[0][0]} (${sorted[0][1].name}). This is your leading sub-avatar. Watch for 2-3 more days to confirm, then consider iterating on this winner.`;
+      return;
+    }
+
+    if (days >= 3 && topPct >= 50) {
+      banner.className = 'signal-banner emerging';
+      icon.textContent = '~';
+      title.textContent = `Early CBO lean toward ${sorted[0][0]} (${topPct.toFixed(0)}% of spend)`;
+      desc.textContent = 'Too early to call. Days 1-3 allocation can be noisy. Keep watching — the real signal emerges day 5-7+.';
+      return;
+    }
+  }
+
+  if (purchases > 0) {
+    banner.className = 'signal-banner clear';
+    icon.textContent = '$';
+    title.textContent = `${purchases} purchase${purchases > 1 ? 's' : ''} recorded`;
+    desc.textContent = 'Early conversion signal. Note which creative and ad set generated it — that\'s your strongest lead.';
+    return;
+  }
+
+  if (atcs > 0) {
+    banner.className = 'signal-banner emerging';
+    icon.textContent = '+';
+    title.textContent = `${atcs} add-to-cart${atcs > 1 ? 's' : ''} — intent signal`;
+    desc.textContent = 'People are clicking through and adding to cart. Conversions may follow. Check which creative drove the ATCs.';
+    return;
+  }
+
+  // Default: waiting
+  banner.className = 'signal-banner waiting';
+  icon.textContent = '...';
+  title.textContent = days < 3 ? 'Collecting data — too early for signals' : 'Still gathering data';
+  desc.textContent = days < 3
+    ? 'Days 1-2 are noise. Focus on making sure ads are delivering and tracking is working. Don\'t make any changes yet.'
+    : `${days} days of data. Watch CBO spend allocation for emerging patterns. Most signals become readable at day 5-7.`;
+}
+
+function parseAndRender() {
+  const text = document.getElementById('csv-input').value;
+  if (!text.trim()) { alert('Paste your CSV data first.'); return; }
+  const rows = parseCSV(text);
+  renderDashboard(rows);
+}
+
+function loadSampleData() {
+  const sample = `Date,Campaign,Ad_Set,Ad_Name,Status,Amount_Spent,Delivery,Budget,Impressions,CPM,CTR,CPC,Landing_Page_Views,Adds_To_Cart,Checkouts_Initiated,Purchases,Purchases_Conversion_Value,Cost_Per_Purchase,Purchase_ROAS,Results,Results_Type
+2026-03-20,Purchase Campaign,B1 - Reluctant Decliner,B1C1 - Doctor Visit,On,5.82,Active,CBO,287,20.28,2.44,0.83,4,0,0,0,0.00,,,0,
+2026-03-20,Purchase Campaign,B1 - Reluctant Decliner,B1C2 - 187 Days,On,4.11,Active,CBO,198,20.76,1.52,1.37,2,0,0,0,0.00,,,0,
+2026-03-20,Purchase Campaign,B1 - Reluctant Decliner,B1C3 - Trajectory,On,3.47,Active,CBO,171,20.29,1.17,1.73,1,0,0,0,0.00,,,0,
+2026-03-20,Purchase Campaign,B2 - Invisible Woman,B2C1 - Not About Wrinkles,On,8.93,Active,CBO,412,21.68,3.16,0.69,8,1,0,0,0.00,,,0,
+2026-03-20,Purchase Campaign,B2 - Invisible Woman,B2C2 - Exhausted Mom,On,6.72,Active,CBO,315,21.33,2.86,0.75,5,0,0,0,0.00,,,0,
+2026-03-20,Purchase Campaign,B2 - Invisible Woman,B2C3 - 2AM Research,On,5.15,Active,CBO,244,21.11,1.64,1.29,2,0,0,0,0.00,,,0,
+2026-03-21,Purchase Campaign,B1 - Reluctant Decliner,B1C1 - Doctor Visit,On,4.95,Active,CBO,251,19.72,2.39,0.82,3,0,0,0,0.00,,,0,
+2026-03-21,Purchase Campaign,B1 - Reluctant Decliner,B1C2 - 187 Days,On,3.22,Active,CBO,162,19.88,1.23,1.62,1,0,0,0,0.00,,,0,
+2026-03-21,Purchase Campaign,B1 - Reluctant Decliner,B1C3 - Trajectory,On,2.88,Active,CBO,148,19.46,0.68,2.88,0,0,0,0,0.00,,,0,
+2026-03-21,Purchase Campaign,B2 - Invisible Woman,B2C1 - Not About Wrinkles,On,10.24,Active,CBO,478,21.42,3.35,0.64,9,1,0,0,0.00,,,0,
+2026-03-21,Purchase Campaign,B2 - Invisible Woman,B2C2 - Exhausted Mom,On,7.88,Active,CBO,368,21.41,2.99,0.72,6,0,0,0,0.00,,,0,
+2026-03-21,Purchase Campaign,B2 - Invisible Woman,B2C3 - 2AM Research,On,4.46,Active,CBO,209,21.34,1.44,1.48,2,0,0,0,0.00,,,0,
+2026-03-22,Purchase Campaign,B1 - Reluctant Decliner,B1C1 - Doctor Visit,On,4.10,Active,CBO,215,19.07,2.33,0.82,3,0,0,0,0.00,,,0,
+2026-03-22,Purchase Campaign,B1 - Reluctant Decliner,B1C2 - 187 Days,On,2.65,Active,CBO,138,19.20,1.45,1.33,1,0,0,0,0.00,,,0,
+2026-03-22,Purchase Campaign,B1 - Reluctant Decliner,B1C3 - Trajectory,On,2.15,Active,CBO,114,18.86,0.88,2.15,0,0,0,0,0.00,,,0,
+2026-03-22,Purchase Campaign,B2 - Invisible Woman,B2C1 - Not About Wrinkles,On,11.50,Active,CBO,522,22.03,3.45,0.64,10,0,0,0,0.00,,,0,
+2026-03-22,Purchase Campaign,B2 - Invisible Woman,B2C2 - Exhausted Mom,On,8.95,Active,CBO,408,21.94,3.19,0.69,7,1,0,0,0.00,,,0,
+2026-03-22,Purchase Campaign,B2 - Invisible Woman,B2C3 - 2AM Research,On,3.80,Active,CBO,176,21.59,1.14,1.90,1,0,0,0,0.00,,,0,`;
+  document.getElementById('csv-input').value = sample;
+  parseAndRender();
+}
+</script>
+
+</body>
+</html>
