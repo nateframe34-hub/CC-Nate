@@ -207,9 +207,7 @@ I looked it up. She was right. Published research. NAD+ is a coenzyme in every c
 
 NMN is the precursor the body uses to produce NAD+. Not a hormone. Not a stimulant. Just the raw material cells need to do what they used to do without you noticing.
 
-Liz sent me a link to Baseline. "This is the one I take," she said. "They publish their lab results and they don't hide behind proprietary hype." After getting sold collagen powders and jade rollers, being able to see the research instead of just trusting was exactly what I needed.
-
-> **[EDIT NOTE: Replaced QR-to-COA scanning reference — we are running the 10-in-1 which does not have QR-to-COA. Original line preserved in future-brand/Baseline_Batches_1-5.md for when pure NMN launches.]**
+Liz sent me a link to Baseline. "This is the one I take," she said. "500mg NMN plus nine supporting ingredients — everything listed on the label, nothing hidden behind a proprietary blend." After getting sold collagen powders and jade rollers, transparency was exactly what I needed.
 
 **Week 2:** My husband said I "seemed different" one morning. I didn't feel different. I thought he was being nice.
 

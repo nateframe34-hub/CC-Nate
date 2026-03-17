@@ -263,19 +263,25 @@ You're looking for RELATIVE performance differences between batches, not absolut
 
 ## PART 4: STRUCTURAL & STRATEGIC CONCERNS
 
-### 1. CBO vs ABO — This Is the Biggest Structural Risk
+### 1. CBO vs ABO — Context-Dependent Choice
 
-**The batch plans say CBO. The research says ABO.**
+**The research says ABO for exiting learning phase. But that's not the goal here.**
 
-Every source in both the CPA Optimization Research and the Media Buying Deep Dive converges on the same point: **at $50/day, use ABO, not CBO.**
+The goal of these batches is to find the winning sub-avatar and angle — not to exit learning phase. That changes the calculus:
 
-Why:
-- CBO at $50/day gives Meta $16/ad set/day to work with. That's not enough for meaningful distribution decisions.
-- CBO may prematurely kill an ad set that needs more time. Day 2 data is noise, but CBO treats it as signal.
-- ABO at $50/day with 3 ad sets = $16.67/ad set/day with EQUAL spend. Each sub-avatar gets the same chance.
-- You're testing sub-avatars, not scaling winners. ABO is the testing tool. CBO is the scaling tool.
+**CBO is the right choice for this test because:**
+- CBO lets Meta's algorithm vote with spend. If Meta consistently pushes 60% of budget toward one ad set, that IS the signal — the algorithm is telling you which sub-avatar it can find efficient conversions for.
+- ABO forces equal spend, which hides Meta's preference signal. You'd get equal data on all 3 sub-avatars, but you wouldn't know which one Meta WANTS to run.
+- At this stage, Meta's preference signal is more valuable than controlled equal-distribution data. You're reading the algorithm's judgment, not trying to override it.
 
-**The batch plans also mention Advantage+ Shopping Campaign** — the research explicitly says ASC requires conversion data to perform well. A new account with zero purchase data gives ASC nothing to optimize against. Manual campaign + ABO is the correct structure for this phase.
+**Where ABO would be better:**
+- If the goal were to exit learning phase (need ~50 conversions/week per ad set)
+- If you wanted to guarantee each sub-avatar gets a fair shot regardless of early algorithmic noise
+- If you were testing creative variations within a single sub-avatar (same audience, different angles)
+
+**Caveat:** Watch for premature CBO allocation. Days 1-2 spend skews are noise, not signal. If by day 3 one ad set has <10% of spend, that may be CBO making a premature call. The real signal emerges day 5-7+. Don't make decisions until then.
+
+**Advantage+ Shopping Campaign:** Still not recommended. ASC requires conversion data to perform well. A new account with zero purchase history gives ASC nothing to optimize against. Use a manual Sales campaign with Purchase optimization + CBO.
 
 ### 2. Two Creatives Are Missing
 
@@ -328,28 +334,21 @@ All 9 body copies are 350-505 words. On mobile, that's 15-25 taps of "See more."
 
 ### CRITICAL (Do These Before Launch)
 
-**1. Switch from CBO to ABO.**
-- 1 campaign, 3 ad sets, ABO
-- $16.67/day per ad set (equal distribution)
-- This ensures each sub-avatar gets equal testing budget
-- You can always move winners to CBO later — that's the scaling phase
+**1. Use CBO (not ABO) — but use Manual Sales campaign, NOT Advantage+ Shopping.**
+- CBO lets Meta's algorithm show you which sub-avatar it favors — that spend allocation IS the signal you're testing for
+- Manual Sales campaign with Purchase optimization gives you visibility into what's working
+- Do NOT use ASC — it needs conversion data you don't have yet
 
-**2. Do NOT use Advantage+ Shopping Campaign.**
-- Use a manual Sales campaign with Purchase optimization
-- ASC needs conversion data you don't have yet
-- Manual gives you visibility into what's working and why
-
-**3. Build the 2 missing creatives (B2C3 and B3C2).**
+**2. Build the 2 missing creatives (B2C3 and B3C2).**
 - Both are Canva builds — the design specs are already written in the batch plans
 - B2C3 (2AM search screen) is one of the strongest concepts in the entire campaign
 - B3C2 (Caffeine vs Baseline infographic) is important for testing the education angle
 - Launching B2 and B3 with only 2 creatives each reduces your testing power
 
-**4. Clean up the B2C1 body copy.**
-- Remove the `[EDIT NOTE]` about QR-to-COA before launch
-- Replace with a 10-in-1 specific proof point (e.g., "500mg NMN plus supporting ingredients, everything on the label")
+**3. ~~Clean up the B2C1 body copy.~~ DONE.**
+- Removed `[EDIT NOTE]` and replaced with 10-in-1 proof point: "500mg NMN plus nine supporting ingredients, everything listed on the label, nothing hidden behind a proprietary blend."
 
-**5. Set up CAPI via Shopify before launching.**
+**4. Set up CAPI via Shopify before launching.**
 - Native Shopify integration, Maximum data sharing, Advanced Matching ON
 - 15-30 minutes. Free. Non-negotiable.
 - Without it, you're losing 40-60% of conversion signals
