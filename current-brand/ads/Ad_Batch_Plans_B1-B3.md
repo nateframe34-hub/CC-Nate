@@ -52,7 +52,7 @@ Why this matters:
 3. Run B1-B3's camouflage ads from that page
 4. The page should have some organic posts to look established — health tips, personal anecdotes, etc.
 
-**⚠️ This is NOT the same as Sarah Lawson's partner page.** Sarah's page (see `Partner_Page_Identity_and_Post_Plan.md`) is a separate organic content engine with its own identity, voice, and posting plan. The ad partner page is a simpler, more generic health/wellness page used solely to make paid ads look native. The B1-B3 body copies feature multiple different narrators (male and female, various ages) — they don't need to match any single page identity. Keep these two pages separate.
+**Sarah Lawson's partner page (@sarahlawson.wellness) IS the ad partner page.** One page, two functions — organic content engine AND the page purchase ads run through. All B1-B3 body copy narrators are female to maintain consistency with Sarah's page identity. See `Partner_Page_Identity_and_Post_Plan.md` for Sarah's full identity and organic post plan.
 
 ### Campaign Structure
 
@@ -104,7 +104,7 @@ Example: `B1C1_Native_DoctorVisit_A1-SpecificCause`
 **Why this creative matches A1:** The medical/clinical creative sets up the "your decline has a SPECIFIC cause" frame. It promises new information about WHY you feel different — and the body copy delivers that answer (NAD+ decline). Mirrors how Camouflage Ad #1 used a medical illustration to set up a clinical education frame, then delivered on it with real medical terminology.
 
 **Body Copy Approach:**
-First-person story from a 48-year-old. Describes gradual decline over 2-3 years (exhaustion, brain fog, recovery taking longer). Goes to multiple doctors who say "it's just aging." Finally finds a functional medicine practitioner who runs more comprehensive panels and identifies a pattern consistent with age-related cellular energy decline. Doctor introduces the concept of NAD+ — not through a specific NAD+ lab test (which isn't standard), but through recognizing the symptom pattern and the research on cellular energy decline. Narrator discovers NMN through the doctor's recommendation + their own research. Results timeline (Week 1, 2, 4, 8). Spouse notices the change before they do.
+First-person story from a 47-year-old woman. Describes gradual decline over 2-3 years (exhaustion, brain fog, recovery taking longer). Goes to multiple doctors who say "it's just aging." Finally finds a functional medicine practitioner who runs more comprehensive panels and identifies a pattern consistent with age-related cellular energy decline. Doctor introduces the concept of NAD+ — not through a specific NAD+ lab test (which isn't standard), but through recognizing the symptom pattern and the research on cellular energy decline. Narrator discovers NMN through the doctor's recommendation + her own research. Results timeline (Week 1, 2, 4, 8). Husband notices the change before she does.
 
 **Discovery mechanism:** The Doctor Visit (authority figure introduces new information)
 **Authority figure:** Functional medicine doctor / naturopath who runs actual lab work
@@ -129,7 +129,7 @@ First-person story from a 48-year-old. Describes gradual decline over 2-3 years 
 **Why this creative matches A2:** The POV personal photo IS the testimonial — before you read a word of body copy, it looks like a real person sharing something that changed their life. This is the most "native" format in the swipe file (Ad #6's couch legs, Ad #7's blue cast). The casualness IS the credibility.
 
 **Body Copy Approach:**
-Raw, first-person testimonial format. Opens with: "I'm 52. I turned 40 and my body slowly came apart at the seams. I'm writing this because 6 months ago I couldn't get through a workday without hitting a wall at 3pm. Now I'm writing this at 9pm and I still have gas in the tank." Goes into the failed attempts (coffee, B-vitamins, "eating better"), the specific moment they realized something was wrong, how they found NMN through research (Reddit/forums, NOT marketing). Results are understated and real. Anti-hype voice throughout. Ends with a specific day count — "It's been 187 days. I still wake up and take two capsules with my coffee. That's it."
+Raw, first-person testimonial format. Opens with: "I'm 51. I'm writing this at 9pm on a Tuesday and I still have gas in the tank." Goes into the failed attempts (B-vitamins, greens powders, iron supplements, evening primrose oil), the specific moment she realized something was wrong, how she found NMN through research (Reddit/forums, NOT marketing). Results are understated and real. Anti-hype voice throughout. Ends with a specific day count — "It's been 187 days. I still take two capsules with my morning coffee. That's it."
 
 **Discovery mechanism:** The Reddit/Forum Thread (organic community discovery)
 **Authority figure:** Online community of researchers + the narrator's own reading
@@ -160,7 +160,7 @@ Opens with the NAD+ decline reframe: "What if 'just getting older' is actually j
 **Authority figure:** Published research + the narrator's own tracking data
 **Mechanism reveal:** NAD+ decline mapped to tracked personal metrics
 
-**Headline:** "Your cells lose significant fuel after 40. I decided to do something about it."
+**Headline:** "Cells lose significant fuel after 40. I decided to do something about it."
 **Description:** "Not a miracle. Just my baseline, raised."
 
 ---
@@ -206,7 +206,7 @@ Opens with the frustration of being marketed wrinkle creams when the real proble
 **Mechanism reveal:** NAD+ decline happening ALONGSIDE hormonal changes — both are real, but only one gets addressed
 
 **Headline:** "I didn't need another wrinkle cream. I needed my cells to work again."
-**Description:** "What no one told me about perimenopause and cellular energy."
+**Description:** "What no one told me about cellular energy after 40."
 
 ---
 

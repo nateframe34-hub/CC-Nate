@@ -32,17 +32,17 @@
 
 ---
 
-I turned 48 and started keeping a list in my head of things that didn't work anymore.
+I turned 47 and started keeping a mental list of things that didn't work anymore.
 
-Sleep. Recovery. Focus after lunch. The ability to play a full game of tennis without needing two days on the couch afterward. My wife started finishing my sentences because I'd lose the word halfway through.
+Sleep. Recovery. Focus after lunch. The ability to get through a full yoga class without feeling wiped for two days afterward. My husband started finishing my sentences because I'd lose the word halfway through.
 
-I went to my doctor. Blood work came back normal. Thyroid, fine. Testosterone, fine. Vitamin D, fine. He said I was "healthy for my age."
+I went to my doctor. Blood work came back normal. Thyroid, fine. Iron, fine. Vitamin D, fine. She said I was "healthy for my age."
 
 I didn't feel healthy for my age. I felt like someone had slowly turned the dimmer switch down on my entire body and nobody could find the dial.
 
-I went to a second doctor — an internist — who said the same thing. Fine. Normal. Just aging.
+I went to a second doctor — an endocrinologist — who said the same thing. Fine. Normal. Just aging.
 
-The third doctor was different. A functional medicine practitioner my neighbor recommended after watching me limp off the tennis court. She ran more comprehensive panels than the others — inflammation markers, metabolic markers, things my GP hadn't looked at.
+The third doctor was different. A functional medicine practitioner a friend recommended after I broke down at brunch about how exhausted I was. She ran more comprehensive panels than the others — inflammation markers, metabolic markers, things my GP hadn't looked at.
 
 The results weren't alarming. But they told a different story than "you're fine."
 
@@ -60,15 +60,15 @@ I found Baseline because they didn't promise miracles. 500mg of NMN — the dose
 
 **Week 1-2:** Nothing. I almost stopped.
 
-**Week 3:** Subtle. I realized I hadn't hit snooze in four days.
+**Week 3:** Subtle. I realized I hadn't needed a second coffee by noon in four days.
 
-**Week 4:** My wife said I seemed "lighter." I didn't know what she meant until I thought about it — I'd stopped dreading mornings.
+**Week 4:** My husband said I seemed "lighter." I didn't know what he meant until I thought about it — I'd stopped dreading mornings.
 
-**Week 6:** Played a full set of tennis. Went to dinner after. Didn't cancel Saturday plans.
+**Week 6:** Got through a full Saturday — errands, yoga, dinner with friends — without canceling anything. Didn't even think about it until Sunday.
 
 **Week 8:** I stopped keeping that list in my head. Not because everything was perfect. Because I stopped tracking what was broken.
 
-I'm not 30 again. I don't want to be. I just wanted to stop feeling like I was falling apart at 48.
+I'm not 30 again. I don't want to be. I just wanted to stop feeling like I was falling apart at 47.
 
 That was enough. Individual results may vary.
 
@@ -86,13 +86,13 @@ That was enough. Individual results may vary.
 
 ---
 
-I'm 52. I'm writing this at 9pm on a Tuesday and I still have gas in the tank. Six months ago, most evenings looked very different.
+I'm 51. I'm writing this at 9pm on a Tuesday and I still have gas in the tank. Six months ago, most evenings looked very different.
 
 Here's what happened.
 
 I turned 40 and my body slowly came apart at the seams. Not dramatically. Just... steadily. Energy dropped. Recovery time doubled. Brain fog became my default setting by 2pm. I figured this was just what 40s felt like.
 
-I tried the things you try. More sleep. Better food. B-vitamins. Magnesium. An $80/month pre-workout that made me jittery but didn't fix anything. Green tea extract. Ashwagandha. Honestly lost track of what I took and what it was supposed to do.
+I tried the things you try. More sleep. Better food. B-vitamins. Magnesium. Iron supplements my doctor suggested "just in case." An $80/month greens powder that tasted like lawn clippings and didn't fix anything. Evening primrose oil. Ashwagandha. Honestly lost track of what I took and what it was supposed to do.
 
 Nothing moved the needle.
 
@@ -104,7 +104,7 @@ I ordered Baseline because a few people in the thread recommended it. Transparen
 
 Weeks 1 and 2 I felt nothing. Almost returned it.
 
-Week 3 something shifted. Not dramatic. I just noticed I wasn't reaching for coffee at 2pm. I noticed I had something left at the end of the day. My wife mentioned I wasn't falling asleep on the couch by 8pm anymore.
+Week 3 something shifted. Not dramatic. I just noticed I wasn't reaching for coffee at 2pm. I noticed I had something left at the end of the day. My daughter mentioned I wasn't falling asleep during our phone calls anymore.
 
 It's not a lightning bolt. It's more like someone quietly turned the lights back up.
 
@@ -126,7 +126,7 @@ I can't promise this will work for everyone — bodies are different, and I'm no
 
 ---
 
-I'm an engineer. I track everything. Heart rate variability, sleep stages, resting heart rate, daily energy on a 1-10 scale. I've logged this data every day for three years. And two years ago, my numbers started telling me a story I didn't want to hear.
+I'm a data analyst. I track everything. Heart rate variability, sleep stages, resting heart rate, daily energy on a 1-10 scale. I've logged this data every day for three years. And two years ago, my numbers started telling me a story I didn't want to hear.
 
 Here's what the data showed me:
 
@@ -142,7 +142,7 @@ The decline curve in the research mapped almost exactly onto my own tracking dat
 
 NMN is the direct precursor — the molecule the body converts into NAD+. I was skeptical. I've been burned by supplements before. But the published research was specific and the mechanism was clear. This wasn't "proprietary blend" hand-waving. It was biochemistry.
 
-I chose Baseline because the dose matched the research. 500mg NMN — the same amount used in the studies I'd read. Most brands sell 125 or 250mg and hope you don't notice. An engineer notices.
+I chose Baseline because the dose matched the research. 500mg NMN — the same amount used in the studies I'd read. Most brands sell 125 or 250mg and hope you don't notice. An analyst notices.
 
 I tracked the results the same way I track everything else:
 
