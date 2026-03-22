@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B2C3 — The 2AM Research</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .canvas {
+    width: 1080px;
+    height: 1080px;
+    background: #1A1A1A;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 72px;
+  }
+
+  /* Subtle screen glow effect */
+  .canvas::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse at 50% 30%, rgba(255,255,255,0.015) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .timestamp {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.45);
+    letter-spacing: 1px;
+    margin-bottom: 120px;
+  }
+
+  .search-query {
+    font-size: 38px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.35;
+    margin-bottom: 72px;
+    max-width: 800px;
+    letter-spacing: -0.3px;
+  }
+
+  .results {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .result-item {
+    padding: 28px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .result-item:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .result-text {
+    font-size: 22px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.35);
+    line-height: 1.4;
+    letter-spacing: 0.1px;
+  }
+
+  .result-item.highlight .result-text {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+  }
+
+  /* Bottom fade — suggests more results below */
+  .canvas::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background: linear-gradient(transparent, #1A1A1A);
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="canvas" id="capture">
+  <div class="timestamp">2:17 AM</div>
+
+  <div class="search-query">why am I so tired during perimenopause</div>
+
+  <div class="results">
+    <div class="result-item">
+      <div class="result-text">Perimenopause Fatigue: Why It Happens and What...</div>
+    </div>
+
+    <div class="result-item highlight">
+      <div class="result-text">NAD+ Decline During Menopause — What Women Should...</div>
+    </div>
+
+    <div class="result-item">
+      <div class="result-text">Has anyone else lost ALL their energy at 45?</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
