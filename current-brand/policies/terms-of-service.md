@@ -37,7 +37,7 @@ Our products are dietary supplements. They are not intended to diagnose, treat, 
 ## 5. Subscriptions
 
 - Subscribe & Save orders are recurring and will be charged automatically at the interval you select
-- You can cancel, pause, or modify your subscription at any time by contacting us at support@trybaseline.com or through your account
+- You can cancel, pause, or modify your subscription at any time by contacting us at help.velaine@gmail.com or through your account
 - Cancellations take effect before the next billing cycle — you will not be charged after canceling
 
 ## 6. Returns & Refunds
@@ -82,4 +82,4 @@ We reserve the right to update these Terms at any time. Changes take effect imme
 
 If you have questions about these Terms, contact us at:
 
-**Email:** support@trybaseline.com
+**Email:** help.velaine@gmail.com

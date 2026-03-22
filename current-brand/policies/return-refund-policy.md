@@ -14,7 +14,7 @@ If you're not happy with your purchase for any reason, contact us within **30 da
 
 ## How to Request a Return or Refund
 
-1. Email us at **support@trybaseline.com** with your order number
+1. Email us at **help.velaine@gmail.com** with your order number
 2. We'll respond within 1–2 business days with return instructions (if applicable)
 3. Refunds are processed within 5–7 business days after we confirm your request
 
@@ -29,7 +29,7 @@ If you're not happy with your purchase for any reason, contact us within **30 da
 
 - You can cancel your subscription at any time — no penalties, no hoops
 - If a subscription order has already shipped, you may return it under the same 30-day policy above
-- To cancel or modify your subscription, email **support@trybaseline.com** or manage it through your account
+- To cancel or modify your subscription, email **help.velaine@gmail.com** or manage it through your account
 
 ## Refund Method
 
@@ -42,6 +42,6 @@ We don't currently offer direct exchanges. If you need a different product or ha
 
 ## Contact Us
 
-**Email:** support@trybaseline.com
+**Email:** help.velaine@gmail.com
 
 We're a small team and we read every message. If something's off with your order, just let us know.

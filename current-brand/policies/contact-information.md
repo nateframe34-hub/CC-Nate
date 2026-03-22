@@ -8,7 +8,7 @@
 
 We're a small team and we read every message. If you have questions about your order, our product, or anything else — reach out.
 
-**Email:** support@trybaseline.com
+**Email:** help.velaine@gmail.com
 
 **Response time:** 1–2 business days (Monday–Friday)
 

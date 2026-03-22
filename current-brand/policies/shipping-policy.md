@@ -14,12 +14,11 @@ We currently ship to the **United States** only.
 
 Orders are typically processed within **1–2 business days** (Monday–Friday, excluding holidays).
 
-## Shipping Methods & Estimated Delivery
+## Estimated Delivery
 
 | Method | Estimated Delivery | Cost |
 |---|---|---|
-| Standard Shipping | 5–8 business days | Free on all orders |
-| Expedited Shipping | 2–4 business days | Calculated at checkout |
+| Standard Shipping | 7–12 business days | Free on all orders |
 
 *Delivery times are estimates and are not guaranteed. Actual delivery may vary based on carrier, location, and other factors outside our control.*
 
@@ -27,7 +26,7 @@ Orders are typically processed within **1–2 business days** (Monday–Friday, 
 
 Once your order ships, you'll receive a confirmation email with a tracking number. You can use this to track your package through the carrier's website.
 
-If you don't receive a tracking email within 3 business days of placing your order, check your spam folder or contact us at **support@trybaseline.com**.
+If you don't receive a tracking email within 3 business days of placing your order, check your spam folder or contact us at **help.velaine@gmail.com**.
 
 ## Subscription Orders
 
@@ -37,7 +36,7 @@ Subscribe & Save orders ship on a recurring schedule based on the interval you s
 
 If your package is lost in transit or arrives damaged:
 
-1. Contact us at **support@trybaseline.com** within 7 days of the expected delivery date
+1. Contact us at **help.velaine@gmail.com** within 7 days of the expected delivery date
 2. Include your order number and a photo of any damage (if applicable)
 3. We'll work with the carrier to resolve it and will send a replacement or issue a refund at no cost to you
 
@@ -51,4 +50,4 @@ We do not currently offer international shipping. We plan to expand shipping ava
 
 ## Contact Us
 
-Questions about your shipment? Email us at **support@trybaseline.com**.
+Questions about your shipment? Email us at **help.velaine@gmail.com**.
