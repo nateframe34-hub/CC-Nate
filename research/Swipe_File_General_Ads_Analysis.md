@@ -583,3 +583,138 @@ Based on everything in this swipe file, here are the 10 ads I'd create first —
 5. **Run cold traffic humor/meme ads to build the pixel.** The Venn diagram and meme formats get massive engagement and shares — they build your retargeting audience cheaply so the conversion ads (testimonials, offers, urgency) have someone to target.
 
 6. **Match the ad framework to the funnel stage.** Pain Point Question Hook stops cold traffic. Ingredient Breakdown educates warm traffic. Classy Offer closes hot traffic. Never run a flash sale to someone who's never heard of you.
+
+---
+
+## SECTION 6: Static Ad Design Principles — The "PEMDAS" of Visual Layout
+
+> **Source:** Adam's static ad breakdown (YouTube, March 2026). This section covers the **visual execution side** — how to design and lay out static ads so they don't "look off." Complements the copy/framework analysis in Sections 1–5.
+>
+> Key credential: $500K+ in revenue from static ads alone in 2026. Zero dollars from video. Every principle below comes from that track record.
+
+---
+
+### The PEMDAS Framework (Workflow Order)
+
+Just like math has PEMDAS to determine the order of operations, static ads have a fixed workflow:
+
+1. **Visual** — The anchor. Generate this first. It determines everything else.
+2. **Hook** — The most important line of text. Place it where there's room.
+3. **Subtext** — Benefits, supporting copy. Goes wherever space remains.
+4. **CTA** — "Try [brand] — 50% off" button/text. Last element placed, if used at all.
+
+**The critical mistake:** Beginners generate the visual first and *then* try to figure out where text goes. You should know exactly where the text is going *before* you generate the visual.
+
+---
+
+### Rule 1: Simple Studio Backgrounds
+
+Every high-performing mid-funnel static ad uses a simple, single-tone studio background:
+
+- Cream/beige studio
+- White/teal studio
+- Light purple studio
+- Pink and brown gradient (still simple)
+
+**What to avoid:** Complex backgrounds with patterns, textures, or busy scenes. This rule applies specifically to mid-funnel direct response statics (not natives/camouflage ads, which play by different rules).
+
+**AI prompt tip:** Always include "Place this in a [color] studio" in your image generation prompt. For Baseline, our brand colors translate to: *"Place this in a cream/beige colored studio"* or *"Place this in a soft purple studio"* (matches our violet accents).
+
+---
+
+### Rule 2: Spacing Is Everything
+
+This is the #1 reason beginner ads "look off and you don't know why."
+
+**The principle:** Every element (hook, subtext, visual, CTA) needs a **respectable amount of space** between it and the next element. Not touching, not crammed, not floating in a void — a comfortable medium.
+
+**Common beginner mistakes:**
+- Text brushing up against the edge of the visual/product
+- Subtext dragged too close to the product while the hook floats far above
+- Uneven gaps — more space above an element than below (or vice versa)
+- Text overlapping shadows, reflections, or color-heavy parts of the visual
+
+**The spacing test:** The space between any two adjacent elements should be roughly consistent across the ad. If the gap between hook and visual is 40px, the gap between visual and subtext should be in the same range.
+
+**Why you don't notice it:** You never think "the spacing is bad." You think "something looks off and I can't put my finger on it." That's the spacing.
+
+---
+
+### Rule 3: Know Where Your Space Is Before Generating
+
+Before generating any visual, decide:
+
+- **Where will the text go?** Top only? Top and bottom? Right side?
+- **What kind of ad is this?** Simple back-funnel (one line + offer)? Or informative mid-funnel (hook + benefits + CTA)?
+- **How much text?** A giant hook with 8 benefit lines and a CTA needs tons of empty space above and below. A simple one-liner just needs space on top.
+
+**AI prompt tip:** Tell your image generator explicitly: *"I need you to leave an abundance of space at the top. I plan on adding text."* Otherwise AI fills the frame (good for photography, bad for ad layout).
+
+For heavy-text ads: *"Place the visual in the center. I plan on having a ton of text on the top and bottom. Please leave empty space there for me to fill in."*
+
+---
+
+### Rule 4: Visual Placement Determines Text Placement
+
+The three common visual layouts and what they mean for text:
+
+| Visual Layout | Text Goes... | Example |
+|--------------|-------------|---------|
+| **Centered with space top + bottom** | Hook on top, subtext/CTA on bottom | Most common layout. Product/visual sits in the middle third. |
+| **Bottom-heavy (no space below)** | All text on top | Visual fills bottom half. Don't force text below — it'll overlap shadows/reflections. |
+| **Left-aligned** | Text on the right side, with space on top | Product/visual hugs the left, text stacks vertically on the right. |
+
+**The shadow rule:** A product's shadow is still part of the visual. You can't place text on top of it. If the visual ends but the shadow continues, "respective space" starts *after* the shadow ends.
+
+**The color overlap rule:** If the bottom of a visual has multiple colors (e.g., product + background gradient + reflections), don't place text there. You can't find one text color that contrasts well with 3+ underlying colors.
+
+---
+
+### Rule 5: Color-Match Your Text
+
+- **Never use pure black (#000000) or pure white (#FFFFFF)**
+- Pick a dark shade *from the photo itself* for dark text
+- For light text, use a slight off-white that matches the background tone
+- This single habit makes ads look 10x more polished
+
+---
+
+### Rule 6: Preferred Format and Tools
+
+- **4x5 aspect ratio** is the preferred static ad format (takes up more screen real estate in feed than 1:1)
+- **Font:** Poppins is recommended as a clean, modern sans-serif for ad text
+- **Finding ads to replicate:** Use Trend Tracks with these filters:
+  - Status: Active
+  - Days running: 1+ month minimum
+  - Ad rank: Top 5 only
+  - Media type: Image
+  - Country: United States
+- **Validating performance:** Follow brands in the Brand Tracker to confirm the ad actually ranks well against their other creatives before replicating
+
+---
+
+### Applying These Principles to Baseline NMN
+
+| Principle | Baseline Application |
+|-----------|---------------------|
+| **Background** | Cream/beige studio (matches brand) or soft purple studio (matches violet accents). Keep it simple — we're mid-funnel direct response. |
+| **Spacing** | Develop the "second pair of eyeballs." Before finalizing any static, check: is the space between hook → visual → subtext → CTA roughly even? |
+| **Visual-first workflow** | Generate all product visuals first using AI. Tell the AI to leave space at top. Then layer text on in Canva. |
+| **Format** | Default to 4x5 for all static ads. More real estate in feed = more stopping power. |
+| **Text color** | Pull dark shades from our bottle (deep purple/charcoal) for text. Light text = slight off-cream, never pure white. |
+| **Replication workflow** | Find performing ads on Trend Tracks → screenshot the layout → strip text → use AI to do direct product replacement with our Baseline bottle → re-add our own copy following the same spacing rules. |
+
+---
+
+### The Replication Workflow (Step by Step)
+
+This is the exact process for taking a high-performing static ad and adapting it for Baseline:
+
+1. **Find the ad** — Trend Tracks, filtered to active, 1+ month, top 5, image, US
+2. **Verify performance** — Follow the brand in Brand Tracker, confirm the ad ranks top 3–5
+3. **Screenshot the layout** — Capture the ad with its spacing and element placement
+4. **Strip the text** — Remove all copy, keep just the visual layout as reference
+5. **Generate replacement visual** — Use AI (Kai, Midjourney, etc.) with prompt: *"Direct replacement of the product with my product. Place in a [cream/beige] studio. Aspect ratio 4x5. Leave space at top for text."*
+6. **Layer text in Canva** — Follow the same spacing rules as the original. Hook on top, subtext where there's room, CTA at bottom if space allows.
+7. **Color-match text** — Pull shades from the generated visual. No pure black/white.
+8. **Spacing check** — Step back and verify: does every element have "respective space"? Is anything crammed or floating?
