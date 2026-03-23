@@ -40,18 +40,18 @@ Adults 40+ experiencing energy decline, brain fog, slow recovery. Key sub-avatar
 - Engagement Ad 2: $2.89 spent, 136 impressions, 5 follows
 - Performance tracked in `current-brand/tracking/Ad_Performance_Tracker.csv`
 
-### Purchase Campaigns (B1-B3) — NOT YET LIVE
-- 3 batches planned, 3 ads each (9 total), all static native/camouflage style
-- Targeting broad 40+ US audience
-- $50/day CBO budget when launched
+### Purchase Campaigns (B1-B2) — LIVE as of March 23, 2026
+- B1 (Reluctant Decliner) + B2 (Invisible Woman) = 6 ads live, no rejections
+- B3 (3pm Wall Hitter) planned but not yet live
+- All static native/camouflage style, targeting broad 40+ US audience
+- $50/day CBO budget
 - Plans in `current-brand/ads/Ad_Batch_Plans_B1-B3.md`
 - Full media buying strategy in `current-brand/ads/Media_Buying_Plan.md`
 
 ## Currency Note
 
-- **Revenue/prices = USD** (what US customers pay)
-- **Ad spend/budgets = CAD** (Nate is in Canada, Meta bills in CAD)
-- At ~$0.73 USD/CAD, actual ROAS is ~35% better than Meta reports if mixing currencies
+- **Everything is USD** — ad account switched to USD billing (March 2026), charges USD to CAD bank account
+- No currency conversion needed for ROAS calculations
 
 ## Key Files
 

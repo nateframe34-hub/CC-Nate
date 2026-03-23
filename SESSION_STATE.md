@@ -1,20 +1,22 @@
 # Session State — Baseline NMN
 
 ## Last Session
-- Completed deep research on static ad formats for Meta — 6 parallel research agents analyzed 30+ swipe file ads, Origins training docs, and external best practices
-- Created master document `research/Static_Ad_Mastery_Guide.md` — complete system covering 25 ad formats, desire channeling, visual/copy execution, body copy structures, testing methodology
-- 5 supporting research docs also created (agent1-5) with detailed per-image and per-topic analysis
+- B1 (Reluctant Decliner) + B2 (Invisible Woman) purchase ads went LIVE — 6 ads, 0 rejections
+- Ad account switched to USD billing — no more currency conversion needed
+- Updated CLAUDE.md and Brand Growth Sheet to reflect live status
 
 ## In Progress
-- Nothing blocked. Research is complete and pushed.
+- B1C1 (DoctorVisit) still "In review" on Meta — should clear shortly
+- Waiting for initial data (3-5 days) to evaluate creative performance
 
 ## Next Up
-- Use the Static Ad Mastery Guide as reference when creating actual ad creatives for B1-B3 purchase campaigns
-- Could apply these learnings to write specific ad briefs for Baseline NMN
+- Monitor ad performance after 3-5 days of spend data
+- Kill underperformers, scale winners per Media Buying Plan
+- Launch B3 (3pm Wall Hitter) once B1/B2 data is in
 
 ## Key Decisions
-- Static Ad Mastery Guide is the go-to reference for all future ad creative work
-- Native/camouflage format identified as strongest fit for Baseline NMN given Stage 4-5 market sophistication in the NMN space
+- Ad account currency changed to USD (was CAD) — simplifies all ROAS tracking
+- B1 + B2 launched together (6 ads in one CBO campaign at $50/day)
 
 ## Updated
-2026-03-17
+2026-03-23
