@@ -9,3 +9,9 @@ Date,Campaign,Ad_Set,Ad_Name,Status,Amount_Spent,Delivery,Budget,Impressions,CPM
 2026-03-17,Engagement Campaign,Engagement Ad Set,Engagement Ad 2,On,3.43,Active,Using campaign budget,120,28.58,4.17,0.69,,,,,0.00,,,11,Follows or likes
 2026-03-18,Engagement Campaign,Engagement Ad Set,Engagement Ad 1,On,0.56,Active,Using campaign budget,23,24.35,,,,,,,0.00,,,2,Follows or likes
 2026-03-18,Engagement Campaign,Engagement Ad Set,Engagement Ad 2,On,4.46,Active,Using campaign budget,232,19.22,1.29,1.49,3,,,,0.00,,,15,Follows or likes
+2026-03-23,Avatar Discovery CBO,Batch_1,B1C1_Native_DoctorVisit_A1-SpecificCause,On,30.37,Active,,494,61.48,2.02,3.04,10,,,,0.00,,,
+2026-03-23,Avatar Discovery CBO,Batch_2,B2C1_Native_NotAboutWrinkles_A1-Cells,On,0.07,Active,,9,7.78,11.11,0.07,1,,,,0.00,,,
+2026-03-23,Avatar Discovery CBO,Batch_1,B1C3_Native_Trajectory_A3-DataDriven,On,0.02,Active,,4,5.00,,,,,,,,,
+2026-03-23,Avatar Discovery CBO,Batch_2,B2C2_Native_ExhaustedMom_A2-Parenta,On,7.44,Active,,235,31.66,2.55,1.24,5,,,,0.00,,,
+2026-03-23,Avatar Discovery CBO,Batch_1,B1C2_Native_187Days_A2-RawTestimonial,On,3.76,Active,,16,235.00,25.00,0.94,2,,,,0.00,,,
+2026-03-23,Avatar Discovery CBO,Batch_2,B2C3_Native_2AMResearch_A3-RawDisco,On,5.64,Active,,316,17.85,5.38,0.33,10,,,,0.00,,,
