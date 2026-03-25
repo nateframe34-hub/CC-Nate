@@ -62,6 +62,7 @@ Lessons from failed stores that shaped the Baseline approach.
 ### What Happened
 - Sold a kitchen mandoline with a unique safety mechanism (hands never near the blade)
 - Created 50+ original static ads — significant improvement over Store 1
+- Video ads used ripped footage that was edited (not original video), but all statics were original
 - Product converted well when the customer was already looking for a kitchen slicer/mandoline
 - Could not convert people who didn't already have the desire for the product category
 
@@ -82,11 +83,13 @@ Lessons from failed stores that shaped the Baseline approach.
 
 **Creative volume and methodology were strong:** Structured naming conventions (drawer, scarred, fence, scroll, mech, comp, native, format) show real creative testing across different angles, formats, and hooks. Massive improvement over Store 1's ripped content.
 
-**The smoking gun — Video Ad #2 IC:** $72.41 spent, 6.54% CTR, $0.87 CPC, 83 link clicks, 77 LPVs, **13 ATCs, 2 checkouts, 0 purchases.** This ad did everything right — incredible engagement, dirt-cheap traffic, strong landing page performance — and the product still couldn't close. 13 people wanted it enough to add to cart and all 13 walked away. That's not an ad problem. That's product/economics.
+**Note on IC ads:** Ads labeled "IC" were running on an Initiate Checkout campaign objective, not a Purchase campaign. This was tested because of a theory that the ad account might be penalized (explaining the high CPMs). In hindsight, the high CPMs were more likely caused by the small desire pool — Meta struggled to find people who actually wanted a kitchen mandoline, driving up costs to reach them.
 
-**CPMs were 3-4x higher than Store 1:** $80-230 range vs $30-50. Kitchen products cost more to reach on Meta, compressing the already-tight 48% margin further.
+**The smoking gun — Video Ad #2 IC:** $72.41 spent, 6.54% CTR, $0.87 CPC, 83 link clicks, 77 LPVs, **13 ATCs, 2 checkouts, 0 purchases.** This ad did everything right — incredible engagement, dirt-cheap traffic, strong landing page performance — and the product still couldn't close. 13 people wanted it enough to add to cart and all 13 walked away. That's not an ad problem. That's product/economics. (Note: this was an IC campaign, so the cheaper CPC is partly explained by the lower-funnel optimization target — but 13 ATCs with 0 purchases still tells the story.)
 
-**Video outperformed statics for this product:** SliceSafe ads and Video ads drove the few purchases that happened. The static-only B-series batches mostly got clicks but almost no purchases. Makes sense — a product whose value prop is a physical safety mechanism needs to be demonstrated, not described.
+**CPMs were 3-4x higher than Store 1:** $80-230 range vs $30-50. Initially suspected ad account penalization, but more likely explained by the small desire pool — when very few people in your audience actually want the product, Meta has to work harder (and charge more) to find them. This is the Schwartz principle showing up in your CPMs.
+
+**Video outperformed statics for this product:** SliceSafe ads and Video ads (ripped footage, edited) drove the few purchases that happened. The static-only B-series batches (all original) mostly got clicks but almost no purchases. Makes sense — a product whose value prop is a physical safety mechanism needs to be demonstrated, not described.
 
 **Conversion pattern confirmed the Schwartz diagnosis:** When someone was already in-market (needed a mandoline), ads converted. Cold traffic — people who didn't wake up wanting a kitchen slicer — almost never converted regardless of creative quality. The desire pool was simply too small to sustain paid acquisition.
 
