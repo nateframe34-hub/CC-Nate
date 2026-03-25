@@ -31,6 +31,22 @@ Lessons from failed stores that shaped the Baseline approach.
 - **You need to learn how to make ads.** This was the direct trigger for enrolling in Origins.
 - **Product selection matters.** Wow-factor ≠ desire. Need products people actually want, not just think are cool for 5 seconds.
 
+### Data-Level Analysis (from Ad Manager screenshots)
+
+**Ad spend visible in screenshots:** $1,024 across 17 ads, 5 total purchases.
+
+**Budget concentration problem:** AD 1 consumed 82% of total budget ($839 of $1,024). CBO piled everything into one creative and starved the other 16. Never truly tested multiple ads — tested one.
+
+**Top-of-funnel was actually strong:**
+- AD 1: 4.23% CTR, $0.73 CPC, $30.83 CPM — cheap, engaged traffic
+- AD 1 - Copy: 4.44% CTR, $1.02 CPC
+- AD 3: 4.44% CTR, $0.95 CPC
+- The ripped creatives grabbed attention effectively. Low CPMs ($30-50 range) confirmed broad, cheap audience.
+
+**Funnel collapsed at checkout:** AD 1 drove 944 LPVs → 49 ATCs → 16 checkouts → 5 purchases. That's ~90% cart abandonment from ATC to purchase. People impulse-added then asked "do I actually need this?" — and the answer was no. This is the wow-factor problem captured in one stat.
+
+**Revised takeaway:** The original diagnosis ("I need to learn to make ads") was correct but incomplete. The data shows the ripped ads actually performed well at getting attention. The core problem was post-click — no amount of ad skill fixes a product people don't need. The lesson was actually two lessons: (1) learn to make ads, AND (2) the product itself has to close.
+
 ---
 
 ## Store 2: Velaine — Kitchen Mandoline
@@ -59,6 +75,29 @@ Lessons from failed stores that shaped the Baseline approach.
 - **Static ads can work** — the creative quality wasn't the problem this time. The product-market fit was.
 - **Unit economics must support paid acquisition.** 48% pre-ad margin is tight. Need higher margins or lower COGS to have room for ad spend and still be profitable.
 - **Don't scale risk on an unproven product.** The 3PL/bulk order path only makes sense after proving profitability at small scale.
+
+### Data-Level Analysis (from Ad Manager screenshots)
+
+**Ad spend visible in screenshots:** ~$1,500+ across 45+ ads, approximately 5-7 total purchases.
+
+**Creative volume and methodology were strong:** Structured naming conventions (drawer, scarred, fence, scroll, mech, comp, native, format) show real creative testing across different angles, formats, and hooks. Massive improvement over Store 1's ripped content.
+
+**The smoking gun — Video Ad #2 IC:** $72.41 spent, 6.54% CTR, $0.87 CPC, 83 link clicks, 77 LPVs, **13 ATCs, 2 checkouts, 0 purchases.** This ad did everything right — incredible engagement, dirt-cheap traffic, strong landing page performance — and the product still couldn't close. 13 people wanted it enough to add to cart and all 13 walked away. That's not an ad problem. That's product/economics.
+
+**CPMs were 3-4x higher than Store 1:** $80-230 range vs $30-50. Kitchen products cost more to reach on Meta, compressing the already-tight 48% margin further.
+
+**Video outperformed statics for this product:** SliceSafe ads and Video ads drove the few purchases that happened. The static-only B-series batches mostly got clicks but almost no purchases. Makes sense — a product whose value prop is a physical safety mechanism needs to be demonstrated, not described.
+
+**Conversion pattern confirmed the Schwartz diagnosis:** When someone was already in-market (needed a mandoline), ads converted. Cold traffic — people who didn't wake up wanting a kitchen slicer — almost never converted regardless of creative quality. The desire pool was simply too small to sustain paid acquisition.
+
+**Key performers:**
+- B4_drawer_finally: $207.85 → 35 LPVs → 1 purchase ($207.85 CPA)
+- cucumber_salad: $189.56 → 23 LPVs → 1 purchase ($189.56 CPA)
+- SliceSafe AD 1: $41.48 → 13 LPVs → 1 purchase ($41.48 CPA — best CPA but low volume)
+- SliceSafe 5: $123.40 → 29 LPVs → 1 purchase
+- Video Ad #3: $109.14 → 45 LPVs → 1 purchase
+
+**Revised takeaway:** The ad-making skill was proven — engagement metrics, CTRs, and creative variety were legitimately strong. The failure was product-market fit and economics. Good ads cannot overcome a product with a small desire pool and 48% pre-ad margins.
 
 ---
 
