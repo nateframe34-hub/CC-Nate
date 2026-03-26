@@ -1,0 +1,153 @@
+{%- comment -%}
+  Blog Article Cleanup Section
+  Purpose: Hides store navigation, cart, search, and account icons
+  on blog article pages so the advertorial pre-lander looks like
+  a standalone editorial article instead of a store page.
+
+  HOW TO INSTALL:
+  1. In Shopify Admin → Online Store → Themes → "..." → Edit code
+  2. Under "Sections" click "Add a new section"
+  3. Name it: blog-article-cleanup
+  4. Delete whatever default code is there
+  5. Paste this entire file's contents
+  6. Save
+  7. Go to Online Store → Customize
+  8. Use the page selector dropdown at top → select "Blog posts" → select your article
+  9. In the left sidebar under Header, click "Add section"
+  10. Find "Blog Article Cleanup" and add it
+  11. Save
+
+  WHAT IT DOES:
+  - Hides the main navigation (Home, Catalog, Contact)
+  - Hides cart icon, search icon, account icon
+  - Hides the announcement bar and horizontal ticker
+  - Hides the menu drawer / hamburger on mobile
+  - Hides blog metadata (date, author, tags, share buttons, comments)
+  - Hides "Product Information" and other sidebar/store sections
+  - Only activates on blog article pages — rest of your store is untouched
+{%- endcomment -%}
+
+{%- if template contains 'article' and section.settings.enable -%}
+<style>
+  /* ===== BLOG ARTICLE CLEANUP — ADVERTORIAL CAMOUFLAGE ===== */
+
+  /* Hide main navigation links */
+  .header__inline-menu,
+  .list-menu--inline {
+    display: none !important;
+  }
+
+  /* Hide header action icons (cart, search, account) */
+  .header__icons {
+    display: none !important;
+  }
+
+  /* Hide announcement bar */
+  .announcement-bar,
+  [class*="announcement-bar-"] {
+    display: none !important;
+  }
+
+  /* Hide horizontal ticker if present */
+  .horizontal-ticker,
+  [class*="horizontal-ticker"] {
+    display: none !important;
+  }
+
+  /* Hide mobile menu / hamburger button */
+  .menu-drawer-container,
+  .header__icon--menu {
+    display: none !important;
+  }
+
+  /* Hide blog post metadata (date, author, tags) */
+  .article-template__hero-medium,
+  .article-template__meta,
+  .article-template__tags,
+  .article-template__date,
+  .article-template__author,
+  .article-template__comment-wrapper,
+  .article-template__social-sharing,
+  .article-template__back,
+  .sharing,
+  .share-buttons {
+    display: none !important;
+  }
+
+  /* Hide blog sidebar if present */
+  .blog-sidebar,
+  .sidebar {
+    display: none !important;
+  }
+
+  /* Hide related articles / pagination */
+  .article-template__related,
+  .blog-articles,
+  .article-pagination {
+    display: none !important;
+  }
+
+  /* Center the logo — it's the only header element left */
+  .header {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .header__heading {
+    margin: 0 auto !important;
+  }
+
+  /* Make article content full-width and clean */
+  .article-template__content {
+    max-width: 720px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+  }
+
+  /* Clean up article title */
+  .article-template__title {
+    text-align: center !important;
+    max-width: 720px !important;
+    margin: 30px auto 10px !important;
+  }
+
+  /* Ensure good readability on mobile */
+  @media screen and (max-width: 749px) {
+    .article-template__content {
+      padding: 16px !important;
+    }
+
+    .article-template__content p,
+    .article-template__content li {
+      font-size: 16px !important;
+      line-height: 1.7 !important;
+    }
+  }
+</style>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Blog Article Cleanup",
+  "tag": "div",
+  "class": "blog-article-cleanup",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "This section hides store navigation, cart, search, and other store chrome on blog article pages. It makes blog posts look like standalone editorial articles — essential for advertorial pre-lander pages."
+    },
+    {
+      "type": "checkbox",
+      "id": "enable",
+      "label": "Enable article cleanup",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog Article Cleanup"
+    }
+  ]
+}
+{% endschema %}
