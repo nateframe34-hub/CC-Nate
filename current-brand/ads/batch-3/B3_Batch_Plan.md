@@ -80,6 +80,32 @@ Shot from inside a car, hands on steering wheel or resting on lap, school buildi
 
 ---
 
+## Nano Banana Pro Prompts
+
+### B3C1 — POV Couch (Parental Guilt — "Maybe After Dinner")
+
+```
+A photorealistic first-person POV photograph looking down from a seated position on a beige fabric couch. The photographer's legs are visible wearing dark joggers, feet on a soft rug. A phone is loosely held in the right hand, screen dimly lit. Scattered across the floor and coffee table in front: colorful wooden building blocks, a small toy dinosaur on its side, a children's picture book face-down, a sippy cup with juice residue. The TV is on in the background casting a faint blue-white glow, slightly blurred. Late afternoon golden light comes through a window to the left, creating warm shadows. A fleece throw blanket is bunched up on the couch beside the photographer. The living room is warm and lived-in — a few framed family photos on the wall, a small basket of toys in the corner. The entire mood is: this parent just sat down and has nothing left. Everything about the image says exhaustion and the end of a long day with kids. Shot from the person's eye level looking down and slightly forward, smartphone camera quality, warm color temperature, slight grain. No face visible. No product. No branding. 4:5 aspect ratio.
+```
+
+---
+
+### B3C2 — Kitchen Counter Morning (Parental Guilt — "The School Concert")
+
+```
+A photorealistic candid photograph of a woman's hands wrapped around a large white ceramic coffee mug on a kitchen counter in soft early morning light. She wears a loose gray long-sleeve shirt, sleeves pushed up. The counter is light stone or quartz, naturally cluttered: two school backpacks leaning against the backsplash (one blue, one pink), a crumpled permission slip, a banana with a brown spot, an open lunchbox with a sandwich half-packed, car keys tossed on a folded dish towel, a half-full glass of water from last night. A microwave clock in the background reads 6:47. The kitchen is warm and real — not staged, not clean. Morning sunlight streams through a window over the sink, catching steam rising from the coffee mug. The woman is visible only from the shoulders down — no face. Her posture is slightly hunched, elbows on the counter, weight on the mug. The image feels like: she's gathering herself before the morning chaos starts. Shot at counter height from the side, smartphone camera quality, warm golden morning light, natural shadows. No product visible. 4:5 aspect ratio.
+```
+
+---
+
+### B3C3 — Car POV (Parental Guilt — "Partner Notices")
+
+```
+A photorealistic first-person POV photograph from inside a parked car. The photographer sits in the driver's seat, hands resting on their lap, car keys sitting on the center console. Through the windshield: a school building entrance with a few parents standing near the doors, slightly blurred. The dashboard clock or digital display shows 3:12 PM. A child's booster seat is visible in the rearview mirror reflection. On the passenger seat: a reusable water bottle and a tote bag with a library book sticking out. The car interior is clean but lived-in — a stray cheerio on the floor mat, a crumpled tissue near the cup holder. Late afternoon light hits the windshield creating a slight glare. The mood is: she arrived early and is sitting in the car gathering energy before pickup. Private, quiet, a small moment of rest before being "on" again. Shot from eye level in the driver's seat looking forward through the windshield, smartphone camera quality, natural daylight, warm color temperature. No face visible. No product. 4:5 aspect ratio.
+```
+
+---
+
 ## Copy Structure (Applied to All 3 Ads)
 
 Each ad follows the full Origins 12-step native body copy structure:

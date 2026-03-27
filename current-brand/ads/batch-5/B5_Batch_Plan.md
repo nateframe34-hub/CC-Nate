@@ -90,6 +90,46 @@ Shot from the patient's perspective sitting on an exam table, doctor's clipboard
 
 ---
 
+## Creative Build Notes
+
+### B5C1 — "YOU DON'T NEED ANOTHER CREAM. YOU NEED YOUR CELLS TO WORK." (Canva Build)
+
+**Canvas specs:** 1080×1350 (4:5)
+**Background:** Warm cream (#F5F0E8) with a subtle texture (linen or paper grain)
+**Typography:**
+- Main headline: Plus Jakarta Sans Bold, near-black (#1A1A1A), ALL CAPS, 54-64pt, centered
+- Line breaks: "YOU DON'T NEED / ANOTHER CREAM." (line break, 30px gap) "YOU NEED YOUR / CELLS TO WORK."
+- "ANOTHER CREAM" in a muted rose/pink (#C4848A) with a strikethrough line through it — visually dismissed
+- "CELLS TO WORK" in deep teal (#0c3b3f) — visually elevated
+**Layout:** Headline centered vertically. Below the headline (bottom 20%), small faded silhouettes of a cream jar, a collagen tub, and a jade roller in 15% opacity warm gray — almost invisible background elements that reinforce the message without distracting.
+**Mood:** Clean, sharp, dismissive of the old paradigm. The strikethrough on "cream" does the competitor teardown visually.
+
+---
+
+### B5C2 — "THE $400 SUPPLEMENT GRAVEYARD IN YOUR CABINET" (Nano Banana Pro)
+
+**Nano Banana Pro Prompt:**
+
+```
+A photorealistic overhead photograph of a bathroom cabinet shelf or countertop cluttered with supplement bottles and wellness products. Visible items: a collagen powder tub with a pink label, a magnesium bottle half-empty, a bottle of vitamin D with the cap off, an ashwagandha supplement with a green label, a small amber bottle of evening primrose oil, a jade roller lying on its side, a tube of expensive face serum with a metallic cap, and a small jar of adaptogenic powder. The bottles are different heights, brands, and label colors — clearly accumulated over time from different purchases. Some bottles have dust on the caps. One bottle is nearly empty. The shelf or counter is white or light gray, slightly dirty in the corners. A few capsules have spilled and sit loose on the surface. Natural bathroom lighting — slightly cool, overhead. The image looks like someone opened their medicine cabinet, saw the mess, and took a frustrated overhead photo. Smartphone camera quality, shot from directly above, natural color temperature. No text overlay needed — will be added in Canva. 4:5 aspect ratio.
+```
+
+**Post-production (Canva):** Add bold white text overlay: "THE $400 SUPPLEMENT GRAVEYARD IN YOUR CABINET" in Plus Jakarta Sans Bold, 48-56pt, ALL CAPS, positioned in the upper third with a subtle dark gradient behind the text for readability.
+
+---
+
+### B5C3 — "YOUR DOCTOR SAID YOU'RE 'FINE.' YOU DON'T FEEL FINE." (Nano Banana Pro)
+
+**Nano Banana Pro Prompt:**
+
+```
+A photorealistic photograph taken from the patient's perspective sitting on a medical exam table in a doctor's office. The shot looks down at the photographer's own legs dangling off the edge of the exam table, wearing jeans and white sneakers. The paper covering on the exam table is slightly crinkled. In the background, slightly blurred: a doctor's rolling stool, a blood pressure cuff mounted on the wall, a computer screen showing what appears to be test results, a jar of cotton balls on the counter, a hand sanitizer dispenser. The room has standard medical office fluorescent lighting — cool, flat, clinical. The mood is: alone in the exam room, waiting, or just received dismissive news. The image should feel like someone sat on the exam table, looked down at their legs, and took a photo in a moment of frustration after being told "everything's normal." Smartphone camera quality, shot from eye level looking down, slightly cool color temperature. No doctor visible. No face visible. 4:5 aspect ratio.
+```
+
+**Post-production (Canva):** Add bold white text overlay: "YOUR DOCTOR SAID / YOU'RE 'FINE.' / YOU DON'T FEEL FINE." in Plus Jakarta Sans Bold, 48-56pt, ALL CAPS, positioned in the upper third. "FINE" in quotes with a slightly different color or italic emphasis to convey sarcasm. Subtle dark gradient behind text for readability.
+
+---
+
 ## Shared Body Copy (2 Versions — 3:2:2)
 
 **Body Copy 1 (Confrontational → mechanism → product):**

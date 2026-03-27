@@ -90,7 +90,57 @@ Before/after composition: left side shows 5 separate supplement bottles (clutter
 **B6C3 — Bold text on simple background:**
 Large, confident text: "I HAVEN'T HIT THE 3PM WALL IN 43 DAYS." Below in smaller text: "Here's what changed." No product, no imagery. Pure text. Curiosity gap forces the click. Clean, minimal.
 
-**All creatives:** 1080×1350 (4:5) or 1080×1920 (9:16). Mix of premium-designed and text-minimal approaches.
+**All creatives:** 1080×1350 (4:5) or 1080×1920 (9:16). Mix of premium-designed and AI-generated approaches.
+
+---
+
+## Creative Build Notes
+
+### B6C1 — "I ACCIDENTALLY GOT MY ENERGY BACK AT 47" (Canva Build — Premium Design)
+
+**Canvas specs:** 1080×1350 (4:5)
+**Background:** Near-black (#1A1A1A) with a subtle noise/grain texture for premium feel
+**Typography:**
+- Main headline: Cormorant Garamond Bold, white, mixed case, 52-60pt, centered in upper 40%
+- Text: "I Accidentally Got My Energy Back at 47"
+- "Accidentally" slightly larger or in italic to emphasize the effortlessness
+- Below headline (40px gap): 4 bullet points in Plus Jakarta Sans Regular, white at 80% opacity, 16-18pt, left-aligned with center block:
+  - "• 500mg NMN — the clinical research dose"
+  - "• 9 supporting ingredients in one serving"
+  - "• 60-day supply for under $50"
+  - "• 30-day money-back guarantee"
+- Bottom 15%: Small product image (Baseline bottle, white on dark background) centered, approximately 120px tall. Below it: "trybasline.com" in JetBrains Mono, white at 40% opacity, 12pt
+**Layout:** Headline top, bullet proof points middle, product bottom. Clear top-to-bottom reading hierarchy. The headline hooks, the bullets justify, the product anchors.
+**Mood:** Premium, confident, editorial. Feels like a magazine pullquote ad, not a Facebook ad. The dark background with serif headline signals quality.
+
+---
+
+### B6C2 — "I ACCIDENTALLY REPLACED 5 BOTTLES WITH 1 AT 52" (Nano Banana Pro + Canva)
+
+**Nano Banana Pro Prompt (shelf comparison image):**
+
+```
+A photorealistic photograph showing a bathroom shelf or medicine cabinet with two distinct halves. LEFT HALF: Five different supplement bottles crowded together — different heights, different colored labels (green, orange, white, amber, blue), some with caps slightly crooked, one bottle nearly empty, labels facing different directions. The shelf is cluttered and chaotic. RIGHT HALF: A single white supplement bottle with a purple/violet accent label, standing alone on the same shelf with clean open space around it. The contrast is stark — cluttered mess on the left, clean simplicity on the right. The shelf is white or light wood. Natural bathroom lighting from above, slightly cool. The entire image communicates "before and after" without saying it. Shot straight-on at eye level, smartphone camera quality, natural color temperature. 4:5 aspect ratio.
+```
+
+**Post-production (Canva):**
+- Add text overlay in upper third: "I ACCIDENTALLY REPLACED / 5 BOTTLES WITH 1 AT 52" in Plus Jakarta Sans Bold, white, 48-56pt, ALL CAPS
+- Optional: add a subtle dividing line between left and right halves
+- The Baseline bottle on the right should be recognizable but doesn't need label text to be readable — the white bottle with purple accent is enough
+
+---
+
+### B6C3 — "I HAVEN'T HIT THE 3PM WALL IN 43 DAYS" (Canva Build — Minimal Text)
+
+**Canvas specs:** 1080×1350 (4:5)
+**Background:** Clean white or very light warm cream (#FAFAF7)
+**Typography:**
+- Main headline: Plus Jakarta Sans Bold, near-black (#1A1A1A), ALL CAPS, 60-72pt, centered
+- Line breaks: "I HAVEN'T HIT / THE 3PM WALL / IN 43 DAYS"
+- "43 DAYS" in deep teal (#0c3b3f) — the specific number pops as the proof point
+- Below headline (50px gap): Plus Jakarta Sans Regular, near-black at 50% opacity, sentence case, 22pt, centered: "Here's what changed."
+**Layout:** Headline vertically centered in the upper 55%. Subline below. Bottom 40% is intentional white space. Nothing else — no imagery, no product, no embellishment. The white space IS confidence. The simplicity IS the statement.
+**Mood:** Clean, bold, factual. Feels like a pull quote from a health article, not an ad. The specific number (43) does the heavy lifting — it feels tracked, measured, real. "Here's what changed" creates the curiosity gap that forces the click.
 
 ---
 

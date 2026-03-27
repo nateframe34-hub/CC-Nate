@@ -90,6 +90,56 @@ Top half: "NOTHING CHANGED." Bottom half: "YOUR BODY DID." Bold, high-contrast. 
 
 ---
 
+## Creative Build Notes (Canva — Not AI Generated)
+
+Avatar Call Out creatives are text-dominant designed graphics. Build in Canva, not Nano Banana Pro.
+
+### B4C1 — "WHEN YOUR 3RD COFFEE STOPS WORKING BY 2PM"
+
+**Canvas specs:** 1080×1350 (4:5)
+**Background:** Solid deep teal (#0c3b3f)
+**Typography:**
+- Main headline: Plus Jakarta Sans Bold (or similar heavy sans-serif), white, ALL CAPS, 60-72pt, centered
+- Line breaks: "WHEN YOUR / 3RD COFFEE / STOPS WORKING / BY 2PM"
+- Subline: Plus Jakarta Sans Regular, white at 60% opacity, sentence case, 20pt, centered below headline with 40px gap: "There's a reason. And it's not caffeine."
+**Layout:** Headline vertically centered in the upper 60% of the canvas. Subline below. Bottom 15% is clean space. No imagery, no product, no logo. The bold white text on dark teal IS the entire creative.
+**Mood:** Confrontational, direct, impossible to scroll past. Feels like a public service announcement, not an ad.
+
+---
+
+### B4C2 — "THE 3PM CRASH ISN'T A COFFEE PROBLEM"
+
+**Canvas specs:** 1080×1350 (4:5)
+**Background:** Nano Banana Pro generated lifestyle image (see prompt below), dimmed to 30-40% brightness with dark overlay
+**Typography:**
+- Main headline: Plus Jakarta Sans Bold, white, ALL CAPS, 60-72pt, centered
+- Line breaks: "THE 3PM CRASH / ISN'T A / COFFEE PROBLEM"
+- No subline — the body copy in Meta provides the answer
+**Layout:** Headline centered vertically over the dimmed image. Text has a subtle drop shadow or dark text-shadow for readability.
+**Mood:** The lifestyle image provides warmth/context, the text provides the punch. The image doesn't distract — it grounds the statement in reality.
+
+**Nano Banana Pro Prompt (background image):**
+
+```
+A photorealistic photograph of a half-drunk coffee cup on a cluttered office desk in harsh fluorescent afternoon light. The coffee is cold — no steam, dark surface slightly reflective. Around the cup: a laptop with the screen showing a blurred spreadsheet, a phone face-down, scattered papers, a pen with the cap off, a granola bar wrapper. The desk is standard office beige or gray laminate. The lighting is flat and institutional — overhead fluorescent panels, no natural light. The time of day feels like 2-3pm. The mood is monotonous, draining, stuck. No people visible. Shot from slightly above at a natural desk-level angle, smartphone camera quality. Muted color palette — no vibrancy, everything feels washed out and tired. 4:5 aspect ratio.
+```
+
+**Post-production:** Apply a dark overlay (black at 60-70% opacity) over the generated image. Place headline text on top. The image should be visible but muted — a texture, not a focal point.
+
+---
+
+### B4C3 — "NOTHING CHANGED. YOUR BODY DID."
+
+**Canvas specs:** 1080×1350 (4:5)
+**Background:** Clean split — top half warm cream (#F5F0E8), bottom half deep teal (#0c3b3f)
+**Typography:**
+- Top text: Plus Jakarta Sans Bold, near-black (#1A1A1A), ALL CAPS, 60-72pt, centered in cream half: "NOTHING CHANGED."
+- Bottom text: Plus Jakarta Sans Bold, white, ALL CAPS, 60-72pt, centered in teal half: "YOUR BODY DID."
+**Layout:** Clean horizontal split at the vertical center. Each half contains one line of text, vertically centered within its half. Nothing else — no imagery, no subline, no embellishment. The contrast between the two halves IS the message.
+**Mood:** Stark, undeniable. The color shift from warm to dark mirrors the message — something changed, and it's visual. Single-glance comprehension.
+
+---
+
 ## Shared Body Copy (2 Versions — 3:2:2)
 
 **Body Copy 1 (Problem → mechanism → product → offer):**
