@@ -9,7 +9,7 @@
 
 ---
 
-# 5 Reasons the 3pm Crash Gets Worse After 40 (And the Cellular Fix Nobody Told You About)
+# 5 Reasons the 3pm Crash Gets Worse After 40 (And What Actually Fixes It)
 
 You used to power through the afternoon. Now 2pm hits and it's like someone unplugged you.
 
