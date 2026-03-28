@@ -4,7 +4,7 @@
 > **Format:** Specific Pain Point (colloquial, confrontational name for the problem)
 > **Sub-Avatar:** The Invisible Woman (women 40-55, perimenopause fatigue)
 > **Pre-sell:** YES — Short listicle ("Why Everything the Wellness Industry Sold You Didn't Work")
-> **Kill Rule:** $75 spend per ad with no purchase = dead
+> **Kill Rule:** Hard kill at $50 (2x CPA). Soft kill at $37.50 (1.5x CPA) if metrics are bad (CPM >$80, CTR <1%, 0 LPVs, or LPVs with 0 ATCs). Exception: if ad has ATC/IC before $50, extend to $75 to see if it converts.
 
 ---
 

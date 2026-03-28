@@ -4,7 +4,7 @@
 > **Format:** Avatar Call Out (bold headline naming a specific demographic)
 > **Sub-Avatar:** The 3pm Wall Hitter (adults 40+, universal afternoon crash)
 > **Pre-sell:** YES — Short listicle ("5 Reasons the 3pm Crash Gets Worse After 40")
-> **Kill Rule:** $75 spend per ad with no purchase = dead
+> **Kill Rule:** Hard kill at $50 (2x CPA). Soft kill at $37.50 (1.5x CPA) if metrics are bad (CPM >$80, CTR <1%, 0 LPVs, or LPVs with 0 ATCs). Exception: if ad has ATC/IC before $50, extend to $75 to see if it converts.
 
 ---
 

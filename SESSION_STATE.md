@@ -18,7 +18,7 @@
 - **Launch B3-B6** — set up in Meta Ads Manager, CBO, broad targeting 40+ US
 - **Log March 27+ ad data** when available
 - **Kill B1C3** (Trajectory) — $0.93 spend, 15 impressions, CBO abandoned it
-- **Kill rule enforced going forward:** $75 per ad with no purchase = dead
+- **Kill rule enforced going forward:** Hard kill at $50 (2x CPA). Soft kill at $37.50 if metrics are bad (CPM >$80, CTR <1%, 0 LPVs, or LPVs with 0 ATCs). Exception: ATC/IC before $50 = extend to $75.
 
 ## Key Decisions
 - 4 batches, 4 formats: B3 (native/camouflage), B4 (Avatar Call Out), B5 (Specific Pain Point), B6 (Accidental Ideal Outcome)
