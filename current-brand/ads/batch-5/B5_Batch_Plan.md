@@ -1,55 +1,35 @@
 # Batch 5 Plan — Specific Pain Point: The Invisible Woman
 
 > **Status:** Planned
-> **Format:** Specific Pain Point (colloquial, confrontational name for the problem)
+> **Format:** Specific Pain Point
 > **Sub-Avatar:** The Invisible Woman (women 40-55, perimenopause fatigue)
 > **Pre-sell:** YES — Short listicle ("Why Everything the Wellness Industry Sold You Didn't Work")
 > **Kill Rule:** Hard kill at $50 (2x CPA). Soft kill at $37.50 (1.5x CPA) if metrics are bad (CPM >$80, CTR <1%, 0 LPVs, or LPVs with 0 ATCs). Exception: if ad has ATC/IC before $50, extend to $75 to see if it converts.
+> **Structure:** 1 base image × 3 angle overlays (image is constant, headline/copy is the variable)
 
 ---
 
-## Purpose
+## Format: Specific Pain Point — Why This Format
 
-Test whether naming the specific pain in the audience's own language — direct, slightly provocative — converts better than storytelling. Specific Pain Point format is colloquial, confrontational, and product-adjacent. Also tests whether the Invisible Woman avatar converts when the copy structure and format are right (B2C1 and B2C2 targeted this avatar but with native format and broken copy).
+The Specific Pain Point format names the audience's problem using the colloquial, slightly provocative language they use about THEMSELVES. The swipe file example is "LOSE THE MUFFIN TOP FOR GOOD" — it doesn't say "reduce abdominal fat," it uses the exact words real people use. The viewer cringes or laughs — either way, they stop scrolling.
 
----
+**Why this format for the Invisible Woman:**
 
-## Why We Need to Test This
+1. **This avatar has SPECIFIC, nameable pain.** She doesn't say "I'm experiencing age-related fatigue." She says "I can't think straight by 11am" and "every supplement I've tried is garbage" and "my doctor said I'm fine but I'm NOT fine." The Specific Pain Point format is built for pain that has colloquial language attached to it.
 
-B2C1 (NotAboutWrinkles) proved the cosmetic-to-cellular reframe resonates — 7.41% blended CTR, people who saw it clicked hard. But CPMs were catastrophic ($366 avg) because "anti-aging" in the hook triggered Meta's health ad filters.
+2. **The swipe file match:** "LOSE THE MUFFIN TOP FOR GOOD" uses a slightly provocative term the audience uses about themselves. For the Invisible Woman, the equivalent terms are "the supplement graveyard," "fine for your age," and "not another cream." These are HER words — things she's said to friends, posted in Facebook groups, thought to herself. Naming them stops her scroll because she recognizes her own internal monologue.
 
-The Specific Pain Point format lets us name the pain WITHOUT using health-flagged keywords. We keep the reframe, lose the Meta penalty. Different format = different algorithmic treatment.
+3. **The format stacks product + price + guarantee in one image.** The RYZE ad has: product center, price slash top-right, provocative headline bottom, guarantee beneath. Complete direct-response formula in one creative. The Invisible Woman is skeptical — she needs to see the value proposition AND the risk reversal immediately, not after 500 words of story.
 
----
+4. **B2C1 proved this avatar engages when addressed directly.** 7.41% CTR — people who saw it clicked hard. The problem was CPM ($366 avg) because "anti-aging" triggered Meta's health filters. This format lets us name the pain without the flagged keywords.
 
-## Why We Think This Will Be Successful
-
-The Invisible Woman is massively underserved. The NMN market talks to biohackers and men. This avatar is women 40-55 experiencing perimenopause fatigue who are ANGRY at being offered wrinkle cream when they can't function.
-
-That anger is fuel. Specific Pain Point format channels anger into action.
-
-The B2C1 feedback loop confirmed "Not cream. Fuel." is the strongest positioning line for this avatar. And the "I've tried everything" inventory from B2C3 was the most powerful trust-building device in the entire campaign — we're porting it into this format.
-
----
-
-## Pre-sell: Listicle
-
-**Title:** "Why Everything the Wellness Industry Sold You Didn't Work (And What Actually Happens Inside Your Cells After 40)"
-**Length:** 500-800 words
-**Tone:** Frustrated, sharp, confrontational — matches the Invisible Woman's voice
-**Structure:** 5-7 numbered points, tearing down failed solutions, positioning Baseline as the structural fix
-
-1. Collagen doesn't fix what's actually broken (it's cosmetic, not cellular)
-2. Adaptogens mask symptoms without addressing the cause
-3. Your doctor's blood work doesn't test for NAD+ (the invisible decline)
-4. NAD+ decline happens on its own timeline — separate from hormonal changes (both are real)
-5. Most NMN supplements are underdosed (125mg vs 500mg research dose)
-6. One formula replaces the shelf of bottles that didn't work
-7. Product bridge: Baseline 10-in-1, price, guarantee
-
-**Ends with:** CTA + risk reversal. UTM-tagged links to PDP.
-
-**Why a listicle:** Same logic as B4 — short-format ad creates recognition + click but zero mechanism education. The Invisible Woman is especially skeptical — she's been sold jade rollers and collagen powders. She needs to understand WHY this is different before spending $49.99. The listicle does that work. Tone matches the ad's confrontational energy (unlike an advertorial, which would feel too soft for this avatar).
+**Swipe file layout being copied (RYZE "LOSE THE MUFFIN TOP FOR GOOD"):**
+- Warm, earthy background with natural/organic elements
+- Multiple product units center (abundance signal)
+- Price slash badge top-right
+- Bold provocative headline bottom
+- Guarantee line beneath headline
+- Product-forward, promotional, complete DR formula in one image
 
 ---
 
@@ -58,108 +38,105 @@ The B2C1 feedback loop confirmed "Not cream. Fuel." is the strongest positioning
 **Desire:** "I want to function, not look younger"
 **Experience:** Perimenopause/menopause fatigue, dismissed by doctors ("you're fine for your age"), sold cosmetic solutions for a functional problem
 **Emotion:** Anger, frustration, feeling invisible ("the wellness industry doesn't see me")
-**Behavior:** Has a cabinet full of failed supplements, stopped trusting wellness marketing, researches on her own
+**Behavior:** Cabinet full of failed supplements, stopped trusting wellness marketing, researches on her own
 **Demographics:** Women 40-55
 
-**Why this sub-avatar:** Most differentiated avatar — nobody in the NMN market talks to her directly. B2C1 and B2C2 showed this audience engages hard when addressed specifically. Underserved = less competition for attention = potential for lower CPAs.
+**Why this sub-avatar for B5:**
+- Most differentiated avatar — nobody in the NMN market talks to her directly. Underserved = less competition for attention.
+- B2C1 and B2C2 showed this audience engages hard when addressed specifically.
+- B2C2 (Exhausted Parent) is a SUBSET of the Invisible Woman — the parental guilt angle worked. B5 tests whether the broader Invisible Woman framing (not just parents) also converts.
+- The anger/frustration emotion is FUEL for the Specific Pain Point format — provocative language channels that anger into action.
 
 ---
 
-## 3 Angles
+## 3 Angles Being Tested
 
-| # | Angle | On-Image Headline | Why This Angle |
-|---|---|---|---|
-| **B5C1** | Not about wrinkles | "YOU DON'T NEED ANOTHER CREAM. YOU NEED YOUR CELLS TO WORK." | Cosmetic-to-cellular reframe. Rescued from B2C1 — the reframe was strong, the "anti-aging" keyword was the CPM problem. Removed here. |
-| **B5C2** | The supplement graveyard | "THE $400 SUPPLEMENT GRAVEYARD IN YOUR CABINET" | Names the exact behavior — she has a shelf full of things that didn't work. $400 feels measured (not round). Provocative but relatable. |
-| **B5C3** | "Fine for your age" | "YOUR DOCTOR SAID YOU'RE 'FINE.' YOU DON'T FEEL FINE." | Names the experience that unites this entire avatar — medical dismissal. Every woman in this sub-avatar has heard this exact phrase. |
+All three angles target the same sub-avatar (Invisible Woman) with the same image. The headline and sub-copy change.
 
----
+| # | Angle | Headline | Sub-copy | Why This Angle |
+|---|---|---|---|---|
+| **B5C1** | Not about wrinkles — it's about function | **NOT CREAM. FUEL.** | "Your cells need energy, not collagen. 500mg NMN + 9 ingredients." | Shortest, sharpest version of the cosmetic-to-cellular reframe. 3 words. Directly contrasts what she's been sold vs what she actually needs. B2C1's strongest positioning line, distilled. |
+| **B5C2** | The supplement graveyard | **$400 OF SUPPLEMENTS THAT DID NOTHING.** | "None of them addressed what actually changed after 40." | Names the exact experience — she has a cabinet full of failures. Specific dollar amount ($400) feels measured and real. Slightly provocative — makes her think of her own wasted money. Like "MUFFIN TOP" — it's the word SHE uses, not a marketer. |
+| **B5C3** | Doctor dismissal | **"YOU'RE FINE." YOU'RE NOT FINE.** | "Your blood work is normal. Your energy isn't. There's a piece nobody mentioned." | Names the experience that unites this entire avatar — being told "you're fine" when nothing feels fine. The quotes around "YOU'RE FINE" signal sarcasm/dismissal. Every woman in this sub-avatar has heard these exact words. |
 
-## Creative Direction (3 Images)
-
-**B5C1 — Text-dominant with warm background:**
-Large bold text on a warm cream or muted background: "YOU DON'T NEED ANOTHER CREAM. YOU NEED YOUR CELLS TO WORK." No product image. The text IS the creative. Possibly a small red X over a faded collagen bottle silhouette. Clean, confrontational.
-
-**B5C2 — Bathroom counter shot:**
-Real, messy bathroom counter with 5-6 supplement bottles, a collagen powder, a jade roller, moisturizer — the supplement graveyard. Slightly overhead angle like someone took a frustrated photo. Bold text overlay: "THE $400 SUPPLEMENT GRAVEYARD IN YOUR CABINET." Feels confrontational and real. NOTE: The supplement bottles are OTHER brands' failures, not ours (avoids B1C2 product-forward CPM problem).
-
-**B5C3 — Doctor's office POV:**
-Shot from the patient's perspective sitting on an exam table, doctor's clipboard or computer screen blurred in the background. Text overlay: "YOUR DOCTOR SAID YOU'RE 'FINE.' YOU DON'T FEEL FINE." Feels like a real moment. Personal, slightly clinical.
-
-**All creatives:** Bold sans-serif typography. Confrontational tone. No Baseline product visible. 1080×1350 (4:5) or 1080×1920 (9:16).
+**What we'll learn from these 3 angles:**
+- Does the REFRAME work best? (B5C1 — cosmetic vs cellular)
+- Does naming the FAILURE work best? (B5C2 — wasted money on supplements)
+- Does naming the DISMISSAL work best? (B5C3 — doctor said you're fine)
 
 ---
 
-## Creative Build Notes
+## Creative: One Base Image, Three Overlays
 
-### B5C1 — "YOU DON'T NEED ANOTHER CREAM. YOU NEED YOUR CELLS TO WORK." (Canva Build)
+### Base Image
 
-**Canvas specs:** 1080×1350 (4:5)
-**Background:** Warm cream (#F5F0E8) with a subtle texture (linen or paper grain)
-**Typography:**
-- Main headline: Plus Jakarta Sans Bold, near-black (#1A1A1A), ALL CAPS, 54-64pt, centered
-- Line breaks: "YOU DON'T NEED / ANOTHER CREAM." (line break, 30px gap) "YOU NEED YOUR / CELLS TO WORK."
-- "ANOTHER CREAM" in a muted rose/pink (#C4848A) with a strikethrough line through it — visually dismissed
-- "CELLS TO WORK" in deep teal (#0c3b3f) — visually elevated
-**Layout:** Headline centered vertically. Below the headline (bottom 20%), small faded silhouettes of a cream jar, a collagen tub, and a jade roller in 15% opacity warm gray — almost invisible background elements that reinforce the message without distracting.
-**Mood:** Clean, sharp, dismissive of the old paradigm. The strikethrough on "cream" does the competitor teardown visually.
-
----
-
-### B5C2 — "THE $400 SUPPLEMENT GRAVEYARD IN YOUR CABINET" (Nano Banana Pro)
+**Why this image:** The RYZE Specific Pain Point ad uses warm-toned product photography with multiple product units on a natural/earthy background. For Baseline, the equivalent is multiple bottles on a warm cream background with botanical elements — matching our brand aesthetic while following the format's abundance-signal pattern. The warm tones feel approachable and feminine (matching the Invisible Woman avatar) without being "wellness influencer" pink.
 
 **Nano Banana Pro Prompt:**
 
 ```
-A photorealistic overhead photograph of a bathroom cabinet shelf or countertop cluttered with supplement bottles and wellness products. Visible items: a collagen powder tub with a pink label, a magnesium bottle half-empty, a bottle of vitamin D with the cap off, an ashwagandha supplement with a green label, a small amber bottle of evening primrose oil, a jade roller lying on its side, a tube of expensive face serum with a metallic cap, and a small jar of adaptogenic powder. The bottles are different heights, brands, and label colors — clearly accumulated over time from different purchases. Some bottles have dust on the caps. One bottle is nearly empty. The shelf or counter is white or light gray, slightly dirty in the corners. A few capsules have spilled and sit loose on the surface. Natural bathroom lighting — slightly cool, overhead. The image looks like someone opened their medicine cabinet, saw the mess, and took a frustrated overhead photo. Smartphone camera quality, shot from directly above, natural color temperature. No text overlay needed — will be added in Canva. 4:5 aspect ratio.
+Ultra-realistic product photography of two white cylindrical supplement bottles with purple/violet accent labels and white screw caps, arranged side by side on a warm cream surface with one bottle slightly in front of the other, angled 15 degrees apart. Gold circular certification badges visible on the front bottle's label. A few small white vegetarian capsules scattered naturally on the surface between and around the bottles. Botanical elements: a small sprig of dried lavender and a eucalyptus branch placed casually beside the bottles, adding organic feminine warmth. The background is a warm gradient from cream to soft blush-pink, very subtle. Soft, diffused lighting from above and slightly left, creating gentle shadows beneath the bottles. The overall mood is warm, clean, premium-but-approachable — like a high-end wellness brand photographed for a magazine, not a clinical product shot. The bottles occupy the CENTER of the frame, approximately 50% of the image width. The TOP 25% and BOTTOM 20% of the frame should have clean space for headline and guarantee text overlay. 4:5 aspect ratio, 8K resolution.
 ```
 
-**Post-production (Canva):** Add bold white text overlay: "THE $400 SUPPLEMENT GRAVEYARD IN YOUR CABINET" in Plus Jakarta Sans Bold, 48-56pt, ALL CAPS, positioned in the upper third with a subtle dark gradient behind the text for readability.
+**Post-production notes:**
+- Top 25% and bottom 20% must be clean for text overlays
+- Two bottles (not three) — signals "this is a protocol" without looking like a bulk ad
+- If label text is garbled, fine — white + purple + gold badges = Baseline at a glance
+- Generate 3-4 times, pick the warmest, most feminine output
+
+### Overlay Specs (Canva — 3 versions using same base image)
+
+**Price badge (same on all 3):** Top-right corner, rounded badge — ~~$59.99~~ **$49.99** with "LAUNCH PRICE" label
+
+**Guarantee line (same on all 3):** Bottom of frame, small text — "30-day money-back guarantee · 60-day supply"
+
+**B5C1 overlay:**
+- Headline (bottom, large): **NOT CREAM. FUEL.** — Plus Jakarta Sans Bold, deep teal (#0c3b3f), 64pt
+- Sub-copy (below headline): "Your cells need energy, not collagen. 500mg NMN + 9 ingredients." — 16pt, dark gray
+
+**B5C2 overlay:**
+- Headline (bottom, large): **$400 OF SUPPLEMENTS THAT DID NOTHING.** — Plus Jakarta Sans Bold, deep teal (#0c3b3f), 48-52pt
+- Sub-copy: "None of them addressed what actually changed after 40." — 16pt, dark gray
+
+**B5C3 overlay:**
+- Headline (bottom, large): **"YOU'RE FINE." YOU'RE NOT FINE.** — Plus Jakarta Sans Bold, deep teal (#0c3b3f), 52-56pt. "YOU'RE FINE." in quotes, slightly different treatment (italic or lighter weight) to signal sarcasm.
+- Sub-copy: "Your blood work is normal. Your energy isn't. There's a piece nobody mentioned." — 16pt, dark gray
 
 ---
 
-### B5C3 — "YOUR DOCTOR SAID YOU'RE 'FINE.' YOU DON'T FEEL FINE." (Nano Banana Pro)
+## Why We Think This Will Convert
 
-**Nano Banana Pro Prompt:**
-
-```
-A photorealistic photograph taken from the patient's perspective sitting on a medical exam table in a doctor's office. The shot looks down at the photographer's own legs dangling off the edge of the exam table, wearing jeans and white sneakers. The paper covering on the exam table is slightly crinkled. In the background, slightly blurred: a doctor's rolling stool, a blood pressure cuff mounted on the wall, a computer screen showing what appears to be test results, a jar of cotton balls on the counter, a hand sanitizer dispenser. The room has standard medical office fluorescent lighting — cool, flat, clinical. The mood is: alone in the exam room, waiting, or just received dismissive news. The image should feel like someone sat on the exam table, looked down at their legs, and took a photo in a moment of frustration after being told "everything's normal." Smartphone camera quality, shot from eye level looking down, slightly cool color temperature. No doctor visible. No face visible. 4:5 aspect ratio.
-```
-
-**Post-production (Canva):** Add bold white text overlay: "YOUR DOCTOR SAID / YOU'RE 'FINE.' / YOU DON'T FEEL FINE." in Plus Jakarta Sans Bold, 48-56pt, ALL CAPS, positioned in the upper third. "FINE" in quotes with a slightly different color or italic emphasis to convey sarcasm. Subtle dark gradient behind text for readability.
-
----
-
-## Shared Body Copy (2 Versions — 3:2:2)
-
-**Body Copy 1 (Confrontational → mechanism → product):**
-"Collagen powder. Jade roller. Adaptogenic lattes. Magnesium. Vitamin D. A $90 serum that promised to 'restore your glow.' None of it worked because none of it addressed what actually changed: after 40, your cells produce less NAD+ — the molecule behind energy, focus, and recovery. Baseline 10-in-1 delivers 500mg NMN + 9 supporting compounds. Not cream. Fuel. $49.99 for 60 days — buy 2 save $10, buy 3 save $30. 30-day guarantee."
-
-**Body Copy 2 (Validation → mechanism → product):**
-"Your blood work came back 'normal.' Your thyroid is 'fine.' You're 'healthy for your age.' But you can't think straight by 11am. There's a piece nobody told you about: NAD+, a coenzyme in every cell, declines significantly after 40 — on its own timeline, separate from everything else. Baseline 10-in-1 supports your body's NAD+ production with the clinical dose (500mg NMN) plus 9 ingredients that help your cells actually use it. One bottle instead of five. Try it risk-free — 30-day guarantee."
+1. **Product visible with abundance signal.** Two bottles center = "this is a protocol," not a random purchase. Matches the RYZE format's multiple-bag approach.
+2. **Price anchored on the image.** ~~$59.99~~ → $49.99 with "LAUNCH PRICE" badge. Price slash triggers loss aversion. The viewer knows the cost before clicking.
+3. **Risk reversal visible.** 30-day guarantee on the image. Removes the biggest objection for a skeptical avatar who's been burned before.
+4. **Provocative headlines use HER language.** "Not cream. Fuel." / "$400 of supplements" / "You're fine" — these are things she's SAID or been TOLD. The specificity creates the "that's exactly me" jolt.
+5. **Listicle pre-sell matches the confrontational energy.** The ad provokes, the listicle validates and educates, the PDP closes.
+6. **No "anti-aging" keyword.** B2C1's CPM problem solved — none of these headlines trigger Meta's health ad classification.
 
 ---
 
-## Shared Headlines (2) & Descriptions (2)
+## What We're Testing This Batch
 
-**Headline 1:** "Not cream. Cellular fuel."
-**Headline 2:** "The piece your doctor didn't mention"
+**Primary test:** Does the Invisible Woman sub-avatar convert when addressed with a non-native, product-visible format? B2C1 and B2C2 addressed her with native/camouflage and got engagement but no purchases.
 
-**Description 1:** "Buy 2 save $10 · Buy 3 save $30"
-**Description 2:** "30-day money-back guarantee"
+**Secondary test:** Which pain point resonates most?
+- The cosmetic reframe (NOT CREAM. FUEL.)
+- The wasted money ($400 OF SUPPLEMENTS)
+- The medical dismissal ("YOU'RE FINE.")
+
+**Tertiary test:** Does the Specific Pain Point format (provocative, product-forward, price-visible) convert better than Relatable Hook (B4) or native/camouflage (B3)?
 
 ---
 
 ## Learnings Applied from B1-B2
 
-- B2C1 cosmetic-to-cellular reframe preserved, "anti-aging" keyword removed (CPM fix)
-- B2C3 "I've tried everything" inventory ported into Body Copy 1 (strongest trust device in campaign)
-- B1C1 doctor dismissal angle ported into B5C3 (three-doctor narrative was compelling but trapped in 465 words — distilled to one line)
-- Product bridge with specifics: 500mg, 10-in-1, stack replacement, price, guarantee
-- OBJECTION → CLAIM → PROOF → BENEFIT in body copy
-- Supplement graveyard creative shows OTHER brands' bottles, not ours (B1C2 lesson: product-forward = CPM death spiral)
-- New format tests whether the Invisible Woman responds to direct confrontation vs storytelling
+- B2C1 cosmetic-to-cellular reframe preserved in B5C1, "anti-aging" keyword removed (CPM fix)
+- B2C3 "I've tried everything" inventory inspired B5C2's "$400 of supplements" angle (strongest trust device repurposed)
+- B1C1 doctor dismissal angle distilled into B5C3's one-line format (was trapped in 465 words, now in 5 words)
+- Product visible (B1-B2 hid product, got curiosity clickers)
+- Price and guarantee visible (B1-B2 had zero price framing)
+- No health-flagged keywords in headlines (B2C1's $366 CPM lesson)
 
 ---
 
-*Plan created: March 27, 2026*
+*Plan created: March 28, 2026*
