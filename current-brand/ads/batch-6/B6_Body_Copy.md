@@ -51,7 +51,7 @@ Individual results may vary.
 ## Shared Headlines (2)
 
 **Headline 1:** "What I accidentally changed at 47"
-**Headline 2:** "10 ingredients. One serving. Under $50."
+**Headline 2:** "10 ingredients. One serving. $49.99."
 
 ---
 
