@@ -18,7 +18,7 @@ Two capsules in the morning with coffee. That's it. That's the whole routine.
 
 By week 3, I realized I hadn't reached for coffee since noon. By week 6, I stopped keeping track.
 
-10 ingredients. One serving. 60-day supply for under $50.
+10 ingredients. One serving. $49.99 for a 60-day supply — or buy 2 and save $10, buy 3 and save $30.
 
 I was spending more than that on the supplements that weren't working. Most NMN brands sell 125mg. This one has 500mg — the dose the published research actually uses.
 
@@ -38,7 +38,7 @@ NMN is what your body uses to produce NAD+. But here's what nobody tells you: mo
 
 Baseline 10-in-1 combines 500mg NMN with resveratrol, CoQ10, glutathione, TMG, quercetin, astaxanthin, apigenin, grape seed extract, and vitamin C. Each one supports a different piece of how your cells produce and use energy.
 
-One bottle replaced my entire supplement shelf. Two capsules in the morning. Under $50 for 60 days.
+One bottle replaced my entire supplement shelf. Two capsules in the morning. $49.99 for 60 days — buy 2 save $10, buy 3 save $30.
 
 I didn't set out to fix anything. I just tried one more thing. This was the one that worked.
 

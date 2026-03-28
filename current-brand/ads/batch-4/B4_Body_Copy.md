@@ -18,7 +18,7 @@ Most supplements don't address this. Most NMN brands sell 125mg — a fraction o
 
 Baseline NMN 10-in-1 delivers 500mg NMN plus 9 supporting ingredients — resveratrol, CoQ10, glutathione, TMG, quercetin, astaxanthin, apigenin, grape seed extract, and vitamin C. One serving replaces 5 separate bottles.
 
-60-day supply. Under $50. 30-day money-back guarantee.
+$49.99 for a 60-day supply. Buy 2, save $10. Buy 3, save $30. 30-day money-back guarantee.
 
 Less than your afternoon coffee — and it actually addresses the crash instead of borrowing from tomorrow.
 
@@ -38,7 +38,7 @@ NMN is what your body converts into NAD+. But most NMN supplements sell 125mg. T
 
 Baseline 10-in-1: 500mg NMN + 9 compounds your cells need to produce and use energy — CoQ10 for mitochondrial fuel, resveratrol for sirtuin activation, glutathione for antioxidant defense, TMG for methylation support. All in one serving.
 
-Under $50 for a 60-day supply. 30-day guarantee if nothing changes. One bottle instead of five.
+$49.99 for a 60-day supply — or buy 2 and save $10, buy 3 and save $30. 30-day guarantee if nothing changes. One bottle instead of five.
 
 Individual results may vary.
 
@@ -54,7 +54,7 @@ Individual results may vary.
 ## Shared Descriptions (2)
 
 **Description 1:** "30-day money-back guarantee"
-**Description 2:** "60-day supply — under $50"
+**Description 2:** "Buy 2 save $10 · Buy 3 save $30"
 
 ---
 

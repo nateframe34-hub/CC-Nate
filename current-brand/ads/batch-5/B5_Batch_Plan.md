@@ -133,7 +133,7 @@ A photorealistic photograph taken from the patient's perspective sitting on a me
 ## Shared Body Copy (2 Versions — 3:2:2)
 
 **Body Copy 1 (Confrontational → mechanism → product):**
-"Collagen powder. Jade roller. Adaptogenic lattes. Magnesium. Vitamin D. A $90 serum that promised to 'restore your glow.' None of it worked because none of it addressed what actually changed: after 40, your cells produce less NAD+ — the molecule behind energy, focus, and recovery. Baseline 10-in-1 delivers 500mg NMN + 9 supporting compounds. Not cream. Fuel. 60-day supply under $50. 30-day guarantee."
+"Collagen powder. Jade roller. Adaptogenic lattes. Magnesium. Vitamin D. A $90 serum that promised to 'restore your glow.' None of it worked because none of it addressed what actually changed: after 40, your cells produce less NAD+ — the molecule behind energy, focus, and recovery. Baseline 10-in-1 delivers 500mg NMN + 9 supporting compounds. Not cream. Fuel. $49.99 for 60 days — buy 2 save $10, buy 3 save $30. 30-day guarantee."
 
 **Body Copy 2 (Validation → mechanism → product):**
 "Your blood work came back 'normal.' Your thyroid is 'fine.' You're 'healthy for your age.' But you can't think straight by 11am. There's a piece nobody told you about: NAD+, a coenzyme in every cell, declines significantly after 40 — on its own timeline, separate from everything else. Baseline 10-in-1 supports your body's NAD+ production with the clinical dose (500mg NMN) plus 9 ingredients that help your cells actually use it. One bottle instead of five. Try it risk-free — 30-day guarantee."
@@ -145,7 +145,7 @@ A photorealistic photograph taken from the patient's perspective sitting on a me
 **Headline 1:** "Not cream. Cellular fuel."
 **Headline 2:** "The piece your doctor didn't mention"
 
-**Description 1:** "500mg NMN + 9 ingredients — $49.99"
+**Description 1:** "Buy 2 save $10 · Buy 3 save $30"
 **Description 2:** "30-day money-back guarantee"
 
 ---

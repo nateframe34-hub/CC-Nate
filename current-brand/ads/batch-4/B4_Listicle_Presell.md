@@ -83,7 +83,7 @@ Baseline NMN 10-in-1 delivers 500mg NMN — the full dose from published researc
 
 One serving. Two capsules. Replaces 5+ separate bottles.
 
-**60-day supply for $49.99.** Subscribe & save: $42.95.
+**$49.99 for a 60-day supply. Buy 2, save $10. Buy 3, save $30.**
 
 Buying these ingredients separately from quality brands costs $150-300/month. This consolidates them into one formula at a fraction of the cost.
 

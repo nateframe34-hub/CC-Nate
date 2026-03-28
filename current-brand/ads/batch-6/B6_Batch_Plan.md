@@ -107,7 +107,7 @@ Large, confident text: "I HAVEN'T HIT THE 3PM WALL IN 43 DAYS." Below in smaller
 - Below headline (40px gap): 4 bullet points in Plus Jakarta Sans Regular, white at 80% opacity, 16-18pt, left-aligned with center block:
   - "• 500mg NMN — the clinical research dose"
   - "• 9 supporting ingredients in one serving"
-  - "• 60-day supply for under $50"
+  - "• Buy 2 save $10 · Buy 3 save $30"
   - "• 30-day money-back guarantee"
 - Bottom 15%: Small product image (Baseline bottle, white on dark background) centered, approximately 120px tall. Below it: "trybasline.com" in JetBrains Mono, white at 40% opacity, 12pt
 **Layout:** Headline top, bullet proof points middle, product bottom. Clear top-to-bottom reading hierarchy. The headline hooks, the bullets justify, the product anchors.
@@ -147,10 +147,10 @@ A photorealistic photograph showing a bathroom shelf or medicine cabinet with tw
 ## Shared Body Copy (2 Versions — 3:2:2)
 
 **Body Copy 1 (Discovery narrative, medium):**
-"I didn't plan this. I ordered it because a friend wouldn't stop talking about it. Two capsules in the morning — 500mg NMN plus 9 other ingredients I'd been buying separately. By week 3, I realized I hadn't reached for coffee since noon. By week 6, I stopped keeping track. 10 ingredients. One serving. 60-day supply for under $50. I spent more on supplements that didn't work. 30-day guarantee if nothing changes."
+"I didn't plan this. I ordered it because a friend wouldn't stop talking about it. Two capsules in the morning — 500mg NMN plus 9 other ingredients I'd been buying separately. By week 3, I realized I hadn't reached for coffee since noon. By week 6, I stopped keeping track. 10 ingredients. One serving. $49.99 for a 60-day supply — buy 2 save $10, buy 3 save $30. I spent more on supplements that didn't work. 30-day guarantee if nothing changes."
 
 **Body Copy 2 (Mechanism + product, medium):**
-"After 40, your cells produce less NAD+ — the molecule behind energy, focus, and recovery. I didn't know this until 47. NMN is what your body uses to make more. Baseline combines 500mg NMN (the clinical dose) with resveratrol, CoQ10, glutathione, and 6 more ingredients that support how your cells use it. One bottle replaced my entire supplement shelf. Two capsules. Under $50 for 60 days. Try it risk-free."
+"After 40, your cells produce less NAD+ — the molecule behind energy, focus, and recovery. I didn't know this until 47. NMN is what your body uses to make more. Baseline combines 500mg NMN (the clinical dose) with resveratrol, CoQ10, glutathione, and 6 more ingredients that support how your cells use it. One bottle replaced my entire supplement shelf. Two capsules. $49.99 for 60 days — buy 2 save $10, buy 3 save $30. Try it risk-free."
 
 ---
 

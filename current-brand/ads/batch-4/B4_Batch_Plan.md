@@ -146,7 +146,7 @@ A photorealistic photograph of a half-drunk coffee cup on a cluttered office des
 "After 40, your cells produce less NAD+ — the molecule behind sustained energy. It's not caffeine tolerance. It's not stress. It's cellular. Baseline NMN 10-in-1 delivers 500mg NMN (the clinical dose) plus 9 supporting ingredients. One serving replaces 5 separate bottles. 60-day supply. 30-day money-back guarantee. Less than your afternoon coffee."
 
 **Body Copy 2 (Objection-first → mechanism → product → offer):**
-"You've tried more sleep. Better food. Vitamins. Magnesium. A $60 greens powder that tasted like dirt. Nothing worked because nothing addressed what actually changed: your cells produce less NAD+ after 40. Baseline 10-in-1 delivers 500mg NMN + 9 compounds your cells need. Under $50 for a 60-day supply. 30-day guarantee if nothing changes."
+"You've tried more sleep. Better food. Vitamins. Magnesium. A $60 greens powder that tasted like dirt. Nothing worked because nothing addressed what actually changed: your cells produce less NAD+ after 40. Baseline 10-in-1 delivers 500mg NMN + 9 compounds your cells need. $49.99 for a 60-day supply — buy 2 save $10, buy 3 save $30. 30-day guarantee if nothing changes."
 
 ---
 
@@ -156,7 +156,7 @@ A photorealistic photograph of a half-drunk coffee cup on a cluttered office des
 **Headline 2:** "500mg NMN + 9 ingredients. One serving."
 
 **Description 1:** "30-day money-back guarantee"
-**Description 2:** "60-day supply — under $50"
+**Description 2:** "Buy 2 save $10 · Buy 3 save $30"
 
 ---
 

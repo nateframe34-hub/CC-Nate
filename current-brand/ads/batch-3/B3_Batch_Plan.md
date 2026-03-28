@@ -115,7 +115,7 @@ Each ad follows the full Origins 12-step native body copy structure:
 3. **Turning point** — Discovery moment (Facebook group, friend, late-night research)
 4. **Mechanism reveal** — NAD+ decline explained simply, separate from hormonal changes
 5. **Social proof stack** — 2-3 short embedded testimonials from other moms (NEW)
-6. **Product introduction** — "Baseline 10-in-1: 500mg NMN + 9 supporting ingredients. The clinical dose. One serving replaces 5 separate bottles. Under $50 for 60 days." (EXPANDED from 1 sentence to 3-4)
+6. **Product introduction** — "Baseline 10-in-1: 500mg NMN + 9 supporting ingredients. The clinical dose. One serving replaces 5 separate bottles. $49.99 for 60 days — buy 2 save $10, buy 3 save $30." (EXPANDED from 1 sentence to 3-4)
 7. **Results timeline** — Week-by-week, starting with "nothing" (keep)
 8. **Emotional resolution** — Narrator's story resolves, but NOT fully ("Most days now, I can be present. Not every day. But most days.")
 9. **Reframe + validation** — "It's not willpower. It's not laziness. It's not 'just your age.' There's a piece nobody told you about." (NEW)
@@ -135,7 +135,7 @@ Each ad follows the full Origins 12-step native body copy structure:
 - OBJECTION: "How is this different from the $15 NMN on Amazon?"
 - CLAIM: "One serving replaces 5 separate bottles."
 - PROOF: "NMN + resveratrol + CoQ10 + glutathione + TMG + quercetin + astaxanthin + apigenin + grape seed extract + vitamin C."
-- BENEFIT: "Two capsules. One bottle on your counter instead of five. Under $50 for 60 days."
+- BENEFIT: "Two capsules. One bottle on your counter instead of five. $49.99 — or buy 2 and save $10, buy 3 and save $30."
 
 ---
 
