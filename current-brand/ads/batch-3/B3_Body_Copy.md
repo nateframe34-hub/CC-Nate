@@ -82,7 +82,7 @@ Most supplements you've tried probably weren't addressing this. Most NMN supplem
 
 I don't know if your story looks like mine. But if you're counting "maybe laters" too — if you're sitting in the car before pickup gathering energy to walk through the door — there might be a piece of this you haven't been told about yet.
 
-See the full Baseline 10-in-1 formula. 500mg NMN + 9 ingredients. $49.99 for a 60-day supply.
+See the full Baseline 10-in-1 formula. 500mg NMN + 9 ingredients. $39.99 for a 60-day supply.
 
 30-day money-back guarantee — if nothing changes, you get your money back. No hoops.
 
@@ -143,7 +143,7 @@ One woman in our book club started it two months before me. She said: "Week 3 wa
 
 I found Baseline 10-in-1. 500mg NMN — the research dose — plus resveratrol, CoQ10, glutathione, TMG, quercetin, astaxanthin, apigenin, grape seed extract, and vitamin C. 10 ingredients that work together on cellular energy, antioxidant defense, and mitochondrial function.
 
-One bottle replaced the three I was already taking. And it costs less — 60-day supply for $49.99. I was spending more on the stuff that wasn't working.
+One bottle replaced the three I was already taking. And it costs less — 60-day supply for $39.99. I was spending more on the stuff that wasn't working.
 
 ========
 
@@ -173,7 +173,7 @@ I don't know what your parking lot moment was. Maybe it hasn't happened yet. May
 
 But if you're showing up to your kids' lives running on empty — there might be a piece of this that nobody told you about.
 
-See the full 10-in-1 formula. $49.99 for a 60-day supply. 30-day guarantee — if nothing changes, you get a full refund. No questions.
+See the full 10-in-1 formula. $39.99 for a 60-day supply. 30-day guarantee — if nothing changes, you get a full refund. No questions.
 
 Your kids are only this age once. You already know that. That's why it hurts.
 
@@ -240,7 +240,7 @@ I found Baseline because my sister-in-law recommended it specifically. 500mg NMN
 
 "It's the only one I found that has the real dose AND the supporting ingredients," she said. "NMN alone is only part of it — your cells need antioxidants, methyl donors, and mitochondrial support to actually use the NAD+ you're producing. This has all of it."
 
-One bottle. 60-day supply. $49.99. I was spending more on the separate bottles that weren't working.
+One bottle. 60-day supply. $39.99. I was spending more on the separate bottles that weren't working.
 
 ========
 
@@ -268,7 +268,7 @@ I didn't notice the change. My husband did. My kids did. Sometimes the people ar
 
 If someone in your life has stopped commenting on how tired you look — or if they've started to — there might be a piece of this nobody mentioned.
 
-See the full Baseline 10-in-1 formula. 500mg NMN + 9 supporting ingredients. $49.99 for a 60-day supply. 30-day guarantee — if you don't feel the difference, you get your money back.
+See the full Baseline 10-in-1 formula. 500mg NMN + 9 supporting ingredients. $39.99 for a 60-day supply. 30-day guarantee — if you don't feel the difference, you get your money back.
 
 The people who notice the change might not be you. But they'll notice.
 
