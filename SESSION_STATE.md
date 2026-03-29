@@ -1,32 +1,38 @@
 # Session State — Baseline NMN
 
 ## Last Session
-- Completed full feedback loops for all B1-B2 ads (5 docs) — diagnosed core issue: ads generate curiosity clicks not purchase intent, missing 6 of 12 Origins copy structure steps
-- Built complete B3-B6 batch plans (4 batches, 12 ads, 4 formats) with creative prompts, body copy, listicles, and Shopify HTML
-- Updated V2 advertorial sticky CTA: teal pill button with gradient fade, copy changed to "See What I Changed"
+- Completed full PDP hero audit and made changes: shortened product name to "Baseline NMN 10-in-1", updated subtitle, added trust badges below ATC, updated bundle selector (Try It default, removed crossed-out prices, moved save badges to pricing column), changed announcement bar to "Free Shipping on Every Order"
+- Rewrote B4, B5, B6 batch plans — 1 format × 1 base image × 3 angle overlays each, based on actual swipe file formats
+- Fixed listicle congruency (B4 title, B6 first-person voice)
+- Moved "What's Actually Inside" section directly below hero, reordered ingredients (Resveratrol first, Vitamin C last)
+- B3 is LIVE (launched March 27). B4 is LIVE (launched March 28, processing)
+- Killed B1C1, B1C3, B2C3, Advertorial B2C1
+- B3C3 (PartnerNotices) is early winner: $22 CPM, 2.99% CTR, 10 LPVs on day 1
 
 ## In Progress
-- B2C2 A/B test still running (PDP vs advertorial destination) — give 2-3 more days
-- B2C1 may be in CPM death spiral ($1,004 day) — monitor, kill if it continues
-- March 27 ad stats NOT yet logged to Ad_Performance_Tracker.csv
-- UTM tracking from advertorial not working (same-domain Shopify issue) — needs JS click tracking or subdomain fix
+- B4 processing — 3 Relatable Hook ads (THE 3PM WALL / 3 COFFEES BY 2PM / NOTHING CHANGED. YOUR BODY DID.)
+- B3 running — watching for ATC/purchase signals, especially B3C3
+- B2C2 original + Advertorial B2C2 still running — plan to kill both once B4 starts delivering
+- B5 and B6 need creatives generated and listicles deployed before launch
+- PDP audit in progress — hero section done, need to review remaining sections below
 
 ## Next Up
-- **Generate creatives** — run Nano Banana Pro prompts for B3-B6 ad images + listicle images
-- **Build Canva creatives** — B4C1, B4C3, B5C1, B6C1, B6C3 are Canva text builds, plus NAD+ graphs
-- **Deploy listicles** — paste HTML into Shopify blog posts, upload images, replace placeholder URLs
-- **Launch B3-B6** — set up in Meta Ads Manager, CBO, broad targeting 40+ US
-- **Log March 27+ ad data** when available
-- **Kill B1C3** (Trajectory) — $0.93 spend, 15 impressions, CBO abandoned it
-- **Kill rule enforced going forward:** Hard kill at $50 (2x CPA). Soft kill at $37.50 if metrics are bad (CPM >$80, CTR <1%, 0 LPVs, or LPVs with 0 ATCs). Exception: ATC/IC before $50 = extend to $75.
+- Log March 29 ad stats
+- Check B4 delivery — first data on Relatable Hook format
+- Kill B2C2 original + Advertorial B2C2 once B4 is delivering
+- Generate B5 creative (warm cream background, 2 bottles, Specific Pain Point format)
+- Generate B6 creative (dark premium background, Accidental Ideal Outcome format)
+- Deploy B5 + B6 listicles to Shopify
+- Continue PDP audit: How It Works section, Science section, Reviews section, Guarantee section, FAQ
+- Launch B5 and B6 (1 batch per day)
 
 ## Key Decisions
-- 4 batches, 4 formats: B3 (native/camouflage), B4 (Avatar Call Out), B5 (Specific Pain Point), B6 (Accidental Ideal Outcome)
-- B4/B5/B6 use listicle pre-sells (short scannable articles) instead of advertorial — congruent with short-format ads
-- B3 sends direct to PDP — native long-form IS the presell
-- All copy now uses full Origins 12-step structure + OBJECTION → CLAIM → PROOF → BENEFIT cycles
-- $75 kill rule (3x $25 target CPA) strictly enforced
-- Volume over patience — more creatives faster, let Meta pick winners
+- Kill rule: $50 hard kill (2x CPA), $37.50 soft kill if metrics bad (CPM >$80, CTR <1%, 0 LPVs)
+- Each batch: 1 format, 1 sub-avatar, 1 base image, 3 angle overlays — image constant, angle is the variable
+- B4 = Relatable Hook (12-Hour Shift Shoes style), B5 = Specific Pain Point (RYZE style), B6 = Accidental Ideal Outcome (Happy Mammoth style)
+- PDP hero: product name shortened, subtitle is emotional not educational, Try It default, no crossed-out prices, trust badges under ATC
+- "What's Actually Inside" moved to directly below hero (biggest objection: "what am I putting in my body")
+- Announcement bar: "Free Shipping on Every Order" only — no launch pricing, no guarantee, no clutter
 
 ## Updated
-2026-03-28
+2026-03-29
