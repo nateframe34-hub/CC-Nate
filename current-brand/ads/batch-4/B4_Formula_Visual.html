@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1080px;
+    height: 1080px;
+    background: #FAFAF7;
+    font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0c3b3f;
+    text-align: center;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    color: #888;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 40px;
+    width: 100%;
+    max-width: 860px;
+  }
+
+  .ingredient {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 16px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e8e4df;
+  }
+
+  .ingredient-dot {
+    width: 10px;
+    height: 10px;
+    min-width: 10px;
+    background: #0c3b3f;
+    border-radius: 50%;
+    margin-top: 6px;
+  }
+
+  .ingredient-dot.hero {
+    width: 12px;
+    height: 12px;
+    min-width: 12px;
+    background: #7c5cbf;
+    margin-top: 5px;
+  }
+
+  .ingredient-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1A1A1A;
+    line-height: 1.3;
+  }
+
+  .ingredient-role {
+    font-size: 12.5px;
+    font-weight: 400;
+    color: #777;
+    line-height: 1.4;
+    margin-top: 2px;
+  }
+
+  .ingredient.hero {
+    grid-column: 1 / -1;
+    background: #f5f0f8;
+    border: 1px solid #d4c8e8;
+  }
+
+  .ingredient.hero .ingredient-name {
+    font-size: 17px;
+    color: #0c3b3f;
+  }
+
+  .ingredient.hero .ingredient-role {
+    font-size: 13px;
+  }
+
+  .bottom-bar {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .bottom-bar .price {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: #0c3b3f;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  .bottom-bar .tagline {
+    font-size: 13px;
+    color: #999;
+    margin-top: 6px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="title">What's Inside — 10 Ingredients, One Serving</div>
+  <div class="subtitle">Each chosen for a specific role in cellular energy and defense.</div>
+
+  <div class="grid">
+
+    <div class="ingredient hero">
+      <div class="ingredient-dot hero"></div>
+      <div>
+        <div class="ingredient-name">NMN — 500mg</div>
+        <div class="ingredient-role">The foundation. Direct precursor to NAD+. Clinical research dose.</div>
+      </div>
+    </div>
+
+    <div class="ingredient">
+      <div class="ingredient-dot"></div>
+      <div>
+        <div class="ingredient-name">Resveratrol</div>
+        <div class="ingredient-role">98% trans-resveratrol. Activates sirtuins — the pathways NAD+ fuels.</div>
+      </div>
+    </div>
+
+    <div class="ingredient">
+      <div class="ingredient-dot"></div>
+      <div>
+        <div class="ingredient-name">CoQ10</div>
+        <div class="ingredient-role">Mitochondrial fuel. Supports the power plants inside every cell.</div>
+      </div>
+    </div>
+
+    <div class="ingredient">
+      <div class="ingredient-dot"></div>
+      <div>
+        <div class="ingredient-name">Glutathione</div>
+        <div class="ingredient-role">Reduced form. Your body's master antioxidant.</div>
+      </div>
+    </div>
+
+    <div class="ingredient">
+      <div class="ingredient-dot"></div>
+      <div>
+        <div class="ingredient-name">TMG</div>
+        <div class="ingredient-role">Methyl donor. Replenishes what NMN metabolism uses.</div>
+      </div>
+    </div>
+
+    <div class="ingredient">
+      <div class="ingredient-dot"></div>
+      <div>
+        <div class="ingredient-name">Quercetin</div>
+        <div class="ingredient-role">Supports cellular cleanup. Healthy inflammatory response.</div>
+      </div>
+    </div>
+
+    <div class="ingredient">
+      <div class="ingredient-dot"></div>
+      <div>
+        <div class="ingredient-name">Astaxanthin</div>
+        <div class="ingredient-role">6,000x more potent than vitamin C. Crosses the blood-brain barrier.</div>
+      </div>
+    </div>
+
+    <div class="ingredient">
+      <div class="ingredient-dot"></div>
+      <div>
+        <div class="ingredient-name">Apigenin</div>
+        <div class="ingredient-role">Blocks CD38 — the enzyme that degrades NAD+ with age.</div>
+      </div>
+    </div>
+
+    <div class="ingredient">
+      <div class="ingredient-dot"></div>
+      <div>
+        <div class="ingredient-name">Grape Seed Extract</div>
+        <div class="ingredient-role">Proanthocyanidins for cardiovascular and antioxidant support.</div>
+      </div>
+    </div>
+
+    <div class="ingredient">
+      <div class="ingredient-dot"></div>
+      <div>
+        <div class="ingredient-name">Vitamin C</div>
+        <div class="ingredient-role">Fat-soluble form (ascorbyl palmitate). Antioxidant defense.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="bottom-bar">
+    <div class="price">$49.99 · 60-day supply · 30-day guarantee</div>
+    <div class="tagline">One bottle instead of five.</div>
+  </div>
+
+</div>
+</body>
+</html>
