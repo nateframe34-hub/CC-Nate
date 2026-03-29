@@ -92,7 +92,7 @@ Baseline NMN 10-in-1: 500mg NMN — the full research dose — plus 9 ingredient
 
 Two capsules. One serving. 60-day supply.
 
-**$49.99 for a 60-day supply. Buy 2, save $10. Buy 3, save $30.**
+**$39.99 for a 60-day supply. Buy 2, save $10. Buy 3, save $30.**
 
 You've spent more than that on the jade roller and the adaptogenic powder combined. This actually addresses what changed.
 

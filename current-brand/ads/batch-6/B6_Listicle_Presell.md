@@ -95,7 +95,7 @@ That's the part nobody tells you. It's not a lightning bolt. It's more like some
 
 - **500mg NMN** — the clinical research dose
 - **9 supporting ingredients** — the full cellular energy system
-- **60-day supply** — $49.99 / Buy 2 save $10 / Buy 3 save $30
+- **60-day supply** — $39.99 / Buy 2 save $10 / Buy 3 save $30
 - **30-day money-back guarantee** — full refund if nothing changes
 
 I was spending more than $50/month on supplements that didn't work. This replaced all of them.
