@@ -57,29 +57,29 @@ Adults 40+ experiencing energy decline, brain fog, slow recovery. Key sub-avatar
 
 | File | Purpose |
 |------|---------|
-| `current-brand/tracking/Ad_Performance_Tracker.csv` | Daily ad performance data |
-| `current-brand/tracking/Baseline_Brand_Growth_Sheet.csv` | Ad batch plans and status |
-| `current-brand/tracking/Master_Launch_Timeline.md` | Full launch sequence |
-| `current-brand/ads/Media_Buying_Plan.md` | Complete media buying strategy |
-| `current-brand/ads/Ad_Batch_Plans_B1-B3.md` | Ad creative briefs |
-| `current-brand/organic-brand-post/Organic_Post_Plan_Brand_Page.md` | Brand page content calendar |
-| `current-brand/partner-page/Partner_Page_Identity_and_Post_Plan.md` | Sarah's page plan |
-| `current-brand/brand/pdp-copy.md` | Product page copy |
-| `current-brand/brand/CTA-PRODUCT-REFERENCE.md` | Product URLs and CTA linking guide |
-| `research/Avatar_Blueprint.md` | Customer avatar research |
-| `research/NMN_Marketing_Angles_and_Hooks.md` | Marketing angles |
-| `research/Meta_Health_Ad_Restrictions_Guide.md` | Meta compliance rules |
+| `baseline-nmn/current-brand/tracking/Ad_Performance_Tracker.csv` | Daily ad performance data |
+| `baseline-nmn/current-brand/tracking/Baseline_Brand_Growth_Sheet.csv` | Ad batch plans and status |
+| `baseline-nmn/current-brand/tracking/Master_Launch_Timeline.md` | Full launch sequence |
+| `baseline-nmn/current-brand/ads/Media_Buying_Plan.md` | Complete media buying strategy |
+| `baseline-nmn/current-brand/ads/batch-1/Ad_Batch_Plans_B1-B3.md` | Ad creative briefs |
+| `baseline-nmn/current-brand/organic-brand-post/Organic_Post_Plan_Brand_Page.md` | Brand page content calendar |
+| `baseline-nmn/current-brand/partner-page/Partner_Page_Identity_and_Post_Plan.md` | Sarah's page plan |
+| `baseline-nmn/current-brand/brand/pdp-copy.md` | Product page copy |
+| `baseline-nmn/current-brand/brand/CTA-PRODUCT-REFERENCE.md` | Product URLs and CTA linking guide |
+| `baseline-nmn/research/Avatar_Blueprint.md` | Customer avatar research |
+| `baseline-nmn/research/NMN_Marketing_Angles_and_Hooks.md` | Marketing angles |
+| `baseline-nmn/research/Meta_Health_Ad_Restrictions_Guide.md` | Meta compliance rules |
 | `origins-training/` | Origins methodology training docs |
-| `feedback-loops/` | Performance feedback and iteration notes |
+| `baseline-nmn/feedback-loops/` | Performance feedback and iteration notes |
 
 ## Health Ad Compliance
 
-All content must comply with Meta health ad restrictions. Never make direct health claims. Use "supports cellular energy" not "cures fatigue." Reference `research/Meta_Health_Ad_Restrictions_Guide.md` for full rules.
+All content must comply with Meta health ad restrictions. Never make direct health claims. Use "supports cellular energy" not "cures fatigue." Reference `baseline-nmn/research/Meta_Health_Ad_Restrictions_Guide.md` for full rules.
 
 ## Session Continuity Protocol
 
 **At the START of every session:**
-1. Read `SESSION_STATE.md` BEFORE doing anything else
+1. Read `baseline-nmn/SESSION_STATE.md` BEFORE doing anything else
 2. This file contains what happened last session, what's in progress, and what's next
 3. Do NOT ask Nate to repeat what's already captured there
 
