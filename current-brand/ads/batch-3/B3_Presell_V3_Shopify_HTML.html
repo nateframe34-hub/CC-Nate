@@ -77,8 +77,16 @@
     color: #0c3b3f;
     margin: 0 0 8px;
     line-height: 1.3;
-    padding-left: 12px;
-    border-left: 3px solid #0c3b3f;
+  }
+  .ps-copy h3::before {
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 18px;
+    background: #C07840;
+    margin-right: 8px;
+    vertical-align: middle;
+    border-radius: 2px;
   }
   .ps-copy p {
     font-size: 14px;
@@ -89,14 +97,11 @@
   .ps-cta-link {
     font-size: 13px;
     font-weight: 600;
-    color: #0c3b3f;
+    color: #C07840;
     text-decoration: none;
-    border-bottom: 1px solid #0c3b3f;
-    padding-bottom: 1px;
   }
   .ps-cta-link:hover {
-    color: #C07840;
-    border-bottom-color: #C07840;
+    text-decoration: underline;
   }
   .ps-divider {
     border: none;
@@ -169,11 +174,7 @@
       aspect-ratio: 1;
     }
     .ps-copy h3 {
-      border-left: none;
-      padding-left: 0;
-      border-bottom: 3px solid #0c3b3f;
-      padding-bottom: 8px;
-      margin-bottom: 12px;
+      text-align: center;
     }
   }
 </style>
