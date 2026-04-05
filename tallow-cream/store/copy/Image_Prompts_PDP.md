@@ -10,10 +10,10 @@
 ## 1. HERO PRODUCT SHOT
 
 ```
-Ultra-realistic product photography of a 4oz amber glass jar with a black ribbed screw-top lid. The jar has a kraft paper label with vintage-style text and a cow illustration. The lid is on. The jar is centered in the frame, sitting on a clean minimal surface with a soft natural shadow beneath it. Background is a smooth warm cream-to-beige gradient — lighter at the bottom, slightly warmer/deeper toward the top. No props, no flowers, no distractions. Just the jar on a clean gradient. Soft even studio lighting, no harsh shadows. Shot straight-on at eye level. 8K resolution, sharp focus across entire jar and label. Professional e-commerce product photography, clean and minimal.
+Professional studio product photography of a 4oz amber glass jar with a black ribbed screw-top lid and kraft paper label with a cow illustration. The jar is centered in the frame, pulled back so the full jar is visible with generous space around it on all sides. The jar sits on a clean, flat matte surface with a subtle soft shadow beneath it. Background is a smooth soft teal-to-lighter-teal gradient, slightly lighter toward the bottom, deeper toward the top. The jar takes up approximately 40-50% of the frame height, leaving clean open space above and around it. Professional controlled studio lighting, soft and even, slight rim light on the jar edges to separate it from the background. No props, no flowers, no distractions. The amber glass and kraft label contrast naturally against the teal background. Shot at eye level, straight on or very slight downward angle. 8K resolution, sharp focus across entire jar and label. Clean professional e-commerce product photography.
 ```
 
-**Purpose:** Hero image for PDP. Product centered on clean gradient background (Toothpod layout style). Shopify theme handles the headline text — this is just the product photo.
+**Purpose:** Hero image for PDP. Pulled-back studio shot like Toothpod reference — product centered with breathing room, professional lighting, teal gradient background matching brand colors. Shopify theme handles any text overlay.
 
 ---
 
