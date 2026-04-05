@@ -13,7 +13,7 @@ Photorealistic overhead photograph of an open bathroom drawer filled with variou
 
 **Alternate Image:**
 ```
-Photorealistic photograph of a bathroom counter with a single amber glass jar of golden balm sitting alone on a clean white surface. The counter is intentionally empty around it. Maybe a simple white towel folded nearby. Warm morning light from a window. The jar lid is off, showing the golden whipped texture inside. This looks like a "after" photo, like someone cleaned off their counter and this is all that's left. The emptiness of the counter IS the statement. iPhone quality, slightly off-center, warm tones. No branding text visible on the jar.
+Photorealistic photograph of a bathroom counter with a single amber glass jar of cream-colored balm sitting alone on a clean white surface. The counter is intentionally empty around it. Maybe a simple white towel folded nearby. Warm morning light from a window. The jar lid is off, showing the cream-colored whipped texture inside. This looks like a "after" photo, like someone cleaned off their counter and this is all that's left. The emptiness of the counter IS the statement. iPhone quality, slightly off-center, warm tones. No branding text visible on the jar.
 ```
 
 ---
@@ -53,5 +53,5 @@ Photorealistic candid photograph of a mother and adult daughter (early 20s) stan
 - **The ingredient list photo is a new format we haven't tested.** It's a pattern interrupt because people don't usually see the BACK of products in ads. It invites curiosity.
 - **NO text overlays. NO logos. NO branding.**
 - **iPhone quality, not studio quality.** Imperfect framing, slightly warm color cast, maybe a tiny bit of motion blur. It needs to look like something someone actually posted.
-- **Warm tones across all three.** Match Batch 1's golden/honey color palette for brand consistency.
+- **Warm tones across all three.** Match Batch 1's warm cream/honey color palette for brand consistency. The balm is cream-colored, not golden.
 - **Generate 3-4 variations of each** and pick the most authentic-looking one.
