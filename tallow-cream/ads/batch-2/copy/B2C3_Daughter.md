@@ -165,8 +165,6 @@ If your bathroom looks like mine used to. If you have a shelf full of products a
 
 Maybe you don't need more products. Maybe you need fewer. Maybe you need one.
 
-[LINK]
-
 4 ingredients. 60-day guarantee. Free shipping.
 
 Your daughter will notice the empty shelf. Your skin will notice the difference.

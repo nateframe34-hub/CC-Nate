@@ -159,8 +159,6 @@ Your skin is starving for something water based products can't give it.
 
 This gives it back.
 
-[LINK]
-
 4 ingredients. 60-day money-back guarantee. Free shipping.
 
 And if your husband actually notices? You'll know it's working.

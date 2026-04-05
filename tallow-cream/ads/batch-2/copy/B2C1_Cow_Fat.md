@@ -153,8 +153,6 @@ Maybe the problem isn't that you haven't found the right product. Maybe the prob
 
 This isn't that type.
 
-[LINK]
-
 4 ingredients. 60-day guarantee. Free shipping.
 
 You've already spent hundreds on things that didn't work. This is $50 and it might be the last jar you buy.
