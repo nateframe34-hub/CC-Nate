@@ -1,6 +1,6 @@
 # Nano Banana Pro Image Prompts — Whipped Tallow & Honey Balm PDP
 
-> **Product:** 120g amber glass jar with dark brown lid, cream-colored whipped balm inside
+> **Product:** 4oz amber glass jar with black ribbed lid, kraft paper label with cow illustration, cream-colored whipped balm inside
 > **Brand Aesthetic:** Warm cream/honey gold, clean, natural, premium but approachable
 > **Target Audience:** Women 45-60
 > **Model:** Nano Banana Pro (Gemini) — also works with GPT Image, Midjourney, DALL-E, Flux
@@ -10,10 +10,10 @@
 ## 1. HERO PRODUCT SHOT
 
 ```
-Ultra-realistic luxury skincare product photography of an amber glass jar with dark brown lid removed, placed slightly off-center on a warm cream linen surface. Inside the jar is a cream-colored whipped balm with visible swirl texture from whipping. A wooden honey dipper rests beside the jar with a thin drizzle of golden honey. A small piece of natural honeycomb sits in the background, slightly out of focus. Soft warm natural window light from the left casting gentle shadows. Minimal composition, clean negative space on the right for text overlay. Warm golden hour color palette — cream, amber, honey gold. No text or logos on the jar. Macro-level detail on the whipped texture inside the jar. Professional cosmetic product photography, 8K resolution, shallow depth of field, f/2.8.
+Ultra-realistic product photography of a 4oz amber glass jar with a black ribbed screw-top lid, sitting at a slight angle on a warm cream linen surface. The jar has a kraft paper label with vintage-style text and a cow illustration. The lid is on. Beside the jar, a wooden honey dipper rests with a thin drizzle of honey, and a small piece of natural honeycomb sits slightly behind, out of focus. A few dried calendula flower petals scattered naturally on the surface. Soft warm natural window light from the left, casting gentle shadows. Warm cream and honey-toned color palette. Clean background with subtle texture — not pure white, more of a warm off-white or light linen. The jar is the clear focal point. Professional cosmetic product photography, eye-level angle (not overhead), 8K resolution, shallow depth of field, f/2.8. No text overlay.
 ```
 
-**Purpose:** Hero image for PDP. Text/price overlay goes in the negative space on the right.
+**Purpose:** Hero image for PDP. Straight-on or slight angle, NOT overhead. Shows the actual product as the customer will receive it — lid on, label visible.
 
 ---
 
@@ -60,7 +60,7 @@ Side-by-side photorealistic close-up comparison of the same woman's hands (aged 
 ## 6. LIFESTYLE BATHROOM SHELF
 
 ```
-Photorealistic lifestyle photograph of a single amber glass jar with dark brown lid sitting on a clean, minimal white marble bathroom shelf. Soft warm morning light filtering through a frosted window to the right. A neatly folded cream-colored linen towel sits beside the jar. A small potted succulent or eucalyptus sprig in a simple white ceramic pot in the background, slightly out of focus. The jar is the ONLY skincare product visible on the shelf — intentionally empty shelf space around it reinforcing "one jar replaces everything." Clean, minimal, warm, serene. The overall mood is calm morning ritual. Professional interior lifestyle photography, 8K resolution, warm color grade.
+Photorealistic lifestyle photograph of a single amber glass jar with black ribbed lid sitting on a clean, minimal white marble bathroom shelf. Soft warm morning light filtering through a frosted window to the right. A neatly folded cream-colored linen towel sits beside the jar. A small potted succulent or eucalyptus sprig in a simple white ceramic pot in the background, slightly out of focus. The jar is the ONLY skincare product visible on the shelf — intentionally empty shelf space around it reinforcing "one jar replaces everything." Clean, minimal, warm, serene. The overall mood is calm morning ritual. Professional interior lifestyle photography, 8K resolution, warm color grade.
 ```
 
 **Purpose:** "One jar replaces everything" visual. The empty shelf IS the message.
@@ -70,7 +70,7 @@ Photorealistic lifestyle photograph of a single amber glass jar with dark brown 
 ## 7. WOMAN HOLDING JAR
 
 ```
-Photorealistic portrait photograph of a natural-looking woman in her early 50s holding an amber glass jar of cream-colored balm near her face at chin level, both hands cupping the jar. She is looking at the camera with a warm, genuine, relaxed smile — not a posed commercial smile. Natural skin with visible smile lines and light freckling, no heavy makeup, hair pulled back casually. Wearing a simple white or cream linen top. Soft warm directional light from the left side. Background is a warm, blurred neutral tone (cream or light wood). The jar is in sharp focus along with her face. She looks like a real person recommending something she loves to a friend. Professional portrait photography, 8K resolution, shallow depth of field, f/2.8, warm color palette.
+Photorealistic portrait photograph of a natural-looking woman in her early 50s holding an amber glass jar with kraft paper label and black lid near her face at chin level, both hands cupping the jar. She is looking at the camera with a warm, genuine, relaxed smile — not a posed commercial smile. Natural skin with visible smile lines and light freckling, no heavy makeup, hair pulled back casually. Wearing a simple white or cream linen top. Soft warm directional light from the left side. Background is a warm, blurred neutral tone (cream or light wood). The jar is in sharp focus along with her face. She looks like a real person recommending something she loves to a friend. Professional portrait photography, 8K resolution, shallow depth of field, f/2.8, warm color palette.
 ```
 
 **Purpose:** Trust-building hero image. She looks like the customer, not a spokesperson.
@@ -90,7 +90,7 @@ Photorealistic close-up photograph of a woman in her 50s applying cream-colored 
 ## 9. CROSS-SELL / BUNDLE SHOT — Tallow Jar + Eye Cream
 
 ```
-Photorealistic product photography of two skincare products arranged together on a warm cream surface. Left: an amber glass jar with dark brown lid (the tallow balm, lid off showing cream-colored whipped texture). Right: a slim white tube of eye cream, angled slightly. Between them: a small calendula flower and a drop of golden honey on the surface. Soft warm natural light from the left. Clean negative space above for text overlay ("The Glow Kit"). Minimal, premium, editorial. Both products slightly angled toward each other suggesting they belong together as a set. Professional cosmetic product photography, 8K resolution.
+Photorealistic product photography of two skincare products arranged together on a warm cream surface. Left: an amber glass jar with black ribbed lid (the tallow balm, lid off showing cream-colored whipped texture). Right: a slim white tube of eye cream, angled slightly. Between them: a small calendula flower and a drop of golden honey on the surface. Soft warm natural light from the left. Clean negative space above for text overlay ("The Glow Kit"). Minimal, premium, editorial. Both products slightly angled toward each other suggesting they belong together as a set. Professional cosmetic product photography, 8K resolution.
 ```
 
 **Purpose:** Bundle/cross-sell image for "The Glow Kit" offer on PDP.
