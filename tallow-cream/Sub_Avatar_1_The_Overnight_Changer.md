@@ -8,9 +8,9 @@
 
 | Category | Detail | Source |
 |---|---|---|
-| **Desire** | "I want my skin to feel like it used to — specifically, I want the dryness and tightness to stop" | Core desire: Skin Restoration |
-| **Experience** | Her skin changed noticeably over a 1-2 year window. Products she used for years stopped working. She didn't change anything — her skin changed on its own. She woke up one day and realized her face felt tight, dry, and unfamiliar. It wasn't gradual enough to ignore but not sudden enough to see a doctor. | "My skin just... changed. Nothing I used to use works anymore"; "I woke up and my skin was someone else's"; "My moisturizer stopped working overnight" |
-| **Emotion** | Confused and quietly distressed. She doesn't understand WHY her skin changed. It feels like a betrayal by her own body. She's not panicking but she's unsettled — this wasn't supposed to happen yet. There's a low-grade anxiety about it getting worse. | Primary: Fear (of continued decline). Secondary: Confused, unsettled, quietly distressed. "I don't know what happened — nothing changed except my skin" |
+| **Desire** | "I want my skin to feel like it used to — specifically, I want the dryness and tightness to stop" | Core desire: Skin Restoration. **Validated:** "It is just what I have been looking for, for years" (Mellie T., Buffalo Gal, 5-star); "I have struggled for years to find a moisturizer that actually works" (Maria, Buffalo Gal, 5-star) |
+| **Experience** | Her skin changed noticeably over a 1-2 year window. Products she used for years stopped working. She didn't change anything — her skin changed on its own. She woke up one day and realized her face felt tight, dry, and unfamiliar. It wasn't gradual enough to ignore but not sudden enough to see a doctor. The problems worsen every year/season. | **Validated:** "my face has been looking very old and worn in the last 12-18 months" (late 40s woman, Vintage Tradition); "Every winter like clockwork I dread the cold, dry weather...these problems have worsened every year" (Terran, Vintage Tradition); "extremely dry, flaking and peeling skin...which wasn't helped by anything I'd been putting on it" (Louise B., Vintage Tradition) |
+| **Emotion** | Confused, quietly distressed, and **socially ashamed**. She doesn't understand WHY her skin changed. It feels like a betrayal by her own body. She's not panicking but she's unsettled — this wasn't supposed to happen yet. There's a low-grade anxiety about it getting worse. **Key finding: social shame is a bigger driver than expected** — she avoids social situations because of visible skin deterioration. | Primary: Fear (of continued decline). Secondary: Confused, unsettled, ashamed. **Validated:** "I was embarrassed to see people" (Louise B., Vintage Tradition) — social shame is underused copy territory |
 
 ---
 
@@ -57,4 +57,20 @@ She wants her old skin back (desire), but her existing products stopped working 
 
 ---
 
-*Draft — needs Reddit/Amazon language validation*
+---
+
+## Validated Customer Language (Use in Copy)
+
+- "my face has been looking very old and worn in the last 12-18 months"
+- "I was embarrassed to see people"
+- "these problems have worsened every year"
+- "extremely dry, flaking and peeling skin...which wasn't helped by anything I'd been putting on it"
+- "It is just what I have been looking for, for years"
+- "Within about 7 days I noticed a real difference"
+- "The longer I have used it, the improvements have continued"
+
+**Key insight from research:** Women want something that KEEPS working, not a one-time fix. "The improvements continued" is a powerful retention/repurchase message.
+
+---
+
+*Language validated via Reddit/Amazon research — April 5, 2026*

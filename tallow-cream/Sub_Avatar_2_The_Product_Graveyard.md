@@ -8,10 +8,10 @@
 
 | Category | Detail | Source |
 |---|---|---|
-| **Desire** | "I want my skin to feel like it used to — but I need something that ACTUALLY works this time" | Core desire + Trust overlay |
-| **Experience (Product)** | Has tried 5-15+ skincare products over the past 2-3 years trying to fix her skin. Retinol made it worse (purging, peeling). Hyaluronic acid didn't do enough. CeraVe was fine but didn't fix the problem. Tried ceramide creams, vitamin C serums, collagen drinks, jade rollers — nothing delivered. Has a drawer/shelf full of half-used products. Each one was supposed to be "the one." | "I have a graveyard of skincare products under my sink"; "Tried retinol, HA, ceramides, vitamin C — nothing actually fixed the dryness"; "Every new product works for a week then stops"; Reddit r/30PlusSkinCare pattern: "tried everything" posts with 10+ product lists |
-| **Emotion** | Exhausted and quietly defeated. Not angry — just tired of hoping. Each new product creates a small spike of hope followed by disappointment. She's starting to believe nothing will work. There's a learned helplessness setting in. But she KEEPS trying — which means the desire is still alive underneath the defeat. | Primary: Sadness (repeated disappointment). Secondary: Exhausted, defeated, skeptical but still searching. "I'm running out of things to try" |
-| **Behavior** | Reads every ingredient list. Watches skincare YouTube/TikTok before buying. Reads Amazon reviews (sorts by 1-star first). Compares products in browser tabs. Buys based on "before and after" evidence. Has subscribed to and cancelled multiple skincare subscriptions. Still tries new products despite expecting disappointment. | "I sort by 1-star reviews first because I need to know what's wrong with it"; "I watch 3 review videos before buying anything" |
+| **Desire** | "I want my skin to feel like it used to — but I need something that ACTUALLY works this time" | Core desire + Trust overlay. **Validated:** "I have tried every single moisturizer under the sun and let me tell you this is by far the softest and most hydrated my skin has ever felt" (Danielle M., Vintage Tradition) |
+| **Experience (Product)** | Has tried 5-15+ skincare products over the past 2-3 years trying to fix her skin. Has tried drugstore AND high-end. Has tried natural alternatives (coconut oil, shea butter). Some have even tried making their own. Has tried other tallow balms and they still didn't work. Each one was supposed to be "the one." | **Validated:** "I've used all the fancy creams, lotions, and serums and none of them have helped" (Shirin S., Vintage Tradition); "Tried everything from drugstore products to high-end skin care" (Vintage Tradition); "Tried so many products for my face (Amazon, in store, Etsy, making my own)" (Vintage Tradition); "Chemical peels, salicylic acid products, photodynamic therapy, and the list goes on" (Vintage Tradition) |
+| **Emotion** | Exhausted and quietly defeated. Not angry — just tired of hoping. Each new product creates a small spike of hope followed by disappointment. She's starting to believe nothing will work. There's a learned helplessness setting in. But she KEEPS trying — which means the desire is still alive underneath the defeat. | Primary: Sadness (repeated disappointment). Secondary: Exhausted, defeated, skeptical but still searching. **Validated:** "tried so many of the top products beloved by influencers and they have either not worked at all or caused irritation" (Primally Pure reviewer) |
+| **Behavior** | Reads every ingredient list. Watches skincare YouTube/TikTok before buying. Reads Amazon reviews. Tries products from every channel (Amazon, in-store, Etsy, DIY). Has tried multiple tallow brands before finding the right one. Still tries new products despite expecting disappointment. | **Validated:** "I have tried numerous brands of tallow balm...all about to be tossed out as this is the holy grail" (Vintage Tradition); "Tried all my go-to stuff — shea butter, coconut oil, natural lotions — but nothing. The ONLY thing that's ever kept them smooth for longer" (Amy, Vintage Tradition) |
 
 ---
 
@@ -60,4 +60,24 @@ Tallow IS that different thing. It's not another serum, cream, or lotion. It's a
 
 ---
 
-*Draft — needs Reddit/Amazon language validation*
+---
+
+## Validated Customer Language (Use in Copy)
+
+- "I have tried every single moisturizer under the sun"
+- "I've used all the fancy creams, lotions, and serums and none of them have helped"
+- "Tried everything from drugstore products to high-end skin care"
+- "Tried so many products for my face (Amazon, in store, Etsy, making my own)"
+- "Chemical peels, salicylic acid products, photodynamic therapy, and the list goes on"
+- "I have tried numerous brands of tallow balm...all about to be tossed out as this is the holy grail"
+- "tried so many of the top products beloved by influencers and they have either not worked at all or caused irritation"
+- "The ONLY thing that's ever kept them smooth for longer"
+
+**Key insights from research:**
+- "Making my own" signals MAXIMUM desperation — she's so burned she tried DIY
+- People who tried OTHER tallow balms and still hadn't found the right one = meaningful sub-segment
+- "Holy grail" is used organically by real buyers — powerful social proof language
+
+---
+
+*Language validated via Reddit/Amazon research — April 5, 2026*

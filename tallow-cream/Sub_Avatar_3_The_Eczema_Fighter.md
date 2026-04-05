@@ -8,11 +8,11 @@
 
 | Category | Detail | Source |
 |---|---|---|
-| **Desire** | "I want my skin to feel like it used to — I want the itching, cracking, and redness to STOP" | Core desire elevated to Health/Survival level — this is daily physical suffering |
-| **Experience (Situational)** | Lives with eczema, psoriasis, or severe dry skin condition. Flare-ups are unpredictable. Skin cracks and bleeds in winter. Wakes up having scratched in her sleep. Has visible red patches on hands, arms, neck, or face that she tries to hide. Certain fabrics, soaps, or weather changes trigger flares. | "My hands crack and bleed every winter"; "I wake up with blood on my sheets from scratching in my sleep"; "I haven't worn short sleeves in 3 years"; Reddit r/eczema: daily suffering posts |
-| **Experience (Product)** | Has been prescribed steroid creams (hydrocortisone, triamcinolone) that thin her skin over time. Has tried Eucrisa, Dupixent, CeraVe, Aveeno, Aquaphor, coconut oil, shea butter — temporary relief at best. Steroids work short-term but she's afraid of long-term side effects. Has cycled through prescriptions and OTC products for years. | "Steroids thin your skin — my derm said I can't use them forever"; "Coconut oil made it worse"; "I've spent thousands on products that give me 2 hours of relief"; "The only thing that works is prescribed and I'm scared of the side effects" |
-| **Emotion** | Desperate and exhausted. This isn't a vanity problem — it's physical pain every day. She feels trapped between steroids (that work but damage) and natural products (that don't work). There's shame about visible skin — she hides it. There's anger at doctors who shrug and prescribe another cream. | Primary: Anger (at the cycle of failed treatments). Secondary: Desperate, trapped, ashamed, exhausted. "I'm so tired of my skin controlling my life" |
-| **Behavior** | Avoids short sleeves, V-necks, and anything that shows skin. Applies moisturizer 3-5x per day. Carries lotion everywhere. Sleeps in cotton gloves to prevent scratching. Has tried elimination diets to find triggers. Researches ingredients obsessively because everything irritates. Takes lukewarm showers because hot water triggers flares. | "I carry Aquaphor in every bag"; "I haven't worn a tank top since 2019"; "I shower in lukewarm water — hot water is a trigger" |
+| **Desire** | "I want my skin to feel like it used to — I want the itching, cracking, and redness to STOP" | Core desire elevated to Health/Survival level — this is daily physical suffering. **Validated:** "Within a few hours of applying this tallow balm the itching and pain began to subside" (Vintage Tradition/Amazon) |
+| **Experience (Situational)** | Lives with eczema, psoriasis, perioral dermatitis, or severe dry skin condition. Flare-ups are unpredictable. Skin is "red, irritated, super sensitive, bumpy, dry, and cracking." Has visible patches she tries to hide. Has escalated from OTC to prescriptions to immunosuppressants. | **Validated:** "I tried absolutely everything over these two years and everything made it worse. [Skin was] red, irritated, super sensitive, bumpy, dry, and cracking" (Cara R., Vintage Tradition); "I developed a mystery rash...was diagnosed with eczema...applied prescriptions...steroid cream...immunosuppressant..." (Carolyn, Vintage Tradition); "battling a nasty case of perioral dermatitis for the past 3 1/2 years" (Heather S., Vintage Tradition) |
+| **Experience (Product)** | Has been prescribed steroid creams that thin her skin over time. Steroids create a DEPENDENCY CYCLE — they work short-term but "it just keeps coming back." Has tried aloe, coconut oil, olive oil, manuka honey, raw honey, magnesium oil, petroleum jelly — temporary relief at best. Petroleum jelly "would just dry up and flake off." | **Validated:** "I have used every cream/steroid under the sun for my eczema" (Alex, Vintage Tradition); "I tried aloe, coconut oil, olive oil, Manuka honey, raw honey, magnesium oil and the list goes on but nothing worked" (Vintage Tradition/Amazon); "Steroids didn't help. It just keeps coming back after using it" (April W., Vintage Tradition); "[petroleum jelly] would just dry up and flake off" (April W.) |
+| **Emotion** | Desperate, exhausted, and heartbroken — especially parents buying for children. Feels trapped between steroids (that damage) and natural products (that don't work). The steroid dependency cycle creates its own despair. | Primary: Anger (at the cycle). Secondary: Desperate, trapped, heartbroken. **Validated:** "As a parent when your child is in pain and nothing helps, it's heart-breaking" (Janelle, Texas — **rawest quote in entire dataset**); "My daughter's eczema is gone. We are shocked. Truly." (Arrow, Vintage Tradition) |
+| **Behavior** | Avoids short sleeves, V-necks, and anything that shows skin. Applies moisturizer 3-5x per day. Carries lotion everywhere. Has escalated from OTC → prescription → immunosuppressants. Has tried elimination diets. Researches ingredients obsessively because everything irritates. | **Validated:** Medical escalation pattern confirmed across multiple testimonials — OTC → steroids → immunosuppressants → tallow as last resort |
 
 ---
 
@@ -74,4 +74,31 @@ The steroid trap is the key insight: she KNOWS steroids thin her skin long-term,
 
 ---
 
-*Draft — needs Reddit/Amazon language validation. This avatar has the richest Reddit data available — r/eczema alone has thousands of tallow testimonials to mine.*
+---
+
+## Validated Customer Language (Use in Copy)
+
+**Transformation stories (strongest in entire dataset):**
+- "Within a few hours of applying this tallow balm the itching and pain began to subside. Within a week or two I had weaned myself completely off the steroids and the eczema cleared in a couple of months." — **SINGLE MOST POWERFUL QUOTE**
+- "my skin was transformed overnight..LITERALLY" (Cara R.)
+- "I haven't used steroids for over two years" (Alex)
+- "A month, no breakout. I have not had one flare up since" (Heather S.)
+- "By day 9: The inflammation and puffiness are gone" (April W.)
+
+**Steroid dependency language:**
+- "It just keeps coming back after using it" — about steroids
+- "I have used every cream/steroid under the sun"
+- "applied prescriptions...steroid cream...immunosuppressant" — escalation pattern
+
+**Parent language (potential Avatar 6):**
+- "As a parent when your child is in pain and nothing helps, it's heart-breaking"
+- "My daughter's eczema is gone. We are shocked. Truly."
+
+**Key insights from research:**
+- "Keeps coming back" about steroids = massive copy angle. Steroids create dependency, never fix root problem.
+- The Eczema Parent is a distinct buyer segment — mothers buying for children. Highest desperation, zero price resistance, most emotionally raw language.
+- Transformation timelines are specific and fast: "a few hours" (itching relief), "day 9" (inflammation gone), "week or two" (off steroids), "couple of months" (cleared).
+
+---
+
+*Language validated via Reddit/Amazon research — April 5, 2026*

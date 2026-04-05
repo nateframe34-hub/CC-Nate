@@ -10,12 +10,12 @@
 
 | Category | Detail | Source |
 |---|---|---|
-| **Desire** | "I want my skin to feel like it used to — I want the skin I had before menopause changed everything" | Core desire at its most acute — she can pinpoint WHEN the change happened |
-| **Experience (Situational)** | Hit perimenopause or menopause between 42-55 and her skin changed dramatically within 6-18 months. Dryness that no amount of moisturizer fixes. Skin became thin, papery, easily irritated. Products she'd used for 15+ years suddenly sting or don't absorb. She may have noticed her skin "drinking" moisturizer and being dry again within an hour. Her neck and hands aged visibly. She may also be experiencing hot flashes, sleep disruption, and mood changes — but the SKIN is the visible, daily reminder. | "My skin changed completely after menopause — it's like I'm living in someone else's body"; "After menopause, sebum production drops up to 60%"; "30% collagen loss in first 5 years of menopause"; "I went from oily to desert-dry in one year" |
-| **Experience (Product)** | Has tried "anti-aging" products that are marketed at younger women. Has tried prescription HRT and it helped some things but not her skin specifically. Has bought products marketed as "for mature skin" that feel patronizing and don't work. Retinol made her newly-sensitive skin peel and burn. Rich creams sit on top and don't absorb. | "Everything marketed for 'mature skin' has a grandmother on the box and doesn't work"; "Retinol used to be my holy grail — now it burns"; "My skin eats moisturizer and is dry again in an hour" |
-| **Emotion** | Invisible and mourning. She feels like she lost her skin — and by extension, a part of her identity — almost overnight. The beauty industry markets "anti-aging" as wrinkle cream for 30-year-olds, not barrier repair for 50-year-olds. She doesn't feel seen. There's a grief underneath — not dramatic, but real. She misses her old skin the way you miss something you didn't appreciate until it was gone. Doctors dismiss it as "just menopause." | Primary: Sadness (loss/grief). Secondary: Invisible, dismissed, mourning, quietly frustrated. "Nobody warns you about what menopause does to your skin"; "My doctor said 'it's just aging' — like that's supposed to make me feel better" |
-| **Behavior** | Has spent more on skincare in the last 2 years than the previous 10 combined. Layers multiple products (serum + cream + oil + SPF) trying to compensate. Drinks more water thinking it will help (it doesn't — the issue is sebum, not hydration). May have started taking collagen supplements. Avoids mirrors in harsh lighting. Has adjusted her makeup routine because foundation doesn't sit right on dry, textured skin. | "I spend 30 minutes on skincare now instead of 5"; "Foundation looks cakey on my skin now — it never did before"; "I drink 80oz of water a day and my skin is still dry" |
-| **Demographics** | Female, 45-60. Household income $75K+. Likely has older kids or empty nest. Has disposable income and willingness to spend on herself now that kids are older. Professional or recently retired. This demographic spends MORE on skincare than younger women — they have the money and the motivation. | "Women 45-60 are the highest-spending skincare demographic"; "Older adults spend 40% more on personal care than younger demographics" |
+| **Desire** | "I want my skin to feel like it used to — I want the skin I had before menopause changed everything" | Core desire at its most acute. **Validated:** "Can I really have glass skin at this age? It feels that way." (Joan E., 67, Buffalo Gal, 5-star) — **"at this age" carries profound defeat/disbelief. She doesn't believe beautiful skin is available to her anymore. Breaking this belief IS the ad.** |
+| **Experience (Situational)** | Hit perimenopause or menopause and her skin changed dramatically. Dryness that nothing fixes. Skin became "dull, dry and super sensitive." Within hours of moisturizing, skin is tight and dry again. Also experiencing perimenopausal ITCHING that she doesn't connect to hormones. **Key finding: simultaneous dryness AND breakouts** — not purely dry as assumed. Some menopausal women are 66+ and still breaking out. | **Validated:** "I'm 55 and menopausal...my skin [went] from dull, dry and super sensitive to soft and supple" (Vintage Tradition); "I have very dry skin, and being 55 doesn't help...within a few hours my skin would be tight and dry" (Anna, Vintage Tradition); "Really enjoying its calming effect, especially on itching skin that happens with peri-menopause" (Vintage Tradition); "I am 66+ and still break out...I have not had a breakout since" (Vintage Tradition) |
+| **Experience (Product)** | Has tried "anti-aging" products marketed at younger women. Retinol used to work — now it burns. Has switched from expensive retinol creams to tallow and seen better results. Rich creams sit on top and don't absorb — dry again within hours. | **Validated:** "I switched from a $120 retinol cream to a $30 tallow balm" (r/NaturalBeauty); "within a few hours my skin would be tight and dry" (Anna, Vintage Tradition) |
+| **Emotion** | Her skin looks **"tired"** — that's the exact word, not "old" or "dull." She feels invisible and dismissed. She doesn't believe beautiful skin is possible "at this age." There's quiet grief about losing something she didn't appreciate until it was gone. But when tallow works, the emotion is DISBELIEF and joy. | Primary: Sadness (loss/grief). **Validated:** "My skin doesn't look tired anymore" (r/30PlusSkinCare — **"tired" is THE word**); "I feel like I actually look my age — not ten years older" (Gina, Vintage Tradition); "Can I really have glass skin at this age?" (Joan E., 67) — disbelief that it's possible |
+| **Behavior** | Has spent more on skincare in the last 2 years than the previous 10 combined. Layers multiple products trying to compensate. Drinks more water thinking it will help (the issue is sebum, not hydration). Has adjusted makeup routine because foundation doesn't sit right on dry, textured skin. | **Validated:** "I switched from a $120 retinol cream to a $30 tallow balm" (spending pattern confirmed); fine lines "noticeably less pronounced" after six weeks (r/30PlusSkinCare) |
+| **Demographics** | Female, 45-67+. Household income $75K+. Has disposable income and willingness to spend. This demographic spends MORE on skincare than younger women. **Research shows buyers as old as 67 are actively purchasing and raving.** | **Validated:** Joan E. is 67. E.Z. is 60+. Age range extends further than assumed — don't cap at 60. |
 
 ---
 
@@ -83,4 +83,36 @@ Tallow IS the replacement. It's 87% identical to the sebum her body stopped maki
 
 ---
 
-*Draft — this avatar has the MOST research data available. Needs: r/menopause desire hunting, r/30PlusSkinCare language mining, competitor gap analysis (confirm nobody is running menopause-specific tallow ads on Meta).*
+---
+
+## Validated Customer Language (Use in Copy)
+
+**Transformation quotes:**
+- "I'm 55 and menopausal. Epic Glow has been instrumental in changing my skin from dull, dry and super sensitive to soft and supple"
+- "Post menopause, my once dry skin has never felt better"
+- "My post menopausal skin has improved so much, it is remarkable"
+- "I've been using a tallow and honey balm for six weeks. My skin feels softer than it has in years, and the fine lines around my eyes are noticeably less pronounced"
+
+**Emotional language:**
+- **"My skin doesn't look tired anymore"** — THE most precise emotional word in the dataset. Use this.
+- **"Can I really have glass skin at this age? It feels that way."** — 67 years old. Disbelief + joy. Second most powerful quote overall.
+- "I feel like I actually look my age — not ten years older"
+
+**Experience language:**
+- "within a few hours my skin would be tight and dry"
+- "itching skin that happens with peri-menopause" — underrepresented symptom
+- "I am 66+ and still break out" — dryness AND breakouts simultaneously
+
+**Behavior language:**
+- "I switched from a $120 retinol cream to a $30 tallow balm" — cost savings angle
+
+**Key insights from research:**
+- **"Tired" is the word.** Not old, not dull, not dry. "My skin doesn't look tired anymore." This is how she feels about HERSELF, projected onto her face.
+- **"At this age" = the core belief to break.** She doesn't believe beautiful skin is available to her anymore. The ad's job is to shatter that belief.
+- **Perimenopausal itching** is dramatically underrepresented. Women don't connect it to hormones. Enormous untapped hook.
+- **Dryness AND breakouts coexist** in menopausal skin — contradicts the purely-dry assumption. Some women deal with both.
+- **Age range extends to 67+** — don't cap demographics at 60.
+
+---
+
+*Language validated via Reddit/Amazon research — April 5, 2026*

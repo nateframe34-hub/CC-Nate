@@ -8,10 +8,10 @@
 
 | Category | Detail | Source |
 |---|---|---|
-| **Desire** | "I want my skin to feel like it used to — and I want to stop putting chemicals on my body that I can't pronounce" | Core desire + Control (wanting power over what goes on/in her body) |
-| **Experience** | Read an article or watched a TikTok about endocrine disruptors in skincare. Learned that 85% of conventional products contain at least one hormone-affecting chemical. May have had a health scare (thyroid issue, fertility concern, hormonal imbalance) that made her re-examine everything she puts on her body. Possibly went through pregnancy and started reading labels for the first time. | "I flipped over my moisturizer and couldn't pronounce a single ingredient"; "85% of conventional skincare contains endocrine disruptors"; "After my thyroid diagnosis, I threw out everything in my bathroom"; Research: the #1 switch trigger to tallow is FEAR of endocrine disruptors |
-| **Behavior** | Reads every ingredient list before buying. Has downloaded the EWG Skin Deep app or Think Dirty app to scan products. Has thrown out products after learning what's in them. Follows clean beauty accounts on Instagram. Shops at stores like Credo, The Detox Market, or the "clean" section at Sephora. Googles "is [ingredient] safe" before trying anything new. | "I scan everything with Think Dirty now"; "I spent a Saturday throwing out every product under my sink"; "I only buy from brands with full ingredient transparency" |
-| **Emotion** | Betrayed and vigilant. She feels angry that the beauty industry sold her products with harmful ingredients for years without telling her. There's a sense of "how did I not know?" guilt. Now she's hyper-vigilant — almost anxious — about what she puts on her skin. The vigilance is exhausting but she can't turn it off. | Primary: Anger (at the industry). Secondary: Betrayed, vigilant, anxious, empowered. "I trusted these brands for 20 years and they were putting endocrine disruptors in my face cream" |
+| **Desire** | "I want my skin to feel like it used to — and I want to stop putting chemicals on my body that I can't pronounce" | Core desire + Control. **Validated:** "I cannot tell you the relief I feel knowing I have found a product that does not contain chemicals proven to mess with human hormones/cause cancer" (Claire G., Vintage Tradition); "There are no added ingredients or fragrances, which I need with my sensitive skin" (Vintage Tradition) |
+| **Experience** | Read an article or watched a TikTok about endocrine disruptors in skincare. Learned that conventional products contain hormone-affecting chemicals. May have had a health scare. Discovered that even "natural" products are full of unpronounceable ingredients. Also concerned about allergens (soy, fragrances). | **Validated:** "many 'natural' products were filled with ingredients I couldn't pronounce — and they just didn't work" (Moo Elixir founder, mirrors consumer language); "no suspicious...strange-sounding ingredients...no allergens like soy" (E.Z., 60+, Vintage Tradition) |
+| **Behavior** | Reads every ingredient list before buying. Has thrown out products after learning what's in them. Actively replacing entire routines — cleansers AND moisturizers. Focused on healthy products for entire family, not just herself. | **Validated:** "All my other cleansers are being tossed out just like my moisturizers" (Stephanie S., Vintage Tradition); "I am very focused on healthy products for my family, and this balm hits all the marks" (Vintage Tradition); "Get away from chemical soap" (Sara H., Vintage Tradition) |
+| **Emotion** | **Relief and peace of mind** — this is the actual product for this avatar. She feels RELIEF when she finds something safe, not just satisfaction. The emotion isn't primarily anger (though that exists) — it's the profound comfort of NOT worrying. Also: betrayed by the beauty industry, vigilant about ingredients. | Primary: Relief/comfort (peace of mind). **Validated:** "I cannot tell you the relief I feel" (Claire G.); "I have zero to worry about, no chemicals, no petroleum, just good ol' tallow, oils and vanilla" (Rebekahpgee, Vintage Tradition) — **peace of mind IS the product** |
 
 ---
 
@@ -68,4 +68,25 @@ This avatar sits in the clean beauty space, which is Stage 4-5 sophisticated. "C
 
 ---
 
-*Draft — needs Reddit desire hunting (r/NaturalBeauty, r/CleanBeauty) and competitor ad analysis*
+---
+
+## Validated Customer Language (Use in Copy)
+
+- "I cannot tell you the relief I feel knowing I have found a product that does not contain chemicals proven to mess with human hormones/cause cancer"
+- "I have zero to worry about, no chemicals, no petroleum, just good ol' tallow, oils and vanilla"
+- "All my other cleansers are being tossed out just like my moisturizers"
+- "no suspicious...strange-sounding ingredients...no allergens like soy"
+- "I am very focused on healthy products for my family"
+- "Get away from chemical soap"
+- "many 'natural' products were filled with ingredients I couldn't pronounce — and they just didn't work"
+- "There are no added ingredients or fragrances, which I need with my sensitive skin"
+
+**Key insights from research:**
+- **Peace of mind is the actual product** — "relief" and "zero to worry about" are the emotional outcomes, not skin improvement
+- Allergy concerns (soy, fragrances) layer ON TOP of endocrine disruptor fears — two-ingredient buyers exist
+- She's replacing for her WHOLE FAMILY, not just herself — multiplies LTV
+- The emotion was wrong in the draft: it's primarily RELIEF (when found), not ANGER (at industry). Anger is the trigger, relief is the purchase driver.
+
+---
+
+*Language validated via Reddit/Amazon research — April 5, 2026*
