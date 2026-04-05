@@ -2,22 +2,20 @@
 
 **Sub-Avatar:** The Invisible Woman
 **Angle:** Nobody warned me about menopause skin
-**Hook:** "I went from oily my whole life to desert dry in one year. Nobody told me this was coming."
+**Hook:** "I went from oily skin my whole life to desert dry in one year. Nobody told me this was coming."
 **Format:** Native/Camouflage Static — first-person story
 
 ---
 
 ## Body Copy
 
-I went from oily my whole life to desert dry in one year. Nobody told me this was coming.
+I went from oily skin my whole life to desert dry in one year. Nobody told me this was coming.
 
-Hot flashes? Expected.
-Night sweats? Sure.
-Mood swings? Okay.
+I used to complain about my skin being too greasy. Now I'd give anything to have that problem back.
 
-But waking up one morning and not recognizing my own skin?
+Same routine. Same products. Completely different skin.
 
-Nobody mentioned that part.
+And nobody could tell me why.
 
 ========
 
