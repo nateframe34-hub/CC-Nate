@@ -147,8 +147,6 @@ Because I was. For years.
 
 And the thing that finally worked had four ingredients and none of them were water.
 
-[LINK]
-
 4 ingredients. 60-day guarantee. Free shipping.
 
 Stop buying the same thing in a different bottle.

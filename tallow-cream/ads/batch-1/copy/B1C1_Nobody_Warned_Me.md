@@ -173,8 +173,6 @@ Your skin isn't broken. It's starving for something water can't give it.
 
 This gave my skin back. 4 ingredients. One jar. That's it.
 
-[LINK]
-
 60-day money-back guarantee. Free shipping. No subscriptions.
 
 If your skin doesn't love it, you get every penny back.

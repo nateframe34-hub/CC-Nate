@@ -151,8 +151,6 @@ Ask yourself: are you giving your skin water when it needs oil?
 
 Because I was. For a year. And I wish someone had told me sooner.
 
-[LINK]
-
 4 ingredients. 60-day guarantee. Free shipping.
 
 Your skin knows what it needs. This might be it.
