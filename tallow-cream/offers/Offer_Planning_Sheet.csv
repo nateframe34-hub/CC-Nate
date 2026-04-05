@@ -1,32 +1,40 @@
 Product / Offer Name,# Units,Product Cost,Shipping Cost,Total COGS,Gateway (3.3%),Total Cost For Us,Price Before Discounts,Price On Site,Shipping To Customer,Total Revenue,Margin $,Margin %,BE ROAS,Savings $,Savings %,Target CPA 2x ROAS,Target CPA 2.5x ROAS,Eff. $/Unit,Origins Strategy
 --- PRODUCT REFERENCE ---,,,,,,,,,,,,,,,,,,,
-"Whipped Tallow & Honey Balm (120g, Hero SKU)",1,$9.27,$7.74,$17.01,—,—,—,—,—,—,—,—,—,—,—,—,—,—,"TeemDrop auto-fulfillment. 4 ingredients: grass-fed tallow, manuka honey, olive oil, calendula"
-"Caffeine Eye Cream (15ml, Bundle Add-On)",1,$2.94,$5.40,$8.34,—,—,—,—,—,—,—,—,—,—,—,—,—,—,"Caffeine + Matrixyl 3000 + Albizia Julibrissin. Potential bundle pairing with tallow balm"
+"Whipped Tallow & Honey Balm (120g/4.2oz, Hero SKU)",1,$9.27,$7.74,$17.01,—,—,—,—,—,—,—,—,—,—,—,—,—,—,"TeemDrop auto-fulfillment. 4 ingredients: grass-fed tallow, manuka honey, olive oil, calendula. Per-oz = $11.90 (beats Toups $16/oz, Evil Goods $20/oz)"
+"Caffeine Eye Cream (15ml, Bundle Add-On)",1,$2.94,$5.40,$8.34,—,—,—,—,—,—,—,—,—,—,—,—,—,—,"Caffeine + Matrixyl 3000 + Albizia Julibrissin. Bundle pairing with tallow balm"
 --- LAUNCH PRICING ($59.99 Anchor) ---,,,,,,,,,,,,,,,,,,,
-"1x Tallow Balm — Launch Price (Hero SKU)",1,$9.27,$7.74,$17.01,$1.65,$18.66,$59.99,$49.99,$0.00,$49.99,$31.33,62.67%,1.60,$10.00,16.67%,$25.00,$20.00,$49.99,"Launch anchor. Under $50 impulse threshold. 62.7% margin. $10 off ""regular"" $59.99. Free shipping included"
-"1x Tallow Balm — Full Price",1,$9.27,$7.74,$17.01,$1.98,$18.99,$59.99,$59.99,$0.00,$59.99,$41.00,68.34%,1.46,$0.00,0.00%,$30.00,$24.00,$59.99,"Full price anchor. Use on site as crossed-out reference price. 68.3% margin"
---- BUNDLE & SAVE (Origins #1 Recommended) ---,,,,,,,,,,,,,,,,,,,
+"1x Tallow Balm — Launch Price (Hero SKU)",1,$9.27,$7.74,$17.01,$1.65,$18.66,$59.99,$49.99,$0.00,$49.99,$31.33,62.67%,1.60,$10.00,16.67%,$25.00,$20.00,$49.99,"Launch anchor. Under $50 impulse threshold. 62.7% margin. Free shipping included. Competitive: between Lady May ($25) and Evil Goods ($79.99)"
+"1x Tallow Balm — Full Price (Anchor)",1,$9.27,$7.74,$17.01,$1.98,$18.99,$59.99,$59.99,$0.00,$59.99,$41.00,68.34%,1.46,$0.00,0.00%,$30.00,$24.00,$59.99,"Crossed-out reference price on site. 68.3% margin"
+--- BUNDLE & SAVE ---,,,,,,,,,,,,,,,,,,,
 "The Starter (1x Tallow Balm)",1,$9.27,$7.74,$17.01,$1.65,$18.66,$59.99,$49.99,$0.00,$49.99,$31.33,62.67%,1.60,$10.00,16.67%,$25.00,$20.00,$49.99,"Tier 1 — entry point. Free shipping. Lowest friction first purchase"
-"The Ritual (2x Tallow Balm) MOST POPULAR",2,$18.54,$11.04,$29.58,$2.97,$32.55,$99.98,$89.99,$0.00,$89.99,$57.44,63.83%,1.57,$9.99,10.00%,$45.00,$36.00,$45.00,"Tier 2 — hero bundle. Save $10 vs buying 2 singles. Best AOV + margin balance. Jar lasts 2-3 months so this is 4-6 month supply"
-"The Transformation (3x Tallow Balm) BEST VALUE",3,$27.81,$14.34,$42.15,$3.96,$46.11,$149.97,$119.99,$0.00,$119.99,$73.88,61.57%,1.62,$29.98,20.00%,$60.00,$48.00,$40.00,"Tier 3 — best value. Save $30. $40/jar. Lead with dollar amount saved per Origins"
+"The Ritual (2x Tallow Balm) MOST POPULAR",2,$18.54,$11.04,$29.58,$2.97,$32.55,$99.98,$89.99,$0.00,$89.99,$57.44,63.83%,1.57,$9.99,10.00%,$45.00,$36.00,$45.00,"Tier 2 — hero bundle. Save $10. 4-6 month supply. Frame as routine not discount"
+"The Transformation (3x Tallow Balm) BEST VALUE",3,$27.81,$14.34,$42.15,$3.96,$46.11,$149.97,$119.99,$0.00,$119.99,$73.88,61.57%,1.62,$29.98,20.00%,$60.00,$48.00,$40.00,"Tier 3 — best value. Save $30. Lead with dollar amount per Origins"
 --- TALLOW + EYE CREAM BUNDLES ---,,,,,,,,,,,,,,,,,,,
-"The Glow Kit (1x Tallow + 1x Eye Cream)",2,$12.21,$9.48,$21.69,$2.31,$23.99,$79.98,$69.99,$0.00,$69.99,$46.00,65.72%,1.52,$10.00,12.50%,$35.00,$28.00,$35.00,"Cross-sell bundle. Face + eyes = complete routine. Higher AOV than single tallow. 65.7% margin. Eye cream is the upsell hook — 'your face AND your eyes'"
-"The Full Ritual (2x Tallow + 1x Eye Cream)",3,$21.48,$13.18,$34.66,$3.30,$37.96,$129.97,$99.99,$0.00,$99.99,$62.03,62.03%,1.61,$29.98,23.07%,$50.00,$40.00,$33.33,"Premium bundle. Tallow for face + body, eye cream for under-eyes. Save $30. Strong AOV at $99.99"
---- $X OFF FIRST ORDER (Acquisition Layer — Stack on Bundles) ---,,,,,,,,,,,,,,,,,,,
-"$5 Off First Order (1x Tallow)",1,$9.27,$7.74,$17.01,$1.48,$18.49,$49.99,$44.99,$0.00,$44.99,$26.50,58.90%,1.70,$15.00,25.01%,$22.50,$18.00,$44.99,"Light sweetener on launch price. 58.9% margin. Email popup / exit intent. $15 perceived savings off $59.99 anchor"
-"$10 Off First Order (1x Tallow)",1,$9.27,$7.74,$17.01,$1.32,$18.33,$49.99,$39.99,$0.00,$39.99,$21.66,54.16%,1.85,$20.00,33.34%,$20.00,$16.00,$39.99,"Aggressive acquisition. Tests $39.99 price point. 54.2% margin — tighter but still workable. BE ROAS 1.85 is higher than NMN was"
-"$5 Off Glow Kit (1x Tallow + 1x Eye Cream)",2,$12.21,$9.48,$21.69,$2.14,$23.83,$69.99,$64.99,$0.00,$64.99,$41.16,63.33%,1.54,$15.00,18.75%,$32.50,$26.00,$32.50,"Stack: $69.99 kit - $5 = $64.99. Pushes new customers to bundle AOV. 63.3% margin"
---- SUBSCRIBE & SAVE (Recurring Revenue Engine) ---,,,,,,,,,,,,,,,,,,,
-"Sub: 1x Tallow Balm Every 60-90 Days (15% off)",1,$9.27,$7.74,$17.01,$1.40,$18.41,$49.99,$42.49,$0.00,$42.49,$24.08,56.67%,1.77,$7.50,15.01%,$21.25,$17.00,$42.49,"Consumable replenishment. 56.7% margin per shipment. 5-cycle LTV = $212.45, total margin = $120.40. Tallow jar lasts 2-3 months"
-"Sub: Glow Kit Every 60-90 Days (15% off)",2,$12.21,$9.48,$21.69,$1.96,$23.65,$69.99,$59.49,$0.00,$59.49,$35.84,60.25%,1.66,$10.50,15.01%,$29.75,$23.80,$29.75,"Tallow + eye cream subscription. 60.3% margin. 5-cycle LTV = $297.45, total margin = $179.20"
---- BUY X GET X FREE (Reserve for Major Events ONLY) ---,,,,,,,,,,,,,,,,,,,
-"Buy 1 Get 1 Free (2x Tallow)",2,$18.54,$11.04,$29.58,$1.65,$31.23,$99.98,$49.99,$0.00,$49.99,$18.76,37.53%,2.66,$49.99,50.00%,$25.00,$20.00,$25.00,"WARNING: 37.5% margin and 2.66 BE ROAS. ONLY for launch week to seed reviews then KILL. Per Origins: offers are addictive"
-"Buy 2 Get 1 Free (3x Tallow)",3,$27.81,$14.34,$42.15,$3.30,$45.45,$149.97,$99.99,$0.00,$99.99,$54.54,54.54%,1.83,$49.98,33.33%,$50.00,$40.00,$33.33,"Better BXGX option. 54.5% margin. Reserve for 2-3 events/year max"
---- FUTURE PRICE INCREASE (Post-Launch — After Reviews + Social Proof) ---,,,,,,,,,,,,,,,,,,,
-"1x Tallow Balm (Post-Launch, 50+ Reviews)",1,$9.27,$7.74,$17.01,$1.98,$18.99,$69.99,$59.99,$0.00,$59.99,$41.00,68.34%,1.46,$10.00,14.29%,$30.00,$24.00,$59.99,"Raise to $59.99 once you have 50+ reviews. 68.3% margin gives real ad spend room. Closer to Evil Goods pricing ($69.99)"
-"2x Tallow Bundle (Post-Launch)",2,$18.54,$11.04,$29.58,$3.63,$33.21,$119.98,$109.99,$0.00,$109.99,$76.78,69.81%,1.44,$9.99,8.33%,$55.00,$44.00,$55.00,"Post-launch hero bundle. 69.8% margin. $55 target CPA at 2x ROAS"
-"Glow Kit (Post-Launch)",2,$12.21,$9.48,$21.69,$2.64,$24.33,$89.98,$79.99,$0.00,$79.99,$55.66,69.58%,1.44,$10.00,11.11%,$40.00,$32.00,$40.00,"Post-launch cross-sell. 69.6% margin. Eye cream anchored higher"
---- EMPTY SLOTS FOR TESTING ---,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
+"The Glow Kit (1x Tallow + 1x Eye Cream)",2,$12.21,$9.48,$21.69,$2.31,$23.99,$79.98,$69.99,$0.00,$69.99,$46.00,65.72%,1.52,$10.00,12.50%,$35.00,$28.00,$35.00,"Cross-sell bundle. Face + eyes = complete routine. 65.7% margin"
+"The Full Ritual (2x Tallow + 1x Eye Cream)",3,$21.48,$13.18,$34.66,$3.30,$37.96,$129.97,$99.99,$0.00,$99.99,$62.03,62.03%,1.61,$29.98,23.07%,$50.00,$40.00,$33.33,"Premium bundle. Save $30. Strong AOV at $99.99"
+--- FIRST ORDER ACQUISITION ---,,,,,,,,,,,,,,,,,,,
+"15% Off First Order — Email Capture (1x Tallow)",1,$9.27,$7.74,$17.01,$1.40,$18.41,$49.99,$42.49,$0.00,$42.49,$24.08,56.67%,1.77,$17.50,29.18%,$21.25,$17.00,$42.49,"15% off beats the 10% baseline (Primally Pure). Positions above budget (Lady May 20%). 56.7% margin still workable"
+"15% Off First Order — SMS Capture (1x Tallow)",1,$9.27,$7.74,$17.01,$1.40,$18.41,$49.99,$42.49,$0.00,$42.49,$24.08,56.67%,1.77,$17.50,29.18%,$21.25,$17.00,$42.49,"SMS-gated same discount. Higher-intent channel capture. Can also do 10% email / 15% SMS split"
+"15% Off Glow Kit — First Order (1x Tallow + 1x Eye)",2,$12.21,$9.48,$21.69,$1.96,$23.65,$69.99,$59.49,$0.00,$59.49,$35.84,60.25%,1.66,$20.50,25.63%,$29.75,$23.80,$29.75,"Stack on Glow Kit to push new customers to higher AOV. 60.3% margin"
+--- SUBSCRIBE & SAVE (Toups 20/15 Model) ---,,,,,,,,,,,,,,,,,,,
+"Sub Orders 1-2: 1x Tallow (20% off) + Free Ship",1,$9.27,$7.74,$17.01,$1.32,$18.33,$49.99,$39.99,$0.00,$39.99,$21.66,54.16%,1.85,$10.00,20.00%,$20.00,$16.00,$39.99,"Hook orders. 20% off first 2 shipments mirrors Toups (top converter). Carries through highest-churn window. 54.2% margin — tight but acquisition play"
+"Sub Orders 3+: 1x Tallow (15% off) + Free Ship",1,$9.27,$7.74,$17.01,$1.40,$18.41,$49.99,$42.49,$0.00,$42.49,$24.08,56.67%,1.77,$7.50,15.01%,$21.25,$17.00,$42.49,"Ongoing rate. 15% off (above Toups' 10% — justified by premium ingredients). 56.7% margin. 5-cycle LTV: Orders 1-2 at $39.99 + Orders 3-5 at $42.49 = $207.45"
+"Sub Orders 1-2: Glow Kit (20% off) + Free Ship",2,$12.21,$9.48,$21.69,$1.85,$23.53,$69.99,$55.99,$0.00,$55.99,$32.46,57.97%,1.72,$14.00,20.00%,$28.00,$22.40,$28.00,"Glow Kit subscription hook. 58% margin. Pushes subscribers to higher AOV from day 1"
+"Sub Orders 3+: Glow Kit (15% off) + Free Ship",2,$12.21,$9.48,$21.69,$1.96,$23.65,$69.99,$59.49,$0.00,$59.49,$35.84,60.25%,1.66,$10.50,15.01%,$29.75,$23.80,$29.75,"Ongoing Glow Kit sub. 60.3% margin. 5-cycle LTV: Orders 1-2 at $55.99 + Orders 3-5 at $59.49 = $290.45"
+--- GUARANTEE & SHIPPING ---,,,,,,,,,,,,,,,,,,,
+"60-Day Money-Back Guarantee",—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,"Conversational language: 'If your skin doesn't love it in 60 days, we'll refund every penny. No drama.' Matches Primally Pure + Lady May (60 days). Evil Goods only does 30."
+"Free Shipping on Orders $50+",—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,"Free ship influences 52.6% of decisions. $50 threshold = hero SKU qualifies at $49.99 (round up with tax). All subscriptions ship free regardless"
+"Shop Pay Installments (BNPL)",—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,"Enable from day 1. $49.99 is the sweet spot where BNPL meaningfully increases conversion. Evil Goods uses Klarna + Shop Pay + PayPal + Apple Pay"
+--- BUY X GET X FREE (Major Events ONLY) ---,,,,,,,,,,,,,,,,,,,
+"Buy 1 Get 1 Free (2x Tallow)",2,$18.54,$11.04,$29.58,$1.65,$31.23,$99.98,$49.99,$0.00,$49.99,$18.76,37.53%,2.66,$49.99,50.00%,$25.00,$20.00,$25.00,"WARNING: 37.5% margin / 2.66 BE ROAS. Launch week review seeding ONLY then kill. Per Origins: offers are addictive"
+"Buy 2 Get 1 Free (3x Tallow)",3,$27.81,$14.34,$42.15,$3.30,$45.45,$149.97,$99.99,$0.00,$99.99,$54.54,54.54%,1.83,$49.98,33.33%,$50.00,$40.00,$33.33,"Better BXGX. 54.5% margin. Reserve for 2-3 events/year max"
+--- FUTURE PRICE INCREASE (Post-Launch — 50+ Reviews) ---,,,,,,,,,,,,,,,,,,,
+"1x Tallow Balm (Post-Launch)",1,$9.27,$7.74,$17.01,$1.98,$18.99,$69.99,$59.99,$0.00,$59.99,$41.00,68.34%,1.46,$10.00,14.29%,$30.00,$24.00,$59.99,"Raise to $59.99 after 50+ reviews. 68.3% margin. Still under Evil Goods ($79.99)"
+"2x Tallow Bundle (Post-Launch)",2,$18.54,$11.04,$29.58,$3.63,$33.21,$119.98,$109.99,$0.00,$109.99,$76.78,69.81%,1.44,$9.99,8.33%,$55.00,$44.00,$55.00,"Post-launch hero bundle. 69.8% margin. $55 CPA ceiling at 2x"
+"Glow Kit (Post-Launch)",2,$12.21,$9.48,$21.69,$2.64,$24.33,$89.98,$79.99,$0.00,$79.99,$55.66,69.58%,1.44,$10.00,11.11%,$40.00,$32.00,$40.00,"Post-launch cross-sell. 69.6% margin"
+--- LTV PROJECTIONS ---,,,,,,,,,,,,,,,,,,,
+"5-Cycle Sub LTV: Tallow Only (20/20/15/15/15)",5,—,—,—,—,—,—,—,—,$207.45,—,—,—,—,—,—,—,—,"Orders 1-2 at $39.99 + Orders 3-5 at $42.49. Total margin ~$115. Breakeven CPA at 1x LTV = ~$41"
+"5-Cycle Sub LTV: Glow Kit (20/20/15/15/15)",5,—,—,—,—,—,—,—,—,$290.45,—,—,—,—,—,—,—,—,"Orders 1-2 at $55.99 + Orders 3-5 at $59.49. Total margin ~$172. Breakeven CPA at 1x LTV = ~$58"
+--- SKIP AT LAUNCH ---,,,,,,,,,,,,,,,,,,,
+"Loyalty/Rewards Program",—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,"Add at 6 months when you have repeat purchase data. Too complex for launch"
+"Order Bumps / Upsells",—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,"Validate core checkout first. Add complexity in month 2+"
