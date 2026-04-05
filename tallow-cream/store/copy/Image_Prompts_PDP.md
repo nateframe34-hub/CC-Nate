@@ -7,13 +7,28 @@
 
 ---
 
-## 1. HERO PRODUCT SHOT
+## 1. HERO PRODUCT SHOT (Toothpod-Style — Product + Headline)
 
+> **NOTE:** This is a DESIGNED image, not just a photo. Generate the product photo first, then composite in Canva with the headline text, subtitle, and gradient background. The AI prompt is for the product photo ONLY. The text and gradient get added in Canva.
+
+**Step 1 — Generate the product photo:**
 ```
-Ultra-realistic product photography of a 4oz amber glass jar with a black ribbed screw-top lid, centered on a warm cream linen surface. The jar has a kraft paper label with vintage-style text and a cow illustration. The lid is on. Nothing else in frame — no props, no flowers, no honey dipper. Just the jar. Clean, simple. Soft warm natural light from the left side, casting a gentle shadow to the right. Warm cream background, slightly textured but not distracting. The jar and label are in sharp focus. The product is the only thing in the frame. Professional cosmetic product photography, eye-level angle, straight on or very slight angle, 8K resolution, shallow depth of field, f/2.8. No text overlay.
+Ultra-realistic product photography of a 4oz amber glass jar with a black ribbed screw-top lid, centered on a clean surface. The jar has a kraft paper label with vintage-style text and a cow illustration. The lid is on. The jar is sitting on a subtle surface with a soft shadow beneath it. Clean, simple, no props, no background distractions. The jar is lit with soft, even studio lighting — no harsh shadows, no dramatic angles. Shot straight-on at eye level. The background should be a flat, solid warm cream or light beige that can easily be removed or replaced. Product photography, 8K resolution, sharp focus across entire jar and label. PNG with clean edges for easy background removal.
 ```
 
-**Purpose:** Hero image for PDP. The jar IS the hero — no props competing for attention. Ingredient props go in the flat lay (image 4). Based on swipe analysis: every top-performing PDP hero is just the product on a clean background.
+**Step 2 — Build in Canva:**
+- Background: Soft warm gradient — warm cream at bottom fading to a slightly deeper honey/warm beige at top (like the Toothpod teal gradient but in our warm cream/honey palette)
+- Product jar: Centered in the lower third of the image, sitting on a subtle surface/shadow
+- Headline text (top third): Large, clean serif font (Cormorant Garamond or similar)
+  - Option A: "Your Skin Changed. This Was Made For That."
+  - Option B: "4 Ingredients. That's The Whole List."
+  - Option C: "Whipped Tallow & Honey Balm"
+- Subtitle text (below headline): Smaller, clean sans-serif (Plus Jakarta Sans)
+  - "Face & Body Moisturizer · Grass-Fed Tallow · Manuka Honey · 4 Ingredients"
+- Layout: Text takes up top 40%, product takes up bottom 60%
+- Aspect ratio: 4:5 (mobile optimized for Shopify)
+
+**Purpose:** Hero image that sells AND shows the product in one frame. The headline does the work that a boring product-only photo can't. Modeled after Toothpod's PDP hero format — product centered, headline above, clean gradient background.
 
 ---
 
