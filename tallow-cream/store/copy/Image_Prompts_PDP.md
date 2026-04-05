@@ -10,10 +10,10 @@
 ## 1. HERO PRODUCT SHOT
 
 ```
-Ultra-realistic product photography of a 4oz amber glass jar with a black ribbed screw-top lid, sitting at a slight angle on a warm cream linen surface. The jar has a kraft paper label with vintage-style text and a cow illustration. The lid is on. Beside the jar, a wooden honey dipper rests with a thin drizzle of honey, and a small piece of natural honeycomb sits slightly behind, out of focus. A few dried calendula flower petals scattered naturally on the surface. Soft warm natural window light from the left, casting gentle shadows. Warm cream and honey-toned color palette. Clean background with subtle texture — not pure white, more of a warm off-white or light linen. The jar is the clear focal point. Professional cosmetic product photography, eye-level angle (not overhead), 8K resolution, shallow depth of field, f/2.8. No text overlay.
+Ultra-realistic product photography of a 4oz amber glass jar with a black ribbed screw-top lid, centered on a warm cream linen surface. The jar has a kraft paper label with vintage-style text and a cow illustration. The lid is on. Nothing else in frame — no props, no flowers, no honey dipper. Just the jar. Clean, simple. Soft warm natural light from the left side, casting a gentle shadow to the right. Warm cream background, slightly textured but not distracting. The jar and label are in sharp focus. The product is the only thing in the frame. Professional cosmetic product photography, eye-level angle, straight on or very slight angle, 8K resolution, shallow depth of field, f/2.8. No text overlay.
 ```
 
-**Purpose:** Hero image for PDP. Straight-on or slight angle, NOT overhead. Shows the actual product as the customer will receive it — lid on, label visible.
+**Purpose:** Hero image for PDP. The jar IS the hero — no props competing for attention. Ingredient props go in the flat lay (image 4). Based on swipe analysis: every top-performing PDP hero is just the product on a clean background.
 
 ---
 
