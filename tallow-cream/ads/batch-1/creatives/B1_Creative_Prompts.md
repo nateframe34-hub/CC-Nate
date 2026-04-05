@@ -41,7 +41,7 @@ Photorealistic photograph of a woman in her late 40s sitting in what looks like 
 
 **Alternate Image:**
 ```
-Photorealistic overhead photograph of a woman's hands holding an open amber glass jar of golden whipped balm on a clean white bathroom counter. Just the jar and her hands, nothing else on the counter. Soft natural bathroom light. Her hands look real, age 50+, natural nails, maybe a simple wedding ring. The golden texture of the balm is visible inside the jar. Clean, minimal, warm. Looks like a photo someone took to show a friend "this is the thing I was telling you about." iPhone quality, slightly off-center framing.
+Photorealistic overhead photograph of a woman's hands holding an open amber glass jar of cream-colored whipped balm on a clean white bathroom counter. Just the jar and her hands, nothing else on the counter. Soft natural bathroom light. Her hands look real, age 50+, natural nails, maybe a simple wedding ring. The cream-colored texture of the balm is visible inside the jar. Clean, minimal, warm. Looks like a photo someone took to show a friend "this is the thing I was telling you about." iPhone quality, slightly off-center framing.
 ```
 
 ---
