@@ -1,0 +1,166 @@
+{% comment %}
+  ============================================
+  SECTION 10 — FINAL CTA
+  Whipped Tallow & Honey Balm
+  ============================================
+
+  HOW TO USE:
+  1. Go to Online Store → Themes → Customize
+  2. Add a "Custom Liquid" block on the product page
+  3. Paste this entire file into the Custom Liquid box
+
+  IMPORTANT:
+  This CTA scrolls the user back to the top hero to add to cart.
+  Alternatively, if you want a second functional add-to-cart form
+  here, you'll need to add Shopify's form tags and duplicate the
+  bundle selector logic. The scroll-to-top approach is cleaner.
+
+  IMAGE PLACEHOLDER:
+  Replace IMAGE_URL_HERE with the hero jar image (or lifestyle shot).
+
+  BRAND COLORS:
+  - Primary teal: #2d6b5d
+  - Dark teal: #1f4a40
+  - Cream bg: #f7f3ed
+
+  MOBILE OPTIMIZED
+  ============================================
+{% endcomment %}
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  .section-final-cta {
+    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    max-width: 720px;
+    margin: 48px auto;
+    padding: 0 20px;
+    text-align: center;
+    color: #2a2a2a;
+  }
+
+  .section-final-cta__box {
+    background: #f7f3ed;
+    padding: 56px 32px;
+    border-radius: 16px;
+  }
+
+  .section-final-cta__image {
+    width: 180px;
+    height: auto;
+    margin: 0 auto 24px;
+    display: block;
+  }
+
+  .section-final-cta__header {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 12px;
+    line-height: 1.2;
+  }
+
+  .section-final-cta__sub {
+    font-size: 16px;
+    color: #555;
+    margin: 0 0 32px;
+    line-height: 1.6;
+  }
+
+  .section-final-cta__button {
+    display: inline-block;
+    background: #1f4a40;
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 18px 48px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+  }
+
+  .section-final-cta__button:hover {
+    background: #2d6b5d;
+    transform: translateY(-2px);
+  }
+
+  .section-final-cta__trust {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    margin-top: 28px;
+    font-size: 13px;
+    color: #777;
+  }
+
+  .section-final-cta__trust-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  @media (max-width: 600px) {
+    .section-final-cta {
+      margin: 32px auto;
+    }
+    .section-final-cta__box {
+      padding: 40px 24px;
+    }
+    .section-final-cta__image {
+      width: 140px;
+    }
+    .section-final-cta__header {
+      font-size: 28px;
+    }
+    .section-final-cta__sub {
+      font-size: 15px;
+    }
+    .section-final-cta__button {
+      font-size: 14px;
+      padding: 16px 32px;
+      width: 100%;
+      max-width: 320px;
+    }
+    .section-final-cta__trust {
+      font-size: 12px;
+      gap: 10px 16px;
+    }
+  }
+</style>
+
+<section class="section-final-cta">
+  <div class="section-final-cta__box">
+    {% comment %} REPLACE IMAGE_URL_HERE WITH HERO JAR IMAGE {% endcomment %}
+    <img
+      src="IMAGE_URL_HERE"
+      alt="Whipped Tallow Honey Balm"
+      class="section-final-cta__image"
+    >
+
+    <h2 class="section-final-cta__header">Your skin changed.<br>This was made for that.</h2>
+
+    <p class="section-final-cta__sub">
+      4 ingredients. One jar. The only moisturizer you'll need.
+    </p>
+
+    <button
+      class="section-final-cta__button"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
+    >
+      Shop Now →
+    </button>
+
+    <div class="section-final-cta__trust">
+      <span class="section-final-cta__trust-item">🚚 Free Shipping</span>
+      <span class="section-final-cta__trust-item">🛡️ 60-Day Guarantee</span>
+      <span class="section-final-cta__trust-item">🧪 4 Ingredients</span>
+    </div>
+  </div>
+</section>
