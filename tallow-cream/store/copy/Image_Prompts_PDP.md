@@ -47,17 +47,7 @@ Overhead flat lay photograph of four natural skincare ingredients arranged on a 
 
 ---
 
-## 5. BEFORE/AFTER HANDS
-
-```
-Side-by-side photorealistic close-up comparison of the same woman's hands (aged 55+). Left side labeled area: dry, rough skin with visible fine lines, slight redness, dull appearance, natural aging texture on the back of the hand and fingers. Right side labeled area: the same hand after applying cream-colored balm — visibly smoother, hydrated, with a subtle healthy glow, fine lines softened, skin looks nourished and plump. Both shots taken in identical soft natural window light against a clean cream background. Same hand, same angle, same lighting — only the skin condition differs. No heavy retouching — the improvement should look natural and believable, not dramatic or fake. Professional dermatological comparison photography, 8K resolution.
-```
-
-**Purpose:** Visual proof of results. Hands are safe for Meta ads (no face before/after needed).
-
----
-
-## 6. LIFESTYLE BATHROOM SHELF
+## 5. LIFESTYLE BATHROOM SHELF
 
 ```
 Photorealistic lifestyle photograph of a single amber glass jar with black ribbed lid sitting on a clean, minimal white marble bathroom shelf. Soft warm morning light filtering through a frosted window to the right. A neatly folded cream-colored linen towel sits beside the jar. A small potted succulent or eucalyptus sprig in a simple white ceramic pot in the background, slightly out of focus. The jar is the ONLY skincare product visible on the shelf — intentionally empty shelf space around it reinforcing "one jar replaces everything." Clean, minimal, warm, serene. The overall mood is calm morning ritual. Professional interior lifestyle photography, 8K resolution, warm color grade.
@@ -67,7 +57,7 @@ Photorealistic lifestyle photograph of a single amber glass jar with black ribbe
 
 ---
 
-## 7. WOMAN HOLDING JAR
+## 6. WOMAN HOLDING JAR
 
 ```
 Photorealistic portrait photograph of a natural-looking woman in her early 50s holding an amber glass jar with kraft paper label and black lid near her face at chin level, both hands cupping the jar. She is looking at the camera with a warm, genuine, relaxed smile — not a posed commercial smile. Natural skin with visible smile lines and light freckling, no heavy makeup, hair pulled back casually. Wearing a simple white or cream linen top. Soft warm directional light from the left side. Background is a warm, blurred neutral tone (cream or light wood). The jar is in sharp focus along with her face. She looks like a real person recommending something she loves to a friend. Professional portrait photography, 8K resolution, shallow depth of field, f/2.8, warm color palette.
@@ -77,7 +67,7 @@ Photorealistic portrait photograph of a natural-looking woman in her early 50s h
 
 ---
 
-## 8. PRODUCT IN USE — NECK/DÉCOLLETAGE
+## 7. PRODUCT IN USE — NECK/DÉCOLLETAGE
 
 ```
 Photorealistic close-up photograph of a woman in her 50s applying cream-colored balm to her neck and upper chest area with her fingertips, gentle upward strokes. Natural skin showing signs of aging — fine lines on the neck, slight sun spots. The cream-colored balm is visible on her skin, partially absorbed. She is wearing a simple white tank top or towel wrapped at chest level. Soft warm bathroom light, slightly steamy atmosphere suggesting post-shower. Cropped from chin to just above chest — no face fully visible, focus is on the neck/décolletage area and the application. Warm tones, intimate, real. Professional beauty photography, 8K.
@@ -87,7 +77,7 @@ Photorealistic close-up photograph of a woman in her 50s applying cream-colored 
 
 ---
 
-## 9. CROSS-SELL / BUNDLE SHOT — Tallow Jar + Eye Cream
+## 8. CROSS-SELL / BUNDLE SHOT — Tallow Jar + Eye Cream
 
 ```
 Photorealistic product photography of two skincare products arranged together on a warm cream surface. Left: an amber glass jar with black ribbed lid (the tallow balm, lid off showing cream-colored whipped texture). Right: a slim white tube of eye cream, angled slightly. Between them: a small calendula flower and a drop of golden honey on the surface. Soft warm natural light from the left. Clean negative space above for text overlay ("The Glow Kit"). Minimal, premium, editorial. Both products slightly angled toward each other suggesting they belong together as a set. Professional cosmetic product photography, 8K resolution.
