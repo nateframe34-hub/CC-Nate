@@ -1,0 +1,260 @@
+{% comment %}
+  ============================================
+  BUNDLE SELECTOR - Whipped Tallow & Honey Balm
+  ============================================
+
+  SETUP REQUIRED BEFORE USING THIS CODE:
+
+  1. In Shopify Admin → Products → Whipped Tallow & Honey Balm
+  2. Go to "Variants" section
+  3. Create a new option called "Bundle" (or "Size")
+  4. Add 3 variant values:
+     - 1 Jar (price: $49.99)
+     - 2 Jars (price: $89.99)
+     - 3 Jars (price: $119.99)
+  5. For each variant, set the compare-at price to the full price:
+     - 1 Jar compare at: $59.99
+     - 2 Jars compare at: $119.98
+     - 3 Jars compare at: $179.97
+
+  HOW TO USE:
+
+  Option A (Shrine Pro Custom Liquid block):
+  1. Go to Online Store → Themes → Customize
+  2. Open your product page template
+  3. Add a "Custom Liquid" block in the product section
+  4. Paste this entire file into the Custom Liquid box
+
+  Option B (Theme code snippet):
+  1. Go to Online Store → Themes → Edit Code
+  2. In "Snippets" folder, click "Add a new snippet"
+  3. Name it: bundle-selector
+  4. Paste this code
+  5. In your product template, add: {% render 'bundle-selector' %}
+  ============================================
+{% endcomment %}
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  .bundle-selector {
+    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    max-width: 520px;
+    margin: 24px 0;
+  }
+
+  .bundle-selector__label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2a2a2a;
+    margin: 0 0 12px;
+  }
+
+  .bundle-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    margin-bottom: 10px;
+    border: 2px solid #e5e0d8;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+  }
+
+  .bundle-option:hover {
+    border-color: #9bbfb4;
+  }
+
+  .bundle-option.is-selected {
+    border-color: #4a8a7c;
+    background: #f4f9f7;
+  }
+
+  .bundle-option__radio {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right: 14px;
+    flex-shrink: 0;
+    position: relative;
+    transition: all 0.2s ease;
+  }
+
+  .bundle-option.is-selected .bundle-option__radio {
+    border-color: #4a8a7c;
+    background: #4a8a7c;
+  }
+
+  .bundle-option.is-selected .bundle-option__radio::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%;
+  }
+
+  .bundle-option__info {
+    flex-grow: 1;
+    text-align: left;
+  }
+
+  .bundle-option__title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #1a1a1a;
+    margin: 0 0 2px;
+  }
+
+  .bundle-option__sub {
+    font-size: 13px;
+    color: #777;
+    margin: 0;
+  }
+
+  .bundle-option__price {
+    text-align: right;
+    margin-left: 14px;
+    flex-shrink: 0;
+  }
+
+  .bundle-option__price-current {
+    font-weight: 700;
+    font-size: 18px;
+    color: #1a1a1a;
+  }
+
+  .bundle-option__price-compare {
+    display: block;
+    font-size: 13px;
+    color: #999;
+    text-decoration: line-through;
+    margin-top: 2px;
+  }
+
+  .bundle-option__badge {
+    position: absolute;
+    top: -9px;
+    right: 14px;
+    background: #4a8a7c;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 4px;
+  }
+
+  .bundle-option__badge--popular {
+    background: #c28844;
+  }
+
+  @media (max-width: 480px) {
+    .bundle-option {
+      padding: 14px 16px;
+    }
+    .bundle-option__title {
+      font-size: 15px;
+    }
+    .bundle-option__price-current {
+      font-size: 16px;
+    }
+  }
+</style>
+
+<div class="bundle-selector" data-product-id="{{ product.id }}">
+  <p class="bundle-selector__label">Choose your bundle</p>
+
+  {% for variant in product.variants %}
+    {% assign savings = variant.compare_at_price | minus: variant.price | money_without_trailing_zeros %}
+    {% assign savings_amount = variant.compare_at_price | minus: variant.price %}
+
+    <label class="bundle-option {% if forloop.first %}is-selected{% endif %}" data-variant-id="{{ variant.id }}" data-variant-price="{{ variant.price }}">
+
+      {% if forloop.first %}
+        <span class="bundle-option__badge bundle-option__badge--popular">Most Popular</span>
+      {% elsif forloop.last %}
+        <span class="bundle-option__badge">Best Value</span>
+      {% endif %}
+
+      <input
+        type="radio"
+        name="id"
+        value="{{ variant.id }}"
+        {% if forloop.first %}checked{% endif %}
+        style="display: none;"
+      >
+
+      <span class="bundle-option__radio"></span>
+
+      <div class="bundle-option__info">
+        <p class="bundle-option__title">{{ variant.title }}</p>
+        {% if savings_amount > 0 %}
+          <p class="bundle-option__sub">Save {{ savings }}</p>
+        {% else %}
+          <p class="bundle-option__sub">Free shipping · 60-day guarantee</p>
+        {% endif %}
+      </div>
+
+      <div class="bundle-option__price">
+        <span class="bundle-option__price-current">{{ variant.price | money }}</span>
+        {% if variant.compare_at_price > variant.price %}
+          <span class="bundle-option__price-compare">{{ variant.compare_at_price | money }}</span>
+        {% endif %}
+      </div>
+    </label>
+  {% endfor %}
+</div>
+
+<script>
+  (function() {
+    const selector = document.querySelector('.bundle-selector[data-product-id="{{ product.id }}"]');
+    if (!selector) return;
+
+    const options = selector.querySelectorAll('.bundle-option');
+
+    options.forEach(option => {
+      option.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        options.forEach(o => o.classList.remove('is-selected'));
+        this.classList.add('is-selected');
+
+        const radio = this.querySelector('input[type="radio"]');
+        if (radio) {
+          radio.checked = true;
+          radio.dispatchEvent(new Event('change', { bubbles: true }));
+        }
+
+        const variantId = this.dataset.variantId;
+
+        const productForm = this.closest('form[action*="/cart/add"]');
+        if (productForm) {
+          let hiddenInput = productForm.querySelector('input[name="id"]:not([type="radio"])');
+          if (!hiddenInput) {
+            hiddenInput = document.createElement('input');
+            hiddenInput.type = 'hidden';
+            hiddenInput.name = 'id';
+            productForm.appendChild(hiddenInput);
+          }
+          hiddenInput.value = variantId;
+        }
+
+        document.dispatchEvent(new CustomEvent('variant:changed', {
+          detail: { variantId: variantId }
+        }));
+      });
+    });
+  })();
+</script>
