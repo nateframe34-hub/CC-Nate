@@ -1,0 +1,193 @@
+{% comment %}
+  ============================================
+  SECTION 3 — WHAT'S IN / WHAT'S OUT
+  Whipped Tallow & Honey Balm
+  ============================================
+
+  HOW TO USE:
+  1. Go to Online Store → Themes → Customize
+  2. Add a "Custom Liquid" block on the product page
+  3. Paste this entire file into the Custom Liquid box
+
+  IMAGE PLACEHOLDER:
+  Replace IMAGE_URL_HERE with the ingredient flat lay image link.
+  Upload your image to Shopify → Settings → Files and copy the URL.
+
+  BRAND COLORS:
+  - Primary teal: #2d6b5d
+  - Accent gold: #c28844
+  - Cream bg: #f7f3ed
+
+  MOBILE OPTIMIZED
+  ============================================
+{% endcomment %}
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  .section-whats-in {
+    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    max-width: 680px;
+    margin: 48px auto;
+    padding: 0 20px;
+    color: #2a2a2a;
+    text-align: center;
+  }
+
+  .section-whats-in__header {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 32px;
+    line-height: 1.2;
+  }
+
+  .section-whats-in__image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto 32px;
+    display: block;
+  }
+
+  .section-whats-in__subhead {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #2d6b5d;
+    margin: 32px 0 16px;
+  }
+
+  .section-whats-in__ingredients {
+    text-align: left;
+    max-width: 520px;
+    margin: 0 auto 24px;
+  }
+
+  .section-whats-in__ingredient {
+    padding: 16px 0;
+    border-bottom: 1px solid #e5e0d8;
+  }
+
+  .section-whats-in__ingredient:last-child {
+    border-bottom: none;
+  }
+
+  .section-whats-in__ingredient-name {
+    font-size: 17px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 4px;
+  }
+
+  .section-whats-in__ingredient-desc {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .section-whats-in__not-in {
+    background: #f7f3ed;
+    padding: 24px 20px;
+    border-radius: 12px;
+    margin: 24px 0;
+  }
+
+  .section-whats-in__not-in-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 16px;
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .section-whats-in__not-in-item {
+    white-space: nowrap;
+  }
+
+  .section-whats-in__bottom {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-style: italic;
+    color: #1a1a1a;
+    line-height: 1.4;
+    margin: 32px 0 0;
+  }
+
+  @media (max-width: 600px) {
+    .section-whats-in {
+      margin: 32px auto;
+    }
+    .section-whats-in__header {
+      font-size: 26px;
+      margin-bottom: 24px;
+    }
+    .section-whats-in__ingredient-name {
+      font-size: 16px;
+    }
+    .section-whats-in__bottom {
+      font-size: 18px;
+    }
+    .section-whats-in__not-in-list {
+      font-size: 13px;
+      gap: 8px 12px;
+    }
+  }
+</style>
+
+<section class="section-whats-in">
+  <h2 class="section-whats-in__header">4 ingredients. That's the whole list.</h2>
+
+  {% comment %} REPLACE IMAGE_URL_HERE WITH INGREDIENT FLAT LAY IMAGE {% endcomment %}
+  <img
+    src="IMAGE_URL_HERE"
+    alt="Whipped Tallow Honey Balm ingredients flat lay"
+    class="section-whats-in__image"
+  >
+
+  <p class="section-whats-in__subhead">What's In</p>
+
+  <div class="section-whats-in__ingredients">
+    <div class="section-whats-in__ingredient">
+      <p class="section-whats-in__ingredient-name">🐄 Grass-Fed Beef Tallow</p>
+      <p class="section-whats-in__ingredient-desc">The closest thing to your skin's natural oil.</p>
+    </div>
+    <div class="section-whats-in__ingredient">
+      <p class="section-whats-in__ingredient-name">🍯 Manuka Honey</p>
+      <p class="section-whats-in__ingredient-desc">Antibacterial. Healing. The same honey used in wound care.</p>
+    </div>
+    <div class="section-whats-in__ingredient">
+      <p class="section-whats-in__ingredient-name">🫒 Olive Oil</p>
+      <p class="section-whats-in__ingredient-desc">Cold-pressed. Rich in vitamin E.</p>
+    </div>
+    <div class="section-whats-in__ingredient">
+      <p class="section-whats-in__ingredient-name">🌼 Calendula Flower Extract</p>
+      <p class="section-whats-in__ingredient-desc">Soothes redness and irritation on contact.</p>
+    </div>
+  </div>
+
+  <p class="section-whats-in__subhead">What's Not In</p>
+
+  <div class="section-whats-in__not-in">
+    <ul class="section-whats-in__not-in-list">
+      <li class="section-whats-in__not-in-item">❌ Water</li>
+      <li class="section-whats-in__not-in-item">❌ Parabens</li>
+      <li class="section-whats-in__not-in-item">❌ Sulfates</li>
+      <li class="section-whats-in__not-in-item">❌ Synthetic Fragrance</li>
+      <li class="section-whats-in__not-in-item">❌ Petroleum</li>
+      <li class="section-whats-in__not-in-item">❌ Mineral Oil</li>
+      <li class="section-whats-in__not-in-item">❌ Fillers</li>
+    </ul>
+  </div>
+
+  <p class="section-whats-in__bottom">Flip over your current moisturizer. Count the ingredients. Now count ours.</p>
+</section>
