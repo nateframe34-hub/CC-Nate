@@ -1,0 +1,164 @@
+{% comment %}
+  ============================================
+  SECTION 9 — FAQ
+  Whipped Tallow & Honey Balm
+  ============================================
+
+  HOW TO USE:
+  1. Go to Online Store → Themes → Customize
+  2. Add a "Custom Liquid" block on the product page
+  3. Paste this entire file into the Custom Liquid box
+
+  NO IMAGE NEEDED
+
+  BRAND COLORS:
+  - Primary teal: #2d6b5d
+  - Cream bg: #f7f3ed
+
+  MOBILE OPTIMIZED — native HTML details/summary accordion
+  ============================================
+{% endcomment %}
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  .section-faq {
+    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    max-width: 680px;
+    margin: 48px auto;
+    padding: 0 20px;
+    color: #2a2a2a;
+  }
+
+  .section-faq__header {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 32px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .section-faq__list {
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  .section-faq__item {
+    border-bottom: 1px solid #e5e0d8;
+    padding: 0;
+  }
+
+  .section-faq__item:last-child {
+    border-bottom: none;
+  }
+
+  .section-faq__summary {
+    font-size: 17px;
+    font-weight: 600;
+    color: #1a1a1a;
+    padding: 20px 32px 20px 0;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    transition: color 0.2s ease;
+  }
+
+  .section-faq__summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .section-faq__summary:hover {
+    color: #2d6b5d;
+  }
+
+  .section-faq__summary::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    font-weight: 300;
+    color: #2d6b5d;
+    transition: transform 0.2s ease;
+  }
+
+  .section-faq__item[open] .section-faq__summary::after {
+    content: '−';
+  }
+
+  .section-faq__answer {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+    padding: 0 0 20px;
+    margin: 0;
+  }
+
+  @media (max-width: 600px) {
+    .section-faq {
+      margin: 32px auto;
+    }
+    .section-faq__header {
+      font-size: 26px;
+      margin-bottom: 24px;
+    }
+    .section-faq__summary {
+      font-size: 16px;
+      padding: 18px 30px 18px 0;
+    }
+    .section-faq__answer {
+      font-size: 14px;
+    }
+  }
+</style>
+
+<section class="section-faq">
+  <h2 class="section-faq__header">Still have questions?</h2>
+
+  <div class="section-faq__list">
+
+    <details class="section-faq__item">
+      <summary class="section-faq__summary">How long does one jar last?</summary>
+      <p class="section-faq__answer">2-3 months with daily use on face and neck. Longer if you use it only at night. A little goes a long way.</p>
+    </details>
+
+    <details class="section-faq__item">
+      <summary class="section-faq__summary">Can I use this on my body too?</summary>
+      <p class="section-faq__answer">Yes. Face, neck, hands, elbows, anywhere dry. Many customers use it head to toe.</p>
+    </details>
+
+    <details class="section-faq__item">
+      <summary class="section-faq__summary">Is this safe for sensitive skin?</summary>
+      <p class="section-faq__answer">Yes. 4 ingredients, no fragrance, no chemicals. Tallow is one of the most gentle moisturizers that exists. If your skin reacts to everything else, this is worth trying.</p>
+    </details>
+
+    <details class="section-faq__item">
+      <summary class="section-faq__summary">What does it smell like?</summary>
+      <p class="section-faq__answer">Warm honey with a subtle natural scent. It's not perfumed and it doesn't smell like meat. The manuka honey is the dominant note.</p>
+    </details>
+
+    <details class="section-faq__item">
+      <summary class="section-faq__summary">Will this clog my pores?</summary>
+      <p class="section-faq__answer">For dry, normal, or mature skin — no. Tallow has a low comedogenic rating. However, if you're oily or acne-prone, we recommend patch testing first.</p>
+    </details>
+
+    <details class="section-faq__item">
+      <summary class="section-faq__summary">Where is the tallow sourced?</summary>
+      <p class="section-faq__answer">From grass-fed cattle. The tallow is combined with manuka honey, cold-pressed olive oil, and calendula flower extract.</p>
+    </details>
+
+    <details class="section-faq__item">
+      <summary class="section-faq__summary">How should I store it?</summary>
+      <p class="section-faq__answer">Room temperature. It may firm up in cooler weather and soften in warmth — that's completely normal for a natural balm with no synthetic stabilizers.</p>
+    </details>
+
+    <details class="section-faq__item">
+      <summary class="section-faq__summary">Can I use this with other skincare products?</summary>
+      <p class="section-faq__answer">Yes, but most customers find they don't need to. That's kind of the point.</p>
+    </details>
+
+  </div>
+</section>
