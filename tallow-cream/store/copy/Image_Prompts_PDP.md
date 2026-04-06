@@ -101,4 +101,21 @@ Photorealistic product photography of two skincare products arranged together on
 *Prompts created: April 5, 2026*
 *Optimized for: Nano Banana Pro (Gemini), also works with GPT Image 1.5, Midjourney, DALL-E 3*
 
+---
+
+## FINAL IMAGE PLACEMENT ON PDP
+
+| # | Image | Status | PDP Section | Notes |
+|---|---|---|---|---|
+| 1 | Hero jar (teal gradient) | ✅ Generated | Section 1: Hero (slot 1 in carousel) | Approved — pulled back, teal, professional |
+| 2 | Woman applying cream (eyes closed) | ✅ Generated | Section 1: Hero (slot 2 in carousel) OR Section 2: Is This For You? | Best lifestyle shot yet — real-looking woman, natural gesture |
+| 3 | Woman holding jar at chin | ✅ Generated | Section 1: Hero (slot 3) OR Section 7: Testimonials | Great trust image, label text is garbled but fine at scroll size |
+| 4 | Ingredient flat lay | ✅ Generated | Section 3: What's In / What's Out | Shows 4 ingredients visually |
+| 5 | Marble bathroom shelf (one jar) | ✅ Generated | Section 2: Is This For You? | "One jar replaces everything" visual |
+| 6 | Texture swatch on hand | ❌ Regenerate | Section 4: Why This Works | Current version too AI-reptilian, needs regen with updated prompt |
+| 7 | Neck application (no badges/jar) | ❌ Regenerate | Section 5: How to Use | Previous had overlaid benefits badges and pasted jar — regen without those |
+| 8 | Bundle shot (tallow + eye cream) | ⏳ Not yet generated | Section 10: Final CTA / Glow Kit cross-sell | For bundle offer |
+
+---
+
 Prompts curated from the open community by [YouMind.com](https://youmind.com) ❤️
