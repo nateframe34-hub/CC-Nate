@@ -1,0 +1,184 @@
+{% comment %}
+  ============================================
+  SECTION 5 — HOW TO USE
+  Whipped Tallow & Honey Balm
+  ============================================
+
+  HOW TO USE:
+  1. Go to Online Store → Themes → Customize
+  2. Add a "Custom Liquid" block on the product page
+  3. Paste this entire file into the Custom Liquid box
+
+  IMAGE PLACEHOLDER:
+  Replace IMAGE_URL_HERE with the application image (neck or face).
+
+  BRAND COLORS:
+  - Primary teal: #2d6b5d
+  - Accent gold: #c28844
+  - Cream bg: #f7f3ed
+
+  MOBILE OPTIMIZED
+  ============================================
+{% endcomment %}
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  .section-how-to-use {
+    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    max-width: 680px;
+    margin: 48px auto;
+    padding: 0 20px;
+    color: #2a2a2a;
+  }
+
+  .section-how-to-use__header {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 32px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .section-how-to-use__image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto 32px;
+    display: block;
+  }
+
+  .section-how-to-use__steps {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  .section-how-to-use__step {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e0d8;
+  }
+
+  .section-how-to-use__step:last-child {
+    border-bottom: none;
+  }
+
+  .section-how-to-use__step-num {
+    width: 36px;
+    height: 36px;
+    background: #2d6b5d;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 16px;
+    flex-shrink: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .section-how-to-use__step-text {
+    flex-grow: 1;
+  }
+
+  .section-how-to-use__step-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 4px;
+  }
+
+  .section-how-to-use__step-desc {
+    font-size: 15px;
+    color: #777;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .section-how-to-use__tip {
+    margin-top: 32px;
+    padding: 20px 24px;
+    background: #f7f3ed;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 600px) {
+    .section-how-to-use {
+      margin: 32px auto;
+    }
+    .section-how-to-use__header {
+      font-size: 26px;
+      margin-bottom: 24px;
+    }
+    .section-how-to-use__step-title {
+      font-size: 16px;
+    }
+    .section-how-to-use__step-desc {
+      font-size: 14px;
+    }
+    .section-how-to-use__tip {
+      font-size: 14px;
+      padding: 16px 20px;
+    }
+  }
+</style>
+
+<section class="section-how-to-use">
+  <h2 class="section-how-to-use__header">Simple. Like the ingredient list.</h2>
+
+  {% comment %} REPLACE IMAGE_URL_HERE WITH APPLICATION IMAGE {% endcomment %}
+  <img
+    src="IMAGE_URL_HERE"
+    alt="Applying Whipped Tallow Honey Balm"
+    class="section-how-to-use__image"
+  >
+
+  <div class="section-how-to-use__steps">
+    <div class="section-how-to-use__step">
+      <div class="section-how-to-use__step-num">1</div>
+      <div class="section-how-to-use__step-text">
+        <p class="section-how-to-use__step-title">Scoop</p>
+        <p class="section-how-to-use__step-desc">A little goes a long way. Start with a pea-sized amount.</p>
+      </div>
+    </div>
+
+    <div class="section-how-to-use__step">
+      <div class="section-how-to-use__step-num">2</div>
+      <div class="section-how-to-use__step-text">
+        <p class="section-how-to-use__step-title">Warm</p>
+        <p class="section-how-to-use__step-desc">Rub between your palms for 3-5 seconds. It melts on contact.</p>
+      </div>
+    </div>
+
+    <div class="section-how-to-use__step">
+      <div class="section-how-to-use__step-num">3</div>
+      <div class="section-how-to-use__step-text">
+        <p class="section-how-to-use__step-title">Press</p>
+        <p class="section-how-to-use__step-desc">Press into skin. Face, neck, hands, body — anywhere that needs it.</p>
+      </div>
+    </div>
+
+    <div class="section-how-to-use__step">
+      <div class="section-how-to-use__step-num">4</div>
+      <div class="section-how-to-use__step-text">
+        <p class="section-how-to-use__step-title">Feel the difference</p>
+        <p class="section-how-to-use__step-desc">Absorbs in 2-3 minutes. No greasy residue.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-how-to-use__tip">
+    Tip: Use morning and night. One jar lasts 2-3 months with daily use.
+  </div>
+</section>
