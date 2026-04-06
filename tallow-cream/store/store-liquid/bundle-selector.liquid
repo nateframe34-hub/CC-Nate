@@ -1,21 +1,19 @@
 {% comment %}
   ============================================
-  BUNDLE SELECTOR - Whipped Tallow & Honey Balm
+  BUNDLE SELECTOR - Quantity-Based
+  Whipped Tallow & Honey Balm
   ============================================
 
-  SETUP REQUIRED BEFORE USING THIS CODE:
+  HOW IT WORKS:
 
-  1. In Shopify Admin → Products → Whipped Tallow & Honey Balm
-  2. Go to "Variants" section
-  3. Create a new option called "Bundle" (or "Size")
-  4. Add 3 variant values:
-     - 1 Jar (price: $49.99)
-     - 2 Jars (price: $89.99)
-     - 3 Jars (price: $119.99)
-  5. For each variant, set the compare-at price to the full price:
-     - 1 Jar compare at: $59.99
-     - 2 Jars compare at: $119.98
-     - 3 Jars compare at: $179.97
+  This selector changes the QUANTITY in the product form,
+  not the variant. You have automatic cart discounts set up:
+    - Buy 2 → $10 off
+    - Buy 3 → $30 off
+
+  So when a customer clicks "Stock Up (2 Jars)", the hidden
+  quantity input becomes 2. Shopify's discount engine applies
+  the $10 off at checkout automatically.
 
   HOW TO USE:
 
@@ -24,6 +22,8 @@
   2. Open your product page template
   3. Add a "Custom Liquid" block in the product section
   4. Paste this entire file into the Custom Liquid box
+  5. Hide or remove the default quantity selector from
+     the theme's product form (it's now redundant)
 
   Option B (Theme code snippet):
   1. Go to Online Store → Themes → Edit Code
@@ -31,6 +31,7 @@
   3. Name it: bundle-selector
   4. Paste this code
   5. In your product template, add: {% render 'bundle-selector' %}
+
   ============================================
 {% endcomment %}
 
@@ -176,45 +177,45 @@
 <div class="bundle-selector" data-product-id="{{ product.id }}">
   <p class="bundle-selector__label">Choose your bundle</p>
 
-  {% for variant in product.variants %}
-    {% assign savings = variant.compare_at_price | minus: variant.price | money_without_trailing_zeros %}
-    {% assign savings_amount = variant.compare_at_price | minus: variant.price %}
+  {% comment %} Bundle 1: Try It - 1 Jar {% endcomment %}
+  <label class="bundle-option is-selected" data-quantity="1" data-price="4999">
+    <span class="bundle-option__badge bundle-option__badge--popular">Most Popular</span>
+    <span class="bundle-option__radio"></span>
+    <div class="bundle-option__info">
+      <p class="bundle-option__title">Try It — 1 Jar</p>
+      <p class="bundle-option__sub">Free shipping · 60-day guarantee</p>
+    </div>
+    <div class="bundle-option__price">
+      <span class="bundle-option__price-current">$49.99</span>
+    </div>
+  </label>
 
-    <label class="bundle-option {% if forloop.first %}is-selected{% endif %}" data-variant-id="{{ variant.id }}" data-variant-price="{{ variant.price }}">
+  {% comment %} Bundle 2: Stock Up - 2 Jars {% endcomment %}
+  <label class="bundle-option" data-quantity="2" data-price="8998">
+    <span class="bundle-option__radio"></span>
+    <div class="bundle-option__info">
+      <p class="bundle-option__title">Stock Up — 2 Jars</p>
+      <p class="bundle-option__sub">Save $10 · Free shipping</p>
+    </div>
+    <div class="bundle-option__price">
+      <span class="bundle-option__price-current">$89.98</span>
+      <span class="bundle-option__price-compare">$99.98</span>
+    </div>
+  </label>
 
-      {% if forloop.first %}
-        <span class="bundle-option__badge bundle-option__badge--popular">Most Popular</span>
-      {% elsif forloop.last %}
-        <span class="bundle-option__badge">Best Value</span>
-      {% endif %}
-
-      <input
-        type="radio"
-        name="id"
-        value="{{ variant.id }}"
-        {% if forloop.first %}checked{% endif %}
-        style="display: none;"
-      >
-
-      <span class="bundle-option__radio"></span>
-
-      <div class="bundle-option__info">
-        <p class="bundle-option__title">{{ variant.title }}</p>
-        {% if savings_amount > 0 %}
-          <p class="bundle-option__sub">Save {{ savings }}</p>
-        {% else %}
-          <p class="bundle-option__sub">Free shipping · 60-day guarantee</p>
-        {% endif %}
-      </div>
-
-      <div class="bundle-option__price">
-        <span class="bundle-option__price-current">{{ variant.price | money }}</span>
-        {% if variant.compare_at_price > variant.price %}
-          <span class="bundle-option__price-compare">{{ variant.compare_at_price | money }}</span>
-        {% endif %}
-      </div>
-    </label>
-  {% endfor %}
+  {% comment %} Bundle 3: Best Value - 3 Jars {% endcomment %}
+  <label class="bundle-option" data-quantity="3" data-price="11997">
+    <span class="bundle-option__badge">Best Value</span>
+    <span class="bundle-option__radio"></span>
+    <div class="bundle-option__info">
+      <p class="bundle-option__title">Best Value — 3 Jars</p>
+      <p class="bundle-option__sub">Save $30 · Free shipping</p>
+    </div>
+    <div class="bundle-option__price">
+      <span class="bundle-option__price-current">$119.97</span>
+      <span class="bundle-option__price-compare">$149.97</span>
+    </div>
+  </label>
 </div>
 
 <script>
@@ -231,30 +232,36 @@
         options.forEach(o => o.classList.remove('is-selected'));
         this.classList.add('is-selected');
 
-        const radio = this.querySelector('input[type="radio"]');
-        if (radio) {
-          radio.checked = true;
-          radio.dispatchEvent(new Event('change', { bubbles: true }));
-        }
+        const quantity = this.dataset.quantity;
 
-        const variantId = this.dataset.variantId;
-
+        // Find the product form and update the quantity input
         const productForm = this.closest('form[action*="/cart/add"]');
         if (productForm) {
-          let hiddenInput = productForm.querySelector('input[name="id"]:not([type="radio"])');
-          if (!hiddenInput) {
-            hiddenInput = document.createElement('input');
-            hiddenInput.type = 'hidden';
-            hiddenInput.name = 'id';
-            productForm.appendChild(hiddenInput);
+          let quantityInput = productForm.querySelector('input[name="quantity"]');
+          if (!quantityInput) {
+            quantityInput = document.createElement('input');
+            quantityInput.type = 'hidden';
+            quantityInput.name = 'quantity';
+            productForm.appendChild(quantityInput);
           }
-          hiddenInput.value = variantId;
+          quantityInput.value = quantity;
+
+          // Trigger change event for any theme listeners
+          quantityInput.dispatchEvent(new Event('change', { bubbles: true }));
+          quantityInput.dispatchEvent(new Event('input', { bubbles: true }));
         }
 
-        document.dispatchEvent(new CustomEvent('variant:changed', {
-          detail: { variantId: variantId }
+        // Custom event other theme elements can hook into
+        document.dispatchEvent(new CustomEvent('bundle:changed', {
+          detail: { quantity: quantity }
         }));
       });
     });
+
+    // Set initial quantity on page load
+    const selectedOption = selector.querySelector('.bundle-option.is-selected');
+    if (selectedOption) {
+      selectedOption.click();
+    }
   })();
 </script>
