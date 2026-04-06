@@ -1,0 +1,137 @@
+{% comment %}
+  ============================================
+  SECTION 4 — WHY THIS WORKS WHEN NOTHING ELSE DID
+  Whipped Tallow & Honey Balm
+  ============================================
+
+  HOW TO USE:
+  1. Go to Online Store → Themes → Customize
+  2. Add a "Custom Liquid" block on the product page
+  3. Paste this entire file into the Custom Liquid box
+
+  IMAGE PLACEHOLDER:
+  Replace IMAGE_URL_HERE with the texture swatch on hand image.
+  Upload your image to Shopify → Settings → Files and copy the URL.
+
+  BRAND COLORS:
+  - Primary teal: #2d6b5d
+  - Cream bg: #f7f3ed
+
+  MOBILE OPTIMIZED — short paragraphs, generous spacing
+  ============================================
+{% endcomment %}
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  .section-why-works {
+    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    max-width: 680px;
+    margin: 48px auto;
+    padding: 0 20px;
+    color: #2a2a2a;
+  }
+
+  .section-why-works__header {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 32px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .section-why-works__image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto 32px;
+    display: block;
+  }
+
+  .section-why-works__body {
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  .section-why-works__para {
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 0 0 18px;
+    color: #2a2a2a;
+  }
+
+  .section-why-works__highlight {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-style: italic;
+    color: #2d6b5d;
+    line-height: 1.4;
+    margin: 28px 0;
+    padding: 20px 24px;
+    border-left: 3px solid #2d6b5d;
+    background: #f7f3ed;
+  }
+
+  @media (max-width: 600px) {
+    .section-why-works {
+      margin: 32px auto;
+    }
+    .section-why-works__header {
+      font-size: 26px;
+      margin-bottom: 24px;
+    }
+    .section-why-works__para {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .section-why-works__highlight {
+      font-size: 19px;
+      padding: 16px 20px;
+      margin: 24px 0;
+    }
+  }
+</style>
+
+<section class="section-why-works">
+  <h2 class="section-why-works__header">Your skin isn't dry.<br>It's starving.</h2>
+
+  {% comment %} REPLACE IMAGE_URL_HERE WITH TEXTURE SWATCH ON HAND IMAGE {% endcomment %}
+  <img
+    src="IMAGE_URL_HERE"
+    alt="Tallow balm absorbing into skin"
+    class="section-why-works__image"
+  >
+
+  <div class="section-why-works__body">
+    <p class="section-why-works__para">
+      Your skin makes a natural oil called sebum. It's what keeps your skin soft, hydrated, and protected.
+    </p>
+
+    <p class="section-why-works__para">
+      After 40, your body produces up to 60% less of it. After menopause, it can drop even further.
+    </p>
+
+    <p class="section-why-works__para">
+      That's why your moisturizer stopped working. It adds water. Your skin needs oil.
+    </p>
+
+    <p class="section-why-works__highlight">
+      Your skin needs fats it actually recognizes.
+    </p>
+
+    <p class="section-why-works__para">
+      Tallow is almost identical to the oil your skin makes on its own. When you apply it, your skin doesn't treat it like a foreign product sitting on top.
+    </p>
+
+    <p class="section-why-works__para">
+      It absorbs it — because it recognizes it as its own.
+    </p>
+
+    <p class="section-why-works__para">
+      That's the difference between a moisturizer that disappears by noon and one that lasts all day.
+    </p>
+  </div>
+</section>
