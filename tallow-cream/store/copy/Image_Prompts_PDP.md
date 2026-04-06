@@ -20,10 +20,10 @@ Professional studio product photography, wide shot, zoomed out. A small 4oz ambe
 ## 2. LIFESTYLE APPLICATION — Woman Applying
 
 ```
-Photorealistic lifestyle photograph of a natural-looking woman in her early 50s applying a cream-colored balm to her cheek with her fingertips. She has soft smile lines, natural skin texture (not retouched or airbrushed), short-to-medium length hair with natural gray streaks. Soft morning light from a window behind her, creating a warm glow on her face. She looks relaxed, confident, and genuinely content — not posing, captured mid-application. Wearing a simple cream or white top. Background is a blurred warm-toned bathroom or bedroom. Warm color palette — honey gold light, cream tones, natural skin. The cream-colored balm is visible on her fingertips and partially absorbed into her cheek. Portrait orientation, shot at eye level, shallow depth of field. Professional lifestyle beauty photography, 8K.
+Candid photograph of a woman in her late 40s sitting near a bright window, using both her fingertips to gently press a small dab of cream-colored moisturizer onto her cheekbone. Her eyes are softly closed or looking slightly down — relaxed, not posed. She has chin-length hair with light natural gray streaks, no makeup. The photo is cropped from mid-chest up. She wears a simple white or cream t-shirt. The background is a softly blurred warm indoor space — no specific bathroom details, just a creamy warm blur. Soft natural window light coming from her side, not behind her. The product is NOT visible in this shot — only her hands and face. Her fingers are touching her cheek naturally, the way a real woman would apply cream in the morning. Realistic skin with subtle smile lines, no heavy retouching, no perfect symmetry. The photo should look like it was taken by a friend, not a studio shoot. Aspect ratio 4:5, eye-level, shallow depth of field, realistic photography, no AI artifacts.
 ```
 
-**Purpose:** "Real woman using the product" — shows our avatar in the imagery. NOT a 25-year-old model.
+**Purpose:** Shows a woman from our avatar range applying the product. Keep the jar OUT of frame — having her hold the jar AND apply product creates AI-hand chaos. The jar belongs in image 1 (hero) and image 4 (flat lay).
 
 ---
 
