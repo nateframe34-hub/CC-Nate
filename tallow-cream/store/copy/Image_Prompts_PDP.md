@@ -30,10 +30,10 @@ Photorealistic lifestyle photograph of a natural-looking woman in her early 50s 
 ## 3. TEXTURE SWATCH ON SKIN
 
 ```
-Ultra-realistic extreme close-up macro photograph of a cream-colored whipped balm being spread across the back of a woman's hand (aged 50+, showing natural skin texture with fine lines). The balm has a rich, creamy, butter-like consistency with a soft cream color. You can see the balm partially absorbed into the skin on one side and freshly applied on the other — showing the transition from applied to absorbed. Soft natural daylight, warm tones. The skin looks visibly more hydrated where the balm has absorbed compared to the bare skin beside it. Clean white or cream background slightly blurred. Macro lens, f/2.8, shallow depth of field, 8K resolution. Professional cosmetic texture photography.
+Realistic product photograph of a small amount of cream-colored whipped balm being gently rubbed into the back of a woman's hand with her opposite index finger. The woman is in her late 40s to early 50s — hand shows natural healthy skin, a few subtle fine lines and faint freckles, but NOT heavily wrinkled, aged, or weathered. The skin looks smooth, well-cared-for, and realistic — like the hand of a woman in her late 40s who takes care of her skin, not an elderly hand with deep textures. The balm is a small dab, slightly spread, with visible cream-colored creamy texture that is clearly melting into the skin. Shot from slightly above at a natural angle, not a macro extreme close-up — more like a normal photo someone would take of their own hand. Soft natural light from a window, clean soft white or very light beige background, shallow depth of field. The overall look is clean, editorial, like a real beauty product photo. 8K, professional beauty photography, photorealistic, no exaggerated skin texture or uncanny details.
 ```
 
-**Purpose:** Shows the product texture AND the before/after absorption effect in one image.
+**Purpose:** Shows the product texture being applied. Key fix: don't let AI over-exaggerate skin texture — women in their late 40s/early 50s don't have reptilian skin. Subtle, healthy, natural.
 
 ---
 
