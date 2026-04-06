@@ -1,0 +1,119 @@
+{% comment %}
+  ============================================
+  SECTION 6 — REAL TALK (Objection Handling)
+  Whipped Tallow & Honey Balm
+  ============================================
+
+  HOW TO USE:
+  1. Go to Online Store → Themes → Customize
+  2. Add a "Custom Liquid" block on the product page
+  3. Paste this entire file into the Custom Liquid box
+
+  NO IMAGE NEEDED (text-focused section)
+
+  BRAND COLORS:
+  - Primary teal: #2d6b5d
+  - Cream bg: #f7f3ed
+
+  MOBILE OPTIMIZED
+  ============================================
+{% endcomment %}
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  .section-real-talk {
+    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    max-width: 680px;
+    margin: 48px auto;
+    padding: 0 20px;
+    color: #2a2a2a;
+  }
+
+  .section-real-talk__header {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 32px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .section-real-talk__qa {
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  .section-real-talk__item {
+    padding: 24px;
+    margin-bottom: 16px;
+    background: #f7f3ed;
+    border-radius: 12px;
+    border-left: 3px solid #2d6b5d;
+  }
+
+  .section-real-talk__question {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 12px;
+    line-height: 1.3;
+  }
+
+  .section-real-talk__answer {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+    margin: 0;
+  }
+
+  @media (max-width: 600px) {
+    .section-real-talk {
+      margin: 32px auto;
+    }
+    .section-real-talk__header {
+      font-size: 26px;
+      margin-bottom: 24px;
+    }
+    .section-real-talk__item {
+      padding: 20px;
+    }
+    .section-real-talk__question {
+      font-size: 19px;
+    }
+    .section-real-talk__answer {
+      font-size: 15px;
+    }
+  }
+</style>
+
+<section class="section-real-talk">
+  <h2 class="section-real-talk__header">Questions you're already asking.</h2>
+
+  <div class="section-real-talk__qa">
+
+    <div class="section-real-talk__item">
+      <p class="section-real-talk__question">Does it smell like beef?</p>
+      <p class="section-real-talk__answer">
+        No. The tallow is properly rendered and whipped with manuka honey. You'll smell honey and a subtle warmth — not a steakhouse.
+      </p>
+    </div>
+
+    <div class="section-real-talk__item">
+      <p class="section-real-talk__question">Will it feel greasy?</p>
+      <p class="section-real-talk__answer">
+        For about 2-3 minutes, yes. Then it absorbs completely. That's how you know it's working — your skin is pulling it in.
+      </p>
+    </div>
+
+    <div class="section-real-talk__item">
+      <p class="section-real-talk__question">Will it break me out?</p>
+      <p class="section-real-talk__answer">
+        If you have oily or acne-prone skin, tallow may not be for you. This is made for dry, mature, sensitive, or damaged skin.
+      </p>
+    </div>
+
+  </div>
+</section>
