@@ -1,1 +1,7 @@
 Date,Campaign,Ad_Set,Ad_Name,Status,Amount_Spent,Delivery,Budget,Impressions,CPM,CTR,CPC,Link_Clicks,Landing_Page_Views,Adds_To_Cart,Checkouts_Initiated,Purchases,Purchases_Conversion_Value,Cost_Per_Purchase,Purchase_ROAS,Notes
+2026-04-08,Tallow Launch — Conversion CBO,Batch_1,B1C1 — Desert Dry,Active,1.02,Active,CBO,6,170.00,16.67,1.02,1,1,,,,0.00,,,Day 1 launch. Tiny sample size.
+2026-04-08,Tallow Launch — Conversion CBO,Batch_1,B1C2 — Husband Noticed,Active,10.57,Active,CBO,28,377.50,14.29,2.64,4,2,2,,,0.00,,,"Day 1. Highest CTR + 2 ATC but brutal $377 CPM. CBO favoring this creative."
+2026-04-08,Tallow Launch — Conversion CBO,Batch_1,B1C3 — Dermatologist,Active,5.09,Active,CBO,32,159.06,,,,,,,,0.00,,,"Day 1. No clicks yet. Watch tomorrow."
+2026-04-08,Tallow Launch — Conversion CBO,Batch_2,B2C1 — Cow Fat,Active,2.69,Active,CBO,41,65.61,2.44,2.69,1,1,,,,0.00,,,"Day 1. Best CPM of the batch ($65). Low CTR so far."
+2026-04-08,Tallow Launch — Conversion CBO,Batch_2,B2C2 — All The Same,Active,35.11,Active,CBO,154,227.99,3.90,5.85,6,3,,,,0.00,,,"Day 1. CBO favoring this creative ($35 spend). High CPM, moderate CTR, 3 LPVs 0 ATC."
+2026-04-08,Tallow Launch — Conversion CBO,Batch_2,B2C3 — Daughter,Active,2.38,Active,CBO,25,95.20,,,,,,,,0.00,,,"Day 1. No clicks yet. Watch tomorrow."
