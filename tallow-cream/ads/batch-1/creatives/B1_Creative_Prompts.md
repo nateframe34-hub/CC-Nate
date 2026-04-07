@@ -62,8 +62,29 @@ Extreme macro close-up photograph of normal, slightly dry skin on a woman's neck
 
 **Alternate — Medical Cross-Section Diagram:**
 ```
-Educational medical illustration showing a side-by-side cross-section of human skin at age 30 versus age 50. The age 30 cross-section shows healthy plump dermis with active oil glands producing sebum. The age 50 cross-section shows the same skin layers but flattened, dry, with clearly reduced sebum production marked with subtle arrows. Soft pastel colors, medical textbook illustration style (not photorealistic). Clean white background. Looks like a screenshot from a Healthline article or a Mayo Clinic page about skin aging. Educational, informational, not promotional.
+A clean, minimal medical textbook illustration showing two side-by-side cross-sections of human skin in the style of a dermatology educational handout. Soft muted pastel colors (pale pink dermis, soft yellow subcutaneous fat, light blue background). Each cross-section shows the layered structure of skin: epidermis at top, dermis in the middle (with collagen fibers shown as thin curved lines), subcutaneous fat at the bottom, and a single hair follicle with a sebaceous (oil) gland attached.
+
+LEFT cross-section: dense, plump dermis layer with thick collagen fiber network. The sebaceous gland is LARGE, visibly full, with small yellow droplets indicating active oil production flowing up around the hair follicle.
+
+RIGHT cross-section: same skin layers but the dermis is noticeably THINNER and flatter, the collagen fibers are sparse and broken, and the sebaceous gland is significantly SMALLER and almost empty — barely any oil droplets visible.
+
+The two cross-sections sit side by side with a thin vertical divider between them. Equal size, identical framing, identical illustration style — only the internal anatomy differs.
+
+TEXT (this is critical — keep text minimal and clean):
+- Single bold title at the top: "How Skin Changes With Age"
+- Above the LEFT diagram: "AGE 30"
+- Above the RIGHT diagram: "AGE 50"
+- One small clean label below the LEFT sebaceous gland: "Active Oil Production"
+- One small clean label below the RIGHT sebaceous gland: "Reduced Oil Production"
+- NO other text. NO extra labels. NO arrows. NO subtitles. NO disclaimer. NO watermark.
+
+Use a single clean sans-serif font (like Helvetica or Arial) for all text, all the same color (dark gray, not black). Text must be perfectly legible and grammatically correct. Soft minimal background, flat illustration style (no shading, no gradients). Looks like a screenshot from a Healthline article or a Mayo Clinic infographic. Not photorealistic. 4:5 aspect ratio.
 ```
+
+**Critical text-rendering tips for this prompt:**
+- AI image generators struggle with text. Generate 5-10 variations.
+- Keep ONLY the variations where ALL 5 text elements are spelled correctly and legible.
+- If the AI keeps mangling text, generate the diagram with ZERO text and add the labels in Canva afterward — the illustration itself is what matters.
 
 ---
 
