@@ -25,7 +25,28 @@
 
 **Primary Image — Pain Point (Normal Dry Skin Macro):**
 ```
-Extreme macro close-up photograph of a woman's cheek skin in soft natural daylight. The skin is clearly dehydrated and dull — visibly thirsty but NOT damaged. Specific cues: matte/dull surface (no glow, no sheen), a papery quality, fine crepey texture across the entire patch, slight ashiness, a network of subtle dehydration lines visible across the skin (not deep wrinkles, just surface dryness lines), tightness that you can almost feel through the screen. The color is slightly washed out and lifeless — not pink, not glowing, not warm. Think of skin at the end of a long winter, after a transatlantic flight, or after a week of cold weather. NOT cracked. NOT flaking. NOT red. NOT inflamed. NOT a medical condition. But absolutely VISIBLY dry — when the avatar sees this image, she should think "yes, that's what my skin looks like in the mirror right now." Cropped extremely tight on a patch of cheek — no eye, no mouth, no full face, no hair. Cool flat lighting (NOT warm golden light, NOT a glow). Real skin texture, no makeup, photorealistic, true-to-life. The skin should look thirsty.
+Extreme macro close-up photograph of a woman's cheek skin in cool flat natural light. The woman is in her early 50s — the skin clearly shows mature, dehydrated, thirsty skin (NOT young skin, NOT a medical condition).
+
+Specific visual cues that MUST be present:
+- Matte, dull, lifeless surface — no glow, no sheen, no dewy quality
+- Visibly papery, crepey texture across the entire patch
+- A network of fine surface dehydration lines distributed across the skin
+- Several SUBTLE fine wrinkles — soft creases that would be present on a real woman in her early 50s (mostly hairline depth, a couple slightly deeper around the cheek area)
+- Slightly sunken/flattened look (skin doesn't look plump)
+- Washed-out, slightly ashy skin tone — not pink, not warm, not glowing
+- Visible natural pore texture, but the skin around the pores looks tight and thirsty
+
+What it should NOT show:
+- NO cracks
+- NO flaking
+- NO redness or inflammation
+- NO scabs, sores, or medical-looking patches
+- NO deep dramatic wrinkles (not 70-year-old skin)
+- NO glow, no warm light, no peach-fuzz catching light
+
+The image should make the avatar (a woman 45-55) think "that looks like my skin in the mirror." It should look like skin at the end of a dry winter, not skin in a magazine.
+
+Cropped extremely tight on a patch of cheek/upper jaw — no eye, no mouth, no nose, no full face, no hair, no jewelry. Cool flat indoor lighting (NOT golden hour, NOT warm window light). Real photograph, not retouched, photorealistic, true-to-life skin texture. Documentary reference style — looks like a candid photo someone took of their own skin in a bathroom mirror.
 ```
 
 **Alternate — Outcome Visual (Plump Hydrated Skin):**
