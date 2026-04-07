@@ -67,13 +67,13 @@ Photorealistic portrait photograph of a natural-looking woman in her early 50s h
 
 ---
 
-## 7. PRODUCT IN USE — HAND ON NECK
+## 7. PRODUCT IN USE — MACRO CLOSE-UP NECK
 
 ```
-Photorealistic candid photograph of a woman in her late 40s gently massaging cream into the side of her neck with one hand. Single hand only — the other hand is at her side, not in frame. The hand uses two fingertips in a smooth gentle motion, no dripping or excess product. Just a light sheen on the skin where the cream has absorbed. She wears a simple cream or white knit sweater (not a tank top). The image is cropped from collarbone to just below the chin — her face is mostly out of frame, only her jawline and neck area are visible. Soft natural daylight from a window to the side, NO steam, NO bathroom setting. Warm soft beige background, blurred. Skin looks healthy, well-cared-for, with subtle natural texture — not heavily aged or weathered. The mood is calm, slow, intentional self-care. No product jar visible. Editorial beauty photography, 8K, photorealistic, no AI artifacts, no exaggerated skin texture.
+Extreme close-up macro photograph focused tightly on a woman's neck where her fingertips are gently pressing cream-colored balm into the skin. The frame is cropped tight — only the neck area and the fingertips are visible. No face. No sweater. No background. Just neck skin and fingertips filling the frame. The neck shows healthy, well-cared-for skin with subtle natural texture (woman in her late 40s, not heavily aged). A small amount of cream-colored balm is visible on the skin, partially absorbed, creating a soft natural sheen. The fingertips are clean, well-manicured, gentle pressure. Soft warm natural daylight from the side, no harsh shadows. Background completely blurred to a soft warm cream color (out of focus). Macro lens, shallow depth of field, sharp focus on the cream and skin contact point. Editorial beauty photography, 8K, photorealistic, no AI artifacts, no exaggerated wrinkles or reptilian skin texture.
 ```
 
-**Purpose:** Shows the product being used on the body — but cleaner. Single hand, sweater (not tank top), no steam, no bathroom, no dripping. Editorial vibe over clinical. Cropped above the chest entirely.
+**Purpose:** Shows the product on body skin — but as a tight macro (like the texture swatch on hand). Same energy: focused on the product-skin contact, nothing competing. No face, no sweater, no room.
 
 ---
 
