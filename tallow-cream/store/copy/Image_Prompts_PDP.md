@@ -67,23 +67,23 @@ Photorealistic portrait photograph of a natural-looking woman in her early 50s h
 
 ---
 
-## 7. PRODUCT IN USE — NECK/DÉCOLLETAGE
+## 7. PRODUCT IN USE — HAND ON NECK
 
 ```
-Photorealistic close-up photograph of a woman in her 50s applying cream-colored balm to her neck and upper chest area with her fingertips, gentle upward strokes. Natural skin showing signs of aging — fine lines on the neck, slight sun spots. The cream-colored balm is visible on her skin, partially absorbed. She is wearing a simple white tank top or towel wrapped at chest level. Soft warm bathroom light, slightly steamy atmosphere suggesting post-shower. Cropped from chin to just above chest — no face fully visible, focus is on the neck/décolletage area and the application. Warm tones, intimate, real. Professional beauty photography, 8K.
+Photorealistic candid photograph of a woman in her late 40s gently massaging cream into the side of her neck with one hand. Single hand only — the other hand is at her side, not in frame. The hand uses two fingertips in a smooth gentle motion, no dripping or excess product. Just a light sheen on the skin where the cream has absorbed. She wears a simple cream or white knit sweater (not a tank top). The image is cropped from collarbone to just below the chin — her face is mostly out of frame, only her jawline and neck area are visible. Soft natural daylight from a window to the side, NO steam, NO bathroom setting. Warm soft beige background, blurred. Skin looks healthy, well-cared-for, with subtle natural texture — not heavily aged or weathered. The mood is calm, slow, intentional self-care. No product jar visible. Editorial beauty photography, 8K, photorealistic, no AI artifacts, no exaggerated skin texture.
 ```
 
-**Purpose:** Shows the product being used on the body (not just face) — supports "face & body" positioning.
+**Purpose:** Shows the product being used on the body — but cleaner. Single hand, sweater (not tank top), no steam, no bathroom, no dripping. Editorial vibe over clinical. Cropped above the chest entirely.
 
 ---
 
-## 8. CROSS-SELL / BUNDLE SHOT — Tallow Jar + Eye Cream
+## 8. PRODUCT DETAIL SHOT — Open Jar
 
 ```
-Photorealistic product photography of two skincare products arranged together on a warm cream surface. Left: an amber glass jar with black ribbed lid (the tallow balm, lid off showing cream-colored whipped texture). Right: a slim white tube of eye cream, angled slightly. Between them: a small calendula flower and a drop of golden honey on the surface. Soft warm natural light from the left. Clean negative space above for text overlay ("The Glow Kit"). Minimal, premium, editorial. Both products slightly angled toward each other suggesting they belong together as a set. Professional cosmetic product photography, 8K resolution.
+Photorealistic product photography of a single 4oz amber glass jar with black ribbed lid, lid off and resting flat beside the jar at a slight angle. Inside the jar is the cream-colored whipped balm with visible swirl texture from whipping — the texture is the focal point. The jar has a kraft paper label with vintage-style text and a cow illustration. Shot from a slight overhead angle (about 30 degrees) so you can see both the label on the side AND the whipped texture inside. Clean warm cream surface, soft natural daylight from the left, gentle shadows. No props, no flowers, no honey dipper. Just the jar with the lid off. Professional cosmetic product photography, 8K resolution, sharp focus on the whipped texture inside. Premium, editorial.
 ```
 
-**Purpose:** Bundle/cross-sell image for "The Glow Kit" offer on PDP.
+**Purpose:** Detail shot showing the actual product texture inside the jar. Different angle and intent than the hero (which is closed and straight-on). This sells the texture and "premium feel" without needing a second product.
 
 ---
 
@@ -113,8 +113,8 @@ Photorealistic product photography of two skincare products arranged together on
 | 4 | Ingredient flat lay | ✅ Generated | Section 3: What's In / What's Out | Shows 4 ingredients visually |
 | 5 | Marble bathroom shelf (one jar) | ✅ Generated | Section 2: Is This For You? | "One jar replaces everything" visual |
 | 6 | Texture swatch on hand | ❌ Regenerate | Section 4: Why This Works | Current version too AI-reptilian, needs regen with updated prompt |
-| 7 | Neck application (no badges/jar) | ❌ Regenerate | Section 5: How to Use | Previous had overlaid benefits badges and pasted jar — regen without those |
-| 8 | Bundle shot (tallow + eye cream) | ⏳ Not yet generated | Section 10: Final CTA / Glow Kit cross-sell | For bundle offer |
+| 7 | Hand on neck (cleaner, sweater) | ❌ Regenerate | Section 5 or supplementary | Previous version had steam, dripping cream, tank top — too clinical. New prompt: single hand, sweater, no steam |
+| 8 | Open jar detail shot | ⏳ Not yet generated | Hero carousel slot or detail section | Single product, lid off, shows whipped texture. Replaces eye cream bundle (no bundle at launch) |
 
 ---
 
