@@ -1,57 +1,112 @@
-# Batch 2 Creative Prompts — The Product Graveyard
+# Batch 2 Creative Prompts — The Product Graveyard (TRUE CAMOUFLAGE FORMAT)
 
-> **Format:** Native/camouflage static. Must NOT look like an ad. Should look like a photo someone posted on Facebook with their story. No logos, no text overlays, no product branding visible. Just a real-looking photo.
-
----
-
-## B2C1 — "Cow Fat" (Drawer full of products that didn't work)
-
-**Primary Image:**
-```
-Photorealistic overhead photograph of an open bathroom drawer filled with various skincare products — bottles, tubes, jars, serums, a few with caps off, some laying on their sides. The products are real brands, mixed sizes, clearly accumulated over time, not arranged. Some look half used, one might still be in its box. The drawer itself is slightly messy, like someone just opened it to look at the damage. A woman's hand is visible at the edge of frame, resting on the drawer handle. Warm bathroom light from above. This looks like a photo someone took to show their friend "look at all this stuff that didn't work." iPhone quality, overhead angle, not styled.
-```
-
-**Alternate Image:**
-```
-Photorealistic photograph of a bathroom counter with a single amber glass jar of cream-colored balm sitting alone on a clean white surface. The counter is intentionally empty around it. Maybe a simple white towel folded nearby. Warm morning light from a window. The jar lid is off, showing the cream-colored whipped texture inside. This looks like a "after" photo, like someone cleaned off their counter and this is all that's left. The emptiness of the counter IS the statement. iPhone quality, slightly off-center, warm tones. No branding text visible on the jar.
-```
-
----
-
-## B2C2 — "All The Same" (Same thing in different bottles)
-
-**Primary Image:**
-```
-Photorealistic photograph of 5-6 different skincare products (moisturizers, serums, creams) lined up in a row on a bathroom counter, all turned around to show their ingredient lists on the back. The labels are facing the camera. A woman's finger is pointing at or touching one of the ingredient lists. Warm overhead bathroom light. The products are different brands, different sizes, different price points, but all turned to show the back. This looks like a photo someone took mid-realization, like "oh my god they really are all the same." iPhone quality, slightly messy counter, real bathroom.
-```
-
-**Alternate Image:**
-```
-Photorealistic close-up photograph of the back of a skincare product bottle or jar, showing the ingredient list. A woman's finger is pointing at or underlining the first few ingredients (water, glycerin, dimethicone). The text is slightly readable but doesn't need to be perfectly sharp. Warm bathroom light. Shallow depth of field, the focus is on where her finger is pointing. Another product or two are blurred in the background. This looks like someone took a photo to post "look at this ingredient list" in a skincare group. iPhone macro mode quality.
-```
+> **CRITICAL — FORMAT NOTES:**
+>
+> Camouflage ad images show the PAIN POINT or the IDEAL OUTCOME. Nothing else.
+>
+> For Product Graveyard avatar, the pain visuals are:
+> - **The product graveyard itself:** real bathroom counter / drawer with multiple half-used skincare products (the literal physical evidence of "I tried everything")
+> - **Dry skin macros:** same as B1 — normal everyday dryness, not medical condition
+> - **The outcome:** smooth hydrated skin
+>
+> NOT faces. NOT couples. NOT bathrooms (other than the counter shot). NOT product hero shots. NOT lifestyle.
+> Just the pain point or the outcome.
+>
+> **The dryness rule:** The skin should look like the avatar's own skin in the mirror, not a worst-case medical photo. NOT cracked, NOT flaking heavily, NOT inflamed. Recognition over shock.
+>
+> **The graveyard rule:** The bathroom counter must look REAL. Slightly messy, real bathroom lighting, half-used products with caps off. NOT staged. NOT styled. NOT a beauty editorial. Looks like someone's actual bathroom on a Tuesday morning.
+>
+> **The body copy is what sells. The visual is what stops the scroll.**
 
 ---
 
-## B2C3 — "Daughter" (Where did all your moisturizers go?)
+## B2C1 — "I have a drawer full of skincare products that didn't work. Then I tried cow fat."
 
-**Primary Image:**
+**The pain visual:** The literal product graveyard. This is THE image for this concept.
+
+**Primary Image — Real Bathroom Counter (Product Graveyard):**
 ```
-Photorealistic photograph of a clean, minimal bathroom shelf or ledge with a single amber glass jar sitting on it. The shelf is otherwise empty or nearly empty, maybe just a small plant or a folded washcloth beside the jar. Warm soft morning light from a frosted window. White or light tile background. The composition emphasizes the empty space around the jar — the emptiness IS the point. It looks like a photo someone took of their newly simplified bathroom to post on social media with a "before I had 10 products, now I have one" caption. iPhone quality, warm tones, clean but not staged.
+Authentic phone photograph of a real woman's bathroom counter, taken from above at a slight angle as if the photographer is standing over it looking down. The counter has 8-12 different skincare products scattered across it: a few moisturizer jars (some with caps off), a couple of serum bottles with droppers, a vitamin C bottle, an eye cream tube squeezed in the middle, a face oil with a few drops on the counter, a half-used tube of retinol. Some products are real recognizable shapes (clear glass dropper bottles, white tubes, frosted jars). The counter is white or light marble — not pristine, with a few water droplets, a hair tie, and a small ring smudge from a moisturizer jar. Real bathroom lighting (slightly warm, not professional). The photo is taken with an iPhone, slightly off-center, not staged, not styled. Looks exactly like a photo someone took to text to their friend captioned "look at all this crap that doesn't work." Authentic, raw, unedited, real bathroom mess. NO product labels readable, NO branding visible, just the chaotic reality of too many failed skincare products.
 ```
 
-**Alternate Image:**
+**Alternate — Pain Point (Normal Dry Skin Macro):**
 ```
-Photorealistic candid photograph of a mother and adult daughter (early 20s) standing in a bathroom doorway, the daughter looking at the bathroom shelf with a curious or amused expression, the mother smiling knowingly beside her. Casual, relaxed, real. Both dressed in comfortable home clothes. The bathroom shelf is visible in the background with just one jar on it. Warm light, natural skin on both women (the mother is 50s with visible aging, the daughter is naturally young). This looks like a photo the dad took of a funny moment. Slightly imperfect framing, candid, warm.
+Extreme macro close-up photograph of normal, slightly dry facial skin in soft natural daylight. The skin shows everyday dehydration — slight tightness, fine dryness lines, a dull surface texture, the kind of dryness a healthy woman in her late 40s notices in the bathroom mirror in the morning. NOT cracked. NOT flaking heavily. NOT a medical condition. NOT inflamed or red. Just normal everyday dry skin that needs moisturizer. Cropped tight on a patch of cheek skin — no eye, no mouth, no full face, no identifying features. Soft natural light, no harsh shadows, slightly subdued color. Real skin texture, no makeup, unretouched. Looks like a candid reference photo someone took of their own skin to show a friend. Macro lens, photorealistic, true-to-life.
 ```
 
 ---
 
-## General Notes for All B2 Creatives
+## B2C2 — "I lined up every moisturizer I've ever bought. They were basically all the same thing in different bottles."
 
-- **The "product graveyard" visual is the most important image in this batch.** The drawer full of products is the scroll-stopper. It triggers instant recognition — every woman with dry skin has that drawer.
-- **The empty shelf is the "after" visual.** One jar on an empty counter communicates the entire value proposition without a single word.
-- **The ingredient list photo is a new format we haven't tested.** It's a pattern interrupt because people don't usually see the BACK of products in ads. It invites curiosity.
-- **NO text overlays. NO logos. NO branding.**
-- **iPhone quality, not studio quality.** Imperfect framing, slightly warm color cast, maybe a tiny bit of motion blur. It needs to look like something someone actually posted.
-- **Warm tones across all three.** Match Batch 1's warm cream/honey color palette for brand consistency. The balm is cream-colored, not golden.
-- **Generate 3-4 variations of each** and pick the most authentic-looking one.
+**The pain visual:** A literal lineup of products. Or a shot of an ingredient list being read.
+
+**Primary Image — Lineup of Failed Moisturizers:**
+```
+Authentic phone photograph of 6-8 skincare products lined up in a row on a white bathroom counter, all of them different brands and shapes — moisturizer jars, serum bottles, tubes, creams. They are TURNED AROUND so the BACK of each product (with the ingredient list) is facing the camera. Some labels are slightly worn, some products are clearly half-used. The shot is taken from straight above at eye level, not styled, slightly imperfect framing. Real bathroom lighting. Looks like a photo someone took mid-realization, like she just turned them all around to compare ingredient lists. NO brand names readable. NO logos. The text on the labels is intentionally blurry/illegible. Authentic, raw, real, iPhone quality. Looks like a photo from a Reddit post about skincare being a scam.
+```
+
+**Alternate — Pain Point (Normal Dry Skin Macro):**
+```
+Extreme macro close-up photograph of normal, slightly dry facial skin in soft natural daylight. The skin shows everyday dehydration — slight tightness, fine dryness lines, a dull surface texture. NOT cracked. NOT flaking heavily. NOT a medical condition. Just normal everyday dryness that a real woman notices. Cropped tight on a patch of cheek skin — no eye, no mouth, no full face. Real skin, no makeup, unretouched, photorealistic.
+```
+
+---
+
+## B2C3 — "My daughter asked where all my moisturizers went. I told her I only need one now."
+
+**The outcome visual:** The empty bathroom counter — the AFTER of the product graveyard. Or hydrated skin.
+
+**Primary Image — Empty Bathroom Counter (After):**
+```
+Authentic photograph of a clean, almost-empty white bathroom counter. The counter is mostly bare — there's a folded hand towel in the corner, maybe a glass of water, and one small unbranded amber jar sitting in the middle. Lots of empty space. Soft morning light from a window. Looks like someone deliberately cleaned everything off the counter. Real bathroom (you can see a faucet edge, maybe a soap dispenser at the edge of frame). NOT styled, NOT a beauty editorial — just a photo someone took to show how minimal their routine became. iPhone quality, slightly off-center. The empty space IS the message. Authentic, real, lived-in bathroom.
+```
+
+**Alternate — Outcome Visual (Plump Hydrated Skin):**
+```
+Extreme macro close-up photograph of healthy, hydrated, glowing facial skin in soft natural light. The skin looks plump, smooth, with a natural healthy sheen — not greasy, not retouched. You can see the natural skin texture but it looks well-fed and resilient. Cropped tight on a patch of cheek skin — no eye, no mouth, no identifying features. Warm soft light. Looks like a "before/after" reference photo from a skincare article showing what hydrated skin actually looks like. Macro lens, real skin, no makeup, no product visible.
+```
+
+---
+
+## GENERATION NOTES
+
+**Style anchor words to include:**
+- "authentic phone photograph"
+- "iPhone quality"
+- "not staged"
+- "not styled"
+- "real bathroom"
+- "slightly off-center"
+- "extreme macro close-up" (for skin shots)
+- "normal everyday dryness" (NOT severe)
+- "no brand labels readable"
+- "no logos"
+
+**Words to AVOID:**
+- "beauty photography"
+- "editorial"
+- "studio lighting"
+- "8K"
+- "f/2.8"
+- "professional"
+- "cracked"
+- "flaking heavily"
+- "severe dryness"
+- "medical condition"
+- "inflamed"
+- Anything that implies a posed photoshoot OR a worst-case dermatology image
+
+**Aspect ratio:** 4:5 (1080 × 1350) for Meta feed
+
+**Mental check before generating:**
+> "Does this look like a photo someone took to text their friend, or does it look like a Facebook ad?"
+>
+> If it looks like an ad, regenerate. The whole point is camouflage.
+>
+> "For skin shots: would the avatar see this and think 'that's my skin' — or 'thank god my skin isn't that bad'? If it's the second one, the dryness is over-exaggerated."
+>
+> "For counter shots: does it look real and lived-in, or does it look styled? If styled, regenerate."
+
+---
+
+*Camouflage format established from origins-training/swipe-file/origins-native-swipe analysis*
