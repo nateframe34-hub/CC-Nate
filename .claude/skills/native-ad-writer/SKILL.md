@@ -95,7 +95,8 @@ Load the reference files for all 5 phases. Each file is ~400 words of actionable
 - `references/phase-3-reader-psychology.md` — pacing, contrast, emotional sequencing, open loops, pattern interrupts, trust ladder
 - `references/phase-4-hooks-and-close.md` — hook formats, close formats, awareness matching
 - `references/phase-5-image-psychology.md` — 3 image types, POV rule, Reddit caption test
-- `references/key-principles.md` — the prime directive and 6 rules that override everything
+- `references/key-principles.md` — the prime directive and 7 rules that override everything
+- `references/compliance-and-readability.md` — **MANDATORY** — the 6 middle-ground rules, vocabulary swap table, 6th-grade reading level mechanics, and worked rewrite example. Load this on every invocation. Health-adjacent categories (skincare, supplements, wellness) will trigger Meta's scanner without it.
 - `references/self-audit-checklist.md` — the final quality gate before delivering
 
 For particularly challenging ads (complex mechanism, high-skepticism audience, unfamiliar category), also load:
@@ -111,10 +112,11 @@ Before writing a single word of body copy, answer these questions in a brief int
 3. **Awareness level:** Problem / Solution / Product Aware
 4. **Hook format:** Which of the hook formats best matches the awareness level and angle? (See `phase-4-hooks-and-close.md`)
 5. **Inciting incident:** What specific moment opens the story? (NOT a summary — a scene)
-6. **Low point:** What's the moment of resignation that matches where the reader actually is?
+6. **Low point:** What's the moment of resignation that matches where the reader actually is? **Must use an external witness, not internal shame/hiding behaviors.** (See `compliance-and-readability.md` Rule 2.)
 7. **Secondary characters:** Who validates what? (aim for 3–4, each doing different work)
-8. **Close format:** How will the close connect back to the hook?
+8. **Close format:** How will the close connect back to the hook? **Use social proof ("a lot of women I know say the same thing"), not direct targeting ("if you're X, Y, Z").** (See `compliance-and-readability.md` Rule 5.)
 9. **Image type:** Object / Evidence / Isolation?
+10. **Compliance pre-write check:** Run the pre-write checklist in `compliance-and-readability.md`. No menopause/perimenopause. No "your body"/"your skin" diagnostic claims. No symptom words in the planned content. No dermatologist/doctor character endorsing the product. No "if you're X" close. If any of these are in the plan, rewrite the plan before writing a word of body copy.
 
 ### Step 6: Write the Body Copy
 
@@ -122,15 +124,18 @@ Write the full ad following the Phase 2 story structure and Phase 3 reader psych
 
 - **Open with a scene, not a summary.** The first 3 paragraphs should place the reader in a specific moment.
 - **Belief shift BEFORE product mention.** The new information about why past solutions failed must appear before the product gets named. The product should not appear until roughly 50–65% through the ad.
-- **Vary sentence length.** Short fragments for urgency. Longer sentences for mechanism. Read it out loud mentally.
+- **Vary sentence length.** Short fragments for urgency. Longer sentences for mechanism. Read it out loud mentally. **Average under 15 words per sentence** — this is the 6th-grade reading level cap from `compliance-and-readability.md`.
 - **Embed contrast throughout.** Not just a before/after at the end — small before/after moments in every section.
 - **4–6 emotional alternations.** Low → high → low → high. Not two big blocks.
 - **Open loops pulling forward.** Always something unresolved.
 - **Pattern interrupt every 200–300 words.** Emotional shift, confession, dialogue, or format change.
 - **Build a trust ladder.** Observable truths → common knowledge → new information → bigger claims → biggest claim.
-- **3–4 secondary characters minimum.** Each validating something different.
-- **Use verbatim audience language** from the research files. Don't paraphrase customer pain into marketing speak.
+- **3–4 secondary characters minimum.** Each validating something different. **At least one of them is an external witness to the change** (husband, daughter, friend, coworker noticing) — this replaces internal shame/hiding behaviors per `compliance-and-readability.md` Rule 2.
+- **Use verbatim audience language** from the research files. Don't paraphrase customer pain into marketing speak. **But never port over flagged phrases** — if a customer quote contains "menopause," "your body stopped," or symptom words, paraphrase around the flag while keeping the emotional core.
 - **Transformation must include:** progressive timeline, unexpected discovery, external validation, identity-level change.
+- **Functional over physical descriptions.** Describe what the body/skin DOES ("makeup cracking by 11am," "lotion disappearing in an hour") not what it LOOKS LIKE ("crepey," "papery," "flaky"). See `compliance-and-readability.md` Rule 3.
+- **First-person discovery over second-person diagnosis.** The narrator learns something; the reader overhears. Drop "your body" / "your skin" entirely and use general observations the reader personalizes themselves. See `compliance-and-readability.md` Rule 4.
+- **6th-grade vocabulary throughout.** Cut jargon, adverbs, passive voice. If a 12-year-old wouldn't know a word, replace it. See `compliance-and-readability.md` reading level mechanics.
 
 ### Step 7: Write the Meta Headline and Description
 
@@ -214,3 +219,7 @@ Output all four pieces as a single deliverable in this exact structure:
 5. **Don't exaggerate the pain.** The reader should think "that's my skin" not "thank god my skin isn't that bad." Normal dry skin, not a medical condition. Normal frustration, not crisis.
 
 6. **Never break native tone in the close.** The click should feel like a natural next step, not a sales pitch interruption.
+
+7. **Compliance is craft, not censorship.** Meta's 2026 scanner penalizes direct diagnostic claims ("your body stopped making X"), negative self-perception framing (hiding/avoiding/shame behaviors), symptom-based descriptions ("crepey," "papery," "flaky"), second-person health assertions ("your skin is starving"), hormonal/menopause language, and indirect targeting ("if you're X"). None of these are what makes native copy convert. Specificity, external witnesses, functional observations, and first-person discovery are. The constraints make the copy better, not worse. See `compliance-and-readability.md` for the 6 middle-ground rules, vocabulary swap table, and worked rewrite example.
+
+8. **6th-grade reading level always.** Average sentence under 15 words. No jargon ("sebum," "transepidermal," "fatty acid profile"). No adverbs on the strike list ("actually," "basically," "literally," "really," "very"). Active voice. One idea per sentence. Concrete nouns. If a 12-year-old wouldn't know a word, replace it. Read the copy out loud mentally — if you stumble, simplify.

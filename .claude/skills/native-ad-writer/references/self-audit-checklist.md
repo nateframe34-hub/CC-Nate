@@ -48,6 +48,41 @@ Run this checklist silently on every deliverable before handing it to the user. 
 - [ ] No padding to hit a length?
 - [ ] No truncation that loses important story beats?
 
+### Compliance Check (Mandatory — Health-Adjacent Categories)
+
+**Flagged words scan — these must be zero across the body copy:**
+- [ ] Zero instances of "menopause," "perimenopause," "hormonal," "hormones"
+- [ ] Zero "your body" + diagnostic claim ("your body stopped," "your body produces," "your body needs")
+- [ ] Zero "your skin/cells/energy is [starving / depleted / broken / damaged / dying]"
+- [ ] Zero "Are you [tired/exhausted/etc]?" diagnostic questions
+- [ ] Zero "sebum" (replace with "skin's natural oil" or similar)
+- [ ] Zero symptom descriptions: "crepey," "papery," "flaky," "saggy," "sunken," "cracked," "dull"
+- [ ] Zero "cures," "heals," "fixes," "reverses," "treats," "restores"
+- [ ] Zero anti-medical framing ("your doctor is wrong," "don't owe your doctor," "the medical system failed")
+- [ ] Zero specific body stats with percentages (e.g., "60% less sebum," "50% drop in NAD+")
+- [ ] Zero "If you're [age], [age], [age]..." direct conditional targeting in the close
+
+**Structural compliance — these must all be yes:**
+- [ ] Low point uses an external witness (daughter, husband, friend noticing) — NOT hiding/avoiding/shame behaviors from the narrator
+- [ ] Physical symptom descriptions replaced with functional descriptions (what it DOES, not what it LOOKS LIKE)
+- [ ] Mechanism explanation uses first-person discovery ("I learned," "she told me") — not second-person diagnosis ("your body," "your skin")
+- [ ] Close uses social proof framing ("a lot of women I know say the same thing") — NOT "if you're X, Y, Z"
+- [ ] If age is referenced, it's a specific number ("I was 49") — NOT a hormonal label ("after menopause")
+- [ ] If a medical professional appears, they provide education only — they do NOT explicitly endorse or recommend the product
+
+**If any item fails, rewrite the flagged passage using the 6 middle-ground rules in `compliance-and-readability.md`. Do not deliver until every item passes.**
+
+### Readability Check (6th Grade Reading Level)
+
+- [ ] Average sentence length under 15 words (measure the longest 5 sentences — none should exceed 25 words without strong rhythmic reason)
+- [ ] Zero words from the strike list: "actually," "basically," "literally," "really," "very," "completely," "totally"
+- [ ] Zero jargon: "sebum," "transepidermal," "fatty acid profile," "molecular level," "dimethicone," "composition," "mechanism," "hyaluronic acid" (unless naming a failed product)
+- [ ] Active voice throughout (scan for "was [verb]ed by" and "is being" patterns)
+- [ ] Concrete nouns where possible ("jar" not "container," "friend" not "acquaintance")
+- [ ] One idea per sentence — no stacked clauses with multiple "and"s or semicolons
+- [ ] Short paragraphs — 1–3 sentences max in most paragraphs
+- [ ] Read the copy out loud mentally. Any stumbles? Simplify those sentences.
+
 ## Headline and Description Audit
 
 - [ ] Headline is ~27 characters or less?
@@ -80,5 +115,9 @@ Run this checklist silently on every deliverable before handing it to the user. 
 - [ ] Read the body copy out loud mentally. Any stumbles or monotony?
 - [ ] Would you trust the narrator if you were the reader?
 - [ ] Is there ANY moment where the copy shifts into "I'm writing an ad" voice?
+- [ ] Would Meta's 2026 multimodal scanner pass this copy without raising CPMs? (If you hesitated on this one, re-run the Compliance Check section.)
+- [ ] Could a 12-year-old read this without stumbling?
 
 If everything passes, deliver. If anything fails and you can fix it, fix it and deliver. If anything fails and you can't fix it without more information, deliver what you have with a short note at the bottom flagging the gap.
+
+**Priority order if multiple checks fail:** Compliance Check fails take priority over everything else (a flagged ad doesn't run). Fix those first, then work back through the audit.

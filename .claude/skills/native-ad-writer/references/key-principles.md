@@ -1,6 +1,6 @@
 # Key Principles (The Rules That Override Everything)
 
-These 6 principles override all the craft rules. If any phase-level rule conflicts with these, these win.
+These 7 principles override all the craft rules. If any phase-level rule conflicts with these, these win.
 
 ## 1. The Prime Directive
 
@@ -61,11 +61,33 @@ Most readers live in **quiet resignation**, not crisis. Write the resignation le
 
 The exception: when the target audience genuinely IS in crisis (eczema flare-ups, chronic pain), match the level. But err on the side of under-dialing, not over-dialing. Under-dialed pain reads as "this is me, this person gets it." Over-dialed pain reads as "this isn't about me, this is about someone worse off."
 
+## 7. Compliance Is Craft, Not Censorship
+
+Meta's 2026 multimodal scanner penalizes direct diagnostic claims, negative self-perception framing, symptom-based descriptions, and second-person health assertions. None of these are what makes native copy convert. What makes native copy convert is specificity, concrete scenes, external witnesses, and first-person discovery — all of which are compliant by default.
+
+Every time a flagged word is reached for, it's usually a lazy shortcut standing in for something that would work better. "Your skin is starving" is a diagnosis. "I didn't know why my moisturizer stopped working" is a scene. The scene is always stronger.
+
+**The rule:** Write the copy as if the scanner doesn't exist, then audit it against `compliance-and-readability.md`. Every time you hit a flagged word, don't look for a synonym. Look for the specific scene, external witness, or functional observation that would carry the weight better. That detail is always there.
+
+The six middle-ground rules (full detail in `compliance-and-readability.md`):
+
+1. **Keep the scene, strip the diagnosis** — emotion lives in scenes, flags live in diagnostic sentences around them
+2. **Shift shame from inside to outside** — use external witnesses instead of hiding/avoidance behaviors
+3. **Functional description beats physical description** — "foundation cracks by 11am" beats "crepey skin"
+4. **First-person discovery, not second-person diagnosis** — the narrator learns something, the reader overhears
+5. **Social proof beats "if you're"** — "a lot of women I know say the same thing" beats direct targeting
+6. **Soft age reference beats hormonal reference** — "I was 49" beats "after menopause"
+
+Also: **6th grade reading level always.** Sentences under 15 words on average. No jargon. No adverbs on the strike list. One idea per sentence. Active voice. Concrete nouns. Read it out loud mentally — if you stumble, simplify.
+
+This principle is not optional. It overrides any phase-level rule that would push toward flagged language.
+
 ## When Principles Conflict
 
 If two principles appear to conflict in a specific moment of the copy, apply them in this order of priority:
 
 1. The Prime Directive wins over everything
-2. Confession tone wins over specificity (don't let specificity turn into clinical testimonial)
-3. Belief shift wins over pacing (don't rush the belief shift to hit a rhythm target)
-4. Real pain wins over not-over-exaggerating (if there's a tension between matching the reader and not over-dialing, match the reader first)
+2. Compliance Is Craft wins over everything else (a flagged ad doesn't run)
+3. Confession tone wins over specificity (don't let specificity turn into clinical testimonial)
+4. Belief shift wins over pacing (don't rush the belief shift to hit a rhythm target)
+5. Real pain wins over not-over-exaggerating (if there's a tension between matching the reader and not over-dialing, match the reader first)
