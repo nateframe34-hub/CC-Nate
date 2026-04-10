@@ -1,6 +1,6 @@
 # Key Principles (The Rules That Override Everything)
 
-These 7 principles override all the craft rules. If any phase-level rule conflicts with these, these win.
+These 8 principles override all the craft rules. If any phase-level rule conflicts with these, these win.
 
 ## 1. The Prime Directive
 
@@ -82,12 +82,40 @@ Also: **6th grade reading level always.** Sentences under 15 words on average. N
 
 This principle is not optional. It overrides any phase-level rule that would push toward flagged language.
 
+## 8. Element Density — 8 of 10 Minimum
+
+The course's reference ad (the Doctor Ad) stacks 10 structural elements. Not sequentially — they reinforce each other. The direct-threat hook makes the specific inciting incident feel urgent. The escalating stakes make the mechanism explanation feel necessary. The multiple secondary characters prevent any single claim from carrying all the trust weight. Remove any one element and the remaining elements still work. Remove three and the ad starts feeling hollow.
+
+**The rule:** Every ad must stack at least 8 of 10 elements before delivery. Under 8 = rewrite.
+
+The 10 elements (full detail in `element-density.md`):
+
+1. **Multi-mechanism hook** — opening 3–4 paragraphs stack 3+ mechanisms (curiosity, fear, recognition, authority, scene, open loop, pattern interrupt)
+2. **Specific inciting incident scene** — named person, action, time, place in the first 3 paragraphs
+3. **Product mention placed after belief shift** — roughly 50–65% through the body copy
+4. **Escalating stakes** — at least 3 beats where the cost of not acting grows through the copy
+5. **Multiple secondary characters (3–4+, each validating differently)** — friend + partner + different use case + demographic variant
+6. **Trust ladder** — observable → common knowledge → new info → bigger claim, built rung by rung
+7. **Pattern interrupts every 200–300 words** — dialogue, format shift, emotional pivot, confession
+8. **Skeptic convert frame** — narrator or character addresses the reader's likely objection BEFORE they raise it
+9. **Progressive transformation** — specific timeline + unexpected discovery + external validation + identity-level payoff, all four required
+10. **Close mirrors the hook** — the final 2–3 paragraphs reference or echo the opening
+
+**Why this matters for both CPMs and conversions:** Low-element ads can win on one axis (NMN got low CPMs through scene-specificity alone, B3C2 converts through mechanism depth alone) but lose on the other. Only dense ads — the ones that stack 8+ elements — hit both. This is the structural gap between our best tallow ad (5 elements) and the Doctor Ad (10 elements).
+
+**Length implication:** Stacking 8+ elements at sufficient depth requires 1,200–1,800 words. Ads significantly shorter than this can't structurally fit 8 elements. Longer isn't better — dense is better, and dense happens to require length.
+
+**Count check during planning (Step 5):** Before writing a word of body copy, list the 8+ elements you're planning to include and where each will land. If you can't name 8, rewrite the plan before drafting.
+
+**Count check during audit (Step 9):** Binary per element — either you can point to a specific passage that executes it, or you can't. No partial credit. Under 8 = rewrite, not polish.
+
 ## When Principles Conflict
 
 If two principles appear to conflict in a specific moment of the copy, apply them in this order of priority:
 
 1. The Prime Directive wins over everything
 2. Compliance Is Craft wins over everything else (a flagged ad doesn't run)
-3. Confession tone wins over specificity (don't let specificity turn into clinical testimonial)
-4. Belief shift wins over pacing (don't rush the belief shift to hit a rhythm target)
-5. Real pain wins over not-over-exaggerating (if there's a tension between matching the reader and not over-dialing, match the reader first)
+3. Element Density wins over individual element polish (a thin ad with one perfect element still fails — fix density first, then polish)
+4. Confession tone wins over specificity (don't let specificity turn into clinical testimonial)
+5. Belief shift wins over pacing (don't rush the belief shift to hit a rhythm target)
+6. Real pain wins over not-over-exaggerating (if there's a tension between matching the reader and not over-dialing, match the reader first)

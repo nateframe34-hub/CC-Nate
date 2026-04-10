@@ -95,13 +95,11 @@ Load the reference files for all 5 phases. Each file is ~400 words of actionable
 - `references/phase-3-reader-psychology.md` — pacing, contrast, emotional sequencing, open loops, pattern interrupts, trust ladder
 - `references/phase-4-hooks-and-close.md` — hook formats, close formats, awareness matching
 - `references/phase-5-image-psychology.md` — 3 image types, POV rule, Reddit caption test
-- `references/key-principles.md` — the prime directive and 7 rules that override everything
+- `references/key-principles.md` — the prime directive and 8 rules that override everything
 - `references/compliance-and-readability.md` — **MANDATORY** — the 6 middle-ground rules, vocabulary swap table, 6th-grade reading level mechanics, and worked rewrite example. Load this on every invocation. Health-adjacent categories (skincare, supplements, wellness) will trigger Meta's scanner without it.
+- `references/element-density.md` — **MANDATORY** — the 10-element density rule with counting rubric. Every ad must stack 8 of 10 elements before delivery. Load this on every invocation. Under-dense ads can win on engagement OR conversion but not both.
+- `references/doctor-ad-example.md` — **MANDATORY** — the canonical fully-annotated reference ad, showing all 10 elements in action. Load this on every invocation as the structural benchmark for density counting.
 - `references/self-audit-checklist.md` — the final quality gate before delivering
-
-For particularly challenging ads (complex mechanism, high-skepticism audience, unfamiliar category), also load:
-
-- `references/doctor-ad-example.md` — the canonical fully-worked example with annotations
 
 ### Step 5: Plan Before Writing
 
@@ -113,10 +111,23 @@ Before writing a single word of body copy, answer these questions in a brief int
 4. **Hook format:** Which of the hook formats best matches the awareness level and angle? (See `phase-4-hooks-and-close.md`)
 5. **Inciting incident:** What specific moment opens the story? (NOT a summary — a scene)
 6. **Low point:** What's the moment of resignation that matches where the reader actually is? **Must use an external witness, not internal shame/hiding behaviors.** (See `compliance-and-readability.md` Rule 2.)
-7. **Secondary characters:** Who validates what? (aim for 3–4, each doing different work)
+7. **Secondary characters:** Who validates what? **Must have 3–4 named characters, each doing different work** — friend who recommended it, partner/spouse noticing, adult child, different use case. (See `element-density.md` element 5.)
 8. **Close format:** How will the close connect back to the hook? **Use social proof ("a lot of women I know say the same thing"), not direct targeting ("if you're X, Y, Z").** (See `compliance-and-readability.md` Rule 5.)
 9. **Image type:** Object / Evidence / Isolation?
 10. **Compliance pre-write check:** Run the pre-write checklist in `compliance-and-readability.md`. No menopause/perimenopause. No "your body"/"your skin" diagnostic claims. No symptom words in the planned content. No dermatologist/doctor character endorsing the product. No "if you're X" close. If any of these are in the plan, rewrite the plan before writing a word of body copy.
+11. **Element density pre-write count:** Before writing, list the 8+ elements from `element-density.md` you plan to include. Name each one specifically:
+    - ☐ Multi-mechanism hook (which 3+ mechanisms?)
+    - ☐ Specific inciting incident scene (what scene, what characters, what time?)
+    - ☐ Product mention placed after belief shift (~50–65% mark)
+    - ☐ Escalating stakes (name 3+ escalation beats)
+    - ☐ Multiple secondary characters (name each one and what they validate)
+    - ☐ Trust ladder (list the 4+ rungs from observable → bigger claim)
+    - ☐ Pattern interrupts every 200–300 words (estimate count for planned length)
+    - ☐ Skeptic convert frame (what objection, addressed by whom?)
+    - ☐ Progressive transformation (timeline beats + unexpected discovery + external validation + identity-level payoff)
+    - ☐ Close mirrors the hook (how?)
+    
+    **If you can't name 8 elements with specifics, rewrite the plan before writing a word of body copy. Under 8 = thin ad. Don't draft thin ads.**
 
 ### Step 6: Write the Body Copy
 
@@ -208,7 +219,7 @@ Output all four pieces as a single deliverable in this exact structure:
 
 ## Critical Reminders
 
-1. **Length is flexible.** 600 words is fine if the story is tight. 1,800 words is fine if the story needs it. Do not pad a short story to hit a target. Do not truncate a complex story to fit a cap.
+1. **Length follows density, not the other way around.** Stacking 8+ elements at sufficient depth requires 1,200–1,800 words. Ads significantly shorter than this cannot structurally fit 8 elements. Do not pad a short story to hit word count — fix the density instead. Do not truncate a dense story to fit a cap.
 
 2. **The product should not appear until the belief shift lands.** In most ads, this is around 50–65% through the copy. Before that, the reader should be getting new information about why their past solutions failed, not being sold to.
 
@@ -223,3 +234,5 @@ Output all four pieces as a single deliverable in this exact structure:
 7. **Compliance is craft, not censorship.** Meta's 2026 scanner penalizes direct diagnostic claims ("your body stopped making X"), negative self-perception framing (hiding/avoiding/shame behaviors), symptom-based descriptions ("crepey," "papery," "flaky"), second-person health assertions ("your skin is starving"), hormonal/menopause language, and indirect targeting ("if you're X"). None of these are what makes native copy convert. Specificity, external witnesses, functional observations, and first-person discovery are. The constraints make the copy better, not worse. See `compliance-and-readability.md` for the 6 middle-ground rules, vocabulary swap table, and worked rewrite example.
 
 8. **6th-grade reading level always.** Average sentence under 15 words. No jargon ("sebum," "transepidermal," "fatty acid profile"). No adverbs on the strike list ("actually," "basically," "literally," "really," "very"). Active voice. One idea per sentence. Concrete nouns. If a 12-year-old wouldn't know a word, replace it. Read the copy out loud mentally — if you stumble, simplify.
+
+9. **Element density is the single highest-leverage structural rule.** Every ad must stack 8 of 10 elements from `element-density.md`. The course's reference ad (Doctor Ad) stacks all 10. Our historical best has been 5. The gap between 5 elements and 10 elements is not "polish" — it's a structural rewrite. Thin ads fail on either engagement (CPMs) or conversion (ROAS), sometimes both. Dense ads win on both. **Count elements during planning AND after drafting.** Under 8 = rewrite, not fix. See `element-density.md` for the full rubric and `doctor-ad-example.md` for the annotated reference.

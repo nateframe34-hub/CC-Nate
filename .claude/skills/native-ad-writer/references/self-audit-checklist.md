@@ -44,9 +44,36 @@ Run this checklist silently on every deliverable before handing it to the user. 
 - [ ] Are failed past solutions listed specifically by name/type before the product is introduced?
 
 ### Length Check
-- [ ] Is the length driven by the story, not a word target?
+- [ ] Is the length driven by density, not a word target?
+- [ ] 1,200–1,800 word range (necessary to fit 8+ elements at depth)?
 - [ ] No padding to hit a length?
-- [ ] No truncation that loses important story beats?
+- [ ] No truncation that loses story beats or drops elements below 8?
+
+### Element Density Check (Mandatory — The Single Highest-Leverage Structural Rule)
+
+Run this count BEFORE delivering. Be binary — for each element, either you can point to a specific passage that executes it, or you can't. No partial credit. Aim for 8 of 10 minimum. Under 8 = rewrite, not polish.
+
+- [ ] **1. Multi-mechanism hook** — opening 3–4 paragraphs stack 3+ mechanisms (curiosity, fear, recognition, authority, scene, open loop, pattern interrupt). Name the specific mechanisms present.
+- [ ] **2. Specific inciting incident scene** — named person, action, time, place in the first 3 paragraphs. Can the reader SEE the scene?
+- [ ] **3. Product mention placed after belief shift** — product first named at roughly the 50–65% mark through the body copy.
+- [ ] **4. Escalating stakes** — at least 3 beats where the cost of not acting grows as the copy progresses (not static pain description).
+- [ ] **5. Multiple secondary characters (3–4+, each validating different things)** — list each named character and what they specifically validate. 3+ with distinct roles required.
+- [ ] **6. Trust ladder (4+ rungs)** — observable truth → common knowledge → new information → bigger claim → biggest claim. Can you point to each rung?
+- [ ] **7. Pattern interrupts every 200–300 words** — for a 1,400-word ad, that's 5+ interrupts. Count them (dialogue breaks, format shifts, emotional pivots, confessions, short-sentence punches).
+- [ ] **8. Skeptic convert frame** — narrator or character explicitly addresses the reader's likely objection BEFORE the reader raises it in their own head.
+- [ ] **9. Progressive transformation (all four sub-elements required)** — specific timeline beats + unexpected discovery (something not tracked) + external validation (someone else notices) + identity-level payoff ("I felt like myself again" equivalent).
+- [ ] **10. Close mirrors the hook** — final 2–3 paragraphs reference or echo the opening in a specific way. Generic offer closes ("4 ingredients. 60-day guarantee. Link below.") do not count.
+
+**Density scoring:**
+| Elements present | Status | Action |
+|---|---|---|
+| 10 of 10 | Doctor Ad quality | Ship |
+| 9 of 10 | Near-Doctor quality | Ship, note missing element |
+| 8 of 10 | Minimum production quality | Ship |
+| 7 of 10 | Borderline | Rewrite to add 1–2 missing elements |
+| 6 of 10 or below | Thin | Full structural rewrite |
+
+**If under 8, the fix is not polish — the fix is structural.** Do not ship. Rewrite to add the missing elements. See `element-density.md` for detailed deployment guidance and `doctor-ad-example.md` for the annotated reference.
 
 ### Compliance Check (Mandatory — Health-Adjacent Categories)
 
@@ -115,9 +142,17 @@ Run this checklist silently on every deliverable before handing it to the user. 
 - [ ] Read the body copy out loud mentally. Any stumbles or monotony?
 - [ ] Would you trust the narrator if you were the reader?
 - [ ] Is there ANY moment where the copy shifts into "I'm writing an ad" voice?
-- [ ] Would Meta's 2026 multimodal scanner pass this copy without raising CPMs? (If you hesitated on this one, re-run the Compliance Check section.)
+- [ ] Would Meta's 2026 multimodal scanner pass this copy without raising CPMs? (If you hesitated, re-run the Compliance Check section.)
 - [ ] Could a 12-year-old read this without stumbling?
+- [ ] Did you count at least 8 of 10 density elements? (If you hesitated, re-run the Element Density Check section.)
 
 If everything passes, deliver. If anything fails and you can fix it, fix it and deliver. If anything fails and you can't fix it without more information, deliver what you have with a short note at the bottom flagging the gap.
 
-**Priority order if multiple checks fail:** Compliance Check fails take priority over everything else (a flagged ad doesn't run). Fix those first, then work back through the audit.
+**Priority order if multiple checks fail:**
+1. **Compliance Check fails** — a flagged ad doesn't run. Fix first.
+2. **Element Density fails (under 8)** — a thin ad won't convert even if it runs. Fix second. This is a structural rewrite, not polish.
+3. **Readability fails** — a long-form ad with high reading level loses the reader. Fix third.
+4. **Story structure fails** — hook, low point, transformation gaps. Fix fourth.
+5. **Polish fails** — individual line-level issues. Fix last.
+
+Do not polish a thin ad. Do not ship an ad with under-8 density because the writing is good. Density is the load-bearing rule — fix it before anything else that isn't compliance.
