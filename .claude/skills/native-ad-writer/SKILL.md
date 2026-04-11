@@ -16,6 +16,35 @@ The skill produces four outputs in a single deliverable:
 3. **Meta description** — max ~27 characters
 4. **Nano Banana Pro image prompt** — for the creative that pairs with the ad
 
+## Execution Mode
+
+**Begin immediately upon invocation. Do not produce a preamble.**
+
+When this skill is invoked, the user has already provided the brief in the invocation arguments. They do not need confirmation that you understand it, that you have the references loaded, or that you have a plan. The first thing they should see from you is the deliverable from Step 10 (or, if absolutely necessary, the silent tool calls that lead to it).
+
+**Forbidden preamble messages — never output any of these before the deliverable:**
+
+- "I have all the references loaded."
+- "Plan complete. Writing now."
+- "Let me start by reading the avatar file..."
+- "Here's my plan before I write..."
+- "Loading the research files..."
+- "I'll begin with..."
+- "Ready to draft. Here goes."
+- Any other holding, acknowledgment, or "I'm about to start" message
+
+**Silent vs visible steps:**
+
+- **Silent steps (no user-visible output):** Steps 1, 2, 3, 4, 5, 9. These happen entirely inside your reasoning. The user does not see them.
+- **Content-producing steps:** Steps 6, 7, 8. These produce the content that goes INSIDE the Step 10 deliverable. They do not produce separate narration like "now writing the body copy" or "moving on to the headline."
+- **Visible step:** Step 10 only. This is the ONLY moment in the workflow where you produce user-visible output.
+
+**Files already in context:** If the avatar research files, reference files, or doctor-ad example are already in context from earlier in the same conversation, do NOT re-read them. Use what's already loaded. Only read files that are not yet in context.
+
+**The internal plan from Step 5 is internal.** Do not output it. Do not narrate which elements you plan to include. Do not list secondary characters before writing them. The plan is scaffolding — it goes IN the draft, not BEFORE it as a preview.
+
+**The only exception to silent execution:** If Step 3 finds REQUIRED inputs that are genuinely missing AND cannot be derived from the invocation arguments or conversation context, stop and ask the user for those inputs. Otherwise, work through all steps silently and produce the Step 10 deliverable directly as your first user-visible output.
+
 ## When to Use
 
 Trigger this skill when the user mentions any of:
@@ -236,3 +265,5 @@ Output all four pieces as a single deliverable in this exact structure:
 8. **6th-grade reading level always.** Average sentence under 15 words. No jargon ("sebum," "transepidermal," "fatty acid profile"). No adverbs on the strike list ("actually," "basically," "literally," "really," "very"). Active voice. One idea per sentence. Concrete nouns. If a 12-year-old wouldn't know a word, replace it. Read the copy out loud mentally — if you stumble, simplify.
 
 9. **Element density is the single highest-leverage structural rule.** Every ad must stack 8 of 10 elements from `element-density.md`. The course's reference ad (Doctor Ad) stacks all 10. Our historical best has been 5. The gap between 5 elements and 10 elements is not "polish" — it's a structural rewrite. Thin ads fail on either engagement (CPMs) or conversion (ROAS), sometimes both. Dense ads win on both. **Count elements during planning AND after drafting.** Under 8 = rewrite, not fix. See `element-density.md` for the full rubric and `doctor-ad-example.md` for the annotated reference.
+
+10. **No preamble. Begin immediately.** When this skill is invoked, do NOT produce confirmation messages, acknowledgments, plan summaries, file-loading narration, or "ready to write" holding messages. The first user-visible output should be the deliverable in Step 10 format (the ad itself). Internal steps 1, 2, 3, 4, 5, 9 are silent — they happen inside your reasoning before you produce visible output. Steps 6, 7, 8 produce the CONTENT of the deliverable but do not produce separate narration. If files are already in context from earlier in the conversation, do not re-read them. See the **Execution Mode** section above for the full rule.
