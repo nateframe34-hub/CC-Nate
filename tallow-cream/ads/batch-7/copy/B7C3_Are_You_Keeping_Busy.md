@@ -152,11 +152,11 @@ Are you keeping busy?
 
 ## Image Prompt (Nano Banana Pro)
 
-**Type:** Evidence — the bathroom counter at 11pm, the "other job nobody notices"
-**POV:** First-person — looking down at the counter from her standing position
+**Type:** Isolation — the car in the driveway after the dinner party
+**POV:** First-person — looking straight through the windshield from the driver's seat
 
 ```
-Candid iPhone photograph, first-person POV looking down at a bathroom vanity counter at night. Eight skincare products are lined up in a row on the white counter — a cleanser bottle, a small toner, two serums (one dark dropper bottle, one clear), an eye cream tube, a moisturizer jar, a taller night cream pump bottle, and a lip balm. The products are real and varied — different brands, different sizes, some half-used, not matching, not curated. One bottle has a drip mark down the side. A foil sample packet is crumpled near the back. The bathroom lighting is harsh overhead — the unflattering fluorescent kind, late at night. In the mirror above the counter, you can see a faint dark reflection but no clear face — just the shape of someone standing there. Her hand is visible at the bottom edge of the frame, resting on the counter next to the products, wedding band on her ring finger. This is 11pm. She just got home from a dinner party. She's standing in her bathroom looking at the eight products that are her nightly routine and thinking about the question someone asked her three hours ago. iPhone quality, harsh bathroom light, no filter, no styling. She would photograph this and text it to her best friend with "this is my life at 11pm." NOT a flat lay. NOT a beauty shot. NOT styled. Just the real counter, the real products, the real light.
+iPhone photograph looking straight forward through a car windshield at night. The car is parked in a suburban driveway. Through the windshield: a front porch with a warm yellow porch light glowing next to a front door. The house is modest, lived-in, normal. The top of the steering wheel is visible at the very bottom edge of the frame. The dashboard is dark. Outside the car it is nighttime — dark sky, the porch light is the main light source, maybe a faint blue glow from a neighbor's TV through a window. There is slight condensation forming on the edges of the windshield. On the passenger seat to the right, barely in frame: a small purse and a pair of folded reading glasses. No person visible. No hands. No face. No reflection. Just the view from the driver's seat looking forward at her own front door. She hasn't gone inside yet. iPhone quality, low light, slightly grainy, no flash, no filter. The feeling is: sitting in the car alone for ten minutes after getting home, not ready to walk in yet.
 ```
 
 **Aspect ratio:** 4:5 (1080 × 1350)
