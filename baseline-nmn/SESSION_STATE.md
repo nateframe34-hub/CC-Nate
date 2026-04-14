@@ -52,7 +52,8 @@ Product is live. Whipped Tallow & Honey Balm. $49.99 launch price. 1 sale so far
 | `tallow-cream/tracking/Ad_Performance_Tracker.csv` | Daily ad performance |
 | `tallow-cream/tracking/Tallow_Brand_Growth_Sheet.csv` | Batch plans + status |
 | `tallow-cream/tracking/Kill_Rules_and_Decision_Framework.md` | Hard/soft kill rules |
-| `tallow-cream/avatars/sub-avatars/Sub_Avatar_5_The_Invisible_Woman.md` | Primary avatar |
+| `tallow-cream/avatars/invisible-woman/` | Primary avatar (definition + deep research + brand voice) |
+| `tallow-cream/avatars/homesteader-mom/` | Candidate new avatar (definition + deep research + brand voice) |
 | `tallow-cream/avatars/Avatar_Language_Research.md` | Verbatim customer language |
 | `tallow-cream/store/store-liquid/` | PDP section liquid files (updated for compliance) |
 | `tallow-cream/ads/batch-5/copy/` | Current batch ad copy |
