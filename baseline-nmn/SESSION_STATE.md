@@ -24,6 +24,7 @@ Product is live. Whipped Tallow & Honey Balm. $49.99 launch price. **4 total sal
 
 - **B10 delivery data pending** — 48-72 hour window to validate the CPM-reduction hypothesis. Homesteader Mom lives in "parenting/homesteading/natural living" Meta audience classification; projected $30-100 CPM range based on research.
 - **Stream idle timeout issue on Anthropic API** — Opus 4.6 [1M] and Sonnet both hitting it during long native-ad writing tasks. Workaround: pre-resolve the story skeleton in prompts so model doesn't trigger extended thinking; write to disk via Write tool rather than rendering in chat. Report filed with Anthropic pending.
+- **Shopify PDP is COMPLIANT (confirmed April 14)** — Nate pushed the rewritten liquid files to Shopify Custom Liquid blocks when they were originally written. PDP non-compliance is RULED OUT as a CPM driver. Remaining upstream CPM candidates: Account Quality Score, Page Quality (Sarah Lawson page), Pixel fragmentation (NMN→tallow training carryover), Avatar pocket bias (pixel learned only on Invisible Woman conversions).
 
 ## Next Up
 
