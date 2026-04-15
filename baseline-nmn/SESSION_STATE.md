@@ -1,63 +1,72 @@
 # Session State — Tallow Cream Launch
 
-## Status: ACTIVE — Launching Batch 5 (CPM Reduction Test)
+## Status: ACTIVE — Batch 10 LIVE (First New-Avatar CPM Test)
 
-Product is live. Whipped Tallow & Honey Balm. $49.99 launch price. 1 sale so far (B3C2, $19.99 due to discount error — since fixed).
+Product is live. Whipped Tallow & Honey Balm. $49.99 launch price. **4 total sales to date:** B3C2 ($19.99 discount error), B5C1 ($49.99 — first full-price), B7C1 ×2 ($99.98). Zero sales since April 12.
 
-## Last Session (April 9, 2026)
+## Last Session (April 14, 2026)
 
-- **Got first sale** via B3C2 "Water On A Hole" — customer intended to buy at full price ($49.99), got $19.99 due to discount misconfiguration (fixed)
-- **Diagnosed high CPMs** as the critical bottleneck. Account running $143-$368 CPMs across most ads. B1C2 "Husband Noticed" is the outlier at $11-15 CPM but CBO starves it.
-- **Root cause analysis:** Compared NMN ads (low CPMs) to tallow ads (high CPMs) and found: NMN had explicit compliance rules (no menopause, no "your body" diagnostic claims, no symptom words) that tallow ads abandoned entirely. Also: tallow ads averaged 5 density elements vs the course's Doctor Ad at 10.
-- **Updated native-ad-writer skill** with three new rule layers:
-  1. **Compliance + readability** (`compliance-and-readability.md`) — 6 middle-ground rules, vocabulary swap table, 6th-grade reading level, pre-write and post-write checklists
-  2. **Element density** (`element-density.md`) — 10-element Doctor Ad stack with 8/10 minimum rule, binary counting rubric
-  3. Both integrated into SKILL.md workflow (Steps 4, 5, 6, 9) and self-audit-checklist.md
-- **Rewrote PDP sections** for Meta compliance — Section 2 (minor), Section 3 (manuka honey medical claims removed), Section 4 (complete rewrite — removed "Your skin isn't dry. It's starving," menopause, 60% stat, all diagnostic claims), Section 6 (removed "damaged"), Section 7 (replaced 6 of 10 reviews — removed psoriasis cure claims, pediatric eczema claim, anti-aging fine-lines claims, anti-medical framing), Section 9 (minor), Section 10 (minor)
-- **Wrote Batch 4** (3 ads testing urgency mechanisms) — B4C1 "30-Day Mirror" (calm resolve), B4C2 "I Wanted To Throw Up" (active harm — KILLED at $1000 CPM), B4C3 "Six Weeks From Saturday" (external deadline). B4C2 taught us: active-harm / anti-competitor framing is a separate Meta penalty category not covered in original compliance rules.
-- **Wrote Batch 5** (3 ads testing CPM reduction via element density) — B5C1 "Husband Noticed v2" (external dialogue, 10/10 density), B5C2 "I Haven't Told Anyone" (confession opener, 10/10 density), B5C3 "I Gave Up On Moisturizer" (time reversal, 10/10 density). All at 1,400-1,600 words, compliant, 6th-grade reading level.
-- **Kill list for B5 launch:** Kill B3C2, B2C3, B3C1, B3C3, B1C1, B2C1, B1C2 (7 ads). Keep B4C1 and B4C3. Launch B5 ad set at $30/day alongside B4 ad set.
+- **Batch 10 LAUNCHED** — first ad set targeting a new sub-avatar (The Homesteader Mom, Sub-Avatar #6) after 9 batches of Invisible Woman ads stuck at $150-400 CPMs. Dual-axis test: validates CPM-reduction hypothesis AND tests three angles in parallel.
+  - B10C1 Two Lives — Kitchen/Bathroom Gap angle
+  - B10C2 For The Kids First — Child Gateway angle
+  - B10C3 Maintenance — Permission to Care for Yourself angle (strongest ad in project library per review)
+- **All 3 B10 ads written under the validated Homesteader Mom research.** Body formula locked: Solution-Aware, accidental discovery, peer-adjacent non-medical authority, water-vs-oil mechanism compressed to ~60 words (she's already philosophically pre-sold), household-utility close (NOT husband-notice). 10/10 density, full compliance.
+- **Image prompts rewritten for scroll-stop realism** — each tied to a specific story moment (ingredient-list read at kitchen table, balm applied to kid's inner elbow at bathtime, hand hesitating over $38 jar at farmers market). All three now specify iPhone-candid aesthetic, real working hands, mundane environmental details, zero brand logos.
+- **Homesteader Mom deep research COMPLETE.** Sub-Avatar 6 doc polished with validated angles, competitive landscape (Toups & Co is Jill Winger–endorsed incumbent; Primally Pure has Ballerina Farm endorsement + known FTC issue), 72 verbatim-sourced quotes, banned-language list of 16 phrases. Brand voice reference built.
+- **4 candidate sub-avatars drafted as hypothesis docs** (pending Batch 10 CPM data):
+  - Sub-Avatar 7 Carnivore Woman (Tier 1 — next in research queue if B10 validates)
+  - Sub-Avatar 8 Postpartum Mom (Tier 1 — tied with Carnivore)
+  - Sub-Avatar 9 Tween Daughter's Mom (Tier 2 — Sephora-kids cultural moment)
+  - Sub-Avatar 10 Clean Eater (Tier 2 — flagged "avatar vs. angle" for research to determine)
+- **B1-B6 feedback loops written.** 12 per-ad postmortems in `tallow-cream/feedback-loops/`. Identified converter formula: Solution Aware + accidental discovery + peer-adjacent authority + water-vs-oil mechanism at 50-60% + husband-notice close (for Invisible Woman) or household-utility close (for Homesteader).
 
 ## In Progress
-- **B5 launch imminent** — all 3 ads written, creatives generated (B5C3 ghost-rings image is excellent, B5C2 coffee mug is clean, B5C1 needs label blur on jar)
-- **B4C1 showing promising early signal** — $70 CPM, 15.38% CTR, $0.46 CPC on 13 impressions. Best engagement numbers in the account. Keep running alongside B5.
-- **PDP rewrites need to be pushed to Shopify** — liquid files are updated in repo but need to be pasted into Shopify Custom Liquid blocks. Meta's PDP crawler will take 12-24h to refresh after changes go live.
+
+- **B10 delivery data pending** — 48-72 hour window to validate the CPM-reduction hypothesis. Homesteader Mom lives in "parenting/homesteading/natural living" Meta audience classification; projected $30-100 CPM range based on research.
+- **Stream idle timeout issue on Anthropic API** — Opus 4.6 [1M] and Sonnet both hitting it during long native-ad writing tasks. Workaround: pre-resolve the story skeleton in prompts so model doesn't trigger extended thinking; write to disk via Write tool rather than rendering in chat. Report filed with Anthropic pending.
 
 ## Next Up
-- Push PDP liquid files to Shopify (Sections 2, 3, 4, 6, 7, 9, 10)
-- Launch B5 ad set ($30/day, 3 ads)
-- Kill the 7 ads listed above
-- Monitor B5 CPMs vs B4 CPMs over 48-72 hours — this is the density hypothesis test
-- If B5 CPMs come in at $30-70: density + compliance works. Iterate on conversion mechanisms.
-- If B5 CPMs stay at $150+: problem is upstream (account-level or PDP) and we need different levers.
-- B4C3 Six Weeks — watch for one more day. Kill at $15+ spend with 0 clicks.
+
+- **Monitor B10 CPMs for 48-72 hours.** Key questions:
+  - Do Homesteader-targeted ads deliver at $30-100 CPM (validates avatar-saturation hypothesis)?
+  - Do any of the 3 angles convert at full price?
+  - Does B10C3 Maintenance (strongest ad written to date) outperform its siblings?
+- **If B10 validates CPM hypothesis:** commission deep research for Sub-Avatar 7 Carnivore Woman OR Sub-Avatar 8 Postpartum Mom. Both are Tier 1.
+- **If B10 fails (CPMs stay $150+):** avatar isn't the bottleneck. Investigate upstream: pixel classification, Shopify product categorization, fresh-campaign duplicate test with the 3 converters (B3C2 + B5C1 + B7C1).
+- **Shopify PDP liquid files still need to be pushed live** — files are updated in repo for Meta 2026 compliance but haven't been pasted into Custom Liquid blocks yet. This may be contributing to upstream CPM pressure.
 
 ## Key Decisions This Session
-- **Product IS tallow cream** — not researching new products. Committed.
-- **Compliance rules make copy STRONGER, not weaker** — the middle-ground framework keeps emotional punch while passing Meta's scanner
-- **Element density is the structural gap** — our best ads had 5 elements, course reference has 10. B5 aims for 10/10 on all three ads.
-- **The "husband noticed" hook is the proven CPM winner** — B1C2 at $11.50 CPM was 3-30x cheaper than everything else. B5C1 densifies this exact hook to test if density adds conversion depth.
-- **Active-harm framing is a separate Meta penalty** — B4C2 hit $1000 CPM despite being otherwise compliant. "Your cream is making it worse" ≠ "your cream isn't working." Added to compliance awareness but not yet formalized as Rule 7.
-- **Kill aggressively, test cleanly** — clearing the entire old CBO to give B5 a clean runway
 
-## Campaign Architecture (After Kills)
-- **B4 ad set** (~$30/day): B4C1 30-Day Mirror + B4C3 Six Weeks
-- **B5 ad set** (~$30/day): B5C1 Husband Noticed v2 + B5C2 I Haven't Told Anyone + B5C3 I Gave Up
-- **Total daily budget:** ~$60
-- **Off:** B1C1, B1C2, B1C3, B2C1, B2C2, B2C3, B3C1, B3C2, B3C3, B4C2
+- **Batch 10 is the first new-avatar test in the project.** Every prior batch (B1-B9) targeted Sub-Avatar #5 (The Invisible Woman). B10 is the strategic pivot.
+- **Husband-notice close is NOT universal.** Works for Invisible Woman (grieving invisibility). For Homesteader Mom, household-utility close (one jar for four family members) outperforms because it bypasses self-spending guilt.
+- **"Safe enough to eat" is the north-star phrase for the Homesteader avatar.** Used in B10C3 as specified. Origin: Emilie Toups (Toups & Co Organics).
+- **16 phrases are banned-list for Homesteader ads.** Not stylistic preferences — trust-terminators. Includes "all-natural," "clean beauty," "anti-aging as lead," "radiant/glowing/luminous/dewy," "luxury," "revolutionary." Enforced in all three B10 ads.
+- **B10C3 Maintenance is the strongest ad in the project library.** Self-spending-guilt backstory, Aunt Pat as peer-adjacent authority, mirror-wince unexpected discovery, stewardship close ("Not vanity. Maintenance."). Template for future Carnivore / Postpartum ads if avatar hypothesis validates.
+- **Research queue discipline: one avatar at a time.** Don't commission Tier 2 research until Tier 1 produces usable data. Don't commission Tier 1 until Batch 10 validates the CPM hypothesis.
+
+## Campaign Architecture (April 14)
+
+- **Active ads:** B7C1 She Used Pond's (keep — 2 prior full-price sales), B5C1 Husband Noticed v2 (keep — first full-price sale)
+- **B9 ad set** (processing → active): B9C1 Chart On The Wall, B9C2 Softer, B9C3 One Jar
+- **B10 ad set** (LIVE — new avatar): B10C1 Two Lives, B10C2 For The Kids First, B10C3 Maintenance
+- **Killed:** All of B1, B2, B3, B4, B6 (individual ads), B8 (entire batch — NMN-mirror hypothesis falsified)
 
 ## Key Files (Tallow)
+
 | File | Purpose |
 |------|---------|
 | `tallow-cream/tracking/Ad_Performance_Tracker.csv` | Daily ad performance |
 | `tallow-cream/tracking/Tallow_Brand_Growth_Sheet.csv` | Batch plans + status |
 | `tallow-cream/tracking/Kill_Rules_and_Decision_Framework.md` | Hard/soft kill rules |
-| `tallow-cream/avatars/invisible-woman/` | Primary avatar (definition + deep research + brand voice) |
-| `tallow-cream/avatars/homesteader-mom/` | Candidate new avatar (definition + deep research + brand voice) |
-| `tallow-cream/avatars/Avatar_Language_Research.md` | Verbatim customer language |
-| `tallow-cream/store/store-liquid/` | PDP section liquid files (updated for compliance) |
-| `tallow-cream/ads/batch-5/copy/` | Current batch ad copy |
-| `.claude/skills/native-ad-writer/` | Native ad writing skill (updated with compliance + density) |
+| `tallow-cream/avatars/invisible-woman/` | Primary validated avatar (definition + deep research + brand voice) |
+| `tallow-cream/avatars/homesteader-mom/` | Active Batch 10 avatar (definition + deep research + brand voice) |
+| `tallow-cream/avatars/carnivore-woman/` | Sub-Avatar 7 hypothesis draft (Tier 1, research pending) |
+| `tallow-cream/avatars/postpartum-mom/` | Sub-Avatar 8 hypothesis draft (Tier 1, research pending) |
+| `tallow-cream/avatars/tween-daughter-mom/` | Sub-Avatar 9 hypothesis draft (Tier 2) |
+| `tallow-cream/avatars/clean-eater/` | Sub-Avatar 10 hypothesis draft (Tier 2 — avatar vs. angle TBD) |
+| `tallow-cream/feedback-loops/` | Per-ad postmortems for B1-B6 |
+| `tallow-cream/ads/batch-10/copy/` | Current live batch (Homesteader Mom test) |
+| `.claude/skills/native-ad-writer/` | Native ad writing skill (compliance + density + Homesteader brand voice) |
 
 ## Updated
-2026-04-09
+2026-04-14
