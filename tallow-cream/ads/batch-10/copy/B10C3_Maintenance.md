@@ -147,9 +147,14 @@ Not vanity. Maintenance.
 ---
 
 ## Image Prompt (Nano Banana Pro)
-**Type:** Object
-**POV:** first-person
-[Candid iPhone photograph from a woman's POV looking down at a worn wooden farmhouse kitchen table early in the morning. An amber glass jar sits on the table next to a handmade ceramic coffee mug with steam just barely rising, a folded plaid dish towel, and the edge of an open leather-bound journal with a pen resting on it. Soft early-morning light from a window off-frame, warm but not dramatic. Her hands are not in the frame. The scene is quiet — the kind of moment a homesteader has before the rest of the house wakes up. No beauty styling. Real iPhone quality, slight grain. No recognizable brand logos readable, no text overlays.]
+
+**Type:** Isolation — the exact moment of the hook. She's at the farmers market in October looking at a jar she won't let herself buy. Her hand hesitates. The handwritten price tag says $38. Every woman with a self-spending-guilt layer recognizes this moment instantly.
+**POV:** First-person — photographer's own hand, mid-hesitation over the product on the vendor's table.
+
+```
+A candid iPhone photograph taken one-handed at a small outdoor farmers market stall on an overcast Saturday morning in October. The photo is from the photographer's own chest-height POV, looking down at her own hand suspended just above a small amber glass jar sitting on the vendor's table — her fingers extended toward the jar but not touching it, caught mid-hesitation. Her hand is real and working: short unvarnished nails, a small faint scar near one knuckle, a simple slim silver wedding band, slightly chapped skin at the fingertips from fall weather. The amber glass jar is plain and small (approx 2 oz), no brand logo — just a simple unbleached paper label that reads "TALLOW BALM" in hand-drawn black serif lettering, with "4 INGREDIENTS" written smaller beneath. Next to the jar on the rough linen cloth covering the table: a small cardboard placard handwritten in thick black marker reading "$38." A second amber jar sits slightly behind the first, lid off. Softly out of focus in the background: a shallow wooden crate of butternut and delicata squashes, an open egg carton with six brown eggs showing, the edge of the vendor's dark green canvas apron with a small spot of something on it, a stack of brown paper bags. The overall light is cool overcast October morning light — soft, slightly gray, no direct sun, no golden hour. The composition is slightly tilted (unposed, clearly one-handed), the jar is just-off center, the photographer's hand entering from the bottom-right of the frame. iPhone camera quality, mild grain, no professional color grading — the kind of photo a woman would take quickly on her phone to either send to her husband asking "thinking about this?" or to document a moment she almost made a decision she didn't make. Her hand expression reads as hesitation, not eager reaching. No brand logos anywhere readable. No text overlays. No captions. No faces.
+```
+
 **Aspect ratio:** 4:5 (1080 × 1350)
 
 ---
