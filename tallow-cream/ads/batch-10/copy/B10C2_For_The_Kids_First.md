@@ -155,9 +155,14 @@ She came in a t-shirt.
 ---
 
 ## Image Prompt (Nano Banana Pro)
-**Type:** Evidence
-**POV:** first-person mother
-[Candid iPhone photograph from mother's POV looking down at her 8-year-old daughter's forearm on her own lap. Mother's adult hand — real, short nails, practical — holding a fingertip of balm. Child's inner elbow has visible healing dry patches, not acute. Girl in flannel pajama top with sleeve pushed up. Sitting on the edge of a claw-foot tub in a farmhouse bathroom, warm evening light. Amber glass jar on the tub edge, small rolled washcloth beside it. No beauty styling. Real Tuesday-night bedtime. No recognizable logos, no text overlays, no faces visible.]
+
+**Type:** Evidence — the story's emotional center captured literally. Mother applying a tiny dab of balm to the dry patches on her daughter's inner elbow at bedtime. The visible proof of WHY she bought this.
+**POV:** First-person — mother's seated POV, phone held with her free hand while the other hand is tending to her daughter.
+
+```
+A candid iPhone photograph taken at bedtime on a Tuesday night in late January, from a mother's seated POV beside a claw-foot bathtub in a small farmhouse bathroom. Her 8-year-old daughter sits on the wide porcelain rim of the tub, barefoot, facing her mother. The daughter is wearing a worn long-sleeved flannel pajama top with a faded small-floral print (cream and rust red), sleeves pushed up past the elbows. The center of the frame is the daughter's left inner elbow — arm extended toward the mother — showing realistic mid-healing dry skin: the inner crook has faint pink patches of rough skin with hairline texture, the kind of real eight-year-old-winter skin that's clearly recovering from something worse, not acute, not styled, just honest. The mother's adult right hand is in the frame from the bottom edge, her index finger raised and just touching the skin near the inner elbow, with a small pale-honey-colored dab of balm on her fingertip, mid-application. On the tub rim within reach: a small amber glass jar of balm with the lid off (lid placed face-down next to it), a cream-colored washcloth folded once, and a children's toothbrush standing upright in a small white ceramic cup. The bathroom has painted beadboard walls, warm off-white paint, a single exposed-bulb sconce above a small mirror giving the room a soft yellow light, and one small dark window behind the daughter showing the winter black outside. The daughter's face is out of frame (cropped at the collarbone — we see only the pajama top and the arm). Mother's hand details: short unpolished nails, a simple silver wedding band, slightly chapped skin from winter. Shot is one-handed with a phone, composition slightly tilted and not centered — clearly unposed. iPhone camera quality, natural warm light, slight noise in the shadows, no professional color correction. The scene feels quiet, private, mid-routine. Absolutely no brand logos visible on the jar or anywhere else. No text overlays, no captions.
+```
+
 **Aspect ratio:** 4:5 (1080 × 1350)
 
 ---
