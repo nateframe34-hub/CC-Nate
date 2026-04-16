@@ -23,6 +23,7 @@ Product is live. Whipped Tallow & Honey Balm. $49.99 launch price. **4 total sal
 ## In Progress
 
 - **B10 delivery data pending** — 48-72 hour window to validate the CPM-reduction hypothesis. Homesteader Mom lives in "parenting/homesteading/natural living" Meta audience classification; projected $30-100 CPM range based on research.
+- **B11 Working Hands Man — CPM diagnostic test.** Single ad (B11C1 Cracked) targeting blue-collar men with hand-care messaging. Tests whether CPMs drop when competing against zero other skincare brands for the same audience pocket. Avatar doc at `tallow-cream/avatars/working-hands-man/Sub_Avatar_11_The_Working_Hands_Man.md`. Ad at `tallow-cream/ads/batch-11/copy/B11C1_Cracked.md`.
 - **Stream idle timeout issue on Anthropic API** — Opus 4.6 [1M] and Sonnet both hitting it during long native-ad writing tasks. Workaround: pre-resolve the story skeleton in prompts so model doesn't trigger extended thinking; write to disk via Write tool rather than rendering in chat. Report filed with Anthropic pending.
 - **Shopify PDP is COMPLIANT (confirmed April 14)** — Nate pushed the rewritten liquid files to Shopify Custom Liquid blocks when they were originally written. PDP non-compliance is RULED OUT as a CPM driver. Remaining upstream CPM candidates: Account Quality Score, Page Quality (Sarah Lawson page), Pixel fragmentation (NMN→tallow training carryover), Avatar pocket bias (pixel learned only on Invisible Woman conversions).
 
@@ -38,6 +39,7 @@ Product is live. Whipped Tallow & Honey Balm. $49.99 launch price. **4 total sal
 
 ## Key Decisions This Session
 
+- **Audience saturation is the leading CPM-driver hypothesis.** Validated by research: supplements/H&W actually have HIGHER category CPMs than skincare, yet NMN had lower CPMs than tallow — because NMN targeted a broader, less-competed-for audience. Working-hands men have near-zero advertiser competition for their attention. If B11 CPMs land $30-80, saturation is confirmed as the primary driver. If $150+, the problem is account quality, pixel classification, or creative format.
 - **Batch 10 is the first new-avatar test in the project.** Every prior batch (B1-B9) targeted Sub-Avatar #5 (The Invisible Woman). B10 is the strategic pivot.
 - **Husband-notice close is NOT universal.** Works for Invisible Woman (grieving invisibility). For Homesteader Mom, household-utility close (one jar for four family members) outperforms because it bypasses self-spending guilt.
 - **"Safe enough to eat" is the north-star phrase for the Homesteader avatar.** Used in B10C3 as specified. Origin: Emilie Toups (Toups & Co Organics).
@@ -70,4 +72,4 @@ Product is live. Whipped Tallow & Honey Balm. $49.99 launch price. **4 total sal
 | `.claude/skills/native-ad-writer/` | Native ad writing skill (compliance + density + Homesteader brand voice) |
 
 ## Updated
-2026-04-14
+2026-04-16
