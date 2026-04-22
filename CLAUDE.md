@@ -1,10 +1,24 @@
-# Project Context — Baseline NMN
+# Project Context — Baseline NMN + Tallow Cream
 
 > This file ensures every new Claude session has full context. Read this first before asking Nate to repeat himself.
 
+## ⚠️ MANDATORY READ FOR ANY TALLOW AD WORK
+
+Before writing, briefing, or reviewing ANY tallow cream ad, you MUST read:
+**`/home/user/CC-Nate/tallow-cream/Tallow_Ad_Creative_Principles.md`**
+
+That file contains the locked principles derived from analysis of converters vs non-converters on this account. It supersedes general copywriting advice. Skipping it produces ads that don't convert and waste spend.
+
+Key principles (covered in detail in that file):
+1. Targeting happens at the CREATIVE level post-Andromeda, not audience targeting
+2. The IMAGE is the scroll-stop — equal craft to the copy
+3. Sub-sub-avatars (specific shared experiences) beat broad avatars
+4. The 10-element converter skeleton is locked — every element required
+5. Specific banned phrases for compliance (no menopause, no anti-aging, no skincare-industry language)
+
 ## What This Is
 
-This is the working repo for **Baseline NMN** — a direct-to-consumer NMN supplement brand. Nate is the founder and sole operator.
+This is the working repo for **Baseline NMN** — a direct-to-consumer NMN supplement brand. Nate is the founder and sole operator. He is also running a second brand, **Tallow Cream** (Whipped Tallow & Honey Balm, $49.99), which is currently the active focus of paid advertising.
 
 ## The Product
 
