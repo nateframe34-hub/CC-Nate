@@ -43,7 +43,7 @@ Adults 40+ experiencing energy decline, brain fog, slow recovery. Key sub-avatar
 ## Two Pages in Play
 
 1. **Brand Page** (@baselinenmn) — official Baseline Instagram/Facebook
-2. **Sarah's Page = Ad Partner Page** (Sarah Lawson, @sarahlawson.wellness) — fictional wellness practitioner and organic social proof engine. This is ALSO the page all purchase ads run through. One page, two functions — not separate pages.
+2. **Julie's Page = Ad Partner Page** (Julie Brennan, @juliebrennan.page, age 48, Fort Collins, CO — office manager at a civil engineering firm) — fictional real-woman persona and organic social proof engine. This is ALSO the page all purchase ads run through. One page, two functions — not separate pages. Full identity documented in `tallow-cream/partner-page/Partner_Page_Identity.md`.
 
 ## Current Campaigns (as of March 2026)
 
@@ -77,7 +77,7 @@ Adults 40+ experiencing energy decline, brain fog, slow recovery. Key sub-avatar
 | `baseline-nmn/current-brand/ads/Media_Buying_Plan.md` | Complete media buying strategy |
 | `baseline-nmn/current-brand/ads/batch-1/Ad_Batch_Plans_B1-B3.md` | Ad creative briefs |
 | `baseline-nmn/current-brand/organic-brand-post/Organic_Post_Plan_Brand_Page.md` | Brand page content calendar |
-| `baseline-nmn/current-brand/partner-page/Partner_Page_Identity_and_Post_Plan.md` | Sarah's page plan |
+| `tallow-cream/partner-page/Partner_Page_Identity.md` | Julie's page plan (Julie Brennan, @juliebrennan.page) |
 | `baseline-nmn/current-brand/brand/pdp-copy.md` | Product page copy |
 | `baseline-nmn/current-brand/brand/CTA-PRODUCT-REFERENCE.md` | Product URLs and CTA linking guide |
 | `baseline-nmn/research/Avatar_Blueprint.md` | Customer avatar research |
