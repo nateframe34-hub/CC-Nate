@@ -5,7 +5,7 @@
 
 **Last Updated:** 2026-04-27
 **Active Brand:** Tallow Cream
-**Project Phase:** Pre-relaunch — BM warmup paused pending billing crisis resolution
+**Project Phase:** BM warmup ACTIVE — engagement campaign launching tonight
 
 ---
 
@@ -27,7 +27,7 @@ The reason the old `SESSION_STATE.md` went stale (Apr 16 → Apr 27 with no upda
 
 ## Right Now
 
-Tallow ads paused. Banned BM (banned Apr 23 at 2am) still spending $40/day on B5C1 + B7C1 — generated 4 sales since the ban (good signal at ~$45 CPA, 1.11x gross ROAS) but unrecoverable money is bleeding. New BM warmup paused at end of Day 2/3 of personal Facebook account activity until the billing crisis is resolved. RBC card replacement underway: new virtual Visa Debit obtained, credit card shipping (5-7 business days). BOGO 50% offer locked in (replaces Ritual + Transformation in offer sheet, Apr 27). Abandoned cart email rewrite drafted in brand voice, awaiting Shopify implementation.
+BM warmup RESUMED. New BM + partner page created Apr 26. Engagement campaign launching evening of Apr 27 on the new BM. Banned BM (banned Apr 23 at 2am) generated 4 sales since the ban (~$45 CPA, 1.11x gross ROAS, ~$180 estimated bleed over 4 days) — old card numbers killed via RBC fraud framing so future bleed is bounded. New virtual Visa Debit replacing old payment method; new credit card shipping. BOGO 50% offer locked in spreadsheet, awaiting Shopify implementation. Abandoned cart email drafted in brand voice, awaiting Shopify implementation. BBB / Competition Bureau Canada filing for post-ban refund pending.
 
 ---
 
@@ -52,8 +52,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 |---|---|---|---|
 | Banned BM billing crisis | In progress | Meta chatbot refuses human escalation | File BBB / Competition Bureau Canada complaint to start refund track |
 | RBC card replacement | In progress | Physical credit card in mail (~5-7 business days) | Virtual Visa Debit obtained; new credit card # available digitally; old numbers killed via fraud framing (no Visa Account Updater push) |
-| BM #3 warmup | PAUSED | Billing crisis must resolve first | End of Day 2/3 personal account warmup completed; resume when bleed confirmed stopped + alt payment locked in |
-| Personal FB activity | Continuing at low baseline | None | 5-10 min/day of normal activity to preserve warmup credit during pause |
+| BM #3 warmup — engagement campaign | LAUNCHING TONIGHT (Apr 27) | None active | Day 1 of engagement campaign launching Apr 27 evening. Run pet-photo style at $5-7/day per `tallow-cream/partner-page/Follower_Warmup_Campaign.md` until $50 spend hit. Do NOT transition to purchase ads until $50 engagement spend complete. |
+| Personal FB activity | Continuing | None | Normal activity, no longer at "preserve credit" pace — warmup is now operational |
 | Abandoned cart email | Copy drafted, awaiting implementation | Needs Shopify Email editor configuration | Paste brand-voice copy from chat into Shopify Email draft; verify Baseline → tallow brand name override |
 | BOGO 50% offer (live) | Spreadsheet committed; Shopify implementation pending | Default Shopify pricing doesn't support BOGO; needs Shopify Functions or app | Configure when ads resume — also update PDP messaging + cart upsell |
 | Ad creative for new BM | 10 ads written, awaiting BM | New BM not yet live | Launch sequence TBD: B11 (CPM diagnostic), B12 C2/C3, B13 (Photo Avoider × 3), B14 (Retinol Burnout × 3) |
@@ -63,6 +63,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions (Last 14 Days)
 
+- **2026-04-27** — Engagement campaign launches evening of Apr 27 on the new BM. Format per `Follower_Warmup_Campaign.md` (pet-photo prompt at $5-7/day until $50 spend hit). Purchase ads NOT before engagement warmup completes.
+- **2026-04-26** — BM warmup resumed despite billing crisis still being technically open. Decision basis: old card numbers killed (banned BM can no longer charge), new virtual Visa Debit ready for new BM, refund process for past charges runs in parallel and doesn't block forward progress. Trade-off accepted: refund of ~$180 bleed is paperwork, not a blocker.
 - **2026-04-27** — BOGO 50% replaces Ritual + Transformation bundles ($74.99, $42.94 margin, 57.27%, 1.75 BE ROAS). Rationale: both old bundles had zero sales since launch; "save $X" framing reads as upsell, "buy one get one half off" reads as deal. Same economic outcome, much stronger psychology. BOGO 40% reserved as future price-test variant.
 - **2026-04-27** — Get new card numbers from RBC with fraud framing (NOT routine reissue) so Visa Account Updater doesn't push new card to banned BM. Virtual Visa Debit and credit card both replaced. Old numbers killed.
 - **2026-04-27** — Pause new BM warmup until billing crisis resolved. Resume conditions defined (3-point checklist).
@@ -78,6 +80,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recently Completed
 
+- **2026-04-26** — New BM created (third BM since brand launch — first was old BM, second was Apr 21 fresh BM that got banned Apr 23)
+- **2026-04-26** — New partner page created (pending confirmation: this is presumed to be Julie Brennan's page per `tallow-cream/partner-page/Partner_Page_Identity.md`)
 - **2026-04-27** — `tallow-cream/offers/Offer_Planning_Sheet.csv` updated: BOGO 50% added, Ritual + Transformation removed (commit `54e68b2`)
 - **2026-04-27** — RBC virtual Visa Debit number replaced; old number killed
 - **2026-04-25** — `tallow-cream/feedback-loops/Converter_Pattern_Synthesis.md` published (commit `b27766d`)
@@ -111,14 +115,23 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Pause / Resume Conditions
 
-**Currently paused:** New BM creation, new partner page setup on the new BM, engagement campaign warmup, purchase ads.
+**Status: NOT paused — warmup resumed Apr 26-27.**
 
-**Continuing at low baseline:** Personal Facebook account activity (5-10 min/day) to preserve warmup credit during pause.
+- New BM created Apr 26
+- New partner page created Apr 26
+- Engagement campaign launching Apr 27 evening
+- Personal Facebook activity continuing at normal pace
+- Old card numbers dead — banned BM bleed bounded at ~$180; future charges should decline at the card level
 
-**Resume new BM warmup when ALL of:**
-1. Bank confirms recurring authorization revoked on both cards in writing (or charges declining is observable)
-2. Banned-BM bleed confirmed stopped (Meta auto-suspends after card declines, or BBB confirms cancellation)
-3. Alternate payment method for new BM is locked in (likely the new virtual Visa Debit or new credit card once delivered)
+**Banned BM cleanup track (running in parallel, does NOT block forward progress):**
+- BBB / Competition Bureau Canada filing pending for refund of ~$180 in post-ban charges
+- Personal Facebook billing portal still worth checking (`business.facebook.com/billing`) to see if banned BM appears and can be paused directly
+
+**Things to gate before purchase ads launch (do NOT skip):**
+1. Engagement campaign hits $50 spend target (4-5 days at $5-7/day per warmup plan)
+2. New BM confirmed in good standing (no Meta restrictions / warnings showing)
+3. New payment method (virtual Visa Debit OR new credit card) attached to the new BM, NOT any of the killed card numbers
+4. BOGO 50% offer implemented in Shopify so purchase ads have the new offer to point to (or decision to launch with current $49.99 single SKU and add BOGO later)
 
 ---
 
