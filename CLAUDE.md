@@ -123,22 +123,26 @@ All content must comply with Meta health ad restrictions. Never make direct heal
 
 ## Session Continuity Protocol
 
-**At the START of every session:**
-1. Read `baseline-nmn/SESSION_STATE.md` BEFORE doing anything else (file lives in baseline-nmn/ but covers tallow work)
-2. This file contains what happened last session, what's in progress, and what's next
-3. Do NOT ask Nate to repeat what's already captured there
+**At the START of every session — read in this order:**
+1. `CLAUDE.md` (this file) — project context
+2. `HANDOFF.md` (repo root) — current state, active work streams, recent decisions, open questions, pause/resume conditions
+3. `tallow-cream/Tallow_Ad_Creative_Principles.md` — locked creative rules (mandatory before any tallow ad work)
+4. Then any tier-specific reading per HANDOFF.md's "Required Reading" section, based on the work that's coming next
 
-**At the END of every session (before final commit/push):**
-1. Update `SESSION_STATE.md` with:
-   - `## Last Session` — What was accomplished (2-3 bullet points max)
-   - `## In Progress` — Anything unfinished or blocked
-   - `## Next Up` — What Nate said he wants to do next, or logical next steps
-   - `## Key Decisions` — Any decisions Nate made this session that future sessions need to know
-   - `## Updated` — Today's date
-2. Keep it SHORT. This is a handoff note, not a journal.
-3. If CLAUDE.md itself needs updating (new campaigns, changed strategy, etc.), update it too.
+Do NOT ask Nate to repeat context already captured in those files.
 
-> This is how we maintain continuity without Nate having to repeat himself every session.
+**HANDOFF.md update protocol — three triggers, REAL-TIME, NOT end-of-session:**
+
+Update HANDOFF.md inline as work happens, not at the end. Three concrete triggers:
+1. **Starting work on something** → add a row to "Active Work Streams" with state and next action
+2. **Making a decision / coming up with something** → add a dated entry to "Recent Decisions" with the rationale
+3. **Completing something** → move from "Active Work Streams" to "Recently Completed" with outcome
+
+**Pre-response check:** Before responding to a user message, if the previous turn contained a decision, work-state change, or completion → update HANDOFF.md AS PART OF the response.
+
+**Tied to commits:** Every commit that changes content (ad copy, offer sheet, feedback file, etc.) should also include a HANDOFF.md update reflecting the change. This is the mechanical enforcement — no commit goes out with HANDOFF.md stale.
+
+> The reason the previous `SESSION_STATE.md` (now deleted) went stale (Apr 16 → Apr 27 with no update during an active period) is that "update at end of session" is a fuzzy trigger that gets skipped. Real-time triggers tied to concrete events fix that.
 
 ---
 
