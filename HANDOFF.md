@@ -5,7 +5,7 @@
 
 **Last Updated:** 2026-04-27
 **Active Brand:** Tallow Cream
-**Project Phase:** BM creation BLOCKED — third bot/automation flag in a row, fingerprint pattern under investigation
+**Project Phase:** Business Portfolio creation flagged for automation — BM + personal FB unaffected, situation under clarification
 
 ---
 
@@ -27,7 +27,7 @@ The reason the old `SESSION_STATE.md` went stale (Apr 16 → Apr 27 with no upda
 
 ## Right Now
 
-THIRD BM BANNED on creation Apr 27 — flagged for "automation" despite no automation being used. Pattern is now clear: Meta is fingerprinting something about Nate's setup that carries across attempts (likely personal Facebook profile, IP/device, or both). Tonight's engagement campaign launch is BLOCKED. New BM creation must stop until the carryover signal is identified and broken — continued attempts make the pattern recognition stronger and risk the personal Facebook profile getting dragged down too. Banned-BM bleed from Apr 23 still bounded at ~$180 (old cards killed). BOGO 50% offer + abandoned cart email work remain pending Shopify implementation but are independent of the BM creation problem.
+Business Portfolio creation attempt on Apr 27 flagged for "automation" and banned. Personal Facebook account UNAFFECTED. The BM created Apr 26 is reportedly still fine. Nate is using a fresh Facebook account for each new BM/Portfolio creation (NOT the personal account) as a defensive measure — but fresh FB accounts immediately creating business assets is itself the most common bot-classifier trigger Meta uses, which may explain the repeat flags. Engagement campaign launch tonight is on hold pending clarification of which assets are actually live. BOGO 50% offer + abandoned cart email work remain pending Shopify implementation, independent of the BM situation.
 
 ---
 
@@ -52,9 +52,10 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 |---|---|---|---|
 | Banned BM billing crisis | In progress | Meta chatbot refuses human escalation | File BBB / Competition Bureau Canada complaint to start refund track |
 | RBC card replacement | In progress | Physical credit card in mail (~5-7 business days) | Virtual Visa Debit obtained; new credit card # available digitally; old numbers killed via fraud framing (no Visa Account Updater push) |
-| BM #4 creation | BLOCKED — banned on creation Apr 27 for "automation" | Meta fingerprint pattern carrying across attempts | STOP creating new BMs until carryover signal is identified. Submit Identity Verification (gov ID) to attempt to clear the bot flag. Investigate what's the same across the 3 banned BMs (personal profile, IP, device, etc.). |
-| Personal FB profile health | UNKNOWN — at risk | None active | Verify personal profile is still in good standing (no warnings/restrictions on Account Quality page). If personal profile gets flagged, Julie's page goes with it. |
-| Engagement campaign | DEFERRED | BM creation blocked | Was scheduled for Apr 27 evening. Cannot proceed until a non-banned BM exists. |
+| Business Portfolio creation strategy | UNDER REVIEW | Fresh FB accounts admin-creating Business Portfolios is itself a known bot-classifier trigger | Stop creating new fresh FB accounts to admin Business Portfolios. The pattern that's failing isn't fingerprint carryover — it's the "new account immediately makes business asset" sequence. Need to use an aged FB account as admin instead. |
+| BM created Apr 26 | Reportedly still active (CONFIRM) | None known | Verify the Apr 26 BM is still in good standing. If yes, work continues from there — no need to create a new Portfolio. |
+| Personal FB profile health | UNAFFECTED per Nate | None | Personal profile not used for any of the banned BMs/Portfolios — safe. |
+| Engagement campaign | ON HOLD pending clarification | Need to confirm which BM/Portfolio is actually usable for the campaign | If the Apr 26 BM is live and admin-able, engagement campaign can launch on it. If not, need a path to a working BM first. |
 | Abandoned cart email | Copy drafted, awaiting implementation | Needs Shopify Email editor configuration | Paste brand-voice copy from chat into Shopify Email draft; verify Baseline → tallow brand name override |
 | BOGO 50% offer (live) | Spreadsheet committed; Shopify implementation pending | Default Shopify pricing doesn't support BOGO; needs Shopify Functions or app | Configure when ads resume — also update PDP messaging + cart upsell |
 | Ad creative for new BM | 10 ads written, awaiting BM | New BM not yet live | Launch sequence TBD: B11 (CPM diagnostic), B12 C2/C3, B13 (Photo Avoider × 3), B14 (Retinol Burnout × 3) |
@@ -64,8 +65,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions (Last 14 Days)
 
-- **2026-04-27** — STOP creating new BMs until carryover fingerprint signal is identified and broken. Three bans in a row for bot/automation = pattern, not bad luck. Continued attempts make pattern recognition stronger and risk the personal Facebook profile.
-- **2026-04-27** — Engagement campaign launch DEFERRED indefinitely. Was scheduled for Apr 27 evening. Cannot proceed without a non-banned BM.
+- **2026-04-27** — Stop creating fresh FB accounts to admin new Business Portfolios. The repeating "automation" flag is most likely caused by the brand-new-FB-account-immediately-creates-business-asset sequence, which is a top-tier Meta bot-classifier trigger. Defensive use of fresh accounts is backfiring.
+- **2026-04-27** — Engagement campaign launch on hold pending clarification of which BM/Portfolio is currently usable.
 - **2026-04-26** — BM warmup resumed despite billing crisis still being technically open. Decision basis: old card numbers killed (banned BM can no longer charge), new virtual Visa Debit ready for new BM, refund process for past charges runs in parallel and doesn't block forward progress. Trade-off accepted: refund of ~$180 bleed is paperwork, not a blocker.
 - **2026-04-27** — BOGO 50% replaces Ritual + Transformation bundles ($74.99, $42.94 margin, 57.27%, 1.75 BE ROAS). Rationale: both old bundles had zero sales since launch; "save $X" framing reads as upsell, "buy one get one half off" reads as deal. Same economic outcome, much stronger psychology. BOGO 40% reserved as future price-test variant.
 - **2026-04-27** — Get new card numbers from RBC with fraud framing (NOT routine reissue) so Visa Account Updater doesn't push new card to banned BM. Virtual Visa Debit and credit card both replaced. Old numbers killed.
@@ -106,13 +107,12 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Open Questions
 
-### URGENT (BM bot-flag investigation)
-- What's the same across the 3 banned BMs? Most likely candidates: personal Facebook profile (used as admin on all three), residential IP, browser/device fingerprint, payment method patterns. Must identify before any further attempt.
-- Is the personal Facebook profile itself in good standing right now (no warnings/restrictions on Account Quality page)? If not, Julie's page is at risk.
-- Did Identity Verification (submit gov ID via business.facebook.com → Account Quality) get attempted yet for the banned BMs?
-- Was the same email and phone number used across all three BM creation flows?
-- Is Julie's page connected to any of the banned BMs (graph link that could be carrying the flag)?
-- Does the pixel from the original old BM still exist and is it being reused?
+### URGENT (Business Portfolio creation strategy)
+- What's the actual difference in Nate's vocabulary between "BM" and "Business Portfolio"? Meta uses these interchangeably; Nate is treating them as distinct. Need to map what each refers to in his setup.
+- Is the BM created Apr 26 still active and admin-able? (If yes, no further creation needed — engagement campaign can launch on it.)
+- How aged are the fresh FB accounts being used as Portfolio admins? (Days old? Hours old? Almost certainly the trigger if measured in hours.)
+- Is the same email/phone being used across the fresh FB accounts? Different fresh accounts but same contact info would cluster them in Meta's graph.
+- Should the strategy shift to: use Nate's real personal FB account as Portfolio admin (or an aged friend/family account) instead of creating new throwaway FB accounts?
 
 ### Existing
 - Will Meta refund post-ban charges via BBB or Competition Bureau Canada? (Filing pending, no response yet.)
