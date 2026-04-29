@@ -27,7 +27,7 @@ The reason the old `SESSION_STATE.md` went stale (Apr 16 → Apr 27 with no upda
 
 ## Right Now
 
-Working Business Portfolio acquired (status: not restricted). Pixel created and connected. Engagement campaign launching imminently per `tallow-cream/partner-page/Follower_Warmup_Campaign.md` — pet-photo format at $5-7/day until $50 spend target hit. The earlier-Apr-27 banned Portfolio attempt is no longer blocking. Banned-BM bleed from Apr 23 still bounded at ~$180; old card numbers killed. BOGO 50% offer + abandoned cart email work remain pending Shopify implementation; both can be done in parallel with the engagement campaign or layered in once purchase ads are next in queue.
+Working Business Portfolio acquired (status: not restricted). Pixel created and connected. Engagement campaign launching imminently per `tallow-cream/partner-page/Follower_Warmup_Campaign.md` — pet-photo format at $5-7/day until $50 spend target hit. The earlier-Apr-27 banned Portfolio attempt is no longer blocking. Banned-BM bleed from Apr 23 still bounded at ~$180; old card numbers killed. Personal Facebook account added to Portfolio as backup admin (defensive — avoids "campaign runs after primary admin gets locked out" scenario). Cooked BM also added to Portfolio with same defensive intent — but this creates a graph link from a clean Portfolio to a contaminated asset and is worth re-evaluating. BOGO 50% offer + abandoned cart email work remain pending Shopify implementation.
 
 ---
 
@@ -57,6 +57,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 | Engagement campaign | LAUNCHING IMMINENTLY | None | Pet-photo format at $5-7/day per `Follower_Warmup_Campaign.md` until $50 spend hit. Manual replies from Julie's account with photos of Biscuit (her dog) build comment threads. Do NOT transition to purchase ads until $50 engagement spend complete. |
 | Personal FB profile health | UNAFFECTED | None | Safe per Nate. |
 | Banned-BM cleanup track | Running in parallel | None | BBB / Competition Bureau Canada filing for ~$180 refund still pending; doesn't block forward progress. |
+| Portfolio admin redundancy | Personal FB added as backup admin | None | Standard redundancy practice — gives a second access path if primary admin ever gets locked out. |
+| Cooked BM linked to Portfolio | LINKED — risk to evaluate | Graph link from clean Portfolio to contaminated banned BM | Re-evaluate whether the cooked BM needs to stay in the Portfolio. Removing it preserves Portfolio isolation; keeping it gives ability to pause its still-running campaign if the campaign is somehow still active despite card declines. |
 | Abandoned cart email | Copy drafted, awaiting implementation | Needs Shopify Email editor configuration | Paste brand-voice copy from chat into Shopify Email draft; verify Baseline → tallow brand name override |
 | BOGO 50% offer (live) | Spreadsheet committed; Shopify implementation pending | Default Shopify pricing doesn't support BOGO; needs Shopify Functions or app | Configure when ads resume — also update PDP messaging + cart upsell |
 | Ad creative for new BM | 10 ads written, awaiting BM | New BM not yet live | Launch sequence TBD: B11 (CPM diagnostic), B12 C2/C3, B13 (Photo Avoider × 3), B14 (Retinol Burnout × 3) |
@@ -66,6 +68,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions (Last 14 Days)
 
+- **2026-04-27** — Personal Facebook account added to Portfolio as backup admin. Rationale: redundancy — if the primary admin (the fresh FB account that created the Portfolio) ever gets locked out, the personal FB retains access to pause campaigns. Standard redundancy practice for business assets.
+- **2026-04-27** — Cooked (banned) BM added to Portfolio. Rationale: same defensive logic — if the previously-banned BM somehow has any campaign still running, having it inside the new Portfolio gives Nate visibility/control to pause it. Risk: creates a graph link from the clean Portfolio to a contaminated asset, which Meta's classifier may flag at later review. Worth re-evaluating whether the link is actually necessary.
 - **2026-04-27** — Working Business Portfolio acquired (status: not restricted). Pixel created and connected to Portfolio. Engagement campaign launching imminently. Earlier-Apr-27 banned Portfolio attempt no longer blocking.
 - **2026-04-27** — Methodology of fresh FB account per new BM stays. Approach has worked for the previous 3 BMs and now this 4th one. Earlier-Apr-27 failure was an outlier within a working pattern.
 - **2026-04-26** — BM warmup resumed despite billing crisis still being technically open. Decision basis: old card numbers killed (banned BM can no longer charge), new virtual Visa Debit ready for new BM, refund process for past charges runs in parallel and doesn't block forward progress. Trade-off accepted: refund of ~$180 bleed is paperwork, not a blocker.
@@ -111,6 +115,7 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 ## Open Questions
 
 ### Active
+- Should the cooked (banned) BM be removed from the Portfolio? It creates a graph link from a clean asset to a contaminated one. Trade-off: keeps Portfolio cleaner if removed; loses the visibility/control over the banned BM if removed.
 - Is the pixel connected to Shopify (firing on PDP, ATC, checkout, purchase) so conversions track when purchase ads launch? Verify in Events Manager before purchase ads go live.
 - Is the new virtual Visa Debit attached as the payment method on the working Portfolio (NOT any of the killed card numbers)?
 - Is the engagement campaign creative the pet-photo prompt per `Follower_Warmup_Campaign.md`, or product-aware? Should be pet-photo for cheapest delivery + cleanest BM warmup signal.
