@@ -5,7 +5,7 @@
 
 **Last Updated:** 2026-04-27
 **Active Brand:** Tallow Cream
-**Project Phase:** BM warmup ACTIVE — engagement campaign launching tonight
+**Project Phase:** BM creation BLOCKED — third bot/automation flag in a row, fingerprint pattern under investigation
 
 ---
 
@@ -27,7 +27,7 @@ The reason the old `SESSION_STATE.md` went stale (Apr 16 → Apr 27 with no upda
 
 ## Right Now
 
-BM warmup RESUMED. New BM + partner page created Apr 26. Engagement campaign launching evening of Apr 27 on the new BM. Banned BM (banned Apr 23 at 2am) generated 4 sales since the ban (~$45 CPA, 1.11x gross ROAS, ~$180 estimated bleed over 4 days) — old card numbers killed via RBC fraud framing so future bleed is bounded. New virtual Visa Debit replacing old payment method; new credit card shipping. BOGO 50% offer locked in spreadsheet, awaiting Shopify implementation. Abandoned cart email drafted in brand voice, awaiting Shopify implementation. BBB / Competition Bureau Canada filing for post-ban refund pending.
+THIRD BM BANNED on creation Apr 27 — flagged for "automation" despite no automation being used. Pattern is now clear: Meta is fingerprinting something about Nate's setup that carries across attempts (likely personal Facebook profile, IP/device, or both). Tonight's engagement campaign launch is BLOCKED. New BM creation must stop until the carryover signal is identified and broken — continued attempts make the pattern recognition stronger and risk the personal Facebook profile getting dragged down too. Banned-BM bleed from Apr 23 still bounded at ~$180 (old cards killed). BOGO 50% offer + abandoned cart email work remain pending Shopify implementation but are independent of the BM creation problem.
 
 ---
 
@@ -52,8 +52,9 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 |---|---|---|---|
 | Banned BM billing crisis | In progress | Meta chatbot refuses human escalation | File BBB / Competition Bureau Canada complaint to start refund track |
 | RBC card replacement | In progress | Physical credit card in mail (~5-7 business days) | Virtual Visa Debit obtained; new credit card # available digitally; old numbers killed via fraud framing (no Visa Account Updater push) |
-| BM #3 warmup — engagement campaign | LAUNCHING TONIGHT (Apr 27) | None active | Day 1 of engagement campaign launching Apr 27 evening. Run pet-photo style at $5-7/day per `tallow-cream/partner-page/Follower_Warmup_Campaign.md` until $50 spend hit. Do NOT transition to purchase ads until $50 engagement spend complete. |
-| Personal FB activity | Continuing | None | Normal activity, no longer at "preserve credit" pace — warmup is now operational |
+| BM #4 creation | BLOCKED — banned on creation Apr 27 for "automation" | Meta fingerprint pattern carrying across attempts | STOP creating new BMs until carryover signal is identified. Submit Identity Verification (gov ID) to attempt to clear the bot flag. Investigate what's the same across the 3 banned BMs (personal profile, IP, device, etc.). |
+| Personal FB profile health | UNKNOWN — at risk | None active | Verify personal profile is still in good standing (no warnings/restrictions on Account Quality page). If personal profile gets flagged, Julie's page goes with it. |
+| Engagement campaign | DEFERRED | BM creation blocked | Was scheduled for Apr 27 evening. Cannot proceed until a non-banned BM exists. |
 | Abandoned cart email | Copy drafted, awaiting implementation | Needs Shopify Email editor configuration | Paste brand-voice copy from chat into Shopify Email draft; verify Baseline → tallow brand name override |
 | BOGO 50% offer (live) | Spreadsheet committed; Shopify implementation pending | Default Shopify pricing doesn't support BOGO; needs Shopify Functions or app | Configure when ads resume — also update PDP messaging + cart upsell |
 | Ad creative for new BM | 10 ads written, awaiting BM | New BM not yet live | Launch sequence TBD: B11 (CPM diagnostic), B12 C2/C3, B13 (Photo Avoider × 3), B14 (Retinol Burnout × 3) |
@@ -63,7 +64,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions (Last 14 Days)
 
-- **2026-04-27** — Engagement campaign launches evening of Apr 27 on the new BM. Format per `Follower_Warmup_Campaign.md` (pet-photo prompt at $5-7/day until $50 spend hit). Purchase ads NOT before engagement warmup completes.
+- **2026-04-27** — STOP creating new BMs until carryover fingerprint signal is identified and broken. Three bans in a row for bot/automation = pattern, not bad luck. Continued attempts make pattern recognition stronger and risk the personal Facebook profile.
+- **2026-04-27** — Engagement campaign launch DEFERRED indefinitely. Was scheduled for Apr 27 evening. Cannot proceed without a non-banned BM.
 - **2026-04-26** — BM warmup resumed despite billing crisis still being technically open. Decision basis: old card numbers killed (banned BM can no longer charge), new virtual Visa Debit ready for new BM, refund process for past charges runs in parallel and doesn't block forward progress. Trade-off accepted: refund of ~$180 bleed is paperwork, not a blocker.
 - **2026-04-27** — BOGO 50% replaces Ritual + Transformation bundles ($74.99, $42.94 margin, 57.27%, 1.75 BE ROAS). Rationale: both old bundles had zero sales since launch; "save $X" framing reads as upsell, "buy one get one half off" reads as deal. Same economic outcome, much stronger psychology. BOGO 40% reserved as future price-test variant.
 - **2026-04-27** — Get new card numbers from RBC with fraud framing (NOT routine reissue) so Visa Account Updater doesn't push new card to banned BM. Virtual Visa Debit and credit card both replaced. Old numbers killed.
@@ -104,11 +106,19 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Open Questions
 
+### URGENT (BM bot-flag investigation)
+- What's the same across the 3 banned BMs? Most likely candidates: personal Facebook profile (used as admin on all three), residential IP, browser/device fingerprint, payment method patterns. Must identify before any further attempt.
+- Is the personal Facebook profile itself in good standing right now (no warnings/restrictions on Account Quality page)? If not, Julie's page is at risk.
+- Did Identity Verification (submit gov ID via business.facebook.com → Account Quality) get attempted yet for the banned BMs?
+- Was the same email and phone number used across all three BM creation flows?
+- Is Julie's page connected to any of the banned BMs (graph link that could be carrying the flag)?
+- Does the pixel from the original old BM still exist and is it being reused?
+
+### Existing
 - Will Meta refund post-ban charges via BBB or Competition Bureau Canada? (Filing pending, no response yet.)
 - Total banned-BM spend at end-of-bleed: estimated ~$180 but exact figure unknown until card declines stop charges or refund process surfaces it.
-- BOGO 50% Shopify implementation path: Shopify Functions vs third-party app (BOGO+, Shop Quantity Breaks, etc.). Unresolved.
-- B11 (Working Hands Man) launch sequencing when new BM goes live: solo first to isolate avatar variable, or stack with reactivated B5C1/B7C1/B9C3 for budget efficiency?
-- Personal Facebook account access — is `business.facebook.com/billing` reachable directly even though the BM is banned? Worth a 5-min test to potentially bypass the chatbot escalation problem.
+- BOGO 50% Shopify implementation path: Shopify Functions vs third-party app. Unresolved (independent of BM problem — can proceed regardless).
+- B11 launch sequencing when a non-banned BM exists: solo first to isolate avatar variable, or stack with reactivated B5C1/B7C1/B9C3?
 - Brand name on Shopify emails: header currently says "Baseline" but product is tallow. Single store / dual brands or separate stores? Affects abandoned cart email branding fix.
 
 ---
