@@ -27,7 +27,7 @@ The reason the old `SESSION_STATE.md` went stale (Apr 16 → Apr 27 with no upda
 
 ## Right Now
 
-Working Business Portfolio acquired (status: not restricted). Pixel created and connected. Engagement campaign launching imminently per `tallow-cream/partner-page/Follower_Warmup_Campaign.md` — pet-photo format at $5-7/day until $50 spend target hit. The earlier-Apr-27 banned Portfolio attempt is no longer blocking. Banned-BM bleed from Apr 23 still bounded at ~$180; old card numbers killed. Personal Facebook account + cooked (high-CPM but operational) BM both added to Portfolio as backup admins — defensive redundancy in case primary admin gets locked out. Note: "cooked BM" here = the original underperforming-CPM BM, NOT the Apr 23 banned one. Standard practice. BOGO 50% offer + abandoned cart email work remain pending Shopify implementation.
+Engagement campaign LIVE on the new Portfolio. Day-1 performance: ~$5 CPM, ~$0.02 cost per engagement. Massive improvement vs old BM ($200-450 CPM) and even vs Apr 21 fresh BM benchmark ($53-123 CPM). Validates the fresh-Portfolio + new-pixel hypothesis at the engagement-objective level. Pet-photo creative format performing as designed (high engagement at low cost). Warmup is on track to hit $50 spend target in 7-10 days at this delivery rate. BOGO 50% offer + abandoned cart email work remain pending Shopify implementation; can be done in parallel with the warmup.
 
 ---
 
@@ -54,7 +54,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 | RBC card replacement | In progress | Physical credit card in mail (~5-7 business days) | Virtual Visa Debit obtained; new credit card # available digitally; old numbers killed via fraud framing (no Visa Account Updater push) |
 | Business Portfolio | OPERATIONAL — not restricted | None | Standard ad operations. Verify new virtual Visa Debit attached as payment method. |
 | Pixel | CREATED + CONNECTED to Portfolio | Pending: confirm Shopify connection so conversions track when purchase ads launch | Verify pixel fires on Shopify PDP, ATC, and checkout. Test event firing in Events Manager before purchase ads go live. |
-| Engagement campaign | LAUNCHING IMMINENTLY | None | Pet-photo format at $5-7/day per `Follower_Warmup_Campaign.md` until $50 spend hit. Manual replies from Julie's account with photos of Biscuit (her dog) build comment threads. Do NOT transition to purchase ads until $50 engagement spend complete. |
+| Engagement campaign | LIVE — Day 1 at $5 CPM, $0.02 CPE | None | Continue at $5-7/day until $50 spend target hit (~7-10 days at current delivery). DO NOT raise budget — fresh Portfolios that surge spending get flagged. Manual replies from Julie with photos of Biscuit still important for comment-thread depth and page authority. |
+| Manual Julie replies | High volume incoming | Comment volume may exceed reply bandwidth | At $0.02 CPE the campaign is generating 250-350 engagements/day. Reply selectively — focus on most engaged commenters / longest comments. Not every comment needs a Julie reply. |
 | Personal FB profile health | UNAFFECTED | None | Safe per Nate. |
 | Banned-BM cleanup track | Running in parallel | None | BBB / Competition Bureau Canada filing for ~$180 refund still pending; doesn't block forward progress. |
 | Portfolio admin redundancy | Personal FB + cooked BM both added as backup admins | None | Standard redundancy practice — gives multiple access paths if primary admin ever gets locked out. "Cooked BM" = original underperforming-CPM BM (not banned), still operational. |
@@ -87,6 +88,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recently Completed
 
+- **2026-04-27** — Engagement campaign LAUNCHED. Day-1 performance: $5 CPM, $0.02 cost per engagement. Validates fresh-Portfolio hypothesis at engagement level (40-90x CPM improvement vs old BM, ~10-25x vs Apr 21 fresh BM).
+- **2026-04-27** — Personal FB + cooked BM added to Portfolio as backup admins (defensive redundancy).
 - **2026-04-27** — Working Business Portfolio acquired (status: not restricted)
 - **2026-04-27** — Pixel created and connected to Portfolio
 - **2026-04-26** — New BM created (third BM since brand launch — first was old BM, second was Apr 21 fresh BM that got banned Apr 23)
