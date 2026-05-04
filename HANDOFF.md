@@ -3,9 +3,9 @@
 > Real-time handoff document. Updated whenever work happens, decisions get made, or items complete.
 > Read this at session start BEFORE doing anything else (after CLAUDE.md).
 
-**Last Updated:** 2026-04-27
+**Last Updated:** 2026-05-04
 **Active Brand:** Tallow Cream
-**Project Phase:** Business Portfolio operational, pixel connected, engagement campaign launching
+**Project Phase:** Purchase campaign live on B7C1, engagement campaign retired, scaling decision pending performance review
 
 ---
 
@@ -27,7 +27,7 @@ The reason the old `SESSION_STATE.md` went stale (Apr 16 → Apr 27 with no upda
 
 ## Right Now
 
-Engagement campaign LIVE on the new Portfolio. Day-1 performance: ~$5 CPM, ~$0.02 cost per engagement. Massive improvement vs old BM ($200-450 CPM) and even vs Apr 21 fresh BM benchmark ($53-123 CPM). Validates the fresh-Portfolio + new-pixel hypothesis at the engagement-objective level. Pet-photo creative format performing as designed (high engagement at low cost). Warmup is on track to hit $50 spend target in 7-10 days at this delivery rate. BOGO 50% offer + abandoned cart email work remain pending Shopify implementation; can be done in parallel with the warmup.
+Engagement campaign turned OFF. B7C1 single-ad purchase campaign has been spending properly for ~1 week (Apr 27 → May 4). Specific performance metrics pending — need to pull CPM, CTR, CPC, ATC, purchases, and ROAS to inform the scaling decision. Nate considering scaling daily budget and adding more ads. BOGO 50% offer + abandoned cart email work statuses unknown — need to confirm whether Shopify implementations happened in the past week or are still pending.
 
 ---
 
@@ -54,7 +54,9 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 | RBC card replacement | In progress | Physical credit card in mail (~5-7 business days) | Virtual Visa Debit obtained; new credit card # available digitally; old numbers killed via fraud framing (no Visa Account Updater push) |
 | Business Portfolio | OPERATIONAL — not restricted | None | Standard ad operations. Verify new virtual Visa Debit attached as payment method. |
 | Pixel | CREATED + CONNECTED to Portfolio | Pending: confirm Shopify connection so conversions track when purchase ads launch | Verify pixel fires on Shopify PDP, ATC, and checkout. Test event firing in Events Manager before purchase ads go live. |
-| Engagement campaign | LIVE — 2 days complete, CPMs trending DOWN ($3.50 Day 1 → $2.91 Day 2 → starting Day 3 now), $10 spent total | None | Continue at $5/day. Warmup signal is real — 2 days of consistent delivery with declining CPMs means Meta has settled on an audience pocket and the Portfolio is in good standing. Reasonable to layer in a small purchase-ad test starting today or after Day 3. |
+| Engagement campaign | TURNED OFF (date unconfirmed) | None | Final stats unknown — need to capture before fully retiring the work stream. Page warmup work it did is preserved in Julie's page activity. |
+| Purchase campaign B7C1 | SPENDING PROPERLY — ~1 week of delivery (Apr 27 → May 4) | Specific metrics unknown | Pull last 7 days of stats: spend, CPM, CTR, CPC, ATC, purchases, ROAS. Without this data, scaling decision is a guess. |
+| Scaling decision | PENDING DATA | Need performance metrics + funnel state | Default playbook: don't scale without 3+ days of consistent positive ROAS, scale 20-30%/day max, add ads to existing ad set (not new ad sets), use proven converters first (B5C1, B9C3) before B11-B14. |
 | Manual Julie replies | High volume incoming | Comment volume may exceed reply bandwidth | At $0.02 CPE the campaign is generating 250-350 engagements/day. Reply selectively — focus on most engaged commenters / longest comments. Not every comment needs a Julie reply. |
 | Purchase test campaign (B7C1) | DECIDED, launching | None | Launch as a separate campaign with purchase objective, $10/day budget, B7C1 (She Used Pond's) as the only ad, broad audience, Advantage+ Placements, optimize for Purchase event. New pixel, NOT cooked BM's pixel. Verify pixel firing on Shopify (PDP/ATC/Checkout/Purchase) before launch. |
 | Personal FB profile health | UNAFFECTED | None | Safe per Nate. |
