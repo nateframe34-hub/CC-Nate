@@ -3,9 +3,9 @@
 > Real-time handoff document. Updated whenever work happens, decisions get made, or items complete.
 > Read this at session start BEFORE doing anything else (after CLAUDE.md).
 
-**Last Updated:** 2026-05-04
+**Last Updated:** 2026-05-11
 **Active Brand:** Tallow Cream
-**Project Phase:** Purchase campaign live on B7C1, engagement campaign retired, scaling decision pending performance review
+**Project Phase:** 3-day pre-launch analysis (May 11-13) before fresh $50/day campaign launch on Friday May 15
 
 ---
 
@@ -27,7 +27,7 @@ The reason the old `SESSION_STATE.md` went stale (Apr 16 → Apr 27 with no upda
 
 ## Right Now
 
-Engagement campaign turned OFF. The $10/day B7C1 single-ad purchase campaign has spent ~$50 lifetime with 0 actual purchases on this Portfolio (1 ATC + 1 IC, no completed sale). At $10/day the daily volume is too low to produce learnable signal. Decision: turn off the current campaign Monday and launch a FRESH campaign at $50/day with proper structure — 1 ad set with the 3 proven converters (B7C1 + B9C3 + B5C1), 1 ad set with batch 13 (Photo Avoider — 3 angles). The current campaign's spend is treated as paid spend-history accumulation for the Portfolio, not as a learning loss. Brand has 9 lifetime sales across prior accounts — conversion economics are validated; this restart is about giving the new Portfolio a budget environment that produces actionable data.
+Launch delayed from May 4 → Friday May 15. Nate has been stressed; he's using the gap deliberately to do a thorough pre-launch analysis instead of rushing. The 3-day analysis window (May 11-13) is to: (1) audit what worked across the 9 lifetime sales, (2) audit what failed across killed batches, (3) MINE the B7C1 ad comments — biggest unused data source — for audience signals, objections, verbatim language, and sub-avatar identifiers, (4) cross-reference findings against the existing Converter_Pattern_Synthesis.md, and (5) apply specific tweaks to the converter ads + B13 ads for the Friday launch. The fresh $50/day campaign structure (Ad Set A: B7C1 + B9C3 + B5C1, Ad Set B: B13 ×3) remains the launch plan unless analysis reveals reasons to change it.
 
 ---
 
@@ -55,7 +55,9 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 | Business Portfolio | OPERATIONAL — not restricted | None | Standard ad operations. Verify new virtual Visa Debit attached as payment method. |
 | Pixel | CREATED + CONNECTED to Portfolio | Pending: confirm Shopify connection so conversions track when purchase ads launch | Verify pixel fires on Shopify PDP, ATC, and checkout. Test event firing in Events Manager before purchase ads go live. |
 | Engagement campaign | TURNED OFF (date unconfirmed) | None | Final stats unknown — need to capture before fully retiring the work stream. Page warmup work it did is preserved in Julie's page activity. |
-| Current $10/day B7C1 campaign | TURNING OFF Monday | Producing too little daily volume to be useful | Kill Monday morning. ~$50 lifetime spend treated as paid spend-history for the Portfolio, not a learning loss. |
+| Pre-launch analysis | IN PROGRESS — Days 1-3 of 3 | Need B7C1 comment data from Nate to start the comment-mining phase | Day 1 (May 11): plan + gather data sources. Day 2 (May 12): deep dive on comments + cross-reference against converter synthesis. Day 3 (May 13): propose specific tweaks to ads + update synthesis with new findings. May 14: apply edits + pixel verification. May 15: launch. |
+| B7C1 comment mining | NEW URGENT TASK — biggest unused data source | Nate needs to share the actual comments (copy-paste or screenshot) | Extract: (1) verbatim recognition phrases ("that's me" patterns), (2) objections + how to preempt them in copy, (3) sub-avatar identifiers (who's actually engaging — Photo Avoider, Retinol Burnout, etc.), (4) conversion friction signals. Goal: actionable creative tweaks before Friday launch. |
+| Current $10/day B7C1 campaign | KILLED (status TBD — confirm with Nate whether already turned off or still spending) | None | Was scheduled to be killed Monday May 4. May still be running given launch delay. Confirm and turn off if not already. |
 | Fresh campaign launch (Monday May 11 or 4) | QUEUED | None | Launch at $50/day total. One campaign, two ad sets. Ad Set A: 3 proven converters (B7C1 + B9C3 + B5C1). Ad Set B: batch 13 (3 angles — Camera Roll, Christmas Card, Behind The Camera). All ad sets identical broad audience (35-65, female, US/EN), Purchase optimization, Advantage+ Placements. |
 | Batch 12 testing | PARKED — not killed | None | Layers in after B13 has 5-7 days of data on the new Portfolio. Hooks (Hairdresser, Pond's nostalgia, Daughter Sent It) remain valid; just deprioritized while B13 (new sub-avatar) gets the first batch-test slot. |
 | Batch 13 refinement | IN PROGRESS — using pre-launch downtime | None | Read each of the 3 B13 ads against the locked Tallow_Ad_Creative_Principles.md + Converter_Pattern_Synthesis.md. Identify any gaps in the 10-element skeleton, voice/compliance issues, weak hooks/closes. Strengthen before Monday launch since these ads are testing a NEW sub-avatar (no prior conversion validation for Photo Avoider) — they need to be at maximum strength to give the avatar test a fair shot. |
@@ -76,6 +78,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions (Last 14 Days)
 
+- **2026-05-11** — Launch delayed from May 4 → Friday May 15. Reason: Nate has been stressed; deliberate slowdown to do thorough pre-launch analysis rather than rush. Three-day analysis window (May 11-13) to mine the B7C1 comments (biggest unused data source), audit converters vs killed batches, and propose specific creative tweaks before Friday launch.
+- **2026-05-11** — B7C1 comments identified as biggest unused data source. Comments are direct audience feedback containing recognition language, objections, sub-avatar signals, and conversion friction signals. Mining them is the highest-leverage pre-launch activity.
 - **2026-05-04** — B12 PARKED (not killed). Layers in after B13 has 5-7 days of post-launch data. Use the pre-Monday downtime to REFINE B13 against the locked Tallow_Ad_Creative_Principles.md + Converter_Pattern_Synthesis.md. Reasoning: B13 tests a NEW sub-avatar (Photo Avoider) with no prior conversion validation; ads need to be at max strength to give the avatar test a fair shot.
 - **2026-05-04** — Kill the $10/day B7C1 campaign Monday and launch a FRESH campaign at $50/day. Reasoning: at $10/day the data is too thin to learn from regardless of whether sales come in. ~$50 lifetime on the killed campaign treated as paid Portfolio spend-history, not a learning loss. Restart structure: 1 campaign, 2 ad sets — proven converters (B7C1 + B9C3 + B5C1) in one ad set, batch 13 (Photo Avoider, 3 angles) in another. B12 deprioritized for now (locked-formula rebuilds of the converter skeleton; B7C1 already represents that formula).
 - **2026-05-04** — Testing structure locked: ONE ad set per batch, each ad set holds all 3 angles for that batch. Proven converters stay in their own dedicated ad set. All ad sets share identical broad audience (35-65, female, US/EN); creative does the targeting per locked principles.
