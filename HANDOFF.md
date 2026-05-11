@@ -106,6 +106,7 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recently Completed
 
+- **2026-05-11** — Killed-batch failure analysis published: `tallow-cream/feedback-loops/Killed_Batch_Failure_Analysis.md`. Per-ad summary of 15 killed ads (B1-B6), 8 cross-cutting failure patterns, density gap analysis (day-marker transformation + habit-cessation beat + close-mirrors-hook + identity-level payoff are 100% absent from killed ads), 15 "do not" design constraints for the new batch, plus B8 NMN-mirror falsification and B10 Homesteader avatar failure breakdowns. Pairs with Converter_Pattern_Synthesis.md as the working-document foundation for the new batch design.
 - **2026-04-27** — Engagement campaign LAUNCHED. Day-1 performance: $5 CPM, $0.02 cost per engagement. Validates fresh-Portfolio hypothesis at engagement level (40-90x CPM improvement vs old BM, ~10-25x vs Apr 21 fresh BM).
 - **2026-04-27** — Personal FB + cooked BM added to Portfolio as backup admins (defensive redundancy).
 - **2026-04-27** — Working Business Portfolio acquired (status: not restricted)
