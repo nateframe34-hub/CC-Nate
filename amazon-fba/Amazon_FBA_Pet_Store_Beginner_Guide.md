@@ -11,53 +11,89 @@
 - **FBA = Fulfillment by Amazon.** You send inventory to Amazon's Canadian warehouses; they store, pick, pack, ship, and handle customer service and returns. You handle sourcing, pricing, and ads.
 - **Your model is wholesale reselling:** buy named brands cheap through your franchise channel, resell them on Amazon.ca at a margin.
 - **Your edge:** below-retail cost on brands people already search for. That can mean fast sales — *if* you clear the gates below.
-- **Two make-or-break gates, in order:**
-  1. **Your Global Pet Foods franchise agreement** — does it allow you to resell franchise-channel inventory on third-party marketplaces? **Check this before anything else.** (Section 1)
-  2. **Brand authorization** — Amazon "gates" many brands and many pet brands restrict who can resell them. You need permission + invoices. (Section 2)
+- **Two make-or-break gates, both covered in Section 1:**
+  1. **Your Global Pet Foods franchise agreement** — does it allow you to resell franchise-channel inventory on third-party marketplaces? **Check this before anything else.**
+  2. **Brand authorization** — Amazon "gates" many brands and many pet brands restrict who can resell them. You need permission + invoices.
 - **Reselling reality:** you sell on the brand's *existing* product page alongside other sellers, competing for the **Buy Box**. Your cheap cost is what lets you win it and still profit. Margins are typically **10–20%**.
 - **Pet category gates:** non-ingestible accessories (toys, beds, bowls, leashes, grooming) are the easy lane. **Ingestible supplements are effectively closed to new sellers in 2026.**
 - **Realistic starting cost:** roughly **CAD $1,200–$3,500** for a lean wholesale launch. Detailed budget in Section 14.
 
 ---
 
-## 1. Step 1 — Check your franchise agreement FIRST (highest stakes, do this before spending a dollar)
+## 1. Step 1 — Risks & permissions: the gates to clear before spending a dollar
 
-**What:** Before any Amazon planning, read your **Global Pet Foods franchise agreement** and talk to your franchisor about selling franchise-sourced product on Amazon.
+This is the section to read twice. Wholesale reselling lives or dies on permission — from your franchisor, from the brands, and from Amazon — and most of the failure modes are upstream of the actual selling. Sort them out cleanly here, or accept the risk you're taking and structure accordingly.
 
-**Why this is step one:** Franchise agreements very commonly restrict franchisees from:
+### 1a. Your Global Pet Foods franchise agreement (highest stakes)
+
+**Why this comes first:** the downside if it's breached isn't a failed Amazon experiment — it's the family's actual store and franchise license. That dwarfs every other risk in this guide.
+
+Franchise agreements very commonly restrict franchisees from:
 - **Reselling franchise-channel inventory on third-party online marketplaces** (Amazon, eBay, Walmart Marketplace),
-- Selling outside an **assigned territory** (online sales reach the whole country, which can conflict with other franchisees or the franchisor's own e-commerce),
-- Using the **franchise's supplier pricing/relationships** for outside business ventures.
+- Selling outside an **assigned territory** (online sales reach the whole country, conflicting with other franchisees or the franchisor's own e-commerce),
+- Using the **franchise's approved suppliers, supplier relationships, or pricing** for outside business ventures,
+- Engaging in any **competing business** during the term.
 
-The stakes here are not "a failed Amazon test" — they're **your family's actual store and franchise license.** A breach could put the real business at risk. That is a far bigger downside than anything else in this guide, which is why it goes first.
+**The four passages to actually read in the agreement** — these tell you 80% of the answer in 30 minutes:
+- **Definitions** — especially "Affiliate," "Related Party," and "Immediate Family." How broadly is the agreement drafted? Does it extend to spouses, children, parents, anyone in the household? Or only to the franchisee personally? **This is the single biggest factor.**
+- **Non-compete clause** — what counts as "competing"? Does it cover online-only ventures and the same product categories?
+- **Confidential information** — usually covers supplier lists, pricing, and contacts. Using franchise-supplier relationships for an outside business can breach this on its own.
+- **Approved-supplier / sourcing clauses** — sometimes restrict where you can buy product for any related business.
 
-**How:**
-- Find the clauses on online/e-commerce sales, territory, approved suppliers, and use of franchise inventory.
-- **Ask the franchisor directly, in writing.** Some franchisors actually run or permit marketplace programs; some forbid it outright; some allow it with conditions. Get the answer documented.
-- If franchise-channel product is off-limits, you may still be able to resell brands sourced through a **separate, independent wholesale account** you open yourself (outside the franchise) — but confirm that's clean too.
+**Sub-structures don't cure substance.** Common workarounds and why they generally don't deliver what people want from them:
 
-> Do not skip or hand-wave this. Everything downstream assumes you've confirmed you're allowed to resell the product you intend to sell.
+- *"Order to the house, via a separate company, instead of through the store."* The shipping address isn't the test. Franchisors (and courts, in a dispute) look at who runs and benefits from the business and whether franchise-derived advantages flow into it — not where the boxes land.
+- *"Different storefront name on Amazon"* (e.g., "Nate's Pet Shops" vs "Gabe Investment Inc"). The storefront *display* name can be anything, but Amazon publicly discloses the **legal business name and address** on the seller profile page once you cross ~$20k/yr or 200 orders. Anyone can click "sold by" and see the legal entity. (More in 1c.)
+- *"The son owns it, not the parents."* Can work — but only if it's substantively independent: the son is an adult, isn't an employee/officer of the franchise, and **sources inventory outside the franchise channel.** If the business buys at franchise pricing through mom and dad's supplier relationships, the ownership label doesn't change the flow of franchise-derived advantages.
+
+**The plain-English gut-check:** *would this exact Amazon business still exist — same suppliers, same pricing, same brand access — if mom and dad didn't own the franchise?* If yes → plausibly genuinely independent (subject to the agreement's family-clause wording). If no → it's leveraging the franchise regardless of how it's structured. The cost edge you want and the franchise link you'd need to sever generally come from the same place.
+
+**The clean path:** read the four clauses above, then ask the franchisor directly. A surprising number are fine with it, run a marketplace program you can plug into, or give a clear yes/no. Any of those beats guessing. A one-hour consult with a Canadian franchise lawyer reading the actual agreement is the highest-leverage spend on this whole project.
+
+### 1b. Brand authorization (the second gate, regardless of how the franchise question lands)
+
+Even if your franchise side is clean, the brands themselves regulate Amazon resale.
+
+- **Amazon "gating."** Many brands require approval before you can list. Typical ask: **invoices showing ≥10 units, dated within the last 180 days,** with your and your supplier's business details. The operational submission step is Section 6.
+- **Brand reseller policies.** Many premium pet brands sell direct on Amazon or restrict resale to **authorized sellers only**, and enforce **MAP (Minimum Advertised Price).** Selling a brand that doesn't allow third-party resale invites IP complaints, which can pull listings or suspend your account. Permission ultimately comes from the **brand owner**, not just a distributor.
+
+**Per-brand checks before you commit inventory:**
+1. Is the brand selling itself on Amazon at a Buy Box price you can't beat?
+2. Does it publish an authorized-reseller policy or MAP policy?
+3. Will it confirm — in writing — that it permits Amazon resale through your channel?
+
+Worth repeating: **ingestible pet supplements are effectively closed to new sellers in 2026** — Amazon isn't accepting new applications. Don't plan anything there.
+
+### 1c. Traceability reality (what's actually visible if you're banking on staying unidentifiable)
+
+A different storefront name gives much thinner cover than it looks:
+
+- **Amazon discloses your legal business name and business address on the public seller profile page** once you cross ~$20k/yr or 200 orders. The storefront display name can be different, but the legal entity behind it is shown. Anyone — including your franchisor — can click "sold by" and see it.
+- **Home-address privacy is partial.** If your only business address is residential, Amazon may show only province + country — but the **legal company name is still shown.**
+- **Canadian corporate registries are public.** Federal and provincial registries list directors and officers. Differently-named entities sharing the same family directors can be linked in minutes — and it works in both directions (search the entity → find the people, or search the people → find their entities).
+
+### 1d. Detection vectors (where exposure actually comes from)
+
+Realistically, no franchisor runs proactive registry searches against franchisees' families. Exposure almost always comes from one of these channels:
+
+1. **Brand owners.** Premium pet brands run automated Amazon scans for unauthorized sellers and MAP violations. When they find one, they often trace back through their distribution channel — which lands at Global Pet Foods. **This is the most likely tripwire.**
+2. **Other franchisees in your region.** If the same brands you stock appear on Amazon at or below your store's retail in your area, a neighbouring franchisee will notice and complain. The franchisor doesn't have to investigate; they just have to receive the complaint and verify it in 60 seconds.
+3. **Supplier-side audit trail.** Distributors track who buys what. SKU/volume/timing patterns are findable, and most franchise agreements include audit rights over your supplier accounts.
+4. **Mundane life.** A local Amazon customer brings a return into the store. Staff or an in-law mentions it. An old social post resurfaces. Most detection is boring, not dramatic.
+
+### 1e. The asymmetry that's easy to underweight
+
+If you're calculating risk as *probability × current size*, you're using the wrong frame. The right frame is **detection probability × downside-at-the-moment-of-detection**, and **both grow as you succeed**:
+
+- Detection probability isn't constant. It rises with volume, the number of brands you carry, and how many years you operate. Other franchisees notice you *because* you're doing well.
+- Downside isn't bounded at "lose the Amazon side." It's "lose Amazon **+** lose the franchise (family's actual income) **+** contract dispute **+** brand-relationship damage."
+- "Keep it under $100k/month forever" isn't compatible with the reason you'd start this. The version that succeeds is the version that becomes findable. There's no stable equilibrium except *stay small forever* or *scale and accept exposure.*
+
+Plenty of small operators run this kind of thing for years and nothing happens — that's also true. If you go in eyes open with that calibration, it's a calculated bet, not a sure loss. The only real safety, though, comes from the franchisor conversation in 1a — there's no structural shortcut around it.
 
 ---
 
-## 2. Step 2 — Confirm which brands you're actually allowed to resell on Amazon.ca
-
-**What:** For each brand you want to sell, confirm (a) Amazon will let you list it, and (b) the brand permits Amazon resale.
-
-**Why:** Reselling genuine goods you lawfully bought is generally permissible, **but two things override that in practice:**
-- **Amazon "gating":** many brands are locked. To list them you must request approval and usually submit **invoices showing at least 10 units, dated within the last 180 days,** with your and your supplier's business details.
-- **Brand reseller policies:** many premium pet brands sell direct on Amazon or restrict resale to **authorized sellers only**, and enforce **MAP (Minimum Advertised Price)**. Selling a brand that doesn't allow it invites **intellectual-property complaints**, which can get listings pulled or your account suspended. Permission comes from the **brand owner**, not just a distributor.
-
-**How:**
-- In Seller Central, try to list the product — Amazon tells you if approval ("ungating") is required and what to submit.
-- Contact the brand and ask if they allow third-party Amazon resellers and whether you qualify. Get it in writing.
-- Watch for brands where the **manufacturer itself holds the Buy Box** at a price you can't beat — those aren't worth your time.
-
-> **Your franchise channel helps here:** ungating requires legitimate supplier invoices, which you have. That's a wall for most beginners and a non-issue for you — *provided Step 1 cleared you to use that inventory.*
-
----
-
-## 3. Step 3 — Pet category reality check (what's sellable vs gated on Amazon.ca)
+## 2. Step 2 — Pet category reality check (what's sellable vs gated on Amazon.ca)
 
 **What:** Know which pet sub-categories are open to a new seller before you commit to inventory.
 
@@ -75,7 +111,7 @@ The stakes here are not "a failed Amazon test" — they're **your family's actua
 
 ---
 
-## 4. Step 4 — Validate demand and check the competition on Amazon.ca
+## 3. Step 3 — Validate demand and check the competition on Amazon.ca
 
 **What:** Confirm the specific branded products you can source actually sell on Amazon.ca, and check how crowded each listing already is.
 
@@ -90,11 +126,11 @@ The stakes here are not "a failed Amazon test" — they're **your family's actua
   - **Can your landed cost beat that Buy Box price and still leave margin?** If yes, it's a candidate. If the brand or a race-to-the-bottom seller owns a price you can't profitably match, skip it.
 - Favour small, light items (lower FBA fulfillment/storage fees) priced in the **CAD ~$25–$60** range.
 
-> **Note on market size:** Amazon.ca is much smaller than Amazon.com (roughly a tenth). That's fine to start and learn on. Selling into the larger US market is a possible growth lever later — see Section 13 — but it adds cross-border, tax, and *franchise-territory* complications, so don't start there.
+> **Note on market size:** Amazon.ca is much smaller than Amazon.com (roughly a tenth). That's fine to start and learn on. Selling into the larger US market is a possible growth lever later — see Section 12 — but it adds cross-border, tax, and *franchise-territory* complications, so don't start there.
 
 ---
 
-## 5. Step 5 — Sort out the business + Canadian tax (GST/HST)
+## 4. Step 4 — Sort out the business + Canadian tax (GST/HST)
 
 **What:** Make sure the selling entity and tax registrations are in order.
 
@@ -109,7 +145,7 @@ The stakes here are not "a failed Amazon test" — they're **your family's actua
 
 ---
 
-## 6. Step 6 — Create your Amazon.ca Seller account
+## 5. Step 5 — Create your Amazon.ca Seller account
 
 **What:** Open a Seller Central account on Amazon.ca and pick a plan.
 
@@ -119,7 +155,7 @@ The stakes here are not "a failed Amazon test" — they're **your family's actua
 
 ---
 
-## 7. Step 7 — Get ungated / brand-approved
+## 6. Step 6 — Get ungated / brand-approved
 
 **What:** For any gated brand or sub-category, submit an approval request in Seller Central.
 
@@ -127,11 +163,11 @@ The stakes here are not "a failed Amazon test" — they're **your family's actua
 
 **How:** Attempt the listing; Amazon shows the requirements. Typical ask: **invoices from a legitimate supplier (≥10 units, dated within 180 days, with business + supplier contact info)** and sometimes a brand authorization letter. Approvals usually take **24–72 hours** when paperwork is clean.
 
-> Again, your supplier invoices are the key here — most beginners can't produce them. You can (subject to Step 1).
+> Again, your supplier invoices are the key here — most beginners can't produce them. You can (subject to Section 1).
 
 ---
 
-## 8. Step 8 — Lock in sourcing cost and MOQ (see Section 13 for the MOQ deep-dive)
+## 7. Step 7 — Lock in sourcing cost and MOQ (see Section 13 for the MOQ deep-dive)
 
 **What:** Confirm your **landed cost per unit** and the **minimum order quantity** for each product through your channel.
 
@@ -140,11 +176,11 @@ The stakes here are not "a failed Amazon test" — they're **your family's actua
 **How:**
 - Get the true **landed cost**: unit price + inbound freight + any handling. (Domestic Canadian sourcing means no import duties — an advantage over importers.)
 - Confirm MOQ / case-pack sizes and payment terms.
-- Sanity-check against the live Buy Box price from Step 4: *landed cost < Buy Box price − Amazon fees − a margin you're happy with.*
+- Sanity-check against the live Buy Box price from Step 3: *landed cost < Buy Box price − Amazon fees − a margin you're happy with.*
 
 ---
 
-## 9. Step 9 — Allocate your first inventory (start small)
+## 8. Step 8 — Allocate your first inventory (start small)
 
 **What:** Send in a small initial batch — enough to sell through in ~1–2 months — rather than a big bet.
 
@@ -152,7 +188,7 @@ The stakes here are not "a failed Amazon test" — they're **your family's actua
 
 ---
 
-## 10. Step 10 — Add your offer to the existing listing and win the Buy Box
+## 9. Step 9 — Add your offer to the existing listing and win the Buy Box
 
 **What:** Unlike private label, you **don't create a product page** — you attach your offer to the brand's **existing listing (ASIN)** and compete to be the default "Add to Cart" seller (the **Buy Box**).
 
@@ -166,7 +202,7 @@ The stakes here are not "a failed Amazon test" — they're **your family's actua
 
 ---
 
-## 11. Step 11 — Send inventory into FBA (Amazon.ca)
+## 10. Step 10 — Send inventory into FBA (Amazon.ca)
 
 **What:** Create a shipment plan in Seller Central, label units, and ship to the Canadian fulfillment centre(s) Amazon assigns.
 
@@ -181,17 +217,17 @@ The stakes here are not "a failed Amazon test" — they're **your family's actua
 
 ---
 
-## 12. Step 12 — Launch ads (PPC)
+## 11. Step 11 — Launch ads (PPC)
 
 **What:** Run **Amazon PPC (Sponsored Products)** to drive visibility and velocity.
 
-**Why:** Even on an established listing, ads help you capture sales and signal velocity. (Note: Sponsored Products generally promote the Buy Box offer, so **winning the Buy Box first** matters — see Step 10.)
+**Why:** Even on an established listing, ads help you capture sales and signal velocity. (Note: Sponsored Products generally promote the Buy Box offer, so **winning the Buy Box first** matters — see Step 9.)
 
 **How:** Start with a modest budget (**CAD ~$300–$800** for the first month or two), begin with automatic targeting to find converting keywords, then build manual campaigns around winners. Watch **ACoS** (ad cost ÷ ad sales) and keep it below your margin.
 
 ---
 
-## 13. Step 13 — Monitor, reorder, and consider expansion
+## 12. Step 12 — Monitor, reorder, and consider expansion
 
 **What:** Track true per-unit profit, keep winners in stock, and cut losers.
 
@@ -203,7 +239,7 @@ The stakes here are not "a failed Amazon test" — they're **your family's actua
 
 ---
 
-## 14. MOQ deep-dive (Minimum Order Quantities)
+## 13. MOQ deep-dive (Minimum Order Quantities)
 
 Since you're reselling named brands (not manufacturing), the only MOQs that apply are **wholesale/distributor minimums** — which are generally beginner-friendly:
 
@@ -215,7 +251,7 @@ Since you're reselling named brands (not manufacturing), the only MOQs that appl
 
 ---
 
-## 15. Realistic starting cost (wholesale, CAD)
+## 14. Realistic starting cost (wholesale, CAD)
 
 There's no single number, but wholesale is the *cheaper* model to start because there's no manufacturing, trademark, or custom packaging. A grounded first-launch budget:
 
@@ -249,7 +285,7 @@ That ~10–15% is typical wholesale margin — **thinner than private label, but
 
 ---
 
-## 16. The 2026 Amazon.ca fee reference (CAD)
+## 15. The 2026 Amazon.ca fee reference (CAD)
 
 | Fee | 2026 figure (Amazon.ca) | Notes |
 |---|---|---|
@@ -267,31 +303,32 @@ That ~10–15% is typical wholesale margin — **thinner than private label, but
 
 ---
 
-## 17. Common mistakes to avoid (tuned to your situation)
+## 16. Common mistakes to avoid (tuned to your situation)
 
-1. **Skipping the franchise check.** Reselling franchise-channel inventory on Amazon could breach your agreement and jeopardize the real store. Verify first (Section 1).
-2. **Reselling a brand without authorization.** Invites IP complaints and suspension. Get brand permission + valid invoices (Section 2).
+1. **Skipping the franchise + permissions check.** Reselling franchise-channel inventory on Amazon could breach your agreement and jeopardize the real store. Verify first (Section 1).
+2. **Reselling a brand without authorization.** Invites IP complaints and suspension. Get brand permission + valid invoices (Section 1b).
 3. **Ignoring MAP pricing.** Some brands enforce minimum advertised prices; undercutting can get you removed. Check before you list.
-4. **Starting in a gated lane.** Avoid ingestible supplements (closed to new sellers) and flea/tick. Begin with non-ingestible accessories.
-5. **Racing the Buy Box to zero margin.** If you can only win by losing money, skip that SKU. Your cheap cost should win you the box *with* profit.
-6. **Using the Individual plan and wondering why nothing sells.** Individual sellers usually can't get the Buy Box — go Professional.
-7. **Overstocking.** Cash frozen + aged-inventory fees. Test small, reorder winners.
-8. **Forgetting GST/HST registration.** Holding FBA inventory in Canada requires it from day one.
+4. **Banking on a different storefront name to keep you anonymous.** Amazon publicly shows your legal business name + address on the seller profile, and Canadian corporate registries link entities to people. The structural workaround isn't the safety it looks like (Section 1c–1d).
+5. **Starting in a gated lane.** Avoid ingestible supplements (closed to new sellers) and flea/tick. Begin with non-ingestible accessories.
+6. **Racing the Buy Box to zero margin.** If you can only win by losing money, skip that SKU. Your cheap cost should win you the box *with* profit.
+7. **Using the Individual plan and wondering why nothing sells.** Individual sellers usually can't get the Buy Box — go Professional.
+8. **Overstocking.** Cash frozen + aged-inventory fees. Test small, reorder winners.
+9. **Forgetting GST/HST registration.** Holding FBA inventory in Canada requires it from day one.
 
 ---
 
-## 18. Your edge — and what I'd actually do
+## 17. Your edge — and what I'd actually do
 
 You have the two things most resellers lack: **below-retail cost on known brands** and **legitimate supplier invoices** for ungating. The cheap cost is what wins Buy Boxes profitably; the invoices clear Amazon's gates. The constraint that defines your business is **permission** — from your franchisor and from the brands.
 
 **The order of operations I'd follow:**
-1. **Clear the franchise agreement** (Section 1) — in writing, before anything else. Highest stakes.
-2. **Pick 1–2 non-ingestible accessory products** from brands you can source cheap *and* are authorized to resell, that already sell on Amazon.ca with a Buy Box price your cost can beat (Sections 2–4).
-3. **Set up the Amazon.ca Professional account and GST/HST** (Sections 5–6) — likely quick given your existing business.
-4. **Send a small first batch into FBA, win the Buy Box, confirm real net profit** (Sections 9–12).
+1. **Clear Section 1 — franchise + brand permissions** in writing, before anything else. Highest stakes.
+2. **Pick 1–2 non-ingestible accessory products** from brands you can source cheap *and* are authorized to resell, that already sell on Amazon.ca with a Buy Box price your cost can beat (Sections 2–3).
+3. **Set up the Amazon.ca Professional account and GST/HST** (Sections 4–5) — likely quick given your existing business.
+4. **Send a small first batch into FBA, win the Buy Box, confirm real net profit** (Sections 8–11).
 5. **Reorder winners and add SKUs.** Wholesale margin is thin (~10–15%), so the model wins on *volume across many authorized, cheaply-sourced products* — which is exactly what your franchise channel can feed.
 
-Budget **~CAD $1,200–$3,500** to launch this properly. The biggest risk isn't money — it's permission, so protect the family business by clearing Step 1 first.
+Budget **~CAD $1,200–$3,500** to launch this properly. The biggest risk isn't money — it's permission. Protect the family business by clearing Section 1 first.
 
 ---
 
@@ -310,5 +347,7 @@ Budget **~CAD $1,200–$3,500** to launch this properly. The biggest risk isn't 
 - [How to sell branded products on Amazon — Sell on Amazon (official)](https://sell.amazon.com/blog/sell-branded-products-on-amazon)
 - [How to sell pet products on Amazon — Sell on Amazon (official)](https://sell.amazon.com/blog/how-to-sell-pet-products-amazon)
 - [How to Get Ungated in Pet Supplies on Amazon — OABeans](https://oabeans.com/ungating-pet-supplies/)
+- [About the INFORM Consumers Act — Amazon Seller Central](https://sellercentral.amazon.com/help/hub/reference/external/GJ4JUGLSAPRM3LU7?locale=en-US)
+- [INFORM Consumers Act: What Amazon Sellers Need to Know — eComEngine](https://www.ecomengine.com/blog/inform-consumers-act)
 
 > *Fees and policies change. Confirm live numbers in Seller Central and the Amazon.ca Revenue Calculator before committing capital. This is general business information, not legal, franchise, or tax advice — review your franchise agreement with the franchisor and consult your accountant/lawyer before reselling franchise-channel inventory on Amazon.*
