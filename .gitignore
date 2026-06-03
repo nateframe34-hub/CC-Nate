@@ -3,3 +3,7 @@ node_modules/
 package.json
 package-lock.json
 skills-lock.json
+
+# Third-party Claude plugins (installed locally, not vendored into the brand repo)
+.claude/plugins/claude-council/
+.claude/council-cache/
