@@ -1,0 +1,166 @@
+{%- comment -%}
+  ============================================================
+  BOGO 50% OFFER BLOCK -- "The Pair"
+  Whipped Tallow & Honey Balm
+  ------------------------------------------------------------
+  PLACE IN: Product page, via a Custom Liquid section/block
+  (Shrine Pro: Theme Editor > Product template > Add block /
+   Add section > Custom Liquid > paste this whole file)
+
+  >>> CRITICAL: THIS BLOCK DOES NOT APPLY THE DISCOUNT. <<<
+  It displays the offer and adds 2 jars to the cart.
+  The 50%-off-second-jar must be a NATIVE automatic discount:
+
+    Shopify Admin > Discounts > Create discount > Buy X Get Y
+      - Title: The Pair (BOGO 50%)
+      - Customer buys: Minimum quantity 1 of [Whipped Tallow & Honey Balm]
+      - Customer gets: Quantity 1 of [Whipped Tallow & Honey Balm]
+                       at 50% off
+      - Set "Maximum number of uses per order" so a 2-jar cart
+        gets exactly one discounted jar
+      - Automatic discount (no code), set Active
+
+  Without that discount live, a 2-jar cart is charged $99.98.
+  ============================================================
+{%- endcomment -%}
+
+<div class="bogo-pair">
+  <div class="bogo-pair__badge">Buy One, Get One 50% Off</div>
+
+  <h3 class="bogo-pair__title">The Pair</h3>
+  <p class="bogo-pair__sub">Two jars. One for your face, one for your hands. Or one to keep and one to give.</p>
+
+  <div class="bogo-pair__price">
+    <span class="bogo-pair__was">$99.98</span>
+    <span class="bogo-pair__now">$74.99</span>
+    <span class="bogo-pair__save">You save $24.99</span>
+  </div>
+
+  <form method="post" action="/cart/add" class="bogo-pair__form">
+    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+    <input type="hidden" name="quantity" value="2">
+    <button type="submit" class="bogo-pair__btn">Add Both Jars</button>
+  </form>
+
+  <ul class="bogo-pair__trust">
+    <li>Free shipping</li>
+    <li>60-day guarantee</li>
+    <li>4 ingredients</li>
+  </ul>
+
+  <p class="bogo-pair__fine">Your second jar comes off at half price automatically at checkout. If your skin doesn't love it in 60 days, email us and we refund every penny.</p>
+</div>
+
+<style>
+  .bogo-pair{
+    max-width:540px;
+    margin:24px auto;
+    padding:28px 24px;
+    background:#FBF6EE;
+    border:1px solid #E7D9C3;
+    border-radius:14px;
+    text-align:center;
+    font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    color:#2E2519;
+    box-sizing:border-box;
+  }
+  .bogo-pair *{box-sizing:border-box;}
+  .bogo-pair__badge{
+    display:inline-block;
+    background:#B8772B;
+    color:#FFFFFF;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    padding:7px 16px;
+    border-radius:999px;
+    margin-bottom:16px;
+  }
+  .bogo-pair__title{
+    font-family:'Cormorant Garamond',Georgia,serif;
+    font-size:38px;
+    line-height:1.05;
+    font-weight:600;
+    margin:0 0 8px;
+    color:#2E2519;
+  }
+  .bogo-pair__sub{
+    font-size:15px;
+    line-height:1.5;
+    margin:0 auto 20px;
+    max-width:380px;
+    color:#5A4E3C;
+  }
+  .bogo-pair__price{
+    display:flex;
+    align-items:baseline;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+    margin-bottom:22px;
+  }
+  .bogo-pair__was{
+    font-family:'JetBrains Mono',ui-monospace,monospace;
+    font-size:18px;
+    color:#9B8B73;
+    text-decoration:line-through;
+  }
+  .bogo-pair__now{
+    font-family:'JetBrains Mono',ui-monospace,monospace;
+    font-size:34px;
+    font-weight:700;
+    color:#2E2519;
+  }
+  .bogo-pair__save{
+    display:block;
+    width:100%;
+    font-size:13px;
+    font-weight:600;
+    color:#B8772B;
+    letter-spacing:.03em;
+  }
+  .bogo-pair__form{margin:0 0 18px;}
+  .bogo-pair__btn{
+    display:block;
+    width:100%;
+    background:#2E2519;
+    color:#FBF6EE;
+    border:none;
+    border-radius:10px;
+    padding:16px 20px;
+    font-family:'Plus Jakarta Sans',sans-serif;
+    font-size:16px;
+    font-weight:700;
+    letter-spacing:.03em;
+    cursor:pointer;
+    transition:background .15s ease;
+  }
+  .bogo-pair__btn:hover{background:#B8772B;}
+  .bogo-pair__trust{
+    list-style:none;
+    padding:0;
+    margin:0 0 14px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:8px 18px;
+    font-size:12.5px;
+    font-weight:600;
+    color:#5A4E3C;
+    letter-spacing:.02em;
+    text-transform:uppercase;
+  }
+  .bogo-pair__fine{
+    font-size:12.5px;
+    line-height:1.5;
+    color:#7A6C56;
+    margin:0 auto;
+    max-width:400px;
+  }
+  @media (max-width:480px){
+    .bogo-pair{padding:24px 18px;}
+    .bogo-pair__title{font-size:32px;}
+    .bogo-pair__now{font-size:30px;}
+  }
+</style>
