@@ -1,74 +1,52 @@
-# B16 Batch Spec — The Core Desire v2 Test
+# B16 Batch Spec — Narrowed v2 + Urgency vs Proven Benchmark
 
-**Date drafted:** 2026-05-21
-**Status:** Spec only. Writing to begin after BM is ready and budget recovered.
-**Purpose:** Head-to-head test of Core Desire v2 ("I want my skin to cooperate again") + Urgency Anchor element against the v1 control (B5C1 as-is).
-**Authority:** `tallow-cream/avatars/Core_Desire_v2.md`, `tallow-cream/sub-avatars/Core_Desire_Remapping.md`
+**Date drafted:** 2026-05-21 (supersedes the original single-variable v1-vs-v2 spec)
+**Status:** Spec. Awaiting founder green-light on the two narrowed-avatar picks, then ad copy gets written.
+**Authority:** `tallow-cream/avatars/Core_Desire_v2.md`, `tallow-cream/sub-avatars/Core_Desire_Remapping.md`, `tallow-cream/sub-avatars/narrowed/`
+
+> **Why this spec was rewritten:** The original B16 tested broad-B5C1-v1 against broad-B5C1-v2. That tests a baseline we've already decided to retire (broad parent avatars). We narrowed the sub-avatars AFTER B5C1 was written, and our actual go-forward strategy is narrow + v2 core desire + urgency anchor. B16 now tests THAT strategy against a proven converter benchmark, instead of re-litigating a broad baseline neither version of the strategy will use.
 
 ---
 
 ## The Question B16 Answers
 
-Does re-anchoring the Core Desire from "I want to be seen again" to "I want my skin to cooperate again" — and adding a structural Urgency Anchor beat — lift conversion on the most-validated converter (B5C1)?
+Does our new approach — a NARROWED sub-avatar, written on Core Desire v2 ("I want my skin to cooperate again"), with the Urgency Anchor beat — beat our best PROVEN converter in a live head-to-head?
 
-If YES (v2 wins): the council's diagnosis is validated. B17 expands v2 across the roster (Mother's Photo close-swap, Sister Visit close-swap, Group Text close-swap). The Principles doc gets formally updated.
-
-If NO (v1 wins or ties): v2's strategic reframe was wrong (or at least premature). We learn that the council's recognition-vs-intent diagnosis was incorrect, the existing v1 framing was already capturing what works, and the avatar work goes back to depth/precision within v1.
-
-If UNCLEAR (mixed signal across the metrics): the test re-runs at higher spend before we change anything.
+This bundles three changes (narrowing + v2 core + urgency) into the test ads. We accept that a win won't isolate which change drove it. The trade is deliberate: at this stage we need a WINNER more than we need clean attribution. Variable isolation is B17's job, run only on whatever wins here.
 
 ---
 
 ## Test Design
 
-**Single-variable A/B, one sub-avatar, two ad variants.**
+**One CBO campaign. One ad set. Three ads. Same Relational psychographic pool (keeps the fresh-BM lookalike seed clean).**
 
-The sub-avatar: **Husband-Noticed** (most-validated converter, highest data signal). All other Sub-Avatars stay out of this test.
+| Ad | Role | Sub-Avatar | Core Desire | Urgency Anchor | Notes |
+|---|---|---|---|---|---|
+| **B16C1** | BENCHMARK | One-Jar Discovery | v1 (as-written) | none (v1) | Exact copy of B9C3. Closest-to-winner converter (13.79% CTR, 4.62x best-day ROAS). The number to beat. We will not keep running it long-term; it exists here as the valid same-auction reference. |
+| **B16C2** | NEW BET #1 | **Anniversary Husband-Noticed** (narrowed) | v2 | YES — deadline (milestone anniversary) | Built-in urgency: a real date approaching. Tests whether narrow + v2 + native-deadline-urgency beats the benchmark. |
+| **B16C3** | NEW BET #2 | **Reunion One-Jar** (narrowed) | v2 | YES — comparison event (reunion) | Built-in urgency: same-age peer who aged better. Same parent as the benchmark (One-Jar), so C1-vs-C3 is a near-clean read on what narrowing + v2 + urgency does to the One-Jar avatar specifically. |
 
-| Variant | Status | What it is |
-|---|---|---|
-| **B16C1 — Husband Noticed v2 (CONTROL)** | B5C1 as-written, no changes | The v1 Core Desire baseline. 1,500 words. Every element of the existing 10-element skeleton. Validated converter copy. |
-| **B16C2 — Husband Noticed v2 (TEST)** | Rewrite of B5C1 with two specific changes | The v2 Core Desire variant. Same hook, same characters, same mechanism, same day markers, same body length. Two structural changes: (a) Urgency Anchor beat added between failed-products and discovery; (b) close swapped from husband-noticing-as-validation to self-orientation. |
+### Why these two narrowed avatars
 
-### The two specific changes in the TEST variant
+Both were chosen because their urgency is NATIVE, not bolted on. The Urgency Anchor element risks feeling artificial if forced. Anniversary (a real deadline) and Reunion (a real comparison event) carry urgency inside the avatar's situation, so the Anchor beat writes itself.
 
-**Change 1: Urgency Anchor beat (added)**
+Both are in the Relational pool (per the reach agent's warning not to mix pools during BM warmup). Anti-System avatars (Sebum-Anger, Retinol Burnout) are deliberately excluded from B16 to keep the lookalike seed clean.
 
-50-120 words inserted between the failed-products list and the discovery scene. Daily-recurrence framing. The narrator names the *labor* of fighting her own skin every morning. Cost-bleed math is allowed but not required. Compliance: no "your skin is getting worse," no fake countdowns.
+**C1 vs C3 is the sharpest internal comparison:** both are the One-Jar avatar. C1 is broad/v1, C3 is narrowed/v2/urgency. If C3 beats C1, that's the cleanest single signal in the test that the new approach works on a held-constant avatar.
 
-Draft Urgency Anchor for B16C2 (writer can refine):
+---
 
-> Every morning was the same morning. Foundation at seven. Cracking at eleven. Reapply at one. Useless by four. Wash off at ten. Then again tomorrow. I added it up in February. I had spent ninety-four dollars in the last six weeks on creams that did the same thing. Which was nothing. I wasn't sad about it anymore. I was just tired. Tired of fighting my own face every morning.
+## What each test ad must contain (v2 11-element skeleton)
 
-**Change 2: Close-swap (existing close replaced)**
+Both B16C2 and B16C3 must hit all 11 elements of the v2 converter skeleton (see `Core_Desire_v2.md`), with particular attention to the two NEW-vs-B5C1 things:
 
-Current B5C1 close: "It's the Tuesday. It's the moment someone who's been looking at your face for twenty-six years looks up and notices something changed."
+1. **Core Desire v2 framing throughout** — the conflict is woman-vs-her-own-skin (the skin is the adversary she fights every morning), NOT woman-vs-absent-validation. The narrator wants her skin to cooperate, not to be noticed.
+2. **Urgency Anchor beat** (element #5) — placed between failed-products list and discovery scene. 50-120 words. Native to the avatar's situation:
+   - B16C2 (Anniversary): the deadline. "The anniversary is in nine weeks. Every morning between now and then my face is going to do the same thing it did today."
+   - B16C3 (Reunion): the comparison + the daily grind. "I've got four months until the reunion and a face that quits by noon."
+3. **Self-orientation close** (not external-validation) — the identity payoff is the narrator's own relief from the daily fight. External witnesses (husband, the reunion peer) can appear, but the PAYOFF is internal ("the morning stopped being a fight"), not "someone saw me."
 
-v2 close: a self-orientation moment where the *narrator* notices the change herself, in her own routine, without an external witness validating it. The husband still appears (the hook still mirrors), but the *identity payoff* is internal.
-
-Draft close-swap for B16C2 (writer can refine):
-
-> The Tuesday after that, I was making coffee and I realized I hadn't checked my reflection in the kettle. I'd been doing it every morning for a year. The way you check a wound. I just made the coffee. That was the thing I got back. Not the soft cheek. The not-checking. The not-fighting first thing in the morning. The morning didn't have to be a fight anymore.
-
-(Hook still mirrors: opens with husband-at-kitchen-table. Closes with narrator-at-kitchen-table-alone. The husband noticing earlier in Day 9 stays as a beat; the IDENTITY PAYOFF is the not-fighting.)
-
-### What does NOT change between B16C1 and B16C2
-
-- Same Sub-Avatar (Husband-Noticed)
-- Same hook scene (husband at kitchen table)
-- Same narrator (Anne, 53, accountant, Pittsburgh, married Dave)
-- Same discovery character (Lisa, college friend who texts the selfie)
-- Same mechanism explanation (water vs oil, after 40)
-- Same day-marker structure (Day 1, 5, 10, 14, 17, 19)
-- Same habit-cessation beat (the morning phone-camera check stops)
-- Same image prompt (same Tuesday-kitchen-table aesthetic)
-- Same Meta Headline ("He never notices anything.")
-- Same Meta Description
-- Same body length (~1,500 words)
-- Same 60-day guarantee placement
-- Same price/offer treatment
-
-This isolates two variables (Urgency Anchor added, close swapped) on top of an identical foundation. Cleanest possible A/B given budget.
+Everything else (peer-adjacent authority, mechanism by discovery character, day markers, habit-cessation, close-mirrors-hook, compliance posture, 1,400-1,600 words) per the locked skeleton.
 
 ---
 
@@ -76,74 +54,65 @@ This isolates two variables (Urgency Anchor added, close swapped) on top of an i
 
 | Setting | Value |
 |---|---|
-| Campaign | One CBO campaign, "B16 Core Desire Test" |
-| Budget | $50/day total ($25/ad) |
-| Ad Set | One ad set, both ads inside it |
-| Audience | Broad. Identical for both ads. Post-Andromeda; creative does the targeting. |
+| Campaign | One CBO campaign, "B16 Narrowed v2 Test" |
+| Budget | $50/day total (CBO distributes; ~$16/ad if even, but CBO will concentrate) |
+| Ad Set | One ad set, all three ads inside |
+| Audience | Broad, identical for all three. Creative does the targeting. |
 | Optimization | Purchase |
 | Placement | Advantage+ Placements |
 | Page | Julie Brennan partner page |
-| Pixel | New pixel (post-pixel-verification) |
+| Pixel | New pixel (post-verification) |
 | Payment | New virtual Visa Debit |
 
-CBO will distribute spend toward whichever ad performs. That distribution itself becomes the first signal.
+CBO concentrating budget is itself the first signal — watch which of the three it feeds.
 
 ---
 
 ## Decision Criteria
 
-**Minimum spend before reading signal:** $200 total ($100 per ad equivalent). Below that, results are noise.
+**Minimum spend before reading signal:** $250 total. Below that = noise.
+**Run length:** 14 days at $50/day = $700. Read at day 14 unless CBO has clearly starved an ad by day 4-5.
+**Primary metric:** LPV → Purchase rate (which ad converts the highest % of landing-page views to purchases).
+**Secondary:** CPM (auction-classification signal), CTR (hook strength), ATC/LPV (cart commitment), comments-to-LPV (qualitative "that's me" vs "interesting").
 
-**Run length:** 14 days at $50/day = $700. Decision read at day 14, unless one ad is clearly starving by day 4 (in which case the CBO has already made the call).
-
-**Primary metric:** Purchase-conversion rate per LPV (LPV → Purchase percentage). Whichever ad converts a higher % of LPVs to purchases wins on this metric.
-
-**Secondary metrics:**
-- CPM (which ad delivers cheaper — auction-classification signal)
-- CTR (which hook is reading better — surface engagement)
-- Adds-to-Cart per LPV (which ad gets the cart commitment)
-- Comments-to-LPV ratio (qualitative signal: which ad triggers "that's me" recognition vs "interesting")
-
-**Decision rules:**
-
-| Outcome | What it means | Next action |
+| Outcome | Meaning | Next action |
 |---|---|---|
-| B16C2 wins on purchases AND ATC | v2 validated. Council's diagnosis correct. | B17 expands v2 across roster |
-| B16C1 wins on purchases AND ATC | v1 was already correct. Council's diagnosis wrong. | Hold v1 framing. Re-examine v2 thesis. |
-| B16C2 wins on CTR/CPM but B16C1 wins on purchases | v2's hook is better but its conversion mechanism is weaker — likely the close-swap helped engagement but lost the commitment that "being seen" was driving | Test Urgency Anchor alone (without close-swap) in B17 |
-| B16C1 wins on CTR/CPM but B16C2 wins on purchases | v1's hook is better but v2's body is converting — likely the close-swap is doing the work | Test close-swap alone (without Urgency Anchor) in B17 |
-| Both ads starve / no conversions | Test failed for non-test reasons (CPM, audience, BM issues). Re-examine upstream before re-running. | Diagnose, then re-run B16 with whatever's fixed |
+| A test ad (C2 or C3) beats benchmark C1 on purchases | New approach (narrow+v2+urgency) validated. We have a winner. | B17: isolate which change drove it (run the winner with one variable reverted), AND expand the winning avatar's frame across the roster |
+| Benchmark C1 beats both test ads | New approach did not beat proven broad converter. The narrowing/v2/urgency bundle isn't better — or the execution missed. | Re-examine. Do NOT cascade v2 across the roster. Possibly re-run with different narrowed avatars before abandoning v2. |
+| C3 beats C1 but C2 doesn't | The new approach works on the One-Jar avatar (held constant) but the Anniversary/Husband-Noticed execution missed | Winner is the One-Jar v2 direction. Drop Anniversary execution, iterate Reunion. |
+| All three convert similarly | Either everything works (unlikely) or the avatar/frame isn't the lever at this spend | Read CPM/CTR for tiebreak; likely need higher spend or the bottleneck is upstream |
+| Nothing converts | Upstream problem (CPM, BM, pixel, timing), not creative | Diagnose upstream before re-running |
 
 ---
 
-## What B16 does NOT test
+## What B16 deliberately does NOT do
 
-- Whether v2 lifts other sub-avatars (that's B17+)
-- Whether the v2 close-swap alone would have won (that's an isolated B17 test if needed)
-- Whether the Urgency Anchor alone would have won (same — isolated B17 test if needed)
-- Whether Photo Avoider can be re-framed to v2 (separate question, separate batch)
-- Whether the Anniversary / Reunion / other event-anchored variants outperform the recurrence-anchored Urgency Anchor (later)
-
-The point of B16 is to answer ONE question with the cleanest possible signal. If it answers yes, we know what to expand. If it answers no, we save the cascade work and re-think.
+- It does not cleanly isolate v1-vs-v2 (we accepted that trade; B17 isolates on the winner)
+- It does not test the Anti-System pool (kept out to protect the lookalike seed)
+- It does not test Photo Avoider (held for structural re-frame)
+- It does not test more than 2 new avatars (3 ads is the max for a clean $50/day read)
 
 ---
 
 ## Pre-launch checklist
 
-- [ ] Pixel value attribution verified (carries over from prior pre-launch list)
+- [ ] Pixel value attribution verified
 - [ ] BOGO automatic discount created in Shopify admin
 - [ ] BOGO Custom Liquid block pasted on PDP
-- [ ] PDP banned-phrase fix applied (carries over from Origins Strategy Audit)
-- [ ] B16C1 (control) committed to repo as exact copy of B5C1
-- [ ] B16C2 (test) drafted, audited against 11-element v2 skeleton, density-checked
-- [ ] Image generated for B16C2 (or reused from B5C1 if visually identical)
-- [ ] Tracker updated to include B16 row(s)
-- [ ] Campaign built in Meta but paused, ready to flip on
+- [ ] PDP banned-phrase fix applied (menopause / 60% — per Origins Strategy Audit)
+- [ ] B16C1 committed as exact copy of B9C3
+- [ ] B16C2 (Anniversary Husband-Noticed, v2 + urgency) written + audited against 11-element skeleton
+- [ ] B16C3 (Reunion One-Jar, v2 + urgency) written + audited against 11-element skeleton
+- [ ] Images generated for C2 and C3 (C1 reuses B9C3's image)
+- [ ] Tracker updated with B16 rows + the 5 new test-variable columns
+- [ ] Campaign built in Meta, paused, ready to flip on
 
 ---
 
-## What B16 means for the avatar work
+## Open decision (awaiting founder)
 
-Win or lose, B16 is the test that turns the council's diagnosis from *opinion* into *evidence*. Until B16 runs, v2 is a strategic bet based on convergent adversarial review. After B16, it's either validated or refuted. That's the right way to use the council — not as a substitute for testing, but as a sharper-than-usual hypothesis to test.
+The two narrowed-avatar picks for the test slots. Current proposal: **Anniversary Husband-Noticed (C2)** + **Reunion One-Jar (C3)**, chosen for native urgency + Relational-pool consistency + the clean C1-vs-C3 One-Jar comparison. Alternatives available in `tallow-cream/sub-avatars/narrowed/`: Empty-Nest or Grieving-Daughter (Husband-Noticed); Divorced-Friend or Work-Mentor (One-Jar); Executor / Caregiver / New-Grandmother (Mother's Photo). Founder confirms or swaps before copy is written.
 
-*B16 spec locked 2026-05-21. Writing the two ad files (B16C1, B16C2) begins after the launch infrastructure recovers. B16C1 is essentially a re-commit of B5C1; B16C2 is the new copy work.*
+---
+
+*B16 spec v2 locked 2026-05-21. Replaces the original single-variable v1-vs-v2 design. Ad copy written after avatar picks are confirmed and launch infrastructure recovers.*
