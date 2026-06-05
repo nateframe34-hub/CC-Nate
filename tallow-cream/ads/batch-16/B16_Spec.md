@@ -23,7 +23,7 @@ This bundles three changes (narrowing + v2 core + urgency) into the test ads. We
 | Ad | Role | Sub-Avatar | Core Desire | Urgency (narrative stakes) | Notes |
 |---|---|---|---|---|---|
 | **B16C1** | BENCHMARK | One-Jar Discovery | v1 (as-written) | none (v1) | Exact copy of B9C3. Closest-to-winner converter (13.79% CTR, 4.62x best-day ROAS). The number to beat. We will not keep running it long-term; it exists here as the valid same-auction reference. |
-| **B16C2** | NEW BET #1 | **[PENDING: Empty-Nest or Grieving-Daughter] Husband-Noticed** (narrowed) | v2 | acute situational pressure woven into the story | Husband-Noticed pool. Narrator stakes carry the urgency (facing herself in a changed household / coming back to herself). Tests narrow + v2 + story-urgency against benchmark. |
+| **B16C2** | NEW BET #1 | **Empty-Nest Husband-Noticed** (narrowed) | v2 | acute situational pressure woven into the story | Husband-Noticed pool. Narrator stakes carry the urgency: the kids gone, the quiet house removes every buffer between her and her own face. WRITTEN: `copy/B16C2_The_Quiet_House.md`. |
 | **B16C3** | NEW BET #2 | **Divorced-Friend One-Jar** (narrowed) | v2 | acute situational pressure woven into the story | Same parent as benchmark (One-Jar) → C1-vs-C3 is the clean broad-vs-narrow read. Narrator watches her divorced friend rebuild and glow while she feels herself disappearing — that contrast IS the urgency. Also white-space per reach agent (gift/friendship/life-transition content lane dodges the saturated beauty auction = likely cheaper CPM). |
 
 ### Why these narrowed avatars + how urgency works in them
@@ -114,15 +114,15 @@ CBO concentrating budget is itself the first signal — watch which of the three
 
 ---
 
-## Open decision (awaiting founder)
+## Avatar picks — LOCKED
 
-C3 is **locked: Divorced-Friend One-Jar** (founder open to it; white-space CPM advantage; clean C1-vs-C3 comparison).
+- **C1:** B9C3 as-is (benchmark) — written: `copy/B16C1_Benchmark_B9C3_One_Jar.md`
+- **C2:** Empty-Nest Husband-Noticed (v2 + narrative-stakes urgency) — written: `copy/B16C2_The_Quiet_House.md`
+- **C3:** Divorced-Friend One-Jar (v2 + narrative-stakes urgency) — written: `copy/B16C3_The_One_Who_Should_Have_Fallen_Apart.md`
 
-C2 is the remaining choice — both are Husband-Noticed narrowed variants with acute narrator stakes that serve narrative-stakes urgency:
-- **Empty-Nest Husband-Noticed** — house just emptied, facing herself and her husband alone for the first time in 20+ years. Acute, clean, no compliance risk. RECOMMENDED.
-- **Grieving-Daughter Husband-Noticed** — mother died, she let herself go during caregiving, now coming back to herself. The MOST dire/acute stakes in the roster, but the council flagged grief framing as trauma-tourism risk and it's compliance-sensitive (grief must stay functional, never tip into medical/depression language). Higher emotional ceiling, higher risk.
+Grieving-Daughter was considered for C2 and rejected by founder as too extreme (council also flagged trauma-tourism risk). Empty-Nest chosen: acute stakes (the quiet house removes every buffer), clean, no compliance risk.
 
-Lean: Empty-Nest for the safer, cleaner test. Grieving-Daughter only if the founder wants maximum emotional stakes and accepts the tightrope. Once C2 is picked, both test ads get written.
+All three ad copies are written. Remaining before launch: image generation for C2 and C3 (C1 reuses B9C3's image), the pre-launch checklist below, and budget/BM recovery.
 
 ---
 
