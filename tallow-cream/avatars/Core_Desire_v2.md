@@ -66,21 +66,25 @@ The previous 10-element skeleton (PRINCIPLE 4 in `Tallow_Ad_Creative_Principles.
 
 ### What the Urgency Anchor is and isn't
 
-**It IS** a beat that makes the daily/ongoing cost of the un-cooperating skin specific and visceral. Placed between the failed-products list and the discovery scene (so the reader feels the cost of inaction BEFORE the solution arrives). 50-120 words.
+**It IS** narrative-stakes urgency — a beat that raises the narrator's stakes so the READER feels the same pressure to act. It answers "why did she NEED this at that moment?" It is the breaking point, the moment the daily fight became unbearable, the specific situation that made her finally do something. Woven INTO the story, never bolted on as a sales mechanic. The reader should think "that's exactly where I am right now" and feel the same need-to-act by proxy. Placed between the failed-products list and the discovery scene (so the reader feels the weight of the situation BEFORE the solution arrives). 50-150 words.
 
-**It ISN'T** a fake countdown ("only 24 hours left!"), a scarcity claim ("almost sold out!"), or a doom prediction ("your skin is getting worse!"). Those read as scammy AND violate compliance (the last one killed B4).
+**It ISN'T** a fake countdown ("only 24 hours left!"), a scarcity claim ("almost sold out!"), a doom prediction ("your skin is getting worse!"), or anything that reads like ad copy. The native format is sacred — the urgency has to live inside the story as the narrator's real stakes, not interrupt it as a pitch.
 
-**Acceptable urgency mechanisms (any one or more):**
-- **Daily recurrence** — "Every morning the same morning. Foundation by 7, cracking by noon, reapplied by 1, ineffective by 4. Then tomorrow."
-- **Cost-bleed math** — "I spent $94 on skincare in March. Skin still tight by noon."
-- **Event anchor** (for specific sub-avatars only — Anniversary, Reunion, Wedding Dreader)
-- **Stop-the-grind narration** — "I was so tired of fighting my own face every morning."
+**Acceptable urgency mechanisms (the narrator's stakes, made acute):**
+- **The breaking-point moment** — the specific moment she decided she couldn't keep living like this. "I stood at the sink that morning and just couldn't do it again."
+- **Acute situational pressure** — a life moment that made the skin problem suddenly matter more (empty nest and facing her husband alone, watching a friend rebuild while she felt herself disappearing, an event she couldn't hide from). The situation IS the urgency.
+- **Stakes escalation** — what the daily fight was actually costing her. Not just money — moments, confidence, the things she'd started avoiding. The accumulation reaching a peak.
+- **Daily-recurrence as grind** — the same losing morning, over and over, until she snapped. The repetition itself is the pressure.
+- **Cost-bleed** (secondary) — "I added it up. $94 in six weeks. Still tight by noon." A supporting beat, not the main engine.
+- **Event/deadline** (situational, secondary) — works for specific sub-avatars (Anniversary, Reunion) but is weaker than emotional stakes because it requires the reader to have the same event coming up. Emotional stakes are universal; deadlines are not.
 
 **Forbidden urgency mechanisms:**
 - Fake countdowns or scarcity
 - "Your skin is getting worse" framing (compliance + killed B4)
-- Shame framing as the urgency engine
-- Medical-sounding doom claims
+- Shame framing as the urgency engine (low points stay functional, not "I couldn't leave the house")
+- Anything that breaks the native story format to sound like a pitch
+
+**The test for a good Urgency Anchor:** read the beat in isolation. If it sounds like something a real woman would say to her sister about how bad it had gotten, it works. If it sounds like a brand trying to make you buy now, rewrite it.
 
 ### Where the Urgency Anchor goes in the body
 

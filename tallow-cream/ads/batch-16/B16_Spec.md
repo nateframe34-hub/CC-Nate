@@ -20,19 +20,24 @@ This bundles three changes (narrowing + v2 core + urgency) into the test ads. We
 
 **One CBO campaign. One ad set. Three ads. Same Relational psychographic pool (keeps the fresh-BM lookalike seed clean).**
 
-| Ad | Role | Sub-Avatar | Core Desire | Urgency Anchor | Notes |
+| Ad | Role | Sub-Avatar | Core Desire | Urgency (narrative stakes) | Notes |
 |---|---|---|---|---|---|
 | **B16C1** | BENCHMARK | One-Jar Discovery | v1 (as-written) | none (v1) | Exact copy of B9C3. Closest-to-winner converter (13.79% CTR, 4.62x best-day ROAS). The number to beat. We will not keep running it long-term; it exists here as the valid same-auction reference. |
-| **B16C2** | NEW BET #1 | **Anniversary Husband-Noticed** (narrowed) | v2 | YES — deadline (milestone anniversary) | Built-in urgency: a real date approaching. Tests whether narrow + v2 + native-deadline-urgency beats the benchmark. |
-| **B16C3** | NEW BET #2 | **Reunion One-Jar** (narrowed) | v2 | YES — comparison event (reunion) | Built-in urgency: same-age peer who aged better. Same parent as the benchmark (One-Jar), so C1-vs-C3 is a near-clean read on what narrowing + v2 + urgency does to the One-Jar avatar specifically. |
+| **B16C2** | NEW BET #1 | **[PENDING: Empty-Nest or Grieving-Daughter] Husband-Noticed** (narrowed) | v2 | acute situational pressure woven into the story | Husband-Noticed pool. Narrator stakes carry the urgency (facing herself in a changed household / coming back to herself). Tests narrow + v2 + story-urgency against benchmark. |
+| **B16C3** | NEW BET #2 | **Divorced-Friend One-Jar** (narrowed) | v2 | acute situational pressure woven into the story | Same parent as benchmark (One-Jar) → C1-vs-C3 is the clean broad-vs-narrow read. Narrator watches her divorced friend rebuild and glow while she feels herself disappearing — that contrast IS the urgency. Also white-space per reach agent (gift/friendship/life-transition content lane dodges the saturated beauty auction = likely cheaper CPM). |
 
-### Why these two narrowed avatars
+### Why these narrowed avatars + how urgency works in them
 
-Both were chosen because their urgency is NATIVE, not bolted on. The Urgency Anchor element risks feeling artificial if forced. Anniversary (a real deadline) and Reunion (a real comparison event) carry urgency inside the avatar's situation, so the Anchor beat writes itself.
+Per founder direction, urgency is **narrative-stakes urgency** woven into the native story — NOT deadlines or sales mechanics. The narrator's situation is acute; the reader recognizes their own situation and feels the same need to act. (See the refined Urgency Anchor definition in `Core_Desire_v2.md`.)
 
-Both are in the Relational pool (per the reach agent's warning not to mix pools during BM warmup). Anti-System avatars (Sebum-Anger, Retinol Burnout) are deliberately excluded from B16 to keep the lookalike seed clean.
+- **C3 Divorced-Friend One-Jar:** the urgency is the narrator watching a friend who "should have fallen apart" instead rebuild and glow, while the narrator quietly feels herself disappearing. That contrast is an acute, universal, emotional pressure — no deadline required. It also reads as a friendship/life-transition story, which keeps the ad OUT of the saturated beauty-ingredient auction (the reach agent flagged this as genuine white space and the cheapest CPM escape route).
+- **C2 [Empty-Nest or Grieving-Daughter] Husband-Noticed:** the urgency is a life moment that made the skin problem suddenly matter — the empty house forcing her to face herself and her husband alone, OR coming back to herself after a period of letting go. Acute narrator stakes, not a deadline.
 
-**C1 vs C3 is the sharpest internal comparison:** both are the One-Jar avatar. C1 is broad/v1, C3 is narrowed/v2/urgency. If C3 beats C1, that's the cleanest single signal in the test that the new approach works on a held-constant avatar.
+Anniversary and Reunion (the earlier proposed picks) were deadline/event-based — weaker under the founder's narrative-stakes definition because they require the reader to have the same event coming up. Swapped out in favor of avatars whose urgency is emotional and universal.
+
+All three are Relational pool (per the reach agent's warning against mixing psychographic pools during BM warmup). Anti-System avatars (Sebum-Anger, Retinol Burnout) are deliberately excluded to keep the lookalike seed clean.
+
+**C1 vs C3 is the sharpest internal comparison:** both are the One-Jar avatar. C1 is broad/v1, C3 is narrowed/v2/story-urgency. If C3 beats C1, that's the cleanest single signal that the new approach works on a held-constant avatar.
 
 ---
 
@@ -111,7 +116,13 @@ CBO concentrating budget is itself the first signal — watch which of the three
 
 ## Open decision (awaiting founder)
 
-The two narrowed-avatar picks for the test slots. Current proposal: **Anniversary Husband-Noticed (C2)** + **Reunion One-Jar (C3)**, chosen for native urgency + Relational-pool consistency + the clean C1-vs-C3 One-Jar comparison. Alternatives available in `tallow-cream/sub-avatars/narrowed/`: Empty-Nest or Grieving-Daughter (Husband-Noticed); Divorced-Friend or Work-Mentor (One-Jar); Executor / Caregiver / New-Grandmother (Mother's Photo). Founder confirms or swaps before copy is written.
+C3 is **locked: Divorced-Friend One-Jar** (founder open to it; white-space CPM advantage; clean C1-vs-C3 comparison).
+
+C2 is the remaining choice — both are Husband-Noticed narrowed variants with acute narrator stakes that serve narrative-stakes urgency:
+- **Empty-Nest Husband-Noticed** — house just emptied, facing herself and her husband alone for the first time in 20+ years. Acute, clean, no compliance risk. RECOMMENDED.
+- **Grieving-Daughter Husband-Noticed** — mother died, she let herself go during caregiving, now coming back to herself. The MOST dire/acute stakes in the roster, but the council flagged grief framing as trauma-tourism risk and it's compliance-sensitive (grief must stay functional, never tip into medical/depression language). Higher emotional ceiling, higher risk.
+
+Lean: Empty-Nest for the safer, cleaner test. Grieving-Daughter only if the founder wants maximum emotional stakes and accepts the tightrope. Once C2 is picked, both test ads get written.
 
 ---
 
