@@ -59,9 +59,15 @@ The objector killed "subscription-first as default" on cashflow grounds and was 
 
 **Conditional survival:** Add a "subscribe & save 15%" option below the one-time-purchase as the SECONDARY option. Costs ~2 hours of Shopify config. If 10%+ of buyers choose subscription, the LTV play is real and can be made default later. If <5% do, kill it.
 
-### 3. AMAZON — survives ONLY as a 90-day delayed move, not a now move
+### 3. AMAZON — KILLED (not parked) on founder review
 
-The objector is right that the capital doesn't exist today. But Amazon's strategic logic (search intent vs scroll, no ban risk on the BM platform that's burned the founder 3x, native Subscribe & Save infrastructure, ancestral/wellness keywords with real search volume) is the soundest pure-strategy of the four proposals — it just requires money. If B16 (with the foundation fixes + the ancestral test) produces a sustained 1.5x+ ROAS over 30 days, the resulting cashflow funds the Amazon entry as a Q3 move. **Park, don't kill.**
+**Initial council read:** Amazon's strategic logic was the soundest of the four (search intent vs scroll mode, no Meta-ban risk, native Subscribe & Save, real ancestral/wellness keyword volume). Initially recommended as a "park for 90 days, revisit when cashflow exists" move.
+
+**Founder review (2026-05-21) killed it outright on two grounds the council under-weighted:**
+- **Co-packer MOQ.** The channel agent's $4-7K estimate assumed the founder could *ship* 200 units to FBA. The actual binding constraint is MAKING or BUYING 200 units. Co-packer MOQ on a custom 4-ingredient 120g jar typically runs 500+ units per production run. That's $4-8K in product cost ALONE before any Amazon-side setup, making true all-in closer to $8-15K. The capital constraint is much worse than the agent framed it.
+- **Stay-on-Shopify is a strategic position, not just a preference.** Direct customer data, no marketplace fees, no algorithmic dependency on Amazon's choice architecture, no risk of Amazon cloning the product as a Basics SKU, no review-bombing vulnerability. The brand's competitive moat at this stage IS the direct customer relationship — Amazon hands that to the platform.
+
+**Verdict updated: Amazon is dead, not parked.** Even if cashflow appears, the strategic case for staying on Shopify dominates. Revisit only if multi-year DTC growth genuinely stalls — never as the next move.
 
 ### 4. TATTOO AFTERCARE — dies
 
