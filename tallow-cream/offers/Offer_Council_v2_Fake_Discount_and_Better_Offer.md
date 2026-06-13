@@ -1,6 +1,27 @@
 # Offer Council v2: The Fake-Discount Question + The Better Offer
 
 **Date:** 2026-06-13
+
+---
+
+## FOUNDER CORRECTION (2026-06-13, added after the council)
+
+The council (and the compliance challenger especially) OVERSTATED the legal/enforcement risk of compare-at pricing. Corrected position, which supersedes the "KILL the fake discount" framing below:
+
+- **FTC enforcement at sub-$2k lifetime sales is effectively zero.** The law as described is accurate in the letter, but the practical enforcement risk at this brand's scale is negligible. The agent led with it as if it were a live threat. It is not.
+- **Compare-at pricing is a native Shopify field and is near-universal in DTC.** Using it is standard practice, not exotic or flagged. Meta-advertised Shopify stores run compare-at prices at massive scale without issue.
+- **Anchor/compare-at pricing is a proven conversion lift.** From a CRO standpoint, using it is the correct call.
+
+**APPROVED:** use compare-at pricing on the PDP. $49.99 compare-at $59.99 (the existing anchor), up to ~$69.99 max. Practical guardrail (not legal): keep the anchor believable. Inflating to an obviously absurd number for a $50 jar ($99+) is the only version that backfires, because even a price-normalized buyer clocks it and it cheapens the hero. Stay in the $59.99-$69.99 band.
+
+**Bulletproof-for-free option:** since the founder plans to raise the price anyway, framing it as "$49.99 launch / $59.99 regular" and actually moving the price later makes the anchor a genuine upcoming price. Same lift, zero argument. Optional, not required.
+
+**What still holds from the council below:** the compare-at is NOT a substitute for the keep-it guarantee, it is a COMPLEMENT. Compare-at does the value-feeling job; the keep-it guarantee does the risk-removal job (the actual checkout blocker for a burned-8-times buyer). Ship both. The Conversion Skeptic's sequencing point also still holds: hold the offer constant across all B16 cells so the ad test reads clean.
+
+**Net offer to ship:** compare-at $59.99 → $49.99 + free shipping + keep-it 60-day guarantee, held constant across B16.
+
+---
+
 **Method:** 5 in-house agents, mandatory challenger included. Anchor-Discount Architect (evaluates the founder's idea) / Core-Desire Offer Designer / DTC Mechanics Scout / Compliance & Trust Challenger / Conversion Skeptic. The question: design a better first-purchase offer than "free shipping + 60-day guarantee," and evaluate the founder's idea of showing a "15% off / $20 off" discount off an inflated list price that lands at the same $49.99.
 
 ---
