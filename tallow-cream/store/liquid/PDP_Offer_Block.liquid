@@ -54,6 +54,9 @@
   <!-- SUBTITLE : ties the offer to the converter story ("the one jar") -->
   <p class="bsln-offer__sub">The one jar that ends the search.</p>
 
+  <!-- RISK-REVERSAL PROMISE : lead with risk, not savings (she is a risk-shopper, not a deal-shopper) -->
+  <p class="bsln-offer__promise">Try the whole jar risk-free for 60 days.</p>
+
   <!-- PRICE ROW : EDIT_ANCHOR (delete this whole row if your theme already prints a compare-at next to the ATC) -->
   <div class="bsln-offer__price">
     <span class="bsln-offer__was">$69.99</span>
@@ -64,8 +67,8 @@
   <!-- VALUE STACK -->
   <ul class="bsln-offer__stack">
     <li><span class="bsln-offer__tick">✓</span> One full jar, 2 to 3 months of mornings</li>
+    <li><span class="bsln-offer__tick">✓</span> 4 simple ingredients, nothing you can't pronounce</li>
     <li><span class="bsln-offer__tick">✓</span> Free shipping, every order</li>
-    <li><span class="bsln-offer__tick">✓</span> 60-day keep-it guarantee</li>
   </ul>
 
   <!-- GUARANTEE : the load-bearing lever. Echoes your "60 days. No drama." section. -->
@@ -111,16 +114,21 @@
   .bsln-offer__sub{
     font-family:'Cormorant Garamond',Georgia,serif;
     font-size:26px;line-height:1.12;color:var(--ink);
-    margin:0 0 16px;font-weight:600;
+    margin:0 0 10px;font-weight:600;
+  }
+
+  /* RISK-REVERSAL PROMISE */
+  .bsln-offer__promise{
+    font-size:14px;font-weight:600;color:var(--teal);
+    margin:0 0 18px;
   }
 
   /* PRICE */
-  .bsln-offer__price{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:22px;}
+  .bsln-offer__price{display:flex;align-items:baseline;gap:11px;flex-wrap:wrap;margin-bottom:22px;}
   .bsln-offer__was{font-size:19px;color:var(--soft);text-decoration:line-through;text-decoration-thickness:1.5px;}
   .bsln-offer__now{font-size:34px;font-weight:700;color:var(--amber);letter-spacing:-.01em;}
   .bsln-offer__save{
-    font-size:12px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
-    color:#fff;background:var(--amber);padding:5px 10px;border-radius:999px;
+    font-size:13px;font-weight:600;color:var(--soft);
     align-self:center;
   }
 
@@ -136,17 +144,17 @@
   }
   .bsln-offer__tick{color:var(--teal);font-weight:800;font-size:15px;line-height:1.5;flex:none;}
 
-  /* GUARANTEE */
+  /* GUARANTEE : cream panel with teal border so the solid-teal ATC button stays the only primary action */
   .bsln-offer__guarantee{
-    background:var(--teal);color:#FBF6EE;
+    background:#FFFDF8;border:1.5px solid var(--teal);color:var(--ink);
     border-radius:14px;padding:20px 22px;
   }
   .bsln-offer__guarantee-head{display:flex;align-items:center;gap:9px;margin-bottom:9px;}
-  .bsln-offer__shield{color:#E8C9A0;display:inline-flex;}
+  .bsln-offer__shield{color:var(--teal);display:inline-flex;}
   .bsln-offer__guarantee-head strong{
-    font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;font-weight:600;letter-spacing:.01em;
+    font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;font-weight:600;letter-spacing:.01em;color:var(--teal);
   }
-  .bsln-offer__guarantee p{margin:0;font-size:14px;line-height:1.6;color:rgba(251,246,238,.86);}
+  .bsln-offer__guarantee p{margin:0;font-size:14px;line-height:1.6;color:var(--muted);}
 
   /* RESPONSIVE */
   @media (max-width:520px){
