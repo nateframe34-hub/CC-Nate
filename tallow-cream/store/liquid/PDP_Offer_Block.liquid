@@ -1,0 +1,219 @@
+{%- comment -%}
+  ============================================================
+  BASELINE : PDP OFFER BLOCK (Custom Liquid)
+  Whipped Tallow & Honey Balm
+  Replaces the 3-tier bundle selector (Try It / Stock Up / Best Value)
+  ------------------------------------------------------------
+  WHY THIS REPLACES THE BUNDLE (strategy, not just styling):
+  The 3-tier "Stock Up / Best Value" ladder pushes multi-jar
+  stockpiling. Our converting buyer (the woman who threw out 8
+  products and kept ONE) is anti-stockpiling by identity. Asking
+  her to buy 2-3 jars of an unvalidated product at first purchase
+  fights the exact "one jar on an empty counter" relief that makes
+  her buy. So the buy box is now SINGLE-JAR FOCUSED. The second-jar
+  offer moves to post-purchase (thank-you page + day-30 email),
+  where a loyalty mechanic belongs.
+
+  THE OFFER (per the offer councils):
+    - $49.99, compare-at $59.99 (honest anchor = the real upcoming price)
+    - Free shipping
+    - 60-day KEEP-IT guarantee (the load-bearing lever: kills the
+      "will this be dud #9" fear that actually blocks checkout)
+
+  ------------------------------------------------------------
+  TWO THINGS YOU MUST EDIT BEFORE IT WORKS (search for "EDIT_"):
+
+  1. EDIT_VARIANT_ID : the "Add to Cart" button needs your single-jar
+     variant ID. Find it: Shopify Admin > Products > Whipped Tallow &
+     Honey Balm > click the 1-jar variant > the number at the end of
+     the URL (.../variants/1234567890) is the ID. Paste it below.
+
+  2. EDIT_REVIEWS : set the real star rating + review count, or delete
+     that row. Do not ship a fabricated count.
+
+  Optional edits are marked "EDIT_" too (price, savings, copy).
+
+  ------------------------------------------------------------
+  WHERE TO PASTE:
+  Online Store > Themes > Customize > Products > Default product
+  template > remove/hide the bundle/variant-picker block > Add block
+  or section > Custom Liquid > paste this whole file > Save.
+  (If your bundle is a separate app block, disable that app block on
+  this template first so the two offers don't both show.)
+
+  PALETTE: matches your live teal PDP theme. To retune, edit the CSS
+  variables under ".bsln-offer{" near the bottom.
+  ============================================================
+{%- endcomment -%}
+
+<div class="bsln-offer">
+
+  <!-- RATING ROW : EDIT_REVIEWS (set real numbers or delete this block) -->
+  <div class="bsln-offer__rating">
+    <span class="bsln-offer__stars">★★★★★</span>
+    <span class="bsln-offer__rating-text">4.8 &nbsp;·&nbsp; 47 reviews</span>
+  </div>
+
+  <!-- SUBTITLE : ties the offer to the converter story ("the one jar") -->
+  <p class="bsln-offer__sub">The one jar that ends the search.</p>
+
+  <!-- PRICE ROW -->
+  <div class="bsln-offer__price">
+    <span class="bsln-offer__was">$59.99</span>          {%- comment -%} EDIT_ compare-at {%- endcomment -%}
+    <span class="bsln-offer__now">$49.99</span>          {%- comment -%} EDIT_ live price {%- endcomment -%}
+    <span class="bsln-offer__save">Save $10</span>       {%- comment -%} EDIT_ savings {%- endcomment -%}
+  </div>
+  <p class="bsln-offer__launch">Launch price. Goes to $59.99 soon.</p>
+
+  <!-- VALUE STACK -->
+  <ul class="bsln-offer__stack">
+    <li><span class="bsln-offer__tick">✓</span> One full jar, 2 to 3 months of mornings</li>
+    <li><span class="bsln-offer__tick">✓</span> Free shipping, every order</li>
+    <li><span class="bsln-offer__tick">✓</span> 60-day keep-it guarantee</li>
+  </ul>
+
+  <!-- ADD TO CART : EDIT_VARIANT_ID -->
+  <form action="/cart/add" method="post" enctype="multipart/form-data" class="bsln-offer__form">
+    <input type="hidden" name="id" value="EDIT_VARIANT_ID">
+    <input type="hidden" name="quantity" value="1">
+    <button type="submit" class="bsln-offer__cta">
+      Add to Cart <span class="bsln-offer__cta-price">$49.99</span>
+    </button>
+  </form>
+  <p class="bsln-offer__ship">Ships free. Most orders arrive in 3 to 6 days.</p>
+
+  <!-- GUARANTEE : the load-bearing lever. Echoes your "60 days. No drama." section. -->
+  <div class="bsln-offer__guarantee">
+    <div class="bsln-offer__guarantee-head">
+      <span class="bsln-offer__shield" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 8.5 8 11 4.5-2.5 8-6 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+      </span>
+      <strong>60 days. No drama.</strong>
+    </div>
+    <p>Use the whole jar. Scrape the bottom. If your skin is no different in 60 days, email us once and we refund you. You keep the jar. Nothing to mail back.</p>
+  </div>
+
+  <!-- TRUST / SECURE CHECKOUT -->
+  <div class="bsln-offer__trust">
+    <span class="bsln-offer__lock" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+    </span>
+    <span>Secure checkout</span>
+    <span class="bsln-offer__cards">
+      <em>Visa</em><em>Mastercard</em><em>Amex</em><em>PayPal</em><em>Shop&nbsp;Pay</em>
+    </span>
+  </div>
+
+</div>
+
+<style>
+  /* Scoped to .bsln-offer so it cannot collide with your theme CSS.
+     PALETTE matches the live teal PDP. Retune here. */
+  .bsln-offer{
+    --teal:#1c4a44;          /* dark teal: ATC button + guarantee box (matches header) */
+    --teal-d:#143732;        /* hover */
+    --cream:#FBF6EE;         /* page-matching warm background */
+    --cream2:#F4EAD9;        /* value-stack panel */
+    --ink:#2E2519;           /* primary text */
+    --muted:#5A4E3C;         /* secondary text */
+    --soft:#857862;          /* tertiary text */
+    --amber:#C0792C;         /* accent: sale price + savings chip (matches your sale badge) */
+    --amber-d:#9C6322;
+    --line:#E6D8C2;
+    --paper:#FFFFFF;
+    box-sizing:border-box;
+    max-width:480px;
+    margin:0 auto;
+    padding:4px 0 8px;
+    font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    color:var(--ink);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .bsln-offer *{box-sizing:border-box;}
+
+  /* RATING */
+  .bsln-offer__rating{display:flex;align-items:center;gap:9px;margin-bottom:12px;}
+  .bsln-offer__stars{color:var(--amber);letter-spacing:2px;font-size:15px;}
+  .bsln-offer__rating-text{font-size:13px;color:var(--soft);font-weight:600;}
+
+  /* SUBTITLE */
+  .bsln-offer__sub{
+    font-family:'Cormorant Garamond',Georgia,serif;
+    font-size:26px;line-height:1.12;color:var(--ink);
+    margin:0 0 16px;font-weight:600;
+  }
+
+  /* PRICE */
+  .bsln-offer__price{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px;}
+  .bsln-offer__was{font-size:19px;color:var(--soft);text-decoration:line-through;text-decoration-thickness:1.5px;}
+  .bsln-offer__now{font-size:34px;font-weight:700;color:var(--amber);letter-spacing:-.01em;}
+  .bsln-offer__save{
+    font-size:12px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
+    color:#fff;background:var(--amber);padding:5px 10px;border-radius:999px;
+    align-self:center;
+  }
+  .bsln-offer__launch{font-size:13px;color:var(--soft);margin:0 0 20px;font-style:italic;}
+
+  /* VALUE STACK */
+  .bsln-offer__stack{
+    list-style:none;margin:0 0 22px;padding:18px 20px;
+    background:var(--cream2);border:1px solid var(--line);border-radius:14px;
+  }
+  .bsln-offer__stack li{
+    display:flex;align-items:flex-start;gap:11px;
+    font-size:15px;color:var(--muted);font-weight:500;
+    padding:5px 0;
+  }
+  .bsln-offer__tick{
+    color:var(--teal);font-weight:800;font-size:15px;line-height:1.5;flex:none;
+  }
+
+  /* ADD TO CART */
+  .bsln-offer__form{margin:0 0 10px;}
+  .bsln-offer__cta{
+    width:100%;cursor:pointer;border:none;border-radius:13px;
+    background:var(--teal);color:var(--cream);
+    font-family:inherit;font-size:17px;font-weight:700;letter-spacing:.02em;
+    padding:18px 22px;
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    transition:background .18s ease,transform .06s ease;
+  }
+  .bsln-offer__cta:hover{background:var(--teal-d);}
+  .bsln-offer__cta:active{transform:translateY(1px);}
+  .bsln-offer__cta-price{opacity:.7;font-weight:600;}
+  .bsln-offer__ship{text-align:center;font-size:13px;color:var(--soft);margin:0 0 22px;}
+
+  /* GUARANTEE */
+  .bsln-offer__guarantee{
+    background:var(--teal);color:var(--cream);
+    border-radius:14px;padding:20px 22px;margin-bottom:18px;
+  }
+  .bsln-offer__guarantee-head{display:flex;align-items:center;gap:9px;margin-bottom:9px;}
+  .bsln-offer__shield{color:#E8C9A0;display:inline-flex;}
+  .bsln-offer__guarantee-head strong{
+    font-family:'Cormorant Garamond',Georgia,serif;font-size:21px;font-weight:600;letter-spacing:.01em;
+  }
+  .bsln-offer__guarantee p{margin:0;font-size:14px;line-height:1.6;color:rgba(251,246,238,.86);}
+
+  /* TRUST */
+  .bsln-offer__trust{
+    display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center;
+    font-size:12px;color:var(--soft);font-weight:600;
+  }
+  .bsln-offer__lock{display:inline-flex;color:var(--teal);}
+  .bsln-offer__cards{display:flex;gap:6px;flex-wrap:wrap;}
+  .bsln-offer__cards em{
+    font-style:normal;font-size:10px;font-weight:700;letter-spacing:.02em;
+    color:var(--muted);background:var(--cream2);border:1px solid var(--line);
+    padding:3px 7px;border-radius:5px;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width:520px){
+    .bsln-offer{max-width:100%;padding:0 2px;}
+    .bsln-offer__sub{font-size:23px;}
+    .bsln-offer__now{font-size:30px;}
+    .bsln-offer__cta{font-size:16px;padding:17px 18px;}
+  }
+</style>
