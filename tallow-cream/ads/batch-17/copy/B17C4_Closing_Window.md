@@ -62,12 +62,6 @@ She said: "I wondered if you'd notice."
 
 She said she'd thrown everything out about nine months earlier. Everything. The toner, the serums, the retinol. She kept one jar.
 
-She said something else that night. She said it quietly, while she was setting glasses on the counter, like she was repeating something Winnie had said to her at the wedding.
-
-She said Winnie had told her skin still answers back at our age. It just answers slower the longer you've been ignoring what it's been asking for. Winnie said it like she was talking about a garden in late August, not a face. The garden was still a garden. It was still hers. It just took a little more attention to bring it back than it would have taken in May.
-
-Elaine said when she heard that she stopped buying the toner the next morning.
-
 She said she'd asked her Aunt Winnie about it at her daughter Jess's wedding last June.
 
 Winnie is 76. She lives in Vermont. She keeps bees and reads more than anyone Elaine knows.
@@ -79,6 +73,12 @@ Winnie said: "I've been using the same thing since 1987. Four ingredients. I bou
 Winnie is 76 and her skin looks like a woman in her early 60s. Elaine had been watching her at family things for a decade trying to figure out what she was doing.
 
 Turns out it was one jar.
+
+Elaine told me one more thing Winnie had said at that wedding. She told me while she was setting glasses on the counter, quiet, like it had stuck with her too.
+
+Winnie said skin still answers, even at our age. It just takes longer the longer it's gone without what it was asking for. She said it the way you'd talk about a garden you'd let go a season. Still yours. Just more work to bring back than if you'd kept up with it.
+
+Elaine said that was the line that made her order one.
 
 ========
 
@@ -204,15 +204,17 @@ One jar. Fourteen down.
 
 **Mechanism:** Closing Window. Recoverability urgency, delivered in the elder Winnie's voice (via Elaine) as a calm gardener-like observation about skin in general, never about the reader's skin specifically. The frame is "still recoverable, slower the longer it waits," NOT "getting worse." The recoverability is the hopeful note; the slowness is the urgency.
 
-**Where it sits in the structure:** between the "Fourteen things" inventory and the discovery-scene ask, the same slot as C2 and C3. In C4 the original beat "I sat on the edge of the tub and thought about Elaine's counter for a long time" is kept untouched. The urgency lives inside an Elaine-quoting-Winnie beat added to the discovery scene itself.
+**Where it sits in the structure:** the original "I sat on the edge of the tub" beat is kept untouched. The urgency lives inside an Elaine-quoting-Winnie beat placed AFTER Winnie is introduced (proofing-council fix: the earlier draft referenced Winnie before her introduction). It sits right after "Turns out it was one jar," as one more thing Elaine relayed from the wedding.
 
-**The anchor text (lifted from the body, for reference):**
+**The anchor text (lifted from the body, for reference, v2 after proofing council):**
 
-> She said something else that night. She said it quietly, while she was setting glasses on the counter, like she was repeating something Winnie had said to her at the wedding.
+> Elaine told me one more thing Winnie had said at that wedding. She told me while she was setting glasses on the counter, quiet, like it had stuck with her too.
 >
-> She said Winnie had told her skin still answers back at our age. It just answers slower the longer you've been ignoring what it's been asking for. Winnie said it like she was talking about a garden in late August, not a face. The garden was still a garden. It was still hers. It just took a little more attention to bring it back than it would have taken in May.
+> Winnie said skin still answers, even at our age. It just takes longer the longer it's gone without what it was asking for. She said it the way you'd talk about a garden you'd let go a season. Still yours. Just more work to bring back than if you'd kept up with it.
 >
-> Elaine said when she heard that she stopped buying the toner the next morning.
+> Elaine said that was the line that made her order one.
+
+**Proofing-council changes applied (2026-06-14):** (1) relocated below Winnie's introduction to fix the forward-reference continuity gap; (2) compressed the garden metaphor from four sentences to two (voice editor: the four-sentence run was the most "written" prose in any cell); (3) removed the redundant "stopped buying the toner the next morning" (it restated the throw-out beat) and replaced with the cleaner "that was the line that made her order one"; (4) changed "the longer you've been ignoring what it's been asking for" to "the longer it's gone without what it was asking for" (compliance: removes the lone second-person trace).
 
 **Compliance audit on the anchor (CRITICAL, this is the high-risk cell):**
 - ✅ Past-tense, third-party quoted (Winnie via Elaine), never the brand and never the narrator preaching to the reader

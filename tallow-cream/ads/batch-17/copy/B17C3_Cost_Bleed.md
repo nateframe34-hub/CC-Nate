@@ -52,7 +52,7 @@ About thirty-three hundred dollars. Two years.
 
 I'd also been buying those drugstore foil packets in threes for emergencies. Call it another two hundred.
 
-Thirty-five hundred dollars to be tight by noon and cracked by two. Thirty-five hundred dollars to wake up Tuesday still doing the same thing I'd done Monday. I'd spent a small fortune to stay exactly where I was.
+Thirty-five hundred dollars to be tight by noon and cracked by two. To end up exactly where I started.
 
 I sat there a long time.
 
@@ -220,7 +220,7 @@ One jar. Fourteen down.
 >
 > I'd also been buying those drugstore foil packets in threes for emergencies. Call it another two hundred.
 >
-> Thirty-five hundred dollars to be tight by noon and cracked by two. Thirty-five hundred dollars to wake up Tuesday still doing the same thing I'd done Monday. I'd spent a small fortune to stay exactly where I was.
+> Thirty-five hundred dollars to be tight by noon and cracked by two. To end up exactly where I started.
 >
 > I sat there a long time.
 
