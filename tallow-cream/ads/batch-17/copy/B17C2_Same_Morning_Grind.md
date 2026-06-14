@@ -46,11 +46,11 @@ Fourteen. My skin was tight by noon every day. My foundation cracked by two.
 
 I sat on the edge of the tub.
 
-It was the same losing morning, over and over. Tight by ten. Cracked by two. Apply something at 3pm in the office bathroom that didn't hold either. Take it off at night. Put more on. Wake up tight. Do it again.
+It was the same losing morning, over and over. Tight by ten. Cracked by two. Something at 3pm in the office bathroom that didn't hold either. Take it off at night. Put more on. Wake up tight. Do it again.
 
 I'd been having that exact morning for about two years.
 
-It was Tuesday. The Tuesday before had been the same. The Tuesday before that. I could feel my jaw with my fingers and it felt like crepe paper that had been folded and unfolded too many times. I thought about Elaine's counter. One jar. I thought about all the Tuesdays I'd already lost to the fourteen.
+It was Tuesday. The Tuesday before had been the same. The Tuesday before that. I could feel my jaw with my fingers and it felt like paper. I thought about Elaine's counter. One jar. I thought about all the Tuesdays I'd already lost to the fourteen.
 
 I sat there a long time.
 
@@ -212,11 +212,11 @@ One jar. Fourteen down.
 
 > I sat on the edge of the tub.
 >
-> It was the same losing morning, over and over. Tight by ten. Cracked by two. Apply something at 3pm in the office bathroom that didn't hold either. Take it off at night. Put more on. Wake up tight. Do it again.
+> It was the same losing morning, over and over. Tight by ten. Cracked by two. Something at 3pm in the office bathroom that didn't hold either. Take it off at night. Put more on. Wake up tight. Do it again.
 >
 > I'd been having that exact morning for about two years.
 >
-> It was Tuesday. The Tuesday before had been the same. The Tuesday before that. I could feel my jaw with my fingers and it felt like crepe paper that had been folded and unfolded too many times. I thought about Elaine's counter. One jar. I thought about all the Tuesdays I'd already lost to the fourteen.
+> It was Tuesday. The Tuesday before had been the same. The Tuesday before that. I could feel my jaw with my fingers and it felt like paper. I thought about Elaine's counter. One jar. I thought about all the Tuesdays I'd already lost to the fourteen.
 >
 > I sat there a long time.
 
