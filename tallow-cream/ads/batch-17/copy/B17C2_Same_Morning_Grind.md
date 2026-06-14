@@ -1,7 +1,7 @@
-# B17C2 — The Counter With One Thing (Same-Morning Grind anchor)
+# B17C2: The Counter With One Thing (Same-Morning Grind anchor)
 
-**Batch:** B17 — Urgency Isolation Test
-**Cell role:** Urgency variant #1 — **Accumulation / daily-repetition**
+**Batch:** B17: Urgency Isolation Test
+**Cell role:** Urgency variant #1: **Accumulation / daily-repetition**
 **Sub-Avatar:** The Invisible Woman
 **Angle:** Object-discovery hook + urgency woven mid-story as the narrator's own past-tense breaking point
 **Character type:** Peer + Skeptic Convert
