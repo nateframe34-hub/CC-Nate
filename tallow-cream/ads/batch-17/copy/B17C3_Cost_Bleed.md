@@ -1,7 +1,7 @@
-# B17C3 — The Counter With One Thing (Cost-Bleed anchor)
+# B17C3: The Counter With One Thing (Cost-Bleed anchor)
 
-**Batch:** B17 — Urgency Isolation Test
-**Cell role:** Urgency variant #2 — **Sunk-cost / money-and-effort already wasted**
+**Batch:** B17: Urgency Isolation Test
+**Cell role:** Urgency variant #2: **Sunk-cost / money-and-effort already wasted**
 **Sub-Avatar:** The Invisible Woman
 **Angle:** Object-discovery hook + urgency woven mid-story as the narrator's own past-tense reckoning with what she had already spent
 **Character type:** Peer + Skeptic Convert
@@ -233,7 +233,7 @@ One jar. Fourteen down.
 - ✅ The cost math is the narrator's own private reckoning, not a comparison-to-our-price pitch ("$49.99 vs your $3,500" framing is deliberately AVOIDED, because that snaps the native frame)
 - ✅ The close ("link is below if you want it") stays untouched; no urgency CTA
 
-**What this cell answers if it wins vs C1:** sunk-cost urgency is the right kind to add to a B9C3-style ad. Mechanism: the buyer recognizes her own pile of receipts and the recognition tips her over. Specifically dangerous to confound this with the brand making a value-comparison argument — the anchor must stay inside her head, not in the ad's argument.
+**What this cell answers if it wins vs C1:** sunk-cost urgency is the right kind to add to a B9C3-style ad. Mechanism: the buyer recognizes her own pile of receipts and the recognition tips her over. Specifically dangerous to confound this with the brand making a value-comparison argument: the anchor must stay inside her head, not in the ad's argument.
 
 ---
 

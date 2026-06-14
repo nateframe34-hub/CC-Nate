@@ -1,14 +1,14 @@
-# B17C4 — The Counter With One Thing (Closing Window anchor)
+# B17C4: The Counter With One Thing (Closing Window anchor)
 
-**Batch:** B17 — Urgency Isolation Test
-**Cell role:** Urgency variant #3 — **Recoverability / closing-window** (highest-compliance-risk cell, see safety notes)
+**Batch:** B17: Urgency Isolation Test
+**Cell role:** Urgency variant #3: **Recoverability / closing-window** (highest-compliance-risk cell, see safety notes)
 **Sub-Avatar:** The Invisible Woman
 **Angle:** Object-discovery hook + urgency woven mid-story as a recoverability beat delivered in the elder's calm voice (Winnie via Elaine), never about the reader's skin
 **Character type:** Peer + Skeptic Convert
 **Hook format:** Object-Discovery (B7C1 family)
 **Awareness level:** Solution Aware
 
-> **HIGH-RISK CELL — safety guardrails apply.** The Compliance & Voice Guardian flagged "Closing Window" recoverability framing as the urgency mechanism most likely to slide into the banned "your skin is getting worse" health-fear that killed B4C1/C2. This cell is written deliberately to LAND on the safe side of that line. If anything reads as deterioration or pressure aimed at the reader, the cell must be rewritten before launch, not after.
+> **HIGH-RISK CELL: safety guardrails apply.** The Compliance & Voice Guardian flagged "Closing Window" recoverability framing as the urgency mechanism most likely to slide into the banned "your skin is getting worse" health-fear that killed B4C1/C2. This cell is written deliberately to LAND on the safe side of that line. If anything reads as deterioration or pressure aimed at the reader, the cell must be rewritten before launch, not after.
 >
 > **Variable isolated:** the Urgency Anchor only. Identical to B17C1 (B9C3) everywhere except the single anchor block inserted between the "Fourteen things" inventory and the discovery scene. Hook, chain, mechanism, day markers, habit-cessation beat, payoff, and close are untouched. The urgency is delivered in the elder Winnie's voice via Elaine, in a third-person, gardener-like register about skin in general, NEVER about the reader's specific skin.
 

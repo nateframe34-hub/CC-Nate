@@ -1,6 +1,6 @@
-# B17C1 — The Counter With One Thing (CONTROL)
+# B17C1: The Counter With One Thing (CONTROL)
 
-**Batch:** B17 — Urgency Isolation Test
+**Batch:** B17: Urgency Isolation Test
 **Cell role:** **CONTROL** (no urgency anchor). Also the long-overdue solo protected-budget validation of B9C3.
 **Sub-Avatar:** The Invisible Woman
 **Angle:** Object-discovery hook, one jar on a near-empty counter at book club
