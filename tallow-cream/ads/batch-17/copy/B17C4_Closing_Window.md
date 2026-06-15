@@ -206,13 +206,13 @@ One jar. Fourteen down.
 
 **The anchor text (lifted from the body, for reference, v2 after proofing council):**
 
-> Elaine told me one more thing Winnie had said at that wedding. She told me while she was setting glasses on the counter, quiet, like it had stuck with her too.
+> Elaine told me one more thing Winnie had said at that wedding. She told me quiet, while she was setting glasses on the counter, like it had stuck with her too.
 >
 > Winnie said skin still answers, even at our age. It just takes longer the longer it's gone without what it was asking for. She said it the way you'd talk about a garden you'd let go a season. Still yours. Just more work to bring back than if you'd kept up with it.
->
-> Elaine said that was the line that made her order one.
 
-**Proofing-council changes applied (2026-06-14):** (1) relocated below Winnie's introduction to fix the forward-reference continuity gap; (2) compressed the garden metaphor from four sentences to two (voice editor: the four-sentence run was the most "written" prose in any cell); (3) removed the redundant "stopped buying the toner the next morning" (it restated the throw-out beat) and replaced with the cleaner "that was the line that made her order one"; (4) changed "the longer you've been ignoring what it's been asking for" to "the longer it's gone without what it was asking for" (compliance: removes the lone second-person trace).
+**Council change history:**
+- **Round 2 (2026-06-14):** relocated the anchor below Winnie's introduction to fix the forward-reference continuity gap; compressed the garden metaphor from four sentences to two; replaced the redundant "stopped buying the toner the next morning" beat; changed "the longer you've been ignoring what it's been asking for" to "the longer it's gone without what it was asking for" to remove the lone second-person trace.
+- **Round 3 (2026-06-15):** cut the trailing "Elaine said that was the line that made her order one" per the persuasion-flow agent (was double-stamping Elaine's nine-months-earlier throw-out conversion and stacking a premature climax right before the mechanism block). Tightened the framing-line word order ("told me quiet, while she was setting glasses" vs "told me while she was setting glasses... quiet").
 
 **Compliance audit on the anchor (CRITICAL, this is the high-risk cell):**
 - ✅ Past-tense, third-party quoted (Winnie via Elaine), never the brand and never the narrator preaching to the reader
