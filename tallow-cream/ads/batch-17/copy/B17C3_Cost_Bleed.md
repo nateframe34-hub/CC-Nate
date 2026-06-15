@@ -46,13 +46,9 @@ Fourteen. My skin was tight by noon every day. My foundation cracked by two.
 
 I sat on the edge of the tub.
 
-I did the math once. Just once. I added up the receipts I could find in my email from the last two years. Sephora. Ulta. The Instagram brightening serum. The retinol that burned. The neck cream Lily bought me for Christmas that I'd already replaced twice.
+I did the math once. Just once. I added up the receipts I could find in my email from the last two years. Sephora. Ulta. The Instagram brightening serum. The retinol that burned. The neck cream Lily bought me for Christmas that I'd already replaced twice. Add in the drugstore foil packets I'd been buying in threes.
 
-About thirty-three hundred dollars. Two years.
-
-I'd also been buying those drugstore foil packets in threes for emergencies. Call it another two hundred.
-
-Thirty-five hundred dollars to be tight by noon and cracked by two. To end up exactly where I started.
+Call it thirty-five hundred dollars. To be tight by noon and cracked by two. To end up exactly where I started.
 
 I sat there a long time.
 

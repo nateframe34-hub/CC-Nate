@@ -129,7 +129,7 @@ Your skin isn't dry. It's starving.
 
 Your skin makes a natural oil called sebum. It's what keeps your skin soft, hydrated, and protected.
 
-After 40, your body produces up to 60% less of it. After menopause, it can drop even further.
+After 40, your body produces a lot less of it. After your skin changes, the drop can be bigger.
 
 That's why your moisturizer stopped working. It adds water. Your skin needs oil.
 
@@ -197,7 +197,7 @@ What real skin looks like after switching.
 ★★★★★
 **"My skin doesn't look tired anymore."**
 
-I'm 54 and menopausal. My skin went from dull and tight to soft and actually glowing. I've spent hundreds on serums that did nothing. This jar did more in a week than all of them combined.
+I'm 54 and my skin changed. It went from dull and tight to soft and actually holding through the day. I've spent hundreds on serums that did nothing. This jar did more in a week than all of them combined.
 
 — Karen M., verified buyer
 
