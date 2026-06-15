@@ -74,11 +74,9 @@ Winnie is 76 and her skin looks like a woman in her early 60s. Elaine had been w
 
 Turns out it was one jar.
 
-Elaine told me one more thing Winnie had said at that wedding. She told me while she was setting glasses on the counter, quiet, like it had stuck with her too.
+Elaine told me one more thing Winnie had said at that wedding. She told me quiet, while she was setting glasses on the counter, like it had stuck with her too.
 
 Winnie said skin still answers, even at our age. It just takes longer the longer it's gone without what it was asking for. She said it the way you'd talk about a garden you'd let go a season. Still yours. Just more work to bring back than if you'd kept up with it.
-
-Elaine said that was the line that made her order one.
 
 ========
 
