@@ -36,7 +36,16 @@ The reason the old `SESSION_STATE.md` went stale (Apr 16 → Apr 27 with no upda
 
 **B19 queue under Marksman discipline:** once an angle wins B18 (whether One-Jar+urgency from B17 or a new angle from the Marksman B18), B19 becomes Sniper on that winner — chain depth (Aunt Winnie Standalone), offer A/B (keep-it guarantee as hero), or hook variations within the winning angle. Advertorial bridge is built after a winner is confirmed and the LPV-to-ATC ceiling is the bottleneck. B11 Working Hands Man (pocket-falsification across avatars) waits for ~$75/day budget or for the next "Marksman again at plateau" cycle.
 
-Locked rule (carried from yesterday's brainstorm + reinforced today): **no B18 copy, no B18 council, no avatar work, no strategy docs until B17 has 10 combined purchases or 21 days of delivery, whichever comes first.** The plan above is the plan. Operational hygiene only during the spend window.
+**Spend-window work rule (revised 2026-06-15).** The earlier "no new strategy doc for 21 days" rule was overcalibrated. The real constraint: **don't write more avatar/strategy/audit docs while the test is reading**, because those anchor the read and re-litigate locked decisions. Everything ELSE is fair game and there is plenty of it. Concrete things to actually work on during the B17 spend window:
+- Build the **Marksman B18 ads** (write C2 Cognitive Relief and C3 Predictability copy now so they're ready to ship the moment B17 reads a plateau; this is execution work, not strategy).
+- Build the **advertorial bridge page** (Origins-correct funnel tool; it's the highest-leverage non-ad asset and doesn't change with B17's outcome since it sits between any ad and the PDP).
+- Build the **review-integrity fix** (collect real photo-backed reviews from the 9 customers; replaces fabricated PDP reviews that paid traffic is about to hit).
+- Build the **Julie identity-doc reconciliation** (update partner-page persona to match the proven B9C3 narrator: 54, daughter Lily 27, Elaine/Winnie discovery, etc., so the click-through trust loop closes).
+- Build the **Klaviyo flows** (when at 20-30 lifetime purchases, deferred per founder).
+- Run **Julie page cadence** (2-3 light posts/week, the camouflage infra the ads route through).
+- **Optionally write the chain-depth Aunt Winnie Standalone** as the Sniper B19 candidate, ready to ship if B17 wins and we go deeper on the One-Jar+urgency configuration.
+
+The ONE thing not to do during the window: **commission more "what should our strategy be" councils.** That's the procrastination pattern. Building executable assets that ship on whichever B17 branch fires is not the same thing.
 
 ---
 
