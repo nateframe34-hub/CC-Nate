@@ -1,7 +1,7 @@
 # B18C2: The Window I Walked Past (Cognitive Relief)
 
 **Batch:** B18: 3-Angle Marksman on the Invisible Woman avatar
-**Cell role:** Variant #1: NEW ANGLE — Cognitive Relief
+**Cell role:** Variant #1: NEW ANGLE: Cognitive Relief
 **Sub-Avatar:** The Woman Who Won't Stop Monitoring
 **Angle:** Mental relief from the constant face-monitoring loop, the unloaded brain
 **Character type:** Peer + Skeptic Convert (Julie Brennan voice)
