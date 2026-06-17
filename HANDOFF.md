@@ -36,16 +36,23 @@ The reason the old `SESSION_STATE.md` went stale (Apr 16 → Apr 27 with no upda
 
 **B19 queue under Marksman discipline:** once an angle wins B18 (whether One-Jar+urgency from B17 or a new angle from the Marksman B18), B19 becomes Sniper on that winner — chain depth (Aunt Winnie Standalone), offer A/B (keep-it guarantee as hero), or hook variations within the winning angle. Advertorial bridge is built after a winner is confirmed and the LPV-to-ATC ceiling is the bottleneck. B11 Working Hands Man (pocket-falsification across avatars) waits for ~$75/day budget or for the next "Marksman again at plateau" cycle.
 
-**Spend-window work rule (revised 2026-06-15).** The earlier "no new strategy doc for 21 days" rule was overcalibrated. The real constraint: **don't write more avatar/strategy/audit docs while the test is reading**, because those anchor the read and re-litigate locked decisions. Everything ELSE is fair game and there is plenty of it. Concrete things to actually work on during the B17 spend window:
-- Build the **Marksman B18 ads** (write C2 Cognitive Relief and C3 Predictability copy now so they're ready to ship the moment B17 reads a plateau; this is execution work, not strategy).
-- Build the **advertorial bridge page** (Origins-correct funnel tool; it's the highest-leverage non-ad asset and doesn't change with B17's outcome since it sits between any ad and the PDP).
-- Build the **review-integrity fix** (collect real photo-backed reviews from the 9 customers; replaces fabricated PDP reviews that paid traffic is about to hit).
-- Build the **Julie identity-doc reconciliation** (update partner-page persona to match the proven B9C3 narrator: 54, daughter Lily 27, Elaine/Winnie discovery, etc., so the click-through trust loop closes).
-- Build the **Klaviyo flows** (when at 20-30 lifetime purchases, deferred per founder).
-- Run **Julie page cadence** (2-3 light posts/week, the camouflage infra the ads route through).
-- **Optionally write the chain-depth Aunt Winnie Standalone** as the Sniper B19 candidate, ready to ship if B17 wins and we go deeper on the One-Jar+urgency configuration.
+**Testing cadence + kill/pivot rule (locked 2026-06-15, supersedes the $50/day-calibrated 21/28-day checkpoints in the Mastery doc and B17 synthesis).** No waiting-on-a-timer. We test constantly. Decision logic:
 
-The ONE thing not to do during the window: **commission more "what should our strategy be" councils.** That's the procrastination pattern. Building executable assets that ship on whichever B17 branch fires is not the same thing.
+- **~$300 spend OR ~14 days, whichever first = the pivot checkpoint.** If by then no cell is showing a PATH to profitable, kill the batch and ship the next test (B18). More spend on ads that aren't working does not make them work. An unprofitable angle does not become profitable with more budget; it just costs more to confirm it failed.
+- **"Path to profitable" = leading indicators, not just purchase count** (because at $20-50/day purchases read slowly but indicators read fast). A cell has a path if: CTR is healthy, cost-per-ATC is trending toward the ~$33 margin, and LPV-to-purchase is at or climbing toward B9C3's 17% bar. A cell is dead if: clicks earn near-zero ATC and the funnel converts nobody after meaningful delivery.
+- **The ONE nuance that prevents killing a viable angle wrongly:** distinguish ANGLE failure (bad indicators = kill, the creative isn't resonating) from BUDGET starvation (good indicators but thin volume because $20/day across 4 cells throttled delivery = consolidate budget into fewer cells, do NOT abandon the angle). If indicators are promising and the only problem is volume, the fix is fewer cells / higher per-cell budget, not a pivot.
+- **The 10-purchase floor is a WINNER-DECLARATION guard, not a keep-spending mandate.** It means: don't crown a winner and pour budget into it on 2 sales. It does NOT mean keep paying for losers until you hit 10. You can kill a clearly-failing cell at any point on indicators; you just can't declare a winner on noise.
+
+**B18 must always be ready to ship the moment the pivot checkpoint fires.** That is the whole point of building it in advance. The buildable queue (execution work, do anytime, ships on whichever B17 branch fires):
+- **Marksman B18 ads:** C2 Cognitive Relief + C3 Predictability copy (C1 = B9C3 control already exists). Build these NOW so a pivot is instant.
+- **Advertorial bridge page** (Origins funnel tool, outcome-independent, sits between any ad and the PDP).
+- **Review-integrity fix** (real photo-backed reviews from the 9 customers, replace fabricated PDP reviews).
+- **Julie identity-doc reconciliation** (persona to match the proven narrator: 54, Lily 27, Elaine/Winnie discovery).
+- **Klaviyo flows** (queued for 20-30 lifetime purchases).
+- **Julie page cadence** (2-3 light posts/week, camouflage infra).
+- **Aunt Winnie Standalone** copy (Sniper B19 candidate if B17 wins and we go deeper on One-Jar+urgency).
+
+The only thing that is NOT useful during a spend window: commissioning more "what should our strategy be" councils. Building and testing is always on the table; re-litigating locked strategy is the procrastination trap.
 
 ---
 
