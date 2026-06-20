@@ -76,7 +76,9 @@ Ideas captured for future batch planning. Not for the current B17/B18 window —
 - Stays TOF: we are not assuming brand awareness or prior product knowledge. The reader knows her skin changed and has tried things that stopped working — that is the only assumption.
 - Watch the compliance line: "the formula changed" = brand decision, not a health claim. "The original was safer/better for your body" = health claim. Stay in the first lane.
 
-**Status:** Concept only. Write when sequencing B19+ or when the next Marksman batch needs a "product-awareness" angle tested.
+**Full plan + beat-by-beat skeleton:** `tallow-cream/ads/concepts/Concept_A_Formula_Drift_Plan.md` (sub-sub-avatar "The Rebuyer," awareness arc Solution→Product Aware, the gap-closer beat that repairs B7C1, all 10 skeleton elements mapped, differentiation table, compliance rails, 4 open founder decisions).
+
+**Status:** Planned + skeletoned (2026-06-20), not written. Write the full ~1,500-word ad on founder go + the §11 decisions. Slots as a Marksman/TOF cell in B19+, not the current spend window.
 
 ---
 
