@@ -103,7 +103,7 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 | Operational hygiene of imported assets | Cooked BM brings old assets (page, pixel, audiences) into Portfolio scope | None active | Don't reuse the cooked BM's pixel or audiences in the new ad campaigns — those carry the old auction baggage. Treat the cooked BM as admin-redundancy only; build new ad accounts/audiences/pixel inside the new Portfolio. |
 | Abandoned cart email | Copy drafted, awaiting implementation | Needs Shopify Email editor configuration | Paste brand-voice copy from chat into Shopify Email draft; verify Baseline → tallow brand name override |
 | BOGO 50% offer (live) | Liquid + setup docs written; native discount NOT yet created in Shopify admin | Nate must (1) create the native Buy X Get Y automatic discount and (2) paste the liquid block on the PDP | Custom Liquid display block + setup instructions in `tallow-cream/store/liquid/`. The liquid only displays + adds 2 to cart; the 50% discount is a native automatic Buy X Get Y discount that must be created in admin (no app needed). Do both before purchase ads launch. |
-| Ad creative for new BM | 10 ads written, awaiting BM | New BM not yet live | Launch sequence TBD: B11 (CPM diagnostic), B12 C2/C3, B13 (Photo Avoider × 3), B14 (Retinol Burnout × 3) |
+| Ad creative for new BM | 11 ads written, awaiting BM | New BM not yet live | Launch sequence TBD: B11 (CPM diagnostic), B12 C3 (still unwritten), B13 (Photo Avoider × 3), B14 (Retinol Burnout × 3) |
 | Email sequence (post-cart-email-1) | Not started | Email 1 not yet live | Email 2 (24h, story-form) + Email 3 (72h, soft urgency) drafts queued |
 
 ---
@@ -160,6 +160,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 ---
 
 ## Recently Completed
+
+- **2026-06-20** — B12C2 "The Work Trip" written (`tallow-cream/ads/batch-12/copy/B12C2_The_Work_Trip.md`). ~1,490 words, Solution Aware, Invisible Woman avatar. Hook: two halves of a shared hotel vanity counter — narrator Lisa's ten things vs. colleague Maureen's one amber jar after 3 days at an industry conference in Nashville. Differentiators from existing batch: involuntary proximity (assigned hotel roommates), analytical peer authority (Maureen self-researched the water-vs-fat mechanism, no chain), live bottle-flip demonstration in the mechanism scene, professional stakes in the low point (concealer in her bag before VP presentations), desk-compact habit cessation (vs. travel packets or front camera in prior converters). 4 named secondary characters (Maureen, Diane, Joan, Mark). 10/10 density, full compliance + readability audits, differentiation table vs B9C2/B9C3/B12C1.
 
 - **2026-06-08** — Mastery Council Synthesis published (`tallow-cream/avatars/Mastery_Council_Synthesis.md`). 4-phase plan from B9C3 lock through $10K/mo scale, with the loyal-opposition reordering applied (funnel first, then race, then bible, then scale).
 - **2026-06-08** — Homepage Custom Liquid block written (`tallow-cream/store/liquid/Homepage.liquid`). High-quality 12-section homepage modeled on top brands, all CTAs route to the PDP, ready to paste into Shopify.
