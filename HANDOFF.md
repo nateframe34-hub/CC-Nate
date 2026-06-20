@@ -58,6 +58,60 @@ The only thing that is NOT useful during a spend window: commissioning more "wha
 
 ---
 
+## Future Ad Concepts Queue
+
+Ideas captured for future batch planning. Not for the current B17/B18 window — log here so they're not lost and can be pulled when sequencing B19+.
+
+---
+
+### Concept A — Formula Drift / "Brands Changed Their Recipe" (HIGHEST PRIORITY)
+
+**The angle:** Product-awareness ad for TOF audiences who are Solution Aware but don't know *why* the products they trusted stopped working. The Pond's framing without the Pond's name — the discovery is that brands quietly reformulate (more water, more filler, more preservatives), so what grandma used in 1975 isn't what's in the bottle now. Our product is closer to the original. The mechanism (fat-not-water) isn't new information; the frame is that the industry drifted away from it.
+
+**Why this is the strongest concept of the three:** B7C1 ("She Used Pond's") is the highest-sales ad in the account. The Pond's framing works — the problem is that it creates a "why not just buy Pond's?" objection (confirmed in B7C1 comment mining: 3 of 5 comments were Pond's variants). This concept pre-empts that objection at the structural level: Pond's isn't the original anymore. The logical gap B7C1 leaves open gets closed before it forms.
+
+**Key decisions to make when writing:**
+- Don't name Pond's directly (opens defamation/disparagement risk at scale; the implied frame works without it)
+- The discovery character is the bridge: someone whose grandmother used something simple that worked, and who found out the formula isn't the same anymore. Same One-Jar discovery structure.
+- Stays TOF: we are not assuming brand awareness or prior product knowledge. The reader knows her skin changed and has tried things that stopped working — that is the only assumption.
+- Watch the compliance line: "the formula changed" = brand decision, not a health claim. "The original was safer/better for your body" = health claim. Stay in the first lane.
+
+**Status:** Concept only. Write when sequencing B19+ or when the next Marksman batch needs a "product-awareness" angle tested.
+
+---
+
+### Concept B — Raving Testimonial / Healthy Skin Visual (MEDIUM PRIORITY)
+
+**The angle:** A creative where the visual does heavy lifting — a woman with genuinely healthy, clearly-well-rested skin, in a casual (non-studio, non-influencer) setting. The copy is her raving in the same flat-real voice as B9C3, but the scroll-stop is the *face* not an object. Different hook format than anything tested so far.
+
+**The hypothesis:** Every current ad uses an object or a scene as the scroll-stop (the counter, the drawer, the Christmas card). A face-led hook tests whether the avatar responds to a recognized result vs. a recognized situation.
+
+**Considerations before writing:**
+- This lives closer to the "recognition" lane (seeing a result) vs. the "intent" lane (feeling the daily grind of the problem). The Avatar Council flagged recognition-hooks as earning clicks that don't convert. Could be a cheap-CPM trap.
+- The image has to look genuinely real — not a stock photo, not a spa result. Casting/photography matters more here than in the object ads.
+- Strongest version: use it as a video UGC concept (woman talking to camera, face naturally visible throughout) rather than a static. Format + hook working together.
+
+**Status:** Concept only. Worth testing once video format is on the table (see research direction notes above re: UGC as the biggest untested CPM lever).
+
+---
+
+### Concept C — Authority / Influencer Voice Julie (LOWER PRIORITY, HANDLE WITH CARE)
+
+**The angle:** Julie takes on a more authoritative register — less "I stumbled onto this" and more "here's what I know and why it works." Draws on the influencer/educator format that performs well on Meta for health and wellness content.
+
+**The tension with locked strategy (MUST RESOLVE BEFORE WRITING):**
+- The locked Julie character is deliberately NOT an authority. She is a peer. The "this isn't an ad" close in B9C3 works precisely because she makes no claim to expertise. An influencer-voice Julie is a different character — potentially a different ad format entirely (educational/explainer vs. peer-story).
+- If Julie positions as an authority, the "I'm just telling you what happened to me" credibility frame collapses. Authority + native ad = the exact impression the format is designed to avoid.
+- This concept probably needs a **different vehicle** than the Julie native ad. Could work as: (a) a dedicated informational/educational post under Julie's page that isn't a purchase ad, (b) a separate persona who IS an authority (a formulator, a nutritionist, a traditional-foods educator), or (c) a video talking-head format where the visual credibility does the authority work without copy claiming it.
+
+**Status:** Concept only. Do not write until the character + format question is resolved. Don't just put influencer-voice copy into the existing Julie skeleton — it will break the trust frame that makes the current ads work.
+
+---
+
+**General note on all three:** these are TOF concepts and should stay TOF. We are not retargeting. These are designed for the same cold Invisible Woman audience the current batch is hitting.
+
+---
+
 ## Prior Strategic Spine (Mastery Council, still the frame)
 
 Mastery Council (4 in-house agents) published `tallow-cream/avatars/Mastery_Council_Synthesis.md`. New strategic spine for the $10K/mo goal: master ONE avatar (B9C3 The One-Jar Discovery), but sequence the work as **Funnel Fix → B9C3-vs-B7C1 4-week race → Avatar Bible on winner → Scale**. Loyal Opposition agent corrected the original plan ordering — writing an Avatar Bible against a broken funnel is "a beautiful document about an untestable hypothesis." Proof-of-concept milestone before $10K: **$1K/mo sustained for 3 months.** B11-B14 launch queue PARKED until the race produces a winner. Ancestral hook A/B and Subscribe-as-PDP-option deferred until after $1K/mo sustained. Foundation-fix work (PDP banned-phrase fix, BOGO native discount + test purchase, PDP conversion edits, advertorial bridge page, email-capture + abandoned-cart) is the active queue during BM warmup.
