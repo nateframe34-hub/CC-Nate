@@ -83,7 +83,7 @@ Scene breaks = `========`. Element numbers refer to Principle 4's 10-element con
 
 **BEAT 3 — The rebuy + the letdown (150-200 words).** She buys the nostalgic jar. The memory of her mother using it (decades-proof: mom used one simple jar for years and had soft, rested skin at 52 — the generational mirror, carried over from B7C1 because it's the proven trigger). She presses it in the way mom did. Two weeks. Nothing holds. Tight by noon. She concludes it's her. **This is the trap being set for the gap-closer.** *(Decades-proof authority via the mother; Element 3 peer-adjacent authority partly seeded here.)*
 
-**BEAT 4 — Discovery scene (200-250 words).** Discovery character enters: a peer, named, with believable *lay* authority — "the friend who reads every label," or a friend who worked a cosmetics counter decades ago (NO current credentials — Principle 4 element 10). Specific physical setting (her kitchen, a walk, coffee). The narrator mentions she went back to the old jar and it didn't work. The friend tells her to flip it over. **The gap-closer beat (§5) lands here.** *(Element 3 named peer-adjacent authority; Element 4 mechanism delivered BY the discovery character, not the narrator.)*
+**BEAT 4 — Discovery scene (200-250 words).** Discovery character: a named peer who worked a department-store cosmetics counter in the '80s or '90s (LOCKED 2026-06-20). Specific physical setting (her kitchen, a walk, coffee). The narrator mentions she went back to the old jar and it didn't work. The friend tells her to flip it over. Her counter-worker history is the natural authority for the drift: "I saw what they put in everything when I worked the Clinique counter. It all went to water and glycerin." NO current credentials, NO expert title — lay authority only. **The gap-closer beat (§5) lands here.** *(Element 3 named peer-adjacent authority; Element 4 mechanism delivered BY the discovery character, not the narrator.)*
 
 **BEAT 5 — Mechanism / the drift explained (150-200 words).** Discovery character delivers the why, in plain peer language: skin makes its own oil; after ~40 it makes much less; the oil skin makes is a *fat*, close to animal fat; creams used to be oil/fat-based and worked because they replaced what skin lost; "then everything went to water" — cheaper, lighter, but water evaporates by noon; that's why the rebought jar (the new water version) failed, and why the expensive shelf failed too. The drift reframes BOTH her failures at once. Then the bridge: tallow is a fat close to what skin makes, so it absorbs in instead of sitting on top — the return to the *kind of thing* that worked. *(Element 4; trust ladder; mechanism identical to B7C1/B9C3 — the PROVEN explainer, do not reinvent.)*
 
@@ -146,12 +146,11 @@ Designed for **cold, top-of-funnel** traffic only (per founder, we are TOF-only 
 
 ---
 
-## 11. Open Founder Decisions (resolve before writing)
+## 11. Founder Decisions (LOCKED 2026-06-20)
 
-1. **Name the brand or not?** Recommendation: **don't name it** in copy — use the generic "the cream my mother used / the white drugstore jar." Keeps the reformulation framing defensible and dodges the May-11 "don't center on Pond's" caution while keeping the recognition. (Image can show an ambiguous lookalike jar.) Founder may prefer naming it for sharper recognition — flag the disparagement/substantiation tradeoff if so.
-2. **Inciting incident: Rebuyer (rebuy fails) vs Photo-finder (B7C1-style)?** Recommendation: **Rebuyer** — it pre-empts the price objection in scene, which is the entire point of the concept. Photo-finder is already covered by B7C1.
-3. **Discovery character's lay-authority flavor:** "friend who reads every label" vs "friend who worked a cosmetics counter years ago." Either works; the counter-worker gives slightly more drift-credibility without a current credential. Founder pick.
-4. **Batch placement:** this is a TOF angle test, not a Sniper variant. Slots as a Marksman cell in a future direction-finding batch (B19+), or as a standalone test once the B17/B18 sequence resolves. Not for the current spend window.
+1. **Brand naming: TEST IT.** Write two cells — Cell A names Pond's directly, Cell B uses the generic "the cream my mother used / the white drugstore jar." Built-in A/B on naming. Compliance posture: health claims are the hard line ("their product will burn your skin" = banned), but naming the brand in a formula-drift / category-shift frame is acceptable. Do not assert the named product is harmful, only that the category drifted from what made it work.
+2. **Inciting incident: REBUYER.** She rebuys the old cream, it fails. (Photo-finder is already B7C1 — this stays distinct.)
+3. **Discovery character: FRIEND WHO WORKED A COSMETICS COUNTER YEARS AGO.** Gives lay-level drift credibility ("I saw what they put in everything when I worked the counter at [department store] in the '90s") without any current credential. Natural authority, not a professional endorsement.
 
 ---
 
