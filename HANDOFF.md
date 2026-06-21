@@ -76,9 +76,15 @@ Ideas captured for future batch planning. Not for the current B17/B18 window —
 - Stays TOF: we are not assuming brand awareness or prior product knowledge. The reader knows her skin changed and has tried things that stopped working — that is the only assumption.
 - Watch the compliance line: "the formula changed" = brand decision, not a health claim. "The original was safer/better for your body" = health claim. Stay in the first lane.
 
-**Full plan + beat-by-beat skeleton:** `tallow-cream/ads/concepts/Concept_A_Formula_Drift_Plan.md` (sub-sub-avatar "The Rebuyer," awareness arc Solution→Product Aware, the gap-closer beat that repairs B7C1, all 10 skeleton elements mapped, differentiation table, compliance rails, 4 open founder decisions).
+**Full plan + beat-by-beat skeleton:** `tallow-cream/ads/concepts/Concept_A_Formula_Drift_Plan.md`
+**Three draft ads (written 2026-06-20):** `tallow-cream/ads/concepts/formula-drift-cells/`
+- `CellA_Named_Brands.md` — names Pond's and Olay, generational hook
+- `CellB_Generic_Moms_Cream.md` — generic "the cream my mother used," no brands named
+- `CellC_Generic_Own_Shelf.md` — generic "my old skincare products," own-shelf entry point
 
-**Status:** Planned + skeletoned (2026-06-20), not written. Write the full ~1,500-word ad on founder go + the §11 decisions. Slots as a Marksman/TOF cell in B19+, not the current spend window.
+**What the 3-cell test isolates:** Cell A vs B = does naming Pond's lift recognition? Cell B vs C = does generational trust (mom's cream) or personal frustration (own shelf) convert better? Carol the ex-cosmetics-counter-worker is the discovery character in all three. Water-vs-fat mechanism, day markers, habit-cessation, close are identical across all three.
+
+**Status:** Written, 10/10 density on all three, compliance audits passed. Each ~1,280-1,310 words (slightly under 1,400-1,600 target — can pad Day 14-21 beats or Carol mechanism at write-to-launch time). Need a batch number assigned and images built before launch. Slots as TOF Marksman cells in B19+ or whenever the B17/B18 sequence resolves. Not for the current spend window.
 
 ---
 

@@ -148,7 +148,12 @@ Designed for **cold, top-of-funnel** traffic only (per founder, we are TOF-only 
 
 ## 11. Founder Decisions (LOCKED 2026-06-20)
 
-1. **Brand naming: TEST IT.** Write two cells — Cell A names Pond's directly, Cell B uses the generic "the cream my mother used / the white drugstore jar." Built-in A/B on naming. Compliance posture: health claims are the hard line ("their product will burn your skin" = banned), but naming the brand in a formula-drift / category-shift frame is acceptable. Do not assert the named product is harmful, only that the category drifted from what made it work.
+1. **Brand naming: 3-CELL TEST (LOCKED 2026-06-20).** Three cells, one naming variable:
+   - **Cell A:** Names brands (Pond's, Olay) — generational hook, mom's specific products.
+   - **Cell B:** Generic nostalgic — "the simple cream my mother used," no brand named. Same generational entry point as A, naming is the only variable.
+   - **Cell C:** Generic own-shelf — "my old skincare products," her own expensive failed shelf. Different entry point entirely (personal frustration vs generational trust), no brands named.
+   - B vs C tests whether the objection-closer lands better through the mother's world or her own failed shelf. Same discovery character, mechanism, and skeleton across all three.
+   - Compliance posture: health claims are the hard line ("their product will burn your skin" = banned). Naming brands in a category-drift frame is acceptable. Do not assert any named product is harmful — only that the category drifted from what made it work.
 2. **Inciting incident: REBUYER.** She rebuys the old cream, it fails. (Photo-finder is already B7C1 — this stays distinct.)
 3. **Discovery character: FRIEND WHO WORKED A COSMETICS COUNTER YEARS AGO.** Gives lay-level drift credibility ("I saw what they put in everything when I worked the counter at [department store] in the '90s") without any current credential. Natural authority, not a professional endorsement.
 
