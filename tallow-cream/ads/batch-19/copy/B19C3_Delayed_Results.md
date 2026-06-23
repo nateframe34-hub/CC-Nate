@@ -41,8 +41,8 @@ Below the divider: a thick horizontal timeline arrow running left to right acros
 
 Below each tick mark, a descriptor in smaller handwriting:
 - WEEK 1: "nothing obvious" with a flat neutral face icon
-- WEEK 2: "something feels different?" with a small upward arrow and question mark
-- WEEK 3: "coworker asks what changed" with a small speech bubble icon
+- WEEK 2: "might look worse before better" with a small downward arrow and question mark
+- WEEK 3: "people ask if you've been on vacation" with a small speech bubble icon
 - WEEK 4: "stopped carrying lotion in her purse" with a bold checkmark
 
 Between WEEK 1 and WEEK 2, prominently above the timeline: a large circled callout drawn in red marker (if color available) or heavy bold black marker if not. Inside or beside the circle, handwritten text reads: "← most people quit here". The circle and arrow should be the most visually dominant element on the diagram — larger than the week labels, clearly emphasized.
