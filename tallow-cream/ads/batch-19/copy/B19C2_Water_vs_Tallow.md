@@ -3,23 +3,25 @@
 **Batch:** 19
 **Cell:** C2 of 3
 **Format:** Whiteboard static image
-**Avatar:** Invisible Woman — The Skeptic/Researcher (has seen tallow content before, wants the logical explanation not the story)
-**Angle:** Core mechanism — water evaporates, fat absorbs, that's physics not marketing
+**Avatar:** Invisible Woman — The Skeptic/Researcher (has seen tallow content before, wants the logical explanation, rolled her eyes at the ancestral hype)
+**Angle:** Core mechanism — water evaporates, fat absorbs, that's physics not marketing. Result state added to bridge mechanism to real-life outcome.
 **Test variable:** Whiteboard format CPM + mechanism-explaining approach
 
 ---
 
 ## Primary Text
 
-Your moisturizer stops working by noon because water evaporates. That's not your skin. That's physics.
+Most creams stop working by noon because water evaporates. That's not the skin. That's physics.
 
-Four ingredients. $49.99. Free shipping. 60-day money-back guarantee.
+Tallow absorbs the way skin absorbs its own oil. It doesn't evaporate. It stays.
+
+Four ingredients. $49.99. 60-day money-back guarantee. Free shipping.
 
 ---
 
 ## Headline
 
-The reason tallow works when nothing else does.
+The reason it's still there at 2pm.
 
 ---
 
@@ -31,12 +33,12 @@ $49.99. Free shipping. 60-day refund.
 
 ## Image Prompt (Nano Banana 2)
 
-Hand-drawn whiteboard diagram, black marker on clean white background, no people, no faces, flat illustration style. Two clearly labeled columns side by side divided by a vertical dashed line down the center.
+Hand-drawn whiteboard diagram, black marker on clean white background, no people, no faces, flat illustration style. Two clearly labeled columns side by side divided by a vertical dashed center line.
 
-LEFT COLUMN — bold marker header reads "Water-Based Moisturizer". Below: several small circle shapes labeled "H₂O" sitting on a horizontal surface line representing skin. Above the circles, five upward arrows of varying heights, indicating evaporation rising off the surface. Small sun icon in top corner of the panel. Below the surface line, a small clock reading "12:00pm" with the word "TIGHT" in capitals next to it. A small sad face or frown drawn in marker.
+LEFT COLUMN — bold marker header reads "Most Creams". Below: several small circle shapes each labeled "H₂O" sitting on top of a horizontal surface line. Above the circles, five upward arrows of varying heights rising off the surface, indicating evaporation. Small sun or heat icon in the upper corner of the panel. Below the surface line, a small clock icon reading "12:00pm" with the word "TIGHT" in capitals beside it. A small frowning face in marker. Below that, two additional small lines: "reapplying all day" and "foundation cracking". A small X mark next to each.
 
-RIGHT COLUMN — bold marker header reads "Tallow Balm". Below: several small oval shapes labeled "FAT" sitting on the same horizontal surface line. Below the surface line, downward arrows showing the fat molecules moving INTO the surface, absorbed. Above the surface, no upward arrows — flat and clear. Small clock reading "12:00pm" with the words "STILL THERE" in capitals next to it. A simple checkmark.
+RIGHT COLUMN — bold marker header reads "Tallow Balm". Below: several small oval shapes labeled "FAT" on the same horizontal surface line. Below the surface line, downward arrows showing the fat ovals moving INTO and through the surface, absorbed. Above the surface line: flat and clear, no upward arrows, nothing sitting on top. Below the absorbed layer, a small clock icon reading "12:00pm" with the words "STILL THERE" in capitals beside it. A simple checkmark. Below that, two additional small lines in handwriting: "foundation sits flat" and "no reapplying". A checkmark next to each.
 
 Bottom center of diagram, handwritten text reads: "Water evaporates. Fat absorbs. That's it."
 
-Style: casual hand-drawn marker, slightly imperfect strokes, whiteboard aesthetic, no photorealism, no gradients, black lines on white only. Legible at mobile feed size. 4:5 aspect ratio, 1080x1350.
+Style: casual hand-drawn marker, slightly imperfect strokes, whiteboard aesthetic, no photorealism, no gradients, black lines on white only. All text must be clearly legible at mobile feed size. 4:5 aspect ratio, 1080x1350.
