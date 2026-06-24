@@ -3,7 +3,7 @@
 > Real-time handoff document. Updated whenever work happens, decisions get made, or items complete.
 > Read this at session start BEFORE doing anything else (after CLAUDE.md).
 
-**Last Updated:** 2026-06-22
+**Last Updated:** 2026-06-24
 **Active Brand:** Tallow Cream
 **Project Phase:** Mastery Council v2 locked after Fable 5 gap audit + founder corrections. Plan: Phase 1 funnel fix during BM warmup → Phase 2 B16 race at $50/day (C1 benchmark vs C2 Quiet House vs C3 One Who Should Have Fallen Apart) → Phase 3 Avatar Bible on winner → Phase 4 scale +20% per 3 positive-ROAS days, $1K/mo sustained gates the $10K push.
 
@@ -27,9 +27,9 @@ The reason the old `SESSION_STATE.md` went stale (Apr 16 → Apr 27 with no upda
 
 ## Right Now
 
-**B17 IS LIVE — Day 4 in the books (logged 2026-06-22).** 4-cell ABO at $20/day (C1 B9C3 verbatim control, C2 Same-Morning Grind, C3 Cost-Bleed, C4 Closing Window). **Day 1:** C4 led (51% of spend, 1 ATC). **Day 2:** reversal, C3 led (81%, 1 IC, 0 purchases). **Day 3 (June 18):** near-account-stall, ~$1.41 total; C2 got its first-ever delivery (2 impressions, $35 CPM, 1 click — far cheaper CPM than the rest of the batch but n is tiny). **Day 4 (June 21):** ★ SECOND PURCHASE ★ — C1 control (B9C3 verbatim) converted: $5.56 spend → 1 purchase at $49.99, ~9x gross ROAS on the cell. C3 still eating ~80% of spend ($20.77) with 1 ATC, 0 purchases (Day 2 IC abandoned). C4 strong engagement ($108 CPM, 14% CTR) but starved. Running total ~$95+ of the ~$300 pivot checkpoint.
+**B17 COMPLETE — Day 6 logged (2026-06-24). VERDICT: B9C3 verbatim is the converter. Urgency variants did not lift.** 4-cell ABO at $20/day. C1 (B9C3 verbatim control) had 3 total purchases across 6 days. Day 6 was the best single-day result: $17.19 spend → 2 purchases → 5.82x gross ROAS on the cell. C3 (Cost-Bleed) was killed by founder before Day 6. C2 (Same-Morning Grind) and C4 (Closing Window) got near-zero delivery throughout. Running total ~$115 of $300 pivot checkpoint. C1 is confirmed converter. B17 outcome branch: **urgency variants did not lift vs. the control → B18 is Marksman (3-angle test on Invisible Woman).** Next logical move: build B18 Marksman copy (C2 Cognitive Relief + C3 Predictability), confirm B19 whiteboard batch (creative prompts finalized, awaiting generation + launch), confirm PDP pricing.
 
-**FOUNDER DECISION (2026-06-22):** Let it run one more day. If by Day 6 (tomorrow) Meta is STILL concentrating budget on C3 (worst performer — 0 purchases despite getting the most volume) and ignoring the converting cells, turn C3 OFF. Rationale: in ABO, killing C3 doesn't reset learning on the other ad sets, and it frees the ~80% of budget C3 is hoarding to flow to C1 (the actual converter), C2, and C4. Trigger condition for the kill: C3 still dominating AND still zero purchases. (If C3 lands a purchase overnight, reassess.)
+**B19 WHITEBOARD BATCH — In progress.** 3-cell whiteboard static format test (C1 Greasy/Shiny, C2 Water vs Tallow, C3 Delayed Results). Copy written. Image prompts finalized with physical whiteboard frame + colored dry-erase markers. User regenerating creatives. Not yet launched.
 
 **PDP pricing change (2026-06-20):** moved to compare-at $69.99 to $49.99 via automatic discount so the discount shows in-cart; within the locked compare-at decision; STILL NEED TO VERIFY the PDP shows the discounted price not a bare $69.99 (B9C3 copy says "$49.99" three times, a $69.99 sticker breaks message-match mid-test).
 
