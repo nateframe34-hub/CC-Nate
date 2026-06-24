@@ -35,20 +35,20 @@ $49.99. Free shipping. 60-day refund.
 
 A photograph of a real physical whiteboard filling the frame. The whiteboard has a visible silver aluminum border/frame around all four edges. The whiteboard surface is slightly off-white with a subtle glossy texture — not pure white paper, but a real dry-erase board surface. The board is viewed straight-on so the frame edge is visible on all sides. Natural indoor lighting with a slight overhead light reflection on the glossy whiteboard surface.
 
-On the whiteboard surface, hand-drawn in black and red dry-erase marker: no people, no faces.
+On the whiteboard surface, hand-drawn in multiple colored dry-erase markers: no people, no faces.
 
-At the very top of the image, a short header beat in bold marker: "Fat rebuilds what skin stopped making." Below it, one line smaller: "Takes weeks, not days." A simple horizontal dividing line separates this header from the main timeline below.
+At the very top of the image, a short header beat in bold BLUE marker: "Fat rebuilds what skin stopped making." Below it, one line smaller in BLUE: "Takes weeks, not days." A simple horizontal BLACK dividing line separates this header from the main timeline below.
 
-Below the divider: a thick horizontal timeline arrow running left to right across the middle of the image. Four evenly spaced vertical tick marks along the timeline, each labeled in bold handwritten text from left to right: WEEK 1 / WEEK 2 / WEEK 3 / WEEK 4.
+Below the divider: a thick horizontal BLACK timeline arrow running left to right across the middle of the image. Four evenly spaced vertical BLACK tick marks along the timeline, each labeled in bold BLACK handwritten text from left to right: WEEK 1 / WEEK 2 / WEEK 3 / WEEK 4.
 
 Below each tick mark, a descriptor in smaller handwriting:
-- WEEK 1: "nothing obvious" with a flat neutral face icon
-- WEEK 2: "might look worse before better" with a small downward arrow and question mark
-- WEEK 3: "people ask if you've been on vacation" with a small speech bubble icon
-- WEEK 4: "stopped carrying lotion in her purse" with a bold checkmark
+- WEEK 1: "nothing obvious" in ORANGE with a flat neutral face icon in ORANGE
+- WEEK 2: "might look worse before better" in ORANGE with a small downward ORANGE arrow and question mark
+- WEEK 3: "people ask if you've been on vacation" in GREEN with a small GREEN speech bubble icon
+- WEEK 4: "stopped carrying lotion in her purse" in GREEN with a bold GREEN checkmark
 
-Between WEEK 1 and WEEK 2, prominently above the timeline: a large circled callout drawn in red marker (if color available) or heavy bold black marker if not. Inside or beside the circle, handwritten text reads: "← most people quit here". The circle and arrow should be the most visually dominant element on the diagram — larger than the week labels, clearly emphasized.
+Between WEEK 1 and WEEK 2, prominently above the timeline: a large circled callout drawn in RED marker. Inside or beside the circle, handwritten text in RED reads: "← most people quit here". The RED circle and arrow should be the most visually dominant element on the entire diagram — larger than the week labels, clearly emphasized, impossible to miss.
 
-Below the full timeline at the bottom of the image, smaller handwritten text: "The results sneak up on you. That's how you know they're real."
+Below the full timeline at the bottom of the image, smaller BLACK handwritten text: "The results sneak up on you. That's how you know they're real."
 
-The marker lines are slightly imperfect and hand-drawn looking on the glossy whiteboard surface. Primary lines in black dry-erase marker. The "most people quit here" callout drawn in red dry-erase marker — this should be the most visually prominent element on the board. No photorealism in the drawings. All text clearly legible at mobile screen size. 4:5 aspect ratio, 1080x1350.
+The marker lines are slightly imperfect and hand-drawn looking on the glossy whiteboard surface. No photorealism in the drawings. All text clearly legible at mobile screen size. 4:5 aspect ratio, 1080x1350.
