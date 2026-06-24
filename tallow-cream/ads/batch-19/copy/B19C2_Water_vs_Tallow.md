@@ -33,7 +33,9 @@ $49.99. Free shipping. 60-day refund.
 
 ## Image Prompt (Nano Banana 2)
 
-Hand-drawn whiteboard diagram, black marker on clean white background, no people, no faces, flat illustration style. Two clearly labeled columns side by side divided by a vertical dashed center line.
+A photograph of a real physical whiteboard filling the frame. The whiteboard has a visible silver aluminum border/frame around all four edges. The whiteboard surface is slightly off-white with a subtle glossy texture — not pure white paper, but a real dry-erase board surface. The board is viewed straight-on so the frame edge is visible on all sides. Natural indoor lighting with a slight overhead light reflection on the glossy whiteboard surface.
+
+On the whiteboard surface, hand-drawn in black dry-erase marker: two clearly labeled columns side by side divided by a vertical dashed center line drawn in marker.
 
 LEFT COLUMN — bold marker header reads "Most Creams". Below: several small circle shapes each labeled "H₂O" sitting on top of a horizontal surface line. Above the circles, five upward arrows of varying heights rising off the surface, indicating evaporation. Small sun or heat icon in the upper corner of the panel. Below the surface line, a small clock icon reading "12:00pm" with the word "TIGHT" in capitals beside it. A small frowning face in marker. Below that, two additional small lines: "reapplying all day" and "foundation cracking". A small X mark next to each.
 
@@ -41,4 +43,4 @@ RIGHT COLUMN — bold marker header reads "Tallow Balm". Below: several small ov
 
 Bottom center of diagram, handwritten text reads: "Water sits on top. Skin lets fat in. That's it."
 
-Style: casual hand-drawn marker, slightly imperfect strokes, whiteboard aesthetic, no photorealism, no gradients, black lines on white only. All text must be clearly legible at mobile feed size. 4:5 aspect ratio, 1080x1350.
+The marker lines are slightly imperfect and hand-drawn looking. No photorealism in the drawings themselves — simple flat line-art style on the glossy whiteboard surface. All text clearly legible at mobile feed size. 4:5 aspect ratio, 1080x1350.

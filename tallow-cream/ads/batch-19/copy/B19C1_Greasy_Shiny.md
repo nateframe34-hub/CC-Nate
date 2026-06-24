@@ -31,12 +31,14 @@ $49.99. Free shipping. 60-day refund.
 
 ## Image Prompt (Nano Banana 2)
 
-Hand-drawn whiteboard diagram, black marker on clean white background, no people, no faces, flat illustration style. Two clearly labeled columns side by side divided by a vertical center line.
+A photograph of a real physical whiteboard filling the frame. The whiteboard has a visible silver aluminum border/frame around all four edges. The whiteboard surface is slightly off-white with a subtle glossy texture — not pure white paper, but a real dry-erase board surface. The board is viewed straight-on, slightly filling the frame so the frame edge is visible on all sides. Natural indoor lighting with a slight overhead light reflection on the glossy whiteboard surface.
 
-LEFT COLUMN — bold marker header reads "Other Balms". Below the header: a thick rounded blob shape sitting ON TOP of a horizontal surface line, not penetrating it. Three starburst/glare shapes above the blob indicating shine. Two upward-curved arrows rising from the blob surface indicating the product sitting and not absorbing. Below the surface line, a small downward label reads "pores suffocated underneath" with a small blocked or X icon. Further below, the word "SHINY" in large bold letters. Below that, a frowning face drawn in marker.
+On the whiteboard surface, hand-drawn in black dry-erase marker: two clearly labeled columns side by side divided by a vertical center line drawn in marker.
+
+LEFT COLUMN — bold marker header reads "Other Balms". Below the header: a thick rounded blob shape sitting ON TOP of a horizontal surface line, not penetrating it. Three starburst/glare shapes above the blob indicating shine. Two upward-curved arrows rising from the blob surface indicating the product sitting and not absorbing. Below the surface line, a small downward label reads "pores suffocated underneath" with a small X icon. Further below, the word "SHINY" in large bold letters. Below that, a frowning face drawn in marker.
 
 RIGHT COLUMN — bold marker header reads "Tallow Balm". Below the header: a small dot of product on the same horizontal surface line, with three downward arrows pointing INTO and through the surface line, indicating full absorption. Above the surface line after absorption: nothing — flat, clean, no blob remaining. Below the surface line, a small label reads "skin breathes". Further below, the word "SOFT" in large bold letters. Below that, three additional lines in smaller handwriting: "matte at 9am", "no blotting before meetings", and "a little goes a long way" with a small dime-sized circle drawn beside it to indicate amount. A simple checkmark next to each line.
 
-Bottom center of image, smaller handwritten text reads: "It absorbed. It didn't sit."
+Bottom center of whiteboard, smaller handwritten text reads: "It absorbed. It didn't sit."
 
-Style: casual hand-drawn marker lines, slightly imperfect like a real whiteboard, no photorealism, no gradients, no shadows, no 3D effects. Black marker lines only, white background. All text clearly legible at mobile screen size. 4:5 aspect ratio, 1080x1350.
+The marker lines are slightly imperfect and hand-drawn looking, as if drawn quickly on the whiteboard. No photorealism in the drawings themselves — simple flat line-art style. All text clearly legible. 4:5 aspect ratio, 1080x1350.

@@ -33,7 +33,9 @@ $49.99. Free shipping. 60-day refund.
 
 ## Image Prompt (Nano Banana 2)
 
-Hand-drawn whiteboard diagram, black marker on clean white background, no people, no faces, flat illustration style.
+A photograph of a real physical whiteboard filling the frame. The whiteboard has a visible silver aluminum border/frame around all four edges. The whiteboard surface is slightly off-white with a subtle glossy texture — not pure white paper, but a real dry-erase board surface. The board is viewed straight-on so the frame edge is visible on all sides. Natural indoor lighting with a slight overhead light reflection on the glossy whiteboard surface.
+
+On the whiteboard surface, hand-drawn in black and red dry-erase marker: no people, no faces.
 
 At the very top of the image, a short header beat in bold marker: "Fat rebuilds what skin stopped making." Below it, one line smaller: "Takes weeks, not days." A simple horizontal dividing line separates this header from the main timeline below.
 
@@ -49,4 +51,4 @@ Between WEEK 1 and WEEK 2, prominently above the timeline: a large circled callo
 
 Below the full timeline at the bottom of the image, smaller handwritten text: "The results sneak up on you. That's how you know they're real."
 
-Style: casual hand-drawn marker, slightly imperfect strokes, real whiteboard feel, no photorealism, no gradients. Primary lines in black marker. The "most people quit here" callout in red marker if the generator supports it, otherwise heavy black. All text clearly legible at mobile screen size. 4:5 aspect ratio, 1080x1350.
+The marker lines are slightly imperfect and hand-drawn looking on the glossy whiteboard surface. Primary lines in black dry-erase marker. The "most people quit here" callout drawn in red dry-erase marker — this should be the most visually prominent element on the board. No photorealism in the drawings. All text clearly legible at mobile screen size. 4:5 aspect ratio, 1080x1350.
