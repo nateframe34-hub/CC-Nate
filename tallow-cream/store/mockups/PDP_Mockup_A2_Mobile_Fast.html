@@ -7,9 +7,8 @@
 
 <!--
   PERFORMANCE NOTES (production guidance baked into this build):
-  1. ONE web font only (Fraunces, headings) with font-display:swap so text paints
-     immediately in a fallback and swaps when ready. Body uses the system font stack
-     (zero font download). This alone removes the largest render-blocking cost.
+  1. ZERO web fonts. All type uses the system font stack (system sans for body,
+     Georgia for headings) so there is no font download or render-blocking request.
   2. All CSS is inline in <head> (critical CSS) = no extra stylesheet round-trip.
   3. Icons are inline SVG defined ONCE as a hidden sprite and reused via <use>.
      No emoji (OS-dependent + ugly), no icon-font download, crisp at any DPR.
@@ -21,9 +20,6 @@
   6. Mobile-first: base styles = mobile. Desktop is layered at @media(min-width:820px).
 -->
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
 <style>
   :root{
     --cream:#F6F1E9;--cream-2:#EFE7DA;--ink:#23291F;
@@ -36,7 +32,7 @@
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     color:var(--ink);background:var(--cream);line-height:1.5;-webkit-font-smoothing:antialiased;
   }
-  h1,h2,h3,.serif{font-family:'Fraunces',Georgia,'Times New Roman',serif;font-weight:600;letter-spacing:-.01em;line-height:1.1}
+  h1,h2,h3,.serif{font-family:Georgia,'Times New Roman',serif;font-weight:600;letter-spacing:-.01em;line-height:1.1}
   .wrap{width:100%;max-width:1100px;margin:0 auto;padding:0 18px}
   .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--amber)}
   .icon{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
@@ -50,7 +46,7 @@
   .anno b{color:var(--amber-soft)}
   nav{background:var(--cream);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:40}
   .nav-in{display:flex;align-items:center;justify-content:space-between;padding:13px 18px;max-width:1100px;margin:0 auto}
-  .word{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:20px}
+  .word{font-family:Georgia,'Times New Roman',serif;font-weight:600;font-size:20px}
   .word span{color:var(--amber)}
   .menu{display:flex;gap:16px;color:var(--grey)}
   .menu .icon{width:22px;height:22px}
@@ -61,7 +57,7 @@
   .gallery .main{background:linear-gradient(150deg,#EFE6D6,#E3D4BC);border-radius:18px;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
   .jar{width:48%;aspect-ratio:3/4;background:linear-gradient(180deg,#caa46a,#9a6f3a);border-radius:12px 12px 16px 16px/9px 9px 18px 18px;box-shadow:0 18px 38px rgba(60,40,15,.26);position:relative}
   .jar:before{content:"";position:absolute;inset:9% 14% auto 14%;height:50%;background:var(--paper);border-radius:5px}
-  .jar:after{content:"TALLOW\A& HONEY\ABALM";white-space:pre;position:absolute;top:17%;left:0;right:0;text-align:center;font-family:'Fraunces',serif;font-size:12px;font-weight:600;color:#3c2c12;line-height:1.3}
+  .jar:after{content:"TALLOW\A& HONEY\ABALM";white-space:pre;position:absolute;top:17%;left:0;right:0;text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:12px;font-weight:600;color:#3c2c12;line-height:1.3}
   .jar-lid{position:absolute;top:-3%;left:31%;right:31%;height:9%;background:linear-gradient(180deg,#3a3326,#2a2419);border-radius:7px 7px 3px 3px}
   .badge{position:absolute;top:14px;left:14px;background:var(--amber);color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 11px;border-radius:999px}
   .thumbs{display:flex;gap:9px;margin-top:10px}
@@ -77,7 +73,7 @@
   .buy h1{font-size:30px;margin-bottom:6px}
   .subt{font-size:13px;color:var(--grey);margin-bottom:14px;font-weight:600}
   .price{display:flex;align-items:baseline;gap:10px;margin-bottom:5px;flex-wrap:wrap}
-  .price .now{font-family:'Fraunces',serif;font-size:30px;font-weight:600}
+  .price .now{font-family:Georgia,'Times New Roman',serif;font-size:30px;font-weight:600}
   .price .was{font-size:17px;color:#9a927d;text-decoration:line-through}
   .price .save{background:var(--amber-soft);color:#6a481a;font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px}
   .ship{font-size:12.5px;color:var(--grey);margin-bottom:16px}
@@ -110,7 +106,7 @@
   .diagram{display:grid;grid-template-columns:1fr;gap:0;max-width:840px;margin:24px auto 0;background:var(--paper);border-radius:16px;overflow:hidden;color:var(--ink)}
   .dcol{padding:22px 20px}
   .dcol+.dcol{border-top:2px dashed var(--line)}
-  .dcol h4{font-family:'Fraunces',serif;font-size:18px;margin-bottom:14px}
+  .dcol h4{font-family:Georgia,'Times New Roman',serif;font-size:18px;margin-bottom:14px}
   .dcol.bad h4{color:var(--red)}.dcol.good h4{color:var(--green)}
   .surface{height:2px;background:var(--ink);margin:12px 0}
   .mol{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:5px}
@@ -119,18 +115,18 @@
   .arr{font-size:18px;letter-spacing:5px}.arr.up{color:var(--red)}.arr.dn{color:var(--green)}
   .dnote{font-size:13px;margin-top:9px;font-weight:500;color:#46503c}
   .dnote.bad{color:var(--red)}
-  .dbottom{max-width:840px;margin:16px auto 0;text-align:center;font-family:'Fraunces',serif;font-size:18px;color:#fff}
+  .dbottom{max-width:840px;margin:16px auto 0;text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:18px;color:#fff}
 
   .math{display:grid;grid-template-columns:1fr;gap:12px;max-width:760px;margin:0 auto;align-items:center}
   .math .side{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px;text-align:center}
-  .math .big{font-family:'Fraunces',serif;font-size:52px;font-weight:700;line-height:1}
+  .math .big{font-family:Georgia,'Times New Roman',serif;font-size:52px;font-weight:700;line-height:1}
   .math .bad .big{color:var(--red)}.math .good .big{color:var(--green)}
   .math .lbl{font-size:13px;color:var(--grey);margin-top:6px;font-weight:600}
   .math .to{font-size:24px;color:var(--amber);text-align:center}
 
   .labels{display:grid;grid-template-columns:1fr;gap:16px;max-width:860px;margin:0 auto}
   .label-card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px}
-  .label-card h4{font-family:'Fraunces',serif;font-size:17px;margin-bottom:12px}
+  .label-card h4{font-family:Georgia,'Times New Roman',serif;font-size:17px;margin-bottom:12px}
   .label-card.bad h4{color:var(--red)}.label-card.good h4{color:var(--green)}
   .ing{font-size:13.5px;padding:6px 0;border-bottom:1px dashed var(--line);color:#5c5848}
   .ing.first{font-weight:700;color:var(--red)}
@@ -139,12 +135,12 @@
 
   .stats{display:grid;grid-template-columns:1fr;gap:14px;max-width:820px;margin:0 auto}
   .stat{text-align:center;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px}
-  .stat .n{font-family:'Fraunces',serif;font-size:44px;font-weight:700;color:var(--green);line-height:1}
+  .stat .n{font-family:Georgia,'Times New Roman',serif;font-size:44px;font-weight:700;color:var(--green);line-height:1}
   .stat .t{font-size:13.5px;color:var(--grey);font-weight:500;margin-top:5px}
 
   .ba{display:grid;grid-template-columns:1fr;gap:18px;max-width:820px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px}
   .ba .photo{aspect-ratio:16/10;border-radius:12px;background:linear-gradient(150deg,#e7ddc9,#cbb894)}
-  .ba blockquote{font-family:'Fraunces',serif;font-size:20px;font-weight:500;line-height:1.3;margin-bottom:12px}
+  .ba blockquote{font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:500;line-height:1.3;margin-bottom:12px}
   .ba .who{font-size:13px;color:var(--grey);font-weight:600}
   .ba .stars{margin-bottom:12px;display:block}
 
@@ -166,7 +162,7 @@
   .final .trust-strip div{color:#cfc6b2}.final .trust-strip .icon{color:var(--amber-soft)}
 
   .sticky{position:fixed;left:0;right:0;bottom:0;background:var(--cream);border-top:1px solid var(--line);padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;z-index:50;box-shadow:0 -6px 18px rgba(0,0,0,.07)}
-  .sticky .p{font-family:'Fraunces',serif;font-weight:600;font-size:17px}
+  .sticky .p{font-family:Georgia,'Times New Roman',serif;font-weight:600;font-size:17px}
   .sticky .btn{width:auto;padding:13px 26px;font-size:15px}
   body{padding-bottom:70px}
   .note{max-width:1100px;margin:0 auto;padding:18px;font-size:11.5px;color:#9a927d;text-align:center;font-style:italic}

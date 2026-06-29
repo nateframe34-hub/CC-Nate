@@ -48,7 +48,7 @@ title/price/images/variant are pulled live from the product.
 ## Notes & guardrails
 
 - **Images:** the gallery uses the product's own images (featured image = hero, next 3 = thumbnails). Upload real product/texture/lifestyle photos to the product. Hero image loads with high priority; thumbnails lazy-load. Use compressed webp where possible for speed.
-- **Speed:** CSS is inline and scoped to `#tallow-pdp` (won't collide with Shrine). Below-fold sections use `content-visibility:auto`. The only external request is the Fraunces font (with display:swap). For maximum speed you can self-host Fraunces or swap to a system serif — ask and I'll wire it.
+- **Speed:** CSS is inline and scoped to `#tallow-pdp` (won't collide with Shrine). Below-fold sections use `content-visibility:auto`. There are ZERO external font requests (system font stack: Georgia headings, system sans body), so the page has no render-blocking font download.
 - **Single variant (120g):** the forms use `selected_or_first_available_variant`, so it works as-is. If you add variants later, we'll add a variant picker.
 - **Reviews:** the featured review is one editable block. To show your full review widget (e.g. a reviews app), add its app block / snippet inside the `#tlw-reviews` section — tell me which app and I'll wire it.
 - **This does NOT change your default product template.** Only the products you assign to `tallow` use it. Everything else is untouched.
