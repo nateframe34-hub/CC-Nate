@@ -32,21 +32,21 @@ $49.99. Free shipping. 60-day refund.
 
 ---
 
-## Image Prompt (Nano Banana 2)
+## Image Prompt (Nano Banana 2) — built to Whiteboard_Ad_Format_Principles.md
 
-A photograph of a real physical whiteboard filling the frame. The whiteboard has a visible silver aluminum border/frame around all four edges. The whiteboard surface is slightly off-white with a subtle glossy texture — a real dry-erase board surface, not pure white paper. The board is viewed straight-on so the frame edge is visible on all sides. Natural indoor lighting with a slight overhead light reflection on the glossy surface. Slight wear and faint old marker ghosting on the board so it reads as a real used whiteboard.
+A photograph of a real physical whiteboard filling the frame, mounted on a wall above a wooden desk/marker rail. The whiteboard has a visible silver aluminum border/frame on all four edges, a slightly off-white glossy dry-erase surface (not pure white paper), an overhead light reflection on the glossy surface, and faint ghosting from old erased marker so it reads as a real, used board. On the wooden rail below the board sits a REAL amber glass jar of tallow balm (actual product photo composited in, naturally lit, slightly off to the right) next to a couple of dry-erase markers.
 
-On the whiteboard surface, hand-drawn in multiple colored dry-erase markers: two clearly labeled columns side by side divided by a vertical BLACK center line.
+On the whiteboard surface, hand-drawn in colored dry-erase markers, two columns divided by a vertical BLACK center line.
 
-LEFT COLUMN — bold BLACK marker header reads "What I Had". Below it, a large messy cluster of small bottle and jar shapes drawn in RED and ORANGE marker — roughly fourteen of them, different shapes (pump bottles, droppers, tubs, tubes), drawn quickly and crowded together so they overlap and look overwhelming. A few tiny RED labels scattered among them: "toner", "serum", "retinol", "eye cream", "day", "night". Above the cluster a RED handwritten number "14" with a circle around it. Below the cluster, in RED: "$$$ / month" and underneath "still tight by noon" with a small RED frowning face and a RED X.
+LEFT COLUMN — bold BLACK header "What I Had". Below it, a hand-drawn woman's FACE in RED/ORANGE marker drawn to look dull, tired and tight — flat shading on the cheeks (ORANGE scribble fill), a small downturned mouth, a "tight by noon" label with a RED arrow pointing at the cheek, and a RED frowning face icon. Surrounding the face, a crowded messy cluster of ~14 small bottle/jar/tube/dropper shapes in RED and ORANGE, overlapping so they look overwhelming, with tiny scattered labels: "toner", "serum", "retinol", "eye cream", "day", "night". Above the cluster a big RED circled number "14". Below: in RED, "$$$ every month" and a RED X.
 
-RIGHT COLUMN — bold BLACK marker header reads "What I Use Now". Below it, a single GREEN jar shape drawn cleanly and simply, with a small GREEN "1" circled above it. Below the jar, in GREEN handwriting: "4 ingredients". Underneath that, three short GREEN lines each with a GREEN checkmark: "absorbs in 60 sec", "soft all day", "stopped buying the rest". Lots of clean open space around the single jar to contrast with the crowded left side.
+RIGHT COLUMN — bold BLACK header "Tallow Balm" (the product name as the bridge/solution header). Below it, the SAME woman's face redrawn in GREEN, now soft, calm and relaxed — smooth even shading, a small relaxed smile, a GREEN "soft all day" label, a GREEN smiling-face icon. Beside the face, a single clean GREEN jar shape with a small GREEN circled "1" above it. Below: three short GREEN lines each with a GREEN checkmark — "4 ingredients", "absorbs in 60 sec", "stopped buying the rest". Lots of calm open space versus the cluttered left side.
 
-A bold BLACK arrow runs from the messy left cluster across the center line pointing to the single jar on the right.
+A thick BLACK arrow runs from the messy left cluster across the center line to the single jar on the right; the word "switched" is written small in BLUE along the arrow.
 
-Bottom center of the whiteboard, BLACK handwritten text reads: "Fourteen down to one. The tight feeling went with them."
+Bottom center, in LARGE bold BLACK script (second-biggest text on the board after the headers): "Fourteen down to one. The tight feeling went with them."
 
-The marker lines are slightly imperfect and hand-drawn looking. No photorealism in the drawings — simple flat line-art style on the glossy whiteboard surface. The left side should feel visually cluttered and stressful; the right side calm and empty. All text clearly legible at mobile feed size. 4:5 aspect ratio, 1080x1350.
+Marker lines slightly imperfect and hand-drawn. Simple flat line-art (no photorealism in the drawings themselves, except the real composited jar on the rail). Left side visually cluttered and stressful; right side calm and open. Clear eye-path: messy face/cluster → black arrow → single jar → bottom line. All text legible at mobile feed size. 4:5 aspect ratio, 1080x1350.
 
 ---
 
