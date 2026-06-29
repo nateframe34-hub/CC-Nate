@@ -12,9 +12,13 @@
 
 ## Primary Text
 
-Fourteen products on my counter and my skin was still tight by noon.
+My bathroom counter had fourteen things on it. My skin was still tight by noon.
 
-I replaced all of it with one jar. Four ingredients. The tight feeling is gone and I stopped buying the other thirteen.
+So I did something that scared me. I threw out thirteen of them.
+
+I kept one jar. Four ingredients.
+
+The tight feeling left with the clutter. I haven't reached for anything else since — and I stopped buying the other thirteen.
 
 $49.99. 60-day money-back guarantee. Free shipping.
 
@@ -22,13 +26,27 @@ $49.99. 60-day money-back guarantee. Free shipping.
 
 ## Headline
 
-Fourteen products couldn't do what one jar did.
+Fourteen products. One jar did what they couldn't.
 
 ---
 
 ## Description
 
-$49.99. Free shipping. 60-day refund.
+$49.99 · Free shipping · 60-day refund.
+
+---
+
+## Short-Form Copy Self-Audit (Principle 11)
+
+1. ✅ Scroll-stop first line — "fourteen things on it... still tight by noon," concrete, no throat-clearing
+2. ✅ Specific shared experience — the crowded counter + tight by noon (not generic "dry skin")
+3. ✅ Pivot — "I threw out thirteen of them" (the contrast the diagram makes)
+4. — Mechanism: intentionally skipped; the 14→1 comparison IS the argument for this cell
+5. ✅ Identity/relief payoff — "the tight feeling left with the clutter," "haven't reached for anything else" (relief, not "soft skin")
+6. ✅ Specific numbers — 14, 13, 1, 4, $49.99, 60-day
+7. ✅ Clean offer stack
+- Pattern interrupt: "I kept one jar. Four ingredients." standalone line ✅
+- First-person body, no second-person preaching ✅
 
 ---
 

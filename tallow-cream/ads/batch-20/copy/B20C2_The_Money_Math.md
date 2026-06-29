@@ -12,9 +12,15 @@
 
 ## Primary Text
 
-I added up what I spent on my face last year. It was almost $600 and my skin was still tight by noon.
+I added up a year of face cream once. Almost six hundred dollars.
 
-One jar replaced all of it. $49.99. Four ingredients. The math finally makes sense.
+And my skin was still tight by noon.
+
+Six hundred dollars to feel like that.
+
+One jar replaced the whole shelf. Four ingredients. $49.99 — and it lasts months, because a little goes a long way.
+
+I stopped buying the rest. The math finally made sense.
 
 60-day money-back guarantee. Free shipping.
 
@@ -22,13 +28,28 @@ One jar replaced all of it. $49.99. Four ingredients. The math finally makes sen
 
 ## Headline
 
-I did the math on a year of skincare. Then I bought one jar.
+$600 a year. Still tight by noon.
 
 ---
 
 ## Description
 
-$49.99. Free shipping. 60-day refund.
+$49.99 · Free shipping · 60-day refund.
+
+---
+
+## Short-Form Copy Self-Audit (Principle 11)
+
+1. ✅ Scroll-stop first line — "I added up a year of face cream once. Almost six hundred dollars." (arithmetic curiosity, no throat-clearing)
+2. ✅ Specific shared experience — adding up the spend + still tight by noon
+3. ✅ Pivot — "One jar replaced the whole shelf"
+4. — Mechanism skipped; the cost comparison IS the argument for this cell
+5. ✅ Identity/relief payoff — "I stopped buying the rest. The math finally made sense." (relief from waste, not "soft skin")
+6. ✅ Specific numbers — $600, $49.99, 4 ingredients, 60-day
+7. ✅ Clean offer stack
+- Pattern interrupt: "Six hundred dollars to feel like that." standalone ✅
+- Handles the category's #1 objection (price) by reframing $49.99 as the END of a $600 drain ✅
+- First-person body, no second-person preaching ✅
 
 ---
 

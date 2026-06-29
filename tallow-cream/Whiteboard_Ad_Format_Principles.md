@@ -123,6 +123,32 @@ The 4 source examples are **static whiteboard ads** that a media buyer (@ignelme
 
 ---
 
+## PRINCIPLE 11: The Short-Form Copy Skeleton (10/10 primary text / headline / description)
+
+Diagram ads do NOT use the 10-element native skeleton — the diagram carries the persuasion. But the primary text still has a job: it's the VERBAL scroll-stop that complements the visual one, it compresses the diagram's argument for readers who read before they look, and it lands the offer. Short-form copy that's lazy ("Try our balm!") wastes the format. A 10/10 whiteboard primary text hits these 7 beats, in roughly this order, tight:
+
+1. **Scroll-stop first line** — concrete, specific, an open loop or instant recognition. NO throat-clearing ("Are you tired of...", "Introducing..."). Lead with the image in the reader's head. (Comp winner: "Most bathroom counters look like a chemistry lab.")
+2. **Avatar recognition** — a SPECIFIC shared experience ("tight by noon," "fourteen things on the counter," "flipped the bottle over"), not a generic pain. This is the creative-as-targeting filter (native Principle 1) in one line.
+3. **The pivot** — the new information or the contrast the diagram makes, in words. The "here's what changed / here's what I found out" turn.
+4. **Mechanism compression (when relevant)** — ONE line of why ("water evaporates, fat absorbs"). Skip for cells where the comparison itself is the argument (cost, count).
+5. **Identity/relief payoff** — what it MEANS, never "soft skin." Relief, not-having-to, the thing she got back. (native Principle 8, compressed to one line.)
+6. **Specific numbers** — 14, $574, 4 ingredients, 60 seconds, 60-day. Specificity reads as true; round/vague reads as ad.
+7. **Clean offer stack** — $49.99 · 60-day money-back guarantee · free shipping. Always closes here.
+
+**Voice rules (same as native Principle 5, with one format exception):**
+- 6th-grade reading level, average ~10 words/sentence, max 20. Active voice. First-person narrator in the BODY.
+- Pattern-interrupt rhythm: short standalone lines for mobile (a 2-3 word line between longer ones).
+- Concrete nouns, specific numbers, no spa/influencer language, no banned phrases.
+- **Format exception — the HEADLINE may use a second-person curiosity instruction** ("Flip your face cream over. Read the first ingredient."). This is allowed ONLY in the headline and ONLY as a teaching/curiosity prompt, because the whiteboard modality is instructional. The PRIMARY TEXT body stays first-person experience (no "you should," no "imagine if you").
+
+**Headline (Meta headline, short):** one punchy line — the diagram's takeaway or the curiosity instruction. Specific numbers win ("$600 a year. Still tight by noon.").
+
+**Description (Meta description, shortest):** the offer stack only — "$49.99 · Free shipping · 60-day refund."
+
+**Self-audit before locking any short-form copy:** does line 1 stop the scroll without throat-clearing? Is there a SPECIFIC shared experience, not a generic pain? Is the payoff identity/relief, not "soft skin"? Are there specific numbers? Is the offer stack clean and complete? If any answer is no, it's not 10/10 yet.
+
+---
+
 ## WHITEBOARD BUILD CHECKLIST — before generating any whiteboard image
 
 - [ ] Two-column VS structure (problem left / solution right) unless a comparison genuinely doesn't fit

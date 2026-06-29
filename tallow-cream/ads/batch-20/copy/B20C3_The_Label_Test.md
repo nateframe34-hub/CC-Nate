@@ -12,9 +12,13 @@
 
 ## Primary Text
 
-I flipped my face cream over and read the label. Water was the first ingredient. Then twenty things I couldn't pronounce.
+I flipped my face cream over and read the label. Water was the first ingredient.
 
-Then I read this one. Tallow. Honey. Olive oil. Calendula. That's it.
+Then twenty things I couldn't say out loud.
+
+This jar has four. Tallow. Honey. Olive oil. Calendula. I can read all of them.
+
+Here's the part that got me: water sits on top and is gone by noon. Fat is close to what skin makes, so it absorbs in. That's the whole difference.
 
 $49.99. 60-day money-back guarantee. Free shipping.
 
@@ -28,7 +32,23 @@ Flip your face cream over. Read the first ingredient.
 
 ## Description
 
-$49.99. Free shipping. 60-day refund.
+$49.99 · Free shipping · 60-day refund.
+
+---
+
+## Short-Form Copy Self-Audit (Principle 11)
+
+1. ✅ Scroll-stop first line — "I flipped my face cream over and read the label. Water was the first ingredient." (she pictures her own bottle)
+2. ✅ Specific shared experience — flipping the bottle, can't pronounce the ingredients
+3. ✅ Pivot — "This jar has four"
+4. ✅ Mechanism compression — "water sits on top and is gone by noon. Fat is close to what skin makes, so it absorbs in." (the B9C3 mechanism in compliant language, one beat)
+5. ✅ Identity/relief payoff — "I can read all of them" (trust/clean)
+6. ✅ Specific numbers — 4 ingredients, twenty, noon, $49.99, 60-day
+7. ✅ Clean offer stack
+- Pattern interrupt: "Then twenty things I couldn't say out loud." standalone ✅
+- Compliant mechanism phrasing ("close to what skin makes," NOT "bioidentical"/"your body"/"repairs") ✅
+- Stays OUT of the competitor's fear/"microbiome RUIN" lane — neutral "readable vs unreadable / water vs absorbs" ✅
+- Headline uses the allowed second-person curiosity instruction; body stays first-person ✅
 
 ---
 
