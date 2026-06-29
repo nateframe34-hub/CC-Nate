@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tallow PDP Mockup C — Bold Modern</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FBF4E6;          /* warm cream */
+    --olive:#3F5A23;       /* saturated brand color owns the page */
+    --olive-deep:#2E441A;
+    --lime:#C7E04A;        /* punchy secondary */
+    --amber:#E8A33D;
+    --ink:#241F14;
+    --paper:#FFFDF7;
+    --red:#C5482E;
+    --line:#E6D9BE;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--bg);line-height:1.5;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:'Sora',sans-serif;font-weight:800;letter-spacing:-.02em;line-height:1.02}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 30px}
+  .eyebrow{display:inline-block;font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--olive-deep);background:var(--lime);padding:5px 12px;border-radius:999px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--olive);color:#fff;border:none;border-radius:14px;padding:19px 34px;font-family:'Sora';font-weight:700;font-size:16px;cursor:pointer;width:100%;transition:transform .12s,background .2s;box-shadow:0 6px 0 var(--olive-deep)}
+  .btn:hover{transform:translateY(2px);box-shadow:0 4px 0 var(--olive-deep)}
+  .stars{color:var(--amber);letter-spacing:2px;font-size:16px}
+
+  .anno{background:var(--olive-deep);color:var(--lime);text-align:center;font-size:13px;letter-spacing:.04em;padding:10px;font-weight:700}
+  nav{background:var(--bg);position:sticky;top:0;z-index:40;border-bottom:2px solid var(--ink)}
+  .nav-in{display:flex;align-items:center;justify-content:space-between;padding:16px 30px;max-width:1160px;margin:0 auto}
+  .word{font-family:'Sora';font-weight:800;font-size:24px;letter-spacing:-.02em;color:var(--olive)}
+  .nav-links{display:flex;gap:24px;font-size:14px;font-weight:600}
+  .nav-links a{color:var(--ink);text-decoration:none}
+
+  .hero{padding:48px 0 44px}
+  .hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:start}
+  .gallery .main{background:var(--olive);border-radius:26px;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border:3px solid var(--ink)}
+  .gallery .main:before{content:"";position:absolute;width:150%;height:60px;background:var(--lime);top:30%;left:-25%;transform:rotate(-8deg);opacity:.5}
+  .gallery .main:after{content:"";position:absolute;width:150%;height:40px;background:var(--amber);top:60%;left:-25%;transform:rotate(-8deg);opacity:.45}
+  .jar{width:48%;aspect-ratio:3/4;background:linear-gradient(180deg,#d9b06f,#a9793f);border-radius:14px;box-shadow:0 22px 44px rgba(0,0,0,.32);position:relative;z-index:2;border:2px solid var(--ink)}
+  .jar:before{content:"";position:absolute;inset:8% 14% auto 14%;height:50%;background:var(--paper);border-radius:6px;border:2px solid var(--ink)}
+  .jar:after{content:"TALLOW\A& HONEY";white-space:pre;position:absolute;top:15%;left:0;right:0;text-align:center;font-family:'Sora';font-size:13px;font-weight:800;color:var(--olive-deep);line-height:1.3}
+  .jar-lid{position:absolute;top:-3%;left:30%;right:30%;height:9%;background:var(--ink);border-radius:8px 8px 3px 3px}
+  .badge{position:absolute;top:18px;left:18px;background:var(--lime);color:var(--olive-deep);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:8px 14px;border-radius:999px;z-index:3;border:2px solid var(--ink)}
+  .thumbs{display:flex;gap:12px;margin-top:14px}
+  .thumb{flex:1;aspect-ratio:1/1;border-radius:14px;border:2px solid var(--ink)}
+  .thumb:nth-child(1){background:var(--olive)}.thumb:nth-child(2){background:var(--amber)}.thumb:nth-child(3){background:var(--lime)}.thumb:nth-child(4){background:#d9b06f}
+
+  .buy .rating-row{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .rating-row a{font-size:13px;color:var(--olive-deep);text-decoration:underline;font-weight:600}
+  .buy h1{font-size:50px;margin-bottom:10px}
+  .subt{font-size:14px;font-weight:700;color:var(--olive);margin-bottom:18px;text-transform:uppercase;letter-spacing:.05em}
+  .price{display:flex;align-items:baseline;gap:12px;margin-bottom:6px}
+  .price .now{font-family:'Sora';font-size:38px;font-weight:800}
+  .price .was{font-size:19px;color:#a08e68;text-decoration:line-through}
+  .price .save{background:var(--amber);color:#fff;font-size:12px;font-weight:800;padding:5px 11px;border-radius:999px}
+  .ship{font-size:13px;color:#7a6f52;margin-bottom:20px;font-weight:600}
+  .upsell-note{margin-top:12px;font-size:13px;color:#7a6f52;text-align:center;font-weight:600}
+  .upsell-note u{color:var(--olive);cursor:pointer}
+  .micro{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0 0}
+  .micro span{background:var(--paper);border:2px solid var(--ink);border-radius:999px;padding:8px 15px;font-size:13px;font-weight:700}
+  .micro b{color:var(--olive)}
+  .guarantee-inline{display:flex;align-items:center;gap:10px;margin-top:18px;font-size:13.5px;font-weight:600;color:#5e5640}
+
+  section.band{padding:78px 0}
+  .center{text-align:center;max-width:700px;margin:0 auto}
+  h2.sec{font-size:40px;margin-bottom:14px}
+  .sec-sub{color:#7a6f52;font-size:16px;margin-bottom:40px;font-weight:500}
+
+  .checks{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:860px;margin:0 auto}
+  .check{display:flex;gap:12px;align-items:center;background:var(--paper);border:2px solid var(--ink);border-radius:16px;padding:18px 20px;font-size:15px;font-weight:600;box-shadow:4px 4px 0 var(--ink)}
+  .check .tick{color:var(--olive);font-weight:800;font-size:18px}
+
+  .diagram-band{background:var(--olive)}
+  .diagram-band *{color:#fff}
+  .diagram-band .eyebrow{color:var(--olive-deep);background:var(--lime)}
+  .diagram{display:grid;grid-template-columns:1fr auto 1fr;max-width:880px;margin:36px auto 0;background:var(--paper);color:var(--ink);border-radius:20px;overflow:hidden;border:3px solid var(--ink);box-shadow:8px 8px 0 var(--olive-deep)}
+  .dcol{padding:32px 28px}
+  .dcol h4{font-family:'Sora';font-size:19px;margin-bottom:18px;font-weight:800}
+  .dcol.bad h4{color:var(--red)}.dcol.good h4{color:var(--olive)}
+  .surface{height:3px;background:var(--ink);margin:14px 0}
+  .mol{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+  .mol b{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:#fff;border:2px solid var(--ink)}
+  .bad .mol b{background:var(--red)}.good .mol b{background:var(--olive)}
+  .arrows-up{color:var(--red);font-size:22px;letter-spacing:6px}
+  .arrows-dn{color:var(--olive);font-size:22px;letter-spacing:6px}
+  .dnote{font-size:14px;margin-top:10px;font-weight:600;color:#5e5640}
+  .dmid{display:flex;align-items:center;justify-content:center;padding:0 8px;background:var(--lime);font-size:26px;color:var(--olive-deep);font-weight:800}
+  .dbottom{max-width:880px;margin:20px auto 0;text-align:center;font-family:'Sora';font-size:22px;font-weight:700;color:#fff}
+
+  .math{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:18px;max-width:800px;margin:0 auto}
+  .math .side{background:var(--paper);border:3px solid var(--ink);border-radius:20px;padding:32px;text-align:center;box-shadow:6px 6px 0 var(--ink)}
+  .math .side.good{box-shadow:6px 6px 0 var(--olive)}
+  .math .big{font-family:'Sora';font-size:72px;font-weight:800;line-height:1}
+  .math .bad .big{color:var(--red)}.math .good .big{color:var(--olive)}
+  .math .lbl{font-size:13px;color:#7a6f52;margin-top:8px;font-weight:700}
+  .math .to{font-size:34px;color:var(--amber);font-weight:800}
+
+  .labels{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:880px;margin:0 auto}
+  .label-card{background:var(--paper);border:3px solid var(--ink);border-radius:20px;padding:28px;box-shadow:6px 6px 0 var(--ink)}
+  .label-card.good{box-shadow:6px 6px 0 var(--olive)}
+  .label-card h4{font-family:'Sora';font-size:19px;margin-bottom:16px;font-weight:800}
+  .label-card.bad h4{color:var(--red)}.label-card.good h4{color:var(--olive)}
+  .ing{font-size:14px;padding:8px 0;border-bottom:2px dashed var(--line);color:#5e5640;font-weight:500}
+  .ing.first{font-weight:800;color:var(--red)}
+  .ing.g{color:var(--olive-deep);font-weight:700}
+  .ing.more{color:#a08e68;font-style:italic;border:none}
+
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:860px;margin:0 auto}
+  .stat{text-align:center;background:var(--paper);border:3px solid var(--ink);border-radius:20px;padding:30px 18px;box-shadow:6px 6px 0 var(--amber)}
+  .stat .n{font-family:'Sora';font-size:52px;font-weight:800;color:var(--olive)}
+  .stat .t{font-size:13.5px;color:#7a6f52;font-weight:600;margin-top:6px}
+
+  .ba{display:grid;grid-template-columns:280px 1fr;gap:32px;align-items:center;max-width:840px;margin:0 auto;background:var(--paper);border:3px solid var(--ink);border-radius:24px;padding:26px;box-shadow:8px 8px 0 var(--olive)}
+  .ba .photo{aspect-ratio:1/1;border-radius:16px;background:var(--lime);border:2px solid var(--ink)}
+  .ba blockquote{font-family:'Sora';font-size:25px;font-weight:700;line-height:1.25;margin-bottom:14px}
+  .ba .who{font-size:14px;color:#7a6f52;font-weight:700}
+  .ba .stars{margin-bottom:14px;display:block}
+
+  .guar-band{background:var(--amber)}
+  .guar-band *{color:var(--ink)}
+  .guar-band p{font-size:16px;max-width:600px;margin:0 auto 24px;font-weight:500}
+  .guar-badge{display:inline-flex;align-items:center;gap:12px;background:var(--ink);color:var(--amber);padding:16px 30px;border-radius:14px;font-family:'Sora';font-weight:700;letter-spacing:.03em}
+
+  .final{background:var(--olive-deep)}
+  .final *{color:#fff}
+  .final h2{font-size:42px;margin-bottom:22px}
+  .final .btn{max-width:360px;margin:0 auto;background:var(--lime);color:var(--olive-deep);box-shadow:0 6px 0 #98ad2f}
+  .final .btn:hover{box-shadow:0 4px 0 #98ad2f}
+
+  .sticky{position:fixed;left:0;right:0;bottom:0;background:var(--bg);border-top:2px solid var(--ink);padding:12px 18px;display:none;align-items:center;justify-content:space-between;gap:14px;z-index:50}
+  .sticky .p{font-family:'Sora';font-weight:800;font-size:18px}
+  .sticky .btn{width:auto;padding:14px 28px}
+  .note{max-width:1160px;margin:0 auto;padding:22px 30px;font-size:12px;color:#a08e68;text-align:center;font-style:italic}
+
+  @media(max-width:880px){
+    .hero-grid{grid-template-columns:1fr;gap:30px}
+    .checks,.labels{grid-template-columns:1fr}
+    .stats{grid-template-columns:1fr}
+    .math,.diagram{grid-template-columns:1fr}
+    .ba{grid-template-columns:1fr}
+    .nav-links{display:none}.buy h1{font-size:40px}
+    .sticky{display:flex}body{padding-bottom:74px}
+  }
+</style>
+</head>
+<body>
+
+<div class="anno">FREE SHIPPING · 60-DAY MONEY-BACK GUARANTEE</div>
+<nav><div class="nav-in">
+  <div class="nav-links"><a>Shop</a><a>The Science</a><a>Reviews</a></div>
+  <div class="word">BASELINE TALLOW</div>
+  <div class="nav-links"><a>Search</a><a>Cart</a></div>
+</div></nav>
+
+<section class="hero"><div class="wrap"><div class="hero-grid">
+  <div class="gallery">
+    <div class="main"><span class="badge">★ Bestseller</span><div class="jar"><div class="jar-lid"></div></div></div>
+    <div class="thumbs"><div class="thumb"></div><div class="thumb"></div><div class="thumb"></div><div class="thumb"></div></div>
+  </div>
+  <div class="buy">
+    <div class="rating-row"><span class="stars">★★★★★</span><a>4.8 · 47 reviews</a></div>
+    <h1>Whipped Tallow &amp; Honey Balm</h1>
+    <div class="subt">Face &amp; Body · 4 Ingredients · 120g</div>
+    <div class="price"><span class="now">$49.99</span><span class="was">$59.99</span><span class="save">SAVE $10</span></div>
+    <div class="ship">Free shipping · ships in 1–2 days</div>
+    <button class="btn">Add to Cart — $49.99</button>
+    <div class="upsell-note">Most people reorder. <u>Add a 2nd jar at checkout, save $10 →</u></div>
+    <div class="micro"><span>Absorbs in <b>2 min</b></span><span><b>No</b> shine</span><span><b>Doesn't</b> smell like beef</span></div>
+    <div class="guarantee-inline">🛡️ <b style="color:var(--olive)">60-day money-back guarantee</b> — refund every penny, no sending it back.</div>
+  </div>
+</div></div></section>
+
+<section class="band"><div class="wrap">
+  <div class="center"><div class="eyebrow">Sound familiar?</div><h2 class="sec" style="margin-top:14px">Your skin changed. Nothing kept up.</h2></div>
+  <div class="checks">
+    <div class="check"><span class="tick">✓</span>What used to work stopped working.</div>
+    <div class="check"><span class="tick">✓</span>Tight and dry by noon, whatever you use.</div>
+    <div class="check"><span class="tick">✓</span>Retinol, HA, ceramides — none fixed it.</div>
+    <div class="check"><span class="tick">✓</span>Tired of ingredients you can't pronounce.</div>
+  </div>
+</div></section>
+
+<section class="band diagram-band"><div class="wrap">
+  <div class="center"><div class="eyebrow">Why it works</div><h2 class="sec" style="margin-top:14px">Water sits on top. Skin lets fat in.</h2></div>
+  <div class="diagram">
+    <div class="dcol bad"><h4>Most creams</h4><div class="mol"><b>H₂O</b><b>H₂O</b><b>H₂O</b><b>H₂O</b></div><div class="arrows-up">↑ ↑ ↑ ↑</div><div class="surface"></div><div class="dnote">Evaporates by noon → sits on top → tight again.</div></div>
+    <div class="dmid">→</div>
+    <div class="dcol good"><h4>Tallow Balm</h4><div class="surface"></div><div class="arrows-dn">↓ ↓ ↓ ↓</div><div class="mol"><b>FAT</b><b>FAT</b><b>FAT</b><b>FAT</b></div><div class="dnote">Close to what skin makes → absorbs in → still there at 2pm.</div></div>
+  </div>
+  <div class="dbottom">Not a better cream. A different category.</div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <div class="center"><div class="eyebrow">The counter math</div><h2 class="sec" style="margin-top:14px">14 products couldn't do what 1 jar did.</h2></div>
+  <div class="math">
+    <div class="side bad"><div class="big">14</div><div class="lbl">products · $$$/mo · still tight by noon</div></div>
+    <div class="to">→</div>
+    <div class="side good"><div class="big">1</div><div class="lbl">jar · 4 ingredients · absorbs in 2 min</div></div>
+  </div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <div class="center"><div class="eyebrow">Flip the label</div><h2 class="sec" style="margin-top:14px">4 ingredients. That's the whole list.</h2></div>
+  <div class="labels">
+    <div class="label-card bad"><h4>Most face creams</h4><div class="ing first">1 · Water</div><div class="ing">2 · Glycerin</div><div class="ing">3 · Cetearyl alcohol</div><div class="ing">4 · Phenoxyethanol</div><div class="ing">5 · Dimethicone</div><div class="ing more">…+ 15 more you can't pronounce</div></div>
+    <div class="label-card good"><h4>Whipped Tallow &amp; Honey</h4><div class="ing g">1 · Grass-fed beef tallow</div><div class="ing g">2 · Manuka honey</div><div class="ing g">3 · Cold-pressed olive oil</div><div class="ing g">4 · Calendula flower</div><div class="ing more">That's it. You can read all of them.</div></div>
+  </div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <div class="center"><div class="eyebrow">After 2 weeks</div><h2 class="sec" style="margin-top:14px">Real skin after switching.</h2></div>
+  <div class="stats">
+    <div class="stat"><div class="n">94%</div><div class="t">skin felt softer all day</div></div>
+    <div class="stat"><div class="n">9/10</div><div class="t">stopped using other products</div></div>
+    <div class="stat"><div class="n">2 min</div><div class="t">to absorb · no residue</div></div>
+  </div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <div class="ba"><div class="photo"></div><div><span class="stars">★★★★★</span><blockquote>"I threw out eight products and kept this one. My husband noticed before I did."</blockquote><div class="who">— Diana L., verified buyer · <span style="color:var(--olive)">[real photo review]</span></div></div></div>
+</div></section>
+
+<section class="band guar-band"><div class="wrap"><div class="center">
+  <h2 class="sec">60 days. No drama.</h2>
+  <p>Use it for 60 days. If your skin doesn't love it, email us — we refund every penny. No hoops, no "send it back first."</p>
+  <div class="guar-badge">🛡️ 60-DAY MONEY-BACK GUARANTEE</div>
+</div></div></section>
+
+<section class="band final"><div class="wrap"><div class="center">
+  <h2 class="sec">Your skin changed. This was made for that.</h2>
+  <button class="btn">Add to Cart — $49.99</button>
+</div></div></section>
+
+<div class="note">Mockup C — "Bold Modern." Saturated olive owns the page · lime + amber pops · Sora + DM Sans · hard borders & offset shadows for energy. Placeholder shapes stand in for photography.</div>
+<div class="sticky"><div class="p">$49.99</div><button class="btn">Add to Cart</button></div>
+</body>
+</html>
