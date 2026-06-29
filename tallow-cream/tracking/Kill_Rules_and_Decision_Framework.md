@@ -1,7 +1,33 @@
 # Kill Rules & Decision Framework — Tallow Launch
 
 > **Purpose:** Hard rules for when to kill, scale, or iterate on ads. Built from NMN postmortem learnings.
-> **Updated:** April 2026 (pre-launch)
+> **Updated:** June 2026 — added the governing 2× Breakeven CPA kill rule (founder decision 2026-06-29).
+
+---
+
+## ★ GOVERNING KILL RULE — 2× Breakeven CPA (locked 2026-06-29) ★
+
+**This is the primary kill rule. It supersedes the CPM-based hard kills below, which were calibrated to a $50/day / $20-40 CPM world that no longer exists.** On the fresh BM we convert profitably at $180-370 CPMs, so CPM-threshold kills would wrongly kill our converters. Outcome-based killing is correct: judge an ad by whether it buys purchases, not by what its CPM looks like.
+
+**The math:**
+- Price: $49.99 | COGS: ~$17.01 | **Breakeven CPA ≈ $33** (gross margin per unit before ad spend)
+- **2× breakeven = ~$66**
+
+**The rule:**
+> Once an ad accumulates **~$66 in spend with no purchase**, kill it.
+
+**Counter definition (so it doesn't misfire):**
+- The $66 counter measures **spend since the ad's last purchase.** A brand-new ad measures from launch.
+- **Each purchase resets the counter to $0.** This protects proven converters (e.g. B9C3) that have dead stretches but reset every time they sell, while still killing genuine losers that never convert.
+- Applies per-ad (per creative), not per-campaign.
+
+**Why 2× and not 1×:** at 1× breakeven ($33) you'd kill on normal variance — a converter can spend $30 across a couple of dead days then convert (B9C3 did exactly this Days 7-9 → purchase Day 10). 2× gives enough runway to separate variance from a true loser without bleeding past the point where the ad could ever be profitable.
+
+**Worked examples (current ads):**
+- B19C2 (whiteboard winner): converted at $11.35 → counter reset, nowhere near $66. SAFE.
+- B19C3: ~$21 cumulative, no purchase yet → under $66, keep running.
+- B9C3 native: converts periodically, resets each time → SAFE despite high CPM.
+- Dead urgency cells (B17C2/C4): near-zero delivery — kill on the separate "concluded test" basis, not this rule.
 
 ---
 
