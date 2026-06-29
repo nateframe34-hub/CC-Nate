@@ -117,9 +117,9 @@ The whiteboard format does NOT relax compliance. Same banned list as `Tallow_Ad_
 
 ---
 
-## THE FULLEST EXPRESSION: video > static
+## THE WINNING FORMAT IS STATIC (clarified 2026-06-29)
 
-The winning examples are all **talking-head UGC video with the whiteboard behind the presenter.** The person supplies trust + narration; the whiteboard is the visual aid. Static whiteboard (our current B19/B20) works and is cheaper to produce — but the format's ceiling is video. When we have a face to put on camera (Julie, or a UGC creator), a video-in-front-of-whiteboard version is the highest-upside test. Park as the next format evolution after static whiteboard conversion is proven at volume.
+The 4 source examples are **static whiteboard ads** that a media buyer (@ignelmes) was showcasing in a talking-head video as the format performing well on Meta. The presenter is a commentator, NOT part of the ads — the ads themselves are the static whiteboards. So the thing that wins is the static whiteboard image, which is exactly what we run (B19/B20). B19C2 is direct proof on our own account. Do NOT infer that video is required or superior — the format praised here is static. (A talking-head video in front of a whiteboard is a separate format we could test someday, but it is NOT what these winning examples are and NOT implied by this analysis.)
 
 ---
 
