@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "main": {
+      "type": "tallow-pdp",
+      "settings": {
+        "anno_text": "Free shipping on every order · 60-day money-back guarantee",
+        "badge_text": "Bestseller",
+        "rating_text": "4.8 · 47 reviews",
+        "subtitle": "Face & Body · 4 Ingredients · 120g",
+        "ship_text": "Free shipping · ships in 1-2 days",
+        "upsell_note": "Most people reorder. Add a 2nd jar at checkout, save $10.",
+        "stat1_n": "94%",
+        "stat1_t": "said skin felt softer all day",
+        "stat2_n": "9 in 10",
+        "stat2_t": "stopped reaching for other products",
+        "stat3_n": "2 min",
+        "stat3_t": "to absorb · no greasy residue",
+        "review_quote": "I threw out eight products and kept this one. My husband noticed before I did.",
+        "review_author": "Diana L., verified buyer"
+      }
+    }
+  },
+  "order": ["main"]
+}
