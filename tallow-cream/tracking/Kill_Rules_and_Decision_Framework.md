@@ -25,9 +25,24 @@
 
 **Worked examples (current ads):**
 - B19C2 (whiteboard winner): converted at $11.35 → counter reset, nowhere near $66. SAFE.
-- B19C3: ~$21 cumulative, no purchase yet → under $66, keep running.
-- B9C3 native: converts periodically, resets each time → SAFE despite high CPM.
+- B19C3: ~$45-50 cumulative, no purchase yet → approaching $66, ON WATCH (strong 11% CTR / 10 LPV but 0 ATC = the cheap-clicks-don't-convert pattern). Kill if it crosses $66 dry.
 - Dead urgency cells (B17C2/C4): near-zero delivery — kill on the separate "concluded test" basis, not this rule.
+
+**Why 2× and not 1× (the variance math, locked 2026-06-30):** purchases arrive lumpy (Poisson-ish), not evenly. An ad's average spend-between-sales ≈ its CPA. Even a genuinely PROFITABLE ad routinely has dry gaps of 1.5-2× its mean CPA as normal variance. A 1× line (~$33) ≈ the average gap, so you'd false-kill roughly half your winners mid-variance, right before the next sale. 2× (~$66) ≈ twice the mean gap → false-kill rate on a true winner drops to ~10-15%, while a genuinely unprofitable ad still sails past $66 with nothing. The asymmetry decides it: the cost of a false kill (losing a rare, profitable converter) ≫ the cost of ~$33 extra spend confirming a loser. **Bias to 2×.**
+
+---
+
+## ★ TWO REGIMES — Unproven Ads vs Proven Converters (locked 2026-06-30) ★
+
+The 2× ($66) no-purchase line answers ONE question: *"has this ad shown it CAN convert?"* It is the right tool ONLY for **unproven ads** (zero conversions, still measuring from launch). Once an ad has converted a few times, the flat trip-wire is the wrong tool — switch to judging it on rolling economics.
+
+**Regime A — UNPROVEN ad (0 lifetime purchases):** use the 2× line. Spend $66 from launch with no purchase → KILL. (Applies now to: B19C3, B20 C1/C2/C3 once delivering.)
+
+**Regime B — PROVEN converter (has converted, ~breakeven or better):** do NOT use the flat no-purchase line. Judge on **rolling CPA/ROAS + opportunity cost.** A proven converter at/under breakeven is a (thin) winner — don't murder it into a vacuum on a dry stretch. Two triggers to retire it:
+1. **Economic decay:** rolling CPA over a meaningful window (e.g. last ~10 purchases, or last ~$200 spend) climbs and stays above breakeven ($33) → it has stopped being profitable, wind it down.
+2. **Opportunity cost (the important one for format migration):** retire it when a cheaper-CPM format proves a BETTER CPA. Don't kill it for losing money (it isn't) — replace it when something earns more per dollar. Trading up, not cutting into a vacuum.
+
+**Worked example — B17C1 (B9C3 verbatim native), as of 2026-06-29:** lifetime $125.19 spend, 4 purchases, $199.96 revenue → **CPA $31.30, ROAS 1.60x gross, +$6.73 net over the run.** Just under breakeven = marginal winner. BUT native CPM is capped (~$180) while whiteboard delivers $19-160, so B17C1's ceiling is low by format. Decision: do NOT kill on the rule (it's profitable + under $66 since last sale); CAP its budget, let B20 take growth dollars, and **retire it the moment a whiteboard cell banks a purchase at ≤ ~$31 CPA** (beats it). Opportunity-cost trigger, not a loss trigger.
 
 ---
 
