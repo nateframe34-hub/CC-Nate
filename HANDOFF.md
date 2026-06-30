@@ -31,6 +31,8 @@ The reason the old `SESSION_STATE.md` went stale (Apr 16 → Apr 27 with no upda
 
 **Day Jun 29 (logged 2026-06-30) — ~$40 spend, 0 purchases account-wide.** B17C1 native $22.80 ($180 CPM, 3.97% CTR, 4 LPV, 0 purch; ~$40.83 since last purchase, under $66 kill line). B19C3 whiteboard $16.22 (11% CTR, 10 LPV, 0 purch). B19C2 $19.07 CPM but starved at $1.03.
 
+**UPDATE Jun 30 (intraday):** B19C3 + B19C1 KILLED (founder). B19C3 = correct kill (cumulative slice $270 CPM / 1.52% CTR / $17.86 CPC; engaged clicks, never an ATC across the run). B19C1 = never delivered the entire test ($0/0 imp, starved in CBO) — the Greasy/Shiny angle is UNTESTED, could re-run in its own ad set. B20 now delivering (exited processing): C2 Money Math $94 CPM, C3 Label Test $95 CPM + 8.33% CTR/1 LPV — both under native $169; C1 6 imp = noise. ★ B17C1 got 1 ATC + 1 CHECKOUT INITIATED (9 LPV, 9.3% CTR), no purchase yet — first funnel movement past LPV since the new PDP went live (the conversion signal we were watching). Watch it close.
+
 **TWO WATCH ITEMS:**
 1. **B19C3 nearing the $66 kill threshold with 0 conversions** — strong CTR/LPV (11%/10 LPV) but never an ATC. Classic cheap-clicks-don't-convert pattern. If cumulative spend since launch crosses ~$66 with no purchase, KILL per the 2× breakeven rule.
 2. **New PDP just went live — watch LPV→ATC over the next few days.** The whole point of the PDP elevation was to lift conversion (target 3%→5%). Now that it's live, the question is whether the LPVs the ads are buying start converting. If LPV→ATC stays at zero after the PDP has had real traffic, the bottleneck is upstream of the page (offer/traffic quality), not the page.
