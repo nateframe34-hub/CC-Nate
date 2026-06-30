@@ -3,7 +3,7 @@
 > Real-time handoff document. Updated whenever work happens, decisions get made, or items complete.
 > Read this at session start BEFORE doing anything else (after CLAUDE.md).
 
-**Last Updated:** 2026-06-24
+**Last Updated:** 2026-06-30
 **Active Brand:** Tallow Cream
 **Project Phase:** Mastery Council v2 locked after Fable 5 gap audit + founder corrections. Plan: Phase 1 funnel fix during BM warmup → Phase 2 B16 race at $50/day (C1 benchmark vs C2 Quiet House vs C3 One Who Should Have Fallen Apart) → Phase 3 Avatar Bible on winner → Phase 4 scale +20% per 3 positive-ROAS days, $1K/mo sustained gates the $10K push.
 
@@ -26,6 +26,14 @@ The reason the old `SESSION_STATE.md` went stale (Apr 16 → Apr 27 with no upda
 ---
 
 ## Right Now
+
+**★ NEW PDP + B20 WENT LIVE 2026-06-29.** The custom Tallow PDP template (cart drawer, hardcoded $69.99→$49.99, diagrams, mobile-first/fast) is installed and live. B20 (Proven Angles × Whiteboard: C1 Counter Math, C2 Money Math, C3 Label Test) launched — all 3 cells in "Processing" as of Jun 29, no delivery yet.
+
+**Day Jun 29 (logged 2026-06-30) — ~$40 spend, 0 purchases account-wide.** B17C1 native $22.80 ($180 CPM, 3.97% CTR, 4 LPV, 0 purch; ~$40.83 since last purchase, under $66 kill line). B19C3 whiteboard $16.22 (11% CTR, 10 LPV, 0 purch). B19C2 $19.07 CPM but starved at $1.03.
+
+**TWO WATCH ITEMS:**
+1. **B19C3 nearing the $66 kill threshold with 0 conversions** — strong CTR/LPV (11%/10 LPV) but never an ATC. Classic cheap-clicks-don't-convert pattern. If cumulative spend since launch crosses ~$66 with no purchase, KILL per the 2× breakeven rule.
+2. **New PDP just went live — watch LPV→ATC over the next few days.** The whole point of the PDP elevation was to lift conversion (target 3%→5%). Now that it's live, the question is whether the LPVs the ads are buying start converting. If LPV→ATC stays at zero after the PDP has had real traffic, the bottleneck is upstream of the page (offer/traffic quality), not the page.
 
 **B17 COMPLETE — Day 6 logged (2026-06-24). VERDICT: B9C3 verbatim is the converter. Urgency variants did not lift.** 4-cell ABO at $20/day. C1 (B9C3 verbatim control) had 3 total purchases across 6 days. Day 6 was the best single-day result: $17.19 spend → 2 purchases → 5.82x gross ROAS on the cell. C3 (Cost-Bleed) was killed by founder before Day 6. C2 (Same-Morning Grind) and C4 (Closing Window) got near-zero delivery throughout. Running total ~$115 of $300 pivot checkpoint. C1 is confirmed converter. B17 outcome branch: **urgency variants did not lift vs. the control → B18 is Marksman (3-angle test on Invisible Woman).** Next logical move: build B18 Marksman copy (C2 Cognitive Relief + C3 Predictability), confirm B19 whiteboard batch (creative prompts finalized, awaiting generation + launch), confirm PDP pricing.
 
