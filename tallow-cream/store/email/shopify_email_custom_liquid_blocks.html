@@ -1,0 +1,60 @@
+{%- comment -%}
+  SHOPIFY EMAIL (Marketing > Automations) abandoned-cart — HYBRID approach.
+
+  Your store has no editable "Abandoned checkout" notification template (newer
+  Shopify; recovery is handled by the Shopify Email automation). Custom Liquid in
+  Shopify Email is sandboxed — it CANNOT access the cart or the checkout link.
+  So the cart items + the working button MUST stay as the automation's NATIVE
+  blocks. These Custom Liquid blocks are the STATIC styled parts only.
+
+  ORDER OF SECTIONS in the email (top to bottom):
+    1. Custom Liquid  -> BLOCK A (brand bar + headline + copy)   [below]
+    2. NATIVE product block ("Held in your cart")  -> KEEP existing
+    3. Custom Liquid  -> BLOCK B (FIRST10 callout)               [below]
+    4. NATIVE checkout button ("Continue checkout") -> KEEP, restyle green,
+       relabel "Return to my checkout"
+    5. Custom Liquid  -> BLOCK C (trust strip)                   [below]
+
+  Paste each block into its own "Custom Liquid" section. Static HTML, email-safe.
+{%- endcomment -%}
+
+
+{%- comment -%} ================= BLOCK A — header + copy ================= {%- endcomment -%}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#FBF8F2;">
+  <tr><td align="center" style="background:#22351F;padding:14px;">
+    <span style="font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:bold;color:#F2EAD9;letter-spacing:.5px;">Baseline&nbsp;&middot;&nbsp;<span style="color:#E9C892;">Tallow</span></span>
+  </td></tr>
+  <tr><td align="center" style="padding:32px 34px 8px 34px;">
+    <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:30px;line-height:1.15;color:#23291F;font-weight:600;">Your jar is still in your cart.</h1>
+  </td></tr>
+  <tr><td align="center" style="padding:10px 36px 0 36px;">
+    <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#5c5848;">Whenever you're ready, the button below picks up right where you left off. Nothing's lost.</p>
+  </td></tr>
+  <tr><td align="center" style="padding:14px 36px 28px 36px;">
+    <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#5c5848;">If something gave you pause: the 60-day money-back guarantee covers it. If it doesn't do anything for your skin, you email us and you get every dollar back. No questions.</p>
+  </td></tr>
+</table>
+
+
+{%- comment -%} ================= BLOCK B — FIRST10 callout ================= {%- endcomment -%}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#FBF8F2;">
+  <tr><td style="padding:8px 28px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#F3E7CE;border:1px dashed #C98A3C;border-radius:12px;">
+      <tr><td align="center" style="padding:16px 18px;font-family:Arial,Helvetica,sans-serif;">
+        <div style="font-size:14px;color:#6a481a;line-height:1.5;">A little nudge to finish: take <strong>10% off your first order</strong> with code</div>
+        <div style="margin-top:8px;">
+          <span style="display:inline-block;background:#2E4731;color:#ffffff;font-family:Georgia,'Times New Roman',serif;font-size:17px;font-weight:bold;letter-spacing:1px;padding:8px 18px;border-radius:999px;">FIRST10</span>
+        </div>
+        <div style="margin-top:8px;font-size:12.5px;color:#8a6a2e;">Stacks right on top of your current sale.</div>
+      </td></tr>
+    </table>
+  </td></tr>
+</table>
+
+
+{%- comment -%} ================= BLOCK C — trust strip ================= {%- endcomment -%}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#FBF8F2;">
+  <tr><td align="center" style="padding:14px 28px 26px 28px;">
+    <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12.5px;color:#6b6552;">Free shipping&nbsp;&nbsp;&middot;&nbsp;&nbsp;60-day money-back guarantee&nbsp;&nbsp;&middot;&nbsp;&nbsp;4 ingredients</p>
+  </td></tr>
+</table>
