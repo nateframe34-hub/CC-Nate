@@ -31,6 +31,7 @@
     --line:#D8CDBC;--red:#B14A36;--paper:#FBF8F2;--grey:#6b6552;
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     color:var(--ink);background:var(--cream);line-height:1.5;-webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
   }
   #tallow-pdp *{box-sizing:border-box;margin:0;padding:0}
   #tallow-pdp h1,#tallow-pdp h2,#tallow-pdp h3,#tallow-pdp .serif{font-family:Georgia,'Times New Roman',serif;font-weight:600;letter-spacing:-.01em;line-height:1.1}
@@ -45,6 +46,15 @@
 
   #tallow-pdp .anno{background:var(--green-deep);color:#F2EAD9;text-align:center;font-size:12.5px;padding:9px 12px;font-weight:500}
   #tallow-pdp .anno b{color:var(--amber-soft)}
+
+  #tallow-pdp .tlw-nav{position:sticky;top:0;z-index:45;background:var(--cream);border-bottom:1px solid var(--line)}
+  #tallow-pdp .tlw-nav-in{display:flex;align-items:center;justify-content:space-between;padding-top:11px;padding-bottom:11px}
+  #tallow-pdp .tlw-nav .word{font-family:Georgia,'Times New Roman',serif;font-weight:600;font-size:19px;color:var(--ink);text-decoration:none}
+  #tallow-pdp .tlw-nav .word span{color:var(--amber)}
+  #tallow-pdp .cart-link{position:relative;display:inline-flex;align-items:center;color:var(--ink);text-decoration:none;padding:2px}
+  #tallow-pdp .cart-link .icon{width:25px;height:25px}
+  #tallow-pdp .cart-badge{position:absolute;top:-5px;right:-7px;min-width:17px;height:17px;padding:0 4px;border-radius:999px;background:var(--green);color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;line-height:1}
+  #tallow-pdp .cart-badge[hidden]{display:none}
 
   #tallow-pdp .hero{padding:18px 0 26px}
   #tallow-pdp .gallery .main{background:linear-gradient(150deg,#EFE6D6,#E3D4BC);border-radius:18px;aspect-ratio:1/1;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center}
@@ -185,9 +195,19 @@
   <symbol id="tlw-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
   <symbol id="tlw-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4-4"/></symbol>
   <symbol id="tlw-cart" viewBox="0 0 24 24"><path d="M5 6h15l-2 9H7z"/><path d="M5 6L4 3H2"/><circle cx="8" cy="19" r="1.4"/><circle cx="17" cy="19" r="1.4"/></symbol>
+  <symbol id="tlw-bag" viewBox="0 0 24 24"><path d="M6 8 H18 V19 Q18 20 17 20 H7 Q6 20 6 19 Z"/><path d="M9 8 V6.5 Q9 4 12 4 Q15 4 15 6.5 V8"/></symbol>
 </svg>
 
 <div class="anno">{{ section.settings.anno_text }}</div>
+
+<!-- TOP BAR (brand + cart with live item count) -->
+<div class="tlw-nav"><div class="wrap tlw-nav-in">
+  <a href="{{ routes.root_url }}" class="word">Baseline<span>·</span>Tallow</a>
+  <a href="{{ routes.cart_url }}" class="cart-link" aria-label="Cart ({{ cart.item_count }} items)">
+    <svg class="icon"><use href="#tlw-bag"/></svg>
+    <span class="cart-badge" {% if cart.item_count == 0 %}hidden{% endif %}>{{ cart.item_count }}</span>
+  </a>
+</div></div>
 
 <!-- HERO -->
 <section class="hero"><div class="wrap">
