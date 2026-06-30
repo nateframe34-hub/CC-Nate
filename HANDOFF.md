@@ -9,6 +9,45 @@
 
 ---
 
+## ★ ACTIVE TODO LIST (locked 2026-06-30, founder-ranked) ★
+
+**Context:** low ATC% (target 10%+, currently below that) is the #1 funnel concern. Founder-corrected sequencing: feedback loops on completed/turned-off batches come FIRST — they're the evidence base for diagnosing the ATC leak, not a parallel task. Don't skip to diagnosis without them.
+
+1. **Feedback loops on B17 + B19 (completed/turned-off batches) — DO THIS FIRST.** Figure out what each cell did right/wrong using the actual data in `Ad_Performance_Tracker.csv`. This is the input to the ATC diagnosis below, not a separate task. B17: C1 converter (4 purchases) vs dead C2/C3/C4. B19: C2 winner (cheap CPM + 1 purchase) vs C1 (never delivered) vs C3 (killed, cheap clicks never converted).
+2. **Diagnose the low ATC% funnel leak** using the feedback loops above + funnel-split data (native vs whiteboard, pre- vs post-PDP). See hypothesis list below — brainstorm stage, NOT full diagnosis yet (waiting on #1).
+3. **Build email capture popup** (FIRST10 offer for marketing consent). Founder's own read: not high-leverage as a direct purchase driver (single long-lasting SKU, code goes stale before they'd reorder), but high-leverage as a list-building asset for LPV-non-purchasers — compounds for future batches/avatars/offers. Small build, can run in parallel with anything.
+4. **Sun-damaged / outdoor-skin sub-avatar** — research + write up properly in `tallow-cream/avatars/` (see Future Ad Concepts Queue entry below for full context + compliance watch). New-traffic play; sequenced behind the funnel fix so new traffic doesn't feed the same leak.
+5. **Explore new static ad formats** to test (whiteboard proved out; what's next). Same new-traffic-play logic as #4.
+6. **Ongoing: feedback loops on future batches as they complete** — not a one-time task, a standing discipline.
+
+**PARKED (explicit holds, not forgotten):**
+- **New offer testing** (e.g. subscribe-and-save) — holding until the new PDP has been read on its own; don't add a second variable while measuring the PDP's effect.
+- **Checkout-page CVR optimization** — founder + Claude agree this is probably NOT the highest-leverage play right now. ATC→Purchase is already strong; the leak is upstream (LPV→ATC). Revisit after the ATC fix.
+
+---
+
+## ATC% Leak — Brainstormed Hypotheses (2026-06-30, pre-diagnosis)
+
+**Not a diagnosis yet — waiting on the B17/B19 feedback loops (TODO #1) before concluding anything.** This is the candidate list to test against once that data is in.
+
+**Founder's hypotheses:**
+1. **Ads build desire narrowly, not broadly.** Creative resonates hard with a specific sub-avatar slice but doesn't move the wider audience it's shown to — strong signal from the few, weak signal in aggregate.
+2. **PDP previously read as generic/templated, not a real brand** — partially addressed by the PDP rebuild (2026-06-29). Day-of data already showing movement: 1 ATC + 1 checkout initiated on B17C1 the day it went live (2026-06-29), and "2 ATC today" reported 2026-06-30. Promising but n is still tiny — needs more days before calling it fixed.
+3. **Offer/price resistance.** Amazon tallow balms commonly run $30-50; we sit at the high end ($49.99, anchored from $69.99). Shoppers in this category comparison-shop a lot. Plausible that price-to-perceived-value is a real drag on ATC specifically (not just purchase) — i.e., people stall BEFORE adding to cart because they're already doing mental math against cheaper alternatives.
+4. **No warm retargeting flow.** Nothing currently re-engages someone who viewed/considered but didn't add to cart. (Abandoned-cart email only fires post-checkout-start, which is further down-funnel than this gap — this is about LPV/PDP-viewers who never even got to checkout.)
+
+**Additional hypotheses to consider (Claude, 2026-06-30):**
+5. **Mobile friction at the ATC moment itself** — even with the new PDP, worth checking: does the Add to Cart button feel committal/scary vs. low-stakes? Does the cart drawer reduce or increase hesitation by showing the full price commitment immediately?
+6. **Trust/proof insufficient at the exact ATC decision point.** The new PDP added proof-in-flow (stats, diagrams), but is there enough RIGHT NEXT TO the button — not just on the page — at the moment someone is deciding? (Guarantee badge is there; real reviews are still pending — see review-integrity TODO.)
+7. **Audience-creative mismatch from broad targeting.** Post-Andromeda, creative IS the targeting (per `Tallow_Ad_Creative_Principles.md` Principle 1) — if an ad's hook is narrow (resonates with one sub-avatar) but Meta is still showing it broadly before the algorithm narrows delivery, a lot of impressions/clicks may be reaching people the creative was never meant for, who click from curiosity but were never going to buy. This would show up as decent CTR but poor LPV->ATC specifically on certain cells, not others. Differentiates from hypothesis #1 — that's a creative-quality problem, this is a delivery/targeting-lag problem.
+8. **Page load speed / mobile rendering on actual devices (not just the mockup).** The new PDP was built speed-optimized, but real-world testing on actual phones/networks hasn't been confirmed yet — if anything is slow or breaks on a real device, that alone tanks ATC regardless of everything else.
+9. **Shipping/guarantee terms not landing as reassuring enough at the moment of friction** — e.g. is "free shipping" and "60-day guarantee" visible enough at the exact ATC click, or only earlier on the page (people may forget by the time they decide).
+10. **Single-SKU / no quantity-or-bundle flexibility right at the ATC moment** — someone wanting to "just try a little" or unsure about committing to a full jar has no lower-commitment option in view at that moment (separate from the bundle-upsell-after-ATC decision already made; this is about pre-ATC hesitation, not post-ATC upsell).
+
+**Next step:** complete TODO #1 (B17 + B19 feedback loops), then revisit this list — keep what the data supports, cut what it doesn't, and add what the loops reveal that isn't here yet.
+
+---
+
 ## Update Protocol (read this if you are Claude)
 
 Three concrete triggers — update HANDOFF.md inline, NOT at end of session:
