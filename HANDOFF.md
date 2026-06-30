@@ -102,6 +102,20 @@ Ideas captured for future batch planning. Not for the current B17/B18 window —
 
 ---
 
+### NEW Sub-Avatar — Sun-Damaged / Outdoor Skin (added 2026-06-30, founder)
+
+**Who:** Women (and possibly men) who spent years outdoors — gardening, farming, ranch/outdoor work, boating, beach/lake, coaching — and now have sun-weathered skin: dark spots, leathery/rough texture, "tired" tone, the look of decades in the sun. Distinct from the core Invisible Woman (whose trigger is "my skin changed after 40 for no reason"); this avatar knows EXACTLY why her skin looks the way it does — the sun — and has a concrete origin story.
+
+**Why it's strong (review-validated, not a guess):** the Amazon review mining flagged sun damage repeatedly as a real buy-driver. Category A ("why they bought") explicitly listed "People with sun damaged skin." Standout quotes: ★5 Forge Skin — "I'm 58... dealing with aging skin, sun damage from years of outdoor work, and overall tired-looking skin"; ★5 Forge Skin — "the dark spots from sun damage started fading, and my skin had this healthy glow I hadn't seen in probably 20 years." Real customers in our own research bought BECAUSE of sun-related skin, and stayed because they saw change.
+
+**Angle directions to test:** the outdoor-life origin scene (years on the water / in the garden / on the sidelines), the specific-moment recognition (a photo from a sunny trip, a friend who stayed out of the sun looking different), the "I earned this skin and figured nothing could touch it" reframe. Fits the whiteboard format too (e.g. a "what years of sun does vs. what fat puts back" diagram) and the native format (origin-story discovery).
+
+**★ COMPLIANCE WATCH (important):** do NOT make drug/treatment claims. "Repairs sun damage," "reverses sun damage," "fades dark spots," "treats hyperpigmentation," "anti-aging" are all OFF-LIMITS (drug claims + the existing anti-aging ban). Stay functional/experiential and first-person: "skin that's been in the sun for forty years," "softer," "less tight," "looks less tired," and let real-customer language carry the rest. The competitor "fades dark spots and acne scars" line (seen in comp analysis) is exactly the claim we avoid. Frame the SUN as the shared life experience (the targeting hook), not a condition we treat.
+
+**Status:** Concept logged. Candidate for a B20+/Marksman cell once current batches resolve. Pairs naturally with the proven water-vs-fat mechanism (skin that lost its own oil + sun exposure). Needs the avatar written up properly in `tallow-cream/avatars/` before it goes to creative.
+
+---
+
 ### Concept A — Formula Drift / "Brands Changed Their Recipe" (HIGHEST PRIORITY)
 
 **The angle:** Product-awareness ad for TOF audiences who are Solution Aware but don't know *why* the products they trusted stopped working. The Pond's framing without the Pond's name — the discovery is that brands quietly reformulate (more water, more filler, more preservatives), so what grandma used in 1975 isn't what's in the bottle now. Our product is closer to the original. The mechanism (fat-not-water) isn't new information; the frame is that the industry drifted away from it.
