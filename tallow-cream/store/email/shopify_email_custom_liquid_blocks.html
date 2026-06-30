@@ -1,11 +1,11 @@
 {%- comment -%}
-  SHOPIFY EMAIL (Marketing > Automations) abandoned-cart — HYBRID approach.
+  SHOPIFY EMAIL (Marketing > Automations) abandoned-cart · HYBRID approach.
 
   Your store has no editable "Abandoned checkout" notification template (newer
   Shopify; recovery is handled by the Shopify Email automation). Custom Liquid in
-  Shopify Email is sandboxed — it CANNOT access the cart or the checkout link.
+  Shopify Email is sandboxed · it CANNOT access the cart or the checkout link.
   So the cart items + the working button MUST stay as the automation's NATIVE
-  blocks. These Custom Liquid blocks are the STATIC styled parts only.
+  blocks. These Custom Liquid blocks are the static styled parts only.
 
   ORDER OF SECTIONS in the email (top to bottom):
     1. Custom Liquid  -> BLOCK A (brand bar + headline + copy)   [below]
@@ -19,7 +19,7 @@
 {%- endcomment -%}
 
 
-{%- comment -%} ================= BLOCK A — header + copy ================= {%- endcomment -%}
+{%- comment -%} ================= BLOCK A · header + copy ================= {%- endcomment -%}
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#FBF8F2;">
   <tr><td align="center" style="background:#22351F;padding:14px;">
     <span style="font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:bold;color:#F2EAD9;letter-spacing:.5px;">Baseline&nbsp;&middot;&nbsp;<span style="color:#E9C892;">Tallow</span></span>
@@ -36,7 +36,7 @@
 </table>
 
 
-{%- comment -%} ================= BLOCK B — FIRST10 callout ================= {%- endcomment -%}
+{%- comment -%} ================= BLOCK B · FIRST10 callout ================= {%- endcomment -%}
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#FBF8F2;">
   <tr><td style="padding:8px 28px;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#F3E7CE;border:1px dashed #C98A3C;border-radius:12px;">
@@ -52,7 +52,7 @@
 </table>
 
 
-{%- comment -%} ================= BLOCK C — trust strip ================= {%- endcomment -%}
+{%- comment -%} ================= BLOCK C · trust strip ================= {%- endcomment -%}
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#FBF8F2;">
   <tr><td align="center" style="padding:14px 28px 26px 28px;">
     <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12.5px;color:#6b6552;">Free shipping&nbsp;&nbsp;&middot;&nbsp;&nbsp;60-day money-back guarantee&nbsp;&nbsp;&middot;&nbsp;&nbsp;4 ingredients</p>
