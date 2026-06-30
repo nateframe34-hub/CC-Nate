@@ -54,6 +54,8 @@ title/price/images/variant are pulled live from the product.
 - **Single variant (120g):** the forms use `selected_or_first_available_variant`, so it works as-is. If you add variants later, we'll add a variant picker.
 - **Reviews:** the featured review is one editable block. To show your full review widget (e.g. a reviews app), add its app block / snippet inside the `#tlw-reviews` section — tell me which app and I'll wire it.
 - **This does NOT change your default product template.** Only the products you assign to `tallow` use it. Everything else is untouched.
+- **Cart drawer (built in, no app):** Add to Cart adds via AJAX and slides open a cart drawer — the shopper stays on the PDP, never hits the default cart page. The bag icon also opens the drawer. The drawer shows line items, the $69.99→$49.99 strikethrough + "Savings", subtotal, qty steppers, remove, and Check out (→ /checkout). The savings line reads the automatic discount from `/cart.js`, so make sure the automatic discount (step 5) is created or the drawer will show $69.99 with no savings.
+- **Avoid the ugly cart page:** our section's bag icon opens the drawer, but Shrine's own theme header (which sits above this section) still has a cart icon that links to `/cart`. To fully avoid the default cart page, either hide the theme header on this template or accept that the theme's header cart still goes to `/cart`. Tell me if you want the theme header hidden on this template and I'll add the snippet.
 
 ---
 
