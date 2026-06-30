@@ -1,0 +1,102 @@
+{%- comment -%}
+  ABANDONED CART — Custom Liquid block for Shopify Email.
+  Paste into a "Custom Liquid" section of the abandoned-checkout email.
+  Email-safe: table layout + inline styles only (no flexbox/grid, no <style> classes).
+  Matches the PDP look: cream/green/amber, Georgia headings.
+  Loops the REAL cart items and links straight to the customer's checkout.
+
+  Vars used (available in Shopify abandoned-checkout emails):
+    checkout.line_items[].image / .title / .product.title / .variant.title
+    .quantity / .final_line_price / .original_line_price / .url
+    checkout.subtotal_price / .total_discounts / .abandoned_checkout_url
+{%- endcomment -%}
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#F6F1E9" style="background:#F6F1E9;margin:0;padding:0;">
+  <tr><td align="center" style="padding:24px 12px;">
+
+    <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:600px;background:#FBF8F2;border:1px solid #D8CDBC;border-radius:16px;overflow:hidden;">
+
+      <!-- Brand bar -->
+      <tr><td align="center" style="background:#22351F;padding:14px;">
+        <span style="font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:bold;color:#F2EAD9;letter-spacing:.5px;">Baseline&nbsp;&middot;&nbsp;<span style="color:#E9C892;">Tallow</span></span>
+      </td></tr>
+
+      <!-- Headline + copy -->
+      <tr><td align="center" style="padding:34px 34px 8px 34px;">
+        <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:30px;line-height:1.15;color:#23291F;font-weight:600;">Your jar is still in your cart.</h1>
+      </td></tr>
+      <tr><td align="center" style="padding:10px 36px 0 36px;">
+        <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#5c5848;">Whenever you're ready, the button below picks up right where you left off. Nothing's lost.</p>
+      </td></tr>
+      <tr><td align="center" style="padding:14px 36px 0 36px;">
+        <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:#5c5848;">If something gave you pause: the 60-day money-back guarantee covers it. If it doesn't do anything for your skin, you email us and you get every dollar back. No questions.</p>
+      </td></tr>
+
+      <!-- Items -->
+      <tr><td style="padding:26px 28px 6px 28px;">
+        <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#C98A3C;font-weight:bold;">In your cart</p>
+      </td></tr>
+
+      {%- for line in checkout.line_items -%}
+      <tr><td style="padding:10px 28px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #D8CDBC;border-radius:12px;background:#FFFFFF;">
+          <tr>
+            <td width="92" valign="top" style="padding:12px;">
+              {%- if line.image -%}
+              <img src="{{ line.image | image_url: width: 200 }}" alt="{{ line.title | escape }}" width="80" height="80" style="display:block;width:80px;height:80px;border-radius:8px;object-fit:cover;border:0;">
+              {%- endif -%}
+            </td>
+            <td valign="middle" style="padding:12px 8px;font-family:Arial,Helvetica,sans-serif;">
+              <div style="font-size:15px;font-weight:bold;color:#23291F;line-height:1.25;">{{ line.product.title | default: line.title }}</div>
+              {%- if line.variant.title and line.variant.title != 'Default Title' -%}
+              <div style="font-size:13px;color:#6b6552;margin-top:3px;">{{ line.variant.title }}</div>
+              {%- endif -%}
+              <div style="font-size:13px;color:#6b6552;margin-top:3px;">Qty: {{ line.quantity }}</div>
+            </td>
+            <td valign="middle" align="right" style="padding:12px;font-family:Arial,Helvetica,sans-serif;white-space:nowrap;">
+              {%- if line.original_line_price > line.final_line_price -%}
+              <div style="font-size:13px;color:#9a927d;text-decoration:line-through;">{{ line.original_line_price | money }}</div>
+              {%- endif -%}
+              <div style="font-size:16px;font-weight:bold;color:#2E4731;">{{ line.final_line_price | money }}</div>
+            </td>
+          </tr>
+        </table>
+      </td></tr>
+      {%- endfor -%}
+
+      <!-- Savings + subtotal -->
+      {%- if checkout.total_discounts > 0 -%}
+      <tr><td style="padding:8px 36px 0 36px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+          <td style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#2E4731;">Savings</td>
+          <td align="right" style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#2E4731;">-{{ checkout.total_discounts | money }}</td>
+        </tr></table>
+      </td></tr>
+      {%- endif -%}
+      <tr><td style="padding:8px 36px 2px 36px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+          <td style="font-family:Georgia,'Times New Roman',serif;font-size:19px;font-weight:600;color:#23291F;">Subtotal</td>
+          <td align="right" style="font-family:Georgia,'Times New Roman',serif;font-size:19px;font-weight:600;color:#23291F;">{{ checkout.subtotal_price | money }}</td>
+        </tr></table>
+      </td></tr>
+
+      <!-- CTA -->
+      <tr><td align="center" style="padding:22px 28px 6px 28px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+          <td align="center" bgcolor="#2E4731" style="background:#2E4731;border-radius:12px;">
+            <a href="{{ checkout.abandoned_checkout_url }}" style="display:block;padding:17px 26px;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;color:#ffffff;text-decoration:none;border-radius:12px;">Return to my checkout</a>
+          </td>
+        </tr></table>
+      </td></tr>
+
+      <!-- Trust strip -->
+      <tr><td align="center" style="padding:14px 28px 30px 28px;">
+        <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12.5px;color:#6b6552;">Free shipping&nbsp;&nbsp;&middot;&nbsp;&nbsp;60-day money-back guarantee&nbsp;&nbsp;&middot;&nbsp;&nbsp;4 ingredients</p>
+      </td></tr>
+
+    </table>
+
+    <p style="margin:16px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#9a927d;">Baseline &middot; Whipped Tallow &amp; Honey Balm</p>
+
+  </td></tr>
+</table>
