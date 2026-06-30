@@ -6,9 +6,13 @@
   Marketing copy (diagrams/checks/stats) is editable via section settings in the
   theme customizer where exposed; the rest is inline and editable here in code.
 
-  PRICING NOTE: the strikethrough renders automatically when the product's
-  "Compare at price" is higher than its price. Set Price = 49.99 and
-  Compare at price = 59.99 (or 69.99) on the variant for the anchor to show.
+  PRICING NOTE: the displayed price is HARDCODED via section settings
+  (price_compare struck through + price_sale), NOT pulled from the variant's
+  price/compare-at. This lets the real product price stay $69.99 while an
+  automatic discount drops it to $49.99 at checkout, so the discount shows in
+  the cart. Keep the Shopify product price at $69.99 (no compare-at needed) and
+  create an automatic discount of -$20 (or a 28.57% off) so cart = $49.99.
+  The Add to Cart buttons still post the real variant, so the discount applies.
 
   SPEED: ZERO web fonts (system stack: system sans body, Georgia headings) = no
   font download/render-block. Hero image fetchpriority high + eager; below-fold lazy.
@@ -208,12 +212,9 @@
     <h1>{{ product.title }}</h1>
     <div class="subt">{{ section.settings.subtitle }}</div>
     <div class="price">
-      <span class="now">{{ product.price | money }}</span>
-      {%- if product.compare_at_price > product.price -%}
-        <span class="was">{{ product.compare_at_price | money }}</span>
-        {%- assign saved = product.compare_at_price | minus: product.price -%}
-        <span class="save">Save {{ saved | money }}</span>
-      {%- endif -%}
+      <span class="now">{{ section.settings.price_sale }}</span>
+      {%- if section.settings.price_compare != blank -%}<span class="was">{{ section.settings.price_compare }}</span>{%- endif -%}
+      {%- if section.settings.price_save != blank -%}<span class="save">{{ section.settings.price_save }}</span>{%- endif -%}
     </div>
     <div class="ship">{{ section.settings.ship_text }}</div>
 
@@ -222,7 +223,7 @@
       <input type="hidden" name="id" value="{{ v.id }}">
       <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
         <svg class="icon" style="width:19px;height:19px"><use href="#tlw-cart"/></svg>
-        {%- if v.available -%}Add to Cart · {{ product.price | money }}{%- else -%}Sold Out{%- endif -%}
+        {%- if v.available -%}Add to Cart · {{ section.settings.price_sale }}{%- else -%}Sold Out{%- endif -%}
       </button>
     {%- endform -%}
 
@@ -322,7 +323,7 @@
     <input type="hidden" name="id" value="{{ v.id }}">
     <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
       <svg class="icon" style="width:19px;height:19px"><use href="#tlw-cart"/></svg>
-      {%- if v.available -%}Add to Cart · {{ product.price | money }}{%- else -%}Sold Out{%- endif -%}
+      {%- if v.available -%}Add to Cart · {{ section.settings.price_sale }}{%- else -%}Sold Out{%- endif -%}
     </button>
   {%- endform -%}
   <div class="trust-strip">
@@ -335,7 +336,7 @@
 
 <!-- STICKY MOBILE ATC (real form) -->
 <div class="sticky">
-  <div class="p">{{ product.price | money }}</div>
+  <div class="p">{{ section.settings.price_sale }}</div>
   {%- form 'product', product, id: 'tlw-form-sticky', class: 'pf' -%}
     <input type="hidden" name="id" value="{{ v.id }}">
     <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
@@ -352,6 +353,11 @@
   "tag": "section",
   "class": "tallow-pdp-section",
   "settings": [
+    { "type": "header", "content": "Price display (hardcoded, not from variant)" },
+    { "type": "text", "id": "price_sale", "label": "Sale price (shown)", "default": "$49.99" },
+    { "type": "text", "id": "price_compare", "label": "Compare-at price (struck through)", "default": "$69.99" },
+    { "type": "text", "id": "price_save", "label": "Savings badge", "default": "Save $20" },
+    { "type": "header", "content": "Hero" },
     { "type": "text", "id": "anno_text", "label": "Announcement bar", "default": "Free shipping on every order · 60-day money-back guarantee" },
     { "type": "text", "id": "badge_text", "label": "Image badge", "default": "Bestseller" },
     { "type": "text", "id": "rating_text", "label": "Rating text", "default": "4.8 · 47 reviews" },

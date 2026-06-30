@@ -3,6 +3,9 @@
     "main": {
       "type": "tallow-pdp",
       "settings": {
+        "price_sale": "$49.99",
+        "price_compare": "$69.99",
+        "price_save": "Save $20",
         "anno_text": "Free shipping on every order · 60-day money-back guarantee",
         "badge_text": "Bestseller",
         "rating_text": "4.8 · 47 reviews",

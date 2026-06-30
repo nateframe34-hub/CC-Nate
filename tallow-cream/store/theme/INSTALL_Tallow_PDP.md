@@ -31,9 +31,11 @@ title/price/images/variant are pulled live from the product.
    - Right sidebar → **Theme template** dropdown (the one in your screenshot) → select **tallow**.
    - **Save**.
 
-5. **Set the price + anchor so the strikethrough shows.**
-   - On the product/variant: set **Price = $49.99** and **Compare at price = $59.99** (or $69.99).
-   - The template shows the strikethrough + "Save $X" automatically whenever Compare-at > Price. (Right now the variant is $69.99 with no compare-at, so no strikethrough would show — fix this or the anchor won't render.)
+5. **Pricing — hardcoded display + automatic discount (so the sale shows in cart).**
+   - The PDP price (`~~$69.99~~ $49.99`) is **hardcoded** in the section settings (Price display block), NOT pulled from the variant. So you do NOT need to touch compare-at.
+   - **Keep the Shopify product price at $69.99.**
+   - Create an **automatic discount** (Discounts → Create → Automatic) of **-$20 off** (or 28.57%) applied to this product, no code needed. Now the cart/checkout shows $69.99 with the discount applied → $49.99, so the deal is visible in the cart.
+   - The Add to Cart buttons post the real variant, so the discount applies automatically. The displayed $49.99 (button, sticky bar, price block) all read from the `price_sale` setting — change it in the customizer if you ever reprice.
 
 6. **Preview & test.**
    - Use **Preview** (eye icon) or the theme preview link. View on a phone (98% of traffic).
