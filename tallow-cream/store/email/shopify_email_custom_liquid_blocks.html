@@ -36,6 +36,41 @@
 </table>
 
 
+{%- comment -%}
+  ================= BLOCK P · STATIC PRODUCT CARD (optional, single-SKU) =================
+  Use this INSTEAD of the native product display when you want full control of the
+  look (the native block can't be styled to match). Place it between BLOCK A and the
+  native checkout button. Then in the native "Abandoned checkout" block, HIDE the
+  Image / Title / Variants / Quantity / Price and keep ONLY the Button (the working
+  recovery link). The button still sends them to their real cart, so checkout is
+  always accurate even though this card is static.
+
+  >>> REPLACE the image src below with your product image URL <<<
+  Get it from: Products > Whipped Tallow & Honey Balm > click the image > copy image
+  address (a cdn.shopify.com/... URL). Paste it in place of PRODUCT_IMAGE_URL.
+{%- endcomment -%}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#FBF8F2;">
+  <tr><td style="padding:6px 28px 2px 28px;">
+    <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#C98A3C;font-weight:bold;">In your cart</p>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #D8CDBC;border-radius:12px;background:#FFFFFF;">
+      <tr>
+        <td width="96" valign="middle" style="padding:12px;">
+          <img src="PRODUCT_IMAGE_URL" alt="Whipped Tallow & Honey Balm" width="80" height="80" style="display:block;width:80px;height:80px;border-radius:8px;border:0;">
+        </td>
+        <td valign="middle" style="padding:12px 8px;font-family:Arial,Helvetica,sans-serif;">
+          <div style="font-size:15px;font-weight:bold;color:#23291F;line-height:1.25;">Whipped Tallow &amp; Honey Balm</div>
+          <div style="font-size:13px;color:#6b6552;margin-top:3px;">120g</div>
+        </td>
+        <td valign="middle" align="right" style="padding:12px;font-family:Arial,Helvetica,sans-serif;white-space:nowrap;">
+          <div style="font-size:13px;color:#9a927d;text-decoration:line-through;">$69.99</div>
+          <div style="font-size:16px;font-weight:bold;color:#2E4731;">$49.99</div>
+        </td>
+      </tr>
+    </table>
+  </td></tr>
+</table>
+
+
 {%- comment -%} ================= BLOCK B · FIRST10 callout ================= {%- endcomment -%}
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#FBF8F2;">
   <tr><td style="padding:8px 28px;">
