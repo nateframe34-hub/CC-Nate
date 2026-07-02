@@ -1,3 +1,5 @@
+**SUPERSEDED 2026-07-02.** Founder redirected H1 from lighting/crop/color tweaks to problem/outcome imagery (bigger CPM swing, matches native swipe file pattern). See `H1A_Problem_Trashcan.md`, `H1B_Problem_Before_Counter.md`, `H1C_Outcome_Arm_Texture.md` for the current H1 cell set. Kept here for reference only, not for production.
+
 # B21 H1-A - Bold Native: Dramatic Light
 
 **Batch:** 21, Hypothesis 1 (Bold Native), Cell A
