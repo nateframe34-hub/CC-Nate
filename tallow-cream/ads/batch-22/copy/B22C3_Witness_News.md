@@ -24,7 +24,7 @@ Four ingredients. $49.99. Free shipping. 60-day money-back guarantee.
 ---
 
 ## Meta Headline
-He stopped mid-sentence and looked up.
+He stopped mid-sentence to tell her she looked different.
 
 ## Meta Description
 $49.99. Free shipping. 60-day refund.
@@ -34,7 +34,7 @@ $49.99. Free shipping. 60-day refund.
 ## Image Prompt
 
 ```
-A mobile screenshot styled like a local TV news broadcast, filling the frame edge to edge with slight video-compression softness. Background: a slightly blurred, candid shot of an outdoor restaurant table at dusk, a lit candle in soft focus, two wine glasses, a couple's hands loosely visible near each other on the table, warm string lights out of focus overhead, ordinary and unstaged, no faces in sharp focus. In the top left corner, a small red "LIVE" badge beside a generic fictional call sign in small caps, no real network name. Across the lower third, a bold red-to-dark-red gradient banner bar with large bold white all-caps text: "HE STOPPED MID-SENTENCE AND LOOKED UP." Directly below, a thinner black ticker bar with smaller white scrolling-style text: "SHE DIDN'T ASK WHAT HE MEANT. SHE ALREADY KNEW." Crisp, legible text at mobile feed size, bold like real broadcast graphics, subtle drop shadow. Slight chromatic softness and scan-line texture to sell the screenshotted-off-a-TV feeling. No brand logos, no real network names, no additional text overlays beyond the banner and ticker. 4:5 aspect ratio, 1080x1350.
+A mobile screenshot styled like a local TV news broadcast, filling the frame edge to edge with slight video-compression softness. Background: a slightly blurred, candid shot of an outdoor restaurant table at dusk, a lit candle in soft focus, two wine glasses, a couple's hands loosely visible near each other on the table, warm string lights out of focus overhead, ordinary and unstaged, no faces in sharp focus. In the top left corner, a small red "LIVE" badge beside a generic fictional call sign in small caps, no real network name. Across the lower third, a bold red-to-dark-red gradient banner bar with large bold white all-caps text: "HE STOPPED MID-SENTENCE TO TELL HER SHE LOOKED DIFFERENT." Directly below, a thinner black ticker bar with smaller white scrolling-style text: "SHE DIDN'T ASK WHAT HE MEANT. SHE ALREADY KNEW." Crisp, legible text at mobile feed size, bold like real broadcast graphics, subtle drop shadow. Slight chromatic softness and scan-line texture to sell the screenshotted-off-a-TV feeling. No brand logos, no real network names, no additional text overlays beyond the banner and ticker. 4:5 aspect ratio, 1080x1350.
 ```
 
 **Aspect ratio:** 4:5 (1080 x 1350)
@@ -42,3 +42,5 @@ A mobile screenshot styled like a local TV news broadcast, filling the frame edg
 
 ## Why this cell
 Tests whether the external-witness close, previously only proven inside full-length native narrative, survives translation into a single-frame graphic format when the format itself (news-chyron) is held constant against C1 and C2. This is the highest-risk cell of the three: the beat depends on emotional context that a full story builds and a single caption cannot, so if C1 and C2 outperform it, that is itself informative about which converting elements are format-portable and which require narrative length to land.
+
+**Headline note (2026-07-02):** this cell already tested strongest on desire (being noticed and wanted is the underlying pull), but the original headline was intriguing without stating the payoff. Rewritten to make explicit what he actually did, telling her she looked different, rather than leaving it as an unresolved tease.

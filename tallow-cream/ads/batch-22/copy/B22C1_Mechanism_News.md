@@ -23,7 +23,7 @@ Four ingredients. $49.99. Free shipping. 60-day money-back guarantee.
 ---
 
 ## Meta Headline
-The reason it's gone by noon.
+Why her skin still looks dewy at 2pm and yours doesn't.
 
 ## Meta Description
 $49.99. Free shipping. 60-day refund.
@@ -33,7 +33,7 @@ $49.99. Free shipping. 60-day refund.
 ## Image Prompt
 
 ```
-A mobile screenshot styled like a local TV news broadcast, filling the frame edge to edge with a slight video-compression softness, like a photo taken of a television mid-segment. Background: a slightly blurred, candid shot of a woman's wet hand under a running bathroom faucet, water visibly beading and running off the skin, ordinary bathroom tile out of focus behind it, generic and unbranded. In the top left corner, a small red "LIVE" badge with a generic, fictional call sign beside it in small caps, "CHANNEL 12" or similar, no real network name or logo. Across the lower third of the frame, a bold red-to-dark-red gradient banner bar, and on it in large bold white all-caps sans-serif text: "WHY YOUR MOISTURIZER STOPS WORKING BY NOON." Directly below that banner, a thinner black ticker bar running the full width with smaller white scrolling-style text: "SKIN EXPERTS SAY THE ISSUE ISN'T YOUR SKIN, IT'S WHAT EVAPORATES FIRST." The text is crisp and legible at mobile feed size, slightly bold like real broadcast graphics, with a subtle drop shadow so it reads over the background. Slight chromatic softness and scan-line texture overall to sell the screenshotted-off-a-TV feeling, not a clean vector graphic. No brand logos, no real network names, no additional text overlays beyond the banner and ticker. 4:5 aspect ratio, 1080x1350.
+A mobile screenshot styled like a local TV news broadcast, filling the frame edge to edge with a slight video-compression softness, like a photo taken of a television mid-segment. Background: a slightly blurred, candid shot of a woman's wet hand under a running bathroom faucet, water visibly beading and running off the skin, ordinary bathroom tile out of focus behind it, generic and unbranded. In the top left corner, a small red "LIVE" badge with a generic, fictional call sign beside it in small caps, "CHANNEL 12" or similar, no real network name or logo. Across the lower third of the frame, a bold red-to-dark-red gradient banner bar, and on it in large bold white all-caps sans-serif text: "WHY HER SKIN STILL LOOKS DEWY AT 2PM AND YOURS DOESN'T." Directly below that banner, a thinner black ticker bar running the full width with smaller white scrolling-style text: "IT'S NOT YOUR SKIN. IT'S WHAT'S EVAPORATING BY NOON." The text is crisp and legible at mobile feed size, slightly bold like real broadcast graphics, with a subtle drop shadow so it reads over the background. Slight chromatic softness and scan-line texture overall to sell the screenshotted-off-a-TV feeling, not a clean vector graphic. No brand logos, no real network names, no additional text overlays beyond the banner and ticker. 4:5 aspect ratio, 1080x1350.
 ```
 
 **Aspect ratio:** 4:5 (1080 x 1350)
@@ -41,3 +41,5 @@ A mobile screenshot styled like a local TV news broadcast, filling the frame edg
 
 ## Why this cell
 Isolates the mechanism as the tested element while holding the news-chyron format constant across all 3 B22 cells. The running-water background image is a direct visual echo of "water evaporates," tying the graphic headline to something concrete rather than abstract text on a blank background.
+
+**Headline note (2026-07-02):** original headline ("The reason it's gone by noon") tested as pure curiosity, an interesting fact, not something that makes a reader want the product for herself. Rewritten to lead with the envy gap (her skin holds, yours doesn't) so the mechanism explanation answers a desire instead of just satisfying trivia.
