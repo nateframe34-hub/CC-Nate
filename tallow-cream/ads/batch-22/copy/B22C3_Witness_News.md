@@ -7,6 +7,8 @@
 
 **Compliance note:** Same as C1/C2, aesthetic only, no claim of actual broadcast/endorsement, no real network branding. Keep the line "he noticed" functional and relational, not a beauty/appearance-transformation claim.
 
+**Format correction (2026-07-02):** rewritten from a TV-screenshot concept to a sharp, produced lifestyle photo with a badge tag, bold headline overlay, and an inset-circle "proof moment" close-up, matching the actual reference ads (dog supplement, sweatpants), not a candid screenshot.
+
 ---
 
 ## Primary Text
@@ -34,7 +36,7 @@ $49.99. Free shipping. 60-day refund.
 ## Image Prompt
 
 ```
-A mobile screenshot styled like a local TV news broadcast, filling the frame edge to edge with slight video-compression softness. Background: a slightly blurred, candid shot of an outdoor restaurant table at dusk, a lit candle in soft focus, two wine glasses, a couple's hands loosely visible near each other on the table, warm string lights out of focus overhead, ordinary and unstaged, no faces in sharp focus. In the top left corner, a small red "LIVE" badge beside a generic fictional call sign in small caps, no real network name. Across the lower third, a bold red-to-dark-red gradient banner bar with large bold white all-caps text: "HE STOPPED MID-SENTENCE TO TELL HER SHE LOOKED DIFFERENT." Directly below, a thinner black ticker bar with smaller white scrolling-style text: "SHE DIDN'T ASK WHAT HE MEANT. SHE ALREADY KNEW." Crisp, legible text at mobile feed size, bold like real broadcast graphics, subtle drop shadow. Slight chromatic softness and scan-line texture to sell the screenshotted-off-a-TV feeling. No brand logos, no real network names, no additional text overlays beyond the banner and ticker. 4:5 aspect ratio, 1080x1350.
+A sharp, well-lit, in-focus product-ad photograph, not a candid or grainy shot, full bleed edge to edge. Main image: a woman in her mid-50s at an outdoor restaurant table at dusk, warm string lights and a lit candle softly glowing behind her, caught in a genuine soft smile looking slightly off-camera as if someone just spoke to her, clean polished lifestyle-ad lighting, shallow depth of field with the background softly blurred but her face and shoulders sharp. In the upper right area of the frame, a circular inset callout with a bold red outline ring, containing a close, sharp crop of a man's hand gently touching the side of a woman's face near her ear, warm candlelight on the skin, tender and clear, like a proof-of-moment zoom rather than a diagram. A small bold badge tag above the headline, white text on a red rectangle reading "BREAKING NEWS." Below the badge, large bold white sans-serif all-caps text over a dark gradient at the bottom of the frame: "HE STOPPED MID-SENTENCE TO TELL HER SHE LOOKED DIFFERENT," with the phrase "SHE LOOKED DIFFERENT" in a bright accent yellow to highlight the key phrase. Below that, smaller white text: "SHE DIDN'T ASK WHAT HE MEANT. SHE ALREADY KNEW." A thin horizontal accent-colored divider line and small website-style text at the very bottom edge. Overall polished, bright, high-contrast, commercial-ad quality, similar to a produced paid social ad, not a screenshot or amateur photo. 4:5 aspect ratio, 1080x1350.
 ```
 
 **Aspect ratio:** 4:5 (1080 x 1350)
