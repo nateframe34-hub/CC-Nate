@@ -3,6 +3,8 @@
 > Real-time handoff document. Updated whenever work happens, decisions get made, or items complete.
 > Read this at session start BEFORE doing anything else (after CLAUDE.md).
 
+**STATUS 2026-07-02, evening.** B21 (H1 problem/outcome native) is uploaded, all 3 cells showing "Processing" in Ads Manager, $0 spend, not delivering yet. B22 (news-chyron format test) is being generated now, not yet uploaded. **Open item, needs a founder decision:** yesterday's stats screenshot still shows B20C1/C2/C3 and B19C2 as Active and spending ($5.29-$11.21 lifetime each, B20C3 the best of them with 2 ATCs but still 0 purchases), even though killing the underperforming whiteboard cells was locked as a decision on 2026-07-01. They have not actually been turned off yet. Since B22 is specifically meant to take over the budget being freed up by that kill, B20/B19C2 should probably be turned off before or as B22 goes live, otherwise B22 launches into a campaign that's still competing with live whiteboard spend rather than a clean freed-up budget. Flagging rather than acting, since killing ad sets in Ads Manager isn't something to do without an explicit go-ahead.
+
 **Last Updated:** 2026-07-01
 **Active Brand:** Tallow Cream
 **Project Phase:** Mastery Council v2 locked after Fable 5 gap audit + founder corrections. Plan: Phase 1 funnel fix during BM warmup → Phase 2 B16 race at $50/day (C1 benchmark vs C2 Quiet House vs C3 One Who Should Have Fallen Apart) → Phase 3 Avatar Bible on winner → Phase 4 scale +20% per 3 positive-ROAS days, $1K/mo sustained gates the $10K push.
