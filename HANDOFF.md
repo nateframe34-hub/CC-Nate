@@ -218,6 +218,8 @@ Ideas captured for future batch planning. Not for the current B17/B18 window —
 
 **★ COMPLIANCE WATCH (important):** do NOT make drug/treatment claims. "Repairs sun damage," "reverses sun damage," "fades dark spots," "treats hyperpigmentation," "anti-aging" are all OFF-LIMITS (drug claims + the existing anti-aging ban). Stay functional/experiential and first-person: "skin that's been in the sun for forty years," "softer," "less tight," "looks less tired," and let real-customer language carry the rest. The competitor "fades dark spots and acne scars" line (seen in comp analysis) is exactly the claim we avoid. Frame the SUN as the shared life experience (the targeting hook), not a condition we treat.
 
+**★ NEW ANGLE, saved for later (2026-07-03, founder, off-topic note during other work, not to be acted on until Sun-Damaged unparks):** "stuck in the sun because of a kid's sporting activity." Years of sitting through soccer/baseball/softball/swim practices and games in direct sun, no shade, same bleachers every weekend for a decade-plus. Distinct origin story from the gardening/ranch/boating directions already listed above: this one is involuntary (a sideline-mom obligation, not a chosen outdoor lifestyle) and highly relatable to the Invisible Woman's own likely life stage (kids' sports years overlap heavily with 40s-50s parenting). Same compliance watch applies, frame as shared life experience/origin story, not a condition being treated.
+
 **Status:** Concept logged. Candidate for a B20+/Marksman cell once current batches resolve. Pairs naturally with the proven water-vs-fat mechanism (skin that lost its own oil + sun exposure). Needs the avatar written up properly in `tallow-cream/avatars/` before it goes to creative.
 
 ---
