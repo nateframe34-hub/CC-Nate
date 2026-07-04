@@ -3,6 +3,8 @@
 > Real-time handoff document. Updated whenever work happens, decisions get made, or items complete.
 > Read this at session start BEFORE doing anything else (after CLAUDE.md).
 
+**STATUS 2026-07-03, night: presell + B23 launching at midnight tonight.** Today's (7/3) pre-launch stats logged in the tracker. B22C2 turned off today so B22C1 gets full budget; B22C1's link is still pointing at the raw PDP as of today's numbers ($1.70, $47.22 CPM, 5.56% CTR, 2 clicks, 1 checkout initiated, 0 purchase), the presell page swap and B23's 4-cell launch both happen at midnight, so tomorrow's numbers are the first real read of both. B21 today: C1 and C2 thin/quiet ($132.50 and $176.25 CPM, no clicks), C3 got most of the CBO's spend today ($17.36, $315.64 CPM, 4 clicks, 4 LPV, 4 ATC, 0 purchase today), consistent with CBO favoring whichever cell shows early signal, not yet close to the 3-5 day / $75-100 checkpoint. NEXT: check B22C1's IC/purchase rate once the presell is live vs today's raw-PDP baseline, and start reading B23's 4 cells once they go live tonight (remember: $20/day split 4 ways, slower read than B21/B22 individually, don't judge on day one).
+
 **★★ FOUR FOUNDER REALIZATIONS, 2026-07-03, STRATEGY-SHAPING ★★**
 1. **Native Meta "Boost post" on B21C3 is outperforming the dedicated Engagement campaign for gathering engagement.** Cheaper/simpler lever than a separate seasoning campaign, worth using going forward for other cells too.
 2. **B22 confirmed weak, founder's own suspicion proven true.** The news-chyron format gets solid CPM (B22C1 $52.73, B22C2 $112.92 at 7pm 7/2) but was not converting, consistent with the short-form chyron copy never carrying the actual desire ladder the way native's 1,500-word copy does.
