@@ -1,0 +1,122 @@
+{%- comment -%}
+  TALLOW PRESELL BRIDGE PAGE · "Why her skin still looks dewy at 2pm"
+  Standalone Online Store 2.0 page section, built to be assigned to a page
+  template (page.presell-mechanism.json) with its own URL, e.g.
+  /pages/why-water-doesnt-hold
+
+  Purpose: B22C1 (news-chyron badge graphic ad) drives here first instead of
+  straight to the PDP, so the mechanism story that native's full copy carries
+  inline can carry a single-image ad the same way, before the click reaches
+  the product page. Traffic source: B22C1 only.
+
+  Reuses the exact PDP color/font system (--cream/--green/--amber, Georgia
+  serif headers, system sans body) so it reads as the same brand, not a
+  bolted-on landing page. One CTA button only, no nav, no other exits.
+{%- endcomment -%}
+
+<div id="tallow-presell">
+
+<style>
+  #tallow-presell{
+    --cream:#F6F1E9;--cream-2:#EFE7DA;--ink:#23291F;
+    --green:#2E4731;--green-deep:#22351F;--amber:#C98A3C;--amber-soft:#E9C892;
+    --line:#D8CDBC;--paper:#FBF8F2;--grey:#6b6552;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);background:var(--cream);line-height:1.6;-webkit-font-smoothing:antialiased;
+  }
+  #tallow-presell *{box-sizing:border-box}
+  #tallow-presell h1,#tallow-presell h2,#tallow-presell h3{font-family:Georgia,'Times New Roman',serif;font-weight:600;letter-spacing:-.01em;line-height:1.15}
+  #tallow-presell .wrap{max-width:640px;margin:0 auto;padding:28px 20px 60px}
+  #tallow-presell .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--amber);text-align:center;margin-bottom:10px}
+  #tallow-presell h1{font-size:clamp(26px,6vw,36px);text-align:center;margin:0 0 12px}
+  #tallow-presell .subhead{font-size:16px;color:var(--grey);text-align:center;font-weight:600;margin-bottom:32px}
+  #tallow-presell p{font-size:16px;margin:0 0 18px}
+  #tallow-presell .divider{border:none;border-top:1px solid var(--line);margin:32px 0}
+  #tallow-presell .diagram{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:20px;margin:24px 0;display:flex;gap:18px;content-visibility:auto}
+  #tallow-presell .diagram .col{flex:1;text-align:center}
+  #tallow-presell .diagram .col h4{font-size:13px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 8px;color:var(--grey)}
+  #tallow-presell .diagram .col.left h4{color:#8a6a4a}
+  #tallow-presell .diagram .col.right h4{color:var(--green)}
+  #tallow-presell .diagram .icon{font-size:28px;display:block;margin:6px 0}
+  #tallow-presell .diagram .note{font-size:12.5px;color:var(--grey)}
+  #tallow-presell h3.sub{font-size:20px;margin:36px 0 12px}
+  #tallow-presell .jar-shot{background:linear-gradient(150deg,#EFE6D6,#E3D4BC);border-radius:16px;aspect-ratio:4/3;margin:20px 0;display:flex;align-items:center;justify-content:center;color:var(--grey);font-size:13px;content-visibility:auto}
+  #tallow-presell .cta-block{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:26px 22px;text-align:center;margin-top:40px}
+  #tallow-presell .cta-block h3{font-size:22px;margin:0 0 8px}
+  #tallow-presell .cta-block p{font-size:14px;color:var(--grey);margin-bottom:20px}
+  #tallow-presell .btn{display:block;background:var(--green);color:#fff;text-decoration:none;border-radius:14px;padding:17px 26px;font-weight:700;font-size:16px;margin-bottom:16px}
+  #tallow-presell .trust-strip{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;font-size:11.5px;font-weight:600;color:#5c5848}
+  #tallow-presell .trust-strip span{display:flex;align-items:center;gap:5px}
+  #tallow-presell .trust-strip span:not(:last-child)::after{content:"·";margin-left:14px;color:var(--line)}
+</style>
+
+<div class="wrap">
+
+  <div class="eyebrow">The Science</div>
+  <h1>Why her skin still looks dewy at 2pm, and yours doesn't</h1>
+  <div class="subhead">It's not your skin. It's what's evaporating by noon.</div>
+
+  <p>Most moisturizers stop holding by noon. That's not your skin failing. That's water doing what water does.</p>
+
+  <p>Water evaporates in about an hour. Every cream that lists it as the first ingredient is gone before lunch, whether the label says so or not. You put it on at 7am and by noon it's gone. That's why nothing holds. That's why your skin feels tight by the time you're eating lunch, why foundation cracks around your mouth by two.</p>
+
+  <p>Fat is different. Skin recognizes it as close to what it already makes on its own, so it absorbs in instead of sitting on top.</p>
+
+  <div class="diagram">
+    <div class="col left">
+      <h4>Most Creams</h4>
+      <span class="icon">&#8593;&#128167;</span>
+      <div class="note">Water sits on top, evaporates by noon</div>
+    </div>
+    <div class="col right">
+      <h4>Tallow Balm</h4>
+      <span class="icon">&#8595;&#129362;</span>
+      <div class="note">Fat absorbs in, stays</div>
+    </div>
+  </div>
+
+  <p>Here's the part that isn't on any label. After about forty, skin makes a lot less of its own oil. The drop is real. Most women never connect what's happening to their face to what changed underneath, they just notice their skin doesn't hold the way it used to.</p>
+
+  <hr class="divider">
+
+  <p>A friend of mine, Elaine, figured this out by accident. She'd been using the same jar since her aunt Winnie told her about it at a wedding two summers ago. Winnie is 76, keeps bees in Vermont, and has used the same four ingredients since 1987. "I bought my first one by accident at a farmer's market," she said. Her skin looks like a woman fifteen years younger.</p>
+
+  <p>Elaine flipped every bottle in her bathroom over one afternoon and checked. Water. Glycerin second. Something unpronounceable third. Every single one.</p>
+
+  <p>The jar Winnie uses doesn't have water as the first ingredient. It's tallow, first. Fat, not water. That's the whole difference.</p>
+
+  <h3 class="sub">What's actually in it</h3>
+  <p>Four ingredients. Grass-fed tallow. Manuka honey. Olive oil. Calendula. Nothing you can't pronounce, nothing that evaporates by noon.</p>
+
+  <div class="jar-shot">[ product jar, calm, label-forward ]</div>
+
+  <h3 class="sub">What people notice, not what the label promises</h3>
+  <p>Skin holds instead of going tight by mid-afternoon. Foundation sits flat instead of cracking around the mouth. Some people stop carrying backup lotion in their purse and don't notice for weeks that they've stopped needing to.</p>
+
+  <p>Nobody on this page is a doctor. This isn't a medical claim. It's what happens when you stop putting water on your face and start putting on something closer to what your skin already makes.</p>
+
+  <div class="cta-block">
+    <h3>Try it. {{ section.settings.price_sale | default: '$49.99' }}. Free shipping. 60-day money-back guarantee.</h3>
+    <p>If it doesn't do anything in six weeks, email them and get every dollar back.</p>
+    <a class="btn" href="{{ section.settings.pdp_url | default: '/products/whipped-tallow-honey-balm' }}">Get the Jar</a>
+    <div class="trust-strip">
+      <span>60-Day Guarantee</span>
+      <span>Free US Shipping</span>
+      <span>4 Ingredients</span>
+      <span>No Subscription</span>
+    </div>
+  </div>
+
+</div>
+</div>
+
+{% schema %}
+{
+  "name": "Tallow Presell: Mechanism",
+  "settings": [
+    { "type": "url", "id": "pdp_url", "label": "PDP link", "default": "/products/whipped-tallow-honey-balm" },
+    { "type": "text", "id": "price_sale", "label": "Sale price shown in CTA", "default": "$49.99" }
+  ],
+  "presets": [{ "name": "Tallow Presell: Mechanism" }]
+}
+{% endschema %}

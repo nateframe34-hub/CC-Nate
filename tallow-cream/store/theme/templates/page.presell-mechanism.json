@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "tallow-presell-mechanism",
+      "settings": {
+        "pdp_url": "/products/whipped-tallow-honey-balm",
+        "price_sale": "$49.99"
+      }
+    }
+  },
+  "order": ["main"]
+}
