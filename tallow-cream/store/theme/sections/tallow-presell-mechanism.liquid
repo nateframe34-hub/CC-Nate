@@ -41,6 +41,10 @@
   #tallow-presell .diagram .note{font-size:12.5px;color:var(--grey)}
   #tallow-presell h3.sub{font-size:20px;margin:36px 0 12px}
   #tallow-presell .jar-shot{background:linear-gradient(150deg,#EFE6D6,#E3D4BC);border-radius:16px;aspect-ratio:4/3;margin:20px 0;display:flex;align-items:center;justify-content:center;color:var(--grey);font-size:13px;content-visibility:auto}
+  #tallow-presell .hero-img{margin:0 0 20px;border-radius:16px;overflow:hidden}
+  #tallow-presell .hero-img img{width:100%;height:auto;display:block}
+  #tallow-presell .diagram-img,#tallow-presell .jar-shot-img{margin:20px 0;border-radius:16px;overflow:hidden;content-visibility:auto}
+  #tallow-presell .diagram-img img,#tallow-presell .jar-shot-img img{width:100%;height:auto;display:block}
   #tallow-presell .cta-block{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:26px 22px;text-align:center;margin-top:40px}
   #tallow-presell .cta-block h3{font-size:22px;margin:0 0 8px}
   #tallow-presell .cta-block p{font-size:14px;color:var(--grey);margin-bottom:20px}
@@ -52,6 +56,10 @@
 
 <div class="wrap">
 
+  {%- if section.settings.hero_image != blank -%}
+    <div class="hero-img">{{ section.settings.hero_image | image_url: width: 1200 | image_tag: loading: 'eager', fetchpriority: 'high', alt: 'Water versus fat, skin mechanism illustration' }}</div>
+  {%- endif -%}
+
   <div class="eyebrow">The Science</div>
   <h1>Why her skin still looks dewy at 2pm, and yours doesn't</h1>
   <div class="subhead">It's not your skin. It's what's evaporating by noon.</div>
@@ -62,18 +70,22 @@
 
   <p>Fat is different. Skin recognizes it as close to what it already makes on its own, so it absorbs in instead of sitting on top.</p>
 
-  <div class="diagram">
-    <div class="col left">
-      <h4>Most Creams</h4>
-      <span class="icon">&#8593;&#128167;</span>
-      <div class="note">Water sits on top, evaporates by noon</div>
+  {%- if section.settings.diagram_image != blank -%}
+    <div class="diagram-img">{{ section.settings.diagram_image | image_url: width: 900 | image_tag: loading: 'lazy', alt: 'Diagram: water evaporates, fat absorbs' }}</div>
+  {%- else -%}
+    <div class="diagram">
+      <div class="col left">
+        <h4>Most Creams</h4>
+        <span class="icon">&#8593;&#128167;</span>
+        <div class="note">Water sits on top, evaporates by noon</div>
+      </div>
+      <div class="col right">
+        <h4>Tallow Balm</h4>
+        <span class="icon">&#8595;&#129362;</span>
+        <div class="note">Fat absorbs in, stays</div>
+      </div>
     </div>
-    <div class="col right">
-      <h4>Tallow Balm</h4>
-      <span class="icon">&#8595;&#129362;</span>
-      <div class="note">Fat absorbs in, stays</div>
-    </div>
-  </div>
+  {%- endif -%}
 
   <p>Here's the part that isn't on any label. After about forty, skin makes a lot less of its own oil. The drop is real. Most women never connect what's happening to their face to what changed underneath, they just notice their skin doesn't hold the way it used to.</p>
 
@@ -88,7 +100,11 @@
   <h3 class="sub">What's actually in it</h3>
   <p>Four ingredients. Grass-fed tallow. Manuka honey. Olive oil. Calendula. Nothing you can't pronounce, nothing that evaporates by noon.</p>
 
-  <div class="jar-shot">[ product jar, calm, label-forward ]</div>
+  {%- if section.settings.jar_image != blank -%}
+    <div class="jar-shot-img">{{ section.settings.jar_image | image_url: width: 900 | image_tag: loading: 'lazy', alt: 'Whipped tallow and honey balm jar' }}</div>
+  {%- else -%}
+    <div class="jar-shot">[ product jar, calm, label-forward ]</div>
+  {%- endif -%}
 
   <h3 class="sub">What people notice, not what the label promises</h3>
   <p>Skin holds instead of going tight by mid-afternoon. Foundation sits flat instead of cracking around the mouth. Some people stop carrying backup lotion in their purse and don't notice for weeks that they've stopped needing to.</p>
@@ -114,8 +130,11 @@
 {
   "name": "Tallow Presell: Mechanism",
   "settings": [
-    { "type": "url", "id": "pdp_url", "label": "PDP link", "default": "/products/whipped-tallow-honey-balm" },
-    { "type": "text", "id": "price_sale", "label": "Sale price shown in CTA", "default": "$49.99" }
+    { "type": "url", "id": "pdp_url", "label": "PDP link", "default": "https://trybasline.com/products/whipped-tallow-honey-balm" },
+    { "type": "text", "id": "price_sale", "label": "Sale price shown in CTA", "default": "$49.99" },
+    { "type": "image_picker", "id": "hero_image", "label": "Hero illustration (top of page)" },
+    { "type": "image_picker", "id": "diagram_image", "label": "Mechanism diagram (water vs fat)" },
+    { "type": "image_picker", "id": "jar_image", "label": "Product jar photo" }
   ],
   "presets": [{ "name": "Tallow Presell: Mechanism" }]
 }
