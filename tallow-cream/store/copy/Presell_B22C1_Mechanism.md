@@ -103,6 +103,21 @@ Not a hero/glamour shot, matches the same restrained, real-feeling tone as the r
 A calm, softly lit photograph of a single amber glass jar of whipped balm sitting on a warm wood or stone surface, simple label facing the camera and legible but not glossy or over-lit, the lid resting beside it with a small amount of balm visible inside catching soft natural window light. Background softly blurred, warm neutral tones (cream, soft wood, muted sage), no other products in frame, no hands, no people. Gentle, editorial product photography, warm and inviting but understated, not a chrome-and-studio commercial product shot. 4:3 aspect ratio.
 ```
 
+## Temporary 4th of July sale banner (toggle, added 2026-07-03)
+
+Founder's reasoning: today (July 4th) is showing unusually cheap CPM but low CTR, consistent with a real holiday effect (advertisers pausing = cheaper auction, audience distracted = lower engagement/purchase intent), and the standing guarantee/shipping line has been seen repeatedly by returning viewers. A dated urgency line gives a fresh reason to act during the exact window purchase intent is naturally down, without permanently changing the page.
+
+Built as a toggle in the theme customizer, not hardcoded, so it's a one-click on/off:
+- **"Show 4th of July sale banner + CTA"** checkbox (off by default)
+- **Banner text** field, defaults to "4th of July Sale, ends July 10"
+- **Sale end date label** field, defaults to "July 10", shown inside the CTA block
+
+When toggled on: a small pill banner appears above the hero image, and the CTA block swaps its headline from the standard "Try it..." line to "4th of July Sale. $49.99. Ends July 10." with the guarantee/shipping details moved to the subhead line instead of repeated as the headline.
+
+**Turn this off after about a week** (the checkbox, not the code) once the holiday urgency window has passed, a stale "Ends July 10" banner in August reads as neglect, not urgency.
+
+Scoped to the presell page only for now, per the earlier decision not to put overt "sale" framing into the native/camouflage ads (B17C1, B21, B23), which depend on not reading as an ad at all.
+
 ## Build notes
 
 - Reuse the PDP's existing CSS variables and font stack exactly (`--cream`, `--green`, `--amber`, Georgia serif headers, system sans body) so the page feels like the same brand, not a bolted-on ad landing page.

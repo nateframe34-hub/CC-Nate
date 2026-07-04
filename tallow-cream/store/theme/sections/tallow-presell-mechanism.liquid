@@ -52,9 +52,16 @@
   #tallow-presell .trust-strip{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;font-size:11.5px;font-weight:600;color:#5c5848}
   #tallow-presell .trust-strip span{display:flex;align-items:center;gap:5px}
   #tallow-presell .trust-strip span:not(:last-child)::after{content:"·";margin-left:14px;color:var(--line)}
+  #tallow-presell .sale-banner{background:var(--green-deep);color:#F2EAD9;text-align:center;font-size:12.5px;font-weight:600;padding:9px 14px;border-radius:999px;margin-bottom:22px;display:inline-block}
+  #tallow-presell .sale-banner-wrap{text-align:center}
+  #tallow-presell .sale-banner b{color:var(--amber-soft)}
 </style>
 
 <div class="wrap">
+
+  {%- if section.settings.sale_active -%}
+    <div class="sale-banner-wrap"><div class="sale-banner">{{ section.settings.sale_text | default: '4th of July Sale, ends July 10' }}</div></div>
+  {%- endif -%}
 
   {%- if section.settings.hero_image != blank -%}
     <div class="hero-img">{{ section.settings.hero_image | image_url: width: 1200 | image_tag: loading: 'eager', fetchpriority: 'high', alt: 'Water versus fat, skin mechanism illustration' }}</div>
@@ -112,15 +119,27 @@
   <p>Nobody on this page is a doctor. This isn't a medical claim. It's what happens when you stop putting water on your face and start putting on something closer to what your skin already makes.</p>
 
   <div class="cta-block">
-    <h3>Try it. {{ section.settings.price_sale | default: '$49.99' }}. Free shipping. 60-day money-back guarantee.</h3>
-    <p>If it doesn't do anything in six weeks, email them and get every dollar back.</p>
-    <a class="btn" href="{{ section.settings.pdp_url | default: '/products/whipped-tallow-honey-balm' }}">Get the Jar</a>
-    <div class="trust-strip">
-      <span>60-Day Guarantee</span>
-      <span>Free US Shipping</span>
-      <span>4 Ingredients</span>
-      <span>No Subscription</span>
-    </div>
+    {%- if section.settings.sale_active -%}
+      <h3>4th of July Sale. {{ section.settings.price_sale | default: '$49.99' }}. Ends {{ section.settings.sale_end_label | default: 'July 10' }}.</h3>
+      <p>Free shipping. 60-day money-back guarantee. If it doesn't do anything in six weeks, email them and get every dollar back.</p>
+      <a class="btn" href="{{ section.settings.pdp_url | default: '/products/whipped-tallow-honey-balm' }}">Get the Jar</a>
+      <div class="trust-strip">
+        <span>Sale Ends {{ section.settings.sale_end_label | default: 'July 10' }}</span>
+        <span>Free US Shipping</span>
+        <span>60-Day Guarantee</span>
+        <span>No Subscription</span>
+      </div>
+    {%- else -%}
+      <h3>Try it. {{ section.settings.price_sale | default: '$49.99' }}. Free shipping. 60-day money-back guarantee.</h3>
+      <p>If it doesn't do anything in six weeks, email them and get every dollar back.</p>
+      <a class="btn" href="{{ section.settings.pdp_url | default: '/products/whipped-tallow-honey-balm' }}">Get the Jar</a>
+      <div class="trust-strip">
+        <span>60-Day Guarantee</span>
+        <span>Free US Shipping</span>
+        <span>4 Ingredients</span>
+        <span>No Subscription</span>
+      </div>
+    {%- endif -%}
   </div>
 
 </div>
@@ -134,7 +153,11 @@
     { "type": "text", "id": "price_sale", "label": "Sale price shown in CTA", "default": "$49.99" },
     { "type": "image_picker", "id": "hero_image", "label": "Hero illustration (top of page)" },
     { "type": "image_picker", "id": "diagram_image", "label": "Mechanism diagram (water vs fat)" },
-    { "type": "image_picker", "id": "jar_image", "label": "Product jar photo" }
+    { "type": "image_picker", "id": "jar_image", "label": "Product jar photo" },
+    { "type": "header", "content": "Temporary sale banner (toggle off after ~1 week)" },
+    { "type": "checkbox", "id": "sale_active", "label": "Show 4th of July sale banner + CTA", "default": false },
+    { "type": "text", "id": "sale_text", "label": "Banner text", "default": "4th of July Sale, ends July 10" },
+    { "type": "text", "id": "sale_end_label", "label": "Sale end date label (shown in CTA)", "default": "July 10" }
   ],
   "presets": [{ "name": "Tallow Presell: Mechanism" }]
 }
