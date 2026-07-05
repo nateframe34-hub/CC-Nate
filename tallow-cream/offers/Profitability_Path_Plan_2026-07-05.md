@@ -1,0 +1,60 @@
+# The Profitability Path: Offer + Angle, Sequenced
+
+**Date:** 2026-07-05
+**Context:** Founder pushback on the gap audit's AOV point, and it's valid: the 2-jar bundle WAS tested and only singles ever sold. The diagnosis is right: this is a first-purchase trust problem. A skeptical first-time buyer won't double down on an unproven product, and a "buy 2, save $X" discount is not enough value to cross the uncertainty gap. This doc integrates that correction into a sequenced plan instead of a blanket "raise AOV" directive.
+
+---
+
+## The correction to the gap audit's AOV framing
+
+The gap audit said "raise AOV." The evidence says: **raise AOV, but not at the moment of first trust.** The bundle failed because it asked for more commitment at the exact point where commitment is scarcest. There are two places to add order value that do NOT fight the uncertainty gap:
+
+1. **Value added TO the single purchase (free gift), which raises conversion, not price.** The buyer still pays $49.99, still makes a one-jar decision, but the offer feels lopsided in her favor. This attacks CVR and offer-irresistibility, not AOV directly.
+2. **Order value added AFTER commitment (post-purchase upsell + reorder flow).** The moment she has already entered payment and bought, the trust calculus flips. A one-click "add a second jar for $X" AFTER checkout completes is a fundamentally different psychological ask than a pre-purchase bundle. Industry take rates on post-purchase one-click upsells run meaningfully above pre-purchase bundle attach rates precisely because the uncertainty gap has already been crossed. This is where the AOV lift actually lives for a pre-trust brand, and it was never what got tested. The failed test was a PRE-purchase bundle; the untested lever is POST-purchase.
+
+## The free gift: recommendation
+
+Requirements: cheap for us, high perceived value, congruent with the product story. Candidates considered: applicator spatula (too trivial, reads as junk), muslin face cloth (fine, generic, zero story), branded travel tin of the balm itself (strong), lip-balm-size version of the same formula (strong).
+
+**Recommendation: a purse-size mini tin of the same balm (0.25-0.5 oz), free with every jar.**
+
+Why this one specifically, and why it's better than a generic gift:
+- **It IS the proven copy.** The single most original converting beat in the account's best ad is the habit-cessation beat: she used to carry travel-size lotion packets in her purse, car, and desk, and stopped needing them. A free "purse jar" makes the ad's own story physical. The offer line writes itself inside the existing narrative: the thing she used to buy in foil packets now comes free with the jar.
+- **Cost structure:** same formula, tiny tin, filled from existing product. COGS likely $2-4 all-in at small volume. Against a $49.99 order that's a 4-8% giveaway for what presents as a $12-15 value ("travel size" retails absurdly high in this category, which is exactly why the perceived value is outsized).
+- **It samples the product into her daily carry.** A purse tin gets used in public, gets asked about ("what's that?"), and keeps the product in her hand between reorder cycles. A face cloth does none of that.
+- **It de-risks the purchase in her head:** if she's skeptical, the mini reads as "even if the big jar disappoints, I got to try it properly." That's the uncertainty gap being addressed by the offer structure itself.
+
+**Offer stack to present (first purchase):** One jar $49.99 + free purse mini + free shipping + 60-day guarantee. That is a genuinely lopsided offer for a skeptical buyer, without asking her to buy two of anything.
+
+**The B2G1F question:** hold it. Buy-2-get-1-free + gift is a strong RE-ORDER offer (she already trusts the product, now reward stocking up), and a good candidate for the 60-day reorder email and post-purchase flow later. As a first-purchase headline it still asks a skeptic to buy two. Same instinct, better placement later in the lifecycle.
+
+## The sequenced plan (what happens in what order, and why)
+
+**Phase 0, this week, parallel with everything: wire the mechanics.**
+- Source/spec the mini tin (this has a physical lead time, start now even though the offer can't go live until tins exist; interim version: the offer can launch as "free travel mini, ships with your jar" once tins are in hand, do NOT fake it before then).
+- Set up the post-purchase one-click upsell in Shopify (second jar at a real discount, e.g. $34.99, shown only after checkout completes). Zero risk to first-purchase conversion because it renders after payment.
+- Run the three unrun B17C1 diagnostics (ranking columns, clean duplicate, placement breakdown), still ~$5 and still unanswered.
+
+**Phase 1, now through ~2 more weeks: find the winning angle (the current work, unchanged in goal, tightened in execution).**
+- The 7/9-7/10 triple read: B22C1 presell pilot, B21 checkpoint, B23 first read. Kill per pre-committed rules.
+- Launch B24 (3 cells, ONE advertorial, per the tweaked plan) with the winning-angle search as its explicit job. Success bar: any cell sustaining ~2 ROAS becomes THE angle.
+- Every surviving ad and the advertorial CTA present the single-jar + free mini offer once tins exist.
+
+**Phase 2, triggered by "an angle sustains ~2 ROAS": scale that angle, not the portfolio.**
+- Concentrate budget into the winning angle (kill the rest of the test surface).
+- Produce video ads of that angle specifically (founder's plan, correct: video typically outperforms statics AND opens cheaper video/Reels inventory, the untested delivery lever from the gap analysis).
+- Post-purchase upsell + reorder email now lifting revenue per customer in the background: this is where AOV growth actually compounds, invisibly to the first-purchase decision.
+
+**Phase 3, triggered by sustained profitability (founder's "$10k months"): economics overhaul.**
+- Bulk inventory order (COGS down), shipping times down, possibly the B2G1F reorder offer as a standing lifecycle play.
+- This phase is funded by Phases 1-2; it is not a lever available now and the plan shouldn't pretend otherwise.
+
+## The honest math this plan is betting on
+
+At $2.50-2.87 CPC (assume no delivery improvement at all):
+- Today: 6.53% click-to-purchase, $49.99 AOV -> ~$38-44 revenue per 1,000 impressions of clicks... net ~breakeven. Fragile.
+- With the free-mini offer lifting click-to-purchase even modestly (say 6.5% -> 8%) because the offer is genuinely more lopsided: CPA drops from ~$32 to ~$26. Margin appears.
+- With post-purchase upsell at a conservative 15% take rate on a $34.99 second jar: AOV rises from $49.99 to ~$55. Breakeven CPA rises ~$3-4. More margin appears.
+- Stack both and the SAME ads at the SAME CPC run at roughly 1.6-1.9x ROAS before any angle improvement, and any B24 angle win lands on top of that floor rather than needing to clear the whole gap alone.
+
+That's the actual path: the offer work raises the floor, the angle work finds the ceiling, and neither is asked to do the other's job.
