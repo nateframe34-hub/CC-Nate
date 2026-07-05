@@ -1,5 +1,14 @@
 # B24: Presell-Bound Creative Concepts (3 Cells)
 
+**HEADLINES LOCKED, 2026-07-03:**
+- **Cell A → headline 4:** "Why the woman with one jar has better skin than the woman with ten." Chosen over headline 5 because it mirrors the already-proven B7C1 contrast structure and stays personal (woman vs. woman), matching how real customers in `Avatar_Language_Research.md` actually talk, rather than headline 5's invented "skincare shelves" framing, which no real quote in the research echoes.
+- **Cell B → headline 1:** "Our mothers used one jar. We use fourteen products and still lose." Founder's pick, no change needed.
+- **Cell C → headline 4:** "Your $80 moisturizer is 70% water. This jar isn't." Chosen over headline 1 because it's a near-direct match for a verbatim quote in the avatar research ("I switched from a $120 retinol cream to a $30 tallow balm"), specific dollar figure and specific product callout, rather than headline 1's generic "the industry doesn't want you to know" framing, which no real customer quote in the research actually mirrors and reads as a more worn ad trope. Concrete/factual also pushes the line harder than vague conspiracy framing while staying a defensible, non-fabricated claim (average water content in commercial moisturizers being high is a real, sourceable fact, not invented).
+
+**Avatar-language note for the next copy pass (not yet applied to any headline above):** the single most validated phrase in the whole research doc is "tired," not "old," not "aging." ("My skin doesn't look tired anymore" is flagged as the most precise emotional language found across all customer quotes.) Worth working into future headline or presell-copy passes for this batch and beyond.
+
+---
+
 **Purpose:** Every cell in this batch drives to a presell/advertorial/listicle, never straight to the PDP. The ad's only job is the hook, image + headline, getting the click cheaply. All the conviction-building work happens on the landing page after the click, not in the ad itself. Because of that, this batch treats the internal `Tallow_Ad_Creative_Principles.md` compliance posture as loosened, not absent. **Hard limit that still applies regardless of any internal doc:** no fabricated claims, no fake medical endorsement, no literal cure/treatment language that would constitute a false or deceptive claim under FTC rules or get the ad rejected/the account banned by Meta. "Pushing the line" here means bolder framing, sharper implication, and more direct language than our own house style normally allows, not fabrication. Cell C is the one built to push furthest.
 
 Each cell uses a different proven or validated angle from this account's own testing history, not a new invention. All 3 use the produced/badge-graphic photography style (sharp, in-focus, real product/lifestyle photo), since labels and faces are both now approved per the updated Principle 2, and this batch is explicitly not trying to camouflage as organic content.
