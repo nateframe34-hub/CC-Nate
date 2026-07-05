@@ -18,6 +18,8 @@ Requirements: cheap for us, high perceived value, congruent with the product sto
 
 **Recommendation: a purse-size mini tin of the same balm (0.25-0.5 oz), free with every jar.**
 
+**CORRECTED 2026-07-05, supplier constraint:** a pre-filled mini is not possible, the supplier can only provide the current jar and size, plus EMPTY travel tins. Revised recommendation: **free empty purse tin, framed as "your purse tin, fill it from your jar."** This survives the constraint better than it first sounds: (a) the habit-cessation story still works, she scoops from the big jar into the tin and carries it, which is exactly what real tallow users already do since the balm is temperature-stable; (b) the framing must be explicitly "fill it from your jar", never implying it arrives filled, both for honesty and because an unexplained empty tin reads as cheap, while a purposeful refill-tin reads as thoughtful; (c) COGS drops to roughly $1-2; (d) perceived value is lower than a filled mini, so the offer line has to do more work, lean on the story ("the packets she used to buy in three places, replaced by one tin she refills for free"). If the empty tin underperforms as a gift, the fallback candidates are cheap non-supplier items (muslin face cloths, small linen pouch), but the tin keeps the story congruence none of those have.
+
 Why this one specifically, and why it's better than a generic gift:
 - **It IS the proven copy.** The single most original converting beat in the account's best ad is the habit-cessation beat: she used to carry travel-size lotion packets in her purse, car, and desk, and stopped needing them. A free "purse jar" makes the ad's own story physical. The offer line writes itself inside the existing narrative: the thing she used to buy in foil packets now comes free with the jar.
 - **Cost structure:** same formula, tiny tin, filled from existing product. COGS likely $2-4 all-in at small volume. Against a $49.99 order that's a 4-8% giveaway for what presents as a $12-15 value ("travel size" retails absurdly high in this category, which is exactly why the perceived value is outsized).
@@ -58,3 +60,31 @@ At $2.50-2.87 CPC (assume no delivery improvement at all):
 - Stack both and the SAME ads at the SAME CPC run at roughly 1.6-1.9x ROAS before any angle improvement, and any B24 angle win lands on top of that floor rather than needing to clear the whole gap alone.
 
 That's the actual path: the offer work raises the floor, the angle work finds the ceiling, and neither is asked to do the other's job.
+
+---
+
+## Post-purchase upsell: implementation guide (added 2026-07-05)
+
+Shopify does not do one-click post-purchase offers natively, it requires an app that uses Shopify's post-purchase checkout extension. What to know before picking:
+
+**Requirements/limitations:**
+- Works with Shopify Payments (and most standard card checkouts). Wallet payments (PayPal, some Apple Pay/Shop Pay configurations) may skip the post-purchase page entirely, that's normal, the offer just doesn't show for those orders.
+- The offer page renders AFTER payment is captured and BEFORE the thank-you page. True one-click: she does not re-enter payment details.
+
+**App options (all have free or cheap entry tiers):**
+1. **ReConvert** - free tier for low order volumes, drag-drop post-purchase page builder, the usual starter choice at this store's volume.
+2. **AfterSell** - clean one-click post-purchase offers, free trial, similar capability.
+3. **Zipify OCU** - the heavyweight, more expensive, overkill until volume grows.
+
+Recommendation at current volume: **ReConvert**, free tier, upgrade later if volume outgrows it.
+
+**Setup steps (ReConvert or similar):**
+1. Install the app from the Shopify App Store.
+2. Create a post-purchase funnel: trigger = any order containing the balm.
+3. Offer = 1x additional balm jar at the discounted price (recommend $34.99, roughly 30% off, real discount but still strong margin). The app applies the discount itself, no discount code needed, so it won't collide with the FIRST10 code or the automatic $20-off sale discount.
+4. Copy on the offer page, keep it in-voice and short: "Add a second jar for $34.99 (reg. $49.99). One click, ships in the same box, nothing to re-enter. Most people reorder around week eight anyway." Decline button must be easy and unshamed ("No thanks, one is plenty").
+5. Set the offer to show ONCE (no double-offer chains, they read as desperate and hurt brand trust).
+6. Test with a real $1 test product or Shopify's test mode BEFORE going live: place a test order, confirm the offer renders after payment, confirm one-click add works, confirm the second jar ships as one fulfillment.
+7. Track take rate in the app's analytics; at 100+ orders, read whether $34.99 is the right price point (test $29.99 vs $39.99 later, not now).
+
+**What NOT to do:** do not also add a pre-purchase cart upsell at the same time. One variable. The post-purchase offer is invisible to the first-purchase decision, that's its whole advantage, keep the pre-purchase funnel exactly as it is so its conversion data stays clean.
