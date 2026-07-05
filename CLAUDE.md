@@ -8,10 +8,11 @@
 
 ## ⚠️ MANDATORY READ FOR ANY TALLOW AD WORK
 
-Before writing, briefing, or reviewing ANY tallow cream ad, you MUST read:
-**`/home/user/CC-Nate/tallow-cream/Tallow_Ad_Creative_Principles.md`**
+Before writing, briefing, or reviewing ANY tallow cream ad, you MUST read BOTH:
+1. **`/home/user/CC-Nate/tallow-cream/Brand_Mastery.md`** — the master reference (added 2026-07-06). Sub-avatars (desire + experience + emotion, NOT demographics), angles with tested/untested status, market sophistication (Stage 5 market / Stage 3-4 niche), awareness levels, and the ranked unique mechanisms. Every new ad must state its sub-avatar, angle, awareness level, and sophistication response from this doc. It supersedes the old `avatars/` profiles for ad creation.
+2. **`/home/user/CC-Nate/tallow-cream/Tallow_Ad_Creative_Principles.md`** — the locked creative/compliance principles.
 
-That file contains the locked principles derived from analysis of converters vs non-converters on this account. It supersedes general copywriting advice. Skipping it produces ads that don't convert and waste spend.
+These supersede general copywriting advice. Skipping them produces ads that don't convert and waste spend.
 
 Key principles (covered in detail in that file):
 1. Targeting happens at the CREATIVE level post-Andromeda, not audience targeting
