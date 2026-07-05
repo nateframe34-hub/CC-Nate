@@ -5,7 +5,24 @@
 - **Cell B → headline 1:** "Our mothers used one jar. We use fourteen products and still lose." Founder's pick, no change needed.
 - **Cell C → headline 4:** "Your $80 moisturizer is 70% water. This jar isn't." Chosen over headline 1 because it's a near-direct match for a verbatim quote in the avatar research ("I switched from a $120 retinol cream to a $30 tallow balm"), specific dollar figure and specific product callout, rather than headline 1's generic "the industry doesn't want you to know" framing, which no real customer quote in the research actually mirrors and reads as a more worn ad trope. Concrete/factual also pushes the line harder than vague conspiracy framing while staying a defensible, non-fabricated claim (average water content in commercial moisturizers being high is a real, sourceable fact, not invented).
 
-**Avatar-language note for the next copy pass (not yet applied to any headline above):** the single most validated phrase in the whole research doc is "tired," not "old," not "aging." ("My skin doesn't look tired anymore" is flagged as the most precise emotional language found across all customer quotes.) Worth working into future headline or presell-copy passes for this batch and beyond.
+**HEADLINES REVISED, 2026-07-03, working in "tired," the single most validated word in the avatar research.** Each cell restructured as a banner (bold, short, on-image) + ticker (smaller subhead line), matching B22's proven two-layer format, so the validated language has room without overloading the punchy banner line.
+
+- **Cell A**
+  - Banner: "SHE USES ONE JAR. HER SKIN DOESN'T LOOK TIRED ANYMORE."
+  - Ticker: "I use ten. Mine still does."
+  - Why: keeps the proven woman-vs-woman contrast from the locked headline, swaps the generic "better skin" for the exact validated phrase ("doesn't look tired anymore") that the research flags as the single most precise emotional language in the entire dataset, rather than an invented comparative.
+
+- **Cell B**
+  - Banner: "MOM USED ONE JAR. WE USE FOURTEEN AND STILL LOOK TIRED."
+  - Ticker: "Somehow she's winning."
+  - Why: keeps the founder's locked structure and number (fourteen), replaces the vaguer "still lose" with "still look tired," the same validated word, and lands the generational irony in the ticker instead of cramming it into the banner.
+
+- **Cell C**
+  - Banner: "$80 MOISTURIZER. 70% WATER. STILL TIRED SKIN."
+  - Ticker: "Switched to a $30 jar. It isn't."
+  - Why: restructures the locked headline to close on "tired" (the validated word) instead of ending on the drier ingredient fact, and the ticker now mirrors the research's own verbatim quote shape ("I switched from a $120 retinol cream to a $30 tallow balm") almost directly, dollar figure to dollar figure.
+
+**Status: these 3 banner/ticker pairs supersede the single-line headlines locked above.** Same angles, same images, same compliance posture, only the on-image copy changed.
 
 ---
 
