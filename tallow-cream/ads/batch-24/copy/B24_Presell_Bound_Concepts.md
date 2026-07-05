@@ -9,20 +9,20 @@
 
 - **Cell A**
   - Banner: "SHE USES ONE JAR. HER SKIN DOESN'T LOOK TIRED ANYMORE."
-  - Ticker: "I use ten. Mine still does."
-  - Why: keeps the proven woman-vs-woman contrast from the locked headline, swaps the generic "better skin" for the exact validated phrase ("doesn't look tired anymore") that the research flags as the single most precise emotional language in the entire dataset, rather than an invented comparative.
+  - Ticker: "The women using ten still do."
+  - Why: keeps the proven woman-vs-woman contrast from the locked headline, swaps the generic "better skin" for the exact validated phrase ("doesn't look tired anymore"), and stays fully third-person/observational, matching the original locked headline's register rather than the first-person "I/mine" phrasing an earlier draft of this ticker briefly introduced.
 
 - **Cell B**
   - Banner: "MOM USED ONE JAR. WE USE FOURTEEN AND STILL LOOK TIRED."
   - Ticker: "Somehow she's winning."
-  - Why: keeps the founder's locked structure and number (fourteen), replaces the vaguer "still lose" with "still look tired," the same validated word, and lands the generational irony in the ticker instead of cramming it into the banner.
+  - Why: keeps the founder's locked structure and number (fourteen), replaces the vaguer "still lose" with "still look tired," the same validated word, and lands the generational irony in the ticker instead of cramming it into the banner. Founder's original "our/we" framing kept as-is, that was already correct.
 
 - **Cell C**
   - Banner: "$80 MOISTURIZER. 70% WATER. STILL TIRED SKIN."
-  - Ticker: "Switched to a $30 jar. It isn't."
-  - Why: restructures the locked headline to close on "tired" (the validated word) instead of ending on the drier ingredient fact, and the ticker now mirrors the research's own verbatim quote shape ("I switched from a $120 retinol cream to a $30 tallow balm") almost directly, dollar figure to dollar figure.
+  - Ticker: "This $30 jar isn't."
+  - Why: restructures the locked headline to close on "tired" (the validated word) instead of ending on the drier ingredient fact, and the ticker mirrors the research's own verbatim quote shape ("I switched from a $120 retinol cream to a $30 tallow balm") in dollar-figure logic without adopting its first-person voice, kept second/third-person like the original locked headline ("Your $80 moisturizer... This jar isn't"), not "I switched."
 
-**Status: these 3 banner/ticker pairs supersede the single-line headlines locked above.** Same angles, same images, same compliance posture, only the on-image copy changed.
+**Status: these 3 banner/ticker pairs supersede the single-line headlines locked above.** Same angles, same images, same compliance posture, only the on-image copy changed. All 3 tickers corrected to stay third/second-person, matching how the originally-locked headlines were built, after an earlier draft pass drifted into first-person on A and C.
 
 ---
 
