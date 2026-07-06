@@ -66,7 +66,11 @@ Fourteen products. Somewhere north of $800. Skin still tight by noon every singl
 5. **Your $80 moisturizer is mostly water. That's the whole problem.** : Confrontation angle, direct statement of the reveal, no tease. Strongest for people who click on being told something bluntly, weakest for curiosity-clickers.
 6. **She stopped looking tired. Her routine got smaller, not bigger.** : SA1 + New Identity blend, the anti-shelf identity in one line. Least direct of the six, but the only one carrying the identity response.
 
-**Recommended pairing for the 2:2:** #2 (SA1, verbatim-anchored, emotional) + #3 (SA2, curiosity-gap, mechanism). They target different sub-avatars AND different click psychologies (recognition vs curiosity), which is what a 2-headline test should separate. #4 is first alternate if either underperforms.
+**LOCKED 2:2 (2026-07-07):** Headlines #2 ("'You look tired.' It's not sleep. It's your skin.") + #3 ("Every cream she owned had the same first ingredient"), paired with Copy 1 and Copy 2 respectively. They target different sub-avatars AND different click psychologies (recognition vs curiosity), which is what a 2-headline test should separate. #4 is first alternate if either underperforms. This pairing now matches the advertorial's own rewritten hook (outcome-first: "She Finally Got Rid Of Her Tired-Looking Skin. It Wasn't Sleep."), so the ad, the headline, and the landing page all open on the same reveal instead of three different framings competing for the click.
+
+**Image prompts:** see `B24_Image_Prompts.md` for the full thorough prompt set (primary + alt treatment, all 3 sizes, per variation), plus the advertorial's own hero/diagram/jar image prompts rewritten for the outcome-first narrative.
+
+**Advertorial tracking (added 2026-07-07):** the shared advertorial now passes through incoming UTM query params to every CTA link automatically (so ad -> advertorial -> PDP attribution survives the click-through) and fires a labeled fbq/gtag custom event per CTA position, so per-position click performance on the page itself is readable in Ads Manager / GA alongside the PDP conversion data. See `tallow-advertorial.liquid`.
 
 ## Pre-launch gates (all mandatory)
 1. **Stage-5 filter:** all three banners pass (none is a bare heard-it-before claim; each carries information/mechanism/identity).
