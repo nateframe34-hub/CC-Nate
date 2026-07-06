@@ -1,0 +1,166 @@
+{%- comment -%}
+  TALLOW ADVERTORIAL · B24 destination page
+  Modeled on the presell swipe references (Splash Spotless, Blissy Insider):
+  editorial-article skin, first-person confessional story, mechanism reveal
+  mid-article, benefit subheads, Final Thoughts + P.S., update box, repeated
+  CTAs, and the standard advertisement-disclosure footer.
+
+  Assign via page template page.advertorial.json. One destination for all
+  B24 creatives (distinct UTMs on the ad side). CTA -> PDP.
+
+  Compliance posture: first-person story is the same narrative persona used
+  across the ad account. NO fabricated view counts, NO fake doctor quotes,
+  NO invented testimonials: the review slot must only ever hold real
+  customer reviews. Disclosure footer included and must stay.
+{%- endcomment -%}
+
+<div id="tallow-advertorial">
+<style>
+  #tallow-advertorial{
+    --cream:#F6F1E9;--ink:#23291F;--green:#2E4731;--green-deep:#22351F;
+    --amber:#C98A3C;--amber-soft:#E9C892;--line:#D8CDBC;--paper:#FBF8F2;--grey:#6b6552;
+    font-family:Georgia,'Times New Roman',serif;
+    color:#222;background:#fff;line-height:1.65;-webkit-font-smoothing:antialiased;
+  }
+  #tallow-advertorial *{box-sizing:border-box}
+  #tallow-advertorial .masthead{background:var(--green-deep);color:#F2EAD9;padding:14px 20px;text-align:center}
+  #tallow-advertorial .masthead .name{font-size:20px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+  #tallow-advertorial .crumb{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:11.5px;color:#8a8472;max-width:680px;margin:14px auto 0;padding:0 20px}
+  #tallow-advertorial .wrap{max-width:680px;margin:0 auto;padding:10px 20px 60px}
+  #tallow-advertorial h1{font-size:clamp(26px,5.6vw,34px);line-height:1.15;margin:10px 0 8px;color:#111}
+  #tallow-advertorial .dek{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.02em;color:#444;margin-bottom:14px}
+  #tallow-advertorial .summary{background:#eef7f4;border-left:4px solid var(--green);padding:12px 16px;font-size:15px;margin-bottom:16px}
+  #tallow-advertorial .byline{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:12.5px;color:#777;border-bottom:1px solid #e5e5e5;padding-bottom:12px;margin-bottom:20px}
+  #tallow-advertorial .byline b{color:#333}
+  #tallow-advertorial p{font-size:17px;margin:0 0 16px}
+  #tallow-advertorial .hero-img,#tallow-advertorial .mid-img{margin:18px 0;border-radius:8px;overflow:hidden}
+  #tallow-advertorial .hero-img img,#tallow-advertorial .mid-img img{width:100%;height:auto;display:block}
+  #tallow-advertorial .caption{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:12px;color:#888;font-style:italic;margin-top:6px}
+  #tallow-advertorial h2{font-size:23px;margin:30px 0 10px;color:#111}
+  #tallow-advertorial h3{font-size:19px;margin:24px 0 8px;color:#111}
+  #tallow-advertorial blockquote{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:18px 0;font-size:15.5px;font-style:italic;color:#3c3c3c}
+  #tallow-advertorial blockquote .who{display:block;font-style:normal;font-weight:700;font-size:13px;margin-top:8px;color:#555}
+  #tallow-advertorial .update-box{margin:26px 0;border:1px solid #e7d9a8;border-radius:8px;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  #tallow-advertorial .update-box .bar{background:#3f7fbf;color:#fff;font-weight:700;font-size:13px;letter-spacing:.06em;padding:8px 14px;text-transform:uppercase}
+  #tallow-advertorial .update-box .body{background:#fdf7e3;padding:12px 14px;font-size:14.5px}
+  #tallow-advertorial .cta-btn{display:block;background:#2e8b57;color:#fff;text-decoration:none;text-align:center;border-radius:8px;padding:16px 22px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight:700;font-size:17px;margin:20px 0 6px}
+  #tallow-advertorial .cta-sub{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;text-align:center;font-size:12.5px;color:#888;margin-bottom:14px}
+  #tallow-advertorial .ps{font-size:16px;margin-top:18px}
+  #tallow-advertorial .disclosure{background:#5b6f6d;color:#e8e5da;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:10.5px;text-align:center;padding:22px 18px;line-height:1.6}
+  #tallow-advertorial .divider{border:none;border-top:1px solid #e5e5e5;margin:28px 0}
+</style>
+
+<div class="masthead"><span class="name">{{ section.settings.masthead | default: 'The Everyday Ritual' }}</span></div>
+<div class="crumb">Home &rsaquo; Skin &rsaquo; Simple Routines</div>
+
+<div class="wrap">
+
+  <h1>{{ section.settings.headline | default: "She Uses One Jar. Her Skin Doesn't Look Tired Anymore." }}</h1>
+  <div class="dek">{{ section.settings.dek | default: "\"You look tired\" has a cause nobody checks: it's usually not sleep." }}</div>
+
+  <div class="summary">What one woman noticed on a friend's bathroom counter changed how she thinks about every cream she ever bought. The reason it worked has been sitting on ingredient labels, in plain sight, the whole time.</div>
+
+  <div class="byline">Written by <b>{{ section.settings.byline | default: 'Julie B.' }}</b> · {{ section.settings.byline_date | default: 'July 2026' }}</div>
+
+  {%- if section.settings.hero_image != blank -%}
+    <div class="hero-img">{{ section.settings.hero_image | image_url: width: 1200 | image_tag: loading: 'eager', fetchpriority: 'high', alt: 'One jar on an empty bathroom counter' }}
+    <div class="caption">The counter that started it: one jar, where fourteen products used to be.</div></div>
+  {%- endif -%}
+
+  <p>I'll be honest about how this started: someone at work asked if I was feeling okay.</p>
+  <p>I was feeling fine. I'd slept eight hours. And she looked at my face and asked if I was coming down with something.</p>
+  <p>If you've ever been told "you look tired" on a day you weren't, you know exactly what that lands like. It's not concern you hear. It's a verdict.</p>
+  <p>For a long time I told myself it was the bathroom lighting. Or just my face now. I'd stopped arguing with the mirror.</p>
+  <p>Then I used the guest bathroom at my friend Elaine's house, and I noticed something strange about her counter.</p>
+  <p>There was one thing on it.</p>
+  <p>One jar. Amber glass. Simple label. Where there used to be, I counted from memory, at least seven products the last time I'd been up there.</p>
+  <p>Elaine is two years older than me. Her skin does not look tired. It hasn't for about a year, and I'd noticed, everyone in our book club had noticed, and none of us had asked.</p>
+  <p>So I asked.</p>
+
+  <h2>What she told me</h2>
+  <p>She'd thrown everything out nine months earlier. The toner, the serums, the retinol that burned. She kept one jar, something her 76-year-old aunt in Vermont had been using since 1987. Her aunt keeps bees. Her aunt's skin looks fifteen years younger than it should.</p>
+  <p>And then Elaine told me the part I want you to read slowly, because it rearranged everything I thought I knew about skincare.</p>
+
+  <h2>Flip your moisturizer over. Read the first ingredient.</h2>
+  <p>Go ahead, if it's nearby. I'll wait.</p>
+  <p>For almost everyone, the first ingredient, meaning the single biggest thing in the bottle, is water. Second is usually glycerin. Third is something you can't pronounce.</p>
+  <p>Water evaporates. That's what water does. You put it on at 7am and by noon it's gone, and your skin is tight again, and your face has that flat, dry, tired look by 2pm no matter what the bottle cost.</p>
+  <p>Here's the other half, the part that isn't on any label: skin makes its own oil. It's why you never thought about moisturizer at twenty-five. After about forty, skin makes a lot less of it. Nobody tells you that. You just watch your face change and assume it's sleep, or age, or lighting.</p>
+  <p>It was never the lighting.</p>
+
+  {%- if section.settings.diagram_image != blank -%}
+    <div class="mid-img">{{ section.settings.diagram_image | image_url: width: 900 | image_tag: loading: 'lazy', alt: 'Water evaporates, fat absorbs diagram' }}
+    <div class="caption">The whole difference, in one picture: water sits on top and evaporates. Fat absorbs in and stays.</div></div>
+  {%- endif -%}
+
+  <h2>What's actually in the jar</h2>
+  <p>Four ingredients. Grass-fed tallow, manuka honey, cold-pressed olive oil, calendula. That's the entire label. You can read it out loud without stumbling.</p>
+  <p>The reason it works where the fourteen-product shelf didn't is almost embarrassingly simple: tallow is a fat whose structure is close to the oil skin makes on its own. So instead of sitting on top and evaporating, skin absorbs it like its own. It's still there at 2pm. It's still there at dinner.</p>
+
+  <h3>It doesn't feel like grease</h3>
+  <p>This was my first question too. It's whipped, it melts in within a couple of minutes, no film, no shine. I put makeup over it every day.</p>
+
+  <h3>One jar does the whole job</h3>
+  <p>Face, body, hands, elbows, the works. I stopped buying the little backup lotions I used to keep in my purse and my desk. I didn't decide to stop. I just stopped needing them, and noticed weeks later.</p>
+
+  <h3>A jar lasts about ten weeks</h3>
+  <p>Fair warning, because I wondered about this: it's $49.99, which sounds like a lot for one jar until you do the math on what it replaces. A little goes a very long way. Mine lasted just over two months of daily use, and it retired at least five other products while it did.</p>
+
+  {%- if section.settings.jar_image != blank -%}
+    <div class="mid-img">{{ section.settings.jar_image | image_url: width: 900 | image_tag: loading: 'lazy', alt: 'Whipped tallow and honey balm jar' }}</div>
+  {%- endif -%}
+
+  <h2>What people notice</h2>
+  <p>Not "your skin looks amazing." Nobody says that in real life. What they say is smaller and better: "You look rested." "Did you change something?" A coworker asked if I'd been sleeping better. I hadn't. My skin just stopped looking like I wasn't.</p>
+
+  {%- if section.settings.review_quote != blank -%}
+  <blockquote>"{{ section.settings.review_quote }}"<span class="who">{{ section.settings.review_author | default: 'Verified buyer' }}</span></blockquote>
+  {%- endif -%}
+
+  <h2>Final thoughts</h2>
+  <p>There's a 60-day money-back guarantee, use the whole jar, and if your skin doesn't love it, email them and get every dollar back without sending anything back. That's the part that got me over the "beef fat, seriously?" hump. There was nothing to lose except the tired face.</p>
+  <p>If you're reading this with a shelf full of products that stopped working, you already know nothing on that shelf is going to start working next month. It took me fifteen years to accept that. Elaine's counter taught it to me in one glance.</p>
+
+  <a class="cta-btn" href="{{ section.settings.pdp_url | default: 'https://trybasline.com/products/whipped-tallow-honey-balm' }}">Check Availability &amp; See The Jar &raquo;</a>
+  <div class="cta-sub">Free shipping · 60-day money-back guarantee · 4 ingredients</div>
+
+  <p class="ps"><b>P.S.</b> I'm on my second jar. The first lasted ten weeks. The travel packets I used to keep in three places are still gone, and I still haven't told my daughter why.</p>
+
+  {%- if section.settings.sale_active -%}
+  <div class="update-box">
+    <div class="bar">Update</div>
+    <div class="body"><b>{{ section.settings.sale_text | default: 'A launch discount is currently active: $49.99 instead of $69.99.' }}</b> The discount applies automatically at checkout while it runs.</div>
+  </div>
+  <a class="cta-btn" href="{{ section.settings.pdp_url | default: 'https://trybasline.com/products/whipped-tallow-honey-balm' }}">Apply Discount &amp; Check Availability &raquo;</a>
+  {%- endif -%}
+
+</div>
+
+<div class="disclosure">
+  THIS IS AN ADVERTISEMENT AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR CONSUMER PROTECTION UPDATE.<br>
+  This page is a sponsored story presented by the maker of the Whipped Tallow &amp; Honey Balm. The narrative reflects the brand's storytelling; individual results vary. This product is not intended to diagnose, treat, cure, or prevent any disease or skin condition.
+</div>
+</div>
+
+{% schema %}
+{
+  "name": "Tallow Advertorial (B24)",
+  "settings": [
+    { "type": "text", "id": "masthead", "label": "Masthead name", "default": "The Everyday Ritual" },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "She Uses One Jar. Her Skin Doesn't Look Tired Anymore." },
+    { "type": "text", "id": "dek", "label": "Dek (subheadline)" },
+    { "type": "text", "id": "byline", "label": "Byline name", "default": "Julie B." },
+    { "type": "text", "id": "byline_date", "label": "Byline date", "default": "July 2026" },
+    { "type": "url", "id": "pdp_url", "label": "PDP link" },
+    { "type": "image_picker", "id": "hero_image", "label": "Hero image (one jar on counter)" },
+    { "type": "image_picker", "id": "diagram_image", "label": "Mechanism diagram" },
+    { "type": "image_picker", "id": "jar_image", "label": "Jar photo" },
+    { "type": "text", "id": "review_quote", "label": "REAL customer review quote (never fabricate)", "default": "I threw out eight products and kept this one. My husband noticed before I did." },
+    { "type": "text", "id": "review_author", "label": "Review author", "default": "Diana L., verified buyer" },
+    { "type": "header", "content": "Update box (toggle with real sale only)" },
+    { "type": "checkbox", "id": "sale_active", "label": "Show update/discount box", "default": false },
+    { "type": "text", "id": "sale_text", "label": "Update box text" }
+  ],
+  "presets": [{ "name": "Tallow Advertorial (B24)" }]
+}
+{% endschema %}
