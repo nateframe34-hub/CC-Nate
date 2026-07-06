@@ -105,13 +105,13 @@ Ranked by strength. Each = "the reason why it works when everything else didn't,
 
 Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENCE and the EMOTION that experience produces. Not gendered, not age-boxed unless the experience itself implies it. Old demographic profiles are retired as ad-creation tools; their language research carries over.
 
-**SA1: The Tired-Looking** ⭐ (strongest, validated language + conversion evidence)
+**SA1: The Tired-Looking** ⭐ (strongest, validated language + conversion evidence; RE-VALIDATED 2026-07-06 as the anchor avatar: "this is just my face" recurs verbatim across ~7 years of unrelated threads, see `avatars/SubAvatar_Validation_Report_2026-07-06.md`. Key added insight: the before-state person blames LIGHTING or their face itself, not their skin, so the ad's job includes the New Information reveal that it was skin all along)
 - Desire: to stop looking exhausted when they don't feel exhausted; to look like themselves.
 - Experience: someone asked "are you sleeping okay?" / "you look tired" when they felt fine; avoiding their own reflection in video calls.
 - Emotion: quiet hurt + unfairness (sadness with a flash of anger: "I AM sleeping fine").
 - Status: **TESTED** (the Sylvia beat, the "tired" language is the single most validated phrase in the review research). Never yet the LEAD of an ad, always a middle beat.
 
-**SA2: The Product Graveyard** ⭐ (strongest experience hook in the account's history)
+**SA2: The Product Graveyard** ⭐ (strongest experience hook in the account's history; RE-VALIDATED 2026-07-06, ranked #2, dollar-figure language confirmed: "$860 in 6 months," "$165 + tax down the drain." Note: overlaps heavily with SA5 Label Reader in real speech, treat as sequential beats for one person, not two targets)
 - Desire: one thing that finally works; to stop the cycle of buying and being disappointed.
 - Experience: counted 10-14 products on the counter/in the drawer; can name what each cost; tried "everything" including other naturals.
 - Emotion: defeat wearing a mask of skepticism ("nothing works on me, prove it").
@@ -123,19 +123,19 @@ Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENC
 - Emotion: longing they don't say out loud; disbelief-then-warmth when it happens.
 - Status: **TESTED AND CONVERTING** (B5C1 lead, B9C3/B7C1 closes). Note: this is a CLOSE that converts, and per B22C3's failure, a poor single-frame hook.
 
-**SA4: The Tight-by-Noon** (the mechanism buyer)
+**SA4: The Tight-by-Noon** (the mechanism buyer; VALIDATION NOTE 2026-07-06: weakest PUBLIC verbatim evidence of the seven, no recurring clock-time idiom found on the open web. Still holds the account's own conversion evidence (B19C2), so it remains valid, but new hooks for it should come from our own converting copy or primary research, not invented "voice of customer" phrasing)
 - Desire: skin that just feels normal through a day; stop managing it.
 - Experience: reapplies at their desk/car/purse; foundation cracks by 2pm; skin audibly "pulls" by lunch.
 - Emotion: low-grade frustration, the maintenance-fatigue feeling (a mass technological problem: Maintenance).
 - Status: **TESTED AND CONVERTING** (B19C2 converted on this alone; the habit-cessation beat is its narrative twin).
 
-**SA5: The Label Reader**
+**SA5: The Label Reader** (VALIDATION NOTE 2026-07-06: moderate evidence, "ingredients nazi" / "can't pronounce" confirmed, but functions as one audience with SA2 in practice)
 - Desire: to trust what goes on their skin; to feel relief, not suspicion, in their bathroom.
 - Experience: flipped a bottle over, couldn't pronounce ingredient three; googled an ingredient at 11pm; threw something out after a headline.
 - Emotion: distrust + decision-fatigue; relief is the purchase emotion.
 - Status: **SIGNALED, UNDERTESTED** (B20C3's engagement, Chemical Refugee review language "I cannot tell you the relief"). Never run as a native lead.
 
-**SA6: The Sun-Lived** (parked, founder priority for post-B24)
+**SA6: The Sun-Lived** (parked; VALIDATION NOTE 2026-07-06: the specified emotional register (earned-it pride + resignation) does NOT exist in public language, sun-damage discourse is owned by clinical fix-it vocabulary. The register is underserved (opportunity) but must be built by the ad, not mirrored, and needs primary research first. Stays parked, now with evidence for why)
 - Desire: softness back in skin that's had decades outdoors; keep their outdoor life without wearing it on their face.
 - Experience: years of sidelines/gardens/boats/job sites (including the involuntary version: bleachers at kids' sports every weekend for a decade). They know exactly why their skin looks this way.
 - Emotion: earned-it pride tangled with resignation ("nothing's going to fix this now").
@@ -157,6 +157,8 @@ Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENC
 **Angle 1: Stops your skin from looking tired (TESTED as beat, UNTESTED as lead)**
 - Reason to buy: The tired look isn't sleep, it's surface dryness pulling light flat; give skin back its own kind of oil and the "tired" goes.
 - Hook: "Sleeping fine. Looked exhausted anyway. It was my skin."
+- Hook (verbatim-validated, added 2026-07-06): "It's not 'just my face.' It was my skin." (plays directly off the fixed cultural phrase "this is just my face")
+- Hook (verbatim-validated, added 2026-07-06): "'You look tired.' No. It's my skin."
 **Angle 2: Ends the 'are you okay?' comments (UNTESTED)**
 - Reason to buy: People read dry skin as tired/sick/stressed; fix the skin and the comments stop on their own.
 - Hook: "Three people asked if I was tired this month. I was fine. My skin wasn't."
