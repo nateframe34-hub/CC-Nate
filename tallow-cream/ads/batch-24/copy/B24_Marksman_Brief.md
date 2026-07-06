@@ -8,7 +8,7 @@ Test which validated sub-avatar's angle drives the cheapest converting clicks th
 ## 2) Angle(s) (stated twice per the template, deliberately)
 - **Angle 1 (SA1 Tired-Looking): Stops your skin from looking tired.** Reason to buy: the tired look isn't sleep, it's surface dryness; fix the skin, the comments stop.
 - **Angle 2 (SA2+SA5 Graveyard/Label-Reader fused): One 4-ingredient jar replaces the shelf that failed.** Reason to buy: everything she tried shared one flaw (water first); one fat-first jar fixes the actual problem and she can read its whole label.
-- **Angle 3 (New Identity/confrontation): Your moisturizer is mostly water.** Reason to buy: the $80 cream is 70% water and water leaves by noon; this jar isn't water.
+- **Angle 3 (SA3 Unnoticed, REVISED 2026-07-07 per validation power ranking): Gets you noticed without announcing anything.** Reason to buy: skin that holds instead of sitting flat reads as "different/lighter" to the people who see you every day; nobody knows you changed one thing, everybody notices. (Replaces the Confrontation/identity angle, which had the weakest research support in the batch; Confrontation is parked as a B25 iteration candidate. The B22C3 witness-failure does not apply here: that died from a news-badge/private-moment format mismatch, a quote-card carrying validated verbatim language has no such mismatch.)
 
 ## 3) Testing Method
 **Marksman.** (Images only, per training. Sniper/video phase triggers only after one of these angles validates at ~2 ROAS sustained.)
@@ -21,21 +21,26 @@ Headline-forward static graphics (bold text-on-image family, the account's cheap
 |---|---|---|---|
 | V1 Tired-Looking | SA1 | Problem Aware (she knows the comments, not the cause) | New Information (it was your skin, not sleep/lighting) |
 | V2 Graveyard | SA2+SA5 | Solution Aware (knows products failed, ready for a different kind) | New Mechanism (fat-first vs water-first) |
-| V3 Confrontation | Core (anti-shelf identity) | Problem/Solution boundary | New Identity + New Information (industry-critique reveal) |
+| V3 Unnoticed | SA3 | Problem Aware (feels invisible, blames herself not her skin) | New Information (what he notices is skin holding light, and that is fixable) |
 
 ## 5) The Brief (per-variation Messaging + Content)
 
 **Variation 1: Tired-Looking** ⭐ priority creative
 - 📝 Messaging (on-image): Banner: **"'YOU LOOK TIRED.' NO. IT'S MY SKIN."** Ticker below: "Sleeping fine. Skin wasn't."
 - 🎥 Content: Quote-card/text-heavy format (Origins format, never tried, built for verbatim lines): the banner line set large on a warm cream background in the brand's serif, tiny amber jar photo bottom corner, small "read the story" arrow. A second treatment: candid photo of a bathroom mirror with morning light, headline overlaid with dark gradient for legibility.
+- Alt banner (validation research, the fixed cultural phrase): **"SHE STOPPED SAYING 'THIS IS JUST MY FACE.'"** - uses the verbatim idiom that recurred across ~7 years of threads, flipped from resignation to resolution.
 
 **Variation 2: Graveyard/Label-Reader**
 - 📝 Messaging (on-image): Banner: **"$860 ON SKINCARE IN 6 MONTHS. REPLACED BY ONE JAR."** Ticker: "Four ingredients. You can read all of them."
+- Alt banner (validation research, "over 30 products" verbatim): **"SHE TRIED 30 PRODUCTS. THE ONE THAT WORKED HAS 4 INGREDIENTS."**
 - 🎥 Content: Badge-graphic format (proven cheap): sharp photo of a crowded bathroom shelf of generic products on one side, the single amber jar alone on the other, bold divider, banner across the lower third. Alternative treatment: overhead flat shot of 10+ generic products in a trash-can/box with the one jar standing outside it.
 
-**Variation 3: Confrontation**
-- 📝 Messaging (on-image): Banner: **"$80 MOISTURIZER. 70% WATER. STILL TIRED SKIN."** Ticker: "This $30 jar isn't." (locked earlier, unchanged)
-- 🎥 Content: High-contrast product shot, amber jar at eye level against a plain dark background, dramatic single-source light, bold red "THE TRUTH ABOUT" badge tag, banner in white with the key phrase in accent yellow.
+**Variation 3: Unnoticed (revised 2026-07-07)**
+- 📝 Messaging (on-image): Banner: **"HE NOTICED. SHE DIDN'T BELIEVE HIM AT FIRST."** Ticker: "Nobody knew she changed one thing."
+- 🎥 Content: Quote-card format, same family as V1 but visually distinct: deep warm tones instead of cream (candlelit dinner-table warmth), the banner line set in the serif with "HE NOTICED." oversized, a small warm photo element (out-of-focus candle/table setting) as background texture behind a dark gradient. Banner language built directly on the validated payoff-disbelief quote from research ("It sort of surprises me so much when he does that I don't believe him"). No people visible, no faces (the B23 lesson), the words carry it.
+- Alt treatment: plain cream quote-card, banner: **"SHE STOPPED HOPING HE'D NOTICE. THEN HE DID."**
+
+**Parked (B25 candidate): Confrontation** ("$80 MOISTURIZER. 70% WATER. STILL TIRED SKIN." / "This $30 jar isn't.") - weakest research support of the original three, held for a later iteration batch rather than deleted; if V1/V2 win on recognition/curiosity psychology, the blunt-statement psychology remains untested and worth one cell someday.
 
 ## 6) Sizes Needed
 - 1080x1920 (9:16) ALWAYS (first time producing this size, per gap audit)
