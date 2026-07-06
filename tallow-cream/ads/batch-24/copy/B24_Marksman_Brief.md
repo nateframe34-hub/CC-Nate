@@ -52,8 +52,16 @@ The shared advertorial (one page, all three creatives, distinct UTMs per creativ
 **Copy 2 (Graveyard lead, short):**
 Fourteen products. Somewhere north of $800. Skin still tight by noon every single day. Then she flipped a bottle over and saw the problem on every label she owned: water, first ingredient, every time. Water evaporates in an hour. Fat doesn't. Here's the whole story.
 
-**Headline 1:** The reason your skin looks tired (it isn't sleep)
-**Headline 2:** Every cream she owned had the same first ingredient
+**Headline candidates (founder to lock 2 for the 3:2:2, drafted 2026-07-07):**
+
+1. **The reason your skin looks tired (it isn't sleep)** : SA1, New Information tease. Names the validated pain word and immediately breaks the assumed cause. Safest strong option.
+2. **"You look tired." It's not sleep. It's your skin.** : SA1, uses the verbatim comment everyone in the research has received, then delivers the reveal instead of teasing it. More confrontational than #1, same angle.
+3. **Every cream she owned had the same first ingredient** : SA2/Graveyard, pure curiosity-gap built on the mechanism. The reader HAS to know what the ingredient is, and the answer (water) is on her own shelf, so the payoff lands personally.
+4. **Fourteen products failed for the same reason. One jar didn't.** : SA2, the proven One Jar contrast structure with the mechanism tease built in. Closest to the account's converting DNA.
+5. **Your $80 moisturizer is mostly water. That's the whole problem.** : Confrontation angle, direct statement of the reveal, no tease. Strongest for people who click on being told something bluntly, weakest for curiosity-clickers.
+6. **She stopped looking tired. Her routine got smaller, not bigger.** : SA1 + New Identity blend, the anti-shelf identity in one line. Least direct of the six, but the only one carrying the identity response.
+
+**Recommended pairing for the 2:2:** #2 (SA1, verbatim-anchored, emotional) + #3 (SA2, curiosity-gap, mechanism). They target different sub-avatars AND different click psychologies (recognition vs curiosity), which is what a 2-headline test should separate. #4 is first alternate if either underperforms.
 
 ## Pre-launch gates (all mandatory)
 1. **Stage-5 filter:** all three banners pass (none is a bare heard-it-before claim; each carries information/mechanism/identity).
