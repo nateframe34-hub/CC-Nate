@@ -44,7 +44,11 @@ ADD TO CART
 
 **[TRUST STRIP — Icons below CTA, single row]**
 
-🚚 Free Shipping  ·  🛡️ 60-Day Guarantee  ·  🧪 4 Ingredients  ·  🐄 Grass-Fed
+🚚 Free Shipping  ·  🛡️ 60-Day Guarantee  ·  🎁 $10 Gift Card On Your Next Order  ·  🧪 4 Ingredients
+
+**[SUBTEXT — Small line directly under trust strip, ties the gift card to the order confirmation so nobody expects it to apply here]**
+
+Every first order includes a $10 gift card for your next one. Sent after checkout.
 
 ---
 
@@ -307,6 +311,9 @@ Room temperature. It may firm up in cooler weather and soften in warmth — that
 **Can I use this with other skincare products?**
 Yes, but most customers find they don't need to. That's kind of the point.
 
+**What's the $10 gift card?**
+Every first order earns a $10 gift card toward your next one. It arrives by email after your order ships, not as a discount on this purchase.
+
 ---
 
 # SECTION 10 — Final CTA
@@ -327,7 +334,7 @@ ADD TO CART
 
 **[TRUST STRIP — Repeat from hero]**
 
-🚚 Free Shipping  ·  🛡️ 60-Day Guarantee  ·  🧪 4 Ingredients  ·  🐄 Grass-Fed
+🚚 Free Shipping  ·  🛡️ 60-Day Guarantee  ·  🎁 $10 Gift Card On Your Next Order  ·  🧪 4 Ingredients
 
 ---
 
@@ -349,9 +356,10 @@ Whipped Tallow & Honey Balm | Face & Body Moisturizer
 
 **[META DESCRIPTION — Under 160 characters]**
 
-Grass-fed beef tallow whipped with manuka honey. 4 ingredients. No chemicals. For skin that changed and nothing else works. Free shipping. 60-day guarantee.
+Grass-fed beef tallow whipped with manuka honey. 4 ingredients. No chemicals. For skin that changed and nothing else works. Free shipping. 60-day guarantee. $10 gift card on your first order.
 
 ---
 
 *PDP Copy v2 — April 5, 2026*
 *Changes from v1: Simplified hero description to "For skin that changed and nothing else works." Restructured all sections with clear element labels for easy Shopify paste-in.*
+*Updated 2026-07-07: added the $10 next-order gift card to both trust strips, the FAQ, and the meta description. Deliberately worded as a post-purchase credit ("on your next order," "sent after checkout"), not a discount on the current order, per founder confirmation this is a reorder incentive, not a first-order price cut. Implementation (how the credit is actually issued) not yet built, see Gift_Card_Reorder_Incentive_Setup.md.*
