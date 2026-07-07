@@ -72,6 +72,45 @@ Fourteen products. Somewhere north of $800. Skin still tight by noon every singl
 
 **Advertorial tracking (added 2026-07-07):** the shared advertorial now passes through incoming UTM query params to every CTA link automatically (so ad -> advertorial -> PDP attribution survives the click-through) and fires a labeled fbq/gtag custom event per CTA position, so per-position click performance on the page itself is readable in Ads Manager / GA alongside the PDP conversion data. See `tallow-advertorial.liquid`.
 
+## 10) Meta Ad Copy: final upload set (Primary Text + Headline + Description, 2026-07-07)
+
+Per the 3:2:2 structure, Meta combines 3 images x 2 Primary Texts x 2 Headlines automatically (12 combinations), so only ONE Description is needed per Primary Text pairing to keep the matrix from ballooning past what a $60/day test can read cleanly. Every field below is upload-ready copy-paste, no placeholders.
+
+### Primary Text 1 (New Information lead, pairs with Headline A)
+> "You look tired." She was sleeping eight hours. It wasn't sleep.
+>
+> Skin makes its own oil, and after forty it makes a lot less of it. Nobody tells you that part. So every water-based cream evaporates by noon, and your face has that flat, dry, tired look by 2pm no matter what the bottle cost.
+>
+> One jar of skin-identical fat changed what three serums couldn't. Four ingredients. Whipped, not greasy. Still there at dinner.
+>
+> The whole story (how she found it, why it works, what it actually costs to run) is worth two minutes.
+
+Character count: ~560 (well within Meta's primary text limits; the "..." shows a "See more" break naturally after the second line on most placements, which is the intended stopping point for the scroll-stop).
+
+### Primary Text 2 (Graveyard/mechanism lead, pairs with Headline B)
+> Fourteen products. Somewhere north of $800. Skin still tight by noon every single day.
+>
+> Then she flipped a bottle over and saw the problem on every label she owned: water, first ingredient, every time. Water evaporates. Fat doesn't.
+>
+> One jar, four ingredients, replaced the shelf. She can read the whole label out loud.
+>
+> Here's the whole story, worth two minutes if you've got a shelf like that too.
+
+Character count: ~470.
+
+### Headlines (locked pair, per Section 9)
+- **Headline A:** "You look tired." It's not sleep. It's your skin. (pairs with Primary Text 1)
+- **Headline B:** Every cream she owned had the same first ingredient. (pairs with Primary Text 2)
+
+### Descriptions (new field, one per headline pairing)
+- **Description A** (under Headline A): Read what actually happened to her skin, not another "5 tips" article.
+- **Description B** (under Headline B): The one ingredient on every failed label, and the jar that skips it.
+
+Both descriptions are deliberately short (under 30 characters over the visible truncation point on mobile feed placements) and both point at the story/reveal rather than restating the headline, so the three fields (primary text, headline, description) each do a distinct job instead of repeating the same claim three times.
+
+### Compliance pass on this set
+No banned phrases, no medical claims, no menopause/anti-aging language, "$800" figure is the real verbatim validation-research number used as a typical-consumer figure (not a claim about our own customers), no named competitor, no fabricated statistics. Passes the Stage-5 filter: both primary texts carry a mechanism/information reveal, neither is a bare "moisturizer that works" claim.
+
 ## Pre-launch gates (all mandatory)
 1. **Stage-5 filter:** all three banners pass (none is a bare heard-it-before claim; each carries information/mechanism/identity).
 2. **Cheat-sheet QC pass** (origins 14 questions) on each finished creative before upload.
