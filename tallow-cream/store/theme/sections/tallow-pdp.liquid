@@ -198,7 +198,6 @@
   <symbol id="tlw-bag" viewBox="0 0 24 24"><path d="M6 8 H18 V19 Q18 20 17 20 H7 Q6 20 6 19 Z"/><path d="M9 8 V6.5 Q9 4 12 4 Q15 4 15 6.5 V8"/></symbol>
   <symbol id="tlw-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
   <symbol id="tlw-trash" viewBox="0 0 24 24"><path d="M5 7h14M10 7V5h4v2M7 7l1 12h8l1-12"/></symbol>
-  <symbol id="tlw-gift" viewBox="0 0 24 24"><path d="M4 9h16v4H4z"/><path d="M5 13h14v7H5z"/><path d="M12 9v11"/><path d="M12 9c-1.5-3-5-4-5-1.3C7 9 9.5 9 12 9z"/><path d="M12 9c1.5-3 5-4 5-1.3C17 9 14.5 9 12 9z"/></symbol>
 </svg>
 
 {%- if section.settings.sale_active -%}
@@ -285,19 +284,12 @@
     </div>
 
     <div class="guar-inline"><span class="ic"><svg class="icon"><use href="#tlw-shield"/></svg></span><div><b>60-day money-back guarantee.</b> If your skin doesn't love it, we refund every penny. No sending it back.</div></div>
-    {%- if section.settings.gift_card_active -%}
-    <div class="guar-inline"><span class="ic"><svg class="icon"><use href="#tlw-gift"/></svg></span><div><b>{{ section.settings.gift_card_headline | default: '$10 gift card on your next order.' }}</b> {{ section.settings.gift_card_subtext | default: "Sent by email after checkout. Not a discount on this order." }}</div></div>
-    {%- endif -%}
 
     <div class="trust-strip">
       <div><svg class="icon"><use href="#tlw-truck"/></svg>Free Shipping</div>
       <div><svg class="icon"><use href="#tlw-shield"/></svg>60-Day Guarantee</div>
-      {%- if section.settings.gift_card_active -%}
-      <div><svg class="icon"><use href="#tlw-gift"/></svg>$10 Gift Card</div>
-      {%- else -%}
-      <div><svg class="icon"><use href="#tlw-leaf"/></svg>Grass-Fed</div>
-      {%- endif -%}
       <div><svg class="icon"><use href="#tlw-drop"/></svg>4 Ingredients</div>
+      <div><svg class="icon"><use href="#tlw-leaf"/></svg>Grass-Fed</div>
     </div>
   </div>
 </div></section>
@@ -370,9 +362,6 @@
     <div class="attr"><div class="k">Who it's for</div><div class="vv">Dry, mature, sensitive skin</div></div>
     <div class="attr"><div class="k">Sourcing</div><div class="vv">Grass-fed tallow · NZ manuka</div></div>
     <div class="attr"><div class="k">Guarantee</div><div class="vv">60-day money-back · free ship</div></div>
-    {%- if section.settings.gift_card_active -%}
-    <div class="attr"><div class="k">Reorder reward</div><div class="vv">$10 gift card, emailed after your first order, good toward your next one</div></div>
-    {%- endif -%}
   </div>
 </div></section>
 
@@ -388,12 +377,8 @@
   <div class="trust-strip">
     <div><svg class="icon"><use href="#tlw-truck"/></svg>Free Shipping</div>
     <div><svg class="icon"><use href="#tlw-shield"/></svg>60-Day Guarantee</div>
-    {%- if section.settings.gift_card_active -%}
-    <div><svg class="icon"><use href="#tlw-gift"/></svg>$10 Gift Card</div>
-    {%- else -%}
-    <div><svg class="icon"><use href="#tlw-leaf"/></svg>Grass-Fed</div>
-    {%- endif -%}
     <div><svg class="icon"><use href="#tlw-drop"/></svg>4 Ingredients</div>
+    <div><svg class="icon"><use href="#tlw-leaf"/></svg>Grass-Fed</div>
   </div>
 </div></section>
 
@@ -571,10 +556,6 @@
     { "type": "text", "id": "stat2_t", "label": "Stat 2 text", "default": "stopped reaching for other products" },
     { "type": "text", "id": "stat3_n", "label": "Stat 3 number", "default": "2 min" },
     { "type": "text", "id": "stat3_t", "label": "Stat 3 text", "default": "to absorb · no greasy residue" },
-    { "type": "header", "content": "$10 next-order gift card (reorder incentive, not a discount on this order)" },
-    { "type": "checkbox", "id": "gift_card_active", "label": "Show $10 gift card offer", "default": true },
-    { "type": "text", "id": "gift_card_headline", "label": "Gift card headline", "default": "$10 gift card on your next order." },
-    { "type": "text", "id": "gift_card_subtext", "label": "Gift card subtext", "default": "Sent by email after checkout. Not a discount on this order." },
     { "type": "header", "content": "Featured review" },
     { "type": "image_picker", "id": "review_image", "label": "Review photo (real customer)" },
     { "type": "text", "id": "review_quote", "label": "Review quote", "default": "I threw out eight products and kept this one. My husband noticed before I did." },
