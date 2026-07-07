@@ -1,9 +1,14 @@
 {%- comment -%}
-  TALLOW ADVERTORIAL · B24 destination page, rev 2026-07-07
-  News-article skin (masthead, dek, callout box, byline) carrying an
-  outcome-first hook: leads with the ideal outcome already achieved, not
-  a scene-setting story opener. Four CTA touchpoints spread through the
-  body (early, post-mechanism, post-review, closing) instead of one.
+  TALLOW ADVERTORIAL · B24 destination page, rev 2026-07-07 (reverted same day)
+  Founder call: the ad headlines themselves already carry the reveal/
+  outcome tease (B24's quote-card banners), so the landing page's job is
+  to build toward that reveal, not restate it instantly. Reverted to the
+  original scene-setting confessional opening. Mid-article CTAs (early,
+  post-mechanism-reveal, post-review) are inline blue text links woven
+  into the paragraph flow (Javvy/listicle style), not standalone buttons,
+  per founder feedback that buttons read "too forward." The closing CTA
+  (end of Final Thoughts) and the optional sale/update-box CTA remain
+  full buttons, that's the one deliberate hard-sell moment on the page.
   Incoming query string (ad UTMs) is passed through to every CTA link so
   attribution survives ad -> advertorial -> PDP; each CTA also fires a
   labeled custom event (fbq/gtag) for per-position click tracking.
@@ -52,6 +57,7 @@
   #tallow-advertorial .disclosure{background:#5b6f6d;color:#e8e5da;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:10.5px;text-align:center;padding:22px 18px;line-height:1.6}
   #tallow-advertorial .divider{border:none;border-top:1px solid #e5e5e5;margin:28px 0}
   #tallow-advertorial .callout{background:#fff4e0;border:1px solid #e7d9a8;border-radius:8px;padding:14px 16px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:13.5px;font-weight:700;color:#5a4a1f;margin-bottom:18px;text-transform:uppercase;letter-spacing:.01em}
+  #tallow-advertorial .cta-link{color:#1a5fb4;text-decoration:underline;font-weight:700}
 </style>
 
 <div class="masthead"><span class="name">{{ section.settings.masthead | default: 'The Everyday Ritual' }}</span></div>
@@ -59,12 +65,10 @@
 
 <div class="wrap">
 
-  <h1>{{ section.settings.headline | default: "She Finally Got Rid Of Her Tired-Looking Skin. It Wasn't Sleep." }}</h1>
-  <div class="dek">{{ section.settings.dek | default: "&ldquo;You look tired&rdquo; has a cause almost nobody checks, and it isn&rsquo;t the one you think." }}</div>
+  <h1>{{ section.settings.headline | default: "She Uses One Jar. Her Skin Doesn't Look Tired Anymore." }}</h1>
+  <div class="dek">{{ section.settings.dek | default: "&ldquo;You look tired&rdquo; has a cause nobody checks, and it isn&rsquo;t sleep." }}</div>
 
-  <div class="callout">{{ section.settings.callout | default: "The fix took one jar, four ingredients, and about ten days to notice." }}</div>
-
-  <div class="summary">What one woman found on a friend's bathroom counter ended a fifteen-year losing streak with her own reflection. The reason it worked has been sitting on ingredient labels, in plain sight, the whole time.</div>
+  <div class="summary">What one woman noticed on a friend's bathroom counter changed how she thinks about every cream she ever bought. The reason it worked has been sitting on ingredient labels, in plain sight, the whole time.</div>
 
   <div class="byline">Written by <b>{{ section.settings.byline | default: 'Julie B.' }}</b> · {{ section.settings.byline_date | default: 'July 2026' }}</div>
 
@@ -73,32 +77,31 @@
     <div class="caption">The counter that started it: one jar, where fourteen products used to be.</div></div>
   {%- endif -%}
 
-  <p><b>I was finally able to get rid of my tired-looking skin. Not with more sleep, not with a new serum, and not with anything that cost more than a jar of moisturizer.</b></p>
-  <p>Six months ago a coworker asked if I was feeling okay. I'd slept eight hours. She was looking at my face, not my energy. "You look tired" is what she actually said, and if you've heard that on a day you weren't, you know it doesn't land like concern. It lands like a verdict on your face that you didn't get a vote on.</p>
-  <p>That verdict is gone now. Not covered up. Gone. And the reason it's gone had nothing to do with sleep, lighting, or age, which is the part that made me angry once I understood it.</p>
+  <p>I'll be honest about how this started: someone at work asked if I was feeling okay.</p>
+  <p>I was feeling fine. I'd slept eight hours. And she looked at my face and asked if I was coming down with something.</p>
+  <p>If you've ever been told "you look tired" on a day you weren't, you know exactly what that lands like. It's not concern you hear. It's a verdict. That's actually what sent me looking for an answer, and I found it at a friend's house, <a class="cta-link" href="{{ section.settings.pdp_url | default: 'https://trybasline.com/products/whipped-tallow-honey-balm' }}">you can see the jar that ended up fixing it here</a>.</p>
+  <p>For a long time I told myself it was the bathroom lighting. Or just my face now. I'd stopped arguing with the mirror.</p>
+  <p>Then I used the guest bathroom at my friend Elaine's house, and I noticed something strange about her counter.</p>
+  <p>There was one thing on it.</p>
+  <p>One jar. Amber glass. Simple label. Where there used to be, I counted from memory, at least seven products the last time I'd been up there.</p>
+  <p>Elaine is two years older than me. Her skin does not look tired. It hasn't for about a year, and I'd noticed, everyone in our book club had noticed, and none of us had asked.</p>
+  <p>So I asked.</p>
 
-  <a class="cta-btn" href="{{ section.settings.pdp_url | default: 'https://trybasline.com/products/whipped-tallow-honey-balm' }}">See The Jar That Did It &raquo;</a>
-  <div class="cta-sub">Free shipping · 60-day money-back guarantee · 4 ingredients</div>
-
-  <h2>Where it actually started</h2>
-  <p>I found it at my friend Elaine's house, in her guest bathroom. Her counter had one thing on it. One jar, amber glass, simple label, where I remembered at least seven products the last time I'd been up there.</p>
-  <p>Elaine is two years older than me. Her skin does not look tired, hasn't for about a year, and everyone in our book club had noticed and nobody had asked. I asked.</p>
-  <p>She'd thrown everything else out nine months earlier: the toner, the serums, the retinol that burned. She kept one jar, something her 76-year-old aunt in Vermont had been using since 1987. Her aunt keeps bees. Her aunt's skin looks fifteen years younger than it should.</p>
+  <h2>What she told me</h2>
+  <p>She'd thrown everything out nine months earlier. The toner, the serums, the retinol that burned. She kept one jar, something her 76-year-old aunt in Vermont had been using since 1987. Her aunt keeps bees. Her aunt's skin looks fifteen years younger than it should.</p>
+  <p>And then Elaine told me the part I want you to read slowly, because it rearranged everything I thought I knew about skincare.</p>
 
   <h2>Flip your moisturizer over. Read the first ingredient.</h2>
   <p>Go ahead, if it's nearby. I'll wait.</p>
   <p>For almost everyone, the first ingredient, meaning the single biggest thing in the bottle, is water. Second is usually glycerin. Third is something you can't pronounce.</p>
   <p>Water evaporates. That's what water does. You put it on at 7am and by noon it's gone, and your skin is tight again, and your face has that flat, dry, tired look by 2pm no matter what the bottle cost.</p>
   <p>Here's the other half, the part that isn't on any label: skin makes its own oil. It's why you never thought about moisturizer at twenty-five. After about forty, skin makes a lot less of it. Nobody tells you that. You just watch your face change and assume it's sleep, or age, or lighting.</p>
-  <p>It was never the lighting.</p>
+  <p>It was never the lighting. <a class="cta-link" href="{{ section.settings.pdp_url | default: 'https://trybasline.com/products/whipped-tallow-honey-balm' }}">Here's the jar that actually fixes it.</a></p>
 
   {%- if section.settings.diagram_image != blank -%}
     <div class="mid-img">{{ section.settings.diagram_image | image_url: width: 900 | image_tag: loading: 'lazy', alt: 'Water evaporates, fat absorbs diagram' }}
     <div class="caption">The whole difference, in one picture: water sits on top and evaporates. Fat absorbs in and stays.</div></div>
   {%- endif -%}
-
-  <a class="cta-btn" href="{{ section.settings.pdp_url | default: 'https://trybasline.com/products/whipped-tallow-honey-balm' }}">Check Availability &amp; See The Jar &raquo;</a>
-  <div class="cta-sub">Same jar Elaine uses · 4 ingredients you can read out loud</div>
 
   <h2>What's actually in the jar</h2>
   <p>Four ingredients. Grass-fed tallow, manuka honey, cold-pressed olive oil, calendula. That's the entire label. You can read it out loud without stumbling.</p>
@@ -124,8 +127,7 @@
   <blockquote>"{{ section.settings.review_quote }}"<span class="who">{{ section.settings.review_author | default: 'Verified buyer' }}</span></blockquote>
   {%- endif -%}
 
-  <a class="cta-btn" href="{{ section.settings.pdp_url | default: 'https://trybasline.com/products/whipped-tallow-honey-balm' }}">Get Your Own Jar &raquo;</a>
-  <div class="cta-sub">Free shipping · 60-day money-back guarantee</div>
+  <p><a class="cta-link" href="{{ section.settings.pdp_url | default: 'https://trybasline.com/products/whipped-tallow-honey-balm' }}">You can check price and availability here.</a></p>
 
   <h2>Final thoughts</h2>
   <p>There's a 60-day money-back guarantee, use the whole jar, and if your skin doesn't love it, email them and get every dollar back without sending anything back. That's the part that got me over the "beef fat, seriously?" hump. There was nothing to lose except the tired face.</p>
@@ -155,7 +157,7 @@
 <script>
 (function(){
   var params = window.location.search;
-  var links = document.querySelectorAll('#tallow-advertorial .cta-btn');
+  var links = document.querySelectorAll('#tallow-advertorial .cta-btn, #tallow-advertorial .cta-link');
   links.forEach(function(a, i){
     if (params) {
       try {
@@ -166,7 +168,8 @@
       } catch(e) {}
     }
     a.addEventListener('click', function(){
-      var label = 'advertorial_cta_' + (i + 1);
+      var kind = a.classList.contains('cta-link') ? 'link' : 'button';
+      var label = 'advertorial_cta_' + (i + 1) + '_' + kind;
       if (typeof fbq !== 'undefined') { fbq('trackCustom', 'AdvertorialCTAClick', { position: label }); }
       if (typeof gtag !== 'undefined') { gtag('event', 'advertorial_cta_click', { cta_position: label }); }
     });
@@ -179,9 +182,8 @@
   "name": "Tallow Advertorial (B24)",
   "settings": [
     { "type": "text", "id": "masthead", "label": "Masthead name", "default": "The Everyday Ritual" },
-    { "type": "text", "id": "headline", "label": "Headline", "default": "She Finally Got Rid Of Her Tired-Looking Skin. It Wasn't Sleep." },
+    { "type": "text", "id": "headline", "label": "Headline", "default": "She Uses One Jar. Her Skin Doesn't Look Tired Anymore." },
     { "type": "text", "id": "dek", "label": "Dek (subheadline)" },
-    { "type": "text", "id": "callout", "label": "Callout line (below dek)" },
     { "type": "text", "id": "byline", "label": "Byline name", "default": "Julie B." },
     { "type": "text", "id": "byline_date", "label": "Byline date", "default": "July 2026" },
     { "type": "url", "id": "pdp_url", "label": "PDP link" },
