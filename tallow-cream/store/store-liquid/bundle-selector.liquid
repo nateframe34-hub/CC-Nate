@@ -7,24 +7,13 @@
   HOW IT WORKS:
 
   This selector changes the QUANTITY in the product form,
-  not the variant. You have ONE automatic cart discount set up:
+  not the variant. You have automatic cart discounts set up:
+    - Buy 2 → $10 off
     - Buy 3 → $30 off
 
-  UPDATED 2026-07-07: the old "Buy 2 → $10 off" checkout discount
-  is REPLACED by a $10 gift-card reward instead (issued after the
-  order, good toward her next order, not a discount on this one).
-  That means the 2-Jar bundle now charges FULL PRICE at checkout
-  ($99.98, no compare-at strike, no automatic discount needed for
-  it). Founder must remove the old "Buy 2 → $10 off" automatic
-  discount in Shopify admin (Discounts) so it stops silently
-  double-applying under the new full-price display. Gift-card
-  ISSUANCE for qty>=2 orders is a separate backend step (Shopify
-  Flow, per the reorder-incentive plan), not handled by this file,
-  this file only controls what she sees/pays at checkout.
-
   So when a customer clicks "Stock Up (2 Jars)", the hidden
-  quantity input becomes 2 and she's charged full price for 2 jars;
-  the $10 gift card is a post-purchase reward, not a cart discount.
+  quantity input becomes 2. Shopify's discount engine applies
+  the $10 off at checkout automatically.
 
   HOW TO USE:
 
@@ -201,15 +190,16 @@
     </div>
   </label>
 
-  {% comment %} Bundle 2: Stock Up - 2 Jars (full price, $10 gift card reward instead of a checkout discount) {% endcomment %}
-  <label class="bundle-option" data-quantity="2" data-price="9998">
+  {% comment %} Bundle 2: Stock Up - 2 Jars {% endcomment %}
+  <label class="bundle-option" data-quantity="2" data-price="8998">
     <span class="bundle-option__radio"></span>
     <div class="bundle-option__info">
       <p class="bundle-option__title">Stock Up — 2 Jars</p>
-      <p class="bundle-option__sub">+$10 gift card for your next order · Free shipping</p>
+      <p class="bundle-option__sub">Save $10 · Free shipping</p>
     </div>
     <div class="bundle-option__price">
-      <span class="bundle-option__price-current">$99.98</span>
+      <span class="bundle-option__price-current">$89.98</span>
+      <span class="bundle-option__price-compare">$99.98</span>
     </div>
   </label>
 
