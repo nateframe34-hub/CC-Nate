@@ -35,7 +35,7 @@ For skin that changed and nothing else works.
 **[BUNDLE SELECTOR — Radio buttons or tabs]**
 
 - Try It — 1 Jar · $49.99 · *Most Popular*
-- Stock Up — 2 Jars · $89.99 · Save $10
+- Stock Up — 2 Jars · $99.98 · +$10 Gift Card
 - Best Value — 3 Jars · $119.99 · Save $30
 
 **[CTA BUTTON]**
@@ -318,7 +318,7 @@ Your skin changed. This was made for that.
 **[BUNDLE SELECTOR — Repeat from hero]**
 
 - Try It — 1 Jar · $49.99 · *Most Popular*
-- Stock Up — 2 Jars · $89.99 · Save $10
+- Stock Up — 2 Jars · $99.98 · +$10 Gift Card
 - Best Value — 3 Jars · $119.99 · Save $30
 
 **[CTA BUTTON]**
