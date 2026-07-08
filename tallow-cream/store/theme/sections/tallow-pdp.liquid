@@ -74,8 +74,6 @@
   #tallow-pdp .price .was{font-size:17px;color:#9a927d;text-decoration:line-through}
   #tallow-pdp .price .save{background:var(--amber-soft);color:#6a481a;font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px}
   #tallow-pdp .ship{font-size:12.5px;color:var(--grey);margin-bottom:16px}
-  #tallow-pdp .upsell-note{margin-top:11px;font-size:12.5px;color:#8a8472;text-align:center}
-  #tallow-pdp .upsell-note u{color:var(--green);font-weight:600}
   #tallow-pdp .gift-callout{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;background:var(--amber-soft);border:1px solid var(--amber);border-radius:12px;padding:11px 16px;text-align:center}
   #tallow-pdp .gift-callout .icon{width:19px;height:19px;color:#6a481a;flex-shrink:0}
   #tallow-pdp .gift-callout span{font-size:14px;font-weight:700;color:#6a481a}
@@ -282,7 +280,6 @@
     {%- if section.settings.gift_card_active -%}
     <div class="gift-callout"><svg class="icon"><use href="#tlw-gift"/></svg><span>{{ section.settings.gift_card_text | default: 'Get a $10 gift card with your first purchase' }}</span></div>
     {%- endif -%}
-    {%- if section.settings.upsell_note != blank -%}<div class="upsell-note">{{ section.settings.upsell_note }}</div>{%- endif -%}
 
     <div class="micro">
       <span><svg class="icon"><use href="#tlw-drop"/></svg>Absorbs in 2 min</span>
@@ -555,7 +552,6 @@
     { "type": "text", "id": "rating_text", "label": "Rating text", "default": "4.8 · 47 reviews" },
     { "type": "text", "id": "subtitle", "label": "Subtitle", "default": "Face & Body · 4 Ingredients · 120g" },
     { "type": "text", "id": "ship_text", "label": "Shipping line", "default": "Free shipping · ships in 1-2 days" },
-    { "type": "text", "id": "upsell_note", "label": "Upsell note (under ATC)", "default": "Most people reorder. Add a 2nd jar at checkout, save $10." },
     { "type": "checkbox", "id": "gift_card_active", "label": "Show $10 gift card callout under ATC", "default": true },
     { "type": "text", "id": "gift_card_text", "label": "Gift card callout text", "default": "Get a $10 gift card with your first purchase" },
     { "type": "header", "content": "Proof stats (after 2 weeks)" },
