@@ -45,6 +45,7 @@
   #tlw-list .cta-sub{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;text-align:center;font-size:12.5px;color:#888;margin-bottom:14px}
   #tlw-list .disclosure{background:#5b6f6d;color:#e8e5da;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:10.5px;text-align:center;padding:22px 18px;line-height:1.6}
   #tlw-list .divider{border:none;border-top:1px solid #e5e5e5;margin:28px 0}
+  #tlw-list .trust-note{display:inline-block;background:var(--amber-soft);color:#6a481a;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:700;padding:6px 12px;border-radius:999px;margin-bottom:22px}
 </style>
 
 
@@ -65,19 +66,21 @@
   <p><b>Most moisturizers are mostly water.</b> Not a metaphor, an ingredient list fact: flip the bottle over, and for almost every cream on the market, the first and heaviest ingredient is water. Water evaporates. That's not a design flaw, it's just what water does, and it's the reason a $80 jar and a $12 jar can fail the exact same way by noon.</p>
   <p>Here are five signs your moisturizer has that problem, and what a formula without it actually looks like.</p>
 
-  <div class="sign"><span class="num">1</span><h2>The price tag has nothing to do with what's actually in the jar</h2></div>
-  <p>An $80 cream and a $12 lotion can share the same first ingredient: water. Price signals packaging, marketing, and brand, not what's actually going to stay on your skin past lunch. The only way to know is to check the label yourself, not the price sticker.</p>
+  <div class="trust-note">60-day money-back guarantee on the jar we mention below</div>
+
+  <div class="sign"><span class="num">1</span><h2>The ingredient most creams skip, and yours almost certainly has it</h2></div>
+  <p>Here's the mechanism nobody puts on the bottle: water evaporates. It's the first, heaviest ingredient in almost every moisturizer, and by definition, water doesn't stay. You put it on at 7am and by noon it's gone, and your skin is tight again, and no amount of reapplying fixes a formula problem.</p>
+  <p>Skin makes its own oil. After about forty, it makes a lot less. Fat-based formulas, the kind skin already recognizes, absorb in instead of sitting on top and disappearing. <a class="cta-link" href="{{ section.settings.pdp_url | default: 'https://trybasline.com/products/whipped-tallow-honey-balm' }}">This is the jar that's built that way.</a></p>
 
   <div class="sign"><span class="num">2</span><h2>The label you can't finish reading</h2></div>
   <p>Flip your moisturizer over. Second ingredient, usually glycerin. Third, something you can't pronounce. If you can't read the whole label out loud without stumbling, that's not a small thing, it's the first sign the formula wasn't built to be trusted, it was built to be sold.</p>
   <p>Four ingredients you already know, tallow, honey, olive oil, calendula, reads differently. Not because shorter is automatically better, but because you can actually evaluate what you're putting on your skin instead of taking a label's word for it.</p>
 
-  <div class="sign"><span class="num">3</span><h2>The 2pm tight-and-dry feeling, no matter what you use</h2></div>
-  <p>Here's the mechanism nobody puts on the bottle: water evaporates. It's the first ingredient in almost every moisturizer, and by definition, water doesn't stay. You put it on at 7am and by noon it's gone, and your skin is tight again, and no amount of reapplying fixes a formula problem.</p>
-  <p>Skin makes its own oil. After about forty, it makes a lot less. Fat-based formulas, the kind skin already recognizes, absorb in instead of sitting on top and disappearing. <a class="cta-link" href="{{ section.settings.pdp_url | default: 'https://trybasline.com/products/whipped-tallow-honey-balm' }}">This is the jar that's built that way.</a></p>
+  <div class="sign"><span class="num">3</span><h2>The price tag has nothing to do with what's actually in the jar</h2></div>
+  <p>An $80 cream and a $12 lotion can share the exact same first-ingredient problem from sign 1. Price signals packaging, marketing, and brand, not what's actually going to stay on your skin past lunch. The only way to know is to check the label yourself, not the price sticker.</p>
 
   <div class="sign"><span class="num">4</span><h2>The drawer of half-used products you can each name the price of</h2></div>
-  <p>Ten, twelve, fourteen products. You could probably list what each one cost. That's not indecision, that's a pattern: each one failed for the same reason (see sign 3), and each failure got blamed on your skin instead of the formula.</p>
+  <p>Ten, twelve, fourteen products. You could probably list what each one cost. That's not indecision, that's a pattern: each one failed for the same reason as sign 1, and each failure got blamed on your skin instead of the formula.</p>
 
   {%- if section.settings.review_quote != blank -%}
   <blockquote>"{{ section.settings.review_quote }}"<span class="who">{{ section.settings.review_author | default: 'Verified buyer' }}</span></blockquote>
