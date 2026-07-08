@@ -6,6 +6,11 @@
 
 ---
 
+## LOCKED SELECTS (founder, 2026-07-07)
+- **Angle 1 (Confrontation):** "WHY DOES YOUR $80 MOISTURIZER FEEL LIKE IT'S DOING NOTHING? THIS IS THE INGREDIENT MOST CREAMS SKIP..." → routes to `tallow-listicle-confrontation.liquid`
+- **Angle 2 (43 vs 4):** "HER MOISTURIZER HAS 43 INGREDIENTS. THIS ONE HAS 4. GUESS WHICH ONE HER SKIN ACTUALLY ABSORBS..." → routes to `tallow-listicle-labelcount.liquid`
+- **Angle 3 (Radical Legibility):** "MOST MOISTURIZERS NEED A CHEMISTRY DEGREE TO READ THE BACK. THIS ONE DOESN'T..." → routes to `tallow-listicle-readaloud.liquid`
+
 ## Angle 1: Confrontation
 **Sub-avatar:** SA2 Graveyard + SA5 Label Reader (these run as one audience per `Brand_Mastery.md`). **Awareness:** Solution Aware (she's tried products, is now evaluating a specific claim). **Sophistication response:** New Mechanism + blunt New Information, Stage 5 market means a soft claim dies, this angle works because it's confrontational, not because it's clever.
 **Desire being amplified:** stop wasting money on products that don't deliver; the anger under "$860 in six months" and "nothing works, prove it."
