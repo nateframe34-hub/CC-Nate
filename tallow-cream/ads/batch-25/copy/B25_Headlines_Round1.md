@@ -40,7 +40,7 @@
 
 ## The listicle these route to
 
-All three angles are variations on ONE cluster (ingredient distrust + wasted money + a legibility payoff), so per the B25 concept plan, they route to a single shared listicle rather than three separate destinations, that keeps the "which ad wins" comparison clean since only the ad changes, not the offer or the landing experience.
+**SUPERSEDED 2026-07-07:** founder decided against a shared listicle in favor of full per-angle congruence, each of the 3 angles below now gets its own fully personalized listicle (built), not a single shared destination. Reasoning: this batch is still testing angles end to end, so maximizing ad-to-page congruence raises the odds a genuine winning angle shows through, worth more than the cleaner isolated-variable read a shared page would give. The content below (originally written for one shared page) still describes the shared DNA all 3 personalized pages carry in their signs 2-5 and close, only the framing/opening and sign 1 are now angle-specific. See the 3 built pages: `tallow-listicle-confrontation.liquid`, `tallow-listicle-labelcount.liquid`, `tallow-listicle-readaloud.liquid`.
 
 **Working title:** *"5 Signs Your Moisturizer Is Working Against You (Not For You)"*
 

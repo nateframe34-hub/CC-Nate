@@ -41,7 +41,7 @@ Market context: Stage 5 market / Stage 3-4 tallow niche. The news format is inhe
 ## 5) Structure and testing method
 
 - **3:2:2 again** (3 creatives from the angle list above, 2 primary texts, 2 headlines), Marksman logic, images only.
-- All cells route to ONE destination with per-creative UTMs (same discipline as B24).
+- **SUPERSEDED 2026-07-07 (founder decision):** each cell routes to its OWN fully personalized listicle, not one shared destination. Founder's reasoning: this batch is still testing angles end to end, and maximizing ad-to-page congruence raises the odds a genuine winning angle actually shows through instead of being suppressed by a mismatched page, that outweighs the cleaner isolated-variable read a shared page would give. Per-creative UTMs still apply. See `tallow-cream/store/theme/sections/tallow-listicle-confrontation.liquid`, `tallow-listicle-labelcount.liquid`, `tallow-listicle-readaloud.liquid`.
 - Listicle page gets the same UTM-passthrough + per-position CTA tracking script as the advertorial (lift it wholesale from `tallow-advertorial.liquid`).
 
 ## 6) Format spec (locked from B22's corrected version)
