@@ -1,52 +1,61 @@
 # $10 Gift Card: Shopify Flow Setup
 
-**Date:** 2026-07-07
-**What this is:** step-by-step for building the automation that actually fulfills the promise now live on the PDP ("Get a $10 gift card with your first purchase," `tallow-cream/store/theme/sections/tallow-pdp.liquid`). Confirmed: Shopify Flow is available on your plan.
+**Date:** 2026-07-07, corrected same day against founder's real Flow action list (screenshot, `New Workflow` action picker)
+**What this is:** step-by-step for building the automation that fulfills the promise now live on the PDP ("Get a $10 gift card with your first purchase," `tallow-cream/store/theme/sections/tallow-pdp.liquid`).
 
-The goal: when someone places their first order, Shopify automatically creates a real $10 gift card and emails it to them a few days later (not instantly, so it reads as a reward, not a checkout glitch).
+**Correction from the first draft of this doc:** I had guessed at Flow's trigger/action names instead of working from what's actually in the account, and got both wrong. Confirmed from the real action list: the trigger is **Order paid** (not "Order created"), and there is NO native "Create gift card" action, and NO generic "Send email" action either. This version is built from what's actually there.
+
+---
+
+## What's actually available (from the real action list)
+
+Relevant ones for this task:
+- **Trigger: Order paid** (confirmed, already in the screenshot as the default trigger)
+- **Get customer data**: pulls customer fields, needed to check order count
+- **Get gift card data**: READ only, can look up/query existing gift cards, cannot create one
+- **Send Admin API request**: this is the one that matters. It lets Flow call Shopify's Admin GraphQL API directly, which is how gift cards actually get created (there's a `giftCardCreate` mutation in Shopify's Admin API even though Flow has no dedicated one-click action for it)
+- Various tag actions (**Add customer tags**, **Add order tags**, **Update customer metafield**): useful for handing off to Klaviyo, since Flow can't send a general customer-facing email itself
+- No generic "Send email" action exists in this list. The only email-shaped actions are transactional ones tied to specific Shopify objects (order invoice, payment reminder, B2B access), none of which fit "here's your reward."
+
+**Conclusion:** Flow creates the gift card via a raw Admin API call, then hands off delivery to Klaviyo (since that's where customer emails should live anyway) by tagging the customer or order. Flow doesn't send the reveal email itself.
 
 ---
 
 ## Step 1: Build the Flow workflow
 
-1. In Shopify admin, go to **Apps → Shopify Flow** (if it's not pinned, search "Flow" in the admin search bar).
-2. Click **Create workflow**.
-3. **Trigger:** search for and select **Order created**.
-4. **Add a condition** (this is the step that keeps it to first-time buyers only, don't skip it): 
-   - Condition: `Order > Customer > Orders count` **is equal to** `1`
-   - This checks the customer's total lifetime order count at the moment this order was placed. If it's their first order, it equals 1. This is the detail that stops repeat buyers from getting a card every time they order.
-5. **Add action: Create gift card**
-   - Amount: `10.00`
-   - Note/internal reference: something like "First-purchase reward, order {{order.name}}" so support can trace it later if a customer asks.
-   - Recipient: assign it to the customer's email from the order (`{{order.customer.email}}`).
-6. **Add a Delay step** (Flow has a "Wait" action) before the email send, 2-3 days is a good default. This is what makes it feel like a deliberate reward instead of an automated afterthought.
-7. **Add action: Send email** (Flow can send a basic email itself, or you can trigger a Klaviyo flow instead if you want nicer design, see Step 3 below).
-8. **Turn the workflow ON.**
+1. **Trigger:** Order paid (already set in your draft workflow).
+2. **Add a condition:** restrict to first-time buyers only. The order-paid trigger payload may not directly expose lifetime order count, so:
+   - Add a **Get customer data** action first, using the customer from the paid order, to pull their order count field.
+   - Add a **Condition** step checking that value equals 1 (their first paid order).
+   - This is the single most important step, skipping it means every repeat customer gets a $10 card every time they reorder.
+3. **Add action: Send Admin API request.** This calls Shopify's Admin GraphQL API using a mutation like:
+   ```graphql
+   mutation giftCardCreate($input: GiftCardCreateInput!) {
+     giftCardCreate(input: $input) {
+       giftCard { id maskedCode }
+       userErrors { field message }
+     }
+   }
+   ```
+   with variables built from the order/customer data available in the workflow (customer ID, an initial value of $10 USD, an expiry date, and a note referencing the order for traceability). **The exact input field names should be checked against Shopify's current Admin API docs at build time** (Settings → search "Admin API" or shopify.dev's GraphQL Admin API reference for `GiftCardCreateInput`), API mutation shapes shift between API versions and I don't have live access to confirm the exact current schema against your API version.
+4. **Add a tag action** right after the API call succeeds: e.g. **Add customer tags** with `first-purchase-gift-card-issued`, or **Update customer metafield** storing the gift card code/id. This is the handoff point to Klaviyo.
+5. **In Klaviyo:** build a flow triggered off that tag (Klaviyo syncs Shopify customer tags) or off a custom event, with a 2-3 day delay before sending, so it reads as a deliberate reward rather than an instant afterthought. The actual gift card code needs to reach Klaviyo somehow, either by writing it to a customer metafield that syncs into a Klaviyo custom property, or by having the Admin API call's response captured and passed along in the same Flow run via another action. This hand-off mechanic is the part most worth testing carefully, see Step 2.
+6. **Turn the workflow ON** only after Step 2 passes.
 
 ## Step 2: Test it before trusting it
 
-Before this touches real customers:
-1. Place a real test order yourself (smallest amount, use a discount code to zero it out if needed, or just eat the cost of one jar as a test).
-2. Confirm in Flow's **Activity** / run history that the workflow fired, the condition passed, and a gift card was actually created (check **Shopify admin → Products → Gift cards** for a new card).
-3. Confirm the delay step worked and the email actually arrived after the wait period, not instantly.
-4. Place a SECOND test order from the same test customer account and confirm the condition correctly blocks it (order count would be 2, so the workflow should NOT create a second card). This is the check that matters most, it's the one thing that would be expensive to get wrong at volume.
+1. Place a real test order (smallest possible amount).
+2. Check the Flow **Activity/run history** to confirm every step fired, especially the Admin API call, look at its response for `userErrors` (an empty array means it worked).
+3. Confirm a real gift card now exists: **Shopify admin → Products → Gift cards**.
+4. Confirm the customer tag/metafield got set, and that it correctly reached Klaviyo and triggered the reveal flow after the delay.
+5. Place a SECOND order from that same test customer and confirm the condition correctly blocks the whole thing, no second gift card, no second tag. This is the check that protects margin at volume, worth being paranoid about.
 
-## Step 3: Email delivery, two options
+## Step 3: Decide before going live
 
-**Option A: Flow's native email action.** Simplest, works immediately, basic formatting. Good enough to launch with.
+1. **Expiration on the card** (a field in the mutation input), recommend 90 days.
+2. **What the Klaviyo email says**, keep it simple: "here's your $10, thanks for trying [product], good toward your next order."
+3. **Confirm the Admin API scope** the workflow needs (`write_gift_cards` or equivalent) is actually granted to Flow's Admin API access in your store, if the mutation fails with a permissions error, this is where to check.
 
-**Option B: Route it through Klaviyo instead** (better design/branding control, and it's probably where other lifecycle emails already live). Instead of Flow's "Send email" action, use a "Send to Klaviyo" / webhook-style action (or have Flow tag the customer/order with something like `first-purchase-gift-card-issued`, and build a Klaviyo flow triggered off that tag or off a custom event). This is the nicer version but takes longer to wire up. Start with Option A, migrate to Option B later if you want the email to look better.
-
-## Step 4: Decide and confirm two things before going live
-
-1. **Expiration on the gift card.** Shopify gift cards can be set to expire or never expire when created. Recommend 90 days, creates gentle urgency without feeling stingy. Set this in the "Create gift card" action's options.
-2. **What the email actually says.** Keep it simple and on-voice: something like "Here's your $10, thanks for trying [product]. Use it on your next order, no strings." Avoid anything that reads like a coupon-spam subject line.
-
-## What this does NOT need
-- No new app or paid tool, Flow + native Shopify gift cards covers the whole mechanic.
-- No changes to the PDP or checkout, the gift card is issued after the sale, not applied to it.
-- No manual work once it's built and tested, this fully replaces the "export weekly and hand-create cards" bridge process from the earlier planning doc.
-
-## If something breaks
-- If gift cards are being created for repeat customers too, the order-count condition (Step 1.4) is misconfigured or evaluating at the wrong point, double check it's reading the count AT the time of this order, not their current lifetime total (which would already include the order that just triggered the workflow and always be ≥1, so make sure you're testing this against a truly fresh test customer).
-- If no card is created at all, check the Flow **Activity log** for the specific run, it will show exactly which step failed and why.
+## Open items I can't resolve without your Shopify instance in front of me
+- The exact current field names/shape of `GiftCardCreateInput` for your API version, pull this from shopify.dev when you're actually building the "Send Admin API request" step, don't trust the field names I wrote above as gospel.
+- How best to pass the newly-created gift card's code from the Admin API response into the customer record Klaviyo reads (metafield vs. Klaviyo custom event payload), this depends on exactly how your Klaviyo-Shopify sync is configured, worth a quick check together once you're at that step.
