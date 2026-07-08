@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "tallow-listicle-confrontation",
+      "settings": {
+        "pdp_url": "https://trybasline.com/products/whipped-tallow-honey-balm"
+      }
+    }
+  },
+  "order": ["main"]
+}
