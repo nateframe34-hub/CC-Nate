@@ -135,11 +135,11 @@ Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENC
 - Emotion: distrust + decision-fatigue; relief is the purchase emotion.
 - Status: **SIGNALED, UNDERTESTED** (B20C3's engagement, Chemical Refugee review language "I cannot tell you the relief"). Never run as a native lead.
 
-**SA6: The Sun-Lived** (parked; VALIDATION NOTE 2026-07-06: the specified emotional register (earned-it pride + resignation) does NOT exist in public language, sun-damage discourse is owned by clinical fix-it vocabulary. The register is underserved (opportunity) but must be built by the ad, not mirrored, and needs primary research first. Stays parked, now with evidence for why)
-- Desire: softness back in skin that's had decades outdoors; keep their outdoor life without wearing it on their face.
-- Experience: years of sidelines/gardens/boats/job sites (including the involuntary version: bleachers at kids' sports every weekend for a decade). They know exactly why their skin looks this way.
-- Emotion: earned-it pride tangled with resignation ("nothing's going to fix this now").
-- Status: **UNTESTED** (research-validated via Amazon reviews). Compliance watch: functional/experiential language only, no repair/reverse/fade claims.
+**SA6: The Sun-Lived** (ACTIVATED 2026-07-07 after targeted primary research, see `avatars/SA6_SunLived_Primary_Research_2026-07-07.md`. CORRECTED emotional register: the originally specified "pride + resignation" fusion does NOT occur in real language, three separate populations exist instead (short pure-pride mid-lifestyle voices, pure-regret former-tanners adjacent to medical/melanoma language, and a silent functional-protection majority who don't narrate their own skin at all). Angle now leads with PRIDE ONLY, dropping resignation entirely, both because it's the real, abundant register and because it keeps this fully clear of the medical-adjacency risk the regret register carries)
+- Desire: comfort and softness for skin that's earned its stripes; not asking to look different, just to feel less dry/tight.
+- Experience: years of sidelines/gardens/boats/job sites (including the involuntary version: bleachers at kids' sports every weekend for a decade). They know exactly why their skin looks this way, and they're not apologizing for it.
+- Emotion: earned-it pride, badge-of-honor, dry self-deprecating humor, matches the account's established voice. NOT resignation, NOT regret, that's a different population's language and sits next to real compliance risk.
+- Status: **UNTESTED at purchase level**, language direction now research-validated (2026-07-07). Compliance watch: functional/experiential language only, no repair/reverse/fade claims, framing is "comfort for skin that's earned its stripes," never "fixing sun damage."
 
 **SA7: The Rough-Handed** (gender-agnostic rebuild of "Working Hands Man")
 - Desire: hands that don't snag, crack, or bleed; comfort in function, not vanity.
@@ -204,11 +204,17 @@ Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENC
 - Reason to buy: her current routine is a chemistry set; this is food-grade simplicity.
 - Hook: "Her routine: 43 ingredients. This: 4."
 
-## SA6: The Sun-Lived (UNTESTED, parked until post-B24)
-**Angle 1: Softness for skin that's lived outside**
-- Hook: "Forty summers outside. Skin still gets to be soft."
+## SA6: The Sun-Lived (UNTESTED at purchase, ACTIVATED for B26+ per 2026-07-07 primary research, pride-only register, no resignation)
+**Angle 1: Badge-of-honor pride, no apology**
+- Reason to buy: she earned that outdoor life and isn't asking to look different, just wants her skin comfortable again.
+- Hook: "Forty Summers Outside. Wears It Like A Badge."
+- Hook: "Earned That Tan The Hard Way. Skin Deserves Something Too."
 **Angle 2: The bleacher-seasons angle (kid-sports involuntary sun)**
 - Hook: "Ten years of Saturday games in full sun. Her skin kept score."
+**Angle 3: Zero regrets, one small ask**
+- Reason to buy: this isn't about undoing anything, it's a small functional comfort, not a repair claim.
+- Hook: "Still Proud Of The Farmer's Tan. Skin's Asking For A Favor Back."
+- Hook: "Decades Outside, Zero Regrets. Just Wants To Feel Soft Again."
 
 ## SA7: The Rough-Handed (UNTESTED)
 **Angle 1: Doesn't wash off with the first handwash**
