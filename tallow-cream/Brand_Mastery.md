@@ -204,17 +204,25 @@ Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENC
 - Reason to buy: her current routine is a chemistry set; this is food-grade simplicity.
 - Hook: "Her routine: 43 ingredients. This: 4."
 
-## SA6: The Sun-Lived (UNTESTED at purchase, ACTIVATED for B26+ per 2026-07-07 primary research, pride-only register, no resignation)
-**Angle 1: Badge-of-honor pride, no apology**
-- Reason to buy: she earned that outdoor life and isn't asking to look different, just wants her skin comfortable again.
+## SA6: The Sun-Lived (UNTESTED at purchase, ACTIVATED for B26+ per 2026-07-07 primary research + 2026-07-09 round 2 + angle bank, pride-only register, no resignation)
+Full angle bank with research citations: `tallow-cream/avatars/SA6_Angle_Bank_2026-07-09.md`. Round 2 refined the picture: pride register real but skews male/seasonal-tan-line rather than decades of texture change; richest material found is actually third-person admiring description of someone else's weathered hands (gift angle); and a new, distinct sub-avatar surfaced, the Bleacher Parent, prioritized as the most underserved and the one worth a native long-form test first.
+
+**Angle A: Badge of Honor (pride, direct, farmers/ranchers/golfers/sailors, still mid-lifestyle)**
+- Reason to buy: she/he earned that outdoor life and isn't asking to look different, just wants the skin comfortable again.
 - Hook: "Forty Summers Outside. Wears It Like A Badge."
-- Hook: "Earned That Tan The Hard Way. Skin Deserves Something Too."
-**Angle 2: The bleacher-seasons angle (kid-sports involuntary sun)**
-- Hook: "Ten years of Saturday games in full sun. Her skin kept score."
-**Angle 3: Zero regrets, one small ask**
-- Reason to buy: this isn't about undoing anything, it's a small functional comfort, not a repair claim.
+- Hook: "The Tan Is Free. Everything After That Costs Extra."
 - Hook: "Still Proud Of The Farmer's Tan. Skin's Asking For A Favor Back."
-- Hook: "Decades Outside, Zero Regrets. Just Wants To Feel Soft Again."
+
+**Angle B: The Leather-Handed Tribute (third-person, gift-coded, buyer is the adult child/spouse not the sun-lived person)**
+- Reason to buy: you've noticed those hands your whole life and admired them, this is a small way to say so.
+- Hook: "His Hands Have Looked Like That My Whole Life. I Finally Got Him Something For Them."
+- Hook: "Hands Like Leather. Heart Like A House. He'd Never Buy This For Himself."
+
+**Angle C: The Bleacher Parent (NEW, native long-form, problem-unaware, prioritized) - different sub-avatar than A/B**
+- Not lifestyle-identity outdoor. A parent (any gender, sharpest as travel/tournament-sport moms) sun-exposed for years as a side effect of showing up to a kid's outdoor sport, not a choice. Likely problem-unaware, needs a full 5-phase native/camouflage ad (Origins structure) to build the awareness arc, not a static image ad, there's no felt problem yet for an image to interrupt.
+- Reason to buy: not fixing sun damage, not a pride marker, the "mom puts herself last" register already proven to convert in Invisible Woman, applied to a population the account hasn't targeted before.
+- Draft native open: "I have sunscreen for four kids in my bag at all times. I have never once remembered to use it on myself."
+- **Caveat, not yet primary-research-validated:** written from the well-established adjacent "mom last" pattern, not verbatim sport-parent quotes. A fast round-3 search (r/Parenting, r/beyondthebump, travel-sports parent Facebook groups, r/xxfitness) is recommended before locking full ad copy.
 
 ## SA7: The Rough-Handed (UNTESTED)
 **Angle 1: Doesn't wash off with the first handwash**
