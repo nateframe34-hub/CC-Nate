@@ -222,6 +222,7 @@ Full angle bank with research citations: `tallow-cream/avatars/SA6_Angle_Bank_20
 
 **Angle C: The Bleacher Parent (NEW, native long-form, problem-unaware, prioritized) - different sub-avatar than A/B**
 - Not lifestyle-identity outdoor. A parent (any gender, sharpest as travel/tournament-sport moms) sun-exposed for years as a side effect of showing up to a kid's outdoor sport, not a choice. Likely problem-unaware, needs a full 5-phase native/camouflage ad (Origins structure) to build the awareness arc, not a static image ad, there's no felt problem yet for an image to interrupt.
+- **Target is the parent, not the kid.** The kid's sport is the setting/cause, the parent's own skin is the subject and the parent is the buyer. Parents aren't buying skincare for their kids, so "her/his skin," never the kid's, stays the subject in every hook, headline, and image.
 - Reason to buy: not fixing sun damage, not a pride marker, the "mom puts herself last" register already proven to convert in Invisible Woman, applied to a population the account hasn't targeted before.
 - Draft native open: "I have sunscreen for four kids in my bag at all times. I have never once remembered to use it on myself."
 - **Caveat, not yet primary-research-validated:** written from the well-established adjacent "mom last" pattern, not verbatim sport-parent quotes. A fast round-3 search (r/Parenting, r/beyondthebump, travel-sports parent Facebook groups, r/xxfitness) is recommended before locking full ad copy.
