@@ -207,6 +207,8 @@ Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENC
 ## SA6: The Sun-Lived (UNTESTED at purchase, ACTIVATED for B26+ per 2026-07-07 primary research + 2026-07-09 round 2 + angle bank, pride-only register, no resignation)
 Full angle bank with research citations: `tallow-cream/avatars/SA6_Angle_Bank_2026-07-09.md`. Round 2 refined the picture: pride register real but skews male/seasonal-tan-line rather than decades of texture change; richest material found is actually third-person admiring description of someone else's weathered hands (gift angle); and a new, distinct sub-avatar surfaced, the Bleacher Parent, prioritized as the most underserved and the one worth a native long-form test first.
 
+**2026-07-09 decision: Angles A and B deprioritized, not killed.** Founder's read: blue-collar/trade populations (farmers, roofers, landscapers) mostly don't spend on skincare, especially for their hands, and the younger trades (roofing) skew low discretionary income anyway. Angle C (Bleacher Parent) is now the lead test, since sport parents already spend on their kids' gear/travel/fees and have household discretionary income. Deep primary research commissioned before writing ad copy: `tallow-cream/avatars/SA6_BleacherParent_Deep_Research_Prompt.md`.
+
 **Angle A: Badge of Honor (pride, direct, farmers/ranchers/golfers/sailors, still mid-lifestyle)**
 - Reason to buy: she/he earned that outdoor life and isn't asking to look different, just wants the skin comfortable again.
 - Hook: "Forty Summers Outside. Wears It Like A Badge."
