@@ -1,0 +1,25 @@
+# The Bleacher Parent: Primary Research Findings, 2026-07-09
+
+Research run via Claude Chrome against `SA6_BleacherParent_Deep_Research_Prompt.md`. Note on sourcing: the researcher could not reproduce extended verbatim quotes (copyright limit of one short quote under 15 words per response), so findings below are close paraphrase with exact source attribution rather than verbatim block quotes. Treat sourced claims as directionally solid, not as exact wording to lift into ad copy without independent verification.
+
+## The critical finding: the "unaware, then one-day realization" arc does not exist in real language
+Searched dozens of phrasing variants ("sunscreen for my kids but not me," "my hands look old," "sideline tan," "bleacher tan," "tournament mom tan," "finally bought this for myself after years of neglecting...") across Reddit (r/Parenting, r/Mommit, r/beyondthebump, r/daddit, r/xxfitness, r/running, r/BaseballTravelBall, r/Softball), Amazon reviews, and the open web. Every search came back empty or false-positive (NFL sideline gear, Coach-brand handbags, generic toddler-sunscreen debates). Nobody is telling the specific story of "years of unnoticed sun exposure at my kid's games, then one day I realized." This is a genuine negative finding across two research rounds now, not a search-phrasing problem.
+
+## What IS real instead: two separate, combinable ingredients
+
+**1. Travel/tournament-sports-parent identity culture (moderate-to-strong, richest section found).** An active, high-engagement content genre on TikTok/Instagram/Facebook and in communities like "Fastpitch Nation" and "Coaching Softball" already jokes about the tan as a badge of honor tied to the travel-ball-parent identity ("you know you're a travel ball parent when...", posts explicitly framed around how travel softball affects sun exposure). Existing product listings already target this niche (sideline-branded sunscreen applicators, "soccer mom" sun apparel), meaning marketers already sense the audience, but review language is generic, not confessional. Tone is pride/humor/identity, NOT worry or neglect. This is the same register as Angle A (Badge of Honor), just in a different population.
+
+**2. The broader "moms put themselves last" genre (real, well-documented, but sun-specific only rarely).** Skin/skincare does show up inside general self-care-neglect content ("I've been in mom mode for so long I forgot to make myself feel special," restarting a basic routine including sunscreen alongside a daughter), but sleep/exercise/mental health dominate that conversation overwhelmingly. Sun-specific neglect has to be assembled from adjacent fragments, it isn't told as its own story anywhere found.
+
+**One strong single anecdote, not a pattern:** an r/cosmeticsurgery poster who coached baseball for years and unprompted linked that directly to seeking treatment for sun/age spots. Good proof-of-concept that the causal link CAN occur to someone, but it's one data point, not evidence of a common narrative.
+
+**Confirmed empty:** direct self-neglect-plus-sun phrasing, coach-specific tan language beyond the one anecdote, product-purchase realization-arc language, and sports-sideline-specific resistance/objection language (generic "sunscreen is sticky" content exists but is about applying it to kids, never about parents skipping it on themselves).
+
+**Age/life-stage:** the identity-culture content clearly skews toward travel/competitive programs with older kids (multi-day tournaments, years of accumulated investment), not rec-league parents. Confirms angle should target travel/tournament parents specifically, not sports parents generally.
+
+## Verdict and recommendation: reposition the angle, don't force the manufactured realization
+The researcher's own conclusion, and mine: writing the ad as "you never knew, then one day..." would be manufacturing an insight this audience doesn't currently have or express, high risk of reading as inauthentic to the exact people it's targeting. **Pivot the arc:** open in the real, active pride/humor register (travel-parent tan-as-badge culture, something this audience will recognize and self-select into immediately), pivot through the real "mom mode, put myself last" admission (broader self-care genre, not sun-specific), and land the product as the small thing she finally does for herself, not a shocking discovery but a known, joked-about neglect she finally addresses. This keeps the native format's unaware-to-aware arc but repositions it as unaware-of-a-solution (she's always known about the tan, joked about it even) rather than unaware-of-the-problem (which doesn't hold up against the research).
+
+The "no time, sunscreen's sticky mid-game" objection beat should be written as an anticipated objection the copy addresses proactively, not lifted from real complaints, since none exist in that specific framing.
+
+**Test before full budget.** Both the researcher and I recommend a small comment-test / small ad set validating the emotional hook before committing full B26 budget to this reframed arc, since it's still built from adjacent fragments rather than one clean organic narrative.
