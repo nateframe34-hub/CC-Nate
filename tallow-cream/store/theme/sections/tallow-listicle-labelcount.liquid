@@ -45,6 +45,8 @@
   #tlw-list .cta-sub{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;text-align:center;font-size:12.5px;color:#888;margin-bottom:14px}
   #tlw-list .disclosure{background:#5b6f6d;color:#e8e5da;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:10.5px;text-align:center;padding:22px 18px;line-height:1.6}
   #tlw-list .divider{border:none;border-top:1px solid #e5e5e5;margin:28px 0}
+  #tlw-list .sign-img{margin:14px 0 4px;border-radius:10px;overflow:hidden}
+  #tlw-list .sign-img img{width:100%;height:auto;display:block}
   #tlw-list .trust-note{display:inline-block;background:var(--amber-soft);color:#6a481a;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:700;padding:6px 12px;border-radius:999px;margin-bottom:22px}
 </style>
 
@@ -71,16 +73,36 @@
   <div class="sign"><span class="num">1</span><h2>The number on the back tells you more than the price tag does</h2></div>
   <p>Count them, not roughly, actually count. Landing anywhere near 40 isn't unusual, and that's the problem: that many ingredients means the formula was built to be manufactured cheaply and sit on a shelf indefinitely, not to make sense to your skin, or to you.</p>
 
+
+  {%- if section.settings.sign1_image != blank -%}
+  <div class="sign-img">{{ section.settings.sign1_image | image_url: width: 900 | image_tag: loading: 'lazy' }}</div>
+  {%- endif -%}
+
   <div class="sign"><span class="num">2</span><h2>The label you can't finish reading</h2></div>
   <p>Flip your moisturizer over. Second ingredient, usually glycerin. Third, something you can't pronounce. If you can't read the whole label out loud without stumbling, that's not a small thing, it's the first sign the formula wasn't built to be trusted, it was built to be sold.</p>
   <p>Four ingredients you already know, tallow, honey, olive oil, calendula, reads differently. Not because shorter is automatically better, but because you can actually evaluate what you're putting on your skin instead of taking a label's word for it.</p>
+
+
+  {%- if section.settings.sign2_image != blank -%}
+  <div class="sign-img">{{ section.settings.sign2_image | image_url: width: 900 | image_tag: loading: 'lazy' }}</div>
+  {%- endif -%}
 
   <div class="sign"><span class="num">3</span><h2>The 2pm tight-and-dry feeling, no matter what you use</h2></div>
   <p>Here's the mechanism nobody puts on the bottle: water evaporates. It's the first ingredient in almost every moisturizer, and by definition, water doesn't stay. You put it on at 7am and by noon it's gone, and your skin is tight again, and no amount of reapplying fixes a formula problem.</p>
   <p>Skin makes its own oil. After about forty, it makes a lot less. Fat-based formulas, the kind skin already recognizes, absorb in instead of sitting on top and disappearing. <a class="cta-link" href="{{ section.settings.pdp_url | default: 'https://trybasline.com/products/whipped-tallow-honey-balm' }}">This is the jar that's built that way.</a></p>
 
+
+  {%- if section.settings.sign3_image != blank -%}
+  <div class="sign-img">{{ section.settings.sign3_image | image_url: width: 900 | image_tag: loading: 'lazy' }}</div>
+  {%- endif -%}
+
   <div class="sign"><span class="num">4</span><h2>The drawer where the combined ingredient count is past a hundred</h2></div>
   <p>Ten, twelve, fourteen products, add up every ingredient across all of them and you're well past a hundred combined. One four-ingredient jar replacing that stack isn't just simpler, it's the difference between managing a chemistry set and using one thing.</p>
+
+
+  {%- if section.settings.sign4_image != blank -%}
+  <div class="sign-img">{{ section.settings.sign4_image | image_url: width: 900 | image_tag: loading: 'lazy' }}</div>
+  {%- endif -%}
 
   {%- if section.settings.review_quote != blank -%}
   <blockquote>"{{ section.settings.review_quote }}"<span class="who">{{ section.settings.review_author | default: 'Verified buyer' }}</span></blockquote>
@@ -88,6 +110,10 @@
 
   <div class="sign"><span class="num">5</span><h2>The count you haven't actually done</h2></div>
   <p>Count every ingredient across everything currently in your routine, not just the moisturizer. That's the number worth paying attention to, not what any of it cost.</p>
+
+  {%- if section.settings.sign5_image != blank -%}
+  <div class="sign-img">{{ section.settings.sign5_image | image_url: width: 900 | image_tag: loading: 'lazy' }}</div>
+  {%- endif -%}
 
   <p><a class="cta-link" href="{{ section.settings.pdp_url | default: 'https://trybasline.com/products/whipped-tallow-honey-balm' }}">You can check price and availability here.</a></p>
 
@@ -143,6 +169,11 @@
     { "type": "image_picker", "id": "hero_image", "label": "Hero image" },
     { "type": "text", "id": "review_quote", "label": "REAL customer review quote (never fabricate)", "default": "I threw out eight products and kept this one. My husband noticed before I did." },
     { "type": "text", "id": "review_author", "label": "Review author", "default": "Diana L., verified buyer" }
+    { "type": "image_picker", "id": "sign1_image", "label": "Sign 1 image" },
+    { "type": "image_picker", "id": "sign2_image", "label": "Sign 2 image" },
+    { "type": "image_picker", "id": "sign3_image", "label": "Sign 3 image" },
+    { "type": "image_picker", "id": "sign4_image", "label": "Sign 4 image" },
+    { "type": "image_picker", "id": "sign5_image", "label": "Sign 5 image" },
   ],
   "presets": [{ "name": "Tallow Listicle (43-vs-4 angle (B25 Angle 2))" }]
 }

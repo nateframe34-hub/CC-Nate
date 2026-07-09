@@ -47,3 +47,95 @@ A sharp, well-lit, in-focus product-ad photograph, full bleed edge to edge, 4:5 
 1. Confirm you want NO badge (my recommendation above) vs. reconsidering a B22-style generic badge for these too.
 2. Confirm the inset "diagnostic" concept per angle (money/skepticism for Angle 1, can't-read-the-label-struggle for Angles 2 and 3) reads right, or if you want a different inset moment for any of the three.
 3. Ready to hand these 3 prompts to image generation, or want a round of tightening first?
+
+---
+
+# Listicle Hero Images (3, one per page, currently blank)
+
+**Different job than the ad creatives above.** Each listicle (`tallow-listicle-confrontation.liquid`, `tallow-listicle-labelcount.liquid`, `tallow-listicle-readaloud.liquid`) has exactly one image slot, `hero_image`, rendered at the top of the article right below the byline, full-width, height auto (no fixed crop enforced by the CSS, so a landscape/wide image reads best, not a square ad crop). This should feel like a calm editorial photo accompanying a personal write-up, "Julie B. wrote this and took a picture of her counter," not a bold scroll-stop ad. No headline text, no badges, no overlays, just a real, quiet photo.
+
+**Shared technical spec:** landscape/wide crop, roughly 3:2 (1200x800 works well at the 1200px render width), sharp and well-lit but calm, natural window light, no dramatic gradients or bold typography, consistent with the account's established real-counter product photography.
+
+## Hero 1: Confrontation page
+**What it needs to support:** the water/price theme, without literally showing price tags (keep it visual, not text-based).
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 1200x800. A bright, realistic bathroom counter shot from a slightly elevated angle, soft natural window light, warm neutral tones. One open amber glass jar of whipped balm sits alone on the counter, a small amount visible on the lid, simple and uncluttered. To the side, slightly out of focus, a single generic clear plastic pump bottle of lotion for scale and contrast, no visible logo, positioned so the two containers are being implicitly compared without any text or price signage in frame. Marble or light wood counter surface, a folded white towel in the corner, natural and lived-in, not styled like a product ad. No text, no overlays, no badges.
+```
+
+## Hero 2: Label-count page
+**What it needs to support:** the 43-vs-4 counting theme, visual density contrast.
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 1200x800. A bright, realistic bathroom counter shot from a slightly elevated angle, soft natural window light, warm neutral tones. One open amber glass jar of whipped balm in sharp focus in the foreground, its simple kraft-paper label facing the camera. Behind it, deliberately out of focus, a small cluster of 4-5 other generic skincare bottles and tubes crowded together, no visible logos, suggesting a shelf of products versus the one jar. Marble or light wood counter surface, natural and lived-in. No text, no overlays, no badges.
+```
+
+## Hero 3: Read-aloud page
+**What it needs to support:** the legibility/trust theme, the label itself should be the visual focus.
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 1200x800. A bright, realistic bathroom counter, soft natural window light, warm neutral tones. A woman's hand holding an open amber glass jar of whipped balm at a gentle angle so its simple kraft-paper label is clearly readable in frame, evoking a short plain ingredient list without needing to be perfectly legible at thumbnail size. Soft-focus bathroom background, marble or light wood counter surface, natural and lived-in, not styled like a product ad. No text, no overlays, no badges.
+```
+
+## Note on reuse
+These 3 hero photos are close enough in setup (same counter, same jar, same lighting) that they could plausibly be shot as one photo session with 3 crops/compositions rather than 3 fully separate generations, worth keeping in mind if generating them takes meaningful time or credits.
+
+---
+
+# Sign Images (5 per listicle, image-heavy per founder direction referencing the Javvy-style listicle swipe)
+
+**Why this exists:** founder direction is to reference the Javvy coffee swipe pattern, an image-heavy listicle where nearly every numbered point carries its own photo, not just a single hero at the top. All 3 listicle files now have `sign1_image` through `sign5_image` picker settings rendered directly under each sign's text. Shared technical spec: landscape/wide crop, roughly 3:2 (900px render width), same calm editorial tone as the hero images, no text/overlays baked into any of these, the copy is doing that job already.
+
+**Reuse note:** signs 2 and 3 are word-for-word identical across all 3 pages (the shared label-legibility and mechanism beats), so their images can be the same 2 photos reused on all 3 pages rather than shot 3 times, only signs 1, 4, and 5 need per-page unique images since their copy differs per angle.
+
+## Shared Sign 2 image (all 3 pages): "The label you can't finish reading"
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 900px wide. Close, shallow-depth-of-field shot of a hand holding a generic clear plastic skincare bottle at a slight angle, the small back-label text visible but not perfectly legible (soft focus on the tiny print itself, sharp focus on the bottle and hand), suggesting the struggle of reading fine print. Bright natural bathroom light, warm neutral tones, no visible logo on the bottle. No text, no overlays.
+```
+
+## Shared Sign 3 image (all 3 pages): "The 2pm tight-and-dry feeling" (mechanism)
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 900px wide. A simple, clean side-by-side visual: on the left, a small pool of water on a light surface catching afternoon light, visibly evaporating/thin; on the right, a small dollop of the whipped amber balm sitting intact on the same type of surface, glossy and undisturbed. Shot from directly above (flat lay), soft natural light, minimal styling, meant to visually imply "one disappears, one stays" without any text or labels.
+```
+
+## Confrontation page: signs 1, 4, 5
+**Sign 1** ("The ingredient most creams skip"):
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 900px wide. Flat lay from directly above: an open amber glass jar of whipped balm on the left, a generic clear plastic pump bottle of lotion on the right, both on a light marble surface, positioned as a simple visual comparison with no text, price tags, or logos in frame. Bright natural light, warm neutral tones.
+```
+**Sign 4** ("The drawer of half-used products you can each name the price of"):
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 900px wide. An open bathroom drawer viewed from above, containing 8-10 generic, mostly-empty skincare bottles and tubes in various sizes, jumbled together, no visible logos or price tags, suggesting years of accumulated half-used products. Soft overhead light, slightly cluttered and real, not styled.
+```
+**Sign 5** ("The math you haven't actually done"):
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 900px wide. A single open amber glass jar of whipped balm sitting alone on a clean, empty light marble counter, softly lit, calm and resolved-feeling in contrast to the cluttered drawer image, no text, no props, no logos.
+```
+
+## Label-count page: signs 1, 4, 5
+**Sign 1** ("The number on the back tells you more than the price tag does"):
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 900px wide. Close overhead shot of a generic skincare bottle's back label, angled so the dense small-print ingredient list is visible as a texture/pattern rather than needing to be legible, next to it a simple kraft-paper label with visibly much shorter text for contrast, both resting on a light marble surface. No logos, no brand names, no price tags.
+```
+**Sign 4** ("The drawer where the combined ingredient count is past a hundred"):
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 900px wide. An open bathroom drawer from above with 8-10 generic skincare bottles and tubes, angled so several of their back labels with dense small text are at least partially visible, suggesting the cumulative complexity across the whole collection. Soft overhead light, real and slightly cluttered, no logos.
+```
+**Sign 5** ("The count you haven't actually done"):
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 900px wide. A single open amber glass jar of whipped balm with its simple kraft-paper label facing the camera, sitting alone on a clean light marble counter, softly lit, calm and legible in contrast to the cluttered drawer image. No text overlays, no props.
+```
+
+## Read-aloud page: signs 1, 4, 5
+**Sign 1** ("You couldn't finish reading the label out loud"):
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 900px wide. A woman's hand holding a generic clear skincare bottle close to her face, slightly out of frame at the top, in the middle of visibly mouthing/reading the label, genuine and unposed, soft natural bathroom light. No text, no logos.
+```
+**Sign 4** ("The drawer of products you couldn't defend if someone asked what's in them"):
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 900px wide. An open bathroom drawer from above with 8-10 generic skincare bottles and tubes, all facing different directions so their labels aren't uniformly readable, suggesting a collection nobody's actually checked closely. Soft overhead light, real and slightly cluttered, no logos.
+```
+**Sign 5** ("The test you haven't actually run"):
+```
+A calm, editorial-quality photograph, landscape orientation, roughly 3:2 aspect ratio, 900px wide. A single open amber glass jar of whipped balm with its simple kraft-paper label turned fully toward the camera and clearly legible, sitting alone on a clean light marble counter, softly lit. No text overlays, no props.
+```
+
+## Total image count for this batch
+3 hero images (page-unique) + 2 shared sign images (signs 2 and 3, used on all 3 pages) + 9 page-unique sign images (signs 1, 4, 5 x 3 pages) = **14 distinct photos** covering all 15 image slots across the 3 listicles.
