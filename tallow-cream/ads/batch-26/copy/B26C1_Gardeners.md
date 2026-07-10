@@ -14,11 +14,11 @@
 
 ## Body Copy
 
-I'm 48. Last spring my daughter grabbed my hand to drag me over to the tomato starts and stopped, mid-step, and turned my hand over like she was checking something.
-
 "Mom. When did your hands start looking like Grandma's?"
 
-She's seventeen. Subtlety is not the strong suit. But I stood there in the driveway holding a flat of seedlings without an answer, because I hadn't looked. Not in years.
+My daughter is seventeen. Subtlety is not the strong suit. She'd grabbed my hand to drag me over to the tomato starts, stopped mid-step, and turned it over like she was checking something.
+
+I'm 48. I stood there in the driveway holding a flat of seedlings without an answer, because I hadn't looked at my own hands in years.
 
 I've gardened for eleven years. Tomatoes, peppers, a rose bed I lose a fight with every single spring. Six hours a week outside from April through October, hands in the dirt most of it, because gloves are for people who don't need to feel what they're doing.
 

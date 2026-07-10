@@ -15,9 +15,9 @@
 
 ## Body Copy
 
-I have sunscreen in my bag at every single game. The spray my daughter likes, the stick for her friend who always forgets hers, a backup of each.
+Twelve years of sidelines. Sunscreen on every kid within reach. Almost never once on myself.
 
-In twelve years of sidelines, I have almost never put any of it on myself.
+There's a full pharmacy in my bag at every game. The spray my daughter likes, the stick for her friend who always forgets hers, a backup of each. All of it for people under eighteen.
 
 My friend Kara called it at a tournament in June, watching me hand out sunscreen to teenagers for the third time that day. "You know you're going to be the last person in Colorado still holding sunscreen and completely fried, right?"
 

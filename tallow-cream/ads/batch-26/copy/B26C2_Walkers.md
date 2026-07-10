@@ -14,11 +14,11 @@
 
 ## Body Copy
 
-I walk my dog every morning. Six thirty, same trailhead, same 40 minutes, because Biscuit does not accept weather as an excuse and neither does his bladder.
+I've spent 1,400 hours in the sun over six years and never once planned a single one of them.
 
-I have done this almost every day for six years. I never once thought of it as sun exposure. It was just the walk.
+It was just the dog walk. Six thirty every morning, same trailhead, same 40 minutes, because Biscuit does not accept weather as an excuse and neither does his bladder. Nobody calls that sun exposure. It's just the walk.
 
-Last month a woman I only know from the trail stopped me at the parking lot. "Can I ask you something? Your arms are so tan compared to the rest of you. Do you tan on purpose?"
+Then last month a woman I only know from the trail stopped me at the parking lot. "Can I ask you something? Your arms are so tan compared to the rest of you. Do you tan on purpose?"
 
 I laughed and said no, I just walk the dog. Then I looked down at my arms in the parking lot, really looked, and the line where my sleeve sits was carved in like a border on a map.
 
