@@ -1,67 +1,95 @@
-# B26C2 - Daily Walkers: The Mile I Never Thought Twice About
+# B26C2 - Daily Walkers: 1,400 Hours Outside Without Noticing
 
 **Sub-Avatar:** The Sun-Lived (Daily Walkers entry point)
-**Angle:** Years of daily outdoor walking, accumulated sun exposure from something so routine it never registered as exposure at all
+**Narrator:** Julie Brennan (partner page canon: 48, Fort Collins, walks Biscuit the dog daily on local trails, matches her page cover photo)
+**Angle:** Years of daily walking, accumulated sun exposure and sun spots from something so routine it never registered as exposure
 **Character type:** Mirror / Transformed Peer
-**Theme (the underneath question):** Reclaiming - can I get back the years I wasn't paying attention to?
-**Hook format:** Age + Problem Emerging, paired with a Someone Noticed validation beat
-**Close format:** Permission (You Deserve This) stacked with Risk Reversal
-**Awareness level:** Problem Aware (has noticed a change), Solution Unaware (assumed it was just aging, not a fixable water-vs-oil problem)
-**Format:** Native long-form (5-phase Origins structure)
-**Honesty note:** research support for Walkers is thinner than Gardeners, primary desire language found was sunscreen-category (wrong product fit), not moisturizer-category. This ad is built on the same honest mechanism logic used for Bleacher Parent (years of daily outdoor accumulation is real, even without a strong organic "I want a better moisturizer" quote bank for this specific population), not on strong verbatim proof. Treat as a test, not a locked winner.
+**Theme:** Reclaiming - can I get back the years I wasn't paying attention to?
+**Hook format:** Someone Noticed + Age + Problem Emerging
+**Close format:** Permission + Risk Reversal
+**Awareness level:** Problem Aware, Solution Unaware
+**v3 changes (2026-07-10):** narrator locked to Julie canon (dog walks, not generic walks), ------------- breaks, sun spots/sun damage named directly per founder direction, deeper differentiated mechanism via her sister, villain beat, fattened failed list, unexpected discovery (face), real-review placeholder.
 
 ---
 
 ## Body Copy
 
-I walk every morning. Six thirty, same loop, same 40 minutes, rain or shine, for going on six years now.
+I walk my dog every morning. Six thirty, same trailhead, same 40 minutes, because Biscuit does not accept weather as an excuse and neither does his bladder.
 
-I never thought of it as sun exposure. It was just my walk.
+I have done this almost every day for six years. I never once thought of it as sun exposure. It was just the walk.
 
-Last month a woman in my neighborhood group stopped me at the mailbox. I've seen her maybe a dozen times, always in passing. "Can I ask you something? Your arms are so much more tan than the rest of you. Do you tan on purpose?"
+Last month a woman I only know from the trail stopped me at the parking lot. "Can I ask you something? Your arms are so tan compared to the rest of you. Do you tan on purpose?"
 
-I laughed and said no, I just walk. But I looked down at my arms right there at the mailbox, really looked, and the line where my sleeve usually sits was obvious in a way I'd never clocked before.
+I laughed and said no, I just walk the dog. Then I looked down at my arms in the parking lot, really looked, and the line where my sleeve sits was carved in like a border on a map.
 
-That night I looked closer. Not just the tan line. The texture. My arms looked like they'd aged faster than the rest of me. Rougher. A little tired-looking, even in places the sun never really hits directly.
+-------------
 
-Six years of 40 minutes a day is over 1,400 hours outside. I did that math sitting on my bathroom counter and felt a little sick about it.
+That night I did the thing you should never do, which is inspect your own arms under bathroom lighting.
 
-Here's the part I'm not proud of. I'd decided this was just what happens once you're past 45. Skin changes. That's aging, I told myself, nothing to do about it, might as well accept it the way I've accepted the gray coming in at my temples.
+The tan line was the least of it. Sun spots scattered up both forearms that I'd been calling freckles for years. Skin that looked rougher and older than the rest of me, dry no matter what I put on it, like the outside layer had quietly clocked out somewhere around year four.
 
-That's the low point, honestly. Not the arms. The part where I stopped asking whether it had to be that way.
+So I did some math sitting on the edge of the tub. Forty minutes a day, six years. That's over 1,400 hours of sun. Nobody plans 1,400 hours in the sun. You'd pack differently for that. I got it ten minutes at a time without ever counting.
 
-I'd bought things over the years. A drugstore lotion I kept by the coffee maker so I wouldn't forget. A nicer one my daughter gave me for Christmas that smelled like a spa and did about as much as the cheap one. Neither lasted past my shower.
+And here's the part I'm not proud of: I decided it was just age. Forty-eight, skin changes, file it next to the gray hair and move on. I stopped asking whether any of it could be different.
 
-My walking friend Renee, who does the same loop some mornings, told me she'd basically given up on lotion working at all. "I put it on, I sweat a little on the walk, and it's like it was never there," she said. "I figured that's just how it goes when you're outside a lot."
+That's the actual low point. Not the arms. The giving up quietly without telling anyone I'd given up.
 
-If nothing changed, I figured I had another 20 years of this loop ahead of me, and 20 more years of arms that looked older than the rest of me. I'd made peace with a trade I never actually agreed to.
+-------------
 
-Then my sister, who spends her whole summer on a boat, told me something I didn't know. Most lotion is mostly water. Water sits on skin for a few minutes and then it's just gone, sweat or no sweat. It was never going to survive a 40 minute walk. That's not my skin failing. That's the lotion, doing exactly what water does.
+Because I HAD tried, before I gave up:
 
-Skin needs oil to actually hold onto anything. That's the piece nobody explained to me in 40 years of buying moisturizer.
+The drugstore lotion that lived by the coffee maker so I couldn't forget it. Forgot it anyway, because it never made a difference I could feel.
 
-That's how I ended up trying tallow. Rendered fat, whipped with honey, four ingredients total.
+A "brightening" cream for the sun spots that cost $34 and brightened nothing but the checkout total.
 
-I'll be honest, I felt a little silly buying something with beef fat in the name after a lifetime of fancy bottles with French on the label. But skin is built out of the same kind of fat this comes from, which is the actual reason it stays instead of sweating off in the first ten minutes.
+The nicer lotion my daughter gave me for Christmas that smelled like a spa and lasted exactly as long as the cheap one.
 
-First week, nothing dramatic, but I noticed I wasn't reapplying at the halfway mark of my walk the way I used to with everything else.
+Aloe after the summer I got lazy about sleeves. Aloe is for burns. This wasn't a burn. It was six years of Tuesdays.
 
-Week two, I skipped a day and could still feel a difference the next morning, which had never happened with anything before.
+My trail friend Renee summed our whole demographic up in one line: "I put lotion on, I sweat a little on the walk, and it's like it was never there. I figured that's just how it goes when you're outside a lot."
 
-Week three, my husband, who notices approximately nothing about lotion, said my arms looked less rough when he grabbed my hand crossing the street. I hadn't said a word to him about any of it.
+-------------
 
-I didn't set out to undo six years of walking. I just wanted to stop feeling like my arms had aged faster than I had. What I got was closer to just not thinking about it anymore, which might be the actual win.
+It was my sister who finally explained why, when I texted her a photo of my arm like a weirdo.
 
-You deserve to walk your loop without paying for it in ways nobody warned you about. That's not vanity. That's just refusing a trade you never agreed to in the first place.
+She'd gone down this rabbit hole a year ago. Most lotion, she said, is mostly water. Flip the bottle, it's the first ingredient. Water plus thickeners plus fragrance. And water does on skin exactly what it does everywhere else: it evaporates. On a normal day that takes an hour. On a warm 40-minute walk where you're moving and sweating, it's gone before you're back at the car, which is why outdoor people swear nothing works. Nothing they've been sold CAN work. It's water, applied outdoors, in Colorado.
 
-A lot of women who walk regularly tell me some version of this once I bring it up. Didn't think of it as exposure. Just thought it was age. Turns out it was mostly the wrong product the whole time.
+Meanwhile the skin itself runs on oil, not water. That's the barrier that keeps moisture in, and it's exactly what years of sun and wind wear down. So the one thing sun-worn skin actually needs is the one thing the lotion aisle mostly doesn't sell.
 
-There's a 60-day guarantee, so if six weeks of your walk doesn't feel any different, you haven't lost anything finding out.
+Six years of buying water for a fat problem. And the industry lets you blame your own consistency, because a customer who blames herself buys another bottle.
+
+-------------
+
+That's how I ended up with tallow. Rendered fat, whipped with honey, olive oil, calendula. Four ingredients, and the first one isn't water, because there isn't any.
+
+Yes, I felt ridiculous. I've spent thirty years buying bottles with French words on them and the thing that finally made sense has cow fat as the headline act. But skin is made of the same kind of fat this is. It absorbs and it stays. That's the entire trick. There is no French word for it.
+
+-------------
+
+First week, nothing dramatic. It just didn't vanish on the walk. I kept checking my arms at the car like they owed me money.
+
+Week two, I skipped a day and could still feel the difference the next morning. Six years of lotion never once survived a skipped day.
+
+Week three, the one I didn't see coming: my face. I'd only been using it on my arms and hands, then started on my face after a hot walk, and that tight, pulled-dry feeling I'd assumed was permanent didn't show up. I hadn't even filed that under "fixable."
+
+And Mark, who notices approximately nothing in the moisturizer category, grabbed my hand crossing the street and said my arms felt different. I hadn't said a word.
+
+[REAL CUSTOMER REVIEW HERE - founder to supply verbatim, ideally one mentioning sun spots or years outdoors]
+
+-------------
+
+The sun spots are still there. I earned those, 1,400 hours' worth, and no jar of anything makes six years un-happen. But the skin around them is soft for the first time in years, it doesn't look thirsty anymore, and the whole arm reads less like a warning and more like a woman who walks her dog every day. Which is what it always was.
+
+Biscuit and I still do the same loop. I just don't pay for it the same way.
+
+You deserve to walk every morning without quietly writing off your skin as the fee. That was never the deal, nobody agreed to that deal.
+
+There's a 60-day guarantee, so if a month and a half of walks doesn't feel different, send it back and you're out nothing.
 
 ---
 
 ## Meta Headline
-Your Arms Are So Tan...
+1,400 Hours Outside. Nobody Told Me.
 
 ## Meta Description
 4 ingredients. 60-day guarantee.
@@ -70,9 +98,9 @@ Your Arms Are So Tan...
 
 ## Image Prompt (Nano Banana Pro)
 
-**Type:** Object
-**POV:** first-person
+**Type:** Angle-targeting creative (Andromeda strategy: the image targets the daily walker/hiker, not the skin problem)
+**POV:** first-person, her own iPhone shot mid-walk
 
-A pair of forearms and hands, mid-stride, caught in natural morning light on a quiet neighborhood sidewalk, one hand holding a phone loosely, the other bare at her side. Skin shows a visible, uneven tan line at the sleeve edge and real everyday texture, no retouching. Modest athletic clothing, unbranded, comfortable walking shoes just visible at the bottom of frame. Shot from the walker's own POV looking down mid-motion, like a phone snapshot taken without posing. Overcast-to-soft morning light, slightly cool tone, natural grain, no text overlay.
+An ultra-realistic first-person iPhone photo taken mid-walk on a northern Colorado walking trail in early morning. The dirt trail stretches ahead through dry grass and scattered pines, foothills in the distance with soft 6:30am light, long shadows, pale golden sky. At the bottom edge of the frame, the head and ears of a medium-sized brown mutt on a leash, walking ahead, slightly motion-blurred. The composition is a little tilted and casual, taken one-handed without stopping. Natural light, no HDR, no filters, no people, no text, no logos. The kind of photo a woman takes on her daily walk and posts with no caption. 4:5 (1080 x 1350).
 
-**Aspect ratio:** 4:5 (1080 x 1350)
+**Rationale:** post-Andromeda creative-level targeting. A genuine trail-walk POV self-selects daily walkers and hikers, pulls "beautiful trail, where is this?" engagement, and stays out of the saturated skin-problem auction. The dog's head matches Julie's page cover photo for profile-click consistency.
