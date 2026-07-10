@@ -2,69 +2,69 @@
 
 **Sub-Avatar:** The Sun-Lived (Gardeners entry point)
 **Angle:** Tried-every-lotion frustration, sun-worn skin from years in the dirt, hydration as the real fix
-**Character type:** Peer, skeptic convert
-**Hook format:** Scene + pattern interrupt (specific inciting incident)
+**Character type:** Mirror / Transformed Peer, with a Skeptic Convert beat at the discovery
+**Theme (the underneath question):** Reclaiming - can I get back the hands I had before I stopped noticing?
+**Hook format:** Age + Problem Emerging, paired with a Someone Noticed validation beat
+**Close format:** Permission (You Deserve This) stacked with Risk Reversal
 **Awareness level:** Problem Aware (knows lotion isn't working), Solution Unaware (doesn't know why)
 **Format:** Native long-form (5-phase Origins structure), not a static Pubity-style image ad like B25
+
+**Revision note (v2, 2026-07-10):** rewritten against the actual course files (`Native Course/03-Phase 2_ Story Elements.docx`, `05-Phase 4_ Hooks Close.docx`), not just the skill's compressed reference. V1 had a scene but no real low point, no escalating stakes, and thin dialogue. V2 adds a genuine low point (quiet resignation, not mere annoyance), a clear gap/stakes escalation, sharper dialogue placed at emotional peaks, and a close that mirrors the hook.
 
 ---
 
 ## Body Copy
 
-I was elbow deep in tomato dirt on a Saturday in June when my neighbor Carol leaned over the fence and said, "Your hands look like my grandmother's."
+I'm 44. Last spring my daughter grabbed my hand to pull me toward the tomato starts and stopped. Just stopped, mid-step, and turned my hand over like she was checking something.
 
-She meant it as a compliment. Carol's grandmother farmed until she was 80.
+"Mom. When did your hands start looking like Grandma's?"
 
-I laughed it off. Then I went inside, washed the dirt out from under my nails, and actually looked at my hands for the first time in a while.
+She wasn't being mean. She was eleven and confused. But I stood there in the driveway holding a flat of seedlings and didn't have an answer, because I hadn't looked. Not really. Not in years.
 
-Rough. Dry across the knuckles. A little cracked at the thumb where I always forget gloves.
+I've gardened since I was 30. Started with a few tomato plants, now it's half the backyard, six months a year, hands in the dirt most Saturdays and half the weeknights in summer. Nobody tells you that adds up. You just do it, one ordinary afternoon at a time, until one day a kid points it out for you.
 
-I've been gardening for eleven years. Tomatoes, peppers, a rose bed I fight with every spring, and about six hours a week outside from April through October. I never thought about what that adds up to. You don't, when it's just your Saturday.
+That night I actually looked. Knuckles rough enough to catch on fabric. A crack at the base of my thumb that had been there so long I'd stopped registering it as new.
 
-But eleven years of sun and dirt and hose water does something. Nobody warns you about that part.
+Here's the part I'm not proud of. I'd made peace with it. Somewhere along the way I'd decided this was just what gardener's hands looked like after a decade, the same way a mechanic has grease under his nails. Not a problem to fix. Just a fact about me now.
 
-So I did what everyone does. I bought lotion.
+That's the low point, if I'm honest. Not the dry skin. The part where I stopped expecting anything different.
 
-I bought so much lotion.
+I'd tried things, early on. CeraVe. The pump bottle from the pharmacy my mom swears by. A tub of shea butter my sister sent me for Christmas two years running. Every one of them felt good going on and was gone an hour later, like I'd imagined putting it on at all.
 
-CeraVe. The fancy stuff from the pharmacy with the pump. A tub of shea butter my sister swore by. Every single one did the same thing: felt great going on, and by the time I'd washed my hands twice, it was like I'd never touched it.
+My friend Dana gardens more than I do, community plot and everything. "I've tried every lotion possible," she told me over coffee. "I keep a bottle in three different rooms because I forget where the last one disappeared to." She laughed when she said it. I didn't, because I recognized it exactly.
 
-My friend Dana, who gardens more than I do, told me she'd started keeping lotion in three different rooms because she'd forget where the last bottle went. "I've tried every lotion possible," she said. "Nothing holds."
+If nothing changed, I figured this was just the trade. Ten more years of gardening, ten more years of hands that looked like they belonged to someone twenty years older. I'd made peace with a bad deal without ever checking if it was the only deal on the table.
 
-I thought it was just us being bad at consistency. Turns out that's not it at all.
+Then my sister-in-law, who works with horses and has this problem worse than either of us, told me something I'd never heard before. Lotion is mostly water. Water evaporates. That's just what water does, on skin or anywhere else. You're not failing at consistency. You're using the wrong thing and reapplying it into a bottomless hole.
 
-Here's what I didn't know. Most lotion is mostly water. Water evaporates. That's what water does. So you rub it in, it feels smooth for twenty minutes, and then it's gone, same as if you'd never put it on.
+Skin doesn't need water rubbed onto it. Skin needs fat. That's what actually holds.
 
-Skin doesn't need water rubbed on top of it. Skin needs oil. Water without oil is like watering a plant in sand. It runs straight through.
+That's how I ended up looking at tallow. Rendered beef fat, whipped with honey.
 
-I found this out from my sister-in-law, who works with horses and has the same problem times ten. She told me to stop buying lotion completely and start looking for something with fat in it. Actual fat, not fragrance and thickener with a picture of a flower on the bottle.
+I said the same thing you're probably thinking, out loud, standing in my kitchen. Cow fat, on my hands, after a morning spent growing food that has nothing to do with cows. I felt ridiculous ordering it.
 
-That's how I landed on tallow. Rendered beef fat, whipped with honey and a couple other things.
+But skin is built from the same kind of fat this comes from. That's the actual reason it stays instead of running off in twenty minutes.
 
-I know how that sounds. I said the same thing out loud in my kitchen. Cow fat, on my hands, after I just spent all morning trying to grow food that doesn't involve cow fat.
+First few days, nothing dramatic. It just didn't vanish the way everything else had.
 
-But skin is mostly the same kind of fat this comes from. That's the whole reason it works instead of sitting on top and running off.
+By day four I noticed I hadn't reapplied once, not even after weeding the whole side bed and two loads of laundry.
 
-So I tried a small jar. Nothing dramatic the first day. It just didn't disappear the way everything else did.
+Week two, my husband took my hand at dinner, the ordinary way you do without thinking, and stopped. "Since when do your hands feel like that?" I hadn't told him I was using anything different.
 
-Day three, I noticed I hadn't reapplied once, even after two loads of laundry and weeding the whole side bed.
+Week three, Dana asked what I'd switched to. She wanted to steal it.
 
-Week two, my husband grabbed my hand at dinner, the way you do without thinking, and said, "Since when do your hands feel like that?" I hadn't said a word to him about any of it.
+I didn't set out to fix anything. I'd already decided there was nothing to fix, just a decade to accept. What I got instead was my daughter grabbing my hand again a few weeks ago, no comment this time, no stopping mid-step. Just holding it the way she used to.
 
-Week three, Dana asked what I was using because she wanted to steal it.
+You deserve hands that don't make you flinch when someone notices them. That's not vanity. That's just not settling for the deal I almost made peace with.
 
-I didn't set out to fix anything. I just wanted my hands to stop looking like I'd aged a decade in one growing season. What I got instead was hands I stopped noticing, which might be an even better trade. You don't think about the thing that's working. You only think about the thing that isn't.
+A lot of women who garden tell me some version of this once I bring it up. Tried everything. Nothing held. Didn't know it was the water, not the effort.
 
-Carol still says my hands remind her of her grandmother's. I take it as a compliment now too. Just a softer version.
-
-A lot of people who garden tell me the same story once I mention it. Tried everything. Nothing held. Didn't know it was a water problem, not an effort problem.
-
-If that's you too, this is the one that actually stays.
+There's a 60-day guarantee on it, so if your hands don't feel different, you're not out anything for finding out.
 
 ---
 
 ## Meta Headline
-The Lotion Problem Nobody Names
+Mom, When Did Your Hands...
 
 ## Meta Description
 4 ingredients. 60-day guarantee.
