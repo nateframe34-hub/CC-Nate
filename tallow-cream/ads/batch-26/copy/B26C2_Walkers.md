@@ -14,11 +14,13 @@
 
 ## Body Copy
 
-I've spent 1,400 hours in the sun over six years and never once planned a single one of them.
+A stranger in a parking lot asked me if I tan on purpose.
 
-It was just the dog walk. Six thirty every morning, same trailhead, same 40 minutes, because Biscuit does not accept weather as an excuse and neither does his bladder. Nobody calls that sun exposure. It's just the walk.
+No. I walk my dog.
 
-Then last month a woman I only know from the trail stopped me at the parking lot. "Can I ask you something? Your arms are so tan compared to the rest of you. Do you tan on purpose?"
+Six thirty every morning, same trailhead, same 40 minutes, because Biscuit does not accept weather as an excuse and neither does his bladder. Six years of that. Nobody calls it sun exposure. It's just the walk.
+
+But this woman I only know from the trail had stopped me by the cars and said, "Can I ask you something? Your arms are so tan compared to the rest of you." And she wasn't wrong.
 
 I laughed and said no, I just walk the dog. Then I looked down at my arms in the parking lot, really looked, and the line where my sleeve sits was carved in like a border on a map.
 
