@@ -73,8 +73,6 @@ Third weekend, the one that got me. Hotel bathroom, Saturday night of a two-day 
 
 And Mark, looking at a photo I sent from the hotel: "You don't look wrecked in this one." I hadn't told him anything changed.
 
-[REAL CUSTOMER REVIEW HERE - founder to supply verbatim, ideally one mentioning sun damage or outdoor weekends]
-
 -------------
 
 The sun spots from twelve years of Saturdays didn't vanish, I'm not going to tell you fat and honey un-does a decade. But the skin around them stopped looking thirsty and started looking like mine, the dryness and the tightness after a day outside are gone, and in her last season, the photos of me on that sideline are ones I'll actually keep.

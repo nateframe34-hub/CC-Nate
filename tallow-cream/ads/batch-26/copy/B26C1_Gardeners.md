@@ -88,8 +88,6 @@ Week three, the weird one: my cuticles stopped catching on fabric. I wasn't even
 
 And Dana asked what I switched to, because she wanted to steal it.
 
-[REAL CUSTOMER REVIEW HERE - founder to supply verbatim, ideally one mentioning sun-damaged or outdoor-worn skin]
-
 -------------
 
 I didn't set out to fix anything. I'd already decided there was nothing to fix, just a decade to accept. What I got instead was my daughter grabbing my hand a few weeks ago, no comment this time, no stopping mid-step. Just holding it.

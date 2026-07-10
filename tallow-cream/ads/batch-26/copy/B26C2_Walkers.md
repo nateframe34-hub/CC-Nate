@@ -74,8 +74,6 @@ Week three, the one I didn't see coming: my face. I'd only been using it on my a
 
 And Mark, who notices approximately nothing in the moisturizer category, grabbed my hand crossing the street and said my arms felt different. I hadn't said a word.
 
-[REAL CUSTOMER REVIEW HERE - founder to supply verbatim, ideally one mentioning sun spots or years outdoors]
-
 -------------
 
 The sun spots are still there. I earned those, 1,400 hours' worth, and no jar of anything makes six years un-happen. But the skin around them is soft for the first time in years, it doesn't look thirsty anymore, and the whole arm reads less like a warning and more like a woman who walks her dog every day. Which is what it always was.
