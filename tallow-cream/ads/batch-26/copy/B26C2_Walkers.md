@@ -30,7 +30,7 @@ That night I did the thing you should never do, which is inspect your own arms u
 
 The tan line was the least of it. Sun spots scattered up both forearms that I'd been calling freckles for years. Skin that looked rougher and older than the rest of me, dry no matter what I put on it, like the outside layer had quietly clocked out somewhere around year four.
 
-So I did some math sitting on the edge of the tub. Forty minutes a day, six years. That's over 1,400 hours of sun. Nobody plans 1,400 hours in the sun. You'd pack differently for that. I got it ten minutes at a time without ever counting.
+So I did some math sitting on the edge of the tub. Forty minutes a day, six years. That's over 1,400 hours of sun. You'd pack differently for 1,400 hours in the sun. I got mine forty minutes at a time, and never once counted it.
 
 And here's the part I'm not proud of: I decided it was just age. Forty-eight, skin changes, file it next to the gray hair and move on. I stopped asking whether any of it could be different.
 
