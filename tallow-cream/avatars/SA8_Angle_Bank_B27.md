@@ -7,9 +7,11 @@
 
 ---
 
-## The one register, three entry points
+## 2026-07-11 update: 3 standalone ads, one per angle, GLP-1-sourced language only
 
-Per the research, this is ONE avatar with one desire (comfort/tending for drug-dried face and neck skin) and one register (trade-honoring: proud of the loss, tending the cost, never asking to be fixed). The three angles below are different SCENES into the same register, not different desires, same model as B26's Gardeners/Walkers/Bleacher Parent sharing one Sun-Lived desire.
+Founder direction: test all 3 angles as independent ads (not one ad stacking all three), and every phrase used must be traceable to the GLP-1 research specifically, not borrowed from other account avatars even where the wording happens to overlap. Verified: "gaunt and tired" is genuine GLP-1-sourced language (u/MagdaArmy, r/GLPGrad, family's exact words), not an SA1 borrow, coincidence of real language. Each angle below now stands as its own B27 creative (C1/C2/C3), each with its own hook, scene, and close, no angle is subordinated to another.
+
+Per the research, this is ONE avatar with one desire (comfort/tending for drug-dried face and neck skin) and one register (trade-honoring: proud of the loss, tending the cost, never asking to be fixed) running underneath all 3.
 
 ### Angle A: The Compliment That Stings (lead angle, strongest research support)
 - **Scene:** someone she loves says the thing that means well and lands wrong. Research-grounded options: a family member calling her face "gaunt and tired," a version of "you have ozempic face" said by someone close, or Mark's own version of "you look tired" that she has to sit with.
@@ -23,11 +25,11 @@ Per the research, this is ONE avatar with one desire (comfort/tending for drug-d
 - **Awareness:** Problem Aware, mid-loss, present-tense ("what do I do about this right now," the louder/larger on-drug population per research).
 - **Hook direction:** "My face has felt sunburnt for three months and I haven't been in the sun once."
 
-### Angle C: The Trade I'd Make Again (identity/close angle, ties the whole avatar together)
-- **Scene:** the "would you do it again" reckoning, landing on the community's own dominant verdict, 100% worth it, paired with the neck/turkey-neck zone specifically (research's #1 complaint zone, PDP-compatible).
+### Angle C: The Trade I'd Make Again (now a standalone lead, per 2026-07-11 direction)
+- **Scene:** the "would you do it again" reckoning, opens ON the community's own dominant verdict, 100% worth it, stated first and without hedging, then pivots to the one part of the trade nobody warned her about: the neck/turkey-neck zone specifically (research's #1 complaint zone, PDP-compatible).
 - **Reason to buy:** this isn't about undoing the trade, it's tending the part of the trade nobody warned her about.
-- **Awareness:** Solution Aware to Product Aware, works best as the CLOSE register for A or B rather than a standalone lead (mirrors how SA3 Unnoticed functions in this account, a close, not a hook).
-- **Hook direction:** "I'd lose the weight again tomorrow. I just wish someone had told me what to do about my neck while I did it."
+- **Awareness:** Solution Aware to Product Aware, she's already made peace with the trade, the ad's job is introducing the one piece of aftercare she hasn't found yet.
+- **Hook direction:** "I'd lose the weight again tomorrow. I just wish someone had told me what to do about my neck while I did it." Every phrase sourced to research's identity section: "100% worth it," "I'll take the wrinkles over the weight," the trade-not-betrayal framing stated dozens of times independently.
 
 ---
 
@@ -40,8 +42,11 @@ Per the research, this is ONE avatar with one desire (comfort/tending for drug-d
 ## Body part order
 Neck first (the #1 complaint zone, matches PDP's Face & Body / neck coverage), face second, consistent with how the research found neck language outweighs pure-face language.
 
-## Native ad recommendation
-Lead with **Angle A** for B27C1 (strongest research support, clearest scene, most natural Julie voice fit given the compliment-from-family pattern already used well in B26C1's daughter scene). **Angle B** as B27C2 (the most honest, most claim-safe, most physically vivid). **Angle C** reserved as a close-register beat inside both, not a separate lead creative, per its role as the identity-payoff rather than the hook.
+## Native ad recommendation: 3 standalone creatives
+**B27C1 = Angle A** (The Compliment That Stings, strongest research support, clearest scene). **B27C2 = Angle B** (The Sunburn That Won't Heal, most honest, most claim-safe, most physically vivid). **B27C3 = Angle C** (The Trade I'd Make Again, identity-led, opens on "worth it" rather than closing on it). Each is a full independent ad with its own hook, low point, and close; none subordinate to another.
+
+## Language sourcing rule
+Every phrase used in B27 copy must trace to `GLP1_Skin_Deep_Research.md`'s verbatim/close-paraphrase quotes, not to other account avatar files, even when wording coincidentally overlaps (e.g. "tired" appears in both SA1 and GLP-1 research independently, use the GLP-1 citation, u/MagdaArmy's family calling her face "gaunt and tired," not the SA1 file, when writing this batch).
 
 ## Still open before full copy
 - Confirm Julie's weight-loss detail (how much lost, how long on the drug) against something plausible and consistent if she ever needs to reference it again. Suggested default: modest, believable range (20-30 lbs over 8-10 months) rather than a dramatic number, keeps her relatable rather than making the ad about the drug's efficacy.
