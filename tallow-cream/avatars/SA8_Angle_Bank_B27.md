@@ -2,7 +2,7 @@
 
 **Date:** 2026-07-11
 **Narrator decision:** Option A locked. Julie gets the GLP-1 arc herself (strongest Mirror fit, she's literally 48F, the exact flair on the research threads). Founder's call: canon consistency across every ad isn't a real exposure, customers don't cross-reference native ads against each other before buying.
-**Canon fit:** NOT a new discovery story. Julie already found tallow via Denise at Mark's holiday party (established in B26). This arc is: already-a-believer Julie starts a GLP-1, loses weight, and finds a second use for the jar she already trusts, on her face and neck specifically. Skeptic-convert-turned-advocate finding new proof, not a competing origin story.
+**Canon fit:** simplified 2026-07-11 per founder, don't overthink this. Either framing works (already-a-believer finding a second use, OR this ad IS her tallow discovery story). Readers see one ad, one story, essentially never cross-reference against other ads or the page history. Use whichever framing serves the individual ad's story best.
 **Core research:** `GLP1_Skin_Deep_Research.md`, `Gap_Validation_Findings_2026-07-11.md`. Full desire: comfort/tending for drug-dried skin, without ever promising to fix/reverse/tighten.
 
 ---
