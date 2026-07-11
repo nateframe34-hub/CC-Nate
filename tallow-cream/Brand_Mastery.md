@@ -232,6 +232,16 @@ Full angle bank with research citations: `tallow-cream/avatars/SA6_Angle_Bank_20
 **Angles are entry points into this one shared desire, not separate desires.** Same underlying "I want relief from sun-worn skin" desire, approached through 3 different populations' own language so each recognizes itself: Gardeners (hands-in-soil, tried-every-lotion frustration), Walkers (daily accumulation, unwanted tan/skin change from routine walks), Bleacher Parent (self-neglect while caring for kids at outdoor games). Full angle bank: `tallow-cream/avatars/SA6_Angle_Bank_2026-07-09.md`.
 **B26 = 3 native long-form ads, one per angle above**, all in the account's 5-phase Origins native/camouflage structure (not static Pubity-style images like B25). Copy in `tallow-cream/ads/batch-26/copy/`.
 
+## SA8: The Fast-Loser (GLP-1 skin) (RESEARCHED 2026-07-11, B27 CANDIDATE, deepest desire evidence in account history)
+Full research: `avatars/GLP1_Skin_Deep_Research.md` + `avatars/Gap_Validation_Findings_2026-07-11.md`.
+- Desire: skin that catches up with the weight loss; comfort/tending for drug-dried skin; to look as good as they feel at goal weight.
+- Experience: 15-100+ lbs lost on a GLP-1, 5-14 months in, worst near goal weight; "crepe-y" face/neck, "turkey neck" (the #1 zone), "sunburnt raisin" burning dryness; family/mirror moment ("you look gaunt/tired," "you have ozempic face"); tried water/collagen/HA/tret/CeraVe/gua sha, everything either surface-only or two-hour temporary; knows procedures are the only laxity fix and won't or can't pay the lifetime-maintenance price.
+- Emotion: trade-pride, NOT grief. "100% worth it, I'd do it again," wrinkles-as-privilege. Wants the trade honored and the cost tended, not corrected. Same emotional architecture as SA6 Sun-Lived, bigger and hotter population.
+- Who: midlife women 45-55 dominate (perimenopause double-hit named by posters themselves), on-drug population much larger/louder than graduates, present-tense urgency.
+- **CLAIM RULES (bright lines from research):** hydration/barrier/comfort ONLY, that lane is dermatologist-endorsed in-thread and never challenged. "Fixes/reverses Ozempic face" = executed as snake oil. "Firming/tightening" = closed at our price point. THE TARGETING ITSELF is a trigger: never package or label as "for GLP-1 skin," target with the story, not the label. Saying out loud "nothing in a jar tightens skin" is the trust move.
+- Competition: 1 direct (Sky&sol, running the exact "fixes Ozempic face" pitch the community executes). The unclaimed middle: trade-honoring tone + claim discipline.
+- Status: **UNTESTED at purchase, research-validated at language level, B27 candidate.** Open canon decision: Julie's own GLP-1 arc vs telling a friend's story.
+
 ## SA7: The Rough-Handed (UNTESTED)
 **Angle 1: Doesn't wash off with the first handwash**
 - Reason to buy: water-based lotion leaves with water; fat stays through washes.
