@@ -24,22 +24,21 @@ Shopify doesn't let you inject scripts into checkout pages from theme.liquid any
 4. Save. This makes `oaiq` available on every storefront page (page views, landing pages, PDP). Do not add any event calls here.
 
 ### Piece 2: Purchase conversion event (Customer Events custom pixel)
-1. First, in the OpenAI dashboard, click "Next: create conversion event" and create the purchase event. **Name it `purchase`** (or note whatever name you choose, the code below must use the exact same string).
+1. In the OpenAI dashboard, standard event picked: **`Order created`** (not "Checkout started" — optimizing on checkout-start pulls in tire-kickers/comparison shoppers who never pay; always optimize on the event closest to money). Generated event call, confirmed via dialog 2026-07-11:
+   ```js
+   oaiq("measure", "order_created", { type: "contents" });
+   ```
+   No `amount`/`currency` in OpenAI's own generated snippet for this event (unlike the generic `registration_completed` example from the setup dialog, which did show amount/currency). Value-based optimization would need a separate check with OpenAI on whether order_created supports value enrichment; not required to launch.
 2. Shopify admin → Settings → Customer events → Add custom pixel → name it "OpenAI Pixel".
-3. Paste the following, with two substitutions: the `[PASTE ...]` block gets the full setup code JS (everything INSIDE the `<script>...</script>` tags, without the script tags themselves), and the event name string must match step 1:
+3. Paste the following, with one substitution: the `[PASTE ...]` block gets the full setup code JS (everything INSIDE the `<script>...</script>` tags from theme.liquid, without the script tags themselves):
 
 ```js
 // OpenAI pixel loader (paste the setup code contents here, WITHOUT the <script> tags)
 [PASTE SETUP CODE JS HERE]
 
-// Fire the purchase conversion when checkout completes
+// Fire the order_created conversion when checkout completes
 analytics.subscribe('checkout_completed', (event) => {
-  const checkout = event.data.checkout;
-  oaiq("measure", "purchase", {
-    type: "customer_action",
-    amount: Number(checkout.totalPrice.amount),
-    currency: checkout.totalPrice.currencyCode
-  });
+  oaiq("measure", "order_created", { type: "contents" });
 });
 ```
 
