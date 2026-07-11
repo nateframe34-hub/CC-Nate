@@ -34,8 +34,20 @@ The GLP-1 desire language is the strongest this account has found for any avatar
 
 Desire language concrete and abundant ("bleeding sandpaper" fingertips, "I need something stronger... or a different job," "my hands never cleared up until I left bedside nursing"). Institutional-resentment villain built in (hospital swaps to cheap foam sanitizer, hands you a tube of patient lotion, tells you to wait). Gift/break-room culture gives an organic second SKU story. O'Keeffe's is simultaneously beloved ("unsung hero") and resented ("incredibly overrated and stingy"), so position against the category failure mode (water-based, washes off 40x/shift) rather than attacking the green jar by name. The open angle Cortiv8 didn't take: the nurse buying for HER OWN shift-damaged hands, first person, not a spouse managing someone else's.
 
+## Founder calibration (2026-07-11, supersedes the caution above where they conflict)
+
+Two evaluation rules corrected by founder after reading these findings:
+
+1. **A few competitors on the same desire is fine, 4-5 MAX is the line.** One brand (Sky&sol) on GLP-1 doesn't disqualify it, that's a nearly-empty room, not a crowded one. The disqualifying condition is the anti-complexity situation (8+ brands running it as the category convention). Rankings adjusted accordingly.
+2. **A problem our product solves IS a desire, even with zero "I want" statements.** If people demonstrably have the problem and don't know the solution, describing their problem accurately and presenting the solution is a winning angle. "I want" statements are the strongest form of evidence, not the only admissible form. This rehabilitates problem-rich/statement-poor avatars.
+
+**Adjusted verdicts:**
+- **GLP-1: fully green-lit.** One competitor, richest problem AND desire language ever found. Anti-grifter positioning stays because it's the smartest read of the community's sophistication, not because the room is crowded.
+- **Pickleball: upgraded from parked to viable.** The problems are real and documented (hours of court sun weekly, grip-dryness, sunscreen-in-the-eyes friction), the community just doesn't narrate them as wants. Under rule 2 that's a describable-problem angle, not a dead end: describe the court-hours skin problem better than they've articulated it themselves, offer the solution. Ad space is 100% clean. Still sequenced behind GLP-1 and nurses only because those have BOTH problem and stated-desire evidence.
+- **Nurses: unchanged, strong.** Nobody sells to nurses for their own hands, problem language is overwhelming.
+
 ## Recommended sequence
 1. **B27 = GLP-1 Skin, honest-counter positioning, face-led, native long-form in Julie's voice.** Before building: quick check of Sky&sol's Ad Library footprint over time (are their GLP-1 ads fresh/scaling or already dying) to read whether the grifter lane is burning out on its own.
 2. **B28 candidate = Nurse Hands, first-person shift-damage angle.**
-3. **Pickleball parked** until B26 (Bleacher Parent) reads out, it's the same "manufacture the desire" bet and we should let the running experiment price it first.
+3. **Pickleball viable per founder calibration** (real problems our product solves, 100% clean ad space, just no stated-desire language to mirror), sequenced third behind the two avatars that have both problem and stated-desire evidence.
 4. **Peptide-Fatigued shelved** as a standalone; its best hooks fold into existing SA5 copy as beats.
