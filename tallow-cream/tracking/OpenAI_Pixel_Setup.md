@@ -51,7 +51,13 @@ Why the loader is pasted twice (theme + custom pixel): Shopify's custom pixels r
 2. In the OpenAI dashboard, check the pixel/data-source page for received events (most platforms show a "last received" timestamp or event debugger).
 3. Storefront sanity check: open the site, browser console, type `oaiq` and press enter, it should return a function, not undefined.
 
+## Status: INSTALLED, CONNECTED, DORMANT (2026-07-11)
+Both pieces confirmed live: theme.liquid loader + Customer Events custom pixel (`order_created`) connected. **Not running any OpenAI ad spend yet.** The Conversions campaign objective shows "Coming soon" for this account: it launched June 5, 2026 as an early-access wave gated to accounts with a conversion event flowing before June 1, a mechanical eligibility requirement (the optimization model needs historical conversion signal). Our pixel went live July 11, over a month past that cutoff. No public general-availability date found for the next wave.
+
+Founder's call: don't spend on Reach/Clicks with no conversion optimization, that money is better spent on Meta where optimization already works. Leave the pixel installed so it quietly accumulates `order_created` events in the background, whenever Conversions opens to this account there's already history to launch against instead of starting cold. Re-check the Conversions objective dropdown periodically, these gate-lifts aren't reliably announced.
+
 ## Notes / open items
-- If the OpenAI dashboard offers additional standard ecommerce event names (add_to_cart, begin_checkout etc.) when creating conversion events, purchase is the only one that matters for optimization now; add-to-cart can be added later in the same custom pixel with `analytics.subscribe('product_added_to_cart', ...)`.
+- `debug:true` is baked into the current loader from OpenAI's dashboard copy. Flip to `false` before any real ad spend starts (flagged, not yet done since no spend is happening).
+- If the OpenAI dashboard offers additional standard ecommerce event names (add_to_cart, begin_checkout etc.), order_created is the only one that matters for optimization now; add-to-cart can be added later in the same custom pixel with `analytics.subscribe('product_added_to_cart', ...)`.
 - The truncated setup code was NOT captured in this log, only the dashboard has the full version. If the theme install ever needs to be redone, re-copy from OpenAI's dashboard, don't reconstruct it.
 - Currency: account bills USD, store sells USD, so `currencyCode` will pass through as USD with no conversion concerns.
