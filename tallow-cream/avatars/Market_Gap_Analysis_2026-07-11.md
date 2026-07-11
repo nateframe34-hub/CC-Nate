@@ -1,5 +1,7 @@
 # Market Gap Analysis: Where Tallow Competitors Aren't Looking, 2026-07-11
 
+> **VALIDATION UPDATE 2026-07-11:** the Chrome desire-hunt + Ad Library pass corrected several assumptions in this doc. GLP-1 is not a clean first-mover gap (Sky&sol already runs "Ozempic face" tallow ads), anti-complexity is the category's most common convention rather than a gap, pickleball is ad-clean but desire-thin, nurses is a partial gap. See `Gap_Validation_Findings_2026-07-11.md` for the corrected strategy (GLP-1 repositioned as the honest anti-grifter counter, recommended as B27).
+
 **Method:** competitor angle mapping (brand sites, market coverage, prior repo research in `offers/Competitive_Offer_Research.md`; direct FB Ad Library scraping wasn't accessible from this environment, so an Ad Library verification pass is built into the Chrome prompt below), full re-read of the Origins avatar module (`origins-training/origins-notes/avatar-module-notes-4.docx`), Brand_Mastery coverage audit, and July 2026 trend research. Built per the avatar module's core rule: desire-first avatars (desire + experience + emotion), demographics last, and the module's breakthrough formula, **Mass Instinct + Mass Education = the combination that "normally produces the most breakthroughs."**
 
 ---
