@@ -24,7 +24,7 @@ Shopify doesn't let you inject scripts into checkout pages from theme.liquid any
 4. Save. This makes `oaiq` available on every storefront page (page views, landing pages, PDP). Do not add any event calls here.
 
 ### Piece 2: Purchase conversion event (Customer Events custom pixel)
-1. In the OpenAI dashboard, standard event picked: **`Order created`** (not "Checkout started" — optimizing on checkout-start pulls in tire-kickers/comparison shoppers who never pay; always optimize on the event closest to money). Generated event call, confirmed via dialog 2026-07-11:
+1. In the OpenAI dashboard, standard event picked: **`Order created`** (not "Checkout started," optimizing on checkout-start pulls in tire-kickers/comparison shoppers who never pay; always optimize on the event closest to money). Generated event call, confirmed via dialog 2026-07-11:
    ```js
    oaiq("measure", "order_created", { type: "contents" });
    ```
