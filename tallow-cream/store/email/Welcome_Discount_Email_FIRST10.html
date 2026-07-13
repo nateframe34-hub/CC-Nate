@@ -88,7 +88,7 @@
 
         <tr>
           <td align="center" style="padding:14px 28px 22px;">
-            <p style="margin:0;font-size:11px;color:#9a927d;line-height:1.6;">You're getting this because you signed up for a discount at tallowcream.com.<br><a href="{{ unsubscribe_url }}" style="color:#9a927d;text-decoration:underline;">Unsubscribe</a></p>
+            <p style="margin:0;font-size:11px;color:#9a927d;line-height:1.6;">You're getting this because you signed up for a discount at trybaseline.com.<br><a href="{{ unsubscribe_url }}" style="color:#9a927d;text-decoration:underline;">Unsubscribe</a></p>
           </td>
         </tr>
 
@@ -108,11 +108,11 @@
   - Discount/code block (or styled text block): "FIRST10" - "10% off your first jar. Applied at checkout."
   - Small urgency text (bold, warm red/orange, not the brand green): "Expires in 7 days."
   - Button block: label "Shop Now Before It Expires", link -> product page URL with ?discount=FIRST10, or plain
-    discount deep link: https://YOURSTORE.myshopify.com/discount/FIRST10?redirect=/products/whipped-tallow-honey-balm
+    discount deep link: https://trybaseline.com/discount/FIRST10?redirect=/products/whipped-tallow-honey-balm
   - Small text: "Code applies automatically through this link. Or enter FIRST10 at checkout."
   - Footer text: "Free shipping · 60-day money-back guarantee · 4 ingredients"
   - Small footer text: "You're getting this because you signed up for a discount at
-    tallowcream.com." with an "Unsubscribe" link -> {{ unsubscribe_url }}
+    trybaseline.com." with an "Unsubscribe" link -> {{ unsubscribe_url }}
   - Hidden 1x1 tracking image block (if the editor exposes one) -> {{ open_tracking_pixel }}
 
   Open items:
@@ -120,9 +120,10 @@
     own unsubscribe footer and open-tracking pixel automatically. If so, this file's
     manual {{ unsubscribe_url }} / {{ open_tracking_pixel }} blocks are redundant, pull
     them so the email doesn't ship two unsubscribe links.
-  - {{SHOP_LINK_WITH_DISCOUNT}} needs the real discount deep link once the FIRST10 code
-    is created in Shopify admin -> Discounts (percentage, 10%, no other conditions).
-    Use the /discount/CODE?redirect=/products/... pattern so it auto-applies.
+  - {{SHOP_LINK_WITH_DISCOUNT}} should resolve to
+    https://trybaseline.com/discount/FIRST10?redirect=/products/whipped-tallow-honey-balm
+    once the FIRST10 code exists in Shopify admin -> Discounts (percentage, 10%, no
+    other conditions), that /discount/CODE?redirect=/products/... pattern auto-applies it.
   - The discount code ITSELF needs a matching 7-day expiry set in its Shopify admin
     "Active dates" field, the email's urgency copy is a lie if the code doesn't
     actually expire when it says it does, don't just change the copy and skip this.
