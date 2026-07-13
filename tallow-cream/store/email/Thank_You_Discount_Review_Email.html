@@ -1,0 +1,136 @@
+<!--
+  Post-purchase thank-you + discount + optional review ask.
+  NOT incentivized-for-review - the discount is given unconditionally in the same
+  email as the review ask, framed as thanks for the purchase, review is a separate
+  ask underneath it. This keeps it clean of Meta/FTC incentivized-review risk while
+  still using the moment to prompt reviews from happy customers.
+
+  Trigger: fulfillment-based, same pattern as tallow-cream/offers/Review_Request_Email.md
+  (10-14 day delay after fulfillment via Flow, tag customer, Send marketing email action).
+
+  IMPORTANT - read before building the Flow: the account already has a $10 gift-card-
+  on-every-order Flow live (tallow-cream/offers/Gift_Card_Flow_Setup.md). Don't stack a
+  second, separate discount on top of that one - it'll confuse customers with two
+  different codes/amounts from the same brand. Recommended: use THIS email as the
+  reveal/delivery moment for that same gift card (it's issued silently by Flow right
+  now with no email actually telling the customer it exists), and bolt the review ask
+  onto it. One code, one email, two asks (come back + tell us how it went).
+
+  Star links below deep-link to the review form with a rating pre-filled via query
+  param (?rating=5 etc) - Shopify Email can't run real in-email star buttons or forms
+  (no JS/forms in email clients), so the interactive part (star selection, headline,
+  written review) lives on the linked form page, same as the existing review flow.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin:0;padding:0;background:#F6F1E9;font-family:Arial,Helvetica,sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F6F1E9;padding:32px 0;">
+  <tr>
+    <td align="center">
+      <table role="presentation" width="100%" style="max-width:520px;background:#FBF8F2;border-radius:16px;overflow:hidden;border:1px solid #D8CDBC;">
+
+        <tr>
+          <td align="center" style="background:#22351F;padding:22px;">
+            <span style="font-family:Georgia,'Times New Roman',serif;font-size:19px;font-weight:bold;color:#F2EAD9;letter-spacing:.4px;">Tallow Cream</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="padding:36px 34px 6px;">
+            <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:26px;line-height:1.25;color:#23291F;font-weight:600;">We appreciate your business.</h1>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="padding:10px 34px 0;">
+            <p style="margin:0;font-size:15px;color:#5c5848;line-height:1.6;">Here's $10 toward your next jar, no strings, whether you write us a word or not.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:26px 28px 6px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F3E7CE;border:1px dashed #C98A3C;border-radius:12px;">
+              <tr><td align="center" style="padding:18px;">
+                <div style="font-size:13px;color:#6a481a;">Your code</div>
+                <div style="margin-top:8px;">
+                  <span style="display:inline-block;background:#2E4731;color:#ffffff;font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:bold;letter-spacing:1.5px;padding:9px 20px;border-radius:999px;">{{GIFT_CARD_CODE}}</span>
+                </div>
+                <div style="margin-top:8px;font-size:12.5px;color:#8a6a2e;">$10 off your next order. No expiry pressure, use it when you're ready.</div>
+              </td></tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="padding:22px 34px 4px;">
+            <a href="{{SHOP_LINK}}" style="display:inline-block;background:#2E4731;color:#ffffff;text-decoration:none;font-weight:bold;font-size:16px;padding:15px 34px;border-radius:14px;">Shop Now</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:30px 34px 4px;border-top:1px solid #D8CDBC;">
+            <p style="margin:18px 0 4px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:19px;color:#23291F;font-weight:600;">If you were happy with it, tell us.</p>
+            <p style="margin:0;text-align:center;font-size:14px;color:#5c5848;line-height:1.55;">Totally optional, but it helps other people trying to figure out if this is right for them. Tap a star to start.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="padding:16px 34px 8px;">
+            <a href="{{REVIEW_FORM_LINK}}?rating=1" style="text-decoration:none;font-size:28px;color:#C98A3C;padding:0 3px;">&#9733;</a>
+            <a href="{{REVIEW_FORM_LINK}}?rating=2" style="text-decoration:none;font-size:28px;color:#C98A3C;padding:0 3px;">&#9733;</a>
+            <a href="{{REVIEW_FORM_LINK}}?rating=3" style="text-decoration:none;font-size:28px;color:#C98A3C;padding:0 3px;">&#9733;</a>
+            <a href="{{REVIEW_FORM_LINK}}?rating=4" style="text-decoration:none;font-size:28px;color:#C98A3C;padding:0 3px;">&#9733;</a>
+            <a href="{{REVIEW_FORM_LINK}}?rating=5" style="text-decoration:none;font-size:28px;color:#C98A3C;padding:0 3px;">&#9733;</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="padding:0 34px 30px;">
+            <p style="margin:0 0 14px;font-size:12.5px;color:#9a927d;">Tapping a star takes you to a 30-second form to add a headline and a few words. No account needed.</p>
+            <a href="{{REVIEW_FORM_LINK}}" style="display:inline-block;background:#FBF8F2;border:1.5px solid #2E4731;color:#2E4731;text-decoration:none;font-weight:bold;font-size:14px;padding:11px 24px;border-radius:12px;">Leave a Quick Review</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="border-top:1px solid #D8CDBC;padding:18px 28px;text-align:center;">
+            <p style="margin:0;font-size:12.5px;color:#6b6552;">Free shipping&nbsp;&middot;&nbsp;60-day money-back guarantee&nbsp;&middot;&nbsp;4 ingredients</p>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+<!--
+  Block-by-block breakdown (drag-and-drop editor fallback):
+  - Header/logo block: "Tallow Cream"
+  - Heading block: "We appreciate your business."
+  - Text block: "Here's $10 toward your next jar, no strings, whether you write us a word or not."
+  - Discount/code block: "{{GIFT_CARD_CODE}}" - "$10 off your next order. No expiry pressure, use it when you're ready."
+  - Button block: label "Shop Now", link -> store homepage or product page
+  - Heading block: "If you were happy with it, tell us."
+  - Text block: "Totally optional, but it helps other people trying to figure out if this is right for them. Tap a star to start."
+  - 5 star link/image blocks, each linking to the review form with ?rating=1 through ?rating=5
+  - Small text: "Tapping a star takes you to a 30-second form to add a headline and a few words. No account needed."
+  - Secondary button block: label "Leave a Quick Review", link -> plain review form URL (no rating param)
+  - Footer text: "Free shipping · 60-day money-back guarantee · 4 ingredients"
+
+  Open items:
+  - {{GIFT_CARD_CODE}}: needs to come from the existing gift-card Flow's Admin API
+    response (see Gift_Card_Flow_Setup.md Step 1.5, the metafield/tag handoff point).
+    If that handoff isn't wired to feed Shopify Email yet, this is the piece to build
+    before turning this email on - otherwise it's sending a code that doesn't exist.
+  - {{REVIEW_FORM_LINK}}: same Google Form as Review_Request_Email.md. Confirm the form
+    actually supports a prefilled rating field via ?rating= query param (Google Forms
+    supports this via "Get pre-filled link" per question) - if not, drop the rating
+    param and all 5 stars just link to the plain form, first question being the rating.
+  - {{SHOP_LINK}}: homepage or product page, whichever the founder prefers as the
+    return destination for a repeat customer.
+-->
