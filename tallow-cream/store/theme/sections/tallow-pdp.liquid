@@ -476,8 +476,25 @@
   <div class="tlw-d-foot">
     <div class="tlw-d-savings" hidden></div>
     <div class="tlw-d-subtotal"><span>Subtotal</span><span class="tlw-d-subval">{{ cart.total_price | money }}</span></div>
+    <div class="tlw-d-trust">
+      <span><svg class="icon"><use href="#tlw-truck"/></svg>Free shipping</span>
+      <span><svg class="icon"><use href="#tlw-shield"/></svg>60-day guarantee</span>
+    </div>
     <a class="btn tlw-d-checkout" href="/checkout">Check out</a>
     <button type="button" class="tlw-d-keep">Keep shopping</button>
+    <div class="tlw-d-capture" id="tlw-d-capture">
+      {%- form 'customer', class: 'tlw-d-capture-form' -%}
+        {%- if form.posted_successfully? -%}
+          <p class="tlw-d-capture-ok">Saved. Check your email for 10% off.</p>
+        {%- else -%}
+          <p>Not ready yet? Leave your email and we'll hold your cart, plus send 10% off your first jar.</p>
+          <input type="hidden" name="contact[tags]" value="cart-abandon-capture">
+          <input type="hidden" name="contact[accepts_marketing]" value="true">
+          <input type="email" name="contact[email]" placeholder="Your email" required aria-label="Email">
+          <button type="submit">Save my cart</button>
+        {%- endif -%}
+      {%- endform -%}
+    </div>
   </div>
 </aside>
 
@@ -509,6 +526,15 @@
   #tallow-pdp .tlw-d-savings{display:flex;justify-content:space-between;font-size:14px;font-weight:600;color:var(--green);margin-bottom:8px}
   #tallow-pdp .tlw-d-subtotal{display:flex;justify-content:space-between;font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:600;margin-bottom:14px}
   #tallow-pdp .tlw-d-checkout{text-decoration:none}
+  #tallow-pdp .tlw-d-trust{display:flex;justify-content:center;gap:18px;font-size:12px;color:var(--grey);margin-bottom:12px;flex-wrap:wrap}
+  #tallow-pdp .tlw-d-trust span{display:inline-flex;align-items:center;gap:5px}
+  #tallow-pdp .tlw-d-trust .icon{width:14px;height:14px}
+  #tallow-pdp .tlw-d-capture{margin-top:16px;padding-top:16px;border-top:1px dashed var(--line)}
+  #tallow-pdp .tlw-d-capture p{font-size:12.5px;color:var(--grey);margin:0 0 8px;line-height:1.4}
+  #tallow-pdp .tlw-d-capture-ok{color:var(--green);font-weight:600}
+  #tallow-pdp .tlw-d-capture-form{display:flex;gap:8px}
+  #tallow-pdp .tlw-d-capture-form input[type="email"]{flex:1;min-width:0;padding:9px 10px;border:1px solid var(--line);border-radius:8px;font-size:13px;font-family:inherit}
+  #tallow-pdp .tlw-d-capture-form button{flex:0 0 auto;padding:9px 14px;border:none;border-radius:8px;background:var(--ink);color:var(--cream);font-size:13px;font-weight:600;cursor:pointer;font-family:inherit}
   #tallow-pdp .tlw-d-keep{display:block;width:100%;background:none;border:none;color:var(--grey);font-size:13px;text-decoration:underline;cursor:pointer;margin-top:12px;font-family:inherit}
 </style>
 
