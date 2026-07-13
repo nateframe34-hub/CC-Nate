@@ -1,20 +1,19 @@
 <!--
   Post-purchase thank-you + discount + optional review ask.
-  NOT incentivized-for-review - the discount is given unconditionally in the same
-  email as the review ask, framed as thanks for the purchase, review is a separate
-  ask underneath it. This keeps it clean of Meta/FTC incentivized-review risk while
-  still using the moment to prompt reviews from happy customers.
+  This is a plain discount CODE (Shopify Discounts, percentage or fixed amount),
+  NOT a gift card, deliberately, "a free $10 code with every purchase" undersells it
+  next to the actual $10 gift card that's already issued automatically on every order
+  (Gift_Card_Flow_Setup.md). Sent as a standalone Shopify Email marketing email, on its
+  own Flow (fulfillment trigger, delay, tag, Send marketing email), separate from the
+  native gift-card notification.
 
-  Trigger: fulfillment-based, same pattern as tallow-cream/offers/Review_Request_Email.md
-  (10-14 day delay after fulfillment via Flow, tag customer, Send marketing email action).
+  NOT incentivized-for-review - the discount is given unconditionally, framed as thanks
+  for the purchase, review is a separate ask underneath it. Keeps it clean of Meta/FTC
+  incentivized-review risk while still using the moment to prompt reviews.
 
-  IMPORTANT - read before building the Flow: the account already has a $10 gift-card-
-  on-every-order Flow live (tallow-cream/offers/Gift_Card_Flow_Setup.md). Don't stack a
-  second, separate discount on top of that one - it'll confuse customers with two
-  different codes/amounts from the same brand. Recommended: use THIS email as the
-  reveal/delivery moment for that same gift card (it's issued silently by Flow right
-  now with no email actually telling the customer it exists), and bolt the review ask
-  onto it. One code, one email, two asks (come back + tell us how it went).
+  Amount note: recommend a DIFFERENT dollar amount than the automatic $10 gift card
+  (this draft uses $15) so the two offers don't read as the same "$10 thing" twice in
+  two different emails, that reads as a mistake rather than two distinct perks.
 
   Star links below deep-link to the review form with a rating pre-filled via query
   param (?rating=5 etc) - Shopify Email can't run real in-email star buttons or forms
@@ -47,7 +46,7 @@
 
         <tr>
           <td align="center" style="padding:10px 34px 0;">
-            <p style="margin:0;font-size:15px;color:#5c5848;line-height:1.6;">Here's $10 toward your next jar, no strings, whether you write us a word or not.</p>
+            <p style="margin:0;font-size:15px;color:#5c5848;line-height:1.6;">Here's $15 off your next jar, no strings, whether you write us a word or not.</p>
           </td>
         </tr>
 
@@ -57,9 +56,9 @@
               <tr><td align="center" style="padding:18px;">
                 <div style="font-size:13px;color:#6a481a;">Your code</div>
                 <div style="margin-top:8px;">
-                  <span style="display:inline-block;background:#2E4731;color:#ffffff;font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:bold;letter-spacing:1.5px;padding:9px 20px;border-radius:999px;">{{GIFT_CARD_CODE}}</span>
+                  <span style="display:inline-block;background:#2E4731;color:#ffffff;font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:bold;letter-spacing:1.5px;padding:9px 20px;border-radius:999px;">{{DISCOUNT_CODE}}</span>
                 </div>
-                <div style="margin-top:8px;font-size:12.5px;color:#8a6a2e;">$10 off your next order. No expiry pressure, use it when you're ready.</div>
+                <div style="margin-top:8px;font-size:12.5px;color:#8a6a2e;">$15 off your next order. Applied at checkout.</div>
               </td></tr>
             </table>
           </td>
@@ -112,8 +111,8 @@
   Block-by-block breakdown (drag-and-drop editor fallback):
   - Header/logo block: "Tallow Cream"
   - Heading block: "We appreciate your business."
-  - Text block: "Here's $10 toward your next jar, no strings, whether you write us a word or not."
-  - Discount/code block: "{{GIFT_CARD_CODE}}" - "$10 off your next order. No expiry pressure, use it when you're ready."
+  - Text block: "Here's $15 off your next jar, no strings, whether you write us a word or not."
+  - Discount/code block: "{{DISCOUNT_CODE}}" - "$15 off your next order. Applied at checkout."
   - Button block: label "Shop Now", link -> store homepage or product page
   - Heading block: "If you were happy with it, tell us."
   - Text block: "Totally optional, but it helps other people trying to figure out if this is right for them. Tap a star to start."
@@ -123,10 +122,9 @@
   - Footer text: "Free shipping · 60-day money-back guarantee · 4 ingredients"
 
   Open items:
-  - {{GIFT_CARD_CODE}}: needs to come from the existing gift-card Flow's Admin API
-    response (see Gift_Card_Flow_Setup.md Step 1.5, the metafield/tag handoff point).
-    If that handoff isn't wired to feed Shopify Email yet, this is the piece to build
-    before turning this email on - otherwise it's sending a code that doesn't exist.
+  - {{DISCOUNT_CODE}}: create a plain fixed-amount discount code in Shopify admin ->
+    Discounts (e.g. $15 off, one-time use per customer, no other conditions). This is
+    a separate code from the automatic $10 gift card, don't reuse that mechanism here.
   - {{REVIEW_FORM_LINK}}: same Google Form as Review_Request_Email.md. Confirm the form
     actually supports a prefilled rating field via ?rating= query param (Google Forms
     supports this via "Get pre-filled link" per question) - if not, drop the rating
