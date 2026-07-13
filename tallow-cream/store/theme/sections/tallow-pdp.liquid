@@ -158,10 +158,23 @@
   #tallow-pdp .final .trust-strip{border-color:rgba(255,255,255,.16);max-width:520px;margin:22px auto 0}
   #tallow-pdp .final .trust-strip div{color:#cfc6b2}#tallow-pdp .final .trust-strip .icon{color:var(--amber-soft)}
 
-  #tallow-pdp .sticky{position:fixed;left:0;right:0;bottom:0;background:var(--cream);border-top:1px solid var(--line);padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;z-index:50;box-shadow:0 -6px 18px rgba(0,0,0,.07)}
+  #tallow-pdp .sticky{position:fixed;left:0;right:0;bottom:0;background:var(--cream);border-top:1px solid var(--line);padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;z-index:50;box-shadow:0 -6px 18px rgba(0,0,0,.07);transform:translateY(110%);transition:transform .25s ease}
+  #tallow-pdp .sticky.on{transform:translateY(0)}
+  #tallow-pdp .sticky .s-thumb{width:48px;height:48px;border-radius:8px;object-fit:cover;border:1px solid var(--line);flex:0 0 auto}
+  #tallow-pdp .sticky .s-info{flex:1 1 auto;min-width:0}
   #tallow-pdp .sticky .p{font-family:Georgia,'Times New Roman',serif;font-weight:600;font-size:17px}
+  #tallow-pdp .sticky .s-was{font-size:13px;font-weight:400;opacity:.55;margin-left:4px}
+  #tallow-pdp .sticky .s-sub{font-size:11px;opacity:.7;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   #tallow-pdp .sticky .pf{flex:0 0 auto}
-  #tallow-pdp .sticky .btn{width:auto;padding:13px 26px;font-size:15px}
+  #tallow-pdp .sticky .btn{width:auto;padding:13px 20px;font-size:15px;display:inline-flex;align-items:center;gap:7px}
+  #tallow-pdp .math-note{max-width:840px;margin:16px auto 0;text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:17px;font-style:italic;opacity:.85}
+  #tallow-pdp .faq{max-width:760px;margin:0 auto}
+  #tallow-pdp .faq details{border-bottom:1px solid var(--line)}
+  #tallow-pdp .faq summary{cursor:pointer;font-family:Georgia,'Times New Roman',serif;font-weight:600;font-size:17px;padding:16px 0;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+  #tallow-pdp .faq summary::-webkit-details-marker{display:none}
+  #tallow-pdp .faq summary::after{content:'+';font-size:22px;line-height:1;opacity:.5;flex:0 0 auto}
+  #tallow-pdp .faq details[open] summary::after{content:'\2212'}
+  #tallow-pdp .faq .fa{padding:0 0 18px;font-size:15px;line-height:1.65;opacity:.85}
 
   @media(min-width:820px){
     #tallow-pdp .wrap{padding:0 28px}
@@ -305,6 +318,8 @@
     <div class="check"><svg class="icon"><use href="#tlw-check"/></svg>Tight and dry by noon, whatever you use.</div>
     <div class="check"><svg class="icon"><use href="#tlw-check"/></svg>Retinol, HA, ceramides. None of them fixed it.</div>
     <div class="check"><svg class="icon"><use href="#tlw-check"/></svg>Tired of ingredients you can't pronounce.</div>
+    <div class="check"><svg class="icon"><use href="#tlw-check"/></svg>Years outside. Lotion never kept up.</div>
+    <div class="check"><svg class="icon"><use href="#tlw-check"/></svg>A bottle in three rooms and it still didn't hold.</div>
   </div>
 </div></section>
 
@@ -325,6 +340,7 @@
     <div class="to">↓</div>
     <div class="side good"><div class="big">1</div><div class="lbl">jar · 4 ingredients · absorbs in 2 minutes</div></div>
   </div>
+  <div class="math-note">One jar is 2 to 3 months of daily use. That's about 60 cents a day to replace the whole drawer.</div>
 </div></section>
 
 <section class="band" style="background:var(--cream-2)"><div class="wrap">
@@ -369,6 +385,32 @@
   </div>
 </div></section>
 
+<section class="band" style="background:var(--cream-2)"><div class="wrap">
+  <div class="center"><div class="eyebrow">Questions</div><h2 class="sec mt">The things people ask before trying it.</h2></div>
+  <div class="faq mt">
+    <details>
+      <summary>How long does one jar last?</summary>
+      <div class="fa">2 to 3 months with daily use on face and neck. Longer if you use it only at night. A little goes a long way.</div>
+    </details>
+    <details>
+      <summary>Is this a subscription?</summary>
+      <div class="fa">No. One-time purchase. You buy another jar if and when you want one, that's it.</div>
+    </details>
+    <details>
+      <summary>Can I use it on more than my face?</summary>
+      <div class="fa">Yes. Face, neck, hands, elbows, anywhere dry. Plenty of customers use it head to toe.</div>
+    </details>
+    <details>
+      <summary>What if my skin is sensitive?</summary>
+      <div class="fa">4 ingredients, no fragrance, no chemicals. Tallow is one of the gentlest moisturizers there is. If your skin reacts to everything else, this is worth trying, and the guarantee covers you if it doesn't agree with you.</div>
+    </details>
+    <details>
+      <summary>What if it doesn't work for me?</summary>
+      <div class="fa">Use it for 60 days. If your skin doesn't love it, email us and we refund every penny. No hoops, no sending anything back.</div>
+    </details>
+  </div>
+</div></section>
+
 <section class="band final"><div class="wrap">
   <h2 class="sec">Your skin changed. This was made for that.</h2>
   {%- form 'product', product, id: 'tlw-form-final', class: 'pf' -%}
@@ -387,11 +429,18 @@
 </div></section>
 
 <!-- STICKY MOBILE ATC (real form) -->
-<div class="sticky">
-  <div class="p">{{ section.settings.price_sale }}</div>
+<div class="sticky" id="tlw-sticky">
+  {%- if product.featured_image -%}
+    <img class="s-thumb" src="{{ product.featured_image | image_url: width: 120 }}" alt="{{ product.title | escape }}" loading="lazy" width="48" height="48">
+  {%- endif -%}
+  <div class="s-info">
+    <div class="p">{{ section.settings.price_sale }}{%- if section.settings.price_compare != blank -%} <s class="s-was">{{ section.settings.price_compare }}</s>{%- endif -%}</div>
+    <div class="s-sub">60-day guarantee · Free shipping</div>
+  </div>
   {%- form 'product', product, id: 'tlw-form-sticky', class: 'pf' -%}
     <input type="hidden" name="id" value="{{ v.id }}">
     <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
+      <svg class="icon" style="width:16px;height:16px"><use href="#tlw-cart"/></svg>
       {%- if v.available -%}Add to Cart{%- else -%}Sold Out{%- endif -%}
     </button>
   {%- endform -%}
@@ -527,6 +576,20 @@
     fetch('/cart/change.js',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({id:key,quantity:qty})})
       .then(function(r){return r.json();}).then(render);
   });
+})();
+
+/* Sticky ATC: slide in only after the main buy box scrolls out of view */
+(function(){
+  var sticky=document.getElementById('tlw-sticky');
+  var buyBox=document.getElementById('tlw-form-hero');
+  if(!sticky) return;
+  if(!buyBox||!('IntersectionObserver' in window)){ sticky.classList.add('on'); return; }
+  var io=new IntersectionObserver(function(entries){
+    var e=entries[0];
+    if(!e.isIntersecting && e.boundingClientRect.top<0){ sticky.classList.add('on'); }
+    else { sticky.classList.remove('on'); }
+  },{threshold:0});
+  io.observe(buyBox);
 })();
 </script>
 
