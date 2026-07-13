@@ -465,16 +465,13 @@
 <!-- ================= WELCOME EMAIL POPUP ================= -->
 {%- if section.settings.popup_active -%}
 <div class="tlw-popup-overlay" id="tlw-popup-overlay" hidden></div>
-<div class="tlw-popup" id="tlw-popup" hidden role="dialog" aria-label="Get 10% off">
-  <button type="button" class="tlw-popup-close" id="tlw-popup-close" aria-label="Close">
-    <svg class="icon"><use href="#tlw-x"/></svg>
-  </button>
+<div class="tlw-popup" id="tlw-popup" hidden role="dialog" aria-label="Unlock a mystery discount">
   {%- if product.featured_image -%}
     <div class="tlw-popup-img">{{ product.featured_image | image_url: width: 400 | image_tag: loading: 'lazy', alt: product.title }}</div>
   {%- endif -%}
   <div class="tlw-popup-body">
-    <h3>{{ section.settings.popup_heading | default: 'Get 10% off your first jar' }}</h3>
-    <p>{{ section.settings.popup_subtext | default: 'Real tallow, 4 ingredients, and a code in your inbox in the next minute.' }}</p>
+    <h3>{{ section.settings.popup_heading | default: 'Unlock a mystery discount' }}</h3>
+    <p>{{ section.settings.popup_subtext | default: 'Real tallow, 4 ingredients, and a surprise discount code in your inbox in the next minute.' }}</p>
     {%- form 'customer', class: 'tlw-popup-form' -%}
       {%- if form.posted_successfully? -%}
         <p class="tlw-popup-ok">Check your inbox, your code is on its way.</p>
@@ -482,10 +479,10 @@
         <input type="hidden" name="contact[tags]" value="site-popup-capture">
         <input type="hidden" name="contact[accepts_marketing]" value="true">
         <input type="email" name="contact[email]" placeholder="Your email" required aria-label="Email">
-        <button type="submit">Send me 10% off</button>
+        <button type="submit">Reveal my discount</button>
       {%- endif -%}
     {%- endform -%}
-    <button type="button" class="tlw-popup-skip" id="tlw-popup-skip">No thanks, I'll pay full price</button>
+    <button type="button" class="tlw-popup-skip" id="tlw-popup-skip">No, I'll continue shopping</button>
   </div>
 </div>
 {%- endif -%}
@@ -550,8 +547,6 @@
   #tallow-pdp .tlw-popup-overlay.show{opacity:1}
   #tallow-pdp .tlw-popup{position:fixed;top:50%;left:50%;transform:translate(-50%,-46%) scale(.96);opacity:0;width:min(420px,90vw);max-height:88vh;overflow-y:auto;background:var(--cream);border-radius:18px;z-index:71;box-shadow:0 20px 60px rgba(0,0,0,.28);transition:transform .25s ease,opacity .25s ease}
   #tallow-pdp .tlw-popup.show{transform:translate(-50%,-50%) scale(1);opacity:1}
-  #tallow-pdp .tlw-popup-close{position:absolute;top:12px;right:12px;width:32px;height:32px;border-radius:50%;border:none;background:rgba(0,0,0,.06);cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:2}
-  #tallow-pdp .tlw-popup-close .icon{width:16px;height:16px}
   #tallow-pdp .tlw-popup-img{aspect-ratio:16/9;overflow:hidden;border-radius:18px 18px 0 0;background:var(--cream-2)}
   #tallow-pdp .tlw-popup-img img{width:100%;height:100%;object-fit:cover;display:block}
   #tallow-pdp .tlw-popup-body{padding:26px 26px 24px;text-align:center}
@@ -661,7 +656,7 @@
   io.observe(buyBox);
 })();
 
-/* Welcome popup: show once per session, after a delay, remember dismissal/signup */
+/* Welcome popup: show immediately on landing, once per session, remember dismissal/signup */
 (function(){
   var overlay=document.getElementById('tlw-popup-overlay');
   var popup=document.getElementById('tlw-popup');
@@ -681,10 +676,8 @@
     setTimeout(function(){ overlay.hidden=true; popup.hidden=true; }, 250);
     try{ sessionStorage.setItem(KEY,'1'); }catch(e){}
   }
-  setTimeout(show, 8000);
-  var closeBtn=document.getElementById('tlw-popup-close');
+  show();
   var skipBtn=document.getElementById('tlw-popup-skip');
-  if(closeBtn) closeBtn.addEventListener('click', hide);
   if(skipBtn) skipBtn.addEventListener('click', hide);
   overlay.addEventListener('click', hide);
   document.addEventListener('keydown', function(e){ if(e.key==='Escape' && !popup.hidden) hide(); });
@@ -707,8 +700,8 @@
     { "type": "text", "id": "anno_text", "label": "Announcement bar", "default": "Free shipping on every order · 60-day money-back guarantee" },
     { "type": "header", "content": "Welcome email popup" },
     { "type": "checkbox", "id": "popup_active", "label": "Show welcome popup (email for 10% off)", "default": true },
-    { "type": "text", "id": "popup_heading", "label": "Popup heading", "default": "Get 10% off your first jar" },
-    { "type": "text", "id": "popup_subtext", "label": "Popup subtext", "default": "Real tallow, 4 ingredients, and a code in your inbox in the next minute." },
+    { "type": "text", "id": "popup_heading", "label": "Popup heading", "default": "Unlock a mystery discount" },
+    { "type": "text", "id": "popup_subtext", "label": "Popup subtext", "default": "Real tallow, 4 ingredients, and a surprise discount code in your inbox in the next minute." },
     { "type": "header", "content": "Extra photos (optional)" },
     { "type": "image_picker", "id": "lifestyle_image", "label": "Lifestyle photo (matches current ad angle)" },
     { "type": "text", "id": "lifestyle_caption", "label": "Lifestyle photo caption (optional)" },
