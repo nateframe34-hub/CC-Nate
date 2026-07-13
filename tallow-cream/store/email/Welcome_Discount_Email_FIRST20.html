@@ -57,7 +57,7 @@
 
         <tr>
           <td align="center" style="padding:2px 34px 0;">
-            <p style="margin:0;font-size:13px;color:#B44B2C;font-weight:bold;">Expires in 7 days, on {{EXPIRY_DATE}}.</p>
+            <p style="margin:0;font-size:13px;color:#B44B2C;font-weight:bold;">Expires in 7 days.</p>
           </td>
         </tr>
 
@@ -92,7 +92,7 @@
   - Heading block: "Here's your mystery discount."
   - Text block: "Real tallow, 4 ingredients, nothing you can't pronounce. Here's 20% off to try it for yourself."
   - Discount/code block (or styled text block): "FIRST20" - "20% off your first jar. Applied at checkout."
-  - Small urgency text (bold, warm red/orange, not the brand green): "Expires in 7 days, on {{EXPIRY_DATE}}."
+  - Small urgency text (bold, warm red/orange, not the brand green): "Expires in 7 days."
   - Button block: label "Shop Now Before It Expires", link -> product page URL with ?discount=FIRST20, or plain
     discount deep link: https://YOURSTORE.myshopify.com/discount/FIRST20?redirect=/products/whipped-tallow-honey-balm
   - Small text: "Code applies automatically through this link. Or enter FIRST20 at checkout."
@@ -105,10 +105,4 @@
   - The discount code ITSELF needs a matching 7-day expiry set in its Shopify admin
     "Active dates" field, the email's urgency copy is a lie if the code doesn't
     actually expire when it says it does, don't just change the copy and skip this.
-  - {{EXPIRY_DATE}}: Shopify Email doesn't compute dates dynamically inside the email,
-    this needs to come from the Flow (a "Get current date/time" style action plus a
-    date-math step, or simplest, hardcode it as founder builds each send since this is
-    a low-volume flow) so the printed date always matches the code's real expiry.
-    If that's not feasible right now, drop the specific date and keep just "Expires in
-    7 days" as the copy, still creates urgency without a risk of a stale/wrong date.
 -->
