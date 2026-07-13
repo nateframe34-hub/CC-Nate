@@ -462,6 +462,34 @@
   {%- endform -%}
 </div>
 
+<!-- ================= WELCOME EMAIL POPUP ================= -->
+{%- if section.settings.popup_active -%}
+<div class="tlw-popup-overlay" id="tlw-popup-overlay" hidden></div>
+<div class="tlw-popup" id="tlw-popup" hidden role="dialog" aria-label="Get 10% off">
+  <button type="button" class="tlw-popup-close" id="tlw-popup-close" aria-label="Close">
+    <svg class="icon"><use href="#tlw-x"/></svg>
+  </button>
+  {%- if product.featured_image -%}
+    <div class="tlw-popup-img">{{ product.featured_image | image_url: width: 400 | image_tag: loading: 'lazy', alt: product.title }}</div>
+  {%- endif -%}
+  <div class="tlw-popup-body">
+    <h3>{{ section.settings.popup_heading | default: 'Get 10% off your first jar' }}</h3>
+    <p>{{ section.settings.popup_subtext | default: 'Real tallow, 4 ingredients, and a code in your inbox in the next minute.' }}</p>
+    {%- form 'customer', class: 'tlw-popup-form' -%}
+      {%- if form.posted_successfully? -%}
+        <p class="tlw-popup-ok">Check your inbox, your code is on its way.</p>
+      {%- else -%}
+        <input type="hidden" name="contact[tags]" value="site-popup-capture">
+        <input type="hidden" name="contact[accepts_marketing]" value="true">
+        <input type="email" name="contact[email]" placeholder="Your email" required aria-label="Email">
+        <button type="submit">Send me 10% off</button>
+      {%- endif -%}
+    {%- endform -%}
+    <button type="button" class="tlw-popup-skip" id="tlw-popup-skip">No thanks, I'll pay full price</button>
+  </div>
+</div>
+{%- endif -%}
+
 <!-- ================= AJAX CART DRAWER ================= -->
 <div class="tlw-drawer-overlay" hidden></div>
 <aside class="tlw-drawer" hidden aria-label="Cart">
@@ -482,19 +510,6 @@
     </div>
     <a class="btn tlw-d-checkout" href="/checkout">Check out</a>
     <button type="button" class="tlw-d-keep">Keep shopping</button>
-    <div class="tlw-d-capture" id="tlw-d-capture">
-      {%- form 'customer', class: 'tlw-d-capture-form' -%}
-        {%- if form.posted_successfully? -%}
-          <p class="tlw-d-capture-ok">Saved. Check your email for 10% off.</p>
-        {%- else -%}
-          <p>Not ready yet? Leave your email and we'll hold your cart, plus send 10% off your first jar.</p>
-          <input type="hidden" name="contact[tags]" value="cart-abandon-capture">
-          <input type="hidden" name="contact[accepts_marketing]" value="true">
-          <input type="email" name="contact[email]" placeholder="Your email" required aria-label="Email">
-          <button type="submit">Save my cart</button>
-        {%- endif -%}
-      {%- endform -%}
-    </div>
   </div>
 </aside>
 
@@ -529,13 +544,25 @@
   #tallow-pdp .tlw-d-trust{display:flex;justify-content:center;gap:18px;font-size:12px;color:var(--grey);margin-bottom:12px;flex-wrap:wrap}
   #tallow-pdp .tlw-d-trust span{display:inline-flex;align-items:center;gap:5px}
   #tallow-pdp .tlw-d-trust .icon{width:14px;height:14px}
-  #tallow-pdp .tlw-d-capture{margin-top:16px;padding-top:16px;border-top:1px dashed var(--line)}
-  #tallow-pdp .tlw-d-capture p{font-size:12.5px;color:var(--grey);margin:0 0 8px;line-height:1.4}
-  #tallow-pdp .tlw-d-capture-ok{color:var(--green);font-weight:600}
-  #tallow-pdp .tlw-d-capture-form{display:flex;gap:8px}
-  #tallow-pdp .tlw-d-capture-form input[type="email"]{flex:1;min-width:0;padding:9px 10px;border:1px solid var(--line);border-radius:8px;font-size:13px;font-family:inherit}
-  #tallow-pdp .tlw-d-capture-form button{flex:0 0 auto;padding:9px 14px;border:none;border-radius:8px;background:var(--ink);color:var(--cream);font-size:13px;font-weight:600;cursor:pointer;font-family:inherit}
   #tallow-pdp .tlw-d-keep{display:block;width:100%;background:none;border:none;color:var(--grey);font-size:13px;text-decoration:underline;cursor:pointer;margin-top:12px;font-family:inherit}
+
+  #tallow-pdp .tlw-popup-overlay{position:fixed;inset:0;background:rgba(20,15,8,.55);z-index:70;opacity:0;transition:opacity .25s ease}
+  #tallow-pdp .tlw-popup-overlay.show{opacity:1}
+  #tallow-pdp .tlw-popup{position:fixed;top:50%;left:50%;transform:translate(-50%,-46%) scale(.96);opacity:0;width:min(420px,90vw);max-height:88vh;overflow-y:auto;background:var(--cream);border-radius:18px;z-index:71;box-shadow:0 20px 60px rgba(0,0,0,.28);transition:transform .25s ease,opacity .25s ease}
+  #tallow-pdp .tlw-popup.show{transform:translate(-50%,-50%) scale(1);opacity:1}
+  #tallow-pdp .tlw-popup-close{position:absolute;top:12px;right:12px;width:32px;height:32px;border-radius:50%;border:none;background:rgba(0,0,0,.06);cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:2}
+  #tallow-pdp .tlw-popup-close .icon{width:16px;height:16px}
+  #tallow-pdp .tlw-popup-img{aspect-ratio:16/9;overflow:hidden;border-radius:18px 18px 0 0;background:var(--cream-2)}
+  #tallow-pdp .tlw-popup-img img{width:100%;height:100%;object-fit:cover;display:block}
+  #tallow-pdp .tlw-popup-body{padding:26px 26px 24px;text-align:center}
+  #tallow-pdp .tlw-popup-body h3{font-family:Georgia,'Times New Roman',serif;font-size:23px;font-weight:600;margin:0 0 8px}
+  #tallow-pdp .tlw-popup-body p{font-size:14px;color:var(--grey);line-height:1.5;margin:0 0 18px}
+  #tallow-pdp .tlw-popup-ok{color:var(--green);font-weight:600}
+  #tallow-pdp .tlw-popup-form{display:flex;flex-direction:column;gap:10px}
+  #tallow-pdp .tlw-popup-form input[type="email"]{padding:13px 14px;border:1px solid var(--line);border-radius:9px;font-size:15px;font-family:inherit;width:100%;box-sizing:border-box}
+  #tallow-pdp .tlw-popup-form button{padding:13px 14px;border:none;border-radius:9px;background:var(--green);color:#fff;font-size:15px;font-weight:600;cursor:pointer;font-family:inherit}
+  #tallow-pdp .tlw-popup-skip{display:block;width:100%;background:none;border:none;color:var(--grey);font-size:12.5px;text-decoration:underline;cursor:pointer;margin-top:14px;font-family:inherit}
+  @media (max-width:480px){ #tallow-pdp .tlw-popup{width:92vw} #tallow-pdp .tlw-popup-body{padding:22px 20px 20px} }
 </style>
 
 <script>
@@ -633,6 +660,35 @@
   },{threshold:0});
   io.observe(buyBox);
 })();
+
+/* Welcome popup: show once per session, after a delay, remember dismissal/signup */
+(function(){
+  var overlay=document.getElementById('tlw-popup-overlay');
+  var popup=document.getElementById('tlw-popup');
+  if(!overlay||!popup) return;
+  var KEY='tlw_popup_dismissed';
+  var already=false;
+  try{ already = sessionStorage.getItem(KEY) === '1'; }catch(e){}
+  var formPosted = !!popup.querySelector('.tlw-popup-ok');
+  if(already || formPosted) return;
+
+  function show(){
+    overlay.hidden=false; popup.hidden=false;
+    requestAnimationFrame(function(){ overlay.classList.add('show'); popup.classList.add('show'); });
+  }
+  function hide(){
+    overlay.classList.remove('show'); popup.classList.remove('show');
+    setTimeout(function(){ overlay.hidden=true; popup.hidden=true; }, 250);
+    try{ sessionStorage.setItem(KEY,'1'); }catch(e){}
+  }
+  setTimeout(show, 8000);
+  var closeBtn=document.getElementById('tlw-popup-close');
+  var skipBtn=document.getElementById('tlw-popup-skip');
+  if(closeBtn) closeBtn.addEventListener('click', hide);
+  if(skipBtn) skipBtn.addEventListener('click', hide);
+  overlay.addEventListener('click', hide);
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && !popup.hidden) hide(); });
+})();
 </script>
 
 </div>{%- comment -%} /#tallow-pdp {%- endcomment -%}
@@ -649,6 +705,10 @@
     { "type": "text", "id": "price_save", "label": "Savings badge", "default": "Save $20" },
     { "type": "header", "content": "Hero" },
     { "type": "text", "id": "anno_text", "label": "Announcement bar", "default": "Free shipping on every order · 60-day money-back guarantee" },
+    { "type": "header", "content": "Welcome email popup" },
+    { "type": "checkbox", "id": "popup_active", "label": "Show welcome popup (email for 10% off)", "default": true },
+    { "type": "text", "id": "popup_heading", "label": "Popup heading", "default": "Get 10% off your first jar" },
+    { "type": "text", "id": "popup_subtext", "label": "Popup subtext", "default": "Real tallow, 4 ingredients, and a code in your inbox in the next minute." },
     { "type": "header", "content": "Extra photos (optional)" },
     { "type": "image_picker", "id": "lifestyle_image", "label": "Lifestyle photo (matches current ad angle)" },
     { "type": "text", "id": "lifestyle_caption", "label": "Lifestyle photo caption (optional)" },
