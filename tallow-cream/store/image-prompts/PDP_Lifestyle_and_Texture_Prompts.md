@@ -37,6 +37,15 @@ An ultra-realistic macro/close-up photo of a hand's fingertip pressing a small a
 
 ---
 
+## 3. Welcome popup image (`popup_image`)
+
+**Placement:** top of the "mystery discount" popup, replaces the flat product studio shot that was there by default (falls back to it if this setting is left blank).
+**Why the studio shot doesn't work here:** the popup's whole job is to feel like a warm, low-stakes invitation ("here's a little something"), not a product spec sheet. A jar on a plain background reads as a catalog photo, the wrong register for a moment that's supposed to feel like a gift, not a purchase decision.
+**Purpose:** a warmer, more inviting shot that makes opening the jar feel like a small discovery, closer to unboxing/gift energy than product photography.
+
+**Prompt:**
+An ultra-realistic overhead or three-quarter angle photo of the open Whipped Tallow & Honey Balm jar on a warm wooden counter or linen surface, soft natural window light, a small wooden spoon or fingertip resting near the open lid with a bit of the whipped balm visible and scooped, texture clearly visible. Warm, cozy color grade (honey and cream tones), shallow depth of field with a soft blurred background, no other products or clutter in frame. Styled like a lifestyle "here's what's waiting for you" shot, a little more polished than the phone-quality ad creatives since this is a branded moment, not an ad, but still warm and inviting rather than sterile studio lighting. No text, no logos, no hands with jewelry or manicure (keep it neutral/universal). 16:9 aspect ratio to match the popup's image frame.
+
 ## Notes
 - Both settings are optional (`{%- if ... != blank -%}`), the page degrades gracefully with either or both left empty, no broken layout.
 - Once generated, upload via the theme customizer under this section's "Extra photos" settings group, no code changes needed after that.

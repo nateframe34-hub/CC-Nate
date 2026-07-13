@@ -467,7 +467,11 @@
 <div class="tlw-popup-overlay" id="tlw-popup-overlay" hidden></div>
 <div class="tlw-popup" id="tlw-popup" hidden role="dialog" aria-label="Unlock a mystery discount">
   {%- if product.featured_image -%}
-    <div class="tlw-popup-img">{{ product.featured_image | image_url: width: 400 | image_tag: loading: 'lazy', alt: product.title }}</div>
+    {%- if section.settings.popup_image != blank -%}
+      <div class="tlw-popup-img">{{ section.settings.popup_image | image_url: width: 500 | image_tag: loading: 'lazy', alt: 'Whipped tallow balm' }}</div>
+    {%- elsif product.featured_image -%}
+      <div class="tlw-popup-img">{{ product.featured_image | image_url: width: 400 | image_tag: loading: 'lazy', alt: product.title }}</div>
+    {%- endif -%}
   {%- endif -%}
   <div class="tlw-popup-body">
     <h3>{{ section.settings.popup_heading | default: 'Unlock a mystery discount' }}</h3>
@@ -700,6 +704,7 @@
     { "type": "text", "id": "anno_text", "label": "Announcement bar", "default": "Free shipping on every order · 60-day money-back guarantee" },
     { "type": "header", "content": "Welcome email popup" },
     { "type": "checkbox", "id": "popup_active", "label": "Show welcome popup (email for 10% off)", "default": true },
+    { "type": "image_picker", "id": "popup_image", "label": "Popup image (falls back to product photo)" },
     { "type": "text", "id": "popup_heading", "label": "Popup heading", "default": "Unlock a mystery discount" },
     { "type": "text", "id": "popup_subtext", "label": "Popup subtext", "default": "Real tallow, 4 ingredients, and a surprise discount code in your inbox in the next minute." },
     { "type": "header", "content": "Extra photos (optional)" },
