@@ -278,7 +278,7 @@
     {%- endform -%}
 
     {%- if section.settings.gift_card_active -%}
-    <div class="gift-callout"><svg class="icon"><use href="#tlw-gift"/></svg><span>{{ section.settings.gift_card_text | default: 'Get a $10 gift card with your first purchase' }}</span></div>
+    <div class="gift-callout"><svg class="icon"><use href="#tlw-gift"/></svg><span>{{ section.settings.gift_card_text | default: 'Get a $10 gift card with your purchase' }}</span></div>
     {%- endif -%}
 
     <div class="micro">
@@ -553,7 +553,7 @@
     { "type": "text", "id": "subtitle", "label": "Subtitle", "default": "Face & Body · 4 Ingredients · 120g" },
     { "type": "text", "id": "ship_text", "label": "Shipping line", "default": "Free shipping · ships in 1-2 days" },
     { "type": "checkbox", "id": "gift_card_active", "label": "Show $10 gift card callout under ATC", "default": true },
-    { "type": "text", "id": "gift_card_text", "label": "Gift card callout text", "default": "Get a $10 gift card with your first purchase" },
+    { "type": "text", "id": "gift_card_text", "label": "Gift card callout text", "default": "Get a $10 gift card with your purchase" },
     { "type": "header", "content": "Proof stats (after 2 weeks)" },
     { "type": "text", "id": "stat1_n", "label": "Stat 1 number", "default": "94%" },
     { "type": "text", "id": "stat1_t", "label": "Stat 1 text", "default": "said skin felt softer all day" },
