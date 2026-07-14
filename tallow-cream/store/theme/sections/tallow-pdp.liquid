@@ -660,7 +660,7 @@
   io.observe(buyBox);
 })();
 
-/* Welcome popup: show immediately on landing, once per session, remember dismissal/signup */
+/* Welcome popup: show 5s after landing, once per session, remember dismissal/signup */
 (function(){
   var overlay=document.getElementById('tlw-popup-overlay');
   var popup=document.getElementById('tlw-popup');
@@ -680,7 +680,7 @@
     setTimeout(function(){ overlay.hidden=true; popup.hidden=true; }, 250);
     try{ sessionStorage.setItem(KEY,'1'); }catch(e){}
   }
-  show();
+  setTimeout(show, 5000);
   var skipBtn=document.getElementById('tlw-popup-skip');
   if(skipBtn) skipBtn.addEventListener('click', hide);
   overlay.addEventListener('click', hide);
