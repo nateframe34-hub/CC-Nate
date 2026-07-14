@@ -10,7 +10,12 @@
 
 B17C1 is not a new creative. It's the B9C3 script ("The Counter With One Thing") run verbatim as the control cell in the B17 urgency test. Same copy, same image, same everything. It has now converted across two different Business Managers, an ABO test, and a CBO, at a lifetime **$31.30 CPA and 1.60x ROAS on 4 purchases**, with a best single day of 7.52x ROAS. It's the only ad in the account's history to convert repeatedly across multiple environments rather than once and burn out.
 
-**Sub-avatar:** The Invisible Woman (per the retired demographic naming, still the account's only validated converting avatar - this predates the SA-numbered desire-first system in `Brand_Mastery.md`, which currently only covers SA6+ and hasn't yet re-derived Invisible Woman's desire/experience/emotion under the new framework).
+**Sub-avatar, corrected 2026-07-14:** "Invisible Woman" is retired. That demographic-identity label is structurally wrong under the account's current desire-first system (`Brand_Mastery.md`) and must not be used going forward, for this ad or any other. Mapped to the current SA-numbered system, B17C1 is actually **three sub-avatars stacked in one ad**, which is very likely part of why it's the strongest creative in the library:
+- **SA2 The Product Graveyard** is the lead angle. SA2's own locked, converting hook in `Brand_Mastery.md` is "One jar. Fourteen down." - that IS this ad's Meta headline, verbatim.
+- **SA4 The Tight-by-Noon** supplies the habit-cessation mid-beat. SA4's listed hook, "She stopped carrying lotion in three places. Didn't notice for weeks," is this ad's travel-packet beat, verbatim.
+- **SA3 The Unnoticed** supplies the close. SA3's listed hook, "He stopped mid-sentence. 'You look different,'" is this ad's husband-at-the-table close, verbatim.
+
+This ad was written before the SA-numbered system existed, so the stacking wasn't deliberate at the time, but `Brand_Mastery.md` has already independently identified all three of these as converting/TESTED angles by reverse-engineering this exact ad's beats. The account's own doc essentially confirms: this ad works because it's 3 proven desires chained into one story, not because of a single "avatar."
 
 **Angle / hook format:** Object-discovery. The narrator notices one jar on a friend's near-empty bathroom counter, where there used to be seven products. That single image - scarcity where there used to be clutter - is the entire hook.
 
@@ -52,6 +57,17 @@ Two separate things are tangled here, and the account's own feedback file alread
 That's consistent with something the account has separately confirmed via the funnel audit: the real leak is ATC→Checkout, not Click→ATC. Urgency variants generating clicks without generating purchases is the same shape of problem playing out at the ad level.
 
 ---
+
+## Correction: hook/image variants were already tried once, and epically failed - don't repeat that mistake
+
+Before B17 (which varied urgency on top of B9C3's body), the account ran **B6**, which directly varied the husband-notice CLOSE hook/moment against the proven "your skin looks different" verbal comment (source: `Killed_Batch_Failure_Analysis.md`, Pattern F). All three variants failed hard:
+- **B6C1 Silent Touch** (wordless touch instead of a spoken comment): 5 impressions total, CBO never committed real budget, no conversion. Treated as noise, not signal.
+- **B6C2 Unposed Photo** (husband takes a candid photo instead of speaking): 13 impressions, 0% CTR, never delivered.
+- **B6C3 Spoken Compliment** ("you look beautiful" instead of "your skin looks different"): 37 impressions, 2.70% CTR, 0 LPV, functionally dead.
+
+The account's own conclusion from that test, already written down: **the mechanism has to be SKIN-SPECIFIC, not a generic compliment or a wordless gesture.** "Your skin looks different" converts. "You look beautiful" and silent touch do not, because the reader can't extrapolate a vague gesture back to the product. This is a real, already-answered finding, not a new hypothesis to re-test.
+
+**What this means for the "next test" recommendations below:** any new hook/setting variant needs to preserve the same specificity discipline B6 proved out, vague or subtler substitutions have already failed once. This isn't a reason to avoid testing hooks (B17's urgency layer, not hook variation, is what actually failed most recently), it's a constraint on HOW to test them: new hooks must stay concrete and specific (a named object, a named place, a specific line of dialogue), not softer or more suggestive than what's already proven.
 
 ## What we still don't actually know (the account has never isolated these)
 

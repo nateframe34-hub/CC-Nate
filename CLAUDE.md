@@ -29,7 +29,7 @@ Key principles (covered in detail in that file):
 
 **Status:** Ads currently paused. The BM was banned (Meta flagged it as a bot, not a content/compliance issue). Nate is warming up a new BM — personal account activity first, then BM + partner page creation, then engagement campaign warmup, then purchase ads. Ads will resume once warmup is complete.
 
-**Pre-pause performance:** 4 converters identified (B3C2, B5C1, B7C1, B9C3 — all Invisible Woman avatar). Closest to "winner" status: B9C3 The Counter With One Thing. None of the 4 has hit the winner bar yet (sustained 2+ ROAS over 3 days). See `tallow-cream/feedback-loops/Converter_Pattern_Synthesis.md` for the working pattern.
+**Pre-pause performance:** 4 converters identified (B3C2, B5C1, B7C1, B9C3). Closest to "winner" status: B9C3 The Counter With One Thing. None of the 4 has hit the winner bar yet (sustained 2+ ROAS over 3 days). See `tallow-cream/feedback-loops/Converter_Pattern_Synthesis.md` for the working pattern. **"Invisible Woman" is RETIRED, structurally wrong, do not use it for tallow.** It was the old demographic-identity avatar label these converters were originally written under. It has been superseded by the desire-first SA-numbered system in `Brand_Mastery.md`. B9C3/B17C1 specifically has been remapped: SA2 The Product Graveyard is the lead angle, SA4 The Tight-by-Noon is the habit-cessation mid-beat, SA3 The Unnoticed is the close. See `tallow-cream/feedback-loops/B17C1_Deep_Analysis_Why_It_Works.md` for the full breakdown.
 
 **Launch queue (written, awaiting new BM):** B11 Working Hands Man (CPM diagnostic), B12 C2/C3 (Pond's nostalgia + Daughter Sent It), B13 Photo Avoider (3 ads), B14 Retinol Burnout (3 ads).
 
@@ -37,7 +37,7 @@ Key principles (covered in detail in that file):
 
 **Brand voice:** Real-woman, dry humor, self-deprecating, never spa/luxe/clean-beauty language. Voice rules enforced in every ad — see `Tallow_Ad_Creative_Principles.md` for the banned-phrase list.
 
-**Avatars:** Invisible Woman is the validated converter avatar. Homesteader Mom (B10) tested and killed for non-converting CPMs. Working Hands Man, Carnivore Woman, Postpartum Mom, Photo Avoider, Retinol Burnout, and others in research/draft stages. See `tallow-cream/avatars/` for full roster.
+**Avatars:** the account now runs on `Brand_Mastery.md`'s desire-first SA-numbered sub-avatars, NOT the old demographic labels ("Invisible Woman," "Homesteader Mom," "Working Hands Man" are all retired naming, kept only as historical batch-name references). SA2 The Product Graveyard, SA3 The Unnoticed, and SA4 The Tight-by-Noon are the account's validated converting angles (see the CPM Reduction/Converter analysis in `tallow-cream/feedback-loops/`). SA6 The Sun-Lived is activated for B26+. SA8 The Fast-Loser is researched, B27 candidate. See `tallow-cream/avatars/` for retired demographic profiles (kept as language research only) and `Brand_Mastery.md` for the current system.
 
 ---
 
@@ -78,7 +78,7 @@ Everything is USD. Ad account switched to USD billing March 2026 (charges USD to
 | `tallow-cream/tracking/Ad_Performance_Tracker.csv` | Daily ad performance |
 | `tallow-cream/tracking/Tallow_Brand_Growth_Sheet.csv` | Batch plans + status |
 | `tallow-cream/tracking/Kill_Rules_and_Decision_Framework.md` | Hard/soft kill rules (may need recalibration for fresh-BM CPMs) |
-| `tallow-cream/avatars/` | Sub-avatar research roster (Invisible Woman validated, others pending) |
+| `tallow-cream/avatars/` | Retired demographic-avatar profiles (language research only, superseded by `Brand_Mastery.md`'s SA-numbered system for ad creation) |
 | `tallow-cream/feedback-loops/` | Per-ad postmortems |
 | `tallow-cream/feedback-loops/Converter_Pattern_Synthesis.md` | Cross-cutting analysis of what the 4 early converters share |
 | `tallow-cream/ads/batch-N/copy/` | Ad copy by batch (B1-B14) |
@@ -152,6 +152,6 @@ Update HANDOFF.md inline as work happens, not at the end. Three concrete trigger
 - Don't assume "this project" means NMN — tallow is the active brand. NMN is dormant.
 - Don't reference QR-to-COA / bottle scanning for NMN — that's a future feature, not on the current product
 - Don't apply NMN brand voice to tallow ads, or vice versa — they're different voices for different audiences
-- Don't treat the Invisible Woman avatar as identical between brands — tallow Invisible Woman is about skin change after 40, NMN Invisible Woman is about energy/fatigue. Same demographic, different framing.
+- Don't use "Invisible Woman" for TALLOW, that label is retired and structurally wrong, tallow runs on `Brand_Mastery.md`'s SA-numbered desire-first system now (SA2/SA3/SA4 for the proven converting angles). NMN (dormant) still uses its own separate "Invisible Woman" naming (energy/fatigue framing) in its own avatar system, that's a different brand's terminology and not affected by this correction, don't confuse the two.
 - Don't re-read the entire repo at the start of every session — use this file for context
 - Don't ask Nate to repeat context he's already given — check this file, SESSION_STATE.md, and the tracking CSVs first
