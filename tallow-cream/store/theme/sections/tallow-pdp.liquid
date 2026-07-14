@@ -168,11 +168,13 @@
   #tallow-pdp .sticky .pf{flex:0 0 auto}
   #tallow-pdp .sticky .btn{width:auto;padding:13px 20px;font-size:15px;display:inline-flex;align-items:center;gap:7px}
   #tallow-pdp .math-note{max-width:840px;margin:16px auto 0;text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:17px;font-style:italic;opacity:.85}
-  #tallow-pdp .lifestyle-photo{max-width:640px;margin:24px auto 0}
-  #tallow-pdp .lifestyle-photo img{width:100%;border-radius:14px;display:block;box-shadow:0 8px 24px rgba(0,0,0,.1)}
-  #tallow-pdp .lifestyle-photo .lp-cap{text-align:center;font-size:13px;opacity:.6;margin-top:8px;font-style:italic}
-  #tallow-pdp .texture-photo{max-width:520px;margin:28px auto 0}
-  #tallow-pdp .texture-photo img{width:100%;border-radius:14px;display:block}
+  #tallow-pdp .lifestyle-photo{max-width:420px;margin:24px auto 0;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px}
+  #tallow-pdp .lifestyle-photo .lp-frame{aspect-ratio:4/5;border-radius:10px;overflow:hidden}
+  #tallow-pdp .lifestyle-photo img{width:100%;height:100%;object-fit:cover;display:block}
+  #tallow-pdp .lifestyle-photo .lp-cap{text-align:center;font-size:13px;opacity:.6;margin-top:10px;font-style:italic}
+  #tallow-pdp .texture-photo{max-width:360px;margin:28px auto 0;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px}
+  #tallow-pdp .texture-photo .tp-frame{aspect-ratio:1/1;border-radius:10px;overflow:hidden}
+  #tallow-pdp .texture-photo img{width:100%;height:100%;object-fit:cover;display:block}
   #tallow-pdp .faq{max-width:760px;margin:0 auto}
   #tallow-pdp .faq details{border-bottom:1px solid var(--line)}
   #tallow-pdp .faq summary{cursor:pointer;font-family:Georgia,'Times New Roman',serif;font-weight:600;font-size:17px;padding:16px 0;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
@@ -328,7 +330,7 @@
   </div>
   {%- if section.settings.lifestyle_image != blank -%}
   <div class="lifestyle-photo mt">
-    {{ section.settings.lifestyle_image | image_url: width: 900 | image_tag: loading: 'lazy', alt: section.settings.lifestyle_caption | default: 'Real life, not a studio.', widths: '450,700,900' }}
+    <div class="lp-frame">{{ section.settings.lifestyle_image | image_url: width: 900 | image_tag: loading: 'lazy', alt: section.settings.lifestyle_caption | default: 'Real life, not a studio.', widths: '450,700,900' }}</div>
     {%- if section.settings.lifestyle_caption != blank -%}<div class="lp-cap">{{ section.settings.lifestyle_caption }}</div>{%- endif -%}
   </div>
   {%- endif -%}
@@ -344,7 +346,7 @@
   <div class="dbottom">Not a better cream. A different category.</div>
   {%- if section.settings.texture_image != blank -%}
   <div class="texture-photo mt">
-    {{ section.settings.texture_image | image_url: width: 700 | image_tag: loading: 'lazy', alt: 'Balm texture, absorbing into skin', widths: '350,500,700' }}
+    <div class="tp-frame">{{ section.settings.texture_image | image_url: width: 700 | image_tag: loading: 'lazy', alt: 'Balm texture, absorbing into skin', widths: '350,500,700' }}</div>
   </div>
   {%- endif -%}
 </div></section>
