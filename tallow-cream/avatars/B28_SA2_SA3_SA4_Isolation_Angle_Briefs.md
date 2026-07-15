@@ -1,17 +1,19 @@
-# B17C1 Isolation Test: 3 Angle Briefs (SA2, SA3, SA4 run standalone)
+# Batch 28: SA2/SA3/SA4 Isolation Test (3 Angle Briefs)
 
 **Date:** 2026-07-14
 **Why this exists:** `B17C1_Deep_Analysis_Why_It_Works.md` established that B17C1 (the account's best converter) is actually 3 sub-avatars stacked in one ad, SA2 The Product Graveyard as the lead hook, SA4 The Tight-by-Noon as the mid-beat, SA3 The Unnoticed as the close, never separated. This has never been isolated. These 3 briefs are the plan to run each desire standalone, as both hook AND close, to find out which one is actually load-bearing.
 
+**Batch numbering:** B27 is reserved (SA8/GLP-1, paused per founder). This is **Batch 28**: B28C1 = SA2 standalone, B28C2 = SA3 standalone, B28C3 = SA4 standalone. One batch, one launch, one set of tracking rows, same as how B17C1/C2/C3/C4 were organized.
+
 **Founder hypothesis, worth testing directly:** stacking 3 desires into one ad may be part of why B17C1's CPM is so expensive ($160-400+, see `B17C1_CPM_Diagnosis.md`). Meta's delivery system prices ads partly on how precisely it can predict who will act on them. A single-desire ad gives the algorithm a narrower, more legible signal to match against (one clear "who this is for"), where a 3-desire ad may be reading as a blurrier, harder-to-classify signal, forcing broader and more expensive delivery to find someone who responds to at least one of the three threads. This is a new candidate explanation, additive to the CPM diagnosis's existing #1 ranked cause (women 45-65 being expensive inventory generally) and #2 (personal-attribute classification risk from age-specific language) - a mixed-desire ad could be compounding both. **Adding this as a note to the CPM diagnosis file's ranked list is a fast follow after this test reads, not before.**
 
-**Isolation discipline (non-negotiable, per the B17 lesson):** each of these 3 runs in its OWN ad set/campaign from day one. Never share a CBO with a proven converter (B17C1 itself, or with each other) until each has had a real, uncontested read.
+**Isolation discipline, CRITICAL, this is the exact mistake B17 already made once: same batch label, but NOT one shared CBO.** B17's own feedback file's #1 structural lesson was "never launch a new test angle in the same ABO/CBO as a known converter" (or, as this test proves out, as another untested cell). If B28C1/C2/C3 launch together in one Campaign Budget Optimization pool, Meta will chase whichever cell gets an early signal first and starve the other two exactly like it did to C2 and C4 in B17, and this test will produce the same unusable partial-read mess instead of a clean 3-way comparison. **Set up as 3 separate ad sets, each with its OWN budget, inside the batch.** Same campaign/batch grouping for organization and tracking is fine, shared budget pool is not.
 
 **Locked across all 3 (do not vary, per Converter Pattern Synthesis):** Solution-Aware awareness level, Stage 3-4 sophistication response (tallow is a New Mechanism to a Stage-5-jaded buyer, needs the water-vs-oil reveal, not a bare benefit claim), accidental discovery (never sought out), peer-adjacent non-medical authority, water-vs-oil mechanism at 50-60% of body length, day-numbered progressive transformation (Day 1/4/9/14/21 shape), skeptic-convert beat, habit-cessation beat, 1,400-1,600 words, 10-element density, full compliance audit, zero em-dashes, 6th-grade readability. The ONLY thing that changes per batch is which desire is doing the hook and close work.
 
 ---
 
-## Batch X - SA2 The Product Graveyard, standalone
+## B28C1 - SA2 The Product Graveyard, standalone
 
 **Sub-avatar:** SA2 The Product Graveyard
 **Desire:** one thing that finally works; to stop the cycle of buying and being disappointed.
@@ -28,7 +30,7 @@
 
 ---
 
-## Batch Y - SA3 The Unnoticed, standalone
+## B28C2 - SA3 The Unnoticed, standalone
 
 **Sub-avatar:** SA3 The Unnoticed
 **Desire:** for the person across the table to look up and SEE them again.
@@ -47,7 +49,7 @@
 
 ---
 
-## Batch Z - SA4 The Tight-by-Noon, standalone
+## B28C3 - SA4 The Tight-by-Noon, standalone
 
 **Sub-avatar:** SA4 The Tight-by-Noon
 **Desire:** skin that just feels normal through a day; stop managing it.
@@ -66,13 +68,13 @@
 
 ---
 
-## Cross-batch analysis plan (after all 3 have real data)
+## Cross-cell analysis plan (after all 3 have real data)
 
 - **CPA/ROAS comparison** against B17C1's lifetime $31.30 CPA / 1.60x ROAS baseline.
-- **CPM comparison** against B17C1's $160-400+ range - this is the direct test of the founder's mixed-signal hypothesis. If one or more single-desire batch delivers materially cheaper than B17C1 while still converting, that's strong evidence the stacking itself was a CPM tax, not just the demographic/classification factors already identified.
+- **CPM comparison** against B17C1's $160-400+ range - this is the direct test of the founder's mixed-signal hypothesis. If one or more single-desire cell delivers materially cheaper than B17C1 while still converting, that's strong evidence the stacking itself was a CPM tax, not just the demographic/classification factors already identified.
 - **CTR-to-purchase ratio** - watch for the same "curiosity clicks that don't convert" pattern the B17 urgency test surfaced. A single-desire ad with high CTR and zero purchases would mean that desire earns attention but doesn't close alone, informative even as a "failure."
 - **Update `Brand_Mastery.md`'s SA2/SA3/SA4 entries** with the isolation results once in, especially SA3's "poor hook" flag, which this test directly interrogates.
 
 ---
 
-*Briefs only, no ad copy drafted yet. Full copy to follow once founder confirms which batch(es) to write first, or all 3 in parallel.*
+*Briefs only, no ad copy drafted yet. Full copy to follow once founder confirms which cell(s) to write first, or all 3 in parallel. Remember: 1 batch, 3 SEPARATE ad sets, never 1 shared CBO.*
