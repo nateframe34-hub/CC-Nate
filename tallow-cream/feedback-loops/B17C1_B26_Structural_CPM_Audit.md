@@ -45,7 +45,7 @@ B17C1 names Vermont and Brattleboro specifically (Aunt Winnie's location). B26C2
 
 ### 5. The product stays invisible for roughly half the ad, in text AND image, in every cell
 
-No ad in this format shows the jar in the image, and none names the product by name until 45-55% of the way through the copy. This is intentional (Solution-Aware discovery pacing, mechanism-before-reveal), but it also means that for the majority of the potential audience who will never read past the first few lines, the ad gives Meta's classifier almost nothing to categorize as "product ad" versus "personal story post." That ambiguity could be interacting with the auction's own ad-vs-content categorization in ways the account has never tested, since testing it would mean showing the product earlier, which the format currently treats as a hard rule.
+**Corrected 2026-07-15: this is true of B26, NOT B17C1.** B17C1's image IS the jar (one amber jar on a near-empty counter), an object shot with product-intent signal. B26's three images (garden, trail, sideline) contain no product at all, they target the angle population with zero purchase-intent signal in the creative. Per the B23 feedback loop's own conclusion (see swing assessment below), "what is that?"-type object clicks carry buying intent while lifestyle/looker clicks don't, and Meta prices purchase-optimized delivery on predicted BUYING, not predicted engagement. So the sharper version of this finding: **B26's product-free Andromeda images may be attracting the right population with the wrong intent signal**, which would explain B26's pattern of decent CTRs, cheap CPCs, and (until 7/14) zero cart activity. B17C1 is not affected by this finding. The copy half (product unnamed until ~50%) is shared by both and remains untested.
 
 ---
 
@@ -77,13 +77,52 @@ This is not a case for reverting the native strategy generally. B17C1 has 4 conf
 
 ---
 
-## Recommended tests, revised 2026-07-14 after founder correction
+## Swing assessment, 2026-07-15: which of these can actually move CPM enough to matter
+
+**The goal in dollars first.** Founder's target: CPC under $2, accepting some CTR loss if delivery gets cheaper. B17C1's last two logged days: $2.51 CPC ($210 CPM at 8.38% CTR) and $2.97 CPC ($314 CPM at 10.57% CTR). The arithmetic (CPC = CPM / (10 x CTR%)): at 8% CTR, CPC $2 needs CPM at or under $160. At 6% CTR, it needs $120. So the job is a 25-45% CPM reduction without losing more than a couple points of CTR. That's the bar every finding below is measured against.
+
+**The reframe that changes the whole ranking (from `batch-23/B23_Face_Bold_Creative_Feedback.md`, checked this pass):** under Purchase optimization, Meta prices impressions on predicted PURCHASES, not predicted engagement. B23 proved this the expensive way: the boldest, highest-CTR creatives the account ever ran (15-25% CTR face-reveals and swipe-style cells) got the WORST CPMs ever recorded ($442-595), because Meta watched a day of clicks produce zero carts and repriced. Two independent tests (whiteboard from the cheap-clicks direction, B23 from the expensive-impressions direction) landed on the same conclusion, already written in that feedback file: "stop chasing CPM through bolder/more engaging imagery." **This kills finding #2/test 3 (bolder image) as a test candidate. It was already run. It made CPM worse.** I floated it as the highest-value test in the first draft of this doc without checking B23's feedback loop, same mistake as the human-presence finding, corrected now.
+
+**The most important thing found this pass, and it isn't in the findings list at all:** B17C1 itself already demonstrated the CPM target is reachable. When it was relaunched as a fresh ad object on 7/5, it delivered at **$94-135 CPM and $2.20 CPC** (tracker line, 211 impressions, real read, not noise), then drifted back to $210-314 over the following ten days. The B23 feedback file drew the same conclusion at the time: "the real CPM lever was the stale ad object / fresh-object reset, not the imagery at all." A fresh ad object starts with a clean classification/learning slate, and this account's history suggests the drift back up is gradual, not instant. At $135 CPM and 8% CTR, CPC is $1.69, comfortably under the target, with ZERO copy changes.
+
+### Per-finding swing verdict
+
+| # | Finding | Verdict | Expected swing | Evidence |
+|---|---|---|---|---|
+| (new) | **Fresh-object reset** | REAL, already demonstrated | CPM to $94-135 (30-55% cut), decays over ~1-2 weeks | B17C1's own 7/5 relaunch |
+| 1 | Age-number strip | Most promising untested copy edit | Plausibly 10-30% if personal-attribute classification is real | Suggestive: B26C3 (no age number in body) is the cheapest B26 cell ($81-190) vs C1/C2 with "I'm 48" ($110-267). Tiny sample, directional only |
+| 2 | Bolder/more designed image | **DEAD, already disproven** | Made CPM worse ($442-595) | B23, all four cells, plus whiteboard from the other direction |
+| 3 | ASCII divider removal | Cheap curiosity, low expectation | 0-10%, probably ~0 | No cross-ad evidence either way; whiteboard's cheap cells also had short copy, confounded |
+| 4 | Place-name genericizing | Near-zero | ~0 | B26C2 (names Colorado) and B26C1 (doesn't) show no CPM separation |
+| 5 | Product-intent signal in B26 images | Real for B26 only, not B17C1 | Unknown, but consistent with B23's intent-pricing lesson | B17C1's jar image is the account's only proven-converting creative; B26's product-free images have decent CTR and (until 7/14) zero carts |
+| 8 | Villain-beat removal | Low. Same falsification logic the founder applied to #6/#7 | 0-10% | B17C1 has NO villain beat and is the most expensive ad; B26C3 has it and is the cheapest B26 cell. The beat can't be a primary driver |
+| 9 | Second-person imperative rewrite | Low, and NOT falsifiable by cross-ad comparison | 0-10% | Both B17C1 ("Read this part slowly") and B26C1 ("Go flip yours over") contain the pattern, so no ad without it exists to compare against. Founder also rates it unlikely |
+
+### What this means for the plan
+
+The two levers with real expected weight are the **fresh-object reset** (proven, free, repeatable, but decays) and the **age-number strip** (untested, directionally supported, permanent if it works). Everything else is a minor tweak riding along or already disproven.
+
+**Recommended structure: make B28 the CPM test.** The B28 isolation cells are brand-new ad objects with brand-new copy anyway, so they get the fresh-object reset for free. Write all three cells age-number-free (age conveyed by context: book club, grown kids, 26-year friendships, never a stated number), keep dividers or drop them uniformly across all three so the between-cell comparison stays clean. Then the batch does double duty: BETWEEN cells reads which desire converts (the original B28 question), and the BATCH vs B17C1's current $210-314 baseline reads whether fresh-object + single-desire + no-age-number delivers materially cheaper. If any cell holds near the 7/5 relaunch's $94-135 CPM zone at 6%+ CTR, CPC lands at $1.55-2.25 and the profitability math the founder wants is live.
+
+---
+
+## B17C1 mapped to Brand_Mastery angles, precisely (for the iteration work)
+
+Per `Brand_Mastery.md` Part 7's angle banks, B17C1 uses, in order of appearance:
+
+1. **SA2 Angle 1, "One jar replaces the shelf that failed"** as the HOOK and spine. The locked hook "One jar. Fourteen down." is this ad's literal Meta headline. The Elaine's-counter discovery scene and the fourteen-things inventory are this angle dramatized.
+2. **SA2 Angle 2, "Why everything you tried didn't work"** as the MECHANISM beat (~50-60% mark). "Every cream had water as the first ingredient... water evaporates in an hour" is that angle's hook ("Flip your moisturizer over. First ingredient: water.") delivered through Winnie/Elaine.
+3. **SA1 The Tired-Looking, as a light MID-BEAT** via the Sylvia scenes. `Brand_Mastery.md` itself credits "the Sylvia beat" as SA1's tested evidence. Day 9 and week 5, the coworker noticing something changed. Lightest of the four threads.
+4. **SA4 Angle 2, "Stop carrying backup"** as the HABIT-CESSATION beat. SA4's listed hook ("She stopped carrying lotion in three places. Didn't notice for weeks.") is this ad's travel-packets beat verbatim.
+5. **SA3 Angle 1, "He notices again"** as the CLOSE. SA3's hook ("He stopped mid-sentence. 'You look different.'") is the husband-table scene verbatim.
+
+So the precise iteration statement: **B17C1 = SA2-A1 hook + SA2-A2 mechanism + SA1 mid-beat + SA4-A2 habit beat + SA3-A1 close.** Four sub-avatars, five angle deployments, one ad. The B28 isolation cells each promote one of these from supporting beat to full spine, which is exactly the iteration path to finding the winning angle.
 
 Findings #6, #7, and #10 were disproven or downgraded by the founder against real account history (B17C1 has no competitor brand names or condition language and still runs high CPM; B21's H1-C already tested human-presence imagery on this exact ad and it didn't help). Test list cut down accordingly, ranked by remaining confidence.
 
 1. **Age-number strip test.** Duplicate B17C1 and one B26 cell, remove the specific age number ("I'm 54" -> a vaguer age-adjacent line, or cut entirely), keep every other word identical. Directly answers finding #1, cheap, fast, minimal creative risk. Still the strongest untested single-variable hypothesis in this doc.
 2. **Divider-removal test.** Duplicate one ad, replace all `========`/`-------------` dividers with plain paragraph breaks, otherwise byte-identical. Answers finding #3.
-3. **Bolder image test, deliberately breaking native camouflage.** Take one B26 cell's proven copy and pair it with a genuinely eye-catching, higher-contrast, more designed image (not a human-presence swap, that's already been tried per finding #10's correction, but a bolder/more graphic treatment of an empty scene, or a different visual approach entirely). If CPM drops materially with no CTR collapse, this is confirmed as a real driver. Still the highest-value remaining test since it challenges the deepest creative assumption and hasn't actually been isolated yet (B21's human-presence test answered a different, narrower question than pure visual boldness).
+3. ~~**Bolder image test.**~~ **WITHDRAWN 2026-07-15.** Already run as B23 (face-reveal + bold swipe-style cells, killed 7/5 at $442-595 CPM, the worst delivery ever recorded on the account) and confirmed from the opposite direction by whiteboard. The B23 feedback loop's standing conclusion applies: under Purchase optimization, CPM prices predicted purchase intent, not engagement, and bolder imagery attracts lookers, not buyers. Do not re-run without a fundamentally different theory (e.g., the image as PROOF tied to the claim, per B23's own "test next" note). See the swing assessment above.
 4. **Villain-beat softened/removed test.** Duplicate an ad with the industry-blame lines cut or rewritten as pure personal reflection with no industry-motive claim. Founder: worth testing. Medium priority since the current version hasn't caused an outright rejection, but it's the same framing family as a previously-killed ad.
 5. **First-person-only mechanism rewrite test.** Duplicate an ad with the "Go flip yours over. I'll wait." style second-person commands rewritten into first-person reported voice. Founder: worth testing but considered unlikely. Cheap enough to bundle with test 1 or 2 rather than run standalone.
 6. **Earlier product-reveal test.** A variant where the jar appears in the image and the product is named in the first third of the copy instead of the mid-point. Higher risk to the discovery-pacing mechanic that's proven to convert, sequence last.
