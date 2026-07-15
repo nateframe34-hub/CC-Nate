@@ -44,6 +44,10 @@ Some ad buyers report long-form native ads getting priced up because users dwell
 
 The copy passed the full compliance audit (zero strike-list words) and the ad has never been rejected. If item 2's diagnostics come back clean, this is fully dead.
 
+### 8. Three stacked desires reading as a blurrier targeting signal than one (NEW, 2026-07-14, UNTESTED)
+
+B17C1 is not a single-desire ad, it's SA2 (hook), SA4 (mid-beat), SA3 (close) stacked into one story (see `avatars/B17C1_Isolation_Test_Angle_Briefs.md`). A single clear desire may give Meta's delivery system a narrower, more legible "who this is for" signal to match against, where a 3-desire ad reads as a blurrier composite, forcing broader and more expensive delivery to find someone who responds to at least one of the three threads. This compounds with items 1 and 2 rather than replacing them, it's a plausible third multiplier, not an alternative explanation. Directly testable via the 3 isolation batches in the briefs doc above: if a single-desire version delivers materially cheaper than B17C1's $160-400+ while still converting, this hypothesis is confirmed.
+
 ## Recommended action order (cheapest information first)
 
 1. **Today, zero cost:** add Quality/Engagement/Conversion Ranking columns in Ads Manager for B17C1 and read them. Below-average quality ranking = item 2 confirmed as a major driver.
