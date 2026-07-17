@@ -3,7 +3,7 @@
 **Sub-Avatar:** SA4 The Tight-by-Noon (single-angle test, per `B28_Test_Skeleton_Single_Angle_Discipline.md`)
 **Angle:** Still there at 2pm (`Brand_Mastery.md` SA4 Angle 1, TESTED/CONVERTING via B19C2) + stop carrying backup (SA4 Angle 2, habit-cessation, this ad's own signature beat, kept native, NOT a graft)
 **Character type:** Peer + Skeptic Convert
-**Hook format:** Daily-repetition scene, the losing morning, NOT object-discovery and NOT remembered-absence (those belong to B28C1/C2)
+**Hook format:** External dialogue in a shared-ritual scene (coworker names the daily-repetition problem out loud), NOT object-discovery and NOT remembered-absence (those belong to B28C1/C2). Chief-review change: original draft opened solo-internal (narrator describing her own morning with no named person), which is the exact opener pattern `Killed_Batch_Failure_Analysis.md` rule 1 bans; restructured to open on the Priya Thursday exchange.
 **Close format:** SA4-native, absence-of-maintenance payoff, NOT the husband-notice close (that belongs to B28C2/SA3)
 **Awareness level:** Solution-Aware
 **Test constraints applied:** no stated age number anywhere in the body, no villain-beat industry-blame language, fresh ad object, dividers held identical to B28C1/C2.
@@ -12,9 +12,17 @@
 
 ## Body Copy
 
-Six thirty Tuesday morning, same as every morning. Moisturizer on before makeup. By nine it felt tight. By eleven I could feel it pulling when I smiled. By two it had cracked at the corners of my mouth, same spot every day, like a crease that never fully closes.
+My coworker Priya caught me reapplying lotion at my desk on a Thursday afternoon and said the thing neither of us had ever said out loud.
 
-I reapplied at my desk, in the car at lunch, and once more before I left the office. Three times. Every day. For longer than I can actually count.
+"Doesn't it seem insane that we do this every single day and it still doesn't hold?"
+
+We've sat two desks apart for years. We'd both been reapplying around the same time most afternoons, like a shared ritual neither of us ever named. I laughed, because it was true, and because I didn't have an answer.
+
+-------------
+
+Here's what my mornings looked like. Six thirty, moisturizer on before makeup. By nine it felt tight. By eleven I could feel it pulling when I smiled. By two it had cracked at the corners of my mouth, same spot every day, like a crease that never fully closes.
+
+So I reapplied. At my desk, in the car at lunch, once more before I left the office. Three times. Every day. For years.
 
 -------------
 
@@ -22,21 +30,11 @@ It wasn't dramatic. That's the thing nobody tells you about this kind of tired. 
 
 I kept a small tube in my purse, one in the car console, one in my bottom desk drawer. Three places. In case I got caught somewhere without one.
 
-I did the math on that once, sitting in the car during lunch, waiting for the light to change. Three reapplications a day, most days, for something like six years. I stopped doing the math when the number got embarrassing.
-
 That's the real low point. Not the tightness itself. The part where I'd built an entire backup system around a problem instead of ever questioning whether the problem should exist at all.
 
 -------------
 
-My coworker Priya sat two desks over for years. We'd both reapply around the same time most afternoons, like a shared ritual neither of us ever named out loud.
-
-One Thursday she caught me mid-reapply and said, "Doesn't it seem insane that we do this every single day and it still doesn't hold?"
-
-I laughed because it was true and I'd never actually said it out loud either.
-
--------------
-
-It was Priya's sister-in-law, a nurse, who explained it to her at a family thing, and Priya brought it back to my desk the following Monday.
+It was Priya's sister-in-law who explained it, at a family thing, and Priya brought it back to my desk the following Monday. The sister-in-law is the one in their family who reads the back of every bottle before she buys anything, the person you text a photo of a label to.
 
 Skin makes its own oil. It always has. After a certain point, most people just accept the tightness as normal and build a coping system around it instead of asking why it's happening.
 
@@ -70,19 +68,19 @@ Here's the part I didn't expect. I checked my car console a few days later. The 
 
 I hadn't decided to stop carrying backup. I'd just stopped needing it, and the backup sat there for weeks before I even noticed I hadn't reached for it once.
 
-That was the thing I actually wanted. Not softer skin. The not-thinking-about-it. The whole day going by without my face asking for anything.
+That was the thing I wanted. Not softer skin. The not-thinking-about-it. The whole day going by without my face asking for anything.
 
 -------------
 
 Priya asked me at the end of week five what I was still doing differently, because she'd noticed I'd stopped doing our shared afternoon ritual.
 
-I told her. The jar. The four ingredients. The math I'd stopped doing because it wasn't worth doing anymore.
+I told her. The jar. The four ingredients. The three backup tubes I hadn't touched in a month.
 
 She ordered one that afternoon.
 
 -------------
 
-A few weeks ago someone in a meeting asked me what my skincare routine was, the way people ask when they're fishing for a recommendation. I actually had to think about it before I answered.
+A few weeks ago someone in a meeting asked me what my skincare routine was, the way people ask when they're fishing for a recommendation. I had to think about it before I answered.
 
 "Nothing," I said. "That's kind of the whole thing now."
 

@@ -16,7 +16,7 @@ I can tell you the last time my husband said something about how I looked. Not g
 
 It was a Tuesday in October, almost two years ago. I'd gotten a haircut at lunch. Mark looked up when I walked in the door and said, "Oh, that's nice," and went back to his phone.
 
-That's the last one. I checked my own memory for a long time before I let myself believe that was really it.
+That's the last one. I checked my own memory for a long time before I let myself believe that was it.
 
 -------------
 
@@ -28,19 +28,19 @@ I didn't decide to stop expecting it. That's not how it works. You just quietly 
 
 -------------
 
-I caught myself doing the thing where you brace before you catch your reflection in a store window. Not dramatic, just a small flinch, expecting to see something disappointing before you've actually looked.
+I caught myself doing the thing where you brace before you catch your reflection in a store window. Not dramatic, just a small flinch, already braced before you've looked.
 
 My friend Renee noticed me do it once, at the mall, and asked what was wrong. I said nothing was wrong. I didn't have a way to explain that I was bracing for a compliment that was never going to come, and flinching anyway, out of habit.
 
-That's the actual low point. Not any particular thing about my face. The bracing. The habit of expecting to be disappointing before anyone's even looked.
+That's the actual low point. Not any particular thing about my face. The bracing. The habit of bracing for nothing.
 
 -------------
 
-I mentioned it to my sister-in-law Dana at a birthday dinner, half joking, the way you say a true thing while pretending it's a bit. "I don't think Mark's actually looked at my face in two years."
+I mentioned it to my sister-in-law Dana at a birthday dinner, half joking, the way you say a true thing while pretending it's a bit. "I don't think Mark has looked at my face in two years."
 
 She didn't laugh. She said, "Have you looked at yours?"
 
-I hadn't, not really. Not past the automatic once-over for lipstick on my teeth.
+I hadn't. Not past the automatic once-over for lipstick on my teeth.
 
 -------------
 
@@ -48,7 +48,7 @@ Dana was the one who explained the actual mechanism to me, a few weeks later, ov
 
 Skin makes its own oil. It always has. Most people don't connect what's changed on their face with what's changed underneath, they just assume it's the face itself getting worse.
 
-Every moisturizer she'd owned, she said, had water as the first ingredient. Flip the bottle, it's right there. Water evaporates in about an hour. You put it on in the morning and by the time anyone's actually looking at you across a table, it's already gone.
+Every moisturizer she'd owned, she said, had water as the first ingredient. Flip the bottle, it's right there. Water evaporates in about an hour. You put it on in the morning and by the time anyone's looking at you across a table, it's already gone.
 
 The fat in tallow, she said, is close to the same structure as the fat skin makes on its own, so it absorbs in instead of sitting on top and disappearing.
 

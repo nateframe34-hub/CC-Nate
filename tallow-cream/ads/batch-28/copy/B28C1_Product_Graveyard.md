@@ -38,7 +38,7 @@ Fourteen things.
 
 Cleanser. Toner. Vitamin C serum. Hyaluronic acid. A retinol I could barely use anymore because it burned. A day cream. A night cream. An eye cream. A lip treatment. A face oil I'd bought on Instagram. A brightening serum for dark spots. A neck cream. Two different lip balms.
 
-Fourteen. And somewhere in the last few years I'd quietly stopped expecting any of them to actually do anything. I just kept buying the next one anyway, the way you keep paying a subscription you forgot to cancel.
+Fourteen. And somewhere in the last few years I'd quietly stopped expecting any of them to do anything. I just kept buying the next one anyway, the way you keep paying a subscription you forgot to cancel.
 
 That's the real low point. Not the fourteen things. The part where I'd stopped believing the fifteenth would be any different, and bought it anyway.
 
@@ -74,7 +74,7 @@ Turns out it was one jar.
 
 Here's what Elaine told me Winnie had told her. Read this part slowly.
 
-Skin makes its own oil. It always has. Most people don't connect what's happening to their face with what's actually changed underneath, they just buy the next bottle instead.
+Skin makes its own oil. It always has. Most people don't connect what's happening to their face with what changed underneath, they just buy the next bottle instead.
 
 Every cream in Elaine's bathroom, every single one, had water as the first ingredient. She flipped each bottle over one afternoon and checked. Water. Glycerin second. Something unpronounceable third.
 
@@ -98,9 +98,9 @@ Day 1, I put it on before bed. It melted into my palm like warm honey. Thirty se
 
 Day 4, I woke up and touched my face before I opened my eyes. Soft. Not the thirty-minute fake soft that disappears in the shower. Underneath soft.
 
-Day 9, my coworker Sylvia asked me over lunch what I was doing different. We've worked two desks apart for eleven years. She never asks that kind of question.
+Day 9, my coworker Sylvia asked me at lunch what I was testing this month. We've worked two desks apart for eleven years and I'm the one with a review for everything. I told her nothing new. She didn't believe me.
 
-Day 14, I put on foundation at 7am for an offsite. At 2pm I checked in the restroom mirror. It sat flat. It hadn't cracked around my mouth.
+Day 14, I filled a grocery bag with six of the fourteen and put it in the garage. Not brave enough for the trash yet. The garage first.
 
 Day 21, I stood in my own bathroom and realized I hadn't bought anything new in three weeks. Not a serum, not a "just to try" jar from the drugstore checkout line. Nothing.
 
@@ -114,13 +114,13 @@ About a month in, I noticed I hadn't opened that tab in a while. I hadn't scroll
 
 I hadn't added anything since. I hadn't even noticed I'd stopped.
 
-That was the thing I actually wanted back. Not fewer wrinkles. The quiet.
+That was the thing I wanted back. Not the skin. The quiet.
 
 -------------
 
 Sylvia brought it up again at the end of week five. She stopped at my desk on the way back from a meeting.
 
-She said: "Okay. What are you doing? Is it a facial? Something new?"
+She said: "Okay, I need to know. My cabinet looks like yours used to. What did you switch to?"
 
 I told her. Elaine. Winnie. The jar. The four ingredients.
 
