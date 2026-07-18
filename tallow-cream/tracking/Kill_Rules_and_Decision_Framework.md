@@ -5,52 +5,44 @@
 
 ---
 
-## ★ IDEAL SCALING CAC (added 2026-07-17) ★
+## ★ GOVERNING KILL RULE — 2× IDEAL SCALING CAC (revised 2026-07-17, supersedes 2× Breakeven) ★
 
-**Ideal Scaling CAC: $20.** This is the target to trigger aggressive budget increases, well under the $33 breakeven, leaving real margin for reinvestment and buffer (the $10 per-order gift card cost applies to repeat orders, not this first-purchase CAC, but still worth the buffer). Aspirational but not fantasy, the account has already hit $11.35 CPA once (B19C2, 2026-06-28).
+**Ideal Scaling CAC: $20.** Target CPA to trigger aggressive budget increases, well under the $33 breakeven, leaving real margin for reinvestment (the $10 per-order gift card cost applies to repeat orders, not this first-purchase CAC, but still worth the buffer). Aspirational but not fantasy, the account has already hit $11.35 CPA once (B19C2, 2026-06-28).
 
-**Important: the KILL line stays anchored to breakeven (2× = $66), not to this scaling target.** Founder proposed killing at 2× the ideal scaling CAC (2× $20 = $40), but the account's own variance math below shows this would land close to B17C1's actual lifetime mean CPA ($31.30), reintroducing the false-kill risk the 2× breakeven rule was built to solve. Two separate numbers serve two separate jobs: Ideal Scaling CAC answers "when do we pour gas on it," 2× Breakeven answers "when do we stop feeding it." Don't collapse them into one number.
-
----
-
-## ★ GOVERNING KILL RULE — 2× Breakeven CPA (locked 2026-06-29) ★
-
-**This is the primary kill rule. It supersedes the CPM-based hard kills below, which were calibrated to a $50/day / $20-40 CPM world that no longer exists.** On the fresh BM we convert profitably at $180-370 CPMs, so CPM-threshold kills would wrongly kill our converters. Outcome-based killing is correct: judge an ad by whether it buys purchases, not by what its CPM looks like.
+**Kill rule, founder-locked 2026-07-17: kill at 2× Ideal Scaling CAC = ~$40 in spend with no purchase.** Tighter than the prior 2× breakeven ($66) line. Flagged once for the record: $40 sits closer to B17C1's actual lifetime mean CPA ($31.30) than the old $66 line did, which per the variance math below means a somewhat higher false-kill rate on genuine winners mid-dry-stretch than the account's June analysis targeted. Founder's explicit call, made with that tradeoff known: faster capital turnover and stricter batch discipline are worth more right now than the marginal risk of occasionally killing a real winner early. **This is the rule going forward, not a soft suggestion.**
 
 **The math:**
-- Price: $49.99 | COGS: ~$17.01 | **Breakeven CPA ≈ $33** (gross margin per unit before ad spend)
-- **2× breakeven = ~$66**
+- Price: $49.99 | COGS: ~$17.01 | Breakeven CPA ≈ $33 (reference only, no longer the kill anchor)
+- Ideal Scaling CAC: $20 | **2× Ideal Scaling CAC = ~$40 (the kill line)**
 
 **The rule:**
-> Once an ad accumulates **~$66 in spend with no purchase**, kill it.
+> Once an ad accumulates **~$40 in spend with no purchase**, kill it.
 
 **Counter definition (so it doesn't misfire):**
-- The $66 counter measures **spend since the ad's last purchase.** A brand-new ad measures from launch.
-- **Each purchase resets the counter to $0.** This protects proven converters (e.g. B9C3) that have dead stretches but reset every time they sell, while still killing genuine losers that never convert.
+- The $40 counter measures **spend since the ad's last purchase.** A brand-new ad measures from launch.
+- **Each purchase resets the counter to $0.** This protects proven converters (e.g. B9C3/B17C1) that have dead stretches but reset every time they sell, while still killing genuine losers that never convert.
 - Applies per-ad (per creative), not per-campaign.
 
-**Why 2× and not 1×:** at 1× breakeven ($33) you'd kill on normal variance — a converter can spend $30 across a couple of dead days then convert (B9C3 did exactly this Days 7-9 → purchase Day 10). 2× gives enough runway to separate variance from a true loser without bleeding past the point where the ad could ever be profitable.
-
 **Worked examples (current ads):**
-- B19C2 (whiteboard winner): converted at $11.35 → counter reset, nowhere near $66. SAFE.
-- B19C3: ~$45-50 cumulative, no purchase yet → approaching $66, ON WATCH (strong 11% CTR / 10 LPV but 0 ATC = the cheap-clicks-don't-convert pattern). Kill if it crosses $66 dry.
-- Dead urgency cells (B17C2/C4): near-zero delivery — kill on the separate "concluded test" basis, not this rule.
+- B19C2 (whiteboard winner): converted at $11.35 → counter reset, nowhere near $40. SAFE.
+- B19C3: ~$45-50 cumulative, no purchase → already past the new $40 line. Kill.
+- Dead urgency cells (B17C2/C4): near-zero delivery, kill on the separate "concluded test" basis, not this rule.
 
-**Why 2× and not 1× (the variance math, locked 2026-06-30):** purchases arrive lumpy (Poisson-ish), not evenly. An ad's average spend-between-sales ≈ its CPA. Even a genuinely PROFITABLE ad routinely has dry gaps of 1.5-2× its mean CPA as normal variance. A 1× line (~$33) ≈ the average gap, so you'd false-kill roughly half your winners mid-variance, right before the next sale. 2× (~$66) ≈ twice the mean gap → false-kill rate on a true winner drops to ~10-15%, while a genuinely unprofitable ad still sails past $66 with nothing. The asymmetry decides it: the cost of a false kill (losing a rare, profitable converter) ≫ the cost of ~$33 extra spend confirming a loser. **Bias to 2×.**
+**The variance math this rule is trading off (kept for reference):** purchases arrive lumpy (Poisson-ish), not evenly. An ad's average spend-between-sales ≈ its CPA. Even a genuinely PROFITABLE ad routinely has dry gaps of 1.5-2× its mean CPA as normal variance. At B17C1's real $31.30 mean CPA, a $40 kill line is only ~1.3× that mean, tighter than the ~2× mean gap the June analysis found necessary to hold the false-kill rate near 10-15%. Founder's decision accepts a higher false-kill rate on individual proven converters in exchange for faster overall batch turnover and a harder discipline against dead spend. Watch: if a real converter (B17C1-caliber) gets killed on a dry stretch and would have reset on the next day's sale, that's this tradeoff manifesting, not a bug in the rule.
 
 ---
 
 ## ★ TWO REGIMES — Unproven Ads vs Proven Converters (locked 2026-06-30) ★
 
-The 2× ($66) no-purchase line answers ONE question: *"has this ad shown it CAN convert?"* It is the right tool ONLY for **unproven ads** (zero conversions, still measuring from launch). Once an ad has converted a few times, the flat trip-wire is the wrong tool — switch to judging it on rolling economics.
+The 2× ($40) no-purchase line answers ONE question: *"has this ad shown it CAN convert?"* It is the right tool ONLY for **unproven ads** (zero conversions, still measuring from launch). Once an ad has converted a few times, the flat trip-wire is the wrong tool — switch to judging it on rolling economics.
 
-**Regime A — UNPROVEN ad (0 lifetime purchases):** use the 2× line. Spend $66 from launch with no purchase → KILL. (Applies now to: B19C3, B20 C1/C2/C3 once delivering.)
+**Regime A — UNPROVEN ad (0 lifetime purchases):** use the 2× line. Spend $40 from launch with no purchase → KILL. (Applies now to: B19C3, B20 C1/C2/C3 once delivering.)
 
 **Regime B — PROVEN converter (has converted, ~breakeven or better):** do NOT use the flat no-purchase line. Judge on **rolling CPA/ROAS + opportunity cost.** A proven converter at/under breakeven is a (thin) winner — don't murder it into a vacuum on a dry stretch. Two triggers to retire it:
 1. **Economic decay:** rolling CPA over a meaningful window (e.g. last ~10 purchases, or last ~$200 spend) climbs and stays above breakeven ($33) → it has stopped being profitable, wind it down.
 2. **Opportunity cost (the important one for format migration):** retire it when a cheaper-CPM format proves a BETTER CPA. Don't kill it for losing money (it isn't) — replace it when something earns more per dollar. Trading up, not cutting into a vacuum.
 
-**Worked example — B17C1 (B9C3 verbatim native), as of 2026-06-29:** lifetime $125.19 spend, 4 purchases, $199.96 revenue → **CPA $31.30, ROAS 1.60x gross, +$6.73 net over the run.** Just under breakeven = marginal winner. BUT native CPM is capped (~$180) while whiteboard delivers $19-160, so B17C1's ceiling is low by format. Decision: do NOT kill on the rule (it's profitable + under $66 since last sale); CAP its budget, let B20 take growth dollars, and **retire it the moment a whiteboard cell banks a purchase at ≤ ~$31 CPA** (beats it). Opportunity-cost trigger, not a loss trigger.
+**Worked example — B17C1 (B9C3 verbatim native), as of 2026-06-29:** lifetime $125.19 spend, 4 purchases, $199.96 revenue → **CPA $31.30, ROAS 1.60x gross, +$6.73 net over the run.** Just under breakeven = marginal winner. BUT native CPM is capped (~$180) while whiteboard delivers $19-160, so B17C1's ceiling is low by format. Decision: do NOT kill on the rule (it's profitable + under $40 since last sale, though closer to the line now than under the old $66 threshold); CAP its budget, let B20 take growth dollars, and **retire it the moment a whiteboard cell banks a purchase at ≤ ~$31 CPA** (beats it). Opportunity-cost trigger, not a loss trigger.
 
 ---
 
