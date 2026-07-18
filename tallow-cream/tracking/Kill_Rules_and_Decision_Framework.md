@@ -5,6 +5,14 @@
 
 ---
 
+## ★ IDEAL SCALING CAC (added 2026-07-17) ★
+
+**Ideal Scaling CAC: $20.** This is the target to trigger aggressive budget increases, well under the $33 breakeven, leaving real margin for reinvestment and buffer (the $10 per-order gift card cost applies to repeat orders, not this first-purchase CAC, but still worth the buffer). Aspirational but not fantasy, the account has already hit $11.35 CPA once (B19C2, 2026-06-28).
+
+**Important: the KILL line stays anchored to breakeven (2× = $66), not to this scaling target.** Founder proposed killing at 2× the ideal scaling CAC (2× $20 = $40), but the account's own variance math below shows this would land close to B17C1's actual lifetime mean CPA ($31.30), reintroducing the false-kill risk the 2× breakeven rule was built to solve. Two separate numbers serve two separate jobs: Ideal Scaling CAC answers "when do we pour gas on it," 2× Breakeven answers "when do we stop feeding it." Don't collapse them into one number.
+
+---
+
 ## ★ GOVERNING KILL RULE — 2× Breakeven CPA (locked 2026-06-29) ★
 
 **This is the primary kill rule. It supersedes the CPM-based hard kills below, which were calibrated to a $50/day / $20-40 CPM world that no longer exists.** On the fresh BM we convert profitably at $180-370 CPMs, so CPM-threshold kills would wrongly kill our converters. Outcome-based killing is correct: judge an ad by whether it buys purchases, not by what its CPM looks like.
