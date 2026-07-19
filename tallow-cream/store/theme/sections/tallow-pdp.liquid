@@ -632,6 +632,7 @@
 
 <script>
 (function(){
+ try{
   var root = document.getElementById('tallow-pdp');
   if(!root || root.dataset.cartInit) return; root.dataset.cartInit = '1';
   var overlay = root.querySelector('.tlw-drawer-overlay');
@@ -706,6 +707,7 @@
     form.addEventListener('submit', function(e){
       e.preventDefault();
       var isMain = MAIN_FORM_IDS.indexOf(form.id) !== -1;
+      console.log('[tallow-pdp] form submit intercepted', form.id, 'isMain:', isMain, 'gift ids:', GIFT_VARIANT_IDS);
       var btn = form.querySelector('button[name="add"]'); if(btn){ btn.disabled=true; }
       fetch('/cart/add.js',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
         .then(function(r){return r.json();})
@@ -740,6 +742,7 @@
     fetch('/cart/change.js',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({id:key,quantity:qty})})
       .then(function(r){return r.json();}).then(render);
   });
+ }catch(err){ console.error('[tallow-pdp init error]', err); }
 })();
 
 /* Sticky ATC: slide in only after the main buy box scrolls out of view */
