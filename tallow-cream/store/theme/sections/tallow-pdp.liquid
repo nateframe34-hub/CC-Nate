@@ -74,9 +74,14 @@
   #tallow-pdp .price .was{font-size:17px;color:#9a927d;text-decoration:line-through}
   #tallow-pdp .price .save{background:var(--amber-soft);color:#6a481a;font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px}
   #tallow-pdp .ship{font-size:12.5px;color:var(--grey);margin-bottom:16px}
-  #tallow-pdp .gift-callout{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;background:var(--amber-soft);border:1px solid var(--amber);border-radius:12px;padding:11px 16px;text-align:center}
-  #tallow-pdp .gift-callout .icon{width:19px;height:19px;color:#6a481a;flex-shrink:0}
-  #tallow-pdp .gift-callout span{font-size:14px;font-weight:700;color:#6a481a}
+  #tallow-pdp .free-gift-card{display:flex;align-items:center;gap:13px;margin-top:14px;background:var(--paper);border:1.5px solid var(--amber);border-radius:14px;padding:12px 14px;box-shadow:0 2px 10px rgba(201,138,60,.12)}
+  #tallow-pdp .fg-img{width:56px;height:56px;border-radius:10px;overflow:hidden;background:var(--cream-2);flex-shrink:0}
+  #tallow-pdp .fg-img img{width:100%;height:100%;object-fit:cover;display:block}
+  #tallow-pdp .fg-text{min-width:0}
+  #tallow-pdp .fg-eyebrow{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--amber)}
+  #tallow-pdp .fg-title{font-size:15px;font-weight:700;color:var(--ink);margin-top:2px;line-height:1.25}
+  #tallow-pdp .fg-value{font-size:12px;color:var(--grey);margin-top:2px}
+  #tallow-pdp .gift-line{margin-top:9px;font-size:12.5px;color:var(--grey);text-align:center}
   #tallow-pdp .micro{display:flex;gap:7px;flex-wrap:wrap;margin:15px 0 0}
   #tallow-pdp .micro span{display:flex;align-items:center;gap:6px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:7px 12px;font-size:12.5px;font-weight:600;color:#46503c}
   #tallow-pdp .micro .icon{width:15px;height:15px;color:var(--green)}
@@ -298,7 +303,16 @@
     {%- endform -%}
 
     {%- if section.settings.lipbalm_upsell_variant_id != blank -%}
-    <div class="gift-callout"><svg class="icon"><use href="#tlw-gift"/></svg><span>{{ section.settings.free_gift_text | default: 'Free Tallow Lip Balm ($14.99 value) with every order' }}</span></div>
+    <div class="free-gift-card">
+      {%- if section.settings.free_gift_image != blank -%}
+        <div class="fg-img">{{ section.settings.free_gift_image | image_url: width: 160 | image_tag: loading: 'eager', alt: 'Free Tallow Lip Balm' }}</div>
+      {%- endif -%}
+      <div class="fg-text">
+        <div class="fg-eyebrow">Free gift, every order</div>
+        <div class="fg-title">{{ section.settings.free_gift_text | default: 'Tallow Lip Balm included, no code needed' }}</div>
+        <div class="fg-value">$14.99 value &middot; added to your cart automatically</div>
+      </div>
+    </div>
     {%- endif -%}
 
     {%- if section.settings.gift_card_active -%}
@@ -308,14 +322,11 @@
         {%- if gift_token_product -%}{%- assign gift_remaining = gift_token_product.selected_or_first_available_variant.inventory_quantity -%}{%- endif -%}
       {%- endif -%}
       {%- if section.settings.gift_token_product_handle == blank or gift_remaining > 0 -%}
-      <div class="gift-callout gift-callout-scarcity">
-        <svg class="icon"><use href="#tlw-gift"/></svg>
-        <span>
-          {{ section.settings.gift_card_text | default: 'The next 100 customers get a $10 gift card' }}
-          {%- if section.settings.gift_token_product_handle != blank and gift_remaining > 0 -%}
-            <b>&nbsp;&middot;&nbsp;{{ gift_remaining }} remaining</b>
-          {%- endif -%}
-        </span>
+      <div class="gift-line">
+        {{ section.settings.gift_card_text | default: 'The next 100 customers also get a $10 gift card' }}
+        {%- if section.settings.gift_token_product_handle != blank and gift_remaining > 0 -%}
+          &nbsp;&middot;&nbsp;{{ gift_remaining }} remaining
+        {%- endif -%}
       </div>
       {%- endif -%}
     {%- endif -%}
@@ -570,6 +581,7 @@
   #tallow-pdp .tlw-d-prices{text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
   #tallow-pdp .tlw-d-was{font-size:12.5px;color:#9a927d;text-decoration:line-through}
   #tallow-pdp .tlw-d-now{font-size:15px;font-weight:700;color:var(--green)}
+  #tallow-pdp .tlw-d-free-tag{display:inline-block;background:var(--green);color:#fff;font-size:9.5px;font-weight:700;letter-spacing:.04em;padding:2px 6px;border-radius:5px;vertical-align:middle;margin-left:4px}
   #tallow-pdp .tlw-d-remove{background:none;border:none;cursor:pointer;color:#a89e88;padding:2px;display:flex;margin-top:2px}
   #tallow-pdp .tlw-d-remove .icon{width:17px;height:17px}
   #tallow-pdp .tlw-d-upsell{display:flex;align-items:center;gap:12px;margin:0 20px 14px;padding:10px;background:var(--paper);border:1px dashed var(--line);border-radius:12px}
@@ -631,14 +643,15 @@
     emptyEl.hidden=true;
     itemsEl.innerHTML = cart.items.map(function(it){
       var disc = it.original_line_price > it.final_line_price;
+      var isFree = it.final_line_price === 0 && it.original_line_price > 0;
       return '<div class="tlw-d-item" data-key="'+it.key+'">'
         + '<div class="tlw-d-img">'+(it.image?'<img src="'+img(it.image)+'" alt="" loading="lazy">':'')+'</div>'
-        + '<div class="tlw-d-info"><div class="tlw-d-title">'+it.product_title+'</div>'
+        + '<div class="tlw-d-info"><div class="tlw-d-title">'+it.product_title+(isFree?' <span class="tlw-d-free-tag">FREE GIFT</span>':'')+'</div>'
         + (it.variant_title?'<div class="tlw-d-variant">'+it.variant_title+'</div>':'')
         + '<div class="tlw-d-qty"><button type="button" class="tlw-d-dec" aria-label="Decrease">&minus;</button><span>'+it.quantity+'</span><button type="button" class="tlw-d-inc" aria-label="Increase">+</button></div></div>'
         + '<div class="tlw-d-prices">'
         + (disc?'<span class="tlw-d-was">'+money(it.original_line_price)+'</span>':'')
-        + '<span class="tlw-d-now">'+money(it.final_line_price)+'</span>'
+        + '<span class="tlw-d-now">'+(isFree?'FREE':money(it.final_line_price))+'</span>'
         + '<button type="button" class="tlw-d-remove" aria-label="Remove"><svg class="icon"><use href="#tlw-trash"/></svg></button>'
         + '</div></div>';
     }).join('');
@@ -729,7 +742,8 @@
   io.observe(buyBox);
 })();
 
-/* Welcome popup: show 5s after landing, once per session, remember dismissal/signup */
+/* Welcome popup: show 8s after landing (lets already-sold visitors reach checkout first,
+   catches the still-deciding ones), once per session, remember dismissal/signup */
 (function(){
   var overlay=document.getElementById('tlw-popup-overlay');
   var popup=document.getElementById('tlw-popup');
@@ -749,7 +763,7 @@
     setTimeout(function(){ overlay.hidden=true; popup.hidden=true; }, 250);
     try{ sessionStorage.setItem(KEY,'1'); }catch(e){}
   }
-  setTimeout(show, 5000);
+  setTimeout(show, 8000);
   var skipBtn=document.getElementById('tlw-popup-skip');
   if(skipBtn) skipBtn.addEventListener('click', hide);
   overlay.addEventListener('click', hide);
@@ -770,7 +784,7 @@
     { "type": "text", "id": "price_compare", "label": "Compare-at price (struck through)", "default": "$69.99" },
     { "type": "text", "id": "price_save", "label": "Savings badge", "default": "Save $20" },
     { "type": "header", "content": "Hero" },
-    { "type": "text", "id": "anno_text", "label": "Announcement bar", "default": "Free shipping on every order · 60-day money-back guarantee" },
+    { "type": "text", "id": "anno_text", "label": "Announcement bar", "default": "Free shipping · 60-day guarantee · $10 gift card for our next 100 customers" },
     { "type": "header", "content": "Welcome email popup" },
     { "type": "checkbox", "id": "popup_active", "label": "Show welcome popup (10% off, email capture for cart-recovery flow)", "default": true },
     { "type": "image_picker", "id": "popup_image", "label": "Popup image (falls back to product photo)" },
@@ -796,9 +810,10 @@
     { "type": "text", "id": "rating_text", "label": "Rating text", "default": "4.8 · 47 reviews" },
     { "type": "text", "id": "subtitle", "label": "Subtitle", "default": "Face & Body · 4 Ingredients · 120g" },
     { "type": "text", "id": "ship_text", "label": "Shipping line", "default": "Free shipping · ships in 1-2 days" },
-    { "type": "text", "id": "free_gift_text", "label": "Free lip balm callout text", "default": "Free Tallow Lip Balm ($14.99 value) with every order" },
-    { "type": "checkbox", "id": "gift_card_active", "label": "Show scarcity gift card callout under ATC", "default": true },
-    { "type": "text", "id": "gift_card_text", "label": "Gift card callout text", "default": "The next 100 customers get a $10 gift card" },
+    { "type": "image_picker", "id": "free_gift_image", "label": "Free gift card image (lip balm photo)" },
+    { "type": "text", "id": "free_gift_text", "label": "Free lip balm callout title", "default": "Tallow Lip Balm included, no code needed" },
+    { "type": "checkbox", "id": "gift_card_active", "label": "Show gift card line (small text, low emphasis by design)", "default": true },
+    { "type": "text", "id": "gift_card_text", "label": "Gift card line text", "default": "The next 100 customers also get a $10 gift card" },
     { "type": "header", "content": "Proof stats (after 2 weeks)" },
     { "type": "text", "id": "stat1_n", "label": "Stat 1 number", "default": "94%" },
     { "type": "text", "id": "stat1_t", "label": "Stat 1 text", "default": "said skin felt softer all day" },
