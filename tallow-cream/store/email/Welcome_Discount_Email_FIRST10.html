@@ -3,11 +3,23 @@
   Trigger: Customer created/updated, tag contains "site-popup-capture" (see
   tallow-cream/offers/Cart_Abandon_Email_Capture_Flow.md for the Flow build pattern -
   same trigger/condition/Send-marketing-email shape, just a different tag and copy).
-  Code: FIRST10 (10% off, single-use-per-customer recommended in the discount setup).
-  2026-07-13 update: tried 20% (FIRST20) briefly, founder reverted to 10% on margin
-  math, most subscribers who buy convert on the popup discount and $10 off (20%) eats
-  too much margin per order at $49.99, $5 off (10%) is sustainable at volume. Kept the
-  7-day expiry urgency and unsubscribe/tracking blocks added along the way.
+  Code: FIRST10 (10% off the ENTIRE ORDER, single-use-per-customer recommended in the
+  discount setup, applies to the order-level total, not just the balm, since it needs
+  to combine with the always-on Sale discount, see FIRST10's discount-type note in
+  HANDOFF.md, "Amount off order" not "Amount off products").
+  2026-07-19 update: role in the funnel changed. The free-gift-with-every-order (lip
+  balm, universal, plus the scarcity gift card) is now the account's primary conversion
+  incentive, shown directly on the PDP to every visitor, not gated behind this popup.
+  This popup/email's real job going forward is EMAIL CAPTURE for cart-recovery, not
+  primary conversion, the 10% is a real, honest incentive but treat opens/clicks on
+  this specific email as a top-of-funnel/recovery metric, not the main lever anymore.
+  Copy tightened to explicitly say "entire order" so the offer reads as bigger/clearer
+  than a vague "10% off," since testing found the vague framing signed people up
+  without getting them to act.
+  2026-07-13 update (superseded by the above, kept for history): tried 20% (FIRST20)
+  briefly, founder reverted to 10% on margin math, $10 off (20%) eats too much margin
+  per order at $49.99, $5 off (10%) is sustainable at volume. Kept the 7-day expiry
+  urgency and unsubscribe/tracking blocks added along the way.
   Paste as raw HTML if Shopify Email offers a code editor, otherwise use the
   block-by-block breakdown at the bottom of this comment when copying into the editor.
 
@@ -36,13 +48,13 @@
 
         <tr>
           <td align="center" style="padding:36px 34px 6px;">
-            <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:27px;line-height:1.2;color:#23291F;font-weight:600;">Here's your mystery discount.</h1>
+            <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:27px;line-height:1.2;color:#23291F;font-weight:600;">10% off your entire order.</h1>
           </td>
         </tr>
 
         <tr>
           <td align="center" style="padding:10px 34px 0;">
-            <p style="margin:0;font-size:15px;color:#5c5848;line-height:1.6;">Real tallow, 4 ingredients, nothing you can't pronounce. Here's 10% off to try it for yourself.</p>
+            <p style="margin:0;font-size:15px;color:#5c5848;line-height:1.6;">Real tallow, 4 ingredients, nothing you can't pronounce. Here's 10% off everything in your cart, on us.</p>
           </td>
         </tr>
 
@@ -54,7 +66,7 @@
                 <div style="margin-top:8px;">
                   <span style="display:inline-block;background:#2E4731;color:#ffffff;font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:bold;letter-spacing:1.5px;padding:9px 20px;border-radius:999px;">FIRST10</span>
                 </div>
-                <div style="margin-top:8px;font-size:12.5px;color:#8a6a2e;">10% off your first jar. Applied at checkout.</div>
+                <div style="margin-top:8px;font-size:12.5px;color:#8a6a2e;">10% off your entire order. Applied at checkout.</div>
               </td></tr>
             </table>
           </td>
@@ -101,9 +113,9 @@
 <!--
   Block-by-block breakdown (drag-and-drop editor fallback):
   - Header/logo block: "Baseline Tallow"
-  - Heading block: "Here's your mystery discount."
-  - Text block: "Real tallow, 4 ingredients, nothing you can't pronounce. Here's 10% off to try it for yourself."
-  - Discount/code block (or styled text block): "FIRST10" - "10% off your first jar. Applied at checkout."
+  - Heading block: "10% off your entire order."
+  - Text block: "Real tallow, 4 ingredients, nothing you can't pronounce. Here's 10% off everything in your cart, on us."
+  - Discount/code block (or styled text block): "FIRST10" - "10% off your entire order. Applied at checkout."
   - Small urgency text (bold, warm red/orange, not the brand green): "Expires in 7 days."
   - Button block: label "Shop Now Before It Expires", link -> product page URL with ?discount=FIRST10, or plain
     discount deep link: https://trybasline.com/discount/FIRST10?redirect=/products/whipped-tallow-honey-balm

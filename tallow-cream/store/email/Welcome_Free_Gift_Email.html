@@ -1,4 +1,11 @@
 <!--
+  SUPERSEDED 2026-07-19, same day it was built: founder decided the free lip balm
+  should go to EVERY customer automatically (shown on the PDP, delivered via the cart
+  auto-add logic in tallow-pdp.liquid), not gated behind popup email signup. The popup
+  reverted to Welcome_Discount_Email_FIRST10.html (10% off entire order), whose job is
+  now specifically email capture for cart-recovery, not the primary incentive. Kept
+  this file as reference only, do not wire it into the live Flow.
+
   Welcome / popup FREE GIFT email - Shopify Email, "Send marketing email" Flow action.
   Trigger: Customer created/updated, tag contains "site-popup-capture" (same Flow
   pattern as Cart_Abandon_Email_Capture_Flow.md, just a different tag and copy).

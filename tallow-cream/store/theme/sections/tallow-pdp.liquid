@@ -297,8 +297,27 @@
       </button>
     {%- endform -%}
 
+    {%- if section.settings.lipbalm_upsell_variant_id != blank -%}
+    <div class="gift-callout"><svg class="icon"><use href="#tlw-gift"/></svg><span>{{ section.settings.free_gift_text | default: 'Free Tallow Lip Balm ($14.99 value) with every order' }}</span></div>
+    {%- endif -%}
+
     {%- if section.settings.gift_card_active -%}
-    <div class="gift-callout"><svg class="icon"><use href="#tlw-gift"/></svg><span>{{ section.settings.gift_card_text | default: 'Get a $10 gift card with your purchase' }}</span></div>
+      {%- assign gift_remaining = 0 -%}
+      {%- if section.settings.gift_token_product_handle != blank -%}
+        {%- assign gift_token_product = all_products[section.settings.gift_token_product_handle] -%}
+        {%- if gift_token_product -%}{%- assign gift_remaining = gift_token_product.selected_or_first_available_variant.inventory_quantity -%}{%- endif -%}
+      {%- endif -%}
+      {%- if section.settings.gift_token_product_handle == blank or gift_remaining > 0 -%}
+      <div class="gift-callout gift-callout-scarcity">
+        <svg class="icon"><use href="#tlw-gift"/></svg>
+        <span>
+          {{ section.settings.gift_card_text | default: 'The next 100 customers get a $10 gift card' }}
+          {%- if section.settings.gift_token_product_handle != blank and gift_remaining > 0 -%}
+            <b>&nbsp;&middot;&nbsp;{{ gift_remaining }} remaining</b>
+          {%- endif -%}
+        </span>
+      </div>
+      {%- endif -%}
     {%- endif -%}
 
     <div class="micro">
@@ -467,7 +486,7 @@
 <!-- ================= WELCOME EMAIL POPUP ================= -->
 {%- if section.settings.popup_active -%}
 <div class="tlw-popup-overlay" id="tlw-popup-overlay" hidden></div>
-<div class="tlw-popup" id="tlw-popup" hidden role="dialog" aria-label="Unlock a free tallow gift">
+<div class="tlw-popup" id="tlw-popup" hidden role="dialog" aria-label="Get 10% off your entire order">
   {%- if product.featured_image -%}
     {%- if section.settings.popup_image != blank -%}
       <div class="tlw-popup-img">{{ section.settings.popup_image | image_url: width: 500 | image_tag: loading: 'lazy', alt: 'Whipped tallow balm' }}</div>
@@ -476,8 +495,8 @@
     {%- endif -%}
   {%- endif -%}
   <div class="tlw-popup-body">
-    <h3>{{ section.settings.popup_heading | default: 'Unlock a free tallow gift' }}</h3>
-    <p>{{ section.settings.popup_subtext | default: "Sign up and we'll send you a code for a free tallow essential, our treat, with your first order." }}</p>
+    <h3>{{ section.settings.popup_heading | default: 'Get 10% off your entire order' }}</h3>
+    <p>{{ section.settings.popup_subtext | default: "Enter your email for a code good for 10% off everything in your cart, sent straight to your inbox." }}</p>
     {%- form 'customer', class: 'tlw-popup-form' -%}
       {%- if form.posted_successfully? -%}
         <p class="tlw-popup-ok">Check your inbox, your code is on its way.</p>
@@ -485,7 +504,7 @@
         <input type="hidden" name="contact[tags]" value="site-popup-capture">
         <input type="hidden" name="contact[accepts_marketing]" value="true">
         <input type="email" name="contact[email]" placeholder="Your email" required aria-label="Email">
-        <button type="submit">Reveal my gift</button>
+        <button type="submit">Get My 10% Code</button>
       {%- endif -%}
     {%- endform -%}
     <button type="button" class="tlw-popup-skip" id="tlw-popup-skip">No, I'll continue shopping</button>
@@ -630,13 +649,40 @@
   function open(){ drawer.hidden=false; overlay.hidden=false; requestAnimationFrame(function(){ drawer.classList.add('show'); overlay.classList.add('show'); }); document.body.style.overflow='hidden'; }
   function close(){ drawer.classList.remove('show'); overlay.classList.remove('show'); document.body.style.overflow=''; setTimeout(function(){ drawer.hidden=true; overlay.hidden=true; }, 280); }
 
+  // Free gifts: auto-added alongside the main balm only, silently, best-effort.
+  // Buy X Get Y discounts don't auto-add the Y item, this is what actually delivers
+  // the free lip balm (everyone) and the scarcity gift-card token (first N customers)
+  // without requiring a second manual click.
+  var MAIN_FORM_IDS = ['tlw-form-hero','tlw-form-final','tlw-form-sticky'];
+  var GIFT_VARIANT_IDS = [
+    {{ section.settings.lipbalm_upsell_variant_id | default: '' | json }},
+    {{ section.settings.gift_token_variant_id | default: '' | json }}
+  ].filter(function(id){ return id && id.length; });
+
+  function addGiftsSilently(){
+    if(!GIFT_VARIANT_IDS.length) return Promise.resolve();
+    return getCart().then(function(cart){
+      var already = {};
+      cart.items.forEach(function(it){ already[String(it.variant_id)] = true; });
+      var toAdd = GIFT_VARIANT_IDS.filter(function(id){ return !already[String(id)]; });
+      if(!toAdd.length) return;
+      return fetch('/cart/add.js',{
+        method:'POST',
+        headers:{'Accept':'application/json','Content-Type':'application/json'},
+        body: JSON.stringify({ items: toAdd.map(function(id){ return { id: id, quantity: 1 }; }) })
+      }).catch(function(){ /* best-effort, don't block checkout on a free-gift failure */ });
+    });
+  }
+
   // Add to cart (all product forms) -> AJAX add, open drawer, stay on PDP
   root.querySelectorAll('form.pf').forEach(function(form){
     form.addEventListener('submit', function(e){
       e.preventDefault();
+      var isMain = MAIN_FORM_IDS.indexOf(form.id) !== -1;
       var btn = form.querySelector('button[name="add"]'); if(btn){ btn.disabled=true; }
       fetch('/cart/add.js',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
         .then(function(r){return r.json();})
+        .then(function(){ return isMain ? addGiftsSilently() : Promise.resolve(); })
         .then(function(){ return refresh(); })
         .then(function(){ open(); })
         .catch(function(){ window.location='/cart'; })
@@ -726,15 +772,18 @@
     { "type": "header", "content": "Hero" },
     { "type": "text", "id": "anno_text", "label": "Announcement bar", "default": "Free shipping on every order · 60-day money-back guarantee" },
     { "type": "header", "content": "Welcome email popup" },
-    { "type": "checkbox", "id": "popup_active", "label": "Show welcome popup (free tallow gift with first order)", "default": true },
+    { "type": "checkbox", "id": "popup_active", "label": "Show welcome popup (10% off, email capture for cart-recovery flow)", "default": true },
     { "type": "image_picker", "id": "popup_image", "label": "Popup image (falls back to product photo)" },
-    { "type": "text", "id": "popup_heading", "label": "Popup heading", "default": "Unlock a free tallow gift" },
-    { "type": "text", "id": "popup_subtext", "label": "Popup subtext", "default": "Sign up and we'll send you a code for a free tallow essential, our treat, with your first order." },
+    { "type": "text", "id": "popup_heading", "label": "Popup heading", "default": "Get 10% off your entire order" },
+    { "type": "text", "id": "popup_subtext", "label": "Popup subtext", "default": "Enter your email for a code good for 10% off everything in your cart, sent straight to your inbox." },
     { "type": "header", "content": "Cart lip balm upsell (optional)" },
-    { "type": "text", "id": "lipbalm_upsell_variant_id", "label": "Lip balm variant ID (leave blank to hide)" },
+    { "type": "text", "id": "lipbalm_upsell_variant_id", "label": "Lip balm variant ID, free for everyone (leave blank to disable free gift)" },
     { "type": "image_picker", "id": "lipbalm_upsell_image", "label": "Lip balm thumbnail" },
-    { "type": "text", "id": "lipbalm_upsell_title", "label": "Upsell title", "default": "Add Tallow Lip Balm" },
-    { "type": "text", "id": "lipbalm_upsell_price", "label": "Upsell price text", "default": "+ $7.99" },
+    { "type": "text", "id": "lipbalm_upsell_title", "label": "Upsell title (fallback manual-add only)", "default": "Add Tallow Lip Balm" },
+    { "type": "text", "id": "lipbalm_upsell_price", "label": "Upsell price text (fallback manual-add only)", "default": "+ $7.99" },
+    { "type": "header", "content": "Scarcity gift card token (optional)" },
+    { "type": "text", "id": "gift_token_variant_id", "label": "Gift card eligibility token variant ID (leave blank to disable)" },
+    { "type": "text", "id": "gift_token_product_handle", "label": "Gift card eligibility token product handle (for the live remaining-count display)" },
     { "type": "header", "content": "Extra photos (optional)" },
     { "type": "image_picker", "id": "lifestyle_image", "label": "Lifestyle photo (matches current ad angle)" },
     { "type": "text", "id": "lifestyle_caption", "label": "Lifestyle photo caption (optional)" },
@@ -747,8 +796,9 @@
     { "type": "text", "id": "rating_text", "label": "Rating text", "default": "4.8 · 47 reviews" },
     { "type": "text", "id": "subtitle", "label": "Subtitle", "default": "Face & Body · 4 Ingredients · 120g" },
     { "type": "text", "id": "ship_text", "label": "Shipping line", "default": "Free shipping · ships in 1-2 days" },
-    { "type": "checkbox", "id": "gift_card_active", "label": "Show $10 gift card callout under ATC", "default": true },
-    { "type": "text", "id": "gift_card_text", "label": "Gift card callout text", "default": "Get a $10 gift card with your purchase" },
+    { "type": "text", "id": "free_gift_text", "label": "Free lip balm callout text", "default": "Free Tallow Lip Balm ($14.99 value) with every order" },
+    { "type": "checkbox", "id": "gift_card_active", "label": "Show scarcity gift card callout under ATC", "default": true },
+    { "type": "text", "id": "gift_card_text", "label": "Gift card callout text", "default": "The next 100 customers get a $10 gift card" },
     { "type": "header", "content": "Proof stats (after 2 weeks)" },
     { "type": "text", "id": "stat1_n", "label": "Stat 1 number", "default": "94%" },
     { "type": "text", "id": "stat1_t", "label": "Stat 1 text", "default": "said skin felt softer all day" },

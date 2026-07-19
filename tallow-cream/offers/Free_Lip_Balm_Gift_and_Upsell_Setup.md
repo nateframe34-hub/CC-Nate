@@ -1,24 +1,26 @@
 # Free Lip Balm Gift + Cart Upsell: Setup Guide
 
-**Date:** 2026-07-19
-**What this replaces:** the popup email's discount code (FIRST10) mechanic, per founder direction. The popup, welcome email, PDP, and cart drawer all updated to support a free-gift-with-purchase instead.
+**Date:** 2026-07-19, REVISED same day.
+**2026-07-19 revision:** founder reconsidered. The free lip balm now goes to **every customer automatically**, not gated behind popup email signup (16% of visitors was the wrong ceiling to optimize under). The popup reverted to the original 10% FIRST10 discount, repositioned as an email-capture/cart-recovery tool, not the primary incentive. The gift card also changed from every-order to a scarcity "next 100 customers" mechanic. This doc now covers the universal free-gift mechanism; see `Gift_Card_Flow_Setup.md` for the scarcity gift card. `Welcome_Free_Gift_Email.html` is superseded/reference-only, the popup email is `Welcome_Discount_Email_FIRST10.html` again.
+
+**Delivery mechanism, updated:** since the gift is now universal, it no longer needs a discount code at all for the customer to enter. `tallow-pdp.liquid`'s JS now **auto-adds the lip balm to the cart silently** the moment the main balm is added (see `addGiftsSilently()`), using the same Buy X Get Y discount underneath (still needed so the item rings up at $0, see below) but with zero manual steps for the customer. The cart-drawer upsell block described further down is now a fallback only, for anyone who removes the free item and wants to re-add it (at the real $7.99 cross-sell price, since removing signals they don't want the freebie).
 
 ---
 
 ## The core problem this answers: how to give it away free without setting the price to $0.00
 
-If the lip balm's actual product price is set to $0.00, anyone can add it to their cart alone and check out for free, no balm purchase required, pure loss. **The fix is Shopify's native "Buy X, Get Y" discount type**, not a price change:
+If the lip balm's actual product price is set to $0.00, anyone can add it to their cart alone and check out for free, no balm purchase required, pure loss. **The fix is Shopify's native "Buy X, Get Y" discount type**, not a price change, now set up as an AUTOMATIC discount (no code) since it applies to every order:
 
 1. Shopify admin -> **Discounts -> Create discount -> Buy X get Y**.
-2. **Customer buys:** specific product, Whipped Tallow & Honey Balm, quantity 1.
-3. **Customer gets:** specific product, the Lip Balm, quantity 1, discounted **100% off**.
-4. **Code:** `FREELIP` (matches the email already written).
-5. **Usage limit:** check "Limit to one use per customer."
-6. **Active dates:** set a 7-day window to match the email's urgency copy, or longer if you want it always-on, just keep the email's copy and the code's real expiry in sync.
+2. **Method: Automatic discount** (not a code, since every customer qualifies now).
+3. **Customer buys:** specific product, Whipped Tallow & Honey Balm, quantity 1.
+4. **Customer gets:** specific product, the Lip Balm, quantity 1, discounted **100% off**.
+5. **Usage limit:** none needed (it's per-order, automatic, not per-customer).
+6. **Active dates:** leave open-ended/always-on, this is now a standing offer, not a time-limited one.
 
-This way the lip balm keeps its real list price ($14.99 recommended, see below) everywhere. It is only ever free when the code is applied AND the balm is in the same cart. Nobody can buy it standalone for free.
+This way the lip balm keeps its real list price ($14.99 recommended, see below) everywhere except at checkout when the balm's also in the cart. Nobody can buy it standalone for free, since the automatic discount only fires when both items are present.
 
-**The one UX catch:** Buy X Get Y does not automatically add the free item to the cart. The customer has to add the lip balm themselves for the discount to kick in. That's exactly what the new cart-drawer upsell block is for, see below, it's not just a nice-to-have cross-sell, it's the mechanism that actually delivers the free gift.
+**The one remaining UX catch, already solved in code:** Buy X Get Y does not automatically add the free item to the cart on its own. `tallow-pdp.liquid`'s cart JS now handles this for you, the moment the balm is added via any of the 3 main Add to Cart buttons (hero, final CTA, sticky), it silently also adds the lip balm (and the gift-card token, if configured) via a background `/cart/add.js` call, no second click required. The cart-drawer upsell block (below) still exists as a visible fallback/manual re-add path, not the primary delivery mechanism anymore.
 
 ---
 
@@ -34,20 +36,22 @@ Landed cost on the lip balm (unit cost + packaging/pick-pack, conservatively) is
 
 ## What's built and where
 
-1. **`tallow-cream/store/theme/sections/tallow-lipbalm-pdp.liquid`** - new, lightweight product page section for the lip balm. Far less detailed than the main balm PDP on purpose (no traffic being driven here directly), but on-brand: same color/type system, real Add to Cart form, ingredients block, trust line. Create the lip balm as its own product in Shopify admin, assign this section to its page.
+1. **`tallow-cream/store/theme/sections/tallow-lipbalm-pdp.liquid`** - lightweight product page section for the lip balm. Far less detailed than the main balm PDP on purpose (no traffic being driven here directly), but on-brand: same color/type system, real Add to Cart form, ingredients block, trust line. Create the lip balm as its own product in Shopify admin, assign this section to its page.
 
-2. **`tallow-pdp.liquid` cart drawer** - new optional "Cart lip balm upsell" block, sits between the item list and the checkout button. Shows a small thumbnail, title, price, and its own Add button (uses the same AJAX add-to-cart pattern as the rest of the drawer). New schema settings under "Cart lip balm upsell (optional)" in the section customizer: paste the lip balm's real variant ID, upload a thumbnail, set title/price text. **Leave the variant ID blank and the block hides itself automatically**, so nothing breaks if this isn't set up yet.
+2. **`tallow-pdp.liquid` auto-add JS** - new `addGiftsSilently()` function fires after any of the 3 main balm Add to Cart forms (hero/final/sticky, matched by form ID) succeeds, adds the lip balm and gift-card token variants in the background if their variant IDs are configured, skips anything already in the cart, fails silently (never blocks checkout on a free-gift hiccup).
 
-3. **Popup** - heading/subtext/button copy changed from the discount framing to the free-gift framing ("Unlock a free tallow gift" / "Reveal my gift"), both the inline Liquid defaults and the schema settings updated so customizer and code agree.
+3. **`tallow-pdp.liquid` PDP callouts, under the Add to Cart button** - two separate lines now: an always-on "Free Tallow Lip Balm ($14.99 value) with every order" callout (shows whenever `lipbalm_upsell_variant_id` is set), and a scarcity gift-card callout with a LIVE remaining count pulled directly from the gift-card token product's real inventory (`gift_token_product_handle` setting), auto-hides once inventory hits 0, no manual updating ever needed.
 
-4. **`tallow-cream/store/email/Welcome_Free_Gift_Email.html`** - new email, replaces `Welcome_Discount_Email_FIRST10.html` for this flow (old file kept as reference, not deleted). CTA sends them to the balm's product page with the FREELIP code auto-applying, then the cart upsell block is what gets the lip balm actually into their cart.
+4. **`tallow-pdp.liquid` cart drawer upsell block** - still present, now a fallback/manual re-add path only (e.g. if someone removes the free lip balm and wants it back, they'd see it at the real $7.99 cross-sell price). Schema settings under "Cart lip balm upsell (optional)."
+
+5. **Popup + `Welcome_Discount_Email_FIRST10.html`** - reverted to the 10% off ENTIRE ORDER framing (copy tightened from vague "10% off" to explicit "your entire order," which reads as a bigger, clearer offer). Repositioned purpose: this is now the account's email-capture/cart-recovery tool, not the primary conversion incentive, that job moved to the universal free gift above. `Welcome_Free_Gift_Email.html` kept as reference only, not wired into the live Flow.
 
 ---
 
 ## Before this goes live, in order
 
-1. Create the lip balm as a real Shopify product (real inventory, real $14.99 price), assign the new lip balm PDP section to it.
-2. Build the FREELIP Buy X Get Y discount per the steps above.
-3. Grab the lip balm's variant ID (Shopify admin -> Products -> the lip balm -> variant details, or via the product page's URL/API), paste it into the cart drawer's upsell settings in the theme customizer, upload a thumbnail.
-4. Preview the popup -> email -> PDP -> cart drawer flow yourself once, end to end, before sending it to real customers. Specifically confirm: clicking the email CTA lands on the balm PDP with the code active, adding the balm shows the lip balm upsell in the drawer, adding the lip balm from there actually zeroes its price at checkout.
-5. Set the FREELIP code's real expiry to match whatever the email says.
+1. Create the lip balm as a real Shopify product (real inventory, real $14.99 price), assign the new lip balm PDP section to it. Grab its variant ID.
+2. Build the automatic Buy X Get Y discount per the steps above (no code, always-on).
+3. Paste the lip balm's variant ID into `lipbalm_upsell_variant_id` in the theme customizer (this both shows the "free with every order" callout AND enables the auto-add JS). Upload a thumbnail for the fallback cart-drawer block.
+4. Separately, follow `Gift_Card_Flow_Setup.md`'s 2026-07-19 update to build the scarcity gift-card token product and wire `gift_token_variant_id` + `gift_token_product_handle`.
+5. Preview end to end before sending traffic: add the balm from the PDP, confirm the lip balm (and gift-card token, if configured) land in the cart automatically with no second click, confirm the lip balm rings up at $0.00, confirm the "X remaining" count on the PDP matches the token product's real inventory.
