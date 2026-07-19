@@ -319,6 +319,7 @@
     {%- comment -%} REAL add-to-cart form #1 (hero) {%- endcomment -%}
     {%- form 'product', product, id: 'tlw-form-hero', class: 'pf' -%}
       <input type="hidden" name="id" value="{{ v.id }}">
+      <input type="hidden" class="tlw-main-flag" value="1">
       <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
         <svg class="icon" style="width:19px;height:19px"><use href="#tlw-cart"/></svg>
         {%- if v.available -%}Add to Cart · {{ section.settings.price_sale }}{%- else -%}Sold Out{%- endif -%}
@@ -496,6 +497,7 @@
   <h2 class="sec">Your skin changed. This was made for that.</h2>
   {%- form 'product', product, id: 'tlw-form-final', class: 'pf' -%}
     <input type="hidden" name="id" value="{{ v.id }}">
+    <input type="hidden" class="tlw-main-flag" value="1">
     <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
       <svg class="icon" style="width:19px;height:19px"><use href="#tlw-cart"/></svg>
       {%- if v.available -%}Add to Cart · {{ section.settings.price_sale }}{%- else -%}Sold Out{%- endif -%}
@@ -520,6 +522,7 @@
   </div>
   {%- form 'product', product, id: 'tlw-form-sticky', class: 'pf' -%}
     <input type="hidden" name="id" value="{{ v.id }}">
+    <input type="hidden" class="tlw-main-flag" value="1">
     <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
       <svg class="icon" style="width:16px;height:16px"><use href="#tlw-cart"/></svg>
       {%- if v.available -%}Add to Cart{%- else -%}Sold Out{%- endif -%}
@@ -679,7 +682,7 @@
   // Buy X Get Y discounts don't auto-add the Y item, this is what actually delivers
   // the free lip balm (everyone) and the scarcity gift-card token (first N customers)
   // without requiring a second manual click.
-  var MAIN_FORM_IDS = ['tlw-form-hero','tlw-form-final','tlw-form-sticky'];
+  var MAIN_FORM_IDS = ['tlw-form-hero','tlw-form-final','tlw-form-sticky']; // kept for reference, unreliable, see .tlw-main-flag below
   var GIFT_VARIANT_IDS = [
     {{ section.settings.free_gift_product.selected_or_first_available_variant.id | default: '' | json }},
     {{ section.settings.gift_token_product.selected_or_first_available_variant.id | default: '' | json }}
@@ -706,7 +709,7 @@
   root.querySelectorAll('form.pf').forEach(function(form){
     form.addEventListener('submit', function(e){
       e.preventDefault();
-      var isMain = MAIN_FORM_IDS.indexOf(form.id) !== -1;
+      var isMain = !!form.querySelector('.tlw-main-flag');
       console.log('[tallow-pdp] form submit intercepted', form.id, 'isMain:', isMain, 'gift ids:', GIFT_VARIANT_IDS);
       var btn = form.querySelector('button[name="add"]'); if(btn){ btn.disabled=true; }
       fetch('/cart/add.js',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
