@@ -695,7 +695,9 @@
         method:'POST',
         headers:{'Accept':'application/json','Content-Type':'application/json'},
         body: JSON.stringify({ items: toAdd.map(function(id){ return { id: id, quantity: 1 }; }) })
-      }).catch(function(){ /* best-effort, don't block checkout on a free-gift failure */ });
+      }).then(function(r){
+        if(!r.ok){ return r.json().then(function(err){ console.error('[free gift] cart/add.js failed', r.status, err); }); }
+      }).catch(function(err){ console.error('[free gift] cart/add.js network error', err); });
     });
   }
 
