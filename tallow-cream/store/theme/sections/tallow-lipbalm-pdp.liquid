@@ -51,16 +51,16 @@
     </div>
     <div>
       <div class="eyebrow">{{ section.settings.eyebrow | default: 'Tallow Cream · Lip Care' }}</div>
-      <h1>{{ section.settings.title | default: product.title | default: 'Whipped Tallow Lip Balm' }}</h1>
+      <h1>{{ section.settings.title | default: product.title | default: 'Tallow & Honey Overnight Lip Mask' }}</h1>
       <div class="price-row">
         <span class="price-sale">{{ section.settings.price_sale | default: '$14.99' }}</span>
         {%- if section.settings.price_compare != blank -%}<span class="price-compare">{{ section.settings.price_compare }}</span>{%- endif -%}
       </div>
-      <p class="desc">{{ section.settings.description | default: 'Same tallow, honey, and calendula base as the original balm, sized and shaped for lips that get just as dry as everything else. Melts on, no waxy film, no reapplying every twenty minutes.' }}</p>
+      <p class="desc">{{ section.settings.description | default: 'Same tallow and honey base as the original balm, in a richer overnight formula for lips. Smooth it on before bed, wake up to soft instead of cracked.' }}</p>
       <ul class="checks">
-        <li>{{ section.settings.bullet_1 | default: 'Tallow, honey, olive oil, calendula. Same 4 ingredients as the balm.' }}</li>
-        <li>{{ section.settings.bullet_2 | default: 'Melts in, not a wax coating that sits on top.' }}</li>
-        <li>{{ section.settings.bullet_3 | default: 'Pocket-size, fits anywhere the full jar doesn't.' }}</li>
+        <li>{{ section.settings.bullet_1 | default: 'Tallow, honey, olive oil, calendula. Same ingredient family as the balm.' }}</li>
+        <li>{{ section.settings.bullet_2 | default: 'Leave-on overnight formula, not a daily-carry stick.' }}</li>
+        <li>{{ section.settings.bullet_3 | default: 'Small jar, easy to keep on the nightstand.' }}</li>
       </ul>
       {%- form 'product', product, class: 'pf' -%}
         <input type="hidden" name="id" value="{{ v.id }}">

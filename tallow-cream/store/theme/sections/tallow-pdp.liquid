@@ -309,7 +309,7 @@
       {%- endif -%}
       <div class="fg-text">
         <div class="fg-eyebrow">Free gift, every order</div>
-        <div class="fg-title">{{ section.settings.free_gift_text | default: 'Tallow Lip Balm included, no code needed' }}</div>
+        <div class="fg-title">{{ section.settings.free_gift_text | default: 'Tallow & Honey Overnight Lip Mask included, no code needed' }}</div>
         <div class="fg-value">$14.99 value &middot; added to your cart automatically</div>
       </div>
     </div>
@@ -791,13 +791,13 @@
     { "type": "text", "id": "popup_heading", "label": "Popup heading", "default": "Get 10% off your entire order" },
     { "type": "text", "id": "popup_subtext", "label": "Popup subtext", "default": "Enter your email for a code good for 10% off everything in your cart, sent straight to your inbox." },
     { "type": "header", "content": "Cart lip balm upsell (optional)" },
-    { "type": "text", "id": "lipbalm_upsell_variant_id", "label": "Lip balm variant ID, free for everyone (leave blank to disable free gift)" },
+    { "type": "text", "id": "lipbalm_upsell_variant_id", "label": "Lip balm variant ID (blank = disable free gift)" },
     { "type": "image_picker", "id": "lipbalm_upsell_image", "label": "Lip balm thumbnail" },
-    { "type": "text", "id": "lipbalm_upsell_title", "label": "Upsell title (fallback manual-add only)", "default": "Add Tallow Lip Balm" },
+    { "type": "text", "id": "lipbalm_upsell_title", "label": "Upsell title (fallback manual-add only)", "default": "Add Overnight Lip Mask" },
     { "type": "text", "id": "lipbalm_upsell_price", "label": "Upsell price text (fallback manual-add only)", "default": "+ $7.99" },
     { "type": "header", "content": "Scarcity gift card token (optional)" },
     { "type": "text", "id": "gift_token_variant_id", "label": "Gift card eligibility token variant ID (leave blank to disable)" },
-    { "type": "text", "id": "gift_token_product_handle", "label": "Gift card eligibility token product handle (for the live remaining-count display)" },
+    { "type": "text", "id": "gift_token_product_handle", "label": "Gift card token product handle (live count, optional)" },
     { "type": "header", "content": "Extra photos (optional)" },
     { "type": "image_picker", "id": "lifestyle_image", "label": "Lifestyle photo (matches current ad angle)" },
     { "type": "text", "id": "lifestyle_caption", "label": "Lifestyle photo caption (optional)" },
