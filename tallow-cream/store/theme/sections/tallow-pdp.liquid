@@ -682,7 +682,7 @@
   var GIFT_VARIANT_IDS = [
     {{ section.settings.free_gift_product.selected_or_first_available_variant.id | default: '' | json }},
     {{ section.settings.gift_token_product.selected_or_first_available_variant.id | default: '' | json }}
-  ].filter(function(id){ return id && id.length; });
+  ].filter(function(id){ return id !== null && id !== undefined && id !== ''; });
 
   function addGiftsSilently(){
     if(!GIFT_VARIANT_IDS.length) return Promise.resolve();
