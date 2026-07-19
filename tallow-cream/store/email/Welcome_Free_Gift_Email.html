@@ -1,0 +1,151 @@
+<!--
+  Welcome / popup FREE GIFT email - Shopify Email, "Send marketing email" Flow action.
+  Trigger: Customer created/updated, tag contains "site-popup-capture" (same Flow
+  pattern as Cart_Abandon_Email_Capture_Flow.md, just a different tag and copy).
+  2026-07-19 update: pivoted from a %-off discount (FIRST10) to a free-gift mechanic
+  per founder direction. Replaces Welcome_Discount_Email_FIRST10.html for the popup
+  flow, that file kept as reference/rollback, not deleted.
+
+  MECHANISM, READ BEFORE BUILDING THE DISCOUNT CODE:
+  This uses Shopify's native "Buy X, Get Y" discount type, NOT a plain percentage or
+  fixed-amount code, and NOT a $0.00 product price. Setting the lip balm's real price
+  to $0.00 would let anyone buy it standalone for free with no purchase required, that
+  defeats the whole mechanic. Buy X Get Y only ever discounts the Y item, and only when
+  the X item is actually in the cart, so the lip balm keeps a real price
+  (tallow-lipbalm-pdp.liquid defaults to $14.99) everywhere except this specific path.
+
+  Shopify admin -> Discounts -> Create discount -> "Buy X get Y":
+  - Customer buys: the Whipped Tallow & Honey Balm (quantity 1)
+  - Customer gets: the Lip Balm (quantity 1)
+  - At: 100% off
+  - Code: FREELIP (or whatever the founder wants live)
+  - Combinations: allow combining with the FIRST10/whatever popup mechanic replaces it
+    if still running elsewhere, or leave default if this fully replaces it
+  - Usage limit: 1 per customer (checkbox), Active dates: set an expiry to match
+    whatever urgency copy ships in the email
+
+  IMPORTANT UX NOTE: Buy X Get Y does NOT auto-add the free item to cart. The customer
+  still has to add the lip balm themselves for the discount to apply to it. This email's
+  CTA link goes to the BALM's product page (not the lip balm's) with the code
+  auto-applying via the /discount/ redirect pattern, then the cart-drawer lip balm
+  upsell block (added to tallow-pdp.liquid, "Cart lip balm upsell" schema section) is
+  what actually prompts them to add it, that block is doing real functional work here,
+  not just a nice-to-have. Confirm that upsell section is turned on and pointed at the
+  correct lip balm variant ID before this email goes live, otherwise customers who
+  don't notice the upsell prompt will never actually receive their free gift.
+
+  Unsubscribe + open tracking: uses Shopify Email's required Liquid variables,
+  {{ unsubscribe_url }} for the footer link and {{ open_tracking_block }} (Shopify's
+  own required tracking variable, must be pasted bare, not wrapped in an img tag).
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin:0;padding:0;background:#F6F1E9;font-family:Arial,Helvetica,sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F6F1E9;padding:32px 0;">
+  <tr>
+    <td align="center">
+      <table role="presentation" width="100%" style="max-width:520px;background:#FBF8F2;border-radius:16px;overflow:hidden;border:1px solid #D8CDBC;">
+
+        <tr>
+          <td align="center" style="background:#22351F;padding:22px;">
+            <span style="font-family:Georgia,'Times New Roman',serif;font-size:19px;font-weight:bold;color:#F2EAD9;letter-spacing:.4px;">Baseline Tallow</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="padding:36px 34px 6px;">
+            <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:27px;line-height:1.2;color:#23291F;font-weight:600;">Here's your free tallow gift.</h1>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="padding:10px 34px 0;">
+            <p style="margin:0;font-size:15px;color:#5c5848;line-height:1.6;">Grab the Whipped Tallow & Honey Balm and we're throwing in a full-size Tallow Lip Balm free, our treat, no catch.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:26px 28px 6px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F3E7CE;border:1px dashed #C98A3C;border-radius:12px;">
+              <tr><td align="center" style="padding:18px;">
+                <div style="font-size:13px;color:#6a481a;">Your code</div>
+                <div style="margin-top:8px;">
+                  <span style="display:inline-block;background:#2E4731;color:#ffffff;font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:bold;letter-spacing:1.5px;padding:9px 20px;border-radius:999px;">FREELIP</span>
+                </div>
+                <div style="margin-top:8px;font-size:12.5px;color:#8a6a2e;">Free Tallow Lip Balm ($14.99 value) with your Whipped Tallow & Honey Balm.</div>
+              </td></tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="padding:2px 34px 0;">
+            <p style="margin:0;font-size:13px;color:#B44B2C;font-weight:bold;">Expires in 7 days.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="padding:16px 34px 4px;">
+            <a href="{{SHOP_LINK_WITH_DISCOUNT}}" style="display:inline-block;background:#2E4731;color:#ffffff;text-decoration:none;font-weight:bold;font-size:16px;padding:15px 34px;border-radius:14px;">Claim My Free Gift</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="padding:4px 34px 30px;">
+            <p style="margin:0;font-size:12.5px;color:#9a927d;">Add the balm, then add the lip balm from your cart, it applies free automatically. Or enter FREELIP at checkout.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="border-top:1px solid #D8CDBC;padding:18px 28px;text-align:center;">
+            <p style="margin:0;font-size:12.5px;color:#6b6552;">Free shipping&nbsp;&middot;&nbsp;60-day money-back guarantee&nbsp;&middot;&nbsp;4 ingredients</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="padding:14px 28px 22px;">
+            <p style="margin:0;font-size:11px;color:#9a927d;line-height:1.6;">You're getting this because you signed up for a free gift at trybasline.com.<br><a href="{{ unsubscribe_url }}" style="color:#9a927d;text-decoration:underline;">Unsubscribe</a></p>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+{{ open_tracking_block }}
+</body>
+</html>
+
+<!--
+  Block-by-block breakdown (drag-and-drop editor fallback):
+  - Header/logo block: "Baseline Tallow"
+  - Heading block: "Here's your free tallow gift."
+  - Text block: "Grab the Whipped Tallow & Honey Balm and we're throwing in a full-size Tallow Lip Balm free, our treat, no catch."
+  - Discount/code block: "FREELIP" - "Free Tallow Lip Balm ($14.99 value) with your Whipped Tallow & Honey Balm."
+  - Small urgency text (bold, warm red/orange): "Expires in 7 days."
+  - Button block: label "Claim My Free Gift", link -> the BALM's product page URL with the FREELIP code auto-applying:
+    https://trybasline.com/discount/FREELIP?redirect=/products/whipped-tallow-honey-balm
+  - Small text: "Add the balm, then add the lip balm from your cart, it applies free automatically. Or enter FREELIP at checkout."
+  - Footer text: "Free shipping · 60-day money-back guarantee · 4 ingredients"
+  - Small footer text: "You're getting this because you signed up for a free gift at
+    trybasline.com." with an "Unsubscribe" link -> {{ unsubscribe_url }}
+  - Open-tracking block: paste the raw {{ open_tracking_block }} variable itself
+
+  Open items:
+  - Create the FREELIP Buy X Get Y discount in Shopify admin per the mechanism note at
+    the top of this file before sending this email to anyone, a code that doesn't exist
+    yet breaks the whole offer.
+  - Turn on the "Cart lip balm upsell" section settings in tallow-pdp.liquid and set the
+    real lip balm variant ID, this is what actually prompts the customer to add the free
+    item, without it most people will never claim the gift they signed up for.
+  - {{SHOP_LINK_WITH_DISCOUNT}} should resolve to
+    https://trybasline.com/discount/FREELIP?redirect=/products/whipped-tallow-honey-balm
+  - Set a matching 7-day "Active dates" expiry on the FREELIP code itself, the email's
+    urgency copy is a lie otherwise.
+  - $14.99 is this file's assumed lip balm list price (matches tallow-lipbalm-pdp.liquid's
+    default), update both places together if the real price changes.
+-->

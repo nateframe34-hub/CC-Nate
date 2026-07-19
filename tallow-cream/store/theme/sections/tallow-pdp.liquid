@@ -467,7 +467,7 @@
 <!-- ================= WELCOME EMAIL POPUP ================= -->
 {%- if section.settings.popup_active -%}
 <div class="tlw-popup-overlay" id="tlw-popup-overlay" hidden></div>
-<div class="tlw-popup" id="tlw-popup" hidden role="dialog" aria-label="Unlock a mystery discount">
+<div class="tlw-popup" id="tlw-popup" hidden role="dialog" aria-label="Unlock a free tallow gift">
   {%- if product.featured_image -%}
     {%- if section.settings.popup_image != blank -%}
       <div class="tlw-popup-img">{{ section.settings.popup_image | image_url: width: 500 | image_tag: loading: 'lazy', alt: 'Whipped tallow balm' }}</div>
@@ -476,8 +476,8 @@
     {%- endif -%}
   {%- endif -%}
   <div class="tlw-popup-body">
-    <h3>{{ section.settings.popup_heading | default: 'Unlock a mystery discount' }}</h3>
-    <p>{{ section.settings.popup_subtext | default: 'Real tallow, 4 ingredients, and a surprise discount code in your inbox in the next minute.' }}</p>
+    <h3>{{ section.settings.popup_heading | default: 'Unlock a free tallow gift' }}</h3>
+    <p>{{ section.settings.popup_subtext | default: "Sign up and we'll send you a code for a free tallow essential, our treat, with your first order." }}</p>
     {%- form 'customer', class: 'tlw-popup-form' -%}
       {%- if form.posted_successfully? -%}
         <p class="tlw-popup-ok">Check your inbox, your code is on its way.</p>
@@ -485,7 +485,7 @@
         <input type="hidden" name="contact[tags]" value="site-popup-capture">
         <input type="hidden" name="contact[accepts_marketing]" value="true">
         <input type="email" name="contact[email]" placeholder="Your email" required aria-label="Email">
-        <button type="submit">Reveal my discount</button>
+        <button type="submit">Reveal my gift</button>
       {%- endif -%}
     {%- endform -%}
     <button type="button" class="tlw-popup-skip" id="tlw-popup-skip">No, I'll continue shopping</button>
@@ -504,6 +504,19 @@
     <div class="tlw-d-items"></div>
     <div class="tlw-d-empty" hidden>Your cart is empty.</div>
   </div>
+  {%- if section.settings.lipbalm_upsell_variant_id != blank -%}
+  <div class="tlw-d-upsell">
+    <div class="tlw-d-up-img">{{ section.settings.lipbalm_upsell_image | image_url: width: 120 | image_tag: loading: 'lazy', alt: 'Tallow lip balm' }}</div>
+    <div class="tlw-d-up-info">
+      <div class="tlw-d-up-title">{{ section.settings.lipbalm_upsell_title | default: 'Add Tallow Lip Balm' }}</div>
+      <div class="tlw-d-up-price">{{ section.settings.lipbalm_upsell_price | default: '+ $7.99' }}</div>
+    </div>
+    {%- form 'product', class: 'pf tlw-d-up-form' -%}
+      <input type="hidden" name="id" value="{{ section.settings.lipbalm_upsell_variant_id }}">
+      <button type="submit" name="add" class="tlw-d-up-add">Add</button>
+    {%- endform -%}
+  </div>
+  {%- endif -%}
   <div class="tlw-d-foot">
     <div class="tlw-d-savings" hidden></div>
     <div class="tlw-d-subtotal"><span>Subtotal</span><span class="tlw-d-subval">{{ cart.total_price | money }}</span></div>
@@ -540,6 +553,14 @@
   #tallow-pdp .tlw-d-now{font-size:15px;font-weight:700;color:var(--green)}
   #tallow-pdp .tlw-d-remove{background:none;border:none;cursor:pointer;color:#a89e88;padding:2px;display:flex;margin-top:2px}
   #tallow-pdp .tlw-d-remove .icon{width:17px;height:17px}
+  #tallow-pdp .tlw-d-upsell{display:flex;align-items:center;gap:12px;margin:0 20px 14px;padding:10px;background:var(--paper);border:1px dashed var(--line);border-radius:12px}
+  #tallow-pdp .tlw-d-up-img{width:44px;height:44px;border-radius:8px;overflow:hidden;background:var(--cream-2);flex-shrink:0}
+  #tallow-pdp .tlw-d-up-img img{width:100%;height:100%;object-fit:cover;display:block}
+  #tallow-pdp .tlw-d-up-info{flex:1;min-width:0}
+  #tallow-pdp .tlw-d-up-title{font-size:13px;font-weight:700;line-height:1.25}
+  #tallow-pdp .tlw-d-up-price{font-size:12.5px;color:var(--grey);margin-top:2px}
+  #tallow-pdp .tlw-d-up-form{margin:0;flex-shrink:0}
+  #tallow-pdp .tlw-d-up-add{background:var(--green);color:#fff;border:none;border-radius:8px;padding:8px 14px;font-family:inherit;font-weight:700;font-size:13px;cursor:pointer}
   #tallow-pdp .tlw-d-foot{border-top:1px solid var(--line);padding:18px 20px;background:var(--cream)}
   #tallow-pdp .tlw-d-savings{display:flex;justify-content:space-between;font-size:14px;font-weight:600;color:var(--green);margin-bottom:8px}
   #tallow-pdp .tlw-d-subtotal{display:flex;justify-content:space-between;font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:600;margin-bottom:14px}
@@ -705,10 +726,15 @@
     { "type": "header", "content": "Hero" },
     { "type": "text", "id": "anno_text", "label": "Announcement bar", "default": "Free shipping on every order · 60-day money-back guarantee" },
     { "type": "header", "content": "Welcome email popup" },
-    { "type": "checkbox", "id": "popup_active", "label": "Show welcome popup (email for 10% off)", "default": true },
+    { "type": "checkbox", "id": "popup_active", "label": "Show welcome popup (free tallow gift with first order)", "default": true },
     { "type": "image_picker", "id": "popup_image", "label": "Popup image (falls back to product photo)" },
-    { "type": "text", "id": "popup_heading", "label": "Popup heading", "default": "Unlock a mystery discount" },
-    { "type": "text", "id": "popup_subtext", "label": "Popup subtext", "default": "Real tallow, 4 ingredients, and a surprise discount code in your inbox in the next minute." },
+    { "type": "text", "id": "popup_heading", "label": "Popup heading", "default": "Unlock a free tallow gift" },
+    { "type": "text", "id": "popup_subtext", "label": "Popup subtext", "default": "Sign up and we'll send you a code for a free tallow essential, our treat, with your first order." },
+    { "type": "header", "content": "Cart lip balm upsell (optional)" },
+    { "type": "text", "id": "lipbalm_upsell_variant_id", "label": "Lip balm variant ID (leave blank to hide)" },
+    { "type": "image_picker", "id": "lipbalm_upsell_image", "label": "Lip balm thumbnail" },
+    { "type": "text", "id": "lipbalm_upsell_title", "label": "Upsell title", "default": "Add Tallow Lip Balm" },
+    { "type": "text", "id": "lipbalm_upsell_price", "label": "Upsell price text", "default": "+ $7.99" },
     { "type": "header", "content": "Extra photos (optional)" },
     { "type": "image_picker", "id": "lifestyle_image", "label": "Lifestyle photo (matches current ad angle)" },
     { "type": "text", "id": "lifestyle_caption", "label": "Lifestyle photo caption (optional)" },

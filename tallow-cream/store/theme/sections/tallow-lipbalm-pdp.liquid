@@ -1,0 +1,103 @@
+{%- comment -%}
+  TALLOW LIP BALM · lightweight product section, on-brand but far less
+  detailed than the main balm PDP (tallow-pdp.liquid). No traffic is being
+  driven here directly, it exists to (a) be a real product page for the free
+  gift/upsell to link to and (b) support a standalone add-to-cart if someone
+  browses to it. Reuses the same color/typography system as the main PDP.
+{%- endcomment -%}
+
+{%- assign v = product.selected_or_first_available_variant -%}
+
+<div id="tlw-lip">
+
+<style>
+  #tlw-lip{
+    --cream:#F6F1E9;--cream-2:#EFE7DA;--ink:#23291F;
+    --green:#2E4731;--green-deep:#22351F;--amber:#C98A3C;
+    --line:#D8CDBC;--paper:#FBF8F2;--grey:#6b6552;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);background:var(--cream);line-height:1.5;-webkit-font-smoothing:antialiased;
+  }
+  #tlw-lip *{box-sizing:border-box;margin:0;padding:0}
+  #tlw-lip h1,#tlw-lip h2,#tlw-lip .serif{font-family:Georgia,'Times New Roman',serif;font-weight:600;letter-spacing:-.01em;line-height:1.15}
+  #tlw-lip .wrap{max-width:1000px;margin:0 auto;padding:28px 18px 60px}
+  #tlw-lip .grid{display:grid;grid-template-columns:1fr;gap:26px}
+  @media(min-width:820px){#tlw-lip .grid{grid-template-columns:1fr 1fr;gap:44px;align-items:start}}
+  #tlw-lip .img{aspect-ratio:1/1;border-radius:16px;overflow:hidden;background:var(--cream-2)}
+  #tlw-lip .img img{width:100%;height:100%;object-fit:cover;display:block}
+  #tlw-lip .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--amber)}
+  #tlw-lip h1{font-size:30px;margin:8px 0 10px}
+  #tlw-lip .price-row{display:flex;align-items:baseline;gap:10px;margin-bottom:16px}
+  #tlw-lip .price-sale{font-size:24px;font-weight:700}
+  #tlw-lip .price-compare{font-size:16px;color:#9a927d;text-decoration:line-through}
+  #tlw-lip p.desc{font-size:15px;color:#46503c;margin-bottom:18px}
+  #tlw-lip .checks{list-style:none;margin:0 0 22px;display:flex;flex-direction:column;gap:8px}
+  #tlw-lip .checks li{font-size:14px;display:flex;gap:8px;align-items:flex-start}
+  #tlw-lip .checks li::before{content:"✓";color:var(--green);font-weight:700;flex-shrink:0}
+  #tlw-lip .btn{display:flex;align-items:center;justify-content:center;gap:9px;background:var(--green);color:#fff;border:none;border-radius:14px;padding:16px 26px;font-family:inherit;font-weight:700;font-size:16px;cursor:pointer;width:100%}
+  #tlw-lip .btn[disabled]{opacity:.5;cursor:not-allowed}
+  #tlw-lip .trust{display:flex;gap:16px;flex-wrap:wrap;margin-top:16px;font-size:12.5px;color:var(--grey)}
+  #tlw-lip .ing{margin-top:26px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+  #tlw-lip .ing h2{font-size:16px;margin-bottom:8px}
+  #tlw-lip .ing p{font-size:13.5px;color:#5c5848}
+</style>
+
+<div class="wrap">
+  <div class="grid">
+    <div class="img">
+      {%- if product.featured_image -%}
+        {{ product.featured_image | image_url: width: 800 | image_tag: loading: 'eager', alt: product.title }}
+      {%- endif -%}
+    </div>
+    <div>
+      <div class="eyebrow">{{ section.settings.eyebrow | default: 'Tallow Cream · Lip Care' }}</div>
+      <h1>{{ section.settings.title | default: product.title | default: 'Whipped Tallow Lip Balm' }}</h1>
+      <div class="price-row">
+        <span class="price-sale">{{ section.settings.price_sale | default: '$14.99' }}</span>
+        {%- if section.settings.price_compare != blank -%}<span class="price-compare">{{ section.settings.price_compare }}</span>{%- endif -%}
+      </div>
+      <p class="desc">{{ section.settings.description | default: 'Same tallow, honey, and calendula base as the original balm, sized and shaped for lips that get just as dry as everything else. Melts on, no waxy film, no reapplying every twenty minutes.' }}</p>
+      <ul class="checks">
+        <li>{{ section.settings.bullet_1 | default: 'Tallow, honey, olive oil, calendula. Same 4 ingredients as the balm.' }}</li>
+        <li>{{ section.settings.bullet_2 | default: 'Melts in, not a wax coating that sits on top.' }}</li>
+        <li>{{ section.settings.bullet_3 | default: 'Pocket-size, fits anywhere the full jar doesn't.' }}</li>
+      </ul>
+      {%- form 'product', product, class: 'pf' -%}
+        <input type="hidden" name="id" value="{{ v.id }}">
+        <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
+          {%- if v.available -%}Add to Cart{%- else -%}Sold Out{%- endif -%}
+        </button>
+      {%- endform -%}
+      <div class="trust">
+        <span>Free shipping on orders with the balm</span>
+        <span>60-day guarantee</span>
+      </div>
+      <div class="ing">
+        <h2>Ingredients</h2>
+        <p>{{ section.settings.ingredients | default: 'Grass-fed beef tallow, manuka honey, olive oil, calendula extract.' }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>{%- comment -%} /#tlw-lip {%- endcomment -%}
+
+{% schema %}
+{
+  "name": "Tallow Lip Balm PDP",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow text", "default": "Tallow Cream · Lip Care" },
+    { "type": "text", "id": "title", "label": "Product title override" },
+    { "type": "text", "id": "price_sale", "label": "Sale price (shown)", "default": "$14.99" },
+    { "type": "text", "id": "price_compare", "label": "Compare-at price (struck through, optional)" },
+    { "type": "textarea", "id": "description", "label": "Short description" },
+    { "type": "text", "id": "bullet_1", "label": "Bullet 1" },
+    { "type": "text", "id": "bullet_2", "label": "Bullet 2" },
+    { "type": "text", "id": "bullet_3", "label": "Bullet 3" },
+    { "type": "textarea", "id": "ingredients", "label": "Ingredients text" }
+  ],
+  "presets": [
+    { "name": "Tallow Lip Balm PDP" }
+  ]
+}
+{% endschema %}
