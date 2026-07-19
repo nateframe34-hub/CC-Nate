@@ -533,7 +533,7 @@
 <!-- ================= WELCOME EMAIL POPUP ================= -->
 {%- if section.settings.popup_active -%}
 <div class="tlw-popup-overlay" id="tlw-popup-overlay" hidden></div>
-<div class="tlw-popup" id="tlw-popup" hidden role="dialog" aria-label="Get 10% off your entire order">
+<div class="tlw-popup" id="tlw-popup" hidden role="dialog" aria-label="Unlock a discount on your order">
   {%- if product.featured_image -%}
     {%- if section.settings.popup_image != blank -%}
       <div class="tlw-popup-img">{{ section.settings.popup_image | image_url: width: 500 | image_tag: loading: 'lazy', alt: 'Whipped tallow balm' }}</div>
@@ -542,8 +542,8 @@
     {%- endif -%}
   {%- endif -%}
   <div class="tlw-popup-body">
-    <h3>{{ section.settings.popup_heading | default: 'Get 10% off your entire order' }}</h3>
-    <p>{{ section.settings.popup_subtext | default: "Enter your email for a code good for 10% off everything in your cart, sent straight to your inbox." }}</p>
+    <h3>{{ section.settings.popup_heading | default: 'Unlock a discount on your order' }}</h3>
+    <p>{{ section.settings.popup_subtext | default: "Enter your email and we'll send a code straight to your inbox." }}</p>
     {%- form 'customer', class: 'tlw-popup-form' -%}
       {%- if form.posted_successfully? -%}
         <p class="tlw-popup-ok">Check your inbox, your code is on its way.</p>
@@ -551,7 +551,7 @@
         <input type="hidden" name="contact[tags]" value="site-popup-capture">
         <input type="hidden" name="contact[accepts_marketing]" value="true">
         <input type="email" name="contact[email]" placeholder="Your email" required aria-label="Email">
-        <button type="submit">Get My 10% Code</button>
+        <button type="submit">Reveal My Code</button>
       {%- endif -%}
     {%- endform -%}
     <button type="button" class="tlw-popup-skip" id="tlw-popup-skip">No, I'll continue shopping</button>
@@ -808,8 +808,8 @@
     { "type": "header", "content": "Welcome email popup" },
     { "type": "checkbox", "id": "popup_active", "label": "Show welcome popup (10% off, email capture for cart-recovery flow)", "default": true },
     { "type": "image_picker", "id": "popup_image", "label": "Popup image (falls back to product photo)" },
-    { "type": "text", "id": "popup_heading", "label": "Popup heading", "default": "Get 10% off your entire order" },
-    { "type": "text", "id": "popup_subtext", "label": "Popup subtext", "default": "Enter your email for a code good for 10% off everything in your cart, sent straight to your inbox." },
+    { "type": "text", "id": "popup_heading", "label": "Popup heading (kept vague on purpose, mystery discount)", "default": "Unlock a discount on your order" },
+    { "type": "text", "id": "popup_subtext", "label": "Popup subtext (don't reveal the %, mystery discount)", "default": "Enter your email and we'll send a code straight to your inbox." },
     { "type": "header", "content": "Free gift, Overnight Lip Mask" },
     { "type": "product", "id": "free_gift_product", "label": "Free gift product (blank = disable)" },
     { "type": "image_picker", "id": "free_gift_image", "label": "Override photo (falls back to product photo)" },
