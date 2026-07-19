@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "tallow-lipbalm-pdp",
+      "settings": {
+        "eyebrow": "Tallow Cream · Lip Care",
+        "price_sale": "$14.99",
+        "bullet_1": "Tallow, honey, olive oil, calendula. Same ingredient family as the balm.",
+        "bullet_2": "Leave-on overnight formula, not a daily-carry stick.",
+        "bullet_3": "Small jar, easy to keep on the nightstand.",
+        "ingredients": "Grass-fed beef tallow, manuka honey, olive oil, calendula extract."
+      }
+    }
+  },
+  "order": ["main"]
+}
