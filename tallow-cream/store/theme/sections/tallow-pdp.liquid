@@ -74,13 +74,36 @@
   #tallow-pdp .price .was{font-size:17px;color:#9a927d;text-decoration:line-through}
   #tallow-pdp .price .save{background:var(--amber-soft);color:#6a481a;font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px}
   #tallow-pdp .ship{font-size:12.5px;color:var(--grey);margin-bottom:16px}
-  #tallow-pdp .free-gift-card{display:flex;align-items:center;gap:13px;margin-top:14px;background:var(--paper);border:1.5px solid var(--amber);border-radius:14px;padding:12px 14px;box-shadow:0 2px 10px rgba(201,138,60,.12)}
-  #tallow-pdp .fg-img{width:56px;height:56px;border-radius:10px;overflow:hidden;background:var(--cream-2);flex-shrink:0}
-  #tallow-pdp .fg-img img{width:100%;height:100%;object-fit:cover;display:block}
+  @keyframes fgReveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  #tallow-pdp .free-gift-card{
+    position:relative;display:flex;align-items:center;gap:14px;margin-top:14px;
+    background:linear-gradient(155deg,var(--paper) 0%,var(--amber-soft) 145%);
+    border:1px solid var(--amber);border-radius:16px;padding:14px 16px 14px 14px;
+    box-shadow:0 6px 20px rgba(107,72,26,.10);overflow:hidden;
+    animation:fgReveal .5s cubic-bezier(.2,.7,.3,1) .15s both;
+  }
+  @media(prefers-reduced-motion:reduce){#tallow-pdp .free-gift-card{animation:none}}
+  #tallow-pdp .fg-ribbon{
+    position:absolute;top:-1px;left:16px;
+    background:var(--green);color:#fff;font-family:Georgia,'Times New Roman',serif;
+    font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+    padding:3px 10px 4px;border-radius:0 0 7px 7px;box-shadow:0 2px 6px rgba(0,0,0,.12);
+  }
+  #tallow-pdp .fg-media{width:64px;height:64px;border-radius:12px;overflow:hidden;background:#fff;
+    flex-shrink:0;margin-top:8px;display:flex;align-items:center;justify-content:center;
+    border:1px solid rgba(201,138,60,.35);box-shadow:inset 0 0 0 1px rgba(255,255,255,.6)}
+  #tallow-pdp .fg-media img{width:100%;height:100%;object-fit:cover;display:block}
+  #tallow-pdp .fg-icon{width:28px;height:28px;color:var(--amber)}
+  #tallow-pdp .fg-stub{align-self:stretch;width:0;border-left:1.5px dashed rgba(107,72,26,.28);position:relative;flex-shrink:0}
+  #tallow-pdp .fg-stub::before,#tallow-pdp .fg-stub::after{content:"";position:absolute;left:-6px;width:12px;height:12px;border-radius:50%;background:var(--cream)}
+  #tallow-pdp .fg-stub::before{top:-14px}
+  #tallow-pdp .fg-stub::after{bottom:-14px}
   #tallow-pdp .fg-text{min-width:0}
-  #tallow-pdp .fg-eyebrow{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--amber)}
-  #tallow-pdp .fg-title{font-size:15px;font-weight:700;color:var(--ink);margin-top:2px;line-height:1.25}
-  #tallow-pdp .fg-value{font-size:12px;color:var(--grey);margin-top:2px}
+  #tallow-pdp .fg-eyebrow{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#8a6a2e}
+  #tallow-pdp .fg-title{font-family:Georgia,'Times New Roman',serif;font-size:17px;font-weight:600;color:var(--ink);margin-top:3px;line-height:1.22}
+  #tallow-pdp .fg-meta{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin-top:6px}
+  #tallow-pdp .fg-tag{display:inline-block;background:var(--green);color:#fff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px}
+  #tallow-pdp .fg-auto{font-size:11.5px;color:#7a6a4e}
   #tallow-pdp .gift-line{margin-top:9px;font-size:12.5px;color:var(--grey);text-align:center}
   #tallow-pdp .micro{display:flex;gap:7px;flex-wrap:wrap;margin:15px 0 0}
   #tallow-pdp .micro span{display:flex;align-items:center;gap:6px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:7px 12px;font-size:12.5px;font-weight:600;color:#46503c}
@@ -302,29 +325,39 @@
       </button>
     {%- endform -%}
 
-    {%- if section.settings.lipbalm_upsell_variant_id != blank -%}
+    {%- assign free_gift_product = section.settings.free_gift_product -%}
+    {%- if free_gift_product != blank -%}
+    {%- assign fg_variant = free_gift_product.selected_or_first_available_variant -%}
     <div class="free-gift-card">
-      {%- if section.settings.free_gift_image != blank -%}
-        <div class="fg-img">{{ section.settings.free_gift_image | image_url: width: 160 | image_tag: loading: 'eager', alt: 'Free Tallow Lip Balm' }}</div>
-      {%- endif -%}
+      <div class="fg-ribbon">Free</div>
+      <div class="fg-media">
+        {%- if section.settings.free_gift_image != blank -%}
+          {{ section.settings.free_gift_image | image_url: width: 200 | image_tag: loading: 'eager', alt: free_gift_product.title }}
+        {%- elsif free_gift_product.featured_image -%}
+          {{ free_gift_product.featured_image | image_url: width: 200 | image_tag: loading: 'eager', alt: free_gift_product.title }}
+        {%- else -%}
+          <svg class="fg-icon"><use href="#tlw-gift"/></svg>
+        {%- endif -%}
+      </div>
+      <div class="fg-stub" aria-hidden="true"></div>
       <div class="fg-text">
-        <div class="fg-eyebrow">Free gift, every order</div>
-        <div class="fg-title">{{ section.settings.free_gift_text | default: 'Tallow & Honey Overnight Lip Mask included, no code needed' }}</div>
-        <div class="fg-value">$14.99 value &middot; added to your cart automatically</div>
+        <div class="fg-eyebrow">Included with every order</div>
+        <div class="fg-title">{{ section.settings.free_gift_text | default: free_gift_product.title }}</div>
+        <div class="fg-meta"><span class="fg-tag">{{ fg_variant.price | money }} value</span><span class="fg-auto">Added to your cart automatically, no code needed</span></div>
       </div>
     </div>
     {%- endif -%}
 
     {%- if section.settings.gift_card_active -%}
+      {%- assign gift_token_product = section.settings.gift_token_product -%}
       {%- assign gift_remaining = 0 -%}
-      {%- if section.settings.gift_token_product_handle != blank -%}
-        {%- assign gift_token_product = all_products[section.settings.gift_token_product_handle] -%}
-        {%- if gift_token_product -%}{%- assign gift_remaining = gift_token_product.selected_or_first_available_variant.inventory_quantity -%}{%- endif -%}
+      {%- if gift_token_product != blank -%}
+        {%- assign gift_remaining = gift_token_product.selected_or_first_available_variant.inventory_quantity -%}
       {%- endif -%}
-      {%- if section.settings.gift_token_product_handle == blank or gift_remaining > 0 -%}
+      {%- if gift_token_product == blank or gift_remaining > 0 -%}
       <div class="gift-line">
         {{ section.settings.gift_card_text | default: 'The next 100 customers also get a $10 gift card' }}
-        {%- if section.settings.gift_token_product_handle != blank and gift_remaining > 0 -%}
+        {%- if gift_token_product != blank and gift_remaining > 0 -%}
           &nbsp;&middot;&nbsp;{{ gift_remaining }} remaining
         {%- endif -%}
       </div>
@@ -534,19 +567,6 @@
     <div class="tlw-d-items"></div>
     <div class="tlw-d-empty" hidden>Your cart is empty.</div>
   </div>
-  {%- if section.settings.lipbalm_upsell_variant_id != blank -%}
-  <div class="tlw-d-upsell">
-    <div class="tlw-d-up-img">{{ section.settings.lipbalm_upsell_image | image_url: width: 120 | image_tag: loading: 'lazy', alt: 'Tallow lip balm' }}</div>
-    <div class="tlw-d-up-info">
-      <div class="tlw-d-up-title">{{ section.settings.lipbalm_upsell_title | default: 'Add Tallow Lip Balm' }}</div>
-      <div class="tlw-d-up-price">{{ section.settings.lipbalm_upsell_price | default: '+ $7.99' }}</div>
-    </div>
-    {%- form 'product', class: 'pf tlw-d-up-form' -%}
-      <input type="hidden" name="id" value="{{ section.settings.lipbalm_upsell_variant_id }}">
-      <button type="submit" name="add" class="tlw-d-up-add">Add</button>
-    {%- endform -%}
-  </div>
-  {%- endif -%}
   <div class="tlw-d-foot">
     <div class="tlw-d-savings" hidden></div>
     <div class="tlw-d-subtotal"><span>Subtotal</span><span class="tlw-d-subval">{{ cart.total_price | money }}</span></div>
@@ -584,14 +604,6 @@
   #tallow-pdp .tlw-d-free-tag{display:inline-block;background:var(--green);color:#fff;font-size:9.5px;font-weight:700;letter-spacing:.04em;padding:2px 6px;border-radius:5px;vertical-align:middle;margin-left:4px}
   #tallow-pdp .tlw-d-remove{background:none;border:none;cursor:pointer;color:#a89e88;padding:2px;display:flex;margin-top:2px}
   #tallow-pdp .tlw-d-remove .icon{width:17px;height:17px}
-  #tallow-pdp .tlw-d-upsell{display:flex;align-items:center;gap:12px;margin:0 20px 14px;padding:10px;background:var(--paper);border:1px dashed var(--line);border-radius:12px}
-  #tallow-pdp .tlw-d-up-img{width:44px;height:44px;border-radius:8px;overflow:hidden;background:var(--cream-2);flex-shrink:0}
-  #tallow-pdp .tlw-d-up-img img{width:100%;height:100%;object-fit:cover;display:block}
-  #tallow-pdp .tlw-d-up-info{flex:1;min-width:0}
-  #tallow-pdp .tlw-d-up-title{font-size:13px;font-weight:700;line-height:1.25}
-  #tallow-pdp .tlw-d-up-price{font-size:12.5px;color:var(--grey);margin-top:2px}
-  #tallow-pdp .tlw-d-up-form{margin:0;flex-shrink:0}
-  #tallow-pdp .tlw-d-up-add{background:var(--green);color:#fff;border:none;border-radius:8px;padding:8px 14px;font-family:inherit;font-weight:700;font-size:13px;cursor:pointer}
   #tallow-pdp .tlw-d-foot{border-top:1px solid var(--line);padding:18px 20px;background:var(--cream)}
   #tallow-pdp .tlw-d-savings{display:flex;justify-content:space-between;font-size:14px;font-weight:600;color:var(--green);margin-bottom:8px}
   #tallow-pdp .tlw-d-subtotal{display:flex;justify-content:space-between;font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:600;margin-bottom:14px}
@@ -668,8 +680,8 @@
   // without requiring a second manual click.
   var MAIN_FORM_IDS = ['tlw-form-hero','tlw-form-final','tlw-form-sticky'];
   var GIFT_VARIANT_IDS = [
-    {{ section.settings.lipbalm_upsell_variant_id | default: '' | json }},
-    {{ section.settings.gift_token_variant_id | default: '' | json }}
+    {{ section.settings.free_gift_product.selected_or_first_available_variant.id | default: '' | json }},
+    {{ section.settings.gift_token_product.selected_or_first_available_variant.id | default: '' | json }}
   ].filter(function(id){ return id && id.length; });
 
   function addGiftsSilently(){
@@ -790,14 +802,12 @@
     { "type": "image_picker", "id": "popup_image", "label": "Popup image (falls back to product photo)" },
     { "type": "text", "id": "popup_heading", "label": "Popup heading", "default": "Get 10% off your entire order" },
     { "type": "text", "id": "popup_subtext", "label": "Popup subtext", "default": "Enter your email for a code good for 10% off everything in your cart, sent straight to your inbox." },
-    { "type": "header", "content": "Cart lip balm upsell (optional)" },
-    { "type": "text", "id": "lipbalm_upsell_variant_id", "label": "Lip balm variant ID (blank = disable free gift)" },
-    { "type": "image_picker", "id": "lipbalm_upsell_image", "label": "Lip balm thumbnail" },
-    { "type": "text", "id": "lipbalm_upsell_title", "label": "Upsell title (fallback manual-add only)", "default": "Add Overnight Lip Mask" },
-    { "type": "text", "id": "lipbalm_upsell_price", "label": "Upsell price text (fallback manual-add only)", "default": "+ $7.99" },
+    { "type": "header", "content": "Free gift, Overnight Lip Mask" },
+    { "type": "product", "id": "free_gift_product", "label": "Free gift product (blank = disable)" },
+    { "type": "image_picker", "id": "free_gift_image", "label": "Override photo (falls back to product photo)" },
+    { "type": "text", "id": "free_gift_text", "label": "Override title (falls back to product title)" },
     { "type": "header", "content": "Scarcity gift card token (optional)" },
-    { "type": "text", "id": "gift_token_variant_id", "label": "Gift card eligibility token variant ID (leave blank to disable)" },
-    { "type": "text", "id": "gift_token_product_handle", "label": "Gift card token product handle (live count, optional)" },
+    { "type": "product", "id": "gift_token_product", "label": "Gift card token product (blank = disable)" },
     { "type": "header", "content": "Extra photos (optional)" },
     { "type": "image_picker", "id": "lifestyle_image", "label": "Lifestyle photo (matches current ad angle)" },
     { "type": "text", "id": "lifestyle_caption", "label": "Lifestyle photo caption (optional)" },
@@ -810,8 +820,6 @@
     { "type": "text", "id": "rating_text", "label": "Rating text", "default": "4.8 · 47 reviews" },
     { "type": "text", "id": "subtitle", "label": "Subtitle", "default": "Face & Body · 4 Ingredients · 120g" },
     { "type": "text", "id": "ship_text", "label": "Shipping line", "default": "Free shipping · ships in 1-2 days" },
-    { "type": "image_picker", "id": "free_gift_image", "label": "Free gift card image (lip balm photo)" },
-    { "type": "text", "id": "free_gift_text", "label": "Free lip balm callout title", "default": "Tallow Lip Balm included, no code needed" },
     { "type": "checkbox", "id": "gift_card_active", "label": "Show gift card line (small text, low emphasis by design)", "default": true },
     { "type": "text", "id": "gift_card_text", "label": "Gift card line text", "default": "The next 100 customers also get a $10 gift card" },
     { "type": "header", "content": "Proof stats (after 2 weeks)" },
