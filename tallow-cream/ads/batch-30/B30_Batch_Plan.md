@@ -1,20 +1,18 @@
-# Batch 30 Plan - SA1 "The Tired-Looking," Single-Angle Deep Dive + Awareness-Bridge Isolation Test
+# Batch 30 Plan - SA1 "The Tired-Looking," Single-Angle Deep Dive
 
-**Date:** 2026-07-19
+**Date:** 2026-07-19, REVISED same day.
 **Status:** PLAN ONLY. No copy written yet, this is the strategy document for founder sign-off before writing begins.
 **Trigger:** B28 confirmed the account has a top-of-funnel problem it can already solve (B28C1's CTR/CPC were strong) but a down-funnel conversion problem it hasn't solved (1 ATC total across the batch, 0 purchases). This batch is designed specifically to attack the conversion leak, not to find another hook.
+
+**2026-07-19 revision, same day:** the original version of this plan included a 4th cell testing an advertorial bridge page, on the claim that the advertorial had "never been sent a single visitor." That claim was wrong, checked against this account's own tracker and corrected by the founder. B24 (3 creatives) + B25 (3 creatives) both routed through that exact advertorial page, launched 2026-07-07, and the whole campaign was killed 2026-07-14 specifically because it wasn't generating click-throughs, B24C2/C3 sat at zero delivery for days, B25 never produced a single ATC across all 3 cells, and total advertorial click-throughs across the entire test were approximately 1. The founder's read: it failed, don't retest it blindly right now. **B30C4 (the advertorial cell) is dropped.** One honest nuance kept on the record, not as a reason to retry: HANDOFF's own kill note says the test "never actually got a fair read" because 2 of the 6 cells never delivered at all, so the bridge concept itself isn't proven to fail, only that this specific attempt got starved before it could answer the question. That's a note for a future, deliberately-resourced retest, not a justification for sneaking it back into this batch.
 
 ---
 
 ## Why this batch is structured the way it is (read this before the per-cell breakdowns)
 
-Two outside ideas came in alongside the "we need conversions" directive, and both check out against this account's own data rather than being taken on faith:
+The single-angle-depth idea, checked against this account's own data: pick one angle, prove it converts, then squeeze it across different EMOTIONAL PATHWAYS into the same core trigger for different people, rather than burning budget testing many shallow angles and abandoning most of them. Checked against this account's own `Killed_Batch_Failure_Analysis.md`: that's close to a documented lesson already, "test 10 angles, drop 8" is exactly the pattern that produced 15 killed ads in batches 1-6 with only 3-4 of 10 skeleton elements present each, versus the converters that share a dense, consistent skeleton. `Brand_Mastery.md` also independently names one sub-avatar, SA1 The Tired-Looking, as "⭐ STRONGEST," backed by 3 verbatim-validated real-language hooks, and flags it as **completely untested as a lead angle** (every batch to date has tested SA2/SA3/SA4/SA6 instead). Between the account's own strongest-rated, most-validated, never-tried angle and the discipline of going deep instead of wide, SA1 is the correct next bet on the numbers alone.
 
-**1. The awareness-level mismatch idea.** The claim: every buyer converts at Most-Aware (the PDP, since it's where they see your brand/product/offer together), and an ad that's Problem- or Solution-Aware but sends the click straight to a Most-Aware page breaks the journey mid-stream. Checked against this account: our native ads are NOT the problem here, they already walk the reader up through awareness inside the copy itself (scene → mechanism reveal → skeptic-convert/product intro → transformation → price/guarantee close, which is Solution-Aware opening to a Most-Aware close, all within the ad). But the CLICK still dumps the reader from that finished narrative onto a generic commerce page (hero image, price, Add to Cart button) with zero continuity of voice or story. That's the actual mismatch moment, at the click, not in the copy. And it lines up exactly with B28's data: strong CTR (people are engaged and clicking) but the funnel breaks right after (LPV happens, ATC barely happens, purchase doesn't). **Real, previously-unused infrastructure already exists for this fix:** `tallow-cream/store/theme/sections/tallow-advertorial.liquid` is a full advertorial page, built, styled, on-brand, and its DEFAULT content is literally headlined "She Uses One Jar. Her Skin Doesn't Look Tired Anymore." with a hero image alt-text of "one jar on an empty bathroom counter." It was built for this exact angle and has never been sent a single visitor. Cell 4 below tests it directly.
-
-**2. The single-angle-depth idea.** The claim: pick one angle, prove it converts, then squeeze it across different EMOTIONAL PATHWAYS into the same core trigger for different people, rather than burning budget testing many shallow angles and abandoning most of them. Checked against this account's own `Killed_Batch_Failure_Analysis.md`: that's close to a documented lesson already, "test 10 angles, drop 8" is exactly the pattern that produced 15 killed ads in batches 1-6 with only 3-4 of 10 skeleton elements present each, versus the converters that share a dense, consistent skeleton. `Brand_Mastery.md` also independently names one sub-avatar, SA1 The Tired-Looking, as "⭐ STRONGEST," backed by 3 verbatim-validated real-language hooks, and flags it as **completely untested as a lead angle** (every batch to date has tested SA2/SA3/SA4/SA6 instead). Between the account's own strongest-rated, most-validated, never-tried angle and the discipline of going deep instead of wide, SA1 is the correct next bet on the numbers alone, independent of the friend's framework.
-
-**How the two ideas combine into this batch:** 3 cells test SA1's ONE core trigger ("surface dryness reads as tired to other people and to yourself, fixing hydration fixes the read") through 3 different emotional entry pathways drawn directly from SA1's own 3 already-researched angles in `Brand_Mastery.md` (self-recognition, external-comment accumulation, identity-reclaiming). All 3 keep the proven 10-element skeleton fully intact and route straight to the PDP, exactly like every prior converter, so this is NOT an unproven format, it's the account's best untapped angle run the way angles have always been proven to work here. A 4th, budget-isolated cell reuses the strongest of those 3 pathways verbatim but changes exactly one variable, the landing destination, native ad → advertorial → PDP, instead of native ad → PDP directly, to test the awareness-bridge hypothesis in isolation without touching angle, hook, or copy at all.
+**How this lands in the batch:** 3 cells test SA1's ONE core trigger ("surface dryness reads as tired to other people and to yourself, fixing hydration fixes the read") through 3 different emotional entry pathways drawn directly from SA1's own 3 already-researched angles in `Brand_Mastery.md` (self-recognition, external-comment accumulation, identity-reclaiming). All 3 keep the proven 10-element skeleton fully intact and route straight to the PDP, exactly like every prior converter, so this is NOT an unproven format, it's the account's best untapped angle run the way angles have always been proven to work here.
 
 ---
 
@@ -25,9 +23,8 @@ Two outside ideas came in alongside the "we need conversions" directive, and bot
 | B30C1 | Self-Recognition | PDP direct | Primary SA1 lead test |
 | B30C2 | External-Comment Accumulation | PDP direct | Primary SA1 lead test |
 | B30C3 | Identity-Reclaiming | PDP direct | Primary SA1 lead test |
-| B30C4 | Self-Recognition (= B30C1's copy, verbatim) | **Advertorial → PDP** | Isolated awareness-bridge test, single variable change from B30C1 |
 
-**Budget protocol, matching the account's own locked discipline:** each cell in its own ad set, protected/floored budget, no CBO starvation risk (per the standing CBO-starvation lesson from the killed-batch analysis and the B28 15%-floor precedent). B30C4 in particular needs true isolation since it's the one genuinely new structural variable in this batch, not sharing budget or learnings with C1-C3. Apply the existing governing kill rule (2x Ideal Scaling CAC, $40 no-purchase since launch) per cell, unproven regime, same as B28's read.
+**Budget protocol, matching the account's own locked discipline:** each cell in its own ad set, protected/floored budget, no CBO starvation risk (per the standing CBO-starvation lesson from the killed-batch analysis and the B28 15%-floor precedent). Apply the existing governing kill rule (2x Ideal Scaling CAC, $40 no-purchase since launch) per cell, unproven regime, same as B28's read.
 
 ---
 
@@ -39,7 +36,7 @@ Two outside ideas came in alongside the "we need conversions" directive, and bot
 
 **3. Why high chance of success, from avatar research:** `Brand_Mastery.md` rates SA1 "⭐ STRONGEST" of all 8 sub-avatars researched, and its Angle 1 hook is verbatim-validated (added 2026-07-06 specifically because it plays off a real, already-existing cultural phrase, "it's just my face," rather than inventing a new claim). Verbatim-validated language is the account's highest bar for research confidence, most angles in the doc are hooks written FROM research, this one is a hook FOUND IN research.
 
-**4. Why high chance of success, from data:** Two independent data points support the mechanism this angle relies on. First, B28's just-completed comparative analysis found the account's best-performing creative element is a genuinely ambiguous, voyeuristic visual moment (the empty-counter jar shot), not a straightforward before/after or lifestyle photo, this angle's video-call-screenshot hook has the same structural quality, a private, unposed, "caught off guard" moment. Second, the existing (unused) advertorial page was already built with this exact angle's headline and imagery as its DEFAULT content before this plan existed, meaning a previous pass at this account independently converged on SA1/self-recognition as the strongest creative bet without today's research pass referencing it.
+**4. Why high chance of success, from data:** B28's just-completed comparative analysis found the account's best-performing creative element is a genuinely ambiguous, voyeuristic visual moment (the empty-counter jar shot), not a straightforward before/after or lifestyle photo, this angle's video-call-screenshot hook has the same structural quality, a private, unposed, "caught off guard" moment. Separately, worth naming honestly rather than treating as a point in this angle's favor: the account's own killed B24/B25 advertorial test also used SA1/"tired" as its headline and imagery, and that test failed to generate real signal (starved delivery, ~1 total clickthrough across 6 cells). That's not evidence against SA1 as an angle, the failure was in the destination/format (advertorial bridge, chopped-up delivery), not the angle itself, but it means this pathway's success here rests on the avatar research and B28's creative-principle finding, not on any prior test of SA1 actually converting.
 
 **5. Awareness level:** Solution-Aware. She already knows something is making her look tired that isn't sleep (she's ruled out the obvious explanation), she just hasn't connected it to her skin specifically yet. This matches the proven posture of every converter to date, this batch is not experimenting with awareness level in the copy, only (in C4) at the click-through moment.
 
@@ -121,40 +118,17 @@ Two outside ideas came in alongside the "we need conversions" directive, and bot
 
 ---
 
-## B30C4 - Awareness-Bridge Isolation Test
-
-**1. What we are testing:** Whether inserting the existing (unused) advertorial page between the ad click and the PDP improves conversion, holding angle, hook, and copy completely constant. Reuses B30C1's copy and creative verbatim, changes exactly one variable: the destination URL.
-
-**2. Why we are testing it:** B28's data shows engaged clicks (strong CTR/CPC on C1) failing to convert past LPV. The advertorial page already exists, was already built with this exact angle's headline and imagery as its default content, and has never been sent a single visitor. This is close to a free test, no new copy, no new creative, one link change.
-
-**3. Why high chance of success, from avatar research:** N/A directly (this cell tests a structural/funnel variable, not an avatar-language variable), but indirectly: the advertorial's existing default copy already demonstrates someone on this account previously identified SA1/self-recognition as the strongest fit for a bridge page, independent of this current research pass.
-
-**4. Why high chance of success, from data:** This is the direct, controlled answer to the specific gap this batch was commissioned to close: B28C1 proves the click-quality isn't the problem (strong CTR/CPC), so the remaining unexplained variable is what happens between the click and the add-to-cart decision. A native long-form ad ends on a fully resolved, Most-Aware narrative voice; the PDP it currently links to has no narrative continuity, generic commerce layout, different voice entirely. The advertorial preserves the narrator's voice, repeats the mechanism in condensed form, and includes a real review quote before ever presenting the "Add to Cart" moment, closer to how the ad copy itself is already structured. If the hypothesis is right, C4 should show a measurably better LPV-to-ATC rate than C1 despite byte-identical top-of-funnel creative and copy.
-
-**5. Awareness level:** Same Solution-Aware ad copy as C1. The variable being tested is what happens to that awareness state AFTER the click, not the ad's own awareness level.
-
-**6. Hook:** Identical to C1: "It's not 'just my face.' It was my skin."
-
-**7. Why this will convert, reasoning from research and data:** Isolates the single cleanest, lowest-cost hypothesis this account can currently test for the specific failure mode it's experiencing (LPV without ATC), with an existing, already-built asset, and a true single-variable comparison against C1 as its own control, no separate ad set full of confounds needed.
-
-**8. What creative and why:** Byte-identical to C1. Any creative change here would break the isolation.
-
-**9. Story arc:** Byte-identical ad copy to C1. The advertorial page itself (already built) re-states the mechanism in condensed form, includes a real customer review quote, and ends on 2 CTA moments before the PDP link, extending the narrative bridge described in the reasoning above rather than cutting straight to commerce.
-
----
-
 ## What NOT to do in this batch (carried forward from `Killed_Batch_Failure_Analysis.md`)
 
 - No menopause/perimenopause/hormone language, no medical/dermatologist authority, no disgust language, no active-harm framing, no stated age numbers, no villain-beat industry-blame language.
 - No opening on a bare claim or thesis, every hook above pairs with a concrete scene within the first 1-2 lines.
 - No generic compliments in the noticing beat, must stay skin-specific per the B6 hypothesis finding.
 - No claiming CTR/CPM signal under 50/100 impressions respectively (Pattern A, hard rule).
-- C4 specifically: do not let the advertorial page's copy drift from C1's ad copy once built, that drift would break the single-variable isolation this cell exists to test.
+- Do not route any cell in this batch through the advertorial page. That's the exact mechanism that got starved and killed in B24/B25 (2026-07-14), retesting it needs its own deliberately-resourced, properly-funded test later, not a quiet reintroduction here.
 
 ## Before this launches
 
-1. Founder sign-off on the 4-cell structure and which pathway (if any) gets deprioritized if budget only supports 3 cells at real floors.
-2. Full ad copy written for C1/C2/C3 (C4 reuses C1's copy once written).
-3. Advertorial page (`page.advertorial.json` / `tallow-advertorial.liquid`) populated with real settings, real product photo, real review quote (never fabricated, matches the section's own schema warning), pdp_url confirmed pointing at the live balm product.
-4. Compliance pass on all 3 new ads against the banned-phrase list before any spend.
-5. Isolated ad sets/protected budgets per cell, per standing CBO-starvation lesson.
+1. Founder sign-off on the 3-cell structure.
+2. Full ad copy written for C1/C2/C3.
+3. Compliance pass on all 3 new ads against the banned-phrase list before any spend.
+4. Isolated ad sets/protected budgets per cell, per standing CBO-starvation lesson.
