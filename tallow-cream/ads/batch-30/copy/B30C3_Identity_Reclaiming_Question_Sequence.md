@@ -14,7 +14,7 @@
 
 Not younger. Just like myself again.
 
-I found my old work badge in a drawer I was cleaning out for my daughter's visit, the photo from when I started the job nine years ago, and I held it up next to my reflection in the hallway mirror without meaning to make anything of it.
+I was cleaning out a drawer last weekend and found my old work badge, the photo from when I started the job nine years ago, and I held it up next to my reflection in the hallway mirror without meaning to make anything of it.
 
 I just stood there for a second too long.
 
@@ -22,13 +22,13 @@ I just stood there for a second too long.
 
 It wasn't the obvious things. Not gray hair, I've been coloring it the same for years. Not a wrinkle I could point to and name. Something about how my face held itself in the badge photo that it didn't hold anymore, something I couldn't have described if you'd asked me to.
 
-I put the badge in my wallet instead of the donation pile. I don't know why. I just wasn't ready to throw away the version of my own face that used to look like that.
+I almost threw it out. I don't know why I didn't. I just wasn't ready to throw away the version of my own face that used to look like that.
 
 ========
 
 I mentioned it to my neighbor Angela while we were both out getting the mail, half embarrassed to even be talking about it. "I found an old photo of myself and I don't look like her anymore, and it's not the hair, I can't explain it."
 
-She didn't laugh it off. She said, "I know exactly what you mean. I found one of my mom's old photos last year and had the same reaction, except about myself."
+She didn't laugh it off. She said, "I know exactly what you mean. I was going through my mom's old things last year and found an old photo of myself, and I had the exact same reaction, about my own face, not hers."
 
 ========
 
@@ -46,7 +46,7 @@ I said, "Cow fat. On my face."
 
 She said, "I know how that sounds. I said the exact same thing. Just try it before you decide."
 
-I ordered one that night, still holding the badge photo in my head. $49.99. Free shipping. 60-day money-back guarantee, use the whole jar before you judge it.
+I ordered one that night, still holding the badge photo in my head. I was hesitant at first, but for $49.99 it felt worth it, and worst case they had a 60-day guarantee.
 
 ========
 
@@ -80,9 +80,9 @@ If any of those landed, you already know what I'm about to say next.
 
 ========
 
-I'm not telling you a jar of cow fat gives you back nine years. That sounds like an ad. This isn't an ad. I'm telling you about a work badge I almost put in a donation pile, and a hallway mirror I stopped stopping at.
+I'm not telling you a jar of cow fat gives you back nine years. That sounds like an ad. This isn't an ad. I'm telling you about a work badge I almost threw out, and a hallway mirror I stopped stopping at.
 
-Four ingredients. $49.99. Free shipping. 60-day money-back guarantee. If nothing's different in six weeks, you email them and get every dollar back, nothing to send back first.
+It's only $49.99 and I got free shipping, it was worth every penny.
 
 Link is below if you want it.
 

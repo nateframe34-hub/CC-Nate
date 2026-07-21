@@ -55,7 +55,7 @@ Here's the part that isn't a theory, it's just chemistry: water evaporates. Ever
 
 Fat doesn't have that problem. Tallow specifically is close in structure to the oil skin already makes on its own, so instead of sitting on top waiting to evaporate, it gets absorbed the way skin absorbs its own oil. Because, structurally, it basically is its own oil.
 
-Dana had switched eight months earlier. Five ingredients. She said it flatly, like she was reading me a fact off a label, not selling me anything.
+Dana had switched eight months earlier. Four ingredients. She said it flatly, like she was reading me a fact off a label, not selling me anything.
 
 ========
 
@@ -95,7 +95,7 @@ I hadn't slept any differently. I told her that, and she just shook her head lik
 
 She said, "No, seriously, whatever it is, keep doing it."
 
-I told her. Dana. The mechanism. The five ingredients. She ordered one before we'd even finished our coffee.
+I told her. Dana. The mechanism. The four ingredients. She ordered one before we'd even finished our coffee.
 
 ========
 

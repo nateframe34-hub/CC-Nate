@@ -78,7 +78,7 @@ Day 12, Ellie looked up from her tablet at breakfast again, same seat, same ligh
 
 ========
 
-Here's what I hadn't told you yet, on purpose: the thing I'd started using, the one Renee walked me through, was the Whipped Tallow & Honey Balm. Four ingredients, tallow being the first and the one that does the actual work. $49.99, free shipping, 60-day money-back guarantee, use the whole jar before you decide.
+Here's what I hadn't told you yet, on purpose: the thing I'd started using, the one Renee walked me through, was the Tallow & Honey Balm. Four ingredients, tallow being the first and the one that does the actual work. It was $49.99 with free shipping, and I figured worst case there was a 60-day guarantee if it didn't pan out.
 
 I'm naming it now because by this point in my own experience, the name mattered less than what was actually happening to the tally.
 
@@ -106,7 +106,7 @@ I told her nothing had changed about my sleep. She said that was sort of her poi
 
 I'm not telling you a jar of cow fat will erase every comment anyone's ever made about your face. That sounds like an ad. This isn't an ad. I'm telling you about a coffee counter, a cookout, and a twelve-year-old with no filter, and a tally I didn't know I was keeping until I noticed I'd stopped.
 
-Four ingredients. $49.99. Free shipping. 60-day money-back guarantee. If nothing's different in six weeks, you email them and get every dollar back, nothing to send back first.
+Four ingredients, $49.99, free shipping, and it was worth it. There's a 60-day guarantee too, so it wasn't really a risk either way.
 
 Link is below if you want it.
 
@@ -134,7 +134,7 @@ Three people asked if I was tired this month. I wasn't.
 
 **Standard account timing (B9C3, B30C1):** product named at 48-56% of body, immediately after the mechanism section resolves.
 
-**This cell's timing:** the mechanism is fully explained by Renee (including the "structure close to skin's own oil" line) WITHOUT the product being named, at roughly 45-50%. The narrator explicitly states she asked what it was, reacted with skepticism, and sat with it for a week BEFORE trying it, still not naming it. The day-marker transformation section (days 1, 4, 9, 12) runs entirely without the product named. Only at approximately 75% of the body ("Here's what I hadn't told you yet, on purpose") does the ad explicitly name the Whipped Tallow & Honey Balm, price, and guarantee terms, then continues the day-marker sequence (days 18, 24) with the product now confirmed. This is a genuine, deliberate structural deviation from this account's norm, built specifically to generate a real read on reveal-timing as its own variable, not layered in accidentally.
+**This cell's timing:** the mechanism is fully explained by Renee (including the "structure close to skin's own oil" line) WITHOUT the product being named, at roughly 45-50%. The narrator explicitly states she asked what it was, reacted with skepticism, and sat with it for a week BEFORE trying it, still not naming it. The day-marker transformation section (days 1, 4, 9, 12) runs entirely without the product named. Only at approximately 75% of the body ("Here's what I hadn't told you yet, on purpose") does the ad explicitly name the Tallow & Honey Balm, price, and guarantee terms, then continues the day-marker sequence (days 18, 24) with the product now confirmed. This is a genuine, deliberate structural deviation from this account's norm, built specifically to generate a real read on reveal-timing as its own variable, not layered in accidentally.
 
 ---
 
