@@ -13,7 +13,7 @@
 
 ## Body Copy
 
-My cousin Renata posted the photos from her birthday dinner the next morning, and I scrolled straight past mine twice before I went back and looked.
+My cousin Emily posted the photos from her birthday dinner the next morning, and I scrolled straight past mine twice before I went back and looked.
 
 Mid-laugh. Candlelight. A glass halfway to my mouth.
 
@@ -55,7 +55,7 @@ Here's the part that isn't a theory, it's just chemistry: water evaporates. Ever
 
 Fat doesn't have that problem. Tallow specifically is close in structure to the oil skin already makes on its own, so instead of sitting on top waiting to evaporate, it gets absorbed the way skin absorbs its own oil. Because, structurally, it basically is its own oil.
 
-Dana had switched eight months earlier. Four ingredients. She said it flatly, like she was reading me a fact off a label, not selling me anything.
+Dana had switched eight months earlier. Five ingredients. She said it flatly, like she was reading me a fact off a label, not selling me anything.
 
 ========
 
@@ -63,7 +63,7 @@ I said, "Tallow. Like cow fat. On my face."
 
 She said, "I know how it sounds. I made the same face you're making right now. Just try it."
 
-I ordered one that night. $49.99. Free shipping. 60-day money-back guarantee, use the whole jar, no sending anything back if it doesn't work out.
+I was hesitant, honestly. But I ordered one that night anyway. For $49.99 with free shipping, it felt worth trying, and worst case they had a 60-day guarantee if it didn't work out.
 
 ========
 
@@ -95,13 +95,13 @@ I hadn't slept any differently. I told her that, and she just shook her head lik
 
 She said, "No, seriously, whatever it is, keep doing it."
 
-I told her. Dana. The mechanism. The four ingredients. She ordered one before we'd even finished our coffee.
+I told her. Dana. The mechanism. The five ingredients. She ordered one before we'd even finished our coffee.
 
 ========
 
 I'm not telling you a jar of cow fat will fix your life. That sounds like an ad. This isn't an ad. I'm telling you about a birthday photo I almost scrolled past, and a coffee with Priya two months later where she said the exact opposite of what she'd said the first time, without me bringing any of it up.
 
-Four ingredients. $49.99. Free shipping. 60-day money-back guarantee. If nothing changes in six weeks, you email them and get every dollar back, nothing to send back first.
+It was $49.99 with free shipping, and it was worth every penny. If it hadn't worked out, there was a 60-day guarantee anyway, so there wasn't much to lose by trying.
 
 Link is below if you want it.
 
@@ -159,11 +159,11 @@ FaceTime video call screen, paused mid-call, visible on a smartphone. An ultra-r
 
 | # | Element | Present | Where |
 |---|---|---|---|
-| 1 | Multi-mechanism hook | ✅ | Opening 4 lines: object-discovery (the photo), contrast/confusion promise (she slept fine, looks exhausted), specific named scene (Renata's birthday dinner), open loop (stared at her own phone). |
+| 1 | Multi-mechanism hook | ✅ | Opening 4 lines: object-discovery (the photo), contrast/confusion promise (she slept fine, looks exhausted), specific named scene (Emily's birthday dinner), open loop (stared at her own phone). |
 | 2 | Specific inciting incident scene | ✅ | Named cousin, named event, named detail (candlelight, glass mid-lift), immediate physical reaction. |
 | 3 | Product mention after belief shift | ✅ | Tallow first named at ~48% of body, after the mechanism section resolves. |
 | 4 | Escalating stakes | ✅ | Pattern across multiple photos → Priya's offhand comment → private running tally of comments → the tally itself as the real stakes. |
-| 5 | Multiple named secondary characters, distinct roles | ✅ | Renata (inciting photo), Priya (villain-reversal, both setup and payoff), Dana (peer authority/mechanism source). Three, each doing separate structural work, deliberately fewer than B9C3's five, to keep the villain-reversal beat legible rather than crowding it. |
+| 5 | Multiple named secondary characters, distinct roles | ✅ | Emily (inciting photo), Priya (villain-reversal, both setup and payoff), Dana (peer authority/mechanism source). Three, each doing separate structural work, deliberately fewer than B9C3's five, to keep the villain-reversal beat legible rather than crowding it. |
 | 6 | Trust ladder | ✅ | Observable (photos) → common knowledge (implicit skin-changes-with-age) → new information (skin makes its own oil, drops after 40) → bigger claim (water evaporates, that's chemistry not a bad batch) → biggest claim (tallow's structure matches skin's own oil). |
 | 7 | Pattern interrupts | ✅ | "I looked exhausted." / "It wasn't one bad photo." / "I said I was fine. I was fine." / "That's not a bad batch." / "I didn't flinch at it." / "The number hadn't moved." |
 | 8 | Skeptic-convert frame | ✅ | "Tallow. Like cow fat. On my face." + Dana's "I made the same face you're making right now." |
