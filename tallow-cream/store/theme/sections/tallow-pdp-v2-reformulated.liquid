@@ -1,0 +1,869 @@
+{%- comment -%}
+  TALLOW PDP V2, REFORMULATED, 2026-07-21. Separate file from tallow-pdp.liquid
+  on purpose, that file stays live for the current B30 batch (its ad copy is
+  built around the CURRENT formula: whipped, manuka honey, calendula, 120g).
+  This is a draft/preview page for the reformulated product (new supplier,
+  denser but still soft texture, raw honey not manuka, essential oils not
+  calendula, 60g not 120g), NOT yet wired to live traffic. Do not point any
+  running ad at this page until the founder confirms the switch and existing
+  ad copy across the account is reconciled with the new ingredient list,
+  otherwise every ad claiming "manuka honey" / "calendula" / "whipped" /
+  "120g" becomes inaccurate the moment this goes live.
+
+  TALLOW PDP · custom Online Store 2.0 product section (Shrine Pro compatible)
+  Real Shopify product forms → the Add to Cart buttons actually add to cart.
+  All CSS is scoped under #tallow-pdp-v2 so it will NOT collide with the theme.
+  Dynamic: title, price, compare-at, gallery images, variant id, ATC, availability.
+  Marketing copy (diagrams/checks/stats) is editable via section settings in the
+  theme customizer where exposed; the rest is inline and editable here in code.
+
+  PRICING NOTE, UPDATED 2026-07-19: the displayed price is HARDCODED via section
+  settings (price_compare struck through + price_sale), NOT pulled from the
+  variant's price/compare-at, so the PDP badge can say whatever it wants
+  regardless of the real product price.
+
+  Real product price is a FLAT $49.99, no automatic "-$20 Sale" discount on the
+  balm anymore. That two-automatic-product-discount setup (Sale on the balm +
+  the free-gift Buy X Get Y on the lip mask) was tried and broke: even with
+  "combine with product discounts" checked on both, Shopify would silently
+  drop the BXGY discount at checkout, the lip mask kept ringing up at full
+  price. Root cause not fully confirmed (suspected: two automatic
+  product-scoped discounts don't reliably stack even when marked combinable),
+  but the fix was simple and durable: set the balm's real Shopify price to a
+  flat $49.99 and delete the Sale discount entirely. Only the Buy X Get Y
+  free-gift discount remains, one automatic product discount, zero conflict.
+  DO NOT reintroduce a second automatic product-level discount on the balm
+  without testing full checkout end-to-end first, this exact combo is what
+  broke.
+
+  SPEED: ZERO web fonts (system stack: system sans body, Georgia headings) = no
+  font download/render-block. Hero image fetchpriority high + eager; below-fold lazy.
+  One section, inline scoped CSS, SVG icon sprite (no emoji, no icon font),
+  content-visibility:auto on below-fold sections.
+{%- endcomment -%}
+
+{%- assign v = product.selected_or_first_available_variant -%}
+
+<div id="tallow-pdp-v2">
+
+<style>
+  #tallow-pdp-v2{
+    --cream:#F6F1E9;--cream-2:#EFE7DA;--ink:#23291F;
+    --green:#2E4731;--green-deep:#22351F;--amber:#C98A3C;--amber-soft:#E9C892;
+    --line:#D8CDBC;--red:#B14A36;--paper:#FBF8F2;--grey:#6b6552;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);background:var(--cream);line-height:1.5;-webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  #tallow-pdp-v2 *{box-sizing:border-box;margin:0;padding:0}
+  #tallow-pdp-v2 h1,#tallow-pdp-v2 h2,#tallow-pdp-v2 h3,#tallow-pdp-v2 .serif{font-family:Georgia,'Times New Roman',serif;font-weight:600;letter-spacing:-.01em;line-height:1.1}
+  #tallow-pdp-v2 .wrap{width:100%;max-width:1100px;margin:0 auto;padding:0 18px}
+  #tallow-pdp-v2 .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--amber)}
+  #tallow-pdp-v2 .icon{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+  #tallow-pdp-v2 .btn{display:flex;align-items:center;justify-content:center;gap:9px;background:var(--green);color:#fff;border:none;border-radius:14px;padding:17px 26px;font-family:inherit;font-weight:700;font-size:16px;cursor:pointer;width:100%;-webkit-tap-highlight-color:transparent}
+  #tallow-pdp-v2 .btn:active{background:var(--green-deep)}
+  #tallow-pdp-v2 .btn[disabled]{opacity:.5;cursor:not-allowed}
+  #tallow-pdp-v2 .stars{color:var(--amber);letter-spacing:1px;font-size:14px;line-height:1}
+  #tallow-pdp-v2 .pf{margin:0}
+
+  #tallow-pdp-v2 .anno{background:var(--green-deep);color:#F2EAD9;text-align:center;font-size:12.5px;padding:9px 12px;font-weight:500}
+  #tallow-pdp-v2 .anno b{color:var(--amber-soft)}
+
+  #tallow-pdp-v2 .tlw-nav{position:sticky;top:0;z-index:45;background:var(--cream);border-bottom:1px solid var(--line)}
+  #tallow-pdp-v2 .tlw-nav-in{display:flex;align-items:center;justify-content:space-between;padding-top:11px;padding-bottom:11px}
+  #tallow-pdp-v2 .tlw-nav .word{font-family:Georgia,'Times New Roman',serif;font-weight:600;font-size:19px;color:var(--ink);text-decoration:none}
+  #tallow-pdp-v2 .tlw-nav .word span{color:var(--amber)}
+  #tallow-pdp-v2 .cart-link{position:relative;display:inline-flex;align-items:center;color:var(--ink);text-decoration:none;padding:2px}
+  #tallow-pdp-v2 .cart-link .icon{width:25px;height:25px}
+  #tallow-pdp-v2 .cart-badge{position:absolute;top:-5px;right:-7px;min-width:17px;height:17px;padding:0 4px;border-radius:999px;background:var(--green);color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;line-height:1}
+  #tallow-pdp-v2 .cart-badge[hidden]{display:none}
+
+  #tallow-pdp-v2 .hero{padding:18px 0 26px}
+  #tallow-pdp-v2 .gallery .main{background:linear-gradient(150deg,#EFE6D6,#E3D4BC);border-radius:18px;aspect-ratio:1/1;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center}
+  #tallow-pdp-v2 .gallery .main img{width:100%;height:100%;object-fit:cover;display:block}
+  #tallow-pdp-v2 .badge{position:absolute;top:14px;left:14px;background:var(--amber);color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 11px;border-radius:999px;z-index:2}
+  #tallow-pdp-v2 .thumbs{display:flex;gap:9px;margin-top:10px}
+  #tallow-pdp-v2 .thumb{flex:1;aspect-ratio:1/1;border-radius:10px;border:1px solid var(--line);overflow:hidden}
+  #tallow-pdp-v2 .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+
+  #tallow-pdp-v2 .buy{padding-top:22px}
+  #tallow-pdp-v2 .rating-row{display:flex;align-items:center;gap:9px;margin-bottom:10px}
+  #tallow-pdp-v2 .rating-row a{font-size:13px;color:var(--grey);text-decoration:underline}
+  #tallow-pdp-v2 .buy h1{font-size:30px;margin-bottom:6px}
+  #tallow-pdp-v2 .subt{font-size:13px;color:var(--grey);margin-bottom:14px;font-weight:600}
+  #tallow-pdp-v2 .price{display:flex;align-items:baseline;gap:10px;margin-bottom:5px;flex-wrap:wrap}
+  #tallow-pdp-v2 .price .now{font-family:Georgia,'Times New Roman',serif;font-size:30px;font-weight:600}
+  #tallow-pdp-v2 .price .was{font-size:17px;color:#9a927d;text-decoration:line-through}
+  #tallow-pdp-v2 .price .save{background:var(--amber-soft);color:#6a481a;font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px}
+  #tallow-pdp-v2 .ship{font-size:12.5px;color:var(--grey);margin-bottom:16px}
+  @keyframes fgReveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  #tallow-pdp-v2 .free-gift-card{
+    position:relative;display:flex;align-items:center;gap:14px;margin-top:14px;
+    background:linear-gradient(155deg,var(--paper) 0%,var(--amber-soft) 145%);
+    border:1px solid var(--amber);border-radius:16px;padding:14px 16px 14px 14px;
+    box-shadow:0 6px 20px rgba(107,72,26,.10);overflow:hidden;
+    animation:fgReveal .5s cubic-bezier(.2,.7,.3,1) .15s both;
+  }
+  @media(prefers-reduced-motion:reduce){#tallow-pdp-v2 .free-gift-card{animation:none}}
+  #tallow-pdp-v2 .fg-ribbon{
+    position:absolute;top:-1px;left:16px;
+    background:var(--green);color:#fff;font-family:Georgia,'Times New Roman',serif;
+    font-size:10.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+    padding:3px 10px 4px;border-radius:0 0 7px 7px;box-shadow:0 2px 6px rgba(0,0,0,.12);
+  }
+  #tallow-pdp-v2 .fg-media{width:64px;height:64px;border-radius:12px;overflow:hidden;background:#fff;
+    flex-shrink:0;margin-top:8px;display:flex;align-items:center;justify-content:center;
+    border:1px solid rgba(201,138,60,.35);box-shadow:inset 0 0 0 1px rgba(255,255,255,.6)}
+  #tallow-pdp-v2 .fg-media img{width:100%;height:100%;object-fit:cover;display:block}
+  #tallow-pdp-v2 .fg-icon{width:28px;height:28px;color:var(--amber)}
+  #tallow-pdp-v2 .fg-stub{align-self:stretch;width:0;border-left:1.5px dashed rgba(107,72,26,.28);position:relative;flex-shrink:0}
+  #tallow-pdp-v2 .fg-stub::before,#tallow-pdp-v2 .fg-stub::after{content:"";position:absolute;left:-6px;width:12px;height:12px;border-radius:50%;background:var(--cream)}
+  #tallow-pdp-v2 .fg-stub::before{top:-14px}
+  #tallow-pdp-v2 .fg-stub::after{bottom:-14px}
+  #tallow-pdp-v2 .fg-text{min-width:0}
+  #tallow-pdp-v2 .fg-eyebrow{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#8a6a2e}
+  #tallow-pdp-v2 .fg-title{font-family:Georgia,'Times New Roman',serif;font-size:17px;font-weight:600;color:var(--ink);margin-top:3px;line-height:1.22}
+  #tallow-pdp-v2 .fg-meta{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin-top:6px}
+  #tallow-pdp-v2 .fg-tag{display:inline-block;background:var(--green);color:#fff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px}
+  #tallow-pdp-v2 .fg-auto{font-size:11.5px;color:#7a6a4e}
+  #tallow-pdp-v2 .gift-line{margin-top:9px;font-size:12.5px;color:var(--grey);text-align:center}
+  #tallow-pdp-v2 .micro{display:flex;gap:7px;flex-wrap:wrap;margin:15px 0 0}
+  #tallow-pdp-v2 .micro span{display:flex;align-items:center;gap:6px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:7px 12px;font-size:12.5px;font-weight:600;color:#46503c}
+  #tallow-pdp-v2 .micro .icon{width:15px;height:15px;color:var(--green)}
+  #tallow-pdp-v2 .guar-inline{display:flex;align-items:center;gap:10px;margin-top:16px;font-size:13px;color:#5c5848;border-top:1px solid var(--line);padding-top:16px}
+  #tallow-pdp-v2 .guar-inline .ic{width:30px;height:30px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  #tallow-pdp-v2 .guar-inline .ic .icon{width:17px;height:17px}
+  #tallow-pdp-v2 .trust-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:18px;border-top:1px solid var(--line);padding-top:16px}
+  #tallow-pdp-v2 .trust-strip div{font-size:11px;font-weight:600;color:#5c5848;text-align:center;display:flex;flex-direction:column;align-items:center;gap:5px}
+  #tallow-pdp-v2 .trust-strip .icon{width:21px;height:21px;color:var(--green)}
+
+  #tallow-pdp-v2 section.band{padding:46px 0;content-visibility:auto;contain-intrinsic-size:auto 600px}
+  #tallow-pdp-v2 .center{text-align:center;max-width:680px;margin:0 auto}
+  #tallow-pdp-v2 h2.sec{font-size:27px;margin-bottom:8px}
+  #tallow-pdp-v2 .mt{margin-top:24px}
+
+  #tallow-pdp-v2 .checks{display:grid;grid-template-columns:1fr;gap:10px;max-width:840px;margin:0 auto}
+  #tallow-pdp-v2 .check{display:flex;gap:10px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 15px;font-size:14px;font-weight:500}
+  #tallow-pdp-v2 .check .icon{width:19px;height:19px;color:var(--green)}
+
+  #tallow-pdp-v2 .diagram-band{background:var(--green-deep);color:#F2EAD9}
+  #tallow-pdp-v2 .diagram-band .eyebrow{color:var(--amber-soft)}
+  #tallow-pdp-v2 .diagram-band h2{color:#fff}
+  #tallow-pdp-v2 .diagram{display:grid;grid-template-columns:1fr;max-width:840px;margin:24px auto 0;background:var(--paper);border-radius:16px;overflow:hidden;color:var(--ink)}
+  #tallow-pdp-v2 .dcol{padding:22px 20px}
+  #tallow-pdp-v2 .dcol+.dcol{border-top:2px dashed var(--line)}
+  #tallow-pdp-v2 .dcol h4{font-family:Georgia,'Times New Roman',serif;font-size:18px;margin-bottom:14px}
+  #tallow-pdp-v2 .dcol.bad h4{color:var(--red)}#tallow-pdp-v2 .dcol.good h4{color:var(--green)}
+  #tallow-pdp-v2 .surface{height:2px;background:var(--ink);margin:12px 0}
+  #tallow-pdp-v2 .mol{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:5px}
+  #tallow-pdp-v2 .mol b{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff}
+  #tallow-pdp-v2 .bad .mol b{background:var(--red)}#tallow-pdp-v2 .good .mol b{background:var(--green)}
+  #tallow-pdp-v2 .arr{font-size:18px;letter-spacing:5px}#tallow-pdp-v2 .arr.up{color:var(--red)}#tallow-pdp-v2 .arr.dn{color:var(--green)}
+  #tallow-pdp-v2 .dnote{font-size:13px;margin-top:9px;font-weight:500;color:#46503c}
+  #tallow-pdp-v2 .dnote.bad{color:var(--red)}
+  #tallow-pdp-v2 .dbottom{max-width:840px;margin:16px auto 0;text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:18px;color:#fff}
+
+  #tallow-pdp-v2 .math{display:grid;grid-template-columns:1fr;gap:12px;max-width:760px;margin:0 auto;align-items:center}
+  #tallow-pdp-v2 .math .side{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px;text-align:center}
+  #tallow-pdp-v2 .math .big{font-family:Georgia,'Times New Roman',serif;font-size:52px;font-weight:700;line-height:1}
+  #tallow-pdp-v2 .math .bad .big{color:var(--red)}#tallow-pdp-v2 .math .good .big{color:var(--green)}
+  #tallow-pdp-v2 .math .lbl{font-size:13px;color:var(--grey);margin-top:6px;font-weight:600}
+  #tallow-pdp-v2 .math .to{font-size:24px;color:var(--amber);text-align:center}
+
+  #tallow-pdp-v2 .labels{display:grid;grid-template-columns:1fr;gap:16px;max-width:860px;margin:0 auto}
+  #tallow-pdp-v2 .label-card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px}
+  #tallow-pdp-v2 .label-card h4{font-family:Georgia,'Times New Roman',serif;font-size:17px;margin-bottom:12px}
+  #tallow-pdp-v2 .label-card.bad h4{color:var(--red)}#tallow-pdp-v2 .label-card.good h4{color:var(--green)}
+  #tallow-pdp-v2 .ing{font-size:13.5px;padding:6px 0;border-bottom:1px dashed var(--line);color:#5c5848}
+  #tallow-pdp-v2 .ing.first{font-weight:700;color:var(--red)}
+  #tallow-pdp-v2 .ing.g{color:var(--green-deep);font-weight:600}
+  #tallow-pdp-v2 .ing.more{color:#9a927d;font-style:italic;border:none}
+
+  #tallow-pdp-v2 .stats{display:grid;grid-template-columns:1fr;gap:14px;max-width:820px;margin:0 auto}
+  #tallow-pdp-v2 .stat{text-align:center;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px}
+  #tallow-pdp-v2 .stat .n{font-family:Georgia,'Times New Roman',serif;font-size:44px;font-weight:700;color:var(--green);line-height:1}
+  #tallow-pdp-v2 .stat .t{font-size:13.5px;color:var(--grey);font-weight:500;margin-top:5px}
+
+  #tallow-pdp-v2 .ba{display:grid;grid-template-columns:1fr;gap:18px;max-width:820px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px}
+  #tallow-pdp-v2 .ba .photo{aspect-ratio:16/10;border-radius:12px;background:linear-gradient(150deg,#e7ddc9,#cbb894);overflow:hidden}
+  #tallow-pdp-v2 .ba .photo img{width:100%;height:100%;object-fit:cover}
+  #tallow-pdp-v2 .ba blockquote{font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:500;line-height:1.3;margin-bottom:12px}
+  #tallow-pdp-v2 .ba .who{font-size:13px;color:var(--grey);font-weight:600}
+  #tallow-pdp-v2 .ba .stars{margin-bottom:12px;display:block}
+
+  #tallow-pdp-v2 .guar-band{background:var(--amber);color:#3b2a10;text-align:center}
+  #tallow-pdp-v2 .guar-band h2{color:#3b2a10}
+  #tallow-pdp-v2 .guar-band p{font-size:15px;max-width:560px;margin:0 auto 20px}
+  #tallow-pdp-v2 .guar-badge{display:inline-flex;align-items:center;gap:10px;background:#3b2a10;color:var(--amber-soft);padding:14px 24px;border-radius:999px;font-weight:700;font-size:14px}
+  #tallow-pdp-v2 .guar-badge .icon{width:18px;height:18px}
+
+  #tallow-pdp-v2 .attrs{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;max-width:900px;margin:0 auto}
+  #tallow-pdp-v2 .attr{background:var(--paper);padding:16px}
+  #tallow-pdp-v2 .attr .k{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);font-weight:700;margin-bottom:5px}
+  #tallow-pdp-v2 .attr .vv{font-size:13.5px;font-weight:600}
+
+  #tallow-pdp-v2 .final{background:var(--green-deep);color:#F2EAD9;text-align:center}
+  #tallow-pdp-v2 .final h2{color:#fff;font-size:28px;margin-bottom:18px}
+  #tallow-pdp-v2 .final .pf,#tallow-pdp-v2 .final .btn{max-width:340px;margin:0 auto}
+  #tallow-pdp-v2 .final .trust-strip{border-color:rgba(255,255,255,.16);max-width:520px;margin:22px auto 0}
+  #tallow-pdp-v2 .final .trust-strip div{color:#cfc6b2}#tallow-pdp-v2 .final .trust-strip .icon{color:var(--amber-soft)}
+
+  #tallow-pdp-v2 .sticky{position:fixed;left:0;right:0;bottom:0;background:var(--cream);border-top:1px solid var(--line);padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;z-index:50;box-shadow:0 -6px 18px rgba(0,0,0,.07);transform:translateY(110%);transition:transform .25s ease}
+  #tallow-pdp-v2 .sticky.on{transform:translateY(0)}
+  #tallow-pdp-v2 .sticky .s-thumb{width:48px;height:48px;border-radius:8px;object-fit:cover;border:1px solid var(--line);flex:0 0 auto}
+  #tallow-pdp-v2 .sticky .s-info{flex:1 1 auto;min-width:0}
+  #tallow-pdp-v2 .sticky .p{font-family:Georgia,'Times New Roman',serif;font-weight:600;font-size:17px}
+  #tallow-pdp-v2 .sticky .s-was{font-size:13px;font-weight:400;opacity:.55;margin-left:4px}
+  #tallow-pdp-v2 .sticky .s-sub{font-size:11px;opacity:.7;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  #tallow-pdp-v2 .sticky .pf{flex:0 0 auto}
+  #tallow-pdp-v2 .sticky .btn{width:auto;padding:13px 20px;font-size:15px;display:inline-flex;align-items:center;gap:7px}
+  #tallow-pdp-v2 .math-note{max-width:840px;margin:16px auto 0;text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:17px;font-style:italic;opacity:.85}
+  #tallow-pdp-v2 .lifestyle-photo{max-width:420px;margin:24px auto 0;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px}
+  #tallow-pdp-v2 .lifestyle-photo .lp-frame{aspect-ratio:4/5;border-radius:10px;overflow:hidden}
+  #tallow-pdp-v2 .lifestyle-photo img{width:100%;height:100%;object-fit:cover;display:block}
+  #tallow-pdp-v2 .lifestyle-photo .lp-cap{text-align:center;font-size:13px;opacity:.6;margin-top:10px;font-style:italic}
+  #tallow-pdp-v2 .texture-photo{max-width:360px;margin:28px auto 0;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px}
+  #tallow-pdp-v2 .texture-photo .tp-frame{aspect-ratio:1/1;border-radius:10px;overflow:hidden}
+  #tallow-pdp-v2 .texture-photo img{width:100%;height:100%;object-fit:cover;display:block}
+  #tallow-pdp-v2 .faq{max-width:760px;margin:0 auto}
+  #tallow-pdp-v2 .faq details{border-bottom:1px solid var(--line)}
+  #tallow-pdp-v2 .faq summary{cursor:pointer;font-family:Georgia,'Times New Roman',serif;font-weight:600;font-size:17px;padding:16px 0;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+  #tallow-pdp-v2 .faq summary::-webkit-details-marker{display:none}
+  #tallow-pdp-v2 .faq summary::after{content:'+';font-size:22px;line-height:1;opacity:.5;flex:0 0 auto}
+  #tallow-pdp-v2 .faq details[open] summary::after{content:'\2212'}
+  #tallow-pdp-v2 .faq .fa{padding:0 0 18px;font-size:15px;line-height:1.65;opacity:.85}
+
+  @media(min-width:820px){
+    #tallow-pdp-v2 .wrap{padding:0 28px}
+    #tallow-pdp-v2 .hero{padding:44px 0 40px}
+    #tallow-pdp-v2 .hero .wrap{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:start}
+    #tallow-pdp-v2 .buy{padding-top:0}
+    #tallow-pdp-v2 .buy h1{font-size:44px}
+    #tallow-pdp-v2 section.band{padding:72px 0;contain-intrinsic-size:auto 800px}
+    #tallow-pdp-v2 h2.sec{font-size:33px}
+    #tallow-pdp-v2 .checks{grid-template-columns:1fr 1fr;gap:14px 28px}
+    #tallow-pdp-v2 .diagram{grid-template-columns:1fr auto 1fr}
+    #tallow-pdp-v2 .dcol+.dcol{border-top:none}
+    #tallow-pdp-v2 .dmid{display:flex;align-items:center;justify-content:center;padding:0 6px;background:var(--cream-2);font-size:24px;color:#8a8472}
+    #tallow-pdp-v2 .math{grid-template-columns:1fr auto 1fr;gap:18px}
+    #tallow-pdp-v2 .labels{grid-template-columns:1fr 1fr;gap:24px}
+    #tallow-pdp-v2 .stats{grid-template-columns:repeat(3,1fr);gap:22px}
+    #tallow-pdp-v2 .ba{grid-template-columns:260px 1fr;gap:30px;align-items:center}
+    #tallow-pdp-v2 .ba .photo{aspect-ratio:1/1}
+    #tallow-pdp-v2 .attrs{grid-template-columns:repeat(3,1fr)}
+    #tallow-pdp-v2 .sticky{display:none}
+    #tallow-pdp-v2 .final h2{font-size:36px}
+  }
+  @media(max-width:819px){ #tallow-pdp-v2 .dmid{display:none} body{padding-bottom:70px} }
+</style>
+
+<!-- ICON SPRITE (defined once, reused via use) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="tlw-truck" viewBox="0 0 24 24"><path d="M3 6h11v9H3z"/><path d="M14 9h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></symbol>
+  <symbol id="tlw-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="tlw-drop" viewBox="0 0 24 24"><path d="M12 3c3 4 5 6.5 5 9.5A5 5 0 0 1 7 12.5C7 9.5 9 7 12 3z"/></symbol>
+  <symbol id="tlw-leaf" viewBox="0 0 24 24"><path d="M5 19C5 10 12 5 20 5c0 9-6 14-13 14"/><path d="M5 19c2-4 5-6 9-7"/></symbol>
+  <symbol id="tlw-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
+  <symbol id="tlw-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4-4"/></symbol>
+  <symbol id="tlw-cart" viewBox="0 0 24 24"><path d="M5 6h15l-2 9H7z"/><path d="M5 6L4 3H2"/><circle cx="8" cy="19" r="1.4"/><circle cx="17" cy="19" r="1.4"/></symbol>
+  <symbol id="tlw-bag" viewBox="0 0 24 24"><path d="M6 8 H18 V19 Q18 20 17 20 H7 Q6 20 6 19 Z"/><path d="M9 8 V6.5 Q9 4 12 4 Q15 4 15 6.5 V8"/></symbol>
+  <symbol id="tlw-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="tlw-trash" viewBox="0 0 24 24"><path d="M5 7h14M10 7V5h4v2M7 7l1 12h8l1-12"/></symbol>
+  <symbol id="tlw-gift" viewBox="0 0 24 24"><path d="M4 9h16v4H4z"/><path d="M5 13h14v7H5z"/><path d="M12 9v11"/><path d="M12 9c-1.5-3-5-4-5-1.3C7 9 9.5 9 12 9z"/><path d="M12 9c1.5-3 5-4 5-1.3C17 9 14.5 9 12 9z"/></symbol>
+</svg>
+
+{%- if section.settings.sale_active -%}
+  <div class="anno">{{ section.settings.sale_banner_text | default: '4th of July Sale' }} · <span id="tlw-sale-countdown">calculating...</span></div>
+  <script>
+    (function(){
+      var end = new Date("{{ section.settings.sale_end_iso | default: '2026-07-10T00:00:00-04:00' }}").getTime();
+      var el = document.getElementById('tlw-sale-countdown');
+      if(!el) return;
+      function tick(){
+        var now = new Date().getTime();
+        var diff = end - now;
+        if(diff <= 0){ el.textContent = 'Sale has ended'; clearInterval(timer); return; }
+        var d = Math.floor(diff / 86400000);
+        var h = Math.floor((diff % 86400000) / 3600000);
+        var m = Math.floor((diff % 3600000) / 60000);
+        var s = Math.floor((diff % 60000) / 1000);
+        var parts = [];
+        if(d > 0) parts.push(d + 'd');
+        parts.push(h + 'h', m + 'm', s + 's');
+        el.textContent = parts.join(' ') + ' left';
+      }
+      tick();
+      var timer = setInterval(tick, 1000);
+    })();
+  </script>
+{%- else -%}
+  <div class="anno">{{ section.settings.anno_text }}</div>
+{%- endif -%}
+
+<!-- TOP BAR (brand + cart with live item count) -->
+<div class="tlw-nav"><div class="wrap tlw-nav-in">
+  <a href="{{ routes.root_url }}" class="word">Baseline<span>·</span>Tallow</a>
+  <a href="{{ routes.cart_url }}" class="cart-link" aria-label="Cart ({{ cart.item_count }} items)">
+    <svg class="icon"><use href="#tlw-bag"/></svg>
+    <span class="cart-badge" {% if cart.item_count == 0 %}hidden{% endif %}>{{ cart.item_count }}</span>
+  </a>
+</div></div>
+
+<!-- HERO -->
+<section class="hero"><div class="wrap">
+  <div class="gallery">
+    <div class="main">
+      {%- if section.settings.badge_text != blank -%}<span class="badge">{{ section.settings.badge_text }}</span>{%- endif -%}
+      {%- if product.featured_image -%}
+        {{ product.featured_image | image_url: width: 1000 | image_tag: loading: 'eager', fetchpriority: 'high', sizes: '(min-width:820px) 50vw, 100vw', widths: '400,600,800,1000' }}
+      {%- endif -%}
+    </div>
+    {%- if product.images.size > 1 -%}
+    <div class="thumbs">
+      {%- for image in product.images limit: 4 -%}
+        <div class="thumb">{{ image | image_url: width: 240 | image_tag: loading: 'lazy', alt: image.alt, widths: '120,240' }}</div>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+  </div>
+
+  <div class="buy">
+    <div class="rating-row"><span class="stars">★★★★★</span><a href="#tlw-reviews">{{ section.settings.rating_text }}</a></div>
+    <h1>{{ product.title }}</h1>
+    <div class="subt">{{ section.settings.subtitle }}</div>
+    <div class="price">
+      <span class="now">{{ section.settings.price_sale }}</span>
+      {%- if section.settings.price_compare != blank -%}<span class="was">{{ section.settings.price_compare }}</span>{%- endif -%}
+      {%- if section.settings.price_save != blank -%}<span class="save">{{ section.settings.price_save }}</span>{%- endif -%}
+    </div>
+    <div class="ship">{{ section.settings.ship_text }}</div>
+
+    {%- comment -%} REAL add-to-cart form #1 (hero) {%- endcomment -%}
+    {%- form 'product', product, id: 'tlw-form-hero', class: 'pf' -%}
+      <input type="hidden" name="id" value="{{ v.id }}">
+      <input type="hidden" class="tlw-main-flag" value="1">
+      <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
+        <svg class="icon" style="width:19px;height:19px"><use href="#tlw-cart"/></svg>
+        {%- if v.available -%}Add to Cart · {{ section.settings.price_sale }}{%- else -%}Sold Out{%- endif -%}
+      </button>
+    {%- endform -%}
+
+    {%- assign free_gift_product = section.settings.free_gift_product -%}
+    {%- if free_gift_product != blank -%}
+    {%- assign fg_variant = free_gift_product.selected_or_first_available_variant -%}
+    <div class="free-gift-card">
+      <div class="fg-ribbon">Free</div>
+      <div class="fg-media">
+        {%- if section.settings.free_gift_image != blank -%}
+          {{ section.settings.free_gift_image | image_url: width: 200 | image_tag: loading: 'eager', alt: free_gift_product.title }}
+        {%- elsif free_gift_product.featured_image -%}
+          {{ free_gift_product.featured_image | image_url: width: 200 | image_tag: loading: 'eager', alt: free_gift_product.title }}
+        {%- else -%}
+          <svg class="fg-icon"><use href="#tlw-gift"/></svg>
+        {%- endif -%}
+      </div>
+      <div class="fg-stub" aria-hidden="true"></div>
+      <div class="fg-text">
+        <div class="fg-eyebrow">Included with every order</div>
+        <div class="fg-title">{{ section.settings.free_gift_text | default: free_gift_product.title }}</div>
+        <div class="fg-meta"><span class="fg-tag">{{ fg_variant.price | money }} value</span><span class="fg-auto">Added to your cart automatically, no code needed</span></div>
+      </div>
+    </div>
+    {%- endif -%}
+
+    {%- if section.settings.gift_card_active -%}
+      {%- assign gift_token_product = section.settings.gift_token_product -%}
+      {%- assign gift_remaining = 0 -%}
+      {%- if gift_token_product != blank -%}
+        {%- assign gift_remaining = gift_token_product.selected_or_first_available_variant.inventory_quantity -%}
+      {%- endif -%}
+      {%- if gift_token_product == blank or gift_remaining > 0 -%}
+      <div class="gift-line">
+        {{ section.settings.gift_card_text | default: 'The next 100 customers also get a $10 gift card' }}
+        {%- if gift_token_product != blank and gift_remaining > 0 -%}
+          &nbsp;&middot;&nbsp;{{ gift_remaining }} remaining
+        {%- endif -%}
+      </div>
+      {%- endif -%}
+    {%- endif -%}
+
+    <div class="micro">
+      <span><svg class="icon"><use href="#tlw-drop"/></svg>Absorbs in 2 min</span>
+      <span><svg class="icon"><use href="#tlw-check"/></svg>No shine</span>
+      <span><svg class="icon"><use href="#tlw-check"/></svg>No beef smell</span>
+    </div>
+
+    <div class="guar-inline"><span class="ic"><svg class="icon"><use href="#tlw-shield"/></svg></span><div><b>60-day money-back guarantee.</b> If your skin doesn't love it, we refund every penny. No sending it back.</div></div>
+
+    <div class="trust-strip">
+      <div><svg class="icon"><use href="#tlw-truck"/></svg>Free Shipping</div>
+      <div><svg class="icon"><use href="#tlw-shield"/></svg>60-Day Guarantee</div>
+      <div><svg class="icon"><use href="#tlw-drop"/></svg>4 Ingredients</div>
+      <div><svg class="icon"><use href="#tlw-leaf"/></svg>Grass-Fed</div>
+    </div>
+  </div>
+</div></section>
+
+<section class="band" style="background:var(--cream-2)"><div class="wrap">
+  <div class="center"><div class="eyebrow">Sound familiar?</div><h2 class="sec mt">Your skin changed. Nothing kept up.</h2></div>
+  <div class="checks mt">
+    <div class="check"><svg class="icon"><use href="#tlw-check"/></svg>What used to work stopped working.</div>
+    <div class="check"><svg class="icon"><use href="#tlw-check"/></svg>Tight and dry by noon, whatever you use.</div>
+    <div class="check"><svg class="icon"><use href="#tlw-check"/></svg>Retinol, HA, ceramides. None of them fixed it.</div>
+    <div class="check"><svg class="icon"><use href="#tlw-check"/></svg>Tired of ingredients you can't pronounce.</div>
+    <div class="check"><svg class="icon"><use href="#tlw-check"/></svg>Years outside. Lotion never kept up.</div>
+    <div class="check"><svg class="icon"><use href="#tlw-check"/></svg>A bottle in three rooms and it still didn't hold.</div>
+  </div>
+  {%- if section.settings.lifestyle_image != blank -%}
+  <div class="lifestyle-photo mt">
+    <div class="lp-frame">{{ section.settings.lifestyle_image | image_url: width: 900 | image_tag: loading: 'lazy', alt: section.settings.lifestyle_caption | default: 'Real life, not a studio.', widths: '450,700,900' }}</div>
+    {%- if section.settings.lifestyle_caption != blank -%}<div class="lp-cap">{{ section.settings.lifestyle_caption }}</div>{%- endif -%}
+  </div>
+  {%- endif -%}
+</div></section>
+
+<section class="band diagram-band"><div class="wrap">
+  <div class="center"><div class="eyebrow">Why it works when nothing else did</div><h2 class="sec mt">Water sits on top. Skin lets fat in.</h2></div>
+  <div class="diagram">
+    <div class="dcol bad"><h4>Most creams</h4><div class="mol"><b>H₂O</b><b>H₂O</b><b>H₂O</b><b>H₂O</b></div><div class="arr up">↑ ↑ ↑ ↑</div><div class="surface"></div><div class="dnote bad">Evaporates by noon, sits on top, tight again.</div></div>
+    <div class="dmid">→</div>
+    <div class="dcol good"><h4>Tallow Balm</h4><div class="surface"></div><div class="arr dn">↓ ↓ ↓ ↓</div><div class="mol"><b>FAT</b><b>FAT</b><b>FAT</b><b>FAT</b></div><div class="dnote">Close to what skin makes, absorbs in, still there at 2pm.</div></div>
+  </div>
+  <div class="dbottom">Not a better cream. A different category.</div>
+  {%- if section.settings.texture_image != blank -%}
+  <div class="texture-photo mt">
+    <div class="tp-frame">{{ section.settings.texture_image | image_url: width: 700 | image_tag: loading: 'lazy', alt: 'Balm texture, absorbing into skin', widths: '350,500,700' }}</div>
+  </div>
+  {%- endif -%}
+</div></section>
+
+<section class="band"><div class="wrap">
+  <div class="center"><div class="eyebrow">The counter math</div><h2 class="sec mt">Fourteen products couldn't do what one jar did.</h2></div>
+  <div class="math mt">
+    <div class="side bad"><div class="big">14</div><div class="lbl">products · $$$ /month · still tight by noon</div></div>
+    <div class="to">↓</div>
+    <div class="side good"><div class="big">1</div><div class="lbl">jar · 4 ingredients · absorbs in 2 minutes</div></div>
+  </div>
+  <div class="math-note">One jar is 2 to 3 months of daily use. That's about 60 cents a day to replace the whole drawer.</div>
+</div></section>
+
+<section class="band" style="background:var(--cream-2)"><div class="wrap">
+  <div class="center"><div class="eyebrow">Flip the label</div><h2 class="sec mt">4 ingredients. That's the whole list.</h2></div>
+  <div class="labels mt">
+    <div class="label-card bad"><h4>Most face creams</h4><div class="ing first">1 · Water</div><div class="ing">2 · Glycerin</div><div class="ing">3 · Cetearyl alcohol</div><div class="ing">4 · Phenoxyethanol</div><div class="ing">5 · Dimethicone</div><div class="ing more">…+ 15 more you can't pronounce</div></div>
+    <div class="label-card good"><h4>{{ product.title }}</h4><div class="ing g">1 · Grass-fed beef tallow</div><div class="ing g">2 · Olive oil</div><div class="ing g">3 · Essential oils</div><div class="ing g">4 · Raw honey</div><div class="ing more">That's it. You can read all of them.</div></div>
+  </div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <div class="center"><div class="eyebrow">After 2 weeks of daily use</div><h2 class="sec mt">What real skin looks like after switching.</h2></div>
+  <div class="stats mt">
+    <div class="stat"><div class="n">{{ section.settings.stat1_n }}</div><div class="t">{{ section.settings.stat1_t }}</div></div>
+    <div class="stat"><div class="n">{{ section.settings.stat2_n }}</div><div class="t">{{ section.settings.stat2_t }}</div></div>
+    <div class="stat"><div class="n">{{ section.settings.stat3_n }}</div><div class="t">{{ section.settings.stat3_t }}</div></div>
+  </div>
+</div></section>
+
+<section class="band" style="background:var(--cream-2)" id="tlw-reviews"><div class="wrap">
+  <div class="ba">
+    <div class="photo">{%- if section.settings.review_image -%}{{ section.settings.review_image | image_url: width: 520 | image_tag: loading: 'lazy', widths: '260,520' }}{%- endif -%}</div>
+    <div><span class="stars">★★★★★</span><blockquote>"{{ section.settings.review_quote }}"</blockquote><div class="who">{{ section.settings.review_author }}</div></div>
+  </div>
+</div></section>
+
+<section class="band guar-band"><div class="wrap">
+  <h2 class="sec">60 days. No drama.</h2>
+  <p>Use it for 60 days. If your skin doesn't love it, email us and we'll refund every penny. No hoops, no "send it back first."</p>
+  <div class="guar-badge"><svg class="icon"><use href="#tlw-shield"/></svg>60-DAY MONEY-BACK GUARANTEE</div>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <div class="center"><div class="eyebrow">The whole story</div><h2 class="sec mt">Everything, on the table.</h2></div>
+  <div class="attrs mt">
+    <div class="attr"><div class="k">What it is</div><div class="vv">Tallow &amp; honey balm</div></div>
+    <div class="attr"><div class="k">Ingredients</div><div class="vv">4 total: tallow, olive oil, essential oils, raw honey</div></div>
+    <div class="attr"><div class="k">How it absorbs</div><div class="vv">Like skin's own oil. Sinks in, no film</div></div>
+    <div class="attr"><div class="k">Who it's for</div><div class="vv">Dry, mature, sensitive skin</div></div>
+    <div class="attr"><div class="k">Sourcing</div><div class="vv">Grass-fed tallow · raw honey</div></div>
+    <div class="attr"><div class="k">Guarantee</div><div class="vv">60-day money-back · free ship</div></div>
+  </div>
+</div></section>
+
+<section class="band" style="background:var(--cream-2)"><div class="wrap">
+  <div class="center"><div class="eyebrow">Questions</div><h2 class="sec mt">The things people ask before trying it.</h2></div>
+  <div class="faq mt">
+    <details>
+      <summary>How long does one jar last?</summary>
+      <div class="fa">2 to 3 months with daily use on face and neck. Longer if you use it only at night. A little goes a long way.</div>
+    </details>
+    <details>
+      <summary>Is this a subscription?</summary>
+      <div class="fa">No. One-time purchase. You buy another jar if and when you want one, that's it.</div>
+    </details>
+    <details>
+      <summary>Can I use it on more than my face?</summary>
+      <div class="fa">Yes. Face, neck, hands, elbows, anywhere dry. Plenty of customers use it head to toe.</div>
+    </details>
+    <details>
+      <summary>What if my skin is sensitive?</summary>
+      <div class="fa">4 ingredients, no synthetic chemicals. Tallow is one of the gentlest moisturizers there is. If your skin reacts to everything else, this is worth trying, and the guarantee covers you if it doesn't agree with you.</div>
+    </details>
+    <details>
+      <summary>What if it doesn't work for me?</summary>
+      <div class="fa">Use it for 60 days. If your skin doesn't love it, email us and we refund every penny. No hoops, no sending anything back.</div>
+    </details>
+  </div>
+</div></section>
+
+<section class="band final"><div class="wrap">
+  <h2 class="sec">Your skin changed. This was made for that.</h2>
+  {%- form 'product', product, id: 'tlw-form-final', class: 'pf' -%}
+    <input type="hidden" name="id" value="{{ v.id }}">
+    <input type="hidden" class="tlw-main-flag" value="1">
+    <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
+      <svg class="icon" style="width:19px;height:19px"><use href="#tlw-cart"/></svg>
+      {%- if v.available -%}Add to Cart · {{ section.settings.price_sale }}{%- else -%}Sold Out{%- endif -%}
+    </button>
+  {%- endform -%}
+  <div class="trust-strip">
+    <div><svg class="icon"><use href="#tlw-truck"/></svg>Free Shipping</div>
+    <div><svg class="icon"><use href="#tlw-shield"/></svg>60-Day Guarantee</div>
+    <div><svg class="icon"><use href="#tlw-drop"/></svg>4 Ingredients</div>
+    <div><svg class="icon"><use href="#tlw-leaf"/></svg>Grass-Fed</div>
+  </div>
+</div></section>
+
+<!-- STICKY MOBILE ATC (real form) -->
+<div class="sticky" id="tlw-sticky">
+  {%- if product.featured_image -%}
+    <img class="s-thumb" src="{{ product.featured_image | image_url: width: 120 }}" alt="{{ product.title | escape }}" loading="lazy" width="48" height="48">
+  {%- endif -%}
+  <div class="s-info">
+    <div class="p">{{ section.settings.price_sale }}{%- if section.settings.price_compare != blank -%} <s class="s-was">{{ section.settings.price_compare }}</s>{%- endif -%}</div>
+    <div class="s-sub">60-day guarantee · Free shipping</div>
+  </div>
+  {%- form 'product', product, id: 'tlw-form-sticky', class: 'pf' -%}
+    <input type="hidden" name="id" value="{{ v.id }}">
+    <input type="hidden" class="tlw-main-flag" value="1">
+    <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
+      <svg class="icon" style="width:16px;height:16px"><use href="#tlw-cart"/></svg>
+      {%- if v.available -%}Add to Cart{%- else -%}Sold Out{%- endif -%}
+    </button>
+  {%- endform -%}
+</div>
+
+<!-- ================= WELCOME EMAIL POPUP ================= -->
+{%- if section.settings.popup_active -%}
+<div class="tlw-popup-overlay" id="tlw-popup-overlay" hidden></div>
+<div class="tlw-popup" id="tlw-popup" hidden role="dialog" aria-label="Unlock a discount on your order">
+  {%- if product.featured_image -%}
+    {%- if section.settings.popup_image != blank -%}
+      <div class="tlw-popup-img">{{ section.settings.popup_image | image_url: width: 500 | image_tag: loading: 'lazy', alt: 'Tallow & honey balm' }}</div>
+    {%- elsif product.featured_image -%}
+      <div class="tlw-popup-img">{{ product.featured_image | image_url: width: 400 | image_tag: loading: 'lazy', alt: product.title }}</div>
+    {%- endif -%}
+  {%- endif -%}
+  <div class="tlw-popup-body">
+    <h3>{{ section.settings.popup_heading | default: 'Unlock a discount on your order' }}</h3>
+    <p>{{ section.settings.popup_subtext | default: "Enter your email and we'll send a code straight to your inbox." }}</p>
+    {%- form 'customer', class: 'tlw-popup-form' -%}
+      {%- if form.posted_successfully? -%}
+        <p class="tlw-popup-ok">Check your inbox, your code is on its way.</p>
+      {%- else -%}
+        <input type="hidden" name="contact[tags]" value="site-popup-capture">
+        <input type="hidden" name="contact[accepts_marketing]" value="true">
+        <input type="email" name="contact[email]" placeholder="Your email" required aria-label="Email">
+        <button type="submit">Reveal My Code</button>
+      {%- endif -%}
+    {%- endform -%}
+    <button type="button" class="tlw-popup-skip" id="tlw-popup-skip">No, I'll continue shopping</button>
+  </div>
+</div>
+{%- endif -%}
+
+<!-- ================= AJAX CART DRAWER ================= -->
+<div class="tlw-drawer-overlay" hidden></div>
+<aside class="tlw-drawer" hidden aria-label="Cart">
+  <div class="tlw-d-head">
+    <span class="tlw-d-htitle">Cart · <span class="tlw-d-count">{{ cart.item_count }}</span> item{% if cart.item_count != 1 %}s{% endif %}</span>
+    <button type="button" class="tlw-d-close" aria-label="Close cart"><svg class="icon"><use href="#tlw-x"/></svg></button>
+  </div>
+  <div class="tlw-d-body">
+    <div class="tlw-d-items"></div>
+    <div class="tlw-d-empty" hidden>Your cart is empty.</div>
+  </div>
+  <div class="tlw-d-foot">
+    <div class="tlw-d-savings" hidden></div>
+    <div class="tlw-d-subtotal"><span>Subtotal</span><span class="tlw-d-subval">{{ cart.total_price | money }}</span></div>
+    <div class="tlw-d-trust">
+      <span><svg class="icon"><use href="#tlw-truck"/></svg>Free shipping</span>
+      <span><svg class="icon"><use href="#tlw-shield"/></svg>60-day guarantee</span>
+    </div>
+    <a class="btn tlw-d-checkout" href="/checkout">Check out</a>
+    <button type="button" class="tlw-d-keep">Keep shopping</button>
+  </div>
+</aside>
+
+<style>
+  #tallow-pdp-v2 .tlw-drawer-overlay{position:fixed;inset:0;background:rgba(20,15,8,.45);z-index:60;opacity:0;transition:opacity .25s ease}
+  #tallow-pdp-v2 .tlw-drawer-overlay.show{opacity:1}
+  #tallow-pdp-v2 .tlw-drawer{position:fixed;top:0;right:0;height:100%;width:min(420px,92vw);background:var(--cream);z-index:61;display:flex;flex-direction:column;transform:translateX(100%);transition:transform .28s cubic-bezier(.4,0,.2,1);box-shadow:-10px 0 40px rgba(0,0,0,.18)}
+  #tallow-pdp-v2 .tlw-drawer.show{transform:translateX(0)}
+  #tallow-pdp-v2 .tlw-d-head{display:flex;align-items:center;justify-content:space-between;padding:18px 20px;border-bottom:1px solid var(--line)}
+  #tallow-pdp-v2 .tlw-d-htitle{font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:600}
+  #tallow-pdp-v2 .tlw-d-close{background:none;border:none;cursor:pointer;color:var(--ink);padding:4px;display:flex}
+  #tallow-pdp-v2 .tlw-d-close .icon{width:22px;height:22px}
+  #tallow-pdp-v2 .tlw-d-body{flex:1;overflow-y:auto;padding:8px 20px}
+  #tallow-pdp-v2 .tlw-d-empty{text-align:center;color:var(--grey);padding:40px 0;font-size:15px}
+  #tallow-pdp-v2 .tlw-d-item{display:grid;grid-template-columns:64px 1fr auto;gap:14px;padding:18px 0;border-bottom:1px solid var(--line)}
+  #tallow-pdp-v2 .tlw-d-img{width:64px;height:64px;border-radius:10px;overflow:hidden;background:var(--cream-2)}
+  #tallow-pdp-v2 .tlw-d-img img{width:100%;height:100%;object-fit:cover;display:block}
+  #tallow-pdp-v2 .tlw-d-title{font-weight:700;font-size:14px;line-height:1.25}
+  #tallow-pdp-v2 .tlw-d-variant{font-size:12.5px;color:var(--grey);margin-top:2px}
+  #tallow-pdp-v2 .tlw-d-qty{display:inline-flex;align-items:center;gap:0;margin-top:10px;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--paper)}
+  #tallow-pdp-v2 .tlw-d-qty button{width:30px;height:30px;border:none;background:none;cursor:pointer;font-size:17px;color:var(--ink);line-height:1}
+  #tallow-pdp-v2 .tlw-d-qty span{min-width:30px;text-align:center;font-size:14px;font-weight:600}
+  #tallow-pdp-v2 .tlw-d-prices{text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+  #tallow-pdp-v2 .tlw-d-was{font-size:12.5px;color:#9a927d;text-decoration:line-through}
+  #tallow-pdp-v2 .tlw-d-now{font-size:15px;font-weight:700;color:var(--green)}
+  #tallow-pdp-v2 .tlw-d-free-tag{display:inline-block;background:var(--green);color:#fff;font-size:9.5px;font-weight:700;letter-spacing:.04em;padding:2px 6px;border-radius:5px;vertical-align:middle;margin-left:4px}
+  #tallow-pdp-v2 .tlw-d-remove{background:none;border:none;cursor:pointer;color:#a89e88;padding:2px;display:flex;margin-top:2px}
+  #tallow-pdp-v2 .tlw-d-remove .icon{width:17px;height:17px}
+  #tallow-pdp-v2 .tlw-d-foot{border-top:1px solid var(--line);padding:18px 20px;background:var(--cream)}
+  #tallow-pdp-v2 .tlw-d-savings{display:flex;justify-content:space-between;font-size:14px;font-weight:600;color:var(--green);margin-bottom:8px}
+  #tallow-pdp-v2 .tlw-d-subtotal{display:flex;justify-content:space-between;font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:600;margin-bottom:14px}
+  #tallow-pdp-v2 .tlw-d-checkout{text-decoration:none}
+  #tallow-pdp-v2 .tlw-d-trust{display:flex;justify-content:center;gap:18px;font-size:12px;color:var(--grey);margin-bottom:12px;flex-wrap:wrap}
+  #tallow-pdp-v2 .tlw-d-trust span{display:inline-flex;align-items:center;gap:5px}
+  #tallow-pdp-v2 .tlw-d-trust .icon{width:14px;height:14px}
+  #tallow-pdp-v2 .tlw-d-keep{display:block;width:100%;background:none;border:none;color:var(--grey);font-size:13px;text-decoration:underline;cursor:pointer;margin-top:12px;font-family:inherit}
+
+  #tallow-pdp-v2 .tlw-popup-overlay{position:fixed;inset:0;background:rgba(20,15,8,.55);z-index:70;opacity:0;transition:opacity .25s ease}
+  #tallow-pdp-v2 .tlw-popup-overlay.show{opacity:1}
+  #tallow-pdp-v2 .tlw-popup{position:fixed;top:50%;left:50%;transform:translate(-50%,-46%) scale(.96);opacity:0;width:min(420px,90vw);max-height:88vh;overflow-y:auto;background:var(--cream);border-radius:18px;z-index:71;box-shadow:0 20px 60px rgba(0,0,0,.28);transition:transform .25s ease,opacity .25s ease}
+  #tallow-pdp-v2 .tlw-popup.show{transform:translate(-50%,-50%) scale(1);opacity:1}
+  #tallow-pdp-v2 .tlw-popup-img{aspect-ratio:16/9;overflow:hidden;border-radius:18px 18px 0 0;background:var(--cream-2)}
+  #tallow-pdp-v2 .tlw-popup-img img{width:100%;height:100%;object-fit:cover;display:block}
+  #tallow-pdp-v2 .tlw-popup-body{padding:26px 26px 24px;text-align:center}
+  #tallow-pdp-v2 .tlw-popup-body h3{font-family:Georgia,'Times New Roman',serif;font-size:23px;font-weight:600;margin:0 0 8px}
+  #tallow-pdp-v2 .tlw-popup-body p{font-size:14px;color:var(--grey);line-height:1.5;margin:0 0 18px}
+  #tallow-pdp-v2 .tlw-popup-ok{color:var(--green);font-weight:600}
+  #tallow-pdp-v2 .tlw-popup-form{display:flex;flex-direction:column;gap:10px}
+  #tallow-pdp-v2 .tlw-popup-form input[type="email"]{padding:13px 14px;border:1px solid var(--line);border-radius:9px;font-size:15px;font-family:inherit;width:100%;box-sizing:border-box}
+  #tallow-pdp-v2 .tlw-popup-form button{padding:13px 14px;border:none;border-radius:9px;background:var(--green);color:#fff;font-size:15px;font-weight:600;cursor:pointer;font-family:inherit}
+  #tallow-pdp-v2 .tlw-popup-skip{display:block;width:100%;background:none;border:none;color:var(--grey);font-size:12.5px;text-decoration:underline;cursor:pointer;margin-top:14px;font-family:inherit}
+  @media (max-width:480px){ #tallow-pdp-v2 .tlw-popup{width:92vw} #tallow-pdp-v2 .tlw-popup-body{padding:22px 20px 20px} }
+</style>
+
+<script>
+(function(){
+ try{
+  var root = document.getElementById('tallow-pdp-v2');
+  if(!root || root.dataset.cartInit) return; root.dataset.cartInit = '1';
+  var overlay = root.querySelector('.tlw-drawer-overlay');
+  var drawer  = root.querySelector('.tlw-drawer');
+  var itemsEl = root.querySelector('.tlw-d-items');
+  var emptyEl = root.querySelector('.tlw-d-empty');
+  var savEl   = root.querySelector('.tlw-d-savings');
+  var subEl   = root.querySelector('.tlw-d-subval');
+  var countEl = root.querySelector('.tlw-d-count');
+  var badge   = root.querySelector('.cart-badge');
+
+  function money(c){ return '$' + (c/100).toFixed(2); }
+  function img(src){ if(!src) return ''; return src.indexOf('?')>-1 ? src+'&width=160' : src+'?width=160'; }
+
+  function render(cart){
+    countEl.textContent = cart.item_count;
+    if(badge){ if(cart.item_count>0){ badge.textContent = cart.item_count; badge.removeAttribute('hidden'); } else { badge.setAttribute('hidden',''); } }
+    subEl.textContent = money(cart.total_price);
+    if(cart.total_discount>0){ savEl.hidden=false; savEl.innerHTML = '<span>Savings</span><span>-'+money(cart.total_discount)+'</span>'; } else { savEl.hidden=true; }
+    if(!cart.items || cart.items.length===0){ itemsEl.innerHTML=''; emptyEl.hidden=false; return; }
+    emptyEl.hidden=true;
+    itemsEl.innerHTML = cart.items.map(function(it){
+      var disc = it.original_line_price > it.final_line_price;
+      var isFree = it.final_line_price === 0 && it.original_line_price > 0;
+      return '<div class="tlw-d-item" data-key="'+it.key+'">'
+        + '<div class="tlw-d-img">'+(it.image?'<img src="'+img(it.image)+'" alt="" loading="lazy">':'')+'</div>'
+        + '<div class="tlw-d-info"><div class="tlw-d-title">'+it.product_title+(isFree?' <span class="tlw-d-free-tag">FREE GIFT</span>':'')+'</div>'
+        + (it.variant_title?'<div class="tlw-d-variant">'+it.variant_title+'</div>':'')
+        + '<div class="tlw-d-qty"><button type="button" class="tlw-d-dec" aria-label="Decrease">&minus;</button><span>'+it.quantity+'</span><button type="button" class="tlw-d-inc" aria-label="Increase">+</button></div></div>'
+        + '<div class="tlw-d-prices">'
+        + (disc?'<span class="tlw-d-was">'+money(it.original_line_price)+'</span>':'')
+        + '<span class="tlw-d-now">'+(isFree?'FREE':money(it.final_line_price))+'</span>'
+        + '<button type="button" class="tlw-d-remove" aria-label="Remove"><svg class="icon"><use href="#tlw-trash"/></svg></button>'
+        + '</div></div>';
+    }).join('');
+  }
+
+  function getCart(){ return fetch('/cart.js',{headers:{'Accept':'application/json'}}).then(function(r){return r.json();}); }
+  function refresh(){ return getCart().then(render); }
+  function open(){ drawer.hidden=false; overlay.hidden=false; requestAnimationFrame(function(){ drawer.classList.add('show'); overlay.classList.add('show'); }); document.body.style.overflow='hidden'; }
+  function close(){ drawer.classList.remove('show'); overlay.classList.remove('show'); document.body.style.overflow=''; setTimeout(function(){ drawer.hidden=true; overlay.hidden=true; }, 280); }
+
+  // Free gifts: auto-added alongside the main balm only, silently, best-effort.
+  // Buy X Get Y discounts don't auto-add the Y item, this is what actually delivers
+  // the free lip balm (everyone) and the scarcity gift-card token (first N customers)
+  // without requiring a second manual click.
+  var MAIN_FORM_IDS = ['tlw-form-hero','tlw-form-final','tlw-form-sticky']; // kept for reference, unreliable, see .tlw-main-flag below
+  var GIFT_VARIANT_IDS = [
+    {{ section.settings.free_gift_product.selected_or_first_available_variant.id | default: '' | json }},
+    {{ section.settings.gift_token_product.selected_or_first_available_variant.id | default: '' | json }}
+  ].filter(function(id){ return id !== null && id !== undefined && id !== ''; });
+
+  function addGiftsSilently(){
+    if(!GIFT_VARIANT_IDS.length) return Promise.resolve();
+    return getCart().then(function(cart){
+      var already = {};
+      cart.items.forEach(function(it){ already[String(it.variant_id)] = true; });
+      var toAdd = GIFT_VARIANT_IDS.filter(function(id){ return !already[String(id)]; });
+      if(!toAdd.length) return;
+      return fetch('/cart/add.js',{
+        method:'POST',
+        headers:{'Accept':'application/json','Content-Type':'application/json'},
+        body: JSON.stringify({ items: toAdd.map(function(id){ return { id: id, quantity: 1 }; }) })
+      }).then(function(r){
+        if(!r.ok){ return r.json().then(function(err){ console.error('[free gift] cart/add.js failed', r.status, err); }); }
+      }).catch(function(err){ console.error('[free gift] cart/add.js network error', err); });
+    });
+  }
+
+  // Add to cart (all product forms) -> AJAX add, open drawer, stay on PDP
+  root.querySelectorAll('form.pf').forEach(function(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var isMain = !!form.querySelector('.tlw-main-flag');
+      console.log('[tallow-pdp-v2] form submit intercepted', form.id, 'isMain:', isMain, 'gift ids:', GIFT_VARIANT_IDS);
+      var btn = form.querySelector('button[name="add"]'); if(btn){ btn.disabled=true; }
+      fetch('/cart/add.js',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
+        .then(function(r){return r.json();})
+        .then(function(){ return isMain ? addGiftsSilently() : Promise.resolve(); })
+        .then(function(){ return refresh(); })
+        .then(function(){ open(); })
+        .catch(function(){ window.location='/cart'; })
+        .finally(function(){ if(btn){ btn.disabled=false; } });
+    });
+  });
+
+  // Bag icon -> open drawer
+  var cartLink = root.querySelector('.cart-link');
+  if(cartLink){ cartLink.addEventListener('click', function(e){ e.preventDefault(); refresh().then(open); }); }
+
+  // Close interactions
+  overlay.addEventListener('click', close);
+  root.querySelector('.tlw-d-close').addEventListener('click', close);
+  root.querySelector('.tlw-d-keep').addEventListener('click', close);
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && !drawer.hidden) close(); });
+
+  // Qty change / remove (event delegation)
+  itemsEl.addEventListener('click', function(e){
+    var row = e.target.closest('.tlw-d-item'); if(!row) return;
+    var key = row.getAttribute('data-key');
+    var qty = parseInt(row.querySelector('.tlw-d-qty span').textContent,10);
+    if(e.target.closest('.tlw-d-inc')) qty++;
+    else if(e.target.closest('.tlw-d-dec')) qty--;
+    else if(e.target.closest('.tlw-d-remove')) qty=0;
+    else return;
+    if(qty<0) qty=0;
+    fetch('/cart/change.js',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({id:key,quantity:qty})})
+      .then(function(r){return r.json();}).then(render);
+  });
+ }catch(err){ console.error('[tallow-pdp-v2 init error]', err); }
+})();
+
+/* Sticky ATC: slide in only after the main buy box scrolls out of view */
+(function(){
+  var sticky=document.getElementById('tlw-sticky');
+  var buyBox=document.getElementById('tlw-form-hero');
+  if(!sticky) return;
+  if(!buyBox||!('IntersectionObserver' in window)){ sticky.classList.add('on'); return; }
+  var io=new IntersectionObserver(function(entries){
+    var e=entries[0];
+    if(!e.isIntersecting && e.boundingClientRect.top<0){ sticky.classList.add('on'); }
+    else { sticky.classList.remove('on'); }
+  },{threshold:0});
+  io.observe(buyBox);
+})();
+
+/* Welcome popup: show 8s after landing (lets already-sold visitors reach checkout first,
+   catches the still-deciding ones), once per session, remember dismissal/signup */
+(function(){
+  var overlay=document.getElementById('tlw-popup-overlay');
+  var popup=document.getElementById('tlw-popup');
+  if(!overlay||!popup) return;
+  var KEY='tlw_popup_dismissed';
+  var already=false;
+  try{ already = sessionStorage.getItem(KEY) === '1'; }catch(e){}
+  var formPosted = !!popup.querySelector('.tlw-popup-ok');
+  if(already || formPosted) return;
+
+  function show(){
+    overlay.hidden=false; popup.hidden=false;
+    requestAnimationFrame(function(){ overlay.classList.add('show'); popup.classList.add('show'); });
+  }
+  function hide(){
+    overlay.classList.remove('show'); popup.classList.remove('show');
+    setTimeout(function(){ overlay.hidden=true; popup.hidden=true; }, 250);
+    try{ sessionStorage.setItem(KEY,'1'); }catch(e){}
+  }
+  setTimeout(show, 8000);
+  var skipBtn=document.getElementById('tlw-popup-skip');
+  if(skipBtn) skipBtn.addEventListener('click', hide);
+  overlay.addEventListener('click', hide);
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && !popup.hidden) hide(); });
+})();
+</script>
+
+</div>{%- comment -%} /#tallow-pdp-v2 {%- endcomment -%}
+
+{% schema %}
+{
+  "name": "Tallow PDP V2 (Reformulated)",
+  "tag": "section",
+  "class": "tallow-pdp-v2-section",
+  "settings": [
+    { "type": "header", "content": "Price display (hardcoded, not from variant)" },
+    { "type": "text", "id": "price_sale", "label": "Sale price (shown)", "default": "$49.99" },
+    { "type": "text", "id": "price_compare", "label": "Compare-at price (struck through)", "default": "$69.99" },
+    { "type": "text", "id": "price_save", "label": "Savings badge", "default": "Save $20" },
+    { "type": "header", "content": "Hero" },
+    { "type": "text", "id": "anno_text", "label": "Announcement bar", "default": "Free shipping · 60-day guarantee · $10 gift card for our next 100 customers" },
+    { "type": "header", "content": "Welcome email popup" },
+    { "type": "checkbox", "id": "popup_active", "label": "Show welcome popup (10% off, email capture for cart-recovery flow)", "default": true },
+    { "type": "image_picker", "id": "popup_image", "label": "Popup image (falls back to product photo)" },
+    { "type": "text", "id": "popup_heading", "label": "Popup heading (kept vague on purpose, mystery discount)", "default": "Unlock a discount on your order" },
+    { "type": "text", "id": "popup_subtext", "label": "Popup subtext (don't reveal the %, mystery discount)", "default": "Enter your email and we'll send a code straight to your inbox." },
+    { "type": "header", "content": "Free gift, Overnight Lip Mask" },
+    { "type": "product", "id": "free_gift_product", "label": "Free gift product (blank = disable)" },
+    { "type": "image_picker", "id": "free_gift_image", "label": "Override photo (falls back to product photo)" },
+    { "type": "text", "id": "free_gift_text", "label": "Override title (falls back to product title)" },
+    { "type": "header", "content": "Scarcity gift card token (optional)" },
+    { "type": "product", "id": "gift_token_product", "label": "Gift card token product (blank = disable)" },
+    { "type": "header", "content": "Extra photos (optional)" },
+    { "type": "image_picker", "id": "lifestyle_image", "label": "Lifestyle photo (matches current ad angle)" },
+    { "type": "text", "id": "lifestyle_caption", "label": "Lifestyle photo caption (optional)" },
+    { "type": "image_picker", "id": "texture_image", "label": "Texture close-up (absorption proof)" },
+    { "type": "header", "content": "Sale countdown (toggle off after 1 week)" },
+    { "type": "checkbox", "id": "sale_active", "label": "Show sale countdown instead of announcement bar", "default": false },
+    { "type": "text", "id": "sale_banner_text", "label": "Sale banner text", "default": "4th of July Sale" },
+    { "type": "text", "id": "sale_end_iso", "label": "Sale end (ISO datetime with timezone offset)", "default": "2026-07-10T00:00:00-04:00" },
+    { "type": "text", "id": "badge_text", "label": "Image badge", "default": "Bestseller" },
+    { "type": "text", "id": "rating_text", "label": "Rating text", "default": "4.8 · 47 reviews" },
+    { "type": "text", "id": "subtitle", "label": "Subtitle", "default": "Face & Body · 4 Ingredients · 60g" },
+    { "type": "text", "id": "ship_text", "label": "Shipping line", "default": "Free shipping · ships in 1-2 days" },
+    { "type": "checkbox", "id": "gift_card_active", "label": "Show gift card line (small text, low emphasis by design)", "default": true },
+    { "type": "text", "id": "gift_card_text", "label": "Gift card line text", "default": "The next 100 customers also get a $10 gift card" },
+    { "type": "header", "content": "Proof stats (after 2 weeks)" },
+    { "type": "text", "id": "stat1_n", "label": "Stat 1 number", "default": "94%" },
+    { "type": "text", "id": "stat1_t", "label": "Stat 1 text", "default": "said skin felt softer all day" },
+    { "type": "text", "id": "stat2_n", "label": "Stat 2 number", "default": "9 in 10" },
+    { "type": "text", "id": "stat2_t", "label": "Stat 2 text", "default": "stopped reaching for other products" },
+    { "type": "text", "id": "stat3_n", "label": "Stat 3 number", "default": "2 min" },
+    { "type": "text", "id": "stat3_t", "label": "Stat 3 text", "default": "to absorb · no greasy residue" },
+    { "type": "header", "content": "Featured review" },
+    { "type": "image_picker", "id": "review_image", "label": "Review photo (real customer)" },
+    { "type": "text", "id": "review_quote", "label": "Review quote", "default": "I threw out eight products and kept this one. My husband noticed before I did." },
+    { "type": "text", "id": "review_author", "label": "Review author", "default": "Diana L., verified buyer" }
+  ],
+  "presets": [{ "name": "Tallow PDP V2 (Reformulated)" }]
+}
+{% endschema %}
