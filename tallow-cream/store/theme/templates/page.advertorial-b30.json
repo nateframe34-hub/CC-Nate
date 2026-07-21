@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "tallow-advertorial-b30",
+      "settings": {
+        "masthead": "The Everyday Ritual",
+        "headline": "It's Not \"Just My Face.\" It Was Her Skin.",
+        "dek": "A birthday photo she almost scrolled past turned into the thing that changed how a friend saw her, twice, without knowing it.",
+        "byline": "Julie B.",
+        "byline_date": "July 2026",
+        "pdp_url": "https://trybasline.com/products/whipped-tallow-honey-balm"
+      }
+    }
+  },
+  "order": ["main"]
+}
