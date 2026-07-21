@@ -36,6 +36,16 @@ An ultra-realistic close-up photograph of a small dollop of balm on the back of 
 
 ---
 
+## 4a. Popup image (email-capture modal, 16:9)
+
+**Purpose:** Fills the `popup_image` setting slot at the top of the welcome/discount popup modal (`.tlw-popup-img`, hardcoded to a 16:9 crop). This is the first thing a visitor sees when the popup fires, needs to be an inviting, clean hero-style shot, wide format, not a tall vertical crop of the other prompts. Same real packaging as the hero shot (black lid, black-and-gold "wiyun" label).
+
+```
+An ultra-realistic professional product photograph, wide 16:9 landscape composition, of the amber glass jar with its black ribbed screw-top lid and black-and-gold circular "wiyun Tallow Honey Balm" label (bee illustration, gold serif type), positioned slightly off-center to the left third of the frame per standard product-photography composition, with generous soft-focus warm negative space to the right where a modal's text/button would visually sit if overlaid separately (this image itself has no text baked in). Clean, warm off-white or soft cream backdrop, subtle matte stone or linen texture, soft diffused natural light from the upper left, gentle shadow, no harsh reflections on the glass or label. Real studio-quality but warm, not sterile or clinical. No people, no hands, no additional text overlays beyond what's on the real label, no competing brand marks. 16:9 (1600 x 900).
+```
+
+---
+
 ## 4. Ingredient flat-lay (raw honey + essential oil emphasis)
 
 **Purpose:** Supports the updated "4 ingredients" label section on the PDP (tallow, olive oil, essential oils, raw honey). Needs to visually communicate the REAL new ingredients honestly, raw honey (not manuka specifically, don't stage it to imply manuka) and a generic/neutral essential-oil visual (don't imply a specific oil like tea tree or citrus unless that's confirmed and you want it named, keep it visually generic if the exact oil composition isn't being called out on the label).
