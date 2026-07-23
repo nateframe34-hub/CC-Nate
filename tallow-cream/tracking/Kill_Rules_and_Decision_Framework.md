@@ -7,13 +7,13 @@
 
 ## ★ GOVERNING KILL RULE — 2× IDEAL SCALING CAC (revised 2026-07-17, supersedes 2× Breakeven) ★
 
-**Ideal Scaling CAC: $20.** Target CPA to trigger aggressive budget increases, well under the $33 breakeven, leaving real margin for reinvestment (the $10 per-order gift card cost applies to repeat orders, not this first-purchase CAC, but still worth the buffer). Aspirational but not fantasy, the account has already hit $11.35 CPA once (B19C2, 2026-06-28).
+**Ideal Scaling CAC: $20.** Target CPA to trigger aggressive budget increases, well under breakeven, leaving real margin for reinvestment (the $10 per-order gift card cost applies to repeat orders, not this first-purchase CAC, but still worth the buffer). Aspirational but not fantasy, the account has already hit $11.35 CPA once (B19C2, 2026-06-28).
 
 **Kill rule, founder-locked 2026-07-17: kill at 2× Ideal Scaling CAC = ~$40 in spend with no purchase.** Tighter than the prior 2× breakeven ($66) line. Flagged once for the record: $40 sits closer to B17C1's actual lifetime mean CPA ($31.30) than the old $66 line did, which per the variance math below means a somewhat higher false-kill rate on genuine winners mid-dry-stretch than the account's June analysis targeted. Founder's explicit call, made with that tradeoff known: faster capital turnover and stricter batch discipline are worth more right now than the marginal risk of occasionally killing a real winner early. **This is the rule going forward, not a soft suggestion.**
 
-**The math:**
-- Price: $49.99 | COGS: ~$17.01 | Breakeven CPA ≈ $33 (reference only, no longer the kill anchor)
-- Ideal Scaling CAC: $20 | **2× Ideal Scaling CAC = ~$40 (the kill line)**
+**The math, UPDATED 2026-07-22 (free gift now included in COGS):** the universal free-gift-with-purchase (lip mask, auto-added) is a real per-order cost, not previously reflected here. Founder reports it appears to be lifting CVR, not yet confirmed on real volume (same noise-threshold discipline as any other early read, don't treat as confirmed until checked on enough purchases).
+- Price: $49.99 | COGS (incl. free gift): ~$19.83 | Breakeven CPA ≈ $30.16 (down from the pre-gift ~$33, reference only, no longer the kill anchor)
+- Ideal Scaling CAC: $20 | **2× Ideal Scaling CAC = ~$40 (the kill line, unchanged, still well under the new breakeven so no rule change needed)**
 
 **The rule:**
 > Once an ad accumulates **~$40 in spend with no purchase**, kill it.
@@ -39,7 +39,7 @@ The 2× ($40) no-purchase line answers ONE question: *"has this ad shown it CAN 
 **Regime A — UNPROVEN ad (0 lifetime purchases):** use the 2× line. Spend $40 from launch with no purchase → KILL. (Applies now to: B19C3, B20 C1/C2/C3 once delivering.)
 
 **Regime B — PROVEN converter (has converted, ~breakeven or better):** do NOT use the flat no-purchase line. Judge on **rolling CPA/ROAS + opportunity cost.** A proven converter at/under breakeven is a (thin) winner — don't murder it into a vacuum on a dry stretch. Two triggers to retire it:
-1. **Economic decay:** rolling CPA over a meaningful window (e.g. last ~10 purchases, or last ~$200 spend) climbs and stays above breakeven ($33) → it has stopped being profitable, wind it down.
+1. **Economic decay:** rolling CPA over a meaningful window (e.g. last ~10 purchases, or last ~$200 spend) climbs and stays above breakeven (~$30.16, updated 2026-07-22 for the free-gift COGS) → it has stopped being profitable, wind it down.
 2. **Opportunity cost (the important one for format migration):** retire it when a cheaper-CPM format proves a BETTER CPA. Don't kill it for losing money (it isn't) — replace it when something earns more per dollar. Trading up, not cutting into a vacuum.
 
 **Worked example — B17C1 (B9C3 verbatim native), as of 2026-06-29:** lifetime $125.19 spend, 4 purchases, $199.96 revenue → **CPA $31.30, ROAS 1.60x gross, +$6.73 net over the run.** Just under breakeven = marginal winner. BUT native CPM is capped (~$180) while whiteboard delivers $19-160, so B17C1's ceiling is low by format. Decision: do NOT kill on the rule (it's profitable + under $40 since last sale, though closer to the line now than under the old $66 threshold); CAP its budget, let B20 take growth dollars, and **retire it the moment a whiteboard cell banks a purchase at ≤ ~$31 CPA** (beats it). Opportunity-cost trigger, not a loss trigger.
