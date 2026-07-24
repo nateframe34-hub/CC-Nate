@@ -132,10 +132,15 @@
   - Confirm whether Shopify Email's "Send marketing email" Flow action already adds its
     own unsubscribe footer automatically. If so, this file's manual {{ unsubscribe_url }}
     block may be redundant, pull it so the email doesn't ship two unsubscribe links.
-  - {{SHOP_LINK_WITH_DISCOUNT}} should resolve to
-    https://trybasline.com/discount/FIRST10?redirect=/products/whipped-tallow-honey-balm
-    once the FIRST10 code exists in Shopify admin -> Discounts (percentage, 10%, no
-    other conditions), that /discount/CODE?redirect=/products/... pattern auto-applies it.
+  - {{SHOP_LINK_WITH_DISCOUNT}}, UPDATED 2026-07-22: the live redirect intentionally
+    points at the NEW reformulated product (tallow-honey-balm), not the old one, this
+    was traced after a customer clicked an old-formula ad, converted via this email,
+    and bought the new product. Founder's call: keep it, better margin. Net effect,
+    on purpose: any popup/FIRST10 signup converts to the new product regardless of
+    which ad (old or new formula) brought them in. Once the FIRST10 code exists in
+    Shopify admin -> Discounts (percentage, 10%, no other conditions), the
+    /discount/CODE?redirect=/products/... pattern auto-applies it, currently pointed
+    at /products/tallow-honey-balm.
   - The discount code ITSELF needs a matching 7-day expiry set in its Shopify admin
     "Active dates" field, the email's urgency copy is a lie if the code doesn't
     actually expire when it says it does, don't just change the copy and skip this.
