@@ -22,6 +22,8 @@ Here's what my mornings looked like before any of this. Lotion on at seven, befo
 
 Three times a day. Every day. For years. I'd just stopped noticing it as a routine, it was just what a day was.
 
+I did notice it once, in a bathroom mirror before a client call, catching my own reflection mid-flinch at how tight my face looked under the fluorescent light. I fixed it in thirty seconds and walked back out like nothing happened. Nobody in that meeting knew. I did.
+
 ========
 
 Maya asked if she could show me something on my lunch break. She pulled a napkin out of her bag and drew two circles.
@@ -81,6 +83,10 @@ I told her I hadn't reapplied in a month. She just nodded like she already knew.
 A few weeks ago someone in a meeting asked what my skincare routine was, fishing for a recommendation.
 
 "Nothing," I said. "That's kind of the whole thing now."
+
+========
+
+If you're reading this at your own desk with a tube sitting somewhere within reach right now, you already know the exact time it starts pulling. You've probably checked a mirror today and fixed something quietly, the way I used to, before walking back out like nothing happened.
 
 ========
 
@@ -152,7 +158,11 @@ A bold, hand-drawn diagram on a slightly crumpled paper napkin, photographed fro
 
 ## Word count
 
-~1,050 words, on the leaner end of the account's range, appropriate for a colder click per the format's own reasoning (the image is doing more of the initial work, the copy doesn't need to over-build before getting to the mechanism).
+~1,100 words, on the leaner end of the account's range, appropriate for a colder click per the format's own reasoning (the image is doing more of the initial work, the copy doesn't need to over-build before getting to the mechanism).
+
+## Revision log, 2026-07-23
+
+Per the `learnings-on-native-ads` skill's deconstruction of this ad, two gaps fixed: (1) added a real-stakes moment to the before-state (the mirror-check before a client call) so the Problem-Aware entry is dramatized, not just described, addressing the "wrong engine for the awareness level" risk the skill flagged (Relatability tone on a Problem-Aware audience needs genuine dramatization per Schwartz, not just mild recognition). (2) Added a direct-address transition-to-reader paragraph before the close ("If you're reading this at your own desk with a tube sitting somewhere within reach right now...") using the skill's Completion of Thought technique, telling the reader her likely state rather than only extending a wish to her, closing the "no transition to reader" gap the analysis found.
 
 ## Format-specific notes (per the skeleton's success criteria)
 

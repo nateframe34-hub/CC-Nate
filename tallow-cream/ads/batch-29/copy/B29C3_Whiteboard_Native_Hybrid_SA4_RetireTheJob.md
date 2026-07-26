@@ -73,6 +73,10 @@ I hadn't noticed. That was sort of the point.
 
 ========
 
+If you did your own version of Nora's math right now, three times a day, six minutes each, you'd land on the same number I did. You're probably due for a reapplication sometime in the next hour or two, whether or not you've clocked it yet.
+
+========
+
 I'm not telling you a jar of cow fat gives you back a work week. That sounds like an ad. This isn't an ad. I'm telling you about the math my sister did on her phone at dinner, and the shift I didn't notice I'd stopped working.
 
 Four ingredients. $49.99. Free shipping. There's a 60-day guarantee too, so there's not much to lose finding out.
@@ -133,4 +137,8 @@ Same clean bill as B29C1/C2: zero menopause/hormonal/anti-aging/skincare-industr
 
 ## Word count
 
-~1,080 words, matching the batch's leaner band.
+~1,100 words, matching the batch's leaner band.
+
+## Revision log, 2026-07-23
+
+Per the `learnings-on-native-ads` skill's deconstruction of this ad, one gap fixed: added a direct-address transition-to-reader paragraph before the close ("If you did your own version of Nora's math right now...") using Completion of Thought, closing the missing transition-to-reader gap common to all 3 cells in this batch. No added real-stakes moment needed here, the skill's analysis found this cell's quantified hook ("thirty five hours a year, basically a work week") already dramatizes the Problem-Aware entry through value/time-cost framing rather than fear, which partially mitigates the "wrong engine" risk that applies more fully to its sibling cells.

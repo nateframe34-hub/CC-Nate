@@ -21,6 +21,8 @@ Here's what my normal looked like. One tube in my gym bag, one in my car console
 
 Three places. For years. I'd stopped thinking of it as excessive, it was just how I existed.
 
+I forgot the gym one once, on a day I actually needed it, stuck in a work dinner right after with my skin pulling every time I smiled. I kept my mouth mostly closed through dessert. Nobody noticed. I noticed the entire time.
+
 ========
 
 Rosa asked if I'd ever wondered why I needed backup at all. I said I figured everyone did.
@@ -74,6 +76,10 @@ Rosa asked me at the gym again a few weeks later if I still had all three tubes 
 I checked my bag. Zero.
 
 She just smiled like she already knew the answer.
+
+========
+
+If you've ever caught yourself doing a mental check before you leave the house, gym bag, car, desk, all accounted for, you already know the specific relief of confirming you're covered. You probably did it again this morning without noticing you did it.
 
 ========
 
@@ -137,4 +143,8 @@ Same clean bill as B29C1: zero menopause/hormonal/anti-aging/skincare-industry/s
 
 ## Word count
 
-~1,050 words, matching B29C1's leaner band for this format.
+~1,100 words, matching B29C1's leaner band for this format.
+
+## Revision log, 2026-07-23
+
+Per the `learnings-on-native-ads` skill's deconstruction of this ad, two gaps fixed: (1) added a real-stakes moment (forgetting the gym tube on a day she needed it, keeping her mouth closed through a work dinner) to dramatize the backup-hoarding habit's actual cost, addressing the same "wrong engine for the awareness level" risk flagged for this batch. (2) Added a direct-address transition-to-reader paragraph before the close ("If you've ever caught yourself doing a mental check before you leave the house...") using Completion of Thought, closing the missing transition-to-reader gap.
