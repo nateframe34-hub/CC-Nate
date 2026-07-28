@@ -1,4 +1,4 @@
-# BRAND MASTERY DOCUMENT: Whipped Tallow & Honey Balm
+# BRAND MASTERY DOCUMENT: Tallow & Honey Balm
 
 **Created:** 2026-07-06
 **Status:** Master reference. Supersedes the old demographic-style sub-avatar files in `avatars/` for AD CREATION purposes (those files remain valid as language research). Built per the Origins framework: Product Overview -> Desires -> Market Sophistication -> Awareness -> Sub-Avatars (desire + experience + emotion, demographics optional) -> Angles with direct hooks.
@@ -9,7 +9,7 @@
 # PART 1: PRODUCT OVERVIEW (Origins format)
 
 ## Step 1: Basics
-- **Product:** Whipped Tallow & Honey Balm, 120g, face & body.
+- **Product:** Tallow & Honey Balm, 60g, face & body. **(REFORMULATED, 2026-07. Four ingredients: tallow, raw honey, olive oil, essential oils. No longer whipped, no longer manuka, no longer calendula, 60g not 120g.)** Any hook or angle below that names manuka, calendula, or "whipped" is stale and marked as such.
 - **Price:** $49.99 (displayed against $69.99 anchor). Free shipping. 60-day money-back guarantee, no return required.
 
 ## Step 2: Product In Action
@@ -22,9 +22,9 @@ Skin makes its own oil (sebum), and after roughly age 40 it makes much less. Mos
 |---|---|---|
 | Grass-fed tallow, structure close to skin's own oil | Absorbs in, works with skin instead of sitting on it, lasts all day | Health/Comfort: skin that finally feels normal again; Relationships: looking like yourself again |
 | Fat-first formula, zero water | Doesn't evaporate by noon, no midday tightness, no reapplying | Comfort: stop managing skin all day; Control: something that finally behaves predictably |
-| Only 4 ingredients (tallow, manuka honey, olive oil, calendula) | You can read and understand the whole label | Control/Safety: knowing what's on your skin; relief from ingredient anxiety |
-| Whipped texture | Absorbs in ~2 min, no grease film, no shine | Comfort: usable in real life, under makeup, before bed |
-| Manuka honey | Humectant + naturally antibacterial pairing with the fat | Health: gentle on reactive/sensitive skin |
+| Only 4 ingredients (tallow, raw honey, olive oil, essential oils) | You can read and understand the whole label | Control/Safety: knowing what's on your skin; relief from ingredient anxiety |
+| ~~Whipped texture~~ Denser texture (REFORMULATED) | Grease/heaviness objection now needs an answer other than texture | Comfort: usable in real life, under makeup, before bed |
+| Raw honey | Humectant pairing with the fat | Health: gentle on reactive/sensitive skin. NOTE: weaker proof asset than manuka was |
 | One jar for face AND body | Replaces a shelf of products | Comfort/Control: simplicity; money not wasted |
 | Temperature-stable natural balm | Travels, decants into a tin, lasts months | Comfort: a jar goes a long way, no cold-chain fragility |
 
@@ -32,8 +32,8 @@ Skin makes its own oil (sebum), and after roughly age 40 it makes much less. Mos
 1. Skin-identical fat (the flagship mechanism, proven in-market).
 2. Fat-first vs water-first formulation (the "why everything else failed" reveal).
 3. Radical 4-ingredient legibility.
-4. Whipped-texture absorption (kills the grease objection).
-5. Tallow + manuka pairing (no direct competitor leads with this combination).
+4. ~~Whipped-texture absorption~~ RETIRED 2026-07-28, product is no longer whipped. The grease objection still needs an answer.
+5. Tallow + raw honey pairing (no direct competitor leads with this combination; weaker than the old manuka claim).
 
 ## Step 7: Hidden Mechanisms (things we don't advertise)
 - **It replaces multiple products** (face cream, body lotion, hand cream, lip balm, cuticle/elbow/heel). We say "one jar" narratively but never sell the replacement math as a mechanism.
@@ -64,6 +64,8 @@ Per Origins: desire first, avatar second. You cannot create desire, only channel
 
 **The tallow sub-category: STAGE 3-4.** Within tallow, brands now compete on mechanism enhancement (grass-fed vs regular, whipped vs solid, scented vs unscented). "Grass-fed" is already table stakes INSIDE the niche, weak as a differentiator. But critically: most of OUR buyers are not tallow-niche shoppers, they're Stage-5 moisturizer buyers meeting tallow for the first time. **To them, tallow itself is a New Mechanism.**
 
+> **RE-CONFIRMED 2026-07-28, with a sampling lesson attached.** The buyer research collected 7/28 shows tallow buyers arguing about which *additive* causes which outcome (beeswax vs olive oil vs jojoba), which looks like Stage 4 mechanism-competition behavior. It was initially read that way and that read was wrong. **That sample was drawn entirely from people who had already bought and were discussing their experience** — the most sophisticated slice of the niche by definition, and not representative of the market we advertise into. Stage 3-4 stands. The methodological rule this establishes: **never assess sophistication from post-purchase discussion.** Sophistication has to be sampled from people at the *decision* point, or earlier. Problem-side research is the sample that can actually test this.
+
 **Strategic response (the Big 3, applied):**
 1. **New Mechanism (primary, proven):** skin-identical fat / fat-vs-water. This is the account's proven conviction engine, it appears in every converter. Keep it the spine of everything.
 2. **New Information (secondary, proven):** the "flip your bottle over, water is the first ingredient" reveal + "skin makes less of its own oil after 40." Educates, reframes why everything she tried failed WITHOUT blaming her. The B9C3 mechanism section is a New Information play as much as a mechanism play.
@@ -82,7 +84,7 @@ Schwartz's five levels, mapped to this market, with where our ads have actually 
 | Unaware | Doesn't think her skin has a "problem," just vaguely avoids photos | Story/identity first, problem surfaces inside the narrative | UNTESTED deliberately. B9C3's long-story format is accidentally good at this. |
 | Problem Aware | Knows: tight by noon, looks tired, foundation cracks. Doesn't know why | Name the problem in her words, then reveal the WHY (New Information) | Proven: the "tight by noon" beats, B22C1's mechanism headline. Most of our copy enters here. |
 | Solution Aware | Knows oil-based/natural/simpler products exist, hasn't picked one | Differentiate the mechanism (skin-identical fat, not just "oil-based") | **This is where every converter was explicitly aimed** (all batch files marked Solution Aware). Our home turf. |
-| Product Aware | Has heard of tallow balm, maybe compared brands | Why THIS one: manuka pairing, 4 ingredients, whipped, guarantee | UNTESTED as a target. Growing segment as tallow trends. Cheapest conviction job of all. |
+| Product Aware | Has heard of tallow balm, maybe compared brands | Why THIS one: 4 ingredients, honey pairing, guarantee (NOT whipped, retired) | UNTESTED as a target. Growing segment as tallow trends. Cheapest conviction job of all. |
 | Most Aware | Knows us, needs a deal/reason now | Offer, urgency, reminder | Handled by retargeting/email/sale banner, not ads yet. |
 **The gap this exposes:** we've written nearly everything to one awareness level (Solution Aware) while our cheap-format experiments (B22 chyron) unknowingly targeted Problem Aware with a Solution Aware-depth message, one plausible reason it clicked cheap but converted mid: the message depth didn't match the awareness level of the click it attracted. Every future batch must STATE its awareness target in the cell file.
 
@@ -95,8 +97,11 @@ Ranked by strength. Each = "the reason why it works when everything else didn't,
 1. **Skin-Identical Fat (flagship, proven).** Tallow's fatty-acid profile is close to skin's own sebum, so skin treats it like its own oil and absorbs it in. New to Stage-5 moisturizer buyers, demonstrable, and already carried 12+ purchases. Hook shapes: "It's almost the same fat your skin makes. That's the whole trick." / "Your skin recognizes it. That's why it lets it in."
 2. **Fat-First vs Water-First (proven, contrarian).** Every cream she owns lists water first; water evaporates in an hour. This is simultaneously a mechanism and an attack. Hook shapes: "Your $80 moisturizer is 70% water. This jar isn't." (B24C, locked) / "Flip your bottle over. First ingredient: water. That's why it's gone by noon."
 3. **Radical Legibility: 4 ingredients (signaled, undertested as a LEAD).** The Ordinary proved transparency wins at Stage 5. Ours is more extreme: the whole label is four words you know. Contrarian positioning: "anti-ingredient-list." Hook shapes: "Cleanser, toner, serum, cream: 43 ingredients. This: 4." / "You can read our whole label out loud."
-4. **Whipped Absorption (untested as lead).** Kills the #1 category objection (grease/tallow = heavy). Whipping aerates the fat so it melts in within ~2 minutes, no film, no shine, works under makeup. Hook shapes: "Beef fat that absorbs faster than your lotion." / "2 minutes. No shine. Yes, it's tallow."
-5. **Tallow + Manuka Pairing (untested).** No major competitor leads with fat + antibacterial honey together (occlusion + humectant + antibacterial in one). Genuinely ownable combination claim. Hook shape: "The fat seals it. The honey feeds it."
+4. **~~Whipped Absorption~~ → Fast Absorption (RETIRED AS WRITTEN, 2026-07-28).** The reformulated product is denser and not whipped, so every "whipped" hook is dead. The underlying job — killing the grease/heaviness objection — is still the #1 category objection and still needs an answer, but it now has to be carried by application guidance rather than texture. See the **damp-skin application** finding in Part 6 (SA-A), which is a live candidate to replace this mechanism.
+   - **Balanced note on whipped, both directions.** New research (7/28) found 6 buyers treating whipped as the reason tallow was tolerable on the face. But the 7/06 validation report found the *opposite* objection already: *"whipping tallow is a cheap, amateur way of improving the texture... A 2 oz jar is gone in a couple weeks!"* Whipped is a purchase driver for one group and a value-skepticism trigger for another. **This materially softens the "we lost something by de-whipping" flag raised on 7/28** — we lost an advantage with one segment and shed a liability with another. Not a clean loss. Worth a real test rather than a reformulation panic.
+5. **Tallow + Raw Honey Pairing (untested; formerly "manuka").** No major competitor leads with fat + honey together (occlusion + humectant in one). Still an ownable combination claim, but **manuka's specific credibility is gone with the reformulation** — raw honey is a weaker proof asset than manuka was. Hook shape: "The fat seals it. The honey feeds it."
+7. **Oily-Skin Paradox: overproduction is a dehydration response (NEW, 2026-07-28, strongest New-Information candidate found since fat-vs-water).** Skin overproduces oil when it's dehydrated; give it the fat it's missing and it stops overcompensating. Sourced to a licensed esthetician in-thread, corroborated by 3 buyers describing tallow *reducing* their oiliness. This is counterintuitive, reframes why every mattifying product failed, and is a genuine Stage-3/4 New Information play. Hook shapes: "Oily skin is thirsty skin." / "The reason you're shiny by lunch isn't what you think."
+8. **Visible Sebum Release (SINGLE-SOURCE, unvalidated, highest-ceiling).** An esthetician describes oleic acid softening sebum deposits until they visibly lift out: *"I massage again and usually see the sebum deposits roll out of my skin... My skin looks like glass."* This is the only *demonstrable* mechanism in any research to date — it can be shown, not just claimed. If it replicates it is a video/demo concept, not a copy line. **Do not use until corroborated.**
 6. **(Weak inside the niche) Grass-fed sourcing.** Table stakes among tallow brands. Use as trust support, never as the mechanism.
 
 ---
@@ -109,7 +114,7 @@ Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENC
 - Desire: to stop looking exhausted when they don't feel exhausted; to look like themselves.
 - Experience: someone asked "are you sleeping okay?" / "you look tired" when they felt fine; avoiding their own reflection in video calls.
 - Emotion: quiet hurt + unfairness (sadness with a flash of anger: "I AM sleeping fine").
-- Status: **TESTED** (the Sylvia beat, the "tired" language is the single most validated phrase in the review research). Never yet the LEAD of an ad, always a middle beat.
+- Status: **TESTED as beat; LED for the first time in B30 (2026-07), result inconclusive.** B30's cells ran to weak CTR and zero purchases, but per `feedback-loops/batch-30/B30_Feedback_Loop_Cheap_CPM_Weak_CTR.md` the angle and the image concept were never isolated from each other, so **this does NOT constitute evidence against SA1 as a lead.** The prior "never yet the LEAD" note is now outdated and corrected here.
 
 **SA2: The Product Graveyard** ⭐ (strongest experience hook in the account's history; RE-VALIDATED 2026-07-06, ranked #2, dollar-figure language confirmed: "$860 in 6 months," "$165 + tax down the drain." Note: overlaps heavily with SA5 Label Reader in real speech, treat as sequential beats for one person, not two targets)
 - Desire: one thing that finally works; to stop the cycle of buying and being disappointed.
@@ -129,11 +134,14 @@ Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENC
 - Emotion: low-grade frustration, the maintenance-fatigue feeling (a mass technological problem: Maintenance).
 - Status: **TESTED AND CONVERTING** (B19C2 converted on this alone; the habit-cessation beat is its narrative twin).
 
-**SA5: The Label Reader** (VALIDATION NOTE 2026-07-06: moderate evidence, "ingredients nazi" / "can't pronounce" confirmed, but functions as one audience with SA2 in practice)
+**SA5: The Label Reader** (STRENGTHENED 2026-07-28 — the new buyer research independently produced a 6-source cluster identical to this avatar, raising it from "moderate evidence" to well-evidenced. The separately-extracted "Label Counter" from that research is **folded in here rather than added as a new sub-avatar**, because it is the same person, not a new one.)
 - Desire: to trust what goes on their skin; to feel relief, not suspicion, in their bathroom.
-- Experience: flipped a bottle over, couldn't pronounce ingredient three; googled an ingredient at 11pm; threw something out after a headline.
-- Emotion: distrust + decision-fatigue; relief is the purchase emotion.
+- Experience: flipped a bottle over, couldn't pronounce ingredient three; googled an ingredient at 11pm; threw something out after a headline. **Added 7/28:** has already dismantled a multi-step routine down to a 2-4 ingredient product, and now treats the ingredient *count* as the buying criterion rather than a nice-to-have.
+- Emotion: distrust + decision-fatigue; relief is the purchase emotion. **Added 7/28:** the register is sharper than "distrust" — it reaches disgust at the volume of product they were sold. *"the more you use and all the traditional products on the market make your skin sooo much worse."* Primary emotion underneath: **disgust**, not fear.
+- New verbatim (7/28): *"the ingredient list was like, maybe 4 or 5 things??"* / *"just tallow and jojoba oil, nothing else"* / *"2 ingredients"* / *"I completely simplified my skincare routine."*
+- **CONFIRMED TWICE: SA5 and SA2 are one audience, not two.** Flagged in the 7/06 validation report ("same people count dollars AND self-identify as ingredients nazis") and independently reproduced 7/28 (the same quotes carry both the product-count and the ingredient-count). **Operating rule: never build separate ads for SA2 and SA5. Treat "spent a fortune on products" and "can't read the label" as sequential beats in one ad for one person.** This has been noted twice without being acted on; it is now a rule.
 - Status: **SIGNALED, UNDERTESTED** (B20C3's engagement, Chemical Refugee review language "I cannot tell you the relief"). Never run as a native lead.
+- ⚠️ **BLOCKED until the additive question is decided.** This is the avatar most likely to read our label and find olive oil and essential oils, both named as clog culprits by 5 independent buyers (see Part 6b). Targeting label-readers with a label containing two blamed ingredients is an own goal. Do not lead with SA5 until there is a decided answer.
 
 **SA6: The Sun-Lived** (ACTIVATED 2026-07-07 after targeted primary research, see `avatars/SA6_SunLived_Primary_Research_2026-07-07.md`. CORRECTED emotional register: the originally specified "pride + resignation" fusion does NOT occur in real language, three separate populations exist instead (short pure-pride mid-lifestyle voices, pure-regret former-tanners adjacent to medical/melanoma language, and a silent functional-protection majority who don't narrate their own skin at all). Angle now leads with PRIDE ONLY, dropping resignation entirely, both because it's the real, abundant register and because it keeps this fully clear of the medical-adjacency risk the regret register carries)
 - Desire: comfort and softness for skin that's earned its stripes; not asking to look different, just to feel less dry/tight.
@@ -141,11 +149,71 @@ Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENC
 - Emotion: earned-it pride, badge-of-honor, dry self-deprecating humor, matches the account's established voice. NOT resignation, NOT regret, that's a different population's language and sits next to real compliance risk.
 - Status: **UNTESTED at purchase level**, language direction now research-validated (2026-07-07). Compliance watch: functional/experiential language only, no repair/reverse/fade claims, framing is "comfort for skin that's earned its stripes," never "fixing sun damage."
 
+> ⚠️ **STRUCTURAL AUDIT FINDING, 2026-07-28: SA6 is currently three different sub-avatars wearing one label.** Under the Origins rule "never combine more than one desire in a single avatar," what is filed as SA6's three *angles* in Part 7 are not angles into one desire — they are three separate avatars:
+> - **6a. The Badge-of-Honor (Angle A).** Desire: comfort for skin they're proud of. Buyer = the sun-lived person. ✅ This is the real SA6.
+> - **6b. The Leather-Handed Tribute (Angle B).** **This is a different buyer entirely** — an adult child or spouse purchasing *for* someone else. Different desire ("I want to show them I noticed"), different core desire (Relationships, not Comfort), different objections, different ad. Gift-buyer avatars cannot share a sub-avatar with self-buyers; the entire persuasion job is different. **Split out and re-file as its own avatar before it is written to.**
+> - **6c. The Bleacher Parent (Angle C).** Already flagged in-doc as "different sub-avatar than A/B" and then left inside SA6 anyway. Desire is self-neglect-shaped ("I want to finally do one thing for myself"), which is much closer to SA3 The Unnoticed than to badge-of-honor pride. **Split out.**
+>
+> Part 7's SA6 section is left intact below for its research citations, but treat the three angles there as three avatars. The 7/10 note that "angles are entry points into one shared desire" is the claim being corrected — a gift-buyer and a self-buyer do not share a desire.
+
 **SA7: The Rough-Handed** (gender-agnostic rebuild of "Working Hands Man")
 - Desire: hands that don't snag, crack, or bleed; comfort in function, not vanity.
 - Experience: trade/garden/kitchen/gym hands; cracked knuckles in winter; lotion washes off with the first handwash.
 - Emotion: annoyance, not shame. They want a tool, not a treat.
 - Status: **UNTESTED at purchase level** (B11 was written for the old BM, never got a clean run). Fat-doesn't-wash-off-like-water is the natural mechanism tie.
+
+---
+
+# PART 6b: SUB-AVATARS FROM BUYER RESEARCH (added 2026-07-28)
+
+Source: `avatars/Buyer_Research_Extraction_2026-07-28.md` (~35 verbatim quotes, buyer-side, across competing tallow brands). Only clusters with 4+ independent sources became sub-avatars. A fifth cluster (The Label Counter) was **folded into SA5 rather than added**, because it was the same person.
+
+### ⚠️ PRODUCT-TRUTH CONFLICT GOVERNING THIS SECTION
+
+**Five independent buyers who broke out on tallow blamed an ADDITIVE, not the tallow.** Named culprits by frequency: beeswax, **olive oil**, coconut oil, **essential oils**. Verbatim: *"Jojoba oil doesn't cause clogged pores which I think the olive oil in the product you were using may have been"* / *"beeswax causes clogged pores and breakouts... and also, essential oils."*
+
+**Our reformulated product contains olive oil and essential oils.** An informed buyer can raise this against our exact label and we have no prepared answer. This blocks SA5 and SA12 and constrains everything else. **Founder decision required.** Note this cuts both ways: it is also a ready-made angle *for* a reformulated version, if that route is ever taken.
+
+---
+
+**SA9: The Actives Casualty** ⭐ (NEW, strongest urgency in any research to date)
+- Desire: to stop peeling, stinging, and feeling raw — **without quitting the treatment that's working.**
+- Experience: on a prescription active or high-percentage acid. It is working on the original problem and has left their skin flaking and tight as the price. Has usually already failed with conventional barrier creams first.
+- Emotion: desperation. **Primary emotion underneath: fear** — specifically the fear that the choice is binary, clear skin *or* comfortable skin, with no third option.
+- Behavior (the strongest behavior found in any research for this account): **layers the balm over the active, at night, deliberately spaced in time.** Two buyers describe engineering this sequencing themselves, unprompted — *"I do not use tretinoin and tallow at the same time"* / *"I put on my retinol or lactic acid, let it dry down and then put the tallow and honey mixture over it."* Per Origins, behaviors are the strongest buy-in lever because they're ego-tied; this one is unusually specific and unusually well-evidenced.
+- Verbatim: *"completely erase the irritation overnight"* / *"Tightness, excessive flakiness, leather like feel... Nothing worked"* / *"Bit pricey but I was desperate"* / *"a form of slugging so to speak but without the gross petroleum product slime."*
+- Evidence: 6 independent sources.
+- Status: **UNTESTED. Recommended as the next lead test.**
+- 🚨 **Most claim-dangerous avatar in this document.** Comfort/feel language only. Never heal, repair, restore, barrier repair, treat, or any named condition. **Do not name the prescription products** — let the reader supply that from their own life. Their framing ("the thing I use at night") is both safer and more native than ours.
+
+**SA10: The Next-Morning Checker** ⭐ (NEW, most-repeated pattern in the research)
+- Desire: to know whether this works **by tomorrow**, not in three months.
+- Experience: has burned months, sometimes years, on products sold on a 6-12 week arc that then didn't work. *"the same routine for three years with diminishing returns."*
+- Emotion: relieved surprise. **Primary emotion underneath: surprise**, at the speed specifically. The all-caps and profanity in these quotes is the tell — this is the highest-energy language in the file.
+- Behavior: judges a product by what the mirror says the next morning. *(Partially inferred: the checking is described repeatedly, the habitual framing is inference.)*
+- Verbatim: *"HOLY EFFING SHIT I have woken up with the smoothest, least puffy skin in like forever"* / *"It's now day 3 and I havnt felt my skin like this in months... Like that."* / *"my skin looks & feels wonderful in the morning."*
+- Evidence: 8 independent sources — the single most-repeated pattern in the research.
+- Status: **UNTESTED.**
+- 🔑 **This is a structural finding, not just an avatar.** Every converter this account has written uses the Day 1 / 4 / 9 / 14 / 21 marker structure, asking the reader to imagine a three-week arc. This research says the category's emotional payload actually fires on **night one**. We may be burying our strongest claim behind a three-week wait. **Cheapest high-value test available: re-cut an existing converter so the payoff lands on the first morning.** That's a variant, not a batch.
+
+**SA11: The Shine Fighter** (NEW, fewer sources but highest New-Information value)
+- Desire: to stop being shiny.
+- Experience: has oily/shiny skin and has spent years *avoiding* oils and heavy creams on principle, assuming they'd make it worse.
+- Emotion: disbelief, with an anger component at having avoided the fix for years. **Primary emotion underneath: surprise.**
+- Behavior: buys "for oily skin," avoids anything oil-based on principle. *(Inferred from stated avoidance, not a described habit.)*
+- Verbatim: *"it actually stopped my oily skin. I've never had a moisturizer that did that before"* / *"lifelong oily skin... Shiny shows off wrinkles...banish the shine!"*
+- Mechanism (licensed esthetician, in-thread): *"Our skin over produces oil when our skin is dehydrated, which is why OP's oily skin no longer produced oil."*
+- Evidence: 4 sources for the outcome + 1 professional mechanism explanation.
+- Status: **UNTESTED.** Ranks above its source count because it is the only cluster carrying a genuine **New Information** payload — the required response at Stage 3-4.
+- ⚠️ The same esthetician warns dense products clog oily/acne-prone skin. **Keep this angle on SHINE. Never on acne.**
+
+**SA12: The Burned-By-The-Last-Jar** (NEW, objection-shaped)
+- Desire: the tallow, without whatever broke them out last time.
+- Experience: bought a tallow product, broke out, researched it, and concluded the tallow wasn't the culprit — an additive was.
+- Emotion: wary. **Primary emotion underneath: fear** of repeating a bad purchase.
+- Behavior: patch-tests before committing; cross-references ingredient lists against known clog culprits.
+- Evidence: 5 sources.
+- Status: **NOT RECOMMENDED AS A BATCH.** This is a **copy objection to handle inside other ads**, not an avatar to build around — and it is blocked by the additive conflict above for the same reason as SA5. Distinct from SA2 in one important way: SA12 is **Product Aware** (already knows tallow, comparing brands) where SA2 is Solution Aware. Different awareness level, different ad job — which is why it is logged separately rather than merged.
 
 ---
 
@@ -196,13 +264,18 @@ Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENC
 - Reason to buy: skin maintenance is a part-time job the product cancels.
 - Hook: "Reapplying isn't a routine. It's a symptom."
 
-## SA5: The Label Reader
+## SA5: The Label Reader (⚠️ BLOCKED pending the additive decision, see Part 6b)
 **Angle 1: A label you can read out loud (SIGNALED, UNDERTESTED)**
 - Reason to buy: 4 ingredients you already know; relief from suspicion is the actual product.
-- Hook: "Tallow. Honey. Olive oil. Calendula. That's the whole label."
+- ~~Hook: "Tallow. Honey. Olive oil. Calendula. That's the whole label."~~ **STALE — calendula is gone.** Corrected: "Tallow. Honey. Olive oil. That's most of the label."
 **Angle 2: 43 ingredients vs 4 (UNTESTED comparison)**
 - Reason to buy: her current routine is a chemistry set; this is food-grade simplicity.
 - Hook: "Her routine: 43 ingredients. This: 4."
+**Angle 3: The more you used, the worse it got (NEW 2026-07-28, verbatim-sourced)**
+- Reason to buy: adding products was making the skin worse, not better — the fix was subtraction, not another step.
+- Hook: "The more I used, the worse it got."
+- Hook: "Adding products was the problem."
+- Hook: "I fixed my skin by removing things."
 
 ## SA6: The Sun-Lived (UNTESTED at purchase, ACTIVATED for B26+ per 2026-07-07 primary research + 2026-07-09 round 2 + angle bank, pride-only register, no resignation)
 Full angle bank with research citations: `tallow-cream/avatars/SA6_Angle_Bank_2026-07-09.md`. Round 2 refined the picture: pride register real but skews male/seasonal-tan-line rather than decades of texture change; richest material found is actually third-person admiring description of someone else's weathered hands (gift angle); and a new, distinct sub-avatar surfaced, the Bleacher Parent, prioritized as the most underserved and the one worth a native long-form test first.
@@ -246,8 +319,61 @@ Full research: `avatars/GLP1_Skin_Deep_Research.md` + `avatars/Gap_Validation_Fi
 **Angle 1: Doesn't wash off with the first handwash**
 - Reason to buy: water-based lotion leaves with water; fat stays through washes.
 - Hook: "Survives the 40th handwash. Because it isn't water."
+- **Corroborated 2026-07-28** by an unprompted occupational quote: a fry cook whose hands *"get burned and dry out because I wash them so frequently"* found tallow through bird suet. Independent support for the wash-resistance angle from outside our own copy, which this avatar previously lacked.
 **Angle 2: A tool, not a treat**
 - Hook: "It's not skincare. It's maintenance."
+
+---
+
+## SA9: The Actives Casualty ⭐ NEW, RECOMMENDED NEXT TEST (all UNTESTED)
+**Angle 1: You don't have to choose between the treatment and comfortable skin** ⭐ strongest hook in this document
+- Reason to buy: the flaking and tightness comes from what the treatment strips out, not from your skin being broken — put the fat back on top afterward and you keep the results without the peeling.
+- Hook: "You don't have to stop using it. You have to put something back."
+- Hook: "The treatment works. The peeling is the part nobody fixed."
+- Hook: "Keep the routine. Lose the flaking."
+**Angle 2: It goes on after, not instead**
+- Reason to buy: this isn't a replacement for what's working — it's the layer that goes over the top once it dries down, so nothing about the existing routine changes.
+- Hook: "Goes on after. Not instead."
+- Hook: "Let it dry down. Then put this over it."
+- Hook: "One extra step. Nothing removed."
+**Angle 3: Slugging without the petroleum**
+- Reason to buy: they already know sealing skin overnight works — this does the same job with a fat instead of a petroleum product.
+- Hook: "Slugging, without the slime."
+- Hook: "Seal it overnight. Skip the Vaseline."
+- Hook: "Same idea as slugging. Four ingredients instead of petroleum."
+
+## SA10: The Next-Morning Checker ⭐ NEW (all UNTESTED)
+**Angle 1: You'll know in the morning**
+- Reason to buy: no need to commit to a 90-day trial to find out — the difference shows up the first time you wake up after using it.
+- Hook: "You'll know by morning."
+- Hook: "One night. Then decide."
+- Hook: "Most products need three months. This one needs one night."
+**Angle 2: Stop paying for the 12-week maybe**
+- Reason to buy: every product they've bought demanded months before admitting it wasn't working. This one answers immediately.
+- Hook: "Twelve weeks to find out it didn't work. Again."
+- Hook: "The last one took three months to fail."
+**Angle 3: The overnight difference is the whole point**
+- Reason to buy: it absorbs overnight and the change is visible on waking, which is when they look at their face anyway.
+- Hook: "Soaked in by morning."
+- Hook: "Put it on at night. Look in the mirror. That's the test."
+
+## SA11: The Shine Fighter (NEW, all UNTESTED — highest New-Information value)
+**Angle 1: Your skin is oily because it's dry** ⭐ the New Information play
+- Reason to buy: skin overproduces oil when dehydrated — give it the fat it's missing and it stops overcompensating.
+- Hook: "Oily skin is thirsty skin."
+- Hook: "The reason you're shiny by lunch isn't what you think."
+- Hook: "Your skin makes oil because you keep stripping it."
+**Angle 2: Stop stripping and it stops overproducing**
+- Reason to buy: every mattifying product strips the skin, which tells it to make more oil — breaking that loop is what actually stops the shine.
+- Hook: "Mattifying products are why you're still shiny."
+- Hook: "Strip it, and it makes more. Every time."
+**Angle 3: Shine is what shows the lines**
+- Reason to buy: it isn't only the shine — shine is what makes every line catch the light.
+- Hook: "Shine shows off wrinkles." *(verbatim-sourced)*
+- Hook: "It's not the lines. It's the light hitting them."
+
+## SA12: The Burned-By-The-Last-Jar (objection-handling only, not a batch — BLOCKED, see Part 6b)
+No angle bank written deliberately. When the additive question is decided, the answer becomes a **beat inside other ads**, not a lead.
 
 ---
 
@@ -257,4 +383,36 @@ Full research: `avatars/GLP1_Skin_Deep_Research.md` + `avatars/Gap_Validation_Fi
 2. **The Stage-5 filter is mandatory:** if the hook is a claim she's heard before, it doesn't ship without a mechanism/information/identity layer.
 3. **Angles get marked TESTED/CONVERTING/UNTESTED here as results land.** This document is live; update it with every batch's feedback loop.
 4. **Sub-avatars are desire+experience+emotion. If a proposed avatar is a demographic ("women 45-60"), it's not a sub-avatar, go one level deeper to the experience.**
+5. **One desire per sub-avatar (added 2026-07-28).** If two "angles" under one avatar serve different desires — or worse, different *buyers*, as SA6's gift angle did — they are separate avatars. Split them before writing.
+6. **Never build separate ads for SA2 and SA5 (added 2026-07-28).** Twice-confirmed as one audience. Sequential beats in one ad, not two targets.
+7. **Never assess market sophistication from post-purchase discussion (added 2026-07-28).** Sample at or before the decision point, or the read will be inflated.
+
+---
+
+# PART 9: AUDIT LOG
+
+## 2026-07-28 — Full audit against the `origins-avatars` skill
+
+Triggered by the first round of buyer research. The whole document was re-read against the Origins rules and the accumulated past research, not just appended to.
+
+**Added:**
+- SA9 The Actives Casualty, SA10 The Next-Morning Checker, SA11 The Shine Fighter, SA12 The Burned-By-The-Last-Jar (Part 6b), with full angle banks for SA9-SA11.
+- Two new mechanisms: the Oily-Skin Paradox (#7, strongest New Information candidate since fat-vs-water) and Visible Sebum Release (#8, single-source, unvalidated, highest ceiling).
+
+**Corrected:**
+- **Sophistication read.** An initial Stage 4 call on the 7/28 research was wrong — that sample was entirely post-purchase discussants. Stage 3-4 stands; the sampling rule is now written into Part 8.
+- **SA1's status.** "Never yet the LEAD" was outdated (B30 led with it). Also recorded that B30's weak result is *not* evidence against SA1, since angle and image concept were never isolated.
+- **SA6's structure.** It was carrying three sub-avatars under one label, including a **gift-buyer** (Angle B) filed alongside self-buyers. Split flagged; the 7/10 "angles are entry points into one shared desire" claim is corrected — a gift-buyer and a self-buyer do not share a desire.
+- **Stale product facts throughout.** Manuka → raw honey, calendula removed, 120g → 60g, "whipped" retired as a mechanism and as a hook word.
+
+**Merged rather than added (per the skill's rule against combinatorial avatars):**
+- The research produced a "Label Counter" cluster that is simply SA5 with better evidence. Folded into SA5, raising it from "moderate" to well-evidenced, rather than inflating the roster with a duplicate.
+
+**Self-corrected from prior research:**
+- The 7/28 flag that de-whipping cost us an advantage was **overstated**. The 7/06 validation report already contained the opposite objection — *"whipping tallow is a cheap, amateur way of improving the texture"* — so whipped is a driver for one segment and a value-skepticism trigger for another. Not a clean loss. Recorded in Part 5 #4.
+
+**Blocked pending founder decision:**
+- SA5 and SA12, both of which turn on ingredient scrutiny, while our label carries olive oil and essential oils — two of the three most-blamed clog culprits in the research.
+
+**Unresolved and worth stating plainly:** SA4 The Tight-by-Noon still has the weakest public verbatim evidence of any avatar in this document (flagged 7/06, unchanged since), and the 7/28 research added only 3 supporting sources. It keeps its place solely on the account's own conversion evidence. It is the avatar most in need of the problem-side research being collected next.
 5. **Hooks stay DIRECT** until we've earned the right to indirect (per the Angle Identifier: junior hooks communicate the angle immediately).
