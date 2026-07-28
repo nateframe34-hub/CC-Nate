@@ -1,3 +1,5 @@
+> ⚠️ **REVISE BEFORE LAUNCH, 2026-07-29.** This cell leads on the clock/time-cost framing. Problem-side research returned a **null result on clock-time language** — no customer anywhere says "by 2pm" or "by noon." The framing is ours, not theirs. It converted once (B19C2), so it isn't wrong, but SA4's validated lead is now **"Still tight. Even after moisturizer."** Rework the hook before launch, or launch knowingly as our-framing. See `avatars/Problem_Side_Research_Findings_2026-07-29.md`.
+
 # B29C3 - "Reapplying Isn't A Routine. It's A Second Job." (SA4 The Tight-by-Noon, Angle 3: Retire the Reapplying Job, Whiteboard-Native Hybrid Format)
 
 **Sub-Avatar:** SA4 The Tight-by-Noon

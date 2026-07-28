@@ -1,3 +1,5 @@
+> 🚨 **HOLD, 2026-07-29.** Problem-side research found **zero external evidence for the backup-carrying behavior** this entire cell is built on — not one person describing lotion kept in a purse, car, or desk, across two research rounds. Same status the clock-time language had before it was confirmed as our own invention. **Do not launch this cell** until a targeted search either validates the behavior or retires the angle. See `avatars/Problem_Side_Research_Findings_2026-07-29.md`.
+
 # B29C2 - "She Stopped Carrying Lotion In Three Places." (SA4 The Tight-by-Noon, Angle 2: Stop Carrying Backup, Whiteboard-Native Hybrid Format)
 
 **Sub-Avatar:** SA4 The Tight-by-Noon
