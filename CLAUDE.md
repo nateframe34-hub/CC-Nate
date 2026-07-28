@@ -68,6 +68,14 @@ Everything is USD. Ad account switched to USD billing March 2026 (charges USD to
 
 ---
 
+## ⚠️ Ads Manager Data Quirk — ATC is DOUBLE-COUNTED
+
+**Adds to cart in Meta Ads Manager display at 2x the real number.** A screenshot showing 2 ATC means 1 actual add-to-cart. Always halve the displayed ATC figure before logging it to `Ad_Performance_Tracker.csv`, before using it in any funnel analysis, and before drawing conclusions about ATC-to-checkout drop-off rates.
+
+This has caught us more than once — it makes the ATC→checkout stage look far leakier than it actually is. Only ATC is affected; impressions, clicks, landing page views, checkouts initiated, and purchases all read true.
+
+---
+
 ## Key Files
 
 ### Tallow (active)
