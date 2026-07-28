@@ -141,7 +141,7 @@ Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENC
 - New verbatim (7/28): *"the ingredient list was like, maybe 4 or 5 things??"* / *"just tallow and jojoba oil, nothing else"* / *"2 ingredients"* / *"I completely simplified my skincare routine."*
 - **CONFIRMED TWICE: SA5 and SA2 are one audience, not two.** Flagged in the 7/06 validation report ("same people count dollars AND self-identify as ingredients nazis") and independently reproduced 7/28 (the same quotes carry both the product-count and the ingredient-count). **Operating rule: never build separate ads for SA2 and SA5. Treat "spent a fortune on products" and "can't read the label" as sequential beats in one ad for one person.** This has been noted twice without being acted on; it is now a rule.
 - Status: **SIGNALED, UNDERTESTED** (B20C3's engagement, Chemical Refugee review language "I cannot tell you the relief"). Never run as a native lead.
-- ⚠️ **BLOCKED until the additive question is decided.** This is the avatar most likely to read our label and find olive oil and essential oils, both named as clog culprits by 5 independent buyers (see Part 6b). Targeting label-readers with a label containing two blamed ingredients is an own goal. Do not lead with SA5 until there is a decided answer.
+- ✅ **UNBLOCKED 2026-07-28.** The additive objection comes from tallow-niche veterans (multi-product and home-render), not from SA5. SA5 wants a label short enough to read; SA12 wants an ingredient audit. Different people, and only SA5 is ours. See Part 6b.
 
 **SA6: The Sun-Lived** (ACTIVATED 2026-07-07 after targeted primary research, see `avatars/SA6_SunLived_Primary_Research_2026-07-07.md`. CORRECTED emotional register: the originally specified "pride + resignation" fusion does NOT occur in real language, three separate populations exist instead (short pure-pride mid-lifestyle voices, pure-regret former-tanners adjacent to medical/melanoma language, and a silent functional-protection majority who don't narrate their own skin at all). Angle now leads with PRIDE ONLY, dropping resignation entirely, both because it's the real, abundant register and because it keeps this fully clear of the medical-adjacency risk the regret register carries)
 - Desire: comfort and softness for skin that's earned its stripes; not asking to look different, just to feel less dry/tight.
@@ -172,7 +172,16 @@ Source: `avatars/Buyer_Research_Extraction_2026-07-28.md` (~35 verbatim quotes, 
 
 **Five independent buyers who broke out on tallow blamed an ADDITIVE, not the tallow.** Named culprits by frequency: beeswax, **olive oil**, coconut oil, **essential oils**. Verbatim: *"Jojoba oil doesn't cause clogged pores which I think the olive oil in the product you were using may have been"* / *"beeswax causes clogged pores and breakouts... and also, essential oils."*
 
-**Our reformulated product contains olive oil and essential oils.** An informed buyer can raise this against our exact label and we have no prepared answer. This blocks SA5 and SA12 and constrains everything else. **Founder decision required.** Note this cuts both ways: it is also a ready-made angle *for* a reformulated version, if that route is ever taken.
+**Our reformulated product contains olive oil and essential oils.**
+
+> **DOWNGRADED 2026-07-28 (founder call, correct).** This was initially written as a blocker on SA5 and SA12. It isn't, because **the people making these claims are not our customer.** Three reasons, all of which hold:
+> 1. **They're mostly guessing, not reporting.** The additive attributions are lay theories about their own breakouts, not findings. Treating them as fact over-weights a handful of confident posters.
+> 2. **They're tallow-niche veterans.** Nearly all had already been through multiple tallow products or were rendering it at home. That is the far end of the sophistication curve, not the market we advertise into.
+> 3. **We structurally cannot serve them.** We can't compete with home-rendered on price, and at current MOQ/supply-chain we can't out-quality premium small-batch. Revisit when a private supplier at real MOQ changes that equation — not before.
+>
+> **What this actually resolves — a distinction worth keeping:** SA5 The Label Reader and SA12 are *different people*, and only one is ours. SA5 is a Stage-5 **moisturizer** buyer who wants a label short enough to read, and gets relief from that. SA12 is a Stage-4 **tallow** buyer auditing specific ingredients for comedogenicity. Our 4-ingredient story lands with the first and invites an argument with the second. **SA5 is UNBLOCKED. SA12 is deprioritized as a target** — not because the objection is wrong, but because winning it costs more than the customer is worth to us right now.
+>
+> Keep the finding on file: if a reformulation ever happens for other reasons, "no beeswax, no coconut oil" is ready-made ammunition.
 
 ---
 
@@ -213,7 +222,7 @@ Source: `avatars/Buyer_Research_Extraction_2026-07-28.md` (~35 verbatim quotes, 
 - Emotion: wary. **Primary emotion underneath: fear** of repeating a bad purchase.
 - Behavior: patch-tests before committing; cross-references ingredient lists against known clog culprits.
 - Evidence: 5 sources.
-- Status: **NOT RECOMMENDED AS A BATCH.** This is a **copy objection to handle inside other ads**, not an avatar to build around — and it is blocked by the additive conflict above for the same reason as SA5. Distinct from SA2 in one important way: SA12 is **Product Aware** (already knows tallow, comparing brands) where SA2 is Solution Aware. Different awareness level, different ad job — which is why it is logged separately rather than merged.
+- Status: **DEPRIORITIZED AS A TARGET (2026-07-28).** Not a batch, and not an objection worth pre-empting in copy either. This is a tallow-niche comparison shopper we structurally can't serve at current cost and MOQ (see Part 6b). Logged for completeness and for the day a private supplier changes the equation. Distinct from SA2 in one important way: SA12 is **Product Aware** (already knows tallow, comparing brands) where SA2 is Solution Aware. Different awareness level, different ad job — which is why it is logged separately rather than merged.
 
 ---
 
@@ -264,7 +273,7 @@ Source: `avatars/Buyer_Research_Extraction_2026-07-28.md` (~35 verbatim quotes, 
 - Reason to buy: skin maintenance is a part-time job the product cancels.
 - Hook: "Reapplying isn't a routine. It's a symptom."
 
-## SA5: The Label Reader (⚠️ BLOCKED pending the additive decision, see Part 6b)
+## SA5: The Label Reader (UNBLOCKED 2026-07-28, see Part 6b)
 **Angle 1: A label you can read out loud (SIGNALED, UNDERTESTED)**
 - Reason to buy: 4 ingredients you already know; relief from suspicion is the actual product.
 - ~~Hook: "Tallow. Honey. Olive oil. Calendula. That's the whole label."~~ **STALE — calendula is gone.** Corrected: "Tallow. Honey. Olive oil. That's most of the label."
@@ -372,8 +381,8 @@ Full research: `avatars/GLP1_Skin_Deep_Research.md` + `avatars/Gap_Validation_Fi
 - Hook: "Shine shows off wrinkles." *(verbatim-sourced)*
 - Hook: "It's not the lines. It's the light hitting them."
 
-## SA12: The Burned-By-The-Last-Jar (objection-handling only, not a batch — BLOCKED, see Part 6b)
-No angle bank written deliberately. When the additive question is decided, the answer becomes a **beat inside other ads**, not a lead.
+## SA12: The Burned-By-The-Last-Jar (DEPRIORITIZED — not our customer at current cost structure, see Part 6b)
+No angle bank written, deliberately. Revisit only if a private-supplier move makes the tallow-veteran segment servable.
 
 ---
 
