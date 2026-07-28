@@ -106,283 +106,504 @@ Ranked by strength. Each = "the reason why it works when everything else didn't,
 
 ---
 
-# PART 6: SUB-AVATARS, REBUILT (desire + experience + emotion; demographics deliberately omitted)
+# PART 6: SUB-AVATAR ROSTER
 
-Per the avatar module: sub-avatar = core desire narrowed by a specific EXPERIENCE and the EMOTION that experience produces. Not gendered, not age-boxed unless the experience itself implies it. Old demographic profiles are retired as ad-creation tools; their language research carries over.
+**Structure (2026-07-28 rebuild):** one avatar per block, each with its own desire, explanation, angles, hooks, and ad-format pairing. The old split between "Part 6 sub-avatars" and "Part 7 angles" is gone — it caused angles to drift from the avatars they belonged to, and it let three separate avatars hide inside SA6's angle list for three weeks.
 
-**SA1: The Tired-Looking** ⭐ (strongest, validated language + conversion evidence; RE-VALIDATED 2026-07-06 as the anchor avatar: "this is just my face" recurs verbatim across ~7 years of unrelated threads, see `avatars/SubAvatar_Validation_Report_2026-07-06.md`. Key added insight: the before-state person blames LIGHTING or their face itself, not their skin, so the ad's job includes the New Information reveal that it was skin all along)
-- Desire: to stop looking exhausted when they don't feel exhausted; to look like themselves.
-- Experience: someone asked "are you sleeping okay?" / "you look tired" when they felt fine; avoiding their own reflection in video calls.
-- Emotion: quiet hurt + unfairness (sadness with a flash of anger: "I AM sleeping fine").
-- Status: **TESTED as beat; LED for the first time in B30 (2026-07), result inconclusive.** B30's cells ran to weak CTR and zero purchases, but per `feedback-loops/batch-30/B30_Feedback_Loop_Cheap_CPM_Weak_CTR.md` the angle and the image concept were never isolated from each other, so **this does NOT constitute evidence against SA1 as a lead.** The prior "never yet the LEAD" note is now outdated and corrected here.
+**Rules enforced here:** desire first, one desire per avatar, demographics last and usually absent, sub-avatars named for a shared experience or behavior. If two "angles" serve different desires — or different *buyers* — they are separate avatars and get separate blocks.
 
-**SA2: The Product Graveyard** ⭐ (strongest experience hook in the account's history; RE-VALIDATED 2026-07-06, ranked #2, dollar-figure language confirmed: "$860 in 6 months," "$165 + tax down the drain." Note: overlaps heavily with SA5 Label Reader in real speech, treat as sequential beats for one person, not two targets)
-- Desire: one thing that finally works; to stop the cycle of buying and being disappointed.
-- Experience: counted 10-14 products on the counter/in the drawer; can name what each cost; tried "everything" including other naturals.
-- Emotion: defeat wearing a mask of skepticism ("nothing works on me, prove it").
-- Status: **TESTED AND CONVERTING** (the fourteen-things beat, the one-jar contrast, B9C3/B17C1's spine).
+**PRIORITY NOTE (per the Angle Identifier doc):** you do NOT have to test each angle separately. One concept can carry multiple angles; lead with the strongest hook and layer supporting angles in body copy.
 
-**SA3: The Unnoticed** ⭐ (the account's deepest close, proven)
-- Desire: for the person across the table to look up and SEE them again.
-- Experience: partner stopped commenting years ago; last unprompted compliment is a specific, remembered event.
-- Emotion: longing they don't say out loud; disbelief-then-warmth when it happens.
-- Status: **TESTED AND CONVERTING** (B5C1 lead, B9C3/B7C1 closes). Note: this is a CLOSE that converts, and per B22C3's failure, a poor single-frame hook.
-
-**SA4: The Tight-by-Noon** (the mechanism buyer; VALIDATION NOTE 2026-07-06: weakest PUBLIC verbatim evidence of the seven, no recurring clock-time idiom found on the open web. Still holds the account's own conversion evidence (B19C2), so it remains valid, but new hooks for it should come from our own converting copy or primary research, not invented "voice of customer" phrasing)
-- Desire: skin that just feels normal through a day; stop managing it.
-- Experience: reapplies at their desk/car/purse; foundation cracks by 2pm; skin audibly "pulls" by lunch.
-- Emotion: low-grade frustration, the maintenance-fatigue feeling (a mass technological problem: Maintenance).
-- Status: **TESTED AND CONVERTING** (B19C2 converted on this alone; the habit-cessation beat is its narrative twin).
-
-**SA5: The Label Reader** (STRENGTHENED 2026-07-28 — the new buyer research independently produced a 6-source cluster identical to this avatar, raising it from "moderate evidence" to well-evidenced. The separately-extracted "Label Counter" from that research is **folded in here rather than added as a new sub-avatar**, because it is the same person, not a new one.)
-- Desire: to trust what goes on their skin; to feel relief, not suspicion, in their bathroom.
-- Experience: flipped a bottle over, couldn't pronounce ingredient three; googled an ingredient at 11pm; threw something out after a headline. **Added 7/28:** has already dismantled a multi-step routine down to a 2-4 ingredient product, and now treats the ingredient *count* as the buying criterion rather than a nice-to-have.
-- Emotion: distrust + decision-fatigue; relief is the purchase emotion. **Added 7/28:** the register is sharper than "distrust" — it reaches disgust at the volume of product they were sold. *"the more you use and all the traditional products on the market make your skin sooo much worse."* Primary emotion underneath: **disgust**, not fear.
-- New verbatim (7/28): *"the ingredient list was like, maybe 4 or 5 things??"* / *"just tallow and jojoba oil, nothing else"* / *"2 ingredients"* / *"I completely simplified my skincare routine."*
-- **CONFIRMED TWICE: SA5 and SA2 are one audience, not two.** Flagged in the 7/06 validation report ("same people count dollars AND self-identify as ingredients nazis") and independently reproduced 7/28 (the same quotes carry both the product-count and the ingredient-count). **Operating rule: never build separate ads for SA2 and SA5. Treat "spent a fortune on products" and "can't read the label" as sequential beats in one ad for one person.** This has been noted twice without being acted on; it is now a rule.
-- Status: **SIGNALED, UNDERTESTED** (B20C3's engagement, Chemical Refugee review language "I cannot tell you the relief"). Never run as a native lead.
-- ✅ **UNBLOCKED 2026-07-28.** The additive objection comes from tallow-niche veterans (multi-product and home-render), not from SA5. SA5 wants a label short enough to read; SA12 wants an ingredient audit. Different people, and only SA5 is ours. See Part 6b.
-
-**SA6: The Sun-Lived** (ACTIVATED 2026-07-07 after targeted primary research, see `avatars/SA6_SunLived_Primary_Research_2026-07-07.md`. CORRECTED emotional register: the originally specified "pride + resignation" fusion does NOT occur in real language, three separate populations exist instead (short pure-pride mid-lifestyle voices, pure-regret former-tanners adjacent to medical/melanoma language, and a silent functional-protection majority who don't narrate their own skin at all). Angle now leads with PRIDE ONLY, dropping resignation entirely, both because it's the real, abundant register and because it keeps this fully clear of the medical-adjacency risk the regret register carries)
-- Desire: comfort and softness for skin that's earned its stripes; not asking to look different, just to feel less dry/tight.
-- Experience: years of sidelines/gardens/boats/job sites (including the involuntary version: bleachers at kids' sports every weekend for a decade). They know exactly why their skin looks this way, and they're not apologizing for it.
-- Emotion: earned-it pride, badge-of-honor, dry self-deprecating humor, matches the account's established voice. NOT resignation, NOT regret, that's a different population's language and sits next to real compliance risk.
-- Status: **UNTESTED at purchase level**, language direction now research-validated (2026-07-07). Compliance watch: functional/experiential language only, no repair/reverse/fade claims, framing is "comfort for skin that's earned its stripes," never "fixing sun damage."
-
-> ⚠️ **STRUCTURAL AUDIT FINDING, 2026-07-28: SA6 is currently three different sub-avatars wearing one label.** Under the Origins rule "never combine more than one desire in a single avatar," what is filed as SA6's three *angles* in Part 7 are not angles into one desire — they are three separate avatars:
-> - **6a. The Badge-of-Honor (Angle A).** Desire: comfort for skin they're proud of. Buyer = the sun-lived person. ✅ This is the real SA6.
-> - **6b. The Leather-Handed Tribute (Angle B).** **This is a different buyer entirely** — an adult child or spouse purchasing *for* someone else. Different desire ("I want to show them I noticed"), different core desire (Relationships, not Comfort), different objections, different ad. Gift-buyer avatars cannot share a sub-avatar with self-buyers; the entire persuasion job is different. **Split out and re-file as its own avatar before it is written to.**
-> - **6c. The Bleacher Parent (Angle C).** Already flagged in-doc as "different sub-avatar than A/B" and then left inside SA6 anyway. Desire is self-neglect-shaped ("I want to finally do one thing for myself"), which is much closer to SA3 The Unnoticed than to badge-of-honor pride. **Split out.**
->
-> Part 7's SA6 section is left intact below for its research citations, but treat the three angles there as three avatars. The 7/10 note that "angles are entry points into one shared desire" is the claim being corrected — a gift-buyer and a self-buyer do not share a desire.
-
-**SA7: The Rough-Handed** (gender-agnostic rebuild of "Working Hands Man")
-- Desire: hands that don't snag, crack, or bleed; comfort in function, not vanity.
-- Experience: trade/garden/kitchen/gym hands; cracked knuckles in winter; lotion washes off with the first handwash.
-- Emotion: annoyance, not shame. They want a tool, not a treat.
-- Status: **UNTESTED at purchase level** (B11 was written for the old BM, never got a clean run). Fat-doesn't-wash-off-like-water is the natural mechanism tie.
+**Format pairings** reference Part 7. `[PRELANDER]` marks a short-copy TOF concept that needs an advertorial or presell page between the ad and the PDP.
 
 ---
 
-# PART 6b: SUB-AVATARS FROM BUYER RESEARCH (added 2026-07-28)
+## SA1: The Tired-Looking ⭐ ANCHOR AVATAR
 
-Source: `avatars/Buyer_Research_Extraction_2026-07-28.md` (~35 verbatim quotes, buyer-side, across competing tallow brands). Only clusters with 4+ independent sources became sub-avatars. A fifth cluster (The Label Counter) was **folded into SA5 rather than added**, because it was the same person.
+**Desire:** to stop looking exhausted when they don't feel exhausted; to look like themselves.
 
-### ⚠️ PRODUCT-TRUTH CONFLICT GOVERNING THIS SECTION
+**Why this avatar exists:** the exact idiom *"this is just my face"* recurs verbatim across unrelated threads spanning ~7 years — as close to a fixed cultural phrase as research finds. The single most validated language in the account.
 
-**Five independent buyers who broke out on tallow blamed an ADDITIVE, not the tallow.** Named culprits by frequency: beeswax, **olive oil**, coconut oil, **essential oils**. Verbatim: *"Jojoba oil doesn't cause clogged pores which I think the olive oil in the product you were using may have been"* / *"beeswax causes clogged pores and breakouts... and also, essential oils."*
+- **Experience:** someone asked "are you sleeping okay?" or "you look tired" when they felt fine; avoids their own reflection on video calls.
+- **Emotion:** quiet hurt plus unfairness. *Primary emotion: sadness, with a flash of anger* ("I AM sleeping fine").
+- **Behavior:** blames the lighting. Angles away from cameras. *(Inference flagged: the lighting-blame is verbatim-sourced, the camera avoidance is ours.)*
+- **Demographic:** none needed.
+- **Critical structural note:** the before-state person blames **lighting or their own face**, not their skin. So the ad's job includes a New Information reveal — that it was skin all along. Without that beat, the avatar doesn't recognize the problem as solvable.
+- **Status:** TESTED as a beat (the Sylvia beat). **LED for the first time in B30 (2026-07), result inconclusive** — B30 ran to weak CTR and zero purchases, but angle and image concept were never isolated, so this is *not* evidence against SA1 as a lead. See `feedback-loops/batch-30/B30_Feedback_Loop_Cheap_CPM_Weak_CTR.md`.
 
-**Our reformulated product contains olive oil and essential oils.**
+**Angle 1: Stops your skin from looking tired** *(TESTED as beat, UNTESTED as lead)*
+Reason to buy: the tired look isn't sleep, it's surface dryness pulling light flat — give skin back its own kind of oil and the "tired" goes.
+- "Sleeping fine. Looked exhausted anyway. It was my skin."
+- "It's not 'just my face.' It was my skin." *(plays off the fixed phrase)*
+- "'You look tired.' No. It's my skin."
 
-> **DOWNGRADED 2026-07-28 (founder call, correct).** This was initially written as a blocker on SA5 and SA12. It isn't, because **the people making these claims are not our customer.** Three reasons, all of which hold:
-> 1. **They're mostly guessing, not reporting.** The additive attributions are lay theories about their own breakouts, not findings. Treating them as fact over-weights a handful of confident posters.
-> 2. **They're tallow-niche veterans.** Nearly all had already been through multiple tallow products or were rendering it at home. That is the far end of the sophistication curve, not the market we advertise into.
-> 3. **We structurally cannot serve them.** We can't compete with home-rendered on price, and at current MOQ/supply-chain we can't out-quality premium small-batch. Revisit when a private supplier at real MOQ changes that equation — not before.
->
-> **What this actually resolves — a distinction worth keeping:** SA5 The Label Reader and SA12 are *different people*, and only one is ours. SA5 is a Stage-5 **moisturizer** buyer who wants a label short enough to read, and gets relief from that. SA12 is a Stage-4 **tallow** buyer auditing specific ingredients for comedogenicity. Our 4-ingredient story lands with the first and invites an argument with the second. **SA5 is UNBLOCKED. SA12 is deprioritized as a target** — not because the objection is wrong, but because winning it costs more than the customer is worth to us right now.
->
-> Keep the finding on file: if a reformulation ever happens for other reasons, "no beeswax, no coconut oil" is ready-made ammunition.
+**Angle 2: Ends the "are you okay?" comments** *(UNTESTED)*
+Reason to buy: people read dry skin as tired, sick, or stressed — fix the skin and the comments stop on their own.
+- "Three people asked if I was tired this month. I was fine. My skin wasn't."
 
----
+**Angle 3: Look like yourself again, not younger** *(UNTESTED, compliance-safe)*
+Reason to buy: this isn't anti-aging, it's getting back the face you already recognize.
+- "Not younger. Just like myself again."
 
-**SA9: The Actives Casualty** ⭐ (NEW, strongest urgency in any research to date)
-- Desire: to stop peeling, stinging, and feeling raw — **without quitting the treatment that's working.**
-- Experience: on a prescription active or high-percentage acid. It is working on the original problem and has left their skin flaking and tight as the price. Has usually already failed with conventional barrier creams first.
-- Emotion: desperation. **Primary emotion underneath: fear** — specifically the fear that the choice is binary, clear skin *or* comfortable skin, with no third option.
-- Behavior (the strongest behavior found in any research for this account): **layers the balm over the active, at night, deliberately spaced in time.** Two buyers describe engineering this sequencing themselves, unprompted — *"I do not use tretinoin and tallow at the same time"* / *"I put on my retinol or lactic acid, let it dry down and then put the tallow and honey mixture over it."* Per Origins, behaviors are the strongest buy-in lever because they're ego-tied; this one is unusually specific and unusually well-evidenced.
-- Verbatim: *"completely erase the irritation overnight"* / *"Tightness, excessive flakiness, leather like feel... Nothing worked"* / *"Bit pricey but I was desperate"* / *"a form of slugging so to speak but without the gross petroleum product slime."*
-- Evidence: 6 independent sources.
-- Status: **UNTESTED. Recommended as the next lead test.**
-- 🚨 **Most claim-dangerous avatar in this document.** Comfort/feel language only. Never heal, repair, restore, barrier repair, treat, or any named condition. **Do not name the prescription products** — let the reader supply that from their own life. Their framing ("the thing I use at night") is both safer and more native than ours.
-
-**SA10: The Next-Morning Checker** ⭐ (NEW, most-repeated pattern in the research)
-- Desire: to know whether this works **by tomorrow**, not in three months.
-- Experience: has burned months, sometimes years, on products sold on a 6-12 week arc that then didn't work. *"the same routine for three years with diminishing returns."*
-- Emotion: relieved surprise. **Primary emotion underneath: surprise**, at the speed specifically. The all-caps and profanity in these quotes is the tell — this is the highest-energy language in the file.
-- Behavior: judges a product by what the mirror says the next morning. *(Partially inferred: the checking is described repeatedly, the habitual framing is inference.)*
-- Verbatim: *"HOLY EFFING SHIT I have woken up with the smoothest, least puffy skin in like forever"* / *"It's now day 3 and I havnt felt my skin like this in months... Like that."* / *"my skin looks & feels wonderful in the morning."*
-- Evidence: 8 independent sources — the single most-repeated pattern in the research.
-- Status: **UNTESTED.**
-- 🔑 **This is a structural finding, not just an avatar.** Every converter this account has written uses the Day 1 / 4 / 9 / 14 / 21 marker structure, asking the reader to imagine a three-week arc. This research says the category's emotional payload actually fires on **night one**. We may be burying our strongest claim behind a three-week wait. **Cheapest high-value test available: re-cut an existing converter so the payoff lands on the first morning.** That's a variant, not a batch.
-
-**SA11: The Shine Fighter** (NEW, fewer sources but highest New-Information value)
-- Desire: to stop being shiny.
-- Experience: has oily/shiny skin and has spent years *avoiding* oils and heavy creams on principle, assuming they'd make it worse.
-- Emotion: disbelief, with an anger component at having avoided the fix for years. **Primary emotion underneath: surprise.**
-- Behavior: buys "for oily skin," avoids anything oil-based on principle. *(Inferred from stated avoidance, not a described habit.)*
-- Verbatim: *"it actually stopped my oily skin. I've never had a moisturizer that did that before"* / *"lifelong oily skin... Shiny shows off wrinkles...banish the shine!"*
-- Mechanism (licensed esthetician, in-thread): *"Our skin over produces oil when our skin is dehydrated, which is why OP's oily skin no longer produced oil."*
-- Evidence: 4 sources for the outcome + 1 professional mechanism explanation.
-- Status: **UNTESTED.** Ranks above its source count because it is the only cluster carrying a genuine **New Information** payload — the required response at Stage 3-4.
-- ⚠️ The same esthetician warns dense products clog oily/acne-prone skin. **Keep this angle on SHINE. Never on acne.**
-
-**SA12: The Burned-By-The-Last-Jar** (NEW, objection-shaped)
-- Desire: the tallow, without whatever broke them out last time.
-- Experience: bought a tallow product, broke out, researched it, and concluded the tallow wasn't the culprit — an additive was.
-- Emotion: wary. **Primary emotion underneath: fear** of repeating a bad purchase.
-- Behavior: patch-tests before committing; cross-references ingredient lists against known clog culprits.
-- Evidence: 5 sources.
-- Status: **DEPRIORITIZED AS A TARGET (2026-07-28).** Not a batch, and not an objection worth pre-empting in copy either. This is a tallow-niche comparison shopper we structurally can't serve at current cost and MOQ (see Part 6b). Logged for completeness and for the day a private supplier changes the equation. Distinct from SA2 in one important way: SA12 is **Product Aware** (already knows tallow, comparing brands) where SA2 is Solution Aware. Different awareness level, different ad job — which is why it is logged separately rather than merged.
+**Formats — TOF:** Relatable Hook `[PRELANDER]` · Pubity Style `[PRELANDER]` · Native/Camouflage (no prelander, direct to PDP)
+**MOF:** Camouflage Ad #3 structure (dismissed-then-vindicated) · Whiteboard-native hybrid
+**BOF:** Witty Comparison · Classy Offer
 
 ---
 
-# PART 7: ANGLES PER SUB-AVATAR (Angle Identifier format)
+## SA2: The Product Graveyard ⭐ ACCOUNT'S BEST PERFORMER
 
-**PRIORITY NOTE (per the Angle Identifier doc):** You do NOT have to test each angle separately. One concept can test multiple angles; lead with the #1 hook from SA1/SA2 and layer supporting angles in body copy. Strongest first. Every angle below is an ACTIONABLE reason to buy, and every hook is DIRECT (communicates the angle immediately).
+**Desire:** one thing that finally works; to stop the cycle of buying and being disappointed.
 
-## SA1: The Tired-Looking ⭐ STRONGEST
-**Angle 1: Stops your skin from looking tired (TESTED as beat, UNTESTED as lead)**
-- Reason to buy: The tired look isn't sleep, it's surface dryness pulling light flat; give skin back its own kind of oil and the "tired" goes.
-- Hook: "Sleeping fine. Looked exhausted anyway. It was my skin."
-- Hook (verbatim-validated, added 2026-07-06): "It's not 'just my face.' It was my skin." (plays directly off the fixed cultural phrase "this is just my face")
-- Hook (verbatim-validated, added 2026-07-06): "'You look tired.' No. It's my skin."
-**Angle 2: Ends the 'are you okay?' comments (UNTESTED)**
-- Reason to buy: People read dry skin as tired/sick/stressed; fix the skin and the comments stop on their own.
-- Hook: "Three people asked if I was tired this month. I was fine. My skin wasn't."
-**Angle 3: Look like yourself again, not younger (UNTESTED, compliance-safe framing)**
-- Reason to buy: This isn't anti-aging, it's getting back the face you already recognize.
-- Hook: "Not younger. Just like myself again."
+**Why this avatar exists:** highest-converting experience hook in the account's history, and the dollar-figure language is unusually concrete — *"$860 in 6 months,"* *"$165 + tax down the drain."*
 
-## SA2: The Product Graveyard ⭐ SECOND
-**Angle 1: One jar replaces the shelf that failed (TESTED, CONVERTING, the account's best)**
-- Reason to buy: The 14 products failed for one shared reason (water-first); one fat-first jar fixes the actual problem.
-- Hook: "One jar. Fourteen down." (locked, proven)
-**Angle 2: Why everything you tried didn't work (TESTED via mechanism, New Information framing)**
-- Reason to buy: It was never your skin failing, every product had water as ingredient #1, and water leaves by noon.
-- Hook: "Flip your moisturizer over. First ingredient: water. There's the problem."
-**Angle 3: The last first-try (UNTESTED)**
-- Reason to buy: 60-day guarantee makes trying it the end of the buying-and-hoping cycle either way, she gets a result or her money back, the cycle closes.
-- Hook: "Either it works, or you get every dollar back and stop looking."
+- **Experience:** counted 10-14 products on the counter or in a drawer; can name what each cost; tried "everything," including other naturals.
+- **Emotion:** defeat wearing a mask of skepticism. *Primary emotion: sadness, defended by anger* ("nothing works on me, prove it").
+- **Behavior:** counts dollars and months out loud. Keeps the failed products rather than throwing them out.
+- **Demographic:** none needed.
+- **Status:** **TESTED AND CONVERTING** — the fourteen-things beat and the one-jar contrast are B9C3/B17C1's spine.
+- ⚠️ **Runs as one audience with SA5.** Never build separate ads. See SA5.
 
-## SA3: The Unnoticed ⭐ THIRD (close, not hook)
-**Angle 1: He notices again (TESTED, CONVERTING as close)**
-- Reason to buy: skin that holds light instead of sitting flat reads as "different/lighter" to the people who see you daily.
-- Hook (for long-form close, not thumbnail): "He stopped mid-sentence. 'You look different.'"
-**Angle 2: Noticed without announcing anything (UNTESTED)**
-- Reason to buy: nobody knows you changed anything, they just see it; quiet wins.
-- Hook: "Nobody knew I changed one thing. Everybody noticed."
+**Angle 1: One jar replaces the shelf that failed** *(TESTED, CONVERTING — the account's best)*
+Reason to buy: the 14 products failed for one shared reason (water-first); one fat-first jar fixes the actual problem.
+- "One jar. Fourteen down." *(locked, proven)*
+
+**Angle 2: Why everything you tried didn't work** *(TESTED via mechanism, New Information framing)*
+Reason to buy: it was never your skin failing — every product had water as ingredient #1, and water leaves by noon.
+- "Flip your moisturizer over. First ingredient: water. There's the problem."
+
+**Angle 3: The last first-try** *(UNTESTED)*
+Reason to buy: the 60-day guarantee closes the buying-and-hoping cycle either way — a result, or the money back.
+- "Either it works, or you get every dollar back and stop looking."
+
+**Formats — TOF:** Native/Camouflage (proven here, direct to PDP) · Specific Pain Point `[PRELANDER]` · Simplified Us vs Them `[PRELANDER]`
+**MOF:** Whiteboard-native hybrid · Indirect Us vs Them
+**BOF:** Get X For Free · Classy Offer
+
+---
+
+## SA3: The Unnoticed ⭐ THE ACCOUNT'S DEEPEST CLOSE
+
+**Desire:** for the person across the table to look up and see them again.
+
+**Why this avatar exists:** the rawest emotional language of any avatar — *"I'm either completely invisible to him or he genuinely can't come up with a different adjective."*
+
+- **Experience:** partner stopped commenting years ago; the last unprompted compliment is a specific, remembered event.
+- **Emotion:** longing they don't say out loud; disbelief-then-warmth when it finally happens. *Primary emotion: sadness.*
+- **Behavior:** notices and privately tallies the absence of compliments.
+- **Demographic:** none needed.
+- **Status:** **TESTED AND CONVERTING as a CLOSE** (B5C1 lead, B9C3/B7C1 closes). ⚠️ **Poor hook** — B22C3 proved it fails as a single-frame opener. It needs narrative runway. Use it to close, not to open.
+- **Corroborated 2026-07-28:** *"today another friend commented on how soft and clear my skin looked!! I can promise you that never in my life has anyone ever complimented my skin."*
+
+**Angle 1: He notices again** *(TESTED, CONVERTING as close)*
+Reason to buy: skin that holds light instead of sitting flat reads as "different" to the people who see you daily.
+- "He stopped mid-sentence. 'You look different.'" *(long-form close, never a thumbnail)*
+
+**Angle 2: Noticed without announcing anything** *(UNTESTED)*
+Reason to buy: nobody knows you changed anything — they just see it.
+- "Nobody knew I changed one thing. Everybody noticed."
+
+**Formats — TOF:** ❌ do not run TOF statics for this avatar, the hook doesn't survive a single frame
+**MOF:** Native/Camouflage long-form (its native home) · Camouflage Ad #6 (the second-time-easier structure)
+**BOF:** Witty Comparison · Classy Offer
+
+---
 
 ## SA4: The Tight-by-Noon
-**Angle 1: Still there at 2pm (TESTED, CONVERTING, B19C2)**
-- Reason to buy: fat doesn't evaporate; morning application lasts the whole day.
-- Hook: "Apply at 7am. Still working at 2pm."
-**Angle 2: Stop carrying backup (TESTED language, habit-cessation)**
-- Reason to buy: when skin stops going tight, the purse/car/desk lotion stash becomes pointless on its own.
-- Hook: "She stopped carrying lotion in three places. Didn't notice for weeks."
-**Angle 3: Retire the reapplying job (UNTESTED as lead)**
-- Reason to buy: skin maintenance is a part-time job the product cancels.
-- Hook: "Reapplying isn't a routine. It's a symptom."
 
-## SA5: The Label Reader (UNBLOCKED 2026-07-28, see Part 6b)
-**Angle 1: A label you can read out loud (SIGNALED, UNDERTESTED)**
-- Reason to buy: 4 ingredients you already know; relief from suspicion is the actual product.
-- ~~Hook: "Tallow. Honey. Olive oil. Calendula. That's the whole label."~~ **STALE — calendula is gone.** Corrected: "Tallow. Honey. Olive oil. That's most of the label."
-**Angle 2: 43 ingredients vs 4 (UNTESTED comparison)**
-- Reason to buy: her current routine is a chemistry set; this is food-grade simplicity.
-- Hook: "Her routine: 43 ingredients. This: 4."
-**Angle 3: The more you used, the worse it got (NEW 2026-07-28, verbatim-sourced)**
-- Reason to buy: adding products was making the skin worse, not better — the fix was subtraction, not another step.
-- Hook: "The more I used, the worse it got."
-- Hook: "Adding products was the problem."
-- Hook: "I fixed my skin by removing things."
+**Desire:** skin that just feels normal through a day; to stop managing it.
 
-## SA6: The Sun-Lived (UNTESTED at purchase, ACTIVATED for B26+ per 2026-07-07 primary research + 2026-07-09 round 2 + angle bank, pride-only register, no resignation)
-Full angle bank with research citations: `tallow-cream/avatars/SA6_Angle_Bank_2026-07-09.md`. Round 2 refined the picture: pride register real but skews male/seasonal-tan-line rather than decades of texture change; richest material found is actually third-person admiring description of someone else's weathered hands (gift angle); and a new, distinct sub-avatar surfaced, the Bleacher Parent, prioritized as the most underserved and the one worth a native long-form test first.
+**Why this avatar exists:** B19C2 converted on this alone at $11.35 CPA / 4.40x ROAS.
 
-**2026-07-09 decision: Angles A and B deprioritized, not killed.** Founder's read: blue-collar/trade populations (farmers, roofers, landscapers) mostly don't spend on skincare, especially for their hands, and the younger trades (roofing) skew low discretionary income anyway. Angle C (Bleacher Parent) is now the lead test, since sport parents already spend on their kids' gear/travel/fees and have household discretionary income. Deep primary research commissioned before writing ad copy: `tallow-cream/avatars/SA6_BleacherParent_Deep_Research_Prompt.md`.
+- **Experience:** reapplies at their desk, in the car, from their purse; foundation cracks by mid-afternoon; skin visibly pulls by lunch.
+- **Emotion:** low-grade frustration — maintenance fatigue. *Primary emotion: anger, low-intensity and chronic.* Maps to the Origins "Maintenance" mass technological problem.
+- **Behavior:** keeps backup product in multiple locations. Reapplies on a schedule they've never consciously set.
+- **Demographic:** none needed.
+- **Status:** **TESTED AND CONVERTING** (B19C2). The habit-cessation beat is its narrative twin.
+- 🚨 **WEAKEST PUBLIC EVIDENCE OF ANY AVATAR HERE, AND IT HASN'T MOVED.** Flagged 7/06, unchanged 7/28 (only 3 supporting sources added). No recurring clock-time idiom has ever been found in public language — **every SA4 hook we've written came from our own copy, which is a closed loop: we invented a phrase, it converted, and we've been citing ourselves ever since.** This is the #1 target of the 7/29 problem-side research. If no real time idiom exists, SA4's hooks must be rebuilt on the reapplying *behavior* instead of the clock.
 
-**Angle A: Badge of Honor (pride, direct, farmers/ranchers/golfers/sailors, still mid-lifestyle)**
-- Reason to buy: she/he earned that outdoor life and isn't asking to look different, just wants the skin comfortable again.
-- Hook: "Forty Summers Outside. Wears It Like A Badge."
-- Hook: "The Tan Is Free. Everything After That Costs Extra."
-- Hook: "Still Proud Of The Farmer's Tan. Skin's Asking For A Favor Back."
+**Angle 1: Still there at 2pm** *(TESTED, CONVERTING, B19C2)*
+Reason to buy: fat doesn't evaporate — a morning application lasts the whole day.
+- "Apply at 7am. Still working at 2pm."
 
-**Angle B: The Leather-Handed Tribute (third-person, gift-coded, buyer is the adult child/spouse not the sun-lived person)**
-- Reason to buy: you've noticed those hands your whole life and admired them, this is a small way to say so.
-- Hook: "His Hands Have Looked Like That My Whole Life. I Finally Got Him Something For Them."
-- Hook: "Hands Like Leather. Heart Like A House. He'd Never Buy This For Himself."
+**Angle 2: Stop carrying backup** *(TESTED language, habit-cessation)*
+Reason to buy: when skin stops going tight, the purse/car/desk stash becomes pointless on its own.
+- "She stopped carrying lotion in three places. Didn't notice for weeks."
 
-**Angle C: The Bleacher Parent (NEW, native long-form, problem-unaware, prioritized) - different sub-avatar than A/B**
-- Not lifestyle-identity outdoor. A parent (any gender, sharpest as travel/tournament-sport moms) sun-exposed for years as a side effect of showing up to a kid's outdoor sport, not a choice. Likely problem-unaware, needs a full 5-phase native/camouflage ad (Origins structure) to build the awareness arc, not a static image ad, there's no felt problem yet for an image to interrupt.
-- **Target is the parent, not the kid.** The kid's sport is the setting/cause, the parent's own skin is the subject and the parent is the buyer. Parents aren't buying skincare for their kids, so "her/his skin," never the kid's, stays the subject in every hook, headline, and image.
-- **Primary research done 2026-07-09, arc repositioned:** `SA6_BleacherParent_Primary_Research.md`. The "unaware, then one-day realization" story does not exist in real language, searched extensively, empty. What's real: a travel/tournament-parent identity culture that already jokes about the tan as a badge of honor (pride/humor, travel/competitive programs specifically, not rec-league), plus the broader "moms put themselves last" self-neglect genre (real but rarely sun-specific on its own). Revised arc: open in the pride/humor register she already lives in, pivot through the real self-neglect admission, land the product as the overdue thing she finally does for herself, unaware-of-a-solution not unaware-of-the-problem. Recommend testing with a small ad set before full B26 budget.
-- Reason to buy: not fixing sun damage, not a pride marker, the "mom puts herself last" register already proven to convert in Invisible Woman, applied to a population the account hasn't targeted before.
-- Draft native open: "I have sunscreen for four kids in my bag at all times. I have never once remembered to use it on myself."
-- **Caveat, not yet primary-research-validated:** written from the well-established adjacent "mom last" pattern, not verbatim sport-parent quotes. A fast round-3 search (r/Parenting, r/beyondthebump, travel-sports parent Facebook groups, r/xxfitness) is recommended before locking full ad copy.
+**Angle 3: Retire the reapplying job** *(UNTESTED as lead)*
+Reason to buy: skin maintenance is a part-time job the product cancels.
+- "Reapplying isn't a routine. It's a second job." *(B29C3's version — preferred over the older "It's a symptom," which drifts claim-adjacent)*
 
-**2026-07-10 decision: core desire repositioned to sun damage/sun spots, hydration mechanism, B26 locked as 3 native ads.** Founder's correction: real Tallow Cream customer reviews (not Reddit-sourced, founder has direct visibility on this) describe the product helping with sun-damaged skin via hydration. This changes the SA6 core desire from "pride only, no repair claims" to the honest version of the desire people actually have: "I want relief from what years of sun exposure did to my skin," answered through a real, defensible mechanism (fat-based hydration improves texture/dryness/how sun-worn skin feels and looks) rather than a pigment-correction claim (fading/removing spots, which tallow's formula doesn't target and remains off-limits). **Compliance line:** "improves how sun-worn skin feels/looks, hydration-based" = fine, backed by real reviews and real mechanism. "Fades/removes/reverses spots," "corrects discoloration" = still avoid, no active ingredients for pigment correction in the formula.
-**Angles are entry points into this one shared desire, not separate desires.** Same underlying "I want relief from sun-worn skin" desire, approached through 3 different populations' own language so each recognizes itself: Gardeners (hands-in-soil, tried-every-lotion frustration), Walkers (daily accumulation, unwanted tan/skin change from routine walks), Bleacher Parent (self-neglect while caring for kids at outdoor games). Full angle bank: `tallow-cream/avatars/SA6_Angle_Bank_2026-07-09.md`.
-**B26 = 3 native long-form ads, one per angle above**, all in the account's 5-phase Origins native/camouflage structure (not static Pubity-style images like B25). Copy in `tallow-cream/ads/batch-26/copy/`.
-
-## SA8: The Fast-Loser (GLP-1 skin) (RESEARCHED 2026-07-11, B27 CANDIDATE, deepest desire evidence in account history)
-Full research: `avatars/GLP1_Skin_Deep_Research.md` + `avatars/Gap_Validation_Findings_2026-07-11.md`.
-- Desire: skin that catches up with the weight loss; comfort/tending for drug-dried skin; to look as good as they feel at goal weight.
-- Experience: 15-100+ lbs lost on a GLP-1, 5-14 months in, worst near goal weight; "crepe-y" face/neck, "turkey neck" (the #1 zone), "sunburnt raisin" burning dryness; family/mirror moment ("you look gaunt/tired," "you have ozempic face"); tried water/collagen/HA/tret/CeraVe/gua sha, everything either surface-only or two-hour temporary; knows procedures are the only laxity fix and won't or can't pay the lifetime-maintenance price.
-- Emotion: trade-pride, NOT grief. "100% worth it, I'd do it again," wrinkles-as-privilege. Wants the trade honored and the cost tended, not corrected. Same emotional architecture as SA6 Sun-Lived, bigger and hotter population.
-- Who: midlife women 45-55 dominate (perimenopause double-hit named by posters themselves), on-drug population much larger/louder than graduates, present-tense urgency.
-- **CLAIM RULES (bright lines from research):** hydration/barrier/comfort ONLY, that lane is dermatologist-endorsed in-thread and never challenged. "Fixes/reverses Ozempic face" = executed as snake oil. "Firming/tightening" = closed at our price point. THE TARGETING ITSELF is a trigger: never package or label as "for GLP-1 skin," target with the story, not the label. Saying out loud "nothing in a jar tightens skin" is the trust move.
-- Competition: 1 direct (Sky&sol, running the exact "fixes Ozempic face" pitch the community executes). The unclaimed middle: trade-honoring tone + claim discipline.
-- Status: **UNTESTED at purchase, research-validated at language level, B27 candidate.** **2026-07-11 decision: Julie gets the GLP-1 arc herself** (Option A locked, strongest Mirror fit, founder: customers don't cross-reference ads against each other before buying). Canon-consistent framing: NOT a new discovery story, Julie already found tallow via Denise (established B26), this is an already-a-believer finding a second use for the same jar on her face/neck after starting a GLP-1. Full angle bank: `avatars/SA8_Angle_Bank_B27.md` (3 angles: Compliment That Stings / Sunburn That Won't Heal / Trade I'd Make Again, plus the locked claim script and body-part order).
-
-## SA7: The Rough-Handed (UNTESTED)
-**Angle 1: Doesn't wash off with the first handwash**
-- Reason to buy: water-based lotion leaves with water; fat stays through washes.
-- Hook: "Survives the 40th handwash. Because it isn't water."
-- **Corroborated 2026-07-28** by an unprompted occupational quote: a fry cook whose hands *"get burned and dry out because I wash them so frequently"* found tallow through bird suet. Independent support for the wash-resistance angle from outside our own copy, which this avatar previously lacked.
-**Angle 2: A tool, not a treat**
-- Hook: "It's not skincare. It's maintenance."
+**Formats — TOF:** Solution Exaggeration `[PRELANDER]` (the "14+ Hours. No Swelling" shape is a near-perfect structural match: bold number + eliminated problem) · Whiteboard mechanism diagram `[PRELANDER]`
+**MOF:** Whiteboard-native hybrid (B29's format, built specifically for this avatar) · Native/Camouflage
+**BOF:** Get X For Free · Classy Offer
 
 ---
 
-## SA9: The Actives Casualty ⭐ NEW, RECOMMENDED NEXT TEST (all UNTESTED)
-**Angle 1: You don't have to choose between the treatment and comfortable skin** ⭐ strongest hook in this document
-- Reason to buy: the flaking and tightness comes from what the treatment strips out, not from your skin being broken — put the fat back on top afterward and you keep the results without the peeling.
-- Hook: "You don't have to stop using it. You have to put something back."
-- Hook: "The treatment works. The peeling is the part nobody fixed."
-- Hook: "Keep the routine. Lose the flaking."
+## SA5: The Label Reader
+
+**Desire:** to trust what goes on their skin; to feel relief, not suspicion, in their own bathroom.
+
+**Why this avatar exists:** The Ordinary proved radical transparency wins at Stage 5. Ours is more extreme — the whole label is four words you already know.
+
+- **Experience:** flipped a bottle over and couldn't pronounce ingredient three; googled an ingredient at 11pm; threw something out after a headline. Has already dismantled a multi-step routine down to a short-label product.
+- **Emotion:** distrust and decision fatigue, sharpening into **disgust at the volume of product they were sold** — *"the more you use and all the traditional products on the market make your skin sooo much worse."* Relief is the purchase emotion. *Primary emotion: disgust.*
+- **Behavior:** counts ingredients as the buying criterion, not as a nice-to-have.
+- **Demographic:** none needed.
+- **Status:** SIGNALED, UNDERTESTED. Never run as a native lead. ✅ **UNBLOCKED 2026-07-28.**
+- ⚠️ **RUNS AS ONE AUDIENCE WITH SA2 — confirmed twice (7/06 and 7/28), now a standing rule.** The same people count dollars *and* count ingredients. Treat "spent a fortune on products" and "can't read the label" as sequential beats in one ad for one person. Never two ads.
+- **Not to be confused with SA12.** SA5 is a *moisturizer* buyer who wants a short label. SA12 is a *tallow* buyer auditing specific ingredients. Only SA5 is ours.
+
+**Angle 1: A label you can read out loud** *(SIGNALED, UNDERTESTED)*
+Reason to buy: four ingredients you already know; relief from suspicion is the actual product.
+- "Tallow. Honey. Olive oil. That's most of the label." *(corrected — the old calendula version is dead)*
+
+**Angle 2: 43 ingredients vs 4** *(UNTESTED)*
+Reason to buy: her current routine is a chemistry set; this is food-grade simplicity.
+- "Her routine: 43 ingredients. This: 4."
+
+**Angle 3: The more you used, the worse it got** *(NEW 7/28, verbatim-sourced)*
+Reason to buy: adding products was making it worse — the fix was subtraction, not another step.
+- "The more I used, the worse it got."
+- "I fixed my skin by removing things."
+
+**Formats — TOF:** Simplified Us vs Them `[PRELANDER]` (the "This is bread / This is breakfast" shape maps cleanly to 43-vs-4) · Specific Pain Point `[PRELANDER]`
+**MOF:** Native/Camouflage · Indirect Us vs Them
+**BOF:** Classy Offer · Get X For Free
+
+---
+
+## SA6: The Sun-Lived *(badge-of-honor only — see SA13/SA14 for what used to be filed here)*
+
+**Desire:** comfort and softness for skin that's earned its stripes. Not asking to look different — asking to feel less dry and tight.
+
+- **Experience:** years of sidelines, gardens, boats, job sites. They know exactly why their skin looks like this and they're not apologizing for it.
+- **Emotion:** earned-it pride, badge-of-honor, dry self-deprecating humor. **NOT resignation, NOT regret** — that's a different population whose language sits next to melanoma/medical discourse and real compliance risk.
+- **Behavior:** jokes about the tan line. Doesn't buy skincare for themselves.
+- **Demographic:** none needed. *(Note: the pride register does skew male and seasonal-tan-line rather than decades-of-texture-change.)*
+- **Status:** UNTESTED at purchase level. Language direction research-validated 2026-07-07.
+- **2026-07-10 desire correction:** real customer reviews describe the product helping sun-damaged skin *via hydration*. Desire repositioned from pure pride to "I want relief from what years of sun did to my skin," answered through a defensible hydration mechanism.
+- 🚨 **Compliance line:** "improves how sun-worn skin feels and looks, hydration-based" = fine. "Fades / removes / reverses spots," "corrects discoloration" = off-limits, no pigment-correcting actives in the formula.
+- **2026-07-09 decision:** blue-collar trade populations deprioritized — they largely don't spend on skincare, and younger trades skew low discretionary income.
+
+**Angle 1: Badge of honor** *(UNTESTED)*
+Reason to buy: they earned that outdoor life and aren't asking to look different, just to be comfortable again.
+- "Forty Summers Outside. Wears It Like A Badge."
+- "The Tan Is Free. Everything After That Costs Extra."
+
+**Angle 2: Relief without apology** *(UNTESTED)*
+Reason to buy: the skin can feel better without any of it being framed as damage to fix.
+- "Still Proud Of The Farmer's Tan. Skin's Asking For A Favor Back."
+
+**Formats — TOF:** Relatable Hook `[PRELANDER]` · Taboo/dry-humor static `[PRELANDER]`
+**MOF:** Native/Camouflage · Camouflage Ad #6
+**BOF:** Classy Offer
+
+---
+
+## SA7: The Rough-Handed
+
+**Desire:** hands that don't snag, crack, or bleed. Comfort in function, not vanity.
+
+- **Experience:** trade, garden, kitchen, or gym hands; cracked knuckles in winter; lotion washes off with the first handwash.
+- **Emotion:** annoyance, not shame. *Primary emotion: anger, mild.* They want a tool, not a treat.
+- **Behavior:** washes hands constantly by necessity. Won't buy anything that reads as cosmetic — *"doesn't smell all foo foo like you borrowed your wife's hand goo."*
+- **Demographic:** none needed, though occupation is often implied by the experience.
+- **Status:** UNTESTED at purchase level (B11 was written for the old BM and never got a clean run).
+- **Corroborated 2026-07-28** by an unprompted occupational quote: a fry cook whose hands *"get burned and dry out because I wash them so frequently."* First outside support this avatar has had — previously it rested on our own copy.
+
+**Angle 1: Doesn't wash off with the first handwash** *(UNTESTED)*
+Reason to buy: water-based lotion leaves with water; fat stays through washes.
+- "Survives the 40th handwash. Because it isn't water."
+
+**Angle 2: A tool, not a treat** *(UNTESTED)*
+Reason to buy: this is maintenance equipment, not self-care.
+- "It's not skincare. It's maintenance."
+
+**Formats — TOF:** Solution Exaggeration `[PRELANDER]` · Relatable Hook `[PRELANDER]` (the "12-Hour Shift Shoes" occupational-callout shape is the closest match in the whole swipe file)
+**MOF:** Camouflage Ad #6 (blue-collar first-person voice, amateur photo)
+**BOF:** Get X For Free
+
+---
+
+## SA8: The Fast-Loser (GLP-1 skin)
+
+**Desire:** skin that catches up with the weight loss; to look as good as they feel at goal weight.
+
+**Why this avatar exists:** deepest desire evidence in account history. Full research in `avatars/GLP1_Skin_Deep_Research.md` + `avatars/Gap_Validation_Findings_2026-07-11.md`.
+
+- **Experience:** 15-100+ lbs lost on a GLP-1, 5-14 months in, worst near goal weight. "Crepe-y" face and neck ("turkey neck" is the #1 zone), "sunburnt raisin" burning dryness. A family or mirror moment ("you look gaunt," "you have Ozempic face"). Tried water, collagen, HA, tret, CeraVe, gua sha — all surface-only or two-hour temporary. Knows procedures are the only real laxity fix and won't pay the lifetime maintenance price.
+- **Emotion:** **trade-pride, NOT grief.** "100% worth it, I'd do it again." Wrinkles as privilege. Wants the trade honored and the cost tended — not corrected. Same emotional architecture as SA6, bigger and hotter population.
+- **Behavior:** present-tense urgency; the on-drug population is much larger and louder than graduates.
+- **Demographic:** midlife skew is real and self-named (perimenopause double-hit), but **not load-bearing** — do not lead with it.
+- **Status:** UNTESTED at purchase, research-validated at language level. B27 candidate. Independently corroborated once in the 7/28 research (*"I am also on a weight loss medication and don't want the droopy skin look"*).
+- 🚨 **CLAIM RULES (bright lines):** hydration/barrier/comfort ONLY — that lane is dermatologist-endorsed in-thread and never challenged. "Fixes/reverses Ozempic face" gets executed as snake oil. "Firming/tightening" is closed at our price point. **THE TARGETING ITSELF is a trigger: never label the product as "for GLP-1 skin."** Target with the story, not the label. Saying out loud that nothing in a jar tightens skin is the trust move.
+- **Competition:** one direct (Sky&sol, running the exact "fixes Ozempic face" pitch the community mocks). The unclaimed middle is trade-honoring tone plus claim discipline.
+- Full angle bank: `avatars/SA8_Angle_Bank_B27.md` (Compliment That Stings / Sunburn That Won't Heal / Trade I'd Make Again).
+
+**Formats — TOF:** Stealing Credibility `[PRELANDER]` (the "Ozempic's New Bestie" ad is a direct structural precedent — but read the claim rules above first; borrow the *structure*, not that headline)
+**MOF:** Native/Camouflage long-form (Julie's own arc, per the 7/11 Option A decision)
+**BOF:** Classy Offer
+
+---
+
+## SA9: The Actives Casualty ⭐ RECOMMENDED NEXT LEAD TEST
+
+**Desire:** to stop peeling, stinging, and feeling raw — **without quitting the treatment that's working.**
+
+**Why this avatar exists:** highest urgency of anything in the research, and the strongest *behavior* evidence the account has ever had.
+
+- **Experience:** on a prescription active or high-percentage acid. It's working on the original problem and has left their skin flaking and tight as the price. Usually already failed with conventional barrier creams first.
+- **Emotion:** desperation. *Primary emotion: fear* — specifically that the choice is binary, clear skin OR comfortable skin, with no third option.
+- **Behavior:** **layers the balm over the active, at night, deliberately spaced in time.** Two buyers described engineering this sequencing themselves, unprompted: *"I do not use tretinoin and tallow at the same time"* / *"I put on my retinol or lactic acid, let it dry down and then put the tallow and honey mixture over it."* Per Origins, behaviors are the strongest buy-in lever because they're ego-tied — this one is unusually specific and unusually well-evidenced.
+- **Demographic:** none needed. Spans 19 to 55+ in the research.
+- **Verbatim:** *"completely erase the irritation overnight"* / *"Tightness, excessive flakiness, leather like feel... Nothing worked"* / *"Bit pricey but I was desperate"* / *"a form of slugging so to speak but without the gross petroleum product slime."*
+- **Evidence:** 6 independent sources.
+- **Status:** UNTESTED.
+- 🚨 **MOST CLAIM-DANGEROUS AVATAR IN THIS DOCUMENT.** Comfort/feel language only. Never heal, repair, restore, barrier repair, treat, or any named condition. **Do not name the prescription products** — let the reader supply that from their own life. Their framing ("the thing I use at night") is both safer and more native than ours.
+- ⚠️ **Known competitive reality:** the products recommended in these threads are CeraVe, Aquaphor, and Vaseline — a ~$15 set. Confirm this before committing budget; we'd be a $49.99 answer to a $15-shaped question.
+
+**Angle 1: You don't have to choose between the treatment and comfortable skin** ⭐ *strongest hook in this document*
+Reason to buy: the flaking comes from what the treatment strips out, not from your skin being broken — put the fat back on top afterward and you keep the results without the peeling.
+- "You don't have to stop using it. You have to put something back."
+- "The treatment works. The peeling is the part nobody fixed."
+- "Keep the routine. Lose the flaking."
+
 **Angle 2: It goes on after, not instead**
-- Reason to buy: this isn't a replacement for what's working — it's the layer that goes over the top once it dries down, so nothing about the existing routine changes.
-- Hook: "Goes on after. Not instead."
-- Hook: "Let it dry down. Then put this over it."
-- Hook: "One extra step. Nothing removed."
+Reason to buy: this isn't a replacement for what's working — it's the layer that goes over the top once it dries down. Nothing about the existing routine changes.
+- "Goes on after. Not instead."
+- "Let it dry down. Then put this over it."
+- "One extra step. Nothing removed."
+
 **Angle 3: Slugging without the petroleum**
-- Reason to buy: they already know sealing skin overnight works — this does the same job with a fat instead of a petroleum product.
-- Hook: "Slugging, without the slime."
-- Hook: "Seal it overnight. Skip the Vaseline."
-- Hook: "Same idea as slugging. Four ingredients instead of petroleum."
+Reason to buy: they already know sealing skin overnight works — this does the same job with a fat instead of a petroleum product.
+- "Slugging, without the slime."
+- "Seal it overnight. Skip the Vaseline."
 
-## SA10: The Next-Morning Checker ⭐ NEW (all UNTESTED)
+**Formats — TOF:** Stealing Credibility `[PRELANDER]` (borrow the active's credibility, exactly the "Ozempic's New Bestie" move) · Specific Pain Point `[PRELANDER]`
+**MOF:** Camouflage Ad #3 `[the dismissed-then-vindicated structure — near-perfect fit: "my derm said don't put anything on it"]` · Native/Camouflage long-form
+**BOF:** Get X For Free · Classy Offer
+
+---
+
+## SA10: The Next-Morning Checker
+
+**Desire:** to know whether this works **by tomorrow**, not in three months.
+
+**Why this avatar exists:** the single most-repeated pattern in the buyer research — 8 independent sources.
+
+- **Experience:** burned months, sometimes years, on products sold on a 6-12 week arc that then didn't work. *"the same routine for three years with diminishing returns."*
+- **Emotion:** relieved surprise. *Primary emotion: surprise*, at the speed specifically. The all-caps and profanity in these quotes is the tell — highest-energy language in the whole file.
+- **Behavior:** judges a product by what the mirror says the next morning. *(Partially inferred: the checking is described repeatedly, the habitual framing is ours.)*
+- **Demographic:** none needed.
+- **Verbatim:** *"HOLY EFFING SHIT I have woken up with the smoothest, least puffy skin in like forever"* / *"It's now day 3 and I havnt felt my skin like this in months. Like that."*
+- **Status:** UNTESTED.
+- 🔑 **This is a structural finding, not only an avatar.** Every converter this account has written uses the Day 1/4/9/14/21 marker structure, asking the reader to imagine a three-week arc. This research says the category's emotional payload fires on **night one**. We may be burying our strongest claim behind a three-week wait. **Cheapest high-value test available: re-cut an existing converter so the payoff lands on the first morning.** That's a variant, not a batch.
+
 **Angle 1: You'll know in the morning**
-- Reason to buy: no need to commit to a 90-day trial to find out — the difference shows up the first time you wake up after using it.
-- Hook: "You'll know by morning."
-- Hook: "One night. Then decide."
-- Hook: "Most products need three months. This one needs one night."
+Reason to buy: no 90-day trial needed — the difference shows up the first time you wake up after using it.
+- "You'll know by morning."
+- "One night. Then decide."
+- "Most products need three months. This one needs one night."
+
 **Angle 2: Stop paying for the 12-week maybe**
-- Reason to buy: every product they've bought demanded months before admitting it wasn't working. This one answers immediately.
-- Hook: "Twelve weeks to find out it didn't work. Again."
-- Hook: "The last one took three months to fail."
+Reason to buy: every product they've bought demanded months before admitting it wasn't working. This one answers immediately.
+- "Twelve weeks to find out it didn't work. Again."
+- "The last one took three months to fail."
+
 **Angle 3: The overnight difference is the whole point**
-- Reason to buy: it absorbs overnight and the change is visible on waking, which is when they look at their face anyway.
-- Hook: "Soaked in by morning."
-- Hook: "Put it on at night. Look in the mirror. That's the test."
+Reason to buy: it absorbs overnight and the change is visible on waking — which is when they look at their face anyway.
+- "Soaked in by morning."
+- "Put it on at night. Look in the mirror. That's the test."
 
-## SA11: The Shine Fighter (NEW, all UNTESTED — highest New-Information value)
-**Angle 1: Your skin is oily because it's dry** ⭐ the New Information play
-- Reason to buy: skin overproduces oil when dehydrated — give it the fat it's missing and it stops overcompensating.
-- Hook: "Oily skin is thirsty skin."
-- Hook: "The reason you're shiny by lunch isn't what you think."
-- Hook: "Your skin makes oil because you keep stripping it."
+**Formats — TOF:** Solution Exaggeration `[PRELANDER]` (bold-number shape carries "one night" perfectly) · Accidental Ideal Outcome `[PRELANDER]`
+**MOF:** Native/Camouflage re-cut to a night-one payoff · Whiteboard-native hybrid
+**BOF:** Classy Offer · Get X For Free
+
+---
+
+## SA11: The Shine Fighter
+
+**Desire:** to stop being shiny.
+
+**Why this avatar exists:** fewer sources than others, but it carries the **only genuine New Information payload** found since the fat-vs-water reveal — which is the required response at Stage 3-4.
+
+- **Experience:** oily or shiny skin, and years spent *avoiding* oils and heavy creams on principle, assuming they'd make it worse.
+- **Emotion:** disbelief, with an anger component at having avoided the fix for years. *Primary emotion: surprise.*
+- **Behavior:** buys "for oily skin"; avoids anything oil-based on principle; blots and powders. *(Inferred from stated avoidance.)*
+- **Demographic:** none needed.
+- **Verbatim:** *"it actually stopped my oily skin. I've never had a moisturizer that did that before"* / *"lifelong oily skin... Shiny shows off wrinkles...banish the shine!"*
+- **Mechanism (licensed esthetician, in-thread):** *"Our skin over produces oil when our skin is dehydrated, which is why OP's oily skin no longer produced oil."*
+- **Status:** UNTESTED.
+- ⚠️ **The same esthetician warns dense products clog oily and acne-prone skin. Keep this angle on SHINE. Never on acne.** That boundary is what makes this avatar safe to run at all.
+
+**Angle 1: Your skin is oily because it's dry** ⭐ *the New Information play*
+Reason to buy: skin overproduces oil when dehydrated — give it the fat it's missing and it stops overcompensating.
+- "Oily skin is thirsty skin."
+- "The reason you're shiny by lunch isn't what you think."
+- "Your skin makes oil because you keep stripping it."
+
 **Angle 2: Stop stripping and it stops overproducing**
-- Reason to buy: every mattifying product strips the skin, which tells it to make more oil — breaking that loop is what actually stops the shine.
-- Hook: "Mattifying products are why you're still shiny."
-- Hook: "Strip it, and it makes more. Every time."
-**Angle 3: Shine is what shows the lines**
-- Reason to buy: it isn't only the shine — shine is what makes every line catch the light.
-- Hook: "Shine shows off wrinkles." *(verbatim-sourced)*
-- Hook: "It's not the lines. It's the light hitting them."
+Reason to buy: every mattifying product strips the skin, which tells it to make more oil. Breaking that loop is what actually stops the shine.
+- "Mattifying products are why you're still shiny."
+- "Strip it, and it makes more. Every time."
 
-## SA12: The Burned-By-The-Last-Jar (DEPRIORITIZED — not our customer at current cost structure, see Part 6b)
-No angle bank written, deliberately. Revisit only if a private-supplier move makes the tallow-veteran segment servable.
+**Angle 3: Shine is what shows the lines**
+Reason to buy: it isn't only the shine — shine is what makes every line catch the light.
+- "Shine shows off wrinkles." *(verbatim-sourced)*
+- "It's not the lines. It's the light hitting them."
+
+**Formats — TOF:** Whiteboard mechanism diagram `[PRELANDER]` (the dehydration→overproduction loop is genuinely drawable, and drawable mechanisms are this account's cheapest CPM asset) · Simplified Us vs Them `[PRELANDER]`
+**MOF:** Whiteboard-native hybrid · Native/Camouflage
+**BOF:** Classy Offer
+
+---
+
+## SA12: The Burned-By-The-Last-Jar *(DEPRIORITIZED — not our customer)*
+
+**Desire:** the tallow, without whatever broke them out last time.
+
+- **Experience:** bought a tallow product, broke out, researched it, concluded an additive was the culprit rather than the tallow.
+- **Emotion:** wary. *Primary emotion: fear* of repeating a bad purchase.
+- **Behavior:** patch-tests before committing; cross-references ingredient lists against known clog culprits.
+- **Status:** **DEPRIORITIZED AS A TARGET (2026-07-28).** Not a batch, and not worth pre-empting in copy either. This is a tallow-niche comparison shopper we structurally can't serve — we can't beat home-rendered on price or premium small-batch on perceived quality at current MOQ. Revisit if a private supplier changes the math.
+- **Awareness distinction worth keeping:** SA12 is **Product Aware** (already knows tallow, comparing brands), where SA2 is Solution Aware. Different awareness level, different ad job — which is why it's logged rather than merged.
+- No angle bank written, deliberately.
+
+---
+
+## SA13: The Leather-Handed Tribute *(SPLIT OUT of SA6, 2026-07-28 — GIFT BUYER)*
+
+**Desire:** to show someone they've noticed and admired those hands for years.
+
+**Why this is its own avatar:** **the buyer is not the user.** This is an adult child or spouse purchasing *for* someone else. Different desire, different core desire (Relationships, not Comfort), different objections, entirely different ad. It sat inside SA6's angle list for three weeks, which meant a gift-buyer was being planned for with self-buyer copy.
+
+- **Experience:** has watched a parent's or partner's hands look like that their whole life. That person would never buy this for themselves.
+- **Emotion:** affection and a little guilt at never having said anything. *Primary emotion: sadness, warm rather than painful.*
+- **Behavior:** buys gifts for people who won't buy for themselves. Shops for occasions.
+- **Demographic:** none needed.
+- **Status:** UNTESTED. Research basis is the 7/09 round-2 finding that the richest sun-lived material is **third-person admiring description of someone else's weathered hands** — that finding was always about this buyer, not SA6's.
+- ⚠️ **Everything changes for a gift buyer:** the product has to look giftable, the guarantee reassures the *giver* not the user, and seasonality (holidays, Father's Day) matters in a way it never does for self-purchase. None of that is true for SA6.
+
+**Angle 1: The thing he'd never buy himself**
+Reason to buy: you've noticed those hands your whole life and admired them — this is a small way to say so.
+- "His Hands Have Looked Like That My Whole Life. I Finally Got Him Something For Them."
+- "Hands Like Leather. Heart Like A House. He'd Never Buy This For Himself."
+
+**Formats — TOF:** Indirect Avatar Ad `[PRELANDER]` (the "Teen Always Grumpy?" structure — speak to the buyer about someone else's problem — is the exact match for this avatar)
+**MOF:** Native/Camouflage told in the giver's voice
+**BOF:** Classy Offer · Get X For Free (gift framing makes the free lip mask read as a bonus gift, unusually strong here)
+
+---
+
+## SA14: The Bleacher Parent *(SPLIT OUT of SA6, 2026-07-28)*
+
+**Desire:** to finally do one thing for themselves.
+
+**Why this is its own avatar:** already flagged in-doc as "different sub-avatar than A/B" on 7/09 and then left inside SA6 anyway. The desire is self-neglect-shaped, which puts it **much closer to SA3 The Unnoticed than to SA6's badge-of-honor pride.**
+
+- **Experience:** years of sun exposure as a side effect of showing up to a kid's outdoor sport — not a lifestyle choice. Travel and tournament programs specifically, not rec league.
+- **Emotion:** the "moms put themselves last" register — real and well-established, and the same register that already converted for this account. *Primary emotion: sadness, quiet.*
+- **Behavior:** packs sunscreen for four kids and never uses it on herself.
+- **Demographic:** none needed. **Target the parent, never the kid** — the kid's sport is the setting, the parent's own skin is the subject, and parents don't buy skincare for their kids.
+- **Status:** UNTESTED. Primary research done 7/09 (`SA6_BleacherParent_Primary_Research.md`).
+- **Arc correction from that research:** the "unaware, then one-day realization" story **does not exist in real language** — searched extensively, empty. What's real is a travel-parent identity culture that jokes about the tan as a badge, plus the broader self-neglect genre. Revised arc: **open in the pride/humor register she already lives in, pivot through the real self-neglect admission, land the product as the overdue thing she finally does for herself.** Unaware-of-a-solution, not unaware-of-the-problem.
+- ⚠️ **Caveat:** the draft open below is written from the adjacent "mom last" pattern, not from verbatim sport-parent quotes. A round-3 search is recommended before locking copy.
+
+**Angle 1: The overdue thing she finally does for herself**
+Reason to buy: the "mom puts herself last" register already proven to convert, applied to a population the account has never targeted.
+- Draft native open: "I have sunscreen for four kids in my bag at all times. I have never once remembered to use it on myself."
+
+**Formats — TOF:** ❌ not a static avatar — there's no felt problem for a single frame to interrupt
+**MOF:** Native/Camouflage long-form, full 5-phase Origins structure (the only format that can build this awareness arc)
+**BOF:** Classy Offer
+
+---
+
+# PART 7: FORMAT LIBRARY (from the Origins swipe file)
+
+**Built 2026-07-28** by going through `origins-training/swipe-file/`. The `origins-*` folders are the higher-quality set and are tagged with awareness level and core desire; the numbered `media-*.jpg` files are unannotated and were not used.
+
+## How to read the funnel labels
+
+Meta's algorithm handles funnel-stage targeting itself now (no custom audiences — see the 7/28 strategy decisions). So **TOF/MOF/BOF here describe what the CREATIVE does, not who it's shown to.** Running a BOF-shaped creative in the same CBO is how you reach warm viewers; you don't build an audience for it.
+
+- **TOF** = earns a cold click. Curiosity, pattern-interrupt, problem call-out.
+- **MOF** = does the persuading. Mechanism, story, proof, objection handling.
+- **BOF** = closes someone already convinced. Offer, guarantee, risk reversal.
+
+## The prelander rule
+
+`[PRELANDER]` on a format means: **short-copy statics need an advertorial or presell page between the ad and the PDP.** The swipe file makes this explicit — the Relatable Hook and Indirect Avatar teardowns both list the advertorial URL as a numbered reason the ad works, and Avatar Call-Out lists "SOCIAL PROOF LP."
+
+The logic: a static earns a click on curiosity, but it can't carry enough persuasion to convert a cold visitor. Something has to do the teaching between the click and the cart. Long-form native primary text does that job *inside the ad*, which is why native goes direct to PDP and statics generally don't.
+
+⚠️ **Our own history complicates this.** We ran advertorials as B24/B25 and killed them 7/14 — out of 4 advertorials we got 1 click-through. So `[PRELANDER]` marks a *requirement of the format*, not a recommendation to go build one tomorrow. Two honest options: (a) fix the advertorial, or (b) stay on native long-form, which needs no prelander and is the only thing that has actually converted here. **Recommendation: (b) until there's a reason to revisit.** Presell references live in `swipe-file/Presell swipe/` (12 examples: article-style, fake-newsroom, quiz funnel, VSL, Taboola-style, research-site).
+
+---
+
+## TOF FORMATS
+
+| Format | Shape | Best for | Prelander |
+|---|---|---|---|
+| **Specific Pain Point** | Name a pain in the words people use to needle each other about it ("muffin top"), plus a hard price slash | SA2, SA5, SA9 | `[PRELANDER]` |
+| **Solution Exaggeration** | Bold number + eliminated problem ("14+ HOURS. NO SWELLING.") | **SA4** (best structural match in the file), SA7, SA10 | `[PRELANDER]` |
+| **Stealing Credibility** | Borrow a familiar, already-believed mechanism ("Ozempic's New Bestie") | **SA9** (borrow the active's credibility), SA8 | `[PRELANDER]` |
+| **Relatable Hook** | Occupational or situational call-out with a benefit stack ("12-Hour Shift Shoes") | SA7, SA1, SA6 | `[PRELANDER]` |
+| **Indirect Avatar** | Speak to the buyer about *someone else's* problem ("Teen Always Grumpy?") | **SA13** (the gift buyer — exact match) | `[PRELANDER]` |
+| **Simplified Us vs Them** | Two images, one line, no argument ("This is bread. This is breakfast.") | **SA5** (43-vs-4), SA2, SA11 | `[PRELANDER]` |
+| **This Is Not [The Product]** | Reframe the category by denying it ("This is a meal. Not a protein shake.") | SA5, SA2 | `[PRELANDER]` |
+| **Accidental Ideal Outcome** | "Accidentally" + a specific odd number ("I Accidentally Lost 12 Pounds At 52") | SA10, SA1 | `[PRELANDER]` |
+| **Pubity Style** | Feed-camouflaged layout, small inset photo top-right, curiosity headline | SA1, SA2 | `[PRELANDER]` |
+| **Avatar Call-Out** | Name the avatar outright + a real review that mentions them ("MOMS OF 15 YEAR OLDS") | ⚠️ use with care — demographic-shaped, our roster is deliberately not | `[PRELANDER]` |
+| **Whiteboard mechanism diagram** | Hand-drawn diagram making the mechanism visible | **SA4, SA11** (both have genuinely drawable mechanisms) | `[PRELANDER]` |
+| **Native / Camouflage long-form** | Story-shaped primary text, ordinary photo | SA1, SA2, SA6, SA9 | **✅ none — goes direct to PDP** |
+
+**On "This Is Not [The Product]":** the teardown carries a real warning — *"it has to make sense. Do not overstretch it. If the dots don't get connected, the ad will flop."* We have a natural version ("This isn't skincare. This is maintenance," already SA7's Angle 2) and an unnatural one. Don't force it.
+
+**On numbers:** the Accidental Ideal Outcome teardown names the "law of unique numbers" — 12 pounds, 52, 56.4% read as more believable than 10, 50, 60. Applies to every number we put in a hook. Our "35 hours a year" (B29C3) already does this correctly.
+
+---
+
+## MOF FORMATS
+
+| Format | Shape | Best for | Prelander |
+|---|---|---|---|
+| **Native / Camouflage long-form** | The account's proven converter. 5-phase Origins structure | SA1, SA2, SA3, SA6, SA8, SA9, SA14 | ✅ none |
+| **Camouflage Ad #3** — dismissed-then-vindicated | Opens on an authority who dismissed them, then the vindication. The swipe example: men get MRIs, women get "just stretch more" | **SA9** (near-perfect: *"my dermatologist was very clear: DO NOT PUT ANYTHING ON YOUR SKIN"*), SA1, SA3 | ✅ none |
+| **Camouflage Ad #6** — the second-time-easier comparison | First-person, two rounds of the same ordeal, amateur photo. Blue-collar register | SA7, SA6, SA3 | ✅ none |
+| **Whiteboard-native hybrid** | Hand-drawn diagram image + full native long-form copy. B29's format | **SA4** (built for it), SA11, SA2, SA10 | ✅ none |
+| **Indirect Us vs Them** | Comparison via an outside reference, witty rather than combative (Ryanair pizza/Pisa) | SA2, SA5 | `[PRELANDER]` |
+
+**Camouflage Ad #3 deserves a specific note for SA9.** The dismissed-by-an-authority structure is *already sitting in our buyer research* almost verbatim — the woman whose dermatologist told her not to put anything on her skin, who nearly threw the sample away, and then got her first-ever compliment on her skin. That is the swipe file's structure and our own research pointing at the same ad. It's the single strongest format-to-avatar match in this document.
+
+---
+
+## BOF FORMATS
+
+| Format | Shape | Best for | Prelander |
+|---|---|---|---|
+| **Get X For Free** | Lead with the free item, show it, make it feel generous while margin stays intact | **All avatars** — we have a real free gift (Overnight Lip Mask) and have never run an ad on it | ✅ none |
+| **The Free Ad** | Stack multiple free gifts, outcome-labelled callouts around the product | Any; strongest where the gift reads as a bonus (SA13) | ✅ none |
+| **Classy Offer** | Communicate the offer in an elevated, non-salesy way ("Just add both to cart. One's on us") | All — closest to our brand voice of any BOF format in the file | ✅ none |
+| **Witty Comparison** | Turn a known saying into the close ("You miss 100% of the shots you don't take") | SA1, SA3 | ✅ none |
+| **Taboo** | Lean on something mildly transgressive to carry a USP | ⚠️ high compliance risk in our category — logged, not recommended | — |
+
+**The BOF gap is the most actionable finding in this section.** We have a free gift, a 60-day guarantee, and free shipping, and **we have never run a single ad built on any of them.** Every ad this account has produced is TOF or MOF. "Get X For Free" and "Classy Offer" are the two cheapest untested formats available, they need no prelander, and they close people the existing ads have already warmed up — which is exactly the MOF/BOF gap identified on 7/28.
+
+---
+
+## Priority pairings (the shortlist)
+
+If only a few get built, build these:
+
+| # | Avatar | Format | Why |
+|---|---|---|---|
+| 1 | **SA9** | Camouflage Ad #3 (MOF, native, no prelander) | Highest-urgency avatar × the swipe structure our own research independently reproduced |
+| 2 | **Any** | Classy Offer or Get X For Free (BOF) | Zero BOF ads exist. Cheapest untested lever on the account |
+| 3 | **SA4** | Whiteboard-native hybrid (MOF) | B29 is already written for exactly this pairing |
+| 4 | **SA11** | Whiteboard mechanism diagram (TOF) → native body | Only real New Information payload we have, and it's drawable |
+| 5 | **SA13** | Indirect Avatar (TOF) | A whole buyer type we've never addressed, with an exact format match |
 
 ---
 
@@ -424,4 +645,22 @@ Triggered by the first round of buyer research. The whole document was re-read a
 - SA5 and SA12, both of which turn on ingredient scrutiny, while our label carries olive oil and essential oils — two of the three most-blamed clog culprits in the research.
 
 **Unresolved and worth stating plainly:** SA4 The Tight-by-Noon still has the weakest public verbatim evidence of any avatar in this document (flagged 7/06, unchanged since), and the 7/28 research added only 3 supporting sources. It keeps its place solely on the account's own conversion evidence. It is the avatar most in need of the problem-side research being collected next.
+
+## 2026-07-28 (later) — Document restructure + swipe-file format pairing
+
+**Restructured.** Parts 6, 6b, and 7 were three sections describing the same twelve avatars, with angles filed away from the avatars they belonged to. That separation is what let three distinct avatars hide inside SA6's angle list. Now: **one Part 6, one block per avatar, each carrying its own desire, explanation, angles, hooks, and format pairing.**
+
+**Combined avatars split into their own blocks:**
+- **SA13 The Leather-Handed Tribute** — split from SA6 Angle B. This is a **gift buyer**: the purchaser is not the user. Different desire (Relationships, not Comfort), different objections, different seasonality, and the guarantee reassures the giver rather than the user. It had been sitting in a self-buyer's angle list.
+- **SA14 The Bleacher Parent** — split from SA6 Angle C, which had been labelled "different sub-avatar than A/B" on 7/09 and left in place anyway. Its self-neglect desire puts it closer to SA3 than to SA6.
+- **SA6** now holds badge-of-honor only, which is what it always actually was.
+- **SA8** was defined inside Part 7 rather than the avatar section; moved into the roster.
+
+**Added Part 7: Format Library**, built from `origins-training/swipe-file/`. Every avatar now carries TOF/MOF/BOF format pairings, with `[PRELANDER]` marking short-copy statics that need an advertorial between ad and PDP. Funnel labels describe **what the creative does, not who it's shown to** — consistent with the 7/28 decision to let Meta handle funnel targeting rather than building custom audiences.
+
+**Two findings from the swipe pass worth acting on:**
+1. **We have never run a BOF ad.** Every ad this account has produced is TOF or MOF, despite having a free gift, a 60-day guarantee, and free shipping. "Get X For Free" and "Classy Offer" need no prelander and close people the existing ads already warmed up. Cheapest untested lever available.
+2. **SA9 × Camouflage Ad #3 is the strongest format-to-avatar match in the document.** The swipe file's dismissed-then-vindicated structure is independently reproduced almost verbatim in our own buyer research — the woman whose dermatologist told her not to put anything on her skin, who nearly threw the sample away, then received her first-ever compliment on her skin.
+
+**Honest caveat recorded in Part 7:** `[PRELANDER]` marks a requirement of the format, not a recommendation to build one. We ran advertorials as B24/B25 and killed them 7/14 (1 click-through across 4). Recommendation is to stay on native long-form, which needs no prelander and is the only format that has actually converted here.
 5. **Hooks stay DIRECT** until we've earned the right to indirect (per the Angle Identifier: junior hooks communicate the angle immediately).
