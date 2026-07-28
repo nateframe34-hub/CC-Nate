@@ -135,40 +135,19 @@ It's not "just my face." It was my skin.
 
 ## Image Prompt (Nano Banana Pro), IN DEPTH
 
-**Type:** Object-discovery via a paused FaceTime call screen, self-recognition door.
-**POV:** First-person, looking down at a phone screen.
-**Emotional target:** A private, unstaged moment of confused self-recognition, NOT a posed selfie, NOT a mirror shot (both explicitly ruled out per B28's comparative finding that generic "getting ready" imagery kills CTR).
-
-**Reference image = FACE ONLY, read this before generating, generation has drifted on this twice already:**
-- The reference photo of Sarah shows her face AND an outdoor background/setting.
-- ONLY use the reference for her FACIAL FEATURES. Nothing else about that photo should appear in the output: not the background, not the lighting, not the location, not her framing/pose.
-- Sarah's face appears in EXACTLY ONE place in this image: the small self-view thumbnail. Nowhere else.
-- The large main frame is a DIFFERENT PERSON, not Sarah, generated fresh, no reference used for her at all.
-- If the output shows Sarah's face in the large main frame, or shows the reference photo's outdoor setting anywhere in the image, that is wrong, regenerate.
+**Type:** OBJECT-DISCOVERY (revised 2026-07-29). A phone face-down beside one jar. No person in frame, no reference image needed.
+**POV:** First-person, looking down at a kitchen counter.
+**Why this changed:** the previous prompt rendered a FaceTime call UI with two faces, required a face-reference image, fought reference-bleed bugs across three rounds of fixes, and returned **0.82% CTR** — against B17C1's 5-11% on an object shot. The FaceTime concept stays in the COPY, where it works; the image's only job is to stop the scroll, and the only formula validated for that on this account is a single ambiguous object in an almost-empty quiet scene. Dropping the reference image also removes the bug class entirely.
 
 ```
-CHARACTER PLACEMENT (follow exactly):
-- LARGE MAIN FRAME (fills most of the phone screen): a DIFFERENT woman, NOT Sarah, no reference image used, generated fresh, mid-laugh, paused/frozen mid-call, soft-focus.
-- SMALL SELF-VIEW THUMBNAIL (top corner of the screen, per real FaceTime layout): Sarah's face, from the reference image, face/likeness ONLY. Do not use any other part of the reference image.
-- Sarah's face must NOT appear in the large main frame under any circumstance.
-- The reference photo's outdoor background/lighting must NOT appear anywhere in this image, in either frame.
-
-SCENE: An ultra-realistic iPhone-quality photograph taken from directly above, a woman's own point of view looking down at a smartphone she's holding at a slight angle in one hand, her thumb visible mid-scroll at the edge of the frame. The phone screen shows a paused FaceTime call per the character placement above. The setting beneath the phone is an INDOOR kitchen counter at dusk, granite or butcher-block texture faintly visible at the edges, a coffee mug and a folded dish towel softly out of focus in the corner of frame. Warm, slightly low late-afternoon light coming from one side of the indoor kitchen, not clinical, not a ring light, no studio quality. Her other hand rests near the phone, wearing a simple wedding band, no manicure, real hands. Real iPhone photo grain, very slight motion blur consistent with someone glancing down mid-scroll rather than posing for a photo about a photo. No text overlays beyond FaceTime's own real interface elements, no logos, no brand marks anywhere in frame, nothing posed. This should read as a private, incidental moment someone else might catch a glimpse of over her shoulder, not a photo taken to illustrate anything. 4:5 (1080 x 1350).
+Candid iPhone photograph looking down at a kitchen counter at night, shot slightly off-square with one hand. A phone lies face-down on the counter, screen hidden, as if just set down mid-thought. Eight inches away sits one small amber glass jar with a plain cream label, alone. The rest of the counter is nearly bare: a mug with an inch of cold tea left in it, a pair of reading glasses folded beside it, a dish towel bunched at the far edge. Overhead light off; the only light is a warm under-cabinet strip and whatever comes from the next room, so the scene is dim and pooled, with the jar and the phone catching most of what light there is. Real iPhone photo quality in low light, visible grain and slight softness, imperfect handheld framing. Domestic, lived-in, late. NOT styled, NOT a flat-lay, NOT a product shot. No person in frame, no hands, no faces, no screen content visible, no readable brand logos, no text overlays. Just a phone set face-down and one jar on a dark counter. 4:5 (1080 x 1350).
 ```
 
-**Alt/secondary prompt (for a second creative variant of the same cell, if the primary underperforms):**
+**Alt/secondary prompt:**
 
 ```
-CHARACTER PLACEMENT (follow exactly):
-- LARGE MAIN FRAME (fills most of the phone screen): a DIFFERENT woman, NOT Sarah, no reference image used, generated fresh, paused mid-call, blurred/softly-lit.
-- SMALL SELF-VIEW THUMBNAIL (top corner of the screen, per real FaceTime layout): Sarah's face, from the reference image, face/likeness ONLY. Do not use any other part of the reference image.
-- Sarah's face must NOT appear in the large main frame under any circumstance.
-- The reference photo's outdoor background/lighting must NOT appear anywhere in this image, in either frame.
-
-SCENE: An ultra-realistic iPhone-quality photograph, extreme close crop on a smartphone screen held in a car, dashboard and a sliver of a seatbelt strap visible at the very edge of frame, engine off, the kind of quick phone-check someone does before starting the drive home. This scene is INSIDE A PARKED CAR, late-day sunlight through a windshield, warm, directional, slightly overexposed at the top edge the way real phone cameras blow out highlights. Real grain, no HDR gloss, no color grading, the unremarkable quality of a photo nobody would ever think to take on purpose. No text beyond FaceTime's real UI, no logos. 4:5 (1080 x 1350).
+Candid iPhone photograph looking down at a small bathroom counter, shot from standing height. One amber glass jar with a plain label sits alone near the back edge. In front of it, a phone lies face-down. The rest of the counter is empty except for a faint ring-mark where a bottle used to sit and a folded hand towel at the far end. Cool overhead bathroom light, unflattering and ordinary. Real iPhone grain, crooked framing, the kind of photo taken to show someone something and never posted. No person, no hands, no faces, no legible text, no logos. 4:5 (1080 x 1350).
 ```
-
----
 
 ## Density Element Self-Audit
 

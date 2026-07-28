@@ -140,21 +140,19 @@ Three people asked if I was tired this month. I wasn't.
 
 ## Image Prompt (Nano Banana Pro), IN DEPTH
 
-**Type:** Candid social scene, external-comment door, object of tension is the SOCIAL MOMENT itself, not a physical object.
-**POV:** Third-person-adjacent, as if caught by someone standing nearby, not the narrator's own POV shot.
-**Emotional target:** A normal, everyday social scene that reads as slightly off on close inspection, requiring the viewer to locate the tension rather than have it handed to them.
+**Type:** OBJECT-DISCOVERY (revised 2026-07-29). Two coffee cups, one jar, a table just vacated. No person in frame.
+**POV:** First-person, looking down at a cafe or kitchen table.
+**Why this changed:** C2 was B30's best performer at **2.83% CTR** — the "locate the tension" puzzle was doing real work — but it still ran a face-bearing social scene, and every cell in this batch underperformed B17C1's object shot. This version keeps the puzzle (someone was just here, a conversation just ended) while converting to the one visual formula the account has validated. Lowest-confidence of the three revisions, since we're changing the batch's *best* image; if founder prefers, hold C2's original and let it serve as the in-batch control against two object shots.
 
 ```
-An ultra-realistic candid iPhone-quality photograph of a woman standing at a coffee shop counter, three-quarter angle from slightly behind and to the side, her face turned toward the barista handing her a cup, expression neutral and unremarkable, not visibly upset or tired-looking in an obvious dramatic way, the subtlety is the point. Morning light through a large front window, slightly overexposed highlights on the counter's stainless surface, realistic coffee-shop clutter softly out of focus in the background, a chalkboard menu, another customer's blurred shoulder at the edge of frame. She's wearing a simple jacket, hair pulled back functionally not styled, a tote bag strap visible on one shoulder. The barista's hand is visible mid-handoff of a paper cup, everyday and unposed, the kind of moment a phone camera would only catch by accident, slightly imperfect framing, not centered, real iPhone grain, no studio lighting, no color grading. No readable text on the cup or menu, no logos, no brand marks, no visible name tags. This should read as an entirely ordinary morning errand that the viewer has to look at for a second longer to understand why it was chosen for an ad at all. 4:5 (1080 x 1350).
+Candid iPhone photograph looking down at a small round cafe table, shot slightly off-square from a seated position. Two coffee cups: one empty with a dried ring in the bottom, one still half full and no longer steaming. A crumpled napkin. Between them, pushed slightly toward the empty chair's side of the table, one small amber glass jar with a plain cream label, clearly not a cafe object, clearly just handed across. The chair opposite is empty and pushed back at an angle, a coat no longer on it. Ordinary daylight from a window out of frame to the left, flat and unremarkable. Real iPhone photo quality, natural grain, imperfect framing, the kind of photo you take after someone leaves because you want to remember what they said. NOT styled, NOT a flat-lay, NOT a product shot, NOT a cafe-aesthetic composition. No person in frame, no hands, no faces, no readable brand logos, no text overlays. Just two cups, one of them finished, and a jar that someone left behind. 4:5 (1080 x 1350).
 ```
 
 **Alt/secondary prompt:**
 
 ```
-An ultra-realistic candid iPhone-quality photograph at an outdoor backyard cookout in early evening light, shot from a slight distance as if someone across the yard glanced over and happened to catch the moment, a woman mid-conversation near a grill, another person's shoulder and the edge of a beer bottle visible in the near foreground slightly out of focus. Warm, golden-hour side lighting, real grass and a folding table with a checked cloth softly blurred in the background, string lights not yet lit strung loosely overhead. Her expression is neutral, mid-sentence, unremarkable, nothing dramatic or posed. Real iPhone quality, natural imperfect framing, slight grain, the unstaged look of a photo taken absentmindedly at a family gathering rather than for any purpose. No readable text, no logos, no faces sharply forward-facing toward the camera, candid only. 4:5 (1080 x 1350).
+Candid iPhone photograph looking down at a kitchen table after someone has gone. Two mugs, one drained, one half full. One small amber glass jar with a plain label sitting closer to the empty seat than to the camera, as if slid across. A chair pushed back. Late-morning light, ordinary and flat. Real iPhone grain, crooked handheld framing, unposed. No person, no hands, no faces, no legible text, no logos. 4:5 (1080 x 1350).
 ```
-
----
 
 ## Density Element Self-Audit
 

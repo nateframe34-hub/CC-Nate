@@ -239,7 +239,7 @@ Reason to buy: fat doesn't evaporate — a morning application lasts the whole d
 **Angle 2: Stop carrying backup** *(⚠️ UNVALIDATED — see warning)*
 Reason to buy: when skin stops going tight, the purse/car/desk stash becomes pointless on its own.
 - "She stopped carrying lotion in three places. Didn't notice for weeks."
-- 🚨 **ZERO external evidence, twice now.** The 7/29 research found not one instance of anyone describing carrying lotion in a purse, car, or desk. This angle is written into B29C2 and remains entirely our own invention, exactly like the clock language was. **One more empty search and it should be retired, not rewritten.**
+- ⚠️ **No EXTERNAL evidence (twice), but load-bearing in the proven converter — do not retire.** The 7/29 research found not one instance of anyone describing carrying lotion in a purse, car, or desk. **However (correction, 2026-07-29):** this behavior is the habit-cessation beat of B17C1 itself — *"keeping them in three places. My purse. My car console. My bottom desk drawer at work... That was the thing I wanted back. Not the soft skin. The not-carrying."* An earlier note here recommended retiring the angle; that was wrong and is withdrawn. Correct status: **same as the clock language** — real and working in our copy, but ours rather than customer language. Keep using it; never cite it as voice-of-customer.
 
 **Angle 3: Retire the reapplying job** *(UNTESTED as lead)*
 Reason to buy: skin maintenance is a part-time job the product cancels.

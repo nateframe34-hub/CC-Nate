@@ -8,6 +8,14 @@
 
 ## ⚠️ MANDATORY READ FOR ANY TALLOW AD WORK
 
+### 🚨 TWO NON-NEGOTIABLE PROCESS RULES (added 2026-07-29)
+
+**RULE 1 — Use the `learnings-on-native-ads` skill when writing ANY native ad.** Not optional, not only when asked. Every native/camouflage/long-form primary-text ad gets written through that skill.
+
+**RULE 2 — READ THE REFERENCE MATERIAL FIRST. Before writing copy, before writing an image prompt.** If we are remaking, re-cutting, or drawing on a winning ad, open that ad and read it in full first. Do not work from a summary, a feedback loop, or memory of it.
+
+> Why this is a hard rule: on 2026-07-29, reading `B17C1_Control_B9C3_Verbatim.md` in full immediately surfaced three things that summaries had missed — (a) all three B30 image prompts had drifted off the object-discovery formula the winner uses, which is what produced a 0% CTR cell; (b) the "no stated age numbers" rule had been over-applied, since the winner states ages constantly; (c) a recommendation to retire the "stop carrying backup" angle was wrong, because that behavior is the habit-cessation beat of the winner itself. All three were invisible without reading the actual ad.
+
 Before writing, briefing, or reviewing ANY tallow cream ad, you MUST read BOTH:
 1. **`/home/user/CC-Nate/tallow-cream/Brand_Mastery.md`** : the master reference (added 2026-07-06). Sub-avatars (desire + experience + emotion, NOT demographics), angles with tested/untested status, market sophistication (Stage 5 market / Stage 3-4 niche), awareness levels, and the ranked unique mechanisms. Every new ad must state its sub-avatar, angle, awareness level, and sophistication response from this doc. It supersedes the old `avatars/` profiles for ad creation.
 2. **`/home/user/CC-Nate/tallow-cream/Tallow_Ad_Creative_Principles.md`** : the locked creative/compliance principles.

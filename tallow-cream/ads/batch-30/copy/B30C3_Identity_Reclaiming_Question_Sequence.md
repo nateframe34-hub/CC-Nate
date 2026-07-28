@@ -12,11 +12,13 @@
 
 ## Body Copy
 
-Not younger. Just like myself again.
+I was cleaning out a drawer last weekend and found my old work badge.
 
-I was cleaning out a drawer last weekend and found my old work badge, the photo from when I started the job nine years ago, and I held it up next to my reflection in the hallway mirror without meaning to make anything of it.
+The photo on it is from nine years ago, the week I started the job.
 
-I just stood there for a second too long.
+I held it up next to the hallway mirror without meaning to make anything of it, and then I just stood there for a second too long.
+
+I'm 51. The badge photo is me at 42.
 
 ========
 
@@ -116,21 +118,19 @@ Placed after the habit-cessation beat (the video-call-avoidance realization) and
 
 ## Image Prompt (Nano Banana Pro), IN DEPTH
 
-**Type:** Private comparison moment, identity-reclaiming door, an old photo/ID held against a current reflection.
-**POV:** Slightly over-the-shoulder or side angle, as if glimpsed rather than staged, not a direct mirror-selfie composition.
-**Emotional target:** Quiet, private, a beat of visual parsing required (what exactly is she comparing, why), avoiding both the generic mirror-selfie genre (B28C2's dead-CTR lesson) and an overly literal before/after graphic (which would read as generic ad content, not a candid moment).
+**Type:** OBJECT-DISCOVERY (revised 2026-07-29). The badge photo and the jar, lying on a dresser. No person in frame.
+**POV:** First-person, looking down at a surface.
+**Why this changed:** the previous prompt put a woman and a mirror reflection in frame and returned **0% CTR on 418 impressions.** Object-discovery — a single ambiguous object in an almost-empty quiet scene, no faces — is the only visual formula this account has ever validated for cheap CTR (B17C1, B9C3, B28C1). Modeled directly on B17C1's live prompt.
 
 ```
-An ultra-realistic iPhone-quality photograph taken from slightly behind and to the side of a woman standing in a hallway, holding a small worn photograph or laminated ID card up beside her own reflection in an unframed wall mirror, her hand and the card sharply enough in focus to read as a real object (a photo, not a phone screen) while her face and the mirror's reflection are softer, partially obscured by the angle so no single feature is emphasized. Late-afternoon light from a doorway to one side, warm and slightly dim, ordinary residential hallway details softly out of focus in the background, a coat hook, the edge of a picture frame, nothing styled or staged. Her posture is still, unposed, caught mid-comparison rather than performing for the camera. Real iPhone photo quality, natural grain, imperfect framing, the kind of photo that would only exist if someone happened to walk by and catch the moment rather than one taken on purpose. No readable text on the photo/ID, no logos, no brand marks, no sharp identifiable face in either the physical photo or the mirror reflection, the ambiguity is intentional. 4:5 (1080 x 1350).
+Candid iPhone photograph looking down at the top of a bedroom dresser, shot slightly off-square the way you'd hold a phone with one hand. On the wood surface: an old laminated work ID badge lying face-up, worn at the corners, its lanyard still attached and coiled loosely beside it. The photo on the badge is small and turned just far enough away from the light that the face on it is not legible, deliberately. Six inches away, near the back edge, one small amber glass jar with a plain cream label sits by itself. Between them, an open drawer's worth of ordinary turned-out contents pushed to one side: a tangle of old lanyards, two hair elastics, a dead pen, a folded receipt. Most of the dresser top is bare. Warm late-afternoon light coming in low from a window off to the right, long soft shadows, dust visible in the light. Real iPhone photo quality, natural grain, slightly crooked framing, the kind of picture someone takes to send to their sister with no caption. Domestic, lived-in, cluttered at the edges and empty in the middle. NOT styled, NOT a flat-lay, NOT a product shot, NOT a magazine composition. No person in frame, no hands, no face anywhere, no legible text on the badge, no readable brand logos on the jar, no text overlays. Just an old badge and one jar on a dresser. 4:5 (1080 x 1350).
 ```
 
 **Alt/secondary prompt:**
 
 ```
-An ultra-realistic iPhone-quality close photograph of a hand holding an old, slightly worn photograph or ID card at the edge of a bathroom counter, a blurred, out-of-focus reflection faintly visible in a mirror in the background, the physical photo itself the sharp focal point rather than any face. Soft morning light, real counter clutter softly blurred at the edges (a toothbrush cup, a folded towel), nothing staged or centered. Real iPhone grain, imperfect handheld framing, unposed, the visual quality of someone glancing at an old photo mid-morning-routine rather than composing a shot. No readable text, no logos, no sharply legible face anywhere in frame. 4:5 (1080 x 1350).
+Candid iPhone photograph looking down at a narrow hallway console table, shot from standing height. An old work ID badge lies face-up near the front edge, corners worn, the small photo on it angled away from the light so no face is legible. One amber glass jar with a plain label sits alone toward the back of the table. Nothing else on the surface except a set of keys and a ring-mark in the wood where something used to sit. Dim warm indoor light from a doorway to one side, ordinary residential hallway softly out of focus behind. Real iPhone grain, imperfect handheld framing, unposed. No person, no hands, no faces, no legible text, no logos. 4:5 (1080 x 1350).
 ```
-
----
 
 ## Density Element Self-Audit
 
@@ -159,7 +159,8 @@ An ultra-realistic iPhone-quality close photograph of a hand holding an old, sli
 - Zero cure/treat/heal language.
 - Mechanism stated as confident, brand-agnostic fact per the batch's claims philosophy, narrator-owned throughout, never a direct second-person diagnostic claim.
 - Question-sequence kept strictly tied to the narrator's own already-established specific experiences (the mirror, the reflection, the camera), never phrased as a diagnosis of the reader's body or appearance, avoiding the exact second-person-diagnostic risk this technique could otherwise create.
-- Zero stated age numbers, zero industry-blame language.
+- Industry-blame language: zero.
+- **Stated age numbers: NOW PRESENT, deliberately (revised 2026-07-29).** The prior version stripped them to satisfy a rule that has been over-applied. B17C1, the account's best converter, states ages freely ("I'm 54. Elaine is 56. Winnie is 76"). The real policy risk is calling out the READER's age ("Are you over 50?"), not a narrator describing herself inside a story. Character ages are a specificity device the winner leans on heavily and B30 had been denied.
 
 ## Word count
 
