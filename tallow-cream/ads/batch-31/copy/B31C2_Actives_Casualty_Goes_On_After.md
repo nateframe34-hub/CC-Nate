@@ -163,9 +163,9 @@ Goes on after. Not instead.
 ✅ **USE FOUNDER IMAGE 6** (cistern lid: tube, open white tub, yellow ointment tin clustered left; amber jar alone right with a clear gap). The gap IS the ad — "goes on after, not instead" made compositional. The three clustered products are exactly the three the copy names.
 **Alt:** Image 5 (same four objects, clean white vanity, warmer, no branded background — safer, weaker gap).
 
-⚠️ **Two pre-flight fixes on Image 6:**
-1. **A branded shampoo bottle is visible in the background.** Crop or blur it out.
-2. **The bathroom reads visibly grubby** (rust on the tub). Judgment call: my read is KEEP IT, because the account's converters win on being unmistakably real and over-clean imagery is what B30 got wrong. If the grime concerns you, run Image 5 instead.
+⚠️ **One pre-flight note on Image 6:** the bathroom reads visibly grubby (rust on the tub). Judgment call: my read is KEEP IT, because the account's converters win on being unmistakably real and over-clean imagery is what B30 got wrong. If the grime concerns you, run Image 5 instead.
+
+✅ **The branded shampoo bottle in the background STAYS.** Corrected 2026-07-29: branding tests neutral on CPM and makes the shot read as real rather than staged. An earlier note here said to crop it; that was wrong and is withdrawn.
 
 Generated prompt retained below for reference only.
 
@@ -182,9 +182,9 @@ Candid iPhone photograph, handheld, shot from standing height looking down and a
 
 ARRANGED IN A LOOSE ROW along the counter, left to right, spaced unevenly the way things end up rather than the way they'd be placed:
 
-1. A small clinical white pharmacy tube, cap off and lying separately beside it, squeezed and creased near the crimp. Its printed band is flat medical blue-grey, small, dense, and completely illegible, thrown just out of the focal plane.
+1. A small clinical white pharmacy tube, cap off and lying separately beside it, squeezed and creased near the crimp. Its printed band is flat medical blue-grey. Real pharmacy printing, legible or not depending on the focal plane: do not deliberately obscure it.
 
-2. A squat white plastic tub of cream with its lid resting upside down next to it, the surface of the cream inside visibly scooped and uneven. Unbranded, no readable text.
+2. A squat white plastic tub of cream with its lid resting upside down next to it, the surface of the cream inside visibly scooped and uneven. A real product with its real label and branding visible.
 
 3. A yellow-gold metal ointment tin, closed, with a thumbprint smudge visible on the lid.
 
@@ -196,7 +196,7 @@ LIGHT: harsh, flat, slightly green-tinged hotel bathroom vanity lighting from di
 
 CAMERA AND QUALITY: real iPhone photograph, taken quickly and one-handed. Visible grain. The row is not parallel to the frame edge. Slightly too much headroom at the top. Focus lands on the amber jar and the middle of the row, with the pharmacy tube at the near edge falling soft.
 
-HARD NEGATIVES: no person, no hands, no face, no reflection of anyone in the mirror. Zero readable text anywhere in frame, on any tube, tub, tin, jar, or key card. No brand marks or logos of any kind. No text overlays or graphics. Not a flat-lay, not shot from directly overhead, not symmetrical, not a product photograph, not styled. No plants, no marble, no towels folded decoratively, no candles.
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. HARD NEGATIVES: no person, no hands, no face, no reflection of anyone in the mirror. No text overlays or graphics. Not a flat-lay, not shot from directly overhead, not symmetrical, not a product photograph, not styled. No plants, no marble, no towels folded decoratively, no candles.
 
 FEEL: someone's actual four-step routine, photographed in a hotel bathroom at 7am because they wanted to show a friend what they'd been told.
 
@@ -208,7 +208,7 @@ FEEL: someone's actual four-step routine, photographed in a hotel bathroom at 7a
 ```
 Candid iPhone photograph looking down at the closed lid of a toilet cistern being used as a shelf in a small bathroom, shot handheld from standing height at a slight angle.
 
-Lined up along it, unevenly: a creased white clinical pharmacy tube with the cap off beside it, a white tub of cream with the lid upside down next to it, a yellow-gold ointment tin. Then a gap of empty surface. Then one small amber glass jar with a plain unlabeled cream band, lid on, sitting apart from the rest.
+Lined up along it, unevenly: a creased white clinical pharmacy tube with the cap off beside it, a white tub of cream with the lid upside down next to it, a yellow-gold ointment tin. Then a gap of empty surface. Then one small amber glass jar with a plain cream label band, lid on, sitting apart from the rest.
 
 Behind and out of focus: the edge of a bath, a bottle of shampoo on the bath's corner, a towel hanging crooked on a hook.
 
@@ -216,7 +216,7 @@ Light: a single warm overhead bulb, dim, throwing soft shadows. The amber jar re
 
 Real iPhone photo quality, visible grain, crooked framing, unstaged.
 
-Hard negatives: no person, no hands, no faces, no readable text, no logos, no overlays, not a flat-lay, not styled, not a product shot.
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. Hard negatives: no person, no hands, no faces, no overlays, not a flat-lay, not styled, not a product shot.
 
 4:5, 1080 x 1350.
 ```

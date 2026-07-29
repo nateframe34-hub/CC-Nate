@@ -200,7 +200,7 @@ COLOUR LOGIC, strictly: RED is the problem cycle. BLACK is structure and labels.
 
 LIGHT AND CAMERA: ordinary indoor fluorescent or overhead office lighting, slightly cool. A soft reflection band across the glossy surface in the upper third. Shot on a phone, straight-on but not perfectly square, with the frame of the whiteboard very slightly keystoned. Mild sensor grain. The photo should look like someone in the room took it because they wanted to remember the diagram.
 
-HARD NEGATIVES: no person, no hands, no arms, no face, no one standing at the board. No product, no jar, no packaging anywhere in the image. No brand marks or logos. No digital text overlays, no added captions, no graphic design elements, no drop shadows, no vector shapes. Not a clean infographic. Not an explainer-video still. Not flat design. Not a digital illustration of a whiteboard. It must be a photograph of a physical object. No emoji, no icons other than the tick.
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. HARD NEGATIVES: no person, no hands, no arms, no face, no one standing at the board. No product, no jar, no packaging anywhere in the image. No digital text overlays, no added captions, no graphic design elements, no drop shadows, no vector shapes. Not a clean infographic. Not an explainer-video still. Not flat design. Not a digital illustration of a whiteboard. It must be a photograph of a physical object. No emoji, no icons other than the tick.
 
 FEEL: someone explained something to you at work and it landed, and you took a photo of the board before anyone wiped it.
 
@@ -224,7 +224,7 @@ Warm domestic kitchen light from one side. Real phone photo quality, slight grai
 
 Colour logic strictly red = problem cycle, black = structure, green = the way out. No other colours.
 
-Hard negatives: no person, no hands, no face, no product or jar in frame, no logos, no digital overlays or captions, not a clean infographic, not flat design, not a digital illustration. Must read as a photograph of a real board.
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. Hard negatives: no person, no hands, no face, no product or jar in frame, no digital overlays or captions, not a clean infographic, not flat design, not a digital illustration. Must read as a photograph of a real board.
 
 4:5, 1080 x 1350.
 ```

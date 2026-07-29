@@ -49,11 +49,10 @@ Toilet cistern lid. Tube, open white tub, yellow ointment tin clustered to the l
 
 **Why this is the right one:** the gap *is* the ad. C2's whole argument is "goes on after, not instead" — the jar is separate from the routine but part of the same surface. That's what the composition shows. The three clustered products are exactly the three the copy names (tube, cream, ointment).
 
-**Two things to check before shipping:**
-1. ⚠️ **There is a branded shampoo bottle visible in the background.** It's soft and partially out of frame, but it's a real third-party brand mark. Crop it out or blur it further.
-2. ⚠️ **The bathroom reads visibly grubby** — rust marks on the tub, worn tiles. For native camouflage that's an asset; it's unmistakably a real bathroom. But we're selling a $49.99 product, and there's a version of this where the grime transfers to the product. **My read: keep it.** The account's converters win on being unmistakably real, and a too-clean bathroom is what B30's images got wrong. Flagging it because it's a legitimate judgment call, not because I think it's wrong.
+**One thing to check before shipping:**
+1. ⚠️ **The bathroom reads visibly grubby** — rust marks on the tub, worn tiles. For native camouflage that's an asset; it's unmistakably a real bathroom. But we're selling a $49.99 product, and there's a version of this where the grime transfers to the product. **My read: keep it.** The account's converters win on being unmistakably real, and a too-clean bathroom is what B30's images got wrong. Flagging it because it's a legitimate judgment call, not because I think it's wrong.
 
-**Alt — Image 5.** Same four objects on a clean white vanity, warmer and tidier, no branded background. Safer, but the gap is weaker and the composition is less argumentative. **This is the one to run if the grime concerns you.**
+**Alt — Image 5.** Same four objects on a clean white vanity, warmer and tidier. Safer, but the gap is weaker and the composition is less argumentative. **This is the one to run if the grime concerns you.**
 
 ### C3 → **Image 7** (primary)
 Wooden shelf. Pump bottle, two stacked white tubs, gold-lid glass jar, dropper oil bottle, yellow tin — then a clear gap — then the amber jar alone.
@@ -71,10 +70,9 @@ Reuse B17C1's live asset unchanged. C4 is a single-variable test on the timeline
 
 Run on every image before upload:
 
-- **View at actual feed size on a phone**, not desktop. The only hard requirement is that no product text is legible. Several tubes have visible printing that's fine at thumbnail and may not be at full size.
-- **Image 6:** remove the branded shampoo bottle.
-- **Image 8:** the yellow tin's label appears partially legible. Check it, and confirm it doesn't read as a non-skincare product on close inspection.
-- **No overlays, no text, no logos added.** These work because they look like photos somebody took, and any graphic treatment kills that instantly.
+- ✅ **Leave all real branding in.** Corrected 2026-07-29: branding on products in frame tests **neutral on CPM** and makes the shot read as real rather than staged. A blank or de-labelled bottle is a tell. Do not crop, blur, or angle away the shampoo bottle in Image 6, the tin labels, or any tube printing. This supersedes the earlier note here, which was wrong and contradicted a principle already established 2026-07-03.
+- **View at actual feed size on a phone**, not desktop. Not to check for legibility, but to confirm the composition still reads at thumbnail.
+- **No graphic overlays, no added text, no badges.** Real branding on real objects is good; *added* design furniture is a different thing and still kills the native read.
 
 ---
 

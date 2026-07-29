@@ -27,7 +27,8 @@ The entire CPM advantage comes from Meta's classifier (and the user's eye) readi
 **Rules:**
 - Real physical whiteboard, visible aluminum frame, glossy surface, overhead light reflection, faint old-marker ghosting. It must look photographed, not designed.
 - Hand-drawn marker imperfection. No clean vector lines, no brand fonts.
-- No logos, no brand color palette, no polished product hero shots. (A real product jar physically sitting on the desk is fine — see Principle 6 — because that reads as "the thing being explained," not "a product ad.")
+- No brand fonts, no brand color palette, no polished product hero shots **in the DIAGRAM itself**. The drawing must not look designed.
+- **Clarified 2026-07-29:** this rule governs the drawing, NOT the real objects in the photo. **Real products with real visible branding sitting in the scene are fine and preferred** — branding tests neutral on CPM and makes the shot read as real rather than staged. A real product jar physically on the desk is fine (see Principle 6) because it reads as "the thing being explained," not "a product ad." Do not de-label or crop out third-party branding.
 - No text-overlay ad conventions (no "SALE," no price slapped in a starburst).
 
 ---

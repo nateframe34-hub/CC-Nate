@@ -23,6 +23,7 @@ Before writing, briefing, or reviewing ANY tallow cream ad, you MUST read BOTH:
 These supersede general copywriting advice. Skipping them produces ads that don't convert and waste spend.
 
 Key principles (covered in detail in that file):
+0. **REAL BRANDING IN IMAGES STAYS. Never strip it.** Tested: branding on products in frame has **zero measurable impact on CPM**, and a visibly branded object reads as real where a blank/de-labelled bottle reads as staged. Never write "unbranded," "no logos," "no readable text," or "no brand marks" into an image prompt for real-world props, and never crop or blur third-party branding out of a supplied photo. (Separate matter: *added* graphic overlays, badges, and designed furniture are still out.)
 1. Targeting happens at the CREATIVE level post-Andromeda, not audience targeting
 2. The IMAGE is the scroll-stop — equal craft to the copy
 3. Sub-sub-avatars (specific shared experiences) beat broad avatars

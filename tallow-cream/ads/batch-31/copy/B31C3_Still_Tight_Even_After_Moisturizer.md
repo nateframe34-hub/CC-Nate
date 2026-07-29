@@ -187,7 +187,7 @@ Candid iPhone photograph, handheld, shot from standing height looking slightly d
 
 CROWDED ALONG THE LEFT AND CENTRE, jammed together with no space between them, at slightly different heights and angles, some with lids off:
 
-A tall white pump bottle. A squat white plastic tub with its lid resting beside it, cream visibly scooped out unevenly. A second, smaller tub. A heavy glass jar with a gold-toned lid, the most expensive-looking object in the row, sitting slightly forward as if used most recently. A slim dropper bottle of facial oil, half empty, oil visible through the glass. A yellow-gold metal ointment tin, lid on, thumbprint smudged. All of them unbranded. Every label surface is either angled away from the light, motion-softened, or out of the focal plane, so that NOT ONE WORD is legible anywhere in the row.
+A tall white pump bottle. A squat white plastic tub with its lid resting beside it, cream visibly scooped out unevenly. A second, smaller tub. A heavy glass jar with a gold-toned lid, the most expensive-looking object in the row, sitting slightly forward as if used most recently. A slim dropper bottle of facial oil, half empty, oil visible through the glass. A yellow-gold metal ointment tin, lid on, thumbprint smudged. All of them real products with their real labels and branding visible. Do NOT de-label, blur, or angle labels away: visible branding reads as real, and a blank bottle reads as staged.
 
 THEN, at the far right of the shelf, separated by a clear gap of four or five inches of empty shelf: one small amber glass jar with a plain cream-coloured label band, lid on. Alone. Warm brown glass. It is the only object in frame with empty space around it, and the only warm tone in a row of white and clinical.
 
@@ -199,7 +199,7 @@ LIGHT: single overhead bathroom fixture, cool, flat, faintly unflattering. Small
 
 CAMERA AND QUALITY: real iPhone photograph, taken quickly with one hand. Visible grain, particularly in the tile and shadow areas. Shelf line not level in frame. Slight barrel distortion at the edges. Focus falls on the middle of the crowded row and the amber jar, with the nearest bottle at the left edge going soft.
 
-HARD NEGATIVES: no person, no hands, no face, no reflection of anyone in the mirror. Zero readable text anywhere in the image, on any product. No brand marks or logos. No text overlays, captions, arrows, circles, or graphics of any kind. Not a flat-lay. Not shot from overhead. Not symmetrical. Not a product photograph. Not styled. No plants, no marble, no candles, no eucalyptus, no wooden trays.
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. HARD NEGATIVES: no person, no hands, no face, no reflection of anyone in the mirror. No text overlays, captions, arrows, circles, or graphics of any kind. Not a flat-lay. Not shot from overhead. Not symmetrical. Not a product photograph. Not styled. No plants, no marble, no candles, no eucalyptus, no wooden trays.
 
 FEEL: a real shelf belonging to someone who has bought six things and is standing there looking at the seventh.
 
@@ -211,7 +211,7 @@ FEEL: a real shelf belonging to someone who has bought six things and is standin
 ```
 Candid iPhone photograph looking down into an open cardboard box sitting on a bathroom floor beside the base of a vanity unit, shot handheld from standing height.
 
-Inside the box, tipped over against each other at careless angles: a tall white pump bottle, two white plastic tubs, a heavy glass jar with a gold-toned lid, a half-empty dropper bottle of oil, a yellow metal ointment tin. All unbranded, all with labels angled away or out of focus so nothing is legible. They look discarded rather than stored.
+Inside the box, tipped over against each other at careless angles: a tall white pump bottle, two white plastic tubs, a heavy glass jar with a gold-toned lid, a half-empty dropper bottle of oil, a yellow metal ointment tin. All real products with their real labels and branding visible. They look discarded rather than stored.
 
 On the vanity above and behind, partly in frame at the top edge and in soft focus: one small amber glass jar sitting alone on the counter.
 
@@ -219,7 +219,7 @@ Light: dim, low, a single overhead bathroom bulb, the inside of the box in shado
 
 Real iPhone quality, heavy grain in the shadows, crooked handheld framing, slightly motion-soft.
 
-Hard negatives: no person, no hands, no faces, no readable text, no logos, no overlays, not styled, not a product shot.
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. Hard negatives: no person, no hands, no faces, no overlays, not styled, not a product shot.
 
 4:5, 1080 x 1350.
 ```

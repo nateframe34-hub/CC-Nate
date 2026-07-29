@@ -172,9 +172,9 @@ Candid iPhone photograph, shot handheld and slightly off-square, looking at a na
 
 ON THE SHELF, and almost nothing else on it:
 
-1. A small clinical pharmacy tube standing upright on its cap. Plain matte white plastic with a narrow printed band around it in flat medical blue. The printing is small, dense, and deliberately NOT legible, out of the focal plane just enough that no word can be read. It is unmistakably a prescription object by its shape and its clinical plainness. Slightly creased and rolled up from the bottom, clearly about two-thirds used.
+1. A small clinical pharmacy tube standing upright on its cap. Plain matte white plastic with a narrow printed band around it in flat medical blue. Real pharmacy printing, small and dense. Do not deliberately obscure or blur it: a genuinely branded clinical tube reads as real. It is unmistakably a prescription object by its shape and its clinical plainness. Slightly creased and rolled up from the bottom, clearly about two-thirds used.
 
-2. Six or seven inches to the right, one small amber glass jar with a plain cream-colored label, lid on, sitting by itself. Warm brown glass, catching more of the light than anything else in frame. The label carries no readable text and no logo.
+2. Six or seven inches to the right, one small amber glass jar with a plain cream-colored label, lid on, sitting by itself. Warm brown glass, catching more of the light than anything else in frame. The label is the product's real label.
 
 3. Between and behind them: a faint dust ring on the glass shelf where a third, larger container used to sit and no longer does.
 
@@ -186,7 +186,7 @@ LIGHT: a single overhead bathroom fixture, slightly cool and slightly unflatteri
 
 CAMERA AND QUALITY: real iPhone photo. Visible sensor grain in the shadows and in the tile. Very slight motion softness, as if taken one-handed without bracing. Imperfect framing, the shelf not level in frame, a little more empty space on the left than the composition would want. Depth of field shallow enough that the tube's printing dissolves but the jar's silhouette stays crisp.
 
-HARD NEGATIVES: no person, no hands, no face, no reflection of a person in the mirror. No readable text anywhere in the image, on the tube or the jar or anywhere else. No brand marks, no logos, no pharmacy labels with legible words. No text overlays, no captions, no graphics. Not a flat-lay. Not a product photograph. Not a styled shelfie. Not symmetrical. No plants, no candles, no marble, no eucalyptus, none of the visual furniture of skincare advertising.
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. HARD NEGATIVES: no person, no hands, no face, no reflection of a person in the mirror. No text overlays, no captions, no graphics. Not a flat-lay. Not a product photograph. Not a styled shelfie. Not symmetrical. No plants, no candles, no marble, no eucalyptus, none of the visual furniture of skincare advertising.
 
 FEEL: two things on a shelf that don't match, in a bathroom somebody actually uses.
 
@@ -198,13 +198,13 @@ FEEL: two things on a shelf that don't match, in a bathroom somebody actually us
 ```
 Candid iPhone photograph looking down at the corner of a bedside table at night, shot handheld from directly above and slightly to one side.
 
-On the table: one small clinical white pharmacy tube lying on its side, cap on, rolled from the bottom, its printed band angled away from the light so nothing on it can be read. Beside it, standing upright, one small amber glass jar with a plain unlabeled cream-colored band, lid on. Around them, ordinary night-table objects softly out of focus and pushed to the frame's edges: a paperback face-down with a broken spine, a phone charging cable trailing off the edge, a water glass with an inch left in it, a hair elastic.
+On the table: one small clinical white pharmacy tube lying on its side, cap on, rolled from the bottom, its printed band showing normally. Do not angle it away or obscure it. Beside it, standing upright, one small amber glass jar with a plain cream-colored label band, lid on. Around them, ordinary night-table objects softly out of focus and pushed to the frame's edges: a paperback face-down with a broken spine, a phone charging cable trailing off the edge, a water glass with an inch left in it, a hair elastic.
 
 Light: a single warm bedside lamp just out of frame to the left, pooling on the two objects and falling off fast into shadow at the frame's edges. Everything beyond the lamp's pool is dim and unreadable.
 
 Real iPhone low-light quality. Heavy visible grain in the shadow areas. Slight softness from a low shutter speed. Crooked, unconsidered framing.
 
-Hard negatives: no person, no hands, no faces, no readable text of any kind, no logos, no overlays, no styling, not a flat-lay, not a product shot.
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. Hard negatives: no person, no hands, no faces, no overlays, no styling, not a flat-lay, not a product shot.
 
 4:5, 1080 x 1350.
 ```

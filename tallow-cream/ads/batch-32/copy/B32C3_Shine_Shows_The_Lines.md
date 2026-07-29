@@ -195,7 +195,7 @@ SURROUNDINGS: the open glass door of the noticeboard just visible at one edge of
 
 LIGHT AND CAMERA: flat overcast outdoor daylight, no direct sun, no hard shadows on the board itself. Slight reflection on the glass door edge. Shot on a phone, straight-on but slightly off-square, mild keystoning on the noticeboard frame. Visible sensor grain. Slightly cool, slightly desaturated, the specific look of a phone photo taken outdoors on a grey day.
 
-HARD NEGATIVES: no real person, no hands, no arms, no photographic face — the ONLY faces in the image are the two crude marker outlines. No product, no jar, no packaging anywhere. No brand marks or logos. No digital text overlays, no captions, no graphic design, no drop shadows, no vector shapes, no lens flare, no rendered light effects. Not a clean infographic. Not an explainer-video still. Not flat design. Not a digital illustration of a whiteboard. Must be a photograph of a real physical board.
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. HARD NEGATIVES: no real person, no hands, no arms, no photographic face — the ONLY faces in the image are the two crude marker outlines. No product, no jar, no packaging anywhere. No digital text overlays, no captions, no graphic design, no drop shadows, no vector shapes, no lens flare, no rendered light effects. Not a clean infographic. Not an explainer-video still. Not flat design. Not a digital illustration of a whiteboard. Must be a photograph of a real physical board.
 
 FEEL: someone stopped in a car park to explain optics to you with a borrowed marker, and you photographed it because it was the first thing that had made sense.
 
@@ -221,7 +221,7 @@ Colour logic strictly black = faces, labels, shadows, summary; red = incoming li
 
 Ordinary flat indoor lighting. Real phone photo, visible grain, slightly off-square framing, mild keystoning.
 
-Hard negatives: no real person, no hands, no photographic face, no product or jar, no logos, no digital overlays or captions, not a clean infographic, not flat design, not a digital illustration. Must read as a photograph of a real board.
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. Hard negatives: no real person, no hands, no photographic face, no product or jar, no digital overlays or captions, not a clean infographic, not flat design, not a digital illustration. Must read as a photograph of a real board.
 
 4:5, 1080 x 1350.
 ```
