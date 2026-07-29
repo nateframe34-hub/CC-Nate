@@ -193,9 +193,14 @@ TYPOGRAPHY AND HAND: all real handwriting in marker, never a font. The face prof
 
 COLOUR LOGIC, strictly: BLACK for the faces, labels, shadows and summary. RED for incoming light and the single hard bounce. GREEN for scattered light. No other colours anywhere.
 
-SURROUNDINGS: the open glass door of the noticeboard just visible at one edge of frame, slightly reflective. Behind and out of focus, the suggestion of a car park, a low brick wall, overcast grey daylight. A dry-erase marker held in the noticeboard's small clip at the bottom edge, cap off.
+SURROUNDINGS: the open glass door of the noticeboard just visible at one edge of frame, slightly reflective. Behind and out of focus, the suggestion of a car park, a low brick wall, overcast grey daylight. A dry-erase marker held in the noticeboard's small clip at the bottom edge, cap off. Resting on the ledge beneath the drawing, slightly off-centre and clearly incidental rather than displayed, sits OUR JAR (see below).
 
 LIGHT AND CAMERA: flat overcast outdoor daylight, no direct sun, no hard shadows on the board itself. Slight reflection on the glass door edge. Shot on a phone, straight-on but slightly off-square, mild keystoning on the noticeboard frame. Visible sensor grain. Slightly cool, slightly desaturated, the specific look of a phone photo taken outdoors on a grey day.
+
+THE JAR, and it must be OUR product, not a generic amber jar:
+A squat, wide-mouthed amber glass jar, roughly 60ml, warm honey-brown translucent glass. Matte black screw-on lid with a finely ribbed knurled vertical texture around its edge. On the front, a rectangular matte black label edged with a thin double-rule copper-gold border, divided into panels: "TALLOW HONEY BALM" in copper-gold serif capitals across two centred lines; beneath it a single detailed gold line-art honeybee with wings spread; and along the bottom, "wiyun" in white lowercase sans-serif with a small bordered "NET: 60G/2.12 OZ" box beside it.
+The label must be READABLE. Do not blur it, angle it away, or replace it with a blank or plain cream band. The story says she bought this exact product, so this exact product is what appears.
+BUT: it is NOT hero-lit and NOT centred. It sits in the scene the way a real object sits on a real surface, in the same ordinary light as everything else around it. Legible label, unremarkable placement.
 
 REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. HARD NEGATIVES: no real person, no hands, no arms, no photographic face — the ONLY faces in the image are the two crude marker outlines. No product, no jar, no packaging anywhere. No digital text overlays, no captions, no graphic design, no drop shadows, no vector shapes, no lens flare, no rendered light effects. Not a clean infographic. Not an explainer-video still. Not flat design. Not a digital illustration of a whiteboard. Must be a photograph of a real physical board.
 

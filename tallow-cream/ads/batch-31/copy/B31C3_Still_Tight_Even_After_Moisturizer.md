@@ -201,6 +201,11 @@ LIGHT: single overhead bathroom fixture, cool, flat, faintly unflattering. Small
 
 CAMERA AND QUALITY: real iPhone photograph, taken quickly with one hand. Visible grain, particularly in the tile and shadow areas. Shelf line not level in frame. Slight barrel distortion at the edges. Focus falls on the middle of the crowded row and the amber jar, with the nearest bottle at the left edge going soft.
 
+THE JAR, and it must be OUR product, not a generic amber jar:
+A squat, wide-mouthed amber glass jar, roughly 60ml, warm honey-brown translucent glass. Matte black screw-on lid with a finely ribbed knurled vertical texture around its edge. On the front, a rectangular matte black label edged with a thin double-rule copper-gold border, divided into panels: "TALLOW HONEY BALM" in copper-gold serif capitals across two centred lines; beneath it a single detailed gold line-art honeybee with wings spread; and along the bottom, "wiyun" in white lowercase sans-serif with a small bordered "NET: 60G/2.12 OZ" box beside it.
+The label must be READABLE. Do not blur it, angle it away, or replace it with a blank or plain cream band. The story says she bought this exact product, so this exact product is what appears.
+BUT: it is NOT hero-lit and NOT centred. It sits in the scene the way a real object sits on a real surface, in the same ordinary light as everything else around it. Legible label, unremarkable placement.
+
 REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. HARD NEGATIVES: no person, no hands, no face, no reflection of anyone in the mirror. No text overlays, captions, arrows, circles, or graphics of any kind. Not a flat-lay. Not shot from overhead. Not symmetrical. Not a product photograph. Not styled. No plants, no marble, no candles, no eucalyptus, no wooden trays.
 
 FEEL: a real shelf belonging to someone who has bought six things and is standing there looking at the seventh.

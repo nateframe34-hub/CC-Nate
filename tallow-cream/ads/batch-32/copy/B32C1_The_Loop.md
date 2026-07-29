@@ -176,7 +176,7 @@ Oily skin is thirsty skin.
 **Diegetic:** this is the drawing Marisol makes in the ad. The image and the story are the same object.
 
 ```
-A photograph of a real physical whiteboard filling the frame, shot straight-on from a few feet back. The whiteboard has a visible silver aluminium frame along all four edges. The surface is slightly off-white with a subtle glossy sheen, clearly a real dry-erase board and not paper or a digital graphic. A faint ghosting of previous, imperfectly erased writing is visible in the upper corners, and there is a slight overhead light reflection across the upper third of the board. A black dry-erase marker with its cap off rests in the tray at the bottom edge of the frame, beside a red one.
+A photograph of a real physical whiteboard filling the frame, shot straight-on from a few feet back. The whiteboard has a visible silver aluminium frame along all four edges. The surface is slightly off-white with a subtle glossy sheen, clearly a real dry-erase board and not paper or a digital graphic. A faint ghosting of previous, imperfectly erased writing is visible in the upper corners, and there is a slight overhead light reflection across the upper third of the board. A black dry-erase marker with its cap off rests in the tray at the bottom edge of the frame, beside a red one. Sitting on the tray next to the markers, slightly off to one side and clearly incidental rather than displayed, is OUR JAR (see below), the one being talked about. Sitting on the tray next to the markers, slightly off to one side and clearly incidental rather than displayed, is OUR JAR (see below), the one being talked about.
 
 DRAWN ON THE BOARD in hand-drawn dry-erase marker, imperfect lines, visibly done freehand by a real person at speed, but ORGANISED and completely legible:
 
@@ -202,7 +202,17 @@ COLOUR LOGIC, strictly: RED is the problem cycle. BLACK is structure and labels.
 
 LIGHT AND CAMERA: ordinary indoor fluorescent or overhead office lighting, slightly cool. A soft reflection band across the glossy surface in the upper third. Shot on a phone, straight-on but not perfectly square, with the frame of the whiteboard very slightly keystoned. Mild sensor grain. The photo should look like someone in the room took it because they wanted to remember the diagram.
 
-REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. HARD NEGATIVES: no person, no hands, no arms, no face, no one standing at the board. No product, no jar, no packaging anywhere in the image. No digital text overlays, no added captions, no graphic design elements, no drop shadows, no vector shapes. Not a clean infographic. Not an explainer-video still. Not flat design. Not a digital illustration of a whiteboard. It must be a photograph of a physical object. No emoji, no icons other than the tick.
+THE JAR, and it must be OUR product, not a generic amber jar:
+A squat, wide-mouthed amber glass jar, roughly 60ml, warm honey-brown translucent glass. Matte black screw-on lid with a finely ribbed knurled vertical texture around its edge. On the front, a rectangular matte black label edged with a thin double-rule copper-gold border, divided into panels: "TALLOW HONEY BALM" in copper-gold serif capitals across two centred lines; beneath it a single detailed gold line-art honeybee with wings spread; and along the bottom, "wiyun" in white lowercase sans-serif with a small bordered "NET: 60G/2.12 OZ" box beside it.
+The label must be READABLE. Do not blur it, angle it away, or replace it with a blank or plain cream band. The story says she bought this exact product, so this exact product is what appears.
+BUT: it is NOT hero-lit and NOT centred. It sits in the scene the way a real object sits on a real surface, in the same ordinary light as everything else around it. Legible label, unremarkable placement.
+
+THE JAR, and it must be OUR product, not a generic amber jar:
+A squat, wide-mouthed amber glass jar, roughly 60ml, warm honey-brown translucent glass. Matte black screw-on lid with a finely ribbed knurled vertical texture around its edge. On the front, a rectangular matte black label edged with a thin double-rule copper-gold border, divided into panels: "TALLOW HONEY BALM" in copper-gold serif capitals across two centred lines; beneath it a single detailed gold line-art honeybee with wings spread; and along the bottom, "wiyun" in white lowercase sans-serif with a small bordered "NET: 60G/2.12 OZ" box beside it.
+The label must be READABLE. Do not blur it, angle it away, or replace it with a blank or plain cream band. The story says she bought this exact product, so this exact product is what appears.
+BUT: it is NOT hero-lit and NOT centred. It sits in the scene the way a real object sits on a real surface, in the same ordinary light as everything else around it. Legible label, unremarkable placement.
+
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. HARD NEGATIVES: no person, no hands, no arms, no face, no one standing at the board. No digital text overlays, no added captions, no graphic design elements, no drop shadows, no vector shapes. Not a clean infographic. Not an explainer-video still. Not flat design. Not a digital illustration of a whiteboard. It must be a photograph of a physical object. No emoji, no icons other than the tick.
 
 FEEL: someone explained something to you at work and it landed, and you took a photo of the board before anyone wiped it.
 
@@ -226,7 +236,7 @@ Warm domestic kitchen light from one side. Real phone photo quality, slight grai
 
 Colour logic strictly red = problem cycle, black = structure, green = the way out. No other colours.
 
-REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. Hard negatives: no person, no hands, no face, no product or jar in frame, no digital overlays or captions, not a clean infographic, not flat design, not a digital illustration. Must read as a photograph of a real board.
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. Hard negatives: no person, no hands, no face, no digital overlays or captions, not a clean infographic, not flat design, not a digital illustration. Must read as a photograph of a real board.
 
 4:5, 1080 x 1350.
 ```

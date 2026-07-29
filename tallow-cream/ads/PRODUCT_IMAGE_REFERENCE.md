@@ -50,6 +50,20 @@ PALETTE: golden amber, saturated orange, deep navy, tan kraft.
 
 ---
 
+## 🚨 THE GOVERNING PRINCIPLE: if the story says she bought it, SHOW it
+
+Added 2026-07-29, founder call.
+
+Every native ad on this account tells the same basic story: **she bought this specific product and it worked.** So the product has to be in the frame, wearing its real label. A generic amber jar with a blank cream band is not our product; it's a prop that looks like our product, and it quietly contradicts the story the copy is telling.
+
+This is the same failure as stripping third-party branding, pointed at ourselves. **A blank label is a tell.** It says "staged" to exactly the reader we need to believe this is real.
+
+**The balance, per `Tallow_Ad_Creative_Principles.md` (2026-07-03):** the real label is visible and legible, but **the product is not hero-lit or centred like a commercial.** It sits in the scene the way a real object sits on a real surface. Legible label, ordinary placement. Both at once.
+
+- ✅ Right: our jar, real label readable, sitting off-centre on a cluttered shelf in ordinary light.
+- ❌ Wrong: a blank or generically-labelled jar (contradicts the story).
+- ❌ Also wrong: our jar centred, hero-lit, shallow depth of field, hand-placed (that's a product ad, and the camouflage collapses).
+
 ## What NOT to do with these
 
 - **Do not restyle the packaging to match a mood.** If a prompt calls for a cool clinical bathroom, the jar is still amber, black and copper-gold. The product does not change to suit the scene.

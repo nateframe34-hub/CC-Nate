@@ -198,11 +198,21 @@ TYPOGRAPHY AND HAND: all real handwriting in marker, never a font. Letters vary 
 
 COLOUR LOGIC, strictly: BLACK is structure, headers and the summary. RED is the cascade and the cost. GREEN is the single alternative. No other colours appear.
 
-SURROUNDINGS: the fridge door surface visible around the board, stainless steel or white enamel with realistic fingerprint smudges near the handle edge. A black dry-erase marker sitting in the board's small tray, cap off. The edge of a child's drawing or a photo held by a magnet intruding at one corner, out of focus.
+SURROUNDINGS: the fridge door surface visible around the board, stainless steel or white enamel with realistic fingerprint smudges near the handle edge. A black dry-erase marker sitting in the board's small tray, cap off. On the fridge top or the counter edge just below the board, partly in frame and clearly incidental rather than displayed, sits OUR JAR (see below). On the fridge top or the counter edge just below the board, partly in frame and clearly incidental rather than displayed, sits OUR JAR (see below). The edge of a child's drawing or a photo held by a magnet intruding at one corner, out of focus.
 
 LIGHT AND CAMERA: ordinary warm domestic kitchen lighting from above and slightly to one side. A soft reflection band across the glossy board surface. Shot on a phone, straight-on but very slightly off-square, mild keystoning on the board's frame. Visible sensor grain. Slight motion softness at the frame edges.
 
-REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. HARD NEGATIVES: no person, no hands, no arms, no face. No product, no jar, no packaging anywhere in the image. No digital text overlays, no captions, no graphic design, no drop shadows, no vector shapes, no icons other than the ticks and arrows drawn in marker. Not a clean infographic. Not an explainer-video still. Not flat design. Not a digital illustration of a whiteboard. Must be a photograph of a real physical object.
+THE JAR, and it must be OUR product, not a generic amber jar:
+A squat, wide-mouthed amber glass jar, roughly 60ml, warm honey-brown translucent glass. Matte black screw-on lid with a finely ribbed knurled vertical texture around its edge. On the front, a rectangular matte black label edged with a thin double-rule copper-gold border, divided into panels: "TALLOW HONEY BALM" in copper-gold serif capitals across two centred lines; beneath it a single detailed gold line-art honeybee with wings spread; and along the bottom, "wiyun" in white lowercase sans-serif with a small bordered "NET: 60G/2.12 OZ" box beside it.
+The label must be READABLE. Do not blur it, angle it away, or replace it with a blank or plain cream band. The story says she bought this exact product, so this exact product is what appears.
+BUT: it is NOT hero-lit and NOT centred. It sits in the scene the way a real object sits on a real surface, in the same ordinary light as everything else around it. Legible label, unremarkable placement.
+
+THE JAR, and it must be OUR product, not a generic amber jar:
+A squat, wide-mouthed amber glass jar, roughly 60ml, warm honey-brown translucent glass. Matte black screw-on lid with a finely ribbed knurled vertical texture around its edge. On the front, a rectangular matte black label edged with a thin double-rule copper-gold border, divided into panels: "TALLOW HONEY BALM" in copper-gold serif capitals across two centred lines; beneath it a single detailed gold line-art honeybee with wings spread; and along the bottom, "wiyun" in white lowercase sans-serif with a small bordered "NET: 60G/2.12 OZ" box beside it.
+The label must be READABLE. Do not blur it, angle it away, or replace it with a blank or plain cream band. The story says she bought this exact product, so this exact product is what appears.
+BUT: it is NOT hero-lit and NOT centred. It sits in the scene the way a real object sits on a real surface, in the same ordinary light as everything else around it. Legible label, unremarkable placement.
+
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. HARD NEGATIVES: no person, no hands, no arms, no face. No digital text overlays, no captions, no graphic design, no drop shadows, no vector shapes, no icons other than the ticks and arrows drawn in marker. Not a clean infographic. Not an explainer-video still. Not flat design. Not a digital illustration of a whiteboard. Must be a photograph of a real physical object.
 
 FEEL: someone explained your own spending to you in your own kitchen and you took a photo of it before it got wiped for the shopping list.
 
@@ -228,7 +238,7 @@ Colour logic strictly black = structure, red = cascade and cost, green = alterna
 
 Ordinary cool office lighting. Real phone photo, slight grain, very slightly off-square framing, mild keystoning.
 
-REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. Hard negatives: no person, no hands, no face, no product or jar in frame, no digital overlays or captions, not a clean infographic, not flat design, not a digital illustration. Must read as a photograph of a real board.
+REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. Hard negatives: no person, no hands, no face, no digital overlays or captions, not a clean infographic, not flat design, not a digital illustration. Must read as a photograph of a real board.
 
 4:5, 1080 x 1350.
 ```

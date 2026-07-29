@@ -121,6 +121,8 @@ The reason it's still there at 2pm.
 ## Image Prompt (Nano Banana Pro), IN DEPTH
 
 > 🚨 **IMAGE PROMPT DRIFT — REVISE BEFORE LAUNCH (2026-07-29).** This prompt specifies an informal napkin/receipt/placemat sketch with two words of text. **That is not what won.** B19C2 (the $11.35 CPA / $19-97 CPM whiteboard) used a **real physical whiteboard with an aluminum frame, a two-column labeled comparison, semantic color coding, clock icons, a bottom summary line, and an explicit requirement that all text be legible at mobile feed size.** Hand-drawn AND organized — those aren't opposites. The "must look hand drawn, not professional" note got over-corrected into *unstructured*, which cost the diagram its ability to actually explain anything. Rebuild per `ads/batch-32/B32_Batch_Plan.md`'s image spec, which follows B19C2's real construction.
+>
+> 🚨 **PRODUCT MUST APPEAR IN THE REBUILD (added 2026-07-29).** These prompts currently contain no jar at all. The story says she bought this product, so **our real jar with its real label has to be in the scene** — sitting incidentally on the desk or ledge near the board, legible but not hero-lit or centred. Spec in `ads/PRODUCT_IMAGE_REFERENCE.md`.
 
 
 **Type:** Bold hand-drawn whiteboard-style diagram, diegetically tied to the story, this IS the napkin drawing Maya makes in the ad copy, not a disconnected graphic.

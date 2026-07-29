@@ -188,6 +188,11 @@ LIGHT: a single overhead bathroom fixture, slightly cool and slightly unflatteri
 
 CAMERA AND QUALITY: real iPhone photo. Visible sensor grain in the shadows and in the tile. Very slight motion softness, as if taken one-handed without bracing. Imperfect framing, the shelf not level in frame, a little more empty space on the left than the composition would want. Depth of field shallow enough that the tube's printing dissolves but the jar's silhouette stays crisp.
 
+THE JAR, and it must be OUR product, not a generic amber jar:
+A squat, wide-mouthed amber glass jar, roughly 60ml, warm honey-brown translucent glass. Matte black screw-on lid with a finely ribbed knurled vertical texture around its edge. On the front, a rectangular matte black label edged with a thin double-rule copper-gold border, divided into panels: "TALLOW HONEY BALM" in copper-gold serif capitals across two centred lines; beneath it a single detailed gold line-art honeybee with wings spread; and along the bottom, "wiyun" in white lowercase sans-serif with a small bordered "NET: 60G/2.12 OZ" box beside it.
+The label must be READABLE. Do not blur it, angle it away, or replace it with a blank or plain cream band. The story says she bought this exact product, so this exact product is what appears.
+BUT: it is NOT hero-lit and NOT centred. It sits in the scene the way a real object sits on a real surface, in the same ordinary light as everything else around it. Legible label, unremarkable placement.
+
 REAL BRANDING IS WANTED: any real product in frame should show its real label and branding normally. Do not de-label, blur, crop out, or angle away third-party branding. Branding tests neutral on CPM and a blank bottle reads as staged. HARD NEGATIVES: no person, no hands, no face, no reflection of a person in the mirror. No text overlays, no captions, no graphics. Not a flat-lay. Not a product photograph. Not a styled shelfie. Not symmetrical. No plants, no candles, no marble, no eucalyptus, none of the visual furniture of skincare advertising.
 
 FEEL: two things on a shelf that don't match, in a bathroom somebody actually uses.
