@@ -13,7 +13,7 @@
 | **C2** SA9 goes-on-after | **Image 6** (cistern, the gap) | Image 5 | 4 objects |
 | **C3** SA4 still-tight | **Image 7** (crowded wooden shelf) | Image 8 (the box) | 7 objects |
 | **C4** night-one re-cut | **B17C1's existing asset. Do not replace.** | none | 1 object |
-| **C5** BOF offer | ⏸ **HOLD** — prompt being redone against founder reference images | — | — |
+| **C5** BOF offer | ✅ **Founder reference render + typography spec** | 3 headline variants | 2 products + type |
 
 **Image 4** is a duplicate-intent variant of Image 2 (same bedside scene, tighter crop). Keep as a spare for C1; don't run both.
 
@@ -76,8 +76,14 @@ Run on every image before upload:
 
 ---
 
-## C5 — held
+## C5 — resolved
 
-The offer ad's image prompt is being rewritten against founder-supplied reference images, to be matched exactly rather than described. Nothing to assign until those land.
+Founder's reference render IS the base composition: two products on a warm cream sweep, lit upper-left, sitting in the lower half with the top half empty. That empty space was left open deliberately and is where the type goes.
 
-Note the copy also still carries an open verification: it claims no physical return is required **and** that the lip mask is kept on a refund. Both need to be literally true on the live store or the line gets cut.
+**Full typography spec is in the cell file** — typeface, weight, px size, line height, letterspacing, hex colour, alignment and exact baseline Y for all three lines at 1080 × 1350, plus a layout diagram and safe zones.
+
+**Recommended route: generate the image clean, set the type afterwards.** AI generators render text of this length unreliably, and garbled type on an *offer* ad destroys the exact credibility the ad is buying. A baked-in prompt is provided too, but a single bad character means switching routes. The spec is identical either way.
+
+**Three headline variants** are specced for testing, all sharing the same typography.
+
+⚠️ Copy still carries its open verification: it claims no physical return is required **and** that the lip mask is kept on a refund. Both need to be literally true on the live store or the line gets cut.
