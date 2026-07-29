@@ -110,8 +110,8 @@ Second door into the same avatar. Single-angle depth, per the discipline that pr
 
 ## Structure & budget
 
-- **One CBO**, all six cells, **no minimum-spend floors** (7/28 decision — forcing spend has never once produced a sale here).
-- **Budget:** hold at $48/day. Do not raise it to "support" six cells — that's floor-thinking in a different costume. The point is that Meta concentrates.
+- **One CBO**, all five cells, **no minimum-spend floors** (7/28 decision — forcing spend has never once produced a sale here).
+- **Budget:** hold at $48/day. Do not raise it to "support" five cells — that's floor-thinking in a different costume. The point is that Meta concentrates.
 - **One ad set per creative**, identical audiences, broad.
 - **B17C1 and B28C1 keep running** in their existing structure. C4 is a *variant* of B17C1, not a replacement — if C4 wins, retire the original then.
 
