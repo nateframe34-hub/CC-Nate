@@ -171,3 +171,27 @@ Then the problem is NOT the ads. The problem is the offer, the product, or the P
 ---
 
 *Built from Baseline NMN postmortem learnings — March 2026*
+---
+
+## CPC THRESHOLDS (added 2026-07-30)
+
+Full derivation in `feedback-loops/CPM_CTR_CPC_Profitability_Analysis.md`.
+
+**CPC is the primary daily metric.** CPM alone and CTR alone both mislead — B30 won on CPM, lost on CTR, and lost overall. Judge creatives on CPC.
+
+**CPA ≈ CPC × 9** (click-to-purchase runs ~11% on this account). Validated against the 7/27 B17C1 purchase to within four cents: CPC $4.46 × 9 = $40.14 predicted, $40.18 actual.
+
+| CPC | Implied CPA | Action |
+|---|---|---|
+| ≤ $2.22 | ≤ $20 | On track for Ideal Scaling CAC. Scale. |
+| $2.22 - $3.35 | $20 - $30 | Profitable. Hold. |
+| $3.35 - $4.44 | $30 - $40 | **Above breakeven.** Fix or wind down. |
+| > $4.44 | > $40 | Past the kill line's implied rate. |
+
+**Current state (7/27): B28C1 $3.84, B17C1 $4.46.** Both above breakeven; B17C1 sitting on the kill line. The account is unprofitable because CPC is 30-100% too high, and for no other reason.
+
+**Paired-reading rule: never bank a cheap CPM without reading CTR in the same breath.**
+- Cheap CPM + healthy CTR = genuine format advantage (B19C2: $19-97 CPM, $11.35 CPA). Bank it.
+- Cheap CPM + weak CTR = relegation to junk inventory (B30: $22-101 CPM, 0 purchases). Kill it, and do not log the cheap CPM as a win.
+
+**Which lever to pull:** at $275 CPM, breakeven needs 8.2% CTR and target needs 12.4% — at or above the account's all-time best. At $150 CPM, breakeven needs 4.5% and target 6.8%, both routine here. **Halving CPM halves the CTR requirement.** Attack CPM, not CTR.
