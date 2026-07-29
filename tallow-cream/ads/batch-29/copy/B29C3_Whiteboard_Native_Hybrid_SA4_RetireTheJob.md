@@ -107,6 +107,9 @@ Reapplying isn't a routine. It's a second job.
 
 ## Image Prompt (Nano Banana Pro), IN DEPTH
 
+> 🚨 **IMAGE PROMPT DRIFT — REVISE BEFORE LAUNCH (2026-07-29).** This prompt specifies an informal napkin/receipt/placemat sketch with two words of text. **That is not what won.** B19C2 (the $11.35 CPA / $19-97 CPM whiteboard) used a **real physical whiteboard with an aluminum frame, a two-column labeled comparison, semantic color coding, clock icons, a bottom summary line, and an explicit requirement that all text be legible at mobile feed size.** Hand-drawn AND organized — those aren't opposites. The "must look hand drawn, not professional" note got over-corrected into *unstructured*, which cost the diagram its ability to actually explain anything. Rebuild per `ads/batch-32/B32_Batch_Plan.md`'s image spec, which follows B19C2's real construction.
+
+
 **Type:** Bold hand-drawn whiteboard-style diagram, diegetically tied to the story, this is the placemat sketch Nora draws in the ad copy.
 **Critical constraint, same as B29C1/C2:** must read as genuinely hand-drawn by a real person, NOT a polished illustration, NOT vector art, NOT a clean infographic, actively fight the AI-generator default toward "explainer video" cleanliness.
 

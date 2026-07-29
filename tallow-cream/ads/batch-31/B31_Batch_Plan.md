@@ -42,7 +42,7 @@ If a clean read on a specific angle matters more than finding a winner, that's a
 
 ---
 
-## The six cells
+## The cells (5 after C6 moved to B32)
 
 All native long-form primary text, direct to PDP, no advertorial. All on the reformulated product (60g, four ingredients, no "whipped," raw honey not manuka).
 
@@ -94,7 +94,10 @@ Second door into the same avatar. Single-angle depth, per the discipline that pr
 - **Why it works without a prelander:** it isn't teaching anything. No persuasion gap to bridge.
 - **Note:** per the 7/28 decision, this rides in the same CBO. Meta finds the already-warm viewers; we do not build an audience for it.
 
-### B31C6 — SA11 × the oily-skin paradox
+### ~~B31C6 — SA11 × the oily-skin paradox~~ → **MOVED TO B32 (2026-07-29)**
+
+**SA11 is now B32's whole batch, in whiteboard format.** Running it as a native cell here at the same time would confound both tests, and the whiteboard is the better vehicle for a counterintuitive mechanism. **B31 is now 5 cells**, which also eases the starvation concern raised below. Original spec kept for reference:
+
 - **Sub-avatar:** SA11 The Shine Fighter
 - **Angle:** Your skin is oily because it's dry
 - **Hook:** "Oily skin is thirsty skin."
