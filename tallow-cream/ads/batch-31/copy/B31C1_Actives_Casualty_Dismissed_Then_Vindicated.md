@@ -151,7 +151,15 @@ You don't have to stop using it. You have to put something back.
 
 ---
 
-## IMAGE PROMPT — Nano Banana Pro
+## IMAGE — ASSIGNED 2026-07-29
+
+✅ **USE FOUNDER IMAGE 3** (bathroom glass shelf, crumpled blue-band tube, amber jar, ring-mark, cool light). The crumpled tube reads as months of use, which is the ad's premise; the cool flat light lands clinical rather than cosy, matching a story whose villain is a specialist.
+**Alt A:** Image 1 (same setup, warmer, tube upright). **Alt B:** Image 2 (bedside at night — matches the alt prompt below almost exactly; run as a true variant, it shifts the read from "medicine" to "last thing I do at night").
+**Pre-flight:** check at phone feed size that no tube printing is legible.
+
+Generated prompt retained below for reference only.
+
+## IMAGE PROMPT (reference only) — Nano Banana Pro
 
 **Type:** OBJECT-DISCOVERY. The account's only validated cheap-CTR visual formula: a single ambiguous object in an almost-empty, quiet, real scene. No people, no faces, no hands. Constructed on B17C1's live prompt, which sustains 5-11% CTR.
 

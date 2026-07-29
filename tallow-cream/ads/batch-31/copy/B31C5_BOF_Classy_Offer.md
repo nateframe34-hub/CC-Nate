@@ -58,7 +58,15 @@ $49.99. Free shipping. 4 ingredients.
 
 ---
 
-## IMAGE PROMPT — Nano Banana Pro
+## IMAGE — ⏸ HELD, PROMPT BEING REDONE (2026-07-29)
+
+🚧 **Founder is supplying reference images that the image must match EXACTLY.** The prompt below is superseded and should not be used. It describes a generic editorial product shot; the replacement will be built to reproduce the supplied references rather than to describe a look.
+
+Awaiting: the reference images.
+
+Superseded prompt retained below for reference only.
+
+## IMAGE PROMPT (SUPERSEDED) — Nano Banana Pro
 
 **Type:** Product-forward, and this is the ONE cell where that's correct.
 

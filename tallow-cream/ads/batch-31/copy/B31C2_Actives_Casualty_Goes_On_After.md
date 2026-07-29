@@ -158,7 +158,18 @@ Goes on after. Not instead.
 
 ---
 
-## IMAGE PROMPT — Nano Banana Pro
+## IMAGE — ASSIGNED 2026-07-29
+
+✅ **USE FOUNDER IMAGE 6** (cistern lid: tube, open white tub, yellow ointment tin clustered left; amber jar alone right with a clear gap). The gap IS the ad — "goes on after, not instead" made compositional. The three clustered products are exactly the three the copy names.
+**Alt:** Image 5 (same four objects, clean white vanity, warmer, no branded background — safer, weaker gap).
+
+⚠️ **Two pre-flight fixes on Image 6:**
+1. **A branded shampoo bottle is visible in the background.** Crop or blur it out.
+2. **The bathroom reads visibly grubby** (rust on the tub). Judgment call: my read is KEEP IT, because the account's converters win on being unmistakably real and over-clean imagery is what B30 got wrong. If the grime concerns you, run Image 5 instead.
+
+Generated prompt retained below for reference only.
+
+## IMAGE PROMPT (reference only) — Nano Banana Pro
 
 **Type:** OBJECT-DISCOVERY. Single ambiguous object, almost-empty real scene, no people.
 

@@ -166,7 +166,15 @@ Still tight. Even after moisturizer.
 
 ---
 
-## IMAGE PROMPT — Nano Banana Pro
+## IMAGE — ASSIGNED 2026-07-29
+
+✅ **USE FOUNDER IMAGE 7** (wooden shelf: pump bottle, two stacked tubs, gold-lid glass jar, dropper oil bottle, yellow tin — gap — amber jar alone). **The best image in the whole set.** Object count lands on the copy's "six things," the gold-lid jar reads as the expensive one the copy names, the dropper reads as the face oil. Nothing needed.
+**Alt:** Image 8 (products dumped in a cardboard box on the floor, amber jar alone on the vanity above). This is literally the closing line — *"The six things are in a box under the sink."* Tells the after-state instead of the before-state. **Worth testing against Image 7, not holding in reserve.**
+**Pre-flight:** Image 8's yellow tin label may be partially legible — check it doesn't read as a non-skincare product.
+
+Generated prompt retained below for reference only.
+
+## IMAGE PROMPT (reference only) — Nano Banana Pro
 
 **Type:** OBJECT-DISCOVERY. Single ambiguous object in an almost-empty real scene. No people.
 
