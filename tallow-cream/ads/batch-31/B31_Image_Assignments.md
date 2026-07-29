@@ -1,68 +1,68 @@
 # B31 Image Assignments
 
 **Date:** 2026-07-29
-**Source:** 8 founder-supplied images.
+**Status:** ✅ **SUPERSEDED BY THE REAL-LABEL SET.** Three new founder images carry the actual wiyun label. They replace the earlier blank-label assignments entirely.
 
 ---
 
-## The assignment
+## FINAL ASSIGNMENT (real-label set)
 
-| Cell | Primary | Alt | Object count |
+| Cell | Image | What's in it | Objects |
 |---|---|---|---|
-| **C1** SA9 dismissed-then-vindicated | **Image 3** (bathroom shelf, cool light) | Image 1, then Image 2 | 2 objects |
-| **C2** SA9 goes-on-after | **Image 6** (cistern, the gap) | Image 5 | 4 objects |
-| **C3** SA4 still-tight | **Image 7** (crowded wooden shelf) | Image 8 (the box) | 7 objects |
-| **C4** night-one re-cut | **B17C1's existing asset. Do not replace.** | none | 1 object |
-| **C5** BOF offer | ✅ **Founder reference render + typography spec** | 3 headline variants | 2 products + type |
+| **C1** SA9 dismissed | **Image C** — glass shelf, Rx tube + our jar, ring-mark | 2 | 2 |
+| **C2** SA9 goes-on-after | **Image A** — hotel counter, tube + Cetaphil tub + yellow tin + our jar, key card | 4 | 4 |
+| **C3** SA4 still-tight | **Image B** — crowded domestic shelf, 6 products + our jar (open) | 7 | 7 |
+| **C4** night-one | B17C1's existing asset. Do not replace. | 1 | 1 |
+| **C5** BOF offer | Founder reference render + typography spec (see cell file) | 2 + type | — |
 
-**Image 4** is a duplicate-intent variant of Image 2 (same bedside scene, tighter crop). Keep as a spare for C1; don't run both.
-
----
-
-## Why this mapping, and the thing that makes it work
-
-The three cells form an **object-count ladder: 2 → 4 → 7.**
-
-That isn't decoration. C1 and C2 are both SA9, so they will be shown to overlapping people, and two similar images would fatigue the same viewer. Here each image demands a genuinely different parse:
-
-- **C1 (2 objects)** — a comparison. The eye pairs them and asks how they relate.
-- **C2 (4 objects)** — a sequence. The eye reads left to right and finds an order.
-- **C3 (7 objects)** — a count. The eye tallies, and a viewer who owns five moisturizers recognises her own shelf before reading a word.
-
-That last one matters most. C3's copy opens on *"I had six things. I counted them."* The image does the self-selection for free.
+**The object-count ladder survives: 2 → 4 → 7.** That was the organising logic of the old set and it holds exactly in the new one, which is lucky rather than planned.
 
 ---
 
-## Cell by cell
+## Why each one
 
-### C1 → **Image 3** (primary)
-Bathroom glass shelf, crumpled white tube with the blue band, amber jar, ring-mark on the glass.
+### C1 → **Image C** (glass shelf, two objects)
+Clinical white Rx tube standing upright, our jar to the right, a clear ring-mark on the glass between them, towel on a rail behind, toothbrush intruding at the bottom.
 
-**Why this one over Image 1:** the tube is visibly *used* — crumpled, rolled from the bottom. That reads as months on the treatment, which is exactly the ad's premise. The light is cooler and flatter, which lands closer to clinical than cosy, matching a story whose villain is a specialist. The ring-mark where something used to sit is clearly visible and does real work: something was removed from this shelf.
+This is the two-object comparison the cell was built on, and it now does it with a tube that reads unmistakably clinical (visible "Rx ONLY" banding) against our real branded jar. The ring-mark still does its quiet work: something used to sit there and doesn't anymore.
 
-**Alt A — Image 1.** Same construction, warmer, tube upright and unsquashed. Slightly less story in the object.
+**Better than the old Image 3** on the one thing that mattered — the jar is our product now, not a blank amber prop.
 
-**Alt B — Image 2.** The bedside-at-night version. This matches the alt prompt written for C1 almost exactly (tube lying down, jar upright, book, cable, water glass, hair elastic). Worth running as a true variant, not a backup — it changes the setting from bathroom to bedside, which shifts the read from "medicine" to "the last thing I do at night."
+### C2 → **Image A** (hotel counter, four objects)
+White pharmacy tube lying down with its cap off beside it, open Cetaphil tub with the cream visibly scooped, small yellow ointment tin, our jar. Folded white towel, **a hotel key card**, wet counter, sink corner.
 
-### C2 → **Image 6** (primary)
-Toilet cistern lid. Tube, open white tub, yellow ointment tin clustered to the left. Amber jar alone to the right with a clear gap.
+**This is a much stronger match than the old Image 6, and not just for the label.** C2's story is literally set on a work trip: an all-day training session, *"I did it in my hotel room that night,"* *"I ordered one on the train home."* The key card and the folded hotel towel put the photo in the exact place the copy describes. That's diegetic alignment we didn't have before and couldn't have asked for.
 
-**Why this is the right one:** the gap *is* the ad. C2's whole argument is "goes on after, not instead" — the jar is separate from the routine but part of the same surface. That's what the composition shows. The three clustered products are exactly the three the copy names (tube, cream, ointment).
+The four objects also map one-for-one onto the copy's four steps: wash, prescription, cream, ointment — plus the jar that got added.
 
-**One thing to check before shipping:**
-1. ⚠️ **The bathroom reads visibly grubby** — rust marks on the tub, worn tiles. For native camouflage that's an asset; it's unmistakably a real bathroom. But we're selling a $49.99 product, and there's a version of this where the grime transfers to the product. **My read: keep it.** The account's converters win on being unmistakably real, and a too-clean bathroom is what B30's images got wrong. Flagging it because it's a legitimate judgment call, not because I think it's wrong.
+### C3 → **Image B** (crowded shelf, seven objects)
+Pump bottle, two stacked white tubs (one open, cream visible), gold-lid glass jar, dropper bottle **labelled FACIAL OIL**, yellow **OINTMENT** tin, then our jar at the right, **open, with the balm visible**.
 
-**Alt — Image 5.** Same four objects on a clean white vanity, warmer and tidier. Safer, but the gap is weaker and the composition is less argumentative. **This is the one to run if the grime concerns you.**
+**The best image in the set, and it's not close.** C3's copy lists her six things: *"Two from the drugstore... One expensive one a woman at a counter talked me into. A thick one in a tub. A facial oil. And a heavy ointment."* The facial oil is labelled FACIAL OIL. The ointment tin is labelled OINTMENT. The gold-lid glass jar reads exactly as "the expensive one." The count lands.
 
-### C3 → **Image 7** (primary)
-Wooden shelf. Pump bottle, two stacked white tubs, gold-lid glass jar, dropper oil bottle, yellow tin — then a clear gap — then the amber jar alone.
+Our jar being **open with the balm visible** is a bonus the old set didn't have: it says she's using it, not that she bought it.
 
-**This is the single best image in the set.** It matches the written prompt almost exactly, including the gap, and the object count lands right on the copy's "six things." The gold-lid jar reads as the expensive one, which the copy names specifically. The dropper bottle reads as the face oil. Nothing needed.
+---
 
-**Alt — Image 8.** The cardboard box of dumped products on the floor, amber jar alone on the vanity above. **This is literally C3's closing line** — *"The six things are in a box under the sink. I keep meaning to deal with that box."* Genuinely strong as a variant because it tells the after-state rather than the before-state. Worth testing against Image 7 rather than holding in reserve.
+## Notes before upload
 
+**✅ Competitor branding stays.** Cetaphil is clearly legible in Image A. Per the standing rule that's correct and helpful, not a problem: it's the exact "cream people recommend" the copy references, and a real named product makes the shelf read as a real shelf.
+
+**⚠️ The generated tube copy is gibberish at full size.** In Images A and C the pharmacy tubes carry AI-garbled pseudo-text (*"Appile spmtd mrtne of csole bltrock..."*). Our own lid label in Image A is slightly garbled too.
+
+At feed size this is invisible and reads correctly as "a clinical tube," which is all it needs to do. **My read: ship them.** The risk is a viewer who zooms in and sees nonsense, which is a small slice of a small slice. But check each at 100% before upload so you're making that call knowingly rather than discovering it later. The front-facing label on our jar is clean in all three, which is the part that actually matters.
+
+**Standing checks:** view at phone feed size, confirm the composition still reads at thumbnail, and add no overlays, text, or badges.
+
+---
+
+## Superseded
+
+The earlier eight-image set (Images 1-8, blank cream labels) is retired for C1-C3. Those images contradicted the story by showing a generic jar instead of the product the copy says she bought. Kept only as composition references.
+
+---
 ### C4 → **no new image**
-Reuse B17C1's live asset unchanged. C4 is a single-variable test on the timeline; a new image confounds it and the result becomes worthless. None of the eight would work anyway — they all contain multiple objects, and B17C1's image is one jar on an almost-empty counter.
+Reuse B17C1's live asset unchanged. C4 is a single-variable test on the timeline; a new image confounds it and the result becomes worthless. None of the new set would work anyway — they all contain multiple objects, and B17C1's image is one jar on an almost-empty counter.
 
 ---
 

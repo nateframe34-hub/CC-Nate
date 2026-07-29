@@ -162,6 +162,9 @@ Goes on after. Not instead.
 
 ## IMAGE — ASSIGNED 2026-07-29
 
+✅ **USE FOUNDER IMAGE A (real-label set): hotel bathroom counter, pharmacy tube with cap off, open Cetaphil tub, yellow ointment tin, our real wiyun jar, plus a hotel key card and folded towel.** Four objects, the sequence parse. **The hotel setting is diegetic** — C2's story is set on a work trip with a hotel room and a train home, so the key card and hotel towel put the photo in the exact place the copy describes. Supersedes Image 6.
+
+
 ✅ **USE FOUNDER IMAGE 6** (cistern lid: tube, open white tub, yellow ointment tin clustered left; amber jar alone right with a clear gap). The gap IS the ad — "goes on after, not instead" made compositional. The three clustered products are exactly the three the copy names.
 **Alt:** Image 5 (same four objects, clean white vanity, warmer, no branded background — safer, weaker gap).
 

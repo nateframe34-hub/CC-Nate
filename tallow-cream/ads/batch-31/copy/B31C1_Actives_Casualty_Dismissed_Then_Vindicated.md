@@ -155,6 +155,9 @@ You don't have to stop using it. You have to put something back.
 
 ## IMAGE — ASSIGNED 2026-07-29
 
+✅ **USE FOUNDER IMAGE C (real-label set): glass bathroom shelf, clinical Rx tube standing upright, our real wiyun jar to the right, ring-mark on the glass between them.** Two objects, the comparison parse. Supersedes the earlier Image 3, which had a blank-label jar.
+
+
 ✅ **USE FOUNDER IMAGE 3** (bathroom glass shelf, crumpled blue-band tube, amber jar, ring-mark, cool light). The crumpled tube reads as months of use, which is the ad's premise; the cool flat light lands clinical rather than cosy, matching a story whose villain is a specialist.
 **Alt A:** Image 1 (same setup, warmer, tube upright). **Alt B:** Image 2 (bedside at night — matches the alt prompt below almost exactly; run as a true variant, it shifts the read from "medicine" to "last thing I do at night").
 **Pre-flight:** check at phone feed size that no tube printing is legible.

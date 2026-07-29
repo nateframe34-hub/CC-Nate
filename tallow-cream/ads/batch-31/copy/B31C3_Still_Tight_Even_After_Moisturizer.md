@@ -170,6 +170,9 @@ Still tight. Even after moisturizer.
 
 ## IMAGE — ASSIGNED 2026-07-29
 
+✅ **USE FOUNDER IMAGE B (real-label set): crowded domestic bathroom shelf. Pump bottle, two stacked white tubs, gold-lid glass jar, a dropper bottle labelled FACIAL OIL, a yellow tin labelled OINTMENT, then our real wiyun jar at the right, OPEN with the balm visible.** Seven objects, the count parse. **Best image in the set:** the copy lists a facial oil, an ointment, and an expensive one, and all three are literally there and labelled. The open jar says she's using it, not just that she bought it. Supersedes Image 7.
+
+
 ✅ **USE FOUNDER IMAGE 7** (wooden shelf: pump bottle, two stacked tubs, gold-lid glass jar, dropper oil bottle, yellow tin — gap — amber jar alone). **The best image in the whole set.** Object count lands on the copy's "six things," the gold-lid jar reads as the expensive one the copy names, the dropper reads as the face oil. Nothing needed.
 **Alt:** Image 8 (products dumped in a cardboard box on the floor, amber jar alone on the vanity above). This is literally the closing line — *"The six things are in a box under the sink."* Tells the after-state instead of the before-state. **Worth testing against Image 7, not holding in reserve.**
 **Pre-flight:** Image 8's yellow tin label may be partially legible — check it doesn't read as a non-skincare product.
