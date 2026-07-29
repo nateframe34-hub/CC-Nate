@@ -163,6 +163,8 @@ Oily skin is thirsty skin.
 
 ---
 
+> 📌 **Product packaging must match `ads/PRODUCT_IMAGE_REFERENCE.md` exactly.** The balm is amber glass, matte black ribbed lid, black label with copper-gold border and a line-art bee. Never describe it as plain, simple, or unbranded.
+
 ## IMAGE PROMPT — Nano Banana Pro
 
 **Type:** Real physical whiteboard, hand-drawn diagram, photographed.

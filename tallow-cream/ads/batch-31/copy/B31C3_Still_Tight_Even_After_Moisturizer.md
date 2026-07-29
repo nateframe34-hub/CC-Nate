@@ -166,6 +166,8 @@ Still tight. Even after moisturizer.
 
 ---
 
+> 📌 **Product packaging must match `ads/PRODUCT_IMAGE_REFERENCE.md` exactly.** The balm is amber glass, matte black ribbed lid, black label with copper-gold border and a line-art bee. Never describe it as plain, simple, or unbranded.
+
 ## IMAGE — ASSIGNED 2026-07-29
 
 ✅ **USE FOUNDER IMAGE 7** (wooden shelf: pump bottle, two stacked tubs, gold-lid glass jar, dropper oil bottle, yellow tin — gap — amber jar alone). **The best image in the whole set.** Object count lands on the copy's "six things," the gold-lid jar reads as the expensive one the copy names, the dropper reads as the face oil. Nothing needed.
@@ -189,7 +191,7 @@ CROWDED ALONG THE LEFT AND CENTRE, jammed together with no space between them, a
 
 A tall white pump bottle. A squat white plastic tub with its lid resting beside it, cream visibly scooped out unevenly. A second, smaller tub. A heavy glass jar with a gold-toned lid, the most expensive-looking object in the row, sitting slightly forward as if used most recently. A slim dropper bottle of facial oil, half empty, oil visible through the glass. A yellow-gold metal ointment tin, lid on, thumbprint smudged. All of them real products with their real labels and branding visible. Do NOT de-label, blur, or angle labels away: visible branding reads as real, and a blank bottle reads as staged.
 
-THEN, at the far right of the shelf, separated by a clear gap of four or five inches of empty shelf: one small amber glass jar with a plain cream-coloured label band, lid on. Alone. Warm brown glass. It is the only object in frame with empty space around it, and the only warm tone in a row of white and clinical.
+THEN, at the far right of the shelf, separated by a clear gap of four or five inches of empty shelf: one a squat amber glass jar with a matte black ribbed screw lid and a black label edged in copper-gold bearing a line-art bee (real packaging, reproduce it, do not simplify or de-label), lid on. Alone. Warm brown glass. It is the only object in frame with empty space around it, and the only warm tone in a row of white and clinical.
 
 The empty gap between the crowd and the jar is the most important compositional element in the image and must be clearly visible.
 
@@ -213,7 +215,7 @@ Candid iPhone photograph looking down into an open cardboard box sitting on a ba
 
 Inside the box, tipped over against each other at careless angles: a tall white pump bottle, two white plastic tubs, a heavy glass jar with a gold-toned lid, a half-empty dropper bottle of oil, a yellow metal ointment tin. All real products with their real labels and branding visible. They look discarded rather than stored.
 
-On the vanity above and behind, partly in frame at the top edge and in soft focus: one small amber glass jar sitting alone on the counter.
+On the vanity above and behind, partly in frame at the top edge and in soft focus: one a squat amber glass jar with a matte black ribbed screw lid and a black label edged in copper-gold bearing a line-art bee (real packaging, reproduce it, do not simplify or de-label) sitting alone on the counter.
 
 Light: dim, low, a single overhead bathroom bulb, the inside of the box in shadow. The amber jar above catches more light than anything in the box.
 

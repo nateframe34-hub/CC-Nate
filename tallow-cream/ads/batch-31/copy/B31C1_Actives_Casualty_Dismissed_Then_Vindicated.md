@@ -151,6 +151,8 @@ You don't have to stop using it. You have to put something back.
 
 ---
 
+> 📌 **Product packaging must match `ads/PRODUCT_IMAGE_REFERENCE.md` exactly.** The balm is amber glass, matte black ribbed lid, black label with copper-gold border and a line-art bee. Never describe it as plain, simple, or unbranded.
+
 ## IMAGE — ASSIGNED 2026-07-29
 
 ✅ **USE FOUNDER IMAGE 3** (bathroom glass shelf, crumpled blue-band tube, amber jar, ring-mark, cool light). The crumpled tube reads as months of use, which is the ad's premise; the cool flat light lands clinical rather than cosy, matching a story whose villain is a specialist.
@@ -163,7 +165,7 @@ Generated prompt retained below for reference only.
 
 **Type:** OBJECT-DISCOVERY. The account's only validated cheap-CTR visual formula: a single ambiguous object in an almost-empty, quiet, real scene. No people, no faces, no hands. Constructed on B17C1's live prompt, which sustains 5-11% CTR.
 
-**The visual argument:** two objects on a bathroom shelf that clearly belong to two different worlds. A clinical white pharmacy tube, and one amber glass jar. The viewer's eye has to work out the relationship between them, and that half-second of work is the scroll-stop. Nothing is explained. Nothing is labeled.
+**The visual argument:** two objects on a bathroom shelf that clearly belong to two different worlds. A clinical white pharmacy tube, and one amber glass jar with a black-and-copper-gold label. Both carry their real branding. The viewer's eye has to work out the relationship between them, and that half-second of work is the scroll-stop. Nothing is explained: the two objects just sit there together and the viewer supplies the connection.
 
 **Why this composition specifically:** the prescription tube is the story's villain and its reason-for-being simultaneously. Putting it in frame next to the jar states the ad's entire angle ("these two things go together") without a single word, but only *after* the viewer has parsed it. That's the curiosity gap doing the work.
 
@@ -174,7 +176,7 @@ ON THE SHELF, and almost nothing else on it:
 
 1. A small clinical pharmacy tube standing upright on its cap. Plain matte white plastic with a narrow printed band around it in flat medical blue. Real pharmacy printing, small and dense. Do not deliberately obscure or blur it: a genuinely branded clinical tube reads as real. It is unmistakably a prescription object by its shape and its clinical plainness. Slightly creased and rolled up from the bottom, clearly about two-thirds used.
 
-2. Six or seven inches to the right, one small amber glass jar with a plain cream-colored label, lid on, sitting by itself. Warm brown glass, catching more of the light than anything else in frame. The label is the product's real label.
+2. Six or seven inches to the right, one a squat amber glass jar with a matte black ribbed screw lid and a black label edged in copper-gold bearing a line-art bee (real packaging, reproduce it, do not simplify or de-label), lid on, sitting by itself. Warm brown glass, catching more of the light than anything else in frame. The label is the product's real label.
 
 3. Between and behind them: a faint dust ring on the glass shelf where a third, larger container used to sit and no longer does.
 
@@ -198,7 +200,7 @@ FEEL: two things on a shelf that don't match, in a bathroom somebody actually us
 ```
 Candid iPhone photograph looking down at the corner of a bedside table at night, shot handheld from directly above and slightly to one side.
 
-On the table: one small clinical white pharmacy tube lying on its side, cap on, rolled from the bottom, its printed band showing normally. Do not angle it away or obscure it. Beside it, standing upright, one small amber glass jar with a plain cream-colored label band, lid on. Around them, ordinary night-table objects softly out of focus and pushed to the frame's edges: a paperback face-down with a broken spine, a phone charging cable trailing off the edge, a water glass with an inch left in it, a hair elastic.
+On the table: one small clinical white pharmacy tube lying on its side, cap on, rolled from the bottom, its printed band showing normally. Do not angle it away or obscure it. Beside it, standing upright, one a squat amber glass jar with a matte black ribbed screw lid and a black label edged in copper-gold bearing a line-art bee (real packaging, reproduce it, do not simplify or de-label), lid on. Around them, ordinary night-table objects softly out of focus and pushed to the frame's edges: a paperback face-down with a broken spine, a phone charging cable trailing off the edge, a water glass with an inch left in it, a hair elastic.
 
 Light: a single warm bedside lamp just out of frame to the left, pooling on the two objects and falling off fast into shadow at the frame's edges. Everything beyond the lamp's pool is dim and unreadable.
 

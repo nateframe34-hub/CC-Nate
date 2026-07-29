@@ -158,6 +158,8 @@ Goes on after. Not instead.
 
 ---
 
+> 📌 **Product packaging must match `ads/PRODUCT_IMAGE_REFERENCE.md` exactly.** The balm is amber glass, matte black ribbed lid, black label with copper-gold border and a line-art bee. Never describe it as plain, simple, or unbranded.
+
 ## IMAGE — ASSIGNED 2026-07-29
 
 ✅ **USE FOUNDER IMAGE 6** (cistern lid: tube, open white tub, yellow ointment tin clustered left; amber jar alone right with a clear gap). The gap IS the ad — "goes on after, not instead" made compositional. The three clustered products are exactly the three the copy names.
@@ -188,7 +190,7 @@ ARRANGED IN A LOOSE ROW along the counter, left to right, spaced unevenly the wa
 
 3. A yellow-gold metal ointment tin, closed, with a thumbprint smudge visible on the lid.
 
-4. Set slightly apart from the other three, with a noticeable gap of empty counter between them and it: one small amber glass jar with a plain cream-colored label band, lid on. Warm brown glass. It is the only warm-toned object in an otherwise white, clinical, cool-toned row. It catches the most light.
+4. Set slightly apart from the other three, with a noticeable gap of empty counter between them and it: one a squat amber glass jar with a matte black ribbed screw lid and a black label edged in copper-gold bearing a line-art bee (real packaging, reproduce it, do not simplify or de-label), lid on. Warm brown glass. It is the only warm-toned object in an otherwise white, clinical, cool-toned row. It catches the most light.
 
 Also on the counter: a scatter of water droplets near the basin edge, a folded white hotel washcloth pushed to the back, the corner of a room key card. The basin itself just intruding at the bottom edge of frame, wet.
 
@@ -208,7 +210,7 @@ FEEL: someone's actual four-step routine, photographed in a hotel bathroom at 7a
 ```
 Candid iPhone photograph looking down at the closed lid of a toilet cistern being used as a shelf in a small bathroom, shot handheld from standing height at a slight angle.
 
-Lined up along it, unevenly: a creased white clinical pharmacy tube with the cap off beside it, a white tub of cream with the lid upside down next to it, a yellow-gold ointment tin. Then a gap of empty surface. Then one small amber glass jar with a plain cream label band, lid on, sitting apart from the rest.
+Lined up along it, unevenly: a creased white clinical pharmacy tube with the cap off beside it, a white tub of cream with the lid upside down next to it, a yellow-gold ointment tin. Then a gap of empty surface. Then one a squat amber glass jar with a matte black ribbed screw lid and a black label edged in copper-gold bearing a line-art bee (real packaging, reproduce it, do not simplify or de-label), lid on, sitting apart from the rest.
 
 Behind and out of focus: the edge of a bath, a bottle of shampoo on the bath's corner, a towel hanging crooked on a hook.
 
