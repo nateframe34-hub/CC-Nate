@@ -58,168 +58,138 @@ $49.99. Free shipping. 4 ingredients.
 
 ---
 
-## IMAGE + TYPOGRAPHY — Nano Banana Pro (REBUILT 2026-07-29 against founder reference render)
+## IMAGE PROMPT — ONE PROMPT, TEXT INCLUDED
 
-**Type:** Product-forward with on-image offer text. **The ONE cell where both are correct.**
-
-**Why this breaks the object-discovery rule on purpose:** object-discovery earns a *cold* click through ambiguity. This viewer is not cold. Ambiguity now is an obstacle between her and a decision she's part-way through making. She should see exactly what she gets, and read the offer, in one glance.
-
-**Base composition = the founder reference render.** Two products on a warm cream sweep, lit from the upper left, long soft shadows to the lower right, products sitting in the lower half with generous empty space above. That empty space is where the type goes. It was left open on purpose.
-
----
-
-### ⚠️ Read this before generating
-
-**AI image generators render text unreliably at this length.** Expect garbled letterforms, doubled words, and invented characters. Two routes, and I'd take Route B:
-
-- **Route A — bake the text in.** Prompt below. Fast if it works. Inspect every character at 100%. Regenerate on any flaw. Do not ship "close enough" type; garbled text on an offer ad destroys the exact credibility the ad is buying.
-- **Route B (recommended) — generate clean, set type after.** Generate the base image with **no text at all**, then place the type in Canva/Figma/Photoshop using the exact spec below. Guaranteed correct letterforms, guaranteed correct kerning, and you can re-run headline variants without regenerating the image. **This is what I'd do.**
-
-The typography spec is identical either way, so nothing is wasted by trying A first.
-
----
-
-### THE TEXT (final copy, locked)
+**Paste the block below into Nano Banana Pro as-is.** Scene, products and all on-image text in a single generation. 4:5, 1080 × 1350.
 
 ```
-LINE 1  (headline)      Sixty days to decide.
-LINE 2  (subhead)       The lip mask is yours either way.
-LINE 3  (footer)        $49.99 · Free shipping · 60-day money-back guarantee
-```
+A calm, editorial advertising image, 4:5 vertical, 1080 x 1350 pixels. Two real skincare products photographed on a warm cream background, with three lines of elegant typographic text placed on the image. Soft daylight, generous empty space, quiet and expensive. NOT a discount graphic, NOT a sale flyer, NOT a collage.
 
-**Why this and not more:** the swipe file's Classy Offer runs on two short lines and nothing else. Every additional line converts the piece from an offer into an advertisement, and the elevation comes from *lowering* the sales pressure. Three lines is the ceiling.
+═══ BACKGROUND ═══
+A seamless matte studio sweep in a warm cream-to-sand tone, hex #E8DCC8, filling the entire frame. No visible horizon line where the wall meets the floor, only a soft vertical gradient that lightens very slightly toward the upper right. The surface has the faintest paper-like tooth visible under raking light. No props, no texture overlays, no vignette.
 
----
+═══ PRODUCT PLACEMENT ═══
+Both products sit in the LOWER HALF of the frame only. Their bases rest at roughly 82 percent of the way down the image. The pair is positioned slightly LEFT of centre horizontally. The entire upper half of the frame stays empty cream, because text goes there. Do not centre the products vertically. Do not enlarge them to fill the frame.
 
-### TYPOGRAPHY SPEC — canvas 1080 × 1350 (4:5)
+═══ PRODUCT 1 — LEFT, THE HERO, LARGER ═══
+A squat, wide-mouthed amber glass jar, roughly 60ml, warm honey-brown translucent glass that glows softly where light passes through the shoulder.
 
-All positions are from the **top-left origin**. All sizes in pixels at 1080 × 1350; scale proportionally for other renders.
+LID: a matte black screw-on lid, very slightly wider than the jar body, with a finely ribbed knurled vertical texture around its outer edge. The jar is tilted just enough that the flat top of the lid is partly visible. On that lid top, a circular black label with a thin copper-gold ring border, containing a small gold line-art bee and the words "TALLOW HONEY BALM" in small gold serif capitals.
 
-| | LINE 1 — Headline | LINE 2 — Subhead | LINE 3 — Footer |
-|---|---|---|---|
-| **Text** | Sixty days to decide. | The lip mask is yours either way. | $49.99 · Free shipping · 60-day money-back guarantee |
-| **Typeface** | Cormorant Garamond, Regular (400) | Cormorant Garamond, Light Italic (300) | Jost, Regular (400) |
-| **Fallbacks** | EB Garamond → Playfair Display → Georgia | same family | Montserrat → Inter → Helvetica Neue |
-| **Size** | 82 px | 42 px | 24 px |
-| **Line height** | 96 px | 54 px | 32 px |
-| **Letterspacing** | +1.5% (≈1.2 px) | 0% | **+8% (≈1.9 px)** |
-| **Colour** | `#2B2724` warm near-black | `#5A5049` warm mid-brown-grey | `#8A7E72` muted taupe |
-| **Alignment** | Centred | Centred | Centred |
-| **Baseline Y** | 232 px | 316 px | 1268 px |
-| **Max text width** | 880 px | 760 px | 920 px |
+FRONT BODY LABEL: a rectangular matte black label wrapping the front of the jar, edged with a thin double-rule copper-gold border that divides the label into stacked horizontal panels:
+  • Upper panel: "TALLOW HONEY BALM" in warm copper-gold serif capitals, generously letterspaced, on two centred lines.
+  • Centre panel: one detailed gold line-art honeybee, wings spread, drawn in fine copper-gold linework, centred. This is the visual anchor of the label.
+  • Lower strip: "wiyun" in white lowercase sans-serif toward the right side, with a small bordered rectangle beneath it reading "NET: 60G/2.12 OZ".
+This label must be crisp, sharp and fully legible. Do not blur it, do not simplify it, do not replace it with a blank or plain label.
 
-**Why these choices:**
-- **Cormorant Garamond** echoes the serif on the jar's own label, so the type and the product look like they come from the same place. Using a different serif family makes the ad look like it was made *about* the product rather than *by* the brand.
-- **`#2B2724` rather than pure black.** Pure black on a warm cream ground reads as digital and cheap. A warm near-black sits in the same light as the scene.
-- **The footer's +8% letterspacing** is doing real work. Wide-tracked small caps-height sans is the single most reliable signal of "considered" rather than "discounted." It's the difference between this and a sale graphic.
-- **The middot separators (·) not slashes or pipes.** Slashes read as fine print; middots read as editorial.
-- **Nothing is bold.** Not one weight above 400 anywhere in the composition. Bold is the fastest way to turn a Classy Offer into a discount ad.
+═══ PRODUCT 2 — RIGHT, SECONDARY, SMALLER, SET SLIGHTLY BACK ═══
+A small squat round jar, roughly 20g, about two-thirds the height of the amber jar. The body is translucent golden-amber plastic with a soft vertical gradient, lighter toward the base. The lid is a glossy, domed, saturated orange plastic cap, taller than the body, giving a rounded pill-like silhouette.
+PRINTING on the body, all in deep navy blue: "YURHERSU" in small sans-serif capitals at the top; "Tallow" beneath it, larger, in a flowing navy italic script; then "OVERNIGHT LIP MASK" in white sans-serif capitals reversed out of a solid navy bar; and at the bottom "20g/0.7oz" inside a thin navy outlined oval.
 
-**Safe zones:**
-- No type within **80 px** of any edge.
-- Keep the bottom **120 px** clear of anything critical (Meta overlays the CTA button region on some placements).
-- The gap between the subhead baseline (316) and the top of the jar lid (~700) stays empty. **Do not fill it.** That emptiness is the whole register.
+The two products are visually mismatched, black-and-gold against orange-and-navy. This mismatch is INTENTIONAL. Do not harmonise their colours or restyle either one to match the other.
 
----
+SPACING: a clear gap of empty cream between the two jars, roughly the width of the smaller jar. They read as two separate objects placed together, not as a designed matching set.
 
-### PROMPT — Route B (recommended): clean base image, no text
+═══ TEXT ON THE IMAGE — THREE LINES, EXACTLY AS WRITTEN ═══
 
-```
-A calm, editorial product photograph. Two real skincare products on a seamless warm cream sweep. Soft daylight. Generous empty space in the upper half of the frame.
+LINE 1 — THE HEADLINE
+Text, exactly: Sixty days to decide.
+Position: horizontally CENTRED on the image. Vertically, the baseline sits at 17 percent down from the top of the frame.
+Font: an elegant high-contrast old-style serif, in the style of Cormorant Garamond or EB Garamond. Regular weight, NOT bold, NOT italic.
+Size: 82 pixels at 1080 x 1350, meaning the capital "S" is roughly 4.5 percent of the image height.
+Letterspacing: slightly open, about 1.5 percent.
+Colour: warm near-black, hex #2B2724. Not pure black.
 
-BACKGROUND AND SURFACE: a seamless matte sweep in a warm cream-to-sand tone, roughly #E8DCC8, with no visible horizon line, only a soft vertical gradient that lightens slightly toward the upper right. The surface has the faintest paper-like tooth visible under raking light.
+LINE 2 — THE SUBHEAD
+Text, exactly: The lip mask is yours either way.
+Position: horizontally CENTRED, directly beneath line 1. Baseline at 23 percent down from the top of the frame.
+Font: the SAME serif family as line 1, but LIGHT ITALIC.
+Size: 42 pixels, almost exactly half the size of line 1.
+Letterspacing: normal, 0 percent.
+Colour: warm mid brown-grey, hex #5A5049.
 
-COMPOSITION: both products sit in the LOWER HALF of the frame, bases resting at roughly 85 percent of the frame height, with the entire upper half left clean and empty. The pair sits slightly left of centre. Do not centre them vertically. Do not fill the upper half.
+LINE 3 — THE FOOTER
+Text, exactly: $49.99 · Free shipping · 60-day money-back guarantee
+Position: horizontally CENTRED, along the bottom of the frame. Baseline at 94 percent down from the top.
+Font: a clean geometric sans-serif, in the style of Jost, Futura or Montserrat. Regular weight, NOT bold.
+Size: 24 pixels, small.
+Letterspacing: WIDE, about 8 percent. This wide tracking is important.
+Colour: muted taupe, hex #8A7E72.
+The three items are separated by middot characters ( · ), not slashes, not pipes, not hyphens.
 
-OBJECT 1, LEFT, the hero, larger:
-A squat wide-mouthed amber glass jar, warm honey-brown translucent glass. A matte black screw-on lid, slightly wider than the jar body, with a finely ribbed knurled vertical texture around its edge, tilted just enough that the top of the lid is partly visible. On the lid top, a circular black label with a thin copper-gold ring border containing a small gold line-art bee and "TALLOW HONEY BALM" in gold serif capitals.
-On the jar front, a rectangular matte black label edged with a thin double-rule copper-gold border dividing it into stacked panels:
-  - Upper panel: "TALLOW HONEY BALM" in warm copper-gold serif capitals, letterspaced, on two centred lines.
-  - Centre panel: one detailed gold line-art honeybee, wings spread, fine copper-gold linework, centred. This is the label's visual anchor.
-  - Lower strip: "wiyun" in white lowercase sans-serif toward the right, with a small bordered box beneath reading "NET: 60G/2.12 OZ".
-The label is crisp and fully legible. Do not blur, de-label, or simplify it.
+═══ TYPOGRAPHY RULES ═══
+All three lines share the same vertical centre axis.
+Nothing anywhere in the image is bold. No weight heavier than regular.
+No drop shadows, no outlines, no glows, no strokes on any text.
+No boxes, panels, banners, or coloured blocks behind any text. The type sits directly on the cream background.
+No decorative rules, lines, flourishes, ornaments, or dividers.
+Spelling and punctuation must be exactly as written above, including the full stops and the middots.
+The band of empty cream between line 2 and the tops of the jars stays completely EMPTY. Do not fill it with anything.
+Keep all text at least 80 pixels from every edge of the frame.
 
-OBJECT 2, RIGHT, secondary, smaller, set slightly back:
-A small squat round jar. Translucent golden-amber plastic body with a soft vertical gradient. A glossy domed saturated orange plastic lid, taller than the body, giving a rounded pill-like silhouette. Navy blue printing on the body: "YURHERSU" in small sans capitals; "Tallow" beneath in a flowing navy italic script; "OVERNIGHT LIP MASK" in white capitals reversed out of a solid navy bar; "20g/0.7oz" in a thin navy outlined oval at the bottom.
+═══ LIGHTING ═══
+One large soft light source from the upper left, like a north-facing window on an overcast day. Long, soft, gradual shadows falling to the lower right, with no hard edges anywhere. A single restrained specular highlight running down the left shoulder of the amber glass, and a softer one across the curve of the orange lid. No rim lighting, no studio strobe look, no dramatic contrast, no coloured light.
 
-The two products are visually mismatched, black-and-gold against orange-and-navy, and that mismatch is INTENTIONAL. Do not harmonise their colours or restyle either to match the other.
+═══ CONTACT AND REALISM ═══
+Both jars sit with real physical weight. A soft contact shadow directly beneath each. A barely perceptible reflection of each jar in the surface immediately below it. Real photographic depth, not a cut-out composite.
 
-SPACING: a clear gap of empty surface between them, roughly the width of the smaller jar. They read as two separate objects placed together, not a designed set.
+═══ CAMERA ═══
+Shot from slightly above eye level looking gently down, close to a three-quarter view of both jars so their front labels are fully readable and the lid tops are just visible. Medium telephoto compression, minimal lens distortion. Sharp throughout, both labels in focus.
 
-LIGHT: one large soft source from the upper left, like a north-facing window on an overcast day. Long, soft, gradual shadows falling to the lower right with no hard edges. A single restrained specular highlight down the left shoulder of the amber glass and a softer one across the curve of the orange lid. No rim light, no strobe, no dramatic contrast.
+═══ DO NOT INCLUDE ═══
+No people, no hands, no skin, no faces. No plants, eucalyptus, dried flowers, linen, marble, wooden boards, stone slabs, water droplets, scattered ingredients, honey drizzle, honeycomb, beeswax, bowls, spoons or towels. No starbursts, price badges, percentage-off graphics, "SALE" flashes, arrows, borders, ribbons, corner banners or seals. No logos other than the products' own printed labels. No additional text beyond the three lines specified above. Not a lifestyle shot, not a flat-lay, not shot from directly overhead, not a cluttered still-life, not moody, not dark, not high-contrast.
 
-CONTACT: both objects sit with real weight. Soft contact shadow directly beneath each. A barely perceptible reflection in the surface below.
-
-CAMERA: slightly above eye level looking gently down, close to a three-quarter view so both front labels are fully readable and the lid tops are just visible. Medium telephoto compression, minimal distortion, sharp throughout, both labels in focus.
-
-CRITICAL: NO TEXT ANYWHERE IN THE IMAGE except the products' own printed labels. No headline, no caption, no offer text, no price, no badge, no watermark. The upper half of the frame must be completely empty cream. Type will be added afterwards.
-
-HARD NEGATIVES: no people, no hands, no skin, no faces. No plants, eucalyptus, dried flowers, linen, marble, wooden boards, stone slabs, water droplets, scattered ingredients, honey drizzle, honeycomb, beeswax, bowls, spoons or towels. No starbursts, price badges, percentage-off graphics, "SALE" or "FREE" flashes, arrows, borders or ribbons. Not a lifestyle shot. Not a flat-lay. Not shot from directly overhead. Not moody, not dark, not high-contrast.
-
-FEEL: quiet, expensive, certain. An offer that does not need to raise its voice.
-
-4:5 aspect ratio, 1080 x 1350.
+═══ OVERALL FEEL ═══
+Quiet, expensive, certain. An offer that does not need to raise its voice.
 ```
 
 ---
 
-### PROMPT — Route A: text baked in
-
-Use the Route B prompt **verbatim**, then replace the `CRITICAL:` paragraph with the block below and delete "no headline, no caption, no offer text" from the hard negatives.
-
-```
-TEXT RENDERED IN THE IMAGE, in the empty upper half, all centred horizontally on the canvas:
-
-LINE 1, positioned with its baseline about 17 percent down from the top of the frame:
-"Sixty days to decide."
-Set in an elegant high-contrast old-style serif, regular weight, NOT bold, generously letterspaced, in a warm near-black (#2B2724). Cap height roughly 6 percent of the frame height. Classic, editorial, restrained.
-
-LINE 2, positioned with its baseline about 23 percent down from the top, directly beneath line 1:
-"The lip mask is yours either way."
-Set in the SAME serif family, light italic, roughly half the size of line 1, in a warm mid-brown-grey (#5A5049).
-
-LINE 3, positioned with its baseline about 94 percent down from the top, along the bottom of the frame:
-"$49.99 · Free shipping · 60-day money-back guarantee"
-Set in a clean geometric sans-serif, regular weight, small, WIDELY letterspaced, in a muted taupe (#8A7E72). Separated by middots, not slashes or pipes.
-
-TYPE RULES: nothing is bold anywhere. No drop shadows, no outlines, no glows, no boxes or panels behind the text. The type sits directly on the cream ground. No decorative flourishes, rules, or ornaments. All three lines centred on the same vertical axis. Spelling must be exact.
-
-The band of empty cream between line 2 and the tops of the jars stays completely empty.
-```
-
-⚠️ **If Route A garbles a single character, switch to Route B.** Do not retouch generated text by hand; it never matches, and a near-miss is more damaging than plain type.
-
----
-
-### Layout diagram (1080 × 1350)
+## Layout reference (1080 × 1350)
 
 ```
 ┌──────────────────────────────────┐  y=0
 │                                  │
-│      Sixty days to decide.       │  baseline y=232   82px serif
-│  The lip mask is yours either    │  baseline y=316   42px serif italic
+│      Sixty days to decide.       │  baseline y=232  (17%)  82px serif
+│  The lip mask is yours either    │  baseline y=316  (23%)  42px serif italic
 │              way.                │
 │                                  │
-│         [ empty cream ]          │  ← stays empty, this is the register
-│                                  │
+│         [ empty cream ]          │  ← must stay empty
 │                                  │
 │    ▓▓▓▓▓▓                        │  y≈700  lid top
 │    ▓ jar ▓        ▓▓▓▓           │
 │    ▓ blk ▓        ▓ lip ▓        │
 │    ▓ gld ▓        ▓ msk ▓        │
-│    ▓▓▓▓▓▓         ▓▓▓▓▓          │  y≈1150 bases
+│    ▓▓▓▓▓▓         ▓▓▓▓▓          │  y≈1107 bases (82%)
 │      ╲ shadow      ╲ shadow      │
 │                                  │
-│ $49.99 · Free shipping · 60-day  │  baseline y=1268  24px sans +8%
+│ $49.99 · Free shipping · 60-day  │  baseline y=1268 (94%)  24px sans +8%
 └──────────────────────────────────┘  y=1350
-                                         (bottom 120px kept clear)
 ```
 
 ---
 
-### Headline variants for testing
+## Why the type is specced this way
 
-Same typography spec, swap line 1 and 2 only. Keep the footer fixed.
+- **Cormorant Garamond** echoes the serif on the jar's own label, so the type and the product look like they come from the same place. A different serif family makes the ad look like it was made *about* the product rather than *by* the brand.
+- **`#2B2724`, not pure black.** Pure black on warm cream reads digital and cheap. A warm near-black sits in the same light as the scene.
+- **The footer's +8% tracking is doing real work.** Wide-tracked small sans is the single most reliable signal of "considered" rather than "discounted."
+- **Middots, not slashes.** Slashes read as fine print; middots read as editorial.
+- **Nothing bold, anywhere.** Bold is the fastest way to turn a Classy Offer into a discount ad.
+
+---
+
+## If the generator garbles the text
+
+Check every character at 100% before shipping. Garbled type on an *offer* ad destroys the exact credibility the ad is buying, so a near-miss is worse than no text at all.
+
+If it comes back wrong after a few attempts, delete the entire `TEXT ON THE IMAGE` and `TYPOGRAPHY RULES` sections from the prompt, add "No text anywhere in the image except the products' own printed labels" to the DO NOT INCLUDE block, and set the three lines yourself in Canva or Figma using the exact specs above. Same result, guaranteed letterforms.
+
+---
+
+## Headline variants for testing
+
+Swap lines 1 and 2 inside the prompt. Keep everything else identical, footer included.
 
 | # | Line 1 | Line 2 |
 |---|---|---|
@@ -227,5 +197,4 @@ Same typography spec, swap line 1 and 2 only. Keep the footer fixed.
 | B | Try it for sixty days. | If you don't want it, we send the money back. |
 | C | You don't have to send it back. | Sixty days, and the lip mask is yours regardless. |
 
-**A leads** because it's the shortest, and because "decide" hands the reader agency instead of asking for it. B is the most explicit about the mechanic and is the one to test if A underperforms. C leads with the single most unusual term in the offer, which is the strongest hook of the three but also the least immediately legible at thumbnail.
-
+**A leads** — shortest, and "decide" hands the reader agency instead of asking for it. B is the most explicit about the mechanic and is the one to test if A underperforms. C leads with the most unusual term in the offer, which is the strongest hook of the three but the least immediately legible at thumbnail.
