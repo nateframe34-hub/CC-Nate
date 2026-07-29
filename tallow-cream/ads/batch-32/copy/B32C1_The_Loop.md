@@ -167,6 +167,9 @@ Oily skin is thirsty skin.
 
 ## IMAGE PROMPT — Nano Banana Pro
 
+✅ **USE FOUNDER IMAGE: the office whiteboard.** Closed red cycle (STRIP IT → SKIN PANICS → MAKES MORE OIL → SHINY BY LUNCH), "no exit" underlined in the centre, one thick green arrow breaking out to "PUT THE FAT BACK / nothing left to replace ✓", summary line "Your skin isn't oily. It's compensating.", markers in the tray, our real jar on the tray at the right. **The circle reads as genuinely closed**, which is the persuasive job: you can see there's no way off it before reading a word.
+
+
 **Type:** Real physical whiteboard, hand-drawn diagram, photographed.
 
 **Built on B19C2's actual construction, not on an informal-sketch interpretation.** B19C2 is the account's cheapest-ever CPM ($19-97) and best CPA ($11.35). Its image is a **real whiteboard with an aluminium frame, structured labelled columns, semantic colour, and every word legible at feed size.** Hand-drawn and organised are not opposites. The diagram must actually explain something at a glance or it is decoration.

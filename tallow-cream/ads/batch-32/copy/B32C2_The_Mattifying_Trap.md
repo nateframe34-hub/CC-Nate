@@ -165,6 +165,9 @@ Mattifying products are why you're still shiny.
 
 ## IMAGE PROMPT — Nano Banana Pro
 
+✅ **USE FOUNDER IMAGE: the fridge whiteboard.** Two columns split by a dashed line, left short and conspicuously empty ("removes oil ✓"), right carrying the full red cascade down to "YOU BUY MORE" circled, summary "$410 a year to make it worse." with a green "← put the fat back ✓" beside it, our real jar on the counter below-left. **The asymmetry survived intact** and is the argument. Bonus credibility: the half-erased "Shopping list" ghosting at the top and the takeaway menu magnet both say this is a fridge someone actually uses.
+
+
 **Type:** Real physical whiteboard, hand-drawn two-column diagram, photographed.
 
 **This is the structure closest to B19C2's actual winning construction** — a two-column comparison with semantic colour and a bottom summary line. C1 uses a loop; this uses columns. Two genuinely different diagrams, so the two cells don't fatigue the same viewer.

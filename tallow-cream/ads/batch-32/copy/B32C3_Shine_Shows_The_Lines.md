@@ -164,6 +164,9 @@ Shine shows off wrinkles.
 
 ## IMAGE PROMPT — Nano Banana Pro
 
+✅ **USE FOUNDER IMAGE: the outdoor community-centre noticeboard.** Two identical face profiles, SHINY (one hard red bounce, solid black shadow, "line reads deep") vs MATTE (green scattered arrows, light hatched shadow, "same line. barely reads."), summary "The line didn't change. The light did.", our real jar on the wooden ledge. **Most demonstrable of the three and least claim-exposed** — the viewer verifies it against their own experience of light, because it's a fact about surfaces rather than a claim about skin. Car park, brick wall and grimy board all correct.
+
+
 **Type:** Real physical whiteboard, hand-drawn optics diagram, photographed.
 
 **Third distinct diagram type in the batch.** C1 is a closed loop, C2 is two columns, C3 is a physics comparison with light rays. Three genuinely different visual structures, so a viewer who sees all three doesn't experience repetition.
