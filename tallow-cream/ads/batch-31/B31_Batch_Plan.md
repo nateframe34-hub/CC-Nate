@@ -17,10 +17,10 @@ The tradeoff should be stated up front rather than discovered later:
 | Floors | Yes, protecting each cell | **None** |
 | Cells | 3 | **6** |
 | Budget behavior | Forced even-ish spread | Meta concentrates on early signal |
-| What you get | A clean read on every cell | A winner, fast — or six cheap deaths |
+| What you get | A clean read on every cell | A winner, fast — or five cheap deaths |
 | What you give up | Speed | **Clean attribution on the losers** |
 
-**The thing to be clear-eyed about:** with no floors and six cells at $48/day, Meta will pick one or two within days and starve the rest. That is the intended behavior, not a malfunction — it's the whole point of removing floors. But it means **most B31 cells will die without a readable verdict**, and we must not then write feedback loops claiming "SA11 doesn't work" when SA11's cell got $6 total. B30's own feedback loop already warns about exactly this failure of attribution.
+**The thing to be clear-eyed about:** with no floors and five cells at $48/day, Meta will pick one or two within days and starve the rest. That is the intended behavior, not a malfunction — it's the whole point of removing floors. But it means **most B31 cells will die without a readable verdict**, and we must not then write feedback loops claiming "SA11 doesn't work" when SA11's cell got $6 total. B30's own feedback loop already warns about exactly this failure of attribution.
 
 If a clean read on a specific angle matters more than finding a winner, that's a different batch and it needs floors. Founder's call — but not both at once.
 
@@ -73,7 +73,7 @@ Second door into the same avatar. Single-angle depth, per the discipline that pr
 - **Hook:** "Still tight. Even after moisturizer."
 - **Why this hook:** it states the problem *and* sets up the mechanism reveal in one line. "Why isn't it working?" → "because it's mostly water." The 2pm version never had that built in.
 - **Must include:** the verbatim *"like plastic over a flame"* sensation; the sixth-moisturizer targeting (she has already failed with the cheap ones — name the category, not the brands); the water-first label check.
-- ⚠️ **Do NOT use the "stop carrying backup" angle.** Zero external evidence across two research rounds. It's our invention, same as the clock language.
+- ℹ️ **On the "stop carrying backup" beat (corrected 2026-07-29):** it has no external validation, but reading B17C1 shows it IS the habit-cessation beat of the proven converter (*"keeping them in three places. My purse. My car console. My bottom desk drawer at work"*). An earlier note here said not to use it; that's withdrawn. Use it as the habit-cessation beat — just never cite it as customer language.
 - **Image:** object-discovery trope.
 
 ### B31C4 — B17C1 re-cut to a night-one payoff ⭐ HIGHEST ODDS
@@ -159,6 +159,6 @@ SA9 (C1, C2) is the most claim-dangerous avatar in the document.
 
 ## Open question for founder
 
-**Six cells at $48/day means most cells die unread.** That's the intended mechanic of a winner-hunt, but it's worth confirming you want it, because the alternative is a real option: **run four cells instead of six** (C1, C3, C4, C5 — dropping the second SA9 door and SA11), which gives each cell enough room to actually produce a verdict while still being double the creative variety of B28/B30.
+**Five cells at $48/day still means some cells die unread.** That's the intended mechanic of a winner-hunt, but it's worth confirming you want it, because the alternative is a real option: **run four instead of five** (C1, C3, C4, C5 — dropping the second SA9 door), which gives each cell enough room to actually produce a verdict while still being more creative variety than B28/B30 had.
 
-**My recommendation: six.** Finding a winner matters more right now than clean attribution on cells we can re-run later, and the two cells I'd cut are the two I'd most want a real read on eventually — which is an argument for running them when they can get one, not for dropping them permanently.
+**My recommendation: five, now that SA11 has moved to B32.** Finding a winner matters more right now than clean attribution on cells we can re-run later, and the two cells I'd cut are the two I'd most want a real read on eventually — which is an argument for running them when they can get one, not for dropping them permanently.
