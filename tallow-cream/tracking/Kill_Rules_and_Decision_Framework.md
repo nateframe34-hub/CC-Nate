@@ -194,4 +194,25 @@ Full derivation in `feedback-loops/CPM_CTR_CPC_Profitability_Analysis.md`.
 - Cheap CPM + healthy CTR = genuine format advantage (B19C2: $19-97 CPM, $11.35 CPA). Bank it.
 - Cheap CPM + weak CTR = relegation to junk inventory (B30: $22-101 CPM, 0 purchases). Kill it, and do not log the cheap CPM as a win.
 
-**Which lever to pull:** at $275 CPM, breakeven needs 8.2% CTR and target needs 12.4% — at or above the account's all-time best. At $150 CPM, breakeven needs 4.5% and target 6.8%, both routine here. **Halving CPM halves the CTR requirement.** Attack CPM, not CTR.
+**Which lever to pull — CORRECTED 2026-07-30.** The earlier version of this section said "attack CPM, not CTR." **Struck.** On 7/30 B28C1 ran a **$380.23 CPM with 13.95% CTR → $2.73 CPC → $16.35 CPA → 3.06 ROAS**, the best single day in the account's history and under the $20 Ideal Scaling CAC. CPM was ~2.5x the level the old rule called nearly-unprofitable.
+
+**CPM is an input and a diagnostic, never a target.** Attack CPC by whatever route works, and on this account that route has always been CTR. Every profitable day here was bought with a strong click rate, not with cheap impressions.
+
+### The two primary metrics
+
+1. **CPC** — cost of attention. Thresholds above.
+2. **LPV → Purchase rate** — whether the page closes. 7/30: B28C1 20% (5→1), B17C1 25% (4→1).
+
+Everything else — CPM, CTR, ATC rate, checkout rate — is diagnostic. Useful for explaining *why* CPC or LPV→purchase moved. Not a target in itself.
+
+**Note on the ×9 multiplier:** 7/30 ran 11 clicks → 2 purchases = **18%** click-to-purchase, not the 11% the ×9 was built on. At 18% the multiplier is ×5.5 and every threshold above loosens by ~40%. Two purchases is not enough to change the model. **Recompute at n≥5 purchases.**
+
+### ROLLING-WINDOW RULE (added 2026-07-30)
+
+> **No CPM, CTR, or CPC verdict off fewer than 3 days or 300 cumulative impressions, whichever comes later.**
+
+Same discipline as not calling an ad a winner off one purchase. Day-level metrics on 40-70 impressions are noise wearing a decimal point. B17C1, unchanged copy and image: **11.43% CTR (7/18), 5.81% (7/27), 6.94% (7/30).** The three-day average is information; any single day is not.
+
+Also still in force: **no CTR read under 50 impressions, no CPM read under 100.** B31C5's 7/30 row — $698 CPM, 40.00% CTR, $1.75 CPC on **5 impressions** — is the canonical example of a row to log and ignore.
+
+**The one exception:** the hard kill line ($40 spend with no purchase) still fires on cumulative spend regardless of window. It is a spend rule, not a metric read.

@@ -6,6 +6,40 @@
 
 ---
 
+## 0. CORRECTION, 2026-07-30 evening — read this before anything below it
+
+The first version of this doc ended on **"attack CPM, not CTR."** That was wrong, and the same day's data disproved it. Two corrections from Nate, both correct:
+
+**(1) CPM is an input, not a target. CPC and LPV→Purchase are the targets.**
+
+Today's numbers settle it:
+
+| Cell | CPM | CTR | **CPC** | LPV | Purch | **CPA** | ROAS |
+|---|---|---|---|---|---|---|---|
+| **B28C1** | **$380.23** | **13.95%** | **$2.73** | 5 | 1 | **$16.35** | **3.06** |
+| B17C1 | $387.64 | 6.94% | $5.58 | 4 | 1 | ~$27.91 | ~1.79 |
+| B31C5 | $698.00 | 40.00% | $1.75 | 2 | 0 | — | — *(5 impressions, noise)* |
+
+**B28C1 posted the best single day in the account's history — $16.35 CPA, 3.06 ROAS, under the $20 Ideal Scaling CAC — at a $380 CPM.** That is nearly 8x B30's CPM and roughly 3x the "$150 CPM" figure section 4 argued we had to reach. CTR simply paid for the inventory.
+
+And section 1 already contained the counter-evidence to my own conclusion: B28C1 had the account's **highest** CPM in that table and its **cheapest** CPC. I read the table and then wrote a conclusion the table doesn't support.
+
+**The correct operating rule:** attack CPC by whatever route works. On this account that route has consistently been CTR, not CPM — every profitable day in the history of the account was bought with a strong click rate, not with cheap impressions.
+
+**(2) No CPM / CTR / CPC verdict off 1-2 days.** Same discipline as not calling an ad a winner off one purchase. Day-level figures on 40-70 impressions are noise dressed as data. See the rolling-window rule in section 7.
+
+**What survives from below unchanged:**
+- `CPC = CPM ÷ (CTR × 10)` — arithmetic, always true.
+- The **paired-reading rule** and the relegation-vs-genuine-format distinction (section 5). This is the *real* use of CPM: cheap CPM with weak CTR means Meta relegated you. That diagnostic is intact and valuable.
+- The fresh-object lever (section 7 item 5) — but reframed. It's worth doing because it's cheap and it moves CPC, not because CPM is the goal.
+
+**What is retired:**
+- "Attack CPM, not CTR." Struck.
+- Section 4's implication that ~$275 CPM makes profitability nearly impossible. **Falsified the same day at $380 CPM.** The table is still arithmetically correct; the strategic reading of it was not.
+- The section 6 B32 scenarios that assume cheap CPM is the path. B32 is still worth flooring — but because it's an untested format that may carry a high CTR, not because of its CPM.
+
+---
+
 ## 1. The number that actually matters is CPC, and neither CPM nor CTR alone tells you anything
 
 CPM and CTR are not two competing goals. They're two inputs to one output:
@@ -150,7 +184,13 @@ The whiteboard × native hybrid was designed to split the job: the diagram earns
 
 **3. Never bank a cheap CPM without checking CTR in the same breath.** Write it into feedback loops as a paired reading.
 
-**4. Stop optimising for CTR at $275 CPM.** It's the harder of the two levers. Going from 7.7% to 12.4% CTR means beating the account's all-time best consistently. Going from $275 to $150 CPM means matching something the account has already done (B19C2, and B17C1's own $94-135 fresh-object window on 7/5).
+**4. ~~Stop optimising for CTR at $275 CPM.~~ STRUCK 7/30 — see section 0.** The claim was that 12.4% CTR meant beating the account's all-time best. B28C1 did **13.95%** the same day this was written, and turned a $380 CPM into a $2.73 CPC and a 3.06 ROAS. CTR is the lever that has actually worked here. Keep pulling it.
+
+**4a. The two primary metrics are CPC and LPV→Purchase rate.** Everything else is diagnostic.
+- **CPC** is the cost of attention. Thresholds in the kill framework.
+- **LPV→Purchase** is whether the page closes. Today: B28C1 5 LPV → 1 purchase (20%), B17C1 4 LPV → 1 (25%). Blended across today's two converters, **11 clicks → 2 purchases = 18%** click-to-purchase, versus the 11% assumed in section 3. If 18% holds, the multiplier is **CPA ≈ CPC × 5.5**, not × 9, and the CPC thresholds loosen substantially. Two purchases is not enough to move the model — recompute at n≥5.
+
+**4b. Rolling-window rule. No CPC, CTR, or CPM verdict off fewer than 3 days or 300 impressions, whichever comes later.** Day-level reads on 40-70 impressions swing wildly: B17C1 ran 11.43% CTR on 7/18, 5.81% on 7/27, 6.94% on 7/30 — same ad, same copy. Averaging those is a signal; any one of them is noise. The exception stays the hard kill line ($40 spend, no purchase), which is a spend rule, not a metric read.
 
 **5. The fresh-object lever is also a CPM lever, and it's cheap.** B17C1 ran at **$94-135 CPM** immediately after its 7/5 duplication, versus $259-408 now. At $135 CPM and its normal 6% CTR, its CPC would be **$2.25** and CPA **~$20**. The proven converter was profitable at target four weeks ago and the only thing that changed is object staleness. **Duplicating B17C1 into a fresh ad object is a near-free test with a large expected effect.** Per the 7/17 external research, the standing SOP was a 2-3 week refresh cadence and it's overdue.
 
