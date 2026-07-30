@@ -205,7 +205,29 @@ Full derivation in `feedback-loops/CPM_CTR_CPC_Profitability_Analysis.md`.
 
 Everything else — CPM, CTR, ATC rate, checkout rate — is diagnostic. Useful for explaining *why* CPC or LPV→purchase moved. Not a target in itself.
 
-**The ×9 multiplier stands.** 7/30 ran 13 clicks → 1 purchase (7.7%), or 9.1% across the two converter cells — just under the 11% the ×9 was built on. If anything ×9 is slightly optimistic. Recompute at n≥5 purchases.
+**MULTIPLIER CORRECTED 2026-07-30 (second pass).** The earlier ×9 came from single days with one purchase each, and a follow-up "×34" came from a broken query that matched `Ad_Name == "B17C1"` exactly and so missed the rows logged as `B17C1 Control (B9C3 verbatim)` and `B17C1 (relaunched)`. **Always substring-match ad names in this tracker — B17C1 alone appears under three.**
+
+On the full corrected record:
+
+| Basis | Sample | Click→Purchase | **Multiplier** |
+|---|---|---|---|
+| **B17C1 (all names, 38 days)** | 206 clicks, 10 purchases | **4.85%** | **CPA ≈ CPC × 21** |
+| B28C1 (6 days) | 24 clicks, 1 purchase | 4.17% | × 24 |
+| July, whole account | 277 clicks, 9 purchases | 3.25% | × 31 |
+
+**Use ×21 for proven converters, ×31 for unproven cells.** LPV→purchase runs **~5%** (B17C1 5.85% across 171 LPV — a well-sampled figure, not noise).
+
+### CORRECTED CPC THRESHOLDS (supersede the ×9 table above)
+
+| Target CPA | Required CPC @ ×21 | Required CPC @ ×31 |
+|---|---|---|
+| $20 Ideal Scaling | $0.95 | $0.65 |
+| **$30.16 breakeven** | **$1.44** | **$0.97** |
+| $40 kill line | $1.90 | $1.29 |
+
+**Current lifetime CPC: B17C1 $3.03, B28C1 $3.21.** The gap to breakeven is **~2x**, and it is entirely traffic cost — the funnel itself is healthy (~5% LPV→purchase, 43% ATC→purchase). B17C1 ran **$94-135 CPM** in its post-duplication window versus $257-434 now; closing that drift alone plausibly closes the whole 2x. **Fresh-object duplication is the highest-expected-value action available and it is free.**
+
+**Do NOT read the funnel as broken.** 8% LPV→ATC is normal-to-good for ecommerce, ~5% LPV→purchase is a healthy store, and 43% ATC→purchase is strong. An earlier "fix the PDP" recommendation was based on treating normal rates as a leak and is **withdrawn.**
 
 ### ROLLING-WINDOW RULE (added 2026-07-30)
 
