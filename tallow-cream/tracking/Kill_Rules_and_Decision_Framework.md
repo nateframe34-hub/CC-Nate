@@ -201,11 +201,11 @@ Full derivation in `feedback-loops/CPM_CTR_CPC_Profitability_Analysis.md`.
 ### The two primary metrics
 
 1. **CPC** — cost of attention. Thresholds above.
-2. **LPV → Purchase rate** — whether the page closes. 7/30: B28C1 20% (5→1), B17C1 25% (4→1).
+2. **LPV → Purchase rate** — whether the page closes. 7/30 account-wide: **11 LPV → 1 purchase = 9%.** B28C1 5 → 1 (20%); B17C1 4 LPV, 1 checkout initiated, **0 purchases.**
 
 Everything else — CPM, CTR, ATC rate, checkout rate — is diagnostic. Useful for explaining *why* CPC or LPV→purchase moved. Not a target in itself.
 
-**Note on the ×9 multiplier:** 7/30 ran 11 clicks → 2 purchases = **18%** click-to-purchase, not the 11% the ×9 was built on. At 18% the multiplier is ×5.5 and every threshold above loosens by ~40%. Two purchases is not enough to change the model. **Recompute at n≥5 purchases.**
+**The ×9 multiplier stands.** 7/30 ran 13 clicks → 1 purchase (7.7%), or 9.1% across the two converter cells — just under the 11% the ×9 was built on. If anything ×9 is slightly optimistic. Recompute at n≥5 purchases.
 
 ### ROLLING-WINDOW RULE (added 2026-07-30)
 

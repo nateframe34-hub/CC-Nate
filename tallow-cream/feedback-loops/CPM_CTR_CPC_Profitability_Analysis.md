@@ -17,8 +17,10 @@ Today's numbers settle it:
 | Cell | CPM | CTR | **CPC** | LPV | Purch | **CPA** | ROAS |
 |---|---|---|---|---|---|---|---|
 | **B28C1** | **$380.23** | **13.95%** | **$2.73** | 5 | 1 | **$16.35** | **3.06** |
-| B17C1 | $387.64 | 6.94% | $5.58 | 4 | 1 | ~$27.91 | ~1.79 |
+| B17C1 | $387.64 | 6.94% | $5.58 | 4 | **0** *(1 checkout initiated, did not close)* | — | — |
 | B31C5 | $698.00 | 40.00% | $1.75 | 2 | 0 | — | — *(5 impressions, noise)* |
+
+**One purchase on the day, B28C1's.** B17C1 reached checkout and did not close.
 
 **B28C1 posted the best single day in the account's history — $16.35 CPA, 3.06 ROAS, under the $20 Ideal Scaling CAC — at a $380 CPM.** That is nearly 8x B30's CPM and roughly 3x the "$150 CPM" figure section 4 argued we had to reach. CTR simply paid for the inventory.
 
@@ -188,7 +190,8 @@ The whiteboard × native hybrid was designed to split the job: the diagram earns
 
 **4a. The two primary metrics are CPC and LPV→Purchase rate.** Everything else is diagnostic.
 - **CPC** is the cost of attention. Thresholds in the kill framework.
-- **LPV→Purchase** is whether the page closes. Today: B28C1 5 LPV → 1 purchase (20%), B17C1 4 LPV → 1 (25%). Blended across today's two converters, **11 clicks → 2 purchases = 18%** click-to-purchase, versus the 11% assumed in section 3. If 18% holds, the multiplier is **CPA ≈ CPC × 5.5**, not × 9, and the CPC thresholds loosen substantially. Two purchases is not enough to move the model — recompute at n≥5.
+- **LPV → Purchase** is whether the page closes. Today: **11 LPV → 1 purchase = 9%**; on clicks, **13 clicks → 1 = 7.7%** (converter cells only: 11 → 1 = 9.1%). That sits just below the 11% the `CPA ≈ CPC × 9` multiplier was built on, so **the multiplier stands — if anything it is slightly optimistic.** Keep ×9 and recompute at n≥5 purchases.
+- **B17C1 is the LPV→purchase problem in miniature:** 4 LPV, 1 checkout initiated, 0 purchases. The traffic arrived and reached the checkout screen. Whatever killed it happened at or after checkout, not in the creative.
 
 **4b. Rolling-window rule. No CPC, CTR, or CPM verdict off fewer than 3 days or 300 impressions, whichever comes later.** Day-level reads on 40-70 impressions swing wildly: B17C1 ran 11.43% CTR on 7/18, 5.81% on 7/27, 6.94% on 7/30 — same ad, same copy. Averaging those is a signal; any one of them is noise. The exception stays the hard kill line ($40 spend, no purchase), which is a spend rule, not a metric read.
 
