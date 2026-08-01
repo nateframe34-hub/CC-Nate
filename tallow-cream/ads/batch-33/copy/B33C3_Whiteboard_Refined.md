@@ -6,7 +6,7 @@
 **Format:** Hand-drawn whiteboard diagram, stripped down, with a written reason to act
 **Awareness:** Solution-Aware entry → Most-Aware close
 **Sophistication response:** New Information
-**Status:** Image prompt written. **Hook SELECTED.** Skeleton and copy not yet written.
+**Status:** Image prompt written. **Hook SELECTED.** **Skeleton built.** Copy not yet written.
 
 ---
 
@@ -119,8 +119,38 @@ A board needs a reason to have been written on. All four keep the peer-relay cha
 
 ---
 
+---
+
+## STORY SKELETON (step 4) — built 2026-08-01
+
+**Narrator:** first-person personal story. Narrator 48, unnamed. Discovery character named.
+**Discovery vehicle:** Maureen, 61, who cleans her own gutters and has never bought anything on a recommendation in her life. **Peer-adjacent, non-medical, and specifically unglamorous** — her credibility is that she is obviously not the sort of person who falls for things.
+**Villain:** the assumption that the problem is complicated. Everything the narrator has been sold is built on it being complicated.
+**Permission shift:** it takes forty seconds and a marker. She was never going to work it out on her own, because nobody selling to her had any reason to draw it.
+
+**⚠️ STRUCTURAL CHANGE — MECHANISM IS FRONT-LOADED TO ~25-30%, NOT 50%.**
+The image *is* the diagram. A reader who clicks has already seen the mechanism and is arriving to have it explained, so holding it to the halfway mark leaves them waiting for something they think they already have. This is the one cell that deviates from the standard native ordering, and the deviation is deliberate.
+
+| # | Beat | Words | Content |
+|---|---|---|---|
+| 1 | **Hook scene** | 60-90 | The kitchen. The narrator has just said it sounds like nonsense. Maureen does not defend it. She gets up, finds a marker, and starts drawing on the board by the fridge. |
+| 2 | **The drawing** | 200-250 | **MECHANISM, FRONT-LOADED.** Two columns. What is in most of them and what happens to it. What is in this and what happens to that. Delivered entirely as Maureen talking while she draws, in fragments, with the narrator interrupting. Water leaves, fat stays, and the reason is that one of them is close to what skin makes and the other is not. |
+| 3 | **Narrator context** | 150-200 | Rewind. 48. Who she was before this conversation and why she was arguing. She is not gullible, which is exactly why she has spent so much: she believed the expensive ones were expensive for a reason. |
+| 4 | **The failed products** | 150-200 | The count. The escalation. The specific texture complaint in customer language — it sits on top, and underneath nothing has changed. **Damaging admission: she had rebought one of them twice, having forgotten she owned it.** |
+| 5 | **Why nobody drew it** | 100-150 | Villain beat. Not a conspiracy. Simply that nobody with something to sell has any reason to explain the category in two columns, because the second column is very short and very cheap. |
+| 6 | **The skeptic beat** | 80-120 | She takes a photograph of the board so she can argue with it later. She does argue with it. She goes home and turns her own bottles over and stops arguing. |
+| 7 | **First use + day markers** | 250-300 | Day 1, Day 4, Day 9, Day 14, Day 21. Skepticism precedes every step. |
+| 8 | **Habit-cessation** | 100-150 | The thing she stops doing without deciding to. |
+| 9 | **Social expansion + villain reversal** | 100-150 | She ends up drawing the same two columns for somebody else, badly, on the back of something. The reversal is that she is now the one holding the marker. |
+| 10 | **Transition to reader** | 80-120 | Completion of Thought: *you already know which column you have been buying from.* |
+| 11 | **Close** | 200-250 | Mirrors the hook: it sounded like nonsense. Identity payoff. Product named ~78%. $49.99, four ingredients, 60-day guarantee, free shipping. Loss framing. |
+
+**Compliance notes:** as C1. Additional — the whiteboard image already carries "Four ingredients. Sixty days to send it back," so the copy must not repeat that phrasing verbatim in the close or it reads as a template.
+
+---
+
 ## Still to do
 
 1. ~~Founder picks hook~~ ✅ done
-2. Build story skeleton (step 4)
+2. ~~Build story skeleton (step 4)~~ ✅ done
 3. Write body copy with the `learnings-on-native-ads` skill (step 5)

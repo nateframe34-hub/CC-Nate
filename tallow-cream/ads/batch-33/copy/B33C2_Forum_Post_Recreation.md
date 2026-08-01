@@ -5,7 +5,7 @@
 **Angle:** Angle 1 — one jar replaces the shelf that failed
 **Format:** Forum post screenshot, dark mode, with embedded photo grid
 **Awareness:** Problem-Aware entry → Most-Aware close
-**Status:** Image prompt written. **Hook SELECTED.** Skeleton and copy not yet written.
+**Status:** Image prompt written. **Hook SELECTED.** **Skeleton built.** Copy not yet written.
 
 ---
 
@@ -113,8 +113,37 @@ Because the image is itself a post, the copy should read as the person who wrote
 
 ---
 
+---
+
+## STORY SKELETON (step 4) — built 2026-08-01
+
+**Narrator:** first-person personal story, told by the woman who made the post in the image. The ad is the caption the post refers to. **This is the only cell where the image and the copy are the same artifact**, which is why the hook can be this bare.
+**Discovery vehicle:** a stranger in the replies. No username given, no product named in the reply itself. **Zero commercial agenda is the entire credibility architecture here** — a stranger who does not sell anything and does not follow up is more believable than any expert.
+**Villain:** the replies themselves. Two hundred and forty-seven of them, and almost every one is something she has already bought. The villain is the assumption that the answer is another purchase.
+**Permission shift:** the one reply that does not recommend anything. It tells her she has not damaged herself, and that is what she was actually asking for.
+**Awareness:** Problem-Aware entry — she leads with the raw state, not with a solution category.
+
+| # | Beat | Words | Content |
+|---|---|---|---|
+| 1 | **Hook scene** | 60-90 | One in the morning, bathroom light, phone at arm's length. Taking photographs of her own face to put in front of strangers. She does not explain why yet. |
+| 2 | **Narrator context** | 150-200 | 46. What she was actually afraid of, stated plainly: that she had done this to herself, and that it was permanent. That fear is the reason for the hour. |
+| 3 | **What she had tried** | 150-200 | The three years. The rough count. The specific escalation: gentler, then more expensive, then more aggressive, then gentler again. **Damaging admission: she kept every one of them, because throwing them out felt like admitting the money was gone.** |
+| 4 | **The replies** | 150-200 | The count arrives here, not in the hook. Two hundred and forty-seven. She read every one. They were kind. They were also, almost without exception, things already sitting in her bathroom. The villain does its work: the entire crowd's answer to a purchase problem is a purchase. |
+| 5 | **The one reply + discovery** | 200-250 | One reply near the bottom, no product named, low votes. It asks a question instead of answering: what is the first ingredient on the one you like best? She goes and looks. Then she messages the stranger. **The discovery is reluctant and accidental — she was not looking for a recommendation, she was looking for absolution.** |
+| 6 | **Mechanism** | 150-200 | Delivered as the stranger's messages, in fragments, over an evening. First position on the panel is the largest constituent. Water leaves. The reason nothing held was never her skin. Closes every alternative in the replies without naming one. |
+| 7 | **Permission shift, explicit** | 80-120 | The line she actually needed: she had not wrecked anything. She had been solving the wrong problem accurately for three years. |
+| 8 | **First use + day markers** | 250-300 | Day 1, Day 4, Day 9, Day 14, Day 21. Skepticism first, every time. Deliberately modest — she is a person who just posted photographs of her own face, so overclaiming here would break the character completely. |
+| 9 | **Habit-cessation** | 100-150 | She stops taking the photographs. She had been documenting it every few days for months and one day realises she has not opened the camera in three weeks. |
+| 10 | **Villain reversal** | 80-120 | She goes back and posts an update. Played quiet. Someone asks what she used and she thinks about how to answer it without becoming one of the two hundred and forty-six. |
+| 11 | **Transition to reader** | 80-120 | Completion of Thought: *you have a version of that post you have never made.* |
+| 12 | **Close** | 200-250 | Mirrors the hook: the photographs, the hour, the fear. Identity payoff. Product named at ~78%. $49.99, four ingredients, 60-day guarantee, free shipping. Loss framing. |
+
+**Compliance notes:** everything in the C1 list applies. Additional for this cell — describe the skin state in feel-and-look language only (dry, tight, papery, flaking), never as a named condition, never as damage, never as anything requiring treatment. The narrator's fear that she "damaged" herself is her *belief*, and the ad must resolve it as unfounded rather than confirm it.
+
+---
+
 ## Still to do
 
 1. ~~Founder picks hook~~ ✅ done
-2. Build story skeleton (step 4)
+2. ~~Build story skeleton (step 4)~~ ✅ done
 3. Write body copy with the `learnings-on-native-ads` skill (step 5)

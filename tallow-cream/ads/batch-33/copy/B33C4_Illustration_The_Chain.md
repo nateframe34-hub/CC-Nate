@@ -6,7 +6,7 @@
 **Format:** Flat vector illustration with speech bubble
 **Awareness:** Problem-Aware entry, causation held backwards → Most-Aware close
 **Sophistication response:** New Information
-**Status:** Image prompt written. **Hook SELECTED.** Skeleton and copy not yet written.
+**Status:** Image prompt written. **Hook SELECTED.** **Skeleton built.** Copy not yet written.
 
 ---
 
@@ -114,8 +114,38 @@ Angle 2 hooks. The speech bubble already carries the chain idea, so the copy's o
 
 ---
 
+---
+
+## STORY SKELETON (step 4) — built 2026-08-01
+
+**ANGLE 2 — the only cell off Angle 1.** Belief-shifting, not belief-proving. The old belief being dismantled: *the answer to a skin problem is another product.* The new belief being installed: *the products were generating the problem they were sold to solve.*
+
+**Narrator:** first-person personal story. Narrator 45, unnamed.
+**Discovery vehicle:** accident, then a peer. **She does not decide to stop.** She is away for eleven days with one small bag, takes almost nothing, and her skin improves while she is doing less to it than she has done in years. The peer arrives afterwards to explain what happened, because she cannot explain it herself.
+**Villain:** the escalation logic of the category. Not a company. A structure — where every product creates a condition the next product is sold to address.
+**Permission shift, and it must be strong here:** taking things away feels like giving up, so she has to be released from the idea that subtraction is surrender before she will consider it.
+
+| # | Beat | Words | Content |
+|---|---|---|---|
+| 1 | **Hook scene** | 60-90 | Stated flat, from the far side of it. She fixed it by taking things away, it took four years to try, and the reason it took four years is that taking things away felt like quitting. |
+| 2 | **The chain, named** | 150-200 | The specific loop. What she started with. What that did. What she bought for that. What that did. Four links, each one traceable, each one a reasonable decision at the time. **This is the beat the illustration depicts, so it must be concrete and countable.** |
+| 3 | **Narrator context** | 150-200 | 45. Why she is not the kind of person who does eleven steps, and how she ended up doing eleven steps anyway. The logic was never vanity, it was troubleshooting. |
+| 4 | **The eleven days** | 200-250 | **Accidental discovery.** The trip, the small bag, what she actually took. She was not testing anything. About day six she notices she cannot feel her own face, in the good sense. She assumes it is the water, the air, the sleep, anything except the obvious. |
+| 5 | **The peer** | 150-200 | Someone she tells, offhand, expecting to be told it was the climate. Instead gets the explanation. Peer-adjacent, no credential, no agenda. |
+| 6 | **Mechanism** | 150-200 | Two halves. Why stripping generates the thing it is sold to treat, so more product means more problem. And what was actually missing the whole time, which is a fat rather than a water. **Both halves are required — without the second the ad is an argument for buying nothing.** |
+| 7 | **Permission shift, explicit** | 100-150 | Subtraction is not giving up. She was not under-treating. She was over-correcting, accurately, for four years, in the direction she was pointed. |
+| 8 | **First use + day markers** | 250-300 | Day 1, Day 4, Day 9, Day 14, Day 21. Skepticism first each time. |
+| 9 | **Habit-cessation** | 100-150 | The counter empties. Not thrown out — she simply stops replacing them as they run out, and one day there is nothing there. |
+| 10 | **Social expansion + villain reversal** | 100-150 | Somebody asks what she is using now and does not believe the answer, because the answer is too short. She recognises the disbelief. |
+| 11 | **Transition to reader** | 80-120 | Completion of Thought: *you can name the one you bought to fix what the last one did.* |
+| 12 | **Close** | 200-250 | Mirrors the hook: taking things away. Identity payoff. Product named ~78%. $49.99, four ingredients, 60-day guarantee, free shipping. Loss framing. |
+
+**Compliance notes:** as C1, plus two specific to this cell. **This is NOT the SA11 shine angle** — do not import "your skin makes oil because it is dry," that belongs to a different avatar and a different batch. And do not let the subtraction argument tip into a claim that other products cause harm; the frame is that they did not do what she needed, and that adding more of the wrong category could not solve it.
+
+---
+
 ## Still to do
 
 1. ~~Founder picks hook~~ ✅ done
-2. Build story skeleton (step 4)
+2. ~~Build story skeleton (step 4)~~ ✅ done
 3. Write body copy with the `learnings-on-native-ads` skill (step 5)

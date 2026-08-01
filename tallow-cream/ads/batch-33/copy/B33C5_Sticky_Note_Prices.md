@@ -5,7 +5,7 @@
 **Angle:** Angle 1 — one jar replaces the shelf that failed, carried by the cost contrast
 **Format:** Real-scene photograph with handwritten sticky-note price labels (diegetic text)
 **Awareness:** Solution-Aware entry → Most-Aware close
-**Status:** Image prompt written. **Hook SELECTED (rewritten).** Skeleton and copy not yet written.
+**Status:** Image prompt written. **Hook SELECTED (rewritten).** **Skeleton built.** Copy not yet written.
 
 ---
 
@@ -144,8 +144,39 @@ The image already delivers the number, so the copy should not open by restating 
 
 ---
 
+---
+
+## STORY SKELETON (step 4) — built 2026-08-01
+
+**Narrator:** first-person personal story. Narrator 49, unnamed. Daughter named.
+
+**⚠️ STRUCTURAL CHANGE — THIS AD IS TOLD FROM AFTER THE CHANGE.**
+The hook establishes that she has already switched: *the only thing I still use.* So the ad is a retrospective, framed by the table, and the discovery arrives as flashback. **This framing device is what makes the product's presence in the image legitimate**, and it is the reason this cell's hook had to be rewritten. Every other cell in the batch is told forward; this one is told from the far end and returns to the table at the close.
+
+**Discovery vehicle (in flashback):** Rae, a colleague, who mentioned it once and never brought it up again. **The non-follow-up is the credibility.** Someone who recommends a thing once and then drops it has nothing riding on it.
+**Villain:** the arithmetic. Not a brand — the fact that the number was never visible, because it arrived $40 and $60 at a time across three years and no single purchase ever felt unreasonable.
+**Permission shift:** no individual decision on that table was stupid. Every one of them was a sensible response to the last one not working. It only looks absurd totalled.
+
+| # | Beat | Words | Content |
+|---|---|---|---|
+| 1 | **Hook scene** | 60-90 | The daughter thinks she is exaggerating. So she empties the cabinet onto the table, writes what she paid on each one, and sets the one she still uses at the far end. Present tense, the scene in the image. |
+| 2 | **The number** | 150-200 | The total, and the fact that she genuinely did not know it until the notes were down. **The villain beat: no single purchase was ever the problem.** Nothing on that table cost enough to argue about on its own. |
+| 3 | **Narrator context** | 150-200 | 49. Why she started buying. The specific complaint in customer language, not clock language. Why she kept every empty and near-empty one instead of binning them, which is the sourced SA2 behaviour and the reason there is anything to lay out at all. |
+| 4 | **The escalation, walked** | 150-200 | Flashback begins. The pattern the prices show when read in order: cheap, then mid, then expensive, on the theory that price was the variable she had not tried. **Damaging admission: one of them she bought twice.** |
+| 5 | **Discovery scene** | 200-250 | Rae, in a break room, mentioning it once in passing, in the middle of a conversation about something else. Not a recommendation. An aside. The narrator ignores it for weeks. **Accidental, reluctant, and slow — efficiency here would read as scripted.** |
+| 6 | **Mechanism** | 150-200 | Delivered as Rae's aside expanded, remembered rather than transcribed. First ingredient, largest constituent, water leaves. Why the price ladder was never going to work: she had been buying more expensive versions of the same category error. **This is where the escalation beat pays off.** |
+| 7 | **First use + day markers** | 250-300 | Day 1, Day 4, Day 9, Day 14, Day 21. Skepticism precedes each. |
+| 8 | **Habit-cessation** | 100-150 | She stops buying. Not a decision — the reorder emails stop being opened, and a season goes by. |
+| 9 | **Return to the table** | 100-150 | Back to present tense. The daughter, the notes, the total. Third-party observation: the daughter reads the number out loud, and hearing it in someone else's voice is what lands it. |
+| 10 | **Transition to reader** | 80-120 | Completion of Thought: *you could not tell me your number either, and you could find out in about ten minutes.* |
+| 11 | **Close** | 200-250 | Mirrors the hook: the table, the notes, the one at the end. Identity payoff. Product named ~78% — **note it appears in the image from the first second, so the naming is confirmation, never a reveal.** $49.99 against the total, four ingredients, 60-day guarantee, free shipping. Loss framing. |
+
+**Compliance notes:** as C1, plus the truthfulness framing already recorded in this file — **the prices are the narrator's own record of what she personally paid.** The copy must never present them as current retail prices, never name a brand alongside a price, and never make a comparative pricing claim about any competitor. The contrast is between her own past spending and one current purchase.
+
+---
+
 ## Still to do
 
 1. ~~Founder picks hook~~ ✅ done (rewritten to account for the jar in frame)
-2. Build story skeleton (step 4)
+2. ~~Build story skeleton (step 4)~~ ✅ done
 3. Write body copy with the `learnings-on-native-ads` skill (step 5)

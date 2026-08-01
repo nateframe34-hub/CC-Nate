@@ -6,7 +6,7 @@
 **Format:** Clinical / technical evidence document
 **Awareness:** Solution-Aware entry → Most-Aware close
 **Sophistication response:** New Information
-**Status:** Image prompt written. **Hook SELECTED.** Skeleton and copy not yet written.
+**Status:** Image prompt written. **Hook SELECTED.** **Skeleton built.** Copy not yet written.
 
 ---
 
@@ -113,8 +113,36 @@ Hooks must open on a scene or an action, never a bare claim (Pattern C failure m
 
 ---
 
+---
+
+## STORY SKELETON (step 4) — built 2026-08-01
+
+**Narrator:** first-person personal story. Unnamed narrator, 47, secondary characters named. Standard for this account: the narrator is the reader, the named people are the credibility chain.
+**Discovery vehicle:** Dana, 52, married to the narrator's brother. Spent twenty-odd years in food packaging and reads ingredient panels reflexively, the way some people proofread menus. **Peer-adjacent, never medical.** Her authority is a habit, not a credential.
+**Villain:** the category convention itself — water as the largest constituent by weight — plus the counter assistant who kept telling her she had "difficult skin."
+**Permission shift:** it was never her skin failing. She was buying the same thing six times and being told the fault was hers.
+**Mechanism depth:** ~50%, standard native placement. The image is the *evidence* of the mechanism, not the mechanism itself, so the copy does not need to front-load it.
+
+| # | Beat | Words | Content |
+|---|---|---|---|
+| 1 | **Hook scene** | 60-90 | Sunday, the kitchen table, after lunch. Dana has been upstairs "washing her hands" for far too long. She comes down with six of the narrator's own bottles and a printed sheet, and lays them out. One word circled on each. She does not explain immediately. |
+| 2 | **Narrator context** | 150-200 | 47. Office manager. Two kids, one at college. Not a person who chases things. The skin thing started years ago and she treated it as weather: something that happens to you. Names the specific feeling in customer language, not clock language — it never feels like anything went in. |
+| 3 | **The failed products** | 150-200 | The count. Six on the table, more in the drawer. The escalation pattern: each one bought after the last stopped doing anything, each one more expensive than the last on the theory that price was the variable. The counter assistant's line: "some skin is just difficult." **Damaging admission: she never once turned a bottle over.** |
+| 4 | **Discovery scene** | 200-250 | Dana explains what she was doing upstairs. The ordering rule on an ingredient panel — descending by quantity, so whatever is first is the largest single thing in the jar. She had checked all six. Same word, first position, every time. The sheet is what she printed to show it, because saying it out loud sounded like a conspiracy. |
+| 5 | **Mechanism** | 150-200 | Delivered as Dana's dialogue, not exposition. Water is the biggest thing in the jar. Water leaves. What is left behind is a small amount of everything else and a bill. Skin makes its own oil and makes less of it than it used to, so the thing being replaced is a fat, and what she has been buying is mostly not fat. **Each competitor closes here, without a single one being named.** |
+| 6 | **The skeptic beat** | 80-120 | She argues. If it were that simple somebody would have said so. Dana's answer is the strongest line available: nobody is hiding it, it is printed on the back of every single one, and nobody reads the back. |
+| 7 | **First use + day markers** | 250-300 | Day 1 skeptical and specific, "it did not disappear, which was new." Day 4. Day 9. Day 14. Day 21. Skepticism precedes every improvement — Damaging Admission applied to the timeline. |
+| 8 | **Habit-cessation** | 100-150 | She notices the drawer is still shut. Weeks of not opening it. She had not decided to stop, she just had no reason to open it. |
+| 9 | **Social expansion + villain reversal** | 100-150 | Her daughter takes it to college. The reversal is played quiet: she goes back to the same counter for something else and does not need to ask the assistant anything. |
+| 10 | **Transition to reader** | 80-120 | Completion of Thought. Not "are you struggling with" — instead: *you have never turned one over either. You know exactly where they are right now.* |
+| 11 | **Close** | 200-250 | Mirrors the hook: six bottles and a circled word. Identity payoff. Product named at ~78%. $49.99, four ingredients, 60-day guarantee, free shipping. Loss framing, not gain framing. |
+
+**Compliance notes for the writer:** no menopause or hormonal language; no anti-aging, wrinkles, or fine lines; no heal/repair/treat/cure — use works, absorbs, feels different; call it a jar or balm, never a moisturizer, serum, routine or regimen; no em-dashes in body copy; no clock-time idioms ("by noon," "by 2pm") since the 7/29 research established those are ours, not the customer's.
+
+---
+
 ## Still to do
 
 1. ~~Founder picks hook~~ ✅ done
-2. Build story skeleton (step 4)
+2. ~~Build story skeleton (step 4)~~ ✅ done
 3. Write body copy with the `learnings-on-native-ads` skill (step 5)
