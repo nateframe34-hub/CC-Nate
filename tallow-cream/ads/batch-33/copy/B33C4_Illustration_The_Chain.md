@@ -93,11 +93,21 @@ NOT photorealistic. NOT 3D rendered. NOT a polished editorial illustration. NOT 
 
 ---
 
-## HOOK — SELECTED (founder, 2026-07-31)
+## HOOK — SELECTED (founder, 2026-07-31), REVISED 2026-08-01
 
-> **"I fixed it by taking things away. It took me four years to try that, because taking things away felt like giving up."**
+> **"Taking things away fixed most of it.**
+> **It took me four years to try that, because taking things away felt like giving up.**
+> **Then I had to work out what the rest was."**
 
-**Why this one (founder's pick):** it names the identity barrier, which is the actual reason this angle has never worked on this reader before. Subtraction reads as surrender to someone who has spent years buying. Stating that out loud in line one is the permission shift arriving before the pain rather than after it, and it is what makes the rest of the ad safe to read. Belief-shifting angle, so the old belief has to be named and released early.
+**Founder picked candidate 2** (*"I fixed it by taking things away. It took me four years to try that, because taking things away felt like giving up."*), then restructured the story on 2026-08-01: **she realises she needs to do less, does less, improves — but is still having problems — and only then goes looking, which is where our mechanism arrives.**
+
+That restructure made the original hook inaccurate. Subtraction no longer fixes it; subtraction fixes *most* of it. The revision does three jobs:
+
+- **Accuracy.** The hook now matches the arc instead of overstating it.
+- **It plants a loop the original did not have.** "Most of it" makes the reader ask *what was the rest?* — and that question resolves at the mechanism, roughly halfway, rather than the hook functioning as a thesis statement with nothing left to find out.
+- **It keeps the identity barrier in line two,** which is the reason this hook was chosen: subtraction reads as surrender to someone who has spent four years buying, and naming that early is the permission shift arriving before the pain.
+
+Line three is the shortest and does the most work. It never hints at a product or a category.
 
 ---
 
@@ -142,9 +152,11 @@ Angle 2 hooks. The speech bubble already carries the chain idea, so the copy's o
 
 **Permission shift — explicit, and it must be strong.** She was not under-treating. She was over-correcting, accurately, for four years, in the direction she was pointed.
 
-**10. Mechanism — TWO HALVES, BOTH REQUIRED.** (a) Why doing more generates the thing it is sold to treat. (b) What was actually missing the whole time: a fat, not a water. **Without (b) this ad argues for buying nothing.** Delivered through the peer, in dialogue. One analogy.
+**10. THE PLATEAU — the beat the 2026-08-01 restructure adds, and the one that makes this ad work.** Doing less genuinely improved things. It did not finish the job. She is better than she was and still not right, and she now has the worst possible problem: **the thing that worked has stopped working and there is nothing left to remove.** This is where the reader who was about to conclude "so I should just stop buying things" gets corrected by the story rather than by an argument.
 
-**11. Discovery vehicle.** Eleven days away with one small bag. **She was not testing anything** — around day six she notices she cannot feel her own face, in the good sense, and attributes it to the water, the air, the sleep, anything but the obvious. The peer arrives afterwards because she cannot explain it herself. Per the skill, reluctant and slow beats efficient; efficiency signals a script.
+**11. Discovery — she goes looking, and looking does not find it.** She researches properly for the first time in four years. **Her investigation is real and almost entirely unproductive** — everything she turns up is another product, which is the villain doing its work one more time. The answer still arrives sideways, from a person, in a conversation she was not having for that reason. **This split is deliberate: she earns the discovery by looking, but she does not find it by looking.** Per the skill, efficient discovery signals a script, and 4 of 4 of this account's converters discover accidentally. The restructure keeps the motivation and protects the pattern.
+
+**Mechanism — TWO HALVES, BOTH STILL REQUIRED.** (a) Why doing more generates the thing it is sold to treat, which explains the four years. (b) What was missing the whole time: a fat, not a water — which explains the plateau. **The restructure means half (b) now answers a question the reader is actively holding rather than one the copy has to manufacture.** Delivered through the peer, in dialogue. One analogy.
 
 **12. Results timeline.** Day 1, 4, 9, 14, 21, doubt first each time. Third-party observation once.
 
@@ -174,8 +186,10 @@ Angle 2 hooks. The speech bubble already carries the chain idea, so the copy's o
 | 1 | **Hook scene** | 60-90 | Stated flat, from the far side of it. She fixed it by taking things away, it took four years to try, and the reason it took four years is that taking things away felt like quitting. |
 | 2 | **The chain, named** | 150-200 | The specific loop. What she started with. What that did. What she bought for that. What that did. Four links, each one traceable, each one a reasonable decision at the time. **This is the beat the illustration depicts, so it must be concrete and countable.** |
 | 3 | **Narrator context** | 150-200 | 45. Why she is not the kind of person who does eleven steps, and how she ended up doing eleven steps anyway. The logic was never vanity, it was troubleshooting. |
-| 4 | **The eleven days** | 200-250 | **Accidental discovery.** The trip, the small bag, what she actually took. She was not testing anything. About day six she notices she cannot feel her own face, in the good sense. She assumes it is the water, the air, the sleep, anything except the obvious. |
-| 5 | **The peer** | 150-200 | Someone she tells, offhand, expecting to be told it was the climate. Instead gets the explanation. Peer-adjacent, no credential, no agenda. |
+| 4 | **Cutting back** | 150-200 | She strips it back. Not bravely — she runs out of ideas. Things improve, noticeably and fast enough that she is briefly certain she has solved it. |
+| 4b | **The plateau** | 150-200 | **RESTRUCTURE BEAT.** Better, and still not right. Nothing left to remove. The improvement stalls and she has run out of moves. |
+| 5 | **Looking, and not finding** | 150-200 | She researches properly for the first time in four years. Everything she finds is another product. Unproductive, and the frustration is the point. |
+| 5b | **The peer** | 150-200 | The answer arrives sideways, from a person, in a conversation she was not having for that reason. Peer-adjacent, no credential, no agenda. |
 | 6 | **Mechanism** | 150-200 | Two halves. Why stripping generates the thing it is sold to treat, so more product means more problem. And what was actually missing the whole time, which is a fat rather than a water. **Both halves are required — without the second the ad is an argument for buying nothing.** |
 | 7 | **Permission shift, explicit** | 100-150 | Subtraction is not giving up. She was not under-treating. She was over-correcting, accurately, for four years, in the direction she was pointed. |
 | 8 | **First use + day markers** | 250-300 | Day 1, Day 4, Day 9, Day 14, Day 21. Skepticism first each time. |
