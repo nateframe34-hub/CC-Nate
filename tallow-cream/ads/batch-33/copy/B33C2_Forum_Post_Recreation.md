@@ -5,7 +5,7 @@
 **Angle:** Angle 1 — one jar replaces the shelf that failed
 **Format:** Forum post screenshot, dark mode, with embedded photo grid
 **Awareness:** Problem-Aware entry → Most-Aware close
-**Status:** IMAGE PROMPT ONLY. Hook not yet picked. Copy not written.
+**Status:** Image prompt written. **Hook SELECTED.** Skeleton and copy not yet written.
 
 ---
 
@@ -92,7 +92,15 @@ NO device frame, phone bezel, notch, status bar, battery icon or clock. NO Reddi
 
 ---
 
-## Hook candidates (NOT YET PICKED — founder selects at step 3)
+## HOOK — SELECTED (founder, 2026-07-31)
+
+> **"I posted those photos at one in the morning because I genuinely did not know what else to do."**
+
+**Why this one (founder):** *"it causes a relatable feeling for the reader enticing them to continue reading if they feel similarly."* The specific hour is doing the work — one in the morning is not a detail anyone invents, and it locates a state the reader has been in. Self-selection is total: someone who has never been up at 1am about this scrolls past, which is exactly what we want. Loop planted: what happened after she posted?
+
+---
+
+## All candidates considered
 
 Because the image is itself a post, the copy should read as the person who wrote it elaborating, or as someone who found it. Both are native to the format.
 
@@ -107,6 +115,6 @@ Because the image is itself a post, the copy should read as the person who wrote
 
 ## Still to do
 
-1. Founder picks hook
+1. ~~Founder picks hook~~ ✅ done
 2. Build story skeleton (step 4)
 3. Write body copy with the `learnings-on-native-ads` skill (step 5)

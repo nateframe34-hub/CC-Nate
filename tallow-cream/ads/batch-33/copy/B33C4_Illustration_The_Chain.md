@@ -6,7 +6,7 @@
 **Format:** Flat vector illustration with speech bubble
 **Awareness:** Problem-Aware entry, causation held backwards → Most-Aware close
 **Sophistication response:** New Information
-**Status:** IMAGE PROMPT ONLY. Hook not yet picked. Copy not written.
+**Status:** Image prompt written. **Hook SELECTED.** Skeleton and copy not yet written.
 
 ---
 
@@ -93,7 +93,15 @@ NOT photorealistic. NOT 3D rendered. NOT a polished editorial illustration. NOT 
 
 ---
 
-## Hook candidates (NOT YET PICKED — founder selects at step 3)
+## HOOK — SELECTED (founder, 2026-07-31)
+
+> **"I fixed it by taking things away. It took me four years to try that, because taking things away felt like giving up."**
+
+**Why this one (founder's pick):** it names the identity barrier, which is the actual reason this angle has never worked on this reader before. Subtraction reads as surrender to someone who has spent years buying. Stating that out loud in line one is the permission shift arriving before the pain rather than after it, and it is what makes the rest of the ad safe to read. Belief-shifting angle, so the old belief has to be named and released early.
+
+---
+
+## All candidates considered
 
 Angle 2 hooks. The speech bubble already carries the chain idea, so the copy's opening line should not simply restate it — it should give the chain a scene.
 
@@ -108,6 +116,6 @@ Angle 2 hooks. The speech bubble already carries the chain idea, so the copy's o
 
 ## Still to do
 
-1. Founder picks hook
+1. ~~Founder picks hook~~ ✅ done
 2. Build story skeleton (step 4)
 3. Write body copy with the `learnings-on-native-ads` skill (step 5)

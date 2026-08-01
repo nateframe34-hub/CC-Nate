@@ -5,7 +5,7 @@
 **Angle:** Angle 1 — one jar replaces the shelf that failed, carried by the cost contrast
 **Format:** Real-scene photograph with handwritten sticky-note price labels (diegetic text)
 **Awareness:** Solution-Aware entry → Most-Aware close
-**Status:** IMAGE PROMPT ONLY. Hook not yet picked. Copy not written.
+**Status:** Image prompt written. **Hook SELECTED (rewritten).** Skeleton and copy not yet written.
 
 ---
 
@@ -106,7 +106,32 @@ NOT a styled flat-lay. NOT a marble or fluffy fabric surface. NOT evenly spaced 
 
 ---
 
-## Hook candidates (NOT YET PICKED — founder selects at step 3)
+## HOOK — SELECTED (founder, 2026-07-31), REWRITTEN to solve the jar problem
+
+> **"My daughter thought I was exaggerating.**
+> **So I put all of it on the table and wrote what I paid on each one.**
+> **Then I put the only thing I still use down at the other end."**
+
+**Founder picked candidate 3** (*"My daughter did not believe me, so I got the sticky notes out"*) and correctly flagged the problem with it:
+
+> *"gives a explanation but I think we need to improve it a bit, it doesn't explain why the tallow is there we don't want to go in depth about it but if we don't address it it'll instantly read ad and people will scroll."*
+
+**This is the sharpest catch in the batch.** Our jar is sitting in the frame with a price on it. The original hook explains the pile and the sticky notes but leaves the jar unaccounted for, so the reader resolves the image as an ad before reaching line two. Every other cell can leave its image partly unexplained; this one cannot, because the unexplained element is the product.
+
+**How the rewrite fixes it.** The jar's presence becomes the *reason the count happened*. The daughter's disbelief, the audit, and the lone jar are one causal chain, so nothing in the frame is unaccounted for. Three short sentences, one job each: the pile, the notes, the jar.
+
+**What it deliberately does not do.** It never names the jar, never says what it is, and never claims anything about it. "The only thing I still use" is the whole reveal, and it plants the loop the body copy resolves: what is it, and why is it the only one? Per the hook standard, the reader must not be able to work out what is being sold from line one.
+
+Silent-reading structure: three sentences, none over 16 words, each on its own line. No verbal tics.
+
+### Variants considered and rejected
+
+- *"I did not set out to prove anything. My daughter said I was exaggerating about what I had spent, and forty minutes later there was a table covered in sticky notes and one jar sitting off on its own."* — good accidental-discovery framing, but one long sentence fights the silent-reading rhythm.
+- *"My daughter did not believe me, so I got the sticky notes out. The one down at the bottom on its own is what replaced all the rest of it."* — explains the jar too completely. Hands over the answer in line one and closes the loop before the ad starts.
+
+---
+
+## All candidates considered
 
 The image already delivers the number, so the copy should not open by restating it flatly.
 
@@ -121,6 +146,6 @@ The image already delivers the number, so the copy should not open by restating 
 
 ## Still to do
 
-1. Founder picks hook
+1. ~~Founder picks hook~~ ✅ done (rewritten to account for the jar in frame)
 2. Build story skeleton (step 4)
 3. Write body copy with the `learnings-on-native-ads` skill (step 5)

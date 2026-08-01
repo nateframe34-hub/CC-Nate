@@ -6,7 +6,7 @@
 **Format:** Clinical / technical evidence document
 **Awareness:** Solution-Aware entry → Most-Aware close
 **Sophistication response:** New Information
-**Status:** IMAGE PROMPT ONLY. Hook not yet picked. Copy not written.
+**Status:** Image prompt written. **Hook SELECTED.** Skeleton and copy not yet written.
 
 ---
 
@@ -92,7 +92,15 @@ NOT a clean digital infographic. NOT a vector graphic. NOT a branded template. N
 
 ---
 
-## Hook candidates (NOT YET PICKED — founder selects at step 3)
+## HOOK — SELECTED (founder, 2026-07-31)
+
+> **"My sister-in-law circled one word on six different labels and laid them on the table in front of me like evidence."**
+
+**Why this one (founder):** *"explains the creative way better than any of the others."* Correct — it is the only candidate that tells you what the document in the image IS, which the others leave the reader to work out. "Like evidence" carries the whole tone: someone else built the case, the narrator is the one being shown. Peer-relay credibility chain intact (4 of 4 converters). Loop planted: which word?
+
+---
+
+## All candidates considered
 
 Hooks must open on a scene or an action, never a bare claim (Pattern C failure mode). All avoid clock-time language, which the 7/29 problem-side research established is our invention and not customer language.
 
@@ -107,6 +115,6 @@ Hooks must open on a scene or an action, never a bare claim (Pattern C failure m
 
 ## Still to do
 
-1. Founder picks hook
+1. ~~Founder picks hook~~ ✅ done
 2. Build story skeleton (step 4)
 3. Write body copy with the `learnings-on-native-ads` skill (step 5)

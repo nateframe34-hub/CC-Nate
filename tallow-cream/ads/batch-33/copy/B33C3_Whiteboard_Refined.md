@@ -6,7 +6,7 @@
 **Format:** Hand-drawn whiteboard diagram, stripped down, with a written reason to act
 **Awareness:** Solution-Aware entry → Most-Aware close
 **Sophistication response:** New Information
-**Status:** IMAGE PROMPT ONLY. Hook not yet picked. Copy not written.
+**Status:** Image prompt written. **Hook SELECTED.** Skeleton and copy not yet written.
 
 ---
 
@@ -98,7 +98,15 @@ NOT a digital vector diagram. NOT a clean infographic. NOT a designed graphic wi
 
 ---
 
-## Hook candidates (NOT YET PICKED — founder selects at step 3)
+## HOOK — SELECTED (founder, 2026-07-31)
+
+> **"I told her it sounded like nonsense. She did not argue with me. She just drew it."**
+
+**Why this one (founder's pick):** the skeptic-convert beat compressed into three sentences, and it is present in 4 of 4 converters. The reader gets to be the skeptic first, which means the diagram arrives as something she is being shown rather than something she is being sold. "She did not argue with me" is the credibility move — someone confident enough not to defend the claim. Loop planted: what did she draw?
+
+---
+
+## All candidates considered
 
 A board needs a reason to have been written on. All four keep the peer-relay chain that appears in 4 of 4 converters.
 
@@ -113,6 +121,6 @@ A board needs a reason to have been written on. All four keep the peer-relay cha
 
 ## Still to do
 
-1. Founder picks hook
+1. ~~Founder picks hook~~ ✅ done
 2. Build story skeleton (step 4)
 3. Write body copy with the `learnings-on-native-ads` skill (step 5)
