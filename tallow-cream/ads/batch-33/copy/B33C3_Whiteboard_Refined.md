@@ -121,7 +121,49 @@ A board needs a reason to have been written on. All four keep the peer-relay cha
 
 ---
 
-## STORY SKELETON (step 4) — built 2026-08-01
+---
+
+## STORY SKELETON — REBUILT VIA `learnings-on-native-ads` (step 4, 2026-08-01)
+
+> Supersedes the first-pass skeleton below, which used the internal 10-beat template without the skill's architecture. Beat table retained at the end as the word-count budget.
+
+**1. Awareness level — Solution-Aware.** Entry references the category directly and assumes prior attempts.
+
+**2. Narrator type — first-person personal story.** The narrator is the skeptic, which is the structural point of this cell.
+
+**3. Sophistication — Stage 3-4. Response: New Information**, delivered visually. The diagram *is* the sophistication response.
+
+**4. Angle — belief SHIFTING.** Old belief: *this is complicated and the people who understand it know more than I do.* New belief: *it is two columns and it takes forty seconds.*
+
+**5. Concept / the door — "The Argument Lost."** She fights it, out loud, and is answered with a drawing instead of a defence. Pulls the reader who has already dismissed tallow once. **Farthest-door check:** the only cell where the narrator's opening posture is hostile. That hostility is the segment being caught.
+
+**6. Hook mechanics.** *"I told her it sounded like nonsense. She did not argue with me. She just drew it."* Three sentences, each shorter than the last. Self-selection is inverted and unusually strong: **the reader is invited to be the skeptic**, which lets a dismissive reader stay. Trigger: the small social discomfort of being calmly contradicted. Loop: *what did she draw?* — resolves almost immediately, which is why this cell's structure differs.
+
+**⚠️ 7. STRUCTURAL DEVIATION — MECHANISM AT ~25-30%, NOT 50%.** The image is the diagram. A reader who clicks has already seen the mechanism and arrives wanting it explained. Withholding until the halfway mark leaves them waiting for something they believe they already have. **This is the one cell that breaks the standard native ordering, deliberately.**
+
+**8. World-building — placed AFTER the mechanism, in rewind.** Who she was before the argument and why she was arguing: not gullible, which is precisely why she overspent. She believed expensive things were expensive for a reason. False belief pre-installed, and it explains the whole spend history.
+
+**9. Villain — the assumption of complexity.** Defensible: nobody lied to her. Its crime is that no one with something to sell has any reason to draw the category in two columns, because the second column is short and cheap. **Permission shift immediately after:** she was never going to work it out alone, because the explanation has no commercial sponsor.
+
+**10. Mechanism — dialogue while drawing, with interruptions.** Root cause: one is close to what skin makes, the other is not. Cascade: water leads → leaves → sits on top → nothing underneath changes. **Required analogy**, one only. The narrator interrupts at least twice; interruption is what keeps this from becoming a lecture.
+
+**11. Discovery vehicle.** Maureen, 61, cleans her own gutters, has never bought anything on a recommendation. **Credibility is her evident immunity to being sold to.** Motive: none — she is not recommending, she is settling an argument.
+
+**12. Results timeline.** She photographs the board to argue with it later, then goes home and turns her own bottles over instead. Day 1, 4, 9, 14, 21 with doubt first. Third-party observation once.
+
+**13. Villain reversal.** She ends up drawing the same two columns for someone else, badly, on the back of something. **She is now holding the marker.**
+
+**14. Transition to the reader.** Completion of Thought: *you already know which column you have been buying from.*
+
+**15. Product section — ~78%. Close.** Mirrors the hook: it sounded like nonsense. Loss framing, risk reversal after the mechanism.
+
+**Six failure modes check:** Relatability engine, correct for solution-aware ✅ · knife twisted via the rebought-twice admission ✅ · permission shift present ✅ · no character break ✅ · results modest ✅ · **angle does not fight her — it recruits her skepticism rather than opposing it** ✅
+
+**⚠️ Writer's note:** the image already carries "Four ingredients. Sixty days to send it back." Do not reproduce that phrasing verbatim in the close or the ad reads as a template filling itself in.
+
+---
+
+## First-pass skeleton (superseded, retained as the word-count budget)
 
 **Narrator:** first-person personal story. Narrator 48, unnamed. Discovery character named.
 **Discovery vehicle:** Maureen, 61, who cleans her own gutters and has never bought anything on a recommendation in her life. **Peer-adjacent, non-medical, and specifically unglamorous** — her credibility is that she is obviously not the sort of person who falls for things.

@@ -146,7 +146,53 @@ The image already delivers the number, so the copy should not open by restating 
 
 ---
 
-## STORY SKELETON (step 4) — built 2026-08-01
+---
+
+## STORY SKELETON — REBUILT VIA `learnings-on-native-ads` (step 4, 2026-08-01)
+
+> Supersedes the first-pass skeleton below, which used the internal 10-beat template without the skill's architecture. Beat table retained at the end as the word-count budget.
+
+**1. Awareness level — Solution-Aware.** Entry is a table of things she has already bought.
+
+**2. Narrator type — first-person personal story, told retrospectively.**
+
+**⚠️ 3. STRUCTURAL DEVIATION — THE AD IS TOLD FROM AFTER THE CHANGE.** The hook establishes *the only thing I still use*, so discovery arrives as flashback and the ad returns to the table at the close. **This framing is what legitimises our product being visible in the image from the first second** — and it is precisely why this cell's hook had to be rewritten. Every other cell is told forward.
+
+**4. Sophistication — Stage 3-4. Response: New Information**, arriving through arithmetic rather than chemistry. The number is the new information.
+
+**5. Angle — belief SHIFTING.** Old belief: *none of this was excessive, each purchase was reasonable.* New belief: *every purchase was reasonable and the total is still absurd, because the reasonableness was the trap.*
+
+**6. Concept / the door — "The Audit."** Someone challenges her account of herself and she sets out to prove she is right. **Farthest-door check:** the only cell driven by the narrator trying to win, and the only one where the discovery is a number rather than a fact or a person.
+
+**7. Hook mechanics.** Three sentences, one job each: the pile, the notes, the lone jar. **Every element in the frame is accounted for**, which is mandatory here because the unaccounted element would be the product itself. It never names the jar. Loop: *what is it, and why is it the only one?*
+
+**8. The number — beat two.** The total, and that she genuinely did not know it until the notes were down. **Villain beat: no single purchase was ever the problem.** Nothing on that table cost enough to argue about alone.
+
+**9. World-building.** 49. Why she started. Why she kept the empties instead of binning them — the sourced SA2 behaviour, and the reason there is anything to lay out at all. False belief: price was the variable she had not tried, which the price ladder on the table demonstrates visually.
+
+**10. Villain — the arithmetic.** Defensible to the point of being blameless: it arrived $40 and $60 at a time across three years. **Permission shift:** no decision on that table was stupid. Each was a sensible response to the last one failing. It only looks absurd totalled.
+
+**11. Mechanism — remembered, not transcribed.** Root cause, cascade, and the payoff of the escalation beat: she had been buying more expensive versions of the same category error. One analogy.
+
+**12. Discovery vehicle — credibility through non-follow-up.** Rae, a colleague, mentions it once in a break room, mid-conversation about something else, and never raises it again. **The not-mentioning-it-again is the credibility.** The narrator ignores it for weeks. Reluctant, slow, accidental.
+
+**13. Results timeline.** Day 1, 4, 9, 14, 21, doubt first.
+
+**14. Habit-cessation and return to present.** The reorder emails stop being opened; a season passes. Then back to the table. **Third-party observation carries the close: the daughter reads the number out loud, and hearing it in someone else's voice is what lands it.**
+
+**15. Transition to the reader.** Completion of Thought: *you could not tell me your number either, and you could find out in about ten minutes.*
+
+**16. Product section — ~78%.** **Note: it has been visible in the image since the first second, so naming it is confirmation, never a reveal.** Price reframed against her own total, never against a competitor's.
+
+**17. Close.** Mirrors the hook: the table, the notes, the one at the end. Loss framing. Risk reversal after the mechanism.
+
+**Six failure modes check:** Relatability engine, correct for solution-aware ✅ · knife twisted through the total, not through symptoms ✅ · permission shift present and necessary, since the reader is being shown her own waste ✅ · no character break ✅ · results modest ✅ · angle confirms a suspicion she already half-holds ✅
+
+**⚠️ Truthfulness boundary:** the prices are **the narrator's own record of what she personally paid.** Never presented as current retail prices, never paired with a brand name, never a comparative pricing claim. The contrast is her own past spending against one current purchase.
+
+---
+
+## First-pass skeleton (superseded, retained as the word-count budget)
 
 **Narrator:** first-person personal story. Narrator 49, unnamed. Daughter named.
 

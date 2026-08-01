@@ -116,7 +116,51 @@ Angle 2 hooks. The speech bubble already carries the chain idea, so the copy's o
 
 ---
 
-## STORY SKELETON (step 4) — built 2026-08-01
+---
+
+## STORY SKELETON — REBUILT VIA `learnings-on-native-ads` (step 4, 2026-08-01)
+
+> Supersedes the first-pass skeleton below, which used the internal 10-beat template without the skill's architecture. Beat table retained at the end as the word-count budget.
+
+**1. Awareness level — Problem-Aware, with the causation held backwards.** She knows the problem intimately and has the direction of cause reversed. Per the skill, this demands the need be dramatised before the reveal, because the reveal only lands against a fully built wrong model.
+
+**2. Narrator type — first-person personal story.** The peer arrives late and only to explain.
+
+**3. Sophistication — Stage 3-4. Response: New Information**, and this is the batch's purest example: the reader is not told her product is better, she is told her model is inverted.
+
+**4. Angle — belief SHIFTING. ANGLE 2, the only cell off Angle 1.** Old belief: *the answer to a skin problem is another product.* New belief: *the products were generating the problem they were sold to solve.* **Emotional voltage is the highest in the batch and so is the risk** — if the shift fails, the ad reads as an argument for buying nothing at all.
+
+**5. Concept / the door — "The Accidental Deprivation."** Circumstance removes everything and the removal is the experiment. Pulls the segment who have quietly noticed their skin behaves better on holiday and never drew the conclusion. **Farthest-door check:** the only cell where the narrator makes no decision at all — the discovery happens *to* her.
+
+**6. Hook mechanics.** *"I fixed it by taking things away. It took me four years to try that, because taking things away felt like giving up."* Trigger is **identity**, not curiosity: subtraction reads as surrender to someone who has spent years buying. Naming that in line one is the permission shift arriving before the pain rather than after it, which is what makes the rest safe to read.
+
+**7. The chain — beat two, concrete and countable.** Four links, each traceable, each a reasonable decision at the time. **This is the beat the illustration depicts, so it must be specific enough that the image reads as its diagram.**
+
+**8. World-building.** 45, not a person who does eleven steps, who ended up doing eleven steps. The logic was never vanity — it was troubleshooting. That distinction protects her from looking foolish and keeps the reader inside her.
+
+**9. Villain — the escalation logic of the category.** Not a company. A structure in which each product creates a condition the next is sold to address. **Highly defensible** — every individual product did roughly what it said.
+
+**Permission shift — explicit, and it must be strong.** She was not under-treating. She was over-correcting, accurately, for four years, in the direction she was pointed.
+
+**10. Mechanism — TWO HALVES, BOTH REQUIRED.** (a) Why doing more generates the thing it is sold to treat. (b) What was actually missing the whole time: a fat, not a water. **Without (b) this ad argues for buying nothing.** Delivered through the peer, in dialogue. One analogy.
+
+**11. Discovery vehicle.** Eleven days away with one small bag. **She was not testing anything** — around day six she notices she cannot feel her own face, in the good sense, and attributes it to the water, the air, the sleep, anything but the obvious. The peer arrives afterwards because she cannot explain it herself. Per the skill, reluctant and slow beats efficient; efficiency signals a script.
+
+**12. Results timeline.** Day 1, 4, 9, 14, 21, doubt first each time. Third-party observation once.
+
+**13. Villain reversal.** Someone asks what she is using and does not believe the answer, because the answer is too short. She recognises the disbelief as her own from four years earlier.
+
+**14. Transition to the reader.** Completion of Thought: *you can name the one you bought to fix what the last one did.*
+
+**15. Product section — ~78%. Close.** Mirrors the hook: taking things away. Loss framing, risk reversal after the mechanism.
+
+**Six failure modes check:** engine matched to a Problem-Aware reader holding a wrong model ✅ · knife twisted through the four-year delay, not through symptom description ✅ · permission shift front-loaded into the hook and restated ✅ · no character break ✅ · results modest ✅ · **failure mode 6 is the live risk here — the angle contradicts a belief she holds firmly, so it must be dismantled gently and self-reached, never asserted** ⚠️
+
+**⚠️ Two hard boundaries:** this is **NOT** SA11's "your skin makes oil because it is dry" — that belongs to another avatar and another batch, do not import it. And the subtraction argument must never tip into claiming other products cause harm; the frame is that they did not do what she needed and that more of the wrong category could not fix it.
+
+---
+
+## First-pass skeleton (superseded, retained as the word-count budget)
 
 **ANGLE 2 — the only cell off Angle 1.** Belief-shifting, not belief-proving. The old belief being dismantled: *the answer to a skin problem is another product.* The new belief being installed: *the products were generating the problem they were sold to solve.*
 

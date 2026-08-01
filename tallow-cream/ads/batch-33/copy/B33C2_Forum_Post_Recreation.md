@@ -115,7 +115,51 @@ Because the image is itself a post, the copy should read as the person who wrote
 
 ---
 
-## STORY SKELETON (step 4) — built 2026-08-01
+---
+
+## STORY SKELETON — REBUILT VIA `learnings-on-native-ads` (step 4, 2026-08-01)
+
+> Supersedes the first-pass skeleton below, which used the internal 10-beat template without the skill's architecture. Beat table retained at the end as the word-count budget.
+
+**1. Awareness level — Problem-Aware.** Entry is raw state, no solution category named. Per the skill, the job here is to *dramatize the need* before she bounces. The photographs already do that, so the copy's opening job is not to establish the problem but to establish the fear underneath it.
+
+**2. Narrator type — first-person personal story, with a community/peer recommendation embedded.** The narrator is the poster; the discovery arrives from a stranger with no agenda. The image and the copy are the same artifact, which is unique in this batch.
+
+**3. Sophistication — Stage 3-4. Response: New Information**, delivered by someone who explicitly refuses to recommend a product.
+
+**4. Angle — belief SHIFTING.** Old belief: *I have damaged my own skin and it may be permanent.* New belief: *nothing was damaged; the wrong category was applied accurately for three years.* **This is the most emotionally loaded shift in the batch and the permission shift is the whole ad.**
+
+**5. Concept / the door — "The Public Confession."** She exposes herself to strangers because she has run out of private options. Pulls the segment at the end of their patience rather than the ones still shopping. **Farthest-door check:** the only cell where the narrator is the one who initiates and where the crowd, not a single person, is the antagonist.
+
+**6. Hook mechanics.** *"I posted those photos at one in the morning because I genuinely did not know what else to do."* Self-selection through the hour — 1am is not a detail anyone invents. Trigger is not embarrassment but **desperation**, and the specific loop is: *what happened when she posted?* No product, no category, no benefit.
+
+**7. World-building.** Before-state established briefly and then abandoned; this ad lives in the present. The decline is told through escalation of *strategy* — gentler, then costlier, then more aggressive, then gentler again — which is the shape of someone troubleshooting rather than indulging. False belief pre-installed and named early: **that she did this to herself.**
+
+**8. Villain — the replies.** Two hundred and forty-seven of them, kind, well-meant, and almost all things already in her bathroom. **The villain is defensible** — nobody in that thread is acting badly — which per the skill is what creates real tension. Its crime is structural: the crowd's answer to a purchase problem is another purchase.
+
+**Permission shift — the structural load-bearer of this entire ad.** One reply near the bottom, low votes, no product named, tells her she has not wrecked anything. It arrives at roughly 45-50% and everything after it is only possible because of it.
+
+**9. Mechanism — delivered as fragments over an evening.** Root cause: first-listed is the largest constituent. Cascade: water leads → water leaves → nothing held → she escalated → escalation could not fix a category error. **Required analogy**, one only. The mechanism must arrive in messages, not exposition, to keep her in story mode.
+
+**10. Discovery vehicle — credibility through refusal.** A stranger who **asks a question instead of answering one**: what is the first ingredient on the one you like best? No handle given, no follow-up, nothing sold. Per the skill, a stranger with no commercial agenda outranks any expert. **Her motive for engaging is not shopping — it is absolution**, which is why the discovery reads as accidental rather than efficient.
+
+**11. Results timeline — deliberately the most modest in the batch.** This narrator has just published photographs of her own face; overclaiming would destroy her. Day 1, 4, 9, 14, 21 with doubt first every time. Third-party observation once, unprompted.
+
+**12. Villain reversal.** She posts an update. Someone asks what she used, and she hesitates over how to answer without becoming one of the 246. Played quiet — the reversal is that she is now the person being asked.
+
+**13. Transition to the reader.** Completion of Thought: *you have a version of that post you have never made.* Then contrast amplification.
+
+**14. Product section — ~78%.** Named late and plainly. Differentiators tie to the cascade.
+
+**15. Close.** Mirrors the hook: the photographs, the hour, the fear. Loss framing. Risk reversal after the mechanism.
+
+**Six failure modes check:** Problem-Aware entry with a real permission shift, so knife-without-release is avoided ✅ · pain is twisted, not described — the fear of self-inflicted permanence, not a symptom list ✅ · permission shift is the structural spine ✅ · no character break ✅ · results modest by necessity ✅ · the angle releases a belief she is desperate to be rid of ✅
+
+**⚠️ Compliance boundary specific to this cell:** her belief that she "damaged" herself is *her belief*, and the ad resolves it as unfounded. Never confirm damage, never name a condition, never imply treatment. Feel-and-look language only.
+
+---
+
+## First-pass skeleton (superseded, retained as the word-count budget)
 
 **Narrator:** first-person personal story, told by the woman who made the post in the image. The ad is the caption the post refers to. **This is the only cell where the image and the copy are the same artifact**, which is why the hook can be this bare.
 **Discovery vehicle:** a stranger in the replies. No username given, no product named in the reply itself. **Zero commercial agenda is the entire credibility architecture here** — a stranger who does not sell anything and does not follow up is more believable than any expert.

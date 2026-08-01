@@ -115,7 +115,49 @@ Hooks must open on a scene or an action, never a bare claim (Pattern C failure m
 
 ---
 
-## STORY SKELETON (step 4) — built 2026-08-01
+---
+
+## STORY SKELETON — REBUILT VIA `learnings-on-native-ads` (step 4, 2026-08-01)
+
+> Supersedes the first-pass skeleton below, which used the internal 10-beat template without the skill's architecture. Beat table retained at the end as the word-count budget.
+
+**1. Awareness level — Solution-Aware.** Entry is a table of products she already owns. The reader must already know solutions exist and have bought several for the hook to land. Per the skill, the job at this stage is to explain *why everything else failed* and position ours as the only thing addressing the real cause. That is exactly what a circled word on six labels does.
+
+**2. Narrator type — first-person personal story.** Strongest for solution-aware readers who must trust the person before the product. The narrator is not the expert; she is the one being shown.
+
+**3. Sophistication — Stage 3-4. Response: New Information.** Not a bigger claim, not a better mechanism. A fact she can verify herself in ninety seconds on her own bathroom shelf. Verifiability is what beats accumulated skepticism at this stage.
+
+**4. Angle — belief SHIFTING.** Old belief: *my skin is difficult and I have not yet found the product strong enough for it.* New belief: *the products were never the wrong strength, they were the wrong category, and the label says so.* The shift must feel self-reached — the narrator has to go and check her own bottles on the page.
+
+**5. Concept / the door — "The Relative Who Investigated."** Someone else builds the case against your cabinet while you are downstairs. Pulls the segment who suspect they have been wasting money but have never had it demonstrated. **Farthest-door check:** distinct from the other four cells — she is not confessing (C2), not arguing (C3), not deprived by circumstance (C4), not challenged on her own account (C5). Here she is simply *shown*, and her passivity is the point.
+
+**6. Hook mechanics.** *"My sister-in-law circled one word on six different labels and laid them on the table in front of me like evidence."* Self-selection: only someone with six-plus bottles reads on. No product, benefit, or category is hinted. Emotional trigger is not curiosity but **exposure** — someone has gone through her things and found a pattern she missed. "Like evidence" is the load-bearing phrase; it frames her as the subject of an investigation. Loop planted: *which word?* — resolves at the mechanism, roughly halfway.
+
+**7. World-building.** Before-state: a person who does not chase things, who treated this as weather. Gradual decline told through *purchases* rather than symptoms, because for this avatar the purchases are the record. False belief pre-installed: price was the variable she had not yet tried. That belief is what makes the mechanism land, because it explains why spending more kept failing.
+
+**8. Villain — earned, structural, and defensible.** The category convention that water leads the panel. It has a legitimate position (water is not a scandal, it is a formulation choice) which per the skill is what stops it being cartoonish. Its crime is not the ingredient, it is that the ordering rule is printed on every package and nobody reads it. Secondary human villain: the counter assistant with *"some skin is just difficult."*
+
+**Permission shift — placed immediately after the mechanism.** She has not been foolish and she has not failed. She read the front of every package and never the back, which is what the packages are designed for.
+
+**9. Mechanism — root cause and cascade, delivered in dialogue.** Root cause: the first-listed ingredient is the largest constituent by weight. Cascade: water leads → water leaves → what remains is a small residue and a bill → buying a more expensive version buys a more expensive water. **Required analogy** (writer's choice, one only): the ordering rule as a receipt she never turned over. Every alternative closes here without one being named.
+
+**10. Discovery vehicle — credibility architecture.** Dana, 52, twenty years in food packaging, reads ingredient panels the way some people proofread menus. **Motive: none.** She was not looking to help; she was being nosy. Habit-based authority, never credential-based, never medical. Pre-emptive inoculation: the reader leaves knowing how to evaluate anything in the category, and everything in her cabinet fails the test.
+
+**11. Results timeline — skepticism rhythm mandatory.** Day 1 qualified and unremarkable. Day 4, 9, 14, 21. Doubt precedes every improvement. **Third-party observation** required at least once — someone notices unprompted, which is worth more than any self-report.
+
+**12. Villain reversal — understated.** She returns to the same counter for something unrelated and does not need to ask the assistant anything. Played as a non-event.
+
+**13. Transition to the reader — Completion of Thought.** Not "are you struggling with." Instead: *you have never turned one over either, and you could tell me right now which drawer they are in.* Contrast amplification immediately after the resolution.
+
+**14. Product section — ~78%.** Confirmation, not persuasion. Every differentiator ties back to the cascade: four ingredients, fat-first, nothing that evaporates. **Watch for failure mode 4 — no tonal break at the reveal.**
+
+**15. Close.** Mirrors the hook: six bottles, one circled word. Loss framing over gain framing. Risk reversal (60-day) placed after the mechanism, functioning as risk removal rather than defensive pre-handling.
+
+**Six failure modes check:** engine correct for solution-aware (Relatability, not Twist the Knife) ✅ · twisting the knife not merely describing pain, via the "never turned one over" admission ✅ · permission shift present and placed ✅ · no character break at reveal — enforce in the draft ✅ · results modest and qualified ✅ · angle confirms a suspicion she already holds rather than fighting her ✅
+
+---
+
+## First-pass skeleton (superseded, retained as the word-count budget)
 
 **Narrator:** first-person personal story. Unnamed narrator, 47, secondary characters named. Standard for this account: the narrator is the reader, the named people are the credibility chain.
 **Discovery vehicle:** Dana, 52, married to the narrator's brother. Spent twenty-odd years in food packaging and reads ingredient panels reflexively, the way some people proofread menus. **Peer-adjacent, never medical.** Her authority is a habit, not a credential.
