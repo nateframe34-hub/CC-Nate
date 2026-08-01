@@ -68,7 +68,7 @@ The jar sits upright and slightly off-centre in its patch of empty table, lit by
 In front of the jar, one more pale yellow sticky note, same size, same blue ballpoint handwriting, reading:
 "$49.99"
 
-THE TOTAL NOTE: a twelfth pale yellow sticky note, placed at the END OF THE ROW OF ELEVEN PRICE NOTES, up among the cluster of containers, so that it reads as the last thing written while working through the pile. It is turned slightly more crooked than the others. Written on it in the same blue ballpoint, in larger and more deliberate handwriting than the individual prices, on two lines:
+THE TOTAL NOTE: a twelfth pale yellow sticky note, placed UP IN THE UPPER CLUSTER AMONG THE ELEVEN CONTAINERS AND THEIR PRICE NOTES — tucked into the group, with containers on at least two sides of it, so it reads as the last thing written while working through the pile. It belongs to the pile, not to the balm. It must sit in the upper half of the frame, clearly separated from the balm and its "$49.99" note in the lower right, with the empty stretch of table still visibly dividing the two areas. It is turned slightly more crooked than the others. Written on it in the same blue ballpoint, in larger and more deliberate handwriting than the individual prices, on two lines:
 "total"
 "$860"
 The word "total" is lowercase. The figure beneath it is underlined twice, the second underline slightly overshooting the first.
@@ -100,7 +100,8 @@ NOT a styled flat-lay. NOT a marble or fluffy fabric surface. NOT evenly spaced 
 - [ ] The surface is marble, fabric, or anything other than a real worn table
 - [ ] Any text appears that is not handwritten on a physical sticky note
 - [ ] An arrow appears anywhere in the frame, or anything is drawn directly on the table
-- [ ] The "total / $860" note is missing, or sits beside the jar instead of at the end of the eleven price notes
+- [ ] The "total / $860" note is missing, or sits in the lower right near the balm instead of tucked into the upper cluster among the containers
+- [ ] The empty stretch of table no longer visibly separates the pile from the balm
 - [ ] A hand, person or face appears
 
 ---
