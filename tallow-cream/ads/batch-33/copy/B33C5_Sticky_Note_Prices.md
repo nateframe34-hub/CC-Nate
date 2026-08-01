@@ -68,9 +68,12 @@ The jar sits upright and slightly off-centre in its patch of empty table, lit by
 In front of the jar, one more pale yellow sticky note, same size, same blue ballpoint handwriting, reading:
 "$49.99"
 
-Beside that note, a twelfth sticky note turned slightly, on which is written and then heavily underlined twice:
+THE TOTAL NOTE: a twelfth pale yellow sticky note, placed at the END OF THE ROW OF ELEVEN PRICE NOTES, up among the cluster of containers, so that it reads as the last thing written while working through the pile. It is turned slightly more crooked than the others. Written on it in the same blue ballpoint, in larger and more deliberate handwriting than the individual prices, on two lines:
+"total"
 "$860"
-with an arrow drawn from it pointing back up toward the cluster of eleven containers.
+The word "total" is lowercase. The figure beneath it is underlined twice, the second underline slightly overshooting the first.
+
+There is NO arrow anywhere in this image. Nothing is drawn on the table. Every mark in the frame exists on the surface of a sticky note.
 
 CAPTURE CHARACTERISTICS:
 Real handheld phone photograph taken from above while standing over the table. Framing is slightly off-square, rotated about 2 degrees. Mild sensor grain. The photographer's own shadow falls faintly across the bottom left corner of the frame. Focus is even across the whole table — everything is in focus, as a phone shot from that distance would be. Slight barrel distortion at the frame edges.
@@ -78,7 +81,7 @@ Real handheld phone photograph taken from above while standing over the table. F
 ASPECT RATIO: 4:5, 1080 x 1350 pixels.
 
 CRITICAL NEGATIVE CONSTRAINTS:
-NOT a styled flat-lay. NOT a marble or fluffy fabric surface. NOT evenly spaced or grid-arranged. NO overhead studio lighting, NO softbox, NO reflectors. NO shallow depth of field or bokeh. NO hero lighting on our jar. NO added graphics, overlays, badges, price flashes, starbursts, arrows drawn in post, or designed typography of any kind — every piece of text in this image is handwritten on a physical sticky note inside the scene. NO people, NO hands, NO faces. NO digital text rendering. NO watermark. Handwriting must be legible and correctly formed with real dollar signs and decimal points.
+NOT a styled flat-lay. NOT a marble or fluffy fabric surface. NOT evenly spaced or grid-arranged. NO overhead studio lighting, NO softbox, NO reflectors. NO shallow depth of field or bokeh. NO hero lighting on our jar. NO arrows anywhere, drawn or otherwise. NO writing, drawing or marks directly on the table surface. NO added graphics, overlays, badges, price flashes, starbursts, or designed typography of any kind — every piece of text in this image is handwritten on a physical sticky note inside the scene. NO people, NO hands, NO faces. NO digital text rendering. NO watermark. Handwriting must be legible and correctly formed with real dollar signs and decimal points.
 ```
 
 **Aspect ratio:** 4:5 (1080 × 1350)
@@ -96,7 +99,8 @@ NOT a styled flat-lay. NOT a marble or fluffy fabric surface. NOT evenly spaced 
 - [ ] The notes are all identical in angle and handwriting
 - [ ] The surface is marble, fabric, or anything other than a real worn table
 - [ ] Any text appears that is not handwritten on a physical sticky note
-- [ ] The "$860" total note or its arrow is missing
+- [ ] An arrow appears anywhere in the frame, or anything is drawn directly on the table
+- [ ] The "total / $860" note is missing, or sits beside the jar instead of at the end of the eleven price notes
 - [ ] A hand, person or face appears
 
 ---
