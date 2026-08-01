@@ -6,7 +6,7 @@
 **Format:** Clinical / technical evidence document
 **Awareness:** Solution-Aware entry → Most-Aware close
 **Sophistication response:** New Information
-**Status:** Image prompt written. **Hook SELECTED.** **Skeleton built.** Copy not yet written.
+**Status:** ✅ COMPLETE — image prompt, hook, skeleton and body copy all written. Awaiting launch.
 
 ---
 
@@ -187,4 +187,166 @@ Hooks must open on a scene or an action, never a bare claim (Pattern C failure m
 
 1. ~~Founder picks hook~~ ✅ done
 2. ~~Build story skeleton (step 4)~~ ✅ done
-3. Write body copy with the `learnings-on-native-ads` skill (step 5)
+3. ~~Write body copy with the `learnings-on-native-ads` skill (step 5)~~ ✅ done
+
+---
+
+# BODY COPY (step 5, written 2026-08-01 via `learnings-on-native-ads`)
+
+**Word count:** ~1,480 · **Product named at:** ~77% · **Mechanism at:** ~48%
+
+---
+
+My sister-in-law circled one word on six different labels and laid them on the table in front of me like evidence.
+
+She had been upstairs for twenty minutes. I assumed she was on the phone.
+
+She was not on the phone.
+
+========
+
+I am forty seven. I run the office for a company that installs commercial flooring, which means I am the person who knows where every single thing is and who has never once been thanked for it.
+
+Dana is married to my brother. She is fifty two. She spent twenty years in food packaging and the most irritating thing about her is that she reads the back of everything. Menus. Cereal boxes. Paint tins. My brother says she has never bought anything in her life without turning it over first.
+
+My skin stopped behaving somewhere around forty two and I never really treated it as a thing to fix. It was more like weather. Something that happened to me.
+
+I would put something on in the morning and it would sit there. That was the part I could never explain to anyone. It never went in. It rested on top of my face like a film, and underneath it my skin felt exactly as tight as it had before I put anything on at all.
+
+========
+
+There were six of them on the shelf and four more in the drawer under the sink.
+
+I want to be honest about how that happens, because nobody sets out to buy ten of anything.
+
+You buy one. It does nothing. So you assume you bought the cheap one, and the next one costs more. That one does nothing either, so you decide you must need something targeted, and now you own three. Then a woman at a counter tells you that some skin is just difficult, and you believe her, because she works there and you do not.
+
+I kept every single one. They were expensive. Throwing them out felt like admitting the money was already gone.
+
+Here is the part I am embarrassed about.
+
+In eleven years I never once turned a single one of them over.
+
+Not one.
+
+========
+
+Dana put the six bottles down in a row and put a printed sheet next to them.
+
+She had photographed the backs of all six upstairs. On the sheet she had circled the first word on every list.
+
+It was the same word every time.
+
+"Do you know how those are ordered," she said. It was not really a question.
+
+I said alphabetically. I genuinely thought it was alphabetically.
+
+She said no. They are ordered by quantity, most to least. So whatever is sitting in first position is the single largest thing in the jar. More of it than everything else in there put together, most of the time.
+
+Then she said, "So what is the biggest thing in all six of the ones you bought?"
+
+I looked at the sheet.
+
+Water.
+
+========
+
+I said that could not be right, because I had paid a hundred and ten dollars for one of them.
+
+She said that was correct, and that I had paid a hundred and ten dollars for water with a small amount of other things in it.
+
+She was not being cruel about it. She was almost apologetic. She said this is not a scandal and nobody is hiding it. Water is cheap, it spreads well, it feels nice going on. It is a perfectly reasonable thing to build something out of.
+
+The problem is what water does next.
+
+It leaves. That is the entire thing water does. It sits on your skin and then it goes into the air and what stays behind is whatever small percentage was not water.
+
+And your skin, she said, does not make water. It makes an oil. It makes less of it than it used to, which is why this started for me when it did. So the thing that had gone missing was a fat, and every single thing I had bought to replace it was mostly not fat.
+
+I had spent eleven years buying more and more expensive versions of the same wrong category.
+
+========
+
+I want to say I argued for a long time. I did not. I argued for about a minute.
+
+I said if it were that simple somebody would have told me.
+
+Dana said nobody is hiding it. It is printed on the back of every one of them. It is just that nobody reads the back, and nothing on the front is ever going to say it.
+
+That was the sentence that landed. Not the science. That one.
+
+I had read the front of every package I ever bought. Beautiful fronts. Every one of them.
+
+========
+
+She told me what she used. Her son had brought it back from a farm shop two Christmases ago as a joke present, because she is the sort of person who complains about ingredient lists at the table, and it had four things in it.
+
+Tallow. Honey. Olive oil. Calendula.
+
+I said that sounded like something you would cook with.
+
+She said yes. That is rather the point.
+
+========
+
+Day one I did not think anything. I put a small amount on and waited to feel it disappear the way everything else disappeared.
+
+It did not disappear. That was the only thing I noticed. Not that it worked. Just that it was still there.
+
+Day four I noticed I had not thought about my face. Which sounds like nothing. It is not nothing when you have thought about it every single day for eleven years.
+
+Day nine my skin did not feel like it had a film on it. I kept touching my cheek to check and then feeling ridiculous.
+
+Day fourteen a woman I have worked with for six years asked me if I had been away somewhere. I said no. She said I looked rested. I have not been rested since 2014.
+
+Day twenty one it stopped being a thing I was monitoring and started being a thing that was just true.
+
+========
+
+The part I did not see coming was the drawer.
+
+There is a drawer under my sink with four things in it. I used to open that drawer most days, digging around for whichever one I had decided to try again.
+
+About six weeks in I realised I had not opened it. Not once. I had not decided to stop. There was simply no reason to open it, so I did not, and I did not notice not doing it.
+
+That is what got me. Not the skin. The not looking.
+
+========
+
+My daughter took a jar back to college in September. She is twenty and has skin like a peach and does not need it, and she took it anyway.
+
+And I went back to that same counter in October, for a birthday present for someone else, and the same woman was working, and I did not need to ask her anything.
+
+I did not say anything to her either. There was nothing to say. I just did not need her.
+
+========
+
+So here is what I actually want to tell you.
+
+You have not turned one over either.
+
+You could tell me right now where they are. The shelf, or the drawer, or the bag at the back of the cupboard you have not opened since you moved. You know how many there are, roughly. You know which one was the expensive one.
+
+Go and turn that one over. Read the first word.
+
+I am not asking you to buy anything to do that. You already own it. It will take you about ten seconds and you will not be able to unsee it.
+
+========
+
+The one Dana had is the Tallow Honey Balm. Four ingredients, which is the whole label, and you can read all of them.
+
+It is a fat, which is the thing my skin had stopped making enough of, which is why it goes in instead of sitting there.
+
+It is $49.99, which is less than the second cheapest thing on my shelf. Shipping is free. If it does nothing for you, you have sixty days to send it back and they refund you, which is more than any of the other ten ever offered me.
+
+I am not going to tell you it will work for you. I spent eleven years being told that.
+
+I will tell you that the six bottles Dana put on my table are still on my table, because I have not worked out what to do with them, and that I know exactly what the first word on each one is now, and that I cannot go back to not knowing it.
+
+---
+
+## Meta headline
+Turn the bottle over and read the first word.
+
+## Meta description
+Four ingredients. $49.99. Free shipping, 60-day money-back guarantee.

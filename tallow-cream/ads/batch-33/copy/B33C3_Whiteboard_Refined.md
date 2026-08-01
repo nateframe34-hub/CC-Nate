@@ -6,7 +6,7 @@
 **Format:** Hand-drawn whiteboard diagram, stripped down, with a written reason to act
 **Awareness:** Solution-Aware entry → Most-Aware close
 **Sophistication response:** New Information
-**Status:** Image prompt written. **Hook SELECTED.** **Skeleton built.** Copy not yet written.
+**Status:** ✅ COMPLETE — image prompt, hook, skeleton and body copy all written. Awaiting launch.
 
 ---
 
@@ -195,4 +195,164 @@ The image *is* the diagram. A reader who clicks has already seen the mechanism a
 
 1. ~~Founder picks hook~~ ✅ done
 2. ~~Build story skeleton (step 4)~~ ✅ done
-3. Write body copy with the `learnings-on-native-ads` skill (step 5)
+3. ~~Write body copy with the `learnings-on-native-ads` skill (step 5)~~ ✅ done
+
+---
+
+# BODY COPY (step 5, written 2026-08-01 via `learnings-on-native-ads`)
+
+**Word count:** ~1,320 · **Product named at:** ~78% · **MECHANISM AT ~27%, deliberate deviation, see skeleton**
+
+---
+
+I told her it sounded like nonsense. She did not argue with me. She just drew it.
+
+Maureen is sixty one, cleans her own gutters, and has never in her life bought anything because somebody recommended it. That is relevant.
+
+She got up in the middle of a conversation, went and found a marker, and started drawing on the whiteboard next to her fridge that her grandchildren usually use.
+
+========
+
+Two columns.
+
+On the left she wrote MOST CREAMS and drew a thick line across the middle, and said, that is your face.
+
+Then she drew three circles sitting on top of the line and wrote H2O in each one.
+
+"That is what is in them," she said. "Not some of what is in them. The most of what is in them."
+
+I said that was not true. She said turn one over when you get home.
+
+Then she drew arrows going up off the circles, away from the line.
+
+"Water does one thing," she said. "It leaves. That is the whole personality of water. It sits on top of you and then it goes into the air."
+
+Underneath the line she wrote GONE.
+
+========
+
+On the right she wrote TALLOW and drew the same line at the same height so it read as one continuous surface.
+
+Then she drew three ovals, but she drew them crossing the line. Half above, half below. She actually broke the line where each one went through it.
+
+"Your skin makes an oil," she said. "It makes less than it used to. That is not a mystery and it is not a moral failing. So what has gone missing is a fat. And a fat is close enough to what your face already makes that your face lets it in instead of holding it off."
+
+Arrows going down through the line, this time.
+
+Underneath, she wrote STILL THERE.
+
+Then across the bottom, in letters twice the size of everything else, she wrote: Water leaves. Fat stays.
+
+And she put the lid back on the marker and sat down and carried on with what we had been talking about before.
+
+========
+
+I need to explain who I was in that moment, because I did not take it well.
+
+I am forty eight. I am not a person who falls for things. I read reviews. I compare. I have returned things.
+
+And that is exactly why I had spent so much money.
+
+Because if you are not gullible, you do not buy the cheap one. You reason that the expensive one is expensive for a reason, that there is real work behind that price, that the people making it know things you do not. So you buy up. And when that does nothing you buy further up, because obviously you have still not reached the level where the real stuff starts.
+
+Being careful is what cost me the money. Not being careless.
+
+========
+
+There were nine of them in my bathroom at that point.
+
+Nine. I counted after, standing there in my dressing gown feeling like an idiot.
+
+And when I lined them up I found I had bought the same one twice. Different sizes, eighteen months apart, because I had completely forgotten owning the first.
+
+I had complained for years that this stuff sat on top of my face and did nothing underneath. That was my exact phrase. Sits on top. I said it to my sister, I said it to a woman in a shop, I said it to a doctor once.
+
+And not one person, including me, ever asked the obvious next question, which is what is it made of.
+
+========
+
+Here is the thing I keep coming back to, and it is not a conspiracy.
+
+Nobody lied to me. It is printed on the back of every single one of those nine bottles, in order, most to least, exactly as Maureen said.
+
+It is just that nobody selling you something has any reason at all to draw you those two columns.
+
+Because the second column is very short and very cheap, and there is no version of that drawing that ends with you buying nine of anything.
+
+========
+
+I took a photograph of her whiteboard. I want to be honest about why.
+
+It was not so I could remember it. It was so I could go home and prove her wrong.
+
+I went home and turned over the first bottle I picked up, which was the hundred and thirty dollar one, because I wanted to start with the strongest case.
+
+Water.
+
+I did the other eight standing at the sink. Water, water, water, water, water, water, water, water.
+
+I stopped arguing.
+
+========
+
+Day one, nothing. I put a small amount on and it felt like putting butter on my face, which is roughly what I had signed up for.
+
+Day four I noticed the absence of something. That film. That sense of a layer sitting there separate from me. It was not there and I could not work out what was different at first.
+
+Day nine I put my hand on my cheek in the car and thought, that is not the same. Then I told myself I was imagining it, because that is what I do.
+
+Day fourteen my husband put his hand on my face, which he has done ten thousand times over twenty two years, and stopped, and said, "What have you done?" Not badly. Just genuinely confused.
+
+Day twenty one I was not thinking about it any more.
+
+========
+
+The thing I stopped doing was the bathroom cabinet.
+
+I used to open it in the evening and stand there. Not looking for anything specific. Just surveying it, seeing what I had, thinking about which one to give another go.
+
+I have not done that in months. I did not decide to stop. The reason to stand there evaporated and I did not notice it going.
+
+========
+
+In February I drew those two columns myself, badly, on the back of a receipt, for a woman I work with who had said almost exactly what I said to Maureen.
+
+She looked at me the way I looked at Maureen. Politely. The way you look at someone who has started talking about crystals.
+
+I did not argue with her. I told her to go home and turn one over.
+
+She has since bought two.
+
+========
+
+So let me save you the argument.
+
+You already know which column you have been buying from. You have not read it, but you know.
+
+And you know exactly where they are, and roughly what they cost you, and which one was the one you were sure about.
+
+Go and turn that one over and read the first word on the list. It takes ten seconds and you already own it.
+
+I am not asking you to believe me. I did not believe Maureen.
+
+========
+
+What Maureen had is the Tallow Honey Balm.
+
+Four ingredients. Tallow, honey, olive oil and calendula. The whole list fits in a sentence, and the first word on it is not water.
+
+That is the entire mechanism. It is a fat rather than a water, so it does not go into the air an hour after you put it on. It is still there.
+
+$49.99. Free shipping. Sixty days to send it back for your money if it does nothing for you, which is sixty more days than any of my nine came with.
+
+I am not going to promise you anything. Nine bottles promised me things.
+
+I am telling you what a sixty one year old woman who has never bought anything on a recommendation drew on a whiteboard, and that I photographed it to prove her wrong, and that I could not.
+
+---
+
+## Meta headline
+Water leaves. Fat stays.
+
+## Meta description
+Four ingredients. $49.99. Free shipping, 60-day money-back guarantee.

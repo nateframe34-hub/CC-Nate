@@ -5,7 +5,7 @@
 **Angle:** Angle 1 — one jar replaces the shelf that failed
 **Format:** Forum post screenshot, dark mode, with embedded photo grid
 **Awareness:** Problem-Aware entry → Most-Aware close
-**Status:** Image prompt written. **Hook SELECTED.** **Skeleton built.** Copy not yet written.
+**Status:** ✅ COMPLETE — image prompt, hook, skeleton and body copy all written. Awaiting launch.
 
 ---
 
@@ -190,4 +190,164 @@ Because the image is itself a post, the copy should read as the person who wrote
 
 1. ~~Founder picks hook~~ ✅ done
 2. ~~Build story skeleton (step 4)~~ ✅ done
-3. Write body copy with the `learnings-on-native-ads` skill (step 5)
+3. ~~Write body copy with the `learnings-on-native-ads` skill (step 5)~~ ✅ done
+
+---
+
+# BODY COPY (step 5, written 2026-08-01 via `learnings-on-native-ads`)
+
+**Word count:** ~1,390 · **Product named at:** ~78% · **Mechanism at:** ~52% · **Permission shift at:** ~46%
+
+---
+
+I posted those photos at one in the morning because I genuinely did not know what else to do.
+
+I am forty six years old and I sat on the edge of my bath taking pictures of my own face with the overhead light on, which is the least forgiving light in the house, and then I put them somewhere strangers could see them.
+
+I want to explain why, because it was not about how it looked.
+
+========
+
+It was that I had started to believe I had done it to myself.
+
+Three years of buying things. Something like twenty of them. And my skin had got worse across those three years, not better, and at some point the maths of that stops being bad luck and starts being your own fault.
+
+That was the thing keeping me up. Not the flaking. The idea that I had spent three years and a lot of money slowly ruining something, and that it was permanent, and that there was no undo.
+
+You cannot ask a friend that at eleven at night. You can ask four hundred thousand strangers.
+
+========
+
+The order I bought things in tells you everything.
+
+I started gentle. When gentle did nothing I assumed I was not being serious enough, so I went expensive. When expensive did nothing I decided I needed something stronger, so I went aggressive, and things got worse fast, so I panicked and went back to gentle again.
+
+Round and round. Three years of that.
+
+I kept all of them. That is the bit I find hardest to explain. Twenty odd bottles and jars, most of them half used, all still in the cupboard. Throwing them away would have meant admitting the money was gone, and as long as they were in there it still felt like something I might get value from one day.
+
+========
+
+Two hundred and forty seven people replied to that post.
+
+They were kind. I want to say that clearly, because none of what comes next is a complaint about them. People got up in the night to type paragraphs to a stranger, and some of them told me things about their own faces that they have probably never said out loud.
+
+But I read all two hundred and forty seven of them, and I want to tell you what happened.
+
+I already owned them.
+
+Not most of them. Nearly all of them. People were recommending, in good faith, the exact bottles that were sitting in my cupboard eight feet away from where I was reading.
+
+The whole thread's answer to a problem caused by buying things was to buy a different thing.
+
+And I understand why. That is the only move any of us know.
+
+========
+
+There was one reply near the bottom with almost no votes on it.
+
+It did not recommend anything. It did not name a single product. It just asked me a question.
+
+"What is the first ingredient on the one you liked best?"
+
+I did not know. I got up and went and looked, at half past one in the morning, in my dressing gown.
+
+Water.
+
+I checked another one. Water. I checked six.
+
+Then I messaged her.
+
+========
+
+She was not selling anything. She never told me what she used until I asked her directly, two days later, and even then she was vague about it and did not link me anywhere.
+
+She explained it over an evening, in pieces, between doing other things.
+
+Ingredient lists run in order of quantity. Most to least. So whatever is in first position is the largest single thing in the bottle, usually more than everything else combined.
+
+Water goes on. Water leaves. That is all water does. What stays behind is the small remainder that was not water.
+
+And what my skin had stopped making enough of was not water. It was an oil. A fat.
+
+So every single thing I had bought for three years had been mostly the wrong substance, and the gentle ones and the expensive ones and the aggressive ones were all mostly the wrong substance, and that is why the pattern looked like my skin being broken.
+
+It was not my skin being broken. It was twenty attempts at the same category error.
+
+========
+
+Then she said the thing I had actually been asking for at one in the morning.
+
+She said: you have not damaged yourself. You have been solving the wrong problem very accurately for three years.
+
+I read that about six times.
+
+I had spent three years thinking I was the variable. That some people just have skin that gets worse no matter what. That I had done something irreversible and was now managing the consequences.
+
+I had not. I had been buying water in different bottles at different prices.
+
+========
+
+Day one I felt nothing except slightly stupid.
+
+Day four I noticed there was nothing sitting on top of my face. I have no better way of describing it. For three years there had always been something on it. There was not.
+
+Day nine the flaking around my nose and the outer corners of my eyes had stopped. Not improved. Stopped. I took a photo to compare and then did not look at it for a week because I did not trust myself to be objective.
+
+Day fourteen my husband asked me, out of nowhere, whether I had changed something. He is not a noticing person. He once failed to register that I had cut six inches off my hair.
+
+Day twenty one I stopped checking.
+
+I am not going to tell you my face is different now. It is my face. What is different is that it feels like skin instead of feeling like a surface I am managing.
+
+========
+
+I did not realise until much later that I had stopped taking the photographs.
+
+I had been documenting it every few days for about eight months. Same spot, same light, trying to catch whether anything was moving.
+
+One day I opened my camera roll for something else and the most recent one was from three weeks earlier.
+
+I had not decided to stop. There had just stopped being anything to record.
+
+========
+
+I went back and posted an update on the thread eventually. Same account, same light, months later.
+
+Somebody asked me what I had used, and I sat there for a while trying to work out how to answer without becoming the two hundred and forty seventh person recommending a bottle to a woman awake at one in the morning.
+
+I ended up telling her to go and read the first word on the back of whatever she liked best.
+
+========
+
+So. You have a version of that post that you have never made.
+
+You know the photos you would take. You know which light you would take them in and you know you would delete them afterwards.
+
+And you have the same suspicion I had, which is the one nobody says out loud, that you might have done this to yourself and it might be too late.
+
+You have not. That is the whole reason I am writing this down. You have been doing exactly what the packaging asked you to do.
+
+========
+
+The thing she was vague about was the Tallow Honey Balm.
+
+Four ingredients. Tallow, honey, olive oil, calendula. That is the entire list, and the first word on it is not water.
+
+That is genuinely the only reason it works differently. It is a fat, and a fat does not evaporate off, so it is still there hours later doing something.
+
+It is $49.99 with free shipping, and there is a sixty day money-back guarantee, so if it does nothing you send it back and that is the end of it.
+
+I have twenty two things in a cupboard that did not come with that.
+
+I am not telling you it will work on you. Two hundred and forty seven people told me things would work on me.
+
+I am telling you to go and read the first word on the back of the one you like best, tonight, and then decide what you think.
+
+---
+
+## Meta headline
+I posted the photos because I thought I had ruined it.
+
+## Meta description
+Four ingredients. $49.99. Free shipping, 60-day money-back guarantee.

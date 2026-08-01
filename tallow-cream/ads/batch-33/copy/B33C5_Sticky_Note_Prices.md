@@ -5,7 +5,7 @@
 **Angle:** Angle 1 — one jar replaces the shelf that failed, carried by the cost contrast
 **Format:** Real-scene photograph with handwritten sticky-note price labels (diegetic text)
 **Awareness:** Solution-Aware entry → Most-Aware close
-**Status:** Image prompt written. **Hook SELECTED (rewritten).** **Skeleton built.** Copy not yet written.
+**Status:** ✅ COMPLETE — image prompt, hook, skeleton and body copy all written. Awaiting launch.
 
 ---
 
@@ -225,4 +225,168 @@ The hook establishes that she has already switched: *the only thing I still use.
 
 1. ~~Founder picks hook~~ ✅ done (rewritten to account for the jar in frame)
 2. ~~Build story skeleton (step 4)~~ ✅ done
-3. Write body copy with the `learnings-on-native-ads` skill (step 5)
+3. ~~Write body copy with the `learnings-on-native-ads` skill (step 5)~~ ✅ done
+
+---
+
+# BODY COPY (step 5, written 2026-08-01 via `learnings-on-native-ads`)
+
+**Word count:** ~1,480 · **Product named at:** ~79% · **Told retrospectively, see skeleton**
+
+---
+
+My daughter thought I was exaggerating.
+
+So I put all of it on the table and wrote what I paid on each one.
+
+Then I put the only thing I still use down at the other end.
+
+========
+
+She is twenty three and she had said, not unkindly, that there was no way it was that much. That I was rounding up for effect. That people always do that.
+
+I said fine.
+
+It took me about forty minutes. Cabinet, drawer, the shelf in the spare room, the wash bag I have not unpacked since March. Every single one out onto the kitchen table.
+
+Then I got the sticky notes off the fridge and I wrote what I paid on each one and put it in front of the thing.
+
+I did that part because I genuinely did not know the number. I want to be clear about that. I was not proving a point I already had. I was finding out.
+
+========
+
+Eight hundred and sixty dollars.
+
+I sat down when I saw it.
+
+And here is what I need you to understand, because otherwise this just sounds like a woman who is bad with money.
+
+Not one of those purchases was unreasonable.
+
+Not one. Look at the numbers. Twenty nine. Thirty eight. Forty two. Sixty one. These are not decisions you agonise over. These are things you buy on a Tuesday.
+
+It arrived forty dollars at a time across three years and no single one of them was ever big enough to argue with. That is the whole trick of it. There was never a moment where I spent eight hundred and sixty dollars. There was never a moment where I spent more than a hundred and forty five.
+
+You cannot see a number like that while it is happening. You can only see it on a table.
+
+========
+
+I am forty nine.
+
+It started for me somewhere around forty five, and the complaint was always the same one. I would put something on and it would sit there. It never went in. Underneath whatever I had put on, my face still felt pulled and tight and papery, like it had been left out.
+
+I said that to people constantly. It sits on top and does nothing underneath.
+
+And I kept every single one of them. That is why there was anything to put on a table at all.
+
+Half used, most of them. Some barely touched. I never threw them out because they were expensive, and while they were in the cupboard the money still felt like it might turn into something one day. In the bin it was just gone.
+
+========
+
+Read the prices in the order I bought them and you can watch me thinking.
+
+Twenty nine. Thirty eight. Forty two. Fifty four. Sixty one. Sixty eight. Eighty five. Ninety six. A hundred and ten. A hundred and thirty two. A hundred and forty five.
+
+That is not a woman being extravagant. That is a woman running an experiment.
+
+Because when the twenty nine dollar one did nothing, the obvious conclusion was that I had bought the cheap one. And when the sixty one dollar one did nothing, the obvious conclusion was that I still had not got to the level where the real stuff starts.
+
+Every step up that ladder was a rational response to the last step failing.
+
+The hundred and forty five dollar one, incidentally, is the one I bought twice. Different sizes, about a year apart. I had completely forgotten owning the first.
+
+========
+
+Rae mentioned it once. In a break room. In the middle of a conversation about something else entirely.
+
+I do not even remember what we were actually talking about. She said something like, the only thing that ever did anything for me was some tallow thing my mother-in-law uses, and then she carried on with whatever the actual subject was.
+
+She never brought it up again. Not once. Not the next week, not the week after.
+
+I ignored it for about a month. I want to be honest about that too. I did not go home and look it up. It sounded like something you would fry an egg in.
+
+What eventually got me was that she never mentioned it again. Everybody who has ever recommended anything to me has followed up. Rae just said it and let it go, and after a few weeks that started to seem like the most credible thing anyone had said to me about my face in three years.
+
+========
+
+So I asked her, eventually, and she told me the bit that mattered in about thirty seconds.
+
+The ingredients on the back are listed in order of quantity. Most to least. So whatever is sitting in first position is the largest single thing in the jar.
+
+Go and look, she said.
+
+I looked. Water. I looked at another one. Water. I stood at that cupboard and checked nine of them and it was water every time.
+
+And water does exactly one thing, which is leave. It goes on, it feels like something, and then it goes into the air and what stays behind is the small percentage that was not water.
+
+What my skin had stopped making enough of was not water. It was an oil. A fat.
+
+So the ladder was never going to work. I had spent three years buying more and more expensive versions of the same wrong thing, and the price had nothing to do with it, because a hundred and forty five dollar water and a twenty nine dollar water both do the identical thing, which is go away.
+
+========
+
+Day one I thought it was too thick and I had wasted my money again.
+
+Day four I noticed my face did not feel pulled when I woke up. I put that down to having slept well.
+
+Day nine there was nothing sitting on top of my skin. That absence was the first thing I could not explain away.
+
+Day fourteen a woman at work asked if I had been on holiday.
+
+Day twenty one I had stopped thinking about it, which after three years was genuinely disorienting.
+
+========
+
+The buying stopped on its own.
+
+I did not make a decision about it. What happened is that the emails kept arriving, the twenty percent off ones, and at some point I stopped opening them, and then a whole season went by.
+
+I only noticed months later when one came through with a subject line about a restock and I thought, oh. I have not bought anything since March.
+
+========
+
+Which brings me back to the table.
+
+My daughter came in while the sticky notes were still down and read them, one at a time, going along the row.
+
+And when she got to the end she said the total out loud.
+
+"Eight hundred and sixty dollars."
+
+I had been looking at that number for twenty minutes. It had not done anything to me. Hearing it in her voice was completely different, and I had to go and put the kettle on.
+
+She asked which one was the good one and I pointed at the far end of the table, and she said, "That one? On its own?"
+
+Yes. That one. On its own.
+
+========
+
+So here is what I would say to you.
+
+You could not tell me your number either.
+
+You could tell me roughly. You would be wrong, and you would be wrong low, because everybody is.
+
+And it would take you about ten minutes to find out. You do not have to buy anything to do it. You already own all of it, and you know exactly which cupboard it is in, and you know there is at least one in there you bought twice.
+
+========
+
+The one at the end of my table is the Tallow Honey Balm.
+
+Four ingredients. Tallow, honey, olive oil and calendula. That is the entire label and you can read all of it, and the first word is not water.
+
+$49.99, with free shipping. And there is a sixty day money-back guarantee, which is worth saying plainly given everything else on that table: if it does nothing for you, you send it back and you get your money.
+
+Eight hundred and sixty dollars' worth of things came with no such offer.
+
+I am not going to tell you it will work for you. Eleven bottles told me that.
+
+I am going to tell you to go and get the sticky notes out, because the number is not what you think it is, and because it is very difficult to keep doing something once you have seen it written down in your own handwriting.
+
+---
+
+## Meta headline
+I did not know the number until I wrote it down.
+
+## Meta description
+Four ingredients. $49.99. Free shipping, 60-day money-back guarantee.

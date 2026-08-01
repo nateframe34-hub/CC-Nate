@@ -6,7 +6,7 @@
 **Format:** Flat vector illustration with speech bubble
 **Awareness:** Problem-Aware entry, causation held backwards → Most-Aware close
 **Sophistication response:** New Information
-**Status:** Image prompt written. **Hook SELECTED.** **Skeleton built.** Copy not yet written.
+**Status:** ✅ COMPLETE — image prompt, hook, skeleton and body copy all written. Awaiting launch.
 
 ---
 
@@ -206,4 +206,186 @@ Angle 2 hooks. The speech bubble already carries the chain idea, so the copy's o
 
 1. ~~Founder picks hook~~ ✅ done
 2. ~~Build story skeleton (step 4)~~ ✅ done
-3. Write body copy with the `learnings-on-native-ads` skill (step 5)
+3. ~~Write body copy with the `learnings-on-native-ads` skill (step 5)~~ ✅ done
+
+---
+
+# BODY COPY (step 5, written 2026-08-01 via `learnings-on-native-ads`)
+
+**Word count:** ~1,540 · **Product named at:** ~79% · **ANGLE 2** · Plateau beat at ~42%, mechanism at ~58%
+
+---
+
+Taking things away fixed most of it.
+
+It took me four years to try that, because taking things away felt like giving up.
+
+Then I had to work out what the rest was.
+
+========
+
+I want to show you the order it happened in, because every single step was sensible and the whole thing was insane.
+
+It started with one thing for dryness. That one stung, so I bought something calming to use with it. The calming one was heavy, so I bought something lighter for underneath. The lighter one did not do enough on its own, so I added an oil at night. The oil was too much some nights, so I got a second lighter one for those nights.
+
+Five things. Every one of them bought to manage what the last one was doing.
+
+By the fourth year there were eleven.
+
+Eleven things, and my skin was the worst it had been in my life.
+
+========
+
+I am forty five. I am not a person who does eleven steps at a sink. I do not enjoy this. I have never once found it relaxing.
+
+I ended up with eleven because I was troubleshooting, not indulging. Every purchase was a diagnosis. Every one of them was me trying to isolate a variable.
+
+And nobody ever once suggested to me that using eleven things and having the worst skin of my life might be the same fact.
+
+========
+
+What finally stopped me was not insight. It was that I ran out of ideas.
+
+I had nothing left to add. I had bought the whole logical tree. So one Sunday I put nine of them in a carrier bag and put the bag in the bottom of the wardrobe, which is not the same as throwing them out, and I kept two.
+
+I want to be honest about how that felt, because I think this is the actual reason it takes people years.
+
+It felt like quitting.
+
+It felt like the version of me who had spent four years and a lot of money working on a problem had just conceded that she had been wrong the entire time. Adding is trying. Removing is admitting.
+
+I sat on the end of the bed after I put that bag in the wardrobe and felt genuinely awful about it.
+
+========
+
+And then it got better.
+
+Fast, as well. Within about ten days there was noticeably less going on. Less stinging. Less of that hot tight feeling in the evenings. My face stopped reacting to things.
+
+For about three weeks I was completely certain I had solved it.
+
+========
+
+I had not solved it.
+
+Around week four it stopped moving.
+
+I was better than I had been. I was not right. There was still that thing where whatever I put on sat on top and never went anywhere, and underneath it my face still felt pulled and papery, particularly around my nose and the outside of my eyes.
+
+And now I had a genuine problem, which is that the thing that had worked was subtraction, and I had run out of things to subtract.
+
+I was down to two. I could go to one. I could go to none. None was not going to be the answer, and some part of me knew that.
+
+That was the worst month of the whole four years, honestly. Not because it was bad. Because I had finally found the direction that worked and then hit the end of it.
+
+========
+
+So I did something I had never actually done, which was look into it properly.
+
+Four years of buying and I had never once researched anything. I had absorbed. I had read the fronts of packages and listened to women in shops and clicked on things.
+
+So I read. Properly, for weeks, in the evenings.
+
+And I want to tell you what I found, because it is the point.
+
+I found more things to buy.
+
+That is it. That is what is out there. Every route led to a product. Every explanation ended in a recommendation. I would follow something that looked like an actual explanation for three paragraphs and it would turn into a list of five things to purchase.
+
+I came out of six weeks of reading with nothing except a longer list of options, which is exactly the thing that had put nine bottles in a carrier bag in my wardrobe.
+
+========
+
+It came from Priya, at work, in a conversation about something else entirely.
+
+I had said something offhand about being down to two things and it having stopped helping, and she said, "Well, what are the two things made of?"
+
+I said I did not know.
+
+She said the lists are in order. Most to least. The first thing on the list is the biggest thing in the bottle.
+
+I looked, that evening. Both of mine said water.
+
+========
+
+She explained the rest of it the next day and it took her about a minute.
+
+Skin makes its own oil and it makes less of it than it used to. So the thing that has actually gone missing is a fat.
+
+Water does not replace a fat. Water goes on and then water leaves. That is the whole of it. It leaves and takes the feeling of having done something with it, and what is underneath has not changed at all.
+
+And that explained both halves of my four years.
+
+It explained why adding things made it worse, because most of what I was adding was stripping and layering and reacting with each other.
+
+And it explained the plateau. Because removing the eleven things stopped me doing damage, but it did not put back the thing that was missing. Subtraction got me to a clean starting point. It could never get me past it, because you cannot subtract your way to having more of something.
+
+I did not need to add ten things back.
+
+I needed to add one, and it needed to be a fat.
+
+========
+
+Day one I felt slightly ridiculous. It is thick. It does not behave like anything I had used in four years.
+
+Day four the tightness around my nose was not there when I woke up. I assumed I had slept well.
+
+Day nine I noticed I had stopped touching my own face to check on it. I do that constantly. Did.
+
+Day fourteen my sister asked me on a video call what I had done, and I said nothing, and she said, "No, something is different."
+
+Day twenty one it was simply not a thing I thought about, which after four years is a strange feeling.
+
+========
+
+The bag stayed in the wardrobe until the spring.
+
+I did not have a ceremonial moment with it. I found it looking for something else, opened it, realised most of it had expired, and put the whole bag in the bin in about forty seconds.
+
+Four years of decisions, and it took me less than a minute, and I felt nothing at all.
+
+========
+
+Somebody at work asked me last month what I was using.
+
+I told her. One thing.
+
+She did not believe me. She kept waiting for the rest of the answer, and there was no rest of the answer, and I watched her decide I was being cagey about it.
+
+I recognised the look because I have made it. That is what four years of being told the answer is complicated does to you. A short answer sounds like a lie.
+
+========
+
+So here is the bit I would want somebody to have said to me.
+
+You can name the one you bought to fix what the last one was doing. You knew that while you were buying it.
+
+And if you have already cut back, and it helped, and then it stopped helping, you are not stuck. You are exactly where I was. You are at the end of the part that subtraction can do.
+
+You do not need eleven things. You do not need none.
+
+You need to put back the one thing that was actually missing.
+
+========
+
+Mine is the Tallow Honey Balm.
+
+Four ingredients. Tallow, honey, olive oil, calendula. That is the whole label.
+
+It is a fat, which is the point, and it is the reason it is still doing something later instead of having gone into the air.
+
+$49.99, free shipping, and sixty days to send it back and get your money if it does nothing for you.
+
+For context, the bag in my wardrobe was somewhere north of eight hundred dollars, and none of it came with sixty days of anything.
+
+I am not going to tell you this will work for you. Eleven things told me that.
+
+I am telling you that taking things away got me most of the way there, and that I spent six weeks looking for what the rest was and only found more things to buy, and that it turned out to be one word on the back of a bottle I already owned.
+
+---
+
+## Meta headline
+Cutting back helped. Then it stopped helping.
+
+## Meta description
+Four ingredients. $49.99. Free shipping, 60-day money-back guarantee.
