@@ -1,0 +1,234 @@
+{%- comment -%}
+  TALLOW BUNDLE SELECTOR — 2026-08-02
+  ==================================================================
+  Drop-in tier selector for tallow-pdp-v2-reformulated.liquid.
+
+  WHY THIS EXISTS
+  Unit economics at the new COGS ($10.81 bundle / $8.47 balm alone):
+    1 jar  $49.99          contribution $41.52   supports ~$1.42 CPC
+    2 jars $79.99 + gift   contribution $60.71   supports ~$2.08 CPC
+  Actual account CPC is $3.17. The 2-pack roughly halves the gap, and it
+  captures the second unit at peak intent instead of relying on a repeat
+  purchase that has not yet been observed (0 repeats, but only 3-4 customers
+  are past a reorder window as of 2026-08-02, so that is absence of data,
+  not evidence of a retention problem).
+
+  NO SUBSCRIPTION. Founder call 2026-08-02: subscribe-and-save depresses CVR
+  and is not worth it while messaging is still unproven. Revisit after a
+  winning ad exists.
+
+  INTEGRATION CONTRACT
+  - Owns the variant id for ALL product forms listed in `form_ids` below.
+  - Exposes window.TLW_BUNDLE = { variantId, qty, gift, tierIndex, price }
+    and fires a `tlw:bundle-change` event on document so the existing free-gift
+    auto-add script can key off `gift` instead of adding the gift on every order.
+  - All CSS scoped under #tallow-pdp-v2 to match the parent section.
+
+  SETUP: see tallow-cream/store/liquid/Bundle_Setup_Instructions.md
+{%- endcomment -%}
+
+{%- liquid
+  assign tier_count = 0
+  if section.settings.t1_variant != blank
+    assign tier_count = tier_count | plus: 1
+  endif
+  if section.settings.t2_variant != blank
+    assign tier_count = tier_count | plus: 1
+  endif
+-%}
+
+{%- if tier_count > 1 -%}
+<div class="tlw-bundle" id="tlw-bundle"
+     data-form-ids="{{ section.settings.form_ids | default: 'tlw-form-hero,tlw-form-final,tlw-form-sticky' }}"
+     role="radiogroup"
+     aria-label="Choose how many">
+
+  {%- comment -%} ---------- TIER 1 : single ---------- {%- endcomment -%}
+  <button type="button"
+          class="tlw-tier{% if section.settings.default_tier == '1' %} is-on{% endif %}"
+          role="radio"
+          aria-checked="{% if section.settings.default_tier == '1' %}true{% else %}false{% endif %}"
+          data-tier="0"
+          data-variant="{{ section.settings.t1_variant }}"
+          data-qty="1"
+          data-gift="false"
+          data-price="{{ section.settings.t1_price }}"
+          data-cta="{{ section.settings.t1_cta | default: section.settings.t1_price }}">
+    <span class="tlw-tier-radio" aria-hidden="true"></span>
+    <span class="tlw-tier-body">
+      <span class="tlw-tier-top">
+        <span class="tlw-tier-name">{{ section.settings.t1_label | default: 'One jar' }}</span>
+        {%- if section.settings.t1_sub != blank -%}
+          <span class="tlw-tier-sub">{{ section.settings.t1_sub }}</span>
+        {%- endif -%}
+      </span>
+    </span>
+    <span class="tlw-tier-prices">
+      <span class="tlw-tier-now">{{ section.settings.t1_price }}</span>
+      {%- if section.settings.t1_each != blank -%}
+        <span class="tlw-tier-each">{{ section.settings.t1_each }}</span>
+      {%- endif -%}
+    </span>
+  </button>
+
+  {%- comment -%} ---------- TIER 2 : bundle ---------- {%- endcomment -%}
+  <button type="button"
+          class="tlw-tier tlw-tier--best{% if section.settings.default_tier == '2' %} is-on{% endif %}"
+          role="radio"
+          aria-checked="{% if section.settings.default_tier == '2' %}true{% else %}false{% endif %}"
+          data-tier="1"
+          data-variant="{{ section.settings.t2_variant }}"
+          data-qty="1"
+          data-gift="true"
+          data-price="{{ section.settings.t2_price }}"
+          data-cta="{{ section.settings.t2_cta | default: section.settings.t2_price }}">
+    {%- if section.settings.t2_badge != blank -%}
+      <span class="tlw-tier-badge">{{ section.settings.t2_badge }}</span>
+    {%- endif -%}
+    <span class="tlw-tier-radio" aria-hidden="true"></span>
+    <span class="tlw-tier-body">
+      <span class="tlw-tier-top">
+        <span class="tlw-tier-name">{{ section.settings.t2_label | default: 'Two jars' }}</span>
+        {%- if section.settings.t2_sub != blank -%}
+          <span class="tlw-tier-sub">{{ section.settings.t2_sub }}</span>
+        {%- endif -%}
+      </span>
+      {%- if section.settings.t2_gift_line != blank -%}
+        <span class="tlw-tier-gift">{{ section.settings.t2_gift_line }}</span>
+      {%- endif -%}
+    </span>
+    <span class="tlw-tier-prices">
+      <span class="tlw-tier-now">{{ section.settings.t2_price }}</span>
+      {%- if section.settings.t2_was != blank -%}
+        <span class="tlw-tier-was">{{ section.settings.t2_was }}</span>
+      {%- endif -%}
+      {%- if section.settings.t2_each != blank -%}
+        <span class="tlw-tier-each">{{ section.settings.t2_each }}</span>
+      {%- endif -%}
+    </span>
+  </button>
+
+  {%- if section.settings.reassure != blank -%}
+    <p class="tlw-bundle-note">{{ section.settings.reassure }}</p>
+  {%- endif -%}
+</div>
+
+<style>
+  #tallow-pdp-v2 .tlw-bundle{display:flex;flex-direction:column;gap:10px;margin:18px 0 16px}
+  #tallow-pdp-v2 .tlw-tier{position:relative;display:flex;align-items:center;gap:12px;width:100%;
+    padding:14px 14px 14px 13px;border:1.5px solid #ddd6c6;border-radius:12px;background:#fff;
+    text-align:left;cursor:pointer;font:inherit;color:inherit;transition:border-color .15s,box-shadow .15s,background .15s}
+  #tallow-pdp-v2 .tlw-tier:hover{border-color:#c9bda4}
+  #tallow-pdp-v2 .tlw-tier:focus-visible{outline:2px solid #6a481a;outline-offset:2px}
+  #tallow-pdp-v2 .tlw-tier.is-on{border-color:#6a481a;border-width:2px;padding:13px 13px 13px 12px;
+    background:var(--amber-soft,#fdf6ea);box-shadow:0 1px 0 rgba(106,72,26,.08)}
+
+  #tallow-pdp-v2 .tlw-tier-radio{flex:0 0 auto;width:20px;height:20px;border-radius:50%;
+    border:1.5px solid #c4baa6;background:#fff;position:relative}
+  #tallow-pdp-v2 .tlw-tier.is-on .tlw-tier-radio{border-color:#6a481a;border-width:2px}
+  #tallow-pdp-v2 .tlw-tier.is-on .tlw-tier-radio::after{content:"";position:absolute;inset:3px;
+    border-radius:50%;background:#6a481a}
+
+  #tallow-pdp-v2 .tlw-tier-body{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:3px}
+  #tallow-pdp-v2 .tlw-tier-top{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+  #tallow-pdp-v2 .tlw-tier-name{font-weight:700;font-size:15.5px;line-height:1.2}
+  #tallow-pdp-v2 .tlw-tier-sub{font-size:12.5px;color:var(--grey,#8a8272)}
+  #tallow-pdp-v2 .tlw-tier-gift{font-size:12.5px;color:#6a481a;font-weight:600}
+
+  #tallow-pdp-v2 .tlw-tier-prices{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:1px}
+  #tallow-pdp-v2 .tlw-tier-now{font-family:Georgia,'Times New Roman',serif;font-size:19px;font-weight:600;line-height:1.15}
+  #tallow-pdp-v2 .tlw-tier-was{font-size:12.5px;color:#9a927d;text-decoration:line-through}
+  #tallow-pdp-v2 .tlw-tier-each{font-size:11.5px;color:var(--grey,#8a8272)}
+
+  #tallow-pdp-v2 .tlw-tier-badge{position:absolute;top:-9px;right:12px;background:#6a481a;color:#fff;
+    font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    padding:3px 8px;border-radius:999px;white-space:nowrap}
+  #tallow-pdp-v2 .tlw-tier--best{margin-top:4px}
+
+  #tallow-pdp-v2 .tlw-bundle-note{margin:2px 0 0;font-size:12.5px;color:var(--grey,#8a8272);text-align:center}
+
+  @media (max-width:380px){
+    #tallow-pdp-v2 .tlw-tier{padding:12px 11px;gap:10px}
+    #tallow-pdp-v2 .tlw-tier-name{font-size:14.5px}
+    #tallow-pdp-v2 .tlw-tier-now{font-size:17.5px}
+  }
+</style>
+
+<script>
+(function(){
+  var root = document.getElementById('tlw-bundle');
+  if(!root) return;
+
+  var tiers   = Array.prototype.slice.call(root.querySelectorAll('.tlw-tier'));
+  var formIds = (root.getAttribute('data-form-ids')||'').split(',').map(function(s){return s.trim();}).filter(Boolean);
+
+  /* Ensure every target form has a variant input we control, and a qty input. */
+  function formInputs(form){
+    var id = form.querySelector('input[name="id"]');
+    if(!id){
+      id = document.createElement('input');
+      id.type='hidden'; id.name='id';
+      form.appendChild(id);
+    }
+    var qty = form.querySelector('input[name="quantity"]');
+    if(!qty){
+      qty = document.createElement('input');
+      qty.type='hidden'; qty.name='quantity'; qty.value='1';
+      form.appendChild(qty);
+    }
+    return {id:id, qty:qty};
+  }
+
+  function apply(btn){
+    var variantId = btn.getAttribute('data-variant');
+    var qty       = btn.getAttribute('data-qty') || '1';
+    var gift      = btn.getAttribute('data-gift') === 'true';
+    var cta       = btn.getAttribute('data-cta') || '';
+
+    tiers.forEach(function(t){
+      var on = (t === btn);
+      t.classList.toggle('is-on', on);
+      t.setAttribute('aria-checked', on ? 'true' : 'false');
+      t.tabIndex = on ? 0 : -1;
+    });
+
+    formIds.forEach(function(fid){
+      var form = document.getElementById(fid);
+      if(!form) return;
+      var io = formInputs(form);
+      io.id.value  = variantId;
+      io.qty.value = qty;
+
+      /* Repoint the submit button label without touching its markup structure. */
+      var submit = form.querySelector('[type="submit"]');
+      if(submit && cta && !submit.disabled){
+        var label = submit.querySelector('.tlw-cta-label') || submit;
+        label.textContent = 'Add to Cart · ' + cta;
+      }
+    });
+
+    window.TLW_BUNDLE = {
+      variantId : variantId,
+      qty       : parseInt(qty,10) || 1,
+      gift      : gift,
+      tierIndex : parseInt(btn.getAttribute('data-tier'),10) || 0,
+      price     : btn.getAttribute('data-price') || ''
+    };
+    document.dispatchEvent(new CustomEvent('tlw:bundle-change', { detail: window.TLW_BUNDLE }));
+  }
+
+  tiers.forEach(function(btn, i){
+    btn.addEventListener('click', function(){ apply(btn); });
+    btn.addEventListener('keydown', function(e){
+      var next = null;
+      if(e.key === 'ArrowDown' || e.key === 'ArrowRight') next = tiers[(i+1)%tiers.length];
+      if(e.key === 'ArrowUp'   || e.key === 'ArrowLeft')  next = tiers[(i-1+tiers.length)%tiers.length];
+      if(next){ e.preventDefault(); next.focus(); apply(next); }
+    });
+  });
+
+  var initial = root.querySelector('.tlw-tier.is-on') || tiers[0];
+  if(initial) apply(initial);
+})();
+</script>
+{%- endif -%}
