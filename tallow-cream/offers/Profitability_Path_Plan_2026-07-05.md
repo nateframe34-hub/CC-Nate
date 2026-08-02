@@ -1,5 +1,8 @@
 # The Profitability Path: Offer + Angle, Sequenced
 
+> ⚠️ **STALE ECONOMICS, 2026-08-02.** Written against a $19.83 COGS / $30.16 breakeven. Current: COGS $8.47-10.81, breakeven $39-41 single and $60.71 on the new 2-pack. Strategy here may still hold; every number does not. See `tracking/Kill_Rules_and_Decision_Framework.md`.
+
+
 **Date:** 2026-07-05
 **Context:** Founder pushback on the gap audit's AOV point, and it's valid: the 2-jar bundle WAS tested and only singles ever sold. The diagnosis is right: this is a first-purchase trust problem. A skeptical first-time buyer won't double down on an unproven product, and a "buy 2, save $X" discount is not enough value to cross the uncertainty gap. This doc integrates that correction into a sequenced plan instead of a blanket "raise AOV" directive.
 

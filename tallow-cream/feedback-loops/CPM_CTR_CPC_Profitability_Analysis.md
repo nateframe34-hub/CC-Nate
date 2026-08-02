@@ -1,5 +1,7 @@
 # The CPM / CTR Trade-Off: Where The Profitable Zone Actually Is
 
+> ⚠️ **SUPERSEDED IN PART, 2026-08-02.** Every CPC threshold in this document was derived from a **$30.16 breakeven CPA at $19.83 COGS**. COGS is now **$8.47-10.81**, so breakeven is **$39-41 on the single and $60.71 on the 2-pack**. The arithmetic and the method here are still sound; the *thresholds* are ~30% too strict. See the restated block at the top of `tracking/Kill_Rules_and_Decision_Framework.md`.
+
 **Date:** 2026-07-30
 **Trigger:** founder's read that B30 had great CPM and terrible CTR, the proven converters have the reverse, and profitability lives in the middle ground.
 **Verdict: the instinct is right, and the middle ground is computable. This doc computes it.**

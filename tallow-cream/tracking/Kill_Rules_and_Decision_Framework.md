@@ -1,5 +1,24 @@
 # Kill Rules & Decision Framework — Tallow Launch
 
+> ⚠️ **ECONOMICS RESTATED 2026-08-02 — READ THIS BEFORE USING ANY NUMBER BELOW.**
+>
+> COGS fell with the supplier switch. **Every threshold in this document written before 2026-08-02 was calculated against a $19.83 COGS and a $30.16 breakeven CPA. Both are now wrong, and wrong in the strict direction — the real bar is ~30% looser.** Kill decisions made before today were harsher than the economics justified.
+>
+> **Current COGS:** $8.47 balm alone · $10.81 balm + lip mask · $19.28 for the 2-pack (2 balms + 1 lip mask)
+>
+> | Offer | Price | COGS | **Contribution = breakeven CPA** | Required CPC @ 3.42% click→purchase |
+> |---|---|---|---|---|
+> | Single, no gift | $49.99 | $8.47 | **$41.52** | **$1.42** |
+> | Single, gift included | $49.99 | $10.81 | **$39.18** | **$1.34** |
+> | **2-pack + gift** | **$79.99** | $19.28 | **$60.71** | **$2.08** |
+>
+> **Actual account CPC: $3.17** (lifetime, 497 clicks). **Actual click→purchase: 3.42%** (17 purchases / 497 clicks), which predicts a $92.7 CPA against a $92.75 actual — the model is accurate.
+>
+> **Ideal Scaling CAC stays $20** (aspirational, unchanged). **The $40 hard kill line is now coincidentally near breakeven on the single ($41.52) rather than well past it** — so it has quietly become a *breakeven* rule rather than a 2x-target rule. Decide deliberately whether to keep it there or move it to ~$60 for bundle-eligible traffic.
+>
+> The multiplier: use **CPA ≈ CPC × 29** on blended account traffic (3.42%), or **× 21** for a proven converter behaving like B17C1 (4.85%). The earlier ×9 was single-day noise.
+
+
 > **Purpose:** Hard rules for when to kill, scale, or iterate on ads. Built from NMN postmortem learnings.
 > **Updated:** June 2026 — added the governing 2× Breakeven CPA kill rule (founder decision 2026-06-29).
 

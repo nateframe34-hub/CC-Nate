@@ -11,7 +11,7 @@ The account's diagnosis as of 2026-07-30 is unambiguous and names one variable:
 
 - **Copy converts.** B17C1 lifetime: 7.34% CTR, ~5% click→purchase, 12 purchases.
 - **The funnel converts.** ~5% LPV→purchase, 43% ATC→purchase, 8% LPV→ATC. All normal-to-good.
-- **Delivery cost kills it.** Lifetime CPC $3.03-3.24 against a **$1.44 breakeven requirement** (CPA ≈ CPC × 21). A **2.2x gap, entirely traffic cost.**
+- **Delivery cost kills it.** Lifetime CPC $3.03-3.24 against a breakeven requirement of **$1.42 single / $2.08 bundle** (restated 2026-08-02 at the new COGS). The gap narrows from 2.2x to ~1.5x on bundle traffic, and it is still entirely traffic cost.
 
 Both proven converters were killed 7/30 after ~$961 combined spend, 15 purchases, ~$64 CPA, never a profitable week.
 
@@ -77,7 +77,7 @@ This account has spent its history photographing **inventory** — jars, counter
 
 ## Reading the results
 
-**Judge on CPC against $1.44**, not CPM, not CTR, not purchases. A cell is readable at **100+ impressions, roughly $10-15** — which is what makes five cells affordable on ~$50/day at all.
+**Judge on CPC against $1.42 single / $2.08 bundle** (restated 2026-08-02 at the new COGS; the $1.44 figure used a $30.16 breakeven that no longer applies), not CPM, not CTR, not purchases. A cell is readable at **100+ impressions, roughly $10-15** — which is what makes five cells affordable on ~$50/day at all.
 
 **Rolling-window rule still applies:** no verdict under 3 days or 300 cumulative impressions, whichever comes later. At the cheap CPMs these formats have been producing ($24-117), concentrated spend clears 300 impressions per cell inside a day or two.
 

@@ -50,8 +50,12 @@ Copy both **variant IDs** (Products → variant → the `variant=` number in the
 In `tallow-pdp-v2-reformulated.liquid`, immediately **after** the price block (around line 340, after the closing `</div>` of `.price`) and **before** `{%- form 'product', product, id: 'tlw-form-hero' -%}`:
 
 ```liquid
-{%- render 'tallow-bundle-selector' -%}
+{%- render 'tallow-bundle-selector', s: section.settings -%}
 ```
+
+⚠️ **The `s: section.settings` parameter is required.** Shopify's `{% render %}` creates an isolated scope and does **not** inherit the `section` object, so without it every setting resolves to blank and the selector renders nothing at all.
+
+**If you would rather inline it** directly in `tallow-pdp-v2-reformulated.liquid` — which is a perfectly reasonable call, since the settings live in that file's schema anyway — paste the snippet's body at the same insertion point and swap every `s.` back to `section.settings.`. Behaviour is identical. The separate file just makes it easier to revert.
 
 That's the only markup change required. The snippet finds the forms by ID and injects/controls their `id` and `quantity` inputs itself.
 

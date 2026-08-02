@@ -24,92 +24,101 @@
     auto-add script can key off `gift` instead of adding the gift on every order.
   - All CSS scoped under #tallow-pdp-v2 to match the parent section.
 
+  ⚠️ SCOPE: Shopify's {% render %} does NOT inherit the `section` object, so this
+  snippet takes settings as an explicit parameter. Call it as:
+
+      {%- render 'tallow-bundle-selector', s: section.settings -%}
+
+  If you would rather inline this block directly inside
+  tallow-pdp-v2-reformulated.liquid, that works too — just swap every `s.` below
+  back to `section.settings.` and drop the render call.
+
   SETUP: see tallow-cream/store/liquid/Bundle_Setup_Instructions.md
 {%- endcomment -%}
 
 {%- liquid
   assign tier_count = 0
-  if section.settings.t1_variant != blank
+  if s.t1_variant != blank
     assign tier_count = tier_count | plus: 1
   endif
-  if section.settings.t2_variant != blank
+  if s.t2_variant != blank
     assign tier_count = tier_count | plus: 1
   endif
 -%}
 
 {%- if tier_count > 1 -%}
 <div class="tlw-bundle" id="tlw-bundle"
-     data-form-ids="{{ section.settings.form_ids | default: 'tlw-form-hero,tlw-form-final,tlw-form-sticky' }}"
+     data-form-ids="{{ s.form_ids | default: 'tlw-form-hero,tlw-form-final,tlw-form-sticky' }}"
      role="radiogroup"
      aria-label="Choose how many">
 
   {%- comment -%} ---------- TIER 1 : single ---------- {%- endcomment -%}
   <button type="button"
-          class="tlw-tier{% if section.settings.default_tier == '1' %} is-on{% endif %}"
+          class="tlw-tier{% if s.default_tier == '1' %} is-on{% endif %}"
           role="radio"
-          aria-checked="{% if section.settings.default_tier == '1' %}true{% else %}false{% endif %}"
+          aria-checked="{% if s.default_tier == '1' %}true{% else %}false{% endif %}"
           data-tier="0"
-          data-variant="{{ section.settings.t1_variant }}"
+          data-variant="{{ s.t1_variant }}"
           data-qty="1"
           data-gift="false"
-          data-price="{{ section.settings.t1_price }}"
-          data-cta="{{ section.settings.t1_cta | default: section.settings.t1_price }}">
+          data-price="{{ s.t1_price }}"
+          data-cta="{{ s.t1_cta | default: s.t1_price }}">
     <span class="tlw-tier-radio" aria-hidden="true"></span>
     <span class="tlw-tier-body">
       <span class="tlw-tier-top">
-        <span class="tlw-tier-name">{{ section.settings.t1_label | default: 'One jar' }}</span>
-        {%- if section.settings.t1_sub != blank -%}
-          <span class="tlw-tier-sub">{{ section.settings.t1_sub }}</span>
+        <span class="tlw-tier-name">{{ s.t1_label | default: 'One jar' }}</span>
+        {%- if s.t1_sub != blank -%}
+          <span class="tlw-tier-sub">{{ s.t1_sub }}</span>
         {%- endif -%}
       </span>
     </span>
     <span class="tlw-tier-prices">
-      <span class="tlw-tier-now">{{ section.settings.t1_price }}</span>
-      {%- if section.settings.t1_each != blank -%}
-        <span class="tlw-tier-each">{{ section.settings.t1_each }}</span>
+      <span class="tlw-tier-now">{{ s.t1_price }}</span>
+      {%- if s.t1_each != blank -%}
+        <span class="tlw-tier-each">{{ s.t1_each }}</span>
       {%- endif -%}
     </span>
   </button>
 
   {%- comment -%} ---------- TIER 2 : bundle ---------- {%- endcomment -%}
   <button type="button"
-          class="tlw-tier tlw-tier--best{% if section.settings.default_tier == '2' %} is-on{% endif %}"
+          class="tlw-tier tlw-tier--best{% if s.default_tier == '2' %} is-on{% endif %}"
           role="radio"
-          aria-checked="{% if section.settings.default_tier == '2' %}true{% else %}false{% endif %}"
+          aria-checked="{% if s.default_tier == '2' %}true{% else %}false{% endif %}"
           data-tier="1"
-          data-variant="{{ section.settings.t2_variant }}"
+          data-variant="{{ s.t2_variant }}"
           data-qty="1"
           data-gift="true"
-          data-price="{{ section.settings.t2_price }}"
-          data-cta="{{ section.settings.t2_cta | default: section.settings.t2_price }}">
-    {%- if section.settings.t2_badge != blank -%}
-      <span class="tlw-tier-badge">{{ section.settings.t2_badge }}</span>
+          data-price="{{ s.t2_price }}"
+          data-cta="{{ s.t2_cta | default: s.t2_price }}">
+    {%- if s.t2_badge != blank -%}
+      <span class="tlw-tier-badge">{{ s.t2_badge }}</span>
     {%- endif -%}
     <span class="tlw-tier-radio" aria-hidden="true"></span>
     <span class="tlw-tier-body">
       <span class="tlw-tier-top">
-        <span class="tlw-tier-name">{{ section.settings.t2_label | default: 'Two jars' }}</span>
-        {%- if section.settings.t2_sub != blank -%}
-          <span class="tlw-tier-sub">{{ section.settings.t2_sub }}</span>
+        <span class="tlw-tier-name">{{ s.t2_label | default: 'Two jars' }}</span>
+        {%- if s.t2_sub != blank -%}
+          <span class="tlw-tier-sub">{{ s.t2_sub }}</span>
         {%- endif -%}
       </span>
-      {%- if section.settings.t2_gift_line != blank -%}
-        <span class="tlw-tier-gift">{{ section.settings.t2_gift_line }}</span>
+      {%- if s.t2_gift_line != blank -%}
+        <span class="tlw-tier-gift">{{ s.t2_gift_line }}</span>
       {%- endif -%}
     </span>
     <span class="tlw-tier-prices">
-      <span class="tlw-tier-now">{{ section.settings.t2_price }}</span>
-      {%- if section.settings.t2_was != blank -%}
-        <span class="tlw-tier-was">{{ section.settings.t2_was }}</span>
+      <span class="tlw-tier-now">{{ s.t2_price }}</span>
+      {%- if s.t2_was != blank -%}
+        <span class="tlw-tier-was">{{ s.t2_was }}</span>
       {%- endif -%}
-      {%- if section.settings.t2_each != blank -%}
-        <span class="tlw-tier-each">{{ section.settings.t2_each }}</span>
+      {%- if s.t2_each != blank -%}
+        <span class="tlw-tier-each">{{ s.t2_each }}</span>
       {%- endif -%}
     </span>
   </button>
 
-  {%- if section.settings.reassure != blank -%}
-    <p class="tlw-bundle-note">{{ section.settings.reassure }}</p>
+  {%- if s.reassure != blank -%}
+    <p class="tlw-bundle-note">{{ s.reassure }}</p>
   {%- endif -%}
 </div>
 
