@@ -30,7 +30,9 @@ So this cell goes the other way. B19C2's original prompt specified **fourteen di
 
 ## What it uniquely tests
 
-**Was B19C2's 2.04% CTR the board, or the 58 words?** This is the cleanest question in the batch and the one with the highest expected value, because the format's cheap delivery is already proven and only the reason-to-act is missing.
+**Was B19C2's 2.04% CTR the board, or the 58 words?** This is the cleanest question in the batch.
+
+⚠️ **CORRECTED 2026-08-01 — the "cheap delivery is already proven" claim above was overstated and is withdrawn.** B32C3's CPM **rose with volume**: $116.50 at 20 impressions, $80.12 at 83, **$171.12 at 161**, blending to $138 across 264 impressions. The $24-39 figures cited all week came from 7-30 impression samples, under our own 100-impression reliability bar. **The honest whiteboard range is $75-171** (B19C2's $74.83 on 294 impressions is still a genuine sample; B32C3's $171 is the other end). **At $138 CPM this cell needs 9.6% CTR to reach a $1.44 CPC.** That is a demanding bar, not a formality. The question this cell asks is still the right one; the expected value is lower than first written.
 
 ## Note on the product
 
