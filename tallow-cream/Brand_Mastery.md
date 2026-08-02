@@ -474,7 +474,13 @@ Reason to buy: it isn't only the shine — shine is what makes every line catch 
 - "Shine shows off wrinkles." *(verbatim-sourced)*
 - "It's not the lines. It's the light hitting them."
 
-**Formats — TOF:** Whiteboard mechanism diagram `[PRELANDER]` (the dehydration→overproduction loop is genuinely drawable, and drawable mechanisms are this account's cheapest CPM asset) · Simplified Us vs Them `[PRELANDER]`
+**Formats — TOF:** Whiteboard mechanism diagram `[PRELANDER]` — **ANGLE 1 ONLY** (the dehydration→overproduction loop is genuinely drawable; drawable mechanisms are this account's cheapest CPM asset) · Simplified Us vs Them `[PRELANDER]`
+
+> ⚠️ **2026-08-01, learned the expensive way.** B32C3 ran **Angle 3 ("shine shows the lines") on a whiteboard** and was killed at $36.53 / 264 impressions / $4.57 CPC / 0 purchases. Angle 3 is an **optical claim**, not a mechanism — there is no physical process to draw, so the board carried no information and became decoration. This pairing was already restricted to Angle 1 in this document and we ran Angle 3 anyway.
+>
+> **STANDING RULE: a whiteboard works when the mechanism is physical and drawable. It fails when the idea is perceptual, comparative, or abstract. Test it — would the diagram still make sense with the words removed?**
+>
+> **Also flagged: SA11's desire is the weakest in the roster on urgency.** "To stop being shiny" holds up on staying power and scope but nobody is desperate about it. Fewest sources of any avatar here. Its value was always the New Information payload, not the pull of the desire. Treat as a secondary avatar, not a lead.
 **MOF:** Whiteboard-native hybrid · Native/Camouflage
 **BOF:** Classy Offer
 
