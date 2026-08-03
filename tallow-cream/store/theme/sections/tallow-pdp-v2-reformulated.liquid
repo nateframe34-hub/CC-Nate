@@ -675,8 +675,9 @@
     which made one argument between them across two full-height sections at
     ~32% and ~38% scroll, where only 10-13% of visitors are. Merged into a
     single comparison because SA2 is comparison-shopping by definition.
-    NO per-day or per-month cost rows: usage varies, and a running-cost claim
-    invites "mine ran out faster than that". Founder call 2026-08-03.
+    NO cost rows and no note under the table: usage varies, and any
+    running-cost or jar-life figure invites "mine ran out faster than that".
+    Founder call 2026-08-03.
   {%- endcomment -%}
   <div class="center"><div class="eyebrow">{{ section.settings.vs_eyebrow }}</div><h2 class="sec mt">{{ section.settings.vs_title }}</h2></div>
   <div class="vs mt">
@@ -694,7 +695,6 @@
       </tbody>
     </table>
   </div>
-  {%- if section.settings.vs_note != blank -%}<div class="math-note">{{ section.settings.vs_note }}</div>{%- endif -%}
 </div></section>
 
 <section class="band" style="background:var(--cream-2)" id="tlw-reviews"><div class="wrap">
@@ -1695,8 +1695,8 @@
       "type": "text",
       "id": "refund_proof",
       "label": "Refund-rate line",
-      "default": "Not one customer has asked for a refund yet.",
-      "info": "A guarantee reads as risk; a refund rate reads as proof. Must stay literally true -- as of 2026-08-03 it is 0 refunds, 0 chargebacks, 0 guarantee claims. 'Less than 1%' is also true but implies a larger customer base than we have."
+      "default": "Less than 1% of customers use our money-back guarantee.",
+      "info": "A guarantee reads as risk; a refund rate reads as proof. Modelled on the Gruns line. True as of 2026-08-03: 0 refunds, 0 chargebacks, 0 guarantee claims. A flat 'not one customer has asked' was tested and rejected -- it reads as fabricated to some people."
     },
     {
       "type": "header",
@@ -1719,12 +1719,6 @@
       "id": "vs_them",
       "label": "Right column header",
       "default": "The shelf it replaces"
-    },
-    {
-      "type": "text",
-      "id": "vs_note",
-      "label": "Note under the table",
-      "default": "One jar is 2 to 3 months of daily use."
     },
     {
       "type": "text",
