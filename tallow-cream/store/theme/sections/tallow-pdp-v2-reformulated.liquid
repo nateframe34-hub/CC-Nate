@@ -131,15 +131,25 @@
   #tallow-pdp-v2 .tlw-gift-tag{font-size:9.5px;font-weight:800;letter-spacing:.03em;color:#fff;background:#7a9a5b;padding:2px 6px;border-radius:999px;white-space:nowrap}
   #tallow-pdp-v2 .refund-proof{display:flex;align-items:center;gap:6px;margin-top:2px}
   #tallow-pdp-v2 .refund-proof .icon{width:14px;height:14px;flex:0 0 auto;opacity:.75}
-  #tallow-pdp-v2 .vs{overflow-x:auto}
-  #tallow-pdp-v2 .vs table{width:100%;border-collapse:collapse;font-size:14px;min-width:340px}
-  #tallow-pdp-v2 .vs th,#tallow-pdp-v2 .vs td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
-  #tallow-pdp-v2 .vs thead th{font-size:12.5px;letter-spacing:.03em;text-transform:uppercase;color:var(--grey,#8a8272);font-weight:700}
-  #tallow-pdp-v2 .vs th.ours,#tallow-pdp-v2 .vs td.ours{background:var(--amber-soft,#fdf6ea);color:var(--ink,#2c2519);font-weight:600}
-  #tallow-pdp-v2 .vs thead th.ours{color:#6a481a}
-  #tallow-pdp-v2 .vs td.lbl{color:var(--grey,#8a8272);width:34%}
-  #tallow-pdp-v2 .vs td.them{color:var(--grey,#8a8272)}
-  #tallow-pdp-v2 .vs tbody tr:last-child td{border-bottom:none}
+  #tallow-pdp-v2 .refund-proof{margin-top:8px;font-size:12.5px;color:var(--grey,#8a8272);text-align:center}
+  #tallow-pdp-v2 .vs{margin-top:18px}
+  #tallow-pdp-v2 .vs table{width:100%;table-layout:fixed;border-collapse:separate;border-spacing:0;font-size:13.5px}
+  #tallow-pdp-v2 .vs th,#tallow-pdp-v2 .vs td{padding:12px 8px;text-align:center;vertical-align:middle;border-bottom:1px solid var(--line)}
+  #tallow-pdp-v2 .vs thead th{font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--grey,#8a8272);font-weight:700;line-height:1.25;border-bottom:1px solid var(--line)}
+  #tallow-pdp-v2 .vs col.c-lbl{width:34%}
+  #tallow-pdp-v2 .vs td.lbl{text-align:left;color:#5c5848;font-weight:600;line-height:1.3;padding-left:0}
+  #tallow-pdp-v2 .vs td.them{color:var(--grey,#8a8272);line-height:1.35}
+  #tallow-pdp-v2 .vs .ours{background:var(--amber-soft,#fdf6ea);color:var(--ink,#2c2519);font-weight:700;line-height:1.3;
+    border-left:2px solid #6a481a;border-right:2px solid #6a481a}
+  #tallow-pdp-v2 .vs thead th.ours{color:#6a481a;border-top:2px solid #6a481a;border-top-left-radius:12px;border-top-right-radius:12px;padding-top:14px}
+  #tallow-pdp-v2 .vs tbody tr:last-child .ours{border-bottom:2px solid #6a481a;border-bottom-left-radius:12px;border-bottom-right-radius:12px}
+  #tallow-pdp-v2 .vs tbody tr:last-child td{border-bottom-color:transparent}
+  #tallow-pdp-v2 .vs tbody tr:last-child td.lbl,#tallow-pdp-v2 .vs tbody tr:last-child td.them{border-bottom:none}
+  @media (max-width:420px){
+    #tallow-pdp-v2 .vs table{font-size:12.5px}
+    #tallow-pdp-v2 .vs th,#tallow-pdp-v2 .vs td{padding:10px 5px}
+    #tallow-pdp-v2 .vs thead th{font-size:10px}
+  }
   #tallow-pdp-v2 .eo-band{padding-top:18px;padding-bottom:18px}
   #tallow-pdp-v2 .eo details{border-bottom:1px solid var(--line)}
   #tallow-pdp-v2 .eo details:first-child{border-top:1px solid var(--line)}
@@ -154,7 +164,6 @@
   #tallow-pdp-v2 .eo .fa p{margin:0 0 10px}
   #tallow-pdp-v2 .eo .fa p:last-child{margin-bottom:0}
   #tallow-pdp-v2 .eo .fa strong{color:var(--ink,#2c2519)}
-  #tallow-pdp-v2 .scent-line{text-align:center;font-size:14.5px;line-height:1.5;color:var(--grey,#8a8272);max-width:34ch;margin:0 auto 4px}
   #tallow-pdp-v2 .tlw-tier.tlw-flash{animation:tlwFlash .6s ease 2}
   @keyframes tlwFlash{0%,100%{box-shadow:0 0 0 0 rgba(106,72,26,0)}50%{box-shadow:0 0 0 4px rgba(106,72,26,.25)}}
   @media(prefers-reduced-motion:reduce){#tallow-pdp-v2 .tlw-tier.tlw-flash{animation:none}}
@@ -410,9 +419,7 @@
       {%- if section.settings.price_save != blank -%}<span class="save">{{ section.settings.price_save }}</span>{%- endif -%}
     </div>
     <div class="ship">{{ section.settings.ship_text }}</div>
-    {%- if section.settings.refund_proof != blank -%}
-    <div class="ship refund-proof"><svg class="icon"><use href="#tlw-shield"/></svg>{{ section.settings.refund_proof }}</div>
-    {%- endif -%}
+
 
     {%- if section.settings.show_bundle -%}
 <div class="tlw-bundle" id="tlw-bundle" role="radiogroup" aria-label="Choose how many">
@@ -579,20 +586,10 @@
       {%- endif -%}
     {%- endif -%}
 
-    <div class="micro">
-      <span><svg class="icon"><use href="#tlw-drop"/></svg>Absorbs in 2 min</span>
-      <span><svg class="icon"><use href="#tlw-check"/></svg>No shine</span>
-      <span><svg class="icon"><use href="#tlw-check"/></svg>No beef smell</span>
-    </div>
-
     <div class="guar-inline"><span class="ic"><svg class="icon"><use href="#tlw-shield"/></svg></span><div><b>60-day money-back guarantee.</b> If your skin doesn't love it, we refund every penny. No sending it back.</div></div>
-
-    <div class="trust-strip">
-      <div><svg class="icon"><use href="#tlw-truck"/></svg>Free Shipping</div>
-      <div><svg class="icon"><use href="#tlw-shield"/></svg>60-Day Guarantee</div>
-      <div><svg class="icon"><use href="#tlw-drop"/></svg>4 Ingredients</div>
-      <div><svg class="icon"><use href="#tlw-leaf"/></svg>Grass-Fed</div>
-    </div>
+    {%- if section.settings.refund_proof != blank -%}
+    <div class="refund-proof">{{ section.settings.refund_proof }}</div>
+    {%- endif -%}
   </div>
 </div></section>
 
@@ -637,9 +634,6 @@
     products I already bought?". The mechanism is that answer, so it goes first.
     One scent-match line survives, to keep continuity with the ads.
   {%- endcomment -%}
-  {%- if section.settings.scent_line != blank -%}
-  <p class="scent-line">{{ section.settings.scent_line }}</p>
-  {%- endif -%}
   <div class="center"><div class="eyebrow">Why it works when nothing else did</div><h2 class="sec mt">Water sits on top. Skin lets fat in.</h2></div>
   <div class="diagram">
     <div class="dcol bad"><h4>Most creams</h4><div class="mol"><b>H₂O</b><b>H₂O</b><b>H₂O</b><b>H₂O</b></div><div class="arr up">↑ ↑ ↑ ↑</div><div class="surface"></div><div class="dnote bad">Evaporates by noon, sits on top, tight again.</div></div>
@@ -682,6 +676,7 @@
   <div class="center"><div class="eyebrow">{{ section.settings.vs_eyebrow }}</div><h2 class="sec mt">{{ section.settings.vs_title }}</h2></div>
   <div class="vs mt">
     <table>
+      <colgroup><col class="c-lbl"><col><col></colgroup>
       <thead><tr><th></th><th class="ours">{{ product.title }}</th><th>{{ section.settings.vs_them }}</th></tr></thead>
       <tbody>
         {%- for i in (1..6) -%}
@@ -1172,13 +1167,6 @@
     {
       "type": "header",
       "content": "Extra photos (optional)"
-    },
-    {
-      "type": "text",
-      "id": "scent_line",
-      "label": "Scent-match line (above the mechanism)",
-      "default": "Tight and dry by noon, whatever you put on it.",
-      "info": "One line only. Keeps continuity with the ad that sent them. The old six-line 'Sound familiar?' band was removed here -- it was where engaged readers dropped."
     },
     {
       "type": "image_picker",
