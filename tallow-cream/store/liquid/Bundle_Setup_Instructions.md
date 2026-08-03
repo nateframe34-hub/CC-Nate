@@ -43,13 +43,17 @@ Founder constraint, 2026-08-03: *"I don't know how I can add a variant of a 2 qu
 | | |
 |---|---|
 | Create | **Nothing.** Tier 2 adds quantity 2 of the SKU Teemdrop already maps |
-| The one discount | **Amount off products:** 2+ balms → **$19.99 off** ($99.98 → $79.99) |
-| Lip mask | Cannot be free by discount — the discount is spent. Give the lip mask product a **$0.00 "Free Gift" variant** and point the auto-add at it |
+| Product discount | **Buy X Get Y:** 2 balms in cart → 1 lip mask free |
+| Order discount | **Amount off order**, minimum quantity **2** → **−$19.99** ($99.98 → $79.99) |
 | Cart reads | `Balm ×2 — $79.99` + `Lip Mask — Free` |
 
-**Why the $0.00 variant is required.** Right now the single discount is already spent zeroing the lip mask via Buy-X-Get-Y. Swapping that to a $0.00 variant is what frees the one discount up for the price break. Do this before enabling the selector, or the 2-pack will show $99.98.
+**Two discounts, not one — founder call 2026-08-03.** Shopify caps you at one *product* discount, but a product discount and an **order** discount can run together. Tick **Combinations → combines with order/product discounts** on both, or they won't stack.
 
-Hide the $0.00 variant from search and collections — it's purchasable by anyone who finds the URL.
+**This is also what kills the exploit.** The earlier plan gave the lip mask a $0.00 variant, which is unconditional — a customer could add 2 balms, let the mask auto-add, remove the balms and keep it. Buy-X-Get-Y re-evaluates against cart contents at checkout, so removing the balms re-prices the mask to $20 on its own. No JS guard needed, and the lip mask stays a normal priced product.
+
+**The cost:** an automatic order discount blocks order-level discount *codes* at checkout, so the email-marketing codes stop working. Founder accepted this 2026-08-03 — the email list has produced **1 conversion**, so the leverage being given up is close to zero.
+
+**BXGY does not auto-add the Y item.** The JS still has to put the lip mask in the cart (`addGiftsSilently()`); the discount only zeroes it once it's there. So `free_gift_product` must stay pointed at the **real, priced** lip mask product.
 
 **MODE A — separate 2-Pack product (only if fulfilment allows it later)**
 

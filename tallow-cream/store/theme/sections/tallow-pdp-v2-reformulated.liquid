@@ -942,7 +942,9 @@
         if(!form) return;
 
         if(variantId){
-          var idInput = form.querySelector('input[name="id"]');
+          // Match a <select name="id"> too, not just <input> — otherwise we append
+          // a SECOND id field and Shopify may honour the theme's picker over the tier.
+          var idInput = form.querySelector('[name="id"]');
           if(!idInput){
             idInput = document.createElement('input');
             idInput.type='hidden'; idInput.name='id';
