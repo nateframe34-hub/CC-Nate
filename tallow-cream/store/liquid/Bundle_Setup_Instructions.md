@@ -26,23 +26,20 @@ It also hedges retention. There are **0 repeat purchases**, but only **3-4 custo
 
 ---
 
-## Step 1 — Shopify admin: create the variant
+## Step 1 — Shopify admin: create the 2-Pack as its own PRODUCT ⬅ THE ONLY THING LEFT TO DO
 
-The PDP hardcodes *displayed* price via section settings, but the **cart charges the real variant price**, so the variant must be created properly.
+**Founder call 2026-08-03: configured by product, not variant IDs.** The 2-pack is a separate Shopify product with its own images, inventory and URL — not a variant of the balm.
 
-On the Tallow Honey Balm product, add an option (e.g. `Size` or `Pack`) with two values:
-
-| Variant | Price | SKU suggestion | Inventory |
+| Product | Price | Compare-at | Contains |
 |---|---|---|---|
-| 1 Jar | **$49.99** | TLW-60G-1 | tracked |
-| 2 Jars + Lip Mask | **$79.99** | TLW-60G-2GIFT | tracked |
+| Tallow Honey Balm | **$49.99** | — | 1 jar |
+| Tallow Honey Balm — 2 Pack | **$79.99** | **$99.98** | 2 jars + lip mask |
 
-Notes:
-- Set **compare-at $99.98** on the 2-pack so Shopify's own discount display is consistent with the struck-through price in the selector.
-- The 2-pack is **one variant that ships two jars plus a lip mask**. Do not model it as quantity 2, or the per-unit price maths and the gift logic both break.
-- Make sure the **2-pack variant is not excluded** from any existing automatic discounts. Check for leftovers — the PDP file notes a past incident where two automatic discounts stacked and produced an unintended price.
+- The compare-at makes Shopify's own discount display agree with the struck price in the selector.
+- **Ship the lip mask inside the 2-pack SKU** rather than relying on the cart auto-add. One SKU, no cart trickery, and the cart can never hold the gift without the bundle. (The auto-add still works if you'd rather — it's gated to this tier.)
+- **Check for stale automatic discounts before going live.** This file's parent section documents a past incident where two automatic discounts stacked and produced a price nobody intended. A new product is exactly when that resurfaces.
 
-Copy both **variant IDs** (Products → variant → the `variant=` number in the URL).
+Then in the theme customizer, under **"Bundle selector + free gifts"**, pick both products. Everything else is pre-filled.
 
 ---
 
@@ -93,6 +90,21 @@ so the lip mask (and the gift-card token) auto-add on the 2-pack tier only.
 2. Later, once a winning ad exists, add a bundle line to that ad's close only.
 
 Do **not** rewrite all five closes before launch. The batch's job is finding a scroll-stopper; changing the offer copy mid-test adds a variable.
+
+---
+
+## The free-gift stack ✅ DONE
+
+Modelled on the Grüns PDP (founder reference, 2026-08-03). Their version hangs off a subscription; ours hangs off the 2-pack. Every gift is **named and priced** and shown as a card, so the value of the extras is visible rather than implied.
+
+| Tier | Gifts | Pill |
+|---|---|---|
+| Single | Shipping $6 | "$6 value" |
+| **2-Pack** | **Lip Mask $20 · Shipping $6 · Shipping Protection $5** | **"$31 value"** |
+
+**The stack is only visible on the selected tier.** With the 2-pack pre-selected, a visitor lands seeing three gifts and $31 of value; clicking Single collapses it to one gift and $6. That contrast is the persuasion, and it's how Grüns does it too.
+
+⚠️ **One thing to make true rather than drop.** "$20 value" on the lip mask is only defensible if the lip mask is actually sold somewhere at ~$20. Right now it isn't sold at all, which makes the number an assertion rather than a fact. **The fix costs nothing: list the lip mask as a real product at $19.99 on the store.** Then the claim is simply true, the gift reads as a genuine $20 item, and there's nothing to argue about. Same logic for Shipping Protection at $5 — if it's a real add-on you'd otherwise charge for, the number holds.
 
 ---
 
