@@ -129,6 +129,7 @@
   #tallow-pdp-v2 .tlw-gift-vis svg{width:24px;height:24px}
   #tallow-pdp-v2 .tlw-gift-vis img{width:34px;height:34px;object-fit:contain;border-radius:4px}
   #tallow-pdp-v2 .tlw-gift-tag{font-size:9.5px;font-weight:800;letter-spacing:.03em;color:#fff;background:#7a9a5b;padding:2px 6px;border-radius:999px;white-space:nowrap}
+  #tallow-pdp-v2 .tlw-gift-tag s{text-decoration:line-through;text-decoration-thickness:1.5px;opacity:.85;margin-left:1px}
   #tallow-pdp-v2 .tlw-gift-name{font-size:11px;line-height:1.25;color:#5a5344;font-weight:600}
   @media (max-width:400px){
     #tallow-pdp-v2 .tlw-gifts-row{gap:5px}
@@ -415,7 +416,7 @@
                 {%- elsif section.settings.t1_g1_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
                 {%- endif -%}
               </span>
-              <span class="tlw-gift-tag">FREE {{ section.settings.t1_g1_value }}</span>
+              <span class="tlw-gift-tag">FREE <s>{{ section.settings.t1_g1_value }}</s></span>
               <span class="tlw-gift-name">{{ section.settings.t1_g1_name }}</span>
             </span>
           </span>
@@ -457,7 +458,7 @@
                 {%- elsif section.settings.t2_g1_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
                 {%- endif -%}
               </span>
-              <span class="tlw-gift-tag">FREE {{ section.settings.t2_g1_value }}</span>
+              <span class="tlw-gift-tag">FREE <s>{{ section.settings.t2_g1_value }}</s></span>
               <span class="tlw-gift-name">{{ section.settings.t2_g1_name }}</span>
             </span>
             {%- if section.settings.t2_g2_name != blank -%}<span class="tlw-gift">
@@ -468,7 +469,7 @@
                 {%- elsif section.settings.t2_g2_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
                 {%- endif -%}
               </span>
-              <span class="tlw-gift-tag">FREE {{ section.settings.t2_g2_value }}</span>
+              <span class="tlw-gift-tag">FREE <s>{{ section.settings.t2_g2_value }}</s></span>
               <span class="tlw-gift-name">{{ section.settings.t2_g2_name }}</span>
             </span>{%- endif -%}
             {%- if section.settings.t2_g3_name != blank -%}<span class="tlw-gift">
@@ -479,7 +480,7 @@
                 {%- elsif section.settings.t2_g3_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
                 {%- endif -%}
               </span>
-              <span class="tlw-gift-tag">FREE {{ section.settings.t2_g3_value }}</span>
+              <span class="tlw-gift-tag">FREE <s>{{ section.settings.t2_g3_value }}</s></span>
               <span class="tlw-gift-name">{{ section.settings.t2_g3_name }}</span>
             </span>{%- endif -%}
           </span>
