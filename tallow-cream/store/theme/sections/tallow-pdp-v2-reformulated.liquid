@@ -129,6 +129,17 @@
   #tallow-pdp-v2 .tlw-gift-vis svg{width:24px;height:24px}
   #tallow-pdp-v2 .tlw-gift-vis img{width:34px;height:34px;object-fit:contain;border-radius:4px}
   #tallow-pdp-v2 .tlw-gift-tag{font-size:9.5px;font-weight:800;letter-spacing:.03em;color:#fff;background:#7a9a5b;padding:2px 6px;border-radius:999px;white-space:nowrap}
+  #tallow-pdp-v2 .eo-band{padding-top:18px;padding-bottom:18px}
+  #tallow-pdp-v2 .eo details{border-bottom:1px solid var(--line)}
+  #tallow-pdp-v2 .eo details:first-child{border-top:1px solid var(--line)}
+  #tallow-pdp-v2 .eo summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 2px;font-weight:600;font-size:15px;line-height:1.35}
+  #tallow-pdp-v2 .eo summary::-webkit-details-marker{display:none}
+  #tallow-pdp-v2 .eo .eo-pm{position:relative;flex:0 0 auto;width:14px;height:14px}
+  #tallow-pdp-v2 .eo .eo-pm::before,#tallow-pdp-v2 .eo .eo-pm::after{content:"";position:absolute;background:currentColor;transition:transform .18s ease}
+  #tallow-pdp-v2 .eo .eo-pm::before{top:6px;left:0;width:14px;height:1.8px}
+  #tallow-pdp-v2 .eo .eo-pm::after{left:6px;top:0;width:1.8px;height:14px}
+  #tallow-pdp-v2 .eo details[open] .eo-pm::after{transform:scaleY(0)}
+  #tallow-pdp-v2 .eo .fa{padding:0 2px 14px;font-size:14.5px;line-height:1.6;color:var(--grey,#6f6857)}
   #tallow-pdp-v2 .scent-line{text-align:center;font-size:14.5px;line-height:1.5;color:var(--grey,#8a8272);max-width:34ch;margin:0 auto 4px}
   #tallow-pdp-v2 .tlw-tier.tlw-flash{animation:tlwFlash .6s ease 2}
   @keyframes tlwFlash{0%,100%{box-shadow:0 0 0 0 rgba(106,72,26,0)}50%{box-shadow:0 0 0 4px rgba(106,72,26,.25)}}
@@ -567,6 +578,35 @@
     </div>
   </div>
 </div></section>
+
+{%- comment -%}
+  EARLY OBJECTION STRIP — added 2026-08-03, founder call.
+  Sits between the buy box and the mechanism, in the 10-15% scroll zone that
+  Clarity shows holding 1:05 of attention. Collapsed rows cost ~250px and the
+  visitor self-selects, so it does not push the mechanism meaningfully down.
+  Rationale: the FAQ at the page foot answers these well but sits at 70-80%
+  scroll, which only 4-6% of visitors reach. This surfaces the dealbreakers
+  where the attention actually is. The two leading rows are the tallow-specific
+  objections nothing else on the page addressed: smell, and clogged pores.
+{%- endcomment -%}
+{%- if section.settings.eo_show -%}
+<section class="band eo-band"><div class="wrap">
+  <div class="eo">
+    {%- for i in (1..5) -%}
+      {%- assign qk = 'eo_q' | append: i -%}
+      {%- assign ak = 'eo_a' | append: i -%}
+      {%- assign q = section.settings[qk] -%}
+      {%- assign a = section.settings[ak] -%}
+      {%- if q != blank and a != blank -%}
+      <details>
+        <summary>{{ q }}<span class="eo-pm" aria-hidden="true"></span></summary>
+        <div class="fa">{{ a }}</div>
+      </details>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div></section>
+{%- endif -%}
 
 <section class="band diagram-band"><div class="wrap">
   {%- comment -%}
@@ -1567,6 +1607,80 @@
       "id": "bundle_note",
       "label": "Line under selector",
       "default": "60 days to send it back, either way."
+    },
+    {
+      "type": "header",
+      "content": "Early objection strip (under the buy box)"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sits between the buy box and the mechanism, in the highest-attention zone. Leave rows blank to hide them. These duplicate the footer FAQ deliberately -- that FAQ sits at 70-80% scroll, which only 4-6% of visitors reach."
+    },
+    {
+      "type": "checkbox",
+      "id": "eo_show",
+      "label": "Show the early objection strip",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "eo_q1",
+      "label": "Q1",
+      "default": "Does it smell like beef?"
+    },
+    {
+      "type": "textarea",
+      "id": "eo_a1",
+      "label": "A1",
+      "default": "No. It smells faintly of honey and the essential oils. Properly rendered tallow is close to odourless, and the smell that is there fades within a minute or two of putting it on."
+    },
+    {
+      "type": "text",
+      "id": "eo_q2",
+      "label": "Q2",
+      "default": "Will it clog my pores?"
+    },
+    {
+      "type": "textarea",
+      "id": "eo_a2",
+      "label": "A2",
+      "default": "Tallow is close in composition to what your skin already makes, which is why it absorbs instead of sitting on top. Most people find it does not clog. If your skin disagrees, the 60-day guarantee covers you."
+    },
+    {
+      "type": "text",
+      "id": "eo_q3",
+      "label": "Q3",
+      "default": "How long does one jar last?"
+    },
+    {
+      "type": "textarea",
+      "id": "eo_a3",
+      "label": "A3",
+      "default": "2 to 3 months with daily use on face and neck. Longer if you use it only at night. A little goes a long way."
+    },
+    {
+      "type": "text",
+      "id": "eo_q4",
+      "label": "Q4",
+      "default": "What if my skin is sensitive?"
+    },
+    {
+      "type": "textarea",
+      "id": "eo_a4",
+      "label": "A4",
+      "default": "4 ingredients, no synthetic chemicals. If your skin reacts to most things, this is worth trying, and the guarantee covers you if it does not agree with you."
+    },
+    {
+      "type": "text",
+      "id": "eo_q5",
+      "label": "Q5",
+      "default": "What if it doesn't work for me?"
+    },
+    {
+      "type": "textarea",
+      "id": "eo_a5",
+      "label": "A5",
+      "default": "Use it for 60 days. If your skin does not love it, email us and we refund every penny. No hoops, nothing to send back."
     }
   ],
   "presets": [
