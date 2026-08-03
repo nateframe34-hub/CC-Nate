@@ -392,18 +392,23 @@
   as one. So we cannot have both "buy 2 = $19.99 off" AND "free lip mask".
   Two ways to spend the single discount, switchable via "2-Pack behaviour":
 
-  MODE A — "product" (DEFAULT, recommended)
+  MODE A — "product"
     Tier 2 adds a separate 2-Pack PRODUCT priced at $79.99. No price discount is
     needed because $79.99 is simply the price. The one discount is then free to
     be a Buy-X-Get-Y that adds the lip mask at no cost.
     Cart reads: "Tallow Honey Balm 2-Pack $79.99" + "Lip Mask FREE".
 
-  MODE B — "quantity"
-    Tier 2 adds quantity 2 of THIS product. The single discount must then be the
-    price break (2+ = $19.99 off), which means the lip mask cannot be free via
-    discount. Only choose this if you make the lip mask a $0.00 product and let
-    the auto-add handle it.
-    Cart reads: "Tallow Honey Balm x2" + "Lip Mask".
+  MODE B — "quantity" (DEFAULT, and the right one for Teemdrop)
+    Tier 2 adds quantity 2 of THIS product, a SKU fulfilment already maps, so
+    nothing new has to be created or mapped. The single discount goes to the
+    price break (2+ = $19.99 off). The lip mask is then made free WITHOUT a
+    discount, by pointing free_gift_product at a $0.00 "Free Gift" VARIANT of the
+    lip mask rather than the $20 one. A $0 line needs no discount to be free.
+    Cart reads: "Tallow Honey Balm x2" + "Lip Mask $0.00".
+
+    NOTE: today the single discount is already spent — the lip mask auto-adds and
+    a Buy-X-Get-Y zeroes it. Moving to a $0.00 variant is what frees that
+    discount up for the price break.
 
   Gift-stack presentation modelled on the Gruns PDP (founder reference
   2026-08-03): every gift named, priced, shown as a card. Theirs hangs off a
@@ -1148,8 +1153,8 @@
         { "value": "product",  "label": "A: separate 2-Pack product (recommended)" },
         { "value": "quantity", "label": "B: quantity 2 of this product" }
       ],
-      "default": "product",
-      "info": "Shopify only applies ONE product discount. Mode A prices the 2-pack as its own product so no price discount is needed, leaving the single discount free to make the lip mask free. Mode B needs the discount for the price break instead." },
+      "default": "quantity",
+      "info": "Mode B (default) is the fulfilment-safe one: quantity 2 of a SKU Teemdrop already maps, nothing new to create. It spends the single discount on the price break, so the lip mask must be a $0.00 VARIANT rather than a discounted one. Mode A needs a separate 2-Pack product, which would need its own Teemdrop mapping at quantity 2." },
     { "type": "product", "id": "t2_product", "label": "2-Pack product (Mode A only)" },
     { "type": "select", "id": "default_tier", "label": "Pre-selected tier",
       "options": [ { "value": "1", "label": "Single" }, { "value": "2", "label": "2-Pack" } ],
