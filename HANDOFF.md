@@ -625,7 +625,43 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ---
 
-## Recent Decisions (Last 14 Days)
+## Recent Decisions
+
+### 2026-08-03 — PDP restructured off Clarity scroll data
+
+**Removed the "Sound familiar?" band** and promoted the mechanism (water vs
+fat) into its slot as the first thing after the offer.
+
+Evidence: Microsoft Clarity attention + scroll depth, 129 visitors.
+- 53% of visitors drop between 5% and 10% scroll. Founder's read, accepted:
+  that band is largely curiosity clickers and price rejection, not a copy
+  problem.
+- Attention HOLDS at 1:05 through 10-15% then collapses to 0:21 at 15-20%.
+  Engaged readers, past the buy box, stopping cold. That was the
+  "Sound familiar?" slot.
+- Attention is bimodal: 36% of session time in the first 15%, 30% in
+  75-95%. The middle half of the page carries ~25% of attention, and
+  60-75% is functionally dead at ~5 seconds per band.
+
+Reasoning: a visitor who has just read the offer is asking "why is this
+different from the 14 products I already bought?" Six lines re-describing
+the problem is the wrong answer; the mechanism is the right one, and it sat
+one band too low. One configurable scent-match line survives so continuity
+with the ads is not lost. The lifestyle photo moved into the mechanism band
+rather than being dropped.
+
+**Also:** sticky bar now restates the offer and scrolls back to the bundle
+tiers instead of instant-adding a single jar (modelled on Gruns, whose
+sticky reads "Save $92 + Free Shipping" on all 16 captured screens).
+
+**Deprioritised** on the same evidence: Us vs Them table, review filter
+pills, accordion compression. All mid-page, where the data says nobody
+reads. Revisit only if the middle starts holding attention.
+
+**Still open:** what exactly sits at 5-10% scroll (unmapped); the
+$40 kill line now sitting at breakeven; Shopify discount setup for the
+bundle (Buy X Get Y + order-level amount off).
+ (Last 14 Days)
 
 - **2026-08-02 — B33 LAUNCHED. B33C5 KILLED same day at $42.42. Two findings, one of them important.** **C5 final: $42.42, 80 impressions, $530.25 CPM, 6.25% CTR, 5 clicks, $8.48 CPC, 4 LPV, 0 ATC, 0 purchases.** Past the $40 Regime A line and past the restated $41.52 breakeven; also tripped the separate "high CTR, no ATC" hard kill. **Its midday 19.05% CTR on 21 impressions was small-sample flattery and collapsed to 6.25% at volume** — the same lesson as B32C3's CPM curve, pointed at a different metric. **Note the failure is 100% CPM, not engagement: 6.25% CTR is normal for this account.** I had advised letting it run to the $40 line rather than killing at 17 impressions; that cost ~$27 and produced the finding below, and I would make the same call again, but it was my call and it did not pay. **🔑 FINDING 1 — PRODUCT IN FRAME LOOKS EXPENSIVE. Same-day, same-campaign, same-auction CPMs:** B33C2 screenshot **$21.67** · B33C3 whiteboard **$125.33** · B33C1 document **$162.92** · B32C1 whiteboard **$80.31** · **B33C5, the ONLY cell with our jar in frame, $530.25.** That is 3-25x its siblings with auction conditions held constant, which is a far cleaner comparison than anything we have had. **Confound: the siblings have 4-32 impressions each and we know CPM rises with volume, so part of the spread is a volume artifact.** Suggestive, not conclusive — but it is the only direct evidence we have and it points against `PRODUCT_IMAGE_REFERENCE.md`'s "if the story says she bought it, SHOW it" rule. **Do not amend that principle yet; flag it and watch the four remaining product-free cells.** **🔑 FINDING 2 — THE CBO AMPLIFIED THE NOISE. It put $42.42 of the day's $51.05 (83%) into the single most expensive cell**, apparently chasing C5's early 19% CTR spike, while the other four B33 cells got $6.06 combined. This is the concentration behaviour predicted on 8/1, except it concentrated on the *worst* cell because the early signal was noise. **Operational implication: at micro-budgets, CBO concentration can actively amplify small-sample noise rather than find winners** — an argument for running fewer cells at controlled budgets rather than letting the algorithm allocate across eight. **State: four B33 cells live (C1-C4) plus B32C1/C2, all under every reliability bar. B33C3 is the only cell with a CPC under the $2.08 bundle breakeven ($1.88) and it is on ONE CLICK.**
 
