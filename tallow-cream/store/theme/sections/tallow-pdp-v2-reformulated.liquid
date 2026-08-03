@@ -939,7 +939,7 @@
   // Each tier carries data-variant and data-qty. Mode A (default): tier 2 points
   // at the separate 2-Pack product, qty 1. Mode B: tier 2 points at this product,
   // qty 2. The JS does not care which, it just writes both fields.
-  // Sets TLW_GIFT_ELIGIBLE, which gates addGiftsSilently() below.
+  // The add-to-cart handler reads the selected tier directly off the DOM.
   window.TLW_GIFT_ELIGIBLE = true; // unchanged behaviour when the selector is off
   (function(){
    // OWN try/catch, deliberately. This block used to run as a bare IIFE above the
@@ -1020,46 +1020,38 @@
    }catch(err){ console.error('[tlw-bundle] selector failed, cart still works', err); }
   })();
 
-  var MAIN_PRODUCT_ID = {{ product.id | json }};
-
-  function addGiftsSilently(){
-    if(!GIFT_VARIANT_IDS.length) return Promise.resolve();
-    return getCart().then(function(cart){
-      // Eligibility comes from what is ACTUALLY IN THE CART, not from a JS flag.
-      // The flag broke whenever the selector script faulted, and it could drift out
-      // of sync with the cart. Counting balms matches the Buy-X-Get-Y condition
-      // exactly, so the gift and the discount can never disagree.
-      var balms = 0;
-      cart.items.forEach(function(it){ if(it.product_id === MAIN_PRODUCT_ID) balms += it.quantity; });
-      if(balms < 2){ console.log('[free gift] '+balms+' balm(s) in cart, need 2 — not adding'); return; }
-
-      var already = {};
-      cart.items.forEach(function(it){ already[String(it.variant_id)] = true; });
-      var toAdd = GIFT_VARIANT_IDS.filter(function(id){ return !already[String(id)]; });
-      if(!toAdd.length) return;
-      console.log('[free gift] adding', toAdd);
-      return fetch('/cart/add.js',{
-        method:'POST',
-        headers:{'Accept':'application/json','Content-Type':'application/json'},
-        body: JSON.stringify({ items: toAdd.map(function(id){ return { id: id, quantity: 1 }; }) })
-      }).then(function(r){
-        if(!r.ok){ return r.json().then(function(err){ console.error('[free gift] cart/add.js failed', r.status, err); }); }
-      }).catch(function(err){ console.error('[free gift] cart/add.js network error', err); });
-    });
-  }
-
-  // Add to cart (all product forms) -> AJAX add, open drawer, stay on PDP
+  // Add to cart -> ONE /cart/add.js call carrying everything the chosen tier
+  // implies. Tier 2 sends [balm x2, lip mask x1] in a single items array. No
+  // flags, no cart inspection, no second request that can fail on its own.
+  // The discount showing correctly in the drawer is a separate problem, later.
   root.querySelectorAll('form.pf').forEach(function(form){
     form.addEventListener('submit', function(e){
       e.preventDefault();
-      var isMain = !!form.querySelector('.tlw-main-flag');
-      console.log('[tallow-pdp-v2] form submit intercepted', form.id, 'isMain:', isMain, 'gift ids:', GIFT_VARIANT_IDS);
       var btn = form.querySelector('button[name="add"]'); if(btn){ btn.disabled=true; }
-      fetch('/cart/add.js',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
-        .then(function(r){return r.json();})
-        // Always run it — eligibility is decided from cart contents now, so the
-        // unreliable .tlw-main-flag no longer gates whether the gift can appear.
-        .then(function(){ return addGiftsSilently(); })
+
+      var items = [];
+      var tier = document.querySelector('#tlw-bundle .tlw-tier.is-on');
+      if(tier){
+        items.push({ id: tier.getAttribute('data-variant'), quantity: parseInt(tier.getAttribute('data-qty'),10) || 1 });
+        if(tier.getAttribute('data-gift') === 'true'){
+          GIFT_VARIANT_IDS.forEach(function(id){ items.push({ id: id, quantity: 1 }); });
+        }
+      } else {
+        // Selector hidden or faulted: fall back to whatever the form itself says.
+        var fid = form.querySelector('[name="id"]');
+        items.push({ id: fid ? fid.value : {{ product.selected_or_first_available_variant.id | json }}, quantity: 1 });
+      }
+
+      console.log('[tallow-pdp-v2] adding', items);
+      fetch('/cart/add.js',{
+        method:'POST',
+        headers:{'Accept':'application/json','Content-Type':'application/json'},
+        body: JSON.stringify({ items: items })
+      })
+        .then(function(r){
+          if(!r.ok){ return r.json().then(function(err){ console.error('[tallow-pdp-v2] cart/add.js failed', r.status, err); throw err; }); }
+          return r.json();
+        })
         .then(function(){ return refresh(); })
         .then(function(){ open(); })
         .catch(function(){ window.location='/cart'; })
