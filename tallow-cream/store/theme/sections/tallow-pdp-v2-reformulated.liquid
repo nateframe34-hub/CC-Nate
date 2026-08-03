@@ -129,6 +129,9 @@
   #tallow-pdp-v2 .tlw-gift-vis svg{width:24px;height:24px}
   #tallow-pdp-v2 .tlw-gift-vis img{width:34px;height:34px;object-fit:contain;border-radius:4px}
   #tallow-pdp-v2 .tlw-gift-tag{font-size:9.5px;font-weight:800;letter-spacing:.03em;color:#fff;background:#7a9a5b;padding:2px 6px;border-radius:999px;white-space:nowrap}
+  #tallow-pdp-v2 .tlw-tier.tlw-flash{animation:tlwFlash .6s ease 2}
+  @keyframes tlwFlash{0%,100%{box-shadow:0 0 0 0 rgba(106,72,26,0)}50%{box-shadow:0 0 0 4px rgba(106,72,26,.25)}}
+  @media(prefers-reduced-motion:reduce){#tallow-pdp-v2 .tlw-tier.tlw-flash{animation:none}}
   #tallow-pdp-v2 .tlw-gift-tag s{text-decoration:line-through;text-decoration-thickness:1.5px;opacity:.85;margin-left:1px}
   #tallow-pdp-v2 .tlw-gift-name{font-size:11px;line-height:1.25;color:#5a5344;font-weight:600}
   @media (max-width:400px){
@@ -700,9 +703,21 @@
     <img class="s-thumb" src="{{ product.featured_image | image_url: width: 120 }}" alt="{{ product.title | escape }}" loading="lazy" width="48" height="48">
   {%- endif -%}
   <div class="s-info">
-    <div class="p">{{ section.settings.price_sale }}{%- if section.settings.price_compare != blank -%} <s class="s-was">{{ section.settings.price_compare }}</s>{%- endif -%}</div>
-    <div class="s-sub">60-day guarantee · Free shipping</div>
+    <div class="p">{{ section.settings.sticky_offer | default: 'Save $19.99 + Free Lip Mask' }}</div>
+    <div class="s-sub">{{ section.settings.sticky_sub | default: '60-day guarantee · Free shipping' }}</div>
   </div>
+  {%- comment -%}
+    With the bundle on, the sticky bar SENDS THEM BACK TO THE TIERS instead of
+    silently adding one jar. Gruns does this on every screen: the bar restates
+    the offer and returns you to it. A sticky that instant-adds a single jar
+    competes with the bundle it is meant to sell.
+  {%- endcomment -%}
+  {%- if section.settings.show_bundle -%}
+    <button type="button" class="btn" id="tlw-sticky-jump">
+      <svg class="icon" style="width:16px;height:16px"><use href="#tlw-cart"/></svg>
+      {{ section.settings.sticky_cta | default: 'Choose Yours' }}
+    </button>
+  {%- else -%}
   {%- form 'product', product, id: 'tlw-form-sticky', class: 'pf' -%}
     <input type="hidden" name="id" value="{{ v.id }}">
     <input type="hidden" name="quantity" class="tlw-qty-field" value="1">
@@ -712,6 +727,7 @@
       {%- if v.available -%}Add to Cart{%- else -%}Sold Out{%- endif -%}
     </button>
   {%- endform -%}
+  {%- endif -%}
 </div>
 
 <!-- ================= WELCOME EMAIL POPUP ================= -->
@@ -1248,6 +1264,25 @@
       "default": false
     },
     {
+      "type": "text",
+      "id": "sticky_offer",
+      "label": "Sticky bar - offer line",
+      "default": "Save $19.99 + Free Lip Mask",
+      "info": "Gruns restates the OFFER on every screen, not the product name or the guarantee."
+    },
+    {
+      "type": "text",
+      "id": "sticky_sub",
+      "label": "Sticky bar - subline",
+      "default": "60-day guarantee \u00b7 Free shipping"
+    },
+    {
+      "type": "text",
+      "id": "sticky_cta",
+      "label": "Sticky bar - button",
+      "default": "Choose Yours"
+    },
+    {
       "type": "select",
       "id": "default_tier",
       "label": "Pre-selected tier",
@@ -1564,6 +1599,18 @@
   });
 
   select(wrap.querySelector('.tlw-tier.is-on') || tiers[0]);
+
+  // Sticky bar returns to the tiers and flashes the recommended one.
+  var jump = document.getElementById('tlw-sticky-jump');
+  if(jump){
+    jump.addEventListener('click', function(){
+      wrap.scrollIntoView({behavior:'smooth', block:'center'});
+      var best = wrap.querySelector('.tlw-tier--best') || tiers[0];
+      select(best);
+      best.classList.add('tlw-flash');
+      setTimeout(function(){ best.classList.remove('tlw-flash'); }, 1200);
+    });
+  }
  }catch(err){ console.error('[tlw-bundle] selector failed — cart is unaffected', err); }
 })();
 </script>
