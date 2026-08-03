@@ -97,6 +97,49 @@
   #tallow-pdp-v2 .price .save{background:var(--amber-soft);color:#6a481a;font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px}
   #tallow-pdp-v2 .ship{font-size:12.5px;color:var(--grey);margin-bottom:16px}
   @keyframes fgReveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  #tallow-pdp-v2 .tlw-bundle{display:flex;flex-direction:column;gap:10px;margin:16px 0 14px}
+  #tallow-pdp-v2 .tlw-tier{position:relative;display:flex;flex-direction:column;gap:0;width:100%;padding:14px 14px 14px 13px;border:1.5px solid #ddd6c6;border-radius:12px;background:#fff;text-align:left;cursor:pointer;font:inherit;color:inherit;transition:border-color .15s,background .15s}
+  #tallow-pdp-v2 .tlw-tier:hover{border-color:#c9bda4}
+  #tallow-pdp-v2 .tlw-tier:focus-visible{outline:2px solid #6a481a;outline-offset:2px}
+  #tallow-pdp-v2 .tlw-tier[disabled]{opacity:.45;cursor:not-allowed}
+  #tallow-pdp-v2 .tlw-tier.is-on{border-color:#6a481a;border-width:2px;padding:13px 13px 13px 12px;background:var(--amber-soft,#fdf6ea)}
+  #tallow-pdp-v2 .tlw-tier-main{display:flex;align-items:center;gap:12px;width:100%}
+  #tallow-pdp-v2 .tlw-tier-radio{flex:0 0 auto;width:20px;height:20px;border-radius:50%;border:1.5px solid #c4baa6;background:#fff;position:relative}
+  #tallow-pdp-v2 .tlw-tier.is-on .tlw-tier-radio{border-color:#6a481a;border-width:2px}
+  #tallow-pdp-v2 .tlw-tier.is-on .tlw-tier-radio::after{content:"";position:absolute;inset:3px;border-radius:50%;background:#6a481a}
+  #tallow-pdp-v2 .tlw-tier-body{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:2px}
+  #tallow-pdp-v2 .tlw-tier-name{font-weight:700;font-size:15.5px;line-height:1.2}
+  #tallow-pdp-v2 .tlw-tier-sub{font-size:12.5px;color:var(--grey,#8a8272)}
+  #tallow-pdp-v2 .tlw-tier-prices{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:1px}
+  #tallow-pdp-v2 .tlw-tier-now{font-family:Georgia,'Times New Roman',serif;font-size:19px;font-weight:600;line-height:1.15}
+  #tallow-pdp-v2 .tlw-tier-was{font-size:12.5px;color:#9a927d;text-decoration:line-through}
+  #tallow-pdp-v2 .tlw-tier-each{font-size:11.5px;color:var(--grey,#8a8272)}
+  #tallow-pdp-v2 .tlw-tier-badge{position:absolute;top:-9px;right:12px;background:#6a481a;color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:999px;white-space:nowrap;z-index:1}
+  #tallow-pdp-v2 .tlw-tier--best{margin-top:4px}
+
+  /* gift stack: only visible on the selected tier, so choosing reveals the value */
+  #tallow-pdp-v2 .tlw-gifts{display:none}
+  #tallow-pdp-v2 .tlw-tier.is-on .tlw-gifts{display:block;margin-top:12px;padding:10px;border-radius:9px;background:#fff;border:1px solid #e6dfcd}
+  #tallow-pdp-v2 .tlw-gifts-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+  #tallow-pdp-v2 .tlw-gifts-title{font-size:12px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:#6a481a}
+  #tallow-pdp-v2 .tlw-gifts-total{font-size:11px;font-weight:700;background:#6a481a;color:#fff;padding:2px 7px;border-radius:999px;white-space:nowrap}
+  #tallow-pdp-v2 .tlw-gifts-row{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:7px}
+  #tallow-pdp-v2 .tlw-gift{display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;padding:8px 5px;border:1px solid #ece5d5;border-radius:7px;background:#fdfbf6}
+  #tallow-pdp-v2 .tlw-gift-vis{display:flex;align-items:center;justify-content:center;width:34px;height:34px;margin-bottom:1px;color:#6a481a}
+  #tallow-pdp-v2 .tlw-gift-vis svg{width:24px;height:24px}
+  #tallow-pdp-v2 .tlw-gift-vis img{width:34px;height:34px;object-fit:contain;border-radius:4px}
+  #tallow-pdp-v2 .tlw-gift-tag{font-size:9.5px;font-weight:800;letter-spacing:.03em;color:#fff;background:#7a9a5b;padding:2px 6px;border-radius:999px;white-space:nowrap}
+  #tallow-pdp-v2 .tlw-gift-name{font-size:11px;line-height:1.25;color:#5a5344;font-weight:600}
+  @media (max-width:400px){
+    #tallow-pdp-v2 .tlw-gifts-row{gap:5px}
+    #tallow-pdp-v2 .tlw-gift{padding:7px 3px}
+    #tallow-pdp-v2 .tlw-gift-vis{width:28px;height:28px}
+    #tallow-pdp-v2 .tlw-gift-vis svg{width:20px;height:20px}
+    #tallow-pdp-v2 .tlw-gift-vis img{width:28px;height:28px}
+    #tallow-pdp-v2 .tlw-gift-name{font-size:10px}
+    #tallow-pdp-v2 .tlw-gift-tag{font-size:9px;padding:2px 4px}
+  }
+  @media (max-width:380px){#tallow-pdp-v2 .tlw-tier{padding:12px 11px}#tallow-pdp-v2 .tlw-tier-name{font-size:14.5px}#tallow-pdp-v2 .tlw-tier-now{font-size:17.5px}}
   #tallow-pdp-v2 .free-gift-card{
     position:relative;display:flex;align-items:center;gap:14px;margin-top:14px;
     background:linear-gradient(155deg,var(--paper) 0%,var(--amber-soft) 145%);
@@ -338,9 +381,120 @@
     </div>
     <div class="ship">{{ section.settings.ship_text }}</div>
 
+    {%- if section.settings.show_bundle -%}
+<div class="tlw-bundle" id="tlw-bundle" role="radiogroup" aria-label="Choose how many">
+
+      {%- comment -%} ---- TIER 1 : this product, quantity 1, no gift ---- {%- endcomment -%}
+      <button type="button" class="tlw-tier{% if section.settings.default_tier == '1' %} is-on{% endif %}"
+              role="radio" aria-checked="{% if section.settings.default_tier == '1' %}true{% else %}false{% endif %}"
+              data-variant="{{ v.id }}" data-qty="1" data-gift="false"
+              data-cta="{{ section.settings.t1_cta | default: section.settings.t1_price }}">
+        <span class="tlw-tier-main">
+          <span class="tlw-tier-radio" aria-hidden="true"></span>
+          <span class="tlw-tier-body">
+            <span class="tlw-tier-name">{{ section.settings.t1_label | default: 'One jar' }}</span>
+            {%- if section.settings.t1_sub != blank -%}<span class="tlw-tier-sub">{{ section.settings.t1_sub }}</span>{%- endif -%}
+          </span>
+          <span class="tlw-tier-prices">
+            <span class="tlw-tier-now">{{ section.settings.t1_price }}</span>
+            {%- if section.settings.t1_each != blank -%}<span class="tlw-tier-each">{{ section.settings.t1_each }}</span>{%- endif -%}
+          </span>
+        </span>
+        {%- if section.settings.t1_g1_name != blank -%}
+        <span class="tlw-gifts">
+          <span class="tlw-gifts-head">
+            <span class="tlw-gifts-title">Your free gifts</span>
+            {%- if section.settings.t1_gift_total != blank -%}<span class="tlw-gifts-total">{{ section.settings.t1_gift_total }}</span>{%- endif -%}
+          </span>
+          <span class="tlw-gifts-row">
+            <span class="tlw-gift">
+              <span class="tlw-gift-vis">
+                {%- if section.settings.t1_g1_image != blank -%}<img src="{{ section.settings.t1_g1_image | image_url: width: 120 }}" alt="{{ section.settings.t1_g1_name | escape }}" loading="lazy" width="60" height="60">
+                {%- elsif section.settings.t1_g1_icon == 'truck' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>
+                {%- elsif section.settings.t1_g1_icon == 'shield' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5C7.4 20.9 4 16.5 4 11.5v-6L12 2z"/><path d="M9 12l2 2 4-4"/></svg>
+                {%- elsif section.settings.t1_g1_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
+                {%- endif -%}
+              </span>
+              <span class="tlw-gift-tag">FREE {{ section.settings.t1_g1_value }}</span>
+              <span class="tlw-gift-name">{{ section.settings.t1_g1_name }}</span>
+            </span>
+          </span>
+        </span>
+        {%- endif -%}
+      </button>
+
+      {%- comment -%} ---- TIER 2 : 2-pack product (mode A) or qty 2 (mode B) ---- {%- endcomment -%}
+      <button type="button" class="tlw-tier tlw-tier--best{% if section.settings.default_tier != '1' %} is-on{% endif %}"
+              role="radio" aria-checked="{% if section.settings.default_tier != '1' %}true{% else %}false{% endif %}"
+              data-variant="{{ v.id }}" data-qty="2"
+              data-gift="true"
+              data-cta="{{ section.settings.t2_cta | default: section.settings.t2_price }}">
+        {%- if section.settings.t2_badge != blank -%}<span class="tlw-tier-badge">{{ section.settings.t2_badge }}</span>{%- endif -%}
+        <span class="tlw-tier-main">
+          <span class="tlw-tier-radio" aria-hidden="true"></span>
+          <span class="tlw-tier-body">
+            <span class="tlw-tier-name">{{ section.settings.t2_label | default: 'Two jars' }}</span>
+            {%- if section.settings.t2_sub != blank -%}<span class="tlw-tier-sub">{{ section.settings.t2_sub }}</span>{%- endif -%}
+          </span>
+          <span class="tlw-tier-prices">
+            <span class="tlw-tier-now">{{ section.settings.t2_price }}</span>
+            {%- if section.settings.t2_was != blank -%}<span class="tlw-tier-was">{{ section.settings.t2_was }}</span>{%- endif -%}
+            {%- if section.settings.t2_each != blank -%}<span class="tlw-tier-each">{{ section.settings.t2_each }}</span>{%- endif -%}
+          </span>
+        </span>
+        {%- if section.settings.t2_g1_name != blank -%}
+        <span class="tlw-gifts">
+          <span class="tlw-gifts-head">
+            <span class="tlw-gifts-title">Your free gifts</span>
+            {%- if section.settings.t2_gift_total != blank -%}<span class="tlw-gifts-total">{{ section.settings.t2_gift_total }}</span>{%- endif -%}
+          </span>
+          <span class="tlw-gifts-row">
+            <span class="tlw-gift">
+              <span class="tlw-gift-vis">
+                {%- if section.settings.t2_g1_image != blank -%}<img src="{{ section.settings.t2_g1_image | image_url: width: 120 }}" alt="{{ section.settings.t2_g1_name | escape }}" loading="lazy" width="60" height="60">
+                {%- elsif section.settings.t2_g1_icon == 'truck' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>
+                {%- elsif section.settings.t2_g1_icon == 'shield' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5C7.4 20.9 4 16.5 4 11.5v-6L12 2z"/><path d="M9 12l2 2 4-4"/></svg>
+                {%- elsif section.settings.t2_g1_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
+                {%- endif -%}
+              </span>
+              <span class="tlw-gift-tag">FREE {{ section.settings.t2_g1_value }}</span>
+              <span class="tlw-gift-name">{{ section.settings.t2_g1_name }}</span>
+            </span>
+            {%- if section.settings.t2_g2_name != blank -%}<span class="tlw-gift">
+              <span class="tlw-gift-vis">
+                {%- if section.settings.t2_g2_image != blank -%}<img src="{{ section.settings.t2_g2_image | image_url: width: 120 }}" alt="{{ section.settings.t2_g2_name | escape }}" loading="lazy" width="60" height="60">
+                {%- elsif section.settings.t2_g2_icon == 'truck' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>
+                {%- elsif section.settings.t2_g2_icon == 'shield' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5C7.4 20.9 4 16.5 4 11.5v-6L12 2z"/><path d="M9 12l2 2 4-4"/></svg>
+                {%- elsif section.settings.t2_g2_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
+                {%- endif -%}
+              </span>
+              <span class="tlw-gift-tag">FREE {{ section.settings.t2_g2_value }}</span>
+              <span class="tlw-gift-name">{{ section.settings.t2_g2_name }}</span>
+            </span>{%- endif -%}
+            {%- if section.settings.t2_g3_name != blank -%}<span class="tlw-gift">
+              <span class="tlw-gift-vis">
+                {%- if section.settings.t2_g3_image != blank -%}<img src="{{ section.settings.t2_g3_image | image_url: width: 120 }}" alt="{{ section.settings.t2_g3_name | escape }}" loading="lazy" width="60" height="60">
+                {%- elsif section.settings.t2_g3_icon == 'truck' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>
+                {%- elsif section.settings.t2_g3_icon == 'shield' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5C7.4 20.9 4 16.5 4 11.5v-6L12 2z"/><path d="M9 12l2 2 4-4"/></svg>
+                {%- elsif section.settings.t2_g3_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
+                {%- endif -%}
+              </span>
+              <span class="tlw-gift-tag">FREE {{ section.settings.t2_g3_value }}</span>
+              <span class="tlw-gift-name">{{ section.settings.t2_g3_name }}</span>
+            </span>{%- endif -%}
+          </span>
+        </span>
+        {%- endif -%}
+      </button>
+
+      {%- if section.settings.bundle_note != blank -%}<p class="tlw-bundle-note">{{ section.settings.bundle_note }}</p>{%- endif -%}
+    </div>
+    {%- endif -%}
+
     {%- comment -%} REAL add-to-cart form #1 (hero) {%- endcomment -%}
     {%- form 'product', product, id: 'tlw-form-hero', class: 'pf' -%}
       <input type="hidden" name="id" value="{{ v.id }}">
+      <input type="hidden" name="quantity" class="tlw-qty-field" value="1">
       <input type="hidden" class="tlw-main-flag" value="1">
       <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
         <svg class="icon" style="width:19px;height:19px"><use href="#tlw-cart"/></svg>
@@ -519,7 +673,8 @@
   <h2 class="sec">Your skin changed. This was made for that.</h2>
   {%- form 'product', product, id: 'tlw-form-final', class: 'pf' -%}
     <input type="hidden" name="id" value="{{ v.id }}">
-    <input type="hidden" class="tlw-main-flag" value="1">
+    <input type="hidden" name="quantity" class="tlw-qty-field" value="1">
+      <input type="hidden" class="tlw-main-flag" value="1">
     <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
       <svg class="icon" style="width:19px;height:19px"><use href="#tlw-cart"/></svg>
       {%- if v.available -%}Add to Cart · {{ section.settings.price_sale }}{%- else -%}Sold Out{%- endif -%}
@@ -544,7 +699,8 @@
   </div>
   {%- form 'product', product, id: 'tlw-form-sticky', class: 'pf' -%}
     <input type="hidden" name="id" value="{{ v.id }}">
-    <input type="hidden" class="tlw-main-flag" value="1">
+    <input type="hidden" name="quantity" class="tlw-qty-field" value="1">
+      <input type="hidden" class="tlw-main-flag" value="1">
     <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
       <svg class="icon" style="width:16px;height:16px"><use href="#tlw-cart"/></svg>
       {%- if v.available -%}Add to Cart{%- else -%}Sold Out{%- endif -%}
@@ -712,6 +868,9 @@
 
   function addGiftsSilently(){
     if(!GIFT_VARIANT_IDS.length) return Promise.resolve();
+    // 2-jar tier only. No selector on the page = unchanged original behaviour.
+    var t = document.querySelector('#tlw-bundle .tlw-tier.is-on');
+    if(t && t.getAttribute('data-gift') !== 'true') return Promise.resolve();
     return getCart().then(function(cart){
       var already = {};
       cart.items.forEach(function(it){ already[String(it.variant_id)] = true; });
@@ -821,49 +980,561 @@
   "tag": "section",
   "class": "tallow-pdp-v2-section",
   "settings": [
-    { "type": "header", "content": "Price display (hardcoded, not from variant)" },
-    { "type": "text", "id": "price_sale", "label": "Sale price (shown)", "default": "$49.99" },
-    { "type": "text", "id": "price_compare", "label": "Compare-at price (struck through)", "default": "$69.99" },
-    { "type": "text", "id": "price_save", "label": "Savings badge", "default": "Save $20" },
-    { "type": "header", "content": "Hero" },
-    { "type": "text", "id": "anno_text", "label": "Announcement bar", "default": "Free shipping · 60-day guarantee · $10 gift card for our next 100 customers" },
-    { "type": "header", "content": "Welcome email popup" },
-    { "type": "checkbox", "id": "popup_active", "label": "Show welcome popup (10% off, email capture for cart-recovery flow)", "default": true },
-    { "type": "image_picker", "id": "popup_image", "label": "Popup image (falls back to product photo)" },
-    { "type": "text", "id": "popup_heading", "label": "Popup heading (kept vague on purpose, mystery discount)", "default": "Unlock a discount on your order" },
-    { "type": "text", "id": "popup_subtext", "label": "Popup subtext (don't reveal the %, mystery discount)", "default": "Enter your email and we'll send a code straight to your inbox." },
-    { "type": "header", "content": "Free gift, Overnight Lip Mask" },
-    { "type": "product", "id": "free_gift_product", "label": "Free gift product (blank = disable)" },
-    { "type": "image_picker", "id": "free_gift_image", "label": "Override photo (falls back to product photo)" },
-    { "type": "text", "id": "free_gift_text", "label": "Override title (falls back to product title)" },
-    { "type": "header", "content": "Scarcity gift card token (optional)" },
-    { "type": "product", "id": "gift_token_product", "label": "Gift card token product (blank = disable)" },
-    { "type": "header", "content": "Extra photos (optional)" },
-    { "type": "image_picker", "id": "lifestyle_image", "label": "Lifestyle photo (matches current ad angle)" },
-    { "type": "text", "id": "lifestyle_caption", "label": "Lifestyle photo caption (optional)" },
-    { "type": "image_picker", "id": "texture_image", "label": "Texture close-up (absorption proof)" },
-    { "type": "header", "content": "Sale countdown (toggle off after 1 week)" },
-    { "type": "checkbox", "id": "sale_active", "label": "Show sale countdown instead of announcement bar", "default": false },
-    { "type": "text", "id": "sale_banner_text", "label": "Sale banner text", "default": "4th of July Sale" },
-    { "type": "text", "id": "sale_end_iso", "label": "Sale end (ISO datetime with timezone offset)", "default": "2026-07-10T00:00:00-04:00" },
-    { "type": "text", "id": "badge_text", "label": "Image badge", "default": "Bestseller" },
-    { "type": "text", "id": "rating_text", "label": "Rating text", "default": "4.8 · 47 reviews" },
-    { "type": "text", "id": "subtitle", "label": "Subtitle", "default": "Face & Body · 4 Ingredients · 60g" },
-    { "type": "text", "id": "ship_text", "label": "Shipping line", "default": "Free shipping · ships in 1-2 days" },
-    { "type": "checkbox", "id": "gift_card_active", "label": "Show gift card line (small text, low emphasis by design)", "default": true },
-    { "type": "text", "id": "gift_card_text", "label": "Gift card line text", "default": "The next 100 customers also get a $10 gift card" },
-    { "type": "header", "content": "Proof stats (after 2 weeks)" },
-    { "type": "text", "id": "stat1_n", "label": "Stat 1 number", "default": "94%" },
-    { "type": "text", "id": "stat1_t", "label": "Stat 1 text", "default": "said skin felt softer all day" },
-    { "type": "text", "id": "stat2_n", "label": "Stat 2 number", "default": "9 in 10" },
-    { "type": "text", "id": "stat2_t", "label": "Stat 2 text", "default": "stopped reaching for other products" },
-    { "type": "text", "id": "stat3_n", "label": "Stat 3 number", "default": "2 min" },
-    { "type": "text", "id": "stat3_t", "label": "Stat 3 text", "default": "to absorb · no greasy residue" },
-    { "type": "header", "content": "Featured review" },
-    { "type": "image_picker", "id": "review_image", "label": "Review photo (real customer)" },
-    { "type": "text", "id": "review_quote", "label": "Review quote", "default": "I threw out eight products and kept this one. My husband noticed before I did." },
-    { "type": "text", "id": "review_author", "label": "Review author", "default": "Diana L., verified buyer" }
+    {
+      "type": "header",
+      "content": "Price display (hardcoded, not from variant)"
+    },
+    {
+      "type": "text",
+      "id": "price_sale",
+      "label": "Sale price (shown)",
+      "default": "$49.99"
+    },
+    {
+      "type": "text",
+      "id": "price_compare",
+      "label": "Compare-at price (struck through)",
+      "default": "$69.99"
+    },
+    {
+      "type": "text",
+      "id": "price_save",
+      "label": "Savings badge",
+      "default": "Save $20"
+    },
+    {
+      "type": "header",
+      "content": "Hero"
+    },
+    {
+      "type": "text",
+      "id": "anno_text",
+      "label": "Announcement bar",
+      "default": "Free shipping \u00b7 60-day guarantee \u00b7 $10 gift card for our next 100 customers"
+    },
+    {
+      "type": "header",
+      "content": "Welcome email popup"
+    },
+    {
+      "type": "checkbox",
+      "id": "popup_active",
+      "label": "Show welcome popup (10% off, email capture for cart-recovery flow)",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "popup_image",
+      "label": "Popup image (falls back to product photo)"
+    },
+    {
+      "type": "text",
+      "id": "popup_heading",
+      "label": "Popup heading (kept vague on purpose, mystery discount)",
+      "default": "Unlock a discount on your order"
+    },
+    {
+      "type": "text",
+      "id": "popup_subtext",
+      "label": "Popup subtext (don't reveal the %, mystery discount)",
+      "default": "Enter your email and we'll send a code straight to your inbox."
+    },
+    {
+      "type": "header",
+      "content": "Free gift, Overnight Lip Mask"
+    },
+    {
+      "type": "product",
+      "id": "free_gift_product",
+      "label": "Free gift product (blank = disable)"
+    },
+    {
+      "type": "image_picker",
+      "id": "free_gift_image",
+      "label": "Override photo (falls back to product photo)"
+    },
+    {
+      "type": "text",
+      "id": "free_gift_text",
+      "label": "Override title (falls back to product title)"
+    },
+    {
+      "type": "header",
+      "content": "Scarcity gift card token (optional)"
+    },
+    {
+      "type": "product",
+      "id": "gift_token_product",
+      "label": "Gift card token product (blank = disable)"
+    },
+    {
+      "type": "header",
+      "content": "Extra photos (optional)"
+    },
+    {
+      "type": "image_picker",
+      "id": "lifestyle_image",
+      "label": "Lifestyle photo (matches current ad angle)"
+    },
+    {
+      "type": "text",
+      "id": "lifestyle_caption",
+      "label": "Lifestyle photo caption (optional)"
+    },
+    {
+      "type": "image_picker",
+      "id": "texture_image",
+      "label": "Texture close-up (absorption proof)"
+    },
+    {
+      "type": "header",
+      "content": "Sale countdown (toggle off after 1 week)"
+    },
+    {
+      "type": "checkbox",
+      "id": "sale_active",
+      "label": "Show sale countdown instead of announcement bar",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "sale_banner_text",
+      "label": "Sale banner text",
+      "default": "4th of July Sale"
+    },
+    {
+      "type": "text",
+      "id": "sale_end_iso",
+      "label": "Sale end (ISO datetime with timezone offset)",
+      "default": "2026-07-10T00:00:00-04:00"
+    },
+    {
+      "type": "text",
+      "id": "badge_text",
+      "label": "Image badge",
+      "default": "Bestseller"
+    },
+    {
+      "type": "text",
+      "id": "rating_text",
+      "label": "Rating text",
+      "default": "4.8 \u00b7 47 reviews"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Face & Body \u00b7 4 Ingredients \u00b7 60g"
+    },
+    {
+      "type": "text",
+      "id": "ship_text",
+      "label": "Shipping line",
+      "default": "Free shipping \u00b7 ships in 1-2 days"
+    },
+    {
+      "type": "checkbox",
+      "id": "gift_card_active",
+      "label": "Show gift card line (small text, low emphasis by design)",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "gift_card_text",
+      "label": "Gift card line text",
+      "default": "The next 100 customers also get a $10 gift card"
+    },
+    {
+      "type": "header",
+      "content": "Proof stats (after 2 weeks)"
+    },
+    {
+      "type": "text",
+      "id": "stat1_n",
+      "label": "Stat 1 number",
+      "default": "94%"
+    },
+    {
+      "type": "text",
+      "id": "stat1_t",
+      "label": "Stat 1 text",
+      "default": "said skin felt softer all day"
+    },
+    {
+      "type": "text",
+      "id": "stat2_n",
+      "label": "Stat 2 number",
+      "default": "9 in 10"
+    },
+    {
+      "type": "text",
+      "id": "stat2_t",
+      "label": "Stat 2 text",
+      "default": "stopped reaching for other products"
+    },
+    {
+      "type": "text",
+      "id": "stat3_n",
+      "label": "Stat 3 number",
+      "default": "2 min"
+    },
+    {
+      "type": "text",
+      "id": "stat3_t",
+      "label": "Stat 3 text",
+      "default": "to absorb \u00b7 no greasy residue"
+    },
+    {
+      "type": "header",
+      "content": "Featured review"
+    },
+    {
+      "type": "image_picker",
+      "id": "review_image",
+      "label": "Review photo (real customer)"
+    },
+    {
+      "type": "text",
+      "id": "review_quote",
+      "label": "Review quote",
+      "default": "I threw out eight products and kept this one. My husband noticed before I did."
+    },
+    {
+      "type": "text",
+      "id": "review_author",
+      "label": "Review author",
+      "default": "Diana L., verified buyer"
+    },
+    {
+      "type": "header",
+      "content": "Bundle selector + free gifts"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tier 2 adds quantity 2 of THIS product and auto-adds the lip mask. In Shopify create TWO automatic discounts of different types so they combine: (1) PRODUCT / Buy X Get Y \u2014 buy 2 balms, get 1 lip mask free; (2) ORDER / Amount off order, minimum quantity 2, -$19.99. Tick Combinations on both. Point 'Free gift product' at the REAL priced lip mask \u2014 never a $0.00 variant, or customers can remove the balms and keep it."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_bundle",
+      "label": "Show the bundle selector",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "default_tier",
+      "label": "Pre-selected tier",
+      "options": [
+        {
+          "value": "1",
+          "label": "Single"
+        },
+        {
+          "value": "2",
+          "label": "2-Pack"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "header",
+      "content": "Tier 1 - single (qty 1)"
+    },
+    {
+      "type": "text",
+      "id": "t1_label",
+      "label": "Name",
+      "default": "One jar"
+    },
+    {
+      "type": "text",
+      "id": "t1_sub",
+      "label": "Subtitle",
+      "default": "60g, about 6 weeks"
+    },
+    {
+      "type": "text",
+      "id": "t1_price",
+      "label": "Price",
+      "default": "$49.99"
+    },
+    {
+      "type": "text",
+      "id": "t1_each",
+      "label": "Per unit",
+      "default": "$49.99 per jar"
+    },
+    {
+      "type": "text",
+      "id": "t1_cta",
+      "label": "Button price",
+      "default": "$49.99"
+    },
+    {
+      "type": "text",
+      "id": "t1_gift_total",
+      "label": "Gift total pill",
+      "default": "$6 value"
+    },
+    {
+      "type": "text",
+      "id": "t1_g1_name",
+      "label": "Gift 1 name",
+      "default": "Free Shipping"
+    },
+    {
+      "type": "text",
+      "id": "t1_g1_value",
+      "label": "Gift 1 value",
+      "default": "$6"
+    },
+    {
+      "type": "select",
+      "id": "t1_g1_icon",
+      "label": "Gift 1 icon",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "truck",
+          "label": "Delivery truck"
+        },
+        {
+          "value": "shield",
+          "label": "Shield"
+        },
+        {
+          "value": "gift",
+          "label": "Gift box"
+        }
+      ],
+      "default": "truck"
+    },
+    {
+      "type": "image_picker",
+      "id": "t1_g1_image",
+      "label": "Gift 1 image (overrides icon)"
+    },
+    {
+      "type": "header",
+      "content": "Tier 2 - the 2-pack"
+    },
+    {
+      "type": "text",
+      "id": "t2_label",
+      "label": "Name",
+      "default": "Two jars"
+    },
+    {
+      "type": "text",
+      "id": "t2_sub",
+      "label": "Subtitle",
+      "default": "120g, about 3 months"
+    },
+    {
+      "type": "text",
+      "id": "t2_badge",
+      "label": "Badge",
+      "default": "Most popular"
+    },
+    {
+      "type": "text",
+      "id": "t2_price",
+      "label": "Price",
+      "default": "$79.99"
+    },
+    {
+      "type": "text",
+      "id": "t2_was",
+      "label": "Struck price",
+      "default": "$99.98"
+    },
+    {
+      "type": "text",
+      "id": "t2_each",
+      "label": "Per unit",
+      "default": "$40.00 per jar"
+    },
+    {
+      "type": "text",
+      "id": "t2_cta",
+      "label": "Button price",
+      "default": "$79.99"
+    },
+    {
+      "type": "text",
+      "id": "t2_gift_total",
+      "label": "Gift total pill",
+      "default": "$31 value"
+    },
+    {
+      "type": "text",
+      "id": "t2_g1_name",
+      "label": "Gift 1 name",
+      "default": "Free Lip Mask"
+    },
+    {
+      "type": "text",
+      "id": "t2_g1_value",
+      "label": "Gift 1 value",
+      "default": "$20"
+    },
+    {
+      "type": "select",
+      "id": "t2_g1_icon",
+      "label": "Gift 1 icon",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "truck",
+          "label": "Delivery truck"
+        },
+        {
+          "value": "shield",
+          "label": "Shield"
+        },
+        {
+          "value": "gift",
+          "label": "Gift box"
+        }
+      ],
+      "default": "gift"
+    },
+    {
+      "type": "image_picker",
+      "id": "t2_g1_image",
+      "label": "Gift 1 image - USE THE REAL LIP MASK PHOTO"
+    },
+    {
+      "type": "text",
+      "id": "t2_g2_name",
+      "label": "Gift 2 name",
+      "default": "Free Shipping"
+    },
+    {
+      "type": "text",
+      "id": "t2_g2_value",
+      "label": "Gift 2 value",
+      "default": "$6"
+    },
+    {
+      "type": "select",
+      "id": "t2_g2_icon",
+      "label": "Gift 2 icon",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "truck",
+          "label": "Delivery truck"
+        },
+        {
+          "value": "shield",
+          "label": "Shield"
+        },
+        {
+          "value": "gift",
+          "label": "Gift box"
+        }
+      ],
+      "default": "truck"
+    },
+    {
+      "type": "image_picker",
+      "id": "t2_g2_image",
+      "label": "Gift 2 image (overrides icon)"
+    },
+    {
+      "type": "text",
+      "id": "t2_g3_name",
+      "label": "Gift 3 name",
+      "default": "Shipping Protection"
+    },
+    {
+      "type": "text",
+      "id": "t2_g3_value",
+      "label": "Gift 3 value",
+      "default": "$5"
+    },
+    {
+      "type": "select",
+      "id": "t2_g3_icon",
+      "label": "Gift 3 icon",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "truck",
+          "label": "Delivery truck"
+        },
+        {
+          "value": "shield",
+          "label": "Shield"
+        },
+        {
+          "value": "gift",
+          "label": "Gift box"
+        }
+      ],
+      "default": "shield"
+    },
+    {
+      "type": "image_picker",
+      "id": "t2_g3_image",
+      "label": "Gift 3 image (overrides icon)"
+    },
+    {
+      "type": "text",
+      "id": "bundle_note",
+      "label": "Line under selector",
+      "default": "60 days to send it back, either way."
+    }
   ],
-  "presets": [{ "name": "Tallow PDP V2" }]
+  "presets": [
+    {
+      "name": "Tallow PDP V2"
+    }
+  ]
 }
 {% endschema %}
+
+<script>
+/* Bundle selector — deliberately standalone.
+   It runs AFTER the cart script, in its own IIFE with its own try/catch, and the
+   only thing it writes to is the hidden quantity field the forms already carry.
+   It never touches the drawer, the submit handler or the gift logic, so a fault
+   in here cannot break add-to-cart. That coupling is what broke the last build. */
+(function(){
+ try{
+  var wrap = document.getElementById('tlw-bundle');
+  if(!wrap) return;
+  var tiers = Array.prototype.slice.call(wrap.querySelectorAll('.tlw-tier'));
+  if(!tiers.length) return;
+
+  function select(btn){
+    tiers.forEach(function(t){
+      var on = (t === btn);
+      t.classList.toggle('is-on', on);
+      t.setAttribute('aria-checked', on ? 'true' : 'false');
+    });
+    var qty = btn.getAttribute('data-qty') || '1';
+    document.querySelectorAll('.tlw-qty-field').forEach(function(f){ f.value = qty; });
+    console.log('[tlw-bundle] tier selected, quantity =', qty, '| gift:', btn.getAttribute('data-gift'));
+  }
+
+  tiers.forEach(function(btn){
+    btn.addEventListener('click', function(e){ e.preventDefault(); select(btn); });
+  });
+
+  select(wrap.querySelector('.tlw-tier.is-on') || tiers[0]);
+ }catch(err){ console.error('[tlw-bundle] selector failed — cart is unaffected', err); }
+})();
+</script>
