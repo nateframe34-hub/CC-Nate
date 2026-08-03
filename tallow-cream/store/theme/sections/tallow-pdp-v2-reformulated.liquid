@@ -498,12 +498,17 @@
       <input type="hidden" class="tlw-main-flag" value="1">
       <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
         <svg class="icon" style="width:19px;height:19px"><use href="#tlw-cart"/></svg>
-        {%- if v.available -%}Add to Cart · {{ section.settings.price_sale }}{%- else -%}Sold Out{%- endif -%}
+        {%- if v.available -%}{%- if section.settings.show_bundle -%}Add to Cart{%- else -%}Add to Cart · {{ section.settings.price_sale }}{%- endif -%}{%- else -%}Sold Out{%- endif -%}
       </button>
     {%- endform -%}
 
+    {%- comment -%}
+      The bundle REPLACES this card. When the selector is on, the gift is stated
+      inside the 2-jar tier, so showing it here as well would promise it on both
+      tiers. The setting still feeds addGiftsSilently(); only the card is hidden.
+    {%- endcomment -%}
     {%- assign free_gift_product = section.settings.free_gift_product -%}
-    {%- if free_gift_product != blank -%}
+    {%- if free_gift_product != blank and section.settings.show_bundle != true -%}
     {%- assign fg_variant = free_gift_product.selected_or_first_available_variant -%}
     <div class="free-gift-card">
       <div class="fg-ribbon">Free</div>
@@ -677,7 +682,7 @@
       <input type="hidden" class="tlw-main-flag" value="1">
     <button type="submit" name="add" class="btn" {% unless v.available %}disabled{% endunless %}>
       <svg class="icon" style="width:19px;height:19px"><use href="#tlw-cart"/></svg>
-      {%- if v.available -%}Add to Cart · {{ section.settings.price_sale }}{%- else -%}Sold Out{%- endif -%}
+      {%- if v.available -%}{%- if section.settings.show_bundle -%}Add to Cart{%- else -%}Add to Cart · {{ section.settings.price_sale }}{%- endif -%}{%- else -%}Sold Out{%- endif -%}
     </button>
   {%- endform -%}
   <div class="trust-strip">
@@ -1531,11 +1536,6 @@
     var qty  = btn.getAttribute('data-qty') || '1';
     var gift = btn.getAttribute('data-gift') === 'true';
     document.querySelectorAll('.tlw-qty-field').forEach(function(f){ f.value = qty; });
-    // The "included with every order" lip mask card is static Liquid, so it shows
-    // on both tiers unless we hide it. It is only true of the 2-jar tier now.
-    document.querySelectorAll('.free-gift-card').forEach(function(c){
-      c.style.display = gift ? '' : 'none';
-    });
     console.log('[tlw-bundle] tier selected, quantity =', qty, '| gift:', btn.getAttribute('data-gift'));
   }
 
