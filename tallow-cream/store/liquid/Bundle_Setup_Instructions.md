@@ -1,8 +1,9 @@
 # 2-Pack Bundle — Setup Instructions
 
 **Created:** 2026-08-02
-**Files:** `store/theme/snippets/tallow-bundle-selector.liquid`
-**Applies to:** `store/theme/sections/tallow-pdp-v2-reformulated.liquid` (Shrine Pro compatible)
+**File:** `store/theme/sections/tallow-pdp-v2-reformulated.liquid` — **the bundle is built directly into the PDP section.** There is no separate snippet; an earlier one was removed on founder's call, since `{% render %}` doesn't inherit `section` and the settings live in this file's schema anyway.
+
+**Code is already written and committed. Steps 2, 3 and 4 below are DONE — they are kept as a record of what changed. Only Step 1 (Shopify admin) still needs doing.**
 
 ---
 
@@ -45,82 +46,40 @@ Copy both **variant IDs** (Products → variant → the `variant=` number in the
 
 ---
 
-## Step 2 — Render the snippet
+## Step 2 — Markup, CSS and JS ✅ DONE (in the section file)
 
-In `tallow-pdp-v2-reformulated.liquid`, immediately **after** the price block (around line 340, after the closing `</div>` of `.price`) and **before** `{%- form 'product', product, id: 'tlw-form-hero' -%}`:
+The selector renders between the shipping line and the hero add-to-cart form. CSS is appended to the existing `#tallow-pdp-v2` scoped block. The JS sits immediately above `addGiftsSilently()` and:
 
-```liquid
-{%- render 'tallow-bundle-selector', s: section.settings -%}
-```
+- takes ownership of the `id` input on `tlw-form-hero`, `tlw-form-final` and `tlw-form-sticky`, creating it if absent
+- rewrites each Add to Cart button's price label while preserving its cart icon
+- sets `window.TLW_GIFT_ELIGIBLE`, which gates the gift auto-add
+- supports arrow-key navigation and `aria-checked` on a proper radiogroup
 
-⚠️ **The `s: section.settings` parameter is required.** Shopify's `{% render %}` creates an isolated scope and does **not** inherit the `section` object, so without it every setting resolves to blank and the selector renders nothing at all.
-
-**If you would rather inline it** directly in `tallow-pdp-v2-reformulated.liquid` — which is a perfectly reasonable call, since the settings live in that file's schema anyway — paste the snippet's body at the same insertion point and swap every `s.` back to `section.settings.`. Behaviour is identical. The separate file just makes it easier to revert.
-
-That's the only markup change required. The snippet finds the forms by ID and injects/controls their `id` and `quantity` inputs itself.
-
-**Optional but recommended:** wrap the text inside each Add to Cart button in `<span class="tlw-cta-label">…</span>`. The snippet updates that span if present, and falls back to replacing the button's whole text content if not — the span just protects any icons inside the button.
+**Fail-safe:** if either variant ID is blank the whole block is skipped by Liquid, `TLW_GIFT_ELIGIBLE` stays `true`, and the page behaves exactly as it did before. Nothing breaks if you deploy before creating the variants.
 
 ---
 
-## Step 3 — Add the section settings
+## Step 3 — Section settings ✅ DONE
 
-Append to the `schema` block's `settings` array in `tallow-pdp-v2-reformulated.liquid`:
-
-```json
-{ "type": "header", "content": "Bundle selector" },
-{ "type": "select", "id": "default_tier", "label": "Pre-selected tier",
-  "options": [ { "value": "1", "label": "Single" }, { "value": "2", "label": "2-Pack" } ],
-  "default": "2" },
-{ "type": "text", "id": "form_ids", "label": "Product form IDs (comma separated)",
-  "default": "tlw-form-hero,tlw-form-final,tlw-form-sticky" },
-
-{ "type": "text", "id": "t1_variant", "label": "Tier 1 variant ID" },
-{ "type": "text", "id": "t1_label",   "label": "Tier 1 name",  "default": "One jar" },
-{ "type": "text", "id": "t1_sub",     "label": "Tier 1 subtitle", "default": "60g · about 6 weeks" },
-{ "type": "text", "id": "t1_price",   "label": "Tier 1 price",  "default": "$49.99" },
-{ "type": "text", "id": "t1_each",    "label": "Tier 1 per-unit", "default": "$49.99 per jar" },
-{ "type": "text", "id": "t1_cta",     "label": "Tier 1 button price", "default": "$49.99" },
-
-{ "type": "text", "id": "t2_variant",   "label": "Tier 2 variant ID" },
-{ "type": "text", "id": "t2_label",     "label": "Tier 2 name", "default": "Two jars" },
-{ "type": "text", "id": "t2_sub",       "label": "Tier 2 subtitle", "default": "120g · about 3 months" },
-{ "type": "text", "id": "t2_gift_line", "label": "Tier 2 gift line", "default": "Includes the lip mask free" },
-{ "type": "text", "id": "t2_badge",     "label": "Tier 2 badge", "default": "Most popular" },
-{ "type": "text", "id": "t2_price",     "label": "Tier 2 price", "default": "$79.99" },
-{ "type": "text", "id": "t2_was",       "label": "Tier 2 struck price", "default": "$99.98" },
-{ "type": "text", "id": "t2_each",      "label": "Tier 2 per-unit", "default": "$40.00 per jar" },
-{ "type": "text", "id": "t2_cta",       "label": "Tier 2 button price", "default": "$79.99" },
-
-{ "type": "text", "id": "reassure", "label": "Line under selector",
-  "default": "Free shipping either way. 60 days to send it back." }
-```
-
-Then set the two variant IDs in the theme customizer.
+Nineteen settings added under a **"Bundle selector"** header in the schema, validated as JSON with no duplicate IDs. Set the two variant IDs in the theme customizer; every other field is pre-filled with the intended copy.
 
 ---
 
-## Step 4 — Move the free gift onto the 2-pack only
+## Step 4 — Free gift moved to the 2-pack ✅ DONE
 
 **This is the part that changes existing behaviour, so read it.**
 
 Today the lip mask auto-adds to every order via the script around line 709 of the PDP file. Founder decision 2026-08-02: it moves to the 2-pack, both to remove the *"I'm paying $50 for a lip mask I don't want"* read and to take $2.34 out of every single-jar order.
 
-Find the gift auto-add block and gate it on the selected tier:
+`addGiftsSilently()` now opens with:
 
 ```js
-document.addEventListener('tlw:bundle-change', function(e){
-  window.TLW_GIFT_ELIGIBLE = e.detail.gift;   // true only on the 2-pack
-});
+if(!window.TLW_GIFT_ELIGIBLE) return Promise.resolve();
 ```
 
-then wrap the existing auto-add call in:
+so the lip mask (and the gift-card token) auto-add on the 2-pack tier only.
 
-```js
-if (window.TLW_GIFT_ELIGIBLE) { /* existing add-gift-to-cart logic */ }
-```
-
-If the 2-pack variant physically ships with the lip mask included (recommended — simpler, one SKU, no cart trickery), **skip the auto-add entirely for that tier** and just say so in `t2_gift_line`. Fewer moving parts, and the cart can't get into a state where the gift is present without the bundle.
+**Recommended simplification:** if the 2-pack physically ships with the lip mask inside, remove the lip mask from `free_gift_product` entirely and let the SKU carry it. Fewer moving parts, and the cart can never hold the gift without the bundle.
 
 ⚠️ **Watch ATC→purchase after this change.** The 7/22 note says the universal gift *appeared* to lift CVR but was never confirmed on volume. You are removing something unproven, not something known-good, but it's the metric where a regression would surface.
 
