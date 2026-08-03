@@ -1528,8 +1528,14 @@
       t.classList.toggle('is-on', on);
       t.setAttribute('aria-checked', on ? 'true' : 'false');
     });
-    var qty = btn.getAttribute('data-qty') || '1';
+    var qty  = btn.getAttribute('data-qty') || '1';
+    var gift = btn.getAttribute('data-gift') === 'true';
     document.querySelectorAll('.tlw-qty-field').forEach(function(f){ f.value = qty; });
+    // The "included with every order" lip mask card is static Liquid, so it shows
+    // on both tiers unless we hide it. It is only true of the 2-jar tier now.
+    document.querySelectorAll('.free-gift-card').forEach(function(c){
+      c.style.display = gift ? '' : 'none';
+    });
     console.log('[tlw-bundle] tier selected, quantity =', qty, '| gift:', btn.getAttribute('data-gift'));
   }
 
