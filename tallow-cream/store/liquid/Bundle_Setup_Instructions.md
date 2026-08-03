@@ -30,13 +30,28 @@ It also hedges retention. There are **0 repeat purchases**, but only **3-4 custo
 
 **Rebuilt 2026-08-03, founder call: quantity-based, not a separate product and not variant IDs.**
 
-Tier 1 always adds **quantity 1** of the balm. What Tier 2 does depends on the mode below.
+Tier 1 always adds **quantity 1** of the balm. Tier 2 adds **quantity 2** (Mode B, the default). Two constraints drive the whole design: **Shopify applies only one product discount**, and **Teemdrop fulfilment makes a new listing expensive to create.**
 
 ### 🚨 Shopify applies only ONE product discount — this is what the design works around
 
 Buy-X-Get-Y counts as a product discount, so **"buy 2 = $19.99 off" and "free lip mask" cannot both run.** The section has a **"2-Pack behaviour"** setting with two ways to spend the single discount:
 
-**MODE A — separate 2-Pack product ← default, recommended**
+**MODE B — quantity 2 of the balm ← DEFAULT, the fulfilment-safe route**
+
+Founder constraint, 2026-08-03: *"I don't know how I can add a variant of a 2 quantity or make a 2nd product listing with a 2 quantity as all my fulfillment is through Teemdrop."* Mode B needs nothing new created, so nothing new needs supplier mapping.
+
+| | |
+|---|---|
+| Create | **Nothing.** Tier 2 adds quantity 2 of the SKU Teemdrop already maps |
+| The one discount | **Amount off products:** 2+ balms → **$19.99 off** ($99.98 → $79.99) |
+| Lip mask | Cannot be free by discount — the discount is spent. Give the lip mask product a **$0.00 "Free Gift" variant** and point the auto-add at it |
+| Cart reads | `Balm ×2 — $79.99` + `Lip Mask — Free` |
+
+**Why the $0.00 variant is required.** Right now the single discount is already spent zeroing the lip mask via Buy-X-Get-Y. Swapping that to a $0.00 variant is what frees the one discount up for the price break. Do this before enabling the selector, or the 2-pack will show $99.98.
+
+Hide the $0.00 variant from search and collections — it's purchasable by anyone who finds the URL.
+
+**MODE A — separate 2-Pack product (only if fulfilment allows it later)**
 
 | | |
 |---|---|
@@ -45,26 +60,15 @@ Buy-X-Get-Y counts as a product discount, so **"buy 2 = $19.99 off" and "free li
 | Price discount needed | **None.** $79.99 is simply the price |
 | Cart reads | `2-Pack $79.99` + `Lip Mask FREE` |
 
-This is the recommended route precisely because it doesn't spend the discount on arithmetic. Pick the 2-Pack product in the customizer under *2-Pack product (Mode A only)*.
-
-**MODE B — quantity 2 of the balm**
-
-| | |
-|---|---|
-| Create | Nothing |
-| The one discount | **Amount off products:** 2+ balms → $19.99 off |
-| Lip mask | Cannot be free by discount. Make it a **$0.00 product** and let the auto-add handle it |
-| Cart reads | `Balm ×2` + `Lip Mask` |
-
-Only choose B if you specifically want two jar line items in the cart. It requires a $0.00 lip mask product, which is purchasable by anyone who finds the URL — hide it from search and collections.
+Cleaner on paper — it doesn't spend the discount on arithmetic — but it requires a new listing and a new Teemdrop mapping. Park it. If you ever do switch, pick the 2-Pack under *2-Pack product (Mode A only)*.
 
 **Check for stale automatic discounts first.** This section's own header documents a past incident where two automatic discounts stacked and produced a price nobody intended. Adding two more is exactly when that resurfaces — verify the final cart total is $79.99 before going live.
 
 ### Then in the theme customizer
 
-Tick **"Show the bundle selector"** (off by default, so nothing changes until you do), leave **2-Pack behaviour** on Mode A, pick the **2-Pack product**, and upload the **real lip mask photo** to *Tier 2 → Gift 1 image*. Shipping and Shipping Protection use built-in line icons and need no upload.
+Tick **"Show the bundle selector"** (off by default, so nothing changes until you do), leave **2-Pack behaviour** on **Mode B (quantity)** — that is the default — and upload the **real lip mask photo** to *Tier 2 → Gift 1 image*. Shipping and Shipping Protection use built-in line icons and need no upload. No product picker is needed in Mode B.
 
-**Fail-safe:** in Mode A the selector stays hidden until a 2-Pack product is picked, so a half-finished setup can't reach customers.
+**Fail-safe:** in Mode A the selector stays hidden until a 2-Pack product is picked, so a half-finished setup can't reach customers. Mode B has no such gate — its guard is the discount, so verify the cart reads $79.99 before you tick the box.
 
 ---
 
@@ -85,7 +89,7 @@ The selector renders between the shipping line and the hero add-to-cart form. CS
 
 ## Step 3 — Section settings ✅ DONE
 
-Nineteen settings added under a **"Bundle selector"** header in the schema, validated as JSON with no duplicate IDs. Set the two variant IDs in the theme customizer; every other field is pre-filled with the intended copy.
+Settings added under a **"Bundle selector"** header in the schema, validated as JSON with no duplicate IDs. In Mode B nothing needs picking except the lip mask image — every other field is pre-filled with the intended copy.
 
 ---
 
