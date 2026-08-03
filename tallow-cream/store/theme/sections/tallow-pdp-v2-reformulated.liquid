@@ -129,6 +129,17 @@
   #tallow-pdp-v2 .tlw-gift-vis svg{width:24px;height:24px}
   #tallow-pdp-v2 .tlw-gift-vis img{width:34px;height:34px;object-fit:contain;border-radius:4px}
   #tallow-pdp-v2 .tlw-gift-tag{font-size:9.5px;font-weight:800;letter-spacing:.03em;color:#fff;background:#7a9a5b;padding:2px 6px;border-radius:999px;white-space:nowrap}
+  #tallow-pdp-v2 .refund-proof{display:flex;align-items:center;gap:6px;margin-top:2px}
+  #tallow-pdp-v2 .refund-proof .icon{width:14px;height:14px;flex:0 0 auto;opacity:.75}
+  #tallow-pdp-v2 .vs{overflow-x:auto}
+  #tallow-pdp-v2 .vs table{width:100%;border-collapse:collapse;font-size:14px;min-width:340px}
+  #tallow-pdp-v2 .vs th,#tallow-pdp-v2 .vs td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+  #tallow-pdp-v2 .vs thead th{font-size:12.5px;letter-spacing:.03em;text-transform:uppercase;color:var(--grey,#8a8272);font-weight:700}
+  #tallow-pdp-v2 .vs th.ours,#tallow-pdp-v2 .vs td.ours{background:var(--amber-soft,#fdf6ea);color:var(--ink,#2c2519);font-weight:600}
+  #tallow-pdp-v2 .vs thead th.ours{color:#6a481a}
+  #tallow-pdp-v2 .vs td.lbl{color:var(--grey,#8a8272);width:34%}
+  #tallow-pdp-v2 .vs td.them{color:var(--grey,#8a8272)}
+  #tallow-pdp-v2 .vs tbody tr:last-child td{border-bottom:none}
   #tallow-pdp-v2 .eo-band{padding-top:18px;padding-bottom:18px}
   #tallow-pdp-v2 .eo details{border-bottom:1px solid var(--line)}
   #tallow-pdp-v2 .eo details:first-child{border-top:1px solid var(--line)}
@@ -399,6 +410,9 @@
       {%- if section.settings.price_save != blank -%}<span class="save">{{ section.settings.price_save }}</span>{%- endif -%}
     </div>
     <div class="ship">{{ section.settings.ship_text }}</div>
+    {%- if section.settings.refund_proof != blank -%}
+    <div class="ship refund-proof"><svg class="icon"><use href="#tlw-shield"/></svg>{{ section.settings.refund_proof }}</div>
+    {%- endif -%}
 
     {%- if section.settings.show_bundle -%}
 <div class="tlw-bundle" id="tlw-bundle" role="radiogroup" aria-label="Choose how many">
@@ -647,30 +661,40 @@
 </div></section>
 
 <section class="band"><div class="wrap">
-  <div class="center"><div class="eyebrow">The counter math</div><h2 class="sec mt">Fourteen products couldn't do what one jar did.</h2></div>
-  <div class="math mt">
-    <div class="side bad"><div class="big">14</div><div class="lbl">products · $$$ /month · still tight by noon</div></div>
-    <div class="to">↓</div>
-    <div class="side good"><div class="big">1</div><div class="lbl">jar · 4 ingredients · absorbs in 2 minutes</div></div>
-  </div>
-  <div class="math-note">One jar is 2 to 3 months of daily use. That's about 60 cents a day to replace the whole drawer.</div>
-</div></section>
-
-<section class="band" style="background:var(--cream-2)"><div class="wrap">
-  <div class="center"><div class="eyebrow">Flip the label</div><h2 class="sec mt">4 ingredients. That's the whole list.</h2></div>
-  <div class="labels mt">
-    <div class="label-card bad"><h4>Most face creams</h4><div class="ing first">1 · Water</div><div class="ing">2 · Glycerin</div><div class="ing">3 · Cetearyl alcohol</div><div class="ing">4 · Phenoxyethanol</div><div class="ing">5 · Dimethicone</div><div class="ing more">…+ 15 more you can't pronounce</div></div>
-    <div class="label-card good"><h4>{{ product.title }}</h4><div class="ing g">1 · Grass-fed beef tallow</div><div class="ing g">2 · Olive oil</div><div class="ing g">3 · Essential oils</div><div class="ing g">4 · Raw honey</div><div class="ing more">That's it. You can read all of them.</div></div>
-  </div>
-</div></section>
-
-<section class="band"><div class="wrap">
   <div class="center"><div class="eyebrow">After 2 weeks of daily use</div><h2 class="sec mt">What real skin looks like after switching.</h2></div>
   <div class="stats mt">
     <div class="stat"><div class="n">{{ section.settings.stat1_n }}</div><div class="t">{{ section.settings.stat1_t }}</div></div>
     <div class="stat"><div class="n">{{ section.settings.stat2_n }}</div><div class="t">{{ section.settings.stat2_t }}</div></div>
     <div class="stat"><div class="n">{{ section.settings.stat3_n }}</div><div class="t">{{ section.settings.stat3_t }}</div></div>
   </div>
+</div></section>
+
+<section class="band" style="background:var(--cream-2)"><div class="wrap">
+  {%- comment -%}
+    2026-08-03: replaces the separate "counter math" and "flip the label" bands,
+    which made one argument between them across two full-height sections at
+    ~32% and ~38% scroll, where only 10-13% of visitors are. Merged into a
+    single comparison because SA2 is comparison-shopping by definition.
+    NO per-day or per-month cost rows: usage varies, and a running-cost claim
+    invites "mine ran out faster than that". Founder call 2026-08-03.
+  {%- endcomment -%}
+  <div class="center"><div class="eyebrow">{{ section.settings.vs_eyebrow }}</div><h2 class="sec mt">{{ section.settings.vs_title }}</h2></div>
+  <div class="vs mt">
+    <table>
+      <thead><tr><th></th><th class="ours">{{ product.title }}</th><th>{{ section.settings.vs_them }}</th></tr></thead>
+      <tbody>
+        {%- for i in (1..6) -%}
+          {%- assign lk = 'vs_r' | append: i | append: '_l' -%}
+          {%- assign ok = 'vs_r' | append: i | append: '_o' -%}
+          {%- assign tk = 'vs_r' | append: i | append: '_t' -%}
+          {%- if section.settings[lk] != blank -%}
+          <tr><td class="lbl">{{ section.settings[lk] }}</td><td class="ours">{{ section.settings[ok] }}</td><td class="them">{{ section.settings[tk] }}</td></tr>
+          {%- endif -%}
+        {%- endfor -%}
+      </tbody>
+    </table>
+  </div>
+  {%- if section.settings.vs_note != blank -%}<div class="math-note">{{ section.settings.vs_note }}</div>{%- endif -%}
 </div></section>
 
 <section class="band" style="background:var(--cream-2)" id="tlw-reviews"><div class="wrap">
@@ -684,18 +708,6 @@
   <h2 class="sec">60 days. No drama.</h2>
   <p>Use it for 60 days. If your skin doesn't love it, email us and we'll refund every penny. No hoops, no "send it back first."</p>
   <div class="guar-badge"><svg class="icon"><use href="#tlw-shield"/></svg>60-DAY MONEY-BACK GUARANTEE</div>
-</div></section>
-
-<section class="band"><div class="wrap">
-  <div class="center"><div class="eyebrow">The whole story</div><h2 class="sec mt">Everything, on the table.</h2></div>
-  <div class="attrs mt">
-    <div class="attr"><div class="k">What it is</div><div class="vv">Tallow &amp; honey balm</div></div>
-    <div class="attr"><div class="k">Ingredients</div><div class="vv">4 total: tallow, olive oil, essential oils, raw honey</div></div>
-    <div class="attr"><div class="k">How it absorbs</div><div class="vv">Like skin's own oil. Sinks in, no film</div></div>
-    <div class="attr"><div class="k">Who it's for</div><div class="vv">Dry, mature, sensitive skin</div></div>
-    <div class="attr"><div class="k">Sourcing</div><div class="vv">Grass-fed tallow · raw honey</div></div>
-    <div class="attr"><div class="k">Guarantee</div><div class="vv">60-day money-back · free ship</div></div>
-  </div>
 </div></section>
 
 <section class="band" style="background:var(--cream-2)"><div class="wrap">
@@ -1673,7 +1685,154 @@
       "type": "richtext",
       "id": "eo_a4",
       "label": "Row 4 body",
-      "default": "<p><strong>Still comfortable at 2pm.</strong> Most creams are mostly water, which evaporates and leaves you tight by lunch. This one does not.</p><p><strong>Skin that feels soft rather than coated.</strong> It absorbs, so there is nothing sitting on the surface to rub off on a collar.</p><p><strong>A routine you can actually keep.</strong> One step, one jar, about 60 cents a day.</p><p><strong>Nothing to decode.</strong> Four ingredients you already recognise, and 60 days to decide it was worth it.</p>"
+      "default": "<p><strong>Still comfortable at 2pm.</strong> Most creams are mostly water, which evaporates and leaves you tight by lunch. This one does not.</p><p><strong>Skin that feels soft rather than coated.</strong> It absorbs, so there is nothing sitting on the surface to rub off on a collar.</p><p><strong>A routine you can actually keep.</strong> One step, one jar, and nothing to remember in what order.</p><p><strong>Nothing to decode.</strong> Four ingredients you already recognise, and 60 days to decide it was worth it.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Refund proof"
+    },
+    {
+      "type": "text",
+      "id": "refund_proof",
+      "label": "Refund-rate line",
+      "default": "Not one customer has asked for a refund yet.",
+      "info": "A guarantee reads as risk; a refund rate reads as proof. Must stay literally true -- as of 2026-08-03 it is 0 refunds, 0 chargebacks, 0 guarantee claims. 'Less than 1%' is also true but implies a larger customer base than we have."
+    },
+    {
+      "type": "header",
+      "content": "Us vs Them table"
+    },
+    {
+      "type": "text",
+      "id": "vs_eyebrow",
+      "label": "Eyebrow",
+      "default": "The honest comparison"
+    },
+    {
+      "type": "text",
+      "id": "vs_title",
+      "label": "Title",
+      "default": "One jar against everything it replaces."
+    },
+    {
+      "type": "text",
+      "id": "vs_them",
+      "label": "Right column header",
+      "default": "The shelf it replaces"
+    },
+    {
+      "type": "text",
+      "id": "vs_note",
+      "label": "Note under the table",
+      "default": "One jar is 2 to 3 months of daily use."
+    },
+    {
+      "type": "text",
+      "id": "vs_r1_l",
+      "label": "Row 1 label",
+      "default": "Products you need"
+    },
+    {
+      "type": "text",
+      "id": "vs_r1_o",
+      "label": "Row 1 - ours",
+      "default": "1"
+    },
+    {
+      "type": "text",
+      "id": "vs_r1_t",
+      "label": "Row 1 - theirs",
+      "default": "14 on the average counter"
+    },
+    {
+      "type": "text",
+      "id": "vs_r2_l",
+      "label": "Row 2 label",
+      "default": "Ingredients"
+    },
+    {
+      "type": "text",
+      "id": "vs_r2_o",
+      "label": "Row 2 - ours",
+      "default": "4, all of them readable"
+    },
+    {
+      "type": "text",
+      "id": "vs_r2_t",
+      "label": "Row 2 - theirs",
+      "default": "20+ per product"
+    },
+    {
+      "type": "text",
+      "id": "vs_r3_l",
+      "label": "Row 3 label",
+      "default": "Steps each morning"
+    },
+    {
+      "type": "text",
+      "id": "vs_r3_o",
+      "label": "Row 3 - ours",
+      "default": "1"
+    },
+    {
+      "type": "text",
+      "id": "vs_r3_t",
+      "label": "Row 3 - theirs",
+      "default": "5 to 6"
+    },
+    {
+      "type": "text",
+      "id": "vs_r4_l",
+      "label": "Row 4 label",
+      "default": "First ingredient"
+    },
+    {
+      "type": "text",
+      "id": "vs_r4_o",
+      "label": "Row 4 - ours",
+      "default": "Grass-fed tallow"
+    },
+    {
+      "type": "text",
+      "id": "vs_r4_t",
+      "label": "Row 4 - theirs",
+      "default": "Usually water"
+    },
+    {
+      "type": "text",
+      "id": "vs_r5_l",
+      "label": "Row 5 label",
+      "default": "How it sits"
+    },
+    {
+      "type": "text",
+      "id": "vs_r5_o",
+      "label": "Row 5 - ours",
+      "default": "Absorbs in about 2 minutes"
+    },
+    {
+      "type": "text",
+      "id": "vs_r5_t",
+      "label": "Row 5 - theirs",
+      "default": "Sits on top, tight by noon"
+    },
+    {
+      "type": "text",
+      "id": "vs_r6_l",
+      "label": "Row 6 label",
+      "default": "What you throw out"
+    },
+    {
+      "type": "text",
+      "id": "vs_r6_o",
+      "label": "Row 6 - ours",
+      "default": "Nothing"
+    },
+    {
+      "type": "text",
+      "id": "vs_r6_t",
+      "label": "Row 6 - theirs",
+      "default": "The ones that didn't work"
     }
   ],
   "presets": [
