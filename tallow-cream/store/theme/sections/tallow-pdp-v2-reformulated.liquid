@@ -867,7 +867,10 @@
   ].filter(function(id){ return id !== null && id !== undefined && id !== ''; });
 
   function addGiftsSilently(){
-    if(!GIFT_VARIANT_IDS.length) return Promise.resolve();
+    if(!GIFT_VARIANT_IDS.length){
+      console.warn('[free gift] No product is set in Theme customizer > "Free gift, Overnight Lip Mask" > "Free gift product". Nothing will be auto-added until one is picked.');
+      return Promise.resolve();
+    }
     // 2-jar tier only. No selector on the page = unchanged original behaviour.
     var t = document.querySelector('#tlw-bundle .tlw-tier.is-on');
     if(t && t.getAttribute('data-gift') !== 'true') return Promise.resolve();
