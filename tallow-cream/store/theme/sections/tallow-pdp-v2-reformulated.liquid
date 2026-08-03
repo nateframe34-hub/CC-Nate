@@ -94,50 +94,6 @@
   #tallow-pdp-v2 .price{display:flex;align-items:baseline;gap:10px;margin-bottom:5px;flex-wrap:wrap}
   #tallow-pdp-v2 .price .now{font-family:Georgia,'Times New Roman',serif;font-size:30px;font-weight:600}
   #tallow-pdp-v2 .price .was{font-size:17px;color:#9a927d;text-decoration:line-through}
-  /* ---- bundle selector + gift stack, 2026-08-02, rebuilt 2026-08-03 ---- */
-  #tallow-pdp-v2 .tlw-bundle{display:flex;flex-direction:column;gap:10px;margin:16px 0 14px}
-  #tallow-pdp-v2 .tlw-tier{position:relative;display:flex;flex-direction:column;gap:0;width:100%;padding:14px 14px 14px 13px;border:1.5px solid #ddd6c6;border-radius:12px;background:#fff;text-align:left;cursor:pointer;font:inherit;color:inherit;transition:border-color .15s,background .15s}
-  #tallow-pdp-v2 .tlw-tier:hover{border-color:#c9bda4}
-  #tallow-pdp-v2 .tlw-tier:focus-visible{outline:2px solid #6a481a;outline-offset:2px}
-  #tallow-pdp-v2 .tlw-tier[disabled]{opacity:.45;cursor:not-allowed}
-  #tallow-pdp-v2 .tlw-tier.is-on{border-color:#6a481a;border-width:2px;padding:13px 13px 13px 12px;background:var(--amber-soft,#fdf6ea)}
-  #tallow-pdp-v2 .tlw-tier-main{display:flex;align-items:center;gap:12px;width:100%}
-  #tallow-pdp-v2 .tlw-tier-radio{flex:0 0 auto;width:20px;height:20px;border-radius:50%;border:1.5px solid #c4baa6;background:#fff;position:relative}
-  #tallow-pdp-v2 .tlw-tier.is-on .tlw-tier-radio{border-color:#6a481a;border-width:2px}
-  #tallow-pdp-v2 .tlw-tier.is-on .tlw-tier-radio::after{content:"";position:absolute;inset:3px;border-radius:50%;background:#6a481a}
-  #tallow-pdp-v2 .tlw-tier-body{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:2px}
-  #tallow-pdp-v2 .tlw-tier-name{font-weight:700;font-size:15.5px;line-height:1.2}
-  #tallow-pdp-v2 .tlw-tier-sub{font-size:12.5px;color:var(--grey,#8a8272)}
-  #tallow-pdp-v2 .tlw-tier-prices{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:1px}
-  #tallow-pdp-v2 .tlw-tier-now{font-family:Georgia,'Times New Roman',serif;font-size:19px;font-weight:600;line-height:1.15}
-  #tallow-pdp-v2 .tlw-tier-was{font-size:12.5px;color:#9a927d;text-decoration:line-through}
-  #tallow-pdp-v2 .tlw-tier-each{font-size:11.5px;color:var(--grey,#8a8272)}
-  #tallow-pdp-v2 .tlw-tier-badge{position:absolute;top:-9px;right:12px;background:#6a481a;color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:999px;white-space:nowrap;z-index:1}
-  #tallow-pdp-v2 .tlw-tier--best{margin-top:4px}
-
-  /* gift stack: only visible on the selected tier, so choosing reveals the value */
-  #tallow-pdp-v2 .tlw-gifts{display:none}
-  #tallow-pdp-v2 .tlw-tier.is-on .tlw-gifts{display:block;margin-top:12px;padding:10px;border-radius:9px;background:#fff;border:1px solid #e6dfcd}
-  #tallow-pdp-v2 .tlw-gifts-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
-  #tallow-pdp-v2 .tlw-gifts-title{font-size:12px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:#6a481a}
-  #tallow-pdp-v2 .tlw-gifts-total{font-size:11px;font-weight:700;background:#6a481a;color:#fff;padding:2px 7px;border-radius:999px;white-space:nowrap}
-  #tallow-pdp-v2 .tlw-gifts-row{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:7px}
-  #tallow-pdp-v2 .tlw-gift{display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;padding:8px 5px;border:1px solid #ece5d5;border-radius:7px;background:#fdfbf6}
-  #tallow-pdp-v2 .tlw-gift-vis{display:flex;align-items:center;justify-content:center;width:34px;height:34px;margin-bottom:1px;color:#6a481a}
-  #tallow-pdp-v2 .tlw-gift-vis svg{width:24px;height:24px}
-  #tallow-pdp-v2 .tlw-gift-vis img{width:34px;height:34px;object-fit:contain;border-radius:4px}
-  #tallow-pdp-v2 .tlw-gift-tag{font-size:9.5px;font-weight:800;letter-spacing:.03em;color:#fff;background:#7a9a5b;padding:2px 6px;border-radius:999px;white-space:nowrap}
-  #tallow-pdp-v2 .tlw-gift-name{font-size:11px;line-height:1.25;color:#5a5344;font-weight:600}
-  @media (max-width:400px){
-    #tallow-pdp-v2 .tlw-gifts-row{gap:5px}
-    #tallow-pdp-v2 .tlw-gift{padding:7px 3px}
-    #tallow-pdp-v2 .tlw-gift-vis{width:28px;height:28px}
-    #tallow-pdp-v2 .tlw-gift-vis svg{width:20px;height:20px}
-    #tallow-pdp-v2 .tlw-gift-vis img{width:28px;height:28px}
-    #tallow-pdp-v2 .tlw-gift-name{font-size:10px}
-    #tallow-pdp-v2 .tlw-gift-tag{font-size:9px;padding:2px 4px}
-  }
-  @media (max-width:380px){#tallow-pdp-v2 .tlw-tier{padding:12px 11px}#tallow-pdp-v2 .tlw-tier-name{font-size:14.5px}#tallow-pdp-v2 .tlw-tier-now{font-size:17.5px}}
   #tallow-pdp-v2 .price .save{background:var(--amber-soft);color:#6a481a;font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px}
   #tallow-pdp-v2 .ship{font-size:12.5px;color:var(--grey);margin-bottom:16px}
   @keyframes fgReveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
@@ -381,157 +337,6 @@
       {%- if section.settings.price_save != blank -%}<span class="save">{{ section.settings.price_save }}</span>{%- endif -%}
     </div>
     <div class="ship">{{ section.settings.ship_text }}</div>
-
-{%- comment -%}
-  ============================================================================
-  BUNDLE SELECTOR + FREE GIFT STACK
-  2026-08-02 · rebuilt 2026-08-03 (three times). Everything lives in this file,
-  no snippets.
-
-  🚨 THERE IS ONE PATH. No modes, no switch. Founder call 2026-08-03.
-     Tier 1 = quantity 1 of THIS product.
-     Tier 2 = quantity 2 of THIS product + the lip mask auto-added by the JS.
-  Quantity of an already-mapped SKU, because all fulfilment is via Teemdrop and
-  a new listing or variant would need a new supplier mapping.
-
-  DISCOUNTS — two of them, and they must be different TYPES to combine:
-    · PRODUCT discount, Buy X Get Y: 2 balms -> 1 lip mask free
-    · ORDER discount, Amount off order, min qty 2: -$19.99
-  Shopify allows only one PRODUCT discount, but an order discount stacks with
-  it. Tick Combinations on both. Cost of the order discount: it blocks
-  order-level discount CODES, so the email codes stop working — accepted
-  2026-08-03 at 1 email conversion.
-
-  Buy-X-Get-Y also self-enforces: remove the balms and the mask re-prices to
-  $20 on its own. That is why the lip mask stays a REAL PRICED PRODUCT and is
-  never a $0.00 variant — a $0 line would be keepable after removing the balms.
-
-  BXGY does NOT auto-add the Y item. The JS puts the lip mask in the cart; the
-  discount only zeroes it once it is there.
-
-  The ORDER discount does not touch line prices, so the drawer would show the
-  balm line at $99.98 with the saving only at subtotal. render() re-attributes
-  the cart-level discount onto the balm line so it reads $99.98 struck -> $79.98.
-
-  Gift-stack presentation modelled on the Gruns PDP (founder reference
-  2026-08-03): every gift named, priced, shown as a card. Theirs hangs off a
-  subscription, ours off the 2-pack. NO SUBSCRIPTION, founder call 2026-08-02.
-
-  Economics at current COGS ($8.47 balm / $10.81 with lip mask / $19.28 2-pack):
-    1 jar  $49.99  contribution $41.52  supports a $1.42 CPC
-    2 jars $79.99  contribution $60.71  supports a $2.08 CPC
-  Actual account CPC is $3.17.
-  ============================================================================
-{%- endcomment -%}
-{%- if section.settings.show_bundle -%}
-    <div class="tlw-bundle" id="tlw-bundle" role="radiogroup" aria-label="Choose how many">
-
-      {%- comment -%} ---- TIER 1 : this product, quantity 1, no gift ---- {%- endcomment -%}
-      <button type="button" class="tlw-tier{% if section.settings.default_tier == '1' %} is-on{% endif %}"
-              role="radio" aria-checked="{% if section.settings.default_tier == '1' %}true{% else %}false{% endif %}"
-              data-variant="{{ v.id }}" data-qty="1" data-gift="false"
-              data-cta="{{ section.settings.t1_cta | default: section.settings.t1_price }}">
-        <span class="tlw-tier-main">
-          <span class="tlw-tier-radio" aria-hidden="true"></span>
-          <span class="tlw-tier-body">
-            <span class="tlw-tier-name">{{ section.settings.t1_label | default: 'One jar' }}</span>
-            {%- if section.settings.t1_sub != blank -%}<span class="tlw-tier-sub">{{ section.settings.t1_sub }}</span>{%- endif -%}
-          </span>
-          <span class="tlw-tier-prices">
-            <span class="tlw-tier-now">{{ section.settings.t1_price }}</span>
-            {%- if section.settings.t1_each != blank -%}<span class="tlw-tier-each">{{ section.settings.t1_each }}</span>{%- endif -%}
-          </span>
-        </span>
-        {%- if section.settings.t1_g1_name != blank -%}
-        <span class="tlw-gifts">
-          <span class="tlw-gifts-head">
-            <span class="tlw-gifts-title">Your free gifts</span>
-            {%- if section.settings.t1_gift_total != blank -%}<span class="tlw-gifts-total">{{ section.settings.t1_gift_total }}</span>{%- endif -%}
-          </span>
-          <span class="tlw-gifts-row">
-            <span class="tlw-gift">
-              <span class="tlw-gift-vis">
-                {%- if section.settings.t1_g1_image != blank -%}<img src="{{ section.settings.t1_g1_image | image_url: width: 120 }}" alt="{{ section.settings.t1_g1_name | escape }}" loading="lazy" width="60" height="60">
-                {%- elsif section.settings.t1_g1_icon == 'truck' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>
-                {%- elsif section.settings.t1_g1_icon == 'shield' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5C7.4 20.9 4 16.5 4 11.5v-6L12 2z"/><path d="M9 12l2 2 4-4"/></svg>
-                {%- elsif section.settings.t1_g1_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
-                {%- endif -%}
-              </span>
-              <span class="tlw-gift-tag">FREE {{ section.settings.t1_g1_value }}</span>
-              <span class="tlw-gift-name">{{ section.settings.t1_g1_name }}</span>
-            </span>
-          </span>
-        </span>
-        {%- endif -%}
-      </button>
-
-      {%- comment -%} ---- TIER 2 : 2-pack product (mode A) or qty 2 (mode B) ---- {%- endcomment -%}
-      <button type="button" class="tlw-tier tlw-tier--best{% if section.settings.default_tier != '1' %} is-on{% endif %}"
-              role="radio" aria-checked="{% if section.settings.default_tier != '1' %}true{% else %}false{% endif %}"
-              data-variant="{{ v.id }}" data-qty="2"
-              data-gift="true"
-              data-cta="{{ section.settings.t2_cta | default: section.settings.t2_price }}">
-        {%- if section.settings.t2_badge != blank -%}<span class="tlw-tier-badge">{{ section.settings.t2_badge }}</span>{%- endif -%}
-        <span class="tlw-tier-main">
-          <span class="tlw-tier-radio" aria-hidden="true"></span>
-          <span class="tlw-tier-body">
-            <span class="tlw-tier-name">{{ section.settings.t2_label | default: 'Two jars' }}</span>
-            {%- if section.settings.t2_sub != blank -%}<span class="tlw-tier-sub">{{ section.settings.t2_sub }}</span>{%- endif -%}
-          </span>
-          <span class="tlw-tier-prices">
-            <span class="tlw-tier-now">{{ section.settings.t2_price }}</span>
-            {%- if section.settings.t2_was != blank -%}<span class="tlw-tier-was">{{ section.settings.t2_was }}</span>{%- endif -%}
-            {%- if section.settings.t2_each != blank -%}<span class="tlw-tier-each">{{ section.settings.t2_each }}</span>{%- endif -%}
-          </span>
-        </span>
-        {%- if section.settings.t2_g1_name != blank -%}
-        <span class="tlw-gifts">
-          <span class="tlw-gifts-head">
-            <span class="tlw-gifts-title">Your free gifts</span>
-            {%- if section.settings.t2_gift_total != blank -%}<span class="tlw-gifts-total">{{ section.settings.t2_gift_total }}</span>{%- endif -%}
-          </span>
-          <span class="tlw-gifts-row">
-            <span class="tlw-gift">
-              <span class="tlw-gift-vis">
-                {%- if section.settings.t2_g1_image != blank -%}<img src="{{ section.settings.t2_g1_image | image_url: width: 120 }}" alt="{{ section.settings.t2_g1_name | escape }}" loading="lazy" width="60" height="60">
-                {%- elsif section.settings.t2_g1_icon == 'truck' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>
-                {%- elsif section.settings.t2_g1_icon == 'shield' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5C7.4 20.9 4 16.5 4 11.5v-6L12 2z"/><path d="M9 12l2 2 4-4"/></svg>
-                {%- elsif section.settings.t2_g1_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
-                {%- endif -%}
-              </span>
-              <span class="tlw-gift-tag">FREE {{ section.settings.t2_g1_value }}</span>
-              <span class="tlw-gift-name">{{ section.settings.t2_g1_name }}</span>
-            </span>
-            {%- if section.settings.t2_g2_name != blank -%}<span class="tlw-gift">
-              <span class="tlw-gift-vis">
-                {%- if section.settings.t2_g2_image != blank -%}<img src="{{ section.settings.t2_g2_image | image_url: width: 120 }}" alt="{{ section.settings.t2_g2_name | escape }}" loading="lazy" width="60" height="60">
-                {%- elsif section.settings.t2_g2_icon == 'truck' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>
-                {%- elsif section.settings.t2_g2_icon == 'shield' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5C7.4 20.9 4 16.5 4 11.5v-6L12 2z"/><path d="M9 12l2 2 4-4"/></svg>
-                {%- elsif section.settings.t2_g2_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
-                {%- endif -%}
-              </span>
-              <span class="tlw-gift-tag">FREE {{ section.settings.t2_g2_value }}</span>
-              <span class="tlw-gift-name">{{ section.settings.t2_g2_name }}</span>
-            </span>{%- endif -%}
-            {%- if section.settings.t2_g3_name != blank -%}<span class="tlw-gift">
-              <span class="tlw-gift-vis">
-                {%- if section.settings.t2_g3_image != blank -%}<img src="{{ section.settings.t2_g3_image | image_url: width: 120 }}" alt="{{ section.settings.t2_g3_name | escape }}" loading="lazy" width="60" height="60">
-                {%- elsif section.settings.t2_g3_icon == 'truck' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>
-                {%- elsif section.settings.t2_g3_icon == 'shield' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5C7.4 20.9 4 16.5 4 11.5v-6L12 2z"/><path d="M9 12l2 2 4-4"/></svg>
-                {%- elsif section.settings.t2_g3_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
-                {%- endif -%}
-              </span>
-              <span class="tlw-gift-tag">FREE {{ section.settings.t2_g3_value }}</span>
-              <span class="tlw-gift-name">{{ section.settings.t2_g3_name }}</span>
-            </span>{%- endif -%}
-          </span>
-        </span>
-        {%- endif -%}
-      </button>
-
-      {%- if section.settings.bundle_note != blank -%}<p class="tlw-bundle-note">{{ section.settings.bundle_note }}</p>{%- endif -%}
-    </div>
-{%- endif -%}
 
     {%- comment -%} REAL add-to-cart form #1 (hero) {%- endcomment -%}
     {%- form 'product', product, id: 'tlw-form-hero', class: 'pf' -%}
@@ -874,29 +679,9 @@
     if(cart.total_discount>0){ savEl.hidden=false; savEl.innerHTML = '<span>Savings</span><span>-'+money(cart.total_discount)+'</span>'; } else { savEl.hidden=true; }
     if(!cart.items || cart.items.length===0){ itemsEl.innerHTML=''; emptyEl.hidden=false; return; }
     emptyEl.hidden=true;
-
-    // An ORDER discount (our -$19.99 at qty 2) is not allocated to any line, so
-    // the balm line would render at its full $99.98 with the saving showing only
-    // at the subtotal. That reads as "the discount didn't apply" and kills
-    // cart -> checkout. Attribute the cart-level discount to the largest line so
-    // it renders as $99.98 struck through -> $79.98.
-    var cartDisc = 0;
-    (cart.cart_level_discount_applications || []).forEach(function(d){
-      cartDisc += (d.total_allocated_amount || 0);
-    });
-    var allocKey = null, allocMax = -1;
-    if(cartDisc > 0){
-      cart.items.forEach(function(it){
-        if(it.final_line_price > allocMax){ allocMax = it.final_line_price; allocKey = it.key; }
-      });
-      if(allocMax < cartDisc){ cartDisc = 0; } // never render a negative line
-    }
-
     itemsEl.innerHTML = cart.items.map(function(it){
-      var alloc = (cartDisc > 0 && it.key === allocKey) ? cartDisc : 0;
-      var shown = it.final_line_price - alloc;
-      var disc = it.original_line_price > shown;
-      var isFree = shown === 0 && it.original_line_price > 0;
+      var disc = it.original_line_price > it.final_line_price;
+      var isFree = it.final_line_price === 0 && it.original_line_price > 0;
       return '<div class="tlw-d-item" data-key="'+it.key+'">'
         + '<div class="tlw-d-img">'+(it.image?'<img src="'+img(it.image)+'" alt="" loading="lazy">':'')+'</div>'
         + '<div class="tlw-d-info"><div class="tlw-d-title">'+it.product_title+(isFree?' <span class="tlw-d-free-tag">FREE GIFT</span>':'')+'</div>'
@@ -904,7 +689,7 @@
         + '<div class="tlw-d-qty"><button type="button" class="tlw-d-dec" aria-label="Decrease">&minus;</button><span>'+it.quantity+'</span><button type="button" class="tlw-d-inc" aria-label="Increase">+</button></div></div>'
         + '<div class="tlw-d-prices">'
         + (disc?'<span class="tlw-d-was">'+money(it.original_line_price)+'</span>':'')
-        + '<span class="tlw-d-now">'+(isFree?'FREE':money(shown))+'</span>'
+        + '<span class="tlw-d-now">'+(isFree?'FREE':money(it.final_line_price))+'</span>'
         + '<button type="button" class="tlw-d-remove" aria-label="Remove"><svg class="icon"><use href="#tlw-trash"/></svg></button>'
         + '</div></div>';
     }).join('');
@@ -920,138 +705,38 @@
   // the free lip balm (everyone) and the scarcity gift-card token (first N customers)
   // without requiring a second manual click.
   var MAIN_FORM_IDS = ['tlw-form-hero','tlw-form-final','tlw-form-sticky']; // kept for reference, unreliable, see .tlw-main-flag below
-  // Resolved from the PRODUCT pickers, not hand-entered variant IDs.
-  // first_available_variant can be nil when a product is out of stock everywhere,
-  // which silently produced an empty list, so fall back to the first variant.
-  {%- liquid
-    assign fg = section.settings.free_gift_product
-    assign gt = section.settings.gift_token_product
-    assign fg_v = fg.first_available_variant | default: fg.variants.first
-    assign gt_v = gt.first_available_variant | default: gt.variants.first
-  -%}
   var GIFT_VARIANT_IDS = [
-    {{ fg_v.id | default: '' | json }},
-    {{ gt_v.id | default: '' | json }}
+    {{ section.settings.free_gift_product.selected_or_first_available_variant.id | default: '' | json }},
+    {{ section.settings.gift_token_product.selected_or_first_available_variant.id | default: '' | json }}
   ].filter(function(id){ return id !== null && id !== undefined && id !== ''; });
-  if(!GIFT_VARIANT_IDS.length){ console.warn('[free gift] no gift product set in the theme customizer — the lip mask will never auto-add'); }
 
-  // ---- BUNDLE SELECTOR ------------------------------------------------------
-  // Each tier carries data-variant and data-qty. Mode A (default): tier 2 points
-  // at the separate 2-Pack product, qty 1. Mode B: tier 2 points at this product,
-  // qty 2. The JS does not care which, it just writes both fields.
-  // The add-to-cart handler reads the selected tier directly off the DOM.
-  window.TLW_GIFT_ELIGIBLE = true; // unchanged behaviour when the selector is off
-  (function(){
-   // OWN try/catch, deliberately. This block used to run as a bare IIFE above the
-   // add-to-cart listeners, so any throw in here was caught by the OUTER try and
-   // silently skipped EVERYTHING below it: form interception, the drawer, the gift
-   // add. Symptom was the theme's default cart appearing and tiers not clicking.
-   // A fault in the selector must never take the cart down with it.
-   try{
-    var root = document.getElementById('tlw-bundle');
-    if(!root) return;
-    var tiers = Array.prototype.slice.call(root.querySelectorAll('.tlw-tier'));
-    var FORMS = ['tlw-form-hero','tlw-form-final','tlw-form-sticky'];
-
-    function apply(btn){
-      tiers.forEach(function(t){
-        var on = (t === btn);
-        t.classList.toggle('is-on', on);
-        t.setAttribute('aria-checked', on ? 'true' : 'false');
-        t.tabIndex = on ? 0 : -1;
-      });
-      var variantId = btn.getAttribute('data-variant') || '';
-      var qty       = btn.getAttribute('data-qty') || '1';
-      var cta       = btn.getAttribute('data-cta') || '';
-      window.TLW_GIFT_ELIGIBLE = btn.getAttribute('data-gift') === 'true';
-
-      FORMS.forEach(function(fid){
-        var form = document.getElementById(fid);
-        if(!form) return;
-
-        if(variantId){
-          // Match a <select name="id"> too, not just <input> — otherwise we append
-          // a SECOND id field and Shopify may honour the theme's picker over the tier.
-          var idInput = form.querySelector('[name="id"]');
-          if(!idInput){
-            idInput = document.createElement('input');
-            idInput.type='hidden'; idInput.name='id';
-            form.appendChild(idInput);
-          }
-          idInput.value = variantId;
-        }
-
-        var q = form.querySelector('input[name="quantity"]');
-        if(!q){
-          q = document.createElement('input');
-          q.type='hidden'; q.name='quantity';
-          form.appendChild(q);
-        }
-        q.value = qty;
-
-        // Every form counts as a "main" add now, so gifts fire from the sticky
-        // bar and the final CTA too, not only the hero form.
-        if(!form.querySelector('.tlw-main-flag')){
-          var flag = document.createElement('input');
-          flag.type='hidden'; flag.className='tlw-main-flag'; flag.value='1';
-          form.appendChild(flag);
-        }
-
-        var submit = form.querySelector('[type="submit"]');
-        if(submit && cta && !submit.disabled){
-          var svg = submit.querySelector('svg');
-          submit.textContent = 'Add to Cart \u00B7 ' + cta;
-          if(svg) submit.insertBefore(svg, submit.firstChild);
-        }
-      });
-    }
-
-    tiers.forEach(function(btn, i){
-      btn.addEventListener('click', function(){ apply(btn); });
-      btn.addEventListener('keydown', function(e){
-        var next = null;
-        if(e.key === 'ArrowDown' || e.key === 'ArrowRight') next = tiers[(i+1)%tiers.length];
-        if(e.key === 'ArrowUp'   || e.key === 'ArrowLeft')  next = tiers[(i-1+tiers.length)%tiers.length];
-        if(next){ e.preventDefault(); next.focus(); apply(next); }
-      });
+  function addGiftsSilently(){
+    if(!GIFT_VARIANT_IDS.length) return Promise.resolve();
+    return getCart().then(function(cart){
+      var already = {};
+      cart.items.forEach(function(it){ already[String(it.variant_id)] = true; });
+      var toAdd = GIFT_VARIANT_IDS.filter(function(id){ return !already[String(id)]; });
+      if(!toAdd.length) return;
+      return fetch('/cart/add.js',{
+        method:'POST',
+        headers:{'Accept':'application/json','Content-Type':'application/json'},
+        body: JSON.stringify({ items: toAdd.map(function(id){ return { id: id, quantity: 1 }; }) })
+      }).then(function(r){
+        if(!r.ok){ return r.json().then(function(err){ console.error('[free gift] cart/add.js failed', r.status, err); }); }
+      }).catch(function(err){ console.error('[free gift] cart/add.js network error', err); });
     });
+  }
 
-    apply(root.querySelector('.tlw-tier.is-on') || tiers[0]);
-   }catch(err){ console.error('[tlw-bundle] selector failed, cart still works', err); }
-  })();
-
-  // Add to cart -> ONE /cart/add.js call carrying everything the chosen tier
-  // implies. Tier 2 sends [balm x2, lip mask x1] in a single items array. No
-  // flags, no cart inspection, no second request that can fail on its own.
-  // The discount showing correctly in the drawer is a separate problem, later.
+  // Add to cart (all product forms) -> AJAX add, open drawer, stay on PDP
   root.querySelectorAll('form.pf').forEach(function(form){
     form.addEventListener('submit', function(e){
       e.preventDefault();
+      var isMain = !!form.querySelector('.tlw-main-flag');
+      console.log('[tallow-pdp-v2] form submit intercepted', form.id, 'isMain:', isMain, 'gift ids:', GIFT_VARIANT_IDS);
       var btn = form.querySelector('button[name="add"]'); if(btn){ btn.disabled=true; }
-
-      var items = [];
-      var tier = document.querySelector('#tlw-bundle .tlw-tier.is-on');
-      if(tier){
-        items.push({ id: tier.getAttribute('data-variant'), quantity: parseInt(tier.getAttribute('data-qty'),10) || 1 });
-        if(tier.getAttribute('data-gift') === 'true'){
-          GIFT_VARIANT_IDS.forEach(function(id){ items.push({ id: id, quantity: 1 }); });
-        }
-      } else {
-        // Selector hidden or faulted: fall back to whatever the form itself says.
-        var fid = form.querySelector('[name="id"]');
-        items.push({ id: fid ? fid.value : {{ product.selected_or_first_available_variant.id | json }}, quantity: 1 });
-      }
-
-      console.log('[tallow-pdp-v2] adding', items);
-      fetch('/cart/add.js',{
-        method:'POST',
-        headers:{'Accept':'application/json','Content-Type':'application/json'},
-        body: JSON.stringify({ items: items })
-      })
-        .then(function(r){
-          if(!r.ok){ return r.json().then(function(err){ console.error('[tallow-pdp-v2] cart/add.js failed', r.status, err); throw err; }); }
-          return r.json();
-        })
+      fetch('/cart/add.js',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
+        .then(function(r){return r.json();})
+        .then(function(){ return isMain ? addGiftsSilently() : Promise.resolve(); })
         .then(function(){ return refresh(); })
         .then(function(){ open(); })
         .catch(function(){ window.location='/cart'; })
@@ -1177,51 +862,7 @@
     { "type": "header", "content": "Featured review" },
     { "type": "image_picker", "id": "review_image", "label": "Review photo (real customer)" },
     { "type": "text", "id": "review_quote", "label": "Review quote", "default": "I threw out eight products and kept this one. My husband noticed before I did." },
-    { "type": "text", "id": "review_author", "label": "Review author", "default": "Diana L., verified buyer" },
-
-    { "type": "header", "content": "Bundle selector + free gifts" },
-    { "type": "paragraph", "content": "Tier 2 adds quantity 2 of THIS product and auto-adds the lip mask. In Shopify create TWO automatic discounts of different types so they combine: (1) PRODUCT / Buy X Get Y — buy 2 balms, get 1 lip mask free; (2) ORDER / Amount off order, minimum quantity 2, -$19.99. Tick Combinations on both. Point 'Free gift product' at the REAL priced lip mask — never a $0.00 variant, or customers can remove the balms and keep it." },
-    { "type": "checkbox", "id": "show_bundle", "label": "Show the bundle selector", "default": false },
-    { "type": "select", "id": "default_tier", "label": "Pre-selected tier",
-      "options": [ { "value": "1", "label": "Single" }, { "value": "2", "label": "2-Pack" } ],
-      "default": "2" },
-
-    { "type": "header", "content": "Tier 1 - single (qty 1)" },
-    { "type": "text", "id": "t1_label",      "label": "Name",            "default": "One jar" },
-    { "type": "text", "id": "t1_sub",        "label": "Subtitle",        "default": "60g, about 6 weeks" },
-    { "type": "text", "id": "t1_price",      "label": "Price",           "default": "$49.99" },
-    { "type": "text", "id": "t1_each",       "label": "Per unit",        "default": "$49.99 per jar" },
-    { "type": "text", "id": "t1_cta",        "label": "Button price",    "default": "$49.99" },
-    { "type": "text", "id": "t1_gift_total", "label": "Gift total pill", "default": "$6 value" },
-    { "type": "text",   "id": "t1_g1_name",  "label": "Gift 1 name",     "default": "Free Shipping" },
-    { "type": "text",   "id": "t1_g1_value", "label": "Gift 1 value",    "default": "$6" },
-    { "type": "select", "id": "t1_g1_icon",  "label": "Gift 1 icon", "options": [ { "value": "none", "label": "None" }, { "value": "truck", "label": "Delivery truck" }, { "value": "shield", "label": "Shield" }, { "value": "gift", "label": "Gift box" } ], "default": "truck" },
-    { "type": "image_picker", "id": "t1_g1_image", "label": "Gift 1 image (overrides icon)" },
-
-    { "type": "header", "content": "Tier 2 - the 2-pack" },
-    { "type": "text", "id": "t2_label",      "label": "Name",            "default": "Two jars" },
-    { "type": "text", "id": "t2_sub",        "label": "Subtitle",        "default": "120g, about 3 months" },
-    { "type": "text", "id": "t2_badge",      "label": "Badge",           "default": "Most popular" },
-    { "type": "text", "id": "t2_price",      "label": "Price",           "default": "$79.99" },
-    { "type": "text", "id": "t2_was",        "label": "Struck price",    "default": "$99.98" },
-    { "type": "text", "id": "t2_each",       "label": "Per unit",        "default": "$40.00 per jar" },
-    { "type": "text", "id": "t2_cta",        "label": "Button price",    "default": "$79.99" },
-    { "type": "text", "id": "t2_gift_total", "label": "Gift total pill", "default": "$31 value" },
-    { "type": "text",   "id": "t2_g1_name",  "label": "Gift 1 name",     "default": "Free Lip Mask" },
-    { "type": "text",   "id": "t2_g1_value", "label": "Gift 1 value",    "default": "$20" },
-    { "type": "select", "id": "t2_g1_icon",  "label": "Gift 1 icon", "options": [ { "value": "none", "label": "None" }, { "value": "truck", "label": "Delivery truck" }, { "value": "shield", "label": "Shield" }, { "value": "gift", "label": "Gift box" } ], "default": "gift" },
-    { "type": "image_picker", "id": "t2_g1_image", "label": "Gift 1 image - USE THE REAL LIP MASK PHOTO" },
-    { "type": "text",   "id": "t2_g2_name",  "label": "Gift 2 name",     "default": "Free Shipping" },
-    { "type": "text",   "id": "t2_g2_value", "label": "Gift 2 value",    "default": "$6" },
-    { "type": "select", "id": "t2_g2_icon",  "label": "Gift 2 icon", "options": [ { "value": "none", "label": "None" }, { "value": "truck", "label": "Delivery truck" }, { "value": "shield", "label": "Shield" }, { "value": "gift", "label": "Gift box" } ], "default": "truck" },
-    { "type": "image_picker", "id": "t2_g2_image", "label": "Gift 2 image (overrides icon)" },
-    { "type": "text",   "id": "t2_g3_name",  "label": "Gift 3 name",     "default": "Shipping Protection" },
-    { "type": "text",   "id": "t2_g3_value", "label": "Gift 3 value",    "default": "$5" },
-    { "type": "select", "id": "t2_g3_icon",  "label": "Gift 3 icon", "options": [ { "value": "none", "label": "None" }, { "value": "truck", "label": "Delivery truck" }, { "value": "shield", "label": "Shield" }, { "value": "gift", "label": "Gift box" } ], "default": "shield" },
-    { "type": "image_picker", "id": "t2_g3_image", "label": "Gift 3 image (overrides icon)" },
-
-    { "type": "text", "id": "bundle_note", "label": "Line under selector",
-      "default": "60 days to send it back, either way." }
+    { "type": "text", "id": "review_author", "label": "Review author", "default": "Diana L., verified buyer" }
   ],
   "presets": [{ "name": "Tallow PDP V2" }]
 }

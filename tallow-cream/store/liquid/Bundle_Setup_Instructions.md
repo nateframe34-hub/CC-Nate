@@ -1,3 +1,25 @@
+> # ⛔ REVERTED 2026-08-03 — NONE OF THIS IS LIVE
+>
+> The bundle selector broke the PDP's custom cart drawer and was reverted in
+> full. `tallow-pdp-v2-reformulated.liquid` is back to commit `847d519`, its
+> last state before any bundle work. There is no bundle selector, no tier
+> buttons, no gift stack. The original universal free-gift auto-add is intact
+> and working as it did before.
+>
+> This document is kept for the two things that were actually settled and are
+> worth not re-deriving on the rebuild:
+>
+> 1. **The discount design.** One PRODUCT discount (Buy X Get Y: 2 balms -> 1
+>    lip mask free) plus one ORDER discount (Amount off order, min qty 2,
+>    -$19.99). Different types, so they combine — tick Combinations on both.
+>    BXGY self-enforces, so the lip mask stays a real priced product; a $0.00
+>    variant could be kept after removing the balms.
+> 2. **The economics** in the table below, at current COGS.
+>
+> Everything describing theme code, settings or modes is obsolete.
+
+---
+
 # 2-Pack Bundle — Setup Instructions
 
 **Created:** 2026-08-02
