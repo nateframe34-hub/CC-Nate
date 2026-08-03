@@ -840,9 +840,28 @@
     if(cart.total_discount>0){ savEl.hidden=false; savEl.innerHTML = '<span>Savings</span><span>-'+money(cart.total_discount)+'</span>'; } else { savEl.hidden=true; }
     if(!cart.items || cart.items.length===0){ itemsEl.innerHTML=''; emptyEl.hidden=false; return; }
     emptyEl.hidden=true;
+
+    // The 2-jar price break is an ORDER discount, and Shopify allocates order
+    // discounts to no line at all -- the balm line stays at full price and the
+    // saving appears only at the subtotal, which reads as "my discount didn't
+    // apply". Attribute it to the largest line so it renders 99.98 -> 79.98.
+    var cartDisc = 0;
+    (cart.cart_level_discount_applications || []).forEach(function(d){
+      cartDisc += (d.total_allocated_amount || 0);
+    });
+    var allocKey = null, allocMax = -1;
+    if(cartDisc > 0){
+      cart.items.forEach(function(it){
+        if(it.final_line_price > allocMax){ allocMax = it.final_line_price; allocKey = it.key; }
+      });
+      if(allocMax < cartDisc){ cartDisc = 0; } // never render a negative line
+    }
+
     itemsEl.innerHTML = cart.items.map(function(it){
-      var disc = it.original_line_price > it.final_line_price;
-      var isFree = it.final_line_price === 0 && it.original_line_price > 0;
+      var alloc  = (cartDisc > 0 && it.key === allocKey) ? cartDisc : 0;
+      var shown  = it.final_line_price - alloc;
+      var disc   = it.original_line_price > shown;
+      var isFree = shown === 0 && it.original_line_price > 0;
       return '<div class="tlw-d-item" data-key="'+it.key+'">'
         + '<div class="tlw-d-img">'+(it.image?'<img src="'+img(it.image)+'" alt="" loading="lazy">':'')+'</div>'
         + '<div class="tlw-d-info"><div class="tlw-d-title">'+it.product_title+(isFree?' <span class="tlw-d-free-tag">FREE GIFT</span>':'')+'</div>'
@@ -850,7 +869,7 @@
         + '<div class="tlw-d-qty"><button type="button" class="tlw-d-dec" aria-label="Decrease">&minus;</button><span>'+it.quantity+'</span><button type="button" class="tlw-d-inc" aria-label="Increase">+</button></div></div>'
         + '<div class="tlw-d-prices">'
         + (disc?'<span class="tlw-d-was">'+money(it.original_line_price)+'</span>':'')
-        + '<span class="tlw-d-now">'+(isFree?'FREE':money(it.final_line_price))+'</span>'
+        + '<span class="tlw-d-now">'+(isFree?'FREE':money(shown))+'</span>'
         + '<button type="button" class="tlw-d-remove" aria-label="Remove"><svg class="icon"><use href="#tlw-trash"/></svg></button>'
         + '</div></div>';
     }).join('');
