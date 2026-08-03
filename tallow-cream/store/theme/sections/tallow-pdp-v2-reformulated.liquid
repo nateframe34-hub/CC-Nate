@@ -299,8 +299,23 @@
   #tallow-pdp-v2 .sticky .s-was{font-size:13px;font-weight:400;opacity:.55;margin-left:4px}
   #tallow-pdp-v2 .sticky .s-sub{font-size:11px;opacity:.7;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   #tallow-pdp-v2 .sticky .pf{flex:0 0 auto}
-  #tallow-pdp-v2 .sticky .btn{width:auto;padding:13px 18px;font-size:15px;display:inline-flex;align-items:center;gap:7px;white-space:nowrap}
-  #tallow-pdp-v2 .sticky .p{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  #tallow-pdp-v2 .sticky .btn{width:auto;padding:13px 16px;font-size:15px;display:inline-flex;align-items:center;gap:7px;white-space:nowrap;flex:0 0 auto}
+  #tallow-pdp-v2 .sticky .p{font-size:15.5px;line-height:1.2}
+  /* Under ~480px the 48px thumb plus its gap is the difference between the
+     offer line fitting and being truncated to "Save $19...". The product photo
+     is already on screen above; the offer is not. Drop the thumb, then the
+     subline, then tighten. */
+  @media (max-width:480px){
+    #tallow-pdp-v2 .sticky{padding:9px 12px;gap:10px}
+    #tallow-pdp-v2 .sticky .s-thumb{display:none}
+    #tallow-pdp-v2 .sticky .p{font-size:14.5px}
+    #tallow-pdp-v2 .sticky .btn{padding:12px 14px;font-size:14.5px}
+  }
+  @media (max-width:390px){
+    #tallow-pdp-v2 .sticky .s-sub{display:none}
+    #tallow-pdp-v2 .sticky .p{font-size:14px}
+    #tallow-pdp-v2 .sticky .btn .icon{display:none}
+  }
   #tallow-pdp-v2 .math-note{max-width:840px;margin:16px auto 0;text-align:center;font-family:Georgia,'Times New Roman',serif;font-size:17px;font-style:italic;opacity:.85}
   #tallow-pdp-v2 .lifestyle-photo{max-width:420px;margin:24px auto 0;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px}
   #tallow-pdp-v2 .lifestyle-photo .lp-frame{aspect-ratio:4/5;border-radius:10px;overflow:hidden}
@@ -758,8 +773,8 @@
     <img class="s-thumb" src="{{ product.featured_image | image_url: width: 120 }}" alt="{{ product.title | escape }}" loading="lazy" width="48" height="48">
   {%- endif -%}
   <div class="s-info">
-    <div class="p">{{ section.settings.sticky_offer | default: 'Save $19.99 + Free Lip Mask' }}</div>
-    <div class="s-sub">{{ section.settings.sticky_sub | default: '60-day guarantee · Free shipping' }}</div>
+    <div class="p">{{ section.settings.sticky_line | default: 'Save $19.99 + 3 free gifts' }}</div>
+    <div class="s-sub">{{ section.settings.sticky_note | default: '60-day guarantee' }}</div>
   </div>
   {%- comment -%}
     With the bundle on, the sticky bar SENDS THEM BACK TO THE TIERS instead of
@@ -770,7 +785,7 @@
   {%- if section.settings.show_bundle -%}
     <button type="button" class="btn" id="tlw-sticky-jump">
       <svg class="icon" style="width:16px;height:16px"><use href="#tlw-cart"/></svg>
-      {{ section.settings.sticky_cta | default: 'Choose Yours' }}
+      {{ section.settings.sticky_btn | default: 'Claim Gifts' }}
     </button>
   {%- else -%}
   {%- form 'product', product, id: 'tlw-form-sticky', class: 'pf' -%}
@@ -1320,22 +1335,24 @@
     },
     {
       "type": "text",
-      "id": "sticky_offer",
+      "id": "sticky_line",
       "label": "Sticky bar - offer line",
       "default": "Save $19.99 + 3 free gifts",
-      "info": "Gruns restates the OFFER on every screen, not the product name or the guarantee."
+      "info": "Keep it short. On a 390px phone the bar has room for roughly 26 characters here."
     },
     {
       "type": "text",
-      "id": "sticky_sub",
+      "id": "sticky_note",
       "label": "Sticky bar - subline",
-      "default": "60-day guarantee"
+      "default": "60-day guarantee",
+      "info": "Hidden below 390px."
     },
     {
       "type": "text",
-      "id": "sticky_cta",
+      "id": "sticky_btn",
       "label": "Sticky bar - button",
-      "default": "Claim Gifts"
+      "default": "Claim Gifts",
+      "info": "Two short words maximum, it must never wrap."
     },
     {
       "type": "select",
