@@ -140,6 +140,9 @@
   #tallow-pdp-v2 .eo .eo-pm::after{left:6px;top:0;width:1.8px;height:14px}
   #tallow-pdp-v2 .eo details[open] .eo-pm::after{transform:scaleY(0)}
   #tallow-pdp-v2 .eo .fa{padding:0 2px 14px;font-size:14.5px;line-height:1.6;color:var(--grey,#6f6857)}
+  #tallow-pdp-v2 .eo .fa p{margin:0 0 10px}
+  #tallow-pdp-v2 .eo .fa p:last-child{margin-bottom:0}
+  #tallow-pdp-v2 .eo .fa strong{color:var(--ink,#2c2519)}
   #tallow-pdp-v2 .scent-line{text-align:center;font-size:14.5px;line-height:1.5;color:var(--grey,#8a8272);max-width:34ch;margin:0 auto 4px}
   #tallow-pdp-v2 .tlw-tier.tlw-flash{animation:tlwFlash .6s ease 2}
   @keyframes tlwFlash{0%,100%{box-shadow:0 0 0 0 rgba(106,72,26,0)}50%{box-shadow:0 0 0 4px rgba(106,72,26,.25)}}
@@ -587,12 +590,14 @@
   Rationale: the FAQ at the page foot answers these well but sits at 70-80%
   scroll, which only 4-6% of visitors reach. This surfaces the dealbreakers
   where the attention actually is. The two leading rows are the tallow-specific
-  objections nothing else on the page addressed: smell, and clogged pores.
+  objections. IMPORTANT: titles are POSITIVE and never name a doubt. A row
+  titled "Does it smell like beef?" hands the objection to every visitor who
+  does not open it. Objections get handled INSIDE a positive frame instead.
 {%- endcomment -%}
 {%- if section.settings.eo_show -%}
 <section class="band eo-band"><div class="wrap">
   <div class="eo">
-    {%- for i in (1..5) -%}
+    {%- for i in (1..4) -%}
       {%- assign qk = 'eo_q' | append: i -%}
       {%- assign ak = 'eo_a' | append: i -%}
       {%- assign q = section.settings[qk] -%}
@@ -1614,7 +1619,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Sits between the buy box and the mechanism, in the highest-attention zone. Leave rows blank to hide them. These duplicate the footer FAQ deliberately -- that FAQ sits at 70-80% scroll, which only 4-6% of visitors reach."
+      "content": "Sits between the buy box and the mechanism, in the highest-attention zone. Titles must be POSITIVE and must never name a doubt -- a title that asks 'does it smell?' hands that objection to everyone who does not open the row. Handle objections inside the answer instead. Leave a row blank to hide it."
     },
     {
       "type": "checkbox",
@@ -1625,62 +1630,50 @@
     {
       "type": "text",
       "id": "eo_q1",
-      "label": "Q1",
-      "default": "Does it smell like beef?"
+      "label": "Row 1 title",
+      "default": "Why Beef Tallow"
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "id": "eo_a1",
-      "label": "A1",
-      "default": "No. It smells faintly of honey and the essential oils. Properly rendered tallow is close to odourless, and the smell that is there fades within a minute or two of putting it on."
+      "label": "Row 1 body",
+      "default": "<p>It's simple.</p><p><strong>Familiar to your skin:</strong> tallow is close to the fat your skin already makes, so it absorbs instead of sitting on top of you.</p><p><strong>One jar, not fourteen:</strong> it does the job of a serum, a day cream, a night cream and a hand cream, at a fraction of what that shelf cost.</p><p><strong>Sinks in fast:</strong> about two minutes. Matte finish, no film, no shine on your pillowcase.</p><p><strong>Barely scented:</strong> a faint honey note from the raw honey and essential oils, and it fades within a minute of going on.</p>"
     },
     {
       "type": "text",
       "id": "eo_q2",
-      "label": "Q2",
-      "default": "Will it clog my pores?"
+      "label": "Row 2 title",
+      "default": "Ingredients"
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "id": "eo_a2",
-      "label": "A2",
-      "default": "Tallow is close in composition to what your skin already makes, which is why it absorbs instead of sitting on top. Most people find it does not clog. If your skin disagrees, the 60-day guarantee covers you."
+      "label": "Row 2 body",
+      "default": "<p>Four. That's the entire list, and you can pronounce all of them.</p><p><strong>Grass-fed beef tallow:</strong> the base. Closest thing in nature to your skin's own oils.</p><p><strong>Olive oil:</strong> keeps the balm soft enough to spread without dragging.</p><p><strong>Raw honey:</strong> holds moisture in rather than letting it evaporate off.</p><p><strong>Essential oils:</strong> a light natural scent, nothing synthetic.</p><p>No water, no fillers, no preservatives, no fragrance blends. Nothing on the label is there to pad it out.</p>"
     },
     {
       "type": "text",
       "id": "eo_q3",
-      "label": "Q3",
-      "default": "How long does one jar last?"
+      "label": "Row 3 title",
+      "default": "Directions"
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "id": "eo_a3",
-      "label": "A3",
-      "default": "2 to 3 months with daily use on face and neck. Longer if you use it only at night. A little goes a long way."
+      "label": "Row 3 body",
+      "default": "<p><strong>How much:</strong> a rice-grain amount for your whole face. It looks like nothing in the jar and it is more than enough. Warm it between your fingertips first.</p><p><strong>When:</strong> after washing, morning or night or both, on slightly damp skin.</p><p><strong>Where:</strong> face, neck, hands, elbows, anywhere that goes dry. Plenty of people use it head to toe.</p><p><strong>How long a jar lasts:</strong> 2 to 3 months of daily use. Longer if you only use it at night.</p>"
     },
     {
       "type": "text",
       "id": "eo_q4",
-      "label": "Q4",
-      "default": "What if my skin is sensitive?"
+      "label": "Row 4 title",
+      "default": "Benefits"
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "id": "eo_a4",
-      "label": "A4",
-      "default": "4 ingredients, no synthetic chemicals. If your skin reacts to most things, this is worth trying, and the guarantee covers you if it does not agree with you."
-    },
-    {
-      "type": "text",
-      "id": "eo_q5",
-      "label": "Q5",
-      "default": "What if it doesn't work for me?"
-    },
-    {
-      "type": "textarea",
-      "id": "eo_a5",
-      "label": "A5",
-      "default": "Use it for 60 days. If your skin does not love it, email us and we refund every penny. No hoops, nothing to send back."
+      "label": "Row 4 body",
+      "default": "<p><strong>Still comfortable at 2pm.</strong> Most creams are mostly water, which evaporates and leaves you tight by lunch. This one does not.</p><p><strong>Skin that feels soft rather than coated.</strong> It absorbs, so there is nothing sitting on the surface to rub off on a collar.</p><p><strong>A routine you can actually keep.</strong> One step, one jar, about 60 cents a day.</p><p><strong>Nothing to decode.</strong> Four ingredients you already recognise, and 60 days to decide it was worth it.</p>"
     }
   ],
   "presets": [
