@@ -26,20 +26,28 @@ It also hedges retention. There are **0 repeat purchases**, but only **3-4 custo
 
 ---
 
-## Step 1 — Shopify admin: create the 2-Pack as its own PRODUCT ⬅ THE ONLY THING LEFT TO DO
+## Step 1 — Shopify admin ⬅ THE ONLY THING LEFT TO DO
 
-**Founder call 2026-08-03: configured by product, not variant IDs.** The 2-pack is a separate Shopify product with its own images, inventory and URL — not a variant of the balm.
+**Rebuilt 2026-08-03, founder call: quantity-based, not a separate product and not variant IDs.**
 
-| Product | Price | Compare-at | Contains |
-|---|---|---|---|
-| Tallow Honey Balm | **$49.99** | — | 1 jar |
-| Tallow Honey Balm — 2 Pack | **$79.99** | **$99.98** | 2 jars + lip mask |
+Tier 1 adds **quantity 1** of the balm. Tier 2 adds **quantity 2** and the lip mask auto-adds alongside. Same product either way. Nothing new to create.
 
-- The compare-at makes Shopify's own discount display agree with the struck price in the selector.
-- **Ship the lip mask inside the 2-pack SKU** rather than relying on the cart auto-add. One SKU, no cart trickery, and the cart can never hold the gift without the bundle. (The auto-add still works if you'd rather — it's gated to this tier.)
-- **Check for stale automatic discounts before going live.** This file's parent section documents a past incident where two automatic discounts stacked and produced a price nobody intended. A new product is exactly when that resurfaces.
+### 🚨 The two automatic discounts are REQUIRED
 
-Then in the theme customizer, under **"Bundle selector + free gifts"**, pick both products. Everything else is pre-filled.
+2 × $49.99 = **$99.98**, but the selector displays **$79.99**. Without discounts the customer sees one price on the PDP and a different one at checkout, which is the fastest way to kill trust at the exact moment it matters.
+
+| Discount | Type | Rule |
+|---|---|---|
+| **1** | Automatic, amount off products | Buy 2+ Tallow Honey Balm → **$19.99 off** (lands on $79.99) |
+| **2** | Automatic, Buy X Get Y | 2+ Tallow Honey Balm → 1 lip mask **free** |
+
+Your existing BOGO setup (`store/liquid/BOGO_Setup_Instructions.md`) is the pattern for #2.
+
+**Check for stale automatic discounts first.** This section's own header documents a past incident where two automatic discounts stacked and produced a price nobody intended. Adding two more is exactly when that resurfaces — verify the final cart total is $79.99 before going live.
+
+### Then in the theme customizer
+
+Tick **"Show the bundle selector"** (off by default, so nothing changes until you do), and upload the **real lip mask photo** to *Tier 2 → Gift 1 image*. Shipping and Shipping Protection use built-in line icons and need no upload.
 
 ---
 
@@ -52,7 +60,9 @@ The selector renders between the shipping line and the hero add-to-cart form. CS
 - sets `window.TLW_GIFT_ELIGIBLE`, which gates the gift auto-add
 - supports arrow-key navigation and `aria-checked` on a proper radiogroup
 
-**Fail-safe:** if either variant ID is blank the whole block is skipped by Liquid, `TLW_GIFT_ELIGIBLE` stays `true`, and the page behaves exactly as it did before. Nothing breaks if you deploy before creating the variants.
+**Fail-safe:** the selector is behind a **"Show the bundle selector" checkbox, off by default.** While it's off, Liquid skips the block entirely, `TLW_GIFT_ELIGIBLE` stays `true`, and the page behaves exactly as it does today. Deploy freely; nothing changes until you tick the box.
+
+**Also fixed while in there:** the gift auto-add previously only fired from the hero form (it keyed off a `.tlw-main-flag` input that existed on that form alone), so adding from the sticky bar or the final CTA silently skipped the gift. The selector now adds that flag to all three forms.
 
 ---
 
@@ -95,16 +105,18 @@ Do **not** rewrite all five closes before launch. The batch's job is finding a s
 
 ## The free-gift stack ✅ DONE
 
-Modelled on the Grüns PDP (founder reference, 2026-08-03). Their version hangs off a subscription; ours hangs off the 2-pack. Every gift is **named and priced** and shown as a card, so the value of the extras is visible rather than implied.
+Modelled on the Grüns PDP (founder reference, 2026-08-03). Theirs hangs off a subscription; ours hangs off the 2-pack. Every gift is **named, priced and shown as a card**, so the value of the extras is visible rather than implied.
 
 | Tier | Gifts | Pill |
 |---|---|---|
-| Single | Shipping $6 | "$6 value" |
-| **2-Pack** | **Lip Mask $20 · Shipping $6 · Shipping Protection $5** | **"$31 value"** |
+| Single | Free Shipping $6 | "$6 value" |
+| **2-Pack** | **Free Lip Mask $20 · Free Shipping $6 · Shipping Protection $5** | **"$31 value"** |
 
-**The stack is only visible on the selected tier.** With the 2-pack pre-selected, a visitor lands seeing three gifts and $31 of value; clicking Single collapses it to one gift and $6. That contrast is the persuasion, and it's how Grüns does it too.
+**Visuals:** each card takes either a built-in line icon (delivery truck, shield, gift box) or an uploaded image, and the image wins if present. Shipping and Shipping Protection use the truck and shield icons. **The lip mask should use a real product photo** — it's a physical $20 item and a photograph sells it far better than a generic gift glyph.
 
-⚠️ **One thing to make true rather than drop.** "$20 value" on the lip mask is only defensible if the lip mask is actually sold somewhere at ~$20. Right now it isn't sold at all, which makes the number an assertion rather than a fact. **The fix costs nothing: list the lip mask as a real product at $19.99 on the store.** Then the claim is simply true, the gift reads as a genuine $20 item, and there's nothing to argue about. Same logic for Shipping Protection at $5 — if it's a real add-on you'd otherwise charge for, the number holds.
+**The stack only renders on the selected tier.** With the 2-pack pre-selected, a visitor lands seeing three gifts and $31 of value; clicking Single collapses it to one gift and $6. That contrast is the persuasion, and it's how Grüns does it.
+
+**The $20 lip mask value is a real listed price** (founder confirmed 2026-08-03), so the claim is straightforwardly true. Shipping Protection at $5 holds on the same basis if it's a real add-on.
 
 ---
 

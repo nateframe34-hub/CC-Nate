@@ -123,11 +123,17 @@
   #tallow-pdp-v2 .tlw-gifts-total{font-size:11px;font-weight:700;background:#6a481a;color:#fff;padding:2px 7px;border-radius:999px;white-space:nowrap}
   #tallow-pdp-v2 .tlw-gifts-row{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:7px}
   #tallow-pdp-v2 .tlw-gift{display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;padding:8px 5px;border:1px solid #ece5d5;border-radius:7px;background:#fdfbf6}
+  #tallow-pdp-v2 .tlw-gift-vis{display:flex;align-items:center;justify-content:center;width:34px;height:34px;margin-bottom:1px;color:#6a481a}
+  #tallow-pdp-v2 .tlw-gift-vis svg{width:24px;height:24px}
+  #tallow-pdp-v2 .tlw-gift-vis img{width:34px;height:34px;object-fit:contain;border-radius:4px}
   #tallow-pdp-v2 .tlw-gift-tag{font-size:9.5px;font-weight:800;letter-spacing:.03em;color:#fff;background:#7a9a5b;padding:2px 6px;border-radius:999px;white-space:nowrap}
   #tallow-pdp-v2 .tlw-gift-name{font-size:11px;line-height:1.25;color:#5a5344;font-weight:600}
   @media (max-width:400px){
     #tallow-pdp-v2 .tlw-gifts-row{gap:5px}
     #tallow-pdp-v2 .tlw-gift{padding:7px 3px}
+    #tallow-pdp-v2 .tlw-gift-vis{width:28px;height:28px}
+    #tallow-pdp-v2 .tlw-gift-vis svg{width:20px;height:20px}
+    #tallow-pdp-v2 .tlw-gift-vis img{width:28px;height:28px}
     #tallow-pdp-v2 .tlw-gift-name{font-size:10px}
     #tallow-pdp-v2 .tlw-gift-tag{font-size:9px;padding:2px 4px}
   }
@@ -378,46 +384,44 @@
 
 {%- comment -%}
   ============================================================================
-  BUNDLE SELECTOR + FREE GIFT STACK — added 2026-08-02, rebuilt 2026-08-03.
+  BUNDLE SELECTOR + FREE GIFT STACK
+  added 2026-08-02 · rebuilt 2026-08-03 (product-based) · rebuilt again
+  2026-08-03 (quantity-based, founder call)
 
-  Configured by PRODUCT PICKERS, not variant IDs (founder call 2026-08-03), so
-  the 2-pack is its own Shopify product with its own images and inventory. The
-  variant id is resolved from each product's first available variant.
+  HOW IT WORKS NOW: both tiers add THIS product. Tier 1 adds quantity 1.
+  Tier 2 adds quantity 2 and the lip mask is auto-added alongside it.
+  There is no separate 2-pack product and no variant IDs anywhere.
 
-  Gift-stack presentation modelled on the Gruns PDP (founder-supplied reference,
-  2026-08-03): every gift is named, priced, and shown as a card, so the value of
-  the extras is visible rather than implied. Difference from Gruns: theirs hangs
-  off a subscription, ours hangs off the 2-pack. NO SUBSCRIPTION — founder call
-  2026-08-02, subscribe-and-save depresses CVR while messaging is unproven.
+  🚨 REQUIRED IN SHOPIFY ADMIN: 2 x $49.99 = $99.98, but the selector displays
+  $79.99. An AUTOMATIC DISCOUNT must exist or the customer sees one price here
+  and a different one at checkout. Set up:
+    1. Automatic discount: buy 2+ of this product -> $19.99 off  (gets to $79.99)
+    2. Automatic discount: the lip mask free when 2+ of this product are in cart
+  See Bundle_Setup_Instructions.md. The existing BOGO setup is the pattern.
+
+  Gift-stack presentation modelled on the Gruns PDP (founder reference
+  2026-08-03): every gift named, priced and shown as a card, so the value of the
+  extras is visible rather than implied. Theirs hangs off a subscription, ours
+  hangs off the 2-pack. NO SUBSCRIPTION — founder call 2026-08-02.
 
   Economics at current COGS ($8.47 balm / $10.81 with lip mask / $19.28 2-pack):
     1 jar  $49.99  contribution $41.52  supports a $1.42 CPC
     2 jars $79.99  contribution $60.71  supports a $2.08 CPC
   Actual account CPC is $3.17.
-
-  Owns the `id` input on all three product forms and sets TLW_GIFT_ELIGIBLE,
-  which gates the lip-mask auto-add further down.
   ============================================================================
 {%- endcomment -%}
-{%- liquid
-  assign t1_prod = section.settings.t1_product
-  assign t2_prod = section.settings.t2_product
-  assign t1_var = t1_prod.selected_or_first_available_variant
-  assign t2_var = t2_prod.selected_or_first_available_variant
--%}
-{%- if t1_prod != blank and t2_prod != blank -%}
+{%- if section.settings.show_bundle -%}
     <div class="tlw-bundle" id="tlw-bundle" role="radiogroup" aria-label="Choose how many">
 
-      {%- comment -%} ---- TIER 1 : single ---- {%- endcomment -%}
+      {%- comment -%} ---- TIER 1 : single, quantity 1, no gift ---- {%- endcomment -%}
       <button type="button" class="tlw-tier{% if section.settings.default_tier == '1' %} is-on{% endif %}"
               role="radio" aria-checked="{% if section.settings.default_tier == '1' %}true{% else %}false{% endif %}"
-              data-variant="{{ t1_var.id }}" data-gift="false"
-              data-cta="{{ section.settings.t1_cta | default: section.settings.t1_price }}"
-              {% unless t1_var.available %}disabled{% endunless %}>
+              data-qty="1" data-gift="false"
+              data-cta="{{ section.settings.t1_cta | default: section.settings.t1_price }}">
         <span class="tlw-tier-main">
           <span class="tlw-tier-radio" aria-hidden="true"></span>
           <span class="tlw-tier-body">
-            <span class="tlw-tier-name">{{ section.settings.t1_label | default: t1_prod.title }}</span>
+            <span class="tlw-tier-name">{{ section.settings.t1_label | default: 'One jar' }}</span>
             {%- if section.settings.t1_sub != blank -%}<span class="tlw-tier-sub">{{ section.settings.t1_sub }}</span>{%- endif -%}
           </span>
           <span class="tlw-tier-prices">
@@ -432,23 +436,22 @@
             {%- if section.settings.t1_gift_total != blank -%}<span class="tlw-gifts-total">{{ section.settings.t1_gift_total }}</span>{%- endif -%}
           </span>
           <span class="tlw-gifts-row">
-            <span class="tlw-gift"><span class="tlw-gift-tag">FREE {{ section.settings.t1_g1_value }}</span><span class="tlw-gift-name">{{ section.settings.t1_g1_name }}</span></span>
+            {%- render 'tlw-gift-card', name: section.settings.t1_g1_name, value: section.settings.t1_g1_value, icon: section.settings.t1_g1_icon, image: section.settings.t1_g1_image -%}
           </span>
         </span>
         {%- endif -%}
       </button>
 
-      {%- comment -%} ---- TIER 2 : the 2-pack ---- {%- endcomment -%}
+      {%- comment -%} ---- TIER 2 : quantity 2 + lip mask ---- {%- endcomment -%}
       <button type="button" class="tlw-tier tlw-tier--best{% if section.settings.default_tier != '1' %} is-on{% endif %}"
               role="radio" aria-checked="{% if section.settings.default_tier != '1' %}true{% else %}false{% endif %}"
-              data-variant="{{ t2_var.id }}" data-gift="true"
-              data-cta="{{ section.settings.t2_cta | default: section.settings.t2_price }}"
-              {% unless t2_var.available %}disabled{% endunless %}>
+              data-qty="2" data-gift="true"
+              data-cta="{{ section.settings.t2_cta | default: section.settings.t2_price }}">
         {%- if section.settings.t2_badge != blank -%}<span class="tlw-tier-badge">{{ section.settings.t2_badge }}</span>{%- endif -%}
         <span class="tlw-tier-main">
           <span class="tlw-tier-radio" aria-hidden="true"></span>
           <span class="tlw-tier-body">
-            <span class="tlw-tier-name">{{ section.settings.t2_label | default: t2_prod.title }}</span>
+            <span class="tlw-tier-name">{{ section.settings.t2_label | default: 'Two jars' }}</span>
             {%- if section.settings.t2_sub != blank -%}<span class="tlw-tier-sub">{{ section.settings.t2_sub }}</span>{%- endif -%}
           </span>
           <span class="tlw-tier-prices">
@@ -464,9 +467,9 @@
             {%- if section.settings.t2_gift_total != blank -%}<span class="tlw-gifts-total">{{ section.settings.t2_gift_total }}</span>{%- endif -%}
           </span>
           <span class="tlw-gifts-row">
-            <span class="tlw-gift"><span class="tlw-gift-tag">FREE {{ section.settings.t2_g1_value }}</span><span class="tlw-gift-name">{{ section.settings.t2_g1_name }}</span></span>
-            {%- if section.settings.t2_g2_name != blank -%}<span class="tlw-gift"><span class="tlw-gift-tag">FREE {{ section.settings.t2_g2_value }}</span><span class="tlw-gift-name">{{ section.settings.t2_g2_name }}</span></span>{%- endif -%}
-            {%- if section.settings.t2_g3_name != blank -%}<span class="tlw-gift"><span class="tlw-gift-tag">FREE {{ section.settings.t2_g3_value }}</span><span class="tlw-gift-name">{{ section.settings.t2_g3_name }}</span></span>{%- endif -%}
+            {%- render 'tlw-gift-card', name: section.settings.t2_g1_name, value: section.settings.t2_g1_value, icon: section.settings.t2_g1_icon, image: section.settings.t2_g1_image -%}
+            {%- if section.settings.t2_g2_name != blank -%}{%- render 'tlw-gift-card', name: section.settings.t2_g2_name, value: section.settings.t2_g2_value, icon: section.settings.t2_g2_icon, image: section.settings.t2_g2_image -%}{%- endif -%}
+            {%- if section.settings.t2_g3_name != blank -%}{%- render 'tlw-gift-card', name: section.settings.t2_g3_name, value: section.settings.t2_g3_value, icon: section.settings.t2_g3_icon, image: section.settings.t2_g3_image -%}{%- endif -%}
           </span>
         </span>
         {%- endif -%}
@@ -848,11 +851,11 @@
     {{ section.settings.gift_token_product.selected_or_first_available_variant.id | default: '' | json }}
   ].filter(function(id){ return id !== null && id !== undefined && id !== ''; });
 
-  // ---- BUNDLE SELECTOR, added 2026-08-02 ----------------------------------
-  // Owns the variant id on all three product forms and sets TLW_GIFT_ELIGIBLE,
-  // which gates the free-gift auto-add below so the lip mask now ships with the
-  // 2-pack tier only rather than with every order.
-  window.TLW_GIFT_ELIGIBLE = true; // unchanged behaviour if the selector is absent
+  // ---- BUNDLE SELECTOR, 2026-08-02, rebuilt quantity-based 2026-08-03 --------
+  // Tier 1 = quantity 1, no gift. Tier 2 = quantity 2, lip mask auto-added.
+  // Same product both ways: no separate bundle product, no variant IDs.
+  // Sets TLW_GIFT_ELIGIBLE, which gates addGiftsSilently() below.
+  window.TLW_GIFT_ELIGIBLE = true; // unchanged behaviour if the selector is off
   (function(){
     var root = document.getElementById('tlw-bundle');
     if(!root) return;
@@ -866,20 +869,30 @@
         t.setAttribute('aria-checked', on ? 'true' : 'false');
         t.tabIndex = on ? 0 : -1;
       });
-      var variantId = btn.getAttribute('data-variant');
-      var cta       = btn.getAttribute('data-cta') || '';
+      var qty = btn.getAttribute('data-qty') || '1';
+      var cta = btn.getAttribute('data-cta') || '';
       window.TLW_GIFT_ELIGIBLE = btn.getAttribute('data-gift') === 'true';
 
       FORMS.forEach(function(fid){
         var form = document.getElementById(fid);
         if(!form) return;
-        var idInput = form.querySelector('input[name="id"]');
-        if(!idInput){
-          idInput = document.createElement('input');
-          idInput.type = 'hidden'; idInput.name = 'id';
-          form.appendChild(idInput);
+
+        var q = form.querySelector('input[name="quantity"]');
+        if(!q){
+          q = document.createElement('input');
+          q.type = 'hidden'; q.name = 'quantity';
+          form.appendChild(q);
         }
-        idInput.value = variantId;
+        q.value = qty;
+
+        // Every form is now a "main" add, so gifts fire from the sticky bar and
+        // the final CTA too, not just the hero form.
+        if(!form.querySelector('.tlw-main-flag')){
+          var flag = document.createElement('input');
+          flag.type = 'hidden'; flag.className = 'tlw-main-flag'; flag.value = '1';
+          form.appendChild(flag);
+        }
+
         var submit = form.querySelector('[type="submit"]');
         if(submit && cta && !submit.disabled){
           var svg = submit.querySelector('svg');
@@ -1059,40 +1072,47 @@
     { "type": "text", "id": "review_author", "label": "Review author", "default": "Diana L., verified buyer" },
 
     { "type": "header", "content": "Bundle selector + free gifts" },
-    { "type": "paragraph", "content": "Pick BOTH products to show the selector. Leave either blank and the page falls back to single-product behaviour with the lip mask auto-adding to every order, exactly as before. The 2-pack is its own Shopify product." },
-    { "type": "product", "id": "t1_product", "label": "Single product" },
-    { "type": "product", "id": "t2_product", "label": "2-Pack product" },
+    { "type": "paragraph", "content": "Tier 1 adds quantity 1. Tier 2 adds quantity 2 and auto-adds the lip mask. Same product both ways, no separate bundle product. REQUIRES two automatic discounts in Shopify: 2+ of this product = $19.99 off, and lip mask free with 2+. Without them the customer sees $79.99 here and $99.98 at checkout." },
+    { "type": "checkbox", "id": "show_bundle", "label": "Show the bundle selector", "default": false },
     { "type": "select", "id": "default_tier", "label": "Pre-selected tier",
       "options": [ { "value": "1", "label": "Single" }, { "value": "2", "label": "2-Pack" } ],
       "default": "2" },
 
-    { "type": "header", "content": "Tier 1 - single" },
-    { "type": "text", "id": "t1_label",      "label": "Name",           "default": "One jar" },
-    { "type": "text", "id": "t1_sub",        "label": "Subtitle",       "default": "60g, about 6 weeks" },
-    { "type": "text", "id": "t1_price",      "label": "Price",          "default": "$49.99" },
-    { "type": "text", "id": "t1_each",       "label": "Per unit",       "default": "$49.99 per jar" },
-    { "type": "text", "id": "t1_cta",        "label": "Button price",   "default": "$49.99" },
+    { "type": "header", "content": "Tier 1 - single (qty 1)" },
+    { "type": "text", "id": "t1_label",      "label": "Name",            "default": "One jar" },
+    { "type": "text", "id": "t1_sub",        "label": "Subtitle",        "default": "60g, about 6 weeks" },
+    { "type": "text", "id": "t1_price",      "label": "Price",           "default": "$49.99" },
+    { "type": "text", "id": "t1_each",       "label": "Per unit",        "default": "$49.99 per jar" },
+    { "type": "text", "id": "t1_cta",        "label": "Button price",    "default": "$49.99" },
     { "type": "text", "id": "t1_gift_total", "label": "Gift total pill", "default": "$6 value" },
-    { "type": "text", "id": "t1_g1_name",    "label": "Gift 1 name",    "default": "Shipping" },
-    { "type": "text", "id": "t1_g1_value",   "label": "Gift 1 value",   "default": "$6" },
+    { "type": "text",   "id": "t1_g1_name",  "label": "Gift 1 name",     "default": "Free Shipping" },
+    { "type": "text",   "id": "t1_g1_value", "label": "Gift 1 value",    "default": "$6" },
+    { "type": "select", "id": "t1_g1_icon",  "label": "Gift 1 icon", "options": [ { "value": "none", "label": "None" }, { "value": "truck", "label": "Delivery truck" }, { "value": "shield", "label": "Shield" }, { "value": "gift", "label": "Gift box" } ], "default": "truck" },
+    { "type": "image_picker", "id": "t1_g1_image", "label": "Gift 1 image (overrides icon)" },
 
-    { "type": "header", "content": "Tier 2 - the 2-pack" },
-    { "type": "text", "id": "t2_label",      "label": "Name",           "default": "Two jars" },
-    { "type": "text", "id": "t2_sub",        "label": "Subtitle",       "default": "120g, about 3 months" },
-    { "type": "text", "id": "t2_badge",      "label": "Badge",          "default": "Most popular" },
-    { "type": "text", "id": "t2_price",      "label": "Price",          "default": "$79.99" },
-    { "type": "text", "id": "t2_was",        "label": "Struck price",   "default": "$99.98" },
-    { "type": "text", "id": "t2_each",       "label": "Per unit",       "default": "$40.00 per jar" },
-    { "type": "text", "id": "t2_cta",        "label": "Button price",   "default": "$79.99" },
+    { "type": "header", "content": "Tier 2 - the 2-pack (qty 2 + lip mask)" },
+    { "type": "text", "id": "t2_label",      "label": "Name",            "default": "Two jars" },
+    { "type": "text", "id": "t2_sub",        "label": "Subtitle",        "default": "120g, about 3 months" },
+    { "type": "text", "id": "t2_badge",      "label": "Badge",           "default": "Most popular" },
+    { "type": "text", "id": "t2_price",      "label": "Price",           "default": "$79.99" },
+    { "type": "text", "id": "t2_was",        "label": "Struck price",    "default": "$99.98" },
+    { "type": "text", "id": "t2_each",       "label": "Per unit",        "default": "$40.00 per jar" },
+    { "type": "text", "id": "t2_cta",        "label": "Button price",    "default": "$79.99" },
     { "type": "text", "id": "t2_gift_total", "label": "Gift total pill", "default": "$31 value" },
-    { "type": "text", "id": "t2_g1_name",    "label": "Gift 1 name",    "default": "Lip Mask" },
-    { "type": "text", "id": "t2_g1_value",   "label": "Gift 1 value",   "default": "$20" },
-    { "type": "text", "id": "t2_g2_name",    "label": "Gift 2 name",    "default": "Shipping" },
-    { "type": "text", "id": "t2_g2_value",   "label": "Gift 2 value",   "default": "$6" },
-    { "type": "text", "id": "t2_g3_name",    "label": "Gift 3 name",    "default": "Shipping Protection" },
-    { "type": "text", "id": "t2_g3_value",   "label": "Gift 3 value",   "default": "$5" },
+    { "type": "text",   "id": "t2_g1_name",  "label": "Gift 1 name",     "default": "Free Lip Mask" },
+    { "type": "text",   "id": "t2_g1_value", "label": "Gift 1 value",    "default": "$20" },
+    { "type": "select", "id": "t2_g1_icon",  "label": "Gift 1 icon", "options": [ { "value": "none", "label": "None" }, { "value": "truck", "label": "Delivery truck" }, { "value": "shield", "label": "Shield" }, { "value": "gift", "label": "Gift box" } ], "default": "gift" },
+    { "type": "image_picker", "id": "t2_g1_image", "label": "Gift 1 image - USE THE REAL LIP MASK PHOTO" },
+    { "type": "text",   "id": "t2_g2_name",  "label": "Gift 2 name",     "default": "Free Shipping" },
+    { "type": "text",   "id": "t2_g2_value", "label": "Gift 2 value",    "default": "$6" },
+    { "type": "select", "id": "t2_g2_icon",  "label": "Gift 2 icon", "options": [ { "value": "none", "label": "None" }, { "value": "truck", "label": "Delivery truck" }, { "value": "shield", "label": "Shield" }, { "value": "gift", "label": "Gift box" } ], "default": "truck" },
+    { "type": "image_picker", "id": "t2_g2_image", "label": "Gift 2 image (overrides icon)" },
+    { "type": "text",   "id": "t2_g3_name",  "label": "Gift 3 name",     "default": "Shipping Protection" },
+    { "type": "text",   "id": "t2_g3_value", "label": "Gift 3 value",    "default": "$5" },
+    { "type": "select", "id": "t2_g3_icon",  "label": "Gift 3 icon", "options": [ { "value": "none", "label": "None" }, { "value": "truck", "label": "Delivery truck" }, { "value": "shield", "label": "Shield" }, { "value": "gift", "label": "Gift box" } ], "default": "shield" },
+    { "type": "image_picker", "id": "t2_g3_image", "label": "Gift 3 image (overrides icon)" },
 
-    { "type": "text", "id": "bundle_note",  "label": "Line under selector",
+    { "type": "text", "id": "bundle_note", "label": "Line under selector",
       "default": "60 days to send it back, either way." }
   ],
   "presets": [{ "name": "Tallow PDP V2" }]
