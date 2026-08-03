@@ -1,7 +1,7 @@
 # 2-Pack Bundle — Setup Instructions
 
 **Created:** 2026-08-02
-**File:** `store/theme/sections/tallow-pdp-v2-reformulated.liquid` — **the bundle is built directly into the PDP section.** There is no separate snippet; an earlier one was removed on founder's call, since `{% render %}` doesn't inherit `section` and the settings live in this file's schema anyway.
+**File:** `store/theme/sections/tallow-pdp-v2-reformulated.liquid` — **everything is in that one file.** No snippets, no `{% render %}`, nothing to coordinate across files. (Two snippets were created and removed during the build; the founder's instruction was to keep it all in the PDP section and that is where it now lives.)
 
 **Code is already written and committed. Steps 2, 3 and 4 below are DONE — they are kept as a record of what changed. Only Step 1 (Shopify admin) still needs doing.**
 
@@ -30,24 +30,41 @@ It also hedges retention. There are **0 repeat purchases**, but only **3-4 custo
 
 **Rebuilt 2026-08-03, founder call: quantity-based, not a separate product and not variant IDs.**
 
-Tier 1 adds **quantity 1** of the balm. Tier 2 adds **quantity 2** and the lip mask auto-adds alongside. Same product either way. Nothing new to create.
+Tier 1 always adds **quantity 1** of the balm. What Tier 2 does depends on the mode below.
 
-### 🚨 The two automatic discounts are REQUIRED
+### 🚨 Shopify applies only ONE product discount — this is what the design works around
 
-2 × $49.99 = **$99.98**, but the selector displays **$79.99**. Without discounts the customer sees one price on the PDP and a different one at checkout, which is the fastest way to kill trust at the exact moment it matters.
+Buy-X-Get-Y counts as a product discount, so **"buy 2 = $19.99 off" and "free lip mask" cannot both run.** The section has a **"2-Pack behaviour"** setting with two ways to spend the single discount:
 
-| Discount | Type | Rule |
-|---|---|---|
-| **1** | Automatic, amount off products | Buy 2+ Tallow Honey Balm → **$19.99 off** (lands on $79.99) |
-| **2** | Automatic, Buy X Get Y | 2+ Tallow Honey Balm → 1 lip mask **free** |
+**MODE A — separate 2-Pack product ← default, recommended**
 
-Your existing BOGO setup (`store/liquid/BOGO_Setup_Instructions.md`) is the pattern for #2.
+| | |
+|---|---|
+| Create | A product **"Tallow Honey Balm — 2 Pack"** at **$79.99**, compare-at **$99.98**, containing 2 jars |
+| The one discount | **Buy X Get Y:** 2-Pack in cart → 1 lip mask free |
+| Price discount needed | **None.** $79.99 is simply the price |
+| Cart reads | `2-Pack $79.99` + `Lip Mask FREE` |
+
+This is the recommended route precisely because it doesn't spend the discount on arithmetic. Pick the 2-Pack product in the customizer under *2-Pack product (Mode A only)*.
+
+**MODE B — quantity 2 of the balm**
+
+| | |
+|---|---|
+| Create | Nothing |
+| The one discount | **Amount off products:** 2+ balms → $19.99 off |
+| Lip mask | Cannot be free by discount. Make it a **$0.00 product** and let the auto-add handle it |
+| Cart reads | `Balm ×2` + `Lip Mask` |
+
+Only choose B if you specifically want two jar line items in the cart. It requires a $0.00 lip mask product, which is purchasable by anyone who finds the URL — hide it from search and collections.
 
 **Check for stale automatic discounts first.** This section's own header documents a past incident where two automatic discounts stacked and produced a price nobody intended. Adding two more is exactly when that resurfaces — verify the final cart total is $79.99 before going live.
 
 ### Then in the theme customizer
 
-Tick **"Show the bundle selector"** (off by default, so nothing changes until you do), and upload the **real lip mask photo** to *Tier 2 → Gift 1 image*. Shipping and Shipping Protection use built-in line icons and need no upload.
+Tick **"Show the bundle selector"** (off by default, so nothing changes until you do), leave **2-Pack behaviour** on Mode A, pick the **2-Pack product**, and upload the **real lip mask photo** to *Tier 2 → Gift 1 image*. Shipping and Shipping Protection use built-in line icons and need no upload.
+
+**Fail-safe:** in Mode A the selector stays hidden until a 2-Pack product is picked, so a half-finished setup can't reach customers.
 
 ---
 

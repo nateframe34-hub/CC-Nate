@@ -385,24 +385,29 @@
 {%- comment -%}
   ============================================================================
   BUNDLE SELECTOR + FREE GIFT STACK
-  added 2026-08-02 · rebuilt 2026-08-03 (product-based) · rebuilt again
-  2026-08-03 (quantity-based, founder call)
+  2026-08-02 · rebuilt 2026-08-03 · rebuilt again 2026-08-03 for the
+  ONE-DISCOUNT constraint. Everything lives in this file, no snippets.
 
-  HOW IT WORKS NOW: both tiers add THIS product. Tier 1 adds quantity 1.
-  Tier 2 adds quantity 2 and the lip mask is auto-added alongside it.
-  There is no separate 2-pack product and no variant IDs anywhere.
+  🚨 SHOPIFY ONLY ALLOWS ONE PRODUCT DISCOUNT TO APPLY, and Buy-X-Get-Y counts
+  as one. So we cannot have both "buy 2 = $19.99 off" AND "free lip mask".
+  Two ways to spend the single discount, switchable via "2-Pack behaviour":
 
-  🚨 REQUIRED IN SHOPIFY ADMIN: 2 x $49.99 = $99.98, but the selector displays
-  $79.99. An AUTOMATIC DISCOUNT must exist or the customer sees one price here
-  and a different one at checkout. Set up:
-    1. Automatic discount: buy 2+ of this product -> $19.99 off  (gets to $79.99)
-    2. Automatic discount: the lip mask free when 2+ of this product are in cart
-  See Bundle_Setup_Instructions.md. The existing BOGO setup is the pattern.
+  MODE A — "product" (DEFAULT, recommended)
+    Tier 2 adds a separate 2-Pack PRODUCT priced at $79.99. No price discount is
+    needed because $79.99 is simply the price. The one discount is then free to
+    be a Buy-X-Get-Y that adds the lip mask at no cost.
+    Cart reads: "Tallow Honey Balm 2-Pack $79.99" + "Lip Mask FREE".
+
+  MODE B — "quantity"
+    Tier 2 adds quantity 2 of THIS product. The single discount must then be the
+    price break (2+ = $19.99 off), which means the lip mask cannot be free via
+    discount. Only choose this if you make the lip mask a $0.00 product and let
+    the auto-add handle it.
+    Cart reads: "Tallow Honey Balm x2" + "Lip Mask".
 
   Gift-stack presentation modelled on the Gruns PDP (founder reference
-  2026-08-03): every gift named, priced and shown as a card, so the value of the
-  extras is visible rather than implied. Theirs hangs off a subscription, ours
-  hangs off the 2-pack. NO SUBSCRIPTION — founder call 2026-08-02.
+  2026-08-03): every gift named, priced, shown as a card. Theirs hangs off a
+  subscription, ours off the 2-pack. NO SUBSCRIPTION, founder call 2026-08-02.
 
   Economics at current COGS ($8.47 balm / $10.81 with lip mask / $19.28 2-pack):
     1 jar  $49.99  contribution $41.52  supports a $1.42 CPC
@@ -410,13 +415,24 @@
   Actual account CPC is $3.17.
   ============================================================================
 {%- endcomment -%}
-{%- if section.settings.show_bundle -%}
+{%- liquid
+  assign bundle_ok = false
+  if section.settings.show_bundle
+    if section.settings.t2_mode == 'quantity'
+      assign bundle_ok = true
+    elsif section.settings.t2_product != blank
+      assign bundle_ok = true
+    endif
+  endif
+  assign t2_var = section.settings.t2_product.selected_or_first_available_variant
+-%}
+{%- if bundle_ok -%}
     <div class="tlw-bundle" id="tlw-bundle" role="radiogroup" aria-label="Choose how many">
 
-      {%- comment -%} ---- TIER 1 : single, quantity 1, no gift ---- {%- endcomment -%}
+      {%- comment -%} ---- TIER 1 : this product, quantity 1, no gift ---- {%- endcomment -%}
       <button type="button" class="tlw-tier{% if section.settings.default_tier == '1' %} is-on{% endif %}"
               role="radio" aria-checked="{% if section.settings.default_tier == '1' %}true{% else %}false{% endif %}"
-              data-qty="1" data-gift="false"
+              data-variant="{{ v.id }}" data-qty="1" data-gift="false"
               data-cta="{{ section.settings.t1_cta | default: section.settings.t1_price }}">
         <span class="tlw-tier-main">
           <span class="tlw-tier-radio" aria-hidden="true"></span>
@@ -436,16 +452,27 @@
             {%- if section.settings.t1_gift_total != blank -%}<span class="tlw-gifts-total">{{ section.settings.t1_gift_total }}</span>{%- endif -%}
           </span>
           <span class="tlw-gifts-row">
-            {%- render 'tlw-gift-card', name: section.settings.t1_g1_name, value: section.settings.t1_g1_value, icon: section.settings.t1_g1_icon, image: section.settings.t1_g1_image -%}
+            <span class="tlw-gift">
+              <span class="tlw-gift-vis">
+                {%- if section.settings.t1_g1_image != blank -%}<img src="{{ section.settings.t1_g1_image | image_url: width: 120 }}" alt="{{ section.settings.t1_g1_name | escape }}" loading="lazy" width="60" height="60">
+                {%- elsif section.settings.t1_g1_icon == 'truck' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>
+                {%- elsif section.settings.t1_g1_icon == 'shield' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5C7.4 20.9 4 16.5 4 11.5v-6L12 2z"/><path d="M9 12l2 2 4-4"/></svg>
+                {%- elsif section.settings.t1_g1_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
+                {%- endif -%}
+              </span>
+              <span class="tlw-gift-tag">FREE {{ section.settings.t1_g1_value }}</span>
+              <span class="tlw-gift-name">{{ section.settings.t1_g1_name }}</span>
+            </span>
           </span>
         </span>
         {%- endif -%}
       </button>
 
-      {%- comment -%} ---- TIER 2 : quantity 2 + lip mask ---- {%- endcomment -%}
+      {%- comment -%} ---- TIER 2 : 2-pack product (mode A) or qty 2 (mode B) ---- {%- endcomment -%}
       <button type="button" class="tlw-tier tlw-tier--best{% if section.settings.default_tier != '1' %} is-on{% endif %}"
               role="radio" aria-checked="{% if section.settings.default_tier != '1' %}true{% else %}false{% endif %}"
-              data-qty="2" data-gift="true"
+              {% if section.settings.t2_mode == 'quantity' %}data-variant="{{ v.id }}" data-qty="2"{% else %}data-variant="{{ t2_var.id }}" data-qty="1"{% endif %}
+              data-gift="true"
               data-cta="{{ section.settings.t2_cta | default: section.settings.t2_price }}">
         {%- if section.settings.t2_badge != blank -%}<span class="tlw-tier-badge">{{ section.settings.t2_badge }}</span>{%- endif -%}
         <span class="tlw-tier-main">
@@ -467,9 +494,39 @@
             {%- if section.settings.t2_gift_total != blank -%}<span class="tlw-gifts-total">{{ section.settings.t2_gift_total }}</span>{%- endif -%}
           </span>
           <span class="tlw-gifts-row">
-            {%- render 'tlw-gift-card', name: section.settings.t2_g1_name, value: section.settings.t2_g1_value, icon: section.settings.t2_g1_icon, image: section.settings.t2_g1_image -%}
-            {%- if section.settings.t2_g2_name != blank -%}{%- render 'tlw-gift-card', name: section.settings.t2_g2_name, value: section.settings.t2_g2_value, icon: section.settings.t2_g2_icon, image: section.settings.t2_g2_image -%}{%- endif -%}
-            {%- if section.settings.t2_g3_name != blank -%}{%- render 'tlw-gift-card', name: section.settings.t2_g3_name, value: section.settings.t2_g3_value, icon: section.settings.t2_g3_icon, image: section.settings.t2_g3_image -%}{%- endif -%}
+            <span class="tlw-gift">
+              <span class="tlw-gift-vis">
+                {%- if section.settings.t2_g1_image != blank -%}<img src="{{ section.settings.t2_g1_image | image_url: width: 120 }}" alt="{{ section.settings.t2_g1_name | escape }}" loading="lazy" width="60" height="60">
+                {%- elsif section.settings.t2_g1_icon == 'truck' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>
+                {%- elsif section.settings.t2_g1_icon == 'shield' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5C7.4 20.9 4 16.5 4 11.5v-6L12 2z"/><path d="M9 12l2 2 4-4"/></svg>
+                {%- elsif section.settings.t2_g1_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
+                {%- endif -%}
+              </span>
+              <span class="tlw-gift-tag">FREE {{ section.settings.t2_g1_value }}</span>
+              <span class="tlw-gift-name">{{ section.settings.t2_g1_name }}</span>
+            </span>
+            {%- if section.settings.t2_g2_name != blank -%}<span class="tlw-gift">
+              <span class="tlw-gift-vis">
+                {%- if section.settings.t2_g2_image != blank -%}<img src="{{ section.settings.t2_g2_image | image_url: width: 120 }}" alt="{{ section.settings.t2_g2_name | escape }}" loading="lazy" width="60" height="60">
+                {%- elsif section.settings.t2_g2_icon == 'truck' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>
+                {%- elsif section.settings.t2_g2_icon == 'shield' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5C7.4 20.9 4 16.5 4 11.5v-6L12 2z"/><path d="M9 12l2 2 4-4"/></svg>
+                {%- elsif section.settings.t2_g2_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
+                {%- endif -%}
+              </span>
+              <span class="tlw-gift-tag">FREE {{ section.settings.t2_g2_value }}</span>
+              <span class="tlw-gift-name">{{ section.settings.t2_g2_name }}</span>
+            </span>{%- endif -%}
+            {%- if section.settings.t2_g3_name != blank -%}<span class="tlw-gift">
+              <span class="tlw-gift-vis">
+                {%- if section.settings.t2_g3_image != blank -%}<img src="{{ section.settings.t2_g3_image | image_url: width: 120 }}" alt="{{ section.settings.t2_g3_name | escape }}" loading="lazy" width="60" height="60">
+                {%- elsif section.settings.t2_g3_icon == 'truck' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 3h13v13H1z"/><path d="M14 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>
+                {%- elsif section.settings.t2_g3_icon == 'shield' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5C7.4 20.9 4 16.5 4 11.5v-6L12 2z"/><path d="M9 12l2 2 4-4"/></svg>
+                {%- elsif section.settings.t2_g3_icon == 'gift' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9"/><path d="M2 7h20v5H2z"/><path d="M12 21V7"/><path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/></svg>
+                {%- endif -%}
+              </span>
+              <span class="tlw-gift-tag">FREE {{ section.settings.t2_g3_value }}</span>
+              <span class="tlw-gift-name">{{ section.settings.t2_g3_name }}</span>
+            </span>{%- endif -%}
           </span>
         </span>
         {%- endif -%}
@@ -851,11 +908,12 @@
     {{ section.settings.gift_token_product.selected_or_first_available_variant.id | default: '' | json }}
   ].filter(function(id){ return id !== null && id !== undefined && id !== ''; });
 
-  // ---- BUNDLE SELECTOR, 2026-08-02, rebuilt quantity-based 2026-08-03 --------
-  // Tier 1 = quantity 1, no gift. Tier 2 = quantity 2, lip mask auto-added.
-  // Same product both ways: no separate bundle product, no variant IDs.
+  // ---- BUNDLE SELECTOR ------------------------------------------------------
+  // Each tier carries data-variant and data-qty. Mode A (default): tier 2 points
+  // at the separate 2-Pack product, qty 1. Mode B: tier 2 points at this product,
+  // qty 2. The JS does not care which, it just writes both fields.
   // Sets TLW_GIFT_ELIGIBLE, which gates addGiftsSilently() below.
-  window.TLW_GIFT_ELIGIBLE = true; // unchanged behaviour if the selector is off
+  window.TLW_GIFT_ELIGIBLE = true; // unchanged behaviour when the selector is off
   (function(){
     var root = document.getElementById('tlw-bundle');
     if(!root) return;
@@ -869,27 +927,38 @@
         t.setAttribute('aria-checked', on ? 'true' : 'false');
         t.tabIndex = on ? 0 : -1;
       });
-      var qty = btn.getAttribute('data-qty') || '1';
-      var cta = btn.getAttribute('data-cta') || '';
+      var variantId = btn.getAttribute('data-variant') || '';
+      var qty       = btn.getAttribute('data-qty') || '1';
+      var cta       = btn.getAttribute('data-cta') || '';
       window.TLW_GIFT_ELIGIBLE = btn.getAttribute('data-gift') === 'true';
 
       FORMS.forEach(function(fid){
         var form = document.getElementById(fid);
         if(!form) return;
 
+        if(variantId){
+          var idInput = form.querySelector('input[name="id"]');
+          if(!idInput){
+            idInput = document.createElement('input');
+            idInput.type='hidden'; idInput.name='id';
+            form.appendChild(idInput);
+          }
+          idInput.value = variantId;
+        }
+
         var q = form.querySelector('input[name="quantity"]');
         if(!q){
           q = document.createElement('input');
-          q.type = 'hidden'; q.name = 'quantity';
+          q.type='hidden'; q.name='quantity';
           form.appendChild(q);
         }
         q.value = qty;
 
-        // Every form is now a "main" add, so gifts fire from the sticky bar and
-        // the final CTA too, not just the hero form.
+        // Every form counts as a "main" add now, so gifts fire from the sticky
+        // bar and the final CTA too, not only the hero form.
         if(!form.querySelector('.tlw-main-flag')){
           var flag = document.createElement('input');
-          flag.type = 'hidden'; flag.className = 'tlw-main-flag'; flag.value = '1';
+          flag.type='hidden'; flag.className='tlw-main-flag'; flag.value='1';
           form.appendChild(flag);
         }
 
@@ -1072,8 +1141,16 @@
     { "type": "text", "id": "review_author", "label": "Review author", "default": "Diana L., verified buyer" },
 
     { "type": "header", "content": "Bundle selector + free gifts" },
-    { "type": "paragraph", "content": "Tier 1 adds quantity 1. Tier 2 adds quantity 2 and auto-adds the lip mask. Same product both ways, no separate bundle product. REQUIRES two automatic discounts in Shopify: 2+ of this product = $19.99 off, and lip mask free with 2+. Without them the customer sees $79.99 here and $99.98 at checkout." },
+    { "type": "paragraph", "content": "Shopify only lets ONE product discount apply, and Buy-X-Get-Y counts as one. Mode A: the 2-Pack is its own product at $79.99, so no price discount is needed and the single discount can make the lip mask free. Mode B: quantity 2 of this product, which spends the discount on the price break instead. Pick a mode below." },
     { "type": "checkbox", "id": "show_bundle", "label": "Show the bundle selector", "default": false },
+    { "type": "select", "id": "t2_mode", "label": "2-Pack behaviour",
+      "options": [
+        { "value": "product",  "label": "A: separate 2-Pack product (recommended)" },
+        { "value": "quantity", "label": "B: quantity 2 of this product" }
+      ],
+      "default": "product",
+      "info": "Shopify only applies ONE product discount. Mode A prices the 2-pack as its own product so no price discount is needed, leaving the single discount free to make the lip mask free. Mode B needs the discount for the price break instead." },
+    { "type": "product", "id": "t2_product", "label": "2-Pack product (Mode A only)" },
     { "type": "select", "id": "default_tier", "label": "Pre-selected tier",
       "options": [ { "value": "1", "label": "Single" }, { "value": "2", "label": "2-Pack" } ],
       "default": "2" },
@@ -1090,7 +1167,7 @@
     { "type": "select", "id": "t1_g1_icon",  "label": "Gift 1 icon", "options": [ { "value": "none", "label": "None" }, { "value": "truck", "label": "Delivery truck" }, { "value": "shield", "label": "Shield" }, { "value": "gift", "label": "Gift box" } ], "default": "truck" },
     { "type": "image_picker", "id": "t1_g1_image", "label": "Gift 1 image (overrides icon)" },
 
-    { "type": "header", "content": "Tier 2 - the 2-pack (qty 2 + lip mask)" },
+    { "type": "header", "content": "Tier 2 - the 2-pack" },
     { "type": "text", "id": "t2_label",      "label": "Name",            "default": "Two jars" },
     { "type": "text", "id": "t2_sub",        "label": "Subtitle",        "default": "120g, about 3 months" },
     { "type": "text", "id": "t2_badge",      "label": "Badge",           "default": "Most popular" },
