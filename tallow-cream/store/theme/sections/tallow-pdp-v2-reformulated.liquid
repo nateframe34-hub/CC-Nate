@@ -942,6 +942,12 @@
   // Sets TLW_GIFT_ELIGIBLE, which gates addGiftsSilently() below.
   window.TLW_GIFT_ELIGIBLE = true; // unchanged behaviour when the selector is off
   (function(){
+   // OWN try/catch, deliberately. This block used to run as a bare IIFE above the
+   // add-to-cart listeners, so any throw in here was caught by the OUTER try and
+   // silently skipped EVERYTHING below it: form interception, the drawer, the gift
+   // add. Symptom was the theme's default cart appearing and tiers not clicking.
+   // A fault in the selector must never take the cart down with it.
+   try{
     var root = document.getElementById('tlw-bundle');
     if(!root) return;
     var tiers = Array.prototype.slice.call(root.querySelectorAll('.tlw-tier'));
@@ -1011,17 +1017,27 @@
     });
 
     apply(root.querySelector('.tlw-tier.is-on') || tiers[0]);
+   }catch(err){ console.error('[tlw-bundle] selector failed, cart still works', err); }
   })();
 
+  var MAIN_PRODUCT_ID = {{ product.id | json }};
+
   function addGiftsSilently(){
-    // Gated 2026-08-02: the lip mask ships with the 2-pack tier only.
-    if(!window.TLW_GIFT_ELIGIBLE) return Promise.resolve();
     if(!GIFT_VARIANT_IDS.length) return Promise.resolve();
     return getCart().then(function(cart){
+      // Eligibility comes from what is ACTUALLY IN THE CART, not from a JS flag.
+      // The flag broke whenever the selector script faulted, and it could drift out
+      // of sync with the cart. Counting balms matches the Buy-X-Get-Y condition
+      // exactly, so the gift and the discount can never disagree.
+      var balms = 0;
+      cart.items.forEach(function(it){ if(it.product_id === MAIN_PRODUCT_ID) balms += it.quantity; });
+      if(balms < 2){ console.log('[free gift] '+balms+' balm(s) in cart, need 2 — not adding'); return; }
+
       var already = {};
       cart.items.forEach(function(it){ already[String(it.variant_id)] = true; });
       var toAdd = GIFT_VARIANT_IDS.filter(function(id){ return !already[String(id)]; });
       if(!toAdd.length) return;
+      console.log('[free gift] adding', toAdd);
       return fetch('/cart/add.js',{
         method:'POST',
         headers:{'Accept':'application/json','Content-Type':'application/json'},
@@ -1041,7 +1057,9 @@
       var btn = form.querySelector('button[name="add"]'); if(btn){ btn.disabled=true; }
       fetch('/cart/add.js',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
         .then(function(r){return r.json();})
-        .then(function(){ return isMain ? addGiftsSilently() : Promise.resolve(); })
+        // Always run it — eligibility is decided from cart contents now, so the
+        // unreliable .tlw-main-flag no longer gates whether the gift can appear.
+        .then(function(){ return addGiftsSilently(); })
         .then(function(){ return refresh(); })
         .then(function(){ open(); })
         .catch(function(){ window.location='/cart'; })
