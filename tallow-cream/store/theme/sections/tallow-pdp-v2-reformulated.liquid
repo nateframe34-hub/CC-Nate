@@ -385,30 +385,33 @@
 {%- comment -%}
   ============================================================================
   BUNDLE SELECTOR + FREE GIFT STACK
-  2026-08-02 · rebuilt 2026-08-03 · rebuilt again 2026-08-03 for the
-  ONE-DISCOUNT constraint. Everything lives in this file, no snippets.
+  2026-08-02 · rebuilt 2026-08-03 (three times). Everything lives in this file,
+  no snippets.
 
-  🚨 SHOPIFY ONLY ALLOWS ONE PRODUCT DISCOUNT TO APPLY, and Buy-X-Get-Y counts
-  as one. So we cannot have both "buy 2 = $19.99 off" AND "free lip mask".
-  Two ways to spend the single discount, switchable via "2-Pack behaviour":
+  🚨 THERE IS ONE PATH. No modes, no switch. Founder call 2026-08-03.
+     Tier 1 = quantity 1 of THIS product.
+     Tier 2 = quantity 2 of THIS product + the lip mask auto-added by the JS.
+  Quantity of an already-mapped SKU, because all fulfilment is via Teemdrop and
+  a new listing or variant would need a new supplier mapping.
 
-  MODE A — "product"
-    Tier 2 adds a separate 2-Pack PRODUCT priced at $79.99. No price discount is
-    needed because $79.99 is simply the price. The one discount is then free to
-    be a Buy-X-Get-Y that adds the lip mask at no cost.
-    Cart reads: "Tallow Honey Balm 2-Pack $79.99" + "Lip Mask FREE".
+  DISCOUNTS — two of them, and they must be different TYPES to combine:
+    · PRODUCT discount, Buy X Get Y: 2 balms -> 1 lip mask free
+    · ORDER discount, Amount off order, min qty 2: -$19.99
+  Shopify allows only one PRODUCT discount, but an order discount stacks with
+  it. Tick Combinations on both. Cost of the order discount: it blocks
+  order-level discount CODES, so the email codes stop working — accepted
+  2026-08-03 at 1 email conversion.
 
-  MODE B — "quantity" (DEFAULT, and the right one for Teemdrop)
-    Tier 2 adds quantity 2 of THIS product, a SKU fulfilment already maps, so
-    nothing new has to be created or mapped. The single discount goes to the
-    price break (2+ = $19.99 off). The lip mask is then made free WITHOUT a
-    discount, by pointing free_gift_product at a $0.00 "Free Gift" VARIANT of the
-    lip mask rather than the $20 one. A $0 line needs no discount to be free.
-    Cart reads: "Tallow Honey Balm x2" + "Lip Mask $0.00".
+  Buy-X-Get-Y also self-enforces: remove the balms and the mask re-prices to
+  $20 on its own. That is why the lip mask stays a REAL PRICED PRODUCT and is
+  never a $0.00 variant — a $0 line would be keepable after removing the balms.
 
-    NOTE: today the single discount is already spent — the lip mask auto-adds and
-    a Buy-X-Get-Y zeroes it. Moving to a $0.00 variant is what frees that
-    discount up for the price break.
+  BXGY does NOT auto-add the Y item. The JS puts the lip mask in the cart; the
+  discount only zeroes it once it is there.
+
+  The ORDER discount does not touch line prices, so the drawer would show the
+  balm line at $99.98 with the saving only at subtotal. render() re-attributes
+  the cart-level discount onto the balm line so it reads $99.98 struck -> $79.98.
 
   Gift-stack presentation modelled on the Gruns PDP (founder reference
   2026-08-03): every gift named, priced, shown as a card. Theirs hangs off a
@@ -420,18 +423,7 @@
   Actual account CPC is $3.17.
   ============================================================================
 {%- endcomment -%}
-{%- liquid
-  assign bundle_ok = false
-  if section.settings.show_bundle
-    if section.settings.t2_mode == 'quantity'
-      assign bundle_ok = true
-    elsif section.settings.t2_product != blank
-      assign bundle_ok = true
-    endif
-  endif
-  assign t2_var = section.settings.t2_product.selected_or_first_available_variant
--%}
-{%- if bundle_ok -%}
+{%- if section.settings.show_bundle -%}
     <div class="tlw-bundle" id="tlw-bundle" role="radiogroup" aria-label="Choose how many">
 
       {%- comment -%} ---- TIER 1 : this product, quantity 1, no gift ---- {%- endcomment -%}
@@ -476,7 +468,7 @@
       {%- comment -%} ---- TIER 2 : 2-pack product (mode A) or qty 2 (mode B) ---- {%- endcomment -%}
       <button type="button" class="tlw-tier tlw-tier--best{% if section.settings.default_tier != '1' %} is-on{% endif %}"
               role="radio" aria-checked="{% if section.settings.default_tier != '1' %}true{% else %}false{% endif %}"
-              {% if section.settings.t2_mode == 'quantity' %}data-variant="{{ v.id }}" data-qty="2"{% else %}data-variant="{{ t2_var.id }}" data-qty="1"{% endif %}
+              data-variant="{{ v.id }}" data-qty="2"
               data-gift="true"
               data-cta="{{ section.settings.t2_cta | default: section.settings.t2_price }}">
         {%- if section.settings.t2_badge != blank -%}<span class="tlw-tier-badge">{{ section.settings.t2_badge }}</span>{%- endif -%}
@@ -882,9 +874,29 @@
     if(cart.total_discount>0){ savEl.hidden=false; savEl.innerHTML = '<span>Savings</span><span>-'+money(cart.total_discount)+'</span>'; } else { savEl.hidden=true; }
     if(!cart.items || cart.items.length===0){ itemsEl.innerHTML=''; emptyEl.hidden=false; return; }
     emptyEl.hidden=true;
+
+    // An ORDER discount (our -$19.99 at qty 2) is not allocated to any line, so
+    // the balm line would render at its full $99.98 with the saving showing only
+    // at the subtotal. That reads as "the discount didn't apply" and kills
+    // cart -> checkout. Attribute the cart-level discount to the largest line so
+    // it renders as $99.98 struck through -> $79.98.
+    var cartDisc = 0;
+    (cart.cart_level_discount_applications || []).forEach(function(d){
+      cartDisc += (d.total_allocated_amount || 0);
+    });
+    var allocKey = null, allocMax = -1;
+    if(cartDisc > 0){
+      cart.items.forEach(function(it){
+        if(it.final_line_price > allocMax){ allocMax = it.final_line_price; allocKey = it.key; }
+      });
+      if(allocMax < cartDisc){ cartDisc = 0; } // never render a negative line
+    }
+
     itemsEl.innerHTML = cart.items.map(function(it){
-      var disc = it.original_line_price > it.final_line_price;
-      var isFree = it.final_line_price === 0 && it.original_line_price > 0;
+      var alloc = (cartDisc > 0 && it.key === allocKey) ? cartDisc : 0;
+      var shown = it.final_line_price - alloc;
+      var disc = it.original_line_price > shown;
+      var isFree = shown === 0 && it.original_line_price > 0;
       return '<div class="tlw-d-item" data-key="'+it.key+'">'
         + '<div class="tlw-d-img">'+(it.image?'<img src="'+img(it.image)+'" alt="" loading="lazy">':'')+'</div>'
         + '<div class="tlw-d-info"><div class="tlw-d-title">'+it.product_title+(isFree?' <span class="tlw-d-free-tag">FREE GIFT</span>':'')+'</div>'
@@ -892,7 +904,7 @@
         + '<div class="tlw-d-qty"><button type="button" class="tlw-d-dec" aria-label="Decrease">&minus;</button><span>'+it.quantity+'</span><button type="button" class="tlw-d-inc" aria-label="Increase">+</button></div></div>'
         + '<div class="tlw-d-prices">'
         + (disc?'<span class="tlw-d-was">'+money(it.original_line_price)+'</span>':'')
-        + '<span class="tlw-d-now">'+(isFree?'FREE':money(it.final_line_price))+'</span>'
+        + '<span class="tlw-d-now">'+(isFree?'FREE':money(shown))+'</span>'
         + '<button type="button" class="tlw-d-remove" aria-label="Remove"><svg class="icon"><use href="#tlw-trash"/></svg></button>'
         + '</div></div>';
     }).join('');
@@ -908,10 +920,20 @@
   // the free lip balm (everyone) and the scarcity gift-card token (first N customers)
   // without requiring a second manual click.
   var MAIN_FORM_IDS = ['tlw-form-hero','tlw-form-final','tlw-form-sticky']; // kept for reference, unreliable, see .tlw-main-flag below
+  // Resolved from the PRODUCT pickers, not hand-entered variant IDs.
+  // first_available_variant can be nil when a product is out of stock everywhere,
+  // which silently produced an empty list, so fall back to the first variant.
+  {%- liquid
+    assign fg = section.settings.free_gift_product
+    assign gt = section.settings.gift_token_product
+    assign fg_v = fg.first_available_variant | default: fg.variants.first
+    assign gt_v = gt.first_available_variant | default: gt.variants.first
+  -%}
   var GIFT_VARIANT_IDS = [
-    {{ section.settings.free_gift_product.selected_or_first_available_variant.id | default: '' | json }},
-    {{ section.settings.gift_token_product.selected_or_first_available_variant.id | default: '' | json }}
+    {{ fg_v.id | default: '' | json }},
+    {{ gt_v.id | default: '' | json }}
   ].filter(function(id){ return id !== null && id !== undefined && id !== ''; });
+  if(!GIFT_VARIANT_IDS.length){ console.warn('[free gift] no gift product set in the theme customizer — the lip mask will never auto-add'); }
 
   // ---- BUNDLE SELECTOR ------------------------------------------------------
   // Each tier carries data-variant and data-qty. Mode A (default): tier 2 points
@@ -1148,16 +1170,8 @@
     { "type": "text", "id": "review_author", "label": "Review author", "default": "Diana L., verified buyer" },
 
     { "type": "header", "content": "Bundle selector + free gifts" },
-    { "type": "paragraph", "content": "Shopify only lets ONE product discount apply, and Buy-X-Get-Y counts as one. Mode A: the 2-Pack is its own product at $79.99, so no price discount is needed and the single discount can make the lip mask free. Mode B: quantity 2 of this product, which spends the discount on the price break instead. Pick a mode below." },
+    { "type": "paragraph", "content": "Tier 2 adds quantity 2 of THIS product and auto-adds the lip mask. In Shopify create TWO automatic discounts of different types so they combine: (1) PRODUCT / Buy X Get Y — buy 2 balms, get 1 lip mask free; (2) ORDER / Amount off order, minimum quantity 2, -$19.99. Tick Combinations on both. Point 'Free gift product' at the REAL priced lip mask — never a $0.00 variant, or customers can remove the balms and keep it." },
     { "type": "checkbox", "id": "show_bundle", "label": "Show the bundle selector", "default": false },
-    { "type": "select", "id": "t2_mode", "label": "2-Pack behaviour",
-      "options": [
-        { "value": "product",  "label": "A: separate 2-Pack product (recommended)" },
-        { "value": "quantity", "label": "B: quantity 2 of this product" }
-      ],
-      "default": "quantity",
-      "info": "Mode B (default) is the fulfilment-safe one: quantity 2 of a SKU Teemdrop already maps, nothing new to create. It spends the single discount on the price break, so the lip mask must be a $0.00 VARIANT rather than a discounted one. Mode A needs a separate 2-Pack product, which would need its own Teemdrop mapping at quantity 2." },
-    { "type": "product", "id": "t2_product", "label": "2-Pack product (Mode A only)" },
     { "type": "select", "id": "default_tier", "label": "Pre-selected tier",
       "options": [ { "value": "1", "label": "Single" }, { "value": "2", "label": "2-Pack" } ],
       "default": "2" },
