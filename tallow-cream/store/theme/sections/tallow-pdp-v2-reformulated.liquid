@@ -773,7 +773,7 @@
     <img class="s-thumb" src="{{ product.featured_image | image_url: width: 120 }}" alt="{{ product.title | escape }}" loading="lazy" width="48" height="48">
   {%- endif -%}
   <div class="s-info">
-    <div class="p">{{ section.settings.sticky_line | default: 'Save $19.99 + 3 free gifts' }}</div>
+    <div class="p">{{ section.settings.sticky_line | default: 'Claim your gifts' }}</div>
     <div class="s-sub">{{ section.settings.sticky_note | default: '60-day guarantee' }}</div>
   </div>
   {%- comment -%}
@@ -785,7 +785,7 @@
   {%- if section.settings.show_bundle -%}
     <button type="button" class="btn" id="tlw-sticky-jump">
       <svg class="icon" style="width:16px;height:16px"><use href="#tlw-cart"/></svg>
-      {{ section.settings.sticky_btn | default: 'Claim Gifts' }}
+      {{ section.settings.sticky_btn | default: 'Choose Yours' }}
     </button>
   {%- else -%}
   {%- form 'product', product, id: 'tlw-form-sticky', class: 'pf' -%}
@@ -1337,8 +1337,8 @@
       "type": "text",
       "id": "sticky_line",
       "label": "Sticky bar - offer line",
-      "default": "Save $19.99 + 3 free gifts",
-      "info": "Keep it short. On a 390px phone the bar has room for roughly 26 characters here."
+      "default": "Claim your gifts",
+      "info": "Both tiers carry gifts, so this reads true on either. Keep it short -- on a 390px phone there is room for roughly 26 characters."
     },
     {
       "type": "text",
@@ -1351,7 +1351,7 @@
       "type": "text",
       "id": "sticky_btn",
       "label": "Sticky bar - button",
-      "default": "Claim Gifts",
+      "default": "Choose Yours",
       "info": "Two short words maximum, it must never wrap."
     },
     {
