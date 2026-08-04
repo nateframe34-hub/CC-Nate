@@ -191,7 +191,7 @@ A board needs a reason to have been written on. All four keep the peer-relay cha
 
 **Six failure modes check:** Relatability engine, correct for solution-aware ✅ · knife twisted via the rebought-twice admission ✅ · permission shift present ✅ · no character break ✅ · results modest ✅ · **angle does not fight her — it recruits her skepticism rather than opposing it** ✅
 
-**⚠️ Writer's note:** the image already carries "Four ingredients. Sixty days to send it back." Do not reproduce that phrasing verbatim in the close or the ad reads as a template filling itself in.
+**⚠️ Writer's note (updated 2026-08-04):** the image no longer carries any offer terms — the board ends on "Water leaves. Fat stays." Price, guarantee and shipping now appear ONLY in the primary text, which is where they belong and where B19C2 kept them. The close carries them alone.
 
 ---
 
@@ -219,7 +219,7 @@ The image *is* the diagram. A reader who clicks has already seen the mechanism a
 | 10 | **Transition to reader** | 80-120 | Completion of Thought: *you already know which column you have been buying from.* |
 | 11 | **Close** | 200-250 | Mirrors the hook: it sounded like nonsense. Identity payoff. Product named ~78%. $49.99, four ingredients, 60-day guarantee, free shipping. Loss framing. |
 
-**Compliance notes:** as C1. Additional — the whiteboard image already carries "Four ingredients. Sixty days to send it back," so the copy must not repeat that phrasing verbatim in the close or it reads as a template.
+**Compliance notes:** as C1. Additional — the board carries no offer terms as of 2026-08-04, so the close is the only place price, guarantee and shipping appear. No duplication risk remains.
 
 ---
 
