@@ -10,6 +10,37 @@
 
 ---
 
+## 🚨 KILLED 2026-08-04 — and the reason, for the record
+
+Founder call: the guarantee line at the bottom of the board made the creative
+read as an ad on sight. Correct, and the account's own control proves it.
+
+B19C2 — $11.35 CPA / 4.40x ROAS, the best unit economics we have ever posted —
+ends its board on "Water sits on top. Skin lets fat in. That's it." NO price,
+NO guarantee, NO offer terms anywhere on the board. All of that lived in the
+primary text and description.
+
+B33C3 added, in RED, slanted, "as though added afterwards":
+"Four ingredients. Sixty days to send it back."
+
+Why it breaks the frame: every other element on the board answers "why does
+this happen?" and could have been drawn by a teacher or a friend. A return
+window answers "how do I buy this safely?" — it is the one element whose
+author must be a seller. The styling made it worse: the only red handwriting
+in the bottom half, deliberately slanted to look added, in terminal position
+where ads put their offer. Eye path became headline -> diagram -> conclusion
+-> OFFER, which is ad grammar and is recognised in under a second.
+
+The prompt above has been corrected: the red line is removed and offer terms
+are added to the negative constraints.
+
+⚠️ The CTR data does NOT confirm this. 374 of 528 impressions landed in
+Facebook right column, leaving ~71 readable ones, so the creative was never
+fairly tested. The argument stands on craft and on the B19C2 control, not on
+performance.
+
+---
+
 ## Where this concept came from
 
 **Our own performance data.** B19C2 ran **$74.83 CPM** — against $318-531 for the jar-on-a-surface natives — and converted at **$11.35 CPA / 4.40x ROAS**, still the best unit economics in the account's history. The whiteboard format is the single cheapest delivery asset we own, and B32C1 posted **$39.26 CPM** on 7/30 running the same family.
@@ -69,8 +100,7 @@ RIGHT COLUMN — exactly five elements, no more:
 BOTTOM SUMMARY, centred across the full width of the board beneath both columns, in large bold BLACK handwriting, the largest text on the board apart from the headline, with a heavy double underline beneath it:
 "Water leaves. Fat stays."
 
-Directly beneath that, one line smaller, in bold RED handwriting, slightly slanted as though added afterwards:
-"Four ingredients. Sixty days to send it back."
+Nothing else. The board ends on that line.
 
 LIGHTING AND CAPTURE:
 Ordinary fluorescent or LED office ceiling light, flat and slightly cool, with the characteristic broad soft glare band across the glossy board surface in the upper left. Real handheld phone capture: the board is rotated approximately 2 degrees off level, the photographer's framing is very slightly off-centre with marginally more wall visible on the right side than the left, and there is a faint dark blur at the extreme lower left corner where a thumb has partly entered frame. Genuine phone camera quality with mild sensor noise in the darker areas.
@@ -78,7 +108,7 @@ Ordinary fluorescent or LED office ceiling light, flat and slightly cool, with t
 ASPECT RATIO: 4:5, 1080 x 1350 pixels.
 
 CRITICAL NEGATIVE CONSTRAINTS:
-NOT a digital vector diagram. NOT a clean infographic. NOT a designed graphic with flat colours and perfect shapes — this is marker on a real board, photographed. NO more than five drawn elements per column. NO clock icons, NO sun icons, NO smiley or frowning faces, NO checkmarks, NO X marks, NO percentages, NO extra sub-bullets, NO testimonial quotes, NO prices in dollars, NO star ratings. NO product, jar, bottle or hand anywhere in frame. NO brand name or logo on the board. NO people. NO text so small it would be unreadable on a phone. NO perfectly straight ruled lines — every stroke is freehand.
+NOT a digital vector diagram. NOT a clean infographic. NOT a designed graphic with flat colours and perfect shapes — this is marker on a real board, photographed. NO more than five drawn elements per column. NO clock icons, NO sun icons, NO smiley or frowning faces, NO checkmarks, NO X marks, NO percentages, NO extra sub-bullets, NO price, NO guarantee, NO return window, NO shipping terms, NO testimonial quotes, NO prices in dollars, NO star ratings. NO product, jar, bottle or hand anywhere in frame. NO brand name or logo on the board. NO people. NO text so small it would be unreadable on a phone. NO perfectly straight ruled lines — every stroke is freehand.
 ```
 
 **Aspect ratio:** 4:5 (1080 × 1350)

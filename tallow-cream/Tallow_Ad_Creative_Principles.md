@@ -200,3 +200,29 @@ When writing a new ad, pull the format from the most structurally similar existi
 - [ ] Confirmed the unique differentiation element vs existing converters
 - [ ] Reviewed compliance banned phrases
 - [ ] Selected an existing converter as the format template
+
+---
+
+## 🚨 OFFER TERMS NEVER GO IN THE IMAGE (added 2026-08-04)
+
+**No price, guarantee, return window, shipping terms, discount or CTA may appear
+inside any creative** — not as an overlay, and not as diegetic text on a
+whiteboard, document, screenshot or note. Those belong in the primary text,
+headline and description only.
+
+**The test:** could a person with nothing to sell have written this? A mechanism,
+a diagram, a symptom, a date, a price tag on a shelf someone is photographing —
+yes. A return window — never. Offer terms have exactly one possible author, and
+the reader identifies that author instantly.
+
+**Evidence.** B19C2 (whiteboard, $11.35 CPA / 4.40x ROAS, best unit economics in
+account history) ends its board on "Water sits on top. Skin lets fat in. That's
+it." No offer terms on the board; all of them in the primary text. B33C3 ran the
+same format and added "Four ingredients. Sixty days to send it back." in red,
+slanted, in terminal position — and read as an ad on sight. Founder call,
+2026-08-04.
+
+**This is compatible with the diegetic-text allowance.** Diegetic text is
+permitted and encouraged — text that belongs to an object in the frame. Offer
+terms belong to the transaction, not to the object, which is why they fail even
+when they are hand-lettered on a real surface.
