@@ -627,6 +627,38 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+### 2026-08-04 — B34 drafted through step 4 (skeletons)
+
+Three cells, all SA2 Angle 1, all holding B17C1's copy architecture fixed and
+varying ONLY the image class to an authored, high-scroll-stop surface.
+
+- **C1 The Reply** — iMessage thread, Elaine's answer + counter photo. Zero
+  structural cost: the exchange is already in B17C1 at line 53.
+- **C2 The Unsent Message** — iMessage with the message typed and NOT sent,
+  11:47pm, 20% battery. Same format as C1, different door (shame, not
+  discovery), which is the only justification for repeating a format.
+- **C3 Somebody Else's Counter** — Reddit post + top comment. The farthest
+  door and the only cell that moves the proven discovery vehicle from a
+  friend's house to a phone. Attribution relocates to a stranger's aunt;
+  Elaine returns later as an independent second source so the ad never rests
+  on a stranger alone.
+
+Rationale: attribution is the conversion lever (same mechanism sentence, 12
+purchases when quoted from a named person, 0 across ~1,002 impressions when
+asserted by the brand), and image/copy are independent variables we had been
+changing together. B17C1's own image is an authorless jar on a counter, which
+is why the whiteboard failures cannot be blamed on the image class.
+
+All three image prompts carry the no-offer-terms rule and a QC reject gate.
+
+**Next:** founder reviews skeletons, then step 5 — copy via the native-ads
+skill, 1,300-1,500 words matched across all three.
+
+**Delivery caveat recorded in the batch plan:** expect CPM to RISE to
+$150-400 now that right column and Audience Network are excluded. Judge on
+CPC at 300+ impressions or 3 days.
+
+
 ### 2026-08-03 — PDP restructured off Clarity scroll data
 
 **Removed the "Sound familiar?" band** and promoted the mechanism (water vs
