@@ -155,3 +155,173 @@ open.
 | 97-100 | **Close** — not the jar; the not-counting | Loss framing. |
 
 **Product named:** never. **Word target:** 1,300-1,500.
+
+---
+
+## Body Copy
+
+Somebody posted a photo of their bathroom counter at one in the morning and asked if this was a normal amount of stuff to own.
+
+I counted twenty-two things in the picture.
+
+Then I got up and went and counted mine.
+
+Fourteen. I sat on the edge of the tub for a while.
+
+========
+
+Cleanser. Toner. Vitamin C serum. Hyaluronic acid. A retinol I could barely use anymore because it burned. A day cream. A night cream. An eye cream. A lip treatment. A face oil I'd bought on Instagram. A brightening serum for dark spots. A neck cream. Two different lip balms.
+
+Fourteen. My skin was tight by noon every day. My foundation cracked by two.
+
+And somewhere in the last few years I had quietly stopped expecting any of them to do anything. I kept buying the next one anyway.
+
+That is the real low point. Not the fourteen things. The part where I had stopped believing the fifteenth would be different, and bought it anyway.
+
+========
+
+The thread had eight hundred and forty-seven replies.
+
+I read most of them. Women posting photos of their own counters. Fifteen. Nineteen. One woman had thirty-one and wrote that she had a system.
+
+Not one of them was stupid. Not one of them had been careless with money. They had all been doing exactly what they were told to do, one product at a time, for years.
+
+I had assumed for a long time that I was bad at this. Sitting there at one in the morning it stopped looking like a personal failing and started looking like something that had happened to all of us.
+
+========
+
+One comment near the top was four sentences long.
+
+*"My aunt is 76 and has used the same thing since 1987. Four ingredients. She bought the first one by accident at a farmers market. I finally asked her last summer and she looked at me like I'd asked why she breathes."*
+
+Nine hundred upvotes. No brand name. No link. She was not trying to convince anybody of anything, which is probably why I screenshotted it.
+
+Then I did nothing about it for two weeks.
+
+I want to be honest about that. I did not order anything. A stranger's aunt is not evidence. I put my phone down and went to sleep and bought a different serum eleven days later, because that is what I do.
+
+========
+
+What changed it was Elaine.
+
+Elaine is 56. We have been in the same book club since our daughters were in preschool together in 1998, and I have been in her guest bathroom a hundred times.
+
+I went up there at book club and the counter had one thing on it.
+
+Eighteen months ago it had seven. A toner. Two moisturizers. A face oil. A spot treatment. Two perfumes.
+
+Now it was one jar. Amber glass. Simple label.
+
+I stood there with my hands wet and stared at it for too long, and I thought about a comment I had screenshotted at one in the morning two weeks earlier.
+
+========
+
+I asked her while she was pouring wine in my kitchen three weeks later.
+
+She said she had thrown everything out about nine months before. Everything. The toner, the serums, the retinol. She kept one jar.
+
+She said she had asked her Aunt Winnie about it at her daughter Jess's wedding last June.
+
+Winnie is 76. She lives in Vermont. She keeps bees.
+
+Elaine cornered her in the kitchen during the reception and asked: *"What do you do to your face?"*
+
+Winnie said: *"I've been using the same thing since 1987. Four ingredients. I bought my first one by accident at a farmer's market in Brattleboro."*
+
+I want you to understand what that did to me, standing in my own kitchen. Two women, unrelated, in different states, who have never met. The same four ingredients. The same accidental farmers market. Since 1987.
+
+That is not a recommendation. That is the same fact arriving twice.
+
+========
+
+Here is what Elaine told me Winnie had told her. Read this part slowly.
+
+Skin makes its own oil. It always has. It is the reason you did not think about moisturizer at twenty-five. The oil was simply there.
+
+It slows down over the years. Most of us never notice the change, only what the change does.
+
+Every cream in Elaine's bathroom, every single one, had water as the first ingredient. She flipped each bottle over one afternoon and checked. Water. Glycerin second. Something unpronounceable third.
+
+Water evaporates in an hour. That is what water does. You put it on at 7am and by noon it is gone. That is why nothing was holding, for her or for me.
+
+Winnie told Elaine the fat in the balm is almost the same structure as the fat skin makes on its own. So it absorbs in instead of sitting on top. Skin treats it like its own oil. Because, roughly, it is.
+
+========
+
+I said: *"Tallow. Like cow fat."*
+
+She said: *"I know. I made the same face. Just try it."*
+
+I ordered one that night.
+
+========
+
+Day 1, I put it on before bed. It melted into my palm like warm honey. Thirty seconds total.
+
+Day 4, I woke up and touched my face before I opened my eyes. Soft. Not the thirty-minute fake soft that disappears in the shower. Underneath soft.
+
+Day 9, my coworker Sylvia asked me at lunch what I was doing different. We have worked two desks apart for eleven years. She never asks that kind of question. I told her nothing. She said *"something then."*
+
+Day 14, I put on foundation at 7am for an offsite. At 2pm it still sat flat. It had not cracked around my mouth. That had not happened in over a year.
+
+Day 21, I filled a grocery bag with six of the fourteen and put it in the garage. Not brave enough for the trash yet. The garage first.
+
+========
+
+Here is the part I did not expect.
+
+I used to read those threads the way some people read the news. Every night. What worked for someone, what ruined someone, the before photos, the routines with nine steps in them. I had a notes app full of things to try.
+
+About a month in I realised I had not opened it in a while.
+
+I went looking for the list and the last entry was from before I ordered the jar. I had not added anything since. I had not even noticed I had stopped.
+
+That was the thing I wanted back. Not the skin. The not-reading.
+
+========
+
+Sylvia stopped at my desk at the end of week five.
+
+She said: *"Okay, I need to know. My cabinet looks like yours used to. What did you switch to?"*
+
+I told her. The thread. Elaine. Winnie. The four ingredients.
+
+She listened all the way through. Then she said: *"My aunt's always had beautiful skin. Like she never fussed. I wonder if she's been doing something like this her whole life and never told anyone."*
+
+She ordered one that afternoon.
+
+========
+
+Somebody posted a counter photo in that same group about a month ago. Nineteen products. Same question. Is this normal.
+
+I wrote four sentences underneath it about a friend of mine who threw everything out and kept one jar.
+
+I did not name a brand. I was not trying to convince her of anything.
+
+I just remembered being the woman reading it at one in the morning.
+
+========
+
+I am not telling you a jar of cow fat will fix your life. That sounds like an ad. This is not an ad. I am telling you what a stranger said about her aunt, and what Elaine had on her counter, and what mine looks like now.
+
+Four ingredients. $49.99. Free shipping. 60-day money-back guarantee. If it does nothing in six weeks you email them and you get every dollar back.
+
+Link is below if you want it.
+
+Elaine is still on it. Sylvia ordered one after I told her. My notes app has not had a new entry in months.
+
+What I want you to have is not the jar. It is the part where you stop counting. Where you are not sitting on the edge of the tub at one in the morning doing arithmetic about your own bathroom.
+
+I'd stopped believing that stopping was possible.
+
+Now I've stopped.
+
+---
+
+## Meta Headline
+
+I counted twenty-two in the photo. Then I counted mine.
+
+## Meta Description
+
+4 ingredients. 60-day refund.

@@ -145,3 +145,171 @@ detail chooses a year. No product, no benefit, no category.
 | 97-100 | **Close** — not the jar; the not-having-to-wonder | Loss framing. Names the lost belief. |
 
 **Product named:** never. **Word target:** 1,300-1,500.
+
+---
+
+## Body Copy
+
+I typed this message four times over about a year and deleted it every time.
+
+*"Random question and please don't think I'm weird. What's the one jar in your bathroom?"*
+
+I could not make myself send it.
+
+I'm 54. Elaine is 56. Our daughters were in preschool together and I have been in that bathroom a hundred times.
+
+Eighteen months ago her counter had seven things on it. A toner. Two moisturizers. A face oil. A spot treatment. Two perfumes.
+
+Now there is one jar. Amber glass. Simple label.
+
+========
+
+Here is why I could not send it.
+
+Sending it means admitting I had been looking. That I had stood at her sink with my hands wet and counted what was gone. That I had been quietly measuring her face against mine at a book club we have both been in since 1998.
+
+You do not say that to someone. You just notice it, and then you go home.
+
+========
+
+I went home and counted what was on my own counter.
+
+Fourteen things.
+
+Cleanser. Toner. Vitamin C serum. Hyaluronic acid. A retinol I could barely use anymore because it burned. A day cream. A night cream. An eye cream. A lip treatment. A face oil I'd bought on Instagram. A brightening serum for dark spots. A neck cream. Two different lip balms.
+
+Fourteen. My skin was tight by noon every day. My foundation cracked by two.
+
+And somewhere in the last few years I had quietly stopped expecting any of them to work. I kept buying the next one anyway, the way you keep paying for something you forgot you signed up for.
+
+That is the real low point. Not the fourteen things. The part where I had stopped believing the fifteenth would be any different, and bought it anyway.
+
+Nobody ever connects what is happening on their face to what changed underneath. You assume you are choosing wrong. So you go and choose again.
+
+========
+
+I sent it on a Tuesday at 11:47pm, a year after I first typed it, with my phone on twenty percent.
+
+She replied in about four minutes.
+
+*"I wondered when you'd ask."*
+
+Not "what jar." Not "what do you mean." She knew exactly which one, which meant she had known I was looking the whole time, and had been kind enough to wait.
+
+========
+
+She came early to book club at my house that Saturday to help me set out food, and I asked her properly while she was pouring herself wine.
+
+She said she had thrown everything out about nine months earlier. Everything. The toner, the serums, the retinol. She kept one jar.
+
+She said she had asked her Aunt Winnie about it at her daughter Jess's wedding last June.
+
+Winnie is 76. She lives in Vermont. She keeps bees and reads more than anyone Elaine knows.
+
+Elaine cornered her in the kitchen during the reception and asked: *"What do you do to your face?"*
+
+Winnie said: *"I've been using the same thing since 1987. Four ingredients. I bought my first one by accident at a farmer's market in Brattleboro."*
+
+Elaine had been watching Winnie's skin at family things for a decade, trying to work out what she was doing.
+
+Turns out it was one jar.
+
+========
+
+Here is what Elaine told me Winnie had told her. Read this part slowly.
+
+Skin makes its own oil. It always has. It is the reason you did not think about moisturizer at twenty-five. The oil was simply there.
+
+It slows down over the years. Most of us never notice the change, only what the change does.
+
+Every cream in Elaine's bathroom, every single one, had water as the first ingredient. She flipped each bottle over one afternoon and checked. Water. Glycerin second. Something unpronounceable third.
+
+Water evaporates in an hour. That is what water does. You put it on at 7am and by noon it is gone. That is why nothing was holding, for her or for me.
+
+Winnie told Elaine the fat in the balm is almost the same structure as the fat skin makes on its own. So it absorbs in instead of sitting on top. Skin treats it like its own oil. Because, roughly, it is.
+
+========
+
+I said: *"Tallow. Like cow fat."*
+
+She said: *"I know. I made the same face. Just try it."*
+
+I ordered one that night after everyone left.
+
+========
+
+Day 1, I put it on before bed. It melted into my palm like warm honey. Thirty seconds total.
+
+Day 4, I woke up and touched my face before I opened my eyes. Soft. Not the thirty-minute fake soft that disappears in the shower. Underneath soft.
+
+Day 9, my coworker Sylvia asked me at lunch what I was doing different. We have worked two desks apart for eleven years. She never asks that kind of question. I told her nothing. She said *"something then."*
+
+Day 14, I put on foundation at 7am for an offsite. At 2pm it still sat flat. It had not cracked around my mouth. That had not happened in over a year.
+
+Day 21, I filled a grocery bag with six of the fourteen and put it in the garage. Not brave enough for the trash yet. The garage first.
+
+========
+
+Here is the part I did not expect.
+
+I used to look at other women's skin and run a small calculation. In line at the pharmacy. Across a conference table. At my own book club. What is she using. What does she know. What did I miss.
+
+I had done it so long I did not experience it as a thought. It was just something my day contained.
+
+About a month in, I was standing behind a woman at the post office and realised I had not done it. Not to her, not that day, not to anyone that week.
+
+I went looking for the feeling and it was not there.
+
+That was the thing I wanted back. Not the soft skin. The not-wondering.
+
+========
+
+Sylvia stopped at my desk at the end of week five.
+
+She said: *"Okay, I need to know. My cabinet looks like yours used to. What did you switch to?"*
+
+I told her. Elaine. Winnie. The jar. The four ingredients.
+
+She listened all the way through. Then she said: *"My aunt's always had beautiful skin. Like she never fussed. I wonder if she's been doing something like this her whole life and never told anyone."*
+
+She ordered one that afternoon.
+
+========
+
+Three weeks ago a woman I barely know stopped me after a school fundraising thing. Someone's mother. We have said maybe forty words to each other in ten years.
+
+She said: *"Can I ask you something and it's going to sound strange."*
+
+I said yes.
+
+She said: *"What are you using?"*
+
+And I stood there for a second, because I knew exactly what that had cost her to say. I had typed the same question four times over a year and deleted it every time.
+
+I told her. All of it. She did not have to ask twice.
+
+========
+
+I am not telling you a jar of cow fat will fix your life. That sounds like an ad. This is not an ad. I am telling you what was on Elaine's counter, and what Winnie told her at a wedding, and what it took me a year to type.
+
+Four ingredients. $49.99. Free shipping. 60-day money-back guarantee. If it does nothing in six weeks you email them and you get every dollar back.
+
+Link is below if you want it.
+
+Elaine is still on it. Sylvia ordered one after I told her. So did the woman from the fundraiser.
+
+What I want you to have is not the jar. It is the part where you stop running the calculation. Where you are standing behind someone in a line and you are just standing there.
+
+I'd stopped believing that was possible.
+
+It turns out it just takes one thing that works.
+
+---
+
+## Meta Headline
+
+It took me a year to ask her.
+
+## Meta Description
+
+4 ingredients. 60-day refund.
