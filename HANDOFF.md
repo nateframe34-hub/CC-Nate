@@ -627,6 +627,42 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+### 2026-08-04 — B35 written: SA9 The Actives Casualty, first lead test
+
+Five cells: 3 native TOF, 1 MOF, 1 BOF. Angle 1 ("you don't have to choose
+between the treatment and comfortable skin").
+
+**Why the pivot.** Founder strategic read: SA2's problem is real but not
+urgent, which matches the account's funnel signature (good CTR, poor
+conversion, zero repeats, price sensitivity = interest without urgency). SA9
+has been flagged RECOMMENDED NEXT LEAD TEST in Brand_Mastery for weeks and
+was never run; B29-B34 all went to SA2/SA11. Primary emotion is fear, and it
+is precise: "I will have to quit the thing that's finally working."
+
+**Sophistication reframe.** The tallow market is Stage 4-5 and saturated, but
+tallow-as-the-layer-over-an-active is Stage 2-3. We are not making a new
+claim about the product, we are making a new claim about when to use it.
+
+**Format steer.** B34's text-message cells were killed on CTR/CPC; the Reddit
+cell performed with high CTR. All three natives therefore use forum-screenshot
+images, varied by surface (Reddit post / comment thread / Facebook group post).
+Flagged in the batch plan as one-day directional data, not a proven finding.
+
+**Price constraint handled structurally.** Research confirms we are "a $49.99
+answer to a $12 question" against CeraVe/Vaseline/Aquaphor, defensible only to
+someone already on their sixth purchase. Every native establishes the failed
+drawer BEFORE price appears (offer lands at 86-91%). The BOF inverts it and
+leads with the objection as arithmetic.
+
+**Open decision:** the no-offer-terms-in-image rule was derived from native
+evidence. C5 is a BOF Classy Offer, a format that conventionally carries price
+on the creative. Written without offer terms per the rule as written — founder
+to confirm whether BOF is exempt.
+
+**Next:** founder review, then launch. Placements already narrowed to Facebook
+Feed / profile feed / Instagram feed / profile feed.
+
+
 ### 2026-08-04 — B34 drafted through step 4 (skeletons)
 
 Three cells, all SA2 Angle 1, all holding B17C1's copy architecture fixed and
