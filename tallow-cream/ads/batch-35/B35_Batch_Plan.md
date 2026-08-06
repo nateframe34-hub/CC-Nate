@@ -47,6 +47,11 @@ only the image class would need swapping.
 | **C4** | MOF | Dismissed-then-vindicated (Camouflage Ad #3) | Reddit post, question form |
 | **C5** | BOF | Classy Offer — price answered directly | Product, plain |
 
+**C6 (Avatar Call-Out BOF) was written and scrapped 2026-08-04.** The format's
+second pillar is a real customer review, and we have none. Writing one would be
+fabricating a customer. The same gap rules out a social-proof landing page,
+which is the format's fourth pillar. Revisit if reviews are ever collected.
+
 ## Angle
 
 **SA9 Angle 1 — "You don't have to choose between the treatment and comfortable
