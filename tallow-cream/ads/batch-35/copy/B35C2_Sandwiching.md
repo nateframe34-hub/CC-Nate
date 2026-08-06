@@ -3,7 +3,7 @@
 **Sub-Avatar:** SA9 The Actives Casualty · **Angle:** SA9 Angle 1 + Angle 3 (slugging without petroleum)
 **Awareness:** Solution-Aware · **Emotion:** fear, entered through effort
 **Character:** Peer + Skeptic Convert · **Door:** *I was already doing the protocol and it still wasn't working*
-**Image surface:** Reddit comment thread
+**Image surface:** First-person POV photograph — the midnight label check
 
 ---
 
@@ -23,56 +23,57 @@ correcting it.
 
 ## Image Prompt
 
+**Type:** First-person POV photograph — the midnight label check.
+**Why this and not a screenshot:** this is the story's turning point, it is
+genuinely visual, and it gives the batch a different silhouette in feed so the
+three natives are not competing for the same visual slot. It also carries
+diegetic text (real ingredient panels) without a single added overlay.
+
 ```
-A pixel-accurate recreation of a mobile Reddit COMMENT THREAD rendered in DARK
-MODE, captured as a phone screenshot, filling the frame edge to edge with no
-border, no drop shadow, no device mockup. Reddit's true dark charcoal (#1A1A1B).
-Crisp, correctly aligned, real mobile app scale. This is a thread of replies, not
-a post page — the original post is only partially visible at the very top, cut
-off.
+An ultra-realistic iPhone photograph taken from a woman's POV standing at her own
+bathroom sink late at night, looking down at the counter. Shot slightly from
+above and to the left, the way you photograph something quickly with one hand.
 
-AT THE VERY TOP, cut off mid-line so it reads as scrolled: the tail of a post
-title in white ~15px: "...still peeling after 5 months, what do you put on top"
-and beneath it a muted grey row: upvote arrow, "876", downvote arrow,
-speech-bubble "412".
+On the counter, FOUR skincare containers have been TURNED OVER onto their backs
+and sides so their ingredient panels face upward — this is the whole point of the
+image and must read instantly: someone has just gone through everything they own
+and flipped it over to check.
 
-Then a thin divider and THREE COMMENTS, each with the standard thin vertical
-thread line at the left, correct Reddit indentation:
+The four, arranged messily and not styled: a large white tub of thick cream lying
+on its side with the lid off beside it, a squat jar of petroleum jelly upside
+down, a small glass dropper bottle of oil on its back, and a small expensive-
+looking pot no bigger than a thumb turned over. Real commercial packaging with
+real labels fully intact and legible where they naturally fall — the small
+ingredient print visible as genuine dense text even though it is too small to read
+at a glance. Some labels partly obscured by the other items.
 
-COMMENT 1, top level:
-- Header, muted grey ~11px: "u/bramblewick · 14h"
-- Body, white ~14px, two lines: "i'm currently sandwiching! moisturiser, then
-  the thing, then moisturiser over the top. helped a bit but honestly not enough"
-- Row beneath: upvote, "1.4k", downvote, "Reply"
+Her hand is just visible at the bottom edge of the frame, resting on the counter
+edge beside them. A phone lies face-down at the far edge of the counter.
 
-COMMENT 2, indented one level under it:
-- Header: "u/margueriteb · 12h"
-- Body, four lines: "Turn over whatever you're putting on top and read the first
-  ingredient. If it's water it's gone by 2am and you're sleeping on nothing.
-  Took me nine years to work that out. The top layer has to be a fat or there's
-  no point doing the sandwich at all."
-- Row beneath: upvote, "2.2k", downvote, "Reply"
+Lighting: a single overhead bathroom light, slightly cool and unflattering, with
+the surrounding room noticeably darker — it reads as late at night rather than
+daytime. Faint water marks on the stone counter. A crumpled hand towel at the
+edge of frame.
 
-COMMENT 3, indented one further, partially cut off at the bottom of the frame:
-- Header: "u/bramblewick · 11h"
-- Body, first line only, cut mid-sentence: "wait i just went and checked all
-  four of mine and every single one says"
+The photograph is slightly crooked and taken quickly. Real iPhone quality, mild
+sensor noise in the darker corners. Domestic and lived-in. NOT a flatlay, NOT
+styled, NOT arranged in a row, NOT a product shot.
 
-TREATMENT: crisp and correctly rendered like a genuine screenshot — NOT
-photographed off a screen, NO moire, NO glare, NO hand, NO reflections. Flat and
-square to frame, native resolution.
-
-CRITICAL NEGATIVE CONSTRAINTS: NO price. NO guarantee, refund, returns or
-shipping text. NO discount. NO call to action. NO product visible. NO brand names
-of any kind. NO prescription or medication name anywhere. NO added overlays,
-badges, arrows, circles, highlights or captions. NO watermark.
+CRITICAL NEGATIVE CONSTRAINTS: NO price anywhere. NO guarantee, refund, returns
+or shipping text. NO discount. NO call to action. NO added overlays, badges,
+arrows, circles, highlights or captions of ANY kind. NO amber jar and NO tallow
+product anywhere in frame — this counter holds only the things that failed. NO
+prescription or medication packaging visible. NO faces. Real branding on the
+products MUST be left intact and must NOT be blurred, removed or de-labelled.
 
 ASPECT RATIO: 4:5, 1080 x 1350.
 ```
 
-**QC reject gate — regenerate if:** any price/guarantee/shipping text · any
-medication or brand name legible · a product in frame · any overlay or arrow ·
-the third comment is fully visible rather than cut off · photographed off a screen.
+**QC reject gate — regenerate if:** the containers are upright rather than turned
+over (the whole image fails) · any price/guarantee/shipping text appears · an
+amber jar or our product is visible · branding has been blurred or removed · any
+medication packaging is visible · the counter looks styled, arranged or lit like
+daytime · any overlay, arrow or caption has been added.
 
 ---
 
@@ -80,7 +81,7 @@ the third comment is fully visible rather than cut off · photographed off a scr
 
 | % | Beat | Job |
 |---|---|---|
-| 0-6 | Hook — she was already sandwiching, using their word | Enters on ego-tied behaviour. Flatters effort, does not correct her. |
+| 0-6 | Hook — she was already sandwiching, using their word | Enters on ego-tied behaviour. Flatters effort, does not correct her. The image shows the beat at 26-32%, so the reader arrives at it already primed. |
 | 6-16 | Five months of doing it properly and it still failing | The specific despair of having followed the instructions. |
 | 16-26 | The four things she sandwiched with, all failed | **Price defence before price exists.** Sixth purchase, not first. |
 | 26-32 | Permission shift — the protocol was right, one layer was wrong | Releases shame while preserving her competence. Unique to this cell. |

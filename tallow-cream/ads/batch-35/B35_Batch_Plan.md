@@ -29,9 +29,15 @@ about the product — we are making a new claim about *when to use it*.
 ## Format decision (2026-08-04)
 
 B34's text-message cells were killed on poor CTR and CPC. B34C3, the Reddit
-screenshot, performed with high CTR. **All three natives here therefore use
-forum-screenshot images**, varied by surface (Reddit post / Reddit comment
-thread / Facebook group post) rather than by format class.
+screenshot, performed with high CTR. **Two of three natives therefore use forum-screenshot
+images** (C1 Reddit post, C3 Facebook group post).
+
+**C2 was deliberately swapped to a first-person POV photograph** (founder call,
+2026-08-04). Three text-screenshot creatives occupy the same visual slot at feed
+scroll speed and would compete rather than differentiate, and staking all three
+cells on one day of small-spend B34 data makes the batch fragile if that read
+reverses. Two forum cells lean into the signal; one photograph hedges it and
+gives the batch a second silhouette.
 
 ⚠️ Early data, one day, small spend. Treat as a directional steer, not a proven
 finding. If the Reddit read reverses, the copy in these cells is unaffected —
@@ -42,7 +48,7 @@ only the image class would need swapping.
 | Cell | Type | Door | Image surface |
 |---|---|---|---|
 | **C1** | Native TOF | Three days from quitting | Reddit post |
-| **C2** | Native TOF | Sandwiching — enters on the behaviour they already do | Reddit comment thread |
+| **C2** | Native TOF | Sandwiching — enters on the behaviour they already do | **POV photo — the midnight label check** |
 | **C3** | Native TOF | The three zones | Facebook group post |
 | **C4** | MOF | Dismissed-then-vindicated (Camouflage Ad #3) | Reddit post, question form |
 | **C5** | BOF | Classy Offer — price answered directly | Product, plain |
