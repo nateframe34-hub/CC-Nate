@@ -4,7 +4,24 @@
 
 ## Active Focus
 
-**Tallow Cream is the active brand.** All current paid advertising, BM warmup, ad creative work, and session activity is on tallow. Baseline NMN exists in this repo but is dormant — no active campaigns or recent work. If a request is ambiguous, assume tallow.
+> ## ⛔ TALLOW CREAM DISCONTINUED 2026-08-04
+>
+> Founder call after ~4 months, ~$2,000 spend, ~26 purchases and zero
+> profitable weeks. The best-ever ad (B17C1) landed at roughly breakeven even
+> with the bundle, and CPC never moved across ten formats and four months.
+>
+> **Read `tallow-cream/POST_MORTEM.md` before starting any new product.** It
+> carries the transferable findings — attribution as the conversion lever, the
+> image/copy independence rule, the placement fault, and a product-selection
+> checklist including the Meta Ad Library category-age check.
+>
+> **There is no active product right now.** Everything below about tallow is
+> historical. Do not start new tallow ad work. The repo is kept as reference for
+> the methodology, which is product-agnostic and reusable.
+
+## Historical context — Tallow Cream (DISCONTINUED)
+
+**Tallow Cream was the active brand until 2026-08-04.** All current paid advertising, BM warmup, ad creative work, and session activity is on tallow. Baseline NMN exists in this repo but is dormant — no active campaigns or recent work. If a request is ambiguous, assume tallow.
 
 ## ⚠️ MANDATORY READ FOR ANY TALLOW AD WORK
 

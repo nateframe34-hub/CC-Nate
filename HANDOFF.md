@@ -627,6 +627,34 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+### 2026-08-04 — TALLOW CREAM DISCONTINUED
+
+Founder call. ~4 months, ~$2,000 spend, ~26 purchases, zero profitable weeks,
+zero repeat purchases. Trigger: after the converters were turned off the
+account stopped producing even add-to-carts, and the converters themselves
+were structurally unprofitable.
+
+The arithmetic supported it well before today. B17C1, the best ad the account
+ever produced, ran ~$58 CPA against $41.52 contribution on a single and
+$60.71 on the 2-pack — roughly breakeven at best, and only if every buyer
+took the bundle. Blended was $92.69 CPA against $41.52. CPC never moved from
+$3.09-4.75 across ten formats, two BMs and four months.
+
+**`tallow-cream/POST_MORTEM.md` written.** Covers why it failed (urgency,
+Stage 4-5 sophistication mis-read, late category entry, Amazon undercut, the
+compliant-angles-are-the-low-urgency-ones trap), what transfers (attribution
+as the conversion lever, image/copy independence, the right-column placement
+fault, offer-terms-in-creative, never naming a doubt in a headline), process
+failures (SA9 flagged and never run for weeks, too many cells on too little
+budget, judging on CPM), and a product-selection checklist including the Meta
+Ad Library category-age check.
+
+`CLAUDE.md` updated — there is no active product. B35 (SA9) was written and
+never launched; it stays in the repo as an example of the method.
+
+**Next:** product selection against the checklist in the post-mortem.
+
+
 ### 2026-08-04 — B35 written: SA9 The Actives Casualty, first lead test
 
 Five cells: 3 native TOF, 1 MOF, 1 BOF. Angle 1 ("you don't have to choose
