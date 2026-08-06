@@ -107,10 +107,51 @@ price/guarantee/shipping text appears · any badge, seal, star rating or CTA
 button appears · any medication is named or shown · the image reads as a candid
 photograph rather than a produced static.
 
-**Headline alternates** (same format, swap the top third):
-- "NOSE CREASES. LIP CORNERS. EYE CORNERS." — highest recognition specificity
+## Headline ladder — founder call 2026-08-04
+
+Founder direction: name the avatar explicitly, accepting compliance risk.
+Recorded here as a graduated ladder so the exposure taken is deliberate.
+
+**TIER 1 — low exposure (as written above)**
+- "TOLD NOT TO PUT ANYTHING ON IT?"
+- "NOSE CREASES. LIP CORNERS. EYE CORNERS." — highest recognition specificity in
+  the whole avatar; names the experience so precisely it cannot be faked
 - "STILL PEELING IN WEEK NINETEEN?"
-- "SCARED TO PUT ANYTHING ON IT?"
+
+**TIER 2 — moderate exposure, RECOMMENDED for the named version**
+- "ON RETINOL AND STILL PEELING?"
+- "RETINOL WORKING. FACE PEELING."
+- "IF RETINOL IS WORKING AND YOUR FACE IS PEELING"
+
+Retinol is over-the-counter, so the call-out does NOT imply a medical situation
+the way a prescription name does. The 2026-07-29 research confirms a large share
+of this avatar is on it for skin texture rather than a condition, so this names
+a real and large part of the audience. This is the sweet spot: a specific,
+named call-out without the Personal Attributes surface.
+
+**TIER 3 — high exposure**
+- "STILL PEELING FROM TRETINOIN?"
+- "TRET WEEK NINETEEN?"
+
+⚠️ **What the risk actually is, stated once so the decision is informed.** This
+is not primarily a health-claims question. Naming a prescription implies
+knowledge of the reader's medical situation, which is what Meta's Personal
+Attributes policy prohibits. That policy is enforced more aggressively than a
+routine disapproval and escalates to account level rather than ad level. The BM
+is currently mid-warmup after the previous one was banned, so the thing at risk
+is the asset, not the impression.
+
+**If Tier 3 is run, run it on ONE cell only.** C6 is the right one — it is a
+single BOF, it is already blocked pending a real review, and a strike on it
+costs nothing that is currently live. Never put a Tier 3 call-out on all six.
+
+**Contained-test protocol for Tier 3:**
+1. C6 only. C1-C5 stay at Tier 1.
+2. Launch it alone, not alongside a batch push, so a review flag is
+   attributable.
+3. If it is rejected, do not appeal and do not resubmit a variant — accept it,
+   drop to Tier 2, and move on. Repeated resubmission of rejected creative is
+   what escalates from ad-level to account-level.
 
 ---
 
