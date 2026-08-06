@@ -3,6 +3,7 @@
 **Sub-Avatar:** SA9 The Actives Casualty · **Angle:** SA9 Angle 1
 **Format:** Avatar Call-Out (`origins-training/swipe-file/avatar-call-out.jpg`)
 **Objection targeted:** **the sting fear** — NOT price. C5 handles price.
+**Call-out tier:** TIER 2 — "ON RETINOL AND STILL PEELING?" (founder call 2026-08-04)
 **Length:** ~330 words
 
 ---
@@ -71,10 +72,10 @@ off-white background (#F7F4EE). 4:5, 1080 x 1350.
 TOP THIRD — the call-out headline, centred, in very large heavy black
 condensed sans-serif capitals, filling the width with tight line spacing, three
 lines:
-"TOLD NOT TO PUT
-ANYTHING
-ON IT?"
-The word "ANYTHING" is set noticeably larger than the other two lines. No emoji.
+"ON RETINOL
+AND STILL
+PEELING?"
+The word "PEELING" is set noticeably larger than the other two lines. No emoji.
 No decorative elements around it.
 
 MIDDLE THIRD — a review screenshot rendered exactly as a messaging app renders
@@ -112,13 +113,13 @@ photograph rather than a produced static.
 Founder direction: name the avatar explicitly, accepting compliance risk.
 Recorded here as a graduated ladder so the exposure taken is deliberate.
 
-**TIER 1 — low exposure (as written above)**
+**TIER 1 — low exposure (superseded; kept as fallback if Tier 2 is rejected)**
 - "TOLD NOT TO PUT ANYTHING ON IT?"
 - "NOSE CREASES. LIP CORNERS. EYE CORNERS." — highest recognition specificity in
   the whole avatar; names the experience so precisely it cannot be faked
 - "STILL PEELING IN WEEK NINETEEN?"
 
-**TIER 2 — moderate exposure, RECOMMENDED for the named version**
+**TIER 2 — moderate exposure · ✅ SELECTED, founder call 2026-08-04**
 - "ON RETINOL AND STILL PEELING?"
 - "RETINOL WORKING. FACE PEELING."
 - "IF RETINOL IS WORKING AND YOUR FACE IS PEELING"
@@ -157,9 +158,9 @@ costs nothing that is currently live. Never put a Tier 3 call-out on all six.
 
 ## Body Copy
 
-If you were told not to put anything on it, this is the part nobody explained.
+If it's working and your face is still peeling, this is the part nobody explains.
 
-You were told that for a reason. Most of what you would have reached for would have made it worse, and whoever told you that was trying to protect you.
+You were probably told not to put anything on top of it. That advice was given for a reason — most of what you'd reach for would make it worse, and whoever said it was trying to protect you.
 
 But "don't put anything on it" and "there is nothing that helps" are not the same sentence, and most people walk out having heard the second one.
 
@@ -167,9 +168,9 @@ Here is the actual problem. Almost everything sold for this has water as the fir
 
 A fat has nothing in it to leave. It is still there at six in the morning.
 
-It goes on after, not instead. You change nothing you are already doing. You let the other thing dry down properly, then put this over the top. One extra step, nothing removed, nothing to stop.
+It goes on after, not instead. You change nothing about what you already do. Put your retinol on, let it dry down properly, then this over the top. One extra step. Nothing removed, nothing to stop.
 
-And on the question you are actually asking: four ingredients. Tallow, olive oil, raw honey, essential oils. No alcohol, no acids, no fragrance blends, nothing in it that stings.
+And on the question you are actually asking: four ingredients. Tallow, olive oil, raw honey, essential oils. No alcohol, no acids, no fragrance blends. Nothing in it that stings.
 
 Four ingredients. $49.99. Free shipping. 60-day money-back guarantee.
 
@@ -181,7 +182,7 @@ You have already spent more than this finding out what does not work.
 
 ## Meta Headline
 
-Told not to put anything on it?
+On retinol and still peeling?
 
 ## Meta Description
 
