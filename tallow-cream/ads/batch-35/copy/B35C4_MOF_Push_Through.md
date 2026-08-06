@@ -92,9 +92,9 @@ photographed off a screen.
 
 ## Body Copy
 
-I asked her what I could put on it and she said don't put anything on it.
+I asked my dermatologist what I could put on it and she said don't put anything on it.
 
-Push through. It settles down around week twelve for most people.
+Push through the peeling. Retinoids settle down around week twelve for most people.
 
 I was in week nineteen.
 

@@ -84,7 +84,7 @@ is photographed off a screen.
 
 I had the tube in my hand over the bathroom bin on a Tuesday night.
 
-Ten months in. My nose was raw. The corners of my mouth had split again that morning and I had put a plaster on one of them like a child.
+Ten months in. My nose was raw and peeling. The corners of my mouth had split again that morning and I had put a plaster on one of them like a child.
 
 I stood there for a long time with my arm out.
 
@@ -92,7 +92,9 @@ I did not throw it away. But I want to be honest that it was close, and that it 
 
 ========
 
-I have quit this four times in ten years.
+It is a prescription retinoid. My dermatologist wrote it for me the first time ten years ago.
+
+I have quit it four times since.
 
 Every single time for the same reason. And not once because it stopped working. That is the part that made me feel insane.
 
@@ -122,11 +124,11 @@ It is not that. Nobody had told me what was actually happening, and it turns out
 
 Marguerite runs the front desk at my dentist. She is 61. We have been talking about nothing twice a year for six years.
 
-I was in for a cleaning in February with a flake on my chin I had tried to cover and given up on. She looked at me for slightly too long and said, gently, "Are you on something at night?"
+I was in for a cleaning in February with a flake on my chin I had tried to cover and given up on. She looked at me for slightly too long and said, gently, "Are you on a retinoid?"
 
-I said yes.
+I said yes. Ten months.
 
-She said, "Nine years for me."
+She said, "Nine years for me. Same prescription."
 
 I said, "Nine years?"
 

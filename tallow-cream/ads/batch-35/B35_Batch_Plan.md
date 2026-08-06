@@ -86,6 +86,29 @@ Non-negotiable, from `Brand_Mastery.md` SA9 and the 2026-07-29 findings.
    or fine lines, no "moisturizer/serum/routine" for our product.
 5. **Use their vocabulary, not ours:** "sandwiching", "slugging".
 
+## 🎯 Targeting lexicon — added 2026-08-04
+
+Post-Andromeda the creative determines the audience, so vague copy gives Meta
+nothing to target on. "The thing I use at night" is safe and useless.
+
+**Every cell must carry this cluster:** retinoid · retinol · dermatologist ·
+prescription · peeling · flaking · purge · dry down · sandwiching · slugging.
+Together these give an unmistakable topical fingerprint.
+
+**The line we hold:** no named condition, in any cell. Adding one buys very
+little targeting signal on top of the cluster above and costs a great deal of
+exposure — it is both a named medical condition and, in second person, the
+Personal Attributes surface.
+
+**The distinction that makes the rest safe:** a NARRATOR describing her own
+treatment is not the same as an ad asserting the reader's. "My dermatologist
+put me on a retinoid" is a first-person statement about the speaker. "Dealing
+with acne?" is an assertion about the reader. First person is materially lower
+risk, and every mention in this batch is first person.
+
+**Still never named:** tretinoin, or any prescription brand or generic name.
+"Prescription retinoid" gives the drug class without naming the drug.
+
 ## 🚨 The price problem, and how every cell handles it
 
 Confirmed finding, `Problem_Side_Research_Findings_2026-07-29.md`:

@@ -79,11 +79,13 @@ Then the petroleum jelly. Then the oil. Then the little forty-dollar pot the siz
 
 They are all still in that drawer. Together they cost more than this jar does, and not one of them was still on my face at two in the morning.
 
+My dermatologist told me not to put anything on the peeling. She was protecting me from the wrong things.
+
 That is the entire argument. Water evaporates. It does not matter how good the cream is or how much it cost. If water is the first ingredient it is gone by the middle of the night, and the middle of the night is when the corners of your mouth split.
 
 A fat has nothing in it to leave.
 
-It goes on after, not instead. You change nothing you are already doing. You let the other thing dry down and you put this over the top.
+It goes on after, not instead. You change nothing you are already doing. Retinol, retinoid, acid, whatever you are on — you let it dry down and you put this over the top.
 
 Four ingredients. $49.99. Free shipping. 60-day money-back guarantee.
 

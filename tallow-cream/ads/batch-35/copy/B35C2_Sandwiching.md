@@ -100,9 +100,9 @@ daytime · any overlay, arrow or caption has been added.
 
 I was already sandwiching.
 
-That is what it is called, if you have not been in those threads. Something on first. Then the thing you actually use. Then something over the top to seal it in.
+That is what it is called, if you have not been in those threads. Something on first. Then the retinoid. Then something over the top to seal it in.
 
-I had been doing it properly for five months. Spaced out, dried down in between, the whole protocol.
+Five months on a prescription retinoid, and I had been sandwiching properly for most of it. Spaced out, dried down in between, the whole protocol.
 
 And my chin was still flaking onto my keyboard at work.
 

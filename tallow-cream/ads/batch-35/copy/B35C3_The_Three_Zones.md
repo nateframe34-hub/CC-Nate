@@ -115,7 +115,7 @@ If you are nodding right now you already know exactly what I mean, and if you ar
 
 ========
 
-Nine weeks in and everywhere else was fine. Better than fine.
+Nine weeks on a prescription retinoid, and everywhere else was fine. Better than fine.
 
 That is the part nobody prepares you for. You do not get a face that is uniformly bad. You get a face that is mostly working and three small areas that look like they are peeling off you.
 
@@ -143,7 +143,7 @@ If somebody had told me that at the start I would have stopped blaming myself a 
 
 The first useful thing came from a dermatologist, and it was not even mine.
 
-A woman in a group I am in wrote that before a peel, her derm put something on those exact three spots first. Before anything else. Nose creases, lip corners, eye corners.
+A woman in a group I am in wrote that before a chemical peel, her dermatologist put something on those exact three spots first. Before anything else. Nose creases, lip corners, eye corners.
 
 She called it a lightbulb moment and I remember thinking, that is a very specific list.
 
