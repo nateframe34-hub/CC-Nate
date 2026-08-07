@@ -225,6 +225,28 @@ to a product that is discontinued.
 
 ---
 
+## 6b. B35 confirmed the diagnosis
+
+**B35 (SA9 The Actives Casualty) was launched after the discontinuation call and
+performed badly.** That is worth recording, because it is confirmatory rather
+than merely disappointing.
+
+SA9 was the highest-urgency avatar in the research, with the strongest behaviour
+evidence the account ever had, written to the full converter spine with the
+attribution lever intact, correct placements, and a targeting lexicon built for
+post-Andromeda delivery. It was the best shot the account had left.
+
+It did not move. That is evidence the constraint was the product and the market
+— price, category age, reorder cadence, Amazon undercut — and not the creative.
+A better avatar and better copy could not fix an offer that needed 7-8%
+click-to-purchase to break even.
+
+**The transferable point:** when a well-researched, well-executed swing at the
+highest-urgency avatar available still fails, stop iterating on creative. The
+answer is upstream of the marketing.
+
+---
+
 ## 7. The honest summary
 
 We built a legitimate new mechanism and aimed it at a group whose problem was
