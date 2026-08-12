@@ -8,28 +8,43 @@
 
 ## 1. The price
 
+> **Two numbers only.** Price gets judged on **CAC room** (the dollars available to buy a customer) and **margin %**. Not on projected CVR, CPC, CPM or CTR — we have no data on any of those for this product, and a projection built on nothing is worse than no projection, because it looks like a reason. Founder call, 2026-08-12.
+
 | | Single | 2-Pack |
 |---|---|---|
-| Product price | **$119** | **$199** |
+| Product price | **$89.99** | **$159.99** |
 | Shipping | **$9.95** | **Free** |
-| Customer pays | **$128.95** | **$199.00** |
-| Per unit | $128.95 | **$99.50** |
-| Landed COGS | $46.39 | $90.56 |
-| Payment processing (2.9% + $0.30) | $4.04 | $6.07 |
-| **Contribution** | **$78.52** | **$102.37** |
-| Breakeven CVR at a $3.17 CPC | **4.04%** | **3.10%** |
+| Customer pays | **$99.94** | **$159.99** |
+| Per unit | $99.94 | **$80.00** |
+| Landed COGS | $31.75 | $63.50 |
+| Payment processing (2.9% + $0.30) | $3.20 | $4.94 |
+| **CAC room** | **$64.99** | **$91.55** |
+| **Margin %** | **65.0%** | **57.2%** |
 
-Blended at a 30% bundle take rate: **$85.68 contribution, 3.70% breakeven click→purchase.**
+**The bundle returns 1.41x the contribution of a single for the same CAC.** CAC is paid per *order*, not per unit — one click, one customer, one acquisition cost, ~1.4x the money. That is the entire case for pushing the 2-pack, and it is why the bundle is allowed a lower margin % than the single. Margin % is the wrong thing to protect on a bundle.
 
-**Why this and not $125 flat or $100 flat.**
+**Why $89.99 and not $79.99 or $99.**
 
-- **$100 flat kills the bundle.** Run the arithmetic the founder asked for on 2026-08-10: at $100 with buy-2-get-20%-off, bundle contribution ($69.44) barely clears a single ($63.61). You'd be doing double the fulfilment, double the return exposure and double the COGS to earn $6. The bundle has to be worth more than the single or it is not an offer, it is a discount.
-- **$125 flat with free shipping** contributes $74.68 on the single — *less* than $119 + $9.95 ($78.52) — and it removes the free-shipping threshold, which is the single cheapest lever we have for pushing people to the 2-pack. Free shipping is worth more as something the 2-pack unlocks than as something everyone gets.
-- **$119 is under the $125 line the founder named**, keeps the all-in price under $129, and makes the 2-pack read as a genuine 23% per-unit saving *plus* free shipping. That is the pull.
+- **$89.99 + $9.95 is $99.94 at checkout.** The total the customer actually pays stays under $100, shipping included. That is the only real psychological threshold in this range, and this is the highest price that clears it.
+- **$79.99 crosses nothing.** $89.94 and $99.94 sit in the same bracket, so dropping to $79.99 gives up $9.71 of CAC room per order and buys no threshold. ($99 + $9.95 = $108.95 *does* break the threshold, in the wrong direction.)
+- **$159.99 over $139.99 on the bundle.** At $139.99 the bundle returns only 1.30x a single's contribution — double the fulfilment and double the return exposure for a thin premium. $159.99 holds the ratio at 1.41x while still showing an $80/unit price against a $99.94 single.
 
-**The comparison bar this has to clear:** tallow needed a 7.6% click→purchase to break even and delivered 3.42%. This offer needs **3.7% blended**. That gap is the entire reason this product is worth testing, and it is why the price must not drift down — dropping to $100 flat pushes breakeven back to ~4.8% and gives away the advantage before the first ad runs.
+**Variant worth keeping on the shelf:** $79.99 + **$14.95** shipping = $94.94 all-in, $60.14 CAC room, 63.3% margin. We pay ~$13.50 in freight, so $14.95 is honest rather than a margin grab, and it is the only structure that makes a $79.99 headline affordable. The tradeoff is that visible shipping over ~$10 reads as a trick to some buyers. Test it against the locked pair rather than assuming.
 
-**Anchor:** compare-at $149 on the single, $298 on the 2-pack. Both are real: $149 is the intended post-test price and $298 is 2 × $149.
+**Anchor:** compare-at $119.99 on the single, $239.98 on the 2-pack. Both real: $119.99 is the intended post-test price and $239.98 is 2 × $119.99.
+
+### ⚠️ This pricing is contingent on sourcing the $18.25 unit
+
+Everything above assumes **$18.25 unit + ~$13.50 freight = $31.75 landed**. That unit is being sourced, not sourced. At the original supplier's COGS ($46.39 / $90.56) the same prices give:
+
+| | CAC room | Margin % |
+|---|---|---|
+| Single at $89.99 + $9.95 | $50.35 | 50.4% |
+| 2-Pack at $159.99 | $64.49 | 40.3% |
+
+The sourcing outcome is worth **$14.64 of CAC room on the single and $27.06 on the bundle** — roughly a third of the acquisition budget. **If the $18.25 unit does not land, $89.99 is too cheap** and the price has to go back toward $119/$199 to leave room to buy traffic. Do not treat $89.99 as settled until the unit is confirmed.
+
+**Also unconfirmed: the 2-pack freight.** Carried above at 2× per-unit ($27.00), which is the conservative read. If two units ship on one label for ~$20, 2-pack COGS drops to $56.50, CAC room rises to $98.55 at 61.6% margin, and the bundle returns **1.52x** a single. At that ratio the 2-pack should be the *default selection* on the PDP, not the upsell. Get the combined rate before building the selector.
 
 ---
 
@@ -43,7 +58,7 @@ Three true reasons a buyer needs two, in order of how often they'll apply:
 
 1. **Most problem rooms have two registers.** A bedroom over a garage, a bonus room, a converted attic — boosting one and leaving the other is a half fix.
 2. **The room at the end of the run is rarely the only one.** Whoever has the hot bedroom usually also has the cold office, or the upstairs that never matches the downstairs.
-3. **It is the cheapest second unit you will ever buy.** $99.50 versus $128.95. If a second room turns up later, you paid $30 more for it today than you would have.
+3. **It is the cheapest second unit you will ever buy.** $80.00 versus $99.94. If a second room turns up later, you paid $20 more for it today than you would have.
 
 **Copy line for the selector:** *"Most problem rooms have more than one vent."*
 
@@ -126,8 +141,8 @@ The explicit lesson from the tallow post-mortem is that these were set after the
 |---|---|---|
 | **Per-cell hard kill** | $60 spend, 0 purchases | Kill the cell |
 | **Per-cell CTR kill** | $40 spend, under 1.0% CTR | Kill the cell — creative is not stopping anyone |
-| **CPC read** | after ~$150 total | If CPC is above $4.00 across every cell, the economics don't close at any price we can charge. Stop and reconsider before spending the rest. |
-| **The winner bar** | a cell holding CPA under $78 (single) / under $102 (bundle) across 3 consecutive days | Scale it. This is the bar tallow never hit. |
+| **CAC read** | after ~$150 total | Compare actual CAC against the $64.99 / $91.55 room. If nothing is close, stop and reconsider before spending the rest. No CPC target is set here on purpose — we have no basis for one, and inventing a threshold would make a guess look like a rule. |
+| **The winner bar** | a cell holding CAC under $64.99 (single) / under $91.55 (bundle) across 3 consecutive days | Scale it. This is the bar tallow never hit. |
 | **The product kill** | $600 spent, no cell has held CPA under contribution for 3 days | Kill the product. Write the post-mortem the same day. |
 
 **One thing the cap does not cover:** CPM and CPC on this product are complete unknowns. The research established there *is* strong desire and there *is* almost no Meta competition, which should mean cheaper auction than tallow — but that is a hypothesis, not a number. The $150 CPC read above exists specifically to find out early and cheaply.
