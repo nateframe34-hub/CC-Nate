@@ -16,35 +16,38 @@
 | Shipping | **$9.95** | **Free** |
 | Customer pays | **$99.94** | **$159.99** |
 | Per unit | $99.94 | **$80.00** |
-| Landed COGS | $31.75 | $63.50 |
+| Landed COGS | $34.32 | $68.64 |
 | Payment processing (2.9% + $0.30) | $3.20 | $4.94 |
-| **CAC room** | **$64.99** | **$91.55** |
-| **Margin %** | **65.0%** | **57.2%** |
+| **CAC room** | **$62.42** | **$86.41** |
+| **Margin %** | **62.5%** | **54.0%** |
 
-**The bundle returns 1.41x the contribution of a single for the same CAC.** CAC is paid per *order*, not per unit — one click, one customer, one acquisition cost, ~1.4x the money. That is the entire case for pushing the 2-pack, and it is why the bundle is allowed a lower margin % than the single. Margin % is the wrong thing to protect on a bundle.
+**Supplier: US-based, 2026-08-12.** The $18.25 overseas quote fell through. This one lands at **$34.32** — $2.57 worse on paper and better in every way that isn't the COGS line (see the note under section 1).
+
+**The bundle returns 1.38x the contribution of a single for the same CAC.** CAC is paid per *order*, not per unit — one click, one customer, one acquisition cost, ~1.4x the money. That is the entire case for pushing the 2-pack, and it is why the bundle is allowed a lower margin % than the single. Margin % is the wrong thing to protect on a bundle.
 
 **Why $89.99 and not $79.99 or $99.**
 
 - **$89.99 + $9.95 is $99.94 at checkout.** The total the customer actually pays stays under $100, shipping included. That is the only real psychological threshold in this range, and this is the highest price that clears it.
 - **$79.99 crosses nothing.** $89.94 and $99.94 sit in the same bracket, so dropping to $79.99 gives up $9.71 of CAC room per order and buys no threshold. ($99 + $9.95 = $108.95 *does* break the threshold, in the wrong direction.)
-- **$159.99 over $139.99 on the bundle.** At $139.99 the bundle returns only 1.30x a single's contribution — double the fulfilment and double the return exposure for a thin premium. $159.99 holds the ratio at 1.41x while still showing an $80/unit price against a $99.94 single.
+- **$159.99 over $139.99 on the bundle.** At $139.99 the bundle returns only 1.30x a single's contribution — double the fulfilment and double the return exposure for a thin premium. $159.99 holds the ratio at 1.38x while still showing an $80/unit price against a $99.94 single.
 
-**Variant worth keeping on the shelf:** $79.99 + **$14.95** shipping = $94.94 all-in, $60.14 CAC room, 63.3% margin. We pay ~$13.50 in freight, so $14.95 is honest rather than a margin grab, and it is the only structure that makes a $79.99 headline affordable. The tradeoff is that visible shipping over ~$10 reads as a trick to some buyers. Test it against the locked pair rather than assuming.
+**Variant worth keeping on the shelf:** $79.99 + **$14.95** shipping = $94.94 all-in, $57.57 CAC room, 60.6% margin. Shipping is a real cost we are passing through, not a margin grab, and it is the only structure that makes a $79.99 headline affordable. The tradeoff is that visible shipping over ~$10 reads as a trick to some buyers. Test it against the locked pair rather than assuming.
 
 **Anchor:** compare-at $119.99 on the single, $239.98 on the 2-pack. Both real: $119.99 is the intended post-test price and $239.98 is 2 × $119.99.
 
-### ⚠️ This pricing is contingent on sourcing the $18.25 unit
+### Why the US supplier is the right call despite the worse COGS
 
-Everything above assumes **$18.25 unit + ~$13.50 freight = $31.75 landed**. That unit is being sourced, not sourced. At the original supplier's COGS ($46.39 / $90.56) the same prices give:
+The $18.25 overseas unit failed to source. The US replacement at $34.32 costs $2.57 more per unit and buys three things that never appear in a COGS line:
 
-| | CAC room | Margin % |
-|---|---|---|
-| Single at $89.99 + $9.95 | $50.35 | 50.4% |
-| 2-Pack at $159.99 | $64.49 | 40.3% |
+1. **Delivery in days, not weeks.** This is a seasonal-urgency purchase — the buyer's bedroom is hot *today*. Two-week transit costs conversions at the checkout and costs orders again as cancellations during the wait. Neither shows up as COGS; both show up as CAC.
+2. **Domestic returns.** Section 4's keep-it threshold existed because international return freight was punitive. From a US warehouse the guarantee can be more generous, which directly answers the top unspoken objection on a fitment product: *what if it doesn't fit my vent.*
+3. **"Ships from the US" is a PDP line.** Against a $21.50 Amazon listing we are not winning on price. We win on being a real company with a real warehouse and real support. Domestic shipping is the cheapest available evidence of that.
 
-The sourcing outcome is worth **$14.64 of CAC room on the single and $27.06 on the bundle** — roughly a third of the acquisition budget. **If the $18.25 unit does not land, $89.99 is too cheap** and the price has to go back toward $119/$199 to leave room to buy traffic. Do not treat $89.99 as settled until the unit is confirmed.
+**Still to confirm with the supplier:**
+- Is $34.32 all-in to the customer's door, or ex-warehouse with domestic parcel freight on top? If freight adds $8-10, single CAC room falls to ~$53 and the price should move to **$99.99 + $9.95** instead.
+- Does the 2-pack ship on one label? Carried above at 2× ($68.64), the conservative read. Domestic parcel makes a combined rate more likely than it was overseas, and it matters: if 2-pack COGS lands near $62, CAC room rises to ~$93 and the bundle returns ~1.49x a single — at which point the 2-pack should be the **default selection** on the PDP, not the upsell.
 
-**Also unconfirmed: the 2-pack freight.** Carried above at 2× per-unit ($27.00), which is the conservative read. If two units ship on one label for ~$20, 2-pack COGS drops to $56.50, CAC room rises to $98.55 at 61.6% margin, and the bundle returns **1.52x** a single. At that ratio the 2-pack should be the *default selection* on the PDP, not the upsell. Get the combined rate before building the selector.
+**For reference, the original supplier** ($46.39 / $90.56) at these same prices gave only **$50.35 (50.4%) and $64.49 (40.3%)**. The US source is worth $12.07 of CAC room on the single and $21.92 on the bundle over that baseline.
 
 ---
 
@@ -72,7 +75,7 @@ This is a physical-fitment product. It is the highest-friction step in the funne
 
 **Standard US register sizes, by prevalence:** 4×10, 4×12, 6×10, 6×12. The duct-opening measurement (not the faceplate) is what matters.
 
-**Decision needed from the supplier before launch:** which sizes the Teemdrop unit is offered in. Until that is confirmed, the offer cannot go live, because the PDP needs a size selector and the ad cannot promise a fit we can't ship.
+**Decision needed from the supplier before launch:** which sizes the US supplier offers. Until that is confirmed, the offer cannot go live, because the PDP needs a size selector and the ad cannot promise a fit we can't ship.
 
 **On the PDP this becomes a required step:**
 
@@ -88,10 +91,10 @@ with a photo of a tape measure across an open duct. Making this a numbered step,
 
 **60-day money-back guarantee.** Same window that ran on tallow, for the same reason: the problem is seasonal-adjacent and a buyer needs to live through a hot stretch before they know.
 
-**But the honest version, because this is a $129 electrical item and not a $50 jar.** The returns math is different: a returned fan costs us the unit and the return shipping, where a returned jar cost us $8. So the guarantee is written to be *easy to claim and hard to need*:
+**But the honest version, because this is a ~$100 electrical item and not a $50 jar.** The returns math is different: a returned fan costs us the unit and the return shipping, where a returned jar cost us $8. So the guarantee is written to be *easy to claim and hard to need*:
 
 - **Return shipping is on us only if the unit is faulty.** Otherwise the customer pays return shipping. Say this plainly on the PDP. Hiding it produces chargebacks, which are worse than returns.
-- **Keep-it threshold:** below $60 of recoverable value it is cheaper to refund and let the customer keep the unit than to pay return freight and restock a drop-shipped item. Set that as the default support policy from day one.
+- **Keep-it threshold:** below $40 of recoverable value, refund and let the customer keep the unit rather than pay return freight and restock. The threshold is lower than it would have been on an overseas source — domestic return freight is cheap enough that taking the unit back is usually worth it, so use the refund-and-keep escape less often and the real return more.
 
 **The qualification that prevents most returns.** The dominant Amazon review complaint on the incumbent product is not quality, it is **installation confusion and mismatched expectations**. So the PDP must say, in our own voice, what this does *not* do:
 
@@ -141,8 +144,8 @@ The explicit lesson from the tallow post-mortem is that these were set after the
 |---|---|---|
 | **Per-cell hard kill** | $60 spend, 0 purchases | Kill the cell |
 | **Per-cell CTR kill** | $40 spend, under 1.0% CTR | Kill the cell — creative is not stopping anyone |
-| **CAC read** | after ~$150 total | Compare actual CAC against the $64.99 / $91.55 room. If nothing is close, stop and reconsider before spending the rest. No CPC target is set here on purpose — we have no basis for one, and inventing a threshold would make a guess look like a rule. |
-| **The winner bar** | a cell holding CAC under $64.99 (single) / under $91.55 (bundle) across 3 consecutive days | Scale it. This is the bar tallow never hit. |
+| **CAC read** | after ~$150 total | Compare actual CAC against the $62.42 / $86.41 room. If nothing is close, stop and reconsider before spending the rest. No CPC target is set here on purpose — we have no basis for one, and inventing a threshold would make a guess look like a rule. |
+| **The winner bar** | a cell holding CAC under $62.42 (single) / under $86.41 (bundle) across 3 consecutive days | Scale it. This is the bar tallow never hit. |
 | **The product kill** | $600 spent, no cell has held CPA under contribution for 3 days | Kill the product. Write the post-mortem the same day. |
 
 **One thing the cap does not cover:** CPM and CPC on this product are complete unknowns. The research established there *is* strong desire and there *is* almost no Meta competition, which should mean cheaper auction than tallow — but that is a hypothesis, not a number. The $150 CPC read above exists specifically to find out early and cheaply.
@@ -153,8 +156,8 @@ The explicit lesson from the tallow post-mortem is that these were set after the
 
 | Item | Blocks | Owner |
 |---|---|---|
-| Register sizes from supplier | The size selector, therefore the PDP, therefore everything | Founder → Teemdrop |
-| Aroma pad confirmation | Whether SA3 exists as an upsell | Founder → Teemdrop |
+| Register sizes from supplier | The size selector, therefore the PDP, therefore everything | Founder → supplier |
+| Aroma pad confirmation | Whether SA3 exists as an upsell | Founder → supplier |
 | Shopify: product, variants by size, 2-pack pricing | PDP build | Build |
 | PDP with the measure step, the honest qualification, the install card | Ads | Build |
 | Install card (4 photos, 4 steps) | Returns rate, not launch | Build |
