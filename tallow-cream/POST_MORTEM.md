@@ -197,6 +197,13 @@ matter. CPC is the metric that matters and did not move.
    amount of copy skill. This check costs ten minutes and would have caught
    tallow.
 3. **Not cheaper on Amazon.** Ideally not on Amazon at all.
+   **Ask the supplier directly: do you sell this unit yourself, under your own
+   brand, on Amazon?** Added 2026-08-12 after a register-fan supplier was
+   rejected on exactly this. If the answer is yes, we are competing with our own
+   source — a price-checking customer at checkout does not find a substitute,
+   they find the manufacturer. Watch for the tell: a distribution agreement that
+   forbids pricing below "the official Amazon store price" exists *because* that
+   listing exists.
 4. **30-day consumption cycle**, not 90.
 5. **The real pain must be nameable in an ad.** If the urgent angle is the
    non-compliant one, the category is a trap.
