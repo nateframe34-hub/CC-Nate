@@ -97,7 +97,9 @@ This is a physical-fitment product. It is the highest-friction step in the funne
 
 **Standard US register sizes, by prevalence:** 4×10, 4×12, 6×10, 6×12. The duct-opening measurement (not the faceplate) is what matters.
 
-**Decision needed from the supplier before launch:** which sizes the supplier offers. Until that is confirmed, the offer cannot go live, because the PDP needs a size selector and the ad cannot promise a fit we can't ship.
+**Confirmed 2026-08-12: the supplier offers TWO sizes** — the one quoted originally, plus a wider one. That is good news for the funnel: two options is a two-button choice, not a four-way dropdown, and it lets the measure step be a single yes/no rather than a lookup.
+
+⚠️ **The exact dimensions are still unknown and are a hard gate on launch.** "Wider" is not something a customer can match against a tape measure. On a fitment product a wrong guess becomes a return, a chargeback and a review — the exact failure mode that dominates the incumbent's Amazon reviews. Get both numbers in writing before the size step is built. (Most likely 4×10 and 4×12, but nothing goes on the page on a guess.)
 
 **On the PDP this becomes a required step:**
 
@@ -128,6 +130,21 @@ That paragraph costs some conversions and saves more returns than it costs. It a
 
 ---
 
+## 4b. Imagery — generate the scenes, never the product
+
+Founder call 2026-08-12: imagery is ours to make, with Nano Banana as the tool. One split governs all of it.
+
+**Never generate the product itself.** Nano Banana drifts the physical details of a specific real object — fan count, display layout, screw positions, grille spacing. On a fitment product the customer must recognise what arrives in the box, and a generated hero shot that is subtly wrong is a misrepresentation that converts directly into returns and chargebacks.
+
+| Asset | Source |
+|---|---|
+| Product gallery, size step, install card | **Real photography only** — supplier assets or a purchased unit. These make a factual claim about what you receive. |
+| Room scenes, the hot bedroom, the window, the thermostat, a person at the vent, all ad creative | **Nano Banana.** |
+
+This split also keeps the ads in the register that actually converted on the last brand. Per `tallow-cream/POST_MORTEM.md`, image and copy are independent variables, and the account's best-performing creative (B17C1) never showed the product as a product — it was an authorless object in a domestic scene. Carry that forward. And per the standing rule in `Tallow_Ad_Creative_Principles.md`: **no offer terms in any image** — no price, guarantee, shipping or CTA, as overlay or as diegetic text.
+
+---
+
 ## 5. What's in the box
 
 - The register faceplate with integrated fans
@@ -138,7 +155,7 @@ That paragraph costs some conversions and saves more returns than it costs. It a
 **Open supplier questions (do not block the offer, do block launch):**
 1. Which register sizes are available?
 2. Does the img3 unit support an aroma pad? (Determines whether the SA3 scent upsell is real or has to be dropped.)
-3. **Can we use the supplier's product images and video?** Ask explicitly and get it in writing — this is the VEVOR lesson. We are drop-shipping, so we have no unit to photograph, and a fitment product with no imagery cannot be launched.
+3. ✅ **Confirmed: no restrictions on the supplier's images.** The VEVOR problem does not repeat here.
 4. Does the adapter carry a UL/ETL/CE mark? Not a gate — it is a plug-in appliance, not a hardwired one — but it is worth one line on the PDP if it does.
 
 ---
@@ -181,8 +198,10 @@ The explicit lesson from the tallow post-mortem is that these were set after the
 
 | Item | Blocks | Owner |
 |---|---|---|
-| Register sizes from supplier | The size selector, therefore the PDP, therefore everything | Founder → supplier |
+| **Exact dimensions of both sizes** | The size selector, therefore the PDP, therefore everything. Two sizes confirmed; the numbers are not | Founder → supplier |
+| Combined 2-pack shipping rate | Whether the 2-pack is default-selected or the upsell | Founder → supplier |
 | Aroma pad confirmation | Whether SA3 exists as an upsell | Founder → supplier |
+| Scene imagery via Nano Banana | Ads and PDP scenes (never the product itself — see 4b) | Build |
 | Shopify: product, variants by size, 2-pack pricing | PDP build | Build |
 | PDP with the measure step, the honest qualification, the install card | Ads | Build |
 | Install card (4 photos, 4 steps) | Returns rate, not launch | Build |
