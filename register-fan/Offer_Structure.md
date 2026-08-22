@@ -2,7 +2,7 @@
 
 **Created:** 2026-08-12
 **Status:** Locked pending founder override on price. Everything downstream (PDP, creative, kill rules) is built against this.
-**Product:** A register/vent cover with built-in fans. Replaces the existing floor or wall register, plugs into a wall outlet, and pulls conditioned air (hot or cold) out of the duct into the room instead of letting it stall in the branch line.
+**Product:** A register/vent cover with built-in fans. Replaces the existing floor or wall register, plugs into a wall outlet, and pulls conditioned air (hot or cold) out of the duct into the room instead of letting it stall in the branch line. **Unit sourced 2026-08-12** carries a **thermostat display, a remote, and mode presets** (winter / cooler / summer / fan / sleep), in **white and bronze**.
 
 ---
 
@@ -16,24 +16,34 @@
 | Shipping | **$9.95** | **Free** |
 | Customer pays | **$99.94** | **$159.99** |
 | Per unit | $99.94 | **$80.00** |
-| Landed COGS | $46.39 | $90.56 |
+| Landed COGS | $40.59 | $81.18 |
 | Payment processing (2.9% + $0.30) | $3.20 | $4.94 |
-| **CAC room** | **$50.35** | **$64.49** |
-| **Margin %** | **50.4%** | **40.3%** |
+| **CAC room** | **$56.15** | **$73.87** |
+| **Margin %** | **56.2%** | **46.2%** |
 
-**Supplier: the original one, at $46.39 landed. Founder call 2026-08-12** — two attempts at a cheaper unit failed (see the sourcing log below), and sourcing cheaper without losing quality is proving hard enough that it is not worth holding the test hostage to it. **The price stays at $89.99 / $159.99 anyway.** The purpose of this test is to find out whether a market exists at a price customers will pay, not to prove profitability at launch COGS. Those are different questions and this is the right one to answer first.
+**Supplier: upgraded unit sourced 2026-08-12 at $40.59 landed** (replaces the $46.39 baseline). **Founder call 2026-08-12** — two attempts at a cheaper unit failed (see the sourcing log below), and sourcing cheaper without losing quality is proving hard enough that it is not worth holding the test hostage to it. **The price stays at $89.99 / $159.99 anyway.** The purpose of this test is to find out whether a market exists at a price customers will pay, not to prove profitability at launch COGS. Those are different questions and this is the right one to answer first.
 
-**The bundle returns 1.28x the contribution of a single for the same CAC.** CAC is paid per *order*, not per unit — one click, one customer, one acquisition cost, ~1.3x the money. That is the entire case for pushing the 2-pack, and it is why the bundle is allowed a lower margin % than the single. Margin % is the wrong thing to protect on a bundle.
+**The bundle returns 1.32x the contribution of a single for the same CAC.** CAC is paid per *order*, not per unit — one click, one customer, one acquisition cost, ~1.3x the money. That is the entire case for pushing the 2-pack, and it is why the bundle is allowed a lower margin % than the single. Margin % is the wrong thing to protect on a bundle.
 
 **Why $89.99 and not $79.99 or $99.**
 
 - **$89.99 + $9.95 is $99.94 at checkout.** The total the customer actually pays stays under $100, shipping included. That is the only real psychological threshold in this range, and this is the highest price that clears it.
 - **$79.99 crosses nothing.** $89.94 and $99.94 sit in the same bracket, so dropping to $79.99 gives up $9.71 of CAC room per order and buys no threshold. ($99 + $9.95 = $108.95 *does* break the threshold, in the wrong direction.)
-- **$159.99 over $139.99 on the bundle.** At $139.99 the bundle returns only 1.30x a single's contribution — double the fulfilment and double the return exposure for a thin premium. $159.99 holds the ratio at 1.28x while still showing an $80/unit price against a $99.94 single.
+- **$159.99 over $139.99 on the bundle.** At $139.99 the bundle returns only 1.30x a single's contribution — double the fulfilment and double the return exposure for a thin premium. $159.99 holds the ratio at 1.32x while still showing an $80/unit price against a $99.94 single.
 
 **Variant worth keeping on the shelf:** $79.99 + **$14.95** shipping = $94.94 all-in, $57.57 CAC room, 60.6% margin. Shipping is a real cost we are passing through, not a margin grab, and it is the only structure that makes a $79.99 headline affordable. The tradeoff is that visible shipping over ~$10 reads as a trick to some buyers. Test it against the locked pair rather than assuming.
 
 **Anchor:** compare-at $119.99 on the single, $239.98 on the 2-pack. Both real: $119.99 is the intended post-test price and $239.98 is 2 × $119.99.
+
+### The upgraded unit changes the competitive argument, not just the COGS
+
+The unit sourced 2026-08-12 has a **thermostat display, a remote, and mode presets**. That is worth more than the $5.80 of CAC room it added, because it answers the single largest structural risk in this offer.
+
+**The price-check objection now has a real answer.** *"I found one on Amazon for $22"* was the risk that killed tallow, and previously the only response was a brand story. Now it is a specification: that unit has no thermostat, no remote, and runs whenever it is plugged in. This one runs when the duct is actually blowing and stops when it isn't. Different tier, not the same thing marked up.
+
+**It also sharpens the strongest angle.** Angle C — *"you shouldn't have to cool the whole house for one room"* — lands harder on a unit with its own temperature setting. The buyer is not boosting a vent, they are giving one room its own control. That is functionally a second thermostat for a room that never had one, which is exactly the thing angle D says you were quoted $4,500 for.
+
+**Caution: more to set up, and setup is the incumbent's top complaint.** Every bad Amazon review on the category is an instruction failure. Buttons, modes and a remote add ways to conclude the unit is broken when it is only in the wrong mode. The four-photo install card is now more important, not less, and it must cover **the modes**, not just the physical fit.
 
 ### Sourcing log — two cheaper units attempted, both failed
 
@@ -51,13 +61,13 @@ Liability was also one-directional — full responsibility on us, explicit refus
 
 ### The economics are close to tallow's — this is a demand test, not a margin test
 
-Tallow ran **$41.52** on the single and **$60.71** on the bundle. This runs **$50.35** and **$64.49**. Better, but not by much — and tallow died on economics, not on the product.
+Tallow ran **$41.52** on the single and **$60.71** on the bundle. This runs **$56.15** and **$73.87**. Better, but the same order of magnitude — and tallow died on economics, not on the product.
 
 So everything that has to be different here sits on the demand side: no meaningful Meta competition, an urgent problem, low awareness, higher purchase intent. That is a real difference and it is why this is worth running. But it means:
 
 - **The $600 cap in section 7 is doing more work than it would at a lower COGS. Hold it.** Extending it "for one more read" is exactly the mechanism by which tallow reached $2,000.
-- **The 2-pack stays the upsell, not the default selection.** At 1.28x a single it is still worth pushing, but it no longer earns default status.
-- **"Store profit funds the MOQ" is a longer runway than it looked.** At $50 of room, if CAC lands near $35 you keep ~$15 an order, putting a $2-3k MOQ 130-200 orders out rather than 50. Raising to **$119 + $9.95 / $199** post-validation ($68.81 / $102.37 of room) is the lever that shortens it — and it is far easier to raise a price on a product with proof than to launch high without any.
+- **The 2-pack stays the upsell, not the default selection.** At 1.32x a single it is still worth pushing, but it no longer earns default status.
+- **"Store profit funds the MOQ" is a longer runway than it looked.** At $56 of room, if CAC lands near $35 you keep ~$21 an order, putting a $2-3k MOQ ~100-145 orders out rather than 50. Raising to **$119 + $9.95 / $199** post-validation ($68.81 / $102.37 of room) is the lever that shortens it — and it is far easier to raise a price on a product with proof than to launch high without any.
 
 **If a cheaper unit is sourced later**, the pricing does not need to change; the COGS drop goes straight into CAC room. At ~$34 landed the same prices give $62.42 (62.5%) and $86.41 (54.0%).
 
@@ -97,6 +107,8 @@ with a photo of a tape measure across an open duct. Making this a numbered step,
 
 **Fallback if a size is unavailable:** offer the nearest larger faceplate rather than a no-sale. Do not offer the smaller one.
 
+**Colour: launch white only.** The unit also comes in bronze, and on a visible fixture colour choice genuinely helps conversion — but sizes were already going to multiply SKUs and bronze doubles that again. Every extra variant is another way for the size step to go wrong, and the size step is the highest-friction point in the funnel. Add bronze once a winning angle exists, unless carrying both costs nothing.
+
 ---
 
 ## 4. Guarantee and returns
@@ -121,12 +133,13 @@ That paragraph costs some conversions and saves more returns than it costs. It a
 - The register faceplate with integrated fans
 - Power adapter and cord
 - Thermostat/control module (confirm which the img3 unit ships with)
-- **A one-page install card, written by us, not the supplier's.** This is the highest-leverage $0 asset in the whole offer — the incumbent's worst reviews are all instruction failures. Four photos, four steps, no translated English.
+- **A one-page install card, written by us, not the supplier's.** This is the highest-leverage $0 asset in the whole offer — the incumbent's worst reviews are all instruction failures. Four photos, four steps, no translated English. **On the upgraded unit it must also cover the modes and the remote**, since that is now the larger share of what a confused buyer can get wrong.
 
 **Open supplier questions (do not block the offer, do block launch):**
 1. Which register sizes are available?
 2. Does the img3 unit support an aroma pad? (Determines whether the SA3 scent upsell is real or has to be dropped.)
-3. Does the adapter carry a UL/ETL/CE mark? Not a gate — it is a plug-in appliance, not a hardwired one — but it is worth one line on the PDP if it does.
+3. **Can we use the supplier's product images and video?** Ask explicitly and get it in writing — this is the VEVOR lesson. We are drop-shipping, so we have no unit to photograph, and a fitment product with no imagery cannot be launched.
+4. Does the adapter carry a UL/ETL/CE mark? Not a gate — it is a plug-in appliance, not a hardwired one — but it is worth one line on the PDP if it does.
 
 ---
 
@@ -156,8 +169,8 @@ The explicit lesson from the tallow post-mortem is that these were set after the
 |---|---|---|
 | **Per-cell hard kill** | $60 spend, 0 purchases | Kill the cell |
 | **Per-cell CTR kill** | $40 spend, under 1.0% CTR | Kill the cell — creative is not stopping anyone |
-| **CAC read** | after ~$150 total | Compare actual CAC against the $50.35 / $64.49 room. If nothing is close, stop and reconsider before spending the rest. No CPC target is set here on purpose — we have no basis for one, and inventing a threshold would make a guess look like a rule. |
-| **The winner bar** | a cell holding CAC under $50.35 (single) / under $64.49 (bundle) across 3 consecutive days | Scale it. This is the bar tallow never hit. |
+| **CAC read** | after ~$150 total | Compare actual CAC against the $56.15 / $73.87 room. If nothing is close, stop and reconsider before spending the rest. No CPC target is set here on purpose — we have no basis for one, and inventing a threshold would make a guess look like a rule. |
+| **The winner bar** | a cell holding CAC under $56.15 (single) / under $73.87 (bundle) across 3 consecutive days | Scale it. This is the bar tallow never hit. |
 | **The product kill** | $600 spent, no cell has held CPA under contribution for 3 days | Kill the product. Write the post-mortem the same day. |
 
 **One thing the cap does not cover:** CPM and CPC on this product are complete unknowns. The research established there *is* strong desire and there *is* almost no Meta competition, which should mean cheaper auction than tallow — but that is a hypothesis, not a number. The $150 CPC read above exists specifically to find out early and cheaply.
