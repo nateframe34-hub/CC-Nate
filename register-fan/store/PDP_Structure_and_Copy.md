@@ -2,7 +2,7 @@
 
 **Created:** 2026-08-12
 **Built against:** `register-fan/Offer_Structure.md` (price, sizing, guarantee, claim discipline) and the SA1 angle research.
-**Status:** Copy complete. **Size step is stubbed** — exact dimensions of both sizes are still outstanding and are a hard gate on going live.
+**Status:** Copy complete. Sizes confirmed 2026-08-12 — **4×10 and 6×10**. Remaining gates are photography and the combined 2-pack shipping rate.
 
 ---
 
@@ -87,14 +87,14 @@ Both purchase decisions in one block, size first — a visitor who can't answer 
 
 > Pull the old cover off and measure the **hole**, not the cover.
 
-**[STUB — exact dimensions outstanding]**
-
 Two buttons, not a dropdown:
 
-- **Standard** — fits a `__ × __` opening *(most common)*
-- **Wide** — fits a `__ × __` opening
+- **4″ × 10″** *(most common)*
+- **6″ × 10″**
 
-> Not sure? Measure the opening and pick the one that matches. If you're between sizes, choose the larger — the faceplate overlaps the opening, so bigger covers, smaller doesn't.
+> Both are 10 inches long. The difference is the short side — measure that one carefully.
+>
+> **Your measurement has to match.** The fan housing sits down inside the duct opening, so a 6-inch unit will not seat in a 4-inch hole. If you measure something other than 4×10 or 6×10, don't order — email us and we'll tell you when we have your size.
 
 Photo: a tape measure across an open duct.
 
@@ -110,6 +110,17 @@ Under the 2-pack: *A bedroom over a garage or a converted attic usually has two 
 Compare-at struck through properly: ~~$179.98~~ $159.99
 
 > **If the combined 2-pack shipping quote lands near $73 COGS, make the 2-pack the default selection.** See Offer_Structure §1.
+
+### ⚠️ Coverage gap — we do not stock 4×12
+
+**Sizes confirmed 2026-08-12: 4×10 and 6×10 only.** The common US register sizes are roughly 4×10, 4×12, 6×10 and 6×12, and **4×12 is at least as common as 4×10.**
+
+Every visitor who measures 4×12 or 6×12 is a no-sale — and they are lost at the worst possible moment, *after* doing the work of measuring and confirming their problem is real. That is a high-intent visitor walking away with nowhere to go.
+
+This does not block the test. Two things to do about it:
+
+1. **Ask the supplier whether a 4×12 exists.** Probably the single cheapest conversion gain available on this page, and better asked before spending than after.
+2. **Capture the misses.** An email field on the size step — *"we'll tell you when we have your size"* — costs nothing and turns a dead end into a list of people who have already self-identified as having the problem, measured their vent, and been willing to buy. That is a better list than any lead magnet would produce.
 
 ---
 
@@ -219,7 +230,8 @@ Repeat the size step and the bundle selector in full. A visitor who scrolled thi
 
 | Item | Blocks |
 |---|---|
-| **Exact dimensions of both sizes** | §4 Step 1 — hard gate on launch |
+| ✅ Sizes confirmed: **4×10 and 6×10** | Resolved 2026-08-12 |
+| **Ask the supplier for a 4×12** | Likely the cheapest conversion gain available — see the coverage-gap note in §4 |
 | Combined 2-pack shipping rate | Whether the 2-pack is default-selected |
 | Real product photography | §2 gallery, §4 size step, §9 install |
 | Nano Banana scene imagery | §3, §7, §8 (never the product — Offer_Structure §4b) |
