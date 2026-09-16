@@ -12,7 +12,7 @@ Not "communicate benefits." A visitor arriving from a native ad has three specif
 
 1. **Is this actually my problem?** (They think their AC is broken, or that it's their fault.)
 2. **Will it fit my vent?** (The highest-friction step, and the top unspoken objection on any fitment product.)
-3. **Why not the $22 one on Amazon?** (The structural risk that killed the last brand.)
+3. **Why not the AC Infinity or SmartCocoon one?** (⚠️ Re-scoped 2026-09-16: the real comparison is a $59.99-$74 branded unit **with an app**, not a $22 no-name. §10 is written against the wrong competitor and needs rebuilding — see `Brand_Mastery.md`.)
 
 Anything on the page that doesn't serve one of those three is decoration.
 
@@ -130,11 +130,10 @@ Positively titled. No doubt named in any header.
 
 - **How it works**
 - **Will it fit my vent?**
-- **How loud is it?**
 - **What the modes do**
 - **Installation**
 
-**How loud is it** is the one that must not oversell. Noise is the top incumbent complaint after installation. Say it runs quieter than the box fan they're currently using and give the sleep mode as the answer. Do not claim silence.
+> 🚫 **No noise collapsible. Noise is not a selling point anywhere on this page.** Founder call 2026-09-16. It does not address the problem we solve, and the incumbent's single loudest review complaint is *"marketed as quiet but it is too loud."* Promising quiet manufactures the exact disappointment that produces returns and one-star reviews. See the banned-claims rule in `Brand_Mastery.md`.
 
 **What the modes do** exists because the remote and display are the new return risk — a buyer who can't find the right mode concludes the unit is broken.
 
@@ -152,7 +151,7 @@ Positively titled. No doubt named in any header.
 >
 > **A register booster fan sits in that vent and pulls. Instead of waiting for air the duct can barely push, it draws the cold air the rest of the way in.**
 
-**Why this section matters most.** The research read this as a **Stage 2 market** — only one mechanism claim exists in the category ("improves airflow") and nobody explains *why* a room is hot. Being the first to explain the mechanism is the whole opportunity. A Stage 2 market is won by the clearest explanation, not the loudest claim.
+**Why this section matters most.** ⚠️ **Sophistication re-read 2026-09-16 — see `Brand_Mastery.md`.** The category is **Stage 4**, not Stage 2: AC Infinity and SmartCocoon compete on "300% more airflow," "30% energy saving," "ultra-quiet PWM motor" and "automatic open/close vents." What is genuinely low is consumer *awareness*, which is a different axis. This section still matters most — nobody explains *why* the room is hot, so the explanation is still ours to own — but it must be written as **New Information**, not as a first-and-only claim.
 
 **Compliance:** temperature and airflow only. No health, safety or risk language anywhere, including the nursery use case.
 
@@ -214,7 +213,7 @@ Costs some conversions, saves more returns than it costs, and does credibility w
 
 ## 12. FAQ
 
-Will it fit my vent? · How loud is it? · Does it work for heat too? · Does it use much electricity? · What if my vent is in the floor / wall / ceiling? · Do I need an electrician? · How fast does it ship? · What if it doesn't fix it?
+Will it fit my vent? · Does it work for heat too? · Does it use much electricity? · What if my vent is in the floor / wall / ceiling? · Do I need an electrician? · How fast does it ship? · What if it doesn't fix it?
 
 ---
 
