@@ -1,7 +1,9 @@
 # Register Booster Fan — Offer Structure
 
 **Created:** 2026-08-12
-**Status:** Locked pending founder override on price. Everything downstream (PDP, creative, kill rules) is built against this.
+**Status:** Price locked. **`Brand_Mastery.md` is the senior document** for avatars, sophistication, awareness and claim discipline — this file covers price, sourcing, sizing, guarantee and kill rules only.
+
+> **The PDP was scrapped 2026-09-17** (founder call): written before the avatar work, the sophistication read and the comparison discipline existed, so it was built on a superseded foundation and carried leaks. Rebuild it only after the cold-side research and the category-naming decision.
 **Product:** A register/vent cover with built-in fans. Replaces the existing floor or wall register, plugs into a wall outlet, and pulls conditioned air (hot or cold) out of the duct into the room instead of letting it stall in the branch line. **Unit sourced 2026-08-12** carries a **thermostat display, a remote, and mode presets** (winter / cooler / summer / fan / sleep), in **white and bronze**.
 
 ---
@@ -35,15 +37,17 @@
 
 **Anchor:** compare-at $119.99 on the single, $239.98 on the 2-pack. Both real: $119.99 is the intended post-test price and $239.98 is 2 × $119.99.
 
-### The upgraded unit changes the competitive argument, not just the COGS
+### ⚠️ The upgraded unit's competitive argument was WRONG — struck 2026-09-16
 
-The unit sourced 2026-08-12 has a **thermostat display, a remote, and mode presets**. That is worth more than the $5.80 of CAC room it added, because it answers the single largest structural risk in this offer.
+This section previously argued that the thermostat and remote made us "a different tier" from a $22 Amazon unit, and that this answered the price-check objection. **Both halves are false.**
 
-**The price-check objection now has a real answer.** *"I found one on Amazon for $22"* was the risk that killed tallow, and previously the only response was a brand story. Now it is a specification: that unit has no thermostat, no remote, and runs whenever it is plugged in. This one runs when the duct is actually blowing and stops when it isn't. Different tier, not the same thing marked up.
+The real comparison is **AC Infinity AirTap at $59.99-$69.99** and **SmartCocoon at $74** — branded units with phone apps, auto-opening vents and smart-home integration, sold on Amazon, Home Depot and Walmart. Against those we are the most expensive option with the fewest features. See `Brand_Mastery.md` Part 3.
 
-**It also sharpens the strongest angle.** Angle C — *"you shouldn't have to cool the whole house for one room"* — lands harder on a unit with its own temperature setting. The buyer is not boosting a vent, they are giving one room its own control. That is functionally a second thermostat for a room that never had one, which is exactly the thing angle D says you were quoted $4,500 for.
+**What replaces it:** we concede product-vs-product and compete on marketing. The incumbents do not advertise on Meta, so we would be the only register-fan brand buying attention there — an advantage that requires nothing from our hardware. Price holds at $89.99 / $159.99.
 
-**Caution: more to set up, and setup is the incumbent's top complaint.** Every bad Amazon review on the category is an instruction failure. Buttons, modes and a remote add ways to conclude the unit is broken when it is only in the wrong mode. The four-photo install card is now more important, not less, and it must cover **the modes**, not just the physical fit.
+🚫 **And the rule that follows: never name a competitor or a cheaper version, in any asset.** An unaware buyer cannot search for a category they cannot name; the only realistic route to a price-check is a search we prompted. Full rule in `Brand_Mastery.md` §9a-i.
+
+**The one part of the original section that still stands:** more to set up means more ways to conclude the unit is broken when it is only in the wrong mode. Every bad review in the category is an instruction failure. **The install card must cover the modes and the remote, not just the physical fit.**
 
 ### Sourcing log — two cheaper units attempted, both failed
 
@@ -63,7 +67,7 @@ Liability was also one-directional — full responsibility on us, explicit refus
 
 Tallow ran **$41.52** on the single and **$60.71** on the bundle. This runs **$56.15** and **$73.87**. Better, but the same order of magnitude — and tallow died on economics, not on the product.
 
-So everything that has to be different here sits on the demand side: no meaningful Meta competition, an urgent problem, low awareness, higher purchase intent. That is a real difference and it is why this is worth running. But it means:
+So everything that has to be different here sits on the demand side: no Meta competition (confirmed — the incumbents do not advertise there), an urgent problem, low awareness, higher purchase intent. That is a real difference and it is why this is worth running. But it means:
 
 - **The $600 cap in section 7 is doing more work than it would at a lower COGS. Hold it.** Extending it "for one more read" is exactly the mechanism by which tallow reached $2,000.
 - **The 2-pack stays the upsell, not the default selection.** At 1.32x a single it is still worth pushing, but it no longer earns default status.
@@ -97,9 +101,18 @@ This is a physical-fitment product. It is the highest-friction step in the funne
 
 **Standard US register sizes, by prevalence:** 4×10, 4×12, 6×10, 6×12. The duct-opening measurement (not the faceplate) is what matters.
 
-**Confirmed 2026-08-12: the supplier offers TWO sizes** — the one quoted originally, plus a wider one. That is good news for the funnel: two options is a two-button choice, not a four-way dropdown, and it lets the measure step be a single yes/no rather than a lookup.
+**Confirmed 2026-09-16: the supplier offers TWO sizes — 4×10 and 6×10.** Two options is a two-button choice, not a four-way dropdown.
 
-⚠️ **The exact dimensions are still unknown and are a hard gate on launch.** "Wider" is not something a customer can match against a tape measure. On a fitment product a wrong guess becomes a return, a chargeback and a review — the exact failure mode that dominates the incumbent's Amazon reviews. Get both numbers in writing before the size step is built. (Most likely 4×10 and 4×12, but nothing goes on the page on a guess.)
+🚨 **They differ in the SHORT dimension, so the measurement must match exactly.** Both are 10 inches long. The fan housing seats *inside* the duct opening, so a 6-inch unit will not go into a 4-inch hole. Any "if you're between sizes, size up" guidance is **wrong on this product** and would generate returns — the faceplate overlaps, the housing does not.
+
+### ⚠️ Coverage gap — no 4×12
+
+Common US register sizes are roughly 4×10, 4×12, 6×10 and 6×12, and **4×12 is at least as common as 4×10.** Every visitor who measures 4×12 or 6×12 is a no-sale, lost at the worst possible moment — *after* measuring and confirming their problem is real, i.e. at peak intent.
+
+Does not block the test. Two responses:
+
+1. **Ask the supplier whether a 4×12 exists.** Likely the cheapest conversion gain available anywhere in this funnel.
+2. **Capture the misses** — an email field on the size step ("we'll tell you when we have your size"). Anyone who fills it in has self-identified as having the problem, measured their vent, and been willing to buy. A better list than any lead magnet.
 
 **On the PDP this becomes a required step:**
 
