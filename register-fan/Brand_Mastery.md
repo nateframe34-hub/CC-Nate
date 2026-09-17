@@ -4,7 +4,11 @@
 **Supersedes for ad creation:** `Avatars_and_Angles.md` (kept as the extraction working file).
 **Mandatory read before any ad, PDP or offer work on this product.**
 
-> ⚠️ **This document was rebuilt on 2026-09-16 after a competitive research pass invalidated three earlier conclusions.** The Stage 2 sophistication read, the "$22 Amazon unit" comparison, and the price rationale were all wrong. Sections 3, 5 and 9 carry the corrections. Do not work from anything written before this date without checking it here first.
+> ⚠️ **Rebuilt 2026-09-16 after a competitive research pass invalidated three earlier conclusions** — the Stage 2 sophistication read, the "$22 Amazon unit" comparison, and the price rationale.
+>
+> **Then resolved the same day.** The finding does **not** change the plan. The incumbents do not advertise on Meta; we would be the only register-fan brand buying attention there. We concede product-vs-product and compete on marketing. **Price holds at $89.99 / $159.99.** The one thing that genuinely changes is §9a-i: **never name a competitor or a cheaper version anywhere**, because the only realistic route to a price-check is a search we prompted.
+>
+> Sections 3, 4, 5, 8 and 9 carry the current state. Do not work from anything written before this date without checking it here first.
 
 ---
 
@@ -61,7 +65,11 @@ At Stage 4 the three responses are New Mechanism, New Information, New Identity.
 
 **New Information is available and unowned.** Nobody in the category explains **why** a particular room is hot. Every competitor claims an improvement ("300% more airflow") and none explains the problem. That explanation is genuinely ours to take.
 
-**New Identity / avatar innovation is the real play.** Per Origins, the second way to reset sophistication is to innovate the *avatar* rather than the product (Stanley, TrueClassic). AirTap and SmartCocoon sell to a person who already knows this product category exists and is searching for it. **Nobody sells to the person who does not know the category exists and quietly believes the problem is their fault.** That is a different buyer, reached in a different place, and it is the one place our weaker hardware is not the deciding variable.
+**New Identity / avatar innovation is the real play — and it is reachable, because the incumbents are not on this platform.** Confirmed 2026-09-16: neither AirTap nor SmartCocoon runs Meta ads. Their Stage 4 claims live on Amazon and Home Depot listings, where a shopper arrives already knowing what they want. In a Meta feed those claims are not present, so the sophistication a buyer has been exposed to *at the moment they meet us* is much closer to Stage 2 than the category's own level.
+
+⚠️ **This is a real advantage and also the exact argument tallow made.** The difference to hold onto: tallow's competitors WERE on Meta, for two years, spending against the same buyer. Ours are not. That is a structural difference, not a hopeful one — but it only holds while it stays true, and it stops holding the moment a visitor leaves our funnel to search.
+
+**New Identity / avatar innovation, stated plainly:** Per Origins, the second way to reset sophistication is to innovate the *avatar* rather than the product (Stanley, TrueClassic). AirTap and SmartCocoon sell to a person who already knows this product category exists and is searching for it. **Nobody sells to the person who does not know the category exists and quietly believes the problem is their fault.** That is a different buyer, reached in a different place, and it is the one place our weaker hardware is not the deciding variable.
 
 ---
 
@@ -71,11 +79,11 @@ At Stage 4 the three responses are New Mechanism, New Information, New Identity.
 |---|---|---|---|
 | **Unaware** | Thinks their AC is undersized, or that it's their fault | Name the problem, remove the blame | **Our home turf.** Genuinely large and genuinely unserved |
 | **Problem Aware** | Knows one room is hot, doesn't know why | Explain the duct run — New Information | **Primary target** |
-| Solution Aware | Knows booster fans exist | Differentiate — **we lose here on features and price** | Avoid |
+| Solution Aware | Knows booster fans exist | Differentiate — **we lose here on features and price** | **Avoid — and never create.** See 9a-i |
 | Product Aware | Comparing AirTap vs SmartCocoon | Why this one — **we have no answer** | Avoid |
 | Most Aware | Ready to buy, wants a deal | Offer | Retargeting only |
 
-**The operating rule this produces:** every ad must land on an **Unaware or Problem Aware** reader and must carry them all the way to purchase *inside our funnel*. The moment a visitor becomes Solution Aware and opens a new tab, we lose — because the comparison is $59.99 with an app against $99.94 without one.
+**The operating rule this produces:** every ad must land on an **Unaware or Problem Aware** reader and must carry them all the way to purchase *inside our funnel*. The moment a visitor becomes Solution Aware and opens a new tab, we lose — because the comparison is $59.99 with an app against $99.94 without one. **Critically, the most likely thing to MAKE them Solution Aware is our own copy.** They cannot search for a category they cannot name. Do not name it for them (9a-i).
 
 ---
 
@@ -83,6 +91,7 @@ At Stage 4 the three responses are New Mechanism, New Information, New Identity.
 
 Ranked honestly. The hardware is not on this list.
 
+0. **Being the only register-fan brand buying attention on Meta** *(the actual competitive advantage)*. Confirmed: the incumbents do not advertise here. Their Stage 4 claims sit on Amazon and Home Depot listings, in front of people already searching. We are not competing with them for the feed, and this advantage is bought rather than built — it requires nothing from our hardware. **It holds only while the buyer stays in our funnel.**
 1. **The explanation of why one room starves** *(strongest, unowned)*. Air is made at one place and loses pressure at every branch; the last room on the run gets a trickle. Checkable by the reader with their own hand, tonight. No competitor says it.
 2. **The permission shift** *(strongest emotional asset)*. *"It isn't you, and it isn't your AC."* Sourced verbatim: *"I'm on my 5th house/apartment where this has been the case. I feel like it has to be something I'm doing."* No competitor addresses self-blame, because competitors talk to people already past it.
 3. **Demonstrability** *(format asset)*. Two thermometers, several degrees apart, in one frame. Tallow had no demonstrable mechanism and it cost us (B32C3). We do. The incumbents run product shots instead.
@@ -192,7 +201,7 @@ Two reasons: it does not address the problem we solve, and the incumbent's loude
 
 **3. 🚫 Offer terms in any image.** No price, guarantee, return window, shipping terms, discount or CTA — not as overlay, not as diegetic text. The test: *could a person with nothing to sell have written this?*
 
-**4. 🚫 Feature competition.** No spec claims against AirTap or SmartCocoon. We lose that comparison.
+**4. 🚫 Feature competition — and 🚫 naming any competitor or cheaper version, anywhere.** No spec claims, no "unlike the cheap ones," no competitor brand names, in ads, on the PDP, in email or in support macros. We lose the feature comparison, and more importantly **the comparison only happens if we start it** — an unaware buyer cannot search for a category they cannot name. See §9a-i.
 
 **5. 🚫 Generated product imagery.** Nano Banana does scenes; the product is real photography only.
 
@@ -202,21 +211,33 @@ Two reasons: it does not address the problem we solve, and the incumbent's loude
 
 # PART 9 — OPEN PROBLEMS
 
-## 9a. The price problem ⚠️ UNRESOLVED — decide before spending
+## 9a. Price — RESOLVED 2026-09-16: hold $89.99 / $159.99
 
-We are **$99.94 all-in against a $59.99 AirTap with an app and auto-closing vents.** Any visitor who becomes Solution Aware and opens a second tab is lost.
+**Founder call.** Price does not move, and the competitive finding does not change the plan. The reasoning, which is right:
 
-This product **fails item 3 of the post-mortem's own product-selection checklist** — *"Not cheaper on Amazon. Ideally not on Amazon at all."* That is the check written specifically to prevent a repeat of tallow, and this product does not pass it.
+- **The incumbents do not advertise on Meta.** AirTap's $59.99 does not bid against us in any auction. Being the only register-fan brand buying attention on the platform *is* the competitive advantage — it is bought, not built, and it does not require better hardware.
+- **We will lose product-vs-product** against established brands with custom manufacturing and 3PL. That is conceded, not contested. It is the wrong ground to fight on.
+- **Amazon volume proves the demand is real** — validation the last product never had at this level.
+- **To a person who does not know this category exists, we are the only option**, because nobody else is in front of them.
 
-Three options, none free:
+**The leak was never competitive pressure — it is the buyer's own search behaviour**, and an unaware buyer cannot search for a thing they cannot name. So the correct response is not a lower price. It is **never handing them the vocabulary.** See 9a-i.
 
-| Option | Effect |
+**The checklist item stands as a known, accepted risk.** The post-mortem's *"not cheaper on Amazon"* rule is failed here. It is being accepted deliberately, with the reasoning recorded, inside the $600 cap — not overlooked. If the test dies on price-checking, that is the post-mortem entry, and this paragraph is the evidence it was a decision rather than a blind spot.
+
+## 9a-i. The comparison discipline — the real consequence
+
+**Do not teach the reader the category.** Every one of these hands an unaware visitor the search term that takes them to a cheaper Amazon listing:
+
+| 🚫 Never | ✅ Instead |
 |---|---|
-| **A. Hold $89.99** | Keeps CAC room at $56.15. Bets everything on never making the reader Solution Aware. High risk, highest upside if the avatar play works |
-| **B. Drop to $79.99 + $9.95** ($89.94 all-in) | CAC room $46.74, margin 52%. Narrows the gap without closing it |
-| **C. Stop** | The checklist says this is the failure mode that killed the last product |
+| Naming AC Infinity, SmartCocoon, AirTap, or "the $20 vent fan" | Name no competitor, at all, anywhere |
+| A "why not the cheap one" comparison section | Compare only against **the contractor quote** and **doing nothing** |
+| Leaning on "register booster fan" as the product name | Use our own name for it. If they search our words, they find us |
+| Spec/feature comparison of any kind | Banned already (Part 8, rule 4) |
 
-**My read:** B is not enough to win a comparison and costs $9.41 of CAC room, so it buys little. The real choice is between A and C, and it turns on one question — *can we keep a buyer from comparison-shopping long enough to convert?* That is unknowable without spend, which is an argument for testing it inside a hard cap rather than deciding it in a document. **The $600 cap now matters more than ever.**
+**The competitor to beat on the page is the $4,500 duct quote and the space heater — not another fan.** Those are the alternatives the reader already has in mind. The other fan only enters their mind if we put it there.
+
+**Category naming is an open item.** "Register booster fan" is the incumbents' SEO term and their Amazon search term. Candidates worth a decision: *Vent Thermostat*, *Room Balancer*, *Room Temperature Balancer*. Founder call.
 
 ## 9b. Research still needed
 
@@ -224,6 +245,6 @@ Three options, none free:
 |---|---|---|
 | **Verbatim for the solutions ladder** | The structure is solid, the language is thin. Reddit is blocked to this session | Chrome pass on r/HVAC, r/homeowners, r/hometheater, r/Renters — mine the *problem*, not the product |
 | **Cold-side language** | It is 16 September. The hot-room desire is off-season; the unit has a winter mode. Every quote we hold is about heat | Same pass, winter framing |
-| **Does AirTap/SmartCocoon advertise on Meta?** | Decides whether the avatar play is actually unserved | Meta Ad Library, both brands |
+| ~~Does AirTap/SmartCocoon advertise on Meta?~~ | ✅ **CLOSED 2026-09-16 — they do not.** This is the competitive advantage: we would be the only register-fan brand buying attention on Meta | Founder research |
 | **Two-pack one-label rate** | Bundle framing and default selection | Supplier |
 | **4×12 availability** | Likely the cheapest conversion gain available | Supplier |

@@ -12,7 +12,7 @@ Not "communicate benefits." A visitor arriving from a native ad has three specif
 
 1. **Is this actually my problem?** (They think their AC is broken, or that it's their fault.)
 2. **Will it fit my vent?** (The highest-friction step, and the top unspoken objection on any fitment product.)
-3. **Why not the AC Infinity or SmartCocoon one?** (⚠️ Re-scoped 2026-09-16: the real comparison is a $59.99-$74 branded unit **with an app**, not a $22 no-name. §10 is written against the wrong competitor and needs rebuilding — see `Brand_Mastery.md`.)
+3. **Is this better than doing nothing, or than the thousands-dollar fix?** (⚠️ **Re-scoped 2026-09-16.** This was *"why not the $22 one on Amazon?"* — that question is now deliberately **not answered and not raised.** Naming a cheaper category hands an unaware reader the search term. The alternatives in their head are the contractor quote and the space heater; those are the only comparisons the page makes. See `Brand_Mastery.md` §9a-i.)
 
 Anything on the page that doesn't serve one of those three is decoration.
 
@@ -41,7 +41,7 @@ Anything on the page that doesn't serve one of those three is decoration.
 | 7 | **Why one room is hotter** (mechanism) | The thing nobody has told them |
 | 8 | **Why a regular fan didn't work** | Pre-empt angle B |
 | 9 | Install — three steps | Kill the "is this a project?" fear |
-| 10 | **vs. the $4,500 quote / vs. the $22 fan** | Both comparisons, one section |
+| 10 | **vs. the $4,500 quote / vs. doing nothing** | The only two comparisons the page makes |
 | 11 | Guarantee | — |
 | 12 | FAQ | — |
 | 13 | Final CTA | — |
@@ -179,19 +179,31 @@ Photos, not illustrations. This section is also the install card's content — t
 
 ---
 
-## 10. Two comparisons
+## 10. What the alternatives cost
 
 > ### What the alternatives cost
 >
-> **Having a contractor look at it:** a diagnostic visit, then a quote. Rebalancing a duct run or adding a return is commonly quoted in the thousands. It may well be the right permanent fix. It is not a thing you do this week, in a room that's hot today.
+> **Having a contractor look at it:** a diagnostic visit, then a quote. Rebalancing a duct run or adding a return is commonly quoted in the thousands. It may well be the right permanent fix. It is not a thing you do this week, in a room that's wrong today.
 >
-> **Cooling the whole house harder:** turning the thermostat down two degrees to fix one room means paying to over-cool every room that was already fine, every hour the system runs.
+> **Conditioning the whole house harder:** moving the thermostat two degrees to fix one room means paying to over-heat or over-cool every room that was already fine, every hour the system runs.
 >
-> **The $20 vent fan:** it has no thermostat and no remote. It runs whenever it's plugged in, whether or not the duct is blowing, which means it runs at night and it runs when the system is off.
+> **A second appliance in the room:** a space heater or a portable AC works — and it's a second machine, a second bill, and something you have to look at every day in a house you already heat and cool.
 >
-> **This one has its own temperature setting.** You tell that room what temperature you want it to be. It runs when the duct is actually delivering and stops when it isn't. It's the closest thing to giving one room its own thermostat without opening a wall.
+> **Or nothing:** which is what most people do, for years.
 
-**This section carries the price-check answer**, and it has to be specification-based rather than a brand story. That is the lesson from the tallow post-mortem: a cheaper identical product one search away is fatal, so the product must not be identical. The thermostat and remote are what make it a different tier, so they belong in the comparison, not in a features list.
+### 🚫 What this section must NOT do — changed 2026-09-16
+
+The earlier version of §10 compared us to *"the $20 vent fan with no thermostat."* **That is deleted and must not come back.**
+
+It was written against the wrong competitor — the real one is a $59.99-$74 branded unit **with an app** — but the deeper problem is that **the comparison itself was the leak.** A reader who arrived not knowing this category exists cannot price-check it. Naming a cheaper version teaches them the category and hands them the search term. We were manufacturing our own comparison shop.
+
+**Rules for this section:**
+- **No competitor is named anywhere on the page.** Not AC Infinity, not SmartCocoon, not AirTap, not "the cheap ones."
+- **No spec or feature comparison**, against anyone.
+- **The only competitors this page acknowledges are the contractor quote, the thermostat, the space heater, and doing nothing** — because those are the alternatives already in the reader's head. Another fan only enters their head if we put it there.
+- **Do not lean on "register booster fan" as the product's name.** That is the incumbents' Amazon search term. Category naming is an open founder decision — candidates: *Vent Thermostat*, *Room Balancer*, *Room Temperature Balancer*.
+
+**Why this is the right call and not just caution:** per `Brand_Mastery.md` §9a, the incumbents do not advertise on Meta. We own the attention. The only realistic route by which a buyer discovers a cheaper option is a search *we* prompted.
 
 ---
 
