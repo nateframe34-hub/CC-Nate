@@ -186,6 +186,45 @@ What they have already tried, in the order they try it. **This is the most usefu
 
 **The single most valuable finding in the ladder:** rung 9. The homeowner paid a professional, the professional's fix didn't work, and they ended up with a space heater. That sequence is more persuasive than any claim we could make, and it is not ours — it's theirs.
 
+### 🔑 Phase 1 journey research, 2026-09-18 — three findings that outrank everything prior
+
+**Source:** Chrome journey pass. City-Data, Houzz, Mumsnet, MoneySavingExpert, DoItYourself, Heating Help, Ask MetaFilter, Quora. **Reddit was blocked at network level and contributed nothing.**
+
+⚠️ **Sampling caveat: the sample skews UK/hydronic.** Mumsnet and MoneySavingExpert are British and much of the material concerns *radiators* — bleeding, sludge, trickle vents. **UK housing is predominantly hydronic, not ducted, and our product only works on a forced-air ducted system.** The journey *shape* generalises across both; the *vocabulary* does not. Never lift radiator language into copy — it marks us as not understanding the reader's house.
+
+⚠️ **Quotes were machine-extracted; the report itself flags punctuation as approximate.** **Nothing below may be reproduced in a forum-screenshot creative without re-verifying it character-for-character against the source.** A misquote in a published ad is not recoverable.
+
+**1. 🚨 A booster fan WORKED and was REMOVED ANYWAY — over noise.**
+> *"[it] did help some but did generate some noise. The noise was irritating to my sound sensitive son so we unhooked it."* — Izzie1213, City-Data
+
+This is bigger than a claim problem. **Noise is how this category loses customers *after* the product succeeds.** Consequences:
+- The noise ban (Part 8) is confirmed by evidence, not just judgement.
+- **Sleep mode is an operational necessity, not a feature.** The install card must walk a buyer to the *lowest workable speed*, not the highest — the failure mode is a customer who runs it on max, can't sleep, and unhooks it.
+- Expect this in returns. A unit that works and gets removed still comes back.
+
+**2. A buyer who wanted it and COULDN'T FIT IT.**
+> *"couldn't use the recommended booster fan due to non-standard registers"* — bluesclues5, City-Data
+
+A documented lost sale on fitment, not price or persuasion. **This moves the 4×12 question from "cheapest conversion gain available" to a recorded failure mode.** Stocking decisions should be made against it.
+
+**3. ⭐ NOBODY REPORTS A RESOLUTION.**
+No thread in the sample ends with a solved problem. The endings are: a partial fix quietly undone, deferral (*"plan to move soon"*), or **silence — the asker never returns to say what happened.** Even professional intervention falls short: after a new boiler, new radiator vents and balancing, *"Temperature in the thermostat room still varies by 1-4 degrees"* (KK85, Heating Help).
+
+**This is the strongest support the permission angle has, and it is better than the self-blame quote because it is structural rather than anecdotal.** These people do not solve this. They stop talking about it. An ad that says *it isn't you* is addressing a reader whose entire evidence base says otherwise.
+
+**4. Two DIFFERENT flavours of self-blame — keep them apart.**
+- **Blame about cause:** *"I feel like it has to be something I'm doing."*
+- **Guilt about consequence:** alison, having sealed and closed off the cold room, *"beginning to wonder if that's just too cold, if it might be hurting the house in someway"*; Roxyrocks *"feeling quite guilty at the prospect of putting baby in"* the cold room.
+
+The second is new and it is sharper: the workaround that lowered the heating bill is the same workaround she now fears is causing damage. **The fix itself became a new worry.**
+
+**5. Supporting confirmations.**
+- **The first ask is a public forum, not a partner.** Nobody in the sample asked a spouse or family member first. Direct support for the forum-screenshot format (`Ad_Format_Strategy.md` format C).
+- **Still no thermostat-conflict evidence.** SA4 remains unevidenced across two independent research passes. Treat that as a finding.
+- **Contractor numbers confirmed:** *"somewhere between $3-4,000"* for ductwork, reaction *"That seems rather high"*; a second poster *"quoted over 3k"* (Houzz). Angle 3's premise is sourced.
+- **Space heaters and oil-filled radiators are the dominant cheap purchase**, confirming SA2 Angle 2. One poster heats *the bed* rather than the room — a workaround, not a fix.
+- **Asking a landlord is framed as adversarial and usually a dead end:** *"His landlord said a month ago that he would insulate the windows. Didn't happen."*
+
 **Research quality note:** this ladder is assembled from home-improvement forums and advice content, plus the Amazon reviews and the founder's own sequence. **Reddit is blocked to this session's tools**, so the verbatim layer is thinner than the structure. The ladder's *shape* is reliable; the *language* still needs a Chrome pass (see Part 9).
 
 ---
