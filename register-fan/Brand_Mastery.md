@@ -9,6 +9,8 @@
 > **Then resolved the same day.** The finding does **not** change the plan. The incumbents do not advertise on Meta; we would be the only register-fan brand buying attention there. We concede product-vs-product and compete on marketing. **Price holds at $89.99 / $159.99.** The one thing that genuinely changes is §9a-i: **never name a competitor or a cheaper version anywhere**, because the only realistic route to a price-check is a search we prompted.
 >
 > Sections 3, 4, 5, 8 and 9 carry the current state. Do not work from anything written before this date without checking it here first.
+>
+> 🚨 **2026-09-18 — THE SELF-BLAME PREMISE IS RETRACTED.** Phase 4 of the journey research searched for it directly three times and found **nothing**. It rested on ONE quote, which I elevated to a pattern and then built the lead angle and the avatar-innovation framing on top of. **These people blame the house, not themselves.** See Part 6, SA1 Angle 1 — the angle is rewritten, not deleted.
 
 ---
 
@@ -16,7 +18,7 @@
 
 **Physical product:** a register/vent cover with two built-in fans, a thermostat display, mode presets (winter / cooler / summer / fan / sleep) and a remote. White and bronze. 4×10 and 6×10. Replaces the existing register, plugs into a wall outlet.
 
-**Functional product — what they actually buy:** *one room that finally matches the rest of the house, without a contractor, without over-cooling every other room, and without admitting defeat and buying a space heater.*
+**Functional product — what they actually buy:** ⚠️ *(outcome language scaled down 2026-09-18 — see Part 8 rule 1b; "matches the rest of the house" is a burned claim)* — *a room that becomes genuinely comfortable to be in, without a contractor, without over-cooling every other room, and without admitting defeat and buying a space heater.*
 
 **Mechanism:** the register itself pulls. A room at the end of a duct run receives whatever pressure is left after every branch and bend; the fans draw that conditioned air the rest of the way in rather than waiting for the duct to push it.
 
@@ -95,6 +97,7 @@ Ranked honestly. The hardware is not on this list.
 1. **The explanation of why one room starves** *(strongest, unowned)*. Air is made at one place and loses pressure at every branch; the last room on the run gets a trickle. Checkable by the reader with their own hand, tonight. No competitor says it.
 2. **The permission shift** *(strongest emotional asset)*. *"It isn't you, and it isn't your AC."* Sourced verbatim: *"I'm on my 5th house/apartment where this has been the case. I feel like it has to be something I'm doing."* No competitor addresses self-blame, because competitors talk to people already past it.
 3. **Demonstrability** *(format asset)*. Two thermometers, several degrees apart, in one frame. Tallow had no demonstrable mechanism and it cost us (B32C3). We do. The incumbents run product shots instead.
+3b. **No app, no account, no cloud** *(NEW 2026-09-18 — a reversal)*. This was logged as us being outgunned. The burned-claims research says otherwise. The single sharpest quote in the whole project is a buyer describing cloud dependency as the failure: *"If your internet connection goes down, all the vents open and become dumb vents that you can no longer control… If [the company] goes out of business, you're screwed."* They rebuilt the entire system on non-cloud hardware afterwards. **For a buyer who has been through that, having no app is the feature.** It plugs in, it has a dial and a remote, and nothing about it stops working when a server does.
 4. **The offer** *(defensible, not ownable)*. Two-pack economics, 60-day guarantee, US shipping, an install card written in real English. Competitors' worst reviews are instruction failures.
 5. **~~Hardware specification~~ — NOT OURS.** We are outgunned and overpriced. No ad may compete on features.
 
@@ -113,9 +116,16 @@ Rules enforced: desire first · one desire per avatar · demographics last and u
 - **Verbatim:** *"I'm on my 5th house/apartment where this has been the case. I feel like it has to be something I'm doing."* · *"Saved us from reventing parts of our house."* · *"Amazing temp went from 73 to 69."*
 - **Awareness:** Unaware → Problem Aware.
 
-**Angle 1 — It isn't you, and it isn't broken.** ⭐ LEAD
-Reason to buy: their AC is fine and they aren't doing anything wrong, so the fix is delivery at one vent, not a repair or a habit.
-Hooks: *Your AC isn't broken. The cold air just isn't reaching that room.* · *One room hotter than the rest? It isn't you.* · *Put your hand on that vent. Air is coming out — it's just barely moving.*
+**Angle 1 — You were right about the room. Here's the part nobody told you.** ⭐ LEAD
+*(Rewritten 2026-09-18. Previously "It isn't you, and it isn't broken." The permission half is **retracted** — see below.)*
+
+Reason to buy: they already suspect the corner room / the long duct run / the distance from the furnace. Nobody has confirmed it or told them what follows from it. **Confirmation + explanation**, not absolution.
+
+Hooks: *Your furnace isn't broken. The warm air just isn't reaching that room.* · *The last room on the duct run gets whatever's left.* · *Put your hand on that vent. Air is coming out — it's just barely moving.*
+
+> 🚨 **RETRACTED: "It isn't you."** Two independent research passes failed to find a second instance of self-blame-about-cause. Phase 4 searched for it three times, directly, and reported: *"Every self-diagnosis quote blames the house (exposure, ducts, insulation, distance from furnace) or the builder, never the occupant's own behavior."* The original *"5th house… something I'm doing"* quote was **one person**, and I treated it as a pattern and built a strategy on it.
+>
+> **Consequence: an ad that opens with absolution answers an objection the reader does not have.** They already know it isn't them. Do not write it. The surviving beat is *you were right, and here is what nobody explained.*
 
 **Angle 2 — You shouldn't have to heat/cool the whole house for one room.**
 Reason to buy: stop paying to over-condition every room that was already fine.
@@ -186,6 +196,37 @@ What they have already tried, in the order they try it. **This is the most usefu
 
 **The single most valuable finding in the ladder:** rung 9. The homeowner paid a professional, the professional's fix didn't work, and they ended up with a space heater. That sequence is more persuasive than any claim we could make, and it is not ours — it's theirs.
 
+### 🔑 Phases 2-5 journey research, 2026-09-18 — what changed
+
+**The negative result is the headline. See the retraction in the header and in SA1 Angle 1.**
+
+**1. 🚨 Self-blame-about-cause: NOT FOUND.** Three direct searches. *"Every self-diagnosis quote blames the house (exposure, ducts, insulation, distance from furnace) or the builder, never the occupant's own behavior."* One quote, two failed replications. **Retracted.**
+
+**2. Guilt-about-consequence: CONFIRMED, sample of two, and the structure is sharp.** The guilt attaches to *the fix*, not the cold:
+> *"the room is so cold, been going down to 13° overnight and I'm feeling quite guilty at the prospect of putting baby in there as the weather gets even colder"* — Roxyrocks [RADIATOR/UK]
+> *"I'm beginning to wonder if that's just too cold, if it might be hurting the house in someway"* — alison, after sealing the room off [UNCLEAR]
+
+Both are people worrying that their workaround is harming something they are responsible for. Real, but n=2 — **do not build a batch on it**, and note the nursery one is subject to the safety claim ban.
+
+**3. They speak in DEGREES, not metaphors.** Four targeted searches for icebox / meat locker / fridge / sauna returned **nothing** in the posters' own words. What they reach for instead is a thermometer reading: *13° overnight*, *55 degrees*, *5 degrees colder*, *"Waaaay cooler"*.
+
+> ⭐ **This is a direct validation of format A (two thermometers).** A number-vs-number image is literally how this person describes their own problem. Do not build metaphor hooks — the evidence says they don't talk that way.
+
+**4. The vent-closing myth is CONTESTED — and that is the New Information play.**
+> Recommended: *"starting with the closest heating ducts to the furnace close them about 80%… But leave your cold room open"*
+> Rejected: *"You really can't close registers and think air (or enough air) will be 'forced' into a different part of the house."* · *"Closing a register to try and balance a system is not the proper way of accomplishing balancing."*
+> And one poster who tried it made a *different* room worse.
+
+They are receiving contradictory advice on the single most common free fix and cannot tell which camp is right. Correcting it is ours to own.
+
+**5. Fitment dead-ends, broadened.** *"That seems like a neat gadget, but unfortunately I have non-standard sized registers."* · *"I have a 4 x 16 register that I need to add a booster to. I can't seem to find one this size."* — and a professional replying that the fan is the wrong layer entirely. **Two documented lost sales on size.**
+
+**6. Still no resolution stories, on an active hunt.** The best outcomes found are hedged (*"didn't totally fix the problem, but made the room much more comfortable"*), and the most on-topic thread's original poster never returned. **Silence after purchase is the category norm** — which is also why a visible long-after-install testimonial would be unusually valuable if we ever earn one.
+
+**7. Sample honesty:** most patterns rest on 2-3 independent threads, not dozens. Reddit contributed zero across the whole project. Space heaters, window film and draft stoppers produced **no negative evidence** — treat that as unreachable review pages, **not** as those claims being safe.
+
+---
+
 ### 🔑 Phase 1 journey research, 2026-09-18 — three findings that outrank everything prior
 
 **Source:** Chrome journey pass. City-Data, Houzz, Mumsnet, MoneySavingExpert, DoItYourself, Heating Help, Ask MetaFilter, Quora. **Reddit was blocked at network level and contributed nothing.**
@@ -233,8 +274,17 @@ The second is new and it is sharper: the workaround that lowered the heating bil
 
 **1. 🚫 NOISE. Never marketed, in any asset, in any form.** Founder call 2026-09-16.
 Do not say quiet, whisper, silent, barely audible, "quieter than a box fan," or make any comparative noise claim. Do not put a decibel figure anywhere.
+
+**Nuance confirmed 2026-09-18 — the complaint is not volume, it is STRANGENESS.** *"It definitely makes a difference but makes an odd humming kinda sound that isn't like the regular noise of a fan."* A familiar fan noise is tolerated; an unfamiliar one is not. That is why "quiet" is the wrong axis entirely — a quiet *odd* sound still gets the unit unhooked.
 Two reasons: it does not address the problem we solve, and the incumbent's loudest review complaint is *"marketed as quiet but it is too loud."* **A quiet claim manufactures the exact disappointment that produces returns and one-star reviews.** Note that both AirTap and SmartCocoon do make quiet claims — this is a rung we deliberately step off.
 *If asked directly in support:* answer plainly that it is a fan and you will hear it, and that the lowest speed is the quietest setting. Honest, unprompted, never in marketing.
+
+**1b. 🚫 "FIXES" OR "MATCHES THE REST OF THE HOUSE" — scale every outcome claim down to PARTIAL.** Added 2026-09-18, and it contradicts our own earlier positioning line.
+- The flattest negative found in the category is a bare fix-claim failing: *"This fan did nothing to improve the temperature in my 12x14 bedroom."*
+- The **only** credible positive found in the entire project is hedged: *"It didn't totally fix the problem, but made the room much more comfortable."* (unaffiliated forum poster, nothing to gain).
+- Our own Part 1 line — *"one room that finally matches the rest of the house"* — is the burned claim almost word for word. **Rewrite outcome language to match what buyers actually report getting.** "Much more comfortable" is both more honest and more believable than "fixed," to a reader who has already been promised "fixed" once.
+
+**1c. 🚫 "SMART", CLOUD, APP-DEPENDENT FRAMING.** Not our product anyway — and actively burned. See Part 5 item 3b: the buyer fear is dependency on a company staying in business and a connection staying up. **Our lack of an app is an asset. Say what it does not need, never what it lacks.**
 
 **2. 🚫 Health, safety and risk.** No SIDS, safe sleep, danger, hazard. No air quality, allergens, filtration, dust, mould. The unit has no filter.
 
