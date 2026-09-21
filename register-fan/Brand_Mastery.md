@@ -142,7 +142,8 @@ Hooks: *Two screws and an outlet. Not a $4,500 quote.* · *Fix it this afternoon
 - **Emotion:** Frustration → **anger**, sharpened because it happens when they are least able to tolerate it.
 - **Behaviour:** Running a fan or space heater nightly. Sleeping under fewer or more covers than they want. Getting up to check the hallway and confirming it's only this room.
 - **Verbatim:** *"Her room is no longer a sauna."* · *"Husband used to complain all the time his room was to hot. Now he says it's to cold. lol"*
-- **Evidence note:** **nearly every outcome quote in the research names a bedroom.** This is the clearest unforced pattern in the data.
+- **Evidence note — with a correction to my own earlier read, 2026-09-21.** Nearly every quote across every pass names a **bedroom**: bluesclues5's, tjschuldt's son's, Roxyrocks' nursery, Brie's heated bed, CreditCardJunkie's north-facing bedroom, buttonedup's 55°F apartment bedroom. That much is overwhelming.
+  **But the bedroom is the SETTING, not the desire.** Most of them say *"this room is cold,"* not *"I can't sleep."* The sleep-disruption desire is thinner than I originally wrote. **Treat SA2 as SA1-in-a-bedroom until a test says otherwise**, and note that *"Fine at bedtime. Wrong by 2am"* is **my line, not a customer's.**
 - **Awareness:** Problem Aware.
 
 **Angle 1 — Right at bedtime, wrong by 2am.** ⭐ *sharpest line in the document*
@@ -157,20 +158,72 @@ Hooks: *Tell that room what temperature to be.* · *Set it once. Stop getting up
 
 > ⚠️ **Nursery is a DOOR into SA2, not an avatar.** Its intensity comes from safety, which is the trap the post-mortem names: the most urgent version of the problem is the least compliant. **Allowed:** room temperature, degrees, the monitor reading, the baby waking, sleeping through, not having to get up and check. **Banned:** SIDS, safe sleep, risk, danger, overheating-as-hazard, any health framing.
 
-## SA3 — The System You're Not Allowed To Touch ⚠️ HOLD
+## SA6 — Fixing It For Someone Else ⭐ NEW 2026-09-21
+
+- **Desire:** *I need this room to be right for someone I'm responsible for, and I can't control it.*
+- **Mass instincts:** **Relationships + Control.** Protective, not comfort-seeking — this is the one avatar where the buyer is **not the person in the cold room.**
+- **Experience:** A child's room, a baby's room, a partner's room, an elderly parent's room is the wrong temperature. They check it. They compensate for it. They research it on someone else's behalf.
+- **Emotion:** **Guilt**, and underneath it **fear** — not of discomfort but of failing someone. The strongest emotional material in the entire project.
+- **Behaviour:** Checking the room at night. Buying around the problem rather than fixing it (a warmer sleeping bag instead of a warmer room). Posting on a forum on another person's behalf. Disabling a fix that worked because it bothered the person it was meant to help.
+- **Verbatim:**
+  - *"the room is so cold, been going down to 13° overnight and I'm feeling quite guilty at the prospect of putting baby in there as the weather gets even colder"* — Roxyrocks
+  - *"I noticed last night that my son's room was very cold compared to the other rooms in the house"* — tjschuldt
+  - *"The noise was irritating to my sound sensitive son so we unhooked it"* — Izzie1213 *(removed a working fix to protect the same person it was for)*
+  - A parent buying a cold-rated baby sleeping bag rather than heating the room — WonderingWanda
+  - buttonedup researching and posting about **her boyfriend's** apartment, not her own
+- **Evidence strength:** **4 independent instances**, which is stronger than SA3 and comparable to SA2. Founder-identified 2026-09-21 after I twice folded it away as "a door into SA2" — it is not a door, it is a different desire.
+- **Awareness:** Problem Aware.
+
+> ⚠️ **This is NOT an "airflow" avatar.** Airflow is the mechanism. Nobody asks for airflow in their own words — they ask for the room to be right for the person sleeping in it.
+
+#### Angles
+
+**Angle 1 — You keep checking that room.**
+Reason to buy: the checking is the tell. It stops when the room holds a temperature on its own.
+Hooks: *You check that room before you go to bed.* · *The room you check. Every night.* · *It's the only room in the house you worry about.*
+
+**Angle 2 — You're buying around it instead of fixing it.**
+Reason to buy: a warmer sleeping bag, an extra blanket, a heater in the corner — all of it manages the room instead of changing it.
+Hooks: *A warmer sleeping bag doesn't make the room warmer.* · *You've been working around that room for two winters.*
+
+**Angle 3 — It's the one room you can't control.**
+Reason to buy: the thermostat governs the house, not that room. This gives that room its own number.
+
+> 🚨 **CLAIM DISCIPLINE — the strictest in the document.** This avatar's intensity comes from responsibility for a vulnerable person, which is precisely the trap named in `tallow-cream/POST_MORTEM.md`: the most urgent version of the problem is the least compliant.
+>
+> **Allowed:** room temperature, degrees, the thermostat or monitor reading, the person waking, sleeping through, not having to get up and check, "the only room you worry about."
+> **Banned outright:** SIDS, safe sleep, risk, danger, hazard, overheating-as-hazard, "keep your baby safe," anything health-framed, anything implying a medical consequence. Also banned here as everywhere: air quality, filtration, allergens.
+>
+> **The test:** we sell the not-worrying, never the thing they're worried about.
+
+---
+
+## SA3 — The System You're Not Allowed To Touch ⚠️ UPGRADED 2026-09-21
 
 - **Desire:** I want control over my room when I have no control over the building's system.
 - **Emotion:** the purest **anger-at-powerlessness** in the set.
 - **Verbatim (partial):** *"I'm on my 5th house/**apartment**…"*
-- **Blockers:** it replaces a fixture and needs an outlet. **Renters and basement suites are the viable slice; dorms and offices probably are not.** Confirm reversibility before spending.
+- **Evidence — upgraded.** Phase 3 produced **four independent landlord exchanges**, more than this avatar had when it was marked "hold":
+  - *"His landlord said a month ago that he would insulate the windows. Didn't happen."* · *"The landlord is generally non responsive or really hard to get in contact with."* — buttonedup
+  - *"I'll take a look at it"* — then nothing changed, on a $2,700/month NYC rental
+  - *"They won't raise the heat because they are 'dying' down there"* — a landlord keeping a third floor cold to avoid overheating lower floors
+  - One landlord who did compensate: *"bought them a portable radiator… and reduced their rent by $40"*
+- **The powerlessness is sharpest here.** In the third quote the occupant isn't even the person the system is being tuned for.
+- **Blockers:** it replaces a fixture and needs an outlet. **Renters and basement suites are the viable slice; dorms and offices probably are not.** Confirm reversibility before spending — and lead with "it goes back exactly how you found it."
 
-## SA4 — The Thermostat Standoff ⚠️ HYPOTHESIS — ride it, don't build on it
+---
+
+## SA4 — The Thermostat Standoff ⚠️ PARKED, NOT RETIRED (founder call 2026-09-21)
+
+> **Parked, not written off.** Untested is not disproven. Test SA1, SA6 and SA3 first — what they return will say more about whether this is real than another research pass would.
 
 - **Desire:** I want to stop arguing about the thermostat.
 - **Evidence:** **none.** Not one conflict quote surfaced. The one adjacent data point is affectionate, not adversarial.
 - **The trap:** the product only wins this argument when the two people are in **different rooms.** The version everyone pictures — two people, one room — is something we cannot fix. One line inside an SA1/SA2 ad. Never a premise.
 
-## SA5 — The Room That Feels Closed-Up ⚠️ UNEVIDENCED
+## SA5 — The Room That Feels Closed-Up ⚠️ PARKED, NOT RETIRED (founder call 2026-09-21)
+
+> **Parked, not written off**, on the same basis as SA4.
 
 The honest version of "air flow." **Airflow is the mechanism, not a desire** — nobody asks for airflow in their own words. **Excluded permanently:** allergies, air quality, filtration, dust. The unit has no filter.
 

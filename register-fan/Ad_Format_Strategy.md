@@ -89,6 +89,38 @@ The B17C1 register: an authorless object in a domestic scene, shot like a real p
 
 ---
 
+## 3b. TWO TIERS OF FORMAT — added 2026-09-21
+
+The portfolio above was built to answer one question: **what can we afford to deliver?** It is not built to answer the second one: **which avatar and which angle converts?**
+
+Natives and demonstrations are slow and expensive to produce. You cannot run eight of them to compare eight angles. **Angle and avatar testing needs formats where the argument is legible in an image plus one line, so a variant costs minutes.** That is a different toolkit and we did not have one.
+
+### Tier 1 — DELIVERY formats (A-F above)
+Few cells, higher production cost, answer *what does Meta serve cheaply.*
+
+### Tier 2 — MESSAGE formats (new)
+Many cells, near-zero production cost, answer *which avatar and angle lands.* Each carries exactly one idea.
+
+| # | Format | Why it tests messages well | Register |
+|---|---|---|---|
+| **G** | **Statement static** — one line of plain high-contrast type, no image | One line = one angle. The cheapest possible A/B of an idea. Ten variants in an hour | Typographic — maximally unlike a native |
+| **H** | **Two-panel comparison** — hallway thermometer vs bedroom thermometer, side by side | The research says they describe this in **degrees, not metaphors**. This is their own framing, and it carries in every placement | Documentary |
+| **J** | **Relatable / POV caption over a domestic photo** — e.g. a closed guest-room door | Extremely cheap, very high native-audience fit for homeowner targeting, and a register nobody in this category uses | Casual/social |
+| **L** | **Carousel** — frame 1 the problem, 2 why it happens, 3 what changes | **Built for New Information**, which is our required Stage 4 response. Different format pool from single-image static | Explanatory |
+| **M** | **Thermometer-walk video** — 15 seconds, walk from hallway to the problem room holding a thermometer, no voiceover | Demonstrable, needs **no product**, shoot it today with a $10 thermometer. Video inventory is the least native-saturated pool on the platform | Documentary |
+
+**⛔ Not in the portfolio:** text-message/DM screenshots. Killed on tallow — bad CTR and worse CPC. Do not revive.
+
+**⚠️ Handwritten/whiteboard formats: conditional.** Tallow's B32C3 died putting an *optical* claim on a whiteboard, because there was no physical process to draw. A hand-drawn **duct run** is a real spatial process, so the format may be viable here where it wasn't there — but it goes in the queue, not the first batch.
+
+### What this changes about the plan
+
+- **Formats G, H and M need no product, no persona page and no supplier photography.** They are shootable now. That matters against the Q4 clock.
+- **Angle and avatar testing moves to Tier 2**, which means we can test SA1 vs SA6 vs SA3 cheaply and in parallel rather than serially.
+- Tier 1 still runs first at a fixed angle, because delivery cost is still the thing that killed the last product.
+
+---
+
 ## 4. Batch 1 test design
 
 **Hold the angle constant. Vary the format.**
@@ -112,7 +144,19 @@ Four cells, $50/day, inside the $600 cap with room for a batch 2.
 - If C wins → attribution is the lever again, as it was on tallow, and that should shape everything.
 - If nothing clears the CAC read at ~$150 → stop, per the kill rules. Do not extend.
 
-**Batch 2:** winning format held constant, angle varied — SA1 Angle 2 and 3, plus SA2 Angle 1 (*"Fine at bedtime. Wrong by 2am."*).
+**Batch 2 — REVISED 2026-09-21: the avatar/angle test, run in TIER 2 formats.**
+
+Not "winning format held constant." Tier 2 exists precisely so this test is cheap and parallel. Run **statement statics (G)** and **two-panel comparisons (H)** across:
+
+| Cell | Sub-avatar | Angle |
+|---|---|---|
+| — | **SA1** | A3 — you don't need a contractor *(best-evidenced angle we have: $3-4k sourced)* |
+| — | **SA6** | A1 — you keep checking that room *(new, strongest emotion, strictest claim rules)* |
+| — | **SA6** | A2 — you're buying around it instead of fixing it |
+| — | **SA3** | control where the thermostat isn't yours *(4 landlord quotes)* |
+| — | **SA2** | the space heater beat *(well-evidenced; NOT the 2am line, which is ours not theirs)* |
+
+**SA4 and SA5 are parked, not retired** (founder call 2026-09-21). What SA1, SA6 and SA3 return will say more about whether they are real than another research pass would.
 
 ---
 
