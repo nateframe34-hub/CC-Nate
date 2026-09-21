@@ -341,9 +341,13 @@ Two reasons: it does not address the problem we solve, and the incumbent's loude
 
 **2. 🚫 Health, safety and risk.** No SIDS, safe sleep, danger, hazard. No air quality, allergens, filtration, dust, mould. The unit has no filter.
 
-**3. 🚫 Offer terms in any image.** No price, guarantee, return window, shipping terms, discount or CTA — not as overlay, not as diegetic text. The test: *could a person with nothing to sell have written this?*
+**3. Offer terms in the image — a TOF rule, not a ban.** *(Rescoped 2026-09-21, founder call. It was written as an absolute ban; that was an over-generalisation from one ad.)*
+- **At TOF:** keep price, guarantee, return window, shipping and discount out of the image. The reason is specific — the guarantee line on B33C3 made it read as an ad on sight to a cold reader. The test: *could a person with nothing to sell have written this?*
+- **At BOF:** put the offer in the image. That audience already knows what the product is; the offer is the reason to return. The Free Ad and Classy Offer are correct formats there.
 
-**4. 🚫 Feature competition — and 🚫 naming any competitor or cheaper version, anywhere.** No spec claims, no "unlike the cheap ones," no competitor brand names, in ads, on the PDP, in email or in support macros. We lose the feature comparison, and more importantly **the comparison only happens if we start it** — an unaware buyer cannot search for a category they cannot name. See §9a-i.
+**3b. No format is banned.** Formats have a funnel stage. The constraint on this account is **mix** — we are a new brand with no audience, so roughly two thirds of cells should be TOF. See `Format_Angle_Map.md`.
+
+**4. Naming a competitor — never at TOF, judgement call at BOF.** At TOF and on the PDP, no competitor brand names and no "unlike the cheap ones": an unaware buyer cannot search for a category they cannot name, and **the comparison only happens if we start it** (§9a-i). At BOF the reader has already seen us and probably already searched, so the same rule does not automatically apply. Feature/spec comparison stays off the table at any stage for a different reason — we lose it.
 
 **5. 🚫 Generated product imagery.** Nano Banana does scenes; the product is real photography only.
 

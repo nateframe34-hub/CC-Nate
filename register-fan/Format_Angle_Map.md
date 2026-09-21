@@ -6,35 +6,51 @@
 
 ---
 
-## The selection filter
+## The selection filter — FUNNEL STAGE, not bans
 
-Before matching anything, our own constraints knock out whole families of format. **This is the most useful part of the exercise** — it stops us reaching for a swipe-file format that our rules forbid.
+> **Corrected 2026-09-21, founder call.** An earlier version of this section listed formats as "disqualified." That was wrong and it was my error twice over: I took one observation — the guarantee line on B33C3 made it read as an ad — and turned it into a standing ban on whole format families, then carried it into a new product. **No format is banned. Formats have a funnel stage, and our problem is mix, not permission.**
 
-### ⛔ Disqualified outright
+**The real constraint: we are a new brand with no audience, so the account must be mainly TOF.** Ten of eighteen cells at BOF would be spending prospecting money on an audience that does not exist yet.
 
-| Format | Why it's out |
-|---|---|
-| **The Free Ad** | Puts offer terms in the image. Banned, Part 8 rule 3 |
-| **Classy Offer** | Same — the offer *is* the creative. Banned |
-| **Specific Pain Point** *(as executed in the swipe file)* | The reference execution pairs the pain line with a **price slash + guarantee badge**. The pain-naming half is usable; the promotional furniture is not |
-| **Stealing Credibility** | Requires naming a brand or trend. We never name a competitor (§9a-i), and there is no neutral cultural referent here |
-| **Minimal Us vs Them** *(against a product)* | Banned — no competitor named, no feature comparison. **But see below: it is allowed against the contractor quote**, which is a non-product alternative |
-| **Negative Review Inversion / Taboo / Common Saying Hijack** | All three are Brand-Aware or Product-Aware formats. We target Unaware → Problem Aware |
-| **Product Photography + Headline** | We have no product photography, and hero-product ads are the register the incumbents already own |
-| **Text-message / DM screenshot** | Killed on tallow — bad CTR, worse CPC |
+### Target mix across the 18
 
-### ✅ What the constraints leave, and why each survives
+| Stage | Target | Why |
+|---|---|---|
+| **TOF** | **~12 cells (⅔)** | Nobody knows us. Cold prospecting is the whole job at this stage |
+| **MOF** | ~4 cells | For people who engaged but didn't buy — comparison and education work here |
+| **BOF** | ~2 cells | Retargeting only. Small, but it should exist — a warm audience that never gets an offer is wasted |
 
-- **Indirect Avatar** — buyer ≠ user. Purpose-built for SA6.
-- **Infographic / educational** — New Information is our required Stage 4 response.
-- **This Is Not [Product]** — category reframing, Stage 4-5, and it happens to carry the box-fan pre-empt perfectly.
-- **Simplified Us vs Them** — two images, transformation, no competitor.
-- **Escalation / Exaggeration** — the workaround stack, and it's *true* here.
-- **Relatable Hook** — names a situation, not a feature.
-- **Solution Exaggeration** — staccato, specific, no product needed.
-- **Quote / Text-Heavy** — carries the attribution lever.
-- **Pubity Style** — feed-camouflage without long copy.
-- **Accidental Ideal Outcome** — understated by construction, which matches our rescaled claim.
+### Where each format actually sits
+
+| Format | Stage | Note |
+|---|---|---|
+| Native long-form | **TOF** | Its whole point is reaching someone cold |
+| Indirect Avatar | **TOF** | Buyer≠user callout to a cold reader |
+| Relatable Hook | **TOF** | Situation-naming, no prior knowledge needed |
+| Infographic / diagram | **TOF** | New Information to someone who doesn't have it |
+| This Is Not [Product] | **TOF** | Reframes before they know the category |
+| Escalation / Exaggeration | **TOF** | The workaround stack is recognisable cold |
+| Two-panel thermometer | **TOF** | Self-identification in one glance |
+| Solution Exaggeration | **TOF** | Claim-led, works cold |
+| Simplified Us vs Them | **TOF** | Transformation in two images |
+| Quote / Text-Heavy | **TOF** | Attribution lever, works cold |
+| Specific Pain Point | **TOF or BOF** | Pain-naming is TOF; the reference execution's price slash + guarantee badge makes it BOF |
+| Accidental Ideal Outcome | **TOF/MOF** | Understated, works either way |
+| Minimal Us vs Them | **MOF** | Comparison assumes they're weighing options |
+| Carousel | **MOF** | Multi-frame education for someone already curious |
+| Pubity Style | **TOF/MOF** | Camouflage, flexible |
+| **The Free Ad** | **BOF** ✅ | Back in. Offer-led to a warm audience is correct, not forbidden |
+| **Classy Offer** | **BOF** ✅ | Same. Premium offer framing for people who already know the product |
+| Product Photography + Headline | **BOF** | Still weak for us — it's the incumbents' register and we have no photography yet. Excluded on *merit*, not by rule |
+| Text-message / DM screenshot | any | **Excluded on evidence, not principle** — killed on tallow for bad CTR and worse CPC. Retestable if we ever want to |
+
+### The offer-terms rule, correctly scoped
+
+**At TOF:** keep price, guarantee, shipping and discount out of the image. Not because it's forbidden, but because it's what made B33C3 read as an ad on sight to a cold reader.
+
+**At BOF:** put the offer in the image. That audience knows who we are; the offer is the reason to come back.
+
+**Competitor naming** follows the same logic: never at TOF, where it teaches an unaware reader a search term (§9a-i). At BOF it's a judgement call, because that person has already seen us and probably already searched.
 
 ---
 
@@ -64,7 +80,7 @@ Six angles. Each gets one native and two non-natives in different visual registe
 | **Non-native 1** | **Minimal Us vs Them** *(against the quote, not a product)* | Left: "Them" — the itemised quote, *$3,400*, three days, someone in your house, *"somewhere between"*. Right: two screws and an outlet. **"None of that."** The Carepod structure exactly — list *their* problems, let the viewer infer our benefit |
 | **Non-native 2** | **Solution Exaggeration** | Staccato, specific, no product: **"Two screws. One outlet. Not $3,400."** Their own distrust is of the *vague range*, so our number is exact and theirs is the one that wobbles |
 
-**Why these two:** the price contrast is the entire angle, and both formats deliver a contrast without a product shot. Us-vs-Them against a *service quote* is the one use of that format our rules permit — the comparison the page is allowed to make is the contractor, the thermostat, the space heater and doing nothing.
+**Why these two:** the price contrast is the entire angle, and both formats deliver it without a product shot. **Us vs Them is a MOF format** — a comparison assumes the reader is weighing options — so this cell runs to engagers, not cold. Against a *service quote* rather than a product, it also sidesteps the search-vocabulary problem at any stage.
 
 ---
 
@@ -138,6 +154,28 @@ Six angles. Each gets one native and two non-natives in different visual registe
 
 ---
 
+## MOF and BOF — the rest of the mix
+
+The eighteen above are overwhelmingly TOF, which is right for a brand nobody knows. But a warm audience that never gets an offer is wasted spend, so the account needs a small tail.
+
+### MOF — for engagers who didn't buy
+
+| Format | Angle it carries |
+|---|---|
+| **Minimal Us vs Them** vs the $3,400 quote | Angle 1 — the comparison they're now actually making |
+| **Carousel** — problem → why → what changes | Angle 2 — the full New Information argument, for someone already curious |
+
+### BOF — retargeting only, 2 cells
+
+| Format | Execution |
+|---|---|
+| **The Free Ad** | Offer-led, outcome callouts around it. **Offer terms in the image are correct here** — this person knows what the product is and needs a reason to come back |
+| **Classy Offer** | The 2-pack framed as a choice rather than a discount: *"One room, or both?"* Per the swipe file, elegant language beats promotional language — *"most problem rooms have more than one vent"* is already the on-strategy line |
+
+Both are formats I wrongly listed as disqualified. They were never TOF candidates; they're BOF, and at BOF they're correct.
+
+---
+
 # Register spread — the anti-familiarity check
 
 The point of the portfolio is that no two cells look alike. Across the 18:
@@ -175,10 +213,12 @@ No product, no persona, no supplier photography required:
 
 18 cells is far beyond one test. Ship in waves:
 
-**Wave 1 — 4 cells, no persona needed, shootable now.** Angle 1 Solution Exaggeration · Angle 2 This Is Not · Angle 3 Escalation stack · Angle 4 Two-panel thermometer. One cell from each of the four strongest angles, four different registers, $50/day.
+**Wave 1 — 4 TOF cells, no persona needed, shootable now.** Angle 1 Solution Exaggeration · Angle 2 This Is Not · Angle 3 Escalation stack · Angle 4 Two-panel thermometer. One cell from each of the four strongest angles, four different registers, $50/day. **All TOF — there is no audience to retarget yet.**
 
-**Wave 2 — the natives**, once the persona page exists, against whichever angle Wave 1 favoured.
+**Wave 2 — the natives** (TOF), once the persona page exists, against whichever angle Wave 1 favoured.
 
-**Wave 3 — the remainder**, funded by what Wave 1 and 2 teach.
+**Wave 3 — MOF and BOF**, once Waves 1-2 have built an audience worth retargeting. Not before: a BOF cell with no warm pool to serve is a cell that spends nothing and teaches nothing.
+
+**Funnel mix check at every wave:** if BOF creeps past ~2 cells before there is a real retargeting pool, we are building for an audience that does not exist.
 
 This inverts the earlier batch-1 plan (hold angle, vary format) into **hold nothing, vary both** — justified because each of the four Wave 1 cells is a different angle *and* a different register, so a clear winner tells us about both at once, and a flat result tells us the offer is the problem rather than the creative.
