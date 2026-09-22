@@ -154,7 +154,7 @@ Contractor quote (thousands, and it's not happening this week) · turning the th
 
 | Swipe-file standard | Our call |
 |---|---|
-| Reviews above the fold | **Can't — we have none.** Add the week the first real one exists |
+| Reviews above the fold | **Can't — we have none.** Add the week the first real one exists. **Mockup placeholders live in `store/PLACEHOLDER_reviews_DO_NOT_PUBLISH.md` — design only, every entry marked `[PH]`, grep for it before any deploy** |
 | UGC / real faces | None yet |
 | Cross-sell "you may also like" | Single product. Revisit at two SKUs |
 | Retail / press logos | None |
