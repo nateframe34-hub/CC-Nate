@@ -1,6 +1,8 @@
-# Launch Batch 1 — SA1, All Angles
+# Launch Campaign — SA1, All Angles
 
-**Created:** 2026-09-22 · **Restructured 2026-09-22 (founder call)**
+**Created:** 2026-09-22 · **Restructured 2026-09-22, renamed 2026-09-23 (founder calls)**
+
+> **Naming convention, founder 2026-09-23: ONE BATCH = ONE ANGLE = ONE AD SET.** Batch 1 is Angle 1, Batch 2 is Angle 2, Batch 3 is Angle 3 — each holding exactly **1 native + 2 non-native**. This file is the *campaign* plan, not a batch; the creatives live in `ads/batch-1/`, `ads/batch-2/` and `ads/batch-3/`. (This file was previously called `Launch_Batch_1.md`, which collided with the convention.)
 **Reads against:** `Brand_Mastery.md`, `Offer_Structure.md`, `Format_Angle_Map.md`, `Launch_Plan.md`.
 
 > **Structure correction.** An earlier version of this file sequenced an angle test and then a format test, on the grounds that $600 split nine ways yields under one purchase per cell. **That was wrong, because it costed each ad as its own budget line.** With the **ad set as the angle** and three ads inside it, the angle receives the full ad-set budget and Meta allocates impressions between the three formats itself. Angle, format and (when extended) sub-avatar are all testable in one campaign.
@@ -14,20 +16,20 @@
 ```
 CAMPAIGN — Register Fan | SA1 | Purchase | ABO
 │
-├── AD SET 1 — Angle A3: "You don't need a contractor"      $20/day
-│     ├── Ad 1  Native long-form                    [persona page]
-│     ├── Ad 2  Solution Exaggeration (typographic)  [brand page]
-│     └── Ad 3  Minimal Us vs Them — vs the quote    [brand page]
+├── AD SET 1 = BATCH 1 — Angle 1: "You don't need a contractor"  $20/day
+│     ├── B1C1  Native long-form                    [persona page]
+│     ├── B1C2  Solution Exaggeration (typographic)  [brand page]
+│     └── B1C3  Minimal Us vs Them — vs the quote    [brand page]
 │
-├── AD SET 2 — Angle A1: "You were right about the room"    $20/day
-│     ├── Ad 1  Native long-form                    [persona page]
-│     ├── Ad 2  Duct-run diagram (explanatory)       [brand page]
-│     └── Ad 3  This Is Not [The Product] (reframe)  [brand page]
+├── AD SET 2 = BATCH 2 — Angle 2: "You were right about the room" $20/day
+│     ├── B2C1  Native long-form                    [persona page]
+│     ├── B2C2  Duct-run diagram (explanatory)       [brand page]
+│     └── B2C3  This Is Not [The Product] (reframe)  [brand page]
 │
-└── AD SET 3 — Angle A2: "Don't heat the whole house"       $20/day
-      ├── Ad 1  Native long-form                    [persona page]
-      ├── Ad 2  Two-panel thermometer (documentary)  [brand page]
-      └── Ad 3  Relatable Hook (typographic)         [brand page]
+└── AD SET 3 = BATCH 3 — Angle 3: "Don't heat the whole house"   $20/day
+      ├── B3C1  Native long-form                    [persona page]
+      ├── B3C2  Two-panel thermometer (documentary)  [brand page]
+      └── B3C3  Relatable Hook (typographic)         [brand page]
 ```
 
 **$60/day. 7 days = $420.** Reserve $180 of the $600 cap for extending whatever wins.
