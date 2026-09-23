@@ -75,23 +75,40 @@ At Stage 4 the three responses are New Mechanism, New Information, New Identity.
 
 ---
 
-# PART 4 — AWARENESS
+# PART 4 — AWARENESS ⚠️ CORRECTED 2026-09-23
 
-| Level | Who | What the ad must do | Our position |
+> **Founder correction, and it fixes a definitional error, not just a targeting preference.** The earlier version of this table listed **Unaware as "our home turf"** and **Solution Aware as "avoid — and never create."** Both were wrong, because I had **conflated Solution Aware with Product Aware.**
+>
+> **Solution Aware ≠ knows our category exists.** Solution Aware means they know solutions to their problem exist and have *tried some* — a box fan, blackout curtains, closing the other vents, a space heater. **That is our prime target**, not a state to avoid.
+
+| Level | Who they are | Target? | What the ad must do |
 |---|---|---|---|
-| **Unaware** | Thinks their AC is undersized, or that it's their fault | Name the problem, remove the blame | **Our home turf.** Genuinely large and genuinely unserved |
-| **Problem Aware** | Knows one room is hot, doesn't know why | Explain the duct run — New Information | **Primary target** |
-| Solution Aware | Knows booster fans exist | Differentiate — **we lose here on features and price** | **Avoid — and never create.** See 9a-i |
-| Product Aware | Comparing AirTap vs SmartCocoon | Why this one — **we have no answer** | Avoid |
-| Most Aware | Ready to buy, wants a deal | Offer | Retargeting only |
+| **Unaware** | — | ❌ **Not a real segment here** | Nobody is unaware their bedroom is cold. They sleep in it. This level does not exist for a problem you feel daily |
+| **Problem Aware** | Knows the room is wrong. Doesn't know why | ✅ **Target** | Recognition, then the mechanism — the duct run |
+| **Solution Aware** | **Has already tried things and none worked.** Fan, curtains, closed vents, space heater. Knows solutions exist; hasn't found one | ⭐ **PRIME TARGET** | Name the failed attempt, explain *why* it failed, then the mechanism |
+| **Product Aware** | Knows register booster fans are a category. Comparing brands | ❌ **Avoid — and never create** | We lose here on price and features. **This is the leak, not Solution Aware** |
+| **Most Aware** | Knows us, needs a reason now | Retargeting only | The offer |
 
-**⭐ THE LADDER MODEL (founder, 2026-09-23).** **Purchases happen at Most Aware.** Every ad's job is to move someone further up this table. What changes by funnel stage is **how many rungs it has to climb, and that sets how much room is left for the offer:** TOF climbs the whole ladder → value framing is a **light closing nudge**; MOF climbs two or three → **medium**; BOF climbs one → **value framing can be the creative.**
+## Why Solution Aware is the best segment we have
 
-**The unit that climbs is AD + PAGE, not the ad alone.** The TOF ad gets them from Unaware to wanting to know more (recognition + mechanism) — that earns the click. **The PDP does Solution → Product → Most Aware.** This is why congruence is structural rather than aesthetic: a page that restarts the argument makes them climb the same rung twice.
+1. **They have already spent money on this problem.** A space heater, an oil radiator, window film, a heated throw. Willingness to pay is proven, not hoped for.
+2. **Every failed attempt is hook material.** *"You already tried a fan in there"* is instant relatability and it is true of nearly all of them.
+3. **Their failures are evidence FOR our mechanism, not against it.** A box fan moved the cold air already in the room. That's why it didn't work — and explaining that converts their disappointment into belief.
+4. **We don't have to establish the problem.** That's creative real estate saved for the mechanism and the close.
 
-**This reframes §9a-i.** We are **not** avoiding Solution Awareness — we are refusing to let it happen *outside our funnel*. They should become Solution Aware on our page reading our explanation, not in a search tab reading someone else's listing.
+## The leak is PRODUCT awareness, not solution awareness
 
-**The operating rule this produces:** every ad must land on an **Unaware or Problem Aware** reader and must carry them all the way to purchase *inside our funnel*. The moment a visitor becomes Solution Aware and opens a new tab, we lose — because the comparison is $59.99 with an app against $99.94 without one. **Critically, the most likely thing to MAKE them Solution Aware is our own copy.** They cannot search for a category they cannot name. Do not name it for them (9a-i).
+**Re-scoping §9a-i.** The risk was never that a reader understands solutions exist — they already do. The risk is handing them **the category's name**, which is searchable and resolves to a $59.99 listing.
+
+> **Make them Solution Aware on our page. Never make them Product Aware anywhere.**
+
+Practically: explain the mechanism freely, describe what the thing does freely — but do not call it a "register booster fan," do not name a competitor, and do not reference a cheaper version of the category.
+
+## What this does to the ladder model
+
+TOF climbs from **Problem/Solution Aware → Most Aware**, which is two or three rungs, not five. So a TOF ad has somewhat **more** room for a value nudge than the earlier version of the ladder implied — consistent with the founder's call that TOF should carry a light CTA-weight value line.
+
+**The unit that climbs is still AD + PAGE.** The ad does recognition, the failed-attempt beat and the mechanism; the page does Product-equivalent conviction and the close.
 
 ---
 

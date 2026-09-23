@@ -6,7 +6,13 @@
 
 ## The reader we are actually writing to
 
-At TOF they **do not know our product exists and do not care that it does.** They know one thing: a room in their house is the wrong temperature and they've been living with it. Nothing about our hardware interests them yet.
+At TOF they are **Problem Aware or Solution Aware — never Unaware, never Product Aware** (corrected 2026-09-23, see `Brand_Mastery.md` Part 4).
+
+They know their room is the wrong temperature — they sleep in it. Most have **already tried things**: a box fan, blackout curtains, closing the vents in the other rooms, a space heater. None of it worked. **They do not know our product exists and do not care that it does yet.**
+
+**Two consequences for every static:**
+1. **Don't spend space establishing the problem.** They're living in it. Recognition is one line, not a paragraph.
+2. **Their failed attempts are the best hook material we have** — and their failures are evidence *for* our mechanism, not against it. A fan moved the cold air already in the room; that's *why* it didn't work.
 
 So an ad that leads with easy installation gets scrolled past — **not because easy installation is bad, but because it answers a question they haven't asked yet.** Install ease is a *nice-to-have that removes friction after they want the thing.* It is never the reason they stop.
 
@@ -51,7 +57,7 @@ Two levers, both honest:
 
 | Stage | Starts at | Rungs to climb | Job 3 weight |
 |---|---|---|---|
-| **TOF** | Unaware / Problem Aware | **The whole ladder** | **Light — a closing nudge, CTA-weight.** Almost all the space goes to recognition + mechanism |
+| **TOF** | **Problem Aware / Solution Aware** | Two or three rungs | **Light — a closing nudge, CTA-weight.** Most of the space goes to the failed-attempt beat + mechanism |
 | **MOF** | Solution Aware | Two or three | **Medium.** Comparison and value can take real estate |
 | **BOF** | Product Aware / Most Aware | One | **Heavy.** Value framing can BE the creative — The Free Ad, Classy Offer |
 
@@ -61,7 +67,7 @@ Two levers, both honest:
 
 A TOF static cannot carry someone from Unaware to Most Aware by itself, and it shouldn't try — an ad that attempts the whole journey is a cluttered ad.
 
-- **The TOF ad's job:** get them from Unaware/Problem Aware to **wanting to know more** — recognition plus mechanism. That's enough to earn the click.
+- **The TOF ad's job:** get them from Problem/Solution Aware to **wanting to know more** — name the failed attempt, explain why it failed, give the mechanism. That's enough to earn the click.
 - **The PDP's job:** Solution Aware → Product Aware → Most Aware. The mechanism section, the fit step, the alternatives, the guarantee.
 
 This is why **congruence matters structurally, not aesthetically.** If the page restarts the argument instead of continuing it, the reader has to climb the same rung twice.
@@ -70,9 +76,11 @@ This is why **congruence matters structurally, not aesthetically.** If the page 
 
 §9a-i reads as *"avoid making them Solution Aware."* That looks like it contradicts the goal of driving everyone to Most Aware. It doesn't:
 
-> **We are not avoiding Solution Awareness. We are refusing to let it happen outside our funnel.**
+> **Corrected 2026-09-23: the leak is PRODUCT awareness, not Solution awareness.**
+>
+> Solution Aware is our prime target — they've tried things and nothing worked. What we must never create is **Product awareness**: the category's searchable name, which resolves to a $59.99 listing.
 
-They should become Solution Aware on *our page*, reading *our* explanation — not in a search tab, reading someone else's listing. Same rule, better reason, and it means the PDP has to do that job properly rather than dodge it.
+**Make them Solution Aware on our page. Never make them Product Aware anywhere.** Explain the mechanism freely; never call it a "register booster fan," never name a competitor, never reference a cheaper version of the category.
 
 ---
 
