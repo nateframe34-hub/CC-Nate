@@ -85,6 +85,12 @@ At Stage 4 the three responses are New Mechanism, New Information, New Identity.
 | Product Aware | Comparing AirTap vs SmartCocoon | Why this one — **we have no answer** | Avoid |
 | Most Aware | Ready to buy, wants a deal | Offer | Retargeting only |
 
+**⭐ THE LADDER MODEL (founder, 2026-09-23).** **Purchases happen at Most Aware.** Every ad's job is to move someone further up this table. What changes by funnel stage is **how many rungs it has to climb, and that sets how much room is left for the offer:** TOF climbs the whole ladder → value framing is a **light closing nudge**; MOF climbs two or three → **medium**; BOF climbs one → **value framing can be the creative.**
+
+**The unit that climbs is AD + PAGE, not the ad alone.** The TOF ad gets them from Unaware to wanting to know more (recognition + mechanism) — that earns the click. **The PDP does Solution → Product → Most Aware.** This is why congruence is structural rather than aesthetic: a page that restarts the argument makes them climb the same rung twice.
+
+**This reframes §9a-i.** We are **not** avoiding Solution Awareness — we are refusing to let it happen *outside our funnel*. They should become Solution Aware on our page reading our explanation, not in a search tab reading someone else's listing.
+
 **The operating rule this produces:** every ad must land on an **Unaware or Problem Aware** reader and must carry them all the way to purchase *inside our funnel*. The moment a visitor becomes Solution Aware and opens a new tab, we lose — because the comparison is $59.99 with an app against $99.94 without one. **Critically, the most likely thing to MAKE them Solution Aware is our own copy.** They cannot search for a category they cannot name. Do not name it for them (9a-i).
 
 ---

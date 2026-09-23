@@ -43,13 +43,54 @@ Two levers, both honest:
 
 ---
 
+## The awareness ladder decides how much value framing an ad gets
+
+**Founder model, 2026-09-23. This is the rule that sets the weight of Job 3.**
+
+**Purchases happen at Most Aware.** Every ad's job is to move someone further up the ladder toward it. What changes by funnel stage is **how many rungs the ad has to climb** — and that determines how much of the creative is left over for value.
+
+| Stage | Starts at | Rungs to climb | Job 3 weight |
+|---|---|---|---|
+| **TOF** | Unaware / Problem Aware | **The whole ladder** | **Light — a closing nudge, CTA-weight.** Almost all the space goes to recognition + mechanism |
+| **MOF** | Solution Aware | Two or three | **Medium.** Comparison and value can take real estate |
+| **BOF** | Product Aware / Most Aware | One | **Heavy.** Value framing can BE the creative — The Free Ad, Classy Offer |
+
+**The principle in one line: the more awareness ground an ad has to cover, the less room it has for the offer.**
+
+### ⭐ The unit that climbs the ladder is AD + PAGE, not the ad alone
+
+A TOF static cannot carry someone from Unaware to Most Aware by itself, and it shouldn't try — an ad that attempts the whole journey is a cluttered ad.
+
+- **The TOF ad's job:** get them from Unaware/Problem Aware to **wanting to know more** — recognition plus mechanism. That's enough to earn the click.
+- **The PDP's job:** Solution Aware → Product Aware → Most Aware. The mechanism section, the fit step, the alternatives, the guarantee.
+
+This is why **congruence matters structurally, not aesthetically.** If the page restarts the argument instead of continuing it, the reader has to climb the same rung twice.
+
+### It also resolves the §9a-i tension
+
+§9a-i reads as *"avoid making them Solution Aware."* That looks like it contradicts the goal of driving everyone to Most Aware. It doesn't:
+
+> **We are not avoiding Solution Awareness. We are refusing to let it happen outside our funnel.**
+
+They should become Solution Aware on *our page*, reading *our* explanation — not in a search tab, reading someone else's listing. Same rule, better reason, and it means the PDP has to do that job properly rather than dodge it.
+
+---
+
 ## ⚠️ This changes the TOF offer-terms rule — read it
 
 Part 8.3 says keep offer terms out of TOF images, from the B33C3 lesson where a guarantee line made the ad read as an ad instantly.
 
 **That lesson was about compliance furniture, not about value.** A guarantee strip along the bottom is a badge bolted on. *"$80 for the room you've been avoiding for three winters"* is an argument.
 
-**Resolved:** at TOF, **value framing is allowed when it is part of the argument** — price as a comparison against the alternative, or per-room cost. **Still not allowed:** guarantee badges, shipping strips, discount flashes, countdown timers, CTA buttons drawn into the image. The test is unchanged — *could a person with nothing to sell have written this?* Someone recommending a fix to a friend absolutely says what it cost. They don't say "60-DAY MONEY BACK GUARANTEE" in a yellow box.
+**Resolved, and calibrated by stage:**
+
+**At TOF — value framing is allowed but LIGHT.** One line, CTA-weight, carried in the same voice as the rest of the ad. A price stated plainly is fine; a price given its own band, badge or emphasis is not. Someone recommending a fix to a friend says what it cost — they don't build it a panel.
+
+**At MOF and BOF — value framing can take real estate**, because those readers have fewer rungs left to climb and the offer is closer to being the message.
+
+**Never at any stage:** guarantee badges, shipping strips, discount flashes, countdown timers, CTA buttons drawn into the image. That is the compliance furniture that made B33C3 read as an ad on sight — **it was the badge, not the number.**
+
+The test is unchanged: *could a person with nothing to sell have written this?*
 
 ---
 
@@ -74,10 +115,12 @@ Every one now has three zones. Same angles, same formats, same brand system — 
 > That room is last on the duct run. By the time air reaches it, there's barely any left.
 
 **Zone 3 — CHANNEL:**
-> **The vent pulls it the rest of the way in. Six degrees, for eighty-nine.**
+> The vent pulls it the rest of the way in. **Six degrees warmer, for $89.**
 > *Before the first hard freeze.*
 
-> **Design:** 4:5, warm off-white `#FAF7F2`. Top 45%: the headline in very large Archivo bold near-black, `$3,400` in terracotta mono tabular. Middle 25%: the mechanism line in small Inter, muted, with a minimal inline arrow motif showing air weakening across four vents. Bottom 30%: terracotta band, white Archivo, `Six degrees` and `eighty-nine` emphasised, with the seasonal line small beneath. Small wordmark. **No guarantee badge, no shipping strip, no CTA button, no countdown.**
+*(TOF weight: one line, no band, no badge. The price sits in the sentence, not in a panel.)*
+
+> **Design:** 4:5, warm off-white `#FAF7F2`. Top 45%: the headline in very large Archivo bold near-black, `$3,400` in terracotta mono tabular. Middle 25%: the mechanism line in small Inter, muted, with a minimal inline arrow motif showing air weakening across four vents. Bottom 30%: warm off-white, near-black Archivo with `Six degrees` in terracotta mono; the price set inline at body weight, **not emphasised and not banded**; seasonal line small beneath. Small wordmark. **No guarantee badge, no shipping strip, no CTA button, no countdown.**
 
 **Why it should work:** the stop is their own number with the vagueness stripped out; the inform answers "why would a vent cover fix a $3,400 problem"; the channel converts it with a cost contrast and a deadline the weather sets.
 
@@ -94,8 +137,10 @@ Right, **This**: **Six degrees warmer.**
 **Zone 2 — INFORM:** beneath the right panel, small:
 > It pulls the warm air your furnace already made into the room that never gets it.
 
-**Zone 3 — CHANNEL:** full-width strip:
+**Zone 3 — CHANNEL:** one line beneath the split — **not a full-width strip**:
 > **$89 for the room. Before the cold sets in properly.**
+
+*(Was a strip. Downgraded to a line: at TOF the offer gets a nudge, not furniture.)*
 
 > **Design:** 4:5. Left half warm grey `#EDE9E3`, right half terracotta `#B4553A`. Dollar figures mono tabular. "Two screws and an outlet" survives as 40%-opacity small print beneath the right panel — friction removal *after* the outcome, never as the headline.
 
