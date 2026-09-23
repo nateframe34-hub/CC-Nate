@@ -205,7 +205,7 @@ No product, no persona, no supplier photography required:
 - **Infographic** (Angle 2) — drawn
 - **This Is Not** (Angle 2) — type + a vent photo
 
-**Blocked:** all six natives and the Quote cell need the **persona page**. The Indirect Avatar cell does not.
+✅ **Unblocked 2026-09-23:** the natives and the Quote cell run from the existing **Julie Brennan** page. Founder call.
 
 ---
 
@@ -215,7 +215,7 @@ No product, no persona, no supplier photography required:
 
 **Wave 1 — 4 TOF cells, no persona needed, shootable now.** Angle 1 Solution Exaggeration · Angle 2 This Is Not · Angle 3 Escalation stack · Angle 4 Two-panel thermometer. One cell from each of the four strongest angles, four different registers, $50/day. **All TOF — there is no audience to retarget yet.**
 
-**Wave 2 — the natives** (TOF), once the persona page exists, against whichever angle Wave 1 favoured.
+**Wave 2 — the natives** (TOF), running from the Julie Brennan page, against whichever angle Wave 1 favoured.
 
 **Wave 3 — MOF and BOF**, once Waves 1-2 have built an audience worth retargeting. Not before: a BOF cell with no warm pool to serve is a cell that spends nothing and teaches nothing.
 

@@ -38,7 +38,7 @@ The kill rules still govern this spend at today's economics. But **"consistent 1
 
 ---
 
-## B1C1 — Native long-form ⚠️ needs persona page
+## B1C1 — Native long-form · runs from the Julie Brennan page
 
 **Format:** Native / camouflage, long primary text · **TOF** · **Right column EXCLUDED** (can't render primary text)
 
@@ -74,12 +74,14 @@ Homeowner with one cold room. Two winters of putting it off. Gets a contractor o
 
 **The creative:**
 
-> ## Two screws and an outlet.
+> ## Six degrees warmer.
 > ## Not $3,400.
 
-Terracotta on warm off-white, Archivo, very large, nothing else in frame. `$3,400` in mono tabular figures. No product, no logo lockup beyond a small wordmark, no offer terms.
+Terracotta on warm off-white, Archivo, very large, nothing else in frame. Both **`Six degrees`** and **`$3,400`** in mono tabular figures.
 
-> **Design direction:** *Plain typographic static, 4:5. Warm off-white background `#FAF7F2`. Two lines of large, tightly-set Archivo bold in near-black `#1C1A17`, left-aligned, generous margins. "$3,400" set in monospace tabular figures, in terracotta `#B4553A`. Small Evenroom wordmark bottom-left in terracotta at 40% scale of body. Nothing else. No product, no icon, no badge, no price, no CTA.*
+**Why this line and not "Two screws and an outlet. Not $3,400."** That earlier version led with an *install feature*. Per Part 8.1d the outcome leads: what they want is a warmer room, not an easier screwdriver. "Two screws" survives in the primary text, where it removes friction *after* the outcome has done the selling. No product, no logo lockup beyond a small wordmark, no offer terms.
+
+> **Design direction:** *Plain typographic static, 4:5. Warm off-white background `#FAF7F2`. Two lines of large, tightly-set Archivo bold in near-black `#1C1A17`, left-aligned, generous margins. "Six degrees" and "$3,400" both set in monospace tabular figures, "$3,400" in terracotta `#B4553A`. Small Evenroom wordmark bottom-left in terracotta at 40% scale of body. Nothing else. No product, no icon, no badge, no price, no CTA.*
 
 **Primary text direction:** the short version of the native — the quote, the vagueness, the duct run, the partial result. 120-180 words.
 
@@ -107,11 +109,13 @@ Left panel, labelled **The quote**:
 - Booked for next month
 
 Right panel, labelled **This**:
-- **Two screws.**
+- **Six degrees warmer.**
 
-> **Design direction:** *Split static, 4:5. Left half warm grey `#EDE9E3`, right half terracotta `#B4553A`. Left: four short lines in near-black, each with a small dash, "The quote" as a small caps label above. Right: "This" as the label, then "Two screws." in large white Archivo bold, huge whitespace beneath. Dollar figures in monospace tabular. No product, no price for our item, no CTA, no badge.*
+*(Was "Two screws." — an install feature. The outcome leads; "two screws" moves to the small print beneath, where it removes friction after the outcome has sold.)*
 
-**Headline:** *Two screws.*
+> **Design direction:** *Split static, 4:5. Left half warm grey `#EDE9E3`, right half terracotta `#B4553A`. Left: four short lines in near-black, each with a small dash, "The quote" as a small caps label above. Right: "This" as the label, then "Six degrees warmer." in large white Archivo bold with "six degrees" in mono tabular, one small line beneath in 40% opacity white: "Two screws and an outlet." Generous whitespace. Dollar figures in monospace tabular. No product, no price for our item, no CTA, no badge.*
+
+**Headline:** *Six degrees warmer.*
 **Description:** *The other option was three days and a range.*
 
 ---
@@ -120,11 +124,11 @@ Right panel, labelled **This**:
 
 | Ad | Format | Blocked by | Shootable now |
 |---|---|---|---|
-| **B1C1** | Native long-form | **Persona page** | ❌ |
+| **B1C1** | Native long-form | Julie Brennan page ✅ | ❌ |
 | **B1C2** | Solution Exaggeration | — | ✅ Type only |
 | **B1C3** | Minimal Us vs Them | — | ✅ Type only |
 
-**2 of 3 shootable today.** If the persona page isn't ready, launch this ad set with B1C2 and B1C3 only and add the native as its own later campaign — **do not inject it mid-flight**, it resets learning for the ad set.
+**All 3 ready to produce.** The native runs from the existing **Julie Brennan** page (founder call 2026-09-23). Nothing here is blocked on creative.
 
 # Next step
 

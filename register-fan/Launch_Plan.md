@@ -78,8 +78,8 @@ No change. The competitive finding was answered by funnel discipline (`Brand_Mas
 |---|---|---|---|
 | **B1C1** | Two-thermometer demonstration | Brand page | **All** |
 | **B1C2** | Duct-run diagram | Brand page | **All** |
-| **B1C3** | Forum-post screenshot | **Persona page** | All |
-| **B1C4** | Native long-form | **Persona page** | **All EXCEPT right column** |
+| **B1C3** | Forum-post screenshot | Julie Brennan page ✅ | All |
+| **B1C4** | Native long-form | Julie Brennan page ✅ | **All EXCEPT right column** |
 
 **Config:** ABO, $12.50/day per cell, Purchase optimisation, broad, US. Not CBO — CBO concentrates spend on first-hour noise, which produced the account's worst reads.
 
@@ -95,7 +95,7 @@ Ordered by whether they stop a cell shipping.
 
 | # | Item | Blocks | Notes |
 |---|---|---|---|
-| 1 | **A persona page** | **C3, C4** | Tallow ran natives off a partner persona (Julie Brennan). This is a new brand with no page and no persona. A long first-person story posted by a brand account reads as an ad instantly. **C1 and C2 can ship without it** — a demonstration and a diagram are fine from a brand page |
+| 1 | ~~A persona page~~ | ~~C3, C4~~ | ✅ **RESOLVED 2026-09-23, founder call: reuse the Julie Brennan page for the natives.** No longer a blocker |
 | 2 | **Brand page + BM** | Everything | New brand, new assets. Warmup history matters; the last BM was banned as a suspected bot |
 | 3 | **Category name decision** | Store, domain, ad copy | Do not use "register booster fan" — it is the incumbents' Amazon search term. Candidates: *Vent Thermostat*, *Room Balancer*, *Room Temperature Balancer* |
 | 4 | **Store + PDP rebuild** | Everything | The old PDP was scrapped 2026-09-17. Rebuild after items 3 and 5 |

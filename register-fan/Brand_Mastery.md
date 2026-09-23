@@ -339,6 +339,23 @@ Two reasons: it does not address the problem we solve, and the incumbent's loude
 
 **1c. 🚫 "SMART", CLOUD, APP-DEPENDENT FRAMING.** Not our product anyway — and actively burned. See Part 5 item 3b: the buyer fear is dependency on a company staying in business and a connection staying up. **Our lack of an app is an asset. Say what it does not need, never what it lacks.**
 
+**1d. ⭐ SELL THE OUTCOME. NOT THE PRODUCT, NOT THE FEATURES.** Founder call 2026-09-23 — **the standing creative rule for this product.**
+
+Three things, not two, and only one of them leads:
+
+| | Examples | Role |
+|---|---|---|
+| ❌ **Features** | "silent fans", "digital thermostat", "five modes", "remote", **"two screws"**, "auto-adjusting" | **Never the lead.** This is the register the incumbents own, and we lose it — they have an app and we don't |
+| ⚠️ **Mechanism** | "the last room on the duct run gets whatever's left" | **Not a feature — it is the REASON TO BELIEVE the outcome.** Keeps its place (it is our only real differentiator), but it earns the outcome rather than replacing it |
+| ✅ **Outcome** | **"Six degrees warmer."** · "The space heater is in the basement." · "I stopped checking her room at night." | **This leads. Always.** |
+
+**Bad:** *"Silent fans and a digital thermostat."*
+**Good:** *"The room went from 62 to 68."*
+
+**And it stays partial** (rule 1b): degrees *closed*, never "fixed" or "matches the rest of the house." The research hands us the phrasing already — *"temp went from 73 to 69"*, *"hallway 69, bedroom 63, now within a degree"*, *"her room is no longer a sauna."*
+
+**The test for any line:** does it describe something the product *has*, or something the customer's *room becomes*? If it's the first, rewrite it.
+
 **2. 🚫 Health, safety and risk.** No SIDS, safe sleep, danger, hazard. No air quality, allergens, filtration, dust, mould. The unit has no filter.
 
 **3. Offer terms in the image — a TOF rule, not a ban.** *(Rescoped 2026-09-21, founder call. It was written as an absolute ban; that was an over-generalisation from one ad.)*

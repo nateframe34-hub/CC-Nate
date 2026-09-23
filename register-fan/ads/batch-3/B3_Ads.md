@@ -41,7 +41,7 @@ The kill rules still govern this spend at today's economics. But **"consistent 1
 
 ---
 
-## B3C1 — Native long-form ⚠️ needs persona page
+## B3C1 — Native long-form · runs from the Julie Brennan page
 
 **Format:** Native · **TOF** · **Right column EXCLUDED**
 
@@ -101,7 +101,7 @@ Ours: **"THE ROOM YOU CLOSE THE DOOR TO."** It's specific, it's behavioural rath
 
 | Ad | Format | Blocked by | Shootable now |
 |---|---|---|---|
-| **B3C1** | Native long-form | **Persona page** | ❌ |
+| **B3C1** | Native long-form | Julie Brennan page ✅ | ❌ |
 | **B3C2** | Two-panel thermometer | — | ✅ **Two $10 thermometers** |
 | **B3C3** | Relatable Hook | Door photo only | ✅ |
 

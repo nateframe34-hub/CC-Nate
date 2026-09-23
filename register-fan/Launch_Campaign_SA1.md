@@ -17,17 +17,17 @@
 CAMPAIGN — Register Fan | SA1 | Purchase | ABO
 │
 ├── AD SET 1 = BATCH 1 — Angle 1: "You don't need a contractor"  $20/day
-│     ├── B1C1  Native long-form                    [persona page]
+│     ├── B1C1  Native long-form                    [Julie Brennan]
 │     ├── B1C2  Solution Exaggeration (typographic)  [brand page]
 │     └── B1C3  Minimal Us vs Them — vs the quote    [brand page]
 │
 ├── AD SET 2 = BATCH 2 — Angle 2: "You were right about the room" $20/day
-│     ├── B2C1  Native long-form                    [persona page]
+│     ├── B2C1  Native long-form                    [Julie Brennan]
 │     ├── B2C2  Duct-run diagram (explanatory)       [brand page]
 │     └── B2C3  This Is Not [The Product] (reframe)  [brand page]
 │
 └── AD SET 3 = BATCH 3 — Angle 3: "Don't heat the whole house"   $20/day
-      ├── B3C1  Native long-form                    [persona page]
+      ├── B3C1  Native long-form                    [Julie Brennan]
       ├── B3C2  Two-panel thermometer (documentary)  [brand page]
       └── B3C3  Relatable Hook (typographic)         [brand page]
 ```
@@ -133,11 +133,11 @@ Funded by Batch 1, not from this $600.
 | 1 | **Store + PDP** | **Everything** | ❌ Scrapped 2026-09-17, needs rebuild |
 | 2 | **Brand page + BM, warmed** | Everything | ❌ Not started. Last BM was banned as a suspected bot |
 | 3 | **Category name** | PDP, domain, copy | ❌ Open founder decision |
-| 4 | **Persona page** | **The 3 native ads only** | ❌ Not started |
+| 4 | Julie Brennan page ✅ | **The 3 native ads only** | ❌ Not started |
 | 5 | Cold-side verbatim | Copy quality | 🟡 Thin but workable |
 | 6 | Two thermometers | Ad set 3, Ad 2 | 🟢 $20 |
 
-**If the persona page is not ready at launch:** run 2-ad ad sets and treat the natives as a separate later campaign. **Do not inject them mid-flight** — that resets learning across all three ad sets and costs more than the natives are worth in week one.
+✅ **Persona resolved 2026-09-23, founder call: the natives run from the existing Julie Brennan page.** Nothing in the campaign is blocked on creative any more — the only remaining blocker is the store. (The mid-flight rule still stands for any other reason: **never inject an ad into a live ad set**, it resets learning.)
 
 **The critical path is the store, not the creative.** All six non-native ads can be produced in a day. None of them can run without somewhere to send the click.
 

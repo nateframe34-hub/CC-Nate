@@ -38,7 +38,7 @@ The kill rules still govern this spend at today's economics. But **"consistent 1
 
 ---
 
-## B2C1 — Native long-form ⚠️ needs persona page
+## B2C1 — Native long-form · runs from the Julie Brennan page
 
 **Format:** Native / camouflage · **TOF** · **Right column EXCLUDED**
 
@@ -93,11 +93,13 @@ Here the reframe is **literally true**, which is why it's the strongest non-nati
 > ## This isn't a fan for the room.
 > ## It's a fan for the vent.
 
-> **Design direction:** *Split static, 4:5. Left two-thirds: a real photograph of a plain white wall register, straight on, warm domestic light. Right third: a terracotta `#B4553A` panel carrying the two lines in white Archivo bold, the word "vent" emphasised. Beneath, three short mono lines: "Moves the air you already paid to heat." / "Runs when the duct is running." / "Two screws." No price, no guarantee, no CTA, no badge.*
+> **Design direction:** *Split static, 4:5. Left two-thirds: a real photograph of a plain white wall register, straight on, warm domestic light. Right third: a terracotta `#B4553A` panel carrying the two lines in white Archivo bold, the word "vent" emphasised. Beneath, two short mono lines — **outcomes, not features** (Part 8.1d): "The cold room gets six degrees closer to the rest of the house." / "The space heater goes back in the cupboard." No price, no guarantee, no CTA, no badge.*
 
 **Primary text direction:** open on the box fan they already own. *A fan moves the air that's already in the room. In winter that air is cold — moving it around makes it feel worse.* Then the pivot: this one sits in the vent and pulls. Close on the partial, honest outcome.
 
 **Headline:** *You already tried a fan. That's not this.*
+
+*(Feature lines "Runs when the duct is running" and "Two screws" were cut from the image — both describe what the product does, not what the room becomes.)*
 **Description:** *It pulls from the duct, not the room.*
 
 ---
@@ -106,7 +108,7 @@ Here the reframe is **literally true**, which is why it's the strongest non-nati
 
 | Ad | Format | Blocked by | Shootable now |
 |---|---|---|---|
-| **B2C1** | Native long-form | **Persona page** | ❌ |
+| **B2C1** | Native long-form | Julie Brennan page ✅ | ❌ |
 | **B2C2** | Duct-run diagram | — | ✅ Drawn |
 | **B2C3** | This Is Not | Vent photo only | ✅ |
 
