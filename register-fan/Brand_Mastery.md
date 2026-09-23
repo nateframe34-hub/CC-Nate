@@ -356,6 +356,15 @@ Three things, not two, and only one of them leads:
 
 **The test for any line:** does it describe something the product *has*, or something the customer's *room becomes*? If it's the first, rewrite it.
 
+**1e. ⭐ EVERY STATIC DOES THREE JOBS.** Founder call 2026-09-23 — full framework in `Static_Ad_Framework.md`.
+1. **Stop the scroll** — relatability, a standout claim, or curiosity.
+2. **Inform via the MECHANISM** — why this solves the thing that stopped them. Not features.
+3. **Channel desire into purchasing power** — seasonal urgency (real: it gets colder every week) plus value framing. *People don't go and check Amazon if they already feel they're getting a great deal.*
+
+**Getting "that's a good idea" and a scroll is a LOSS.** The target state is "I need this now."
+
+**This narrows rule 3 below.** Value framing (price as a comparison, cost per room) **is allowed at TOF** — it is an argument, and someone recommending a fix to a friend says what it cost. Guarantee badges, shipping strips, discount flashes, countdown timers and drawn-on CTA buttons are still out: those are compliance furniture bolted on, which is what actually made B33C3 read as an ad.
+
 **2. 🚫 Health, safety and risk.** No SIDS, safe sleep, danger, hazard. No air quality, allergens, filtration, dust, mould. The unit has no filter.
 
 **3. Offer terms in the image — a TOF rule, not a ban.** *(Rescoped 2026-09-21, founder call. It was written as an absolute ban; that was an over-generalisation from one ad.)*

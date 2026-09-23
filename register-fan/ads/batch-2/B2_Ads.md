@@ -4,6 +4,10 @@
 **Naming convention (founder, 2026-09-23): ONE BATCH = ONE ANGLE = ONE AD SET.** Batch 1 is Angle 1, Batch 2 is Angle 2, Batch 3 is Angle 3. Each batch holds exactly 3 ads: **1 native + 2 non-native**. All three ad sets run simultaneously in one ABO campaign at $20/day each for 7 days — see `Launch_Campaign_SA1.md`.
 **Reads against:** `Brand_Mastery.md`, `Format_Angle_Map.md`, `Launch_Batch_1.md`, `Kill_Rules.md`, `Brand_and_PDP_Outline.md`
 
+
+> ⚠️ **STATIC SPECS SUPERSEDED 2026-09-23 — see `register-fan/Static_Ad_Framework.md`.**
+> Founder call: every static must do **three jobs** — (1) stop the scroll, (2) inform via the **mechanism** (not features), (3) **channel desire into purchasing power** with seasonal urgency and value framing. An audit found **none** of the original statics did all three; most did one. The angles, formats and reasoning below stand; **the creative specs for the two non-native ads in this batch are rebuilt in the framework doc.**
+
 ---
 
 ## What this batch is actually optimising for
