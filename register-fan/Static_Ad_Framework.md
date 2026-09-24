@@ -20,7 +20,29 @@ So an ad that leads with easy installation gets scrolled past — **not because 
 
 ## The three jobs — every static must do all three
 
-### 1. STOP THE SCROLL
+## ⭐ The state of mind we are interrupting — read this before writing anything
+
+**Meta is interrupt traffic, not intent traffic.** Founder, 2026-09-24. This is the thing the tallow work never accounted for, and it plausibly cost conversions there.
+
+Search catches someone **mid-solve** — they typed the words, they are actively looking. We catch someone who:
+
+- **has the problem**, which is why targeting reached them, but
+- **is not thinking about it right now.** They're scrolling.
+- tried a fan two winters ago, it didn't work, and they have quietly filed it under *"that room is just cold."*
+
+**They have latent demand, not active demand.** Nothing about their day required them to solve this. **So the ad must CREATE the moment of solving, not capture it.**
+
+Three things follow, and they change how the ads get written:
+
+1. **Job 1 is not "stop the scroll." It is EARN THE READ.** A half-second eye-pause is worthless — plenty of creative arrests the eye and converts nothing. The bar is: *they read the whole thing.*
+2. **The ad has to do the awareness work itself.** With search traffic, the searching already moved them up the ladder. Here nothing has. The ad and the page are the entire journey.
+3. **They will not comparison-shop unless we activate that behaviour** — someone with latent demand isn't in research mode. This is the strongest argument for the no-Product-awareness rule: the shopping behaviour is dormant and our own copy is the most likely thing to wake it.
+
+**The test for any TOF creative:** *would someone who has this problem, but isn't thinking about it today, read this to the end?* If it only works for someone already looking for a solution, it's a search ad and we can't buy that traffic here.
+
+---
+
+### 1. EARN THE READ *(not merely stop the scroll)*
 
 Three ways in, and we have material for all three:
 
@@ -227,7 +249,7 @@ Right, **This**: **Six degrees warmer.**
 
 Before any static ships, answer all three in one sentence each. **If any answer is "it doesn't," the ad isn't finished.**
 
-1. **What makes them stop?** (relatable / standout claim / curiosity)
+1. **What earns the READ?** Not a half-second pause — would a person not currently thinking about this problem read the whole thing? (relatable / standout claim / curiosity)
 2. **What does it tell them about WHY this solves that?** (mechanism — not features)
 3. **What turns wanting into buying?** (seasonal urgency + value framing)
 

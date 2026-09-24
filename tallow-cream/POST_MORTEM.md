@@ -217,6 +217,24 @@ matter. CPC is the metric that matters and did not move.
 
 ## 6. What carries forward
 
+### ⭐ Added 2026-09-24 — the frame we never applied to tallow
+
+**Meta is interrupt traffic, not intent traffic**, and tallow's creative was written as though it were intent traffic.
+
+The ads assumed a reader who was, at some level, already looking for a skincare answer. Most weren't. They had the problem — dry, tight skin — and were scrolling, not solving. **Latent demand, not active demand.**
+
+Three things this should have changed and didn't:
+
+1. **The scroll-stop bar was set too low.** "Get attention" was treated as the job. The real job is **earn the read** — for a long-form native especially, reading *is* the conversion event, and a half-second pause is worth nothing.
+2. **The ads were expected to convert people the searching had never moved up the ladder.** With no prior intent, the ad and the page have to do the entire awareness journey themselves. Several tallow ads assumed a Solution-Aware reader who had never been made one.
+3. **Comparison shopping is dormant in latent demand — and our own copy is the most likely thing to wake it.** Tallow's Amazon price gap was treated as an external fact. It was partly self-inflicted: naming the category teaches the search.
+
+**Founder note, 2026-09-24:** not thinking this way around tallow probably hurt conversions there. It is now the opening frame of `register-fan/Static_Ad_Framework.md` and `register-fan/Brand_Mastery.md` rule 1e-0.
+
+---
+
+## 6a. Original list
+
 Reusable immediately, product-agnostic:
 
 - The native ad architecture and the nine-element converter spine

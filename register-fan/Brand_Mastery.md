@@ -379,6 +379,8 @@ Three things, not two, and only one of them leads:
 
 **The test for any line:** does it describe something the product *has*, or something the customer's *room becomes*? If it's the first, rewrite it.
 
+**1e-0. ⭐ META IS INTERRUPT TRAFFIC, NOT INTENT TRAFFIC.** Founder 2026-09-24 — the frame everything else sits inside. Search catches someone mid-solve; we catch someone who has the problem and **is not thinking about it right now.** They have **latent demand, not active demand** — they tried something once, it failed, and they filed the room under "just cold." **The ad must CREATE the moment of solving, not capture it.** Consequences: **Job 1 is EARN THE READ, not stop the scroll** (a half-second eye-pause is worthless); **the ad and page do ALL the awareness work**, because no prior searching has done any of it; and **they will not comparison-shop unless our own copy activates that behaviour**, which is the strongest argument for the no-Product-awareness rule.
+
 **1e. ⭐ EVERY STATIC DOES THREE JOBS.** Founder call 2026-09-23 — full framework in `Static_Ad_Framework.md`.
 1. **Stop the scroll** — relatability, a standout claim, or curiosity.
 2. **Inform via the MECHANISM** — why this solves the thing that stopped them. Not features.
