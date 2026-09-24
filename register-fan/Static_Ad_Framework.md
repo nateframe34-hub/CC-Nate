@@ -130,129 +130,163 @@ The swipe-file synthesis says **one psychological lever per ad** — don't layer
 
 ---
 
-# The six statics, rebuilt
+## ⭐ DIVISION OF LABOUR — ads channel desire, the PDP closes
 
-Every one now has three zones. Same angles, same formats, same brand system — restructured so each does all three jobs.
+**Founder, 2026-09-24.** These are different jobs and confusing them is why my earlier drafts underperformed on both sides.
+
+| | Job | Failure mode if confused |
+|---|---|---|
+| **THE ADS** | **Channel the desire** and move them up the awareness ladder | An ad that explains and answers objections is a brochure. Nobody reads a brochure they didn't ask for |
+| **THE PDP** | **Inform, answer every objection, and CLOSE** — with enough urgency and value that comparison shopping never starts | A page that only channels desire has nothing to convert with once they've arrived wanting it |
+
+**The ads do not need to answer objections.** That's the page's job. The ad's job is to make them *want the outcome enough to click*.
+
+---
+
+## The five methods of channeling desire (swipe file) — mapped to us
+
+> **You cannot create desire. You can only channel it.** — `research/Static_Ad_Mastery_Guide.md` §2
+
+| # | Method | Our formats | Availability |
+|---|---|---|---|
+| **1** | **Direct Naming** — say the quiet part out loud | Relatable Hook, thermometers, Specific Pain Point | ✅ Strong. We have their exact situation |
+| **2** | **Indirect Implication** — the viewer infers the promise | **This Is Not**, Accidental Ideal Outcome | ⭐ **Strongest and underused.** Self-generated conclusions persuade harder than stated claims. We currently have ONE ad using it |
+| **3** | **Borrowed Desire** — ride a famous reference | Stealing Credibility, Saying Hijack | ❌ Unavailable. No credible cultural referent here, and naming a brand breaks §9a-i |
+| **4** | **Contrast / Absence** — show life without it | Us vs Them, Solution Exaggeration | ✅ Strong. The $3,400 quote is our contrast |
+| **5** | **Identity / Relief** — "that's exactly me," then follow the narrator to relief | **The natives** | ✅ This is what the three long-form ads are for |
+
+**Portfolio gap, named:** we are heavy on 1 and 4, we have 5 covered by the natives, 3 is genuinely unavailable — and **2 appears only once.** Given the swipe file rates self-generated conclusions highest, that's the method to add to on the next batch.
+
+## ⭐ The elevation play — and the one that's available to us
+
+> **Belonging → Control → Comfort → Relationships → Status → Health.** Urgency rises as you move right. Moving a product UP this hierarchy increases emotional urgency.
+
+**Our core desire sits at COMFORT** (Control secondary). **Health is permanently closed to us** by the claim rules — no safety, no risk, no health framing.
+
+**The one elevation available is RELATIONSHIPS — and that is exactly SA6, "Fixing It For Someone Else."** The child's room, the partner's room, the person you keep checking on.
+
+So SA6 is not merely another avatar on the roster. **It is the higher-urgency positioning of the same product**, and it should headline batch 2 for that reason rather than just because its evidence is good.
+
+---
+
+# The six statics, rewritten
+
+Each now declares: **funnel position · desire-channel method · the awareness journey it performs · how it earns the read.**
+
+Three zones throughout: **EARN THE READ → MECHANISM → CHANNEL.**
 
 ---
 
 ## B1C2 — Angle 1 · Claim-led
 
-**Zone 1 — STOP:** *(the claim, their real number)*
-> ## $3,400 to fix one cold room.
+**TOF · Method 4, Contrast/Absence · Problem Aware → Solution Aware**
+**Earns the read by:** a number that outrages, in their own currency.
 
-**Zone 2 — INFORM:** *(mechanism, small, one line)*
-> That room is last on the duct run. By the time air reaches it, there's barely any left.
+**ZONE 1**
+> ## They quoted me $3,400 to fix one cold room.
 
-**Zone 3 — CHANNEL:**
-> The vent pulls it the rest of the way in. **Six degrees warmer, for $89.**
-> *Before the first hard freeze.*
+**ZONE 2** *(mechanism — why a vent cover answers a $3,400 problem)*
+> It isn't the furnace. That room is last on the duct run — by the time air reaches it, there's barely any left.
 
-*(TOF weight: one line, no band, no badge. The price sits in the sentence, not in a panel.)*
+**ZONE 3** *(channel — outcome + light value + real deadline)*
+> A fan in the vent pulls the rest of the way in. **Six degrees warmer, for $89.**
+> *Before it's properly cold.*
 
-> **Design:** 4:5, warm off-white `#FAF7F2`. Top 45%: the headline in very large Archivo bold near-black, `$3,400` in terracotta mono tabular. Middle 25%: the mechanism line in small Inter, muted, with a minimal inline arrow motif showing air weakening across four vents. Bottom 30%: warm off-white, near-black Archivo with `Six degrees` in terracotta mono; the price set inline at body weight, **not emphasised and not banded**; seasonal line small beneath. Small wordmark. **No guarantee badge, no shipping strip, no CTA button, no countdown.**
+**Why it should work:** the contrast does the channeling — they feel the absurdity of the gap before they know what we sell. The mechanism then makes the cheap option credible, which is the hard part. Without zone 2 this reads as "cheap thing vs expensive thing" and invites suspicion.
 
-**Why it should work:** the stop is their own number with the vagueness stripped out; the inform answers "why would a vent cover fix a $3,400 problem"; the channel converts it with a cost contrast and a deadline the weather sets.
+> **Design:** 4:5, warm off-white. Zone 1 in very large Archivo bold, `$3,400` in terracotta mono tabular. Zone 2 small Inter, muted, with a minimal four-vent arrow motif thinning left to right. Zone 3 inline at body weight — **price in the sentence, no band, no badge.** Small wordmark.
 
 ---
 
 ## B1C3 — Angle 1 · Comparison
 
-**Zone 1 — STOP:** split frame, immediate contrast.
+**MOF-leaning · Method 4, Contrast/Absence · Solution Aware → Most Aware**
+**Earns the read by:** an instantly readable split — no reading required to get the point.
 
-Left, **The quote**: *"Somewhere between $3,000 and $4,000." · Three days · Someone in your house · Booked for next month*
+**ZONE 1** — split frame
+Left, **The quote:** *"Somewhere between $3,000 and $4,000" · Three days · Someone in your house · Booked for next month*
+Right, **This:** **Six degrees warmer.**
 
-Right, **This**: **Six degrees warmer.**
+**ZONE 2**
+> It pulls the warm air your furnace already made into the room that never gets any.
 
-**Zone 2 — INFORM:** beneath the right panel, small:
-> It pulls the warm air your furnace already made into the room that never gets it.
+**ZONE 3**
+> **$89. Before the cold sets in properly.**
 
-**Zone 3 — CHANNEL:** one line beneath the split — **not a full-width strip**:
-> **$89 for the room. Before the cold sets in properly.**
-
-*(Was a strip. Downgraded to a line: at TOF the offer gets a nudge, not furniture.)*
-
-> **Design:** 4:5. Left half warm grey `#EDE9E3`, right half terracotta `#B4553A`. Dollar figures mono tabular. "Two screws and an outlet" survives as 40%-opacity small print beneath the right panel — friction removal *after* the outcome, never as the headline.
-
-**Caveat retained:** comparison assumes the reader is weighing options, which leans MOF. If it underdelivers cold, that's structural, not a verdict on Angle 1.
+**Caveat retained:** comparison assumes they're weighing options, which is MOF behaviour. A weak cold result here is structural, not a verdict on Angle 1.
 
 ---
 
 ## B2C2 — Angle 2 · Diagram
 
-**The fix this one needed most.** A diagram doesn't stop a scroll — it rewards someone who already stopped. It now has a headline doing job 1.
+**TOF · Method 1, Direct Naming *(headline)* + education *(body)* · Problem Aware → Solution Aware**
+**Earns the read by:** naming a contradiction they live with.
 
-**Zone 1 — STOP:** *(curiosity / news register)*
-> ## Your furnace is working. That room still isn't.
+**ZONE 1**
+> ## Your furnace is working fine. That room still isn't.
 
-**Zone 2 — INFORM:** the duct-run cross-section. Arrows thick at the first vent, a wisp at the last. Room labels in mono: `70° 69° 68° 62°`.
+**ZONE 2** — the duct-run cross-section. Arrows thick at the first vent, a wisp at the last. Mono labels `70° 69° 68° 62°`.
 
-**Zone 3 — CHANNEL:**
-> **A fan in that vent pulls the rest of the way in. 62° → 68°.**
-> *Every week from here it gets colder.*
+**ZONE 3**
+> A fan in that vent pulls the rest of the way in. **62° → 68°.**
+> *It gets colder every week from here.*
 
-> **Design:** unchanged from the original diagram spec — hand-drawn feel, terracotta arrows, slate tint on the last room — with the headline added above and the channel band added below.
+**The honest weakness:** this is the least desire-driven ad in the batch. A diagram informs; it doesn't want anything. Zone 1 is carrying the entire desire load, which is why the headline had to become a contradiction rather than a label. **If this ad underperforms, the read is "education doesn't channel desire," not "the mechanism is wrong."**
 
 ---
 
-## B2C3 — Angle 2 · Reframe
+## B2C3 — Angle 2 · Reframe ⭐
 
-**Zone 1 — STOP:** *(relatability — they have already done this)*
+**TOF · Method 2, Indirect Implication · Solution Aware → Most Aware**
+**Earns the read by:** telling them something they did was pointless — which is impossible to scroll past if you did it.
+
+**ZONE 1**
 > ## You already tried a fan in there.
 
-**Zone 2 — INFORM:** *(the reframe, which is the mechanism)*
+**ZONE 2**
 > A fan moves the cold air that's already in the room. **This isn't a fan for the room — it's a fan for the vent.** It pulls warm air out of the duct instead.
 
-**Zone 3 — CHANNEL:**
+**ZONE 3**
 > **Six degrees warmer, and the space heater goes back in the cupboard.**
+> *$89, before it's properly cold.*
 
-> **Design:** 4:5. Left two-thirds a real photograph of a plain white wall register in warm domestic light; right third a terracotta panel carrying the three zones stacked, "vent" emphasised. No feature lines.
-
-**Why this one may win the batch:** it's the only static where the stop, the mechanism and the desire are the *same idea* — their failed fan is the hook, the reason, and the proof at once.
+**Why this is still the one I'd bet on.** It is the only static where earning the read, the mechanism and the desire are **the same idea** — their failed fan is the hook, the explanation *and* the proof. It's also our only Method 2 ad, and the swipe file rates self-generated conclusions highest: the reader concludes *"so that's why it didn't work"* by themselves, and a conclusion you reached yourself is one you defend rather than doubt.
 
 ---
 
 ## B3C2 — Angle 3 · Demonstration ⭐
 
-**Strongest stop we have. It was doing only job 1.**
+**TOF · Method 1, Direct Naming *(via image)* · Problem Aware → Solution Aware**
+**Earns the read by:** showing them their own house.
 
-**Zone 1 — STOP:** the two thermometers, hallway `70°` and back bedroom `62°`, shot identically, same afternoon.
+**ZONE 1** — two identical thermometers, `70°` hallway and `62°` back bedroom, same afternoon, shot identically.
 > **Same house. Same afternoon.**
 
-**Zone 2 — INFORM:**
-> That room is last on the duct run. It gets whatever air is left after every other room.
+**ZONE 2**
+> That room is last on the duct run. It gets whatever's left after every other room has taken its share.
 
-**Zone 3 — CHANNEL:**
-> **The vent pulls it the rest of the way in. 62° → 68°, for $89.**
+**ZONE 3**
+> The vent pulls the rest of the way in. **62° → 68°, for $89.**
+> *Before the first hard freeze.*
 
-> **Design:** two real iPhone photographs of identical thermometers, warm off-white gutter, mono labels `HALLWAY` / `BACK BEDROOM`. Mechanism line small beneath. Terracotta channel band at the base. No product in frame — which is also why this ad structurally cannot drift into feature-selling.
+**Why it earns the read:** the research found they describe this problem in **degrees, not metaphors** — four searches for icebox/meat locker/sauna returned nothing in their own words. So this image isn't a creative device, it's their own vocabulary handed back. It also cannot drift into feature-selling, because there's no product in the frame.
 
 ---
 
 ## B3C3 — Angle 3 · Situation-naming
 
-**Zone 1 — STOP:**
+**TOF · Method 1, Direct Naming · Problem Aware → Solution Aware**
+**Earns the read by:** naming a behaviour they didn't realise was a symptom.
+
+**ZONE 1**
 > ## THE ROOM YOU CLOSE THE DOOR TO.
 
-**Zone 2 — INFORM:**
+**ZONE 2**
 > Closing the door doesn't warm it up. It's last on the duct run — it was never getting enough air to begin with.
 
-**Zone 3 — CHANNEL:**
+**ZONE 3**
 > **Six degrees warmer without touching the thermostat.**
 > *$89, before it's properly cold.*
 
-> **Design:** top 55% a real photograph of a closed interior door in a domestic hallway; bottom 45% warm off-white with the three zones stacked, headline in large Archivo, mechanism small in Inter, channel line in terracotta with figures in mono.
+**Why:** shutting the door is the single most-recommended free fix across every research source, and one poster who did it then worried the sealed room was *"hurting the house in someway."* Naming their own workaround back to them is Direct Naming at its most specific.
 
----
-
-# The checklist, for every static from here
-
-Before any static ships, answer all three in one sentence each. **If any answer is "it doesn't," the ad isn't finished.**
-
-1. **What earns the READ?** Not a half-second pause — would a person not currently thinking about this problem read the whole thing? (relatable / standout claim / curiosity)
-2. **What does it tell them about WHY this solves that?** (mechanism — not features)
-3. **What turns wanting into buying?** (seasonal urgency + value framing)
-
-And the two standing filters:
-- **Outcome leads, features never do** (Part 8.1d)
-- **Outcomes stay partial** — degrees closed, never "fixed" (Part 8.1b)

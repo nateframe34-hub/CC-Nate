@@ -71,6 +71,45 @@ The two-thermometer image from the ad appears full-bleed below the hero. The duc
 
 # PART B — THE PDP
 
+## B0. ⭐ The PDP's job — and it is NOT the ad's job
+
+**Founder, 2026-09-24.**
+
+| | Job |
+|---|---|
+| **The ads** | **Channel the desire.** Move them up the awareness ladder far enough to click. They do not answer objections |
+| **The PDP** | **Inform, answer every objection, and CLOSE** — with enough urgency and value that comparison shopping never starts |
+
+**They arrive already wanting it.** The ad did that. The page's task is to remove every reason not to buy, and then make buying *today* feel obviously right.
+
+### What "make them feel they're getting an amazing deal" can honestly mean here
+
+⚠️ **We cannot win a price comparison.** A $59.99 branded unit with an app exists. If the reader's mental benchmark becomes "other vent fans," we lose, and no copy fixes that.
+
+**So the deal feeling has to be anchored against the comparisons they actually arrived with** — which are the ones the ads used, and the ones in their head already:
+
+| Anchor | The deal |
+|---|---|
+| **The contractor quote** | $3,400 and three days, versus $89 and an afternoon |
+| **Another winter of it** | Three winters of a heater running nightly costs more than this does |
+| **The 2-pack** | **$80 a room.** The strongest genuine value frame we own |
+| **The guarantee** | 60 days makes "now" safe — risk removal is what converts urgency into action instead of anxiety |
+
+**Congruence matters here too:** the ad anchored against the quote, so the page must continue that anchor rather than introducing a new one. A page that switches comparisons re-opens the question the ad closed.
+
+### Where urgency lives on the page
+
+**Seasonal, and it's real** — it gets colder every week, and the problem they've tolerated is about to be nightly. No countdown timers, no fake stock counters. The calendar is doing the work.
+
+Three placements, escalating:
+1. **Hero subline** — light. *"Before it's properly cold."*
+2. **After the alternatives section** — the cost of another winter, stated plainly.
+3. **Final CTA** — the strongest statement of it, paired with the guarantee so it reads as *safe to act now*, not *hurry up*.
+
+**Not urgency:** anything invented. We are drop-shipping; a false scarcity claim on a first campaign risks the account for a few points of conversion.
+
+---
+
 ## B1. Three constraints that shape the whole page
 
 **1. 🚨 We have ZERO reviews, and the swipe says every high-converting PDP shows them early.** This is the page's biggest structural weakness and it cannot be designed around. What substitutes, in order of strength: the **mechanism explanation** (nobody else offers it), the **honest "when this won't help"** section, and the **guarantee**. Do not fake it, do not use stock testimonials, and **add a reviews module the week the first real review exists.**
@@ -93,7 +132,8 @@ The two-thermometer image from the ad appears full-bleed below the hero. The duc
 | 8 | **Install — three steps**, real photos | Kills "is this a project?" | Straight after fit. Fit and install are the same anxiety and should be resolved together |
 | 9 | **"When this won't help"** — the blocked-duct qualification | Prevents the returns that killed the incumbent's reviews, and does credibility work nothing else can | Late enough not to scare off early, early enough to stop a bad purchase. **Nobody selling a gimmick tells you when it won't work** |
 | 10 | **What the alternatives cost** — the quote, the thermostat, the space heater, nothing | Value justification | **After conviction, never before.** Price comparison before belief just reads as expensive |
-| 11 | **Guarantee** — 60 days, stated plainly including who pays return shipping | Last objection | Directly before the close |
+| 10b | **The cost of another winter** ⭐ NEW | **The urgency beat.** Converts "good idea" into "this year, not next" | Straight after the alternatives, where the value frame is already open. This is where the page does the job the ad deliberately left it |
+| 11 | **Guarantee** — 60 days, stated plainly including who pays return shipping | Last objection — and **it is what makes acting NOW feel safe rather than rushed** | Directly before the close. Urgency without risk-removal produces anxiety, not orders |
 | 12 | **FAQ** | Long-tail objections without spending scroll | Bottom. Anyone reading this far is working to convince themselves |
 | 13 | **Final CTA** — size step + bundle repeated in full | Nobody should scroll back up | End |
 | — | **Sticky ATC** | Returns to the buy box — **not** a guarantee restatement | Persistent, mobile |
