@@ -143,134 +143,67 @@ Aspect ratio 4:5, 1080 x 1350.
 
 ---
 
-# B1C3 — The two-thermometer demonstration
+# B1C3 — Whiteboard, before and after
 
-**Job:** show the reader their own house. The research found they describe this problem in **degrees, not metaphors** — four searches for icebox / sauna / meat locker returned nothing in their own words. The single most important element is that **a box fan is visibly running in the hot room**, because that is what turns a picture of the problem into a picture indicting the solution they already bought.
-
-## Route A — full composite, generated in one pass
+**Job:** explain the mechanism AND show the outcome in one image. It must look like a real person drew it on a real board to explain something — not a designed infographic.
 
 ```
-A vertical 4:5 advertising graphic. The top 62% of the frame is a side-by-side
-photographic diptych; the bottom 38% is a clean typographic panel.
+A candid smartphone photograph of a real white dry-erase whiteboard mounted on a
+kitchen or home-office wall, with a hand-drawn diagram on it in dry-erase marker.
+The board has faint ghosting from previous drawings that were wiped off, a few
+smudges, and a marker tray along the bottom holding a black, a red and a blue
+marker with their caps off. The markers' manufacturer branding is visible and
+natural — keep all product markings intact.
 
-── THE DIPTYCH ──
-Two square photographs sit side by side, separated by a thin 8-pixel vertical gutter of
-warm off-white (#FAF7F2). Both are candid smartphone photographs taken on the same
-afternoon, with matched camera height, matched distance, matched focal length and matched
-white balance, so they read as a deliberate before/after pair shot by the same person.
+THE DRAWING — done quickly and confidently by hand, imperfect lines, slightly
+uneven lettering, clearly human. The board is split into two halves by a
+vertical line drawn down the middle.
 
-LEFT PHOTOGRAPH — THE HALLWAY:
-A small white digital room thermometer stands on a wooden hallway console table. It is a
-plain rectangular household unit about the size of a pack of cards, with a large
-high-contrast monochrome LCD screen angled slightly toward the camera. The display shows,
-in crisp black seven-segment digits filling most of the screen:
+LEFT HALF — heading written at the top in black marker, underlined:
+    "WITH A FAN"
+A simple drawn room: a square outline with a floor line. A small box fan drawn on
+the floor. RED marker arrows looping around in a closed circle inside the room,
+going nowhere. A simple stick figure sitting at a small desk, with three short
+sweat lines coming off its head. A small drawn thermometer on the wall reading
+"81°" in red. A short handwritten label with an arrow pointing at the red loop:
+    "moves the hot air around"
 
-    72°F
+RIGHT HALF — heading written at the top in black marker, underlined:
+    "WITH THE VENT"
+The same simple room, drawn the same way. The box fan pushed into the corner with
+a single black line struck through it. At the floor, a small rectangle for the
+vent. Below the floor line, a duct drawn as two parallel lines. BLUE marker
+arrows travelling along the duct and coming UP through the vent INTO the room.
+The same stick figure at the same desk, now drawn relaxed with a small smile and
+no sweat lines. The drawn thermometer reads "74°" in blue. A short handwritten
+label with an arrow pointing at the blue arrows:
+    "brings cold air in"
 
-Beside the thermometer on the console: a set of keys on a small ceramic dish, and the
-corner of an unopened envelope. Behind it, a plain painted hallway wall in a warm
-off-white, with a framed picture edge just intruding at the top corner. Lighting is soft,
-even, indirect afternoon daylight — flat, shadowless, unremarkable.
+ACROSS THE BOTTOM of the board, in black marker, spanning both halves:
+    "One moves the air. One brings new air in."
 
-RIGHT PHOTOGRAPH — THE BEDROOM:
-The same model of thermometer, photographed from the same distance and height, standing on
-a wooden bedside table. The display shows, in the same crisp black seven-segment digits:
+All handwriting must be legible, correctly spelled, and look genuinely handwritten
+in marker — not a font. Numbers "81°" and "74°" clearly readable.
 
-    81°F
+PHOTOGRAPH: taken straight-on at a very slight angle, as if someone stepped back
+and took a quick phone photo to send to a family member. Ordinary indoor daylight
+from a window to one side, giving a soft glare band across one corner of the
+board. Realistic phone-camera quality, mild grain, natural white balance, slight
+barrel distortion at the edges. The edge of the wall and part of a doorframe or
+shelf visible around the board.
 
-Directly behind the thermometer, roughly a metre back and clearly out of focus, a black
-plastic box fan sits on the carpet, running, its blades slightly motion-blurred, its grille
-and its manufacturer's label visible — keep all product markings and branding on the fan
-intact and natural, as a real fan in a real bedroom would look. Its white power cord runs
-out of frame to the right. Behind that, a wall with hard, bright slabs of late-afternoon
-sun falling across it through half-drawn venetian blinds, with visible slatted shadow
-bands. The light in this panel is noticeably warmer, harder and higher-contrast than the
-hallway panel — the two photographs should feel like different temperatures before the
-viewer reads a single digit.
-
-BOTH PHOTOGRAPHS: realistic consumer-phone image quality. Mild luminance grain, natural
-white balance, slight handheld imperfection in framing, no HDR, no cinematic grade, no
-vignette, no colour pop. The thermometers are the sharpest things in each frame and their
-digits are perfectly legible, correctly formed and unambiguous.
-
-── THE TYPOGRAPHIC PANEL ──
-Below the diptych, a flat warm off-white (#FAF7F2) panel, no texture or gradient. Text is
-set in a clean, confident geometric sans-serif, left-aligned, generous margins, clear size
-hierarchy, in near-black (#1C1A17):
-
-  Immediately under the photographs, small, uppercase, letter-spaced, in a muted grey,
-  sitting under its own panel:
-      "HALLWAY"        (left, under the left photograph)
-      "BACK BEDROOM"   (right, under the right photograph)
-
-  Large and bold:
-      "Same house. Same afternoon. One fan running."
-
-  Smaller, regular weight, comfortable line spacing:
-      "The fan has been on all day. It moves the hot air around; it doesn't bring cold
-      air in. That room is last on the duct run — it gets whatever's left after every
-      other room takes its share."
-
-  Smaller still, in warm terracotta (#B4553A), with the price plain and unemphasised at
-  the end of the line:
-      "Put the fan in the vent instead of the room. $89."
-
-Typography must be crisp, correctly spelled, evenly kerned and fully legible at small
-sizes. The layout is calm and editorial with real breathing room, not crowded.
-
-STRICTLY EXCLUDE: any badge, sticker, starburst, ribbon, button, arrow, countdown timer,
-guarantee mark, shipping icon, rating stars or promotional graphic furniture; any person,
-hand or pet; any drop shadow, bevel, glow or 3D effect on the text; any watermark.
+EXCLUDE: any people or hands in frame, any printed text or typeset labels, any
+logo overlay, any badge, price, arrow graphic or CTA added on top of the photo,
+any vector-perfect or digitally drawn lines.
 
 Aspect ratio 4:5, 1080 x 1350.
 ```
 
-## Route B — diptych only, type set afterwards
+**Notes**
+- The **before/after split is the whole point.** If a generation drops the right-hand stick figure or the 74°, regenerate — the outcome is the reason this ad exists.
+- If handwriting renders too neat, add: *"messy, rushed handwriting, letters uneven in size."*
 
-Identical to Route A but **stop at the diptych** — generate only the two photographs and the gutter, filling the full 4:5 frame, and set the type yourself in Archivo/Inter to exact brand spec. Use this if the composite's typography drifts off-brand.
-
-## Route C — single-frame variant worth testing
-
-A tighter, more arresting version: **one photograph, both thermometers in it.**
-
-```
-A candid smartphone photograph, taken at eye level in a hot upstairs bedroom on a summer
-afternoon. Two identical small white digital room thermometers stand side by side on a
-wooden bedside table, about ten centimetres apart, both angled toward the camera. Their
-large high-contrast monochrome LCD screens are the sharpest elements in the frame and
-both are perfectly legible in crisp black seven-segment digits:
-
-    the left unit reads   72°F
-    the right unit reads  81°F
-
-A small strip of masking tape is stuck to the table beneath each, with short handwritten
-biro labels in ordinary untidy handwriting: "hallway" under the left, "in here" under the
-right.
-
-Behind them, roughly a metre back and clearly out of focus, a black plastic box fan sits
-on the carpet, running, blades slightly motion-blurred, its grille and manufacturer's
-label visible — keep all product markings and branding intact and natural. Beyond it, a
-wall with hard bright slabs of late-afternoon sun through half-drawn venetian blinds,
-with visible slatted shadow bands. Warm, high-contrast, airless light.
-
-Shot as if on an iPhone, main wide lens, roughly 24mm equivalent, f/1.8, handheld, very
-slightly tilted. Shallow depth of field on the fan, thermometers tack sharp. Realistic
-phone-camera quality: mild grain, natural slightly warm white balance, no HDR, no
-cinematic grade, no vignette.
-
-STRICTLY EXCLUDE: people, hands, pets, text overlays, captions, badges, graphic furniture,
-watermarks.
-
-Aspect ratio 4:5, 1080 x 1350.
-```
-
-**Why Route C may beat the diptych:** one frame, two numbers, a fan running behind them, and handwritten labels — it reads as something a frustrated person actually did, rather than as a designed comparison. The handwriting is doing the authorship work.
-
-## Notes on getting the digits right
-
-- Seven-segment digits are the failure point. **Specify the reading twice** — once in the scene description and once as an isolated line — and regenerate rather than accept a garbled display.
-- **Whole numbers with °F render more reliably** than decimals.
-- The gap between the two readings is a creative choice. **Worth testing a smaller, more modest gap** (say `74°` / `80°`) against the wider one — a more believable number may outperform a more dramatic one with a sceptical reader.
+---
 
 # Cold-weather re-shoot notes
 
@@ -280,6 +213,6 @@ When the season turns, the concept is unchanged — only the props and light:
 |---|---|---|
 | **B1C1** | Box fan on carpet, hard low sun, blinds half drawn | Small oil-filled radiator against the wall, flat grey overcast light through bare window, a folded blanket on the bed |
 | **B1C2** | Same vent plate, unchanged | Same vent plate, unchanged |
-| **B1C3** | Fan out of focus behind the bedroom thermometer | Space heater out of focus behind it |
+| **B1C3** | Red loop = hot air, blue arrows = cold air in, 81° → 74° | Swap colours and labels: "moves the cold air around" / "brings warm air in", 58° → 66°, stick figure in a jumper |
 
 **The vent photograph in B1C2 is season-agnostic and never needs re-shooting.**

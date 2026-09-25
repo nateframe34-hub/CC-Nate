@@ -92,6 +92,19 @@ Ships from the US · 60-day returns · Free shipping on 2-packs
 
 *Two-column, terracotta tick and a plain cross. Self-qualification — and the most credible thing on the page, because nobody selling a gimmick tells you when not to buy.*
 
+## 5b. The after ⭐ *Gap 2 fix — the outcome, shown*
+
+> *After*
+> ### The room you stopped using, back.
+>
+> [after image — same room, in use, afternoon light, no fan]
+>
+> - Back at the desk at four in the afternoon.
+> - The box fan goes back in the garage.
+> - The door stays open, and the room matches the hallway.
+
+*Placed directly after the hand test: they've just decided "this is my problem", so the next thing they see is the room without it. Sells the outcome, not the unit. Setting `out_image`.*
+
 ## 6. What it is
 
 | | |

@@ -85,6 +85,27 @@ same warm off-white background.
 
 ---
 
+## 1f. THE AFTER — §5b `out_image` ⭐ *Gap 2 fix*
+
+```
+A candid phone photo of a small home-office bedroom on a bright summer
+afternoon, around 4pm, warm sun coming through a window with the blind half
+open. A person in a t-shirt sits comfortably at a desk working on a laptop,
+seen from behind and slightly to the side, relaxed posture, a glass of iced
+water on the desk. In the lower wall near the desk, a slim white vent cover
+with a small digital display reading 72° is fitted flush where the old
+register was. The door to the hallway stands open. No fan anywhere in the room.
+Real, lived-in details: a charging cable, a mug of pens, a sticky note on the
+monitor, real brand names on the laptop and water bottle left as they are.
+Natural white balance, mild grain, consumer phone quality, no cinematic grade.
+Aspect ratio 4:5, 1400 x 1750.
+```
+**Cold swap:** late-afternoon winter light, sweater, hot mug instead of iced water, display 70°, space heater absent.
+
+**Gallery order note (Gap 3):** make **1c (installed in situ)** gallery image 1, then 1a, 1b, 1d. The ad's reader needs to see it in a wall before they see it on white.
+
+---
+
 ## 2. THE MEASURING PHOTO — §7 `fit_image`
 
 ```

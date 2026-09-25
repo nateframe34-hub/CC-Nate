@@ -66,8 +66,9 @@
 > **ZONE 2 — mechanism**
 > A fan cools *you*, not the room. Step three feet away and it's as hot as it was. **This isn't a fan for the room — it's a fan for the vent.** It pulls in the cold air your AC already made.
 >
-> **ZONE 3 — channel**
-> The room gets cooler. Not just the spot in front of the fan.
+> **ZONE 3 — channel** *(rewritten 2026-09-26 — Gap 2: paint the after, don't restate the instruction)*
+> It replaces the vent cover that's already there.
+> **Back at the desk at 4pm — not moving your laptop downstairs.**
 > *$89, and it's only getting hotter.*
 
 **Why it should work:** the only ad in the batch where earning the read, the mechanism and the desire are **one idea** — their fan is the hook, the explanation and the proof simultaneously. The reader reaches *"that's why it never worked"* by themselves, and a conclusion you reach yourself is one you defend rather than doubt.
@@ -79,30 +80,42 @@
 
 ---
 
-## B1C3 — Static · the demonstration
+## B1C3 — Whiteboard · before and after ⭐ rebuilt 2026-09-26
 
-**Format:** Documentary comparison · **TOF** · all placements
-**Desire-channel method:** 1 — Direct Naming *(via image — their own vocabulary)*
-**Awareness journey:** Problem Aware → Solution Aware
-**Earns the read:** shows them their own house. The research found they describe this in **degrees, not metaphors** — four searches for icebox/sauna/meat locker returned nothing in their own words.
+**Format:** Whiteboard diagram — one format, not a hybrid. *(Not in the swipe file; founder call.)*
+**Funnel:** TOF · all placements
+**Desire-channel method:** Contrast/Absence — the same room drawn twice
+**Awareness journey:** Problem Aware → Solution Aware → **sees the outcome**
+**Earns the read:** a hand-drawn board reads as someone explaining, not a brand selling — and a diagram of *their* room is hard to scroll past.
 
-> **ZONE 1 — earn the read**
-> Two identical thermometers, same afternoon. Hallway `72°`. That bedroom `81°`.
-> **Same house. Same afternoon. One fan running.**
->
-> **ZONE 2 — mechanism**
-> The fan has been on all day. It moves the hot air around; it doesn't bring cold air in. That room is last on the duct run — it gets whatever's left after every other room takes its share.
->
-> **ZONE 3 — channel**
-> Put the fan in the vent instead of the room.
-> *$89, and it's only getting hotter.*
+**Why whiteboard works here when it failed on tallow:** B32C3 put an *optical* claim on a whiteboard — nothing physical to draw, so the board was decoration. This draws a real physical process: air circulating vs air arriving.
 
-**Why it should work:** the numbers are the reader's own framing, and **"one fan running" is what turns a recognition image into an argument** — it's the same photo indicting the solution they already bought. No product in frame, so it structurally cannot drift into feature-selling.
+**Why this is the Gap 2 fix:** the board shows the room **twice — before and after.** Mechanism and outcome in a single image. Every other static shows the problem; this one shows the result.
 
-> **Design:** 4:5. Two real iPhone photographs of identical cheap digital thermometers, shot the same way in the same light — left on a hallway console, right on a bedroom nightstand with a box fan visible, out of focus, behind it. Displays legible, figures in mono tabular. Thin `#FAF7F2` gutter. Mono labels `HALLWAY` / `BACK BEDROOM`. Zones 2 and 3 beneath on warm off-white, zone 3 accent in terracotta.
+### The board
 
-**Headline:** *Same house. Same afternoon.*
-**Description:** *The fan's been on all day.*
+**LEFT — "WITH A FAN"**
+A simple room. A box fan. Red arrows looping round in a closed circle inside the room. A stick figure at a desk with sweat marks. Thermometer: **81°**. Label: *"moves the hot air around"*
+
+**RIGHT — "WITH THE VENT"**
+The same room. The fan pushed into the corner with a line through it. At the floor, the vent, with blue arrows coming **in** from a duct drawn below the floor. Same stick figure at the desk, relaxed. Thermometer: **74°**. Label: *"brings cold air in"*
+
+**Across the bottom:** *"One moves the air. One brings new air in."*
+
+### Primary text
+
+A fan and this do opposite things.
+
+A fan picks up the air that's already in the room and moves it around. In a hot room, that air is hot. It feels better on your skin while you sit in front of it. The room stays the same temperature.
+
+This goes where your vent cover is now — it replaces it, same two screws. Your AC is already making cold air. The room at the end of the duct run just doesn't get much of it. This pulls it in.
+
+The difference is being back at the desk at four in the afternoon instead of carrying your laptop downstairs.
+
+$89.99, and it's only getting hotter.
+
+**Headline:** *One moves air. One brings it in.*
+**Description:** *$89.99. 60-day returns.*
 
 ---
 

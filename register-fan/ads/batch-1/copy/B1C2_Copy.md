@@ -14,7 +14,7 @@
 >
 > **This isn't a fan for the room — it's a fan for the vent.** It pulls in the cold air your AC already made.
 >
-> The room gets cooler. Not just the spot in front of the fan. · **$89**
+> It replaces the vent cover that's already there. **Back at the desk at 4pm — not moving your laptop downstairs.** · **$89**
 
 ---
 
@@ -31,6 +31,8 @@ Here's the part nobody explains. Your AC cools air in one place and pushes it th
 Go and put your hand on the vent in that room while the AC is running. Air is probably coming out. It's probably barely moving. That trickle is the whole problem — and it's been quietly telling you the system is working.
 
 This replaces the vent cover that's already there. Two screws. It pulls the cold air the rest of the way into the room instead of waiting for it to arrive.
+
+The difference is being able to sit at the desk at four in the afternoon, instead of carrying your laptop downstairs because that room has given up for the day.
 
 $89.99, and it's only getting hotter from here.
 

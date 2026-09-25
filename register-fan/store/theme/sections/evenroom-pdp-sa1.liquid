@@ -130,6 +130,11 @@
 #evr-pdp .card h3{margin-bottom:.35em}
 #evr-pdp .card p{margin:0;font-size:15.5px}
 
+/* outcome */
+#evr-pdp .evr-out{list-style:none;padding:0;margin:0}
+#evr-pdp .evr-out li{padding:12px 0 12px 22px;border-bottom:1px solid var(--line);position:relative;font-size:17px}
+#evr-pdp .evr-out li:before{content:"";position:absolute;left:0;top:21px;width:8px;height:8px;background:var(--accent)}
+
 /* grid */
 #evr-pdp .attrs{border-top:1px solid var(--line)}
 #evr-pdp .attr{display:grid;grid-template-columns:200px 1fr;gap:24px;padding:18px 0;border-bottom:1px solid var(--line)}
@@ -336,6 +341,20 @@
     </div>
   </div>
 </div>
+
+<!-- ================= 5b. OUTCOME ================= -->
+<div class="sec"><div class="wrap narrow">
+  <p class="eyebrow">{{ section.settings.out_eyebrow }}</p>
+  <h2>{{ section.settings.out_h }}</h2>
+  {%- if section.settings.out_image != blank -%}
+    <img src="{{ section.settings.out_image | image_url: width: 1400 }}" alt="{{ section.settings.out_h | escape }}" loading="lazy" style="width:100%;margin:18px 0 22px;border:1px solid var(--line)">
+  {%- endif -%}
+  <ul class="evr-out">
+    <li>{{ section.settings.out_1 }}</li>
+    <li>{{ section.settings.out_2 }}</li>
+    <li>{{ section.settings.out_3 }}</li>
+  </ul>
+</div></div>
 
 <!-- ================= 6. ATTRIBUTE GRID ================= -->
 <div class="sec"><div class="wrap narrow">
@@ -616,6 +635,14 @@
     { "type": "textarea", "id": "hand_yes_b", "label": "Yes — body", "default": "That's the one this fixes. The cold air is being made — it just isn't arriving with enough push to change the room." },
     { "type": "text", "id": "hand_no_h", "label": "No — heading", "default": "Nothing coming out at all?" },
     { "type": "textarea", "id": "hand_no_b", "label": "No — body", "default": "Don't buy this. That's a blocked or disconnected duct, and no fan can pull air that isn't there." },
+
+    { "type": "header", "content": "5b — Outcome (the after)" },
+    { "type": "text", "id": "out_eyebrow", "label": "Eyebrow", "default": "After" },
+    { "type": "text", "id": "out_h", "label": "Heading", "default": "The room you stopped using, back." },
+    { "type": "image_picker", "id": "out_image", "label": "After image (same room, in use, no fan)" },
+    { "type": "text", "id": "out_1", "label": "Line 1", "default": "Back at the desk at four in the afternoon." },
+    { "type": "text", "id": "out_2", "label": "Line 2", "default": "The box fan goes back in the garage." },
+    { "type": "text", "id": "out_3", "label": "Line 3", "default": "The door stays open, and the room matches the hallway." },
 
     { "type": "header", "content": "6 — Attributes" },
     { "type": "text", "id": "attr_fits", "label": "Fits", "default": "4x10 and 6x10 openings. Floor, wall or ceiling." },
