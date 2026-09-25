@@ -49,6 +49,48 @@ The real comparison is **AC Infinity AirTap at $59.99-$69.99** and **SmartCocoon
 
 **The one part of the original section that still stands:** more to set up means more ways to conclude the unit is broken when it is only in the wrong mode. Every bad review in the category is an instruction failure. **The install card must cover the modes and the remote, not just the physical fit.**
 
+### 🔒 THE PRICE LEVER — pre-computed, pulled only when CAC is known
+
+**Founder call 2026-09-25: launch at $89.99 / $159.99. Do not touch price before CAC is measured.** Everything about pricing is speculation until we know what a customer actually costs, and CAC is the one number no amount of analysis produces.
+
+The arithmetic for the alternative is already done, so **the next price decision is a lookup, not a debate:**
+
+| Option | Customer pays | Contribution | Margin | BE ROAS | BE click→purchase @ $3 CPC |
+|---|---|---|---|---|---|
+| **LAUNCH — $89.99 + $9.95** | $99.94 | **$56.91** | 56.9% | 1.76× | **5.27%** |
+| **LEVER — $119.99 + $9.95** | $129.94 | **$86.04** | 66.2% | 1.51× | **3.49%** |
+| 2-pack at launch — $159.99 | $159.99 | $75.39 | 47.1% | 2.12× | — |
+| 2-pack with the lever — $199.99 | $199.99 | $114.23 | 57.1% | 1.75× | — |
+
+### The decision rule, written before the data
+
+Once blended CAC is known from the campaign:
+
+| Measured CAC | Read | Action |
+|---|---|---|
+| **Under $57** | Profitable at launch pricing | **Hold $89.99. Scale.** |
+| **$57 – $86** | ⭐ Unprofitable at $89.99, **profitable at $119.99** | **Raise the price.** This is the band the lever exists for |
+| **Over $86** | Neither price works | **Not a price problem.** Product, offer or market — see kill rules §2 |
+
+### What to expect on the first read, so it isn't misread
+
+At $89.99 the breakeven click→purchase at a $3 CPC is **5.27%.** Tallow's best was 3.42% and the account has never seen 5%. **So a first result that looks unprofitable is the expected outcome, not a failure signal** — the question the batch answers is whether people buy at all and at what CAC, and the price lever is what converts a workable CAC into a profitable one.
+
+**Do not read "unprofitable at $89.99" as "the product doesn't work."** Read it against the table above.
+
+### ⚠️ Verify the pixel's purchase value before judging any ROAS
+
+Meta reports ROAS on whatever value the pixel passes — Shopify sends either the order **total** (with shipping) or the **subtotal** (without). The breakevens differ:
+
+| | Shipping IN the value | Shipping OUT |
+|---|---|---|
+| Single BE ROAS | 1.76× | 1.63× |
+| Blended @10% bundle | 1.80× | 1.69× |
+
+**Check the first real order** — compare the purchase value in Events Manager against the Shopify order — and record which basis applies. Until then carry the conservative (shipping-in) figures.
+
+**Better: judge on CAC against contribution, which is immune to this entirely.** Kill rules already say to prefer CAC where both are available; this is the concrete reason why.
+
 ### Sourcing log — two cheaper units attempted, both failed
 
 **Attempt 1 — $18.25/unit overseas (~$31.75 landed).** Failed to source.

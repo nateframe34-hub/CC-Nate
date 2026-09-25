@@ -131,6 +131,24 @@ Returns are not in it. On a ~$100 electrical product with a size step, returns w
 
 ---
 
+## §5b — Price is a LEVER, not a kill trigger
+
+**Launch pricing is $89.99 / $159.99** (founder, 2026-09-25) because CAC is unknown and everything else is speculation until it is measured.
+
+**At launch pricing, breakeven click→purchase at a $3 CPC is 5.27%. The account has never seen 5%.** So an unprofitable first read is the *expected* outcome and must not be read as product failure.
+
+**When CAC is known, the price decision is a lookup** — full table in `Offer_Structure.md`:
+
+| Measured CAC | Action |
+|---|---|
+| Under $57 | Hold price, scale |
+| **$57 – $86** | **Raise to $119.99 + $9.95.** Profitable there, not here |
+| Over $86 | Not a price problem — §2 |
+
+**This is also kill-rule 2's first fix.** If intent is strong and purchases stall, **try price before rewriting creative.**
+
+---
+
 ## §6 — The decision table, one page
 
 | Condition | Verdict |
