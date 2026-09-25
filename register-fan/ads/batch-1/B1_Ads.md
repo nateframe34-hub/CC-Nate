@@ -83,7 +83,7 @@
 ## B1C3 — Whiteboard · the same room, twice ⭐ rebuilt 2026-09-26 (direction 1)
 
 **Format:** Whiteboard drawing · **TOF** · all placements
-**Desire-channel method:** Contrast — the same person at the same desk, before and after
+**Desire-channel method:** Contrast — the same person at the same desk, normal vent vs Evenroom vent (labels chosen over "before/after" to stay clear of Meta before-and-after issues)
 **Awareness journey:** Problem Aware → Solution Aware → **sees the outcome**
 **Earns the read:** the left half is them. Hard to scroll past a drawing of your own afternoon.
 
@@ -91,10 +91,10 @@
 
 ### The board
 
-**LEFT — "BEFORE"**
+**LEFT — "NORMAL VENT"**
 A room, a desk, a stick figure hunched over a laptop: sweat running down the face, shirt sticking, fanning themselves with a sheet of paper. A drawn sun blazing in the window. At the floor, a plain vent with **two short, limp blue arrows** barely making it out. Thermometer: **81°**. Label: *"barely any air coming out"*
 
-**RIGHT — "AFTER"**
+**RIGHT — "EVENROOM VENT"**
 The same room, same desk, same sun. The figure sits upright, typing away, relaxed, small smile, iced drink. At the floor, our vent with **long, strong blue arrows sweeping out and curling across the whole room** to the desk. Thermometer: **74°**. Label: *"cold air actually reaching the room"*
 
 **Across the bottom:** *"Same room. Same afternoon. You just stay."*

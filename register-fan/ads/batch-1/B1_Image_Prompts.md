@@ -129,7 +129,7 @@ branding visible and intact.
 THE DRAWING — quick, confident, imperfect marker lines, clearly human, slightly
 cartoonish but expressive. A vertical line splits the board into two halves.
 
-LEFT HALF — "BEFORE" written at the top in black, underlined.
+LEFT HALF — "NORMAL VENT" written at the top in black, underlined.
 A simple room: floor line, a window with a big drawn sun with rays blazing through
 it in red. A person at a small desk, hunched over a laptop, looking miserable:
 droplets of sweat running down the face, damp patches on the shirt, one hand
@@ -139,7 +139,7 @@ blue arrows barely coming out of it and fading after a few inches. A small drawn
 thermometer on the wall reading "81°" in red. Handwritten label with an arrow to
 the vent: "barely any air coming out"
 
-RIGHT HALF — "AFTER" written at the top in black, underlined.
+RIGHT HALF — "EVENROOM VENT" written at the top in black, underlined.
 The same room drawn the same way, same window, same blazing sun. The same person
 at the same desk, sitting upright, typing happily, relaxed shoulders, a small
 smile, a glass with ice cubes beside the laptop, no sweat. At the floor, a vent

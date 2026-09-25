@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-26** — B1C3 board labels changed from BEFORE/AFTER to "NORMAL VENT" / "EVENROOM VENT" to avoid Meta before-and-after issues (founder).
+
 - **2026-09-26** — B1C2 hook/headline → "No more switching rooms because of the heat" (founder). B1C3 whiteboard → direction 1: same room twice, sweating → comfortable person, weak vs strong vent arrows. Direction 2 (vent-vs-vent + duct diagram) parked as a later test cell.
 
 - **2026-09-26** — B1C2 rebuilt outcome-led (founder: sell the outcome, not the product). Image is now the after (4pm, at the desk, fan retired), hook is the outcome, mechanism cut to one supporting line. Old vent-plate/"fan for the vent" version retired.
