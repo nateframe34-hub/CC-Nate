@@ -242,7 +242,7 @@ Ranked honestly. The hardware is not on this list.
 
 **Evidence:** four independent instances. *"I'm feeling quite guilty at the prospect of putting baby in there."* · *"my son's room was very cold."* · a parent buying a cold-rated sleeping bag instead of heating the room · someone researching on their partner's behalf.
 
-> 🚨 **Strictest claim rules in the project.** Allowed: temperature, degrees, the monitor reading, waking, sleeping through, not having to check. **Banned:** SIDS, safe sleep, risk, danger, hazard, any health framing. **We sell the not-worrying, never the thing they're worried about.**
+> **Claim guidance for this sub-avatar (relaxed 2026-09-26 — this is not a restricted category).** Temperature, degrees, the monitor reading, waking, sleeping through, not having to check — all fine. **Avoid safety framing because it isn't true, not because it's banned:** a vent fan doesn't make anyone safe. **We sell the not-worrying, never the thing they're worried about** — which is a positioning choice, and a good one.
 
 ---
 

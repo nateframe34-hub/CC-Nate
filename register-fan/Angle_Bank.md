@@ -5,11 +5,25 @@
 
 > **PRIORITY NOTE: you do NOT have to test each angle separately.** Test the #1 hook from Sub-Avatar #1 first. Supporting angles layer into body copy inside the same concept.
 
-**29 angles across 6 sub-avatars.** The number per avatar is set by how many *distinct reasons to buy* its behaviour actually produces — not by a quota. Each is a different reason, not a rephrasing.
+**30 angles across 6 sub-avatars.** The number per avatar is set by how many *distinct reasons to buy* its behaviour actually produces — not by a quota. Each is a different reason, not a rephrasing.
 
 **Hook patterns used** (from the Angle Identifier's winning-ad set): *"14+ Hours. No Swelling"* — timeline / outcome elimination · *"This is a meal. Not a protein shake"* — product redefinition · *"This is bread. This is breakfast"* — this does X, this does Y · *"Don't change your life, just change lunch"* — minimal change, maximum impact · *"5 minutes to install. No more snapping"* — install speed + behaviour elimination · *"Drains double chin in 7 days"* — dual timeline · *"Moms of 15 year olds"* — direct avatar call-out.
 
-**Guardrails throughout:** no performance numbers (we have no measurement of our own unit) · outcomes stay partial · **no noise claims** · **no health or safety framing** · no competitor or category name.
+## The four rules that apply here — and only one of them is compliance
+
+**Founder review 2026-09-26: this category is not compliance-sensitive.** Meta's restricted categories cover health, finance, housing, employment and social issues. A vent cover is in none of them, and everyday behaviours ("your spare room is cold") are not protected attributes. **Tallow was a genuinely restricted category; this is not, and the posture should not be carried over.**
+
+I had bundled four different kinds of rule under one heading. Separating them, because three of them still stand for reasons that have nothing to do with policy:
+
+| Rule | What it actually is | Still applies? |
+|---|---|---|
+| **No performance numbers** (no "six degrees") | **Substantiation and returns.** We have not measured our own unit. A number we invent is a promise the product gets judged against | ✅ **Yes — until we measure it** |
+| **Outcomes stay partial** | **Truth, and the returns that follow from overclaiming.** The honest result is "much more comfortable," not "fixed" | ✅ **Yes** |
+| **No noise claims** | **Founder call, returns-driven.** The incumbent's loudest complaint is *"marketed as quiet but it is too loud"*, and one buyer unhooked a working fan over an unfamiliar sound | ✅ **Yes** |
+| **No competitor or category name** | **Funnel strategy** (§9a-i) — never make them Product Aware and hand them a search term | ✅ **Yes, at TOF** |
+| ~~Health/safety framing~~ | Was treated as compliance. Mostly it isn't | ⚠️ **Relaxed — see below** |
+
+**On the nursery material specifically:** the reason not to write *"keep your baby safe"* is not that Meta would reject it. It's that **a vent fan does not make anyone safe, so it isn't true**, and a claim like that sets an expectation the product cannot meet. Temperature, the monitor reading, waking, not having to check — all fine, and now on ordinary judgement rather than a policy ban.
 
 ---
 
@@ -78,7 +92,7 @@
 
 ---
 
-## SUB-AVATAR #3: The Nightly Heater ⭐ THIRD — 6 angles
+## SUB-AVATAR #3: The Nightly Heater ⭐ THIRD — 7 angles
 
 *Plugs in a space heater or oil radiator every night, October to April. Some heat the bed instead of the room.*
 
@@ -107,7 +121,12 @@
 **Hook:** *"The heater starts when you get there. This was already running."*
 *— this does X, this does Y*
 
-### Angle 6: Stops The Second Heating Bill ⚠️ *inferred, not quoted*
+### Angle 6: Nothing Extra Running Overnight ⭐ *restored 2026-09-26 — founder review cleared it*
+**Reason to Buy:** A vent that pulls warm air in does the job without an extra appliance running in the room all night.
+**Hook:** *"Nothing extra running overnight."*
+*— outcome elimination*
+
+### Angle 7: Stops The Second Heating Bill ⚠️ *inferred, not quoted*
 **Reason to Buy:** A heater run nightly through winter is a real line on the bill, on top of the heating you already pay for.
 **Hook:** *"Two bills to heat one room."*
 *— this does X, this does Y*
