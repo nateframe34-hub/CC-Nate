@@ -18,12 +18,12 @@
 | Shipping | **$9.95** | **Free** |
 | Customer pays | **$99.94** | **$159.99** |
 | Per unit | $99.94 | **$80.00** |
-| Landed COGS | $40.59 | $81.18 |
+| Landed COGS | $39.83 | $79.66 |
 | Payment processing (2.9% + $0.30) | $3.20 | $4.94 |
-| **CAC room** | **$56.15** | **$73.87** |
-| **Margin %** | **56.2%** | **46.2%** |
+| **CAC room** | **$56.91** | **$75.39** |
+| **Margin %** | **56.9%** | **47.1%** |
 
-**Supplier: upgraded unit sourced 2026-08-12 at $40.59 landed** (replaces the $46.39 baseline). **Founder call 2026-08-12** — two attempts at a cheaper unit failed (see the sourcing log below), and sourcing cheaper without losing quality is proving hard enough that it is not worth holding the test hostage to it. **The price stays at $89.99 / $159.99 anyway.** The purpose of this test is to find out whether a market exists at a price customers will pay, not to prove profitability at launch COGS. Those are different questions and this is the right one to answer first.
+**Supplier: upgraded unit sourced 2026-08-12 at $39.83 landed** (replaces the $46.39 baseline). **Founder call 2026-08-12** — two attempts at a cheaper unit failed (see the sourcing log below), and sourcing cheaper without losing quality is proving hard enough that it is not worth holding the test hostage to it. **The price stays at $89.99 / $159.99 anyway.** The purpose of this test is to find out whether a market exists at a price customers will pay, not to prove profitability at launch COGS. Those are different questions and this is the right one to answer first.
 
 **The bundle returns 1.32x the contribution of a single for the same CAC.** CAC is paid per *order*, not per unit — one click, one customer, one acquisition cost, ~1.3x the money. That is the entire case for pushing the 2-pack, and it is why the bundle is allowed a lower margin % than the single. Margin % is the wrong thing to protect on a bundle.
 
@@ -65,7 +65,7 @@ Liability was also one-directional — full responsibility on us, explicit refus
 
 ### The economics are close to tallow's — this is a demand test, not a margin test
 
-Tallow ran **$41.52** on the single and **$60.71** on the bundle. This runs **$56.15** and **$73.87**. Better, but the same order of magnitude — and tallow died on economics, not on the product.
+Tallow ran **$41.52** on the single and **$60.71** on the bundle. This runs **$56.91** and **$75.39**. Better, but the same order of magnitude — and tallow died on economics, not on the product.
 
 So everything that has to be different here sits on the demand side: no Meta competition (confirmed — the incumbents do not advertise there), an urgent problem, low awareness, higher purchase intent. That is a real difference and it is why this is worth running. But it means:
 
@@ -127,6 +127,12 @@ with a photo of a tape measure across an open duct. Making this a numbered step,
 ---
 
 ## 4. Guarantee and returns
+
+### ⭐ Free size swap — added 2026-09-25
+
+**"Measured wrong? We'll swap it, no charge."**
+
+Fitment is the only documented lost sale in the research (*"unfortunately I have non-standard sized registers"*, *"4 x 16… can't seem to find one this size"*). This converts our biggest liability into a value item nobody in the category offers, and it costs occasional return freight rather than a sale. **It belongs beside the size step, not in the small print** — it is what lets someone buy while standing there instead of leaving to find a tape measure.
 
 **60-day money-back guarantee.** Same window that ran on tallow, for the same reason: the problem is seasonal-adjacent and a buyer needs to live through a hot stretch before they know.
 
@@ -199,8 +205,8 @@ The explicit lesson from the tallow post-mortem is that these were set after the
 |---|---|---|
 | **Per-cell hard kill** | $60 spend, 0 purchases | Kill the cell |
 | **Per-cell CTR kill** | $40 spend, under 1.0% CTR | Kill the cell — creative is not stopping anyone |
-| **CAC read** | after ~$150 total | Compare actual CAC against the $56.15 / $73.87 room. If nothing is close, stop and reconsider before spending the rest. No CPC target is set here on purpose — we have no basis for one, and inventing a threshold would make a guess look like a rule. |
-| **The winner bar** | a cell holding CAC under $56.15 (single) / under $73.87 (bundle) across 3 consecutive days | Scale it. This is the bar tallow never hit. |
+| **CAC read** | after ~$150 total | Compare actual CAC against the $56.91 / $75.39 room. If nothing is close, stop and reconsider before spending the rest. No CPC target is set here on purpose — we have no basis for one, and inventing a threshold would make a guess look like a rule. |
+| **The winner bar** | a cell holding CAC under $56.91 (single) / under $75.39 (bundle) across 3 consecutive days | Scale it. This is the bar tallow never hit. |
 | **The product kill** | $600 spent, no cell has held CPA under contribution for 3 days | Kill the product. Write the post-mortem the same day. |
 
 **One thing the cap does not cover:** CPM and CPC on this product are complete unknowns. The research established there *is* strong desire and there *is* almost no Meta competition, which should mean cheaper auction than tallow — but that is a hypothesis, not a number. The $150 CPC read above exists specifically to find out early and cheaply.

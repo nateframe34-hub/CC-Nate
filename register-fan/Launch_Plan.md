@@ -10,8 +10,8 @@
 | | Single | 2-Pack |
 |---|---|---|
 | Customer pays | **$99.94** ($89.99 + $9.95) | **$159.99** free shipping |
-| CAC room | **$56.15** | **$73.87** |
-| Margin % | 56.2% | 46.2% |
+| CAC room | **$56.91** | **$75.39** |
+| Margin % | 56.9% | 47.1% |
 
 No change. The competitive finding was answered by funnel discipline (`Brand_Mastery.md` §9a-i), not by price. Re-opening this costs a week on a decision already reasoned.
 
@@ -85,7 +85,7 @@ No change. The competitive finding was answered by funnel discipline (`Brand_Mas
 
 **Why right column is excluded on C4 only:** the right column cannot render primary text. A native's entire argument lives there, so it would serve an image with no case attached — the delivery fault already paid for on tallow. The image-carried cells keep all placements, because that coverage is the reason they exist.
 
-**Kill rules** (from `Offer_Structure.md` §7, unchanged): per-cell kill at $60 spend / 0 purchases; CTR kill at $40 / under 1.0%; CAC read at ~$150 total against the $56.15 / $73.87 room; product kill at $600.
+**Kill rules** (from `Offer_Structure.md` §7, unchanged): per-cell kill at $60 spend / 0 purchases; CTR kill at $40 / under 1.0%; CAC read at ~$150 total against the $56.91 / $75.39 room; product kill at $600.
 
 ---
 

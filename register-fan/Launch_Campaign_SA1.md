@@ -103,7 +103,7 @@ Set before spending so it cannot move afterwards.
 
 | Outcome | Read |
 |---|---|
-| **3+ purchases, blended CAC under $56.15** | ✅ Product sells. Fund Batch 2 from it |
+| **3+ purchases, blended CAC under $56.91** | ✅ Product sells. Fund Batch 2 from it |
 | **1-2 purchases**, CAC above room | 🟡 Alive, economics unproven. Extend the winning ad set with the $180 reserve |
 | **0 purchases, healthy CTR and cost per LPV** | 🟠 **Creative works, page or offer doesn't.** Fix the PDP or the price — do not rewrite ads |
 | **0 purchases, CTR under 1% across all nine** | 🔴 Wrong avatar or wrong product. Re-check the page first, then stop |

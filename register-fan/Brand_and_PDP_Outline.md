@@ -82,20 +82,45 @@ The two-thermometer image from the ad appears full-bleed below the hero. The duc
 
 **They arrive already wanting it.** The ad did that. The page's task is to remove every reason not to buy, and then make buying *today* feel obviously right.
 
-### What "make them feel they're getting an amazing deal" can honestly mean here
+### ⭐ Value stacking — the job is to make comparison never occur to them
 
-⚠️ **We cannot win a price comparison.** A $59.99 branded unit with an app exists. If the reader's mental benchmark becomes "other vent fans," we lose, and no copy fixes that.
+> **Founder correction, 2026-09-25.** An earlier draft of this section said *"we cannot win a price comparison, so anchor elsewhere."* **That was defensive and wrong.** Competition is not the frame. **The job is to stack perceived value so high that comparison shopping never starts.** Anchoring against the contractor quote is one tactic *inside* value stacking, not a substitute for it.
 
-**So the deal feeling has to be anchored against the comparisons they actually arrived with** — which are the ones the ads used, and the ones in their head already:
+**The mechanic, already proven on this account:** the Grüns-style stack, where every component is **named and priced** so the value is visible rather than implied. That is what made the tallow 2-pack work, and it is the same move here.
 
-| Anchor | The deal |
+| Component | Value | Real? |
+|---|---|---|
+| The Vent Thermostat | $89.99 | Yes |
+| Remote + room thermostat control | Included | Yes |
+| **Free size swap** — measured wrong, we swap it | **$20 value** | ⭐ See below |
+| Sizing + install card, written by us | Included | Yes — and it costs us nothing |
+| 60-day home trial | Included | Yes |
+| Free shipping *(2-pack)* | $9.95 | Yes |
+
+**On the 2-pack, the stack gets stronger and the maths is real:** **$80 a room.** That is the single best genuine value frame we own, and it is the reason the bundle is pushed rather than offered.
+
+### ⭐⭐ The free size swap — turning our biggest liability into the strongest value item
+
+**Fitment is the only documented lost sale in the entire research.** *"That seems like a neat gadget, but unfortunately I have non-standard sized registers."* · *"I have a 4 x 16 register… I can't seem to find one this size."* Both were motivated buyers stopped at the measuring step.
+
+**"Measured wrong? We'll swap it, no charge"** does three things at once:
+1. **Removes the largest unspoken blocker at the buy box.** The fit question is the reason people leave to "check later" and never come back.
+2. **Costs us occasional return freight**, not a sale. Cheap insurance against the failure mode that dominates the incumbent's one-star reviews.
+3. **Nobody in the category offers it.** It is a value item we can own outright, and it is completely honest.
+
+Put it beside the size step, not in the small print. It is the line that lets someone buy while they're still standing there, instead of going to find a tape measure and never returning.
+
+### The anchors they arrived with
+
+Value stacking is what makes the price feel small. These are what it gets measured *against* — and they are the comparisons the ads already put in their head:
+
+| Anchor | The contrast |
 |---|---|
 | **The contractor quote** | $3,400 and three days, versus $89 and an afternoon |
-| **Another winter of it** | Three winters of a heater running nightly costs more than this does |
-| **The 2-pack** | **$80 a room.** The strongest genuine value frame we own |
-| **The guarantee** | 60 days makes "now" safe — risk removal is what converts urgency into action instead of anxiety |
+| **Another winter of it** | A heater running nightly for three winters costs more than this does |
+| **The guarantee** | 60 days makes acting *now* safe — risk removal is what turns urgency into orders instead of anxiety |
 
-**Congruence matters here too:** the ad anchored against the quote, so the page must continue that anchor rather than introducing a new one. A page that switches comparisons re-opens the question the ad closed.
+**Congruence:** the ad anchored against the quote, so the page continues that anchor. A page that switches comparisons re-opens the question the ad just closed.
 
 ### Where urgency lives on the page
 

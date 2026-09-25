@@ -33,7 +33,7 @@ Rule 1 is the most consequential rule here and the term at its centre is undefin
 | **1-2 real ATC, 0 checkouts** | 🔴 **Kill.** Two carts across $300 is noise, not intent |
 | **3+ real ATC, or 1+ checkout initiated** | 🟡 Intent exists → **Rule 2** |
 
-**Why $300 is a good number:** it's 3× the sale price and roughly 5× the single-unit CAC room ($56.15). If five CACs of spend produces not one person who got as far as a cart, the problem is the product or the market, not the creative.
+**Why $300 is a good number:** it's 3× the sale price and roughly 5× the single-unit CAC room ($56.91). If five CACs of spend produces not one person who got as far as a cart, the problem is the product or the market, not the creative.
 
 **Relationship to the $600 cap:** $300 is the *early* gate and it binds first. **$600 remains the outer cap** and also does not move. Passing the $300 gate buys the second $300, not an open budget.
 
@@ -69,8 +69,8 @@ Rule 3 as written would have us scaling into a loss on bundle-heavy days. The ar
 
 | | Revenue | Contribution | **Breakeven ROAS** |
 |---|---|---|---|
-| **Single** ($89.99 + $9.95) | $99.94 | $56.15 | **1.78×** |
-| **2-Pack** ($159.99) | $159.99 | $73.87 | **2.17×** |
+| **Single** ($89.99 + $9.95) | $99.94 | $56.91 | **1.76×** |
+| **2-Pack** ($159.99) | $159.99 | $75.39 | **2.12×** |
 
 **At exactly 2.0× ROAS:**
 - A single earns about **+$6** per order.
@@ -87,7 +87,7 @@ Because the bundle carries a lower margin percentage, **2× ROAS is profitable o
 | **Above 2.25×** | Profitable on any mix | ✅ **Scale** |
 | Above 3× | Comfortably profitable | Scale faster |
 
-**Better still, judge on CAC, not ROAS.** ROAS hides the mix; CAC doesn't. **Scale when blended CAC sits below the contribution for the mix actually being sold** — $56.15 single, $73.87 bundle. If both numbers are available, CAC is the one to trust.
+**Better still, judge on CAC, not ROAS.** ROAS hides the mix; CAC doesn't. **Scale when blended CAC sits below the contribution for the mix actually being sold** — $56.91 single, $75.39 bundle. If both numbers are available, CAC is the one to trust.
 
 ### Scaling mechanics, so scaling doesn't kill the winner
 

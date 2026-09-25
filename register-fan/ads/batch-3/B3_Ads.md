@@ -12,7 +12,7 @@
 
 ## What this batch is actually optimising for
 
-**Not profitability. Repeatable demand.** Founder note 2026-09-23: consistent weekly orders unlock a private supplier and COGS near $25, which drops breakeven ROAS from 1.78×/2.17× to roughly **1.39×/1.52×**. So the outcome we want from batch 1 is *purchases that repeat*, not a strong first-week ROAS.
+**Not profitability. Repeatable demand.** Founder note 2026-09-23: consistent weekly orders unlock a private supplier and COGS near $25, which drops breakeven ROAS from 1.76×/2.12× to roughly **1.39×/1.52×**. So the outcome we want from batch 1 is *purchases that repeat*, not a strong first-week ROAS.
 
 The kill rules still govern this spend at today's economics. But **"consistent 1-2 orders/week at breakeven" is a PASS**, and should not be read as failure.
 

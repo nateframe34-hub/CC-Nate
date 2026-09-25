@@ -22,7 +22,7 @@
 
 **Mechanism:** the register itself pulls. A room at the end of a duct run receives whatever pressure is left after every branch and bend; the fans draw that conditioned air the rest of the way in rather than waiting for the duct to push it.
 
-**Landed COGS:** $40.59 single / $81.18 two-pack (2× carry; one-label rate outstanding).
+**Landed COGS:** $39.83 single / $79.66 two-pack (2× carry; one-label rate outstanding).
 
 ---
 
