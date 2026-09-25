@@ -1,0 +1,664 @@
+{%- comment -%}
+  EVENROOM PDP — built for SA1 "The Fan Runner", HOT framing. 2026-09-26.
+
+  Congruent with ads/batch-1 by design: the traffic arriving here has already
+  tried a fan and has just been told why it didn't work. §3 repeats that exact
+  sentence so the page continues the argument instead of restarting it.
+
+  Custom Online Store 2.0 product section. Real Shopify product forms, so the
+  Add to Cart buttons genuinely add to cart. All CSS scoped under #evr-pdp so
+  it cannot collide with the theme.
+
+  PRICING — CHANGED FROM THE TALLOW PATTERN, founder call 2026-09-26.
+  Tallow hardcoded its displayed price in section settings. This does NOT.
+  Every price on this page is derived from the SHOPIFY PRODUCT:
+      single price    = product.price
+      single compare  = product.compare_at_price
+      2-pack compare  = product.price x 2
+      2-pack price    = (product.price x 2) - bundle_discount_cents
+  Change the price in Shopify and the whole page follows. Nothing to re-edit.
+
+  ⚠️ THE 2-PACK NEEDS A MATCHING AUTOMATIC DISCOUNT IN SHOPIFY ADMIN.
+  The selector adds quantity 2 of the same variant. Shopify will charge
+  2 x product.price unless you create:
+      Discounts → Automatic → Amount off order
+      Minimum quantity of items: 2
+      Value: the same amount as bundle_discount_cents below
+  Verify the cart total matches the page before sending traffic.
+
+  JS SAFETY — learned expensively on the tallow build.
+  The selector script lives at the very END of this file, in its own IIFE with
+  its own try/catch. It only writes to hidden inputs and toggles classes. It
+  must never be merged into the theme's cart-drawer listeners: on tallow a bare
+  IIFE above those listeners threw once and silently killed the cart drawer.
+{%- endcomment -%}
+
+{%- assign v = product.selected_or_first_available_variant -%}
+{%- assign p1 = product.price -%}
+{%- assign p1_cmp = product.compare_at_price -%}
+{%- assign p2_cmp = p1 | times: 2 -%}
+{%- assign p2 = p2_cmp | minus: section.settings.bundle_discount_cents -%}
+{%- assign p2_each = p2 | divided_by: 2 -%}
+
+<section id="evr-pdp" data-section-id="{{ section.id }}">
+
+<style>
+#evr-pdp{
+  --bg:#FAF7F2; --ink:#1C1A17; --accent:#B4553A; --accent-ink:#FFF7F3;
+  --cool:#5B7185; --line:#E6DFD6; --muted:#6E655C;
+  --hdr:'Archivo','Helvetica Neue',Arial,sans-serif;
+  --body:'Inter','Helvetica Neue',Arial,sans-serif;
+  --mono:'JetBrains Mono','Roboto Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  background:var(--bg); color:var(--ink); font-family:var(--body);
+  font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased;
+}
+#evr-pdp *,#evr-pdp *::before,#evr-pdp *::after{box-sizing:border-box}
+#evr-pdp .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+#evr-pdp .narrow{max-width:720px;margin:0 auto}
+#evr-pdp h1,#evr-pdp h2,#evr-pdp h3{font-family:var(--hdr);font-weight:700;line-height:1.12;letter-spacing:-.02em;margin:0 0 .5em}
+#evr-pdp h1{font-size:clamp(30px,5vw,46px)}
+#evr-pdp h2{font-size:clamp(26px,4vw,38px)}
+#evr-pdp h3{font-size:clamp(19px,2.4vw,23px)}
+#evr-pdp p{margin:0 0 1em;max-width:62ch}
+#evr-pdp .deg{font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:600}
+#evr-pdp .sec{padding:64px 0}
+#evr-pdp .band{background:var(--accent);color:var(--accent-ink);padding:72px 0}
+#evr-pdp .band h2,#evr-pdp .band h3{color:var(--accent-ink)}
+#evr-pdp .band .deg{color:var(--accent-ink)}
+#evr-pdp .eyebrow{font-family:var(--hdr);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;font-weight:700}
+#evr-pdp .band .eyebrow{color:rgba(255,247,243,.75)}
+
+/* announcement */
+#evr-pdp .announce{background:var(--ink);color:var(--bg);font-size:13px;letter-spacing:.04em;text-align:center;padding:10px 16px}
+#evr-pdp .announce span{margin:0 10px;white-space:nowrap}
+
+/* hero */
+#evr-pdp .hero{display:grid;grid-template-columns:1fr 1fr;gap:56px;padding:44px 0 64px;align-items:start}
+#evr-pdp .gal-main{width:100%;aspect-ratio:1/1;object-fit:cover;background:#fff;border:1px solid var(--line)}
+#evr-pdp .gal-thumbs{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+#evr-pdp .gal-thumbs img{width:72px;height:72px;object-fit:cover;border:1px solid var(--line);cursor:pointer;background:#fff}
+#evr-pdp .gal-thumbs img.on{border-color:var(--accent);border-width:2px}
+#evr-pdp .sub{font-size:19px;color:var(--muted);margin:-.2em 0 24px;max-width:36ch}
+#evr-pdp .prices{display:flex;align-items:baseline;gap:12px;margin:0 0 4px}
+#evr-pdp .p-now{font-family:var(--hdr);font-weight:700;font-size:32px}
+#evr-pdp .p-was{color:var(--muted);text-decoration:line-through;font-size:19px}
+#evr-pdp .p-note{font-size:14px;color:var(--muted);margin:0 0 28px}
+
+/* steps */
+#evr-pdp .step{border-top:1px solid var(--line);padding:22px 0}
+#evr-pdp .step-h{display:flex;align-items:baseline;gap:10px;margin:0 0 4px}
+#evr-pdp .step-n{font-family:var(--mono);font-size:12px;color:var(--accent);font-weight:700}
+#evr-pdp .step-t{font-family:var(--hdr);font-weight:700;font-size:16px}
+#evr-pdp .step-s{font-size:14px;color:var(--muted);margin:0 0 14px}
+#evr-pdp .opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+#evr-pdp .opt{background:#fff;border:1.5px solid var(--line);padding:14px;text-align:left;cursor:pointer;font-family:var(--body);font-size:15px;color:var(--ink);transition:border-color .12s,box-shadow .12s}
+#evr-pdp .opt:hover{border-color:var(--muted)}
+#evr-pdp .opt.on{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+#evr-pdp .opt .ot{font-family:var(--hdr);font-weight:700;display:block;margin-bottom:2px}
+#evr-pdp .opt .os{font-size:13px;color:var(--muted);display:block}
+#evr-pdp .opt .op{font-family:var(--hdr);font-weight:700;margin-top:6px;display:block}
+#evr-pdp .opt .op s{color:var(--muted);font-weight:400;margin-right:6px}
+#evr-pdp .opt[disabled]{opacity:.42;cursor:not-allowed}
+#evr-pdp .tag{display:inline-block;background:var(--accent);color:var(--accent-ink);font-family:var(--hdr);font-size:10px;letter-spacing:.09em;text-transform:uppercase;padding:3px 7px;margin-top:8px;font-weight:700}
+
+/* atc */
+#evr-pdp .atc{width:100%;background:var(--accent);color:var(--accent-ink);border:0;font-family:var(--hdr);font-weight:700;font-size:17px;letter-spacing:.01em;padding:19px;cursor:pointer;margin-top:22px}
+#evr-pdp .atc:hover{filter:brightness(1.07)}
+#evr-pdp .atc[disabled]{background:var(--muted);cursor:not-allowed}
+#evr-pdp .reassure{display:flex;gap:18px;flex-wrap:wrap;font-size:13.5px;color:var(--muted);margin-top:14px}
+#evr-pdp .reassure b{color:var(--ink);font-weight:600}
+
+/* hand test */
+#evr-pdp .two{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:28px}
+#evr-pdp .card{background:#fff;border:1px solid var(--line);padding:26px}
+#evr-pdp .card.yes{border-left:4px solid var(--accent)}
+#evr-pdp .card.no{border-left:4px solid var(--cool)}
+#evr-pdp .card h3{margin-bottom:.35em}
+#evr-pdp .card p{margin:0;font-size:15.5px}
+
+/* grid */
+#evr-pdp .attrs{border-top:1px solid var(--line)}
+#evr-pdp .attr{display:grid;grid-template-columns:200px 1fr;gap:24px;padding:18px 0;border-bottom:1px solid var(--line)}
+#evr-pdp .attr dt{font-family:var(--hdr);font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--accent);font-weight:700}
+#evr-pdp .attr dd{margin:0;font-size:16px}
+
+/* stack */
+#evr-pdp .stack{background:#fff;border:1px solid var(--line);padding:8px 26px}
+#evr-pdp .srow{display:flex;justify-content:space-between;gap:16px;padding:15px 0;border-bottom:1px solid var(--line);font-size:16px}
+#evr-pdp .srow:last-child{border-bottom:0}
+#evr-pdp .srow b{font-family:var(--hdr)}
+#evr-pdp .srow .val{color:var(--accent);font-family:var(--hdr);font-weight:700;white-space:nowrap}
+
+/* steps 3 */
+#evr-pdp .three{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:26px}
+#evr-pdp .three .n{font-family:var(--hdr);font-size:40px;color:var(--accent);line-height:1;margin-bottom:8px;font-weight:700}
+
+/* alts */
+#evr-pdp .alt{display:grid;grid-template-columns:230px 1fr;gap:24px;padding:20px 0;border-bottom:1px solid rgba(255,247,243,.25)}
+#evr-pdp .alt b{font-family:var(--hdr)}
+#evr-pdp .alt p{margin:0;opacity:.92}
+
+/* faq */
+#evr-pdp details{border-bottom:1px solid var(--line)}
+#evr-pdp summary{cursor:pointer;list-style:none;padding:20px 0;font-family:var(--hdr);font-weight:700;font-size:17px;display:flex;justify-content:space-between;gap:16px}
+#evr-pdp summary::-webkit-details-marker{display:none}
+#evr-pdp summary::after{content:'+';color:var(--accent);font-size:22px;line-height:1}
+#evr-pdp details[open] summary::after{content:'–'}
+#evr-pdp details .fa{padding:0 0 20px;font-size:16px;color:var(--muted);max-width:66ch}
+
+/* reviews */
+#evr-pdp .rsum{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:26px}
+#evr-pdp .rnum{font-family:var(--hdr);font-size:52px;font-weight:700;line-height:1}
+#evr-pdp .rev{border-top:1px solid var(--line);padding:22px 0}
+#evr-pdp .rev .rh{font-family:var(--hdr);font-weight:700;margin-bottom:4px}
+#evr-pdp .rev .rm{font-size:13px;color:var(--muted);margin-bottom:8px}
+#evr-pdp .rev p{font-size:15.5px;margin:0}
+#evr-pdp .stars{color:var(--accent);letter-spacing:2px}
+
+/* sticky */
+#evr-pdp .sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--bg);border-top:1px solid var(--line);padding:10px 14px;display:none;box-shadow:0 -6px 20px rgba(0,0,0,.07)}
+#evr-pdp .sticky .in{display:flex;align-items:center;gap:12px;max-width:1180px;margin:0 auto}
+#evr-pdp .sticky .sp{font-family:var(--hdr);font-weight:700;font-size:16px;white-space:nowrap}
+#evr-pdp .sticky .sp s{color:var(--muted);font-weight:400;font-size:13px;margin-right:6px}
+#evr-pdp .sticky .atc{margin:0;flex:1;padding:14px;font-size:15px}
+
+@media(max-width:880px){
+  #evr-pdp .hero{grid-template-columns:1fr;gap:28px;padding-top:24px}
+  #evr-pdp .two,#evr-pdp .three,#evr-pdp .opts{grid-template-columns:1fr}
+  #evr-pdp .attr,#evr-pdp .alt{grid-template-columns:1fr;gap:6px}
+  #evr-pdp .sec{padding:48px 0}
+  #evr-pdp .band{padding:52px 0}
+  #evr-pdp .sticky{display:block}
+  #evr-pdp .hero .atc{margin-bottom:8px}
+}
+</style>
+
+<div class="announce">
+  <span>Ships from the US</span><span>·</span><span>60-day returns</span><span>·</span><span>Free shipping on 2-packs</span>
+</div>
+
+<!-- ================= 2. HERO ================= -->
+<div class="wrap">
+  <div class="hero">
+    <div>
+      {%- if product.images.size > 0 -%}
+        <img class="gal-main" id="evr-gal" src="{{ product.featured_image | image_url: width: 1100 }}" alt="{{ product.title | escape }}">
+        {%- if product.images.size > 1 -%}
+          <div class="gal-thumbs">
+            {%- for img in product.images limit: 6 -%}
+              <img src="{{ img | image_url: width: 180 }}" data-full="{{ img | image_url: width: 1100 }}" alt="" class="evr-thumb{% if forloop.first %} on{% endif %}">
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+
+    <div>
+      <h1>{{ product.title }}</h1>
+      <p class="sub">{{ section.settings.hero_sub }}</p>
+
+      <div class="prices">
+        <span class="p-now" id="evr-price">{{ p1 | money }}</span>
+        {%- if p1_cmp > p1 -%}<s class="p-was" id="evr-compare">{{ p1_cmp | money }}</s>{%- endif -%}
+      </div>
+      <p class="p-note" id="evr-pnote">{{ section.settings.single_ship_note }}</p>
+
+      {%- comment -%} STEP 1 — SIZE {%- endcomment -%}
+      <div class="step">
+        <div class="step-h"><span class="step-n">01</span><span class="step-t">Which size is your vent?</span></div>
+        <p class="step-s">Measure the <b>hole</b>, not the cover. Both are 10&Prime; long — the short side is the one that differs.</p>
+        <div class="opts" id="evr-sizes">
+          {%- for variant in product.variants -%}
+            <button type="button" class="opt evr-size{% if variant.id == v.id %} on{% endif %}"
+              data-variant="{{ variant.id }}"
+              data-available="{{ variant.available }}"
+              {% unless variant.available %}disabled{% endunless %}
+              role="radio" aria-checked="{% if variant.id == v.id %}true{% else %}false{% endif %}">
+              <span class="ot">{{ variant.title }}</span>
+              <span class="os">{% unless variant.available %}Out of stock{% else %}{{ section.settings.size_note }}{% endunless %}</span>
+            </button>
+          {%- endfor -%}
+        </div>
+      </div>
+
+      {%- comment -%} STEP 2 — BUNDLE. Prices derived from the Shopify product. {%- endcomment -%}
+      <div class="step">
+        <div class="step-h"><span class="step-n">02</span><span class="step-t">How many rooms?</span></div>
+        <p class="step-s">{{ section.settings.bundle_note }}</p>
+        <div class="opts" id="evr-tiers">
+          <button type="button" class="opt evr-tier on" data-qty="1"
+            data-price="{{ p1 }}" data-compare="{{ p1_cmp }}"
+            data-note="{{ section.settings.single_ship_note | escape }}"
+            data-cta="{{ section.settings.cta_single | escape }}"
+            role="radio" aria-checked="true">
+            <span class="ot">One vent</span>
+            <span class="os">The room that never catches up</span>
+            <span class="op">{%- if p1_cmp > p1 -%}<s>{{ p1_cmp | money }}</s>{%- endif -%}{{ p1 | money }}</span>
+          </button>
+
+          <button type="button" class="opt evr-tier" data-qty="2"
+            data-price="{{ p2 }}" data-compare="{{ p2_cmp }}"
+            data-note="{{ section.settings.bundle_ship_note | escape }}"
+            data-cta="{{ section.settings.cta_bundle | escape }}"
+            role="radio" aria-checked="false">
+            <span class="ot">Two vents</span>
+            <span class="os">{{ p2_each | money }} each</span>
+            <span class="op"><s>{{ p2_cmp | money }}</s>{{ p2 | money }}</span>
+            <span class="tag">Free shipping</span>
+          </button>
+        </div>
+      </div>
+
+      {%- form 'product', product, id: 'evr-form-hero', class: 'evr-form' -%}
+        <input type="hidden" name="id" class="evr-variant-field" value="{{ v.id }}">
+        <input type="hidden" name="quantity" class="evr-qty-field" value="1">
+        <button type="submit" class="atc evr-cta"{% unless v.available %} disabled{% endunless %}>
+          {%- if v.available -%}{{ section.settings.cta_single }}{%- else -%}Sold out{%- endif -%}
+        </button>
+      {%- endform -%}
+
+      <div class="reassure">
+        <span><b>60 days</b> to send it back</span>
+        <span><b>Free size swap</b> if you measure wrong</span>
+        <span><b>Ships from the US</b></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= 3. CONGRUENCE BAND ================= -->
+<div class="band">
+  <div class="wrap narrow">
+    <p class="eyebrow">If you've tried a fan in there</p>
+    <h2>{{ section.settings.congruence_h }}</h2>
+    <p>{{ section.settings.congruence_1 }}</p>
+    <p>{{ section.settings.congruence_2 }}</p>
+    <p style="margin-bottom:0"><b>{{ section.settings.congruence_3 }}</b></p>
+  </div>
+</div>
+
+<!-- ================= 4. MECHANISM ================= -->
+<div class="sec"><div class="wrap narrow">
+  <p class="eyebrow">Why it happens</p>
+  <h2>{{ section.settings.mech_h }}</h2>
+  <p>{{ section.settings.mech_1 }}</p>
+  <p><b>{{ section.settings.mech_2 }}</b></p>
+
+  <svg viewBox="0 0 720 260" style="width:100%;height:auto;margin:26px 0 8px" role="img" aria-label="Diagram: air weakening along a duct run">
+    <rect x="8" y="150" width="86" height="76" fill="none" stroke="#1C1A17" stroke-width="2"/>
+    <text x="51" y="244" font-family="Inter,sans-serif" font-size="12" fill="#6E655C" text-anchor="middle">AC unit</text>
+    <line x1="94" y1="188" x2="690" y2="188" stroke="#1C1A17" stroke-width="2"/>
+    {%- assign xs = '170,320,470,620' | split: ',' -%}
+    {%- assign temps = '72,72,73,81' | split: ',' -%}
+    {%- assign widths = '13,9,5,2' | split: ',' -%}
+    {%- for x in xs -%}
+      {%- assign i = forloop.index0 -%}
+      <line x1="{{ x }}" y1="188" x2="{{ x }}" y2="86" stroke="#1C1A17" stroke-width="2"/>
+      <line x1="{{ x }}" y1="86" x2="{{ x }}" y2="52" stroke="{% if forloop.last %}#5B7185{% else %}#B4553A{% endif %}" stroke-width="{{ widths[i] }}" stroke-linecap="round"/>
+      <rect x="{{ x | minus: 34 }}" y="18" width="68" height="30" fill="none" stroke="#E6DFD6" stroke-width="1.5"/>
+      <text x="{{ x }}" y="38" font-family="ui-monospace,Menlo,monospace" font-size="15" font-weight="600" fill="{% if forloop.last %}#5B7185{% else %}#1C1A17{% endif %}" text-anchor="middle">{{ temps[i] }}&#176;</text>
+      <text x="{{ x }}" y="212" font-family="Inter,sans-serif" font-size="11" fill="#6E655C" text-anchor="middle">Room {{ forloop.index }}</text>
+    {%- endfor -%}
+    <text x="620" y="232" font-family="Inter,sans-serif" font-size="11.5" fill="#B4553A" text-anchor="middle" font-weight="600">whatever&#39;s left</text>
+  </svg>
+  <p style="font-size:14px;color:var(--muted)">{{ section.settings.mech_caption }}</p>
+</div></div>
+
+<!-- ================= 5. HAND TEST ================= -->
+<div class="sec" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap narrow">
+    <p class="eyebrow">Ten-second check</p>
+    <h2>{{ section.settings.hand_h }}</h2>
+    <p>{{ section.settings.hand_sub }}</p>
+    <div class="two">
+      <div class="card yes">
+        <h3>{{ section.settings.hand_yes_h }}</h3>
+        <p>{{ section.settings.hand_yes_b }}</p>
+      </div>
+      <div class="card no">
+        <h3>{{ section.settings.hand_no_h }}</h3>
+        <p>{{ section.settings.hand_no_b }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= 6. ATTRIBUTE GRID ================= -->
+<div class="sec"><div class="wrap narrow">
+  <p class="eyebrow">The specifics</p>
+  <h2>What it is</h2>
+  <dl class="attrs">
+    <div class="attr"><dt>What it is</dt><dd>A vent cover with fans built in. It replaces the register already in that room.</dd></div>
+    <div class="attr"><dt>What it does</dt><dd>Pulls conditioned air out of the duct into the room, instead of waiting for it to arrive.</dd></div>
+    <div class="attr"><dt>Fits</dt><dd>{{ section.settings.attr_fits }}</dd></div>
+    <div class="attr"><dt>Power</dt><dd>Plugs into a standard wall outlet.</dd></div>
+    <div class="attr"><dt>Control</dt><dd>Set a temperature for that one room. It runs when the duct is delivering and stops when it isn&rsquo;t.</dd></div>
+    <div class="attr"><dt>Seasons</dt><dd>Cooling in summer, heating in winter. Same unit.</dd></div>
+    <div class="attr"><dt>Returns</dt><dd>60 days. Free size swap if you measure wrong.</dd></div>
+  </dl>
+</div></div>
+
+<!-- ================= 7. FIT ================= -->
+<div class="sec" style="background:#fff;border-top:1px solid var(--line)">
+  <div class="wrap narrow">
+    <p class="eyebrow">Before you order</p>
+    <h2>{{ section.settings.fit_h }}</h2>
+    <p>{{ section.settings.fit_1 }}</p>
+    <p>{{ section.settings.fit_2 }}</p>
+    {%- if section.settings.fit_image != blank -%}
+      <img src="{{ section.settings.fit_image | image_url: width: 1100 }}" alt="Measuring a vent opening" style="width:100%;margin:22px 0;border:1px solid var(--line)">
+    {%- endif -%}
+    <div class="card yes" style="margin-top:8px">
+      <h3>{{ section.settings.swap_h }}</h3>
+      <p>{{ section.settings.swap_b }}</p>
+    </div>
+  </div>
+</div>
+
+<!-- ================= 8. INSTALL ================= -->
+<div class="sec"><div class="wrap narrow">
+  <p class="eyebrow">Fitting it</p>
+  <h2>Two screws and an outlet.</h2>
+  <div class="three">
+    <div><div class="n">1</div><b>Unscrew the old cover.</b><p style="font-size:15px;color:var(--muted)">The one already in that room.</p></div>
+    <div><div class="n">2</div><b>Drop this one in.</b><p style="font-size:15px;color:var(--muted)">Same hole, same two screws.</p></div>
+    <div><div class="n">3</div><b>Plug it in.</b><p style="font-size:15px;color:var(--muted)">Set the temperature you want.</p></div>
+  </div>
+  <p style="margin-top:22px">No ductwork. No tools you don&rsquo;t own. Nobody in your house.</p>
+</div></div>
+
+<!-- ================= 9. LIMITS ================= -->
+<div class="sec" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap narrow">
+    <p class="eyebrow">Being straight with you</p>
+    <h2>{{ section.settings.limits_h }}</h2>
+    <p>{{ section.settings.limits_1 }}</p>
+    <p>{{ section.settings.limits_2 }}</p>
+  </div>
+</div>
+
+<!-- ================= 10. ALTERNATIVES ================= -->
+<div class="band">
+  <div class="wrap narrow">
+    <p class="eyebrow">What else you could do</p>
+    <h2>{{ section.settings.alts_h }}</h2>
+    <div class="alt"><b>Another fan</b><p>Cools whoever is sitting in front of it. The room stays where it is.</p></div>
+    <div class="alt"><b>Turn the AC down</b><p>Over-cools every room that was already fine, all day, to fix one that isn&rsquo;t.</p></div>
+    <div class="alt"><b>Call a contractor</b><p>Rebalancing a duct run is commonly quoted in the thousands. It may well be the right permanent fix. It isn&rsquo;t happening this week.</p></div>
+    <div class="alt" style="border-bottom:0"><b>Nothing</b><p>What most people do. For years.</p></div>
+  </div>
+</div>
+
+<!-- ================= 11. VALUE STACK ================= -->
+<div class="sec"><div class="wrap narrow">
+  <p class="eyebrow">What you get</p>
+  <h2 id="evr-stack-h">{{ section.settings.stack_h }}</h2>
+  <div class="stack">
+    <div class="srow"><b>{{ product.title }}</b><span class="val" id="evr-stack-price">{{ p1 | money }}</span></div>
+    <div class="srow"><b>Remote + room temperature control</b><span class="val">Included</span></div>
+    <div class="srow"><b>Free size swap</b><span class="val">{{ section.settings.swap_value }}</span></div>
+    <div class="srow"><b>Sizing + install card, in plain English</b><span class="val">Included</span></div>
+    <div class="srow"><b>60-day home trial</b><span class="val">Included</span></div>
+    <div class="srow"><b>Free shipping on 2-packs</b><span class="val">{{ section.settings.ship_value }}</span></div>
+  </div>
+  <p style="margin-top:22px"><b>Two rooms? {{ p2_each | money }} each.</b> {{ section.settings.stack_bundle_line }}</p>
+  <p><b>{{ section.settings.urgency_line }}</b></p>
+</div></div>
+
+<!-- ================= 12. REVIEWS ================= -->
+{%- if section.settings.show_reviews -%}
+<div class="sec" style="background:#fff;border-top:1px solid var(--line)">
+  <div class="wrap narrow">
+    <p class="eyebrow">What people say</p>
+    <div class="rsum">
+      <span class="rnum">{{ section.settings.rev_score }}</span>
+      <div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+        <div style="font-size:14px;color:var(--muted)">{{ section.settings.rev_count }}</div>
+      </div>
+    </div>
+    <div>{{ section.settings.reviews_html }}</div>
+  </div>
+</div>
+{%- endif -%}
+
+<!-- ================= 13. GUARANTEE ================= -->
+<div class="sec"><div class="wrap narrow">
+  <p class="eyebrow">If it doesn&rsquo;t work</p>
+  <h2>{{ section.settings.guar_h }}</h2>
+  <p>{{ section.settings.guar_1 }}</p>
+  <p>{{ section.settings.guar_2 }}</p>
+</div></div>
+
+<!-- ================= 14. FAQ ================= -->
+<div class="sec" style="background:#fff;border-top:1px solid var(--line)">
+  <div class="wrap narrow">
+    <p class="eyebrow">Questions</p>
+    <h2>Before you buy</h2>
+    {%- for i in (1..8) -%}
+      {%- assign qk = 'faq_q_' | append: i -%}
+      {%- assign ak = 'faq_a_' | append: i -%}
+      {%- if section.settings[qk] != blank -%}
+        <details><summary>{{ section.settings[qk] }}</summary><div class="fa">{{ section.settings[ak] }}</div></details>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+<!-- ================= 15. FINAL CTA ================= -->
+<div class="sec"><div class="wrap narrow" style="text-align:center">
+  <h2>{{ section.settings.final_h }}</h2>
+  <p style="margin:0 auto 26px">{{ section.settings.final_sub }}</p>
+  {%- form 'product', product, id: 'evr-form-final', class: 'evr-form' -%}
+    <input type="hidden" name="id" class="evr-variant-field" value="{{ v.id }}">
+    <input type="hidden" name="quantity" class="evr-qty-field" value="1">
+    <button type="submit" class="atc evr-cta" style="max-width:420px;margin:0 auto"{% unless v.available %} disabled{% endunless %}>
+      {%- if v.available -%}{{ section.settings.cta_single }}{%- else -%}Sold out{%- endif -%}
+    </button>
+  {%- endform -%}
+  <div class="reassure" style="justify-content:center;margin-top:16px">
+    <span><b>60 days</b> to send it back</span><span><b>Free size swap</b></span><span><b>Ships from the US</b></span>
+  </div>
+</div></div>
+
+<!-- ================= STICKY ================= -->
+<div class="sticky">
+  <div class="in">
+    <span class="sp" id="evr-sticky-price">{%- if p1_cmp > p1 -%}<s>{{ p1_cmp | money }}</s>{%- endif -%}{{ p1 | money }}</span>
+    {%- form 'product', product, id: 'evr-form-sticky', class: 'evr-form' -%}
+      <input type="hidden" name="id" class="evr-variant-field" value="{{ v.id }}">
+      <input type="hidden" name="quantity" class="evr-qty-field" value="1">
+      <button type="submit" class="atc evr-cta"{% unless v.available %} disabled{% endunless %}>
+        {%- if v.available -%}{{ section.settings.cta_single }}{%- else -%}Sold out{%- endif -%}
+      </button>
+    {%- endform -%}
+  </div>
+</div>
+
+</section>
+
+{%- comment -%}
+  ============================================================================
+  SELECTOR SCRIPT — isolated on purpose. Own IIFE, own try/catch, END of file.
+  It ONLY writes hidden input values, swaps label text and toggles classes.
+  It never touches cart, drawer or theme listeners. Do not move it up the file
+  and do not merge it into another script block: on tallow a shared try block
+  meant one throw here silently killed the cart drawer.
+  ============================================================================
+{%- endcomment -%}
+<script>
+(function(){
+  try{
+    var root = document.getElementById('evr-pdp');
+    if(!root) return;
+
+    var sizes   = [].slice.call(root.querySelectorAll('.evr-size'));
+    var tiers   = [].slice.call(root.querySelectorAll('.evr-tier'));
+    var qtyF    = [].slice.call(root.querySelectorAll('.evr-qty-field'));
+    var varF    = [].slice.call(root.querySelectorAll('.evr-variant-field'));
+    var ctas    = [].slice.call(root.querySelectorAll('.evr-cta'));
+    var priceEl = root.querySelector('#evr-price');
+    var cmpEl   = root.querySelector('#evr-compare');
+    var noteEl  = root.querySelector('#evr-pnote');
+    var stickEl = root.querySelector('#evr-sticky-price');
+    var stackEl = root.querySelector('#evr-stack-price');
+
+    function money(cents){
+      var s = (cents/100).toFixed(2);
+      return '{{ cart.currency.symbol | default: "$" }}' + s.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    }
+
+    function pickTier(btn){
+      tiers.forEach(function(t){
+        var on = (t === btn);
+        t.classList.toggle('on', on);
+        t.setAttribute('aria-checked', on ? 'true' : 'false');
+      });
+      var qty = btn.getAttribute('data-qty') || '1';
+      var pr  = parseInt(btn.getAttribute('data-price'), 10);
+      var cmp = parseInt(btn.getAttribute('data-compare'), 10);
+      var note= btn.getAttribute('data-note') || '';
+      var cta = btn.getAttribute('data-cta') || '';
+
+      qtyF.forEach(function(f){ f.value = qty; });
+
+      if(priceEl && !isNaN(pr)) priceEl.textContent = money(pr);
+      if(cmpEl){
+        if(!isNaN(cmp) && cmp > pr){ cmpEl.textContent = money(cmp); cmpEl.style.display=''; }
+        else { cmpEl.style.display='none'; }
+      }
+      if(noteEl) noteEl.textContent = note;
+      if(stackEl && !isNaN(pr)) stackEl.textContent = money(pr);
+      if(stickEl && !isNaN(pr)){
+        stickEl.innerHTML = (!isNaN(cmp) && cmp > pr ? '<s>' + money(cmp) + '</s>' : '') + money(pr);
+      }
+      ctas.forEach(function(b){ if(!b.disabled && cta) b.textContent = cta; });
+    }
+
+    function pickSize(btn){
+      if(btn.hasAttribute('disabled')) return;
+      sizes.forEach(function(s){
+        var on = (s === btn);
+        s.classList.toggle('on', on);
+        s.setAttribute('aria-checked', on ? 'true' : 'false');
+      });
+      var id = btn.getAttribute('data-variant');
+      if(id) varF.forEach(function(f){ f.value = id; });
+    }
+
+    tiers.forEach(function(t){ t.addEventListener('click', function(){ pickTier(t); }); });
+    sizes.forEach(function(s){ s.addEventListener('click', function(){ pickSize(s); }); });
+
+    // gallery
+    [].slice.call(root.querySelectorAll('.evr-thumb')).forEach(function(th){
+      th.addEventListener('click', function(){
+        var main = root.querySelector('#evr-gal');
+        if(main && th.getAttribute('data-full')) main.src = th.getAttribute('data-full');
+        [].slice.call(root.querySelectorAll('.evr-thumb')).forEach(function(o){ o.classList.remove('on'); });
+        th.classList.add('on');
+      });
+    });
+  }catch(e){ /* never let this break the theme */ }
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Evenroom PDP (SA1)",
+  "settings": [
+    { "type": "header", "content": "Hero" },
+    { "type": "text", "id": "hero_sub", "label": "Recognition subline", "default": "For the one room that never catches up with the rest of the house." },
+    { "type": "text", "id": "single_ship_note", "label": "Single price note", "default": "+ $9.95 shipping" },
+    { "type": "text", "id": "bundle_ship_note", "label": "2-pack price note", "default": "Free shipping" },
+    { "type": "text", "id": "size_note", "label": "Size option subline", "default": "Fits this duct opening" },
+    { "type": "text", "id": "bundle_note", "label": "Bundle step subline", "default": "Most houses with one problem room have a second one." },
+    { "type": "text", "id": "cta_single", "label": "CTA — single", "default": "Add to cart" },
+    { "type": "text", "id": "cta_bundle", "label": "CTA — 2-pack", "default": "Add both to cart" },
+
+    { "type": "header", "content": "Bundle pricing" },
+    { "type": "paragraph", "content": "All prices come from the Shopify product (price + compare-at). The 2-pack shows (price x 2) minus the discount below. ⚠️ You MUST create a matching automatic order discount in Shopify (Amount off order, min quantity 2) or the cart will charge full price." },
+    { "type": "number", "id": "bundle_discount_cents", "label": "2-pack discount in cents", "default": 1999 },
+
+    { "type": "header", "content": "3 — Congruence band" },
+    { "type": "text", "id": "congruence_h", "label": "Heading", "default": "A fan cools you. It doesn't cool the room." },
+    { "type": "textarea", "id": "congruence_1", "label": "Para 1", "default": "Stand in front of one and you feel fine. Sit down four feet away and you're hot again inside a minute." },
+    { "type": "textarea", "id": "congruence_2", "label": "Para 2", "default": "That isn't the fan failing — it's what a fan does. It doesn't make air colder and it doesn't bring any in. It picks up the hot air already in the room and moves it past your skin. Your skin reads that as cooler. The room stays exactly as hot as it was." },
+    { "type": "text", "id": "congruence_3", "label": "Kicker", "default": "Which is why the second fan didn't work either." },
+
+    { "type": "header", "content": "4 — Mechanism" },
+    { "type": "text", "id": "mech_h", "label": "Heading", "default": "Why that room never catches up" },
+    { "type": "textarea", "id": "mech_1", "label": "Para 1", "default": "Your AC cools air in one place and pushes it through ducts to every room. The rooms nearest the unit get it first, at full strength. Every turn, every branch, every foot of duct takes a little off." },
+    { "type": "text", "id": "mech_2", "label": "Emphasis line", "default": "The room at the end of the run gets whatever's left." },
+    { "type": "textarea", "id": "mech_caption", "label": "Diagram caption", "default": "Same house, same afternoon, same air conditioning running." },
+
+    { "type": "header", "content": "5 — Hand test" },
+    { "type": "text", "id": "hand_h", "label": "Heading", "default": "Go and put your hand on that vent." },
+    { "type": "textarea", "id": "hand_sub", "label": "Subline", "default": "Do it while the AC is running. What you feel tells you whether this is your problem." },
+    { "type": "text", "id": "hand_yes_h", "label": "Yes — heading", "default": "Air coming out, but barely moving?" },
+    { "type": "textarea", "id": "hand_yes_b", "label": "Yes — body", "default": "That's the one this fixes. The cold air is being made — it just isn't arriving with enough push to change the room." },
+    { "type": "text", "id": "hand_no_h", "label": "No — heading", "default": "Nothing coming out at all?" },
+    { "type": "textarea", "id": "hand_no_b", "label": "No — body", "default": "Don't buy this. That's a blocked or disconnected duct, and no fan can pull air that isn't there." },
+
+    { "type": "header", "content": "6 — Attributes" },
+    { "type": "text", "id": "attr_fits", "label": "Fits", "default": "4x10 and 6x10 openings. Floor, wall or ceiling." },
+
+    { "type": "header", "content": "7 — Fit + size swap" },
+    { "type": "text", "id": "fit_h", "label": "Heading", "default": "Measure the hole, not the cover." },
+    { "type": "textarea", "id": "fit_1", "label": "Para 1", "default": "Pull the old cover off and measure the opening underneath. Most are 4x10." },
+    { "type": "textarea", "id": "fit_2", "label": "Para 2", "default": "Both sizes are 10 inches long, so the short side is the one that differs — measure that one carefully. The housing sits down inside the opening, so the measurement has to match: a 6-inch unit won't go into a 4-inch hole." },
+    { "type": "image_picker", "id": "fit_image", "label": "Measuring photo" },
+    { "type": "text", "id": "swap_h", "label": "Swap heading", "default": "Measured wrong? We'll swap it, no charge." },
+    { "type": "textarea", "id": "swap_b", "label": "Swap body", "default": "Order it, measure again when it arrives, and if you got the size wrong we'll send the right one. You're not stuck with a cover that doesn't fit." },
+
+    { "type": "header", "content": "9 — Limits" },
+    { "type": "text", "id": "limits_h", "label": "Heading", "default": "When this won't help" },
+    { "type": "textarea", "id": "limits_1", "label": "Para 1", "default": "This works if air comes out of that vent but weakly, or if the room sits at the end of a long duct run. It won't fix a room that gets no air at all — that's a blocked or disconnected duct." },
+    { "type": "textarea", "id": "limits_2", "label": "Para 2", "default": "And it won't turn a west-facing room into the coolest room in the house. A room with a lot of afternoon glass is always going to run warmer. What changes is whether it's usable." },
+
+    { "type": "header", "content": "10 — Alternatives" },
+    { "type": "text", "id": "alts_h", "label": "Heading", "default": "What the alternatives cost" },
+
+    { "type": "header", "content": "11 — Value stack" },
+    { "type": "text", "id": "stack_h", "label": "Heading", "default": "What you get" },
+    { "type": "text", "id": "swap_value", "label": "Swap value", "default": "$20 value" },
+    { "type": "text", "id": "ship_value", "label": "Shipping value", "default": "$9.95" },
+    { "type": "text", "id": "stack_bundle_line", "label": "Bundle line", "default": "The office that's cold in winter, the bedroom over the garage." },
+    { "type": "text", "id": "urgency_line", "label": "Urgency line", "default": "It's only getting hotter from here." },
+
+    { "type": "header", "content": "12 — Reviews" },
+    { "type": "paragraph", "content": "⛔ OFF by default. Placeholder reviews are mockup-only and must never be published. Grep for [PH] before any deploy." },
+    { "type": "checkbox", "id": "show_reviews", "label": "Show reviews section", "default": false },
+    { "type": "text", "id": "rev_score", "label": "Score", "default": "4.6" },
+    { "type": "text", "id": "rev_count", "label": "Count", "default": "Based on 38 reviews" },
+    { "type": "html", "id": "reviews_html", "label": "Reviews markup" },
+
+    { "type": "header", "content": "13 — Guarantee" },
+    { "type": "text", "id": "guar_h", "label": "Heading", "default": "60 days. If that room doesn't change, send it back." },
+    { "type": "textarea", "id": "guar_1", "label": "Para 1", "default": "Put it in, live with it through a hot stretch, and see. If it doesn't do anything, email us and we'll refund you." },
+    { "type": "textarea", "id": "guar_2", "label": "Para 2", "default": "Return shipping is on us if the unit is faulty. Otherwise it's on you — we'd rather tell you here than surprise you later." },
+
+    { "type": "header", "content": "14 — FAQ" },
+    { "type": "text", "id": "faq_q_1", "label": "Q1", "default": "Will it fit my vent?" },
+    { "type": "textarea", "id": "faq_a_1", "label": "A1", "default": "It fits 4x10 and 6x10 openings. Measure the hole, not the cover. If you measure wrong we'll swap it free." },
+    { "type": "text", "id": "faq_q_2", "label": "Q2", "default": "Does it work for heat too?" },
+    { "type": "textarea", "id": "faq_a_2", "label": "A2", "default": "Yes. Same unit, both seasons. It pulls whatever your system is delivering — cold in summer, warm in winter." },
+    { "type": "text", "id": "faq_q_3", "label": "Q3", "default": "Floor, wall or ceiling?" },
+    { "type": "textarea", "id": "faq_a_3", "label": "A3", "default": "Any of the three, as long as the opening is one of the two sizes and there's an outlet within reach of the cord." },
+    { "type": "text", "id": "faq_q_4", "label": "Q4", "default": "Do I need an electrician?" },
+    { "type": "textarea", "id": "faq_a_4", "label": "A4", "default": "No. Two screws and a standard wall outlet. No wiring, no ductwork." },
+    { "type": "text", "id": "faq_q_5", "label": "Q5", "default": "Does it use much electricity?" },
+    { "type": "textarea", "id": "faq_a_5", "label": "A5", "default": "It's two small fans. It draws a fraction of what a space heater or a portable AC unit does." },
+    { "type": "text", "id": "faq_q_6", "label": "Q6", "default": "How fast does it ship?" },
+    { "type": "textarea", "id": "faq_a_6", "label": "A6", "default": "Ships from the US." },
+    { "type": "text", "id": "faq_q_7", "label": "Q7", "default": "What if it doesn't fix it?" },
+    { "type": "textarea", "id": "faq_a_7", "label": "A7", "default": "Send it back within 60 days. If the unit is faulty we pay return shipping; otherwise you do." },
+    { "type": "text", "id": "faq_q_8", "label": "Q8", "default": "" },
+    { "type": "textarea", "id": "faq_a_8", "label": "A8", "default": "" },
+
+    { "type": "header", "content": "15 — Final CTA" },
+    { "type": "text", "id": "final_h", "label": "Heading", "default": "Get the room back." },
+    { "type": "text", "id": "final_sub", "label": "Subline", "default": "Two screws, an outlet, and 60 days to decide." }
+  ],
+  "presets": [{ "name": "Evenroom PDP (SA1)" }]
+}
+{% endschema %}
