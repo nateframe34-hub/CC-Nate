@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-26** — Supplier facts confirmed: standard US plug; shipping 5–12 days. Added to PDP FAQ + attribute grid. Wattage still open.
+
 - **2026-09-26** — Gap pass actions (founder): offer-terms-in-image rule scrapped everywhere (never his rule); old batch-1 cell plans deleted from Launch_Plan / Launch_Campaign_SA1 / Ad_Format_Strategy and pointed at current batch files; B1C1 native copy saved to `ads/batch-1/copy/B1C1_Copy.md`; PDP FAQ expanded to 14; outcome eyebrow "After" → "That room, at 4pm". Ad↔PDP congruence and single-unit shipping disclosure deliberately NOT changed — ads create curiosity, PDP explains; shipping waits for data.
 
 - **2026-09-26** — B1C3 board labels changed from BEFORE/AFTER to "NORMAL VENT" / "EVENROOM VENT" to avoid Meta before-and-after issues (founder).

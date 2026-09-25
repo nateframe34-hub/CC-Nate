@@ -112,7 +112,7 @@ Ships from the US · 60-day returns · Free shipping on 2-packs
 | **What it is** | A vent cover with fans built in. It replaces the register already in that room |
 | **What it does** | Pulls conditioned air out of the duct into the room instead of waiting for it to arrive |
 | **Fits** | 4×10 and 6×10 openings · floor, wall or ceiling |
-| **Power** | Plugs into a standard outlet |
+| **Power** | Standard US plug, any regular wall outlet |
 | **Control** | Set a temperature for that room. It runs when the duct is delivering and stops when it isn't |
 | **Seasons** | Cooling in summer, heating in winter. Same unit |
 | **Returns** | 60 days |
@@ -181,7 +181,7 @@ Two screws and an outlet. No ductwork, no tools you don't own, nobody in your ho
 
 Will it fit my vent? · Does it work for heat too? · Floor, wall or ceiling? · Do I need an electrician? · Does it use much electricity? · How fast does it ship? · What if it doesn't fix it? · Does it actually make the room cooler, or just blow air? · Why is only one room hot when the AC works everywhere else? · How do I know if this will work for my room? · Is it loud? · How does the temperature setting work? · Will it make the rest of the house warmer? · Can I use one in two rooms?
 
-*Full answers live in the section schema. Shipping time and wattage answers still need real supplier numbers.*
+*Full answers live in the section schema. Shipping answer: ships from the US, 5–12 days. Standard US plug. Wattage answer still needs a real supplier number.*
 
 ---
 
