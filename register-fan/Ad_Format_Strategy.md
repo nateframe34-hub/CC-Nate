@@ -164,7 +164,7 @@ Not "winning format held constant." Tier 2 exists precisely so this test is chea
 
 1. **No offer terms in any image.** No price, guarantee, shipping, discount or CTA — not as overlay, not as diegetic text. Carried from tallow, where a guarantee line on the creative made an ad read as an ad immediately.
 2. **Real branding stays.** Never strip labels or brand marks from real props.
-3. **Never generate the product.** Nano Banana does scenes; product imagery is real photography only (`Offer_Structure.md` §4b).
+3. **Generate whatever the ad calls for, including the product.** Founder call 2026-09-26 — the earlier ban was mine, not a decision, and is removed.
 4. **Claim discipline.** Temperature, degrees, airflow, comfort, sleep. Never health, safety, risk, air quality, allergens or filtration.
 5. **Every cell states its sub-avatar, angle, awareness level and format role** in its file.
 

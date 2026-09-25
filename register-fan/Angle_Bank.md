@@ -17,7 +17,6 @@ I had bundled four different kinds of rule under one heading. Separating them, b
 
 | Rule | What it actually is | Still applies? |
 |---|---|---|
-| **No performance numbers** (no "six degrees") | **Substantiation and returns.** We have not measured our own unit. A number we invent is a promise the product gets judged against | ✅ **Yes — until we measure it** |
 | **Outcomes stay partial** | **Truth, and the returns that follow from overclaiming.** The honest result is "much more comfortable," not "fixed" | ✅ **Yes** |
 | **No noise claims** | **Founder call, returns-driven.** The incumbent's loudest complaint is *"marketed as quiet but it is too loud"*, and one buyer unhooked a working fan over an unfamiliar sound | ✅ **Yes** |
 | **No competitor or category name** | **Funnel strategy** (§9a-i) — never make them Product Aware and hand them a search term | ✅ **Yes, at TOF** |

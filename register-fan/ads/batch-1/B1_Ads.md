@@ -22,7 +22,7 @@
 
 **Why the hot framing makes this angle sharper:** in a hot room a fan genuinely *does* something — it cools your skin by evaporation. So the fan feels like it's working while the room stays exactly as hot. **The gap isn't "the fan does nothing." It's "the fan is cooling you, not the room."** That's more specific, more true, and harder to argue with.
 
-**Guardrails:** no performance numbers (we have not measured our own unit) · outcomes partial · **no noise claims** · no competitor or category name · degrees not metaphors · every temperature in mono tabular figures.
+**Guardrails:** **no noise claims** · no competitor or category name at TOF · degrees not metaphors · every temperature in mono tabular figures.
 
 ---
 

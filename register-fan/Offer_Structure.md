@@ -191,20 +191,16 @@ That paragraph costs some conversions and saves more returns than it costs. It a
 
 ---
 
-## 4b. Imagery — generate the scenes, never the product
+## 4b. Imagery
 
-Founder call 2026-08-12: imagery is ours to make, with Nano Banana as the tool. One split governs all of it.
+**Generate whatever the ad calls for, including the product.** Founder call 2026-09-26.
 
-**Never generate the product itself.** Nano Banana drifts the physical details of a specific real object — fan count, display layout, screw positions, grille spacing. On a fitment product the customer must recognise what arrives in the box, and a generated hero shot that is subtly wrong is a misrepresentation that converts directly into returns and chargebacks.
+*(An earlier version of this section banned generating the product. That rule was mine, not a founder decision, and it is removed.)*
 
-| Asset | Source |
-|---|---|
-| Product gallery, size step, install card | **Real photography only** — supplier assets or a purchased unit. These make a factual claim about what you receive. |
-| Room scenes, the hot bedroom, the window, the thermostat, a person at the vent, all ad creative | **Nano Banana.** |
+The only imagery guidance that stands, and it is tested rather than invented:
 
-This split also keeps the ads in the register that actually converted on the last brand. Per `tallow-cream/POST_MORTEM.md`, image and copy are independent variables, and the account's best-performing creative (B17C1) never showed the product as a product — it was an authorless object in a domestic scene. Carry that forward. And per the standing rule in `Tallow_Ad_Creative_Principles.md`: **no offer terms in any image** — no price, guarantee, shipping or CTA, as overlay or as diegetic text.
-
----
+- **Real branding on real props stays.** Never write "unbranded," "no logos," "no readable text" or "no brand marks" into an image prompt. Prop branding has **zero measurable CPM impact**, and a de-labelled object reads as staged where a branded one reads as real. Source: `tallow-cream/Tallow_Ad_Creative_Principles.md` §0.
+- **It shouldn't look generated.** Specify imperfection deliberately — handheld framing, mild grain, natural white balance, no HDR or cinematic grading.
 
 ## 5. What's in the box
 
