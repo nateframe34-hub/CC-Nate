@@ -443,9 +443,7 @@ Three things, not two, and only one of them leads:
 
 **2. 🚫 Health, safety and risk.** No SIDS, safe sleep, danger, hazard. No air quality, allergens, filtration, dust, mould. The unit has no filter.
 
-**3. Offer terms in the image — a TOF rule, not a ban.** *(Rescoped 2026-09-21, founder call. It was written as an absolute ban; that was an over-generalisation from one ad.)*
-- **At TOF:** keep price, guarantee, return window, shipping and discount out of the image. The reason is specific — the guarantee line on B33C3 made it read as an ad on sight to a cold reader. The test: *could a person with nothing to sell have written this?*
-- **At BOF:** put the offer in the image. That audience already knows what the product is; the offer is the reason to return. The Free Ad and Classy Offer are correct formats there.
+**3. Offer terms in the image — no rule.** Scrapped 2026-09-26 (founder: never his rule). Put price, guarantee or shipping in the image whenever the ad calls for it.
 
 **3b. No format is banned.** Formats have a funnel stage. The constraint on this account is **mix** — we are a new brand with no audience, so roughly two thirds of cells should be TOF. See `Format_Angle_Map.md`.
 

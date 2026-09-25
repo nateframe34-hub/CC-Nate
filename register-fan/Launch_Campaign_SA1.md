@@ -14,23 +14,18 @@
 **One campaign. ABO. Each ad set is an ANGLE. Each ad set holds 3 ads: 1 native + 2 non-native.**
 
 ```
-CAMPAIGN — Register Fan | SA1 | Purchase | ABO
+CAMPAIGN — Register Fan | Purchase | ABO
 │
-├── AD SET 1 = BATCH 1 — Angle 1: "You don't need a contractor"  $20/day
-│     ├── B1C1  Native long-form                    [Julie Brennan]
-│     ├── B1C2  Solution Exaggeration (typographic)  [brand page]
-│     └── B1C3  Minimal Us vs Them — vs the quote    [brand page]
+├── AD SET 1 = BATCH 1 — SA1 The Fan Runner                 $20/day
+│     ├── B1C1  Native "The Fan In The Garage"      [Julie Brennan]
+│     ├── B1C2  Outcome static "No more switching rooms because of the heat"
+│     └── B1C3  Whiteboard "Normal vent / Evenroom vent"
 │
-├── AD SET 2 = BATCH 2 — Angle 2: "You were right about the room" $20/day
-│     ├── B2C1  Native long-form                    [Julie Brennan]
-│     ├── B2C2  Duct-run diagram (explanatory)       [brand page]
-│     └── B2C3  This Is Not [The Product] (reframe)  [brand page]
-│
-└── AD SET 3 = BATCH 3 — Angle 3: "Don't heat the whole house"   $20/day
-      ├── B3C1  Native long-form                    [Julie Brennan]
-      ├── B3C2  Two-panel thermometer (documentary)  [brand page]
-      └── B3C3  Relatable Hook (typographic)         [brand page]
+├── AD SET 2 = BATCH 2 — SA5 Checking Someone Else's Room   $20/day  (ads/batch-2)
+└── AD SET 3 = BATCH 3 — SA2 The Nightly Heater             $20/day  (ads/batch-3)
 ```
+
+> **Current ads live in the batch files — read those, not old tables.** `ads/batch-1/B1_Ads.md` (SA1 Fan Runner: B1C1 native "The Fan In The Garage", B1C2 outcome static "No more switching rooms because of the heat", B1C3 whiteboard "Normal vent / Evenroom vent"), `ads/batch-2/B2_Ads.md` (SA5), `ads/batch-3/B3_Ads.md` (SA2). Earlier cell plans in this file were deleted 2026-09-26 (founder).
 
 **$60/day. 7 days = $420.** Reserve $180 of the $600 cap for extending whatever wins.
 

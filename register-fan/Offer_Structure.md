@@ -227,7 +227,7 @@ The nursery/baby trigger is the highest-intensity version of this problem, and i
 
 Same rule for the elderly-parent and the pet variants. Sell the temperature and the not-worrying. Never the risk.
 
-**Also banned, carried over from tallow as a standing rule:** no price, guarantee, return window, shipping terms, discount or CTA in any creative — not as overlay, not as diegetic text.
+**Offer terms in creative: no rule.** Price, guarantee or shipping can go in an image when the ad calls for it. Founder 2026-09-26 — the earlier ban was never his call and is scrapped.
 
 ---
 

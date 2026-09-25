@@ -94,7 +94,7 @@ Ships from the US · 60-day returns · Free shipping on 2-packs
 
 ## 5b. The after ⭐ *Gap 2 fix — the outcome, shown*
 
-> *After*
+> *That room, at 4pm*
 > ### The room you stopped using, back.
 >
 > [after image — same room, in use, afternoon light, no fan]
@@ -179,7 +179,9 @@ Two screws and an outlet. No ductwork, no tools you don't own, nobody in your ho
 
 ## 14. FAQ
 
-Will it fit my vent? · What if I measure wrong? · Does it work for heat too? · Does it use much electricity? · Floor, wall or ceiling? · Do I need an electrician? · How fast does it ship? · What if it doesn't fix it?
+Will it fit my vent? · Does it work for heat too? · Floor, wall or ceiling? · Do I need an electrician? · Does it use much electricity? · How fast does it ship? · What if it doesn't fix it? · Does it actually make the room cooler, or just blow air? · Why is only one room hot when the AC works everywhere else? · How do I know if this will work for my room? · Is it loud? · How does the temperature setting work? · Will it make the rest of the house warmer? · Can I use one in two rooms?
+
+*Full answers live in the section schema. Shipping time and wattage answers still need real supplier numbers.*
 
 ---
 

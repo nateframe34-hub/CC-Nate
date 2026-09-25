@@ -70,22 +70,9 @@ No change. The competitive finding was answered by funnel discipline (`Brand_Mas
 
 ---
 
-## 4. Ads — batch 1
+## 4. Ads
 
-**Design: hold the angle constant, vary the format.** Delivery cost is what killed the last product, and creative is the established CPM lever. Angle discovery is worthless if the clicks are unaffordable.
-
-| Cell | Format | Page it runs from | Placements |
-|---|---|---|---|
-| **B1C1** | Two-thermometer demonstration | Brand page | **All** |
-| **B1C2** | Duct-run diagram | Brand page | **All** |
-| **B1C3** | Forum-post screenshot | Julie Brennan page ✅ | All |
-| **B1C4** | Native long-form | Julie Brennan page ✅ | **All EXCEPT right column** |
-
-**Config:** ABO, $12.50/day per cell, Purchase optimisation, broad, US. Not CBO — CBO concentrates spend on first-hour noise, which produced the account's worst reads.
-
-**Why right column is excluded on C4 only:** the right column cannot render primary text. A native's entire argument lives there, so it would serve an image with no case attached — the delivery fault already paid for on tallow. The image-carried cells keep all placements, because that coverage is the reason they exist.
-
-**Kill rules** (from `Offer_Structure.md` §7, unchanged): per-cell kill at $60 spend / 0 purchases; CTR kill at $40 / under 1.0%; CAC read at ~$150 total against the $56.91 / $75.39 room; product kill at $600.
+> **Current ads live in the batch files — read those, not old tables.** `ads/batch-1/B1_Ads.md` (SA1 Fan Runner: B1C1 native "The Fan In The Garage", B1C2 outcome static "No more switching rooms because of the heat", B1C3 whiteboard "Normal vent / Evenroom vent"), `ads/batch-2/B2_Ads.md` (SA5), `ads/batch-3/B3_Ads.md` (SA2). Earlier cell plans in this file were deleted 2026-09-26 (founder).
 
 ---
 

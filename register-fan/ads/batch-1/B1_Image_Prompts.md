@@ -8,7 +8,7 @@
 |---|---|
 | **Generate whatever the ad calls for, including the product.** Founder call 2026-09-26 | — |
 | **Never write "unbranded" / "no logos" / "no brand marks."** Tested: prop branding has zero measurable CPM impact, and a de-labelled object reads as staged. Natural branding stays | Tallow Creative Principles §0 |
-| **No offer terms rendered in the image** — no guarantee badge, shipping strip, discount flash, countdown or CTA button. A plain inline price line is allowed | Brand_Mastery 1e / TOF rule |
+| Offer terms in the image are allowed when the ad calls for it (no rule — founder 2026-09-26) | — |
 | **Degrees in mono tabular figures.** Terracotta `#B4553A` · base `#FAF7F2` · text `#1C1A17` | Brand system A3-A4 |
 | **It must not look generated.** Interrupt traffic rewards authenticity — imperfection is specified deliberately | Static_Ad_Framework |
 

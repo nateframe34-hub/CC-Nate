@@ -55,7 +55,7 @@ Two identical cheap thermometers, one in a hallway, one in the problem bedroom, 
 
 **Why it's the strongest format available to us:** it makes the argument without a single word, it is true, it is checkable by the viewer in their own house, and it is the exact frame nobody in the category is running. It also carries in every placement.
 
-No product in frame. No offer terms in the image (standing rule).
+
 
 ### B — Duct-run diagram
 
@@ -121,48 +121,15 @@ Many cells, near-zero production cost, answer *which avatar and angle lands.* Ea
 
 ---
 
-## 4. Batch 1 test design
+## 4. Batch plan
 
-**Hold the angle constant. Vary the format.**
-
-This is the opposite of instinct — natives are the natural angle-discovery vehicle — but delivery cost is the account's known killer, and the account has already established that **creative is the biggest CPM lever**. Angle discovery is worthless if we cannot afford the clicks to run it. So batch 1 answers *what can we afford to deliver*, and batch 2 answers *which argument converts* inside the format that won.
-
-**Fixed variables:** SA1 Angle 1 — *"It isn't you, and it isn't broken — the air is being made, it just isn't arriving."* Same offer, same LP, ABO, $12.50/day per cell.
-
-| Cell | Format | Hook |
-|---|---|---|
-| B1C1 | **A** — two-thermometer demonstration | Same house. Same afternoon. |
-| B1C2 | **B** — duct-run diagram | Why the last room on the run never cools |
-| B1C3 | **C** — forum-post screenshot | Someone else's answer, not ours |
-| B1C4 | **D** — native long-form | Your AC isn't broken. The cold air just isn't reaching that room. |
-
-Four cells, $50/day, inside the $600 cap with room for a batch 2.
-
-**What each result means:**
-- If A or B wins on CPM *and* converts → the demonstrative register is the account's home and natives become the minority format.
-- If D wins outright → the argument needs length, and the image-carried formats need stronger hooks rather than abandonment.
-- If C wins → attribution is the lever again, as it was on tallow, and that should shape everything.
-- If nothing clears the CAC read at ~$150 → stop, per the kill rules. Do not extend.
-
-**Batch 2 — REVISED 2026-09-21: the avatar/angle test, run in TIER 2 formats.**
-
-Not "winning format held constant." Tier 2 exists precisely so this test is cheap and parallel. Run **statement statics (G)** and **two-panel comparisons (H)** across:
-
-| Cell | Sub-avatar | Angle |
-|---|---|---|
-| — | **SA1** | A3 — you don't need a contractor *(best-evidenced angle we have: $3-4k sourced)* |
-| — | **SA6** | A1 — you keep checking that room *(new, strongest emotion, strictest claim rules)* |
-| — | **SA6** | A2 — you're buying around it instead of fixing it |
-| — | **SA3** | control where the thermostat isn't yours *(4 landlord quotes)* |
-| — | **SA2** | the space heater beat *(well-evidenced; NOT the 2am line, which is ours not theirs)* |
-
-**SA4 and SA5 are parked, not retired** (founder call 2026-09-21). What SA1, SA6 and SA3 return will say more about whether they are real than another research pass would.
+> **Current ads live in the batch files — read those, not old tables.** `ads/batch-1/B1_Ads.md` (SA1 Fan Runner: B1C1 native "The Fan In The Garage", B1C2 outcome static "No more switching rooms because of the heat", B1C3 whiteboard "Normal vent / Evenroom vent"), `ads/batch-2/B2_Ads.md` (SA5), `ads/batch-3/B3_Ads.md` (SA2). Earlier cell plans in this file were deleted 2026-09-26 (founder).
 
 ---
 
 ## 5. Standing rules for every cell
 
-1. **No offer terms in any image.** No price, guarantee, shipping, discount or CTA — not as overlay, not as diegetic text. Carried from tallow, where a guarantee line on the creative made an ad read as an ad immediately.
+1. **Offer terms in images: no rule** (scrapped 2026-09-26, founder). Use them when the ad calls for it.
 2. **Real branding stays.** Never strip labels or brand marks from real props.
 3. **Generate whatever the ad calls for, including the product.** Founder call 2026-09-26 — the earlier ban was mine, not a decision, and is removed.
 4. **Claim discipline.** Temperature, degrees, airflow, comfort, sleep. Never health, safety, risk, air quality, allergens or filtration.

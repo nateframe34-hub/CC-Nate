@@ -15,7 +15,7 @@
 | **Sub-avatar** | **SA1 The Fan Runner** — runs a fan in that room; it moves air but never changes the temperature |
 | **Lead angle** | **A1 — Cools the room instead of just moving the hot air around it** |
 | **Reason to buy** | The fan you already run can only move the air that's in the room, and that air is hot. This pulls cool air in from the duct instead |
-| **Lead hook** | *"This isn't a fan for the room. It's a fan for the vent."* — product redefinition |
+| **Lead hook** | **The outcome:** *"No more switching rooms because of the heat."* The "fan for the vent" line survives only inside the native, as Kerry's explanation |
 | **Supporting angles layered in copy** | **A5** a fan cools *you*, not the room · **A2** the fan becomes unnecessary |
 | **Awareness** | **Problem Aware → Solution Aware.** Never Unaware (nobody is unaware their room is hot) and never Product Aware (never name the category) |
 | **Funnel** | **TOF.** Value framing is a light closing nudge only — inline price, no band, no badge |
@@ -45,7 +45,7 @@
 8. **The honest, partial outcome.** The room is usable in the afternoon. It is not the coolest room in the house.
 9. **The fan in the garage** *(A2)*.
 
-**Written through the `native-ad-writer` skill. No offer terms in the image; price appears late in text only.**
+**Written through the `native-ad-writer` skill. Full copy: `copy/B1C1_Copy.md`.**
 
 ### Image — authorless POV, no product
 
@@ -120,10 +120,10 @@ No more switching rooms because of the heat. $89.99, and it's only getting hotte
 
 | Ad | Needs | Ready |
 |---|---|---|
-| **B1C1** | Julie Brennan page ✅ · one scene image | Copy to be written via `native-ad-writer` |
-| **B1C2** | One vent photograph | ✅ |
-| **B1C3** | **Two $10 thermometers**, one afternoon, a box fan | ✅ |
+| **B1C1** | Julie Brennan page ✅ · scene image (prompt in `copy/B1C1_Copy.md`) | Copy ✅ |
+| **B1C2** | Generated outcome image (`B1_Image_Prompts.md`) | Copy ✅ |
+| **B1C3** | Generated whiteboard image (`B1_Image_Prompts.md`) | Copy ✅ |
 
 ## The cold pivot — held, not lost
 
-Every line above swaps cleanly when the weather turns: *hot → cold*, *cools you not the room → moves the cold air already there*, *the cold air your AC already made → the warm air your furnace already made*, *only getting hotter → before it's properly cold*. **The angle, the mechanism and the gap are identical.** Re-shoot B1C3 with a heater in frame instead of a fan.
+Every line above swaps cleanly when the weather turns: *hot → cold*, *cools you not the room → moves the cold air already there*, *the cold air your AC already made → the warm air your furnace already made*, *only getting hotter → before it's properly cold*. **The angle, the mechanism and the gap are identical.** Cold versions of the B1C2 and B1C3 images are in the table at the end of `B1_Image_Prompts.md`.

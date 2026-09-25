@@ -468,7 +468,7 @@
   <div class="wrap narrow">
     <p class="eyebrow">Questions</p>
     <h2>Before you buy</h2>
-    {%- for i in (1..8) -%}
+    {%- for i in (1..14) -%}
       {%- assign qk = 'faq_q_' | append: i -%}
       {%- assign ak = 'faq_a_' | append: i -%}
       {%- if section.settings[qk] != blank -%}
@@ -637,7 +637,7 @@
     { "type": "textarea", "id": "hand_no_b", "label": "No — body", "default": "Don't buy this. That's a blocked or disconnected duct, and no fan can pull air that isn't there." },
 
     { "type": "header", "content": "5b — Outcome (the after)" },
-    { "type": "text", "id": "out_eyebrow", "label": "Eyebrow", "default": "After" },
+    { "type": "text", "id": "out_eyebrow", "label": "Eyebrow", "default": "That room, at 4pm" },
     { "type": "text", "id": "out_h", "label": "Heading", "default": "The room you stopped using, back." },
     { "type": "image_picker", "id": "out_image", "label": "After image (same room, in use, no fan)" },
     { "type": "text", "id": "out_1", "label": "Line 1", "default": "Back at the desk at four in the afternoon." },
@@ -697,8 +697,20 @@
     { "type": "textarea", "id": "faq_a_6", "label": "A6", "default": "Ships from the US." },
     { "type": "text", "id": "faq_q_7", "label": "Q7", "default": "What if it doesn't fix it?" },
     { "type": "textarea", "id": "faq_a_7", "label": "A7", "default": "Send it back within 60 days. If the unit is faulty we pay return shipping; otherwise you do." },
-    { "type": "text", "id": "faq_q_8", "label": "Q8", "default": "" },
-    { "type": "textarea", "id": "faq_a_8", "label": "A8", "default": "" },
+    { "type": "text", "id": "faq_q_8", "label": "Q8", "default": "Does it actually make the room cooler, or just blow air?" },
+    { "type": "textarea", "id": "faq_a_8", "label": "A8", "default": "Cooler. A regular fan moves the hot air already in the room. This pulls the cold air your AC is already making out of the duct and into the room, so the room's temperature comes down, not just the spot in front of it." },
+    { "type": "text", "id": "faq_q_9", "label": "Q9", "default": "Why is only one room hot when the AC works everywhere else?" },
+    { "type": "textarea", "id": "faq_a_9", "label": "A9", "default": "Usually it's where the room sits on the duct run. The rooms nearest the unit get the cold air first; every turn and branch takes some off, and the last room gets what's left. Put your hand on that vent with the AC running \u2014 if air is coming out but barely moving, that's this." },
+    { "type": "text", "id": "faq_q_10", "label": "Q10", "default": "How do I know if this will work for my room?" },
+    { "type": "textarea", "id": "faq_a_10", "label": "A10", "default": "Do the hand test. Air coming out but weak: this is what it's for. No air at all: don't buy it \u2014 that's a blocked or disconnected duct and no fan can fix it." },
+    { "type": "text", "id": "faq_q_11", "label": "Q11", "default": "Is it loud?" },
+    { "type": "textarea", "id": "faq_a_11", "label": "A11", "default": "It has two small fans in it, so you'll hear it running on higher settings. You can set it to only run when the room is above the temperature you choose." },
+    { "type": "text", "id": "faq_q_12", "label": "Q12", "default": "How does the temperature setting work?" },
+    { "type": "textarea", "id": "faq_a_12", "label": "A12", "default": "Set the temperature you want that room to be. It runs when the room is warmer than that and the duct is delivering, and stops when it gets there." },
+    { "type": "text", "id": "faq_q_13", "label": "Q13", "default": "Will it make the rest of the house warmer?" },
+    { "type": "textarea", "id": "faq_a_13", "label": "A13", "default": "It pulls a larger share of the cold air into that room, so other rooms on the same run may get slightly less. In most houses the rooms near the unit were getting more than they needed anyway." },
+    { "type": "text", "id": "faq_q_14", "label": "Q14", "default": "Can I use one in two rooms?" },
+    { "type": "textarea", "id": "faq_a_14", "label": "A14", "default": "One unit per vent. Most people with one problem room have a second, which is what the 2-pack is for." },
 
     { "type": "header", "content": "15 — Final CTA" },
     { "type": "text", "id": "final_h", "label": "Heading", "default": "Get the room back." },
