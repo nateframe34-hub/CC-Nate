@@ -4,6 +4,9 @@
 **Rule (founder):** every angle gets **1 native + 2 non-native**.
 **Sources:** `research/agent1-named-formats-analysis.md` (13 formats, deep), `research/Static_Ad_Mastery_Guide.md` (25-format catalog + sophistication table), `research/agent3-world-class-statics-analysis.md`, and this product's own research in `Brand_Mastery.md`.
 
+
+> 🚨 **SUPERSEDED 2026-09-26 — the avatars and angles were rebuilt.** The previous "angles" in this file were **hooks, not angles** (Origins: an angle is the customer's *reason to buy*; a hook is how you communicate it), and the old SA1 was the **core avatar** sitting in the sub-avatar roster. See `Brand_Mastery.md` Part 6 for the rebuilt Core Avatar + SA1-SA7, each with desire → behaviour → **gap** → angle. **These ad specs are being rewritten against it and should not be produced as written.**
+
 ---
 
 ## The selection filter — FUNNEL STAGE, not bans

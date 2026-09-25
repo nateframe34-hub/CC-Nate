@@ -126,129 +126,180 @@ Ranked honestly. The hardware is not on this list.
 
 ---
 
-# PART 6 — SUB-AVATAR ROSTER
+# PART 6 — CORE AVATAR, SUB-AVATARS & ANGLES ⚠️ REBUILT 2026-09-26
 
-Rules enforced: desire first · one desire per avatar · demographics last and usually absent · named for a shared experience or behaviour, never a demographic label.
-
-## SA1 — The Room at the End of the Run ⭐ ANCHOR
-
-- **Desire:** I want this one room to be the same temperature as the rest of the house.
-- **Experience:** One room is wrong while the rest of the house is fine. Air *does* come from the vent — it is barely moving. They have already tried the obvious things and none of them worked.
-- **Emotion:** Frustration → **anger** at a system they pay for that doesn't work; low-grade **fear** that the real fix is structural and expensive.
-- **Behaviour:** Re-attempting failed solutions. Buying another fan. Adjusting a thermostat that changes nothing in that room. Checking the vent with their hand.
-- **Verbatim:** *"I'm on my 5th house/apartment where this has been the case. I feel like it has to be something I'm doing."* · *"Saved us from reventing parts of our house."* · *"Amazing temp went from 73 to 69."*
-- **Awareness:** Unaware → Problem Aware.
-
-**Angle 1 — You were right about the room. Here's the part nobody told you.** ⭐ LEAD
-*(Rewritten 2026-09-18. Previously "It isn't you, and it isn't broken." The permission half is **retracted** — see below.)*
-
-Reason to buy: they already suspect the corner room / the long duct run / the distance from the furnace. Nobody has confirmed it or told them what follows from it. **Confirmation + explanation**, not absolution.
-
-Hooks: *Your furnace isn't broken. The warm air just isn't reaching that room.* · *The last room on the duct run gets whatever's left.* · *Put your hand on that vent. Air is coming out — it's just barely moving.*
-
-> 🚨 **RETRACTED: "It isn't you."** Two independent research passes failed to find a second instance of self-blame-about-cause. Phase 4 searched for it three times, directly, and reported: *"Every self-diagnosis quote blames the house (exposure, ducts, insulation, distance from furnace) or the builder, never the occupant's own behavior."* The original *"5th house… something I'm doing"* quote was **one person**, and I treated it as a pattern and built a strategy on it.
+> 🚨 **Rebuilt from `origins-training/ORIGINS_REFERENCE.md` §8 and §10 after a founder call: the previous "angles" were HOOKS, not angles, and SA1 was the CORE avatar sitting in the sub-avatar roster.**
 >
-> **Consequence: an ad that opens with absolution answers an objection the reader does not have.** They already know it isn't them. Do not write it. The surviving beat is *you were right, and here is what nobody explained.*
-
-**Angle 2 — You shouldn't have to heat/cool the whole house for one room.**
-Reason to buy: stop paying to over-condition every room that was already fine.
-Hooks: *Stop heating seven rooms to fix one.* · *Two degrees warmer everywhere, for the one room that's still cold.* · *Give that room its own temperature instead.*
-
-**Angle 3 — You don't need a contractor for this.**
-Reason to buy: the permanent fix is a quote in the thousands and a stranger in your house; this is two screws and an outlet, today.
-Hooks: *Two screws and an outlet. Not a $4,500 quote.* · *Fix it this afternoon, without anyone in your house.* · *They quoted you thousands to re-duct one room.*
-
-## SA2 — Sleeping in the Wrong-Temperature Room ⭐ SECOND TEST
-
-- **Desire:** I want to sleep without lying there too hot / too cold.
-- **Experience:** The problem room is a bedroom. Fine at bedtime, wrong by 2am — or never right at all. A fan runs all night in summer; a space heater runs all night in winter.
-- **Emotion:** Frustration → **anger**, sharpened because it happens when they are least able to tolerate it.
-- **Behaviour:** Running a fan or space heater nightly. Sleeping under fewer or more covers than they want. Getting up to check the hallway and confirming it's only this room.
-- **Verbatim:** *"Her room is no longer a sauna."* · *"Husband used to complain all the time his room was to hot. Now he says it's to cold. lol"*
-- **Evidence note — with a correction to my own earlier read, 2026-09-21.** Nearly every quote across every pass names a **bedroom**: bluesclues5's, tjschuldt's son's, Roxyrocks' nursery, Brie's heated bed, CreditCardJunkie's north-facing bedroom, buttonedup's 55°F apartment bedroom. That much is overwhelming.
-  **But the bedroom is the SETTING, not the desire.** Most of them say *"this room is cold,"* not *"I can't sleep."* The sleep-disruption desire is thinner than I originally wrote. **Treat SA2 as SA1-in-a-bedroom until a test says otherwise**, and note that *"Fine at bedtime. Wrong by 2am"* is **my line, not a customer's.**
-- **Awareness:** Problem Aware.
-
-**Angle 1 — Right at bedtime, wrong by 2am.** ⭐ *sharpest line in the document*
-Hooks: *Fine at bedtime. Wrong by 2am.* · *You don't need a colder house. You need a colder bedroom.* · *The one room that never gets comfortable is the one you sleep in.*
-
-**Angle 2 — The space heater is a confession, not a fix.**
-Reason to buy: they are running a second appliance all night to compensate for a system they already pay for.
-Hooks: *You're running a space heater in a heated house.* · *The heat is already paid for. It just isn't arriving.* · *Two heating bills for one room.*
-
-**Angle 3 — Set the room's temperature and stop managing it.**
-Hooks: *Tell that room what temperature to be.* · *Set it once. Stop getting up to adjust things.*
-
-> ⚠️ **Nursery is a DOOR into SA2, not an avatar.** Its intensity comes from safety, which is the trap the post-mortem names: the most urgent version of the problem is the least compliant. **Allowed:** room temperature, degrees, the monitor reading, the baby waking, sleeping through, not having to get up and check. **Banned:** SIDS, safe sleep, risk, danger, overheating-as-hazard, any health framing.
-
-## SA6 — Fixing It For Someone Else ⭐ NEW 2026-09-21
-
-- **Desire:** *I need this room to be right for someone I'm responsible for, and I can't control it.*
-- **Mass instincts:** **Relationships + Control.** Protective, not comfort-seeking — this is the one avatar where the buyer is **not the person in the cold room.**
-- **Experience:** A child's room, a baby's room, a partner's room, an elderly parent's room is the wrong temperature. They check it. They compensate for it. They research it on someone else's behalf.
-- **Emotion:** **Guilt**, and underneath it **fear** — not of discomfort but of failing someone. The strongest emotional material in the entire project.
-- **Behaviour:** Checking the room at night. Buying around the problem rather than fixing it (a warmer sleeping bag instead of a warmer room). Posting on a forum on another person's behalf. Disabling a fix that worked because it bothered the person it was meant to help.
-- **Verbatim:**
-  - *"the room is so cold, been going down to 13° overnight and I'm feeling quite guilty at the prospect of putting baby in there as the weather gets even colder"* — Roxyrocks
-  - *"I noticed last night that my son's room was very cold compared to the other rooms in the house"* — tjschuldt
-  - *"The noise was irritating to my sound sensitive son so we unhooked it"* — Izzie1213 *(removed a working fix to protect the same person it was for)*
-  - A parent buying a cold-rated baby sleeping bag rather than heating the room — WonderingWanda
-  - buttonedup researching and posting about **her boyfriend's** apartment, not her own
-- **Evidence strength:** **4 independent instances**, which is stronger than SA3 and comparable to SA2. Founder-identified 2026-09-21 after I twice folded it away as "a door into SA2" — it is not a door, it is a different desire.
-- **Awareness:** Problem Aware.
-
-> ⚠️ **This is NOT an "airflow" avatar.** Airflow is the mechanism. Nobody asks for airflow in their own words — they ask for the room to be right for the person sleeping in it.
-
-#### Angles
-
-**Angle 1 — You keep checking that room.**
-Reason to buy: the checking is the tell. It stops when the room holds a temperature on its own.
-Hooks: *You check that room before you go to bed.* · *The room you check. Every night.* · *It's the only room in the house you worry about.*
-
-**Angle 2 — You're buying around it instead of fixing it.**
-Reason to buy: a warmer sleeping bag, an extra blanket, a heater in the corner — all of it manages the room instead of changing it.
-Hooks: *A warmer sleeping bag doesn't make the room warmer.* · *You've been working around that room for two winters.*
-
-**Angle 3 — It's the one room you can't control.**
-Reason to buy: the thermostat governs the house, not that room. This gives that room its own number.
-
-> 🚨 **CLAIM DISCIPLINE — the strictest in the document.** This avatar's intensity comes from responsibility for a vulnerable person, which is precisely the trap named in `tallow-cream/POST_MORTEM.md`: the most urgent version of the problem is the least compliant.
+> **Origins definitions:**
+> | Term | Definition |
+> |---|---|
+> | **Concept** | The big idea you want to test. Internally focused |
+> | **Angle** | **How you choose to sell it — the customer's REASON TO BUY.** Externally focused |
+> | **Hook** | How you *communicate* the angle to get attention |
 >
-> **Allowed:** room temperature, degrees, the thermostat or monitor reading, the person waking, sleeping through, not having to get up and check, "the only room you worry about."
-> **Banned outright:** SIDS, safe sleep, risk, danger, hazard, overheating-as-hazard, "keep your baby safe," anything health-framed, anything implying a medical consequence. Also banned here as everywhere: air quality, filtration, allergens.
+> **Extraction process (§10):** sub-avatar's **desire** → their **behaviour** (what they already do to get it) → the **gap** (doing X to get Y, and it isn't working) → **the angle is how the product fills that gap.**
 >
-> **The test:** we sell the not-worrying, never the thing they're worried about.
+> Their worked example: *Nose Strip Sleeper · wants restorative sleep · wears nose strips · still doesn't sleep →* **angle: "Better than nose strips."**
+>
+> **At $0-100k/month Origins says run ONE desire-based core avatar and build sub-avatars around it.** That is what this is now.
 
 ---
 
-## SA3 — The System You're Not Allowed To Touch ⚠️ UPGRADED 2026-09-21
+## THE CORE AVATAR
 
-- **Desire:** I want control over my room when I have no control over the building's system.
-- **Emotion:** the purest **anger-at-powerlessness** in the set.
-- **Verbatim (partial):** *"I'm on my 5th house/**apartment**…"*
-- **Evidence — upgraded.** Phase 3 produced **four independent landlord exchanges**, more than this avatar had when it was marked "hold":
-  - *"His landlord said a month ago that he would insulate the windows. Didn't happen."* · *"The landlord is generally non responsive or really hard to get in contact with."* — buttonedup
-  - *"I'll take a look at it"* — then nothing changed, on a $2,700/month NYC rental
-  - *"They won't raise the heat because they are 'dying' down there"* — a landlord keeping a third floor cold to avoid overheating lower floors
-  - One landlord who did compensate: *"bought them a portable radiator… and reduced their rent by $40"*
-- **The powerlessness is sharpest here.** In the third quote the occupant isn't even the person the system is being tuned for.
-- **Blockers:** it replaces a fixture and needs an outlet. **Renters and basement suites are the viable slice; dorms and offices probably are not.** Confirm reversibility before spending — and lead with "it goes back exactly how you found it."
+**Desire:** *"I want this one room to be the same temperature as the rest of the house."*
+
+**Mass instincts:** Comfort (primary), Control (secondary).
+**This is the core, not a sub-avatar.** Every block below is this desire plus a layer of experience, emotion or behaviour.
 
 ---
 
-## SA4 — The Thermostat Standoff ⚠️ PARKED, NOT RETIRED (founder call 2026-09-21)
+## SA1 — The Fan Runner ⭐ STRONGEST
 
-> **Parked, not written off.** Untested is not disproven. Test SA1, SA6 and SA3 first — what they return will say more about whether this is real than another research pass would.
+| | |
+|---|---|
+| **Desire** | The room comfortable |
+| **Experience** | Bought a box fan, a ceiling fan or a tower fan for that room |
+| **Behaviour** | Runs a fan in there, often permanently |
+| **Emotion** | Resignation — concluded that nothing works on this room |
+| **THE GAP** | **The fan moves air but the room's temperature never changes.** They're treating a delivery problem with a circulation tool |
 
-- **Desire:** I want to stop arguing about the thermostat.
-- **Evidence:** **none.** Not one conflict quote surfaced. The one adjacent data point is affectionate, not adversarial.
-- **The trap:** the product only wins this argument when the two people are in **different rooms.** The version everyone pictures — two people, one room — is something we cannot fix. One line inside an SA1/SA2 ad. Never a premise.
+### ⭐ ANGLE: **Warms the room instead of just moving the air around it.**
 
-## SA5 — The Room That Feels Closed-Up ⚠️ PARKED, NOT RETIRED (founder call 2026-09-21)
+*Reason to buy: the fan they already run cannot change the room's temperature — this can, because it brings in air from somewhere else.*
 
-> **Parked, not written off**, on the same basis as SA4.
+**Hooks:** *"You already tried a fan in there."* · *"The fan isn't warming the room. It's just moving cold air around."* · *"A fan for the vent, not for the room."*
 
-The honest version of "air flow." **Airflow is the mechanism, not a desire** — nobody asks for airflow in their own words. **Excluded permanently:** allergies, air quality, filtration, dust. The unit has no filter.
+**Evidence:** the box fan is on every rung of the solutions ladder and in the founder's own sequence. **Strongest sub-avatar we have** — and it speaks to Solution Aware, our prime segment.
+
+---
+
+## SA2 — The Nightly Heater
+
+| | |
+|---|---|
+| **Desire** | The room comfortable, especially at night |
+| **Behaviour** | Plugs in a space heater or oil-filled radiator every night, October to April |
+| **Emotion** | Low-grade irritation at paying twice, plus unease about leaving it running |
+| **THE GAP** | **It works — and it's a second appliance, a second bill, and something they have to remember every night** in a house they already heat |
+
+### ANGLE: **Stops you running a space heater in a house you already pay to heat.**
+
+**Hooks:** *"Unplug the space heater."* · *"You're heating that room twice."* · *"The heat is already paid for. It just isn't arriving."*
+
+**Evidence:** space heaters and oil radiators are the dominant purchase in every research pass. *"I have to use a space heater for supplemental heat in that room."* · one poster runs a heater, a timed blanket **and** a heated bed pad.
+
+---
+
+## SA3 — The Thermostat Cranker
+
+| | |
+|---|---|
+| **Desire** | The room comfortable |
+| **Behaviour** | Turns the whole-house thermostat up because of one room |
+| **Emotion** | Friction with whoever finds the rest of the house too warm |
+| **THE GAP** | **Everywhere else overheats, the bill rises, and that room still lags** — because the problem was never the setting |
+
+### ANGLE: **Gives that one room its own temperature, so the thermostat can go back down.**
+
+**Hooks:** *"Turn the thermostat back down."* · *"You're heating seven rooms to fix one."* · *"Give that room its own number."*
+
+**Evidence:** ⚠️ **Inferred, not quoted.** Damper/balance advice recurs, but nobody in any pass said they over-heat the house for one room. **Previously flagged as "my angle, not theirs" — that flag stands.** Now at least it is a proper angle rather than a headline.
+
+---
+
+## SA4 — The Door Closer
+
+| | |
+|---|---|
+| **Desire** | The rest of the house comfortable — they've given up on that one |
+| **Behaviour** | Keeps the door shut and treats the room as lost |
+| **Emotion** | Guilt about the workaround: worry that the sealed cold room is damaging the house |
+| **THE GAP** | **Closing it off isn't a fix, it's surrender** — and it created a new worry of its own |
+
+### ANGLE: **Makes the room you shut off usable again.**
+
+**Hooks:** *"The room you close the door to."* · *"You shut that door because you gave up on the room."* · *"It's a spare room because it's cold, not the other way round."*
+
+**Evidence:** shutting the door is the **most-recommended free fix across every source.** *"I took to keeping the door shut, and then put weatherstripping on the door."* Plus the guilt quote: *"I'm beginning to wonder if that's just too cold, if it might be hurting the house in someway."*
+
+---
+
+## SA5 — Checking Someone Else's Room ⭐ THE ELEVATION PLAY
+
+| | |
+|---|---|
+| **Desire** | The room right for someone they're responsible for |
+| **Behaviour** | **Checks the room at night.** Adds blankets, buys warmer sleepwear, buys around the problem |
+| **Emotion** | **Guilt** — the strongest emotion in the whole project |
+| **THE GAP** | **They manage the symptom every night instead of changing the room** |
+
+### ANGLE: **Holds the room at a set temperature so you stop checking it.**
+
+**Hooks:** *"You check that room before bed. Every night."* · *"A warmer sleeping bag doesn't make the room warmer."* · *"It's the only room in the house you worry about."*
+
+**Why this one matters strategically:** per the swipe file's desire hierarchy — Comfort → **Relationships** → Status → Health, urgency rising — **this is the only elevation available to us.** Health is closed by our claim rules. So SA5 is the **higher-urgency positioning of the same product**, not just another block.
+
+**Evidence:** four independent instances. *"I'm feeling quite guilty at the prospect of putting baby in there."* · *"my son's room was very cold."* · a parent buying a cold-rated sleeping bag instead of heating the room · someone researching on their partner's behalf.
+
+> 🚨 **Strictest claim rules in the project.** Allowed: temperature, degrees, the monitor reading, waking, sleeping through, not having to check. **Banned:** SIDS, safe sleep, risk, danger, hazard, any health framing. **We sell the not-worrying, never the thing they're worried about.**
+
+---
+
+## SA6 — The Renter
+
+| | |
+|---|---|
+| **Desire** | Control of their own room when the building's system isn't theirs |
+| **Behaviour** | Asks the landlord, gets deflected, buys a heater instead |
+| **Emotion** | **Anger at powerlessness** — the purest Control avatar in the set |
+| **THE GAP** | **They can't touch the thermostat and can't modify the building** |
+
+### ANGLE: **Gives you control of your room without touching the building's system.**
+
+**Hooks:** *"The thermostat isn't yours. This room can be."* · *"It comes back out exactly how you found it."* · *"Your landlord doesn't have to be involved."*
+
+**Evidence:** four landlord exchanges. *"His landlord said a month ago that he would insulate the windows. Didn't happen."* · *"They won't raise the heat because they are 'dying' down there."*
+
+**⚠️ Gate:** confirm the unit is genuinely reversible and needs only a standard outlet before spending here.
+
+---
+
+## SA7 — The Quoted ⚠️ SMALL, AND NOT A TOF LEAD
+
+| | |
+|---|---|
+| **Desire** | The room comfortable |
+| **Behaviour** | Called a contractor, got a quote, didn't proceed |
+| **THE GAP** | **The real fix is priced and disruptive beyond what one room is worth** |
+
+### ANGLE: **Fixes the room without the ductwork job.**
+
+**Hooks:** *"Not $3,400."* · *"Two screws instead of three days."*
+
+**⚠️ Why this is not a TOF lead — founder call 2026-09-25.** The behaviour that defines this sub-avatar — *having got a quote* — is rare. Most people never called anyone. So the $3,400 is a stranger's number, not the reader's, and the angle channels **cost-avoidance** rather than the comfort desire. **It is a legitimate angle in the wrong place: use it at MOF, on the PDP's alternatives section, and as a beat inside a native.**
+
+---
+
+## PARKED
+
+**The Thermostat Standoff** and **The Stuffy Room** — no evidence across three passes. Parked, not retired (founder call). What SA1, SA5 and SA6 return will say more about them than another research pass would.
+
+---
+
+## Testing priority
+
+| Rank | Sub-avatar | Angle | Why |
+|---|---|---|---|
+| **1** | **SA1 The Fan Runner** | Warms the room instead of just moving air | Best evidence, speaks to Solution Aware, the gap is undeniable to anyone who lived it |
+| **2** | **SA5 Checking Someone Else's Room** | Holds the room at a set temperature so you stop checking | The Relationships elevation — highest urgency available |
+| **3** | **SA2 The Nightly Heater** | Stops you heating the room twice | Well evidenced, visually demonstrable |
+| 4 | SA4 The Door Closer | Makes the shut-off room usable again | Strong behaviour, less urgent |
+| 5 | SA6 The Renter | Control without touching the building | Gated on reversibility |
+| 6 | SA3 The Thermostat Cranker | The room gets its own temperature | Inferred, unevidenced — test to learn |
+| — | SA7 The Quoted | Fixes it without the ductwork job | **MOF/PDP only** |
+
+**Per Origins: you do not need one ad per angle.** One concept can carry several; lead with the strongest hook and layer the rest in body copy.
 
 ---
 
