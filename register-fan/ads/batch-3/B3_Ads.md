@@ -1,119 +1,87 @@
-# Batch 3 — Angle 3: "Don't heat the whole house for one room"
+# BATCH 3 — SA2 The Nightly Heater
 
-**Created:** 2026-09-23
-**Naming convention (founder, 2026-09-23): ONE BATCH = ONE ANGLE = ONE AD SET.** Batch 1 is Angle 1, Batch 2 is Angle 2, Batch 3 is Angle 3. Each batch holds exactly 3 ads: **1 native + 2 non-native**. All three ad sets run simultaneously in one ABO campaign at $20/day each for 7 days — see `Launch_Campaign_SA1.md`.
-**Reads against:** `Brand_Mastery.md`, `Format_Angle_Map.md`, `Launch_Batch_1.md`, `Kill_Rules.md`, `Brand_and_PDP_Outline.md`
+**Rebuilt 2026-09-26** against `Brand_Mastery.md` Part 6.
 
-
-> ⚠️ **STATIC SPECS SUPERSEDED 2026-09-23 — see `register-fan/Static_Ad_Framework.md`.**
-> Founder call: every static must do **three jobs** — (1) stop the scroll, (2) inform via the **mechanism** (not features), (3) **channel desire into purchasing power** with seasonal urgency and value framing. An audit found **none** of the original statics did all three; most did one. The angles, formats and reasoning below stand; **the creative specs for the two non-native ads in this batch are rebuilt in the framework doc.**
-
-
-> 🚨 **SUPERSEDED 2026-09-26 — the avatars and angles were rebuilt.** The previous "angles" in this file were **hooks, not angles** (Origins: an angle is the customer's *reason to buy*; a hook is how you communicate it), and the old SA1 was the **core avatar** sitting in the sub-avatar roster. See `Brand_Mastery.md` Part 6 for the rebuilt Core Avatar + SA1-SA7, each with desire → behaviour → **gap** → angle. **These ad specs are being rewritten against it and should not be produced as written.**
+**Ad set = this sub-avatar. $20/day. 1 native + 2 non-native.**
 
 ---
 
-## What this batch is actually optimising for
+## The sub-avatar
 
-**Not profitability. Repeatable demand.** Founder note 2026-09-23: consistent weekly orders unlock a private supplier and COGS near $25, which drops breakeven ROAS from 1.76×/2.12× to roughly **1.39×/1.52×**. So the outcome we want from batch 1 is *purchases that repeat*, not a strong first-week ROAS.
-
-The kill rules still govern this spend at today's economics. But **"consistent 1-2 orders/week at breakeven" is a PASS**, and should not be read as failure.
-
----
-
-## Rules applied to every ad below
-
-| Rule | Source |
+| | |
 |---|---|
-| No noise claim — not quiet, not decibels, not comparative | `Brand_Mastery.md` Part 8.1 |
-| Outcomes stay **partial** — degrees closed, never "fixed" or "matches the rest of the house" | Part 8.1b |
-| No competitor named, no "register booster fan", no cheap-alternative comparison | §9a-i |
-| **No offer terms in any TOF image** — no price, guarantee, shipping, CTA | Part 8.3, TOF-scoped |
-| No health, safety, risk, air quality, allergens | Part 8.2 |
-| **Degrees, not metaphors** — no frost, icicles, shivering stock photos | Journey research Phase 4 |
-| Every temperature renders in **mono, tabular figures** | Brand system A4 |
-| Accent terracotta `#B4553A` · base `#FAF7F2` · diagram-cool slate `#5B7185` | A3 |
-| Real branding stays on real props. Never write "no logos" into a photo prompt | Tallow Creative Principles §0 |
+| **Core desire** | This room the same temperature as the rest of the house |
+| **Behaviour** | Plugs in a space heater or oil-filled radiator **every night, October to April** |
+| **Emotion** | Irritation at paying twice; unease about leaving it running overnight |
+| **THE GAP** | **It works — and it's a second appliance, a second bill, and something to remember every night, in a house they already heat** |
+
+**Evidence:** space heaters and oil radiators are the dominant purchase in every research pass. *"I have to use a space heater for supplemental heat in that room."* One poster runs a heater, a timed blanket **and** a heated bed pad.
+
+## The two angles
+
+| | Angle |
+|---|---|
+| **A5** ⭐ | **Stops you running a space heater in a house you already pay to heat** |
+| **A6** ⚠️ | **Stops you paying twice to heat one room** *(cost framing — see the flag)* |
+
+> ⚠️ **A6 carries the unevidenced idea.** Nobody in any research pass complained about the cost of heating one room twice — it's an inference. It is here as a **secondary angle inside an evidenced batch** rather than as a batch of its own, so testing it costs one ad instead of a third of the budget. If it wins, the inference was good. If it loses, we stop guessing.
 
 ---
 
-# BATCH 3 = ANGLE 3 — SA1-A2: "Don't heat the whole house for one room"
+## B3C1 — Native long-form · Julie Brennan page
 
-> ## ⚠️ READ BEFORE JUDGING THIS AD SET
-> **This angle is MINE, not theirs.** No quote in any research pass shows anyone complaining that they over-condition the whole house for one room. It is an inference I made and it has never been corroborated.
+**Method 5, Identity/Relief · carries A5 → A6 · TOF · right column excluded**
+
+**Earns the read:** the ritual of plugging it in, named exactly.
+
+**Beats:** the first cold night and digging the heater out · doing it every night for two winters · the things it costs — the noise, the bill, the not-quite-trusting-it-overnight *(A5, A6)* · the duct run · putting something in the vent instead · **the box the heater went back into.**
+
+**Image:** authorless POV of a small oil-filled radiator against a bedroom wall, plugged in, cable running to a baseboard socket. Ordinary, unstyled, winter light. No product, no text.
+
+---
+
+## B3C2 — Static · **Angle A5**
+
+**Method 4, Contrast/Absence · TOF · all placements**
+**Earns the read:** states their own routine as if it were absurd — because it is.
+
+> **ZONE 1**
+> ## You run a space heater in a heated house.
 >
-> It is in the batch **because it is unevidenced.** If it wins, the inference was good and we learn something about a desire we couldn't find in words. If it loses, we stop guessing and the angle roster gets more honest. Either outcome is worth $140.
+> **ZONE 2**
+> Not because the furnace isn't working. Because that room is last on the duct run and gets whatever air is left after every other room takes its share.
 >
-> **Do not treat a loss here as a verdict on SA1** — B1C1 through B1C6 carry that.
+> **ZONE 3**
+> The heat's already paid for. This pulls it into the room.
+> *$89, before it's properly cold.*
+
+**Design:** 4:5. Real photo of a space heater on a bedroom floor, plugged in, nothing staged. Type beneath on warm off-white, zone 3 in terracotta.
 
 ---
 
-## B3C1 — Native long-form · runs from the Julie Brennan page
+## B3C3 — Static · **Angle A6** ⚠️ the inferred one
 
-**Format:** Native · **TOF** · **Right column EXCLUDED**
+**Method 4, Contrast/Absence · TOF · all placements**
+**Earns the read:** a cost framing on a behaviour they don't price.
 
-**What it tests:** the unevidenced angle in the format most able to make a weak argument land. If the angle can't work here, it can't work.
+> **ZONE 1**
+> ## Two things heating one room.
+>
+> **ZONE 2**
+> The furnace is already heating that room — the air just isn't reaching it. So the heater is doing a job you're paying for twice.
+>
+> **ZONE 3**
+> Fix the delivery instead of adding another appliance.
+> *$89, before it's properly cold.*
 
-**Thought process.** Giving the weakest angle the strongest format is deliberate. If we ran it only as statics and it lost, we wouldn't know whether the angle failed or the compression did. The native removes that ambiguity.
-
-**Beat structure:** the thermostat creeping up over a winter · the rest of the house too warm while one room stays cold · someone else in the house complaining it's stuffy · the realisation that the whole house is being conditioned for one room · the explanation · the partial fix · **the thermostat going back down.**
-
-**Image:** a hallway thermostat, authorless POV.
-
-> **Image prompt:** *Candid iPhone photo of a plain beige wall-mounted home thermostat, shot slightly from below at standing height in a hallway. The display shows a temperature. Warm indoor lamp light mixed with cool daylight from a doorway. A hallway wall, a light switch, the edge of a doorframe. Ordinary, unstyled, mild grain, slightly imperfect framing. No text overlay, no hand, no product.* 4:5, 1080×1350.
-
----
-
-## B3C2 — Two-panel thermometer ⭐ the batch's most research-backed image
-
-**Format:** Documentary comparison · **TOF** · all placements
-
-**What it tests:** the single most directly evidenced *visual* idea in the entire project.
-
-**Thought process — this is the one I'd bet on.** Phase 4 of the journey research ran four targeted searches for metaphors — icebox, meat locker, fridge, sauna — and **found none in customers' own words.** What they reach for instead is a thermometer reading: *13° overnight*, *55 degrees*, *"5 degrees colder"*, *"Waaaay cooler."*
-
-So a number-versus-number image is not a creative idea we imposed. **It is literally how these people describe their own problem to strangers on the internet.** A viewer scrolling past sees the exact comparison they have made in their own house.
-
-It also requires **no product, no persona page and no supplier photography** — two $10 thermometers and an afternoon — and it carries in every placement because the message is in the image.
-
-**The creative:** two identical cheap thermometers, photographed in two rooms of the same house, same afternoon. Hallway reads warm; the problem room reads several degrees colder. Presented side by side like evidence, not like an ad.
-
-> **Design direction:** *Two-panel static, 4:5. Each panel is a real iPhone photograph of an identical small white digital thermometer sitting on a surface — left panel on a hallway console table, right panel on a bedroom nightstand — shot the same way, same distance, same light conditions, same afternoon. Left display reads 70°, right reads 62°, both legible. A thin warm off-white gutter between panels. Small mono labels beneath each: "HALLWAY" and "BACK BEDROOM". One line across the bottom in near-black Archivo: "Same house. Same afternoon." No product, no price, no CTA, no badge, no arrows, no annotation.*
-
-**Primary text direction:** short. *Eight degrees, one hallway apart. The furnace is fine — the room is last on the duct run and gets whatever's left.* Then the partial outcome.
-
-**Headline:** *Same house. Same afternoon.*
-**Description:** *The room at the end of the run.*
+**Design:** 4:5, typographic. Warm off-white, Archivo bold, terracotta accents. No photo — deliberately the most different-looking ad in the batch, for register spread.
 
 ---
 
-## B3C3 — Relatable Hook
+## Production
 
-**Format:** Situation-naming, typographic + photo · **TOF** · all placements
-
-**What it tests:** whether **naming the situation** beats explaining or demonstrating it.
-
-**Thought process.** The swipe file's example is "12-HOUR SHIFT SHOES" — the hook names a lifestyle reality rather than a product or a benefit, and the headline does the filtering. If you don't live that reality you scroll; if you do, you can't not stop. Strong executions pick a situation specific enough to feel personal and broad enough to scale.
-
-Ours: **"THE ROOM YOU CLOSE THE DOOR TO."** It's specific, it's behavioural rather than descriptive, and it comes from the research — shutting the door is the single most recommended free fix across every source, and one poster who did it then worried the sealed cold room might be *"hurting the house in someway."* The behaviour is real and it's theirs.
-
-> **Design direction:** *4:5. Top 60%: a real photograph of a closed interior door in a domestic hallway, plain, slightly off-centre, ordinary daylight, a strip of carpet beneath. Bottom 40%: warm off-white panel carrying "THE ROOM YOU CLOSE THE DOOR TO." in large Archivo bold near-black, with three short mono lines beneath in terracotta: "Coldest in the house." / "Last on the duct run." / "Gets whatever's left." Small wordmark. No price, no guarantee, no CTA.*
-
-**Headline:** *The room you close the door to*
-**Description:** *It's last on the duct run.*
-
----
-
-# Production status — Batch 3
-
-| Ad | Format | Blocked by | Shootable now |
-|---|---|---|---|
-| **B3C1** | Native long-form | Julie Brennan page ✅ | ❌ |
-| **B3C2** | Two-panel thermometer | — | ✅ **Two $10 thermometers** |
-| **B3C3** | Relatable Hook | Door photo only | ✅ |
-
-**2 of 3 shootable today.** B3C2 is the cheapest ad in the whole campaign to produce and the most directly research-backed.
-
-# Next step
-
-B3C1 gets written through the `native-ad-writer` skill.
+| Ad | Blocked by | Ready |
+|---|---|---|
+| B3C1 | — | Needs writing via `native-ad-writer` |
+| B3C2 | Space-heater photo | ✅ |
+| B3C3 | — | ✅ Type only |
