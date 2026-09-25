@@ -18,45 +18,37 @@
 
 **Job:** an authorless photograph that looks like someone stood in a doorway and took it without thinking. It runs above ~1,000 words of first-person copy, so it must not compete — it must corroborate.
 
-### PROMPT — primary
+### PROMPT — primary *(matches the copy: upstairs home office, desk, box fan + tower fan)*
 
 ```
 A candid, unposed smartphone photograph taken from the open doorway of an ordinary
-upstairs bedroom in a North American suburban house, late afternoon in summer.
+upstairs home office in a North American suburban house, late on a hot summer afternoon.
 
-SUBJECT AND STAGING: A black plastic box fan sits directly on the beige carpet in the
-middle-left of the frame, angled up toward an unmade double bed, running. Its power
-cord trails across the carpet to a white baseboard outlet on the right wall. The fan is
-an ordinary hardware-store model with its manufacturer's label and control dial visible
-and legible — keep all product markings and branding intact and natural, exactly as a
-real fan in a real room would look. On the nightstand: a half-full glass of water with
-condensation running down it, a paperback book lying face-down and open, a phone
-charging cable. The duvet is pushed down to the foot of the bed and crumpled.
+SUBJECT: A black plastic box fan sits directly on the beige carpet, angled up toward a
+small desk, running. Its power cord trails across the carpet to a white baseboard outlet.
+It is an ordinary hardware-store fan with its manufacturer's label and control dial
+visible and legible — keep all product markings and branding intact and natural, exactly
+as a real fan in a real room looks. A second, white oscillating tower fan stands near the
+window, also running. On the desk: a closed laptop, a glass of water with condensation
+pooling around its base, a notepad.
 
-LIGHT: Strong, low, late-afternoon sun entering through a west-facing window on the far
-wall, venetian blinds drawn about two-thirds down. Hard, bright slabs of sunlight fall
-across the duvet and part of the carpet, with visible slatted shadow bands. The light is
-warm and slightly orange, high contrast, the kind that makes a room feel hot. A faint
-haze of dust is visible in the light shaft. No artificial lights are on.
+LIGHT: Strong low late-afternoon sun through a west-facing window, venetian blinds drawn
+two-thirds down. Hard bright slabs of light fall across the desk and carpet with visible
+slatted shadow bands. Warm, orange, high contrast — light that makes a room feel hot.
+Faint dust visible in the light shaft. No lamps on.
 
-CAMERA: Shot as if on an iPhone, main wide lens, roughly 24mm equivalent, f/1.8,
-handheld at chest height from the doorway. Natural, slightly imperfect framing — the
-horizon is very slightly tilted, the composition is not centred, the doorframe intrudes
-into the left edge. Deep focus; everything reasonably sharp.
+CAMERA: As if on an iPhone, main wide lens, ~24mm equivalent, f/1.8, handheld at chest
+height. Slightly tilted horizon, not centred, the doorframe intruding at the left edge.
+Deep focus.
 
-RENDERING AND GRADE: Realistic consumer-phone image quality. Mild luminance noise in the
-shadows, slight highlight clipping in the brightest part of the sunlit duvet, subtle
-chromatic aberration at the window edge, very slight motion blur on the fan blades from
-the shutter speed. Natural white balance, a touch warm. No HDR look, no cinematic
-grading, no vignette, no bokeh effect, no colour pop.
+RENDERING: Realistic phone-camera quality. Mild shadow noise, slight highlight clipping in
+the sunlit patch, faint chromatic aberration at the window edge, slight motion blur on the
+fan blades. Natural, faintly warm white balance. No HDR, no cinematic grade, no vignette.
 
-MOOD: Hot, still, lived-in, slightly airless. An ordinary room on an uncomfortable
-afternoon. Nothing is styled.
+MOOD: Hot, still, airless. A room someone has given up on. Nothing styled.
 
-STRICTLY EXCLUDE: any people, hands or pets; any text, caption, watermark, logo overlay
-or graphic element added on top of the photograph; any air vent, register or vent-mounted
-device anywhere in frame; any studio or professional lighting; any staged or
-interior-design-magazine quality.
+EXCLUDE: people, hands, pets; any text, caption, watermark or graphic overlay; any air
+vent, register or vent-mounted device; studio lighting; magazine-interior styling.
 
 Aspect ratio 4:5, 1080 x 1350.
 ```

@@ -49,7 +49,7 @@
 
 ### Image — authorless POV, no product
 
-> *Candid iPhone photograph looking into an ordinary upstairs bedroom in late afternoon, taken from the doorway. A black box fan sits on the carpet angled toward the bed, plugged into a baseboard outlet, cord trailing. Strong low sun coming through a west-facing window, blinds half drawn, a bright hot slab of light across the duvet. The room is lived-in and unstyled — a book face-down, a glass on the nightstand. Real phone-camera quality, slight grain, slightly crooked framing, as if someone stood in the doorway and took it without thinking. No people, no text, no overlays, no product.* 4:5, 1080×1350.
+Upstairs home office from the doorway, hot late-afternoon sun, box fan on the carpet aimed at the desk, tower fan by the window, closed laptop. Matches the story. Full prompt: `B1_Image_Prompts.md` / `copy/B1C1_Copy.md`.
 
 ---
 
