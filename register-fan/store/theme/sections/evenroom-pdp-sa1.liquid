@@ -42,6 +42,20 @@
 
 <section id="evr-pdp" data-section-id="{{ section.id }}">
 
+{%- comment -%}
+  FONTS. The CSS below names Archivo / Inter / JetBrains Mono. Nothing in a
+  Shopify theme loads those by default, so without this block the page falls
+  back to Helvetica and loses the type identity. Kept inside the section on
+  purpose — this file stays self-contained, no snippet, no theme.liquid edit.
+  Turn off if the theme already serves these, or if you would rather add the
+  link to theme.liquid <head> yourself (marginally faster).
+{%- endcomment -%}
+{%- if section.settings.load_fonts -%}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+{%- endif -%}
+
 <style>
 #evr-pdp{
   --bg:#FAF7F2; --ink:#1C1A17; --accent:#B4553A; --accent-ink:#FFF7F3;
@@ -566,6 +580,10 @@
 {
   "name": "Evenroom PDP (SA1)",
   "settings": [
+    { "type": "header", "content": "Typography" },
+    { "type": "paragraph", "content": "The page uses Archivo (headings), Inter (body) and JetBrains Mono (temperatures). Leave this on unless your theme already loads them, or you have added the font link to theme.liquid yourself." },
+    { "type": "checkbox", "id": "load_fonts", "label": "Load Archivo / Inter / JetBrains Mono", "default": true },
+
     { "type": "header", "content": "Hero" },
     { "type": "text", "id": "hero_sub", "label": "Recognition subline", "default": "For the one room that never catches up with the rest of the house." },
     { "type": "text", "id": "single_ship_note", "label": "Single price note", "default": "+ $9.95 shipping" },
