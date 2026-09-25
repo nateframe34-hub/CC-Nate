@@ -1,43 +1,45 @@
-# B1C2 — "You already tried a fan in there"
+# B1C2 — "4pm. Still at the desk." *(rebuilt 2026-09-26 — outcome-led)*
 
 **Sub-Avatar:** SA1 The Fan Runner · **Angle:** A1 — cools the room instead of just moving the hot air around it
-**Format:** This Is Not [The Product] · **Method:** 2, Indirect Implication · **Funnel:** TOF
-**Awareness:** Solution Aware → Most Aware
+**Format:** Outcome static (the after, shown) · **Method:** 2, Indirect Implication · **Funnel:** TOF
+**Awareness:** Problem Aware → Solution Aware
+
+**Why rebuilt:** the old version sold the product ("a fan for the vent") on a picture of a vent. People don't buy a fan for the fan — they buy it to be cool. Nobody wants a vent; they want the room back. The ad now leads with, shows and closes on the outcome. The mechanism survives only as the reason to believe it.
 
 ---
 
 ## In-image text
 
-> ## You already tried a fan in there.
+> **ZONE 1 — the outcome (earns the read)**
+> ## 4pm. Still at the desk. In the hot room.
 >
-> A fan cools **you**, not the room. Step three feet away and it's as hot as it was.
+> **ZONE 2 — why they'd believe it (one line, subordinate)**
+> Not a bigger fan — a fan never cooled the room anyway. This pulls the cold air your AC already makes all the way in.
 >
-> **This isn't a fan for the room — it's a fan for the vent.** It pulls in the cold air your AC already made.
->
-> It replaces the vent cover that's already there. **Back at the desk at 4pm — not moving your laptop downstairs.** · **$89**
+> **ZONE 3 — the rest of the outcome + light nudge**
+> The door stays open. The box fan goes back in the garage.
+> *$89.*
 
 ---
 
 ## Primary text
 
-You can stand in front of a box fan and feel fine, then sit down four feet away and be hot again inside a minute.
+It's four in the afternoon and you're still at the desk. Same room. Same sun on that window. Door open, laptop where it belongs, and nothing roaring in the corner.
 
-That's not the fan failing. That's what a fan does. It doesn't make air colder and it doesn't bring air in from anywhere else. It picks up the hot air already in the room and moves it past your skin. Your skin reads that as cooler. The room stays exactly as hot as it was.
+That's the room you've been working around all summer. The one you give up on by early afternoon — laptop under your arm, down to the kitchen table, back up once the sun's gone.
 
-So if one room in your house is the hot one, another fan isn't going to change it. It'll change the three feet in front of it.
+You already tried the fan. It helped while it was pointed at you. Step away and the room was just as hot, because a fan doesn't cool a room. It moves the hot air that's already in it.
 
-Here's the part nobody explains. Your AC cools air in one place and pushes it through ducts to every room. The rooms nearest the unit get it first, at full strength. Every turn and every branch takes a little off. The room at the end of the run gets whatever's left.
+The cold air is already being made. Your AC pushes it through the ducts, and by the time it reaches the last room on the run it's a trickle. Put your hand on that vent and you'll feel it.
 
-Go and put your hand on the vent in that room while the AC is running. Air is probably coming out. It's probably barely moving. That trickle is the whole problem — and it's been quietly telling you the system is working.
+This replaces the cover on that vent and pulls the cold air the rest of the way in. So the room cools down like the rest of the house does.
 
-This replaces the vent cover that's already there. Two screws. It pulls the cold air the rest of the way into the room instead of waiting for it to arrive.
+The fan goes back in the garage. You stay at the desk.
 
-The difference is being able to sit at the desk at four in the afternoon, instead of carrying your laptop downstairs because that room has given up for the day.
-
-$89.99, and it's only getting hotter from here.
+$89.99, and it's only getting hotter.
 
 ## Meta headline
-A fan cools you, not the room
+Still at the desk at 4pm
 
 ## Meta description
-$89.99. 60-day returns.
+The hot room, fixed. $89.99.

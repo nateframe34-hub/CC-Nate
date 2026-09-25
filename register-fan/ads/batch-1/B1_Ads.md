@@ -53,30 +53,30 @@
 
 ---
 
-## B1C2 — Static · the reframe ⭐ *the one to beat*
+## B1C2 — Static · the outcome ⭐ *rebuilt 2026-09-26*
 
-**Format:** Category reframe · **TOF** · all placements
-**Desire-channel method:** 2 — Indirect Implication *(swipe file's highest-rated: self-generated conclusions)*
-**Awareness journey:** Solution Aware → Most Aware
-**Earns the read:** tells them the thing they bought was solving a different problem. Unscrollable if you own that fan.
+**Format:** Outcome static — the after, photographed · **TOF** · all placements
+**Desire-channel method:** 2 — Indirect Implication (they supply "that's my room" themselves)
+**Awareness journey:** Problem Aware → Solution Aware
+**Earns the read:** shows the thing they want — working in that room in the afternoon — which they know they can't do right now.
 
-> **ZONE 1 — earn the read**
-> ## You already tried a fan in there.
+**Why rebuilt:** the previous version was a product ad. The hook was about their fan, the picture was a vent, the payoff was "it's a fan for the vent." Nobody buys a fan for the fan; they buy it to be cool. The outcome is the ad now. The mechanism is one line, only there so they'll believe it.
+
+> **ZONE 1 — the outcome (earns the read)**
+> ## 4pm. Still at the desk. In the hot room.
 >
-> **ZONE 2 — mechanism**
-> A fan cools *you*, not the room. Step three feet away and it's as hot as it was. **This isn't a fan for the room — it's a fan for the vent.** It pulls in the cold air your AC already made.
+> **ZONE 2 — why they'd believe it (one line, subordinate)**
+> Not a bigger fan — a fan never cooled the room anyway. This pulls the cold air your AC already makes all the way in.
 >
-> **ZONE 3 — channel** *(rewritten 2026-09-26 — Gap 2: paint the after, don't restate the instruction)*
-> It replaces the vent cover that's already there.
-> **Back at the desk at 4pm — not moving your laptop downstairs.**
-> *$89, and it's only getting hotter.*
+> **ZONE 3 — the rest of the outcome + light nudge**
+> The door stays open. The box fan goes back in the garage.
+> *$89.*
 
-**Why it should work:** the only ad in the batch where earning the read, the mechanism and the desire are **one idea** — their fan is the hook, the explanation and the proof simultaneously. The reader reaches *"that's why it never worked"* by themselves, and a conclusion you reach yourself is one you defend rather than doubt.
+> **Design:** 4:5. Full-bleed photo of the outcome: the problem room at 4pm, hard afternoon sun, someone working comfortably at the desk, door open, the box fan unplugged in the corner with its cord wrapped round it. Text on a terracotta `#B4553A` band across the top third, off-white Archivo. The product isn't the subject; if it's in frame it's small, in the wall, out of focus. **No badge, no CTA button, no guarantee strip.**
 
-> **Design:** 4:5. Left two-thirds — a real photograph of a plain white wall or floor register in ordinary domestic light, shot straight on. Right third — terracotta `#B4553A` panel carrying the three zones stacked, white Archivo, the word **vent** emphasised. Zone 3 price inline at body weight. Base `#FAF7F2`, text `#1C1A17`. Small wordmark. **No badge, no CTA button, no guarantee strip.**
-
-**Headline:** *You already tried a fan in there.*
-**Description:** *It's cooling you, not the room.*
+**Primary text:** see `copy/B1C2_Copy.md`
+**Headline:** *Still at the desk at 4pm*
+**Description:** *The hot room, fixed. $89.99.*
 
 ---
 

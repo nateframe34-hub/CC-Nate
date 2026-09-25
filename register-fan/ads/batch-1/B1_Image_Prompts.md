@@ -67,79 +67,51 @@ As above, but: **two** fans in the room — the box fan on the carpet and a whit
 
 ---
 
-# B1C2 — The reframe static
+# B1C2 — The outcome static *(rebuilt 2026-09-26)*
 
-**Two production routes. Use route A for speed, route B for brand precision.**
+The image IS the outcome. Not the vent, not the product.
 
 ## Route A — full composite generated in one pass
 
-Nano Banana Pro 2 renders typography reliably. This gets a finished ad in one generation.
-
 ```
-A vertical 4:5 advertising graphic, split vertically into two panels.
+A vertical 4:5 advertising graphic.
 
-LEFT PANEL (occupying the left two-thirds of the frame): a realistic, candid smartphone
-photograph of an ordinary white metal wall register — an air vent with horizontal louvred
-slats and two visible screws — mounted low on a plain painted interior wall just above a
-white baseboard. Beige low-pile carpet runs along the bottom. Soft, flat, indirect daylight
-from the left. The paint has faint scuffs and the vent has a little dust on the lower
-slats. Realistic phone-camera quality, mild grain, natural white balance, no styling. The
-vent is a plain builder-grade cover; it is NOT a fan and has no electronics, no display and
-no cable.
+PHOTOGRAPH (full bleed): a realistic, candid smartphone photo of a small spare-bedroom
+home office at about 4pm on a hot summer day. Hard, low, golden afternoon sun comes
+through a window with the blind half raised, throwing bright stripes across the carpet
+and desk — clearly the hottest time of day. A woman in her 40s in a t-shirt sits at the
+desk working on a laptop, seen from behind and slightly to one side, shoulders relaxed,
+one leg tucked up on the chair, a glass of iced water with condensation beside the
+laptop. Comfortable, settled, not posed. The bedroom door behind her stands wide open to
+the hallway. In the corner, a white box fan sits switched off and pushed against the
+wall, its cord wrapped around the handle — clearly retired. Lived-in details: a charging
+cable, a mug of pens, a sticky note on the monitor, a cardigan on the chair back. Real
+brand names on the laptop, water bottle and box fan stay as they are. Natural white
+balance, mild grain, consumer phone quality, no cinematic grade, no styled interior.
 
-RIGHT PANEL (occupying the right third, full height): a flat solid panel of warm terracotta,
-hex #B4553A, with no texture or gradient. Text is set in this panel in a clean, confident
-geometric sans-serif, left-aligned, in off-white #FAF7F2, with generous margins and clear
-size hierarchy:
+TEXT BAND across the top third: a flat terracotta band, hex #B4553A, full width, no
+texture. Off-white #FAF7F2 text in a clean geometric sans-serif, left-aligned, generous
+margins:
+  Large and bold: "4pm. Still at the desk. In the hot room."
+  Smaller, regular: "Not a bigger fan — a fan never cooled the room anyway. This pulls
+  the cold air your AC already makes all the way in."
+  Smaller again: "The door stays open. The box fan goes back in the garage."
+  Smallest, plain: "$89"
 
-  Large and bold, at the top:
-  "You already tried a fan in there."
+Typography crisp, correctly spelled, fully legible at small sizes. Calm, not crowded.
 
-  Smaller, regular weight, in the middle, with comfortable line spacing:
-  "A fan cools you, not the room. Step three feet away and it's as hot as it was.
-  This isn't a fan for the room — it's a fan for the vent. It pulls in the cold air
-  your AC already made."
-  The word "vent" is set in bold for emphasis.
-
-  Small, near the bottom:
-  "The room gets cooler. Not just the spot in front of the fan."
-
-  Smallest, at the very bottom, plain and unemphasised:
-  "$89"
-
-Typography must be crisp, correctly spelled, evenly kerned and fully legible at small
-sizes. The layout is calm and editorial, with a lot of breathing room — not crowded.
-
-STRICTLY EXCLUDE: any badge, sticker, starburst, ribbon, button, arrow, countdown timer,
-"money-back guarantee" mark, shipping icon, rating stars, or any promotional graphic
-furniture of any kind; any person; any vent fan, motor, grille-mounted device or product
-photograph; any drop shadow, bevel, glow or 3D effect on the text.
+STRICTLY EXCLUDE: badges, stickers, starbursts, buttons, arrows, countdown timers,
+guarantee marks, rating stars, any promotional graphic furniture; drop shadows or glow
+on text; a running fan; a sweating or uncomfortable person.
 
 Aspect ratio 4:5, 1080 x 1350.
 ```
 
 ## Route B — photograph only, type set in design software
 
-Generate the plate, then set Archivo / Inter to exact brand spec. Preferred if the composite's typography drifts off-brand.
-
-```
-A realistic, candid smartphone photograph of an ordinary white metal wall register — an
-air vent with horizontal louvred slats and two visible screws — mounted low on a plain
-painted interior wall just above a white baseboard, shot straight on from about knee
-height. Beige low-pile carpet along the bottom of the frame. Soft, flat, indirect
-daylight from the left, no hard shadows. Faint scuffs on the paint, a little dust
-settled on the lower louvres, one screw very slightly proud. Utterly ordinary and
-unremarkable. Realistic phone-camera quality with mild grain and natural white balance.
-Composition leaves clear empty wall space above the vent for text to be placed later.
-
-The vent is a plain builder-grade cover. It is NOT a fan: no electronics, no display,
-no dial, no cable, no vent-mounted device.
-
-STRICTLY EXCLUDE: people, hands, pets, text, captions, watermarks, graphic overlays,
-studio lighting, styled interiors.
-
+Use the photograph paragraph from Route A alone, add: *"Keep the top third of the frame
+calm (wall and window) so a text band can be placed over it later. No text anywhere."*
 Aspect ratio 4:5, 1080 x 1350.
-```
 
 ---
 
@@ -212,7 +184,7 @@ When the season turns, the concept is unchanged — only the props and light:
 | | Hot version | Cold version |
 |---|---|---|
 | **B1C1** | Box fan on carpet, hard low sun, blinds half drawn | Small oil-filled radiator against the wall, flat grey overcast light through bare window, a folded blanket on the bed |
-| **B1C2** | Same vent plate, unchanged | Same vent plate, unchanged |
+| **B1C2** | Hard afternoon sun, iced water, box fan retired in corner | Grey 4pm winter light, sweater, hot mug, space heater unplugged in corner; "4pm. Still at the desk. In the cold room." |
 | **B1C3** | Red loop = hot air, blue arrows = cold air in, 81° → 74° | Swap colours and labels: "moves the cold air around" / "brings warm air in", 58° → 66°, stick figure in a jumper |
 
-**The vent photograph in B1C2 is season-agnostic and never needs re-shooting.**
+**B1C2 needs a re-shoot for cold — the outcome scene is seasonal.**

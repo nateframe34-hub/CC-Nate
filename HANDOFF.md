@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-26** — B1C2 rebuilt outcome-led (founder: sell the outcome, not the product). Image is now the after (4pm, at the desk, fan retired), hook is the outcome, mechanism cut to one supporting line. Old vent-plate/"fan for the vent" version retired.
+
 - **2026-09-25** — Register fan: B1C3 rebuilt as whiteboard before/after (fan loops hot air vs vent brings cold air in). Gap 2 (outcome never shown) fixed: whiteboard carries the after, B1C2 zone 3 paints it + "replaces the vent cover that's already there", PDP gets §5b outcome section with after-image (`out_image`) after the hand test. Gallery order: installed-in-situ first (Gap 3).
 
 ### 2026-08-04 — TALLOW CREAM DISCONTINUED
