@@ -92,7 +92,7 @@ balance, mild grain, consumer phone quality, no cinematic grade, no styled inter
 TEXT BAND across the top third: a flat terracotta band, hex #B4553A, full width, no
 texture. Off-white #FAF7F2 text in a clean geometric sans-serif, left-aligned, generous
 margins:
-  Large and bold: "4pm. Still at the desk. In the hot room."
+  Large and bold: "No more switching rooms because of the heat."
   Smaller, regular: "Not a bigger fan — a fan never cooled the room anyway. This pulls
   the cold air your AC already makes all the way in."
   Smaller again: "The door stays open. The box fan goes back in the garage."
@@ -115,65 +115,61 @@ Aspect ratio 4:5, 1080 x 1350.
 
 ---
 
-# B1C3 — Whiteboard, before and after
+# B1C3 — Whiteboard, the same room twice *(direction 1)*
 
-**Job:** explain the mechanism AND show the outcome in one image. It must look like a real person drew it on a real board to explain something — not a designed infographic.
+**Job:** show the same person in the same room, miserable then comfortable. The arrows at the vent explain why. It must look like a real person drew it on a real board.
 
 ```
 A candid smartphone photograph of a real white dry-erase whiteboard mounted on a
-kitchen or home-office wall, with a hand-drawn diagram on it in dry-erase marker.
-The board has faint ghosting from previous drawings that were wiped off, a few
-smudges, and a marker tray along the bottom holding a black, a red and a blue
-marker with their caps off. The markers' manufacturer branding is visible and
-natural — keep all product markings intact.
+home-office wall, with a hand-drawn drawing on it in dry-erase marker. Faint
+ghosting from earlier wiped drawings, a few smudges, and a marker tray along the
+bottom holding black, red and blue markers with caps off, their manufacturer
+branding visible and intact.
 
-THE DRAWING — done quickly and confidently by hand, imperfect lines, slightly
-uneven lettering, clearly human. The board is split into two halves by a
-vertical line drawn down the middle.
+THE DRAWING — quick, confident, imperfect marker lines, clearly human, slightly
+cartoonish but expressive. A vertical line splits the board into two halves.
 
-LEFT HALF — heading written at the top in black marker, underlined:
-    "WITH A FAN"
-A simple drawn room: a square outline with a floor line. A small box fan drawn on
-the floor. RED marker arrows looping around in a closed circle inside the room,
-going nowhere. A simple stick figure sitting at a small desk, with three short
-sweat lines coming off its head. A small drawn thermometer on the wall reading
-"81°" in red. A short handwritten label with an arrow pointing at the red loop:
-    "moves the hot air around"
+LEFT HALF — "BEFORE" written at the top in black, underlined.
+A simple room: floor line, a window with a big drawn sun with rays blazing through
+it in red. A person at a small desk, hunched over a laptop, looking miserable:
+droplets of sweat running down the face, damp patches on the shirt, one hand
+fanning themselves with a sheet of paper, mouth drawn as a flat wavy line. At the
+floor under the desk, a plain rectangular vent with just TWO short, limp, drooping
+blue arrows barely coming out of it and fading after a few inches. A small drawn
+thermometer on the wall reading "81°" in red. Handwritten label with an arrow to
+the vent: "barely any air coming out"
 
-RIGHT HALF — heading written at the top in black marker, underlined:
-    "WITH THE VENT"
-The same simple room, drawn the same way. The box fan pushed into the corner with
-a single black line struck through it. At the floor, a small rectangle for the
-vent. Below the floor line, a duct drawn as two parallel lines. BLUE marker
-arrows travelling along the duct and coming UP through the vent INTO the room.
-The same stick figure at the same desk, now drawn relaxed with a small smile and
-no sweat lines. The drawn thermometer reads "74°" in blue. A short handwritten
-label with an arrow pointing at the blue arrows:
-    "brings cold air in"
+RIGHT HALF — "AFTER" written at the top in black, underlined.
+The same room drawn the same way, same window, same blazing sun. The same person
+at the same desk, sitting upright, typing happily, relaxed shoulders, a small
+smile, a glass with ice cubes beside the laptop, no sweat. At the floor, a vent
+with a small fan circle drawn inside it, and LONG, STRONG blue arrows sweeping out
+of it and curling across the whole room, several reaching the person at the desk.
+The drawn thermometer reads "74°" in blue. Handwritten label with an arrow to the
+blue arrows: "cold air actually reaching the room"
 
-ACROSS THE BOTTOM of the board, in black marker, spanning both halves:
-    "One moves the air. One brings new air in."
+ACROSS THE BOTTOM, spanning both halves, in black marker:
+    "Same room. Same afternoon. You just stay."
 
-All handwriting must be legible, correctly spelled, and look genuinely handwritten
-in marker — not a font. Numbers "81°" and "74°" clearly readable.
+All handwriting legible, correctly spelled, genuinely handwritten in marker, not a
+font. "81°" and "74°" clearly readable. The contrast between the miserable and the
+comfortable person must be obvious at a glance on a phone screen.
 
-PHOTOGRAPH: taken straight-on at a very slight angle, as if someone stepped back
-and took a quick phone photo to send to a family member. Ordinary indoor daylight
-from a window to one side, giving a soft glare band across one corner of the
-board. Realistic phone-camera quality, mild grain, natural white balance, slight
-barrel distortion at the edges. The edge of the wall and part of a doorframe or
-shelf visible around the board.
+PHOTOGRAPH: straight-on at a very slight angle, like a quick phone photo sent to a
+family member. Ordinary indoor daylight from one side with a soft glare band
+across one corner. Mild grain, natural white balance, slight barrel distortion.
+Edge of the wall and part of a shelf visible around the board.
 
-EXCLUDE: any people or hands in frame, any printed text or typeset labels, any
-logo overlay, any badge, price, arrow graphic or CTA added on top of the photo,
-any vector-perfect or digitally drawn lines.
+EXCLUDE: real people or hands in frame, typeset text, logo overlays, badges,
+price, digital arrow graphics or CTAs on top of the photo, vector-perfect lines.
 
 Aspect ratio 4:5, 1080 x 1350.
 ```
 
 **Notes**
-- The **before/after split is the whole point.** If a generation drops the right-hand stick figure or the 74°, regenerate — the outcome is the reason this ad exists.
-- If handwriting renders too neat, add: *"messy, rushed handwriting, letters uneven in size."*
+- **The faces carry the ad.** If the left figure doesn't read as clearly miserable or the right one as clearly comfortable, regenerate.
+- The weak vs strong arrows are the reason to believe. If both vents come out looking similar, add: *"the left vent's arrows are tiny and faint; the right vent's arrows are three times longer and bold."*
+- If handwriting renders too neat: *"messy, rushed handwriting, letters uneven in size."*
 
 ---
 
@@ -184,7 +180,7 @@ When the season turns, the concept is unchanged — only the props and light:
 | | Hot version | Cold version |
 |---|---|---|
 | **B1C1** | Box fan on carpet, hard low sun, blinds half drawn | Small oil-filled radiator against the wall, flat grey overcast light through bare window, a folded blanket on the bed |
-| **B1C2** | Hard afternoon sun, iced water, box fan retired in corner | Grey 4pm winter light, sweater, hot mug, space heater unplugged in corner; "4pm. Still at the desk. In the cold room." |
-| **B1C3** | Red loop = hot air, blue arrows = cold air in, 81° → 74° | Swap colours and labels: "moves the cold air around" / "brings warm air in", 58° → 66°, stick figure in a jumper |
+| **B1C2** | Hard afternoon sun, iced water, box fan retired in corner | Grey 4pm winter light, sweater, hot mug, space heater unplugged in corner; "No more switching rooms because of the cold." |
+| **B1C3** | Sun in window, sweating figure → comfortable figure, blue arrows, 81° → 74° | Snow in window, shivering figure in a blanket → comfortable in a t-shirt, red warm-air arrows, 58° → 68°, "barely any warm air coming out" |
 
 **B1C2 needs a re-shoot for cold — the outcome scene is seasonal.**

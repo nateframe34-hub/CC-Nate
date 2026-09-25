@@ -1,4 +1,4 @@
-# B1C2 — "4pm. Still at the desk." *(rebuilt 2026-09-26 — outcome-led)*
+# B1C2 — "No more switching rooms because of the heat." *(rebuilt 2026-09-26 — outcome-led)*
 
 **Sub-Avatar:** SA1 The Fan Runner · **Angle:** A1 — cools the room instead of just moving the hot air around it
 **Format:** Outcome static (the after, shown) · **Method:** 2, Indirect Implication · **Funnel:** TOF
@@ -11,7 +11,7 @@
 ## In-image text
 
 > **ZONE 1 — the outcome (earns the read)**
-> ## 4pm. Still at the desk. In the hot room.
+> ## No more switching rooms because of the heat.
 >
 > **ZONE 2 — why they'd believe it (one line, subordinate)**
 > Not a bigger fan — a fan never cooled the room anyway. This pulls the cold air your AC already makes all the way in.
@@ -39,7 +39,7 @@ The fan goes back in the garage. You stay at the desk.
 $89.99, and it's only getting hotter.
 
 ## Meta headline
-Still at the desk at 4pm
+No more switching rooms because of the heat
 
 ## Meta description
 The hot room, fixed. $89.99.

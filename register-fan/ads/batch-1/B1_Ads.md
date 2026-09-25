@@ -63,7 +63,7 @@
 **Why rebuilt:** the previous version was a product ad. The hook was about their fan, the picture was a vent, the payoff was "it's a fan for the vent." Nobody buys a fan for the fan; they buy it to be cool. The outcome is the ad now. The mechanism is one line, only there so they'll believe it.
 
 > **ZONE 1 — the outcome (earns the read)**
-> ## 4pm. Still at the desk. In the hot room.
+> ## No more switching rooms because of the heat.
 >
 > **ZONE 2 — why they'd believe it (one line, subordinate)**
 > Not a bigger fan — a fan never cooled the room anyway. This pulls the cold air your AC already makes all the way in.
@@ -75,46 +75,43 @@
 > **Design:** 4:5. Full-bleed photo of the outcome: the problem room at 4pm, hard afternoon sun, someone working comfortably at the desk, door open, the box fan unplugged in the corner with its cord wrapped round it. Text on a terracotta `#B4553A` band across the top third, off-white Archivo. The product isn't the subject; if it's in frame it's small, in the wall, out of focus. **No badge, no CTA button, no guarantee strip.**
 
 **Primary text:** see `copy/B1C2_Copy.md`
-**Headline:** *Still at the desk at 4pm*
+**Headline:** *No more switching rooms because of the heat*
 **Description:** *The hot room, fixed. $89.99.*
 
 ---
 
-## B1C3 — Whiteboard · before and after ⭐ rebuilt 2026-09-26
+## B1C3 — Whiteboard · the same room, twice ⭐ rebuilt 2026-09-26 (direction 1)
 
-**Format:** Whiteboard diagram — one format, not a hybrid. *(Not in the swipe file; founder call.)*
-**Funnel:** TOF · all placements
-**Desire-channel method:** Contrast/Absence — the same room drawn twice
+**Format:** Whiteboard drawing · **TOF** · all placements
+**Desire-channel method:** Contrast — the same person at the same desk, before and after
 **Awareness journey:** Problem Aware → Solution Aware → **sees the outcome**
-**Earns the read:** a hand-drawn board reads as someone explaining, not a brand selling — and a diagram of *their* room is hard to scroll past.
+**Earns the read:** the left half is them. Hard to scroll past a drawing of your own afternoon.
 
-**Why whiteboard works here when it failed on tallow:** B32C3 put an *optical* claim on a whiteboard — nothing physical to draw, so the board was decoration. This draws a real physical process: air circulating vs air arriving.
-
-**Why this is the Gap 2 fix:** the board shows the room **twice — before and after.** Mechanism and outcome in a single image. Every other static shows the problem; this one shows the result.
+**Direction chosen:** 1, the two rooms with a person in each, over 2, the vent-vs-vent diagram. Founder call: 2 is easier to take in, but it's a diagram of the product. 1 puts the person and how they feel at the center, and the arrows explain why in the background. **Direction 2 is parked as a later test cell, not dropped.**
 
 ### The board
 
-**LEFT — "WITH A FAN"**
-A simple room. A box fan. Red arrows looping round in a closed circle inside the room. A stick figure at a desk with sweat marks. Thermometer: **81°**. Label: *"moves the hot air around"*
+**LEFT — "BEFORE"**
+A room, a desk, a stick figure hunched over a laptop: sweat running down the face, shirt sticking, fanning themselves with a sheet of paper. A drawn sun blazing in the window. At the floor, a plain vent with **two short, limp blue arrows** barely making it out. Thermometer: **81°**. Label: *"barely any air coming out"*
 
-**RIGHT — "WITH THE VENT"**
-The same room. The fan pushed into the corner with a line through it. At the floor, the vent, with blue arrows coming **in** from a duct drawn below the floor. Same stick figure at the desk, relaxed. Thermometer: **74°**. Label: *"brings cold air in"*
+**RIGHT — "AFTER"**
+The same room, same desk, same sun. The figure sits upright, typing away, relaxed, small smile, iced drink. At the floor, our vent with **long, strong blue arrows sweeping out and curling across the whole room** to the desk. Thermometer: **74°**. Label: *"cold air actually reaching the room"*
 
-**Across the bottom:** *"One moves the air. One brings new air in."*
+**Across the bottom:** *"Same room. Same afternoon. You just stay."*
 
 ### Primary text
 
-A fan and this do opposite things.
+Left side is most afternoons in that room. Sun on the window, laptop getting hot on your legs, and eventually you give up and take the whole setup downstairs.
 
-A fan picks up the air that's already in the room and moves it around. In a hot room, that air is hot. It feels better on your skin while you sit in front of it. The room stays the same temperature.
+Right side is the same room at the same time of day. You just stay.
 
-This goes where your vent cover is now — it replaces it, same two screws. Your AC is already making cold air. The room at the end of the duct run just doesn't get much of it. This pulls it in.
+The difference is the vent. Your AC is already making cold air, but by the time it reaches the last room on the duct run it's a trickle. Put your hand on it and you'll feel how little is coming out.
 
-The difference is being back at the desk at four in the afternoon instead of carrying your laptop downstairs.
+This replaces the cover on that vent, same two screws, and pulls the cold air the rest of the way into the room.
 
-$89.99, and it's only getting hotter.
+No more switching rooms because of the heat. $89.99, and it's only getting hotter.
 
-**Headline:** *One moves air. One brings it in.*
+**Headline:** *Same room. You just stay.*
 **Description:** *$89.99. 60-day returns.*
 
 ---
