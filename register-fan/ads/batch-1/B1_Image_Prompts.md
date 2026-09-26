@@ -308,7 +308,7 @@ Headline → *NO MORE SWITCHING ROOMS BECAUSE OF THE COLD.* · edit: flat grey 4
 │  ┌─────────────────────┐  │  ┌─────────────────────┐  │
 │  │ [window ☀ red]  81° │  │  │ [window ☀ red]  74° │  │  ← thermometer: red / blue
 │  │                     │  │  │                     │  │
-│  │   😣 sweating figure │  │  │   🙂 relaxed figure │  │
+│  │ ▭ vent (small, high)│  │  │   🙂 relaxed figure │  │
 │  │   at desk, laptop   │  │  │   at desk, iced drink│  │
 │  │  ▭ vent  ↑↑ (tiny)  │  │  │ ▭◉◉▣ ⇗⇗⇗ (long,   │  │
 │  │                     │  │  │   curling to desk)  │  │
@@ -331,7 +331,12 @@ Headline → *NO MORE SWITCHING ROOMS BECAUSE OF THE COLD.* · edit: flat grey 4
 ## Prompt
 
 ```
-[Attach REF-1 so the drawn vent can resemble the real product.]
+[Attach REF-1 (the product photo) so the drawn vent resembles the real product.
+Use it ONLY for the vent's shape. Do not copy its white background, its layout, its
+remote, or render it as a photo — on the board it is a marker sketch.]
+
+NOTE — this prompt now matches the APPROVED C3 generation (2026-09-26): both vents are
+drawn high on the room's back wall, with arrows coming DOWN toward the desk.
 
 A candid smartphone photograph of a real white dry-erase whiteboard hanging on the wall
 of an ordinary home office, with a hand-drawn marker drawing on it.
@@ -370,9 +375,9 @@ LEFT HALF:
   drops flying off the head, two short wavy "heat" lines rising from the shoulders, and
   one hand holding a sheet of paper up and fanning the face (two little motion arcs
   beside the paper).
-- On the floor line under the desk, a plain rectangle representing an ordinary vent with
-  four short horizontal slat lines inside it. Coming out of it: just TWO tiny, short,
-  limp blue arrows that droop sideways and stop after about 2 inches — obviously weak.
+- High on the back wall, near the top right of the room, a plain rectangle representing
+  an ordinary vent with four short horizontal slat lines inside it. Coming out of it,
+  pointing down: just THREE short, limp blue arrows that droop sideways and stop after about 2 inches — obviously weak.
 - Below the room, a handwritten black label with a short arrow pointing at the vent:
   "barely any air coming out"
 
@@ -385,15 +390,16 @@ RIGHT HALF:
 - The SAME person at the SAME desk, now clearly COMFORTABLE: sitting upright, a small
   smile, eyebrows relaxed, both hands on the laptop keyboard (typing), no sweat drops, a
   tall glass on the desk with two little blue ice cubes drawn in it.
-- On the floor line under the desk, a simple marker sketch of OUR vent cover based on the
+- High on the back wall, drawn LARGER than the left vent, a marker sketch of OUR vent
+  cover based on the
   attached reference photos: a longer rectangle with the same general proportions as the
   reference, vertical bar lines across its left part, two circles with fan blades drawn behind
   the bars, and a small filled dark rectangle at the right-hand end for the display panel
-  with a few dots for the buttons (matching
+  with a few dots for the buttons, and a small blue "74" written inside the display (matching
   the display's position on the reference). It is a quick sketch, not a detailed drawing,
   but anyone who has seen the product would recognise it.
-- Coming out of it: FIVE long, strong, bold blue arrows sweeping up and out of the vent,
-  curving across the whole room; three of them curl up to reach the person at the desk.
+- Coming out of it: FOUR long, strong, bold blue arrows sweeping down and out across the
+  room in a fan shape, two of them ending right at the person at the desk.
   These arrows are at least three times longer and bolder than the left side's arrows.
 - Below the room, a handwritten black label with a short arrow pointing at the blue
   arrows: "cold air actually reaching the room"
