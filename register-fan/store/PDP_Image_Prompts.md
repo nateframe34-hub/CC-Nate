@@ -1,330 +1,1057 @@
-# PDP Image Prompts — Nano Banana Pro 2 · FULL SPEC
+# PDP Image Prompts — Nano Banana Pro 2 · ONE-PASS FULL SPEC
 
-**Rebuilt 2026-09-26 (founder: maximum detail, and real product reference photos supplied).**
+**Rebuilt 2026-09-26** to the same standard as the B1C2 ad prompt: every prompt is **self-contained and one-pass**. Attach the reference, paste the whole box, done. No edits, no compositing.
+
 For `theme/sections/evenroom-pdp-sa1.liquid`.
 
+## How to use
+
+- **REF-1** = the supplied product photo (white unit on white, with remote). **Crop the remote out** before attaching for every image except 1f.
+- The product description is **written into every prompt in full** so it survives the model ignoring the photo.
+- **The display always reads 72°F** (summer). The cold versions use 70°F.
+- **Every in-room image uses the same room** (walls `#D9D2C5`, white baseboards, beige carpet `#C9B9A0`) so the gallery reads as one house.
+- Real prop branding (tape measure, screwdriver, laptop) stays. Never write "unbranded".
+- **It's a floor register.** In a room it sits in the floor, never the wall.
+
+### Gallery order and generation priority
+
+| Slot | Image | Priority |
+|---|---|---|
+| Gallery 1 | **1c — installed in the floor** | Generate first |
+| Gallery 2 | 1a — on white | First |
+| Gallery 3 | 1f — what's in the box (unit + remote) | Second |
+| Gallery 4 | 1b — display close-up | Second |
+| Gallery 5 | 1d — in hand | Second |
+| Gallery 6 | 1e — bronze *(only if stocked)* | If needed |
+| §5b `out_image` | 5b — the result: that room at 4pm | **First** |
+| §7 `fit_image` | 7 — measuring the opening | **First** |
+| §8 | 8.1–8.3 — install steps | Optional |
+
+⚠️ **Verify with the supplier:** where the power cord leaves the unit. The prompts assume it runs from beneath the right-hand end of the flange. Change that line if the real unit differs.
+
 ---
 
-## 0. Before generating anything
+## 1c. Installed in the floor ⭐ gallery image 1
 
-### 0a. Attach the product reference photos to every prompt that shows the product
+**Attach:** REF-1 (remote cropped out)
 
-| Ref | What it is |
+```
+Create ONE photograph: a candid, realistic phone photo of the vent cover described
+below, installed in the carpeted floor of an ordinary North American home, exactly where
+an old floor register used to be. This is the first image on the product page. It must
+answer "what will this look like in my house?" at a glance.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. THE ROOM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Walls: flat warm greige paint (#D9D2C5), a couple of faint scuffs.
+- Baseboards: white painted MDF (#F2F0EB), about 3.5 inches tall, a thin dust line on
+  the top edge.
+- Floor: beige low-pile wall-to-wall carpet (#C9B9A0) with visible vacuum tracks.
+- Outlets: standard white US duplex outlets in white plates.
+- The vent sits in the carpet about 8 inches out from the baseboard of the wall, running
+  parallel to it. The carpet is cut and tucked neatly around the vent's flange; the rim
+  sits just proud of the carpet pile.
+- In frame behind it: the bottom 30% of the wall, the baseboard, and one outlet on the
+  baseboard about 18 inches to the right of the vent.
+- At the right edge of the frame, one metal leg of a white desk and one black caster
+  wheel of an office chair on the carpet — just enough to read as a lived-in office.
+  Nothing else in the room is visible.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. THE PRODUCT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Use the attached reference image ONLY for the product's exact appearance.
+Do NOT include the remote control from the reference. Do not copy the reference's layout
+or background.
+
+THE PRODUCT (match the reference exactly):
+- A flat rectangular floor vent cover (register) with two built-in fans. About 2.4 times
+  as wide as it is tall. One piece of moulded plastic with a thin raised rim and softly
+  rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
+- LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
+  crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
+  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
+  and a small round hub.
+- RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
+  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  digital readout showing exactly "72" followed by a small, clearly formed "°F".
+  Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
+  with tiny labels.
+- Right of the display: two narrow vertical strips of small square black buttons with
+  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
+  "−").
+- One round countersunk screw hole at each short end, centred vertically: left of the
+  grille, right of the buttons.
+- No logo, no brand name, no other text on the product. Exactly two fans.
+- THE DISPLAY READS "72°F". Never "188", never garbled, never a stray superscript.
+- The vent is ON: the display is lit and reads "72°F".
+- A thin white power cord emerges from beneath the right-hand end of the flange, runs
+  across the carpet to the baseboard, then along it to the outlet, and is plugged in.
+  It lies naturally — a gentle curve, not taped down, not hidden, not perfectly straight.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. CAMERA AND COMPOSITION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Shot as if someone crouched in the room and took a phone photo looking down at it:
+  camera about 3 feet off the floor, 3 feet back, angled down about 45 degrees.
+- ~26 mm equivalent lens, f/1.8. The vent in the middle third of the frame, slightly
+  left of centre, about 55% of the frame width, the whole faceplate visible with the
+  display end nearer the camera. The display "72°F" is sharp and legible.
+- Horizon (baseboard line) very slightly tilted, about 1 degree.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. LIGHT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Ordinary afternoon daylight from a window out of frame to the left, soft and slightly
+  warm (about 5000 K), a gentle falloff across the carpet and wall. The display glows
+  softly. No flash, no studio lighting.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. RENDERING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Realistic phone-camera quality (like an iPhone main camera): mild luminance grain in
+shadows, natural slightly warm white balance, very slight lens distortion at the edges.
+No HDR look, no cinematic grade, no vignette, no bokeh balls, no lens flare.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. DO NOT INCLUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- People, hands, pets, plants, fans, space heaters, an old register lying around.
+- The remote.
+- The vent in the wall. It is IN THE FLOOR.
+- Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow or any effect showing
+  air or temperature. Any text, caption, logo, watermark, price, badge, sticker, arrow,
+  border or frame added to the image.
+- Any logo or text on the product that isn't described above. Horizontal slats, more or
+  fewer than two fans, the display on the left side, a product colour other than the one
+  specified.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. FINAL CHECK BEFORE OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The vent is in the carpeted floor, white, vertical bars, two fans, display on the right reading "72°F". The cord runs visibly to a plugged-in outlet. No people, no remote, no effects, no text.
+
+Aspect ratio 1:1, 1400 x 1400.
+```
+
+**If it misses (re-run, don't edit):**
+
+| Miss | Add to the end and re-run |
 |---|---|
-| **REF-1** | The only supplied reference: the product straight on, on white, with its remote. White and bronze exist; the bronze look is carried by the text description |
+| Display shows 188 / garbled °F | *"The display digits are the most important detail: exactly 72 then a clean °F, large and legible."* |
+| Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
+| Remote appears when it shouldn't | *"Crop the remote out of the reference before attaching, then re-run."* |
+| Vent appears in the wall | *"The vent is set flush into the carpeted floor, 8 inches out from the baseboard, viewed from above."* |
 
-Paste this block into every prompt marked **[PRODUCT LOCK]**:
+---
+
+## 1a. Product on white · gallery 2
+
+**Attach:** REF-1 (remote cropped out)
 
 ```
-PRODUCT LOCK — one reference image is attached (REF-1: the product on white, with its
-remote). Use it ONLY for the product's appearance. Do not copy its white background,
-its layout, or the remote unless this prompt asks for the remote.
+Create ONE clean e-commerce main product image: the vent cover described below, alone,
+on a pure white background, photographed like a professional Amazon main image.
 
-The product, described precisely so it survives any angle:
-- A flat rectangular floor register cover, about 2.4 times as wide as it is tall
-  (roughly 12 x 5 inches overall for the 4x10 size), with a thin raised rim and softly
-  rounded corners. One piece of moulded plastic.
-- FINISH: [WHITE] matte bright white, like a white appliance, #F4F4F2.
-  [BRONZE] dark oil-rubbed bronze, a deep brown-black with a faint warm metallic sheen,
-  around #3B2F28. Not copper, not rose-gold, not pink, not shiny brass.
-- LEFT ~70% OF THE FACE: a rectangular grille opening with rounded inner corners, filled
-  by 18 thin, evenly spaced VERTICAL bars (they run top to bottom, not side to side),
-  the same colour as the faceplate. Behind the bars, two identical round fans side by
-  side, each with a dark charcoal-grey circular shroud and a black 5-blade impeller with
-  broad curved blades and a small round hub.
-- RIGHT ~25% OF THE FACE: a vertical black glossy display panel, taller than it is wide.
-  Top of the panel: two small white icons with tiny labels. Middle: a large white
-  seven-segment digital readout of the temperature followed by a small "°F". Bottom:
-  four small white icons in a 2x2 grid (a flame, a snowflake, a fan, a crescent moon)
-  with tiny labels under each.
-- To the right of the display, two narrow vertical strips of small square black
-  buttons with white symbols: an upper strip of 3 (power, and two mode buttons) and a
-  lower strip of 3 (a mode button, "+", "−").
-- Two round countersunk screw holes, one at each short end of the faceplate, centred
-  vertically — left of the grille and right of the buttons.
-- No logo, no brand name and no other text on the faceplate.
-- REMOTE (only when asked for): a slim light-grey rounded-rectangle remote with a red
-  power symbol top-left, a pill-shaped +/− temperature rocker in the middle, and small
-  grey icon buttons (flame, leaf, snowflake, fan, moon) with tiny labels.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. BACKGROUND
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Pure seamless white (#FFFFFF) edge to edge. No horizon line, no gradient, no texture,
+  no props, no text.
 
-Match this exactly. Do not redesign, add fans, change the bar direction, move the
-display, add a logo, or change the colour. The display must read exactly the number
-given in this prompt (e.g. "72°F"), not "188".
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. THE PRODUCT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Use the attached reference image ONLY for the product's exact appearance.
+Do NOT include the remote control from the reference. Do not copy the reference's layout
+or background.
+
+THE PRODUCT (match the reference exactly):
+- A flat rectangular floor vent cover (register) with two built-in fans. About 2.4 times
+  as wide as it is tall. One piece of moulded plastic with a thin raised rim and softly
+  rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
+- LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
+  crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
+  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
+  and a small round hub.
+- RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
+  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  digital readout showing exactly "72" followed by a small, clearly formed "°F".
+  Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
+  with tiny labels.
+- Right of the display: two narrow vertical strips of small square black buttons with
+  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
+  "−").
+- One round countersunk screw hole at each short end, centred vertically: left of the
+  grille, right of the buttons.
+- No logo, no brand name, no other text on the product. Exactly two fans.
+- THE DISPLAY READS "72°F". Never "188", never garbled, never a stray superscript.
+- The display is lit and reads "72°F".
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. ANGLE, SIZE, POSITION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Seen from the front and slightly above: turned about 15 degrees to the left (display
+  end nearer the camera) and tilted back about 20 degrees, as if lying on a white table
+  photographed from a low front angle. The whole faceplate visible: every vertical bar,
+  both fans, the full display. A thin sliver of the housing depth shows along the
+  bottom edge and the right end.
+- Centred, filling about 80% of the frame width, even white space all round.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. LIGHT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Bright, soft, even studio light from above and front-left (large softbox, 5500 K),
+  white fill from the right. The white plastic crisp, gentle grey shading on the rim and
+  inside the grille, fans dark behind the white bars, the black display glossy with one
+  soft highlight that does not touch the digits.
+- A faint mirror reflection beneath the product, about 15% opacity, fading within
+  about 50 px. A soft grey contact shadow where it meets the surface.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. RENDERING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Tack sharp everywhere (90 mm lens, f/11). Realistic matte plastic with fine moulding
+  texture and seams. Not a cartoon, not a glossy 3D render, not toy-like.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. DO NOT INCLUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- The remote, hands, props, any background other than white.
+- Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow or any effect showing
+  air or temperature. Any text, caption, logo, watermark, price, badge, sticker, arrow,
+  border or frame added to the image.
+- Any logo or text on the product that isn't described above. Horizontal slats, more or
+  fewer than two fans, the display on the left side, a product colour other than the one
+  specified.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. FINAL CHECK BEFORE OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Pure white background. One white vent cover, vertical bars, two fans, display on the right reading "72°F". No remote, no text, no effects.
+
+Aspect ratio 1:1, 1400 x 1400.
 ```
 
-### 0b. Tokens
+**If it misses (re-run, don't edit):**
 
-| | |
+| Miss | Add to the end and re-run |
 |---|---|
-| Page base / seamless background | **`#FAF7F2`** warm off-white |
-| Accent | `#B4553A` terracotta. Never inside a photo, page UI only |
-| Text | `#1C1A17` |
-| Display reading, all images | **`72°`** (summer). Cold versions `70°` |
-| Room palette, all in-situ images | Walls warm greige `#D9D2C5` · baseboards white `#F2F0EB` · carpet beige `#C9B9A0` |
-
-**Consistency matters on a product page.** Every in-room image uses the **same room palette, same carpet, same baseboard and same display reading**, so the gallery reads as one house.
-
-### 0c. Standing rules
-- Real prop branding stays (tape measure, screwdriver, laptop). Never write "unbranded" or "no logos".
-- Photos must look like real photographs: grain, true colour, small imperfections.
-- No text overlays, badges or graphics inside any photo. The page adds all type.
-
-### 0c-2. What the reference photos showed (2026-09-26)
-
-- **It's a floor register.** Vertical grille bars, two 5-blade fans, black display panel and two button strips on the right, screw holes at both ends.
-- (Previously noted: Every in-room image shows it set flush in the **floor**, not the wall.
-- The display with its buttons is at the right-hand end, and it comes with a remote.
-- **Listing-style references leak their style.** When the references came in, one generation copied their living room, the air swirls, the flying leaves and the hand holding the remote. Every product prompt below therefore ends with the ANTI-LISTING line:
-
-```
-Use the reference images ONLY for the product's appearance. Do not copy their
-background, room, lighting, props, people, hands, remote, pets, plants, air-flow
-swirls, wind lines, leaves or any graphic effects.
-```
-
-### 0d. Gallery order
-**1c (installed) → 1a (on white) → 1b (display) → 1d (in hand) → 1e (bronze, if stocked).**
+| Display shows 188 / garbled °F | *"The display digits are the most important detail: exactly 72 then a clean °F, large and legible."* |
+| Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
+| Remote appears when it shouldn't | *"Crop the remote out of the reference before attaching, then re-run."* |
 
 ---
 
-## 1a. Product on white *(gallery 2)* · [PRODUCT LOCK]
+## 1f. What's in the box · gallery 3
+
+**Attach:** REF-1 **with the remote left in**
 
 ```
-[Attach REF-1. Paste PRODUCT LOCK and the ANTI-LISTING line.]
+Create ONE clean e-commerce product image showing everything the customer receives:
+the vent cover and its remote, together on a pure white background.
 
-A clean, honest e-commerce product photograph of the vent cover from the reference
-images, alone, on a seamless warm off-white background (#FAF7F2) that runs smoothly
-from floor to back with no visible horizon line.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. BACKGROUND
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Pure seamless white (#FFFFFF) edge to edge. No text, no props, no packaging.
 
-ANGLE: Faceplate toward camera, turned about 20 degrees to the left so the right-hand
-end (the display end) and a sliver of the housing depth are visible. Camera at the same
-height as the product, level, no tilt. Product centred, occupying about 70% of the frame
-width, with even space around it.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. THE PRODUCTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Use the attached reference image ONLY for the product's exact appearance.
+Include the remote exactly as described below. Do not copy the reference's layout
+or background.
 
-DISPLAY: Lit, reading "72°F" in the digit style shown on REF-1, crisp and legible.
+THE PRODUCT (match the reference exactly):
+- A flat rectangular floor vent cover (register) with two built-in fans. About 2.4 times
+  as wide as it is tall. One piece of moulded plastic with a thin raised rim and softly
+  rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
+- LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
+  crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
+  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
+  and a small round hub.
+- RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
+  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  digital readout showing exactly "72" followed by a small, clearly formed "°F".
+  Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
+  with tiny labels.
+- Right of the display: two narrow vertical strips of small square black buttons with
+  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
+  "−").
+- One round countersunk screw hole at each short end, centred vertically: left of the
+  grille, right of the buttons.
+- No logo, no brand name, no other text on the product. Exactly two fans.
+- THE DISPLAY READS "72°F". Never "188", never garbled, never a stray superscript.
+- THE REMOTE (include it, beside the vent): a slim, light-grey (#D9DADB) rounded-
+  rectangle remote about as long as the vent is tall-and-a-half, matte plastic. Top
+  left: a red power symbol with "ON/OFF" beneath. Top right: a bulb icon, "LIGHT". Centre:
+  a tall pill-shaped rocker with "+" above and "−" below and "TEMP" beside it. Left and
+  right of the rocker: a padlock icon ("LOCK") and a signal-bars icon ("WIND"). Lower
+  rows: flame ("WINTER"), leaf ("IONIZER"), snowflake ("SUMMER"), then fan ("FAN") and
+  crescent moon ("SLEEP"). Icons dark grey, labels tiny.
+- The vent's display is lit and reads "72°F".
 
-LIGHT: One large soft source from the upper left (like a big north-facing window,
-5500 K), a white fill from the right so shadows are soft and light grey. A soft, natural
-contact shadow directly under the product, fading within an inch. No hard speculars, no
-rim light, no gradient backdrop, no reflection on the floor.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. ARRANGEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- The vent lies flat, seen from the front and slightly above (tilted back about 25
+  degrees), occupying the left and centre of the frame, about 70% of the frame width,
+  sitting slightly above the vertical centre.
+- The remote lies flat in the lower right, angled about 15 degrees clockwise, its top
+  end slightly overlapping the space below the vent's right end, NOT touching the vent.
+  About 22% of the frame width. Its buttons and labels face the camera and are legible.
+- Balanced white space around both.
 
-DETAIL: True-to-reference colour and finish. Fine surface texture, moulding seams,
-screw holes and the slight satin sheen of the plastic are visible — this is a real object
-photographed plainly, not a glossy 3D render.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. LIGHT AND RENDERING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Bright, soft, even studio light from above and front-left (5500 K). Soft grey contact
+  shadows under both items. No reflections.
+- Tack sharp, realistic matte plastics. Not a render.
 
-CAMERA: 90 mm lens equivalent, f/11, everything tack sharp, no depth-of-field blur.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. DO NOT INCLUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Hands, packaging, manuals, screws, cables, extra accessories not described.
+- Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow or any effect showing
+  air or temperature. Any text, caption, logo, watermark, price, badge, sticker, arrow,
+  border or frame added to the image.
+- Any logo or text on the product that isn't described above. Horizontal slats, more or
+  fewer than two fans, the display on the left side, a product colour other than the one
+  specified.
 
-EXCLUDE: props, hands, text, captions, logos not present on the reference, watermarks,
-studio equipment reflections, colour cast.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. FINAL CHECK BEFORE OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Exactly two items: the white vent (display "72°F") and the light-grey remote. Pure white background. No text, no effects.
 
 Aspect ratio 1:1, 1400 x 1400.
 ```
 
-## 1b. The display, close *(gallery 3)* · [PRODUCT LOCK]
+**If it misses (re-run, don't edit):**
 
-```
-[Attach REF-1. Paste PRODUCT LOCK and the ANTI-LISTING line.]
-
-A tight macro photograph of the display / control end of the vent cover from the
-reference images, filling most of the frame. The display is lit and reads "72°F", digits
-crisp and exactly in the style on REF-1. Any icons or touch buttons are exactly as on
-REF-1, in the same positions.
-
-The adjacent faceplate and the first two or three grille slats are visible at the left
-edge of the frame, falling gently out of focus. Camera looking at the display straight
-on, rotated about 10 degrees for a little depth.
-
-LIGHT: Soft, even, diffused daylight (5500 K) from the upper left. The display's own glow
-visible but not blooming. A realistic tiny dust speck or two on the display surface and a
-barely-visible fingerprint smudge at one corner — an object that exists and gets touched.
-
-CAMERA: 100 mm macro, f/4, display plane tack sharp, background falling off smoothly.
-Background: the same warm off-white #FAF7F2, out of focus.
-
-EXCLUDE: text overlays, logos not on the reference, studio reflections, colour cast.
-
-Aspect ratio 1:1, 1400 x 1400.
-```
-
-## 1c. Installed in the wall ⭐ *gallery image 1 — the most important one* · [PRODUCT LOCK]
-
-```
-[Attach REF-1. Paste PRODUCT LOCK and the ANTI-LISTING line.]
-
-A candid photograph of the vent cover from the reference images installed in the FLOOR
-of an ordinary North American home, exactly where an old floor register would be: set
-into beige low-pile carpet (#C9B9A0) about 8 inches out from a white painted baseboard
-(#F2F0EB), the carpet tucked neatly around its flange, a visible vacuum line nearby.
-Above it, the lower part of a flat warm greige wall (#D9D2C5) with a couple of faint
-scuffs.
-
-DISPLAY: Lit, reading "72°F", legible.
-
-THE CORD: A thin white cord leaves the unit at the exit point shown on the references,
-runs across the carpet to the baseboard, and along it about 12 inches to a standard white
-US duplex outlet on the baseboard, plugged in. It lies naturally and is not hidden or
-perfectly tidied. The plug is visible.
-
-CONTEXT: The right edge of the frame shows one wooden leg of a desk and the tip of a
-chair's wheel on the carpet, so it reads as a lived-in room. Nothing else.
-
-LIGHT: Ordinary afternoon daylight from a window out of frame to the left, soft and
-slightly warm (about 5000 K), with a gentle gradient across the wall. No flash.
-
-CAMERA: Shot as if on a phone at standing-to-crouching height (about 3 feet), looking
-slightly down at the floor, ~26 mm equivalent, f/1.8. The unit sits in the middle third,
-slightly left of centre. Realistic phone-camera quality: mild grain, natural white
-balance, very slight tilt. No HDR, no cinematic grade.
-
-EXCLUDE: people, text overlays, captions, badges, logos not on the reference, a second
-vent, any fan in the room.
-
-Aspect ratio 1:1, 1400 x 1400.
-```
-
-## 1d. In hand, for scale *(gallery 4)* · [PRODUCT LOCK]
-
-```
-[Attach REF-1. Paste PRODUCT LOCK and the ANTI-LISTING line.]
-
-An adult's hand holding the vent cover from the reference images by its left end, the
-faceplate toward camera, at chest height in an ordinary hallway. Four fingers wrap round
-the back of the housing, the thumb rests on the front of the faceplate near its corner,
-so the size is instantly readable against the hand. Ordinary adult hand: short
-unpolished nails, natural skin texture and knuckle creases, no rings, no manicure, a
-plain grey t-shirt sleeve cuff just visible at the wrist.
-
-DISPLAY: Lit, reading "72°F", legible.
-
-BACKGROUND: A hallway with warm greige walls (#D9D2C5), a white door frame and part of a
-framed picture, all softly out of focus.
-
-LIGHT: Soft natural daylight from a window out of frame to the right, 5000 K.
-
-CAMERA: Phone, portrait-style ~50 mm equivalent, f/2.0. Product and hand sharp,
-background blurred. Mild grain, slight handheld imperfection, natural colour.
-
-EXCLUDE: face, text, overlays, logos not on the reference, jewellery styling.
-
-Aspect ratio 1:1, 1400 x 1400.
-```
-
-## 1e. Bronze colourway *(only if bronze is stocked at launch)* · [PRODUCT LOCK]
-
-Use the 1a prompt exactly, attach REF-1 (white), and add: *"Render the product in the [BRONZE] finish from the PRODUCT LOCK — dark oil-rubbed bronze, deep brown-black with a faint warm sheen. The white in the reference is the wrong colour for this image; copy only the shape."*
+| Miss | Add to the end and re-run |
+|---|---|
+| Display shows 188 / garbled °F | *"The display digits are the most important detail: exactly 72 then a clean °F, large and legible."* |
+| Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
+| Remote missing or wrong shape | *"Include the light-grey remote from the reference in the lower right, buttons facing the camera."* |
 
 ---
 
-## 5b. The result photo — `out_image` · [PRODUCT LOCK]
+## 1b. The display, close · gallery 4
 
-**Job:** the section right after the hand test, captioned *"That room, at 4pm."* It shows the room back in use.
+**Attach:** REF-1 (remote cropped out)
 
 ```
-[Attach REF-1. Paste PRODUCT LOCK and the ANTI-LISTING line.]
+Create ONE macro product photograph of the display and control end of the vent cover
+described below, filling most of the frame. It shows the customer exactly how they set
+the room's temperature.
 
-A candid, unposed smartphone photograph of a small upstairs home office in an ordinary
-North American suburban house at about 4:00 pm on a very hot, cloudless day in late
-July. Walls flat warm greige (#D9D2C5) with light scuffs, white baseboards (#F2F0EB),
-beige low-pile carpet (#C9B9A0).
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. THE PRODUCT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Use the attached reference image ONLY for the product's exact appearance.
+Do NOT include the remote control from the reference. Do not copy the reference's layout
+or background.
 
-LIGHT: Hard, low, golden late-afternoon sun (about 4500 K) through a west-facing window at
-the left, white mini-blinds raised halfway, casting bright slatted stripes across the
-desk and carpet. Obviously the hottest part of the day.
+THE PRODUCT (match the reference exactly):
+- A flat rectangular floor vent cover (register) with two built-in fans. About 2.4 times
+  as wide as it is tall. One piece of moulded plastic with a thin raised rim and softly
+  rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
+- LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
+  crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
+  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
+  and a small round hub.
+- RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
+  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  digital readout showing exactly "72" followed by a small, clearly formed "°F".
+  Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
+  with tiny labels.
+- Right of the display: two narrow vertical strips of small square black buttons with
+  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
+  "−").
+- One round countersunk screw hole at each short end, centred vertically: left of the
+  grille, right of the buttons.
+- No logo, no brand name, no other text on the product. Exactly two fans.
+- THE DISPLAY READS "72°F". Never "188", never garbled, never a stray superscript.
 
-PERSON: A woman in her mid-40s seen from behind and slightly to her left (face not
-visible), sitting at a plain white desk against the right wall, typing on an open silver
-laptop (manufacturer logo visible). Heather-grey crew-neck t-shirt, navy shorts,
-shoulder-length brown hair in a claw clip. One bare foot tucked up on her black mesh
-chair. Relaxed, settled, comfortable. No sweat, no fanning.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. FRAMING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Framed on the right-hand end of the vent: the black display panel fills the centre
+  of the frame, about 45% of the frame height; the two button strips to its right are
+  fully in frame; on the left edge, the last four or five white vertical grille bars and
+  the edge of one fan, softly out of focus.
+- Camera looking at the display almost straight on, rotated about 10 degrees, slightly
+  above.
+- The display lit, reading "72°F" in large white seven-segment digits, razor sharp. The
+  four small icons (flame, snowflake, fan, moon) and the two top icons crisp enough to
+  recognise.
 
-DESK: Tall glass of iced water with visible ice and light condensation on a cork coaster,
-phone face-down, mug of pens, yellow sticky note on the laptop bezel, cable trailing off
-the back. Cardigan over the chair back.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. LIGHT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Soft, even, diffused daylight (5500 K) from the upper left. The display's glow visible
+  but not blooming. One soft reflection on the glossy panel at the top edge, clear of
+  the digits.
+- Real-world touches: one or two tiny dust specks on the panel and a barely visible
+  fingerprint smudge at its lower corner.
 
-ROOM: The white six-panel door behind her stands wide open to the hallway. No fan
-anywhere in the room.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. RENDERING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- 100 mm macro, f/4: the display plane tack sharp, the grille falling off smoothly.
+  Background behind the product: pure white (#FFFFFF), out of focus.
 
-THE PRODUCT: In the carpet under the desk, near the right-hand wall, the vent cover from the
-reference images set flush in the floor, display lit reading "72°F". Small in
-frame (about 8% of image width), in the natural shadow under the desk, recognisable but
-not the subject. Its thin white cord runs along the baseboard to an outlet.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. DO NOT INCLUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Hands, the remote.
+- Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow or any effect showing
+  air or temperature. Any text, caption, logo, watermark, price, badge, sticker, arrow,
+  border or frame added to the image.
+- Any logo or text on the product that isn't described above. Horizontal slats, more or
+  fewer than two fans, the display on the left side, a product colour other than the one
+  specified.
 
-CAMERA: From the doorway at standing height (about 5 feet), angled slightly down and to
-the right, ~24 mm equivalent, f/1.8, handheld, horizon tilted about 1 degree. Mild grain,
-slight highlight clipping in the sun stripes, natural warm white balance. No HDR, no
-cinematic grade, no vignette.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. FINAL CHECK BEFORE OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The display fills the centre and reads "72°F" sharply; both button strips visible; white grille bars soft at the left edge. No text overlays, no effects.
 
-EXCLUDE: her face, sweat or discomfort, any fan, text, captions, overlays, logos not on
-the reference, magazine styling.
+Aspect ratio 1:1, 1400 x 1400.
+```
+
+**If it misses (re-run, don't edit):**
+
+| Miss | Add to the end and re-run |
+|---|---|
+| Display shows 188 / garbled °F | *"The display digits are the most important detail: exactly 72 then a clean °F, large and legible."* |
+| Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
+
+---
+
+## 1d. In hand, for scale · gallery 5
+
+**Attach:** REF-1 (remote cropped out)
+
+```
+Create ONE realistic phone photograph of an adult's hand holding the vent cover
+described below, so its size is instantly readable.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. THE PRODUCT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Use the attached reference image ONLY for the product's exact appearance.
+Do NOT include the remote control from the reference. Do not copy the reference's layout
+or background.
+
+THE PRODUCT (match the reference exactly):
+- A flat rectangular floor vent cover (register) with two built-in fans. About 2.4 times
+  as wide as it is tall. One piece of moulded plastic with a thin raised rim and softly
+  rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
+- LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
+  crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
+  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
+  and a small round hub.
+- RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
+  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  digital readout showing exactly "72" followed by a small, clearly formed "°F".
+  Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
+  with tiny labels.
+- Right of the display: two narrow vertical strips of small square black buttons with
+  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
+  "−").
+- One round countersunk screw hole at each short end, centred vertically: left of the
+  grille, right of the buttons.
+- No logo, no brand name, no other text on the product. Exactly two fans.
+- THE DISPLAY READS "72°F". Never "188", never garbled, never a stray superscript.
+- The display is lit and reads "72°F".
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. THE HAND
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- One adult hand, held at chest height, gripping the vent by its LEFT end: four
+  fingers wrapped round the back of the housing, the thumb resting on the front of the
+  faceplate beside the left screw hole. The rest of the faceplate, both fans and the
+  display unobstructed.
+- Ordinary hand: short, unpolished nails, natural skin texture and knuckle creases, no
+  rings, no manicure, a plain heather-grey t-shirt sleeve cuff just visible at the wrist.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. BACKGROUND
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- An ordinary hallway: warm greige walls (#D9D2C5), a white door frame and the corner
+  of a framed picture, all softly out of focus.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. CAMERA AND LIGHT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Phone portrait mode, ~50 mm equivalent, f/2.0. Product and hand sharp, background
+  blurred. The vent held square to the camera, turned about 10 degrees.
+- Soft natural daylight from a window out of frame to the right, about 5000 K.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. RENDERING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Realistic phone-camera quality (like an iPhone main camera): mild luminance grain in
+shadows, natural slightly warm white balance, very slight lens distortion at the edges.
+No HDR look, no cinematic grade, no vignette, no bokeh balls, no lens flare.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. DO NOT INCLUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- A face, a second hand, jewellery, the remote, tools.
+- Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow or any effect showing
+  air or temperature. Any text, caption, logo, watermark, price, badge, sticker, arrow,
+  border or frame added to the image.
+- Any logo or text on the product that isn't described above. Horizontal slats, more or
+  fewer than two fans, the display on the left side, a product colour other than the one
+  specified.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. FINAL CHECK BEFORE OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+One hand holding the white vent by its left end; display "72°F" visible; hallway blurred. No face, no remote, no text.
+
+Aspect ratio 1:1, 1400 x 1400.
+```
+
+**If it misses (re-run, don't edit):**
+
+| Miss | Add to the end and re-run |
+|---|---|
+| Display shows 188 / garbled °F | *"The display digits are the most important detail: exactly 72 then a clean °F, large and legible."* |
+| Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
+| Hand covers the display or grille | *"The hand only holds the far LEFT end; the grille, fans and display are fully visible."* |
+
+---
+
+## 1e. Bronze · gallery 6 (only if bronze is stocked)
+
+**Attach:** REF-1 (remote cropped out). The white in the reference is the wrong colour here; the prompt overrides it
+
+```
+Create ONE clean e-commerce main product image of the BRONZE version of the vent
+cover described below, alone on a pure white background. The reference photo shows the
+white version: copy only its shape and details, NOT its colour.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. BACKGROUND
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Pure seamless white (#FFFFFF). No props, no text.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. THE PRODUCT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Use the attached reference image ONLY for the product's exact appearance.
+Do NOT include the remote control from the reference. Do not copy the reference's layout
+or background.
+
+THE PRODUCT (match the reference exactly):
+- A flat rectangular floor vent cover (register) with two built-in fans. About 2.4 times
+  as wide as it is tall. One piece of moulded plastic with a thin raised rim and softly
+  rounded outer corners. FINISH: dark oil-rubbed bronze (#3B2F28): a deep brown-black with a faint warm metallic sheen, like a bronze door handle. NOT copper, NOT rose-gold, NOT pink, NOT shiny brass, NOT grey. The grille bars are the same bronze.
+- LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
+  crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
+  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
+  and a small round hub.
+- RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
+  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  digital readout showing exactly "72" followed by a small, clearly formed "°F".
+  Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
+  with tiny labels.
+- Right of the display: two narrow vertical strips of small square black buttons with
+  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
+  "−").
+- One round countersunk screw hole at each short end, centred vertically: left of the
+  grille, right of the buttons.
+- No logo, no brand name, no other text on the product. Exactly two fans.
+- THE DISPLAY READS "72°F". Never "188", never garbled, never a stray superscript.
+- The display panel and buttons are black as usual; the display is lit and reads "72°F".
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. ANGLE, SIZE, POSITION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Identical to the white main image: turned about 15 degrees left, tilted back about 20
+  degrees, centred, about 80% of frame width.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. LIGHT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Bright, soft studio light from above and front-left (5500 K). The bronze shows a soft
+  warm sheen along the rim and bars without mirror-like highlights. Faint reflection
+  beneath, soft contact shadow.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. DO NOT INCLUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- White, copper, rose-gold, pink or grey finish on the faceplate.
+- Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow or any effect showing
+  air or temperature. Any text, caption, logo, watermark, price, badge, sticker, arrow,
+  border or frame added to the image.
+- Any logo or text on the product that isn't described above. Horizontal slats, more or
+  fewer than two fans, the display on the left side, a product colour other than the one
+  specified.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. FINAL CHECK BEFORE OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The vent is dark oil-rubbed bronze, NOT white or copper; vertical bars, two fans, display reading "72°F". White background.
+
+Aspect ratio 1:1, 1400 x 1400.
+```
+
+**If it misses (re-run, don't edit):**
+
+| Miss | Add to the end and re-run |
+|---|---|
+| Display shows 188 / garbled °F | *"The display digits are the most important detail: exactly 72 then a clean °F, large and legible."* |
+| Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
+| Comes out copper/pink | *"Deep brown-black oil-rubbed bronze, like a dark bronze door handle; no copper or pink tones at all."* |
+
+---
+
+## 5b. The result — that room at 4pm · section 5b `out_image`
+
+**Attach:** REF-1 (remote cropped out)
+
+```
+Create ONE candid, realistic phone photograph of a small upstairs home office at about
+4:00 pm on a very hot, cloudless day in late July. The room has been fixed: someone is
+working in it comfortably in the hottest part of the day. This image sells the outcome;
+the vent is present but it is NOT the subject.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. THE ROOM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Roughly 10 x 11 feet, a spare bedroom converted to an office, 1990s–2000s suburban
+  North American build. Textured white ceiling.
+- Walls: flat warm greige paint (#D9D2C5), a couple of faint scuffs.
+- Baseboards: white painted MDF (#F2F0EB), about 3.5 inches tall, a thin dust line on
+  the top edge.
+- Floor: beige low-pile wall-to-wall carpet (#C9B9A0) with visible vacuum tracks.
+- Outlets: standard white US duplex outlets in white plates.
+- One west-facing window on the far wall, about 4 feet wide, white vinyl frame, white
+  horizontal mini-blinds raised halfway, a thin cord dangling. Through it: overexposed
+  pale sky and the blurred green top of a tree.
+- The white six-panel door with a brass knob stands wide open at the left edge of the
+  frame, slightly out of focus.
+- A plain white laminate desk with thin grey metal legs against the right-hand wall.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. THE PERSON
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- A woman in her mid-40s sits at the desk in a black mesh office chair, seen from behind
+  and slightly to her left (three-quarter back view). Her face is NOT visible.
+- Shoulder-length brown hair loosely held up with a tortoiseshell claw clip. Heather-grey
+  crew-neck t-shirt, navy cotton shorts, bare legs, one bare foot tucked up on the edge of
+  the chair seat, the other flat on the carpet.
+- Typing on an open silver laptop (its manufacturer logo visible on the lid); the screen
+  lit, content soft and unreadable.
+- Relaxed and settled: shoulders down, back loose, head tilted toward the screen.
+  Completely comfortable. No sweat, no damp patches, no fanning.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. THE DESK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- A tall glass of iced water with visible ice cubes and light condensation on a cork
+  coaster. Her phone face-down. A yellow legal pad with a pen. A mug holding pens.
+  A charging cable trailing off the back edge.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. THE PRODUCT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Use the attached reference image ONLY for the product's exact appearance.
+Do NOT include the remote control from the reference. Do not copy the reference's layout
+or background.
+
+THE PRODUCT (match the reference exactly):
+- A flat rectangular floor vent cover (register) with two built-in fans. About 2.4 times
+  as wide as it is tall. One piece of moulded plastic with a thin raised rim and softly
+  rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
+- LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
+  crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
+  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
+  and a small round hub.
+- RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
+  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  digital readout showing exactly "72" followed by a small, clearly formed "°F".
+  Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
+  with tiny labels.
+- Right of the display: two narrow vertical strips of small square black buttons with
+  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
+  "−").
+- One round countersunk screw hole at each short end, centred vertically: left of the
+  grille, right of the buttons.
+- No logo, no brand name, no other text on the product. Exactly two fans.
+- THE DISPLAY READS "72°F". Never "188", never garbled, never a stray superscript.
+- Set flush into the carpeted floor in front of the desk, between the chair and the
+  window wall, running parallel to the wall. Display lit, reading "72°F".
+- SMALL in frame: about 12% of the image width. Recognisable (white, vertical bars, black
+  display at the right end) but not the focus. In ordinary light, not spotlit.
+- Its thin white cord runs across the carpet to an outlet on the baseboard.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. LIGHT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Hard, low, golden late-afternoon sun (about 4500 K) through the half-raised blinds,
+  throwing bright slatted stripes across the desk, her back and shoulder, the carpet and
+  the right wall. Obviously the hottest part of the day. Stripes slightly overexposed;
+  shadows warm brown, not black. No lamps on.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. CAMERA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- From the doorway at standing height (about 5 feet), angled slightly down and to the
+  right. ~24 mm equivalent, f/1.8, handheld, horizon tilted about 1 degree. Window left of
+  centre, woman and desk in the right half, vent in the lower centre.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. RENDERING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Realistic phone-camera quality (like an iPhone main camera): mild luminance grain in
+shadows, natural slightly warm white balance, very slight lens distortion at the edges.
+No HDR look, no cinematic grade, no vignette, no bokeh balls, no lens flare.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8. DO NOT INCLUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Her face. Any fan, air conditioner or space heater. Pets, decorative plants, throws.
+  The remote. A hand in the foreground.
+- Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow or any effect showing
+  air or temperature. Any text, caption, logo, watermark, price, badge, sticker, arrow,
+  border or frame added to the image.
+- Any logo or text on the product that isn't described above. Horizontal slats, more or
+  fewer than two fans, the display on the left side, a product colour other than the one
+  specified.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. FINAL CHECK BEFORE OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Hard 4pm sun; woman comfortable at the desk, face hidden; iced water; door open; no fans; the vent small in the floor reading "72°F". No text, no effects.
 
 Aspect ratio 4:5, 1400 x 1750.
 ```
 
-**Cold version:** grey overcast 4 pm winter light, bare branches through the window, oatmeal knit sweater and wool socks, steaming mug of tea instead of iced water, display `70°`, no heater in the room.
+**If it misses (re-run, don't edit):**
+
+| Miss | Add to the end and re-run |
+|---|---|
+| Display shows 188 / garbled °F | *"The display digits are the most important detail: exactly 72 then a clean °F, large and legible."* |
+| Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
+| Vent too large / hero | *"The vent is small in the lower centre, about 12% of the image width, not the subject."* |
+| She looks hot or posed | *"She is relaxed and absorbed in her work, like a candid photo taken without her noticing."* |
 
 ---
 
-## 7. The measuring photo — `fit_image` *(no product)*
+## 7. Measuring the opening · section 7 `fit_image` (no new product in frame)
+
+**Attach:** nothing
 
 ```
-A candid overhead photograph of a person's two hands holding a yellow-cased retractable
-tape measure, blade pulled taut across the SHORT side of an open rectangular floor duct
-opening, with the old register cover removed. The tape's manufacturer name and logo on
-the yellow case are visible and natural. The blade's black printed numbers and inch
-increments are crisp and legible; the reading at the far edge of the opening is exactly
-"4" (four inches).
+Create ONE candid, realistic phone photograph looking straight down at a person
+measuring the opening of a floor vent with a tape measure. It teaches "measure the hole,
+not the cover" at a glance.
 
-THE OPENING: A 4 x 10 inch rectangular hole in the floor, the sheet-metal duct boot
-visible inside, galvanised grey with a little dust and a dark interior. Beige low-pile
-carpet (#C9B9A0) around it, with a clean rectangular indentation and a faint dust outline
-where the old cover sat.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. THE OPENING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- A rectangular 4 x 10 inch hole in beige low-pile carpet (#C9B9A0), the old cover
+  removed. Inside: the galvanised sheet-metal duct boot, grey with a little dust, dark
+  further down.
+- Around the hole, a clean rectangular indentation in the carpet and a faint dust
+  outline where the old cover sat.
 
-THE OLD COVER: A plain builder-grade white metal register with louvred slats, lying face
-up on the carpet at the lower right of the frame, slightly dusty, with its two screws
-lying loose beside it.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. THE TAPE MEASURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- A yellow-cased retractable tape measure with its manufacturer's name and logo visible
+  on the case, exactly like a real hardware-store tape.
+- The blade pulled taut across the SHORT side of the opening (the 4-inch side), its hook
+  caught on the near edge. The black printed inch numbers and increment marks crisp and
+  legible. The far edge of the opening lines up exactly with the "4" mark.
 
-HANDS: Ordinary adult hands, short nails, a grey t-shirt cuff at one wrist, gripping the
-tape at either end.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. HANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Two ordinary adult hands: one holding the case, one pressing the blade flat at the far
+  edge. Short nails, natural skin, a heather-grey t-shirt cuff at one wrist.
 
-LIGHT: Soft, even overhead room daylight, about 5000 K, no hard shadows.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. THE OLD COVER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- A plain builder-grade white metal floor register with horizontal louvres (the OLD one,
+  not our product) lying face-up on the carpet at the lower right of the frame, a little
+  dusty, two loose screws beside it.
 
-CAMERA: From directly above at chest height, looking straight down at the hands, ~24 mm
-phone equivalent. Framing slightly tilted (about 3 degrees). Mild grain, natural white
-balance.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. CAMERA AND LIGHT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- From directly above at chest height, looking straight down. ~24 mm equivalent. Frame
+  tilted about 3 degrees. The opening centred.
+- Soft, even overhead room daylight, about 5000 K, no hard shadows.
 
-EXCLUDE: faces, text overlays, captions, badges, the new product, any fan.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. RENDERING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Realistic phone-camera quality (like an iPhone main camera): mild luminance grain in
+shadows, natural slightly warm white balance, very slight lens distortion at the edges.
+No HDR look, no cinematic grade, no vignette, no bokeh balls, no lens flare.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. DO NOT INCLUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Faces. Our new vent cover or any vent with fans or a display.
+- Any text, caption, arrow, badge or overlay.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. FINAL CHECK BEFORE OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Looking straight down; the tape across the short side of the hole reading 4 at the far edge; numbers legible; the old louvred cover set aside. No new product, no text.
 
 Aspect ratio 4:3, 1600 x 1200.
 ```
 
+**If it misses (re-run, don't edit):**
+
+| Miss | Add to the end and re-run |
+|---|---|
+| Tape across the long side | *"The tape measure spans the SHORT 4-inch side of the opening, not the 10-inch side."* |
+| Numbers illegible | *"The tape's printed inch numbers are large, crisp and readable."* |
+
 ---
 
-## 8. Install steps — three matched images *(optional, no slot in the section yet)* · [PRODUCT LOCK on 2 and 3]
+## 8.1 Install step 1 — take the old cover out
 
-**These were written for a wall register. The product is a floor register, so shoot these looking down at the floor opening (same framing as §7) when they're generated.** **Identical framing, light and carpet in all three** (the 1c room: greige wall `#D9D2C5`, white baseboard, beige carpet, white US outlet 12 inches to the right). Camera fixed at about 3 feet high, straight on, ~26 mm, 5000 K window light from the left. Phone quality, mild grain. 4:3, 1600 × 1200 each.
+**Attach:** nothing
 
 ```
-STEP 1 — A hand holding a manual screwdriver with a red-and-black handle (brand markings
-visible), backing out the left screw of an old plain white builder-grade metal wall
-register with louvred slats, mounted low on the wall above the baseboard. The second
-screw is already out and resting on the baseboard ledge.
+Create ONE candid phone photograph, step 1 of 3 of installing a floor vent cover.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. THE SCENE (identical in all three steps)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Looking down at a rectangular 4 x 10 inch floor vent opening in beige low-pile carpet
+  (#C9B9A0), about 8 inches out from a white baseboard (#F2F0EB) and greige wall
+  (#D9D2C5). A white US outlet on the baseboard about 18 inches to the right.
+- Camera fixed: directly above-and-in-front at about 3 feet, angled down 60 degrees,
+  ~26 mm, the opening in the centre. Soft 5000 K daylight from a window to the left.
+- Ordinary adult hands, short nails, heather-grey t-shirt cuff.
+Realistic phone-camera quality (like an iPhone main camera): mild luminance grain in
+shadows, natural slightly warm white balance, very slight lens distortion at the edges.
+No HDR look, no cinematic grade, no vignette, no bokeh balls, no lens flare.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. THIS STEP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- An old plain builder-grade white metal floor register with horizontal louvres sits in
+  the opening. A hand holds a manual screwdriver with a red-and-black handle (brand
+  markings visible) backing out its left screw; the right screw already out, lying on the
+  carpet.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. DO NOT INCLUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Our new vent cover. Faces. Any text, numbers, arrows or overlays.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. FINAL CHECK BEFORE OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Old louvred register in the floor, screwdriver on the left screw, one screw on the carpet. No new product, no text.
+
+Aspect ratio 4:3, 1600 x 1200.
 ```
+
+**If it misses (re-run, don't edit):**
+
+| Miss | Add to the end and re-run |
+|---|---|
+
+---
+
+## 8.2 Install step 2 — drop the new one in
+
+**Attach:** REF-1 (remote cropped out)
+
 ```
-STEP 2 — [Attach REFs. Paste PRODUCT LOCK and the ANTI-LISTING line.] Same framing. The old register is gone and
-leaning against the baseboard at the left edge of the frame; the dark rectangular duct
-opening is exposed in the wall. Two hands hold the vent cover from the reference images
-and are lowering it into the opening, about an inch from flush. Display unlit.
+Create ONE candid phone photograph, step 2 of 3 of installing the floor vent cover
+described below.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. THE SCENE (identical in all three steps)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Looking down at a rectangular 4 x 10 inch floor vent opening in beige low-pile carpet
+  (#C9B9A0), about 8 inches out from a white baseboard (#F2F0EB) and greige wall
+  (#D9D2C5). A white US outlet on the baseboard about 18 inches to the right.
+- Camera fixed: directly above-and-in-front at about 3 feet, angled down 60 degrees,
+  ~26 mm, the opening in the centre. Soft 5000 K daylight from a window to the left.
+- Ordinary adult hands, short nails, heather-grey t-shirt cuff.
+Realistic phone-camera quality (like an iPhone main camera): mild luminance grain in
+shadows, natural slightly warm white balance, very slight lens distortion at the edges.
+No HDR look, no cinematic grade, no vignette, no bokeh balls, no lens flare.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. THIS STEP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- The old register lies face-up on the carpet at the left edge of the frame.
+- Two hands hold the new vent cover by its short ends and lower it into the opening; it is
+  about one inch above sitting flush. Display unlit (not plugged in yet).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. THE PRODUCT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Use the attached reference image ONLY for the product's exact appearance.
+Do NOT include the remote control from the reference. Do not copy the reference's layout
+or background.
+
+THE PRODUCT (match the reference exactly):
+- A flat rectangular floor vent cover (register) with two built-in fans. About 2.4 times
+  as wide as it is tall. One piece of moulded plastic with a thin raised rim and softly
+  rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
+- LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
+  crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
+  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
+  and a small round hub.
+- RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
+  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  digital readout showing exactly "72" followed by a small, clearly formed "°F".
+  Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
+  with tiny labels.
+- Right of the display: two narrow vertical strips of small square black buttons with
+  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
+  "−").
+- One round countersunk screw hole at each short end, centred vertically: left of the
+  grille, right of the buttons.
+- No logo, no brand name, no other text on the product. Exactly two fans.
+- THE DISPLAY READS "72°F". Never "188", never garbled, never a stray superscript.
+- (Display unlit in this step, so no reading shows.)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. DO NOT INCLUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Faces. The remote.
+- Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow or any effect showing
+  air or temperature. Any text, caption, logo, watermark, price, badge, sticker, arrow,
+  border or frame added to the image.
+- Any logo or text on the product that isn't described above. Horizontal slats, more or
+  fewer than two fans, the display on the left side, a product colour other than the one
+  specified.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. FINAL CHECK BEFORE OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Same framing as step 1; the new white vent being lowered by two hands; old cover set aside; display unlit.
+
+Aspect ratio 4:3, 1600 x 1200.
 ```
+
+**If it misses (re-run, don't edit):**
+
+| Miss | Add to the end and re-run |
+|---|---|
+| Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
+| Remote appears when it shouldn't | *"Crop the remote out of the reference before attaching, then re-run."* |
+
+---
+
+## 8.3 Install step 3 — plug it in
+
+**Attach:** REF-1 (remote cropped out)
+
 ```
-STEP 3 — [Attach REFs. Paste PRODUCT LOCK and the ANTI-LISTING line.] Same framing. The vent cover is fitted flush
-and screwed in, display lit reading "72°F". A hand is pushing its white plug into the
-outlet 12 inches to the right; the cord runs along the baseboard between them.
+Create ONE candid phone photograph, step 3 of 3 of installing the floor vent cover
+described below.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. THE SCENE (identical in all three steps)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Looking down at a rectangular 4 x 10 inch floor vent opening in beige low-pile carpet
+  (#C9B9A0), about 8 inches out from a white baseboard (#F2F0EB) and greige wall
+  (#D9D2C5). A white US outlet on the baseboard about 18 inches to the right.
+- Camera fixed: directly above-and-in-front at about 3 feet, angled down 60 degrees,
+  ~26 mm, the opening in the centre. Soft 5000 K daylight from a window to the left.
+- Ordinary adult hands, short nails, heather-grey t-shirt cuff.
+Realistic phone-camera quality (like an iPhone main camera): mild luminance grain in
+shadows, natural slightly warm white balance, very slight lens distortion at the edges.
+No HDR look, no cinematic grade, no vignette, no bokeh balls, no lens flare.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. THIS STEP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- The new vent cover sits flush in the opening, both screws in.
+- Its thin white cord runs across the carpet to the outlet on the baseboard; a hand is
+  pushing the plug into the outlet.
+- The display has just come on and reads "72°F".
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. THE PRODUCT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Use the attached reference image ONLY for the product's exact appearance.
+Do NOT include the remote control from the reference. Do not copy the reference's layout
+or background.
+
+THE PRODUCT (match the reference exactly):
+- A flat rectangular floor vent cover (register) with two built-in fans. About 2.4 times
+  as wide as it is tall. One piece of moulded plastic with a thin raised rim and softly
+  rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
+- LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
+  crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
+  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
+  and a small round hub.
+- RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
+  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  digital readout showing exactly "72" followed by a small, clearly formed "°F".
+  Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
+  with tiny labels.
+- Right of the display: two narrow vertical strips of small square black buttons with
+  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
+  "−").
+- One round countersunk screw hole at each short end, centred vertically: left of the
+  grille, right of the buttons.
+- No logo, no brand name, no other text on the product. Exactly two fans.
+- THE DISPLAY READS "72°F". Never "188", never garbled, never a stray superscript.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. DO NOT INCLUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Faces. The remote. The old register.
+- Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow or any effect showing
+  air or temperature. Any text, caption, logo, watermark, price, badge, sticker, arrow,
+  border or frame added to the image.
+- Any logo or text on the product that isn't described above. Horizontal slats, more or
+  fewer than two fans, the display on the left side, a product colour other than the one
+  specified.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. FINAL CHECK BEFORE OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Same framing as steps 1–2; the white vent flush in the floor reading "72°F"; a hand plugging the cord into the outlet.
+
+Aspect ratio 4:3, 1600 x 1200.
 ```
+
+**If it misses (re-run, don't edit):**
+
+| Miss | Add to the end and re-run |
+|---|---|
+| Display shows 188 / garbled °F | *"The display digits are the most important detail: exactly 72 then a clean °F, large and legible."* |
+| Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
+| Remote appears when it shouldn't | *"Crop the remote out of the reference before attaching, then re-run."* |
 
 ---
 
 ## Notes
 
-- **Generate first:** 1c, 1a, 5b, 7. The rest can follow.
-- **Do not generate the duct-run diagram.** It's inline SVG in the section file.
-- Check every product image against the references before uploading. Wrong fan count, a moved display or an invented logo means regenerate. **A product that looks different on arrival is a return.**
+- **Don't generate the duct-run diagram.** It's inline SVG in the section file.
+- **Check every product image against the reference before uploading.** Wrong fan count, a moved display or an invented logo means re-run. A product that looks different when it arrives becomes a return.
+- **Cold versions:** 5b uses flat grey 4 pm winter light, bare tree, oatmeal knit sweater, wool socks and a steaming mug, with no heater. Every display reads 70°F.
