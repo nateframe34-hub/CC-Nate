@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-26** — B1C2 bullets: #4 → "Its own thermostat, separate from the hallway one"; #6 (guarantee stand-in) dropped. Five bullets until a real rating exists (founder).
+
 - **2026-09-26** — B1C2 rebuilt to copy the swipe "12-HOUR SHIFT SHOES" Relatable Hook closely (founder: when using swipes, copy closely; features fine here): white bg, caps outcome headline, 6 terracotta + feature bullets, white product shot with 72°F. The edited-room/chips version is retired.
 
 - **2026-09-26** — B1C2 rebuilt as a **Relatable Hook** (swipe format, founder call): C1 room edited (fans gone, woman working comfortably), caps headline over the ceiling, three outcome chips on the photo. No product, no price in the image.

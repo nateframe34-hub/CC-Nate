@@ -165,7 +165,7 @@ Aspect ratio 4:5, 1080 x 1350.
 |---|---|
 | Plain white background, nothing else | Plain white `#FFFFFF` background |
 | Huge bold black headline at top that names the situation and the thing | **NO MORE SWITCHING ROOMS / BECAUSE OF THE HEAT.** |
-| Six bullet lines, each starting with an orange-red **+**, features written for that situation | Six **+** bullets in terracotta, features written for the hot-room situation |
+| Five bullet lines, each starting with an orange-red **+**, features written for that situation | Five **+** bullets in terracotta, features written for the hot-room situation |
 | Large product photo in the lower half, three-quarter angle, soft reflection, clean product shot | The vent cover, three-quarter angle, soft reflection, display reading 72°F |
 | No price, no logo, no button | Same |
 
@@ -180,11 +180,12 @@ The shoe ad's bullets aren't a feature list. They follow a strict sequence, and 
 | 1 | Made affordable for healthcare essential workers | **Who it's for + the price objection.** Tells the nurse "this is for you" and answers "can I afford it" first, before any feature | **A fraction of what a contractor quotes for ductwork** | Our price objection is measured against the fix they already priced or assume ($3–4k duct rebalancing, sourced). It settles "is this affordable" in their own reference point |
 | 2 | Comfortable for back-to-back 12-hour shifts | **Restates the headline situation as the core outcome.** Repeats the pain from the headline, now promised away | **Comfortable through long afternoons in the hot room** | Same move: the headline's situation (switching rooms because of heat) comes back as the outcome |
 | 3 | Arch support for plantar fasciitis foot pain | **Feature → a named pain they have.** Uses their own term for the problem | **Twin fans for vents that barely blow any air** | "Barely any air" is their words for the problem, from the research and the hand test. The fans are the feature that answers it |
-| 4 | Slip-resistant grip for fluids and slippery floor | **Feature → their specific environment.** Proves it was made for their world, not generic | **Built-in thermostat for rooms that run hotter** | Their environment is one room hotter than the rest. The thermostat is the feature built for exactly that |
+| 4 | Slip-resistant grip for fluids and slippery floor | **Feature → their specific environment.** Proves it was made for their world, not generic | **Its own thermostat, separate from the hallway one** | Their environment is one room hotter than the rest. The thermostat is the feature built for exactly that |
 | 5 | Wide toe-box for bunions/hallux valgus | **Feature → a sub-group's objection or condition.** Pulls in people who assume "won't work for me" | **Two-screw drop-in install. No contractor needed** | Our "won't work for me" is "this is a project / I'm not handy / I rent." The install answers it |
-| 6 | #1 rated for comfort & cushion | **Proof to close.** Third-party credibility so the stack ends on trust, not a claim | **60-day home trial. Keep it only if the room changes** | We have no rating yet. Risk reversal is the honest stand-in. **Swap in a real rating line once reviews exist** |
 
-**Rules the swipe follows, and so do ours:** one line each · starts with the feature or claim · ends on their problem in their words · no adjectives doing the work ("amazing", "premium") · the sequence runs who/price → outcome → three feature-for-pain lines → proof.
+**Swipe bullet 6 ("#1 rated for comfort & cushion", proof to close) is left out on purpose.** We have no rating yet, and a guarantee isn't the same job (founder call). Add a real rating line as bullet 6 once reviews exist.
+
+**Rules the swipe follows, and so do ours:** one line each · starts with the feature or claim · ends on their problem in their words · no adjectives doing the work ("amazing", "premium") · the sequence runs who/price → outcome → three feature-for-pain lines.
 
 ## Layout (1080 × 1350)
 
@@ -197,9 +198,8 @@ The shoe ad's bullets aren't a feature list. They follow a strict sequence, and 
 │  + A fraction of what a contractor… │ bullets   y 300–690
 │  + Comfortable through long afternoons…      │ 6 lines
 │  + Twin fans for vents that barely…   │
-│  + Built-in thermostat for rooms that… │
+│  + Its own thermostat, separate from… │
 │  + Two-screw drop-in install. No…       │
-│  + 60-day home trial. Keep it only if the room changes          │
 │                                          │
 │        ┌─────────────────────────┐       │ product   y 760–1260
 │        │  [vent cover, 3/4 view] │       │ ~80% canvas width
@@ -220,11 +220,10 @@ The shoe ad's bullets aren't a feature list. They follow a strict sequence, and 
 1. + A fraction of what a contractor quotes for ductwork
 2. + Comfortable through long afternoons in the hot room
 3. + Twin fans for vents that barely blow any air
-4. + Built-in thermostat for rooms that run hotter
+4. + Its own thermostat, separate from the hallway one
 5. + Two-screw drop-in install. No contractor needed
-6. + 60-day home trial. Keep it only if the room changes
 
-Each bullet is one line. If one wraps at 33 px, drop to 31 px for all six; don't break a line.
+Each bullet is one line. If one wraps at 33 px, drop to 31 px for all five; don't break a line.
 
 ## Step 1 — the product image
 
@@ -354,15 +353,14 @@ exactly as:
     "NO MORE SWITCHING ROOMS
      BECAUSE OF THE HEAT."
 
-BELOW IT: six single-line bullet points, left-aligned, each starting with a bold
+BELOW IT: five single-line bullet points, left-aligned, each starting with a bold
 terracotta (#B4553A) plus sign "+", followed by clean regular sans-serif text (Inter
 style) in dark grey #222222, about 33 px, evenly spaced:
     + A fraction of what a contractor quotes for ductwork
     + Comfortable through long afternoons in the hot room
     + Twin fans for vents that barely blow any air
-    + Built-in thermostat for rooms that run hotter
+    + Its own thermostat, separate from the hallway one
     + Two-screw drop-in install. No contractor needed
-    + 60-day home trial. Keep it only if the room changes
 
 LOWER HALF: a large, clean product photograph of the WHITE vent cover described above,
 centred, about 80% of the canvas width, turned about 30 degrees and tilted back about 20
@@ -377,13 +375,13 @@ Aspect ratio 4:5, 1080 x 1350.
 
 ## QA before using
 - [ ] Looks like the swipe ad at a glance: white, big black headline, + bullets, product below
-- [ ] Headline breaks exactly as specified; all six bullets spelled right, one line each
+- [ ] Headline breaks exactly as specified; all five bullets spelled right, one line each
 - [ ] Product matches the reference: vertical bars, 2 fans, display on the right reading **72°F** (not 188)
 - [ ] White finish, not copper, pink or grey
 - [ ] No remote, no air swirls, no room
 
 ## Cold version (hold for the pivot)
-Headline → *NO MORE SWITCHING ROOMS / BECAUSE OF THE COLD.* · bullet 2 → *+ Comfortable through long evenings in the cold room* · bullet 4 → *+ Built-in thermostat for rooms that run colder* · display → **70°F**.
+Headline → *NO MORE SWITCHING ROOMS / BECAUSE OF THE COLD.* · bullet 2 → *+ Comfortable through long evenings in the cold room* · bullet 4 unchanged · display → **70°F**.
 
 ---
 
