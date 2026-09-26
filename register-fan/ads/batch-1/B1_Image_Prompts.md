@@ -171,6 +171,21 @@ Aspect ratio 4:5, 1080 x 1350.
 
 **Earlier versions retired:** the text-band design (not a swipe format) and the edited C1 room with chips (didn't match the swipe: no product, no features).
 
+## Why the swipe uses those bullets, and ours line for line
+
+The shoe ad's bullets aren't a feature list. They follow a strict sequence, and every line is built the same way: **[feature or claim] for [a specific problem this person already names]**.
+
+| # | Swipe bullet | Job it does | Our bullet | Why it maps |
+|---|---|---|---|---|
+| 1 | Made affordable for healthcare essential workers | **Who it's for + the price objection.** Tells the nurse "this is for you" and answers "can I afford it" first, before any feature | **A fraction of what a contractor quotes for ductwork** | Our price objection is measured against the fix they already priced or assume ($3–4k duct rebalancing, sourced). It settles "is this affordable" in their own reference point |
+| 2 | Comfortable for back-to-back 12-hour shifts | **Restates the headline situation as the core outcome.** Repeats the pain from the headline, now promised away | **Comfortable through long afternoons in the hot room** | Same move: the headline's situation (switching rooms because of heat) comes back as the outcome |
+| 3 | Arch support for plantar fasciitis foot pain | **Feature → a named pain they have.** Uses their own term for the problem | **Twin fans for vents that barely blow any air** | "Barely any air" is their words for the problem, from the research and the hand test. The fans are the feature that answers it |
+| 4 | Slip-resistant grip for fluids and slippery floor | **Feature → their specific environment.** Proves it was made for their world, not generic | **Built-in thermostat for rooms that run hotter** | Their environment is one room hotter than the rest. The thermostat is the feature built for exactly that |
+| 5 | Wide toe-box for bunions/hallux valgus | **Feature → a sub-group's objection or condition.** Pulls in people who assume "won't work for me" | **Two-screw drop-in install. No contractor needed** | Our "won't work for me" is "this is a project / I'm not handy / I rent." The install answers it |
+| 6 | #1 rated for comfort & cushion | **Proof to close.** Third-party credibility so the stack ends on trust, not a claim | **60-day home trial. Keep it only if the room changes** | We have no rating yet. Risk reversal is the honest stand-in. **Swap in a real rating line once reviews exist** |
+
+**Rules the swipe follows, and so do ours:** one line each · starts with the feature or claim · ends on their problem in their words · no adjectives doing the work ("amazing", "premium") · the sequence runs who/price → outcome → three feature-for-pain lines → proof.
+
 ## Layout (1080 × 1350)
 
 ```
@@ -179,12 +194,12 @@ Aspect ratio 4:5, 1080 x 1350.
 │  NO MORE SWITCHING ROOMS                 │ headline  y 84–250
 │  BECAUSE OF THE HEAT.                    │
 │                                          │
-│  + Replaces the vent cover already in… │ bullets   y 300–690
-│  + Pulls in the cold air your AC …      │ 6 lines
-│  + Set the temperature you want for …   │
-│  + Two screws and a plug. No contractor  │
-│  + Fits standard 4x10 and 6x10 vents     │
-│  + Works for heat in winter too          │
+│  + A fraction of what a contractor… │ bullets   y 300–690
+│  + Comfortable through long afternoons…      │ 6 lines
+│  + Twin fans for vents that barely…   │
+│  + Built-in thermostat for rooms that… │
+│  + Two-screw drop-in install. No…       │
+│  + 60-day home trial. Keep it only if the room changes          │
 │                                          │
 │        ┌─────────────────────────┐       │ product   y 760–1260
 │        │  [vent cover, 3/4 view] │       │ ~80% canvas width
@@ -202,16 +217,24 @@ Aspect ratio 4:5, 1080 x 1350.
 | Bullets | see below | **Inter Regular 400** | 33 px | 58 px between bullet baselines | `#222222` | Left, x = 110, max width 906 |
 
 **Bullets (exact, in order):**
-1. + Replaces the vent cover already in that room
-2. + Pulls in the cold air your AC is already making
-3. + Set the exact temperature you want for that room
-4. + Two screws and a plug. No contractor, no ductwork
-5. + Fits standard 4x10 and 6x10 floor vents
-6. + Works for heat in winter too
+1. + A fraction of what a contractor quotes for ductwork
+2. + Comfortable through long afternoons in the hot room
+3. + Twin fans for vents that barely blow any air
+4. + Built-in thermostat for rooms that run hotter
+5. + Two-screw drop-in install. No contractor needed
+6. + 60-day home trial. Keep it only if the room changes
 
 Each bullet is one line. If one wraps at 33 px, drop to 31 px for all six; don't break a line.
 
-## Step 1 — generate the product image (with REF-1 attached)
+## Step 1 — the product image
+
+### Option 1 (preferred) — use the real product photo
+The supplied photo is already a clean product-on-white shot, which is exactly what the swipe uses (a real product photo). Use it directly:
+1. Crop the remote out.
+2. The display reads the listing placeholder **"188 °F"**. Change it to **"72°F"**: retouch the digits in Photoshop/Canva, or run the photo through Nano Banana with only this instruction: *"Edit only the digital display: change the number from 188 to 72. Change nothing else in the image."*
+3. Optional: add a soft reflection under it to match the swipe's shoe.
+
+### Option 2 — generate it (with REF-1 attached)
 
 Here the listing look is what we want: the swipe ad's shoe is a clean product shot.
 
@@ -334,12 +357,12 @@ exactly as:
 BELOW IT: six single-line bullet points, left-aligned, each starting with a bold
 terracotta (#B4553A) plus sign "+", followed by clean regular sans-serif text (Inter
 style) in dark grey #222222, about 33 px, evenly spaced:
-    + Replaces the vent cover already in that room
-    + Pulls in the cold air your AC is already making
-    + Set the exact temperature you want for that room
-    + Two screws and a plug. No contractor, no ductwork
-    + Fits standard 4x10 and 6x10 floor vents
-    + Works for heat in winter too
+    + A fraction of what a contractor quotes for ductwork
+    + Comfortable through long afternoons in the hot room
+    + Twin fans for vents that barely blow any air
+    + Built-in thermostat for rooms that run hotter
+    + Two-screw drop-in install. No contractor needed
+    + 60-day home trial. Keep it only if the room changes
 
 LOWER HALF: a large, clean product photograph of the WHITE vent cover described above,
 centred, about 80% of the canvas width, turned about 30 degrees and tilted back about 20
@@ -360,7 +383,7 @@ Aspect ratio 4:5, 1080 x 1350.
 - [ ] No remote, no air swirls, no room
 
 ## Cold version (hold for the pivot)
-Headline → *NO MORE SWITCHING ROOMS / BECAUSE OF THE COLD.* · bullet 2 → *+ Pulls in the warm air your furnace is already making* · bullet 6 → *+ Works for cooling in summer too* · display → **70°F**.
+Headline → *NO MORE SWITCHING ROOMS / BECAUSE OF THE COLD.* · bullet 2 → *+ Comfortable through long evenings in the cold room* · bullet 4 → *+ Built-in thermostat for rooms that run colder* · display → **70°F**.
 
 ---
 

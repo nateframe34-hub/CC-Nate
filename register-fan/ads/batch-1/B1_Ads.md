@@ -58,7 +58,7 @@ Upstairs home office from the doorway, hot late-afternoon sun, box fan on the ca
 **Format:** **Relatable Hook**, copied closely from the swipe file's "12-HOUR SHIFT SHOES" · **TOF** · all placements
 **Awareness journey:** Problem Aware → Solution Aware
 
-**Image:** white background · huge black caps headline stating the outcome · six terracotta **+** feature bullets written for the hot-room situation · the white vent cover as a clean product shot underneath, display 72°F.
+**Image:** white background · huge black caps headline stating the outcome · six terracotta **+** bullets that follow the swipe's bullet structure (who/price → outcome → three feature-for-pain lines → proof) · the white vent cover as a clean product shot underneath, display 72°F.
 
 **Primary text, headline, description:** `copy/B1C2_Copy.md` · **Image + type spec:** `B1_Image_Prompts.md`
 

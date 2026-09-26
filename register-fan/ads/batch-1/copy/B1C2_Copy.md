@@ -12,14 +12,32 @@
 
 > # NO MORE SWITCHING ROOMS BECAUSE OF THE HEAT.
 >
-> **+** Replaces the vent cover already in that room
-> **+** Pulls in the cold air your AC is already making
-> **+** Set the exact temperature you want for that room
-> **+** Two screws and a plug. No contractor, no ductwork
-> **+** Fits standard 4x10 and 6x10 floor vents
-> **+** Works for heat in winter too
+> **+** A fraction of what a contractor quotes for ductwork
+> **+** Comfortable through long afternoons in the hot room
+> **+** Twin fans for vents that barely blow any air
+> **+** Built-in thermostat for rooms that run hotter
+> **+** Two-screw drop-in install. No contractor needed
+> **+** 60-day home trial. Keep it only if the room changes
 >
 > *[product: white vent cover, three-quarter angle, display 72°F]*
+
+---
+
+### Why the swipe uses those bullets, and ours line for line
+
+The shoe ad's bullets aren't a feature list. They follow a strict sequence, and every line is built the same way: **[feature or claim] for [a specific problem this person already names]**.
+
+| # | Swipe bullet | Job it does | Our bullet | Why it maps |
+|---|---|---|---|---|
+| 1 | Made affordable for healthcare essential workers | **Who it's for + the price objection.** Tells the nurse "this is for you" and answers "can I afford it" first, before any feature | **A fraction of what a contractor quotes for ductwork** | Our price objection is measured against the fix they already priced or assume ($3–4k duct rebalancing, sourced). It settles "is this affordable" in their own reference point |
+| 2 | Comfortable for back-to-back 12-hour shifts | **Restates the headline situation as the core outcome.** Repeats the pain from the headline, now promised away | **Comfortable through long afternoons in the hot room** | Same move: the headline's situation (switching rooms because of heat) comes back as the outcome |
+| 3 | Arch support for plantar fasciitis foot pain | **Feature → a named pain they have.** Uses their own term for the problem | **Twin fans for vents that barely blow any air** | "Barely any air" is their words for the problem, from the research and the hand test. The fans are the feature that answers it |
+| 4 | Slip-resistant grip for fluids and slippery floor | **Feature → their specific environment.** Proves it was made for their world, not generic | **Built-in thermostat for rooms that run hotter** | Their environment is one room hotter than the rest. The thermostat is the feature built for exactly that |
+| 5 | Wide toe-box for bunions/hallux valgus | **Feature → a sub-group's objection or condition.** Pulls in people who assume "won't work for me" | **Two-screw drop-in install. No contractor needed** | Our "won't work for me" is "this is a project / I'm not handy / I rent." The install answers it |
+| 6 | #1 rated for comfort & cushion | **Proof to close.** Third-party credibility so the stack ends on trust, not a claim | **60-day home trial. Keep it only if the room changes** | We have no rating yet. Risk reversal is the honest stand-in. **Swap in a real rating line once reviews exist** |
+
+**Rules the swipe follows, and so do ours:** one line each · starts with the feature or claim · ends on their problem in their words · no adjectives doing the work ("amazing", "premium") · the sequence runs who/price → outcome → three feature-for-pain lines → proof.
+
 
 ---
 
