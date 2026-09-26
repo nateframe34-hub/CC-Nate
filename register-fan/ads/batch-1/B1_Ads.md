@@ -55,13 +55,10 @@ Upstairs home office from the doorway, hot late-afternoon sun, box fan on the ca
 
 ## B1C2 — Relatable Hook · "NO MORE SWITCHING ROOMS BECAUSE OF THE HEAT." ⭐ rebuilt 2026-09-26
 
-**Format:** **Relatable Hook** (swipe file: situational call-out + benefit stack) · **TOF** · all placements
+**Format:** **Relatable Hook**, copied closely from the swipe file's "12-HOUR SHIFT SHOES" · **TOF** · all placements
 **Awareness journey:** Problem Aware → Solution Aware
-**Earns the read:** names the thing they do every hot afternoon, over a photo of the room they recognise from C1, now usable.
 
-**Image:** the approved B1C1 room, edited: both fans gone, a woman working comfortably at the desk in the hard 4pm sun, iced water. **No product.**
-**Headline on image:** NO MORE SWITCHING ROOMS / BECAUSE OF THE HEAT. (Archivo ExtraBold caps, over the ceiling)
-**Benefit chips on the photo:** ✓ Still at the desk at 4pm · ✓ Both fans in the garage · ✓ Door open again
+**Image:** white background · huge black caps headline stating the outcome · six terracotta **+** feature bullets written for the hot-room situation · the white vent cover as a clean product shot underneath, display 72°F.
 
 **Primary text, headline, description:** `copy/B1C2_Copy.md` · **Image + type spec:** `B1_Image_Prompts.md`
 

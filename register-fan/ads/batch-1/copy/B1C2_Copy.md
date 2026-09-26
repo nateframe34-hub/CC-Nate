@@ -1,21 +1,25 @@
-# B1C2 — Relatable Hook · "NO MORE SWITCHING ROOMS BECAUSE OF THE HEAT." *(rebuilt 2026-09-26)*
+# B1C2 — Relatable Hook · "NO MORE SWITCHING ROOMS BECAUSE OF THE HEAT." *(rebuilt 2026-09-26, copied from swipe)*
 
-**Sub-Avatar:** SA1 The Fan Runner · **Angle:** A1, the room itself gets cool (outcome-led)
-**Format:** **Relatable Hook** (swipe file: situational call-out + benefit stack, "12-HOUR SHIFT SHOES" structure) · **Funnel:** TOF
+**Sub-Avatar:** SA1 The Fan Runner · **Angle:** A1, the room itself gets cool
+**Format:** **Relatable Hook**, copied from the swipe file's "12-HOUR SHIFT SHOES" (`origins-training/swipe-file/relatable-hook.jpg`) · **Funnel:** TOF
 **Awareness:** Problem Aware → Solution Aware
 
-**Image:** the B1C1 room edited, with both fans gone and her working comfortably in the 4pm sun. No product. Full spec: `B1_Image_Prompts.md`.
+**Image:** white background, huge black caps headline, six terracotta **+** feature bullets, product shot below. Full spec: `B1_Image_Prompts.md`.
 
 ---
 
 ## In-image text
 
-> **Headline (caps, over the ceiling):** NO MORE SWITCHING ROOMS / BECAUSE OF THE HEAT.
+> # NO MORE SWITCHING ROOMS BECAUSE OF THE HEAT.
 >
-> **Callout chips on the photo:**
-> ✓ Still at the desk at 4pm *(by her)*
-> ✓ Both fans in the garage *(on the empty carpet)*
-> ✓ Door open again *(by the door)*
+> **+** Replaces the vent cover already in that room
+> **+** Pulls in the cold air your AC is already making
+> **+** Set the exact temperature you want for that room
+> **+** Two screws and a plug. No contractor, no ductwork
+> **+** Fits standard 4x10 and 6x10 floor vents
+> **+** Works for heat in winter too
+>
+> *[product: white vent cover, three-quarter angle, display 72°F]*
 
 ---
 

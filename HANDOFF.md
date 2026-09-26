@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-26** — B1C2 rebuilt to copy the swipe "12-HOUR SHIFT SHOES" Relatable Hook closely (founder: when using swipes, copy closely; features fine here): white bg, caps outcome headline, 6 terracotta + feature bullets, white product shot with 72°F. The edited-room/chips version is retired.
+
 - **2026-09-26** — B1C2 rebuilt as a **Relatable Hook** (swipe format, founder call): C1 room edited (fans gone, woman working comfortably), caps headline over the ceiling, three outcome chips on the photo. No product, no price in the image.
 
 - **2026-09-26** — Only one product reference exists (white unit on white, with remote). The PRODUCT LOCK in both prompt files is now a full written spec: floor register, 18 vertical bars, two 5-blade fans, black display panel on the right with icons and 3-digit °F readout, two 3-button strips, screw holes at both ends. White #F4F4F2 / bronze dark oil-rubbed ~#3B2F28 (never copper or pink). Display reads 72°F, never 188. Open question: C2's format isn't from the swipe file.

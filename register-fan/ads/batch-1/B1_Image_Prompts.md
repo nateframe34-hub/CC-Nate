@@ -155,144 +155,212 @@ Aspect ratio 4:5, 1080 x 1350.
 
 ---
 
-# B1C2 — Relatable Hook · "NO MORE SWITCHING ROOMS BECAUSE OF THE HEAT."
+# B1C2 — Relatable Hook · copied from the swipe file
 
-**Format (swipe file):** **Relatable Hook**, a situational call-out plus a benefit stack (the "12-HOUR SHIFT SHOES" structure). One bold line in capitals names the situation. The real photo underneath proves it. Short outcome callouts sit on the photo, pointing at the things that changed.
+**Format:** **Relatable Hook**, copied as closely as possible from the swipe file's ComfortWear "12-HOUR SHIFT SHOES" ad (`origins-training/swipe-file/relatable-hook.jpg`). Founder call 2026-09-26: when using a swipe, copy it closely.
 
-**Rebuilt 2026-09-26.** Replaces the text-band design, which wasn't a swipe format and read as a designed ad. The first generation's photo also failed (stock living room, dog, air swirls, product as the hero), because the listing-style product reference pulled it into listing style.
+**What the swipe ad does, and our version of each part:**
 
-**Product:** not in frame. C2 sells the outcome; C3 and the product page show the product.
+| Swipe ad | Ours |
+|---|---|
+| Plain white background, nothing else | Plain white `#FFFFFF` background |
+| Huge bold black headline at top that names the situation and the thing | **NO MORE SWITCHING ROOMS / BECAUSE OF THE HEAT.** |
+| Six bullet lines, each starting with an orange-red **+**, features written for that situation | Six **+** bullets in terracotta, features written for the hot-room situation |
+| Large product photo in the lower half, three-quarter angle, soft reflection, clean product shot | The vent cover, three-quarter angle, soft reflection, display reading 72°F |
+| No price, no logo, no button | Same |
 
-## Why the photo is an edit of C1
+**Earlier versions retired:** the text-band design (not a swipe format) and the edited C1 room with chips (didn't match the swipe: no product, no features).
 
-The C1 image came out right. Editing it makes C1 and C2 the **same room**: C1 is the room she gave up on, C2 is that room back. That kind of consistency across the batch is something stock scenes can't give you.
-
-## Step 1 — the photo: edit the approved B1C1 image
-
-**Input:** attach the approved **B1C1 image** only. **Do NOT attach the product reference.**
-
-```
-Edit the attached photograph. Keep the room EXACTLY as it is: same camera position from
-the open doorway, same lens, same framing, same white six-panel door and brass knob on
-the left edge, same greige walls, same window with the white mini-blinds, the same tree
-outside, same beige carpet with its vacuum tracks, same white desk against the right
-wall, same black mesh office chair, same wall outlet, same textured ceiling. Keep the same
-hard late-afternoon sunlight coming through the blinds and throwing slatted stripes
-across the right wall, the desk and the carpet. It is still the hottest part of the day.
-
-CHANGES — only these:
-
-1. REMOVE BOTH FANS. The black box fan and the white tower fan are gone completely. The
-   carpet where the box fan stood is plain carpet with a faint flattened square where it
-   used to sit. The outlet on the wall below the window is empty, nothing plugged in.
-
-2. ADD A PERSON WORKING AT THE DESK. A woman in her mid-40s sits in the black mesh chair,
-   pulled in to the desk, seen from behind and slightly to her left (three-quarter back
-   view) — her face is NOT visible. Shoulder-length brown hair loosely held up with a
-   tortoiseshell claw clip. Heather-grey crew-neck t-shirt, navy cotton shorts, bare legs,
-   one bare foot tucked up on the edge of the chair seat, the other flat on the carpet.
-   She is typing on the laptop, which is now OPEN on the desk with its screen lit (screen
-   content soft and not readable). Her posture is relaxed and settled: shoulders down,
-   back loose, head tilted slightly toward the screen. The sun stripes fall across her
-   back and shoulder. She looks completely comfortable. No sweat, no damp patches, no
-   fanning, no hair stuck to the neck.
-
-3. DESK CHANGES. The glass of water becomes a tall glass of iced water with visible ice
-   cubes and light condensation. Keep the yellow legal pad, pen and mug of pens. Add her
-   phone lying face-down beside the laptop.
-
-Everything else in the image stays identical, including the full frame: keep the
-ceiling and the plain wall above the window, because text will be placed there. Same
-photographic quality as the original: real phone photo, mild grain, slight highlight
-clipping in the sun stripes, natural warm white balance, no HDR, no cinematic grade.
-
-DO NOT ADD: any fan, air conditioner, vent device or product; air swirls, wind lines,
-leaves or any visual effect showing air; plants, pets, cushions or throws; any text,
-logo or overlay; a remote control or a hand in the foreground.
-
-Output 4:5, 1080 x 1350, same framing as the original.
-```
-
-## Step 2 — type, set in Canva / Figma on top of the photo (full bleed, 1080 × 1350)
-
-### Layout
+## Layout (1080 × 1350)
 
 ```
 ┌──────────────────────────────────────────┐ y=0
-│ NO MORE SWITCHING ROOMS                  │ ← headline over ceiling / upper wall
-│ BECAUSE OF THE HEAT.                     │   y 56–236, x 56–1024
 │                                          │
-│        [window]                          │
-│                                  ┌──────┐│
-│                                  │ ✓ Still at the desk at 4pm │ ← near her shoulder
-│  ┌────────────────┐              └──────┘│
-│  │ ✓ Both fans in the garage │  ← on the empty carpet where the box fan stood
-│  └────────────────┘                      │
-│┌──────────┐                              │
-││✓ Door open again│ ← by the door edge, left
-│└──────────┘                              │
+│  NO MORE SWITCHING ROOMS                 │ headline  y 84–250
+│  BECAUSE OF THE HEAT.                    │
+│                                          │
+│  + Replaces the vent cover already in… │ bullets   y 300–690
+│  + Pulls in the cold air your AC …      │ 6 lines
+│  + Set the temperature you want for …   │
+│  + Two screws and a plug. No contractor  │
+│  + Fits standard 4x10 and 6x10 vents     │
+│  + Works for heat in winter too          │
+│                                          │
+│        ┌─────────────────────────┐       │ product   y 760–1260
+│        │  [vent cover, 3/4 view] │       │ ~80% canvas width
+│        └─────────────────────────┘       │
+│          soft reflection below           │
 └──────────────────────────────────────────┘ y=1350
 ```
 
-### Headline
+## Type spec
 
-| Property | Value |
-|---|---|
-| Text (exact) | **NO MORE SWITCHING ROOMS / BECAUSE OF THE HEAT.** (break exactly there) |
-| Font | **Archivo ExtraBold 800**, ALL CAPS |
-| Size | 64 px, line height 1.05 (67 px), tracking −0.5% |
-| Colour | `#1C1A17` warm near-black, straight on the photo, no box |
-| Position | Left-aligned, x = 56 px, top of cap height at y = 60 px, max width 968 px |
-| Legibility | If the ceiling/wall behind is too busy or dark, add a soft `#FAF7F2` glow behind the letters (outer glow, 0 offset, 18 px blur, 55% opacity). No drop shadow, no outline, no solid band |
+| Element | Text (exact) | Font | Size | Line height | Colour | Align |
+|---|---|---|---|---|---|---|
+| Headline | NO MORE SWITCHING ROOMS / BECAUSE OF THE HEAT. | **Archivo ExtraBold 800**, ALL CAPS, tracking −1.5% | 70 px | 1.02 | `#111111` | Left, x = 64 |
+| Bullet marker | + | Inter Bold 700 | 38 px | — | `#B4553A` terracotta | 64 px from left, text starts at x = 110 |
+| Bullets | see below | **Inter Regular 400** | 33 px | 58 px between bullet baselines | `#222222` | Left, x = 110, max width 906 |
 
-### Benefit callouts (3), as small label chips placed on the photo
+**Bullets (exact, in order):**
+1. + Replaces the vent cover already in that room
+2. + Pulls in the cold air your AC is already making
+3. + Set the exact temperature you want for that room
+4. + Two screws and a plug. No contractor, no ductwork
+5. + Fits standard 4x10 and 6x10 floor vents
+6. + Works for heat in winter too
 
-| # | Text (exact) | Placed |
-|---|---|---|
-| 1 | Still at the desk at 4pm | Beside her shoulder / the laptop, right side, around y ≈ 560 |
-| 2 | Both fans in the garage | On the empty carpet where the box fan stood, left-centre, around y ≈ 900 |
-| 3 | Door open again | Near the door edge, bottom left, around y ≈ 1180 |
+Each bullet is one line. If one wraps at 33 px, drop to 31 px for all six; don't break a line.
 
-| Property | Value |
-|---|---|
-| Chip | Rounded rectangle, corner radius 14 px, fill `#FAF7F2` at 94% opacity, padding 14 px vertical / 20 px horizontal, soft shadow 0 4 px 12 px `rgba(28,26,23,0.18)` |
-| Check | A filled terracotta `#B4553A` circle, 30 px, with a white `✓` inside (Inter Bold 18 px), 12 px left of the text |
-| Text | **Inter SemiBold 600**, 30 px, `#1C1A17`, sentence case, single line |
-| Pointer | None. The chip sits right next to the thing it describes |
+## Step 1 — generate the product image (with REF-1 attached)
 
-### Not in the image
-No price, no logo, no wordmark, no CTA button, no badge, no product. The price lives in the primary text. (A small `$89` in JetBrains Mono 28 px bottom-right is an easy add if you want a value nudge; it's off by default.)
-
-## Route A — one pass (only if not using Canva)
-
-Attach the approved C1 image, paste the Step 1 edit prompt, then add:
+Here the listing look is what we want: the swipe ad's shoe is a clean product shot.
 
 ```
-Then add text to the image:
-- At the top, over the ceiling and the plain wall above the window, left-aligned with
-  a 56-pixel margin, in a heavy, tight geometric grotesque sans serif (Archivo
-  ExtraBold style), ALL CAPITALS, warm near-black #1C1A17, about 64 px, broken exactly as:
-      "NO MORE SWITCHING ROOMS
-       BECAUSE OF THE HEAT."
-- Three small rounded off-white (#FAF7F2) label chips placed on the photo, each with a
-  small solid terracotta (#B4553A) circle holding a white checkmark, then text in a
-  clean semibold sans serif (Inter style), about 30 px, #1C1A17:
-      next to the woman's shoulder: "Still at the desk at 4pm"
-      on the empty carpet where a fan used to be: "Both fans in the garage"
-      near the door edge at bottom left: "Door open again"
-All text correctly spelled, crisp, legible on a phone. No other text, no logo, no price,
-no badges, no buttons, no arrows.
+[Attach REF-1.]
+
+PRODUCT LOCK — one reference image is attached (REF-1: the product on white, with its
+remote). Use it ONLY for the product's appearance. Do not copy its white background,
+its layout, or the remote unless this prompt asks for the remote.
+
+The product, described precisely so it survives any angle:
+- A flat rectangular floor register cover, about 2.4 times as wide as it is tall
+  (roughly 12 x 5 inches overall for the 4x10 size), with a thin raised rim and softly
+  rounded corners. One piece of moulded plastic.
+- FINISH: [WHITE] matte bright white, like a white appliance, #F4F4F2.
+  [BRONZE] dark oil-rubbed bronze, a deep brown-black with a faint warm metallic sheen,
+  around #3B2F28. Not copper, not rose-gold, not pink, not shiny brass.
+- LEFT ~70% OF THE FACE: a rectangular grille opening with rounded inner corners, filled
+  by 18 thin, evenly spaced VERTICAL bars (they run top to bottom, not side to side),
+  the same colour as the faceplate. Behind the bars, two identical round fans side by
+  side, each with a dark charcoal-grey circular shroud and a black 5-blade impeller with
+  broad curved blades and a small round hub.
+- RIGHT ~25% OF THE FACE: a vertical black glossy display panel, taller than it is wide.
+  Top of the panel: two small white icons with tiny labels. Middle: a large white
+  seven-segment digital readout of the temperature followed by a small "°F". Bottom:
+  four small white icons in a 2x2 grid (a flame, a snowflake, a fan, a crescent moon)
+  with tiny labels under each.
+- To the right of the display, two narrow vertical strips of small square black
+  buttons with white symbols: an upper strip of 3 (power, and two mode buttons) and a
+  lower strip of 3 (a mode button, "+", "−").
+- Two round countersunk screw holes, one at each short end of the faceplate, centred
+  vertically — left of the grille and right of the buttons.
+- No logo, no brand name and no other text on the faceplate.
+- REMOTE (only when asked for): a slim light-grey rounded-rectangle remote with a red
+  power symbol top-left, a pill-shaped +/− temperature rocker in the middle, and small
+  grey icon buttons (flame, leaf, snowflake, fan, moon) with tiny labels.
+
+Match this exactly. Do not redesign, add fans, change the bar direction, move the
+display, add a logo, or change the colour. The display must read exactly the number
+given in this prompt (e.g. "72°F"), not "188".
+
+A clean, bright e-commerce product photograph of the WHITE vent cover described above,
+alone on a pure white background (#FFFFFF). The product is turned about 30 degrees to the
+right and tilted back about 20 degrees, so the viewer sees the whole faceplate — the
+vertical grille bars, both fans behind them, and the black display panel with its
+buttons at the right-hand end — plus a sliver of the housing depth underneath. The
+display is lit and reads exactly "72°F" in white seven-segment digits.
+
+Soft, even, bright studio light from above and front-left, the white plastic reading
+crisp and clean with gentle shading on the rim, the black display glossy with one soft
+highlight. A soft, faint mirror reflection of the product on the white surface directly
+below it, fading out within a couple of inches, exactly like a classic product-on-white
+listing shot.
+
+The product fills about 80% of the frame width, centred, with even white space around it.
+Tack sharp throughout.
+
+EXCLUDE: remote, hands, people, room, floor, any background other than pure white, any
+text, logo or badge, air swirls, leaves or any effect showing air.
+
+Aspect ratio 1080 x 520 (wide), or generate at 1:1 and crop.
+```
+
+## Step 2 — assemble in Canva / Figma
+
+1. Canvas 1080 × 1350, fill `#FFFFFF`.
+2. Headline and bullets per the type spec.
+3. Place the product image in the lower half, centred, about 860 px wide, its top edge around y = 770. Its white background must blend seamlessly into the canvas white; no visible box edge.
+4. Nothing else: no logo, no price, no button, no border.
+
+## Route A — one pass
+
+```
+[Attach REF-1.]
+
+PRODUCT LOCK — one reference image is attached (REF-1: the product on white, with its
+remote). Use it ONLY for the product's appearance. Do not copy its white background,
+its layout, or the remote unless this prompt asks for the remote.
+
+The product, described precisely so it survives any angle:
+- A flat rectangular floor register cover, about 2.4 times as wide as it is tall
+  (roughly 12 x 5 inches overall for the 4x10 size), with a thin raised rim and softly
+  rounded corners. One piece of moulded plastic.
+- FINISH: [WHITE] matte bright white, like a white appliance, #F4F4F2.
+  [BRONZE] dark oil-rubbed bronze, a deep brown-black with a faint warm metallic sheen,
+  around #3B2F28. Not copper, not rose-gold, not pink, not shiny brass.
+- LEFT ~70% OF THE FACE: a rectangular grille opening with rounded inner corners, filled
+  by 18 thin, evenly spaced VERTICAL bars (they run top to bottom, not side to side),
+  the same colour as the faceplate. Behind the bars, two identical round fans side by
+  side, each with a dark charcoal-grey circular shroud and a black 5-blade impeller with
+  broad curved blades and a small round hub.
+- RIGHT ~25% OF THE FACE: a vertical black glossy display panel, taller than it is wide.
+  Top of the panel: two small white icons with tiny labels. Middle: a large white
+  seven-segment digital readout of the temperature followed by a small "°F". Bottom:
+  four small white icons in a 2x2 grid (a flame, a snowflake, a fan, a crescent moon)
+  with tiny labels under each.
+- To the right of the display, two narrow vertical strips of small square black
+  buttons with white symbols: an upper strip of 3 (power, and two mode buttons) and a
+  lower strip of 3 (a mode button, "+", "−").
+- Two round countersunk screw holes, one at each short end of the faceplate, centred
+  vertically — left of the grille and right of the buttons.
+- No logo, no brand name and no other text on the faceplate.
+- REMOTE (only when asked for): a slim light-grey rounded-rectangle remote with a red
+  power symbol top-left, a pill-shaped +/− temperature rocker in the middle, and small
+  grey icon buttons (flame, leaf, snowflake, fan, moon) with tiny labels.
+
+Match this exactly. Do not redesign, add fans, change the bar direction, move the
+display, add a logo, or change the colour. The display must read exactly the number
+given in this prompt (e.g. "72°F"), not "188".
+
+A square-ish vertical 4:5 social advertisement, 1080 x 1350, in the exact style of a
+simple direct-response product ad: a pure white background (#FFFFFF), nothing else.
+
+TOP: a huge, heavy, tightly spaced geometric sans-serif headline (Archivo ExtraBold
+style), ALL CAPITALS, near-black #111111, left-aligned with a 64 px margin, broken
+exactly as:
+    "NO MORE SWITCHING ROOMS
+     BECAUSE OF THE HEAT."
+
+BELOW IT: six single-line bullet points, left-aligned, each starting with a bold
+terracotta (#B4553A) plus sign "+", followed by clean regular sans-serif text (Inter
+style) in dark grey #222222, about 33 px, evenly spaced:
+    + Replaces the vent cover already in that room
+    + Pulls in the cold air your AC is already making
+    + Set the exact temperature you want for that room
+    + Two screws and a plug. No contractor, no ductwork
+    + Fits standard 4x10 and 6x10 floor vents
+    + Works for heat in winter too
+
+LOWER HALF: a large, clean product photograph of the WHITE vent cover described above,
+centred, about 80% of the canvas width, turned about 30 degrees and tilted back about 20
+degrees so the whole faceplate is visible, display lit reading exactly "72°F", with a
+soft faint reflection on the white surface below it. Bright even studio light.
+
+All text crisp, correctly spelled, legible on a phone. No logo, no price, no badges,
+no buttons, no border, no remote, no air-flow effects, no room.
+
+Aspect ratio 4:5, 1080 x 1350.
 ```
 
 ## QA before using
-- [ ] Headline in caps, breaks as *NO MORE SWITCHING ROOMS / BECAUSE OF THE HEAT.*, legible at thumbnail size
-- [ ] **Same room as B1C1**: door, window, desk, chair, carpet all match
-- [ ] **No fans, no air effects, no product, no remote, no pets, no plants**
-- [ ] Hard sun still clearly coming in; she's clearly comfortable; face not visible
-- [ ] Each chip sits next to the thing it names
+- [ ] Looks like the swipe ad at a glance: white, big black headline, + bullets, product below
+- [ ] Headline breaks exactly as specified; all six bullets spelled right, one line each
+- [ ] Product matches the reference: vertical bars, 2 fans, display on the right reading **72°F** (not 188)
+- [ ] White finish, not copper, pink or grey
+- [ ] No remote, no air swirls, no room
 
 ## Cold version (hold for the pivot)
-Headline → *NO MORE SWITCHING ROOMS BECAUSE OF THE COLD.* · edit: flat grey 4pm winter light, bare tree, remove the space heater instead of the fans, her in an oatmeal knit sweater and wool socks, steaming mug of tea · chips → *Still at the desk at 4pm* / *Space heater in the garage* / *Door open again*.
+Headline → *NO MORE SWITCHING ROOMS / BECAUSE OF THE COLD.* · bullet 2 → *+ Pulls in the warm air your furnace is already making* · bullet 6 → *+ Works for cooling in summer too* · display → **70°F**.
 
 ---
 
