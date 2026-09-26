@@ -21,7 +21,7 @@ For `theme/sections/evenroom-pdp-sa1.liquid`.
 | Gallery 2 | 1a — on white | First |
 | Gallery 3 | 1f — what's in the box (unit + remote) | Second |
 | Gallery 4 | 1b — display close-up | Second |
-| Gallery 5 | 1e — bronze *(only if stocked)* | If needed |
+| Gallery 5 | 1e — bronze, same layout as 1f *(only if stocked)* | If needed |
 | §5b `out_image` | 5b — the result: that room at 4pm | **First** |
 | §7 `fit_image` | 7 — measuring the opening | **First** |
 | §8 | 8.1–8.3 — install steps | Optional |
@@ -436,25 +436,45 @@ Aspect ratio 1:1, 1400 x 1400.
 
 ---
 
-## 1e. Bronze · gallery 5 (only if bronze is stocked)
+## 1e. Bronze · gallery 5 (only if bronze is stocked) — rebuilt 2026-09-26
 
-**Attach:** REF-1 (remote cropped out). The white in the reference is the wrong colour here; the prompt overrides it
+**Attach:** **two references:** (1) Nate's **bronze product photo**, labelled BRONZE REFERENCE, and (2) the approved **white "what's in the box" image**, labelled COMPOSITION REFERENCE
 
 ```
-Create ONE clean e-commerce main product image of the BRONZE version of the vent
-cover described below, alone on a pure white background. The reference photo shows the
-white version: copy only its shape and details, NOT its colour.
+Create ONE clean e-commerce product image of the BRONZE vent cover and its remote on a
+pure white background. The composition must match the attached COMPOSITION reference
+exactly; the colour must match the attached BRONZE reference exactly.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. BACKGROUND
+1. REFERENCES — WHAT TO TAKE FROM EACH
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- Pure seamless white (#FFFFFF). No props, no text.
+- BRONZE REFERENCE (Nate's bronze product photo): take the product's COLOUR and FINISH
+  from this, exactly — the same bronze tone, the same sheen, the same colour on the
+  faceplate, rim and grille bars. Also take the product's shape and details from it.
+- COMPOSITION REFERENCE (the approved white "what's in the box" image): copy its layout
+  exactly — the camera angle, the vent's position, size and angle in the frame, the
+  remote's position, size and angle, the lighting, the white background and the soft
+  shadows. Do NOT take the vent's colour from this image; it is white there and must be
+  bronze here.
+- If a detail of the product differs between the two references, follow the BRONZE
+  reference.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-2. THE PRODUCT
+2. LAYOUT (copy the composition reference)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- The vent stands upright, seen from the front, turned about 20 degrees so its right end
+  (display end) is nearer the camera, filling about 85% of the frame width, its top edge
+  at about 23% down the frame and its bottom edge at about 72%.
+- The remote lies flat on the white surface in the lower right, in front of the vent's
+  right end, angled about 30 degrees, about 27% of the frame width, buttons facing up.
+- Pure white (#FFFFFF) background everywhere. A soft grey contact shadow under the vent
+  and the remote. No reflection.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. THE PRODUCT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Use the attached reference image ONLY for the product's exact appearance.
-Do NOT include the remote control from the reference. Do not copy the reference's layout
+Include the remote exactly as described below. Do not copy the reference's layout
 or background.
 
 THE PRODUCT (match the reference exactly):
@@ -478,25 +498,38 @@ THE PRODUCT (match the reference exactly):
   grille, right of the buttons.
 - No logo, no brand name, no other text on the product. Exactly two fans.
 - THE DISPLAY READS "72°F". Never "188", never garbled, never a stray superscript.
-- The display panel and buttons are black as usual; the display is lit and reads "72°F".
+- THE REMOTE (include it, beside the vent): a slim, light-grey (#D9DADB) rounded-
+  rectangle remote about as long as the vent is tall-and-a-half, matte plastic. Top
+  left: a red power symbol with "ON/OFF" beneath. Top right: a bulb icon, "LIGHT". Centre:
+  a tall pill-shaped rocker with "+" above and "−" below and "TEMP" beside it. Left and
+  right of the rocker: a padlock icon ("LOCK") and a signal-bars icon ("WIND"). Lower
+  rows: flame ("WINTER"), leaf ("IONIZER"), snowflake ("SUMMER"), then fan ("FAN") and
+  crescent moon ("SLEEP"). Icons dark grey, labels tiny.
+- The display panel and its buttons stay black; the display is lit and reads "72°F".
+- The remote stays light grey. It is NOT bronze.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-3. ANGLE, SIZE, POSITION
+4. COLOUR — THE MOST IMPORTANT INSTRUCTION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- Identical to the white main image: turned about 15 degrees left, tilted back about 20
-  degrees, centred, about 80% of frame width.
+- Match the bronze reference's colour exactly. Sample it directly; do not interpret
+  "bronze" from memory.
+- The whole faceplate, rim and grille bars are that same bronze. The colour is even
+  across the product, with the same sheen as the reference: soft, warm, low highlights,
+  not mirror-shiny.
+- NOT copper, NOT rose-gold, NOT pink, NOT orange, NOT gold, NOT brass, NOT grey, NOT
+  black, NOT white.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-4. LIGHT
+5. LIGHT AND RENDERING
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- Bright, soft studio light from above and front-left (5500 K). The bronze shows a soft
-  warm sheen along the rim and bars without mirror-like highlights. Faint reflection
-  beneath, soft contact shadow.
+- Bright, soft, even studio light from above and front-left (5500 K), matching the
+  composition reference. Tack sharp. Realistic moulded plastic with a bronze finish,
+  not a 3D render.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 6. DO NOT INCLUDE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- White, copper, rose-gold, pink or grey finish on the faceplate.
+- A white vent. Hands, packaging, cables, props, text.
 - Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow or any effect showing
   air or temperature. Any text, caption, logo, watermark, price, badge, sticker, arrow,
   border or frame added to the image.
@@ -507,9 +540,9 @@ THE PRODUCT (match the reference exactly):
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 9. FINAL CHECK BEFORE OUTPUT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-The vent is dark oil-rubbed bronze, NOT white or copper; vertical bars, two fans, display reading "72°F". White background.
+The vent is the exact bronze of the bronze reference, not copper or pink. The layout matches the white what's-in-the-box image. The remote is light grey. The display reads "72°F". White background.
 
-Aspect ratio 1:1, 1400 x 1400.
+Aspect ratio 1:1, 1024 x 1024.
 ```
 
 **If it misses (re-run, don't edit):**
@@ -518,7 +551,8 @@ Aspect ratio 1:1, 1400 x 1400.
 |---|---|
 | Display shows 188 / garbled °F | *"The display digits are the most important detail: exactly 72 then a clean °F, large and legible."* |
 | Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
-| Comes out copper/pink | *"Deep brown-black oil-rubbed bronze, like a dark bronze door handle; no copper or pink tones at all."* |
+| Colour still off | *"Ignore any idea of what bronze looks like; copy the colour pixel-for-pixel from the bronze reference photo."* |
+| Layout drifts | *"Match the composition reference exactly: same angle, same positions, same sizes."* |
 
 ---
 
