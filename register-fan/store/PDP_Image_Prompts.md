@@ -70,17 +70,24 @@ THE PRODUCT (match the reference exactly):
   rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
-  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  louvres). Every bar is perfectly straight, unbroken and the same width from top to
+  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
 - RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
-  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  Top: four small white icons in a 2 x 2 grid (a flower/gear shape labelled "AC", a
+  leaf, a padlock, a fan with a small thermometer), with tiny labels. Middle: a large
+  white seven-segment
   digital readout showing exactly "72" followed by a small, clearly formed "°F".
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
-  "−").
+  white symbols — upper strip of three (a power symbol, then a button with two small
+  stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
+  then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
+  arrow buttons. The display shows no power or bulb icons, and all its icons are white
+  only (no coloured flame or snowflake).
 - One round countersunk screw hole at each short end, centred vertically: left of the
   grille, right of the buttons.
 - No logo, no brand name, no other text on the product. Exactly two fans.
@@ -173,17 +180,24 @@ THE PRODUCT (match the reference exactly):
   rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
-  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  louvres). Every bar is perfectly straight, unbroken and the same width from top to
+  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
 - RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
-  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  Top: four small white icons in a 2 x 2 grid (a flower/gear shape labelled "AC", a
+  leaf, a padlock, a fan with a small thermometer), with tiny labels. Middle: a large
+  white seven-segment
   digital readout showing exactly "72" followed by a small, clearly formed "°F".
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
-  "−").
+  white symbols — upper strip of three (a power symbol, then a button with two small
+  stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
+  then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
+  arrow buttons. The display shows no power or bulb icons, and all its icons are white
+  only (no coloured flame or snowflake).
 - One round countersunk screw hole at each short end, centred vertically: left of the
   grille, right of the buttons.
 - No logo, no brand name, no other text on the product. Exactly two fans.
@@ -271,17 +285,24 @@ THE PRODUCT (match the reference exactly):
   rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
-  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  louvres). Every bar is perfectly straight, unbroken and the same width from top to
+  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
 - RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
-  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  Top: four small white icons in a 2 x 2 grid (a flower/gear shape labelled "AC", a
+  leaf, a padlock, a fan with a small thermometer), with tiny labels. Middle: a large
+  white seven-segment
   digital readout showing exactly "72" followed by a small, clearly formed "°F".
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
-  "−").
+  white symbols — upper strip of three (a power symbol, then a button with two small
+  stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
+  then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
+  arrow buttons. The display shows no power or bulb icons, and all its icons are white
+  only (no coloured flame or snowflake).
 - One round countersunk screw hole at each short end, centred vertically: left of the
   grille, right of the buttons.
 - No logo, no brand name, no other text on the product. Exactly two fans.
@@ -292,7 +313,8 @@ THE PRODUCT (match the reference exactly):
   a tall pill-shaped rocker with "+" above and "−" below and "TEMP" beside it. Left and
   right of the rocker: a padlock icon ("LOCK") and a signal-bars icon ("WIND"). Lower
   rows: flame ("WINTER"), leaf ("IONIZER"), snowflake ("SUMMER"), then fan ("FAN") and
-  crescent moon ("SLEEP"). Icons dark grey, labels tiny.
+  crescent moon ("SLEEP"). Icons dark grey, labels tiny. It is flat and slim like the
+  reference, not a generic air-conditioner remote with a screen or angled top.
 - The vent's display is lit and reads "72°F".
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -364,17 +386,24 @@ THE PRODUCT (match the reference exactly):
   rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
-  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  louvres). Every bar is perfectly straight, unbroken and the same width from top to
+  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
 - RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
-  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  Top: four small white icons in a 2 x 2 grid (a flower/gear shape labelled "AC", a
+  leaf, a padlock, a fan with a small thermometer), with tiny labels. Middle: a large
+  white seven-segment
   digital readout showing exactly "72" followed by a small, clearly formed "°F".
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
-  "−").
+  white symbols — upper strip of three (a power symbol, then a button with two small
+  stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
+  then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
+  arrow buttons. The display shows no power or bulb icons, and all its icons are white
+  only (no coloured flame or snowflake).
 - One round countersunk screw hole at each short end, centred vertically: left of the
   grille, right of the buttons.
 - No logo, no brand name, no other text on the product. Exactly two fans.
@@ -456,8 +485,9 @@ exactly; the colour must match the attached BRONZE reference exactly.
   remote's position, size and angle, the lighting, the white background and the soft
   shadows. Do NOT take the vent's colour from this image; it is white there and must be
   bronze here.
-- If a detail of the product differs between the two references, follow the BRONZE
-  reference.
+- Take NOTHING about the product's design from the composition reference: not the
+  display, not the buttons, not the grille, not the remote's design. Use it for layout
+  only. Every product detail comes from the BRONZE reference and the description below.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 2. LAYOUT (copy the composition reference)
@@ -483,17 +513,24 @@ THE PRODUCT (match the reference exactly):
   rounded outer corners. FINISH: dark oil-rubbed bronze (#3B2F28): a deep brown-black with a faint warm metallic sheen, like a bronze door handle. NOT copper, NOT rose-gold, NOT pink, NOT shiny brass, NOT grey. The grille bars are the same bronze.
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
-  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  louvres). Every bar is perfectly straight, unbroken and the same width from top to
+  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
 - RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
-  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  Top: four small white icons in a 2 x 2 grid (a flower/gear shape labelled "AC", a
+  leaf, a padlock, a fan with a small thermometer), with tiny labels. Middle: a large
+  white seven-segment
   digital readout showing exactly "72" followed by a small, clearly formed "°F".
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
-  "−").
+  white symbols — upper strip of three (a power symbol, then a button with two small
+  stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
+  then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
+  arrow buttons. The display shows no power or bulb icons, and all its icons are white
+  only (no coloured flame or snowflake).
 - One round countersunk screw hole at each short end, centred vertically: left of the
   grille, right of the buttons.
 - No logo, no brand name, no other text on the product. Exactly two fans.
@@ -504,7 +541,8 @@ THE PRODUCT (match the reference exactly):
   a tall pill-shaped rocker with "+" above and "−" below and "TEMP" beside it. Left and
   right of the rocker: a padlock icon ("LOCK") and a signal-bars icon ("WIND"). Lower
   rows: flame ("WINTER"), leaf ("IONIZER"), snowflake ("SUMMER"), then fan ("FAN") and
-  crescent moon ("SLEEP"). Icons dark grey, labels tiny.
+  crescent moon ("SLEEP"). Icons dark grey, labels tiny. It is flat and slim like the
+  reference, not a generic air-conditioner remote with a screen or angled top.
 - The display panel and its buttons stay black; the display is lit and reads "72°F".
 - The remote stays light grey. It is NOT bronze.
 
@@ -616,17 +654,24 @@ THE PRODUCT (match the reference exactly):
   rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
-  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  louvres). Every bar is perfectly straight, unbroken and the same width from top to
+  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
 - RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
-  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  Top: four small white icons in a 2 x 2 grid (a flower/gear shape labelled "AC", a
+  leaf, a padlock, a fan with a small thermometer), with tiny labels. Middle: a large
+  white seven-segment
   digital readout showing exactly "72" followed by a small, clearly formed "°F".
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
-  "−").
+  white symbols — upper strip of three (a power symbol, then a button with two small
+  stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
+  then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
+  arrow buttons. The display shows no power or bulb icons, and all its icons are white
+  only (no coloured flame or snowflake).
 - One round countersunk screw hole at each short end, centred vertically: left of the
   grille, right of the buttons.
 - No logo, no brand name, no other text on the product. Exactly two fans.
@@ -854,17 +899,24 @@ THE PRODUCT (match the reference exactly):
   rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
-  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  louvres). Every bar is perfectly straight, unbroken and the same width from top to
+  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
 - RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
-  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  Top: four small white icons in a 2 x 2 grid (a flower/gear shape labelled "AC", a
+  leaf, a padlock, a fan with a small thermometer), with tiny labels. Middle: a large
+  white seven-segment
   digital readout showing exactly "72" followed by a small, clearly formed "°F".
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
-  "−").
+  white symbols — upper strip of three (a power symbol, then a button with two small
+  stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
+  then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
+  arrow buttons. The display shows no power or bulb icons, and all its icons are white
+  only (no coloured flame or snowflake).
 - One round countersunk screw hole at each short end, centred vertically: left of the
   grille, right of the buttons.
 - No logo, no brand name, no other text on the product. Exactly two fans.
@@ -941,17 +993,24 @@ THE PRODUCT (match the reference exactly):
   rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
-  louvres). Behind the bars, two identical round fans side by side, each with a dark
+  louvres). Every bar is perfectly straight, unbroken and the same width from top to
+  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
 - RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
-  Top: two small white icons with tiny labels. Middle: a large white seven-segment
+  Top: four small white icons in a 2 x 2 grid (a flower/gear shape labelled "AC", a
+  leaf, a padlock, a fan with a small thermometer), with tiny labels. Middle: a large
+  white seven-segment
   digital readout showing exactly "72" followed by a small, clearly formed "°F".
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
-  "−").
+  white symbols — upper strip of three (a power symbol, then a button with two small
+  stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
+  then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
+  arrow buttons. The display shows no power or bulb icons, and all its icons are white
+  only (no coloured flame or snowflake).
 - One round countersunk screw hole at each short end, centred vertically: left of the
   grille, right of the buttons.
 - No logo, no brand name, no other text on the product. Exactly two fans.

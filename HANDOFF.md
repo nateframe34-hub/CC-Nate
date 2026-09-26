@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-26** — PDP prompt tweaks after the first generations: bars must be straight and unbroken; display spec corrected to the real layout (4 top icons, 4 bottom, white only, no power/bulb icons); two 3-button strips (not an arrow strip); remote flat and slim like the reference; bronze uses the composition reference for layout only. Images 1b and 1c approved. Re-run 1a and 1f.
+
 - **2026-09-26** — PDP in-hand scale image (1d) dropped (founder: dimensions cover scale).
 
 - **2026-09-26** — PDP image prompts rebuilt as self-contained one-pass full specs (same standard as B1C2): 1c floor-installed (gallery 1), 1a on white, new 1f unit+remote, 1b display, 1d in hand, 1e bronze, 5b result, 7 measuring, 8.1–8.3 install. Full product description embedded in each; 72°F; shared room palette. Open: confirm the cord exit point with the supplier.
