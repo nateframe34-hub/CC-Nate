@@ -21,8 +21,7 @@ For `theme/sections/evenroom-pdp-sa1.liquid`.
 | Gallery 2 | 1a — on white | First |
 | Gallery 3 | 1f — what's in the box (unit + remote) | Second |
 | Gallery 4 | 1b — display close-up | Second |
-| Gallery 5 | 1d — in hand | Second |
-| Gallery 6 | 1e — bronze *(only if stocked)* | If needed |
+| Gallery 5 | 1e — bronze *(only if stocked)* | If needed |
 | §5b `out_image` | 5b — the result: that room at 4pm | **First** |
 | §7 `fit_image` | 7 — measuring the opening | **First** |
 | §8 | 8.1–8.3 — install steps | Optional |
@@ -437,104 +436,7 @@ Aspect ratio 1:1, 1400 x 1400.
 
 ---
 
-## 1d. In hand, for scale · gallery 5
-
-**Attach:** REF-1 (remote cropped out)
-
-```
-Create ONE realistic phone photograph of an adult's hand holding the vent cover
-described below, so its size is instantly readable.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. THE PRODUCT
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Use the attached reference image ONLY for the product's exact appearance.
-Do NOT include the remote control from the reference. Do not copy the reference's layout
-or background.
-
-THE PRODUCT (match the reference exactly):
-- A flat rectangular floor vent cover (register) with two built-in fans. About 2.4 times
-  as wide as it is tall. One piece of moulded plastic with a thin raised rim and softly
-  rounded outer corners. FINISH: matte bright-white moulded plastic (#F4F4F2), clean and even.
-- LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
-  crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
-  louvres). Behind the bars, two identical round fans side by side, each with a dark
-  charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
-  and a small round hub.
-- RIGHT about 25% of the face: a vertical glossy black display panel, taller than wide.
-  Top: two small white icons with tiny labels. Middle: a large white seven-segment
-  digital readout showing exactly "72" followed by a small, clearly formed "°F".
-  Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
-  with tiny labels.
-- Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (power at top), lower strip of three (mode, "+",
-  "−").
-- One round countersunk screw hole at each short end, centred vertically: left of the
-  grille, right of the buttons.
-- No logo, no brand name, no other text on the product. Exactly two fans.
-- THE DISPLAY READS "72°F". Never "188", never garbled, never a stray superscript.
-- The display is lit and reads "72°F".
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-2. THE HAND
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- One adult hand, held at chest height, gripping the vent by its LEFT end: four
-  fingers wrapped round the back of the housing, the thumb resting on the front of the
-  faceplate beside the left screw hole. The rest of the faceplate, both fans and the
-  display unobstructed.
-- Ordinary hand: short, unpolished nails, natural skin texture and knuckle creases, no
-  rings, no manicure, a plain heather-grey t-shirt sleeve cuff just visible at the wrist.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-3. BACKGROUND
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- An ordinary hallway: warm greige walls (#D9D2C5), a white door frame and the corner
-  of a framed picture, all softly out of focus.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-4. CAMERA AND LIGHT
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- Phone portrait mode, ~50 mm equivalent, f/2.0. Product and hand sharp, background
-  blurred. The vent held square to the camera, turned about 10 degrees.
-- Soft natural daylight from a window out of frame to the right, about 5000 K.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-5. RENDERING
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Realistic phone-camera quality (like an iPhone main camera): mild luminance grain in
-shadows, natural slightly warm white balance, very slight lens distortion at the edges.
-No HDR look, no cinematic grade, no vignette, no bokeh balls, no lens flare.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-6. DO NOT INCLUDE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- A face, a second hand, jewellery, the remote, tools.
-- Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow or any effect showing
-  air or temperature. Any text, caption, logo, watermark, price, badge, sticker, arrow,
-  border or frame added to the image.
-- Any logo or text on the product that isn't described above. Horizontal slats, more or
-  fewer than two fans, the display on the left side, a product colour other than the one
-  specified.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-9. FINAL CHECK BEFORE OUTPUT
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-One hand holding the white vent by its left end; display "72°F" visible; hallway blurred. No face, no remote, no text.
-
-Aspect ratio 1:1, 1400 x 1400.
-```
-
-**If it misses (re-run, don't edit):**
-
-| Miss | Add to the end and re-run |
-|---|---|
-| Display shows 188 / garbled °F | *"The display digits are the most important detail: exactly 72 then a clean °F, large and legible."* |
-| Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
-| Hand covers the display or grille | *"The hand only holds the far LEFT end; the grille, fans and display are fully visible."* |
-
----
-
-## 1e. Bronze · gallery 6 (only if bronze is stocked)
+## 1e. Bronze · gallery 5 (only if bronze is stocked)
 
 **Attach:** REF-1 (remote cropped out). The white in the reference is the wrong colour here; the prompt overrides it
 

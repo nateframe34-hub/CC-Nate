@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-26** — PDP in-hand scale image (1d) dropped (founder: dimensions cover scale).
+
 - **2026-09-26** — PDP image prompts rebuilt as self-contained one-pass full specs (same standard as B1C2): 1c floor-installed (gallery 1), 1a on white, new 1f unit+remote, 1b display, 1d in hand, 1e bronze, 5b result, 7 measuring, 8.1–8.3 install. Full product description embedded in each; 72°F; shared room palette. Open: confirm the cord exit point with the supplier.
 
 - **2026-09-26** — B1C2 now a single one-pass prompt (founder: no edits/Canva): full canvas, headline, 5 bullets, product spec with 72°F display, exclusions, final check, plus a re-run table for misses.
