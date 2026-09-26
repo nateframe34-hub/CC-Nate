@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-26** — Image prompts rebuilt to full spec (founder): `ads/batch-1/B1_Image_Prompts.md` and `store/PDP_Image_Prompts.md`. Exact fonts/sizes/hex/layout px for designed ads, scene palettes, lighting K, camera, QA checklists, and a PRODUCT LOCK block that requires Nate's real vent-cover reference photos (REF-1..4) on every product image. Route B (plate + typeset) preferred for exact fonts.
+
 - **2026-09-26** — Supplier facts confirmed: standard US plug; shipping 5–12 days. Added to PDP FAQ + attribute grid. Wattage still open.
 
 - **2026-09-26** — Gap pass actions (founder): offer-terms-in-image rule scrapped everywhere (never his rule); old batch-1 cell plans deleted from Launch_Plan / Launch_Campaign_SA1 / Ad_Format_Strategy and pointed at current batch files; B1C1 native copy saved to `ads/batch-1/copy/B1C1_Copy.md`; PDP FAQ expanded to 14; outcome eyebrow "After" → "That room, at 4pm". Ad↔PDP congruence and single-unit shipping disclosure deliberately NOT changed — ads create curiosity, PDP explains; shipping waits for data.
