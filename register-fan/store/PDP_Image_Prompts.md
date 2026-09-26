@@ -49,6 +49,18 @@ shown on the display, which must read exactly as specified in this prompt.
 - Photos must look like real photographs: grain, true colour, small imperfections.
 - No text overlays, badges or graphics inside any photo. The page adds all type.
 
+### 0c-2. What the reference photos showed (2026-09-26)
+
+- **It's a floor register.** Every in-room image shows it set flush in the **floor**, not the wall.
+- The display with its buttons is at the right-hand end, and it comes with a remote.
+- **Listing-style references leak their style.** When the references came in, one generation copied their living room, the air swirls, the flying leaves and the hand holding the remote. Every product prompt below therefore ends with the ANTI-LISTING line:
+
+```
+Use the reference images ONLY for the product's appearance. Do not copy their
+background, room, lighting, props, people, hands, remote, pets, plants, air-flow
+swirls, wind lines, leaves or any graphic effects.
+```
+
 ### 0d. Gallery order
 **1c (installed) → 1a (on white) → 1b (display) → 1d (in hand) → 1e (bronze, if stocked).**
 
@@ -57,7 +69,7 @@ shown on the display, which must read exactly as specified in this prompt.
 ## 1a. Product on white *(gallery 2)* · [PRODUCT LOCK]
 
 ```
-[Attach REF-1 to REF-3. Paste PRODUCT LOCK.]
+[Attach REF-1 to REF-3. Paste PRODUCT LOCK and the ANTI-LISTING line.]
 
 A clean, honest e-commerce product photograph of the vent cover from the reference
 images, alone, on a seamless warm off-white background (#FAF7F2) that runs smoothly
@@ -90,7 +102,7 @@ Aspect ratio 1:1, 1400 x 1400.
 ## 1b. The display, close *(gallery 3)* · [PRODUCT LOCK]
 
 ```
-[Attach REF-2 (primary) and REF-1. Paste PRODUCT LOCK.]
+[Attach REF-2 (primary) and REF-1. Paste PRODUCT LOCK and the ANTI-LISTING line.]
 
 A tight macro photograph of the display / control end of the vent cover from the
 reference images, filling most of the frame. The display is lit and reads "72°", digits
@@ -116,19 +128,19 @@ Aspect ratio 1:1, 1400 x 1400.
 ## 1c. Installed in the wall ⭐ *gallery image 1 — the most important one* · [PRODUCT LOCK]
 
 ```
-[Attach REF-1 to REF-4. Paste PRODUCT LOCK.]
+[Attach REF-1 to REF-4. Paste PRODUCT LOCK and the ANTI-LISTING line.]
 
-A candid photograph of the vent cover from the reference images installed low on an
-ordinary interior wall in a North American home, exactly where an old register would be:
-its faceplate flush against the wall, its bottom edge about 3 inches above a white
-painted baseboard (#F2F0EB). The wall is flat warm greige paint (#D9D2C5) with a couple
-of faint scuffs. Beige low-pile carpet (#C9B9A0) runs along the bottom fifth of the
-frame, with a visible vacuum line.
+A candid photograph of the vent cover from the reference images installed in the FLOOR
+of an ordinary North American home, exactly where an old floor register would be: set
+into beige low-pile carpet (#C9B9A0) about 8 inches out from a white painted baseboard
+(#F2F0EB), the carpet tucked neatly around its flange, a visible vacuum line nearby.
+Above it, the lower part of a flat warm greige wall (#D9D2C5) with a couple of faint
+scuffs.
 
 DISPLAY: Lit, reading "72°", legible.
 
 THE CORD: A thin white cord leaves the unit at the exit point shown on the references,
-runs a few inches down to the baseboard, and along it about 12 inches to a standard white
+runs across the carpet to the baseboard, and along it about 12 inches to a standard white
 US duplex outlet on the baseboard, plugged in. It lies naturally and is not hidden or
 perfectly tidied. The plug is visible.
 
@@ -139,7 +151,7 @@ LIGHT: Ordinary afternoon daylight from a window out of frame to the left, soft 
 slightly warm (about 5000 K), with a gentle gradient across the wall. No flash.
 
 CAMERA: Shot as if on a phone at standing-to-crouching height (about 3 feet), looking
-slightly down at the unit, ~26 mm equivalent, f/1.8. The unit sits in the middle third,
+slightly down at the floor, ~26 mm equivalent, f/1.8. The unit sits in the middle third,
 slightly left of centre. Realistic phone-camera quality: mild grain, natural white
 balance, very slight tilt. No HDR, no cinematic grade.
 
@@ -152,7 +164,7 @@ Aspect ratio 1:1, 1400 x 1400.
 ## 1d. In hand, for scale *(gallery 4)* · [PRODUCT LOCK]
 
 ```
-[Attach REF-1 and REF-3. Paste PRODUCT LOCK.]
+[Attach REF-1 and REF-3. Paste PRODUCT LOCK and the ANTI-LISTING line.]
 
 An adult's hand holding the vent cover from the reference images by its left end, the
 faceplate toward camera, at chest height in an ordinary hallway. Four fingers wrap round
@@ -187,7 +199,7 @@ Use the 1a prompt exactly, but attach the **bronze** reference photo, and replac
 **Job:** the section right after the hand test, captioned *"That room, at 4pm."* It shows the room back in use.
 
 ```
-[Attach REF-1 to REF-3. Paste PRODUCT LOCK.]
+[Attach REF-1 to REF-3. Paste PRODUCT LOCK and the ANTI-LISTING line.]
 
 A candid, unposed smartphone photograph of a small upstairs home office in an ordinary
 North American suburban house at about 4:00 pm on a very hot, cloudless day in late
@@ -211,8 +223,8 @@ the back. Cardigan over the chair back.
 ROOM: The white six-panel door behind her stands wide open to the hallway. No fan
 anywhere in the room.
 
-THE PRODUCT: Low on the right-hand wall under the desk, just above the baseboard, the vent
-cover from the reference images installed flush, display lit reading "72°". Small in
+THE PRODUCT: In the carpet under the desk, near the right-hand wall, the vent cover from the
+reference images set flush in the floor, display lit reading "72°". Small in
 frame (about 8% of image width), in the natural shadow under the desk, recognisable but
 not the subject. Its thin white cord runs along the baseboard to an outlet.
 
@@ -268,7 +280,7 @@ Aspect ratio 4:3, 1600 x 1200.
 
 ## 8. Install steps — three matched images *(optional, no slot in the section yet)* · [PRODUCT LOCK on 2 and 3]
 
-**Identical framing, wall, light and carpet in all three** (the 1c room: greige wall `#D9D2C5`, white baseboard, beige carpet, white US outlet 12 inches to the right). Camera fixed at about 3 feet high, straight on, ~26 mm, 5000 K window light from the left. Phone quality, mild grain. 4:3, 1600 × 1200 each.
+**These were written for a wall register. The product is a floor register, so shoot these looking down at the floor opening (same framing as §7) when they're generated.** **Identical framing, light and carpet in all three** (the 1c room: greige wall `#D9D2C5`, white baseboard, beige carpet, white US outlet 12 inches to the right). Camera fixed at about 3 feet high, straight on, ~26 mm, 5000 K window light from the left. Phone quality, mild grain. 4:3, 1600 × 1200 each.
 
 ```
 STEP 1 — A hand holding a manual screwdriver with a red-and-black handle (brand markings
@@ -277,13 +289,13 @@ register with louvred slats, mounted low on the wall above the baseboard. The se
 screw is already out and resting on the baseboard ledge.
 ```
 ```
-STEP 2 — [Attach REFs. Paste PRODUCT LOCK.] Same framing. The old register is gone and
+STEP 2 — [Attach REFs. Paste PRODUCT LOCK and the ANTI-LISTING line.] Same framing. The old register is gone and
 leaning against the baseboard at the left edge of the frame; the dark rectangular duct
 opening is exposed in the wall. Two hands hold the vent cover from the reference images
 and are lowering it into the opening, about an inch from flush. Display unlit.
 ```
 ```
-STEP 3 — [Attach REFs. Paste PRODUCT LOCK.] Same framing. The vent cover is fitted flush
+STEP 3 — [Attach REFs. Paste PRODUCT LOCK and the ANTI-LISTING line.] Same framing. The vent cover is fitted flush
 and screwed in, display lit reading "72°". A hand is pushing its white plug into the
 outlet 12 inches to the right; the cord runs along the baseboard between them.
 ```

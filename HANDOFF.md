@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-26** — Batch 1 images: C1 and C3 approved. C2 failed: the product references pulled it into listing style (stock living room, dog, air swirls, remote). C2 is now an edit of the approved C1 image (same room, fans removed, woman working comfortably), with no product in frame. The references show a floor register with a right-end display and a remote, so the PDP prompts now put it in the floor and carry an anti-listing-style line.
+
 - **2026-09-26** — Image prompts rebuilt to full spec (founder): `ads/batch-1/B1_Image_Prompts.md` and `store/PDP_Image_Prompts.md`. Exact fonts/sizes/hex/layout px for designed ads, scene palettes, lighting K, camera, QA checklists, and a PRODUCT LOCK block that requires Nate's real vent-cover reference photos (REF-1..4) on every product image. Route B (plate + typeset) preferred for exact fonts.
 
 - **2026-09-26** — Supplier facts confirmed: standard US plug; shipping 5–12 days. Added to PDP FAQ + attribute grid. Wattage still open.

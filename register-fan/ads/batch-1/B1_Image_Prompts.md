@@ -137,7 +137,7 @@ Aspect ratio 4:5, 1080 x 1350.
 
 # B1C2 — Outcome static · "No more switching rooms because of the heat."
 
-**Job:** show the outcome. The problem room at 4pm, hard sun still coming in, and someone working in it comfortably. The box fan is switched off and retired in the corner. The product can appear small and true-to-reference in the wall. It is not the subject.
+**Job:** show the outcome. **The same room as B1C1**, same hard 4pm sun, now with someone working in it comfortably and both fans gone. No product.
 
 ## Layout spec (1080 × 1350)
 
@@ -176,121 +176,74 @@ Aspect ratio 4:5, 1080 x 1350.
 - No drop shadows, outlines, glows or gradients on any text. No logo, no wordmark.
 - Band is a flat solid `#B4553A`, no texture, no gradient, square edge where it meets the photo (no curve, no torn-paper edge).
 
-## Route B — photograph plate (preferred)
+## Why the first generation failed (2026-09-26)
 
-Generate this at **1080 × 750** (or 1440 × 1000 and scale), then place under the band.
+The text band was fine. The photo was a stock product ad: a generic living room, a sleeping dog, a styled plant, the vent as the hero on the floor, fake air swirls and flying leaves, a hand holding the remote, glossy render lighting. **Cause:** attaching the product reference photos, which are listing-style shots, pulled the whole image into listing style. The model copied the scene and the effects, not just the product. It also ignored the room and the person.
 
-```
-[Attach REF-1 to REF-3. Paste PRODUCT LOCK block from section 0a here.]
+**Fix:** no product in C2, and build the photo **by editing the B1C1 image**. The C1 generation came out right, and using the same room makes the two ads the same house: C1 is the room she gave up on, C2 is that room back. Our product is in C3 and on the product page; C2 sells the outcome.
 
-A candid, unposed smartphone photograph of a small upstairs home office in an ordinary
-North American suburban house at about 4:00 pm on a very hot, cloudless day in late July.
-The same kind of room as a typical spare bedroom converted to an office: flat warm greige
-walls (#D9D2C5) with light scuffs, white baseboards, beige low-pile carpet (#C9B9A0).
+## Route B — edit the B1C1 image (preferred)
 
-LIGHT: The heat of the day is obvious — hard, low, golden late-afternoon sun (around
-4500 K) comes through a west-facing window at the left of frame, the white mini-blinds
-raised halfway, throwing bright slatted stripes across the desk, the person's back and
-the carpet. Warm, high-contrast, a little overexposed in the stripes.
-
-PERSON: A woman in her mid-40s, seen from behind and slightly to her left (three-quarter
-back view, face NOT visible), sitting at a plain white desk against the right wall,
-typing on an open silver laptop (manufacturer logo visible on the lid). She wears a
-heather-grey crew-neck t-shirt and navy shorts, shoulder-length brown hair loosely tied
-back with a claw clip. Posture relaxed and settled: shoulders down, one bare foot tucked
-up on the seat of her black mesh office chair, the other flat on the carpet. No sweat,
-no fanning herself, no tension — she is simply comfortable and working.
-
-DESK: A tall glass of iced water with visible ice cubes and light condensation beside
-the laptop, on a cork coaster. A phone face-down. A mug of pens. A yellow sticky note
-stuck to the laptop's bezel. A charging cable trailing off the back edge. A light
-cardigan hung over the back of the chair.
-
-THE RETIRED FAN: In the far-left corner of the room, below the window, a black plastic
-20-inch box fan sits switched OFF (blades perfectly still and sharp), pushed right up
-against the wall and slightly angled away from the room, its grey power cord wrapped
-around its carry handle. Its manufacturer's name plate is visible. It reads clearly as
-put away, no longer in use.
-
-THE DOOR: The white six-panel door behind her, on the far wall, stands wide open to a
-softly lit hallway.
-
-THE PRODUCT: Low on the right-hand wall under the desk, just above the baseboard, the
-vent cover from the reference images is installed flush in the wall where an old
-register would be, its display lit and reading "72°". It is small in the frame (roughly
-6–8% of the image width), in natural shadow under the desk, slightly out of focus — a
-real object in a real room, not a hero product shot. Its thin white cord runs a short
-distance along the baseboard to a white outlet.
-
-COMPOSITION: Shot from the doorway area at standing height (about 5 feet), angled
-slightly down and to the right. The person and desk occupy the right half; the window
-and the retired fan the left third; the open door visible behind. Keep the TOP 10% of
-this plate calm (wall and ceiling line only) because a text band sits directly above it.
-
-CAMERA / RENDERING: As if shot on an iPhone, ~24 mm equivalent, f/1.8, handheld. Horizon
-tilted about 1 degree. Mild shadow noise, slight highlight clipping in the sun stripes,
-natural slightly warm white balance. No HDR, no cinematic grade, no vignette, no bokeh.
-
-EXCLUDE: her face; any sweat, discomfort or fanning; a running fan; any text, caption,
-sticker or overlay in the photo; any logo added to the vent cover that isn't on the
-reference; studio lighting; magazine styling; plants arranged decoratively.
-
-Aspect ratio 1080 x 750 (approximately 1.44:1, landscape).
-```
-
-## Route A — full composite, one pass
+**Input:** attach the approved **B1C1 image** (the empty office, doorway view, box fan + tower fan). **Do NOT attach the product reference photos.**
 
 ```
-[Attach REF-1 to REF-3. Paste PRODUCT LOCK block from section 0a here.]
+Edit the attached photograph. Keep the room EXACTLY as it is: same camera position from
+the open doorway, same lens, same framing, same white six-panel door and brass knob on
+the left edge, same greige walls, same window with the white mini-blinds, the same tree
+outside, same beige carpet with its vacuum tracks, same white desk against the right
+wall, same black mesh office chair, same wall outlet, same textured ceiling. Keep the same
+hard late-afternoon sunlight coming through the blinds and throwing slatted stripes
+across the right wall, the desk and the carpet. It is still the hottest part of the day.
 
-A vertical 4:5 social advertisement, 1080 x 1350 pixels, made of two stacked parts.
+CHANGES — only these:
 
-PART 1 — TEXT BAND (top 600 pixels, full width): a flat, solid, untextured terracotta
-colour, hex #B4553A. Inside it, 64-pixel margins on the left and right and 64 pixels of
-padding at the top, left-aligned text in off-white #FAF7F2:
+1. REMOVE BOTH FANS. The black box fan and the white tower fan are gone completely. The
+   carpet where the box fan stood is plain carpet with a faint flattened square where it
+   used to sit. The outlet on the wall below the window is empty, nothing plugged in.
 
-  Line group 1 — the headline, in a heavy, tight, confident geometric grotesque sans
-  serif (Archivo ExtraBold style), about 70 px, tight line spacing, broken exactly as:
-      "No more switching rooms
-       because of the heat."
+2. ADD A PERSON WORKING AT THE DESK. A woman in her mid-40s sits in the black mesh chair,
+   pulled in to the desk, seen from behind and slightly to her left (three-quarter back
+   view) — her face is NOT visible. Shoulder-length brown hair loosely held up with a
+   tortoiseshell claw clip. Heather-grey crew-neck t-shirt, navy cotton shorts, bare legs,
+   one bare foot tucked up on the edge of the chair seat, the other flat on the carpet.
+   She is typing on the laptop, which is now OPEN on the desk with its screen lit (screen
+   content soft and not readable). Her posture is relaxed and settled: shoulders down,
+   back loose, head tilted slightly toward the screen. The sun stripes fall across her
+   back and shoulder. She looks completely comfortable. No sweat, no damp patches, no
+   fanning, no hair stuck to the neck.
 
-  Line group 2 — 28 px below, in a clean neutral sans serif (Inter Regular style), about
-  29 px, comfortable line spacing, slightly softer off-white:
-      "Not a bigger fan — a fan never cooled the room anyway. This pulls the cold air
-       your AC already makes all the way in."
+3. DESK CHANGES. The glass of water becomes a tall glass of iced water with visible ice
+   cubes and light condensation. Keep the yellow legal pad, pen and mug of pens. Add her
+   phone lying face-down beside the laptop.
 
-  Line group 3 — 18 px below, same sans serif but semibold, full off-white, about 29 px:
-      "The door stays open. The box fan goes back in the garage."
+Everything else in the image stays identical. Same photographic quality as the original:
+real phone photo, mild grain, slight highlight clipping in the sun stripes, natural warm
+white balance, no HDR, no cinematic grade.
 
-  Line group 4 — 22 px below, in a monospaced typeface (JetBrains Mono style), about
-  30 px:
-      "$89"
+DO NOT ADD: any fan, air conditioner, vent device or product; air swirls, wind lines,
+leaves or any visual effect showing air; plants, pets, cushions or throws; any text,
+logo or overlay; a remote control or hand in the foreground.
 
-All text crisp, correctly spelled, evenly kerned, fully legible on a phone. No shadows,
-outlines, glows or gradients on text. No logo, no wordmark, no badge.
-
-PART 2 — PHOTOGRAPH (bottom 750 pixels, full width, meeting the band with a straight
-square edge): [insert the full Route B photograph description here, from "A candid,
-unposed smartphone photograph..." through "EXCLUDE"].
-
-STRICTLY EXCLUDE anywhere in the image: badges, stickers, starbursts, ribbons, buttons,
-arrow graphics, countdown timers, guarantee seals, star ratings, shipping icons, any
-promotional graphic furniture.
-
-Aspect ratio 4:5, 1080 x 1350.
+Output 1080 x 750, cropped from the original so that the desk, the woman and the window
+are all in frame and the top edge sits at the ceiling line.
 ```
+
+**Then set the type in Canva/Figma over a 1080 × 1350 canvas:** terracotta `#B4553A` band 0–600px, this photo 600–1350px, text per the type spec above. The band from the first generation was already right, so it can be reused as-is.
+
+## Route A — one pass, if not editing
+
+Only if the C1 image isn't available. Use the Route B change list as a description of the room from scratch ("a candid phone photo from the open doorway of a small upstairs home office…", with the C1 room description from the B1C1 prompt) and the same DO NOT ADD list. **Still no product references attached.**
 
 ## QA before using
 - [ ] Headline breaks as *"No more switching rooms / because of the heat."*, all words spelled right
 - [ ] Price is `$89` in the mono face, nothing else priced
 - [ ] Sun is clearly hot; the person is clearly comfortable; face not visible
-- [ ] Box fan is **off** (sharp, still blades) with its cord wrapped
-- [ ] Door open
-- [ ] Vent cover matches the references and reads `72°`, and it's small and not the hero
+- [ ] **No fans in the room at all**, and no air effects
+- [ ] **Same room as B1C1.** No product, no remote, no dog, no plants
 - [ ] At thumbnail size the headline reads, and the photo reads "comfortable in a sunny room"
 
 ## Cold version (hold for the pivot)
-Change: headline → *"No more switching rooms because of the cold."* · light → flat grey 4 pm winter overcast, bare branches through the window, blinds fully up · her clothes → oatmeal chunky knit sweater, leggings, wool socks · iced water → steaming mug of tea · retired device in corner → small oil-filled radiator, unplugged, cord wrapped · display → `70°` · body line → *"…This pulls the warm air your furnace already makes all the way in."*
+Change: headline → *"No more switching rooms because of the cold."* · light → flat grey 4 pm winter overcast, bare branches through the window, blinds fully up · her clothes → oatmeal chunky knit sweater, leggings, wool socks · iced water → steaming mug of tea · no heater anywhere · body line → *"…This pulls the warm air your furnace already makes all the way in."*
 
 ---
 
