@@ -53,30 +53,17 @@ Upstairs home office from the doorway, hot late-afternoon sun, box fan on the ca
 
 ---
 
-## B1C2 — Static · the outcome ⭐ *rebuilt 2026-09-26*
+## B1C2 — Relatable Hook · "NO MORE SWITCHING ROOMS BECAUSE OF THE HEAT." ⭐ rebuilt 2026-09-26
 
-**Format:** Outcome static — the after, photographed · **TOF** · all placements
-**Desire-channel method:** 2 — Indirect Implication (they supply "that's my room" themselves)
+**Format:** **Relatable Hook** (swipe file: situational call-out + benefit stack) · **TOF** · all placements
 **Awareness journey:** Problem Aware → Solution Aware
-**Earns the read:** shows the thing they want — working in that room in the afternoon — which they know they can't do right now.
+**Earns the read:** names the thing they do every hot afternoon, over a photo of the room they recognise from C1, now usable.
 
-**Why rebuilt:** the previous version was a product ad. The hook was about their fan, the picture was a vent, the payoff was "it's a fan for the vent." Nobody buys a fan for the fan; they buy it to be cool. The outcome is the ad now. The mechanism is one line, only there so they'll believe it.
+**Image:** the approved B1C1 room, edited: both fans gone, a woman working comfortably at the desk in the hard 4pm sun, iced water. **No product.**
+**Headline on image:** NO MORE SWITCHING ROOMS / BECAUSE OF THE HEAT. (Archivo ExtraBold caps, over the ceiling)
+**Benefit chips on the photo:** ✓ Still at the desk at 4pm · ✓ Both fans in the garage · ✓ Door open again
 
-> **ZONE 1 — the outcome (earns the read)**
-> ## No more switching rooms because of the heat.
->
-> **ZONE 2 — why they'd believe it (one line, subordinate)**
-> Not a bigger fan — a fan never cooled the room anyway. This pulls the cold air your AC already makes all the way in.
->
-> **ZONE 3 — the rest of the outcome + light nudge**
-> The door stays open. The box fan goes back in the garage.
-> *$89.*
-
-> **Design:** 4:5. Full-bleed photo of the outcome: the problem room at 4pm, hard afternoon sun, someone working comfortably at the desk, door open, the box fan unplugged in the corner with its cord wrapped round it. Text on a terracotta `#B4553A` band across the top third, off-white Archivo. The product isn't the subject; if it's in frame it's small, in the wall, out of focus. **No badge, no CTA button, no guarantee strip.**
-
-**Primary text:** see `copy/B1C2_Copy.md`
-**Headline:** *No more switching rooms because of the heat*
-**Description:** *The hot room, fixed. $89.99.*
+**Primary text, headline, description:** `copy/B1C2_Copy.md` · **Image + type spec:** `B1_Image_Prompts.md`
 
 ---
 

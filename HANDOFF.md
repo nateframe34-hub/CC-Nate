@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-26** — B1C2 rebuilt as a **Relatable Hook** (swipe format, founder call): C1 room edited (fans gone, woman working comfortably), caps headline over the ceiling, three outcome chips on the photo. No product, no price in the image.
+
 - **2026-09-26** — Only one product reference exists (white unit on white, with remote). The PRODUCT LOCK in both prompt files is now a full written spec: floor register, 18 vertical bars, two 5-blade fans, black display panel on the right with icons and 3-digit °F readout, two 3-button strips, screw holes at both ends. White #F4F4F2 / bronze dark oil-rubbed ~#3B2F28 (never copper or pink). Display reads 72°F, never 188. Open question: C2's format isn't from the swipe file.
 
 - **2026-09-26** — Batch 1 images: C1 and C3 approved. C2 failed: the product references pulled it into listing style (stock living room, dog, air swirls, remote). C2 is now an edit of the approved C1 image (same room, fans removed, woman working comfortably), with no product in frame. The references show a floor register with a right-end display and a remote, so the PDP prompts now put it in the floor and carry an anti-listing-style line.

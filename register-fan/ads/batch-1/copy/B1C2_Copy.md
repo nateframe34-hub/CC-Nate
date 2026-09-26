@@ -1,24 +1,21 @@
-# B1C2 — "No more switching rooms because of the heat." *(rebuilt 2026-09-26 — outcome-led)*
+# B1C2 — Relatable Hook · "NO MORE SWITCHING ROOMS BECAUSE OF THE HEAT." *(rebuilt 2026-09-26)*
 
-**Sub-Avatar:** SA1 The Fan Runner · **Angle:** A1 — cools the room instead of just moving the hot air around it
-**Format:** Outcome static (the after, shown) · **Method:** 2, Indirect Implication · **Funnel:** TOF
+**Sub-Avatar:** SA1 The Fan Runner · **Angle:** A1, the room itself gets cool (outcome-led)
+**Format:** **Relatable Hook** (swipe file: situational call-out + benefit stack, "12-HOUR SHIFT SHOES" structure) · **Funnel:** TOF
 **Awareness:** Problem Aware → Solution Aware
 
-**Why rebuilt:** the old version sold the product ("a fan for the vent") on a picture of a vent. People don't buy a fan for the fan — they buy it to be cool. Nobody wants a vent; they want the room back. The ad now leads with, shows and closes on the outcome. The mechanism survives only as the reason to believe it.
+**Image:** the B1C1 room edited, with both fans gone and her working comfortably in the 4pm sun. No product. Full spec: `B1_Image_Prompts.md`.
 
 ---
 
 ## In-image text
 
-> **ZONE 1 — the outcome (earns the read)**
-> ## No more switching rooms because of the heat.
+> **Headline (caps, over the ceiling):** NO MORE SWITCHING ROOMS / BECAUSE OF THE HEAT.
 >
-> **ZONE 2 — why they'd believe it (one line, subordinate)**
-> Not a bigger fan — a fan never cooled the room anyway. This pulls the cold air your AC already makes all the way in.
->
-> **ZONE 3 — the rest of the outcome + light nudge**
-> The door stays open. The box fan goes back in the garage.
-> *$89.*
+> **Callout chips on the photo:**
+> ✓ Still at the desk at 4pm *(by her)*
+> ✓ Both fans in the garage *(on the empty carpet)*
+> ✓ Door open again *(by the door)*
 
 ---
 

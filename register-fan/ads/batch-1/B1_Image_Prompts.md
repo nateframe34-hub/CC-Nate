@@ -155,56 +155,21 @@ Aspect ratio 4:5, 1080 x 1350.
 
 ---
 
-# B1C2 — Outcome static · "No more switching rooms because of the heat."
+# B1C2 — Relatable Hook · "NO MORE SWITCHING ROOMS BECAUSE OF THE HEAT."
 
-**Job:** show the outcome. **The same room as B1C1**, same hard 4pm sun, now with someone working in it comfortably and both fans gone. No product.
+**Format (swipe file):** **Relatable Hook**, a situational call-out plus a benefit stack (the "12-HOUR SHIFT SHOES" structure). One bold line in capitals names the situation. The real photo underneath proves it. Short outcome callouts sit on the photo, pointing at the things that changed.
 
-## Layout spec (1080 × 1350)
+**Rebuilt 2026-09-26.** Replaces the text-band design, which wasn't a swipe format and read as a designed ad. The first generation's photo also failed (stock living room, dog, air swirls, product as the hero), because the listing-style product reference pulled it into listing style.
 
-```
-┌──────────────────────────────────────────┐  y=0
-│  TERRACOTTA BAND  #B4553A  (full width)  │
-│  64 px side margins, 64 px top padding   │
-│                                          │
-│  HEADLINE  (3 lines max)                 │
-│  BODY      (3 lines)                     │
-│  LINE 3    (2 lines)                     │
-│  PRICE                                   │
-│                                          │  y≈600 (band bottom, 56 px padding)
-├──────────────────────────────────────────┤
-│                                          │
-│  PHOTOGRAPH (full width, 1080 × 750)     │
-│  subject sits in this lower area         │
-│                                          │
-└──────────────────────────────────────────┘  y=1350
-```
+**Product:** not in frame. C2 sells the outcome; C3 and the product page show the product.
 
-## Type spec
+## Why the photo is an edit of C1
 
-| Element | Text (exact) | Font | Size | Line height | Tracking | Colour | Align |
-|---|---|---|---|---|---|---|---|
-| Headline | **No more switching rooms because of the heat.** | Archivo ExtraBold 800 | 70 px | 1.04 (73 px) | −1% | `#FAF7F2` | Left |
-| Gap | — | — | 28 px | — | — | — | — |
-| Body | Not a bigger fan — a fan never cooled the room anyway. This pulls the cold air your AC already makes all the way in. | Inter Regular 400 | 29 px | 1.38 (40 px) | 0 | `#FAF7F2` at 92% opacity | Left |
-| Gap | — | — | 18 px | — | — | — | — |
-| Line 3 | The door stays open. The box fan goes back in the garage. | Inter SemiBold 600 | 29 px | 1.38 | 0 | `#FAF7F2` 100% | Left |
-| Gap | — | — | 22 px | — | — | — | — |
-| Price | $89 | JetBrains Mono Medium 500, tabular | 30 px | 1.0 | +2% | `#FAF7F2` 100% | Left |
+The C1 image came out right. Editing it makes C1 and C2 the **same room**: C1 is the room she gave up on, C2 is that room back. That kind of consistency across the batch is something stock scenes can't give you.
 
-- Text column width: **952 px** (1080 − 2 × 64). Ragged right, no hyphenation, no widows (the headline must not end on a single word — rebreak as *"No more switching rooms / because of the heat."*).
-- The em dash in the body is a true em dash (—) with a space either side.
-- No drop shadows, outlines, glows or gradients on any text. No logo, no wordmark.
-- Band is a flat solid `#B4553A`, no texture, no gradient, square edge where it meets the photo (no curve, no torn-paper edge).
+## Step 1 — the photo: edit the approved B1C1 image
 
-## Why the first generation failed (2026-09-26)
-
-The text band was fine. The photo was a stock product ad: a generic living room, a sleeping dog, a styled plant, the vent as the hero on the floor, fake air swirls and flying leaves, a hand holding the remote, glossy render lighting. **Cause:** attaching the product reference photos, which are listing-style shots, pulled the whole image into listing style. The model copied the scene and the effects, not just the product. It also ignored the room and the person.
-
-**Fix:** no product in C2, and build the photo **by editing the B1C1 image**. The C1 generation came out right, and using the same room makes the two ads the same house: C1 is the room she gave up on, C2 is that room back. Our product is in C3 and on the product page; C2 sells the outcome.
-
-## Route B — edit the B1C1 image (preferred)
-
-**Input:** attach the approved **B1C1 image** (the empty office, doorway view, box fan + tower fan). **Do NOT attach the product reference photos.**
+**Input:** attach the approved **B1C1 image** only. **Do NOT attach the product reference.**
 
 ```
 Edit the attached photograph. Keep the room EXACTLY as it is: same camera position from
@@ -236,34 +201,98 @@ CHANGES — only these:
    cubes and light condensation. Keep the yellow legal pad, pen and mug of pens. Add her
    phone lying face-down beside the laptop.
 
-Everything else in the image stays identical. Same photographic quality as the original:
-real phone photo, mild grain, slight highlight clipping in the sun stripes, natural warm
-white balance, no HDR, no cinematic grade.
+Everything else in the image stays identical, including the full frame: keep the
+ceiling and the plain wall above the window, because text will be placed there. Same
+photographic quality as the original: real phone photo, mild grain, slight highlight
+clipping in the sun stripes, natural warm white balance, no HDR, no cinematic grade.
 
 DO NOT ADD: any fan, air conditioner, vent device or product; air swirls, wind lines,
 leaves or any visual effect showing air; plants, pets, cushions or throws; any text,
-logo or overlay; a remote control or hand in the foreground.
+logo or overlay; a remote control or a hand in the foreground.
 
-Output 1080 x 750, cropped from the original so that the desk, the woman and the window
-are all in frame and the top edge sits at the ceiling line.
+Output 4:5, 1080 x 1350, same framing as the original.
 ```
 
-**Then set the type in Canva/Figma over a 1080 × 1350 canvas:** terracotta `#B4553A` band 0–600px, this photo 600–1350px, text per the type spec above. The band from the first generation was already right, so it can be reused as-is.
+## Step 2 — type, set in Canva / Figma on top of the photo (full bleed, 1080 × 1350)
 
-## Route A — one pass, if not editing
+### Layout
 
-Only if the C1 image isn't available. Use the Route B change list as a description of the room from scratch ("a candid phone photo from the open doorway of a small upstairs home office…", with the C1 room description from the B1C1 prompt) and the same DO NOT ADD list. **Still no product references attached.**
+```
+┌──────────────────────────────────────────┐ y=0
+│ NO MORE SWITCHING ROOMS                  │ ← headline over ceiling / upper wall
+│ BECAUSE OF THE HEAT.                     │   y 56–236, x 56–1024
+│                                          │
+│        [window]                          │
+│                                  ┌──────┐│
+│                                  │ ✓ Still at the desk at 4pm │ ← near her shoulder
+│  ┌────────────────┐              └──────┘│
+│  │ ✓ Both fans in the garage │  ← on the empty carpet where the box fan stood
+│  └────────────────┘                      │
+│┌──────────┐                              │
+││✓ Door open again│ ← by the door edge, left
+│└──────────┘                              │
+└──────────────────────────────────────────┘ y=1350
+```
+
+### Headline
+
+| Property | Value |
+|---|---|
+| Text (exact) | **NO MORE SWITCHING ROOMS / BECAUSE OF THE HEAT.** (break exactly there) |
+| Font | **Archivo ExtraBold 800**, ALL CAPS |
+| Size | 64 px, line height 1.05 (67 px), tracking −0.5% |
+| Colour | `#1C1A17` warm near-black, straight on the photo, no box |
+| Position | Left-aligned, x = 56 px, top of cap height at y = 60 px, max width 968 px |
+| Legibility | If the ceiling/wall behind is too busy or dark, add a soft `#FAF7F2` glow behind the letters (outer glow, 0 offset, 18 px blur, 55% opacity). No drop shadow, no outline, no solid band |
+
+### Benefit callouts (3), as small label chips placed on the photo
+
+| # | Text (exact) | Placed |
+|---|---|---|
+| 1 | Still at the desk at 4pm | Beside her shoulder / the laptop, right side, around y ≈ 560 |
+| 2 | Both fans in the garage | On the empty carpet where the box fan stood, left-centre, around y ≈ 900 |
+| 3 | Door open again | Near the door edge, bottom left, around y ≈ 1180 |
+
+| Property | Value |
+|---|---|
+| Chip | Rounded rectangle, corner radius 14 px, fill `#FAF7F2` at 94% opacity, padding 14 px vertical / 20 px horizontal, soft shadow 0 4 px 12 px `rgba(28,26,23,0.18)` |
+| Check | A filled terracotta `#B4553A` circle, 30 px, with a white `✓` inside (Inter Bold 18 px), 12 px left of the text |
+| Text | **Inter SemiBold 600**, 30 px, `#1C1A17`, sentence case, single line |
+| Pointer | None. The chip sits right next to the thing it describes |
+
+### Not in the image
+No price, no logo, no wordmark, no CTA button, no badge, no product. The price lives in the primary text. (A small `$89` in JetBrains Mono 28 px bottom-right is an easy add if you want a value nudge; it's off by default.)
+
+## Route A — one pass (only if not using Canva)
+
+Attach the approved C1 image, paste the Step 1 edit prompt, then add:
+
+```
+Then add text to the image:
+- At the top, over the ceiling and the plain wall above the window, left-aligned with
+  a 56-pixel margin, in a heavy, tight geometric grotesque sans serif (Archivo
+  ExtraBold style), ALL CAPITALS, warm near-black #1C1A17, about 64 px, broken exactly as:
+      "NO MORE SWITCHING ROOMS
+       BECAUSE OF THE HEAT."
+- Three small rounded off-white (#FAF7F2) label chips placed on the photo, each with a
+  small solid terracotta (#B4553A) circle holding a white checkmark, then text in a
+  clean semibold sans serif (Inter style), about 30 px, #1C1A17:
+      next to the woman's shoulder: "Still at the desk at 4pm"
+      on the empty carpet where a fan used to be: "Both fans in the garage"
+      near the door edge at bottom left: "Door open again"
+All text correctly spelled, crisp, legible on a phone. No other text, no logo, no price,
+no badges, no buttons, no arrows.
+```
 
 ## QA before using
-- [ ] Headline breaks as *"No more switching rooms / because of the heat."*, all words spelled right
-- [ ] Price is `$89` in the mono face, nothing else priced
-- [ ] Sun is clearly hot; the person is clearly comfortable; face not visible
-- [ ] **No fans in the room at all**, and no air effects
-- [ ] **Same room as B1C1.** No product, no remote, no dog, no plants
-- [ ] At thumbnail size the headline reads, and the photo reads "comfortable in a sunny room"
+- [ ] Headline in caps, breaks as *NO MORE SWITCHING ROOMS / BECAUSE OF THE HEAT.*, legible at thumbnail size
+- [ ] **Same room as B1C1**: door, window, desk, chair, carpet all match
+- [ ] **No fans, no air effects, no product, no remote, no pets, no plants**
+- [ ] Hard sun still clearly coming in; she's clearly comfortable; face not visible
+- [ ] Each chip sits next to the thing it names
 
 ## Cold version (hold for the pivot)
-Change: headline → *"No more switching rooms because of the cold."* · light → flat grey 4 pm winter overcast, bare branches through the window, blinds fully up · her clothes → oatmeal chunky knit sweater, leggings, wool socks · iced water → steaming mug of tea · no heater anywhere · body line → *"…This pulls the warm air your furnace already makes all the way in."*
+Headline → *NO MORE SWITCHING ROOMS BECAUSE OF THE COLD.* · edit: flat grey 4pm winter light, bare tree, remove the space heater instead of the fans, her in an oatmeal knit sweater and wool socks, steaming mug of tea · chips → *Still at the desk at 4pm* / *Space heater in the garage* / *Door open again*.
 
 ---
 
