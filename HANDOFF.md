@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-26** — B1C2 now a single one-pass prompt (founder: no edits/Canva): full canvas, headline, 5 bullets, product spec with 72°F display, exclusions, final check, plus a re-run table for misses.
+
 - **2026-09-26** — B1C2 bullets: #4 → "Its own thermostat, separate from the hallway one"; #6 (guarantee stand-in) dropped. Five bullets until a real rating exists (founder).
 
 - **2026-09-26** — B1C2 rebuilt to copy the swipe "12-HOUR SHIFT SHOES" Relatable Hook closely (founder: when using swipes, copy closely; features fine here): white bg, caps outcome headline, 6 terracotta + feature bullets, white product shot with 72°F. The edited-room/chips version is retired.

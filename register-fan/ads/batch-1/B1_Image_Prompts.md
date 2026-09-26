@@ -187,191 +187,151 @@ The shoe ad's bullets aren't a feature list. They follow a strict sequence, and 
 
 **Rules the swipe follows, and so do ours:** one line each · starts with the feature or claim · ends on their problem in their words · no adjectives doing the work ("amazing", "premium") · the sequence runs who/price → outcome → three feature-for-pain lines.
 
-## Layout (1080 × 1350)
+## ⭐ THE PROMPT — one pass, final image (founder: no edits, no Canva)
+
+**Attach:** REF-1 (the product photo with the remote) and nothing else. Paste everything inside the box.
 
 ```
-┌──────────────────────────────────────────┐ y=0
-│                                          │
-│  NO MORE SWITCHING ROOMS                 │ headline  y 84–250
-│  BECAUSE OF THE HEAT.                    │
-│                                          │
-│  + A fraction of what a contractor… │ bullets   y 300–690
-│  + Comfortable through long afternoons…      │ 6 lines
-│  + Twin fans for vents that barely…   │
-│  + Its own thermostat, separate from… │
-│  + Two-screw drop-in install. No…       │
-│                                          │
-│        ┌─────────────────────────┐       │ product   y 760–1260
-│        │  [vent cover, 3/4 view] │       │ ~80% canvas width
-│        └─────────────────────────┘       │
-│          soft reflection below           │
-└──────────────────────────────────────────┘ y=1350
+Create ONE finished, ready-to-post social media advertisement image, exactly 1080 pixels
+wide by 1350 pixels tall (4:5 portrait). It is a simple, clean direct-response product
+ad in the style of a classic "headline + plus-sign bullet list + product photo on white"
+e-commerce ad. Everything below must appear in the single image. Nothing else.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. CANVAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Background: one flat, pure, solid white (#FFFFFF) across the entire image, edge to
+  edge. No gradient, no texture, no vignette, no border, no frame, no drop shadow around
+  the edges, no floor line, no horizon, no room, no scene.
+- Margins: 64 px of empty white on the left and right of all text. 70 px empty white at
+  the top. At least 60 px empty white at the bottom below the product.
+- Three zones stacked top to bottom: HEADLINE (top), BULLET LIST (middle), PRODUCT PHOTO
+  (bottom half).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. HEADLINE — top zone, from y = 70 px to about y = 235 px
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Text, exactly, on exactly two lines, ALL CAPITAL LETTERS:
+      Line 1:  NO MORE SWITCHING ROOMS
+      Line 2:  BECAUSE OF THE HEAT.
+  (the full stop after HEAT is included)
+- Typeface: a heavy, bold, tightly spaced geometric grotesque sans-serif — Archivo
+  ExtraBold (weight 800) or the closest match (e.g. Poppins ExtraBold / Montserrat
+  ExtraBold). Flat, solid letterforms. NOT condensed, NOT italic, NOT outlined, NOT a
+  serif, NOT a script, NOT rounded.
+- Size: cap height about 52 px (font size about 72 px). Line 1 spans roughly 900 px of
+  the 952 px text width. Line 2 is shorter.
+- Letter spacing slightly tight (about −1%). Line spacing tight: the two lines sit close,
+  about 76 px baseline to baseline.
+- Colour: solid near-black #111111. No shadow, no glow, no outline, no gradient.
+- Alignment: flush LEFT at x = 64 px. Not centred.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. BULLET LIST — middle zone, first bullet about 60 px below the headline
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Exactly FIVE bullets, each on ONE single line (no line may wrap), in this exact order
+  and wording:
+      +  A fraction of what a contractor quotes for ductwork
+      +  Comfortable through long afternoons in the hot room
+      +  Twin fans for vents that barely blow any air
+      +  Its own thermostat, separate from the hallway one
+      +  Two-screw drop-in install. No contractor needed
+- The "+" marker: a bold plus sign in solid terracotta #B4553A (a warm burnt
+  orange-red), about 34 px tall, vertically centred on the text line, left edge at
+  x = 64 px. The same plus sign for all five. Not a bullet dot, not a checkmark, not an
+  emoji.
+- Bullet text: starts at x = 110 px. Typeface a clean, neutral, regular-weight sans-serif
+  — Inter Regular (400) or the closest match (e.g. Poppins Regular / Helvetica). Font size
+  about 33 px. Colour solid dark charcoal #222222. Sentence case exactly as written
+  (capital first letter only, plus "No" after the full stop in bullet 5).
+- Even spacing: about 60 px baseline to baseline, identical between every bullet. All
+  five left edges perfectly aligned.
+- Punctuation exactly as written: a comma after "thermostat" in bullet 4; a full stop
+  after "install" in bullet 5; no full stops at the end of any bullet. "Two-screw" and
+  "drop-in" are hyphenated.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. PRODUCT PHOTO — bottom zone, from about y = 690 px to about y = 1270 px
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Use the attached reference image ONLY to get the product's exact appearance. Do NOT
+include the remote control from the reference. Do not copy the reference's layout.
+
+THE PRODUCT (match the reference exactly):
+- A flat rectangular WHITE floor vent cover (register) with two built-in fans. About 2.4
+  times as wide as it is tall. One piece of matte bright-white moulded plastic (#F4F4F2),
+  a thin raised rim around the edge, softly rounded outer corners.
+- LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
+  crossed by 18 thin, evenly spaced VERTICAL white bars running top to bottom (not
+  horizontal louvres). Behind the bars, two identical round fans side by side, each with
+  a dark charcoal-grey circular shroud and a black five-blade impeller with broad,
+  curved blades and a small round centre hub.
+- RIGHT about 25% of the face: a vertical, glossy black display panel, taller than it is
+  wide. At its top, two small white icons with tiny labels. In its middle, a large white
+  seven-segment digital readout showing exactly "72" followed by a small "°F". At its
+  bottom, four small white icons in a 2 x 2 grid (a flame, a snowflake, a fan, a
+  crescent moon) with tiny labels under each.
+- To the right of the display: two narrow vertical strips of small square black buttons
+  with white symbols — an upper strip of three (power symbol at top) and a lower strip
+  of three (a mode button, then "+", then "−").
+- One round countersunk screw hole at each short end of the faceplate, centred
+  vertically: one left of the grille, one right of the buttons.
+- No logo, no brand name, no other text anywhere on the product. Exactly two fans.
+- THE DISPLAY MUST READ "72°F". It must NOT read "188" or any other number.
+
+HOW IT IS SHOT:
+- A clean, professional e-commerce product photograph on the same pure white background
+  as the rest of the ad — it sits directly on the ad's white with no box, panel, border
+  or visible edge around it, seamlessly part of the canvas.
+- Angle: seen from the front and slightly above, the product turned about 15 degrees to
+  the left (so the display end is nearer the camera) and tilted back about 20 degrees,
+  like a product lying on a white surface photographed from a low front angle. The whole
+  faceplate is clearly visible: every vertical bar, both fans, and the full display with
+  "72°F" crisp and legible. A thin sliver of the housing's depth shows along the bottom
+  edge.
+- Size and position: horizontally centred, about 860 px wide (from roughly x = 110 to
+  x = 970), vertically centred in the bottom zone.
+- Lighting: bright, soft, even studio light from above and front-left, like a big
+  softbox. The white plastic looks clean and crisp with gentle grey shading on the rim
+  and inside the grille; the fans read dark behind the white bars; the black display is
+  glossy with one soft, subtle highlight that does not cover the digits.
+- A soft, faint mirror reflection of the product on the white surface directly beneath
+  it, about 20% opacity, fading to nothing within about 60 px. A very soft grey contact
+  shadow where it meets the surface.
+- Tack sharp everywhere. Realistic plastic, not a cartoon, not a 3D-render look, not
+  plastic-toy shiny.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. ABSOLUTELY DO NOT INCLUDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- The remote control. Any hand, person, pet, plant or furniture. Any room, floor, wood,
+  carpet or background scene.
+- Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow effects or any visual
+  effect showing air or temperature.
+- Any logo, brand name, wordmark, price, "$", "Shop now" button, badge, sticker, seal,
+  star rating, ribbon, arrow, banner, border or frame.
+- Any text other than the headline and the five bullets. No extra words on the product.
+- Copper, rose-gold, pink, bronze, grey or cream product colour — the product is WHITE.
+- Horizontal grille slats, more or fewer than two fans, the display on the left side.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. FINAL CHECK BEFORE OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Every word is spelled exactly as given. The headline is exactly two lines. There are
+exactly five bullets, each one line, each with a terracotta "+". The product is white,
+has vertical bars, two fans, and a display on the right reading "72°F". The background
+is pure white everywhere. The image is 1080 x 1350.
 ```
 
-## Type spec
+## If a generation misses (re-run, don't edit)
 
-| Element | Text (exact) | Font | Size | Line height | Colour | Align |
-|---|---|---|---|---|---|---|
-| Headline | NO MORE SWITCHING ROOMS / BECAUSE OF THE HEAT. | **Archivo ExtraBold 800**, ALL CAPS, tracking −1.5% | 70 px | 1.02 | `#111111` | Left, x = 64 |
-| Bullet marker | + | Inter Bold 700 | 38 px | — | `#B4553A` terracotta | 64 px from left, text starts at x = 110 |
-| Bullets | see below | **Inter Regular 400** | 33 px | 58 px between bullet baselines | `#222222` | Left, x = 110, max width 906 |
-
-**Bullets (exact, in order):**
-1. + A fraction of what a contractor quotes for ductwork
-2. + Comfortable through long afternoons in the hot room
-3. + Twin fans for vents that barely blow any air
-4. + Its own thermostat, separate from the hallway one
-5. + Two-screw drop-in install. No contractor needed
-
-Each bullet is one line. If one wraps at 33 px, drop to 31 px for all five; don't break a line.
-
-## Step 1 — the product image
-
-### Option 1 (preferred) — use the real product photo
-The supplied photo is already a clean product-on-white shot, which is exactly what the swipe uses (a real product photo). Use it directly:
-1. Crop the remote out.
-2. The display reads the listing placeholder **"188 °F"**. Change it to **"72°F"**: retouch the digits in Photoshop/Canva, or run the photo through Nano Banana with only this instruction: *"Edit only the digital display: change the number from 188 to 72. Change nothing else in the image."*
-3. Optional: add a soft reflection under it to match the swipe's shoe.
-
-### Option 2 — generate it (with REF-1 attached)
-
-Here the listing look is what we want: the swipe ad's shoe is a clean product shot.
-
-```
-[Attach REF-1.]
-
-PRODUCT LOCK — one reference image is attached (REF-1: the product on white, with its
-remote). Use it ONLY for the product's appearance. Do not copy its white background,
-its layout, or the remote unless this prompt asks for the remote.
-
-The product, described precisely so it survives any angle:
-- A flat rectangular floor register cover, about 2.4 times as wide as it is tall
-  (roughly 12 x 5 inches overall for the 4x10 size), with a thin raised rim and softly
-  rounded corners. One piece of moulded plastic.
-- FINISH: [WHITE] matte bright white, like a white appliance, #F4F4F2.
-  [BRONZE] dark oil-rubbed bronze, a deep brown-black with a faint warm metallic sheen,
-  around #3B2F28. Not copper, not rose-gold, not pink, not shiny brass.
-- LEFT ~70% OF THE FACE: a rectangular grille opening with rounded inner corners, filled
-  by 18 thin, evenly spaced VERTICAL bars (they run top to bottom, not side to side),
-  the same colour as the faceplate. Behind the bars, two identical round fans side by
-  side, each with a dark charcoal-grey circular shroud and a black 5-blade impeller with
-  broad curved blades and a small round hub.
-- RIGHT ~25% OF THE FACE: a vertical black glossy display panel, taller than it is wide.
-  Top of the panel: two small white icons with tiny labels. Middle: a large white
-  seven-segment digital readout of the temperature followed by a small "°F". Bottom:
-  four small white icons in a 2x2 grid (a flame, a snowflake, a fan, a crescent moon)
-  with tiny labels under each.
-- To the right of the display, two narrow vertical strips of small square black
-  buttons with white symbols: an upper strip of 3 (power, and two mode buttons) and a
-  lower strip of 3 (a mode button, "+", "−").
-- Two round countersunk screw holes, one at each short end of the faceplate, centred
-  vertically — left of the grille and right of the buttons.
-- No logo, no brand name and no other text on the faceplate.
-- REMOTE (only when asked for): a slim light-grey rounded-rectangle remote with a red
-  power symbol top-left, a pill-shaped +/− temperature rocker in the middle, and small
-  grey icon buttons (flame, leaf, snowflake, fan, moon) with tiny labels.
-
-Match this exactly. Do not redesign, add fans, change the bar direction, move the
-display, add a logo, or change the colour. The display must read exactly the number
-given in this prompt (e.g. "72°F"), not "188".
-
-A clean, bright e-commerce product photograph of the WHITE vent cover described above,
-alone on a pure white background (#FFFFFF). The product is turned about 30 degrees to the
-right and tilted back about 20 degrees, so the viewer sees the whole faceplate — the
-vertical grille bars, both fans behind them, and the black display panel with its
-buttons at the right-hand end — plus a sliver of the housing depth underneath. The
-display is lit and reads exactly "72°F" in white seven-segment digits.
-
-Soft, even, bright studio light from above and front-left, the white plastic reading
-crisp and clean with gentle shading on the rim, the black display glossy with one soft
-highlight. A soft, faint mirror reflection of the product on the white surface directly
-below it, fading out within a couple of inches, exactly like a classic product-on-white
-listing shot.
-
-The product fills about 80% of the frame width, centred, with even white space around it.
-Tack sharp throughout.
-
-EXCLUDE: remote, hands, people, room, floor, any background other than pure white, any
-text, logo or badge, air swirls, leaves or any effect showing air.
-
-Aspect ratio 1080 x 520 (wide), or generate at 1:1 and crop.
-```
-
-## Step 2 — assemble in Canva / Figma
-
-1. Canvas 1080 × 1350, fill `#FFFFFF`.
-2. Headline and bullets per the type spec.
-3. Place the product image in the lower half, centred, about 860 px wide, its top edge around y = 770. Its white background must blend seamlessly into the canvas white; no visible box edge.
-4. Nothing else: no logo, no price, no button, no border.
-
-## Route A — one pass
-
-```
-[Attach REF-1.]
-
-PRODUCT LOCK — one reference image is attached (REF-1: the product on white, with its
-remote). Use it ONLY for the product's appearance. Do not copy its white background,
-its layout, or the remote unless this prompt asks for the remote.
-
-The product, described precisely so it survives any angle:
-- A flat rectangular floor register cover, about 2.4 times as wide as it is tall
-  (roughly 12 x 5 inches overall for the 4x10 size), with a thin raised rim and softly
-  rounded corners. One piece of moulded plastic.
-- FINISH: [WHITE] matte bright white, like a white appliance, #F4F4F2.
-  [BRONZE] dark oil-rubbed bronze, a deep brown-black with a faint warm metallic sheen,
-  around #3B2F28. Not copper, not rose-gold, not pink, not shiny brass.
-- LEFT ~70% OF THE FACE: a rectangular grille opening with rounded inner corners, filled
-  by 18 thin, evenly spaced VERTICAL bars (they run top to bottom, not side to side),
-  the same colour as the faceplate. Behind the bars, two identical round fans side by
-  side, each with a dark charcoal-grey circular shroud and a black 5-blade impeller with
-  broad curved blades and a small round hub.
-- RIGHT ~25% OF THE FACE: a vertical black glossy display panel, taller than it is wide.
-  Top of the panel: two small white icons with tiny labels. Middle: a large white
-  seven-segment digital readout of the temperature followed by a small "°F". Bottom:
-  four small white icons in a 2x2 grid (a flame, a snowflake, a fan, a crescent moon)
-  with tiny labels under each.
-- To the right of the display, two narrow vertical strips of small square black
-  buttons with white symbols: an upper strip of 3 (power, and two mode buttons) and a
-  lower strip of 3 (a mode button, "+", "−").
-- Two round countersunk screw holes, one at each short end of the faceplate, centred
-  vertically — left of the grille and right of the buttons.
-- No logo, no brand name and no other text on the faceplate.
-- REMOTE (only when asked for): a slim light-grey rounded-rectangle remote with a red
-  power symbol top-left, a pill-shaped +/− temperature rocker in the middle, and small
-  grey icon buttons (flame, leaf, snowflake, fan, moon) with tiny labels.
-
-Match this exactly. Do not redesign, add fans, change the bar direction, move the
-display, add a logo, or change the colour. The display must read exactly the number
-given in this prompt (e.g. "72°F"), not "188".
-
-A square-ish vertical 4:5 social advertisement, 1080 x 1350, in the exact style of a
-simple direct-response product ad: a pure white background (#FFFFFF), nothing else.
-
-TOP: a huge, heavy, tightly spaced geometric sans-serif headline (Archivo ExtraBold
-style), ALL CAPITALS, near-black #111111, left-aligned with a 64 px margin, broken
-exactly as:
-    "NO MORE SWITCHING ROOMS
-     BECAUSE OF THE HEAT."
-
-BELOW IT: five single-line bullet points, left-aligned, each starting with a bold
-terracotta (#B4553A) plus sign "+", followed by clean regular sans-serif text (Inter
-style) in dark grey #222222, about 33 px, evenly spaced:
-    + A fraction of what a contractor quotes for ductwork
-    + Comfortable through long afternoons in the hot room
-    + Twin fans for vents that barely blow any air
-    + Its own thermostat, separate from the hallway one
-    + Two-screw drop-in install. No contractor needed
-
-LOWER HALF: a large, clean product photograph of the WHITE vent cover described above,
-centred, about 80% of the canvas width, turned about 30 degrees and tilted back about 20
-degrees so the whole faceplate is visible, display lit reading exactly "72°F", with a
-soft faint reflection on the white surface below it. Bright even studio light.
-
-All text crisp, correctly spelled, legible on a phone. No logo, no price, no badges,
-no buttons, no border, no remote, no air-flow effects, no room.
-
-Aspect ratio 4:5, 1080 x 1350.
-```
+| Miss | Add to the end of the prompt and re-run |
+|---|---|
+| A bullet wraps to two lines | *"Reduce the bullet font size slightly so every bullet fits on one line."* |
+| Display shows 188 or garbled digits | *"The display digits are the most important detail: exactly 72 then °F, large and legible."* |
+| Remote appears | Crop the reference to remove the remote before attaching, then re-run |
+| Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
+| Headline centred or thin | *"The headline is left-aligned and extra-bold, matching the heaviest weight available."* |
+| Product looks rendered or toy-like | *"Photograph it like a real Amazon main image: realistic matte plastic, natural soft shadows."* |
 
 ## QA before using
 - [ ] Looks like the swipe ad at a glance: white, big black headline, + bullets, product below
