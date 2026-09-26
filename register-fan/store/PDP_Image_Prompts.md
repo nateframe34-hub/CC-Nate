@@ -9,27 +9,47 @@ For `theme/sections/evenroom-pdp-sa1.liquid`.
 
 ### 0a. Attach the product reference photos to every prompt that shows the product
 
-| Ref | What it should show |
+| Ref | What it is |
 |---|---|
-| **REF-1** | Whole unit, straight on |
-| **REF-2** | Display / control end, close |
-| **REF-3** | Three-quarter angle showing depth and housing |
-| **REF-4** *(if available)* | Remote, and where the cord leaves the unit |
+| **REF-1** | The only supplied reference: the product straight on, on white, with its remote. White and bronze exist; the bronze look is carried by the text description |
 
 Paste this block into every prompt marked **[PRODUCT LOCK]**:
 
 ```
-PRODUCT LOCK — the vent cover in this image must be an exact match of the product in
-the attached reference images (REF-1 to REF-4). Copy it faithfully: the same overall
-rectangular proportions, the same faceplate colour and finish, the same number, spacing
-and angle of the grille slats, the same fan hubs and blade count visible behind the
-grille, the same position, size and shape of the display panel, the same digit style on
-the display, the same icons, the same screw-hole positions, the same corner radius, the
-same cord exit point. Do not redesign, simplify, "improve", add features, add a logo,
-change the colour, or change the number of fans. Do not invent text on the faceplate
-that is not on the reference. If a detail is not visible in the references, keep it
-plain and consistent with what is visible. The only thing that may change is the number
-shown on the display, which must read exactly as specified in this prompt.
+PRODUCT LOCK — one reference image is attached (REF-1: the product on white, with its
+remote). Use it ONLY for the product's appearance. Do not copy its white background,
+its layout, or the remote unless this prompt asks for the remote.
+
+The product, described precisely so it survives any angle:
+- A flat rectangular floor register cover, about 2.4 times as wide as it is tall
+  (roughly 12 x 5 inches overall for the 4x10 size), with a thin raised rim and softly
+  rounded corners. One piece of moulded plastic.
+- FINISH: [WHITE] matte bright white, like a white appliance, #F4F4F2.
+  [BRONZE] dark oil-rubbed bronze, a deep brown-black with a faint warm metallic sheen,
+  around #3B2F28. Not copper, not rose-gold, not pink, not shiny brass.
+- LEFT ~70% OF THE FACE: a rectangular grille opening with rounded inner corners, filled
+  by 18 thin, evenly spaced VERTICAL bars (they run top to bottom, not side to side),
+  the same colour as the faceplate. Behind the bars, two identical round fans side by
+  side, each with a dark charcoal-grey circular shroud and a black 5-blade impeller with
+  broad curved blades and a small round hub.
+- RIGHT ~25% OF THE FACE: a vertical black glossy display panel, taller than it is wide.
+  Top of the panel: two small white icons with tiny labels. Middle: a large white
+  seven-segment digital readout of the temperature followed by a small "°F". Bottom:
+  four small white icons in a 2x2 grid (a flame, a snowflake, a fan, a crescent moon)
+  with tiny labels under each.
+- To the right of the display, two narrow vertical strips of small square black
+  buttons with white symbols: an upper strip of 3 (power, and two mode buttons) and a
+  lower strip of 3 (a mode button, "+", "−").
+- Two round countersunk screw holes, one at each short end of the faceplate, centred
+  vertically — left of the grille and right of the buttons.
+- No logo, no brand name and no other text on the faceplate.
+- REMOTE (only when asked for): a slim light-grey rounded-rectangle remote with a red
+  power symbol top-left, a pill-shaped +/− temperature rocker in the middle, and small
+  grey icon buttons (flame, leaf, snowflake, fan, moon) with tiny labels.
+
+Match this exactly. Do not redesign, add fans, change the bar direction, move the
+display, add a logo, or change the colour. The display must read exactly the number
+given in this prompt (e.g. "72°F"), not "188".
 ```
 
 ### 0b. Tokens
@@ -51,7 +71,8 @@ shown on the display, which must read exactly as specified in this prompt.
 
 ### 0c-2. What the reference photos showed (2026-09-26)
 
-- **It's a floor register.** Every in-room image shows it set flush in the **floor**, not the wall.
+- **It's a floor register.** Vertical grille bars, two 5-blade fans, black display panel and two button strips on the right, screw holes at both ends.
+- (Previously noted: Every in-room image shows it set flush in the **floor**, not the wall.
 - The display with its buttons is at the right-hand end, and it comes with a remote.
 - **Listing-style references leak their style.** When the references came in, one generation copied their living room, the air swirls, the flying leaves and the hand holding the remote. Every product prompt below therefore ends with the ANTI-LISTING line:
 
@@ -69,7 +90,7 @@ swirls, wind lines, leaves or any graphic effects.
 ## 1a. Product on white *(gallery 2)* · [PRODUCT LOCK]
 
 ```
-[Attach REF-1 to REF-3. Paste PRODUCT LOCK and the ANTI-LISTING line.]
+[Attach REF-1. Paste PRODUCT LOCK and the ANTI-LISTING line.]
 
 A clean, honest e-commerce product photograph of the vent cover from the reference
 images, alone, on a seamless warm off-white background (#FAF7F2) that runs smoothly
@@ -80,7 +101,7 @@ end (the display end) and a sliver of the housing depth are visible. Camera at t
 height as the product, level, no tilt. Product centred, occupying about 70% of the frame
 width, with even space around it.
 
-DISPLAY: Lit, reading "72°" in the digit style shown on REF-2, crisp and legible.
+DISPLAY: Lit, reading "72°F" in the digit style shown on REF-1, crisp and legible.
 
 LIGHT: One large soft source from the upper left (like a big north-facing window,
 5500 K), a white fill from the right so shadows are soft and light grey. A soft, natural
@@ -102,12 +123,12 @@ Aspect ratio 1:1, 1400 x 1400.
 ## 1b. The display, close *(gallery 3)* · [PRODUCT LOCK]
 
 ```
-[Attach REF-2 (primary) and REF-1. Paste PRODUCT LOCK and the ANTI-LISTING line.]
+[Attach REF-1. Paste PRODUCT LOCK and the ANTI-LISTING line.]
 
 A tight macro photograph of the display / control end of the vent cover from the
-reference images, filling most of the frame. The display is lit and reads "72°", digits
-crisp and exactly in the style on REF-2. Any icons or touch buttons are exactly as on
-REF-2, in the same positions.
+reference images, filling most of the frame. The display is lit and reads "72°F", digits
+crisp and exactly in the style on REF-1. Any icons or touch buttons are exactly as on
+REF-1, in the same positions.
 
 The adjacent faceplate and the first two or three grille slats are visible at the left
 edge of the frame, falling gently out of focus. Camera looking at the display straight
@@ -128,7 +149,7 @@ Aspect ratio 1:1, 1400 x 1400.
 ## 1c. Installed in the wall ⭐ *gallery image 1 — the most important one* · [PRODUCT LOCK]
 
 ```
-[Attach REF-1 to REF-4. Paste PRODUCT LOCK and the ANTI-LISTING line.]
+[Attach REF-1. Paste PRODUCT LOCK and the ANTI-LISTING line.]
 
 A candid photograph of the vent cover from the reference images installed in the FLOOR
 of an ordinary North American home, exactly where an old floor register would be: set
@@ -137,7 +158,7 @@ into beige low-pile carpet (#C9B9A0) about 8 inches out from a white painted bas
 Above it, the lower part of a flat warm greige wall (#D9D2C5) with a couple of faint
 scuffs.
 
-DISPLAY: Lit, reading "72°", legible.
+DISPLAY: Lit, reading "72°F", legible.
 
 THE CORD: A thin white cord leaves the unit at the exit point shown on the references,
 runs across the carpet to the baseboard, and along it about 12 inches to a standard white
@@ -164,7 +185,7 @@ Aspect ratio 1:1, 1400 x 1400.
 ## 1d. In hand, for scale *(gallery 4)* · [PRODUCT LOCK]
 
 ```
-[Attach REF-1 and REF-3. Paste PRODUCT LOCK and the ANTI-LISTING line.]
+[Attach REF-1. Paste PRODUCT LOCK and the ANTI-LISTING line.]
 
 An adult's hand holding the vent cover from the reference images by its left end, the
 faceplate toward camera, at chest height in an ordinary hallway. Four fingers wrap round
@@ -173,7 +194,7 @@ so the size is instantly readable against the hand. Ordinary adult hand: short
 unpolished nails, natural skin texture and knuckle creases, no rings, no manicure, a
 plain grey t-shirt sleeve cuff just visible at the wrist.
 
-DISPLAY: Lit, reading "72°", legible.
+DISPLAY: Lit, reading "72°F", legible.
 
 BACKGROUND: A hallway with warm greige walls (#D9D2C5), a white door frame and part of a
 framed picture, all softly out of focus.
@@ -190,7 +211,7 @@ Aspect ratio 1:1, 1400 x 1400.
 
 ## 1e. Bronze colourway *(only if bronze is stocked at launch)* · [PRODUCT LOCK]
 
-Use the 1a prompt exactly, but attach the **bronze** reference photo, and replace the colour instruction with: *"The faceplate is the dark bronze / oil-rubbed finish shown in the bronze reference image, matched exactly. Nothing else changes."*
+Use the 1a prompt exactly, attach REF-1 (white), and add: *"Render the product in the [BRONZE] finish from the PRODUCT LOCK — dark oil-rubbed bronze, deep brown-black with a faint warm sheen. The white in the reference is the wrong colour for this image; copy only the shape."*
 
 ---
 
@@ -199,7 +220,7 @@ Use the 1a prompt exactly, but attach the **bronze** reference photo, and replac
 **Job:** the section right after the hand test, captioned *"That room, at 4pm."* It shows the room back in use.
 
 ```
-[Attach REF-1 to REF-3. Paste PRODUCT LOCK and the ANTI-LISTING line.]
+[Attach REF-1. Paste PRODUCT LOCK and the ANTI-LISTING line.]
 
 A candid, unposed smartphone photograph of a small upstairs home office in an ordinary
 North American suburban house at about 4:00 pm on a very hot, cloudless day in late
@@ -224,7 +245,7 @@ ROOM: The white six-panel door behind her stands wide open to the hallway. No fa
 anywhere in the room.
 
 THE PRODUCT: In the carpet under the desk, near the right-hand wall, the vent cover from the
-reference images set flush in the floor, display lit reading "72°". Small in
+reference images set flush in the floor, display lit reading "72°F". Small in
 frame (about 8% of image width), in the natural shadow under the desk, recognisable but
 not the subject. Its thin white cord runs along the baseboard to an outlet.
 
@@ -296,7 +317,7 @@ and are lowering it into the opening, about an inch from flush. Display unlit.
 ```
 ```
 STEP 3 — [Attach REFs. Paste PRODUCT LOCK and the ANTI-LISTING line.] Same framing. The vent cover is fitted flush
-and screwed in, display lit reading "72°". A hand is pushing its white plug into the
+and screwed in, display lit reading "72°F". A hand is pushing its white plug into the
 outlet 12 inches to the right; the cord runs along the baseboard between them.
 ```
 

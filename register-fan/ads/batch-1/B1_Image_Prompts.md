@@ -11,27 +11,47 @@ For `B1_Ads.md` — SA1 The Fan Runner · hot framing. Canvas for every ad: **4:
 
 Nate is supplying real photos of our vent cover. **Any prompt that shows the product must be run with those photos attached**, labelled in this order:
 
-| Ref | What it should show | Used for |
-|---|---|---|
-| **REF-1** | Whole unit, straight on, faceplate facing camera | Shape, proportions, grille pattern, colour |
-| **REF-2** | Close-up of the display / control end | Display shape, digit style, icon layout |
-| **REF-3** | Three-quarter angle, showing depth / housing | Thickness, how it sits in a wall |
-| **REF-4** *(if available)* | Remote, and the cord where it leaves the unit | Cord exit point, remote shape |
+| Ref | What it is |
+|---|---|
+| **REF-1** | The only supplied reference: the product on white with its remote. Everything else is carried by the written description in the lock |
 
 Paste this **PRODUCT LOCK** block into any prompt that contains the product (it is already included below where needed):
 
 ```
-PRODUCT LOCK — the vent cover in this image must be an exact match of the product in
-the attached reference images (REF-1 to REF-4). Copy it faithfully: the same overall
-rectangular proportions, the same faceplate colour and finish, the same number, spacing
-and angle of the grille slats, the same fan hubs and blade count visible behind the
-grille, the same position, size and shape of the display panel, the same digit style on
-the display, the same icons, the same screw-hole positions, the same corner radius, the
-same cord exit point. Do not redesign, simplify, "improve", add features, add a logo,
-change the colour, or change the number of fans. Do not invent text on the faceplate
-that is not on the reference. If a detail is not visible in the references, keep it
-plain and consistent with what is visible. The only thing that may change is the number
-shown on the display, which must read exactly as specified in this prompt.
+PRODUCT LOCK — one reference image is attached (REF-1: the product on white, with its
+remote). Use it ONLY for the product's appearance. Do not copy its white background,
+its layout, or the remote unless this prompt asks for the remote.
+
+The product, described precisely so it survives any angle:
+- A flat rectangular floor register cover, about 2.4 times as wide as it is tall
+  (roughly 12 x 5 inches overall for the 4x10 size), with a thin raised rim and softly
+  rounded corners. One piece of moulded plastic.
+- FINISH: [WHITE] matte bright white, like a white appliance, #F4F4F2.
+  [BRONZE] dark oil-rubbed bronze, a deep brown-black with a faint warm metallic sheen,
+  around #3B2F28. Not copper, not rose-gold, not pink, not shiny brass.
+- LEFT ~70% OF THE FACE: a rectangular grille opening with rounded inner corners, filled
+  by 18 thin, evenly spaced VERTICAL bars (they run top to bottom, not side to side),
+  the same colour as the faceplate. Behind the bars, two identical round fans side by
+  side, each with a dark charcoal-grey circular shroud and a black 5-blade impeller with
+  broad curved blades and a small round hub.
+- RIGHT ~25% OF THE FACE: a vertical black glossy display panel, taller than it is wide.
+  Top of the panel: two small white icons with tiny labels. Middle: a large white
+  seven-segment digital readout of the temperature followed by a small "°F". Bottom:
+  four small white icons in a 2x2 grid (a flame, a snowflake, a fan, a crescent moon)
+  with tiny labels under each.
+- To the right of the display, two narrow vertical strips of small square black
+  buttons with white symbols: an upper strip of 3 (power, and two mode buttons) and a
+  lower strip of 3 (a mode button, "+", "−").
+- Two round countersunk screw holes, one at each short end of the faceplate, centred
+  vertically — left of the grille and right of the buttons.
+- No logo, no brand name and no other text on the faceplate.
+- REMOTE (only when asked for): a slim light-grey rounded-rectangle remote with a red
+  power symbol top-left, a pill-shaped +/− temperature rocker in the middle, and small
+  grey icon buttons (flame, leaf, snowflake, fan, moon) with tiny labels.
+
+Match this exactly. Do not redesign, add fans, change the bar direction, move the
+display, add a logo, or change the colour. The display must read exactly the number
+given in this prompt (e.g. "72°F"), not "188".
 ```
 
 ### 0b. Brand tokens — the only colours and fonts used on any designed element
@@ -282,7 +302,7 @@ Change: headline → *"No more switching rooms because of the cold."* · light �
 ## Prompt
 
 ```
-[Attach REF-1 and REF-2 so the drawn vent can resemble the real product.]
+[Attach REF-1 so the drawn vent can resemble the real product.]
 
 A candid smartphone photograph of a real white dry-erase whiteboard hanging on the wall
 of an ordinary home office, with a hand-drawn marker drawing on it.
@@ -338,8 +358,9 @@ RIGHT HALF:
   tall glass on the desk with two little blue ice cubes drawn in it.
 - On the floor line under the desk, a simple marker sketch of OUR vent cover based on the
   attached reference photos: a longer rectangle with the same general proportions as the
-  reference, horizontal slat lines across it, two circles drawn behind the slats for the
-  fans, and a small filled rectangle at the right-hand end for the display panel (matching
+  reference, vertical bar lines across its left part, two circles with fan blades drawn behind
+  the bars, and a small filled dark rectangle at the right-hand end for the display panel
+  with a few dots for the buttons (matching
   the display's position on the reference). It is a quick sketch, not a detailed drawing,
   but anyone who has seen the product would recognise it.
 - Coming out of it: FIVE long, strong, bold blue arrows sweeping up and out of the vent,
