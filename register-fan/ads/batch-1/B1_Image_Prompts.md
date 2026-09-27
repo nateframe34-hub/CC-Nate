@@ -27,8 +27,8 @@ The product, described precisely so it survives any angle:
   (roughly 12 x 5 inches overall for the 4x10 size), with a thin raised rim and softly
   rounded corners. One piece of moulded plastic.
 - FINISH: [WHITE] matte bright white, like a white appliance, #F4F4F2.
-  [BRONZE] dark oil-rubbed bronze, a deep brown-black with a faint warm metallic sheen,
-  around #3B2F28. Not copper, not rose-gold, not pink, not shiny brass.
+  [BRONZE colourway] a muted rosewood: dusty reddish-brown with a mauve cast, faceplate
+  about #7E5256, satin. Not dark brown, not copper, not gold.
 - LEFT ~70% OF THE FACE: a rectangular grille opening with rounded inner corners, filled
   by 18 thin, evenly spaced VERTICAL bars (they run top to bottom, not side to side),
   the same colour as the faceplate. Behind the bars, two identical round fans side by

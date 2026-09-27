@@ -467,24 +467,24 @@ Aspect ratio 1:1, 1400 x 1400.
 
 ## 1e. Bronze · gallery 5 (only if bronze is stocked) — rebuilt 2026-09-26
 
-**Attach:** **two references:** (1) Nate's **bronze product photo**, labelled BRONZE REFERENCE, and (2) the approved **white "what's in the box" image**, labelled COMPOSITION REFERENCE
+**Attach:** **two references:** (1) Nate's **bronze product photo**, labelled COLOUR REFERENCE, and (2) the approved **white "what's in the box" image**, labelled COMPOSITION REFERENCE
 
 ```
-Create ONE clean e-commerce product image of the BRONZE vent cover and its remote on a
+Create ONE clean e-commerce product image of the ROSEWOOD-coloured vent cover (sold as "bronze") and its remote on a
 pure white background. The composition must match the attached COMPOSITION reference
 exactly; the colour must match the attached BRONZE reference exactly.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 1. REFERENCES — WHAT TO TAKE FROM EACH
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- BRONZE REFERENCE (Nate's bronze product photo): take the product's COLOUR and FINISH
-  from this, exactly — the same bronze tone, the same sheen, the same colour on the
+- COLOUR REFERENCE (Nate's bronze-colourway product photo): take the product's COLOUR and FINISH
+  from this, exactly — the same rosewood tone, the same sheen, the same colour on the
   faceplate, rim and grille bars. Also take the product's shape and details from it.
 - COMPOSITION REFERENCE (the approved white "what's in the box" image): copy its layout
   exactly — the camera angle, the vent's position, size and angle in the frame, the
   remote's position, size and angle, the lighting, the white background and the soft
   shadows. Do NOT take the vent's colour from this image; it is white there and must be
-  bronze here.
+  rosewood here.
 - Take NOTHING about the product's design from the composition reference: not the
   display, not the buttons, not the grille, not the remote's design. Use it for layout
   only. Every product detail comes from the BRONZE reference and the description below.
@@ -510,7 +510,11 @@ or background.
 THE PRODUCT (match the reference exactly):
 - A flat rectangular floor vent cover (register) with two built-in fans. About 2.4 times
   as wide as it is tall. One piece of moulded plastic with a thin raised rim and softly
-  rounded outer corners. FINISH: dark oil-rubbed bronze (#3B2F28): a deep brown-black with a faint warm metallic sheen, like a bronze door handle. NOT copper, NOT rose-gold, NOT pink, NOT shiny brass, NOT grey. The grille bars are the same bronze.
+  rounded outer corners. FINISH: a muted ROSEWOOD colour — a dusty reddish-brown with a
+  mauve/plum cast, like old rosewood or a dark dusty-rose wine colour. Main faceplate
+  tone about #7E5256 (RGB 126, 82, 86); lit edges and the top of the rim lighter, about
+  #9C6E71; shadowed edges and the inner sides of the grille bars darker, about #52323A.
+  Low, satin sheen, not glossy. The grille bars are the same colour as the faceplate.
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
   louvres). Every bar is perfectly straight, unbroken and the same width from top to
@@ -544,30 +548,32 @@ THE PRODUCT (match the reference exactly):
   crescent moon ("SLEEP"). Icons dark grey, labels tiny. It is flat and slim like the
   reference, not a generic air-conditioner remote with a screen or angled top.
 - The display panel and its buttons stay black; the display is lit and reads "72°F".
-- The remote stays light grey. It is NOT bronze.
+- The remote stays light grey. It is NOT rosewood-coloured.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 4. COLOUR — THE MOST IMPORTANT INSTRUCTION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- Match the bronze reference's colour exactly. Sample it directly; do not interpret
-  "bronze" from memory.
-- The whole faceplate, rim and grille bars are that same bronze. The colour is even
-  across the product, with the same sheen as the reference: soft, warm, low highlights,
-  not mirror-shiny.
-- NOT copper, NOT rose-gold, NOT pink, NOT orange, NOT gold, NOT brass, NOT grey, NOT
-  black, NOT white.
+- The colour is the rosewood described above, and it must match the COLOUR REFERENCE
+  photo exactly. Copy the colour directly from that photo. Do not substitute your own
+  idea of the colour, and do not "correct" it toward brown, bronze, copper or gold.
+- Target values: faceplate #7E5256, highlights #9C6E71, shadows #52323A. The colour
+  has a clear red-mauve cast. It is NOT a neutral brown.
+- The whole faceplate, rim and grille bars are this one colour, even across the product,
+  with a soft satin sheen like the reference.
+- NOT dark chocolate brown, NOT brown-black, NOT oil-rubbed bronze, NOT orange copper,
+  NOT gold, NOT brass, NOT bright pink, NOT rose-gold metallic, NOT grey, NOT white.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 5. LIGHT AND RENDERING
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 - Bright, soft, even studio light from above and front-left (5500 K), matching the
-  composition reference. Tack sharp. Realistic moulded plastic with a bronze finish,
+  composition reference. Tack sharp. Realistic moulded plastic with a rosewood satin finish,
   not a 3D render.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 6. DO NOT INCLUDE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- A white vent. Hands, packaging, cables, props, text.
+- A white vent. The word "bronze" does not describe this colour; follow the hex values. Hands, packaging, cables, props, text.
 - Air-flow swirls, wind lines, leaves, snowflakes, sparkles, glow or any effect showing
   air or temperature. Any text, caption, logo, watermark, price, badge, sticker, arrow,
   border or frame added to the image.
@@ -589,7 +595,7 @@ Aspect ratio 1:1, 1024 x 1024.
 |---|---|
 | Display shows 188 / garbled °F | *"The display digits are the most important detail: exactly 72 then a clean °F, large and legible."* |
 | Horizontal slats / wrong fan count | *"Copy the grille from the reference exactly: vertical bars, two fans."* |
-| Colour still off | *"Ignore any idea of what bronze looks like; copy the colour pixel-for-pixel from the bronze reference photo."* |
+| Colour still off | *"Match the colour reference exactly: muted rosewood #7E5256 with a red-mauve cast. Do not make it brown."* |
 | Layout drifts | *"Match the composition reference exactly: same angle, same positions, same sizes."* |
 
 ---
