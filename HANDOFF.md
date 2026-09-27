@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-27** — Install images: the old-cover-out step was dropped (founder: the swap photo shows the install on its own). Two approved install photos. PDP §8 now has two image slots (`install_img_1`, `install_img_2`), side by side and stacked on mobile.
+
 - **2026-09-27** — The "bronze" colourway is really a muted rosewood (~#7E5256, red-mauve cast). The old prompt described it as dark oil-rubbed bronze and banned rose tones, which fought the reference. The 1e prompt is now written in rosewood terms with hex targets and avoids leaning on the word "bronze".
 
 - **2026-09-26** — PDP prompt tweaks after the first generations: bars must be straight and unbroken; display spec corrected to the real layout (4 top icons, 4 bottom, white only, no power/bulb icons); two 3-button strips (not an arrow strip); remote flat and slim like the reference; bronze uses the composition reference for layout only. Images 1b and 1c approved. Re-run 1a and 1f.

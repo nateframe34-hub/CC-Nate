@@ -135,6 +135,13 @@
 #evr-pdp .evr-out li{padding:12px 0 12px 22px;border-bottom:1px solid var(--line);position:relative;font-size:17px}
 #evr-pdp .evr-out li:before{content:"";position:absolute;left:0;top:21px;width:8px;height:8px;background:var(--accent)}
 
+/* install photos */
+#evr-pdp .evr-inst{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}
+#evr-pdp .evr-inst figure{margin:0}
+#evr-pdp .evr-inst img{width:100%;display:block;border:1px solid var(--line)}
+#evr-pdp .evr-inst figcaption{font-size:13.5px;color:var(--muted);margin-top:8px}
+@media(max-width:640px){#evr-pdp .evr-inst{grid-template-columns:1fr}}
+
 /* grid */
 #evr-pdp .attrs{border-top:1px solid var(--line)}
 #evr-pdp .attr{display:grid;grid-template-columns:200px 1fr;gap:24px;padding:18px 0;border-bottom:1px solid var(--line)}
@@ -397,6 +404,12 @@
     <div><div class="n">2</div><b>Drop this one in.</b><p style="font-size:15px;color:var(--muted)">Same hole, same two screws.</p></div>
     <div><div class="n">3</div><b>Plug it in.</b><p style="font-size:15px;color:var(--muted)">Set the temperature you want.</p></div>
   </div>
+  {%- if section.settings.install_img_1 != blank or section.settings.install_img_2 != blank -%}
+  <div class="evr-inst">
+    {%- if section.settings.install_img_1 != blank -%}<figure><img src="{{ section.settings.install_img_1 | image_url: width: 900 }}" alt="Swapping the old vent cover for the new one" loading="lazy"><figcaption>Old cover out, this one in.</figcaption></figure>{%- endif -%}
+    {%- if section.settings.install_img_2 != blank -%}<figure><img src="{{ section.settings.install_img_2 | image_url: width: 900 }}" alt="Plugging it in" loading="lazy"><figcaption>Plug it in and set the temperature.</figcaption></figure>{%- endif -%}
+  </div>
+  {%- endif -%}
   <p style="margin-top:22px">No ductwork. No tools you don&rsquo;t own. Nobody in your house.</p>
 </div></div>
 
@@ -652,6 +665,8 @@
     { "type": "textarea", "id": "fit_1", "label": "Para 1", "default": "Pull the old cover off and measure the opening underneath. Most are 4x10." },
     { "type": "textarea", "id": "fit_2", "label": "Para 2", "default": "Both sizes are 10 inches long, so the short side is the one that differs — measure that one carefully. The housing sits down inside the opening, so the measurement has to match: a 6-inch unit won't go into a 4-inch hole." },
     { "type": "image_picker", "id": "fit_image", "label": "Measuring photo" },
+    { "type": "image_picker", "id": "install_img_1", "label": "Install photo 1 — old cover out, new one in" },
+    { "type": "image_picker", "id": "install_img_2", "label": "Install photo 2 — plugging it in" },
     { "type": "text", "id": "swap_h", "label": "Swap heading", "default": "Measured wrong? We'll swap it, no charge." },
     { "type": "textarea", "id": "swap_b", "label": "Swap body", "default": "Order it, measure again when it arrives, and if you got the size wrong we'll send the right one. You're not stuck with a cover that doesn't fit." },
 

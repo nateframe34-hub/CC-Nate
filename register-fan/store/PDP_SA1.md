@@ -136,6 +136,8 @@ Ships from the US · 60-day returns · Free shipping on 2-packs
 
 Two screws and an outlet. No ductwork, no tools you don't own, nobody in your house.
 
+*Two install photos under the steps (settings `install_img_1`, `install_img_2`): the old cover coming out as the new one goes in, then plugging it in.*
+
 ## 9. When this won't help
 
 > This works if air comes out of that vent but weakly, or if the room sits at the end of a long duct run.

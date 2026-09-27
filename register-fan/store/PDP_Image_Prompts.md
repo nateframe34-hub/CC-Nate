@@ -24,7 +24,7 @@ For `theme/sections/evenroom-pdp-sa1.liquid`.
 | Gallery 5 | 1e — bronze, same layout as 1f *(only if stocked)* | If needed |
 | §5b `out_image` | 5b — the result: that room at 4pm | **First** |
 | §7 `fit_image` | 7 — measuring the opening | **First** |
-| §8 | 8.1–8.3 — install steps | Optional |
+| §8 `install_img_1` / `install_img_2` | 8.1–8.2 — install photos (two; the old-cover-out step is covered by 8.1) | ✅ done |
 
 ⚠️ **Verify with the supplier:** where the power cord leaves the unit. The prompts assume it runs from beneath the right-hand end of the flange. Change that line if the real unit differs.
 
@@ -817,59 +817,12 @@ Aspect ratio 4:3, 1600 x 1200.
 
 ---
 
-## 8.1 Install step 1 — take the old cover out
-
-**Attach:** nothing
-
-```
-Create ONE candid phone photograph, step 1 of 3 of installing a floor vent cover.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. THE SCENE (identical in all three steps)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- Looking down at a rectangular 4 x 10 inch floor vent opening in beige low-pile carpet
-  (#C9B9A0), about 8 inches out from a white baseboard (#F2F0EB) and greige wall
-  (#D9D2C5). A white US outlet on the baseboard about 18 inches to the right.
-- Camera fixed: directly above-and-in-front at about 3 feet, angled down 60 degrees,
-  ~26 mm, the opening in the centre. Soft 5000 K daylight from a window to the left.
-- Ordinary adult hands, short nails, heather-grey t-shirt cuff.
-Realistic phone-camera quality (like an iPhone main camera): mild luminance grain in
-shadows, natural slightly warm white balance, very slight lens distortion at the edges.
-No HDR look, no cinematic grade, no vignette, no bokeh balls, no lens flare.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-2. THIS STEP
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- An old plain builder-grade white metal floor register with horizontal louvres sits in
-  the opening. A hand holds a manual screwdriver with a red-and-black handle (brand
-  markings visible) backing out its left screw; the right screw already out, lying on the
-  carpet.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-3. DO NOT INCLUDE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- Our new vent cover. Faces. Any text, numbers, arrows or overlays.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-9. FINAL CHECK BEFORE OUTPUT
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Old louvred register in the floor, screwdriver on the left screw, one screw on the carpet. No new product, no text.
-
-Aspect ratio 4:3, 1600 x 1200.
-```
-
-**If it misses (re-run, don't edit):**
-
-| Miss | Add to the end and re-run |
-|---|---|
-
----
-
-## 8.2 Install step 2 — drop the new one in
+## 8.1 Install photo 1 — old cover out, new one in ✅ approved 2026-09-27
 
 **Attach:** REF-1 (remote cropped out)
 
 ```
-Create ONE candid phone photograph, step 2 of 3 of installing the floor vent cover
+Create ONE candid phone photograph, photo 1 of 2 of installing the floor vent cover
 described below.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -943,7 +896,7 @@ THE PRODUCT (match the reference exactly):
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 9. FINAL CHECK BEFORE OUTPUT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Same framing as step 1; the new white vent being lowered by two hands; old cover set aside; display unlit.
+ the new white vent being lowered by two hands; old cover set aside; display unlit.
 
 Aspect ratio 4:3, 1600 x 1200.
 ```
@@ -957,12 +910,12 @@ Aspect ratio 4:3, 1600 x 1200.
 
 ---
 
-## 8.3 Install step 3 — plug it in
+## 8.2 Install photo 2 — plug it in ✅ approved 2026-09-27
 
 **Attach:** REF-1 (remote cropped out)
 
 ```
-Create ONE candid phone photograph, step 3 of 3 of installing the floor vent cover
+Create ONE candid phone photograph, photo 2 of 2 of installing the floor vent cover
 described below.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1036,7 +989,7 @@ THE PRODUCT (match the reference exactly):
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 9. FINAL CHECK BEFORE OUTPUT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Same framing as steps 1–2; the white vent flush in the floor reading "72°F"; a hand plugging the cord into the outlet.
+Same framing as photo 1; the white vent flush in the floor reading "72°F"; a hand plugging the cord into the outlet.
 
 Aspect ratio 4:3, 1600 x 1200.
 ```
