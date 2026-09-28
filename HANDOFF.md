@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-28** — PDP: vent dropdown moved inside the bundle cards. "Two vents" shows two dropdowns (Vent 1 / Vent 2) so buyers can mix sizes or colours. A mixed pair adds as two line items. Logic tested in a browser against a stub; the live theme cart drawer still needs testing. The discount must apply to any variant of the product.
+
 - **2026-09-28** — PDP hero (founder): big price and shipping line removed; size buttons replaced with a "Pick your vent" dropdown; bundle selector rebuilt in tallow's stacked radio-card layout (One vent / Two vents with a Best value badge, prices from the Shopify product). New settings: pick_label, pick_help, t1/t2 label and sub, t2_badge.
 
 - **2026-09-28** — Added `register-fan/store/theme/templates/product.evenroom.json` (like tallow's product.tallow-v2.json) so the PDP can be selected as a product template.

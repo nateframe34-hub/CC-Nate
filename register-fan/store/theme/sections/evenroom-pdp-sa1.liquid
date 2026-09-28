@@ -116,19 +116,23 @@
 #evr-pdp .tag{display:inline-block;background:var(--accent);color:var(--accent-ink);font-family:var(--hdr);font-size:10px;letter-spacing:.09em;text-transform:uppercase;padding:3px 7px;margin-top:8px;font-weight:700}
 
 /* vent picker (dropdown) */
-#evr-pdp .evr-pick-l{display:block;font-family:var(--hdr);font-weight:700;font-size:15px;margin:6px 0 8px}
+#evr-pdp .evr-pick-row{display:block;margin-top:10px}
+#evr-pdp .evr-pick-l{display:block;font-family:var(--hdr);font-weight:700;font-size:13px;margin:0 0 6px}
 #evr-pdp .evr-pick-wrap{position:relative}
 #evr-pdp .evr-pick-wrap:after{content:"";position:absolute;right:18px;top:50%;width:9px;height:9px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-70%) rotate(45deg);pointer-events:none}
-#evr-pdp .evr-pick{width:100%;appearance:none;-webkit-appearance:none;background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:15px 44px 15px 16px;font-family:var(--body);font-size:16px;color:var(--ink);cursor:pointer}
+#evr-pdp .evr-pick{width:100%;appearance:none;-webkit-appearance:none;background:#fff;border:1.5px solid var(--line);border-radius:10px;padding:12px 44px 12px 14px;font-family:var(--body);font-size:16px;color:var(--ink);cursor:pointer}
 #evr-pdp .evr-pick:focus{outline:2px solid var(--accent);outline-offset:1px}
-#evr-pdp .evr-pick-s{font-size:13px;color:var(--muted);margin:8px 0 18px}
+#evr-pdp .evr-pick-s{font-size:13px;color:var(--muted);margin:10px 0 4px}
 
 /* bundle — tallow layout */
 #evr-pdp .evr-bundle{display:flex;flex-direction:column;gap:12px;margin:0 0 6px}
-#evr-pdp .evr-tier{position:relative;display:flex;align-items:center;gap:12px;width:100%;padding:15px 14px;border:1.5px solid var(--line);border-radius:12px;background:#fff;text-align:left;cursor:pointer;font:inherit;color:inherit;transition:border-color .15s,background .15s}
+#evr-pdp .evr-tier{position:relative;display:block;width:100%;padding:15px 14px;border:1.5px solid var(--line);border-radius:12px;background:#fff;text-align:left;cursor:pointer;font:inherit;color:inherit;transition:border-color .15s,background .15s}
 #evr-pdp .evr-tier:hover{border-color:var(--muted)}
 #evr-pdp .evr-tier:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 #evr-pdp .evr-tier.on{border-color:var(--accent);border-width:2px;padding:14px 13px;background:#FBF1EC}
+#evr-pdp .evr-tier-main{display:flex;align-items:center;gap:12px;width:100%}
+#evr-pdp .evr-tier-picks{display:none;margin-top:4px;padding-left:32px;cursor:default}
+#evr-pdp .evr-tier.on .evr-tier-picks{display:block}
 #evr-pdp .evr-tier-radio{flex:0 0 auto;width:20px;height:20px;border-radius:50%;border:1.5px solid #c9c0b3;background:#fff;position:relative}
 #evr-pdp .evr-tier.on .evr-tier-radio{border-color:var(--accent);border-width:2px}
 #evr-pdp .evr-tier.on .evr-tier-radio:after{content:"";position:absolute;inset:3px;border-radius:50%;background:var(--accent)}
@@ -250,55 +254,60 @@
       <h1>{{ product.title }}</h1>
       <p class="sub">{{ section.settings.hero_sub }}</p>
 
-      {%- comment -%} VENT PICKER — dropdown of the product's variants {%- endcomment -%}
-      <label class="evr-pick-l" for="evr-size-select">{{ section.settings.pick_label }}</label>
-      <div class="evr-pick-wrap">
-        <select id="evr-size-select" class="evr-pick">
-          {%- for variant in product.variants -%}
-            <option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} — out of stock{% endunless %}</option>
-          {%- endfor -%}
-        </select>
-      </div>
-      <p class="evr-pick-s">{{ section.settings.pick_help }}</p>
-
-      {%- comment -%} BUNDLE — tallow-style stacked radio cards. Prices from the Shopify product. {%- endcomment -%}
+      {%- comment -%}
+        BUNDLE — tallow-style stacked radio cards, with the vent dropdown(s) INSIDE the card.
+        Tier 1: one dropdown. Tier 2: two dropdowns, so they can mix sizes/colours.
+        Cards are divs (role=radio), not buttons: a <select> can't live inside a <button>.
+      {%- endcomment -%}
       <div class="evr-bundle" id="evr-tiers" role="radiogroup" aria-label="How many vents">
-        <button type="button" class="evr-tier on" data-qty="1"
+        <div class="evr-tier on" tabindex="0" data-qty="1"
           data-price="{{ p1 }}" data-compare="{{ p1_cmp }}"
           data-cta="{{ section.settings.cta_single | escape }}"
           role="radio" aria-checked="true">
-          <span class="evr-tier-radio" aria-hidden="true"></span>
-          <span class="evr-tier-body">
-            <span class="evr-tier-name">{{ section.settings.t1_label }}</span>
-            <span class="evr-tier-sub">{{ section.settings.t1_sub }}</span>
-          </span>
-          <span class="evr-tier-prices">
-            <span class="evr-tier-now">{{ p1 | money }}</span>
-            {%- if p1_cmp > p1 -%}<span class="evr-tier-was">{{ p1_cmp | money }}</span>{%- endif -%}
-          </span>
-        </button>
+          <div class="evr-tier-main">
+            <span class="evr-tier-radio" aria-hidden="true"></span>
+            <span class="evr-tier-body">
+              <span class="evr-tier-name">{{ section.settings.t1_label }}</span>
+              <span class="evr-tier-sub">{{ section.settings.t1_sub }}</span>
+            </span>
+            <span class="evr-tier-prices">
+              <span class="evr-tier-now">{{ p1 | money }}</span>
+              {%- if p1_cmp > p1 -%}<span class="evr-tier-was">{{ p1_cmp | money }}</span>{%- endif -%}
+            </span>
+          </div>
+          <div class="evr-tier-picks">
+            <label class="evr-pick-row"><span class="evr-pick-l">{{ section.settings.pick_label }}</span><span class="evr-pick-wrap"><select class="evr-pick evr-v" data-slot="1" aria-label="{{ section.settings.pick_label }}">{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} — out of stock{% endunless %}</option>{%- endfor -%}</select></span></label>
+          </div>
+        </div>
 
-        <button type="button" class="evr-tier" data-qty="2"
+        <div class="evr-tier" tabindex="0" data-qty="2"
           data-price="{{ p2 }}" data-compare="{{ p2_cmp }}"
           data-cta="{{ section.settings.cta_bundle | escape }}"
           role="radio" aria-checked="false">
           {%- if section.settings.t2_badge != blank -%}<span class="evr-tier-badge">{{ section.settings.t2_badge }}</span>{%- endif -%}
-          <span class="evr-tier-radio" aria-hidden="true"></span>
-          <span class="evr-tier-body">
-            <span class="evr-tier-name">{{ section.settings.t2_label }}</span>
-            <span class="evr-tier-sub">{{ section.settings.t2_sub }}</span>
-          </span>
-          <span class="evr-tier-prices">
-            <span class="evr-tier-now">{{ p2 | money }}</span>
-            <span class="evr-tier-was">{{ p2_cmp | money }}</span>
-            <span class="evr-tier-each">{{ p2_each | money }} each</span>
-          </span>
-        </button>
+          <div class="evr-tier-main">
+            <span class="evr-tier-radio" aria-hidden="true"></span>
+            <span class="evr-tier-body">
+              <span class="evr-tier-name">{{ section.settings.t2_label }}</span>
+              <span class="evr-tier-sub">{{ section.settings.t2_sub }}</span>
+            </span>
+            <span class="evr-tier-prices">
+              <span class="evr-tier-now">{{ p2 | money }}</span>
+              <span class="evr-tier-was">{{ p2_cmp | money }}</span>
+              <span class="evr-tier-each">{{ p2_each | money }} each</span>
+            </span>
+          </div>
+          <div class="evr-tier-picks">
+            <label class="evr-pick-row"><span class="evr-pick-l">{{ section.settings.pick_label_1 }}</span><span class="evr-pick-wrap"><select class="evr-pick evr-v" data-slot="1" aria-label="{{ section.settings.pick_label_1 }}">{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} — out of stock{% endunless %}</option>{%- endfor -%}</select></span></label>
+            <label class="evr-pick-row"><span class="evr-pick-l">{{ section.settings.pick_label_2 }}</span><span class="evr-pick-wrap"><select class="evr-pick evr-v" data-slot="2" aria-label="{{ section.settings.pick_label_2 }}">{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} — out of stock{% endunless %}</option>{%- endfor -%}</select></span></label>
+          </div>
+        </div>
       </div>
+      <p class="evr-pick-s">{{ section.settings.pick_help }}</p>
 
       {%- form 'product', product, id: 'evr-form-hero', class: 'evr-form' -%}
         <input type="hidden" name="id" class="evr-variant-field" value="{{ v.id }}">
-        <input type="hidden" name="quantity" class="evr-qty-field" value="1">
+        <input type="hidden" name="quantity" class="evr-qty-field" value="1"><span class="evr-items"></span>
         <button type="submit" class="atc evr-cta"{% unless v.available %} disabled{% endunless %}>
           {%- if v.available -%}{{ section.settings.cta_single }}{%- else -%}Sold out{%- endif -%}
         </button>
@@ -518,7 +527,7 @@
   <p style="margin:0 auto 26px">{{ section.settings.final_sub }}</p>
   {%- form 'product', product, id: 'evr-form-final', class: 'evr-form' -%}
     <input type="hidden" name="id" class="evr-variant-field" value="{{ v.id }}">
-    <input type="hidden" name="quantity" class="evr-qty-field" value="1">
+    <input type="hidden" name="quantity" class="evr-qty-field" value="1"><span class="evr-items"></span>
     <button type="submit" class="atc evr-cta" style="max-width:420px;margin:0 auto"{% unless v.available %} disabled{% endunless %}>
       {%- if v.available -%}{{ section.settings.cta_single }}{%- else -%}Sold out{%- endif -%}
     </button>
@@ -534,7 +543,7 @@
     <span class="sp" id="evr-sticky-price">{%- if p1_cmp > p1 -%}<s>{{ p1_cmp | money }}</s>{%- endif -%}{{ p1 | money }}</span>
     {%- form 'product', product, id: 'evr-form-sticky', class: 'evr-form' -%}
       <input type="hidden" name="id" class="evr-variant-field" value="{{ v.id }}">
-      <input type="hidden" name="quantity" class="evr-qty-field" value="1">
+      <input type="hidden" name="quantity" class="evr-qty-field" value="1"><span class="evr-items"></span>
       <button type="submit" class="atc evr-cta"{% unless v.available %} disabled{% endunless %}>
         {%- if v.available -%}{{ section.settings.cta_single }}{%- else -%}Sold out{%- endif -%}
       </button>
@@ -559,7 +568,7 @@
     var root = document.getElementById('evr-pdp');
     if(!root) return;
 
-    var sizeSel = root.querySelector('#evr-size-select');
+    var forms   = [].slice.call(root.querySelectorAll('.evr-form'));
     var tiers   = [].slice.call(root.querySelectorAll('.evr-tier'));
     var qtyF    = [].slice.call(root.querySelectorAll('.evr-qty-field'));
     var varF    = [].slice.call(root.querySelectorAll('.evr-variant-field'));
@@ -575,41 +584,68 @@
       return '{{ cart.currency.symbol | default: "$" }}' + s.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
     }
 
+    function activeTier(){ return root.querySelector('.evr-tier.on') || tiers[0]; }
+
+    // Write the cart fields into every form (hero, final, sticky).
+    // One vent, or two of the same vent -> id + quantity (standard).
+    // Two DIFFERENT vents -> items[0]/items[1], one of each.
+    function syncFields(){
+      var t = activeTier(); if(!t) return;
+      var picks = [].slice.call(t.querySelectorAll('.evr-v')).map(function(s){ return s.value; });
+      var qty = parseInt(t.getAttribute('data-qty'),10) || 1;
+      var mixed = (qty === 2 && picks.length === 2 && picks[0] && picks[1] && picks[0] !== picks[1]);
+      forms.forEach(function(fm){
+        var idF = fm.querySelector('.evr-variant-field');
+        var qF  = fm.querySelector('.evr-qty-field');
+        var box = fm.querySelector('.evr-items');
+        if(box) box.innerHTML = '';
+        if(mixed){
+          if(idF){ idF.disabled = true; }
+          if(qF){ qF.disabled = true; }
+          if(box){
+            box.innerHTML =
+              '<input type="hidden" name="items[0][id]" value="'+picks[0]+'">' +
+              '<input type="hidden" name="items[0][quantity]" value="1">' +
+              '<input type="hidden" name="items[1][id]" value="'+picks[1]+'">' +
+              '<input type="hidden" name="items[1][quantity]" value="1">';
+          }
+        } else {
+          if(idF){ idF.disabled = false; if(picks[0]) idF.value = picks[0]; }
+          if(qF){ qF.disabled = false; qF.value = String(qty); }
+        }
+      });
+    }
+
     function pickTier(btn){
       tiers.forEach(function(t){
         var on = (t === btn);
         t.classList.toggle('on', on);
         t.setAttribute('aria-checked', on ? 'true' : 'false');
       });
-      var qty = btn.getAttribute('data-qty') || '1';
       var pr  = parseInt(btn.getAttribute('data-price'), 10);
       var cmp = parseInt(btn.getAttribute('data-compare'), 10);
-      var note= btn.getAttribute('data-note') || '';
       var cta = btn.getAttribute('data-cta') || '';
-
-      qtyF.forEach(function(f){ f.value = qty; });
-
-      if(priceEl && !isNaN(pr)) priceEl.textContent = money(pr);
-      if(cmpEl){
-        if(!isNaN(cmp) && cmp > pr){ cmpEl.textContent = money(cmp); cmpEl.style.display=''; }
-        else { cmpEl.style.display='none'; }
-      }
-      if(noteEl) noteEl.textContent = note;
       if(stackEl && !isNaN(pr)) stackEl.textContent = money(pr);
       if(stickEl && !isNaN(pr)){
         stickEl.innerHTML = (!isNaN(cmp) && cmp > pr ? '<s>' + money(cmp) + '</s>' : '') + money(pr);
       }
       ctas.forEach(function(b){ if(!b.disabled && cta) b.textContent = cta; });
+      syncFields();
     }
 
-    function pickSize(){
-      if(!sizeSel) return;
-      var id = sizeSel.value;
-      if(id) varF.forEach(function(f){ f.value = id; });
-    }
-
-    tiers.forEach(function(t){ t.addEventListener('click', function(){ pickTier(t); }); });
-    if(sizeSel){ sizeSel.addEventListener('change', pickSize); pickSize(); }
+    tiers.forEach(function(t){
+      t.addEventListener('click', function(e){
+        if(e.target.closest && e.target.closest('.evr-tier-picks')) { if(!t.classList.contains('on')) pickTier(t); return; }
+        pickTier(t);
+      });
+      t.addEventListener('keydown', function(e){
+        if((e.key === 'Enter' || e.key === ' ') && !(e.target.closest && e.target.closest('select'))){ e.preventDefault(); pickTier(t); }
+      });
+    });
+    [].slice.call(root.querySelectorAll('.evr-v')).forEach(function(sel){
+      sel.addEventListener('change', syncFields);
+    });
+    syncFields();
 
     // gallery
     [].slice.call(root.querySelectorAll('.evr-thumb')).forEach(function(th){
@@ -634,12 +670,14 @@
 
     { "type": "header", "content": "Hero" },
     { "type": "text", "id": "hero_sub", "label": "Recognition subline", "default": "For the one room that never catches up with the rest of the house." },
-    { "type": "text", "id": "pick_label", "label": "Vent picker label", "default": "Pick your vent" },
+    { "type": "text", "id": "pick_label", "label": "Vent picker label (one vent)", "default": "Pick your vent" },
+    { "type": "text", "id": "pick_label_1", "label": "Vent picker label (two vents, first)", "default": "Vent 1" },
+    { "type": "text", "id": "pick_label_2", "label": "Vent picker label (two vents, second)", "default": "Vent 2" },
     { "type": "text", "id": "pick_help", "label": "Vent picker help line", "default": "Measure the hole, not the cover. Wrong size? We'll swap it free." },
     { "type": "text", "id": "t1_label", "label": "Tier 1 name", "default": "One vent" },
     { "type": "text", "id": "t1_sub", "label": "Tier 1 subline", "default": "For the one room that never catches up" },
     { "type": "text", "id": "t2_label", "label": "Tier 2 name", "default": "Two vents" },
-    { "type": "text", "id": "t2_sub", "label": "Tier 2 subline", "default": "Two problem rooms · free shipping" },
+    { "type": "text", "id": "t2_sub", "label": "Tier 2 subline", "default": "Two rooms · mix sizes or colours · free shipping" },
     { "type": "text", "id": "t2_badge", "label": "Tier 2 badge", "default": "Best value" },
     { "type": "text", "id": "single_ship_note", "label": "Single price note", "default": "+ $9.95 shipping" },
     { "type": "text", "id": "bundle_ship_note", "label": "2-pack price note", "default": "Free shipping" },

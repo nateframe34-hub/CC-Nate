@@ -16,6 +16,11 @@
 | 4 | **Upload both theme files, then assign the template** | Code editor: add `sections/evenroom-pdp-sa1.liquid` **and** `templates/product.evenroom.json` (Add a new template → product → JSON → name it `evenroom`, paste the file). Then **Products → the vent → Theme template → `evenroom`** | ⬜ |
 | 5 | Theme's own cart / drawer | The three `{% form 'product' %}` blocks post to `/cart/add` like any theme form | — |
 
+### Mixed 2-packs (added 2026-09-28)
+When "Two vents" is picked with two **different** vents (e.g. one white, one bronze), the form adds two line items (`items[0]`, `items[1]`) instead of one item with quantity 2. Two checks:
+- **The discount must count any variant.** Set the automatic discount to "Minimum quantity of items: 2" on **the product** (all variants), not on a single variant, or a mixed pair won't get $19.99 off.
+- **Test the mixed add with your theme's cart drawer.** Most themes pass the form straight to `/cart/add` and both items land. If yours drops one, tell me and I'll switch the mixed case to a direct cart call.
+
 ### 3 in detail — do not skip this
 
 ```
@@ -35,7 +40,8 @@ Shopify admin → Discounts → Create discount → Amount off order
 ## Before sending traffic
 
 - [ ] Cart total on the 2-pack reads $159.99
-- [ ] Both size buttons change the variant that lands in the cart
+- [ ] The "Pick your vent" dropdown changes the variant that lands in the cart
+- [ ] Two vents, same choice → 1 line × qty 2 · two vents, different choices → 2 lines × qty 1, both discounted
 - [ ] **Cart drawer still opens** after adding — the selector script is isolated to prevent this, but test it
 - [ ] Sticky bar price updates when the tier changes
 - [ ] `grep -r "\[PH\]" ` over the theme returns **nothing** — placeholder reviews must not ship

@@ -55,11 +55,11 @@ Ships from the US · 60-day returns · Free shipping on 2-packs
 
 *(No big price/shipping line — founder 2026-09-28. Prices live on the bundle cards.)*
 
-**Pick your vent** — dropdown of the variants (`4×10`, `6×10`) · *Measure the hole, not the cover. Wrong size? We'll swap it free.*
+**Bundle — tallow-style stacked radio cards, with the vent dropdown inside the selected card:**
+- ◉ **One vent** · For the one room that never catches up · ~~$119.99~~ **$89.99** → dropdown *Pick your vent*
+- ○ **Two vents** `BEST VALUE` · Two rooms · mix sizes or colours · free shipping · ~~$179.98~~ **$159.99** · $80 each → two dropdowns *Vent 1* / *Vent 2*
 
-**Bundle — tallow-style stacked radio cards:**
-- ◉ **One vent** · For the one room that never catches up · ~~$119.99~~ **$89.99**
-- ○ **Two vents** `BEST VALUE` · Two problem rooms · free shipping · ~~$179.98~~ **$159.99** · $80 each
+*Under the cards: "Measure the hole, not the cover. Wrong size? We'll swap it free."*
 
 ## 3. Your fan isn't broken ⭐ *the congruence beat*
 
