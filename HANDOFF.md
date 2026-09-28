@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-28** — PDP hero (founder): big price and shipping line removed; size buttons replaced with a "Pick your vent" dropdown; bundle selector rebuilt in tallow's stacked radio-card layout (One vent / Two vents with a Best value badge, prices from the Shopify product). New settings: pick_label, pick_help, t1/t2 label and sub, t2_badge.
+
 - **2026-09-28** — Added `register-fan/store/theme/templates/product.evenroom.json` (like tallow's product.tallow-v2.json) so the PDP can be selected as a product template.
 
 - **2026-09-27** — Install images: the old-cover-out step was dropped (founder: the swap photo shows the install on its own). Two approved install photos. PDP §8 now has two image slots (`install_img_1`, `install_img_2`), side by side and stacked on mobile.

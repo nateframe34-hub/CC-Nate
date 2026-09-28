@@ -115,6 +115,33 @@
 #evr-pdp .opt[disabled]{opacity:.42;cursor:not-allowed}
 #evr-pdp .tag{display:inline-block;background:var(--accent);color:var(--accent-ink);font-family:var(--hdr);font-size:10px;letter-spacing:.09em;text-transform:uppercase;padding:3px 7px;margin-top:8px;font-weight:700}
 
+/* vent picker (dropdown) */
+#evr-pdp .evr-pick-l{display:block;font-family:var(--hdr);font-weight:700;font-size:15px;margin:6px 0 8px}
+#evr-pdp .evr-pick-wrap{position:relative}
+#evr-pdp .evr-pick-wrap:after{content:"";position:absolute;right:18px;top:50%;width:9px;height:9px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+#evr-pdp .evr-pick{width:100%;appearance:none;-webkit-appearance:none;background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:15px 44px 15px 16px;font-family:var(--body);font-size:16px;color:var(--ink);cursor:pointer}
+#evr-pdp .evr-pick:focus{outline:2px solid var(--accent);outline-offset:1px}
+#evr-pdp .evr-pick-s{font-size:13px;color:var(--muted);margin:8px 0 18px}
+
+/* bundle — tallow layout */
+#evr-pdp .evr-bundle{display:flex;flex-direction:column;gap:12px;margin:0 0 6px}
+#evr-pdp .evr-tier{position:relative;display:flex;align-items:center;gap:12px;width:100%;padding:15px 14px;border:1.5px solid var(--line);border-radius:12px;background:#fff;text-align:left;cursor:pointer;font:inherit;color:inherit;transition:border-color .15s,background .15s}
+#evr-pdp .evr-tier:hover{border-color:var(--muted)}
+#evr-pdp .evr-tier:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#evr-pdp .evr-tier.on{border-color:var(--accent);border-width:2px;padding:14px 13px;background:#FBF1EC}
+#evr-pdp .evr-tier-radio{flex:0 0 auto;width:20px;height:20px;border-radius:50%;border:1.5px solid #c9c0b3;background:#fff;position:relative}
+#evr-pdp .evr-tier.on .evr-tier-radio{border-color:var(--accent);border-width:2px}
+#evr-pdp .evr-tier.on .evr-tier-radio:after{content:"";position:absolute;inset:3px;border-radius:50%;background:var(--accent)}
+#evr-pdp .evr-tier-body{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:2px}
+#evr-pdp .evr-tier-name{font-family:var(--hdr);font-weight:700;font-size:15.5px;line-height:1.2}
+#evr-pdp .evr-tier-sub{font-size:12.5px;color:var(--muted)}
+#evr-pdp .evr-tier-prices{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:1px}
+#evr-pdp .evr-tier-now{font-family:var(--hdr);font-size:19px;font-weight:700;line-height:1.15}
+#evr-pdp .evr-tier-was{font-size:12.5px;color:var(--muted);text-decoration:line-through}
+#evr-pdp .evr-tier-each{font-size:11.5px;color:var(--muted)}
+#evr-pdp .evr-tier-badge{position:absolute;top:-10px;right:12px;background:var(--accent);color:var(--accent-ink);font-family:var(--hdr);font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:999px;white-space:nowrap}
+@media(max-width:380px){#evr-pdp .evr-tier{padding:12px 11px}#evr-pdp .evr-tier-name{font-size:14.5px}#evr-pdp .evr-tier-now{font-size:17.5px}}
+
 /* atc */
 #evr-pdp .atc{width:100%;background:var(--accent);color:var(--accent-ink);border:0;font-family:var(--hdr);font-weight:700;font-size:17px;letter-spacing:.01em;padding:19px;cursor:pointer;margin-top:22px}
 #evr-pdp .atc:hover{filter:brightness(1.07)}
@@ -223,56 +250,50 @@
       <h1>{{ product.title }}</h1>
       <p class="sub">{{ section.settings.hero_sub }}</p>
 
-      <div class="prices">
-        <span class="p-now" id="evr-price">{{ p1 | money }}</span>
-        {%- if p1_cmp > p1 -%}<s class="p-was" id="evr-compare">{{ p1_cmp | money }}</s>{%- endif -%}
-      </div>
-      <p class="p-note" id="evr-pnote">{{ section.settings.single_ship_note }}</p>
-
-      {%- comment -%} STEP 1 — SIZE {%- endcomment -%}
-      <div class="step">
-        <div class="step-h"><span class="step-n">01</span><span class="step-t">Which size is your vent?</span></div>
-        <p class="step-s">Measure the <b>hole</b>, not the cover. Both are 10&Prime; long — the short side is the one that differs.</p>
-        <div class="opts" id="evr-sizes">
+      {%- comment -%} VENT PICKER — dropdown of the product's variants {%- endcomment -%}
+      <label class="evr-pick-l" for="evr-size-select">{{ section.settings.pick_label }}</label>
+      <div class="evr-pick-wrap">
+        <select id="evr-size-select" class="evr-pick">
           {%- for variant in product.variants -%}
-            <button type="button" class="opt evr-size{% if variant.id == v.id %} on{% endif %}"
-              data-variant="{{ variant.id }}"
-              data-available="{{ variant.available }}"
-              {% unless variant.available %}disabled{% endunless %}
-              role="radio" aria-checked="{% if variant.id == v.id %}true{% else %}false{% endif %}">
-              <span class="ot">{{ variant.title }}</span>
-              <span class="os">{% unless variant.available %}Out of stock{% else %}{{ section.settings.size_note }}{% endunless %}</span>
-            </button>
+            <option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} — out of stock{% endunless %}</option>
           {%- endfor -%}
-        </div>
+        </select>
       </div>
+      <p class="evr-pick-s">{{ section.settings.pick_help }}</p>
 
-      {%- comment -%} STEP 2 — BUNDLE. Prices derived from the Shopify product. {%- endcomment -%}
-      <div class="step">
-        <div class="step-h"><span class="step-n">02</span><span class="step-t">How many rooms?</span></div>
-        <p class="step-s">{{ section.settings.bundle_note }}</p>
-        <div class="opts" id="evr-tiers">
-          <button type="button" class="opt evr-tier on" data-qty="1"
-            data-price="{{ p1 }}" data-compare="{{ p1_cmp }}"
-            data-note="{{ section.settings.single_ship_note | escape }}"
-            data-cta="{{ section.settings.cta_single | escape }}"
-            role="radio" aria-checked="true">
-            <span class="ot">One vent</span>
-            <span class="os">The room that never catches up</span>
-            <span class="op">{%- if p1_cmp > p1 -%}<s>{{ p1_cmp | money }}</s>{%- endif -%}{{ p1 | money }}</span>
-          </button>
+      {%- comment -%} BUNDLE — tallow-style stacked radio cards. Prices from the Shopify product. {%- endcomment -%}
+      <div class="evr-bundle" id="evr-tiers" role="radiogroup" aria-label="How many vents">
+        <button type="button" class="evr-tier on" data-qty="1"
+          data-price="{{ p1 }}" data-compare="{{ p1_cmp }}"
+          data-cta="{{ section.settings.cta_single | escape }}"
+          role="radio" aria-checked="true">
+          <span class="evr-tier-radio" aria-hidden="true"></span>
+          <span class="evr-tier-body">
+            <span class="evr-tier-name">{{ section.settings.t1_label }}</span>
+            <span class="evr-tier-sub">{{ section.settings.t1_sub }}</span>
+          </span>
+          <span class="evr-tier-prices">
+            <span class="evr-tier-now">{{ p1 | money }}</span>
+            {%- if p1_cmp > p1 -%}<span class="evr-tier-was">{{ p1_cmp | money }}</span>{%- endif -%}
+          </span>
+        </button>
 
-          <button type="button" class="opt evr-tier" data-qty="2"
-            data-price="{{ p2 }}" data-compare="{{ p2_cmp }}"
-            data-note="{{ section.settings.bundle_ship_note | escape }}"
-            data-cta="{{ section.settings.cta_bundle | escape }}"
-            role="radio" aria-checked="false">
-            <span class="ot">Two vents</span>
-            <span class="os">{{ p2_each | money }} each</span>
-            <span class="op"><s>{{ p2_cmp | money }}</s>{{ p2 | money }}</span>
-            <span class="tag">Free shipping</span>
-          </button>
-        </div>
+        <button type="button" class="evr-tier" data-qty="2"
+          data-price="{{ p2 }}" data-compare="{{ p2_cmp }}"
+          data-cta="{{ section.settings.cta_bundle | escape }}"
+          role="radio" aria-checked="false">
+          {%- if section.settings.t2_badge != blank -%}<span class="evr-tier-badge">{{ section.settings.t2_badge }}</span>{%- endif -%}
+          <span class="evr-tier-radio" aria-hidden="true"></span>
+          <span class="evr-tier-body">
+            <span class="evr-tier-name">{{ section.settings.t2_label }}</span>
+            <span class="evr-tier-sub">{{ section.settings.t2_sub }}</span>
+          </span>
+          <span class="evr-tier-prices">
+            <span class="evr-tier-now">{{ p2 | money }}</span>
+            <span class="evr-tier-was">{{ p2_cmp | money }}</span>
+            <span class="evr-tier-each">{{ p2_each | money }} each</span>
+          </span>
+        </button>
       </div>
 
       {%- form 'product', product, id: 'evr-form-hero', class: 'evr-form' -%}
@@ -538,7 +559,7 @@
     var root = document.getElementById('evr-pdp');
     if(!root) return;
 
-    var sizes   = [].slice.call(root.querySelectorAll('.evr-size'));
+    var sizeSel = root.querySelector('#evr-size-select');
     var tiers   = [].slice.call(root.querySelectorAll('.evr-tier'));
     var qtyF    = [].slice.call(root.querySelectorAll('.evr-qty-field'));
     var varF    = [].slice.call(root.querySelectorAll('.evr-variant-field'));
@@ -581,19 +602,14 @@
       ctas.forEach(function(b){ if(!b.disabled && cta) b.textContent = cta; });
     }
 
-    function pickSize(btn){
-      if(btn.hasAttribute('disabled')) return;
-      sizes.forEach(function(s){
-        var on = (s === btn);
-        s.classList.toggle('on', on);
-        s.setAttribute('aria-checked', on ? 'true' : 'false');
-      });
-      var id = btn.getAttribute('data-variant');
+    function pickSize(){
+      if(!sizeSel) return;
+      var id = sizeSel.value;
       if(id) varF.forEach(function(f){ f.value = id; });
     }
 
     tiers.forEach(function(t){ t.addEventListener('click', function(){ pickTier(t); }); });
-    sizes.forEach(function(s){ s.addEventListener('click', function(){ pickSize(s); }); });
+    if(sizeSel){ sizeSel.addEventListener('change', pickSize); pickSize(); }
 
     // gallery
     [].slice.call(root.querySelectorAll('.evr-thumb')).forEach(function(th){
@@ -618,6 +634,13 @@
 
     { "type": "header", "content": "Hero" },
     { "type": "text", "id": "hero_sub", "label": "Recognition subline", "default": "For the one room that never catches up with the rest of the house." },
+    { "type": "text", "id": "pick_label", "label": "Vent picker label", "default": "Pick your vent" },
+    { "type": "text", "id": "pick_help", "label": "Vent picker help line", "default": "Measure the hole, not the cover. Wrong size? We'll swap it free." },
+    { "type": "text", "id": "t1_label", "label": "Tier 1 name", "default": "One vent" },
+    { "type": "text", "id": "t1_sub", "label": "Tier 1 subline", "default": "For the one room that never catches up" },
+    { "type": "text", "id": "t2_label", "label": "Tier 2 name", "default": "Two vents" },
+    { "type": "text", "id": "t2_sub", "label": "Tier 2 subline", "default": "Two problem rooms · free shipping" },
+    { "type": "text", "id": "t2_badge", "label": "Tier 2 badge", "default": "Best value" },
     { "type": "text", "id": "single_ship_note", "label": "Single price note", "default": "+ $9.95 shipping" },
     { "type": "text", "id": "bundle_ship_note", "label": "2-pack price note", "default": "Free shipping" },
     { "type": "text", "id": "size_note", "label": "Size option subline", "default": "Fits this duct opening" },

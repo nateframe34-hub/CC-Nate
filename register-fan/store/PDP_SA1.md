@@ -53,10 +53,13 @@ Ships from the US · 60-day returns · Free shipping on 2-packs
 **Evenroom Vent Thermostat**
 *For the one room that never catches up with the rest of the house.*
 
-~~$119.99~~ **$89.99** · 2-pack $159.99, free shipping
+*(No big price/shipping line — founder 2026-09-28. Prices live on the bundle cards.)*
 
-**Step 1 — Which size?** `4×10` · `6×10` — *measure the hole, not the cover*
-**Step 2 — How many rooms?** One vent · Two vents *($80 each)*
+**Pick your vent** — dropdown of the variants (`4×10`, `6×10`) · *Measure the hole, not the cover. Wrong size? We'll swap it free.*
+
+**Bundle — tallow-style stacked radio cards:**
+- ◉ **One vent** · For the one room that never catches up · ~~$119.99~~ **$89.99**
+- ○ **Two vents** `BEST VALUE` · Two problem rooms · free shipping · ~~$179.98~~ **$159.99** · $80 each
 
 ## 3. Your fan isn't broken ⭐ *the congruence beat*
 
