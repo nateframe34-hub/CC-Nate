@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-28** — Added `register-fan/store/theme/templates/product.evenroom.json` (like tallow's product.tallow-v2.json) so the PDP can be selected as a product template.
+
 - **2026-09-27** — Install images: the old-cover-out step was dropped (founder: the swap photo shows the install on its own). Two approved install photos. PDP §8 now has two image slots (`install_img_1`, `install_img_2`), side by side and stacked on mobile.
 
 - **2026-09-27** — The "bronze" colourway is really a muted rosewood (~#7E5256, red-mauve cast). The old prompt described it as dark oil-rubbed bronze and banned rose tones, which fought the reference. The 1e prompt is now written in rosewood terms with hex targets and avoids leaning on the word "bronze".

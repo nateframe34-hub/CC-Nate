@@ -13,7 +13,7 @@
 | 1 | **The product exists with two variants** — `4×10` and `6×10` | The size step iterates `product.variants`. With one variant it renders a single button and still works | ⬜ |
 | 2 | **Compare-at price set on the product** | The struck-through price and the 2-pack saving both derive from `product.compare_at_price`. Without it the page just shows one price and doesn't break | ⬜ |
 | 3 | 🚨 **An automatic order discount in Shopify admin** | The 2-pack adds **quantity 2 of the same variant**. Shopify charges 2 × price unless a discount exists | ⬜ |
-| 4 | **The section added to the product template** | Theme editor → product template → Add section → "Evenroom PDP (SA1)" | ⬜ |
+| 4 | **Upload both theme files, then assign the template** | Code editor: add `sections/evenroom-pdp-sa1.liquid` **and** `templates/product.evenroom.json` (Add a new template → product → JSON → name it `evenroom`, paste the file). Then **Products → the vent → Theme template → `evenroom`** | ⬜ |
 | 5 | Theme's own cart / drawer | The three `{% form 'product' %}` blocks post to `/cart/add` like any theme form | — |
 
 ### 3 in detail — do not skip this
