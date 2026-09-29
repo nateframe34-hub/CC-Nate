@@ -1,7 +1,7 @@
-# Register Booster Fan — Offer Structure
+# Register Booster Fan: Offer Structure
 
 **Created:** 2026-08-12
-**Status:** Price locked. **`Brand_Mastery.md` is the senior document** for avatars, sophistication, awareness and claim discipline — this file covers price, sourcing, sizing, guarantee and kill rules only.
+**Status:** Price locked. **`Brand_Mastery.md` is the senior document** for avatars, sophistication, awareness and claim discipline, this file covers price, sourcing, sizing, guarantee and kill rules only.
 
 > **The PDP was scrapped 2026-09-17** (founder call): written before the avatar work, the sophistication read and the comparison discipline existed, so it was built on a superseded foundation and carried leaks. Rebuild it only after the cold-side research and the category-naming decision.
 **Product:** A register/vent cover with built-in fans. Replaces the existing floor or wall register, plugs into a wall outlet, and pulls conditioned air (hot or cold) out of the duct into the room instead of letting it stall in the branch line. **Unit sourced 2026-08-12** carries a **thermostat display, a remote, and mode presets** (winter / cooler / summer / fan / sleep), in **white and bronze**.
@@ -10,7 +10,7 @@
 
 ## 1. The price
 
-> **Two numbers only.** Price gets judged on **CAC room** (the dollars available to buy a customer) and **margin %**. Not on projected CVR, CPC, CPM or CTR — we have no data on any of those for this product, and a projection built on nothing is worse than no projection, because it looks like a reason. Founder call, 2026-08-12.
+> **Two numbers only.** Price gets judged on **CAC room** (the dollars available to buy a customer) and **margin %**. Not on projected CVR, CPC, CPM or CTR, we have no data on any of those for this product, and a projection built on nothing is worse than no projection, because it looks like a reason. Founder call, 2026-08-12.
 
 | | Single | 2-Pack |
 |---|---|---|
@@ -23,33 +23,33 @@
 | **CAC room** | **$56.91** | **$75.39** |
 | **Margin %** | **56.9%** | **47.1%** |
 
-**Supplier: upgraded unit sourced 2026-08-12 at $39.83 landed** (replaces the $46.39 baseline). **Founder call 2026-08-12** — two attempts at a cheaper unit failed (see the sourcing log below), and sourcing cheaper without losing quality is proving hard enough that it is not worth holding the test hostage to it. **The price stays at $89.99 / $159.99 anyway.** The purpose of this test is to find out whether a market exists at a price customers will pay, not to prove profitability at launch COGS. Those are different questions and this is the right one to answer first.
+**Supplier: upgraded unit sourced 2026-08-12 at $39.83 landed** (replaces the $46.39 baseline). **Founder call 2026-08-12**, two attempts at a cheaper unit failed (see the sourcing log below), and sourcing cheaper without losing quality is proving hard enough that it is not worth holding the test hostage to it. **The price stays at $89.99 / $159.99 anyway.** The purpose of this test is to find out whether a market exists at a price customers will pay, not to prove profitability at launch COGS. Those are different questions and this is the right one to answer first.
 
-**The bundle returns 1.32x the contribution of a single for the same CAC.** CAC is paid per *order*, not per unit — one click, one customer, one acquisition cost, ~1.3x the money. That is the entire case for pushing the 2-pack, and it is why the bundle is allowed a lower margin % than the single. Margin % is the wrong thing to protect on a bundle.
+**The bundle returns 1.32x the contribution of a single for the same CAC.** CAC is paid per *order*, not per unit, one click, one customer, one acquisition cost, ~1.3x the money. That is the entire case for pushing the 2-pack, and it is why the bundle is allowed a lower margin % than the single. Margin % is the wrong thing to protect on a bundle.
 
 **Why $89.99 and not $79.99 or $99.**
 
 - **$89.99 + $9.95 is $99.94 at checkout.** The total the customer actually pays stays under $100, shipping included. That is the only real psychological threshold in this range, and this is the highest price that clears it.
 - **$79.99 crosses nothing.** $89.94 and $99.94 sit in the same bracket, so dropping to $79.99 gives up $9.71 of CAC room per order and buys no threshold. ($99 + $9.95 = $108.95 *does* break the threshold, in the wrong direction.)
-- **$159.99 over $139.99 on the bundle.** At $139.99 the bundle returns only 1.30x a single's contribution — double the fulfilment and double the return exposure for a thin premium. $159.99 holds the ratio at 1.32x while still showing an $80/unit price against a $99.94 single.
+- **$159.99 over $139.99 on the bundle.** At $139.99 the bundle returns only 1.30x a single's contribution, double the fulfilment and double the return exposure for a thin premium. $159.99 holds the ratio at 1.32x while still showing an $80/unit price against a $99.94 single.
 
 **Variant worth keeping on the shelf:** $79.99 + **$14.95** shipping = $94.94 all-in, $57.57 CAC room, 60.6% margin. Shipping is a real cost we are passing through, not a margin grab, and it is the only structure that makes a $79.99 headline affordable. The tradeoff is that visible shipping over ~$10 reads as a trick to some buyers. Test it against the locked pair rather than assuming.
 
 **Anchor:** compare-at $119.99 on the single, $239.98 on the 2-pack. Both real: $119.99 is the intended post-test price and $239.98 is 2 × $119.99.
 
-### ⚠️ The upgraded unit's competitive argument was WRONG — struck 2026-09-16
+### ⚠️ The upgraded unit's competitive argument was WRONG: struck 2026-09-16
 
 This section previously argued that the thermostat and remote made us "a different tier" from a $22 Amazon unit, and that this answered the price-check objection. **Both halves are false.**
 
-The real comparison is **AC Infinity AirTap at $59.99-$69.99** and **SmartCocoon at $74** — branded units with phone apps, auto-opening vents and smart-home integration, sold on Amazon, Home Depot and Walmart. Against those we are the most expensive option with the fewest features. See `Brand_Mastery.md` Part 3.
+The real comparison is **AC Infinity AirTap at $59.99-$69.99** and **SmartCocoon at $74**, branded units with phone apps, auto-opening vents and smart-home integration, sold on Amazon, Home Depot and Walmart. Against those we are the most expensive option with the fewest features. See `Brand_Mastery.md` Part 3.
 
-**What replaces it:** we concede product-vs-product and compete on marketing. The incumbents do not advertise on Meta, so we would be the only register-fan brand buying attention there — an advantage that requires nothing from our hardware. Price holds at $89.99 / $159.99.
+**What replaces it:** we concede product-vs-product and compete on marketing. The incumbents do not advertise on Meta, so we would be the only register-fan brand buying attention there, an advantage that requires nothing from our hardware. Price holds at $89.99 / $159.99.
 
 🚫 **And the rule that follows: never name a competitor or a cheaper version, in any asset.** An unaware buyer cannot search for a category they cannot name; the only realistic route to a price-check is a search we prompted. Full rule in `Brand_Mastery.md` §9a-i.
 
 **The one part of the original section that still stands:** more to set up means more ways to conclude the unit is broken when it is only in the wrong mode. Every bad review in the category is an instruction failure. **The install card must cover the modes and the remote, not just the physical fit.**
 
-### 🔒 THE PRICE LEVER — pre-computed, pulled only when CAC is known
+### 🔒 THE PRICE LEVER: pre-computed, pulled only when CAC is known
 
 **Founder call 2026-09-25: launch at $89.99 / $159.99. Do not touch price before CAC is measured.** Everything about pricing is speculation until we know what a customer actually costs, and CAC is the one number no amount of analysis produces.
 
@@ -57,10 +57,10 @@ The arithmetic for the alternative is already done, so **the next price decision
 
 | Option | Customer pays | Contribution | Margin | BE ROAS | BE click→purchase @ $3 CPC |
 |---|---|---|---|---|---|
-| **LAUNCH — $89.99 + $9.95** | $99.94 | **$56.91** | 56.9% | 1.76× | **5.27%** |
-| **LEVER — $119.99 + $9.95** | $129.94 | **$86.04** | 66.2% | 1.51× | **3.49%** |
-| 2-pack at launch — $159.99 | $159.99 | $75.39 | 47.1% | 2.12× | — |
-| 2-pack with the lever — $199.99 | $199.99 | $114.23 | 57.1% | 1.75× | — |
+| **LAUNCH, $89.99 + $9.95** | $99.94 | **$56.91** | 56.9% | 1.76× | **5.27%** |
+| **LEVER, $119.99 + $9.95** | $129.94 | **$86.04** | 66.2% | 1.51× | **3.49%** |
+| 2-pack at launch, $159.99 | $159.99 | $75.39 | 47.1% | 2.12× | - |
+| 2-pack with the lever, $199.99 | $199.99 | $114.23 | 57.1% | 1.75× | - |
 
 ### The decision rule, written before the data
 
@@ -70,50 +70,50 @@ Once blended CAC is known from the campaign:
 |---|---|---|
 | **Under $57** | Profitable at launch pricing | **Hold $89.99. Scale.** |
 | **$57 – $86** | ⭐ Unprofitable at $89.99, **profitable at $119.99** | **Raise the price.** This is the band the lever exists for |
-| **Over $86** | Neither price works | **Not a price problem.** Product, offer or market — see kill rules §2 |
+| **Over $86** | Neither price works | **Not a price problem.** Product, offer or market, see kill rules §2 |
 
 ### What to expect on the first read, so it isn't misread
 
-At $89.99 the breakeven click→purchase at a $3 CPC is **5.27%.** Tallow's best was 3.42% and the account has never seen 5%. **So a first result that looks unprofitable is the expected outcome, not a failure signal** — the question the batch answers is whether people buy at all and at what CAC, and the price lever is what converts a workable CAC into a profitable one.
+At $89.99 the breakeven click→purchase at a $3 CPC is **5.27%.** Tallow's best was 3.42% and the account has never seen 5%. **So a first result that looks unprofitable is the expected outcome, not a failure signal**, the question the batch answers is whether people buy at all and at what CAC, and the price lever is what converts a workable CAC into a profitable one.
 
 **Do not read "unprofitable at $89.99" as "the product doesn't work."** Read it against the table above.
 
 ### ⚠️ Verify the pixel's purchase value before judging any ROAS
 
-Meta reports ROAS on whatever value the pixel passes — Shopify sends either the order **total** (with shipping) or the **subtotal** (without). The breakevens differ:
+Meta reports ROAS on whatever value the pixel passes, Shopify sends either the order **total** (with shipping) or the **subtotal** (without). The breakevens differ:
 
 | | Shipping IN the value | Shipping OUT |
 |---|---|---|
 | Single BE ROAS | 1.76× | 1.63× |
 | Blended @10% bundle | 1.80× | 1.69× |
 
-**Check the first real order** — compare the purchase value in Events Manager against the Shopify order — and record which basis applies. Until then carry the conservative (shipping-in) figures.
+**Check the first real order**, compare the purchase value in Events Manager against the Shopify order, and record which basis applies. Until then carry the conservative (shipping-in) figures.
 
 **Better: judge on CAC against contribution, which is immune to this entirely.** Kill rules already say to prefer CAC where both are available; this is the concrete reason why.
 
-### Sourcing log — two cheaper units attempted, both failed
+### Sourcing log: two cheaper units attempted, both failed
 
-**Attempt 1 — $18.25/unit overseas (~$31.75 landed).** Failed to source.
+**Attempt 1, $18.25/unit overseas (~$31.75 landed).** Failed to source.
 
-**Attempt 2 — US-based, $34.32 landed. Rejected on terms, 2026-08-12.** VEVOR distribution. Three disqualifiers:
+**Attempt 2, US-based, $34.32 landed. Rejected on terms, 2026-08-12.** VEVOR distribution. Three disqualifiers:
 
 1. **Random logistics.** "The supplier does not support designated logistics shipping." We could not control the carrier, promise a delivery window, or put a transit time on the PDP. Domestic transit speed was the *entire* reason to accept a worse COGS on an urgency purchase, and this clause removes it.
-2. **No usable creative assets.** No brand authorization, no use of their images or video, all branding stripped from anything we do use. On a drop-shipped fitment product that means launching with no product photography, no install footage, and no way to shoot the measure-your-vent step — a missing input, not a constraint to write around.
+2. **No usable creative assets.** No brand authorization, no use of their images or video, all branding stripped from anything we do use. On a drop-shipped fitment product that means launching with no product photography, no install footage, and no way to shoot the measure-your-vent step, a missing input, not a constraint to write around.
 3. **The manufacturer sells this unit on Amazon themselves.** The clause forbidding us to price below their Amazon listing exists because that listing exists. A price-checking customer at a $99.94 checkout doesn't find a substitute, they find the source. This is the tallow failure mode with the volume turned up.
 
-Liability was also one-directional — full responsibility on us, explicit refusal of assistance, termination at their discretion.
+Liability was also one-directional, full responsibility on us, explicit refusal of assistance, termination at their discretion.
 
 **→ New screening question for the product-selection checklist:** *does the supplier sell this unit themselves, under their own brand, on Amazon?* If yes, we compete with our own source and every price-check resolves in their favour. Add this alongside the Meta Ad Library category-age check in `tallow-cream/POST_MORTEM.md`.
 
-### The economics are close to tallow's — this is a demand test, not a margin test
+### The economics are close to tallow's: this is a demand test, not a margin test
 
-Tallow ran **$41.52** on the single and **$60.71** on the bundle. This runs **$56.91** and **$75.39**. Better, but the same order of magnitude — and tallow died on economics, not on the product.
+Tallow ran **$41.52** on the single and **$60.71** on the bundle. This runs **$56.91** and **$75.39**. Better, but the same order of magnitude, and tallow died on economics, not on the product.
 
-So everything that has to be different here sits on the demand side: no Meta competition (confirmed — the incumbents do not advertise there), an urgent problem, low awareness, higher purchase intent. That is a real difference and it is why this is worth running. But it means:
+So everything that has to be different here sits on the demand side: no Meta competition (confirmed, the incumbents do not advertise there), an urgent problem, low awareness, higher purchase intent. That is a real difference and it is why this is worth running. But it means:
 
 - **The $600 cap in section 7 is doing more work than it would at a lower COGS. Hold it.** Extending it "for one more read" is exactly the mechanism by which tallow reached $2,000.
 - **The 2-pack stays the upsell, not the default selection.** At 1.32x a single it is still worth pushing, but it no longer earns default status.
-- **"Store profit funds the MOQ" is a longer runway than it looked.** At $56 of room, if CAC lands near $35 you keep ~$21 an order, putting a $2-3k MOQ ~100-145 orders out rather than 50. Raising to **$119 + $9.95 / $199** post-validation ($68.81 / $102.37 of room) is the lever that shortens it — and it is far easier to raise a price on a product with proof than to launch high without any.
+- **"Store profit funds the MOQ" is a longer runway than it looked.** At $56 of room, if CAC lands near $35 you keep ~$21 an order, putting a $2-3k MOQ ~100-145 orders out rather than 50. Raising to **$119 + $9.95 / $199** post-validation ($68.81 / $102.37 of room) is the lever that shortens it, and it is far easier to raise a price on a product with proof than to launch high without any.
 
 **If a cheaper unit is sourced later**, the pricing does not need to change; the COGS drop goes straight into CAC room. At ~$34 landed the same prices give $62.42 (62.5%) and $86.41 (54.0%).
 
@@ -127,7 +127,7 @@ Frame it as **the second register in the same room, or the return path.**
 
 Three true reasons a buyer needs two, in order of how often they'll apply:
 
-1. **Most problem rooms have two registers.** A bedroom over a garage, a bonus room, a converted attic — boosting one and leaving the other is a half fix.
+1. **Most problem rooms have two registers.** A bedroom over a garage, a bonus room, a converted attic, boosting one and leaving the other is a half fix.
 2. **The room at the end of the run is rarely the only one.** Whoever has the hot bedroom usually also has the cold office, or the upstairs that never matches the downstairs.
 3. **It is the cheapest second unit you will ever buy.** $80.00 versus $99.94. If a second room turns up later, you paid $20 more for it today than you would have.
 
@@ -137,44 +137,44 @@ Do not use "buy 2 get 20% off" as the on-page label. It reads as a discount prom
 
 ---
 
-## 3. Sizing — the thing that will break this if we get it wrong
+## 3. Sizing: the thing that will break this if we get it wrong
 
 This is a physical-fitment product. It is the highest-friction step in the funnel and it has to be handled **before** the add-to-cart, not after.
 
 **Standard US register sizes, by prevalence:** 4×10, 4×12, 6×10, 6×12. The duct-opening measurement (not the faceplate) is what matters.
 
-**Confirmed 2026-09-16: the supplier offers TWO sizes — 4×10 and 6×10.** Two options is a two-button choice, not a four-way dropdown.
+**Confirmed 2026-09-16: the supplier offers TWO sizes, 4×10 and 6×10.** Two options is a two-button choice, not a four-way dropdown.
 
-🚨 **They differ in the SHORT dimension, so the measurement must match exactly.** Both are 10 inches long. The fan housing seats *inside* the duct opening, so a 6-inch unit will not go into a 4-inch hole. Any "if you're between sizes, size up" guidance is **wrong on this product** and would generate returns — the faceplate overlaps, the housing does not.
+🚨 **They differ in the SHORT dimension, so the measurement must match exactly.** Both are 10 inches long. The fan housing seats *inside* the duct opening, so a 6-inch unit will not go into a 4-inch hole. Any "if you're between sizes, size up" guidance is **wrong on this product** and would generate returns, the faceplate overlaps, the housing does not.
 
-### ⚠️ Coverage gap — no 4×12
+### ⚠️ Coverage gap: no 4×12
 
-Common US register sizes are roughly 4×10, 4×12, 6×10 and 6×12, and **4×12 is at least as common as 4×10.** Every visitor who measures 4×12 or 6×12 is a no-sale, lost at the worst possible moment — *after* measuring and confirming their problem is real, i.e. at peak intent.
+Common US register sizes are roughly 4×10, 4×12, 6×10 and 6×12, and **4×12 is at least as common as 4×10.** Every visitor who measures 4×12 or 6×12 is a no-sale, lost at the worst possible moment, *after* measuring and confirming their problem is real, i.e. at peak intent.
 
 Does not block the test. Two responses:
 
 1. **Ask the supplier whether a 4×12 exists.** Likely the cheapest conversion gain available anywhere in this funnel.
-2. **Capture the misses** — an email field on the size step ("we'll tell you when we have your size"). Anyone who fills it in has self-identified as having the problem, measured their vent, and been willing to buy. A better list than any lead magnet.
+2. **Capture the misses**, an email field on the size step ("we'll tell you when we have your size"). Anyone who fills it in has self-identified as having the problem, measured their vent, and been willing to buy. A better list than any lead magnet.
 
 **On the PDP this becomes a required step:**
 
-> **Step 1 — Measure your vent.** Pull the old cover off and measure the *hole*, not the cover. Most are 4×10 or 4×12.
+> **Step 1, Measure your vent.** Pull the old cover off and measure the *hole*, not the cover. Most are 4×10 or 4×12.
 
-with a photo of a tape measure across an open duct. Making this a numbered step, rather than a dropdown, converts the friction into a sense of competence — it makes the buyer feel they are doing an installation, which is exactly what the "I don't need a contractor" angle is selling.
+with a photo of a tape measure across an open duct. Making this a numbered step, rather than a dropdown, converts the friction into a sense of competence, it makes the buyer feel they are doing an installation, which is exactly what the "I don't need a contractor" angle is selling.
 
 **Fallback if a size is unavailable:** offer the nearest larger faceplate rather than a no-sale. Do not offer the smaller one.
 
-**Colour: launch white only.** The unit also comes in bronze, and on a visible fixture colour choice genuinely helps conversion — but sizes were already going to multiply SKUs and bronze doubles that again. Every extra variant is another way for the size step to go wrong, and the size step is the highest-friction point in the funnel. Add bronze once a winning angle exists, unless carrying both costs nothing.
+**Colour: launch white only.** The unit also comes in bronze, and on a visible fixture colour choice genuinely helps conversion, but sizes were already going to multiply SKUs and bronze doubles that again. Every extra variant is another way for the size step to go wrong, and the size step is the highest-friction point in the funnel. Add bronze once a winning angle exists, unless carrying both costs nothing.
 
 ---
 
 ## 4. Guarantee and returns
 
-### ⭐ Free size swap — added 2026-09-25
+### ⭐ Free size swap: added 2026-09-25
 
 **"Measured wrong? We'll swap it, no charge."**
 
-Fitment is the only documented lost sale in the research (*"unfortunately I have non-standard sized registers"*, *"4 x 16… can't seem to find one this size"*). This converts our biggest liability into a value item nobody in the category offers, and it costs occasional return freight rather than a sale. **It belongs beside the size step, not in the small print** — it is what lets someone buy while standing there instead of leaving to find a tape measure.
+Fitment is the only documented lost sale in the research (*"unfortunately I have non-standard sized registers"*, *"4 x 16… can't seem to find one this size"*). This converts our biggest liability into a value item nobody in the category offers, and it costs occasional return freight rather than a sale. **It belongs beside the size step, not in the small print**, it is what lets someone buy while standing there instead of leaving to find a tape measure.
 
 **60-day money-back guarantee.** Same window that ran on tallow, for the same reason: the problem is seasonal-adjacent and a buyer needs to live through a hot stretch before they know.
 
@@ -185,7 +185,7 @@ Fitment is the only documented lost sale in the research (*"unfortunately I have
 
 **The qualification that prevents most returns.** The dominant Amazon review complaint on the incumbent product is not quality, it is **installation confusion and mismatched expectations**. So the PDP must say, in our own voice, what this does *not* do:
 
-> This works if air comes out of your vent but weakly, or if the room is at the end of a long duct run. It will not fix a vent with no airflow at all — that is a blocked or disconnected duct, and a fan cannot pull air that isn't arriving.
+> This works if air comes out of your vent but weakly, or if the room is at the end of a long duct run. It will not fix a vent with no airflow at all, that is a blocked or disconnected duct, and a fan cannot pull air that isn't arriving.
 
 That paragraph costs some conversions and saves more returns than it costs. It also does the credibility work: nobody selling a gimmick tells you when it won't work.
 
@@ -200,24 +200,24 @@ That paragraph costs some conversions and saves more returns than it costs. It a
 The only imagery guidance that stands, and it is tested rather than invented:
 
 - **Real branding on real props stays.** Never write "unbranded," "no logos," "no readable text" or "no brand marks" into an image prompt. Prop branding has **zero measurable CPM impact**, and a de-labelled object reads as staged where a branded one reads as real. Source: `tallow-cream/Tallow_Ad_Creative_Principles.md` §0.
-- **It shouldn't look generated.** Specify imperfection deliberately — handheld framing, mild grain, natural white balance, no HDR or cinematic grading.
+- **It shouldn't look generated.** Specify imperfection deliberately, handheld framing, mild grain, natural white balance, no HDR or cinematic grading.
 
 ## 5. What's in the box
 
 - The register faceplate with integrated fans
 - Power adapter and cord
 - Thermostat/control module (confirm which the img3 unit ships with)
-- **A one-page install card, written by us, not the supplier's.** This is the highest-leverage $0 asset in the whole offer — the incumbent's worst reviews are all instruction failures. Four photos, four steps, no translated English. **On the upgraded unit it must also cover the modes and the remote**, since that is now the larger share of what a confused buyer can get wrong.
+- **A one-page install card, written by us, not the supplier's.** This is the highest-leverage $0 asset in the whole offer, the incumbent's worst reviews are all instruction failures. Four photos, four steps, no translated English. **On the upgraded unit it must also cover the modes and the remote**, since that is now the larger share of what a confused buyer can get wrong.
 
 **Open supplier questions (do not block the offer, do block launch):**
 1. Which register sizes are available?
 2. Does the img3 unit support an aroma pad? (Determines whether the SA3 scent upsell is real or has to be dropped.)
 3. ✅ **Confirmed: no restrictions on the supplier's images.** The VEVOR problem does not repeat here.
-4. Does the adapter carry a UL/ETL/CE mark? Not a gate — it is a plug-in appliance, not a hardwired one — but it is worth one line on the PDP if it does.
+4. Does the adapter carry a UL/ETL/CE mark? Not a gate, it is a plug-in appliance, not a hardwired one, but it is worth one line on the PDP if it does.
 
 ---
 
-## 6. Claim discipline — set now, before any copy is written
+## 6. Claim discipline: set now, before any copy is written
 
 The nursery/baby trigger is the highest-intensity version of this problem, and it is the same structural trap named in the tallow post-mortem: **the most urgent version of the problem is the least compliant one.**
 
@@ -227,27 +227,27 @@ The nursery/baby trigger is the highest-intensity version of this problem, and i
 
 Same rule for the elderly-parent and the pet variants. Sell the temperature and the not-worrying. Never the risk.
 
-**Offer terms in creative: no rule.** Price, guarantee or shipping can go in an image when the ad calls for it. Founder 2026-09-26 — the earlier ban was never his call and is scrapped.
+**Offer terms in creative: no rule.** Price, guarantee or shipping can go in an image when the ad calls for it. Founder 2026-09-26, the earlier ban was never his call and is scrapped.
 
 ---
 
-## 7. Kill criteria and spend cap — LOCKED BEFORE LAUNCH
+## 7. Kill criteria and spend cap: LOCKED BEFORE LAUNCH
 
 The explicit lesson from the tallow post-mortem is that these were set after the spend, not before. Not repeating that.
 
 **Hard spend cap for the full validation test: $600.** If the product has not produced a profitable cell inside $600, it is dead, the same way tallow should have been dead at $600 instead of $2,000.
 
-**Structure:** ABO, $12.50/day per cell, protected budget. Not CBO — CBO concentrates spend on first-hour noise, which is what produced the account's worst reads.
+**Structure:** ABO, $12.50/day per cell, protected budget. Not CBO, CBO concentrates spend on first-hour noise, which is what produced the account's worst reads.
 
 | Gate | Threshold | Action |
 |---|---|---|
 | **Per-cell hard kill** | $60 spend, 0 purchases | Kill the cell |
-| **Per-cell CTR kill** | $40 spend, under 1.0% CTR | Kill the cell — creative is not stopping anyone |
-| **CAC read** | after ~$150 total | Compare actual CAC against the $56.91 / $75.39 room. If nothing is close, stop and reconsider before spending the rest. No CPC target is set here on purpose — we have no basis for one, and inventing a threshold would make a guess look like a rule. |
+| **Per-cell CTR kill** | $40 spend, under 1.0% CTR | Kill the cell, creative is not stopping anyone |
+| **CAC read** | after ~$150 total | Compare actual CAC against the $56.91 / $75.39 room. If nothing is close, stop and reconsider before spending the rest. No CPC target is set here on purpose, we have no basis for one, and inventing a threshold would make a guess look like a rule. |
 | **The winner bar** | a cell holding CAC under $56.91 (single) / under $75.39 (bundle) across 3 consecutive days | Scale it. This is the bar tallow never hit. |
 | **The product kill** | $600 spent, no cell has held CPA under contribution for 3 days | Kill the product. Write the post-mortem the same day. |
 
-**One thing the cap does not cover:** CPM and CPC on this product are complete unknowns. The research established there *is* strong desire and there *is* almost no Meta competition, which should mean cheaper auction than tallow — but that is a hypothesis, not a number. The $150 CPC read above exists specifically to find out early and cheaply.
+**One thing the cap does not cover:** CPM and CPC on this product are complete unknowns. The research established there *is* strong desire and there *is* almost no Meta competition, which should mean cheaper auction than tallow, but that is a hypothesis, not a number. The $150 CPC read above exists specifically to find out early and cheaply.
 
 ---
 
@@ -258,8 +258,8 @@ The explicit lesson from the tallow post-mortem is that these were set after the
 | **Exact dimensions of both sizes** | The size selector, therefore the PDP, therefore everything. Two sizes confirmed; the numbers are not | Founder → supplier |
 | Combined 2-pack shipping rate | Whether the 2-pack is default-selected or the upsell | Founder → supplier |
 | Aroma pad confirmation | Whether SA3 exists as an upsell | Founder → supplier |
-| Scene imagery via Nano Banana | Ads and PDP scenes (never the product itself — see 4b) | Build |
+| Scene imagery via Nano Banana | Ads and PDP scenes (never the product itself, see 4b) | Build |
 | Shopify: product, variants by size, 2-pack pricing | PDP build | Build |
 | PDP with the measure step, the honest qualification, the install card | Ads | Build |
 | Install card (4 photos, 4 steps) | Returns rate, not launch | Build |
-| Ad batch 1 — angles A and C leading, D closing, B pre-empted | Launch | Build |
+| Ad batch 1, angles A and C leading, D closing, B pre-empted | Launch | Build |

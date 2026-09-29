@@ -1,10 +1,10 @@
-# BATCH 2 — SA5 Checking Someone Else's Room
+# BATCH 2: SA5 Checking Someone Else's Room
 
 **Rebuilt 2026-09-26** against `Brand_Mastery.md` Part 6.
 
 **Ad set = this sub-avatar. $20/day. 1 native + 2 non-native.**
 
-> ⭐ **This is the elevation play.** Swipe-file desire hierarchy: Comfort → **Relationships** → Status → Health, urgency rising. Our core desire sits at Comfort. **Health is permanently closed by our claim rules. Relationships is the only elevation available** — which makes this the higher-urgency positioning of the same product.
+> ⭐ **This is the elevation play.** Swipe-file desire hierarchy: Comfort → **Relationships** → Status → Health, urgency rising. Our core desire sits at Comfort. **Health is permanently closed by our claim rules. Relationships is the only elevation available**, which makes this the higher-urgency positioning of the same product.
 
 ---
 
@@ -12,12 +12,12 @@
 
 | | |
 |---|---|
-| **Core desire** | This room the same temperature as the rest of the house — **for someone they're responsible for** |
+| **Core desire** | This room the same temperature as the rest of the house, **for someone they're responsible for** |
 | **Behaviour** | **Checks the room at night.** Adds blankets, buys warmer sleepwear, buys *around* the problem |
-| **Emotion** | **Guilt** — the strongest emotion in the project |
+| **Emotion** | **Guilt**, the strongest emotion in the project |
 | **THE GAP** | **They manage the symptom every night instead of changing the room** |
 
-**Evidence:** four independent instances — *"feeling quite guilty at the prospect of putting baby in there"* · *"my son's room was very cold"* · a cold-rated sleeping bag bought instead of heating the room · someone researching on a partner's behalf.
+**Evidence:** four independent instances, *"feeling quite guilty at the prospect of putting baby in there"* · *"my son's room was very cold"* · a cold-rated sleeping bag bought instead of heating the room · someone researching on a partner's behalf.
 
 ## The two angles
 
@@ -30,19 +30,19 @@
 
 ---
 
-## B2C1 — Native long-form · Julie Brennan page
+## B2C1: Native long-form · Julie Brennan page
 
 **Method 5, Identity/Relief · carries A4 → A3 · TOF · right column excluded**
 
 **Earns the read:** the nightly check, described precisely enough to be recognised.
 
-**Beats:** the habit of going in before bed · the things bought to compensate — the thicker duvet, the warmer sleepwear *(A4)* · noticing that none of it changed the room · the duct run · putting something in the vent · **the night they realised they hadn't gone in to check** *(A3)*.
+**Beats:** the habit of going in before bed · the things bought to compensate, the thicker duvet, the warmer sleepwear *(A4)* · noticing that none of it changed the room · the duct run · putting something in the vent · **the night they realised they hadn't gone in to check** *(A3)*.
 
 **Image:** authorless POV from a doorway into a dim child's bedroom at night, hallway light falling across the carpet. Ordinary, unstyled. No people, no product, no text.
 
 ---
 
-## B2C2 — Static · **Angle A3**
+## B2C2: Static · **Angle A3**
 
 **Method 1, Direct Naming · TOF · all placements**
 **Earns the read:** names a private habit back to them.
@@ -51,7 +51,7 @@
 > ## You check that room before you go to bed.
 >
 > **ZONE 2**
-> It's the last room on the duct run — it gets whatever air is left after every other room. That's why it never keeps up, however high the thermostat goes.
+> It's the last room on the duct run. It gets whatever air is left after every other room. That's why it never keeps up, however high the thermostat goes.
 >
 > **ZONE 3**
 > Set a temperature for that room and let it hold it.
@@ -61,7 +61,7 @@
 
 ---
 
-## B2C3 — Static · **Angle A4**
+## B2C3: Static · **Angle A4**
 
 **Method 4, Contrast/Absence · TOF · all placements**
 **Earns the read:** a true sentence that indicts a purchase they already made.
@@ -84,6 +84,6 @@
 
 | Ad | Blocked by | Ready |
 |---|---|---|
-| B2C1 | — | Needs writing via `native-ad-writer` |
+| B2C1 | - | Needs writing via `native-ad-writer` |
 | B2C2 | Door-at-night photo | ✅ |
 | B2C3 | Blanket-stack photo | ✅ |

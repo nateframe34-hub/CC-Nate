@@ -1,4 +1,4 @@
-# B1C2 — Relatable Hook · "NO MORE SWITCHING ROOMS BECAUSE OF THE HEAT." *(rebuilt 2026-09-26, copied from swipe)*
+# B1C2: Relatable Hook · "NO MORE SWITCHING ROOMS BECAUSE OF THE HEAT." *(rebuilt 2026-09-26, copied from swipe)*
 
 **Sub-Avatar:** SA1 The Fan Runner · **Angle:** A1, the room itself gets cool
 **Format:** **Relatable Hook**, copied from the swipe file's "12-HOUR SHIFT SHOES" (`origins-training/swipe-file/relatable-hook.jpg`) · **Funnel:** TOF
@@ -45,7 +45,7 @@ The shoe ad's bullets aren't a feature list. They follow a strict sequence, and 
 
 It's four in the afternoon and you're still at the desk. Same room. Same sun on that window. Door open, laptop where it belongs, and nothing roaring in the corner.
 
-That's the room you've been working around all summer. The one you give up on by early afternoon — laptop under your arm, down to the kitchen table, back up once the sun's gone.
+That's the room you've been working around all summer. The one you give up on by early afternoon. Laptop under your arm, down to the kitchen table, back up once the sun's gone.
 
 You already tried the fan. It helped while it was pointed at you. Step away and the room was just as hot, because a fan doesn't cool a room. It moves the hot air that's already in it.
 

@@ -1,5 +1,5 @@
 {%- comment -%}
-  EVENROOM PDP — built for SA1 "The Fan Runner", HOT framing. 2026-09-26.
+  EVENROOM PDP: built for SA1 "The Fan Runner", HOT framing. 2026-09-26.
 
   Congruent with ads/batch-1 by design: the traffic arriving here has already
   tried a fan and has just been told why it didn't work. §3 repeats that exact
@@ -9,7 +9,7 @@
   Add to Cart buttons genuinely add to cart. All CSS scoped under #evr-pdp so
   it cannot collide with the theme.
 
-  PRICING — CHANGED FROM THE TALLOW PATTERN, founder call 2026-09-26.
+  PRICING: CHANGED FROM THE TALLOW PATTERN, founder call 2026-09-26.
   Tallow hardcoded its displayed price in section settings. This does NOT.
   Every price on this page is derived from the SHOPIFY PRODUCT:
       single price    = product.price
@@ -26,7 +26,7 @@
       Value: the same amount as bundle_discount_cents below
   Verify the cart total matches the page before sending traffic.
 
-  JS SAFETY — learned expensively on the tallow build.
+  JS SAFETY: learned expensively on the tallow build.
   The selector script lives at the very END of this file, in its own IIFE with
   its own try/catch. It only writes to hidden inputs and toggles classes. It
   must never be merged into the theme's cart-drawer listeners: on tallow a bare
@@ -46,7 +46,7 @@
   FONTS. The CSS below names Archivo / Inter / JetBrains Mono. Nothing in a
   Shopify theme loads those by default, so without this block the page falls
   back to Helvetica and loses the type identity. Kept inside the section on
-  purpose — this file stays self-contained, no snippet, no theme.liquid edit.
+  purpose, this file stays self-contained, no snippet, no theme.liquid edit.
   Turn off if the theme already serves these, or if you would rather add the
   link to theme.liquid <head> yourself (marginally faster).
 {%- endcomment -%}
@@ -146,7 +146,7 @@
 #evr-pdp .evr-pick:focus{outline:2px solid var(--accent);outline-offset:1px}
 #evr-pdp .evr-pick-s{font-size:13px;color:var(--muted);margin:10px 0 4px}
 
-/* bundle — tallow layout */
+/* bundle, tallow layout */
 #evr-pdp .evr-bundle{display:flex;flex-direction:column;gap:12px;margin:0 0 6px}
 #evr-pdp .evr-tier{position:relative;display:block;width:100%;padding:15px 14px;border:1.5px solid var(--line);border-radius:12px;background:#fff;text-align:left;cursor:pointer;font:inherit;color:inherit;transition:border-color .15s,background .15s}
 #evr-pdp .evr-tier:hover{border-color:var(--muted)}
@@ -339,7 +339,7 @@
       <p class="sub">{{ section.settings.hero_sub }}</p>
 
       {%- comment -%}
-        BUNDLE — tallow-style stacked radio cards, with the vent dropdown(s) INSIDE the card.
+        BUNDLE: tallow-style stacked radio cards, with the vent dropdown(s) INSIDE the card.
         Tier 1: one dropdown. Tier 2: two dropdowns, so they can mix sizes/colours.
         Cards are divs (role=radio), not buttons: a <select> can't live inside a <button>.
       {%- endcomment -%}
@@ -360,7 +360,7 @@
             </span>
           </div>
           <div class="evr-tier-picks">
-            <label class="evr-pick-row"><span class="evr-pick-l">{{ section.settings.pick_label }}</span><span class="evr-pick-wrap"><select class="evr-pick evr-v" data-slot="1" aria-label="{{ section.settings.pick_label }}">{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} — out of stock{% endunless %}</option>{%- endfor -%}</select></span></label>
+            <label class="evr-pick-row"><span class="evr-pick-l">{{ section.settings.pick_label }}</span><span class="evr-pick-wrap"><select class="evr-pick evr-v" data-slot="1" aria-label="{{ section.settings.pick_label }}">{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} (out of stock){% endunless %}</option>{%- endfor -%}</select></span></label>
           </div>
         </div>
 
@@ -382,8 +382,8 @@
             </span>
           </div>
           <div class="evr-tier-picks">
-            <label class="evr-pick-row"><span class="evr-pick-l">{{ section.settings.pick_label_1 }}</span><span class="evr-pick-wrap"><select class="evr-pick evr-v" data-slot="1" aria-label="{{ section.settings.pick_label_1 }}">{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} — out of stock{% endunless %}</option>{%- endfor -%}</select></span></label>
-            <label class="evr-pick-row"><span class="evr-pick-l">{{ section.settings.pick_label_2 }}</span><span class="evr-pick-wrap"><select class="evr-pick evr-v" data-slot="2" aria-label="{{ section.settings.pick_label_2 }}">{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} — out of stock{% endunless %}</option>{%- endfor -%}</select></span></label>
+            <label class="evr-pick-row"><span class="evr-pick-l">{{ section.settings.pick_label_1 }}</span><span class="evr-pick-wrap"><select class="evr-pick evr-v" data-slot="1" aria-label="{{ section.settings.pick_label_1 }}">{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} (out of stock){% endunless %}</option>{%- endfor -%}</select></span></label>
+            <label class="evr-pick-row"><span class="evr-pick-l">{{ section.settings.pick_label_2 }}</span><span class="evr-pick-wrap"><select class="evr-pick evr-v" data-slot="2" aria-label="{{ section.settings.pick_label_2 }}">{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} (out of stock){% endunless %}</option>{%- endfor -%}</select></span></label>
           </div>
         </div>
       </div>
@@ -664,7 +664,7 @@
 
 {%- comment -%}
   ============================================================================
-  SELECTOR SCRIPT — isolated on purpose. Own IIFE, own try/catch, END of file.
+  SELECTOR SCRIPT: isolated on purpose. Own IIFE, own try/catch, END of file.
   It ONLY writes hidden input values, swaps label text and toggles classes.
   It never touches cart, drawer or theme listeners. Do not move it up the file
   and do not merge it into another script block: on tallow a shared try block
@@ -814,7 +814,7 @@
 </script>
 
 {%- comment -%}
-  CART DRAWER SCRIPT — own IIFE, own try/catch, after the selector script.
+  CART DRAWER SCRIPT: own IIFE, own try/catch, after the selector script.
   Catches submits from this section's three forms only, adds via /cart/add.js,
   and shows our drawer. If anything fails it falls back to a normal form post.
 {%- endcomment -%}
@@ -951,32 +951,32 @@
     { "type": "text", "id": "bundle_ship_note", "label": "2-pack price note", "default": "Free shipping" },
     { "type": "text", "id": "size_note", "label": "Size option subline", "default": "Fits this duct opening" },
     { "type": "text", "id": "bundle_note", "label": "Bundle step subline", "default": "Most homes with one hot room have two." },
-    { "type": "text", "id": "cta_single", "label": "CTA — single", "default": "Add to cart" },
-    { "type": "text", "id": "cta_bundle", "label": "CTA — 2-pack", "default": "Add both to cart" },
+    { "type": "text", "id": "cta_single", "label": "CTA: single", "default": "Add to cart" },
+    { "type": "text", "id": "cta_bundle", "label": "CTA: 2-pack", "default": "Add both to cart" },
 
     { "type": "header", "content": "Bundle pricing" },
     { "type": "paragraph", "content": "All prices come from the Shopify product (price + compare-at). The 2-pack shows (price x 2) minus the discount below. ⚠️ You MUST create a matching automatic order discount in Shopify (Amount off order, min quantity 2) or the cart will charge full price." },
     { "type": "number", "id": "bundle_discount_cents", "label": "2-pack discount in cents", "default": 1999 },
 
-    { "type": "header", "content": "3 — Congruence band" },
+    { "type": "header", "content": "3: Congruence band" },
     { "type": "text", "id": "congruence_h", "label": "Heading", "default": "A fan cools you. Not the room." },
     { "type": "textarea", "id": "congruence_1", "label": "Para 1", "default": "Move a few feet away and you're hot again." },
     { "type": "textarea", "id": "congruence_2", "label": "Para 2", "default": "A fan just pushes the hot air around. It can't bring cold air in." },
     { "type": "text", "id": "congruence_3", "label": "Kicker" },
 
-    { "type": "header", "content": "4 — Mechanism" },
+    { "type": "header", "content": "4: Mechanism" },
     { "type": "text", "id": "mech_h", "label": "Heading", "default": "Why that room stays hot" },
     { "type": "textarea", "id": "mech_1", "label": "Para 1", "default": "Your AC sends cold air through ducts. The rooms close to it get the most. The room at the end gets the least." },
     { "type": "text", "id": "mech_2", "label": "Emphasis line", "default": "By the time it gets there, it's a trickle." },
     { "type": "textarea", "id": "mech_caption", "label": "Diagram caption", "default": "Same house. Same time. Same AC." },
 
-    { "type": "header", "content": "5 — Hand test" },
+    { "type": "header", "content": "5: Hand test" },
     { "type": "text", "id": "hand_h", "label": "Heading", "default": "Put your hand on that vent." },
     { "type": "textarea", "id": "hand_sub", "label": "Subline", "default": "Do it while the AC is on." },
-    { "type": "text", "id": "hand_yes_h", "label": "Yes — heading", "default": "Air coming out, but weak?" },
-    { "type": "textarea", "id": "hand_yes_b", "label": "Yes — body", "default": "This fixes that. It pulls the cold air into the room." },
-    { "type": "text", "id": "hand_no_h", "label": "No — heading", "default": "No air at all?" },
-    { "type": "textarea", "id": "hand_no_b", "label": "No — body", "default": "Don't buy this. The duct is blocked, and no fan can fix that." },
+    { "type": "text", "id": "hand_yes_h", "label": "Yes: heading", "default": "Air coming out, but weak?" },
+    { "type": "textarea", "id": "hand_yes_b", "label": "Yes: body", "default": "This fixes that. It pulls the cold air into the room." },
+    { "type": "text", "id": "hand_no_h", "label": "No: heading", "default": "No air at all?" },
+    { "type": "textarea", "id": "hand_no_b", "label": "No: body", "default": "Don't buy this. The duct is blocked, and no fan can fix that." },
 
     { "type": "header", "content": "Top bar + cart" },
     { "type": "text", "id": "wordmark", "label": "Wordmark in the top bar", "default": "Evenroom" },
@@ -988,7 +988,7 @@
     { "type": "text", "id": "drawer_note", "label": "Drawer note", "default": "Shipping and taxes calculated at checkout." },
     { "type": "text", "id": "drawer_cta", "label": "Checkout button", "default": "Check out" },
 
-    { "type": "header", "content": "5b — Outcome (the after)" },
+    { "type": "header", "content": "5b: Outcome (the after)" },
     { "type": "text", "id": "out_eyebrow", "label": "Eyebrow", "default": "That room, at 4pm" },
     { "type": "text", "id": "out_h", "label": "Heading", "default": "Use that room again." },
     { "type": "image_picker", "id": "out_image", "label": "After image (same room, in use, no fan)" },
@@ -996,47 +996,47 @@
     { "type": "text", "id": "out_2", "label": "Line 2", "default": "Put the box fan away." },
     { "type": "text", "id": "out_3", "label": "Line 3", "default": "Keep the door open." },
 
-    { "type": "header", "content": "6 — Attributes" },
+    { "type": "header", "content": "6: Attributes" },
     { "type": "text", "id": "attr_fits", "label": "Fits", "default": "4x10 and 6x10 vents. Floor, wall or ceiling." },
 
-    { "type": "header", "content": "7 — Fit + size swap" },
+    { "type": "header", "content": "7: Fit + size swap" },
     { "type": "text", "id": "fit_h", "label": "Heading", "default": "Measure the hole, not the cover." },
     { "type": "textarea", "id": "fit_1", "label": "Para 1", "default": "Take off the old cover. Measure the hole under it. Most are 4x10." },
     { "type": "textarea", "id": "fit_2", "label": "Para 2", "default": "Both sizes are 10 inches long. Measure the short side. That's the one that's different." },
     { "type": "image_picker", "id": "fit_image", "label": "Measuring photo" },
-    { "type": "image_picker", "id": "install_img_1", "label": "Install step 1 photo — swapping the cover" },
-    { "type": "image_picker", "id": "install_img_2", "label": "Install step 2 photo — plugging it in" },
+    { "type": "image_picker", "id": "install_img_1", "label": "Install step 1 photo: swapping the cover" },
+    { "type": "image_picker", "id": "install_img_2", "label": "Install step 2 photo: plugging it in" },
     { "type": "text", "id": "swap_h", "label": "Swap heading", "default": "Wrong size? We'll swap it for free." },
     { "type": "textarea", "id": "swap_b", "label": "Swap body", "default": "Measure again when it comes. If it's the wrong size, we'll send the right one." },
 
-    { "type": "header", "content": "9 — Limits" },
+    { "type": "header", "content": "9: Limits" },
     { "type": "text", "id": "limits_h", "label": "Heading", "default": "When this won't help" },
     { "type": "textarea", "id": "limits_1", "label": "Para 1", "default": "This works if air comes out of the vent, but it's weak. It can't fix a vent with no air at all. That's a blocked duct." },
     { "type": "textarea", "id": "limits_2", "label": "Para 2", "default": "It won't make a sunny room the coolest room in the house. It will make it a room you can use." },
 
-    { "type": "header", "content": "10 — Alternatives" },
+    { "type": "header", "content": "10: Alternatives" },
     { "type": "text", "id": "alts_h", "label": "Heading", "default": "Your other options" },
 
-    { "type": "header", "content": "11 — Value stack" },
+    { "type": "header", "content": "11: Value stack" },
     { "type": "text", "id": "stack_h", "label": "Heading", "default": "What you get" },
     { "type": "text", "id": "swap_value", "label": "Swap value", "default": "$20 value" },
     { "type": "text", "id": "ship_value", "label": "Shipping value", "default": "$9.95" },
     { "type": "text", "id": "stack_bundle_line", "label": "Bundle line", "default": "Have a second hot or cold room? This covers it." },
     { "type": "text", "id": "urgency_line", "label": "Urgency line", "default": "It's only going to get hotter." },
 
-    { "type": "header", "content": "12 — Reviews" },
+    { "type": "header", "content": "12: Reviews" },
     { "type": "paragraph", "content": "⛔ OFF by default. Placeholder reviews are mockup-only and must never be published. Grep for [PH] before any deploy." },
     { "type": "checkbox", "id": "show_reviews", "label": "Show reviews section", "default": false },
     { "type": "text", "id": "rev_score", "label": "Score", "default": "4.6" },
     { "type": "text", "id": "rev_count", "label": "Count", "default": "Based on 38 reviews" },
     { "type": "html", "id": "reviews_html", "label": "Reviews markup" },
 
-    { "type": "header", "content": "13 — Guarantee" },
+    { "type": "header", "content": "13: Guarantee" },
     { "type": "text", "id": "guar_h", "label": "Heading", "default": "60 days. If the room doesn't change, send it back." },
     { "type": "textarea", "id": "guar_1", "label": "Para 1", "default": "Try it on a hot day. If it doesn't help, email us and we'll give you your money back." },
     { "type": "textarea", "id": "guar_2", "label": "Para 2", "default": "If it's broken, we pay for the return. If not, you do. We'd rather tell you now." },
 
-    { "type": "header", "content": "14 — FAQ" },
+    { "type": "header", "content": "14: FAQ" },
     { "type": "text", "id": "faq_q_1", "label": "Q1", "default": "Will it fit my vent?" },
     { "type": "textarea", "id": "faq_a_1", "label": "A1", "default": "It fits 4x10 and 6x10 vents. Measure the hole, not the cover. Wrong size? We swap it free." },
     { "type": "text", "id": "faq_q_2", "label": "Q2", "default": "Does it work for heat too?" },
@@ -1066,7 +1066,7 @@
     { "type": "text", "id": "faq_q_14", "label": "Q14", "default": "Can I use one in two rooms?" },
     { "type": "textarea", "id": "faq_a_14", "label": "A14", "default": "One per vent. Most homes with one hot room have a second. That's what the 2-pack is for." },
 
-    { "type": "header", "content": "15 — Final CTA" },
+    { "type": "header", "content": "15: Final CTA" },
     { "type": "text", "id": "final_h", "label": "Heading", "default": "Get your room back." },
     { "type": "text", "id": "final_sub", "label": "Subline", "default": "Two screws, one outlet, and 60 days to try it." }
   ],

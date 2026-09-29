@@ -1,7 +1,7 @@
-# B1C1 — The Fan In The Garage
+# B1C1: The Fan In The Garage
 
 **Sub-Avatar:** SA1 The Fan Runner
-**Angle:** A1 — Cools the room instead of just moving the hot air around it *(supporting: A5 a fan cools you not the room, A2 the fan becomes unnecessary)*
+**Angle:** A1, Cools the room instead of just moving the hot air around it *(supporting: A5 a fan cools you not the room, A2 the fan becomes unnecessary)*
 **Character type:** Peer + Skeptic Convert
 **Hook format:** Scene + recognition + open loop
 **Awareness level:** Problem Aware → Solution Aware
@@ -78,7 +78,7 @@ And she explained the thing that I am now annoyed nobody had explained to me in 
 
 The air conditioner cools air in one place. Then it pushes that air through ducts to every room. The rooms nearest the unit get it first, at full strength. Every turn, every branch, every foot of ductwork takes a little off. The room at the end of the run gets whatever's left.
 
-So yes — air was coming out of my vent. I'd checked a hundred times and felt it and been reassured by it. But there's a difference between air coming out and air arriving. Mine was a trickle. A trickle that had been telling me for two years that everything was working.
+So yes, air was coming out of my vent. I'd checked a hundred times and felt it and been reassured by it. But there's a difference between air coming out and air arriving. Mine was a trickle. A trickle that had been telling me for two years that everything was working.
 
 Kerry said her husband had put something in their vent. A cover with fans built into it that pulls the air through instead of waiting for it to arrive.
 
@@ -134,7 +134,7 @@ Link's below if you want it.
 
 Kerry says hers has been in three years. Dave's now talking about doing the basement, which I find very funny, because Dave wears a hoodie in July.
 
-I got the room back. That's the whole thing. Not the temperature — the room.
+I got the room back. That's the whole thing. Not the temperature. The room.
 
 ---
 
@@ -150,7 +150,7 @@ $89.99. 60-day returns.
 
 ## Image Prompt (Nano Banana Pro)
 
-**Type:** Object — the thing she stared at all summer
+**Type:** Object, the thing she stared at all summer
 **POV:** First-person, standing in the doorway
 
 ```
@@ -160,14 +160,14 @@ upstairs home office in a North American suburban house, late on a hot summer af
 SUBJECT: A black plastic box fan sits directly on the beige carpet, angled up toward a
 small desk, running. Its power cord trails across the carpet to a white baseboard outlet.
 It is an ordinary hardware-store fan with its manufacturer's label and control dial
-visible and legible — keep all product markings and branding intact and natural, exactly
+visible and legible, keep all product markings and branding intact and natural, exactly
 as a real fan in a real room looks. A second, white oscillating tower fan stands near the
 window, also running. On the desk: a closed laptop, a glass of water with condensation
 pooling around its base, a notepad.
 
 LIGHT: Strong low late-afternoon sun through a west-facing window, venetian blinds drawn
 two-thirds down. Hard bright slabs of light fall across the desk and carpet with visible
-slatted shadow bands. Warm, orange, high contrast — light that makes a room feel hot.
+slatted shadow bands. Warm, orange, high contrast, light that makes a room feel hot.
 Faint dust visible in the light shaft. No lamps on.
 
 CAMERA: As if on an iPhone, main wide lens, ~24mm equivalent, f/1.8, handheld at chest
@@ -186,4 +186,4 @@ vent, register or vent-mounted device; studio lighting; magazine-interior stylin
 Aspect ratio 4:5, 1080 x 1350.
 ```
 
-**Reddit caption test:** *"two fans and it's still 84 in here"* — passes.
+**Reddit caption test:** *"two fans and it's still 84 in here"*, passes.

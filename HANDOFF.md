@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-29** — Em dashes removed from all register-fan files (founder). Customer-facing lines were rewritten by hand into short sentences; docs use commas or colons. Rule going forward: no em dashes in copy.
+
 - **2026-09-29** — PDP (founder): thumbnails hidden on mobile (dots only), so the bundle isn't pushed down; mobile sticky rebuilt (image, name, selected option, price, button; slides up only after the main button scrolls away); sticky top bar with a cart icon (left by default, setting) and count badge that opens the drawer; all copy rewritten to 5th-grade level, and sections 3–4 cut to a few short lines.
 
 - **2026-09-29** — PDP gallery is now a swipeable carousel: native scroll-snap, dots, arrows on desktop only, thumbnails in one scrollable row synced to the slide. Tested in a browser.

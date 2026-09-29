@@ -1,13 +1,13 @@
-# Batch 1 — Nano Banana Pro 2 Image Prompts · FULL SPEC
+# Batch 1: Nano Banana Pro 2 Image Prompts · FULL SPEC
 
-**Rebuilt 2026-09-26 (founder: "literally as detailed as possible — fonts, colors, everything").**
-For `B1_Ads.md` — SA1 The Fan Runner · hot framing. Canvas for every ad: **4:5, 1080 × 1350 px.**
+**Rebuilt 2026-09-26 (founder: "literally as detailed as possible, fonts, colors, everything").**
+For `B1_Ads.md`, SA1 The Fan Runner · hot framing. Canvas for every ad: **4:5, 1080 × 1350 px.**
 
 ---
 
 ## 0. How to use this file
 
-### 0a. Product reference images — attach them every time the product appears
+### 0a. Product reference images: attach them every time the product appears
 
 Nate is supplying real photos of our vent cover. **Any prompt that shows the product must be run with those photos attached**, labelled in this order:
 
@@ -18,7 +18,7 @@ Nate is supplying real photos of our vent cover. **Any prompt that shows the pro
 Paste this **PRODUCT LOCK** block into any prompt that contains the product (it is already included below where needed):
 
 ```
-PRODUCT LOCK — one reference image is attached (REF-1: the product on white, with its
+PRODUCT LOCK: one reference image is attached (REF-1: the product on white, with its
 remote). Use it ONLY for the product's appearance. Do not copy its white background,
 its layout, or the remote unless this prompt asks for the remote.
 
@@ -43,7 +43,7 @@ The product, described precisely so it survives any angle:
   buttons with white symbols: an upper strip of 3 (power, and two mode buttons) and a
   lower strip of 3 (a mode button, "+", "−").
 - Two round countersunk screw holes, one at each short end of the faceplate, centred
-  vertically — left of the grille and right of the buttons.
+  vertically, left of the grille and right of the buttons.
 - No logo, no brand name and no other text on the faceplate.
 - REMOTE (only when asked for): a slim light-grey rounded-rectangle remote with a red
   power symbol top-left, a pill-shaped +/− temperature rocker in the middle, and small
@@ -54,7 +54,7 @@ display, add a logo, or change the colour. The display must read exactly the num
 given in this prompt (e.g. "72°F"), not "188".
 ```
 
-### 0b. Brand tokens — the only colours and fonts used on any designed element
+### 0b. Brand tokens: the only colours and fonts used on any designed element
 
 | Token | Value | Use |
 |---|---|---|
@@ -67,8 +67,8 @@ given in this prompt (e.g. "72°F"), not "188".
 | Numbers font | **JetBrains Mono**, Medium (500), tabular figures | Every temperature and every price |
 
 **Fonts in generators drift.** Nano Banana renders type well but cannot guarantee a named font. Every designed ad therefore has two routes:
-- **Route A — one-pass composite.** Fast. Check the type against the spec; regenerate if it drifts.
-- **Route B — plate + typeset. Preferred for launch.** Generate the photo with empty space, then set the exact type in Figma/Canva/Photoshop using the spec tables. Pixel-exact, on-brand, editable.
+- **Route A, one-pass composite.** Fast. Check the type against the spec; regenerate if it drifts.
+- **Route B, plate + typeset. Preferred for launch.** Generate the photo with empty space, then set the exact type in Figma/Canva/Photoshop using the spec tables. Pixel-exact, on-brand, editable.
 
 ### 0c. Standing rules in every prompt
 
@@ -78,7 +78,7 @@ given in this prompt (e.g. "72°F"), not "188".
 
 ---
 
-# B1C1 — Native scene image *(no text, no product)*
+# B1C1: Native scene image *(no text, no product)*
 
 **Job:** the image above ~1,400 words of Julie's first-person story. It shows the room she gave up on, exactly as she describes it: upstairs home office, west window, hot sun, a box fan on the carpet aimed at the desk, a tower fan by the window, a closed laptop. It must look like she stood in the doorway and took it without thinking.
 
@@ -110,7 +110,7 @@ off the back edge; a mug holding pens. A black mesh office chair pushed back fro
 desk and turned slightly toward the door, as if someone just got up.
 
 FAN 1: A black plastic 20-inch box fan standing directly on the carpet about 3 feet from
-the desk, angled upward toward the chair. Running — the blades are a soft motion blur.
+the desk, angled upward toward the chair. Running, the blades are a soft motion blur.
 The manufacturer's name plate and its rotary speed dial are visible and legible on the
 front corner, exactly like a real store-bought fan. Its grey power cord trails across the
 carpet in a loose S-curve to a white duplex outlet on the baseboard of the right wall.
@@ -132,7 +132,7 @@ tilted about 2 degrees clockwise. Composition not centred: the window sits sligh
 of centre, the desk and chair occupy the right third, the box fan the lower centre. Deep
 focus; everything reasonably sharp except the door edge.
 
-RENDERING: Real phone-camera image quality — mild luminance noise in the shadows, a little
+RENDERING: Real phone-camera image quality, mild luminance noise in the shadows, a little
 highlight clipping in the sunlit stripes, faint chromatic fringing along the window edge,
 slight motion blur on both fans' blades, slightly warm auto white balance. No HDR look,
 no cinematic colour grade, no vignette, no lens flare effects, no bokeh balls.
@@ -148,14 +148,14 @@ Aspect ratio 4:5, 1080 x 1350.
 
 ## QA before using
 - [ ] Two fans, both clearly running (blade blur), box fan on the floor aimed at the desk
-- [ ] Laptop **closed**, glass sweating, chair pushed back — she's just left
+- [ ] Laptop **closed**, glass sweating, chair pushed back, she's just left
 - [ ] Sunlight is hard and slatted; the room reads hot at thumbnail size
 - [ ] No vent visible anywhere
 - [ ] Passes the caption test: *"two fans and it's still 84 in here"*
 
 ---
 
-# B1C2 — Relatable Hook · copied from the swipe file
+# B1C2: Relatable Hook · copied from the swipe file
 
 **Format:** **Relatable Hook**, copied as closely as possible from the swipe file's ComfortWear "12-HOUR SHIFT SHOES" ad (`origins-training/swipe-file/relatable-hook.jpg`). Founder call 2026-09-26: when using a swipe, copy it closely.
 
@@ -187,7 +187,7 @@ The shoe ad's bullets aren't a feature list. They follow a strict sequence, and 
 
 **Rules the swipe follows, and so do ours:** one line each · starts with the feature or claim · ends on their problem in their words · no adjectives doing the work ("amazing", "premium") · the sequence runs who/price → outcome → three feature-for-pain lines.
 
-## ⭐ THE PROMPT — one pass, final image (founder: no edits, no Canva)
+## ⭐ THE PROMPT: one pass, final image (founder: no edits, no Canva)
 
 **Attach:** REF-1 (the product photo with the remote) and nothing else. Paste everything inside the box.
 
@@ -209,13 +209,13 @@ e-commerce ad. Everything below must appear in the single image. Nothing else.
   (bottom half).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-2. HEADLINE — top zone, from y = 70 px to about y = 235 px
+2. HEADLINE, top zone, from y = 70 px to about y = 235 px
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 - Text, exactly, on exactly two lines, ALL CAPITAL LETTERS:
       Line 1:  NO MORE SWITCHING ROOMS
       Line 2:  BECAUSE OF THE HEAT.
   (the full stop after HEAT is included)
-- Typeface: a heavy, bold, tightly spaced geometric grotesque sans-serif — Archivo
+- Typeface: a heavy, bold, tightly spaced geometric grotesque sans-serif, Archivo
   ExtraBold (weight 800) or the closest match (e.g. Poppins ExtraBold / Montserrat
   ExtraBold). Flat, solid letterforms. NOT condensed, NOT italic, NOT outlined, NOT a
   serif, NOT a script, NOT rounded.
@@ -227,7 +227,7 @@ e-commerce ad. Everything below must appear in the single image. Nothing else.
 - Alignment: flush LEFT at x = 64 px. Not centred.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-3. BULLET LIST — middle zone, first bullet about 60 px below the headline
+3. BULLET LIST, middle zone, first bullet about 60 px below the headline
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 - Exactly FIVE bullets, each on ONE single line (no line may wrap), in this exact order
   and wording:
@@ -241,7 +241,7 @@ e-commerce ad. Everything below must appear in the single image. Nothing else.
   x = 64 px. The same plus sign for all five. Not a bullet dot, not a checkmark, not an
   emoji.
 - Bullet text: starts at x = 110 px. Typeface a clean, neutral, regular-weight sans-serif
-  — Inter Regular (400) or the closest match (e.g. Poppins Regular / Helvetica). Font size
+, Inter Regular (400) or the closest match (e.g. Poppins Regular / Helvetica). Font size
   about 33 px. Colour solid dark charcoal #222222. Sentence case exactly as written
   (capital first letter only, plus "No" after the full stop in bullet 5).
 - Even spacing: about 60 px baseline to baseline, identical between every bullet. All
@@ -251,7 +251,7 @@ e-commerce ad. Everything below must appear in the single image. Nothing else.
   "drop-in" are hyphenated.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-4. PRODUCT PHOTO — bottom zone, from about y = 690 px to about y = 1270 px
+4. PRODUCT PHOTO, bottom zone, from about y = 690 px to about y = 1270 px
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Use the attached reference image ONLY to get the product's exact appearance. Do NOT
 include the remote control from the reference. Do not copy the reference's layout.
@@ -271,7 +271,7 @@ THE PRODUCT (match the reference exactly):
   bottom, four small white icons in a 2 x 2 grid (a flame, a snowflake, a fan, a
   crescent moon) with tiny labels under each.
 - To the right of the display: two narrow vertical strips of small square black buttons
-  with white symbols — an upper strip of three (power symbol at top) and a lower strip
+  with white symbols, an upper strip of three (power symbol at top) and a lower strip
   of three (a mode button, then "+", then "−").
 - One round countersunk screw hole at each short end of the faceplate, centred
   vertically: one left of the grille, one right of the buttons.
@@ -280,7 +280,7 @@ THE PRODUCT (match the reference exactly):
 
 HOW IT IS SHOT:
 - A clean, professional e-commerce product photograph on the same pure white background
-  as the rest of the ad — it sits directly on the ad's white with no box, panel, border
+  as the rest of the ad, it sits directly on the ad's white with no box, panel, border
   or visible edge around it, seamlessly part of the canvas.
 - Angle: seen from the front and slightly above, the product turned about 15 degrees to
   the left (so the display end is nearer the camera) and tilted back about 20 degrees,
@@ -310,7 +310,7 @@ HOW IT IS SHOT:
 - Any logo, brand name, wordmark, price, "$", "Shop now" button, badge, sticker, seal,
   star rating, ribbon, arrow, banner, border or frame.
 - Any text other than the headline and the five bullets. No extra words on the product.
-- Copper, rose-gold, pink, bronze, grey or cream product colour — the product is WHITE.
+- Copper, rose-gold, pink, bronze, grey or cream product colour, the product is WHITE.
 - Horizontal grille slats, more or fewer than two fans, the display on the left side.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -345,7 +345,7 @@ Headline → *NO MORE SWITCHING ROOMS / BECAUSE OF THE COLD.* · bullet 2 → *+
 
 ---
 
-# B1C3 — Whiteboard · "Normal vent" vs "Evenroom vent"
+# B1C3: Whiteboard · "Normal vent" vs "Evenroom vent"
 
 **Job:** a real whiteboard photographed at home, with the same room drawn twice. On the left, a normal vent with the person miserable. On the right, our vent with the person comfortable. The faces carry the ad and the arrows explain why. Our vent is drawn as a **hand sketch that clearly resembles the reference product**, not a photo of it.
 
@@ -382,9 +382,9 @@ Headline → *NO MORE SWITCHING ROOMS / BECAUSE OF THE COLD.* · bullet 2 → *+
 ```
 [Attach REF-1 (the product photo) so the drawn vent resembles the real product.
 Use it ONLY for the vent's shape. Do not copy its white background, its layout, its
-remote, or render it as a photo — on the board it is a marker sketch.]
+remote, or render it as a photo, on the board it is a marker sketch.]
 
-NOTE — this prompt now matches the APPROVED C3 generation (2026-09-26): both vents are
+NOTE: this prompt now matches the APPROVED C3 generation (2026-09-26): both vents are
 drawn high on the room's back wall, with arrows coming DOWN toward the desk.
 
 A candid smartphone photograph of a real white dry-erase whiteboard hanging on the wall
@@ -395,11 +395,11 @@ frame and rounded plastic corner caps, hung slightly crooked (about 1 degree) on
 greige painted wall (#D9D2C5). Its surface is glossy white (#F7F7F5) with faint grey
 ghosting from older wiped-off writing in the upper right, a few smudges where a hand
 brushed the ink, and one small fingerprint smear. An aluminium marker tray runs along
-the bottom holding three dry-erase markers with their caps off beside them — black, red
-and blue — plus a used grey felt eraser. The markers' manufacturer brand name and
+the bottom holding three dry-erase markers with their caps off beside them, black, red
+and blue, plus a used grey felt eraser. The markers' manufacturer brand name and
 colour band are printed on the barrels and visible, exactly as real markers look.
 
-THE DRAWING — done by an adult, quickly and confidently, in chisel-tip dry-erase marker.
+THE DRAWING: done by an adult, quickly and confidently, in chisel-tip dry-erase marker.
 Lines are slightly wobbly and uneven in thickness (about 3–5 mm strokes), with visible
 streaking where the marker ran a little dry, overlapping line ends at corners, and
 occasional tiny gaps. The style is expressive simple cartoon, like someone explaining
@@ -415,7 +415,7 @@ LEFT HALF:
   underlined with one quick stroke: "NORMAL VENT"
 - Below, a simple room drawn as a square outline with a floor line.
 - In the upper left of the room, a small window (rectangle with a cross) with a big red
-  sun drawn in it — a circle with eight short red rays blazing out.
+  sun drawn in it, a circle with eight short red rays blazing out.
 - On the right wall of the room, a small drawn thermometer (tube and bulb) with "81°"
   written beside it in red, clearly readable.
 - In the middle, a stick-figure-plus person (round head, simple body, arms) sitting on a
@@ -426,7 +426,7 @@ LEFT HALF:
   beside the paper).
 - High on the back wall, near the top right of the room, a plain rectangle representing
   an ordinary vent with four short horizontal slat lines inside it. Coming out of it,
-  pointing down: just THREE short, limp blue arrows that droop sideways and stop after about 2 inches — obviously weak.
+  pointing down: just THREE short, limp blue arrows that droop sideways and stop after about 2 inches, obviously weak.
 - Below the room, a handwritten black label with a short arrow pointing at the vent:
   "barely any air coming out"
 
@@ -498,5 +498,5 @@ Window: red sun → blue snowflakes and a bare tree · left figure: wrapped in a
 | | Hot (now) | Cold |
 |---|---|---|
 | **B1C1** | Two running fans, hard west sun | Small oil-filled radiator glowing next to the desk, grey overcast light, blanket over the chair, laptop closed, mug gone cold |
-| **B1C2** | See B1C2 cold version | — |
-| **B1C3** | See B1C3 cold version | — |
+| **B1C2** | See B1C2 cold version | - |
+| **B1C3** | See B1C3 cold version | - |

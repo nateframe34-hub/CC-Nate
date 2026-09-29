@@ -1,8 +1,8 @@
-# Launch Campaign — SA1, All Angles
+# Launch Campaign: SA1, All Angles
 
 **Created:** 2026-09-22 · **Restructured 2026-09-22, renamed 2026-09-23 (founder calls)**
 
-> **Naming convention, founder 2026-09-23: ONE BATCH = ONE ANGLE = ONE AD SET.** Batch 1 is Angle 1, Batch 2 is Angle 2, Batch 3 is Angle 3 — each holding exactly **1 native + 2 non-native**. This file is the *campaign* plan, not a batch; the creatives live in `ads/batch-1/`, `ads/batch-2/` and `ads/batch-3/`. (This file was previously called `Launch_Batch_1.md`, which collided with the convention.)
+> **Naming convention, founder 2026-09-23: ONE BATCH = ONE ANGLE = ONE AD SET.** Batch 1 is Angle 1, Batch 2 is Angle 2, Batch 3 is Angle 3, each holding exactly **1 native + 2 non-native**. This file is the *campaign* plan, not a batch; the creatives live in `ads/batch-1/`, `ads/batch-2/` and `ads/batch-3/`. (This file was previously called `Launch_Batch_1.md`, which collided with the convention.)
 **Reads against:** `Brand_Mastery.md`, `Offer_Structure.md`, `Format_Angle_Map.md`, `Launch_Plan.md`.
 
 > **Structure correction.** An earlier version of this file sequenced an angle test and then a format test, on the grounds that $600 split nine ways yields under one purchase per cell. **That was wrong, because it costed each ad as its own budget line.** With the **ad set as the angle** and three ads inside it, the angle receives the full ad-set budget and Meta allocates impressions between the three formats itself. Angle, format and (when extended) sub-avatar are all testable in one campaign.
@@ -14,18 +14,18 @@
 **One campaign. ABO. Each ad set is an ANGLE. Each ad set holds 3 ads: 1 native + 2 non-native.**
 
 ```
-CAMPAIGN — Register Fan | Purchase | ABO
+CAMPAIGN: Register Fan | Purchase | ABO
 │
-├── AD SET 1 = BATCH 1 — SA1 The Fan Runner                 $20/day
+├── AD SET 1 = BATCH 1, SA1 The Fan Runner                 $20/day
 │     ├── B1C1  Native "The Fan In The Garage"      [Julie Brennan]
 │     ├── B1C2  Outcome static "No more switching rooms because of the heat"
 │     └── B1C3  Whiteboard "Normal vent / Evenroom vent"
 │
-├── AD SET 2 = BATCH 2 — SA5 Checking Someone Else's Room   $20/day  (ads/batch-2)
-└── AD SET 3 = BATCH 3 — SA2 The Nightly Heater             $20/day  (ads/batch-3)
+├── AD SET 2 = BATCH 2, SA5 Checking Someone Else's Room   $20/day  (ads/batch-2)
+└── AD SET 3 = BATCH 3, SA2 The Nightly Heater             $20/day  (ads/batch-3)
 ```
 
-> **Current ads live in the batch files — read those, not old tables.** `ads/batch-1/B1_Ads.md` (SA1 Fan Runner: B1C1 native "The Fan In The Garage", B1C2 outcome static "No more switching rooms because of the heat", B1C3 whiteboard "Normal vent / Evenroom vent"), `ads/batch-2/B2_Ads.md` (SA5), `ads/batch-3/B3_Ads.md` (SA2). Earlier cell plans in this file were deleted 2026-09-26 (founder).
+> **Current ads live in the batch files, read those, not old tables.** `ads/batch-1/B1_Ads.md` (SA1 Fan Runner: B1C1 native "The Fan In The Garage", B1C2 outcome static "No more switching rooms because of the heat", B1C3 whiteboard "Normal vent / Evenroom vent"), `ads/batch-2/B2_Ads.md` (SA5), `ads/batch-3/B3_Ads.md` (SA2). Earlier cell plans in this file were deleted 2026-09-26 (founder).
 
 **$60/day. 7 days = $420.** Reserve $180 of the $600 cap for extending whatever wins.
 
@@ -33,7 +33,7 @@ CAMPAIGN — Register Fan | Purchase | ABO
 
 | Level | Where it is read | Mechanism |
 |---|---|---|
-| **Angle** | **Between ad sets** | Each angle accumulates ~$140 over 7 days — the full ad-set budget, not a ninth of the campaign |
+| **Angle** | **Between ad sets** | Each angle accumulates ~$140 over 7 days, the full ad-set budget, not a ninth of the campaign |
 | **Format** | **Within each ad set** | Meta concentrates delivery on the creative it predicts will perform. That concentration *is* the format answer |
 | **Sub-avatar** | **Add ad sets** | Same pattern. Batch 2 adds SA6 / SA2 / SA3 ad sets alongside the SA1 winner |
 
@@ -43,12 +43,12 @@ CAMPAIGN — Register Fan | Purchase | ABO
 
 | Setting | Value | Why |
 |---|---|---|
-| Budget | **ABO, $20/day per ad set** | Protected budget per angle. **Not CBO** — CBO concentrates spend on first-hour noise, which produced this account's worst reads |
+| Budget | **ABO, $20/day per ad set** | Protected budget per angle. **Not CBO**, CBO concentrates spend on first-hour noise, which produced this account's worst reads |
 | Optimisation | Purchase | Nothing upstream is worth optimising toward on a $100 product |
 | Audience | Broad, US, no interest stacking | Post-Andromeda the creative sorts the audience. Interest targeting on a new pixel just shrinks the pool |
-| Placements | Advantage+ | **Except the three native ads — exclude right column.** It cannot render primary text, so a native there serves an image with no argument attached. The non-natives keep every placement; that coverage is why they exist |
+| Placements | Advantage+ | **Except the three native ads, exclude right column.** It cannot render primary text, so a native there serves an image with no argument attached. The non-natives keep every placement; that coverage is why they exist |
 | Duration | 7 days minimum | Do not judge before day 4 |
-| Ads per ad set | **3, all live at launch** | **Never add a fourth mid-flight — it resets learning for the whole ad set** |
+| Ads per ad set | **3, all live at launch** | **Never add a fourth mid-flight, it resets learning for the whole ad set** |
 
 ---
 
@@ -56,9 +56,9 @@ CAMPAIGN — Register Fan | Purchase | ABO
 
 Neither of these is a reason to change it. Both are reasons to read the results correctly.
 
-**⚠️ We will be learning-limited the entire time.** Meta wants ~50 conversions per ad set per week to exit learning. At $20/day against a $56 CAC ceiling, the ceiling is ~2-3 purchases per ad set per week at best. **Every result from this batch is directional, not statistically settled.** That is normal and acceptable for a first read — it is not acceptable as a basis for declaring a winner and scaling hard.
+**⚠️ We will be learning-limited the entire time.** Meta wants ~50 conversions per ad set per week to exit learning. At $20/day against a $56 CAC ceiling, the ceiling is ~2-3 purchases per ad set per week at best. **Every result from this batch is directional, not statistically settled.** That is normal and acceptable for a first read, it is not acceptable as a basis for declaring a winner and scaling hard.
 
-**⚠️ The format read is a delivery-preference read, not a clean conversion comparison.** Meta typically concentrates 70-90% of an ad set's spend on one creative within a couple of days. That answers *"which format does Meta serve cheaply for this angle"* — genuinely useful, since delivery cost is the thing that killed the last product. It does **not** establish that the other two formats convert worse; they may simply never have been given the impressions. If a format read matters enough later, isolate it in its own ABO.
+**⚠️ The format read is a delivery-preference read, not a clean conversion comparison.** Meta typically concentrates 70-90% of an ad set's spend on one creative within a couple of days. That answers *"which format does Meta serve cheaply for this angle"*, genuinely useful, since delivery cost is the thing that killed the last product. It does **not** establish that the other two formats convert worse; they may simply never have been given the impressions. If a format read matters enough later, isolate it in its own ABO.
 
 ---
 
@@ -69,10 +69,10 @@ Governs every kill decision. Reading a metric before its threshold is how money 
 | Cumulative spend | Readable | Still noise |
 |---|---|---|
 | $0-25 | CPM (directional) | Everything else |
-| ~$40 | **CTR** — first real signal | CPC, LPV, downstream |
+| ~$40 | **CTR**, first real signal | CPC, LPV, downstream |
 | $60-90 | **CPC**, LPV, cost per LPV | ATC, purchases |
 | $150+ | ATC rate | Purchase rate |
-| $250+ | Purchase rate, CAC | — |
+| $250+ | Purchase rate, CAC | - |
 
 **Per ad set, $140 over 7 days.** So by the end of the run CTR, CPC and cost-per-LPV are readable at the angle level; ATC is marginal; purchase rate is not. **Judge angles on cost per landing-page view and CTR, with purchases as a tiebreak and as evidence for Question 1.**
 
@@ -88,7 +88,7 @@ Governs every kill decision. Reading a metric before its threshold is how money 
 | **Campaign** | CPC above $4.00 on every ad set | at ~$250 total | **Stop.** The economics do not close at any price we can charge |
 | **Campaign** | Hard cap | **$600** | Does not move. Extending "for one more read" is how tallow reached $2,000 |
 
-**Guard:** if all three ad sets die on CTR, do **not** conclude SA1 is wrong. Nine ads across three registers failing together points at the offer, the page or the product — not at the avatar. Check the PDP before writing off the research.
+**Guard:** if all three ad sets die on CTR, do **not** conclude SA1 is wrong. Nine ads across three registers failing together points at the offer, the page or the product, not at the avatar. Check the PDP before writing off the research.
 
 ---
 
@@ -100,22 +100,22 @@ Set before spending so it cannot move afterwards.
 |---|---|
 | **3+ purchases, blended CAC under $56.91** | ✅ Product sells. Fund Batch 2 from it |
 | **1-2 purchases**, CAC above room | 🟡 Alive, economics unproven. Extend the winning ad set with the $180 reserve |
-| **0 purchases, healthy CTR and cost per LPV** | 🟠 **Creative works, page or offer doesn't.** Fix the PDP or the price — do not rewrite ads |
+| **0 purchases, healthy CTR and cost per LPV** | 🟠 **Creative works, page or offer doesn't.** Fix the PDP or the price, do not rewrite ads |
 | **0 purchases, CTR under 1% across all nine** | 🔴 Wrong avatar or wrong product. Re-check the page first, then stop |
 | **CPC above $4 everywhere** | 🔴 Stop |
 
 ---
 
-## 7. Batch 2 — the sub-avatar test
+## 7. Batch 2: the sub-avatar test
 
 Same architecture, ad set = sub-avatar, each carrying its own best-evidenced angle:
 
 | Ad set | Sub-avatar | Angle |
 |---|---|---|
 | Control | **SA1** | Batch 1's winning angle + winning format |
-| 2 | **SA6** — Fixing It For Someone Else | *"You keep checking that room."* ⚠️ Strictest claim rules in the project — temperature and not-checking only, never risk or safety |
-| 3 | **SA2** — the bedroom | The space-heater beat |
-| 4 | **SA3** — renters | The landlord quote *(gated: confirm the unit is reversible)* |
+| 2 | **SA6**, Fixing It For Someone Else | *"You keep checking that room."* ⚠️ Strictest claim rules in the project, temperature and not-checking only, never risk or safety |
+| 3 | **SA2**, the bedroom | The space-heater beat |
+| 4 | **SA3**, renters | The landlord quote *(gated: confirm the unit is reversible)* |
 
 Funded by Batch 1, not from this $600.
 
@@ -132,7 +132,7 @@ Funded by Batch 1, not from this $600.
 | 5 | Cold-side verbatim | Copy quality | 🟡 Thin but workable |
 | 6 | Two thermometers | Ad set 3, Ad 2 | 🟢 $20 |
 
-✅ **Persona resolved 2026-09-23, founder call: the natives run from the existing Julie Brennan page.** Nothing in the campaign is blocked on creative any more — the only remaining blocker is the store. (The mid-flight rule still stands for any other reason: **never inject an ad into a live ad set**, it resets learning.)
+✅ **Persona resolved 2026-09-23, founder call: the natives run from the existing Julie Brennan page.** Nothing in the campaign is blocked on creative any more, the only remaining blocker is the store. (The mid-flight rule still stands for any other reason: **never inject an ad into a live ad set**, it resets learning.)
 
 **The critical path is the store, not the creative.** All six non-native ads can be produced in a day. None of them can run without somewhere to send the click.
 

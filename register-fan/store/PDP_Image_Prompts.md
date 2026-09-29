@@ -1,4 +1,4 @@
-# PDP Image Prompts — Nano Banana Pro 2 · ONE-PASS FULL SPEC
+# PDP Image Prompts: Nano Banana Pro 2 · ONE-PASS FULL SPEC
 
 **Rebuilt 2026-09-26** to the same standard as the B1C2 ad prompt: every prompt is **self-contained and one-pass**. Attach the reference, paste the whole box, done. No edits, no compositing.
 
@@ -17,14 +17,14 @@ For `theme/sections/evenroom-pdp-sa1.liquid`.
 
 | Slot | Image | Priority |
 |---|---|---|
-| Gallery 1 | **1c — installed in the floor** | Generate first |
-| Gallery 2 | 1a — on white | First |
-| Gallery 3 | 1f — what's in the box (unit + remote) | Second |
-| Gallery 4 | 1b — display close-up | Second |
-| Gallery 5 | 1e — bronze, same layout as 1f *(only if stocked)* | If needed |
-| §5b `out_image` | 5b — the result: that room at 4pm | **First** |
-| §7 `fit_image` | 7 — measuring the opening | **First** |
-| §8 `install_img_1` / `install_img_2` | 8.1–8.2 — install photos (two; the old-cover-out step is covered by 8.1) | ✅ done |
+| Gallery 1 | **1c, installed in the floor** | Generate first |
+| Gallery 2 | 1a, on white | First |
+| Gallery 3 | 1f, what's in the box (unit + remote) | Second |
+| Gallery 4 | 1b, display close-up | Second |
+| Gallery 5 | 1e, bronze, same layout as 1f *(only if stocked)* | If needed |
+| §5b `out_image` | 5b, the result: that room at 4pm | **First** |
+| §7 `fit_image` | 7, measuring the opening | **First** |
+| §8 `install_img_1` / `install_img_2` | 8.1–8.2, install photos (two; the old-cover-out step is covered by 8.1) | ✅ done |
 
 ⚠️ **Verify with the supplier:** where the power cord leaves the unit. The prompts assume it runs from beneath the right-hand end of the flange. Change that line if the real unit differs.
 
@@ -54,7 +54,7 @@ answer "what will this look like in my house?" at a glance.
 - In frame behind it: the bottom 30% of the wall, the baseboard, and one outlet on the
   baseboard about 18 inches to the right of the vent.
 - At the right edge of the frame, one metal leg of a white desk and one black caster
-  wheel of an office chair on the carpet — just enough to read as a lived-in office.
+  wheel of an office chair on the carpet, just enough to read as a lived-in office.
   Nothing else in the room is visible.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -71,7 +71,7 @@ THE PRODUCT (match the reference exactly):
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
   louvres). Every bar is perfectly straight, unbroken and the same width from top to
-  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bottom, never bent, kinked, melted, merged with the fans, or interrupted. Behind the
   bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
@@ -83,7 +83,7 @@ THE PRODUCT (match the reference exactly):
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (a power symbol, then a button with two small
+  white symbols, upper strip of three (a power symbol, then a button with two small
   stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
   then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
   arrow buttons. The display shows no power or bulb icons, and all its icons are white
@@ -95,7 +95,7 @@ THE PRODUCT (match the reference exactly):
 - The vent is ON: the display is lit and reads "72°F".
 - A thin white power cord emerges from beneath the right-hand end of the flange, runs
   across the carpet to the baseboard, then along it to the outlet, and is plugged in.
-  It lies naturally — a gentle curve, not taped down, not hidden, not perfectly straight.
+  It lies naturally, a gentle curve, not taped down, not hidden, not perfectly straight.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 3. CAMERA AND COMPOSITION
@@ -181,7 +181,7 @@ THE PRODUCT (match the reference exactly):
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
   louvres). Every bar is perfectly straight, unbroken and the same width from top to
-  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bottom, never bent, kinked, melted, merged with the fans, or interrupted. Behind the
   bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
@@ -193,7 +193,7 @@ THE PRODUCT (match the reference exactly):
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (a power symbol, then a button with two small
+  white symbols, upper strip of three (a power symbol, then a button with two small
   stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
   then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
   arrow buttons. The display shows no power or bulb icons, and all its icons are white
@@ -286,7 +286,7 @@ THE PRODUCT (match the reference exactly):
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
   louvres). Every bar is perfectly straight, unbroken and the same width from top to
-  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bottom, never bent, kinked, melted, merged with the fans, or interrupted. Behind the
   bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
@@ -298,7 +298,7 @@ THE PRODUCT (match the reference exactly):
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (a power symbol, then a button with two small
+  white symbols, upper strip of three (a power symbol, then a button with two small
   stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
   then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
   arrow buttons. The display shows no power or bulb icons, and all its icons are white
@@ -387,7 +387,7 @@ THE PRODUCT (match the reference exactly):
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
   louvres). Every bar is perfectly straight, unbroken and the same width from top to
-  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bottom, never bent, kinked, melted, merged with the fans, or interrupted. Behind the
   bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
@@ -399,7 +399,7 @@ THE PRODUCT (match the reference exactly):
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (a power symbol, then a button with two small
+  white symbols, upper strip of three (a power symbol, then a button with two small
   stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
   then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
   arrow buttons. The display shows no power or bulb icons, and all its icons are white
@@ -465,7 +465,7 @@ Aspect ratio 1:1, 1400 x 1400.
 
 ---
 
-## 1e. Bronze · gallery 5 (only if bronze is stocked) — rebuilt 2026-09-26
+## 1e. Bronze · gallery 5 (only if bronze is stocked): rebuilt 2026-09-26
 
 **Attach:** **two references:** (1) Nate's **bronze product photo**, labelled COLOUR REFERENCE, and (2) the approved **white "what's in the box" image**, labelled COMPOSITION REFERENCE
 
@@ -475,13 +475,13 @@ pure white background. The composition must match the attached COMPOSITION refer
 exactly; the colour must match the attached BRONZE reference exactly.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. REFERENCES — WHAT TO TAKE FROM EACH
+1. REFERENCES, WHAT TO TAKE FROM EACH
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 - COLOUR REFERENCE (Nate's bronze-colourway product photo): take the product's COLOUR and FINISH
-  from this, exactly — the same rosewood tone, the same sheen, the same colour on the
+  from this, exactly, the same rosewood tone, the same sheen, the same colour on the
   faceplate, rim and grille bars. Also take the product's shape and details from it.
 - COMPOSITION REFERENCE (the approved white "what's in the box" image): copy its layout
-  exactly — the camera angle, the vent's position, size and angle in the frame, the
+  exactly, the camera angle, the vent's position, size and angle in the frame, the
   remote's position, size and angle, the lighting, the white background and the soft
   shadows. Do NOT take the vent's colour from this image; it is white there and must be
   rosewood here.
@@ -510,7 +510,7 @@ or background.
 THE PRODUCT (match the reference exactly):
 - A flat rectangular floor vent cover (register) with two built-in fans. About 2.4 times
   as wide as it is tall. One piece of moulded plastic with a thin raised rim and softly
-  rounded outer corners. FINISH: a muted ROSEWOOD colour — a dusty reddish-brown with a
+  rounded outer corners. FINISH: a muted ROSEWOOD colour, a dusty reddish-brown with a
   mauve/plum cast, like old rosewood or a dark dusty-rose wine colour. Main faceplate
   tone about #7E5256 (RGB 126, 82, 86); lit edges and the top of the rim lighter, about
   #9C6E71; shadowed edges and the inner sides of the grille bars darker, about #52323A.
@@ -518,7 +518,7 @@ THE PRODUCT (match the reference exactly):
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
   louvres). Every bar is perfectly straight, unbroken and the same width from top to
-  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bottom, never bent, kinked, melted, merged with the fans, or interrupted. Behind the
   bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
@@ -530,7 +530,7 @@ THE PRODUCT (match the reference exactly):
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (a power symbol, then a button with two small
+  white symbols, upper strip of three (a power symbol, then a button with two small
   stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
   then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
   arrow buttons. The display shows no power or bulb icons, and all its icons are white
@@ -551,7 +551,7 @@ THE PRODUCT (match the reference exactly):
 - The remote stays light grey. It is NOT rosewood-coloured.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-4. COLOUR — THE MOST IMPORTANT INSTRUCTION
+4. COLOUR, THE MOST IMPORTANT INSTRUCTION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 - The colour is the rosewood described above, and it must match the COLOUR REFERENCE
   photo exactly. Copy the colour directly from that photo. Do not substitute your own
@@ -600,7 +600,7 @@ Aspect ratio 1:1, 1024 x 1024.
 
 ---
 
-## 5b. The result — that room at 4pm · section 5b `out_image`
+## 5b. The result: that room at 4pm · section 5b `out_image`
 
 **Attach:** REF-1 (remote cropped out)
 
@@ -661,7 +661,7 @@ THE PRODUCT (match the reference exactly):
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
   louvres). Every bar is perfectly straight, unbroken and the same width from top to
-  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bottom, never bent, kinked, melted, merged with the fans, or interrupted. Behind the
   bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
@@ -673,7 +673,7 @@ THE PRODUCT (match the reference exactly):
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (a power symbol, then a button with two small
+  white symbols, upper strip of three (a power symbol, then a button with two small
   stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
   then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
   arrow buttons. The display shows no power or bulb icons, and all its icons are white
@@ -817,7 +817,7 @@ Aspect ratio 4:3, 1600 x 1200.
 
 ---
 
-## 8.1 Install photo 1 — old cover out, new one in ✅ approved 2026-09-27
+## 8.1 Install photo 1: old cover out, new one in ✅ approved 2026-09-27
 
 **Attach:** REF-1 (remote cropped out)
 
@@ -859,7 +859,7 @@ THE PRODUCT (match the reference exactly):
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
   louvres). Every bar is perfectly straight, unbroken and the same width from top to
-  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bottom, never bent, kinked, melted, merged with the fans, or interrupted. Behind the
   bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
@@ -871,7 +871,7 @@ THE PRODUCT (match the reference exactly):
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (a power symbol, then a button with two small
+  white symbols, upper strip of three (a power symbol, then a button with two small
   stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
   then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
   arrow buttons. The display shows no power or bulb icons, and all its icons are white
@@ -910,7 +910,7 @@ Aspect ratio 4:3, 1600 x 1200.
 
 ---
 
-## 8.2 Install photo 2 — plug it in ✅ approved 2026-09-27
+## 8.2 Install photo 2: plug it in ✅ approved 2026-09-27
 
 **Attach:** REF-1 (remote cropped out)
 
@@ -953,7 +953,7 @@ THE PRODUCT (match the reference exactly):
 - LEFT about 70% of the face: a rectangular grille opening with rounded inner corners,
   crossed by 18 thin, evenly spaced VERTICAL bars running top to bottom (NOT horizontal
   louvres). Every bar is perfectly straight, unbroken and the same width from top to
-  bottom — never bent, kinked, melted, merged with the fans, or interrupted. Behind the
+  bottom, never bent, kinked, melted, merged with the fans, or interrupted. Behind the
   bars, two identical round fans side by side, each with a dark
   charcoal-grey circular shroud and a black five-blade impeller with broad curved blades
   and a small round hub.
@@ -965,7 +965,7 @@ THE PRODUCT (match the reference exactly):
   Bottom: four small white icons in a 2 x 2 grid (flame, snowflake, fan, crescent moon)
   with tiny labels.
 - Right of the display: two narrow vertical strips of small square black buttons with
-  white symbols — upper strip of three (a power symbol, then a button with two small
+  white symbols, upper strip of three (a power symbol, then a button with two small
   stacked dots, then a third mode icon); lower strip of three (a round "MODE" label,
   then "+", then "−"). Exactly two separate strips of three. NOT one long strip, NOT
   arrow buttons. The display shows no power or bulb icons, and all its icons are white
