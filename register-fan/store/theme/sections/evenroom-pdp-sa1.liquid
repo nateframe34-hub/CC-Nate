@@ -82,6 +82,15 @@
 #evr-pdp .eyebrow{font-family:var(--hdr);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;font-weight:700}
 #evr-pdp .band .eyebrow{color:rgba(255,247,243,.75)}
 
+/* top bar + cart icon */
+#evr-pdp .evr-top{position:sticky;top:0;z-index:55;display:flex;align-items:center;justify-content:center;height:54px;background:var(--bg);border-bottom:1px solid var(--line)}
+#evr-pdp .evr-wordmark{font-family:var(--hdr);font-weight:800;letter-spacing:.14em;font-size:15px;text-transform:uppercase}
+#evr-pdp .evr-cart-btn{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border:0;background:none;color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center}
+#evr-pdp .evr-cart-left{left:10px}#evr-pdp .evr-cart-right{right:10px}
+#evr-pdp .evr-cart-btn svg{width:25px;height:25px}
+#evr-pdp .evr-cart-n{position:absolute;top:4px;right:2px;min-width:18px;height:18px;border-radius:9px;background:var(--accent);color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;padding:0 4px}
+#evr-pdp .evr-cart-n[hidden]{display:none}
+
 /* announcement */
 #evr-pdp .announce{background:var(--ink);color:var(--bg);font-size:13px;letter-spacing:.04em;text-align:center;padding:10px 16px}
 #evr-pdp .announce span{margin:0 10px;white-space:nowrap}
@@ -186,8 +195,8 @@
 
 /* cart drawer */
 #evr-pdp .evr-cd-ov{position:fixed;inset:0;background:rgba(28,26,23,.45);z-index:2147483000}
-#evr-pdp .evr-cd{position:fixed;top:0;right:0;height:100%;width:420px;max-width:100%;background:var(--bg);z-index:2147483001;display:flex;flex-direction:column;transform:translateX(100%);transition:transform .28s ease;box-shadow:-8px 0 30px rgba(0,0,0,.12)}
-#evr-pdp .evr-cd.open{transform:none}
+#evr-pdp .evr-cd{position:fixed;top:0;right:0;height:100%;width:420px;max-width:100%;background:var(--bg);z-index:2147483001;display:flex;flex-direction:column;transform:translateX(100%);visibility:hidden;transition:transform .28s ease,visibility 0s linear .28s;box-shadow:-8px 0 30px rgba(0,0,0,.12)}
+#evr-pdp .evr-cd.open{transform:none;visibility:visible;transition:transform .28s ease}
 #evr-pdp .evr-cd-h{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;border-bottom:1px solid var(--line)}
 #evr-pdp .evr-cd-title{font-family:var(--hdr);font-weight:700;font-size:18px}
 #evr-pdp .evr-cd-x{background:none;border:0;font-size:30px;line-height:1;cursor:pointer;color:var(--ink);padding:0 4px}
@@ -261,11 +270,17 @@
 #evr-pdp .stars{color:var(--accent);letter-spacing:2px}
 
 /* sticky */
-#evr-pdp .sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--bg);border-top:1px solid var(--line);padding:10px 14px;display:none;box-shadow:0 -6px 20px rgba(0,0,0,.07)}
-#evr-pdp .sticky .in{display:flex;align-items:center;gap:12px;max-width:1180px;margin:0 auto}
-#evr-pdp .sticky .sp{font-family:var(--hdr);font-weight:700;font-size:16px;white-space:nowrap}
-#evr-pdp .sticky .sp s{color:var(--muted);font-weight:400;font-size:13px;margin-right:6px}
-#evr-pdp .sticky .atc{margin:0;flex:1;padding:14px;font-size:15px}
+#evr-pdp .sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;background:#fff;border-top:1px solid var(--line);padding:10px 12px calc(10px + env(safe-area-inset-bottom));display:none;box-shadow:0 -8px 24px rgba(0,0,0,.08);transform:translateY(110%);transition:transform .25s ease}
+#evr-pdp .sticky.show{transform:none}
+#evr-pdp .sticky .in{display:flex;align-items:center;gap:10px;max-width:1180px;margin:0 auto}
+#evr-pdp .st-img{flex:0 0 auto;width:48px;height:48px;border-radius:8px;border:1px solid var(--line);object-fit:cover;background:#fff}
+#evr-pdp .st-info{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:1px}
+#evr-pdp .st-t{font-family:var(--hdr);font-weight:700;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#evr-pdp .st-v{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#evr-pdp .sticky .sp{font-family:var(--hdr);font-weight:700;font-size:14px;white-space:nowrap}
+#evr-pdp .sticky .sp s{color:var(--muted);font-weight:400;font-size:12px;margin-right:5px}
+#evr-pdp .sticky form{flex:0 0 auto;margin:0}
+#evr-pdp .sticky .atc{margin:0;width:auto;padding:13px 18px;font-size:14.5px;border-radius:10px;white-space:nowrap}
 
 @media(max-width:880px){
   #evr-pdp .hero{grid-template-columns:1fr;gap:28px;padding-top:24px}
@@ -275,9 +290,17 @@
   #evr-pdp .band{padding:52px 0}
   #evr-pdp .sticky{display:block}
   #evr-pdp .hero .atc{margin-bottom:8px}
+  #evr-pdp .gal-thumbs{display:none}
 }
 </style>
 
+<div class="evr-top">
+  <button type="button" class="evr-cart-btn evr-cart-{{ section.settings.cart_icon_side }}" id="evr-cart-btn" aria-label="Open cart">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2.2l2.1 10.2a1.5 1.5 0 0 0 1.5 1.2h8.4a1.5 1.5 0 0 0 1.5-1.1L20.5 8H6.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="19.5" r="1.4" fill="currentColor"/><circle cx="17" cy="19.5" r="1.4" fill="currentColor"/></svg>
+    <span class="evr-cart-n" id="evr-cart-n"{% if cart.item_count == 0 %} hidden{% endif %}>{{ cart.item_count }}</span>
+  </button>
+  {%- if section.settings.wordmark != blank -%}<span class="evr-wordmark">{{ section.settings.wordmark }}</span>{%- endif -%}
+</div>
 <div class="announce">
   <span>60-day returns</span><span>·</span><span>Free shipping on 2-packs</span>
 </div>
@@ -390,7 +413,7 @@
     <h2>{{ section.settings.congruence_h }}</h2>
     <p>{{ section.settings.congruence_1 }}</p>
     <p>{{ section.settings.congruence_2 }}</p>
-    <p style="margin-bottom:0"><b>{{ section.settings.congruence_3 }}</b></p>
+    {%- if section.settings.congruence_3 != blank -%}<p style="margin-bottom:0"><b>{{ section.settings.congruence_3 }}</b></p>{%- endif -%}
   </div>
 </div>
 
@@ -459,11 +482,11 @@
   <p class="eyebrow">The specifics</p>
   <h2>What it is</h2>
   <dl class="attrs">
-    <div class="attr"><dt>What it is</dt><dd>A vent cover with fans built in. It replaces the register already in that room.</dd></div>
-    <div class="attr"><dt>What it does</dt><dd>Pulls conditioned air out of the duct into the room, instead of waiting for it to arrive.</dd></div>
+    <div class="attr"><dt>What it is</dt><dd>A vent cover with two fans in it. It replaces the one you have now.</dd></div>
+    <div class="attr"><dt>What it does</dt><dd>Pulls the cold air from the duct into the room.</dd></div>
     <div class="attr"><dt>Fits</dt><dd>{{ section.settings.attr_fits }}</dd></div>
     <div class="attr"><dt>Power</dt><dd>Standard US plug. Any regular wall outlet.</dd></div>
-    <div class="attr"><dt>Control</dt><dd>Set a temperature for that one room. It runs when the duct is delivering and stops when it isn&rsquo;t.</dd></div>
+    <div class="attr"><dt>Control</dt><dd>Pick a temperature for that room. It turns on and off by itself.</dd></div>
     <div class="attr"><dt>Seasons</dt><dd>Cooling in summer, heating in winter. Same unit.</dd></div>
     <div class="attr"><dt>Returns</dt><dd>60 days. Free size swap if you measure wrong.</dd></div>
   </dl>
@@ -518,9 +541,9 @@
   <div class="wrap narrow">
     <p class="eyebrow">What else you could do</p>
     <h2>{{ section.settings.alts_h }}</h2>
-    <div class="alt"><b>Another fan</b><p>Cools whoever is sitting in front of it. The room stays where it is.</p></div>
-    <div class="alt"><b>Turn the AC down</b><p>Over-cools every room that was already fine, all day, to fix one that isn&rsquo;t.</p></div>
-    <div class="alt"><b>Call a contractor</b><p>Rebalancing a duct run is commonly quoted in the thousands. It may well be the right permanent fix. It isn&rsquo;t happening this week.</p></div>
+    <div class="alt"><b>Another fan</b><p>Cools you while you sit in front of it. The room stays hot.</p></div>
+    <div class="alt"><b>Turn the AC down</b><p>Makes every other room too cold to fix one room.</p></div>
+    <div class="alt"><b>Call a contractor</b><p>Fixing the ducts can cost thousands. And it won&rsquo;t happen this week.</p></div>
     <div class="alt" style="border-bottom:0"><b>Nothing</b><p>What most people do. For years.</p></div>
   </div>
 </div>
@@ -531,9 +554,9 @@
   <h2 id="evr-stack-h">{{ section.settings.stack_h }}</h2>
   <div class="stack">
     <div class="srow"><b>{{ product.title }}</b><span class="val" id="evr-stack-price">{{ p1 | money }}</span></div>
-    <div class="srow"><b>Remote + room temperature control</b><span class="val">Included</span></div>
+    <div class="srow"><b>Remote control</b><span class="val">Included</span></div>
     <div class="srow"><b>Free size swap</b><span class="val">{{ section.settings.swap_value }}</span></div>
-    <div class="srow"><b>Sizing + install card, in plain English</b><span class="val">Included</span></div>
+    <div class="srow"><b>Simple sizing and install card</b><span class="val">Included</span></div>
     <div class="srow"><b>60-day home trial</b><span class="val">Included</span></div>
     <div class="srow"><b>Free shipping on 2-packs</b><span class="val">{{ section.settings.ship_value }}</span></div>
   </div>
@@ -599,10 +622,15 @@
       </div>
 </div></div>
 
-<!-- ================= STICKY ================= -->
-<div class="sticky">
+<!-- ================= STICKY (mobile) ================= -->
+<div class="sticky" id="evr-sticky" aria-hidden="true">
   <div class="in">
-    <span class="sp" id="evr-sticky-price">{%- if p1_cmp > p1 -%}<s>{{ p1_cmp | money }}</s>{%- endif -%}{{ p1 | money }}</span>
+    {%- if product.featured_image -%}<img class="st-img" src="{{ product.featured_image | image_url: width: 120 }}" alt="">{%- endif -%}
+    <div class="st-info">
+      <span class="st-t">{{ product.title }}</span>
+      <span class="st-v" id="evr-sticky-tier">{{ section.settings.t1_label }}</span>
+      <span class="sp" id="evr-sticky-price">{%- if p1_cmp > p1 -%}<s>{{ p1_cmp | money }}</s>{%- endif -%}{{ p1 | money }}</span>
+    </div>
     {%- form 'product', product, id: 'evr-form-sticky', class: 'evr-form' -%}
       <input type="hidden" name="id" class="evr-variant-field" value="{{ v.id }}">
       <input type="hidden" name="quantity" class="evr-qty-field" value="1"><span class="evr-items"></span>
@@ -712,6 +740,15 @@
       }
       ctas.forEach(function(b){ if(!b.disabled && cta) b.textContent = cta; });
       syncFields();
+      stickyTier();
+    }
+
+    function stickyTier(){
+      var el = root.querySelector('#evr-sticky-tier'); if(!el) return;
+      var t = activeTier(); if(!t) return;
+      var name = (t.querySelector('.evr-tier-name') || {}).textContent || '';
+      var picks = [].slice.call(t.querySelectorAll('.evr-v')).map(function(s){ return s.options[s.selectedIndex] ? s.options[s.selectedIndex].text : ''; });
+      el.textContent = name + (picks.length ? ' · ' + picks.join(' + ') : '');
     }
 
     tiers.forEach(function(t){
@@ -724,9 +761,25 @@
       });
     });
     [].slice.call(root.querySelectorAll('.evr-v')).forEach(function(sel){
-      sel.addEventListener('change', syncFields);
+      sel.addEventListener('change', function(){ syncFields(); stickyTier(); });
     });
     syncFields();
+    stickyTier();
+
+    // cart icon without our drawer: go to the theme cart page
+    var cbtn0 = root.querySelector('#evr-cart-btn');
+    if(cbtn0 && !document.getElementById('evr-cd')) cbtn0.addEventListener('click', function(){ window.location.href = '{{ routes.cart_url }}'; });
+    if(cbtn0 && document.getElementById('evr-cd')) cbtn0.setAttribute('data-drawer','1');
+
+    // sticky bar: only after the main Add to cart button scrolls out of view
+    var sticky = root.querySelector('#evr-sticky'), heroForm = root.querySelector('#evr-form-hero');
+    if(sticky && heroForm && 'IntersectionObserver' in window){
+      new IntersectionObserver(function(en){
+        var past = !en[0].isIntersecting && en[0].boundingClientRect.top < 0;
+        sticky.classList.toggle('show', past);
+        sticky.setAttribute('aria-hidden', past ? 'false' : 'true');
+      }).observe(heroForm);
+    } else if(sticky){ sticky.classList.add('show'); }
 
     // gallery carousel: swipe (native scroll-snap), arrows, dots, thumbs
     var car = root.querySelector('#evr-car');
@@ -790,6 +843,7 @@
 
     function updateBubbles(n){
       [].slice.call(document.querySelectorAll('.cart-count-bubble span, [data-cart-count], .cart-count, #CartCount')).forEach(function(el){ el.textContent = n; });
+      var mine = document.getElementById('evr-cart-n'); if(mine){ mine.textContent = n; mine.hidden = !n; }
     }
 
     function render(cart){
@@ -862,6 +916,8 @@
       var line = parseInt(b.closest('.evr-cd-line').getAttribute('data-line'), 10);
       change(line, Math.max(0, parseInt(b.getAttribute('data-q'), 10)));
     });
+    var cbtn = document.getElementById('evr-cart-btn');
+    if(cbtn) cbtn.addEventListener('click', function(){ load().then(open); });
     ov.addEventListener('click', close);
     document.getElementById('evr-cd-x').addEventListener('click', close);
     document.getElementById('evr-cd-cont').addEventListener('click', close);
@@ -881,20 +937,20 @@
     { "type": "checkbox", "id": "load_fonts", "label": "Load Archivo / Inter / JetBrains Mono", "default": true },
 
     { "type": "header", "content": "Hero" },
-    { "type": "text", "id": "hero_sub", "label": "Recognition subline", "default": "For the one room that never catches up with the rest of the house." },
+    { "type": "text", "id": "hero_sub", "label": "Recognition subline", "default": "For the one room that's always hotter than the rest." },
     { "type": "text", "id": "pick_label", "label": "Vent picker label (one vent)", "default": "Pick your vent" },
     { "type": "text", "id": "pick_label_1", "label": "Vent picker label (two vents, first)", "default": "Vent 1" },
     { "type": "text", "id": "pick_label_2", "label": "Vent picker label (two vents, second)", "default": "Vent 2" },
-    { "type": "text", "id": "pick_help", "label": "Vent picker help line", "default": "Measure the hole, not the cover. Wrong size? We'll swap it free." },
+    { "type": "text", "id": "pick_help", "label": "Vent picker help line", "default": "Measure the hole, not the cover. Wrong size? We swap it free." },
     { "type": "text", "id": "t1_label", "label": "Tier 1 name", "default": "One vent" },
-    { "type": "text", "id": "t1_sub", "label": "Tier 1 subline", "default": "For the one room that never catches up" },
+    { "type": "text", "id": "t1_sub", "label": "Tier 1 subline", "default": "For your one hot room" },
     { "type": "text", "id": "t2_label", "label": "Tier 2 name", "default": "Two vents" },
-    { "type": "text", "id": "t2_sub", "label": "Tier 2 subline", "default": "Two rooms · mix sizes or colours · free shipping" },
+    { "type": "text", "id": "t2_sub", "label": "Tier 2 subline", "default": "Two rooms \u00b7 mix sizes or colors \u00b7 free shipping" },
     { "type": "text", "id": "t2_badge", "label": "Tier 2 badge", "default": "Best value" },
     { "type": "text", "id": "single_ship_note", "label": "Single price note", "default": "+ $9.95 shipping" },
     { "type": "text", "id": "bundle_ship_note", "label": "2-pack price note", "default": "Free shipping" },
     { "type": "text", "id": "size_note", "label": "Size option subline", "default": "Fits this duct opening" },
-    { "type": "text", "id": "bundle_note", "label": "Bundle step subline", "default": "Most houses with one problem room have a second one." },
+    { "type": "text", "id": "bundle_note", "label": "Bundle step subline", "default": "Most homes with one hot room have two." },
     { "type": "text", "id": "cta_single", "label": "CTA — single", "default": "Add to cart" },
     { "type": "text", "id": "cta_bundle", "label": "CTA — 2-pack", "default": "Add both to cart" },
 
@@ -903,24 +959,28 @@
     { "type": "number", "id": "bundle_discount_cents", "label": "2-pack discount in cents", "default": 1999 },
 
     { "type": "header", "content": "3 — Congruence band" },
-    { "type": "text", "id": "congruence_h", "label": "Heading", "default": "A fan cools you. It doesn't cool the room." },
-    { "type": "textarea", "id": "congruence_1", "label": "Para 1", "default": "Stand in front of one and you feel fine. Sit down four feet away and you're hot again inside a minute." },
-    { "type": "textarea", "id": "congruence_2", "label": "Para 2", "default": "That isn't the fan failing — it's what a fan does. It doesn't make air colder and it doesn't bring any in. It picks up the hot air already in the room and moves it past your skin. Your skin reads that as cooler. The room stays exactly as hot as it was." },
-    { "type": "text", "id": "congruence_3", "label": "Kicker", "default": "Which is why the second fan didn't work either." },
+    { "type": "text", "id": "congruence_h", "label": "Heading", "default": "A fan cools you. Not the room." },
+    { "type": "textarea", "id": "congruence_1", "label": "Para 1", "default": "Move a few feet away and you're hot again." },
+    { "type": "textarea", "id": "congruence_2", "label": "Para 2", "default": "A fan just pushes the hot air around. It can't bring cold air in." },
+    { "type": "text", "id": "congruence_3", "label": "Kicker", "default": "" },
 
     { "type": "header", "content": "4 — Mechanism" },
-    { "type": "text", "id": "mech_h", "label": "Heading", "default": "Why that room never catches up" },
-    { "type": "textarea", "id": "mech_1", "label": "Para 1", "default": "Your AC cools air in one place and pushes it through ducts to every room. The rooms nearest the unit get it first, at full strength. Every turn, every branch, every foot of duct takes a little off." },
-    { "type": "text", "id": "mech_2", "label": "Emphasis line", "default": "The room at the end of the run gets whatever's left." },
-    { "type": "textarea", "id": "mech_caption", "label": "Diagram caption", "default": "Same house, same afternoon, same air conditioning running." },
+    { "type": "text", "id": "mech_h", "label": "Heading", "default": "Why that room stays hot" },
+    { "type": "textarea", "id": "mech_1", "label": "Para 1", "default": "Your AC sends cold air through ducts. The rooms close to it get the most. The room at the end gets the least." },
+    { "type": "text", "id": "mech_2", "label": "Emphasis line", "default": "By the time it gets there, it's a trickle." },
+    { "type": "textarea", "id": "mech_caption", "label": "Diagram caption", "default": "Same house. Same time. Same AC." },
 
     { "type": "header", "content": "5 — Hand test" },
-    { "type": "text", "id": "hand_h", "label": "Heading", "default": "Go and put your hand on that vent." },
-    { "type": "textarea", "id": "hand_sub", "label": "Subline", "default": "Do it while the AC is running. What you feel tells you whether this is your problem." },
-    { "type": "text", "id": "hand_yes_h", "label": "Yes — heading", "default": "Air coming out, but barely moving?" },
-    { "type": "textarea", "id": "hand_yes_b", "label": "Yes — body", "default": "That's the one this fixes. The cold air is being made — it just isn't arriving with enough push to change the room." },
-    { "type": "text", "id": "hand_no_h", "label": "No — heading", "default": "Nothing coming out at all?" },
-    { "type": "textarea", "id": "hand_no_b", "label": "No — body", "default": "Don't buy this. That's a blocked or disconnected duct, and no fan can pull air that isn't there." },
+    { "type": "text", "id": "hand_h", "label": "Heading", "default": "Put your hand on that vent." },
+    { "type": "textarea", "id": "hand_sub", "label": "Subline", "default": "Do it while the AC is on." },
+    { "type": "text", "id": "hand_yes_h", "label": "Yes — heading", "default": "Air coming out, but weak?" },
+    { "type": "textarea", "id": "hand_yes_b", "label": "Yes — body", "default": "This fixes that. It pulls the cold air into the room." },
+    { "type": "text", "id": "hand_no_h", "label": "No — heading", "default": "No air at all?" },
+    { "type": "textarea", "id": "hand_no_b", "label": "No — body", "default": "Don't buy this. The duct is blocked, and no fan can fix that." },
+
+    { "type": "header", "content": "Top bar + cart" },
+    { "type": "text", "id": "wordmark", "label": "Wordmark in the top bar", "default": "Evenroom" },
+    { "type": "select", "id": "cart_icon_side", "label": "Cart icon side", "default": "left", "options": [ { "value": "left", "label": "Left" }, { "value": "right", "label": "Right" } ] },
 
     { "type": "header", "content": "Cart drawer" },
     { "type": "checkbox", "id": "use_drawer", "label": "Use this section's cart drawer", "default": true, "info": "Turn off to fall back to your theme's normal cart." },
@@ -930,39 +990,39 @@
 
     { "type": "header", "content": "5b — Outcome (the after)" },
     { "type": "text", "id": "out_eyebrow", "label": "Eyebrow", "default": "That room, at 4pm" },
-    { "type": "text", "id": "out_h", "label": "Heading", "default": "The room you stopped using, back." },
+    { "type": "text", "id": "out_h", "label": "Heading", "default": "Use that room again." },
     { "type": "image_picker", "id": "out_image", "label": "After image (same room, in use, no fan)" },
-    { "type": "text", "id": "out_1", "label": "Line 1", "default": "Back at the desk at four in the afternoon." },
-    { "type": "text", "id": "out_2", "label": "Line 2", "default": "The box fan goes back in the garage." },
-    { "type": "text", "id": "out_3", "label": "Line 3", "default": "The door stays open, and the room matches the hallway." },
+    { "type": "text", "id": "out_1", "label": "Line 1", "default": "Work at the desk at 4pm." },
+    { "type": "text", "id": "out_2", "label": "Line 2", "default": "Put the box fan away." },
+    { "type": "text", "id": "out_3", "label": "Line 3", "default": "Keep the door open." },
 
     { "type": "header", "content": "6 — Attributes" },
-    { "type": "text", "id": "attr_fits", "label": "Fits", "default": "4x10 and 6x10 openings. Floor, wall or ceiling." },
+    { "type": "text", "id": "attr_fits", "label": "Fits", "default": "4x10 and 6x10 vents. Floor, wall or ceiling." },
 
     { "type": "header", "content": "7 — Fit + size swap" },
     { "type": "text", "id": "fit_h", "label": "Heading", "default": "Measure the hole, not the cover." },
-    { "type": "textarea", "id": "fit_1", "label": "Para 1", "default": "Pull the old cover off and measure the opening underneath. Most are 4x10." },
-    { "type": "textarea", "id": "fit_2", "label": "Para 2", "default": "Both sizes are 10 inches long, so the short side is the one that differs — measure that one carefully. The housing sits down inside the opening, so the measurement has to match: a 6-inch unit won't go into a 4-inch hole." },
+    { "type": "textarea", "id": "fit_1", "label": "Para 1", "default": "Take off the old cover. Measure the hole under it. Most are 4x10." },
+    { "type": "textarea", "id": "fit_2", "label": "Para 2", "default": "Both sizes are 10 inches long. Measure the short side. That's the one that's different." },
     { "type": "image_picker", "id": "fit_image", "label": "Measuring photo" },
     { "type": "image_picker", "id": "install_img_1", "label": "Install step 1 photo — swapping the cover" },
     { "type": "image_picker", "id": "install_img_2", "label": "Install step 2 photo — plugging it in" },
-    { "type": "text", "id": "swap_h", "label": "Swap heading", "default": "Measured wrong? We'll swap it, no charge." },
-    { "type": "textarea", "id": "swap_b", "label": "Swap body", "default": "Order it, measure again when it arrives, and if you got the size wrong we'll send the right one. You're not stuck with a cover that doesn't fit." },
+    { "type": "text", "id": "swap_h", "label": "Swap heading", "default": "Wrong size? We'll swap it for free." },
+    { "type": "textarea", "id": "swap_b", "label": "Swap body", "default": "Measure again when it comes. If it's the wrong size, we'll send the right one." },
 
     { "type": "header", "content": "9 — Limits" },
     { "type": "text", "id": "limits_h", "label": "Heading", "default": "When this won't help" },
-    { "type": "textarea", "id": "limits_1", "label": "Para 1", "default": "This works if air comes out of that vent but weakly, or if the room sits at the end of a long duct run. It won't fix a room that gets no air at all — that's a blocked or disconnected duct." },
-    { "type": "textarea", "id": "limits_2", "label": "Para 2", "default": "And it won't turn a west-facing room into the coolest room in the house. A room with a lot of afternoon glass is always going to run warmer. What changes is whether it's usable." },
+    { "type": "textarea", "id": "limits_1", "label": "Para 1", "default": "This works if air comes out of the vent, but it's weak. It can't fix a vent with no air at all. That's a blocked duct." },
+    { "type": "textarea", "id": "limits_2", "label": "Para 2", "default": "It won't make a sunny room the coolest room in the house. It will make it a room you can use." },
 
     { "type": "header", "content": "10 — Alternatives" },
-    { "type": "text", "id": "alts_h", "label": "Heading", "default": "What the alternatives cost" },
+    { "type": "text", "id": "alts_h", "label": "Heading", "default": "Your other options" },
 
     { "type": "header", "content": "11 — Value stack" },
     { "type": "text", "id": "stack_h", "label": "Heading", "default": "What you get" },
     { "type": "text", "id": "swap_value", "label": "Swap value", "default": "$20 value" },
     { "type": "text", "id": "ship_value", "label": "Shipping value", "default": "$9.95" },
-    { "type": "text", "id": "stack_bundle_line", "label": "Bundle line", "default": "The office that's cold in winter, the bedroom over the garage." },
-    { "type": "text", "id": "urgency_line", "label": "Urgency line", "default": "It's only getting hotter from here." },
+    { "type": "text", "id": "stack_bundle_line", "label": "Bundle line", "default": "Have a second hot or cold room? This covers it." },
+    { "type": "text", "id": "urgency_line", "label": "Urgency line", "default": "It's only going to get hotter." },
 
     { "type": "header", "content": "12 — Reviews" },
     { "type": "paragraph", "content": "⛔ OFF by default. Placeholder reviews are mockup-only and must never be published. Grep for [PH] before any deploy." },
@@ -972,43 +1032,43 @@
     { "type": "html", "id": "reviews_html", "label": "Reviews markup" },
 
     { "type": "header", "content": "13 — Guarantee" },
-    { "type": "text", "id": "guar_h", "label": "Heading", "default": "60 days. If that room doesn't change, send it back." },
-    { "type": "textarea", "id": "guar_1", "label": "Para 1", "default": "Put it in, live with it through a hot stretch, and see. If it doesn't do anything, email us and we'll refund you." },
-    { "type": "textarea", "id": "guar_2", "label": "Para 2", "default": "Return shipping is on us if the unit is faulty. Otherwise it's on you — we'd rather tell you here than surprise you later." },
+    { "type": "text", "id": "guar_h", "label": "Heading", "default": "60 days. If the room doesn't change, send it back." },
+    { "type": "textarea", "id": "guar_1", "label": "Para 1", "default": "Try it on a hot day. If it doesn't help, email us and we'll give you your money back." },
+    { "type": "textarea", "id": "guar_2", "label": "Para 2", "default": "If it's broken, we pay for the return. If not, you do. We'd rather tell you now." },
 
     { "type": "header", "content": "14 — FAQ" },
     { "type": "text", "id": "faq_q_1", "label": "Q1", "default": "Will it fit my vent?" },
-    { "type": "textarea", "id": "faq_a_1", "label": "A1", "default": "It fits 4x10 and 6x10 openings. Measure the hole, not the cover. If you measure wrong we'll swap it free." },
+    { "type": "textarea", "id": "faq_a_1", "label": "A1", "default": "It fits 4x10 and 6x10 vents. Measure the hole, not the cover. Wrong size? We swap it free." },
     { "type": "text", "id": "faq_q_2", "label": "Q2", "default": "Does it work for heat too?" },
-    { "type": "textarea", "id": "faq_a_2", "label": "A2", "default": "Yes. Same unit, both seasons. It pulls whatever your system is delivering — cold in summer, warm in winter." },
+    { "type": "textarea", "id": "faq_a_2", "label": "A2", "default": "Yes. It pulls in whatever your system sends. Cold air in summer. Warm air in winter." },
     { "type": "text", "id": "faq_q_3", "label": "Q3", "default": "Floor, wall or ceiling?" },
-    { "type": "textarea", "id": "faq_a_3", "label": "A3", "default": "Any of the three, as long as the opening is one of the two sizes and there's an outlet within reach of the cord." },
+    { "type": "textarea", "id": "faq_a_3", "label": "A3", "default": "Any of them. The hole just needs to be one of the two sizes, near an outlet." },
     { "type": "text", "id": "faq_q_4", "label": "Q4", "default": "Do I need an electrician?" },
-    { "type": "textarea", "id": "faq_a_4", "label": "A4", "default": "No. Two screws and a standard US wall outlet — it comes with a regular US plug. No wiring, no ductwork." },
+    { "type": "textarea", "id": "faq_a_4", "label": "A4", "default": "No. Two screws and a regular US plug. No wiring. No ductwork." },
     { "type": "text", "id": "faq_q_5", "label": "Q5", "default": "Does it use much electricity?" },
-    { "type": "textarea", "id": "faq_a_5", "label": "A5", "default": "It's two small fans. It draws a fraction of what a space heater or a portable AC unit does." },
+    { "type": "textarea", "id": "faq_a_5", "label": "A5", "default": "No. It's two small fans. It uses much less than a space heater or a portable AC." },
     { "type": "text", "id": "faq_q_6", "label": "Q6", "default": "How fast does it ship?" },
     { "type": "textarea", "id": "faq_a_6", "label": "A6", "default": "Delivery takes 5–12 days." },
     { "type": "text", "id": "faq_q_7", "label": "Q7", "default": "What if it doesn't fix it?" },
-    { "type": "textarea", "id": "faq_a_7", "label": "A7", "default": "Send it back within 60 days. If the unit is faulty we pay return shipping; otherwise you do." },
-    { "type": "text", "id": "faq_q_8", "label": "Q8", "default": "Does it actually make the room cooler, or just blow air?" },
-    { "type": "textarea", "id": "faq_a_8", "label": "A8", "default": "Cooler. A regular fan moves the hot air already in the room. This pulls the cold air your AC is already making out of the duct and into the room, so the room's temperature comes down, not just the spot in front of it." },
+    { "type": "textarea", "id": "faq_a_7", "label": "A7", "default": "Send it back within 60 days. If it's broken, we pay for the return. If not, you do." },
+    { "type": "text", "id": "faq_q_8", "label": "Q8", "default": "Does it really cool the room, or just blow air?" },
+    { "type": "textarea", "id": "faq_a_8", "label": "A8", "default": "It cools the room. A fan moves the hot air that's already there. This pulls in the cold air from your AC." },
     { "type": "text", "id": "faq_q_9", "label": "Q9", "default": "Why is only one room hot when the AC works everywhere else?" },
-    { "type": "textarea", "id": "faq_a_9", "label": "A9", "default": "Usually it's where the room sits on the duct run. The rooms nearest the unit get the cold air first; every turn and branch takes some off, and the last room gets what's left. Put your hand on that vent with the AC running \u2014 if air is coming out but barely moving, that's this." },
-    { "type": "text", "id": "faq_q_10", "label": "Q10", "default": "How do I know if this will work for my room?" },
-    { "type": "textarea", "id": "faq_a_10", "label": "A10", "default": "Do the hand test. Air coming out but weak: this is what it's for. No air at all: don't buy it \u2014 that's a blocked or disconnected duct and no fan can fix it." },
+    { "type": "textarea", "id": "faq_a_9", "label": "A9", "default": "The rooms close to your AC get the cold air first. The last room gets what's left. Feel that vent with the AC on. Weak air means this is your problem." },
+    { "type": "text", "id": "faq_q_10", "label": "Q10", "default": "How do I know it will work for my room?" },
+    { "type": "textarea", "id": "faq_a_10", "label": "A10", "default": "Do the hand test. Weak air? This is for you. No air at all? Don't buy it. The duct is blocked." },
     { "type": "text", "id": "faq_q_11", "label": "Q11", "default": "Is it loud?" },
-    { "type": "textarea", "id": "faq_a_11", "label": "A11", "default": "It has two small fans in it, so you'll hear it running on higher settings. You can set it to only run when the room is above the temperature you choose." },
+    { "type": "textarea", "id": "faq_a_11", "label": "A11", "default": "You'll hear it on high, like a small fan. You can set it to run only when the room gets too warm." },
     { "type": "text", "id": "faq_q_12", "label": "Q12", "default": "How does the temperature setting work?" },
-    { "type": "textarea", "id": "faq_a_12", "label": "A12", "default": "Set the temperature you want that room to be. It runs when the room is warmer than that and the duct is delivering, and stops when it gets there." },
+    { "type": "textarea", "id": "faq_a_12", "label": "A12", "default": "Pick the temperature you want in that room. It turns on when the room is too warm and off when it gets there." },
     { "type": "text", "id": "faq_q_13", "label": "Q13", "default": "Will it make the rest of the house warmer?" },
-    { "type": "textarea", "id": "faq_a_13", "label": "A13", "default": "It pulls a larger share of the cold air into that room, so other rooms on the same run may get slightly less. In most houses the rooms near the unit were getting more than they needed anyway." },
+    { "type": "textarea", "id": "faq_a_13", "label": "A13", "default": "Other rooms may get a little less. Most of them were getting more than they needed." },
     { "type": "text", "id": "faq_q_14", "label": "Q14", "default": "Can I use one in two rooms?" },
-    { "type": "textarea", "id": "faq_a_14", "label": "A14", "default": "One unit per vent. Most people with one problem room have a second, which is what the 2-pack is for." },
+    { "type": "textarea", "id": "faq_a_14", "label": "A14", "default": "One per vent. Most homes with one hot room have a second. That's what the 2-pack is for." },
 
     { "type": "header", "content": "15 — Final CTA" },
-    { "type": "text", "id": "final_h", "label": "Heading", "default": "Get the room back." },
-    { "type": "text", "id": "final_sub", "label": "Subline", "default": "Two screws, an outlet, and 60 days to decide." }
+    { "type": "text", "id": "final_h", "label": "Heading", "default": "Get your room back." },
+    { "type": "text", "id": "final_sub", "label": "Subline", "default": "Two screws, one outlet, and 60 days to try it." }
   ],
   "presets": [{ "name": "Evenroom PDP (SA1)" }]
 }

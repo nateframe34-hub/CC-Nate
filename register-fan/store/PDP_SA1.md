@@ -45,6 +45,8 @@
 
 # Copy
 
+> **2026-09-29 — copy rewritten to a 5th-grade reading level and cut down (founder).** The live wording is the section schema defaults in `theme/sections/evenroom-pdp-sa1.liquid`; where this doc differs, the section wins. §3 is now a heading and two short lines. §4 is three short sentences plus the diagram.
+
 ## 1. Announcement bar
 60-day returns · Free shipping on 2-packs
 

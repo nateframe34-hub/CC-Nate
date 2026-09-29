@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-29** — PDP (founder): thumbnails hidden on mobile (dots only), so the bundle isn't pushed down; mobile sticky rebuilt (image, name, selected option, price, button; slides up only after the main button scrolls away); sticky top bar with a cart icon (left by default, setting) and count badge that opens the drawer; all copy rewritten to 5th-grade level, and sections 3–4 cut to a few short lines.
+
 - **2026-09-29** — PDP gallery is now a swipeable carousel: native scroll-snap, dots, arrows on desktop only, thumbnails in one scrollable row synced to the slide. Tested in a browser.
 
 - **2026-09-29** — PDP (founder): install section is now 2 steps, each with its photo inline; "Ships from the US" removed everywhere (announcement, trust rows, FAQ); trust line is now a 3-icon row (60-day returns / free size swap / two-screw install); the section has its own cart drawer (`use_drawer`, adds via /cart/add.js, shows the bundle discount, qty +/−, remove, checkout). Tested against a mocked cart in a browser.
