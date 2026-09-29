@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-29** — Batch 2 built (founder calls): B2C1 (fight frame) runs as is, plus a second native B2C1b "Two Degrees At A Time" (evidenced rung-7 frame) head to head. B2C2 Solution Exaggeration "SET THAT ROOM TO 72°. LEAVE THE THERMOSTAT ALONE." and B2C3 Pubity "WHY YOUR THERMOSTAT SAYS 72° WHILE YOUR HOME OFFICE IS 81°..." with copy and one-pass prompts. 4 ads in the ad set.
+
 - **2026-09-29** — Batch 2 = SA1 Angle A3 "gives the room its own temperature" (hook: the thermostat is standing in the wrong room). Old batch-2 (SA5) and batch-3 (SA2) renumbered to batch-3 and batch-4. B2C1 native "The Note On The Thermostat" written (Julie; same life as B1C1). Non-native formats proposed; waiting on founder approval before building.
 
 - **2026-09-29** — PDP mockup: stars and rating under the title (partial-star fill from the score) plus the 10 placeholder reviews built into the reviews section, both ON by default so the layout can be seen. ⛔ Must switch OFF "Show placeholder reviews" before launch. The placeholder file's em-dash leftovers are fixed.

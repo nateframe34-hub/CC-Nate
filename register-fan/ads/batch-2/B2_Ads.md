@@ -16,8 +16,17 @@
 | **Awareness** | Problem Aware → Solution Aware. No category name |
 | **Why this is Angle 2** | A2 and A5 are already layered into Batch 1, so testing them again would test the same thing. A4 (winter) is the strongest held angle but belongs to the cold pivot. A3 is the strongest *different* reason to buy available now: it's about the thermostat, not the fan |
 
-## B2C1: Native · Julie Brennan page ✅ written
-"The Note On The Thermostat": full copy, headline, description and image prompt in `copy/B2C1_Copy.md`. Same life as B1C1 (Dave, Kerry, the upstairs office), told from the thermostat side, so the two never contradict.
+## The four ads (founder 2026-09-29: two natives head to head, plus two statics)
 
-## B2C2 / B2C3: Non-native: ⏳ format proposal awaiting founder approval
-See the proposal in chat (2026-09-29). Nothing is built until a format is approved.
+| Ad | Format | Hook | Files |
+|---|---|---|---|
+| **B2C1** | Native · Julie | "The Note On The Thermostat": the thermostat fight (Dave's DON'T TOUCH note) | `copy/B2C1_Copy.md` |
+| **B2C1b** | Native · Julie | "Two Degrees At A Time": turning the house down, the office never moving (68 vs 81) | `copy/B2C1b_Copy.md` |
+| **B2C2** | Solution Exaggeration | **SET THAT ROOM TO 72°. LEAVE THE THERMOSTAT ALONE.** | `copy/B2C2_Copy.md` |
+| **B2C3** | Pubity Style | **WHY YOUR THERMOSTAT SAYS 72° WHILE YOUR HOME OFFICE IS 81°...** | `copy/B2C3_Copy.md` |
+
+Image prompts: natives in their copy files; C2 and C3 in `B2_Image_Prompts.md`.
+
+**What the native split tests:** B2C1 is built on thermostat conflict, which the research has **no evidence** for (founder hypothesis). B2C1b is built on the behaviour the research does show (rung 7: turning the thermostat down never reaches that room). Same angle, same characters, same product beat, so the frame is the only real difference. The winner tells us which frame the statics and future natives should use.
+
+**Budget note:** four ads in one $20/day ad set. Meta will favour one or two early, which is the read we want, but give it the full no-kill window (day 4) before judging the two natives against each other.
