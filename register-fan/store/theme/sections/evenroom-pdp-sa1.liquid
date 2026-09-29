@@ -268,6 +268,14 @@
 #evr-pdp .rev .rm{font-size:13px;color:var(--muted);margin-bottom:8px}
 #evr-pdp .rev p{font-size:15.5px;margin:0}
 #evr-pdp .stars{color:var(--accent);letter-spacing:2px}
+#evr-pdp .evr-stars{position:relative;display:inline-block;font-size:17px;line-height:1;letter-spacing:2px;color:#d9d2c5}
+#evr-pdp .evr-stars:before{content:"\2605\2605\2605\2605\2605"}
+#evr-pdp .evr-stars i{position:absolute;left:0;top:0;overflow:hidden;white-space:nowrap;color:var(--accent);font-style:normal}
+#evr-pdp .evr-stars i:before{content:"\2605\2605\2605\2605\2605"}
+#evr-pdp .evr-rating{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--muted);text-decoration:none;margin:-4px 0 14px}
+#evr-pdp .evr-rating b{color:var(--ink);font-weight:600}
+#evr-pdp .rsum .evr-stars{font-size:22px}
+
 
 /* sticky */
 #evr-pdp .sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;background:#fff;border-top:1px solid var(--line);padding:10px 12px calc(10px + env(safe-area-inset-bottom));display:none;box-shadow:0 -8px 24px rgba(0,0,0,.08);transform:translateY(110%);transition:transform .25s ease}
@@ -336,6 +344,10 @@
 
     <div>
       <h1>{{ product.title }}</h1>
+      {%- if section.settings.show_reviews -%}
+        {%- assign evr_pct = section.settings.rev_score | times: 20 -%}
+        <a class="evr-rating" href="#evr-reviews"><span class="evr-stars" aria-label="{{ section.settings.rev_score }} out of 5 stars"><i style="width:{{ evr_pct }}%"></i></span><span><b>{{ section.settings.rev_score }}</b> · {{ section.settings.rev_count }}</span></a>
+      {%- endif -%}
       <p class="sub">{{ section.settings.hero_sub }}</p>
 
       {%- comment -%}
@@ -566,17 +578,93 @@
 
 <!-- ================= 12. REVIEWS ================= -->
 {%- if section.settings.show_reviews -%}
-<div class="sec" style="background:#fff;border-top:1px solid var(--line)">
+{%- assign evr_pct = section.settings.rev_score | times: 20 -%}
+<div class="sec" id="evr-reviews" style="background:#fff;border-top:1px solid var(--line)">
   <div class="wrap narrow">
     <p class="eyebrow">What people say</p>
     <div class="rsum">
       <span class="rnum">{{ section.settings.rev_score }}</span>
       <div>
-        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
-        <div style="font-size:14px;color:var(--muted)">{{ section.settings.rev_count }}</div>
+        <span class="evr-stars" aria-label="{{ section.settings.rev_score }} out of 5 stars"><i style="width:{{ evr_pct }}%"></i></span>
+        <div style="font-size:14px;color:var(--muted);margin-top:4px">{{ section.settings.rev_count }}</div>
       </div>
     </div>
-    <div>{{ section.settings.reviews_html }}</div>
+    {%- if section.settings.reviews_html != blank -%}
+      <div>{{ section.settings.reviews_html }}</div>
+    {%- elsif section.settings.show_placeholder_reviews -%}
+      {%- comment -%} ⛔ PLACEHOLDER REVIEWS, MOCKUP ONLY. Every body starts with [PH]. Turn off "Show placeholder reviews" before launch. {%- endcomment -%}
+      <div class="evr-ph-reviews">
+<div class="rev">
+  <div class="stars evr-rs">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+  <div class="rh">Hallway 72, bedroom 81. Now they're within a couple.</div>
+  <div class="rm">Dana R. &middot; Verified Buyer &middot; 4&times;10 White</div>
+  <p>[PH] Back bedroom is over the garage and it's been the hot one since we moved in. Put one of these in three weeks ago. It isn't magic. That room still runs a bit warmer than the rest of the house. But the gap went from nine degrees to about two, and that's the difference between usable and not. Ten minutes with a screwdriver.</p>
+</div>
+
+<div class="rev">
+  <div class="stars evr-rs">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+  <div class="rh">Both fans are in the garage now.</div>
+  <div class="rm">Marcus T. &middot; Verified Buyer &middot; 4&times;10 White</div>
+  <p>[PH] Had a box fan and a tower fan running in there every day from June. Haven't plugged either one in since this went in.</p>
+</div>
+
+<div class="rev">
+  <div class="stars evr-rs">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+  <div class="rh">Works. Took me a minute to figure out the modes.</div>
+  <div class="rm">Priya N. &middot; Verified Buyer &middot; 4&times;10 White</div>
+  <p>[PH] The unit does what it says. The instructions that came with it weren't great and I had it on the wrong setting for the first two days, which made me think it was broken. Once I sorted that out it's been fine. Four stars because the setup could be clearer.</p>
+</div>
+
+<div class="rev">
+  <div class="stars evr-rs">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+  <div class="rh">My daughter stopped asking to sleep downstairs.</div>
+  <div class="rm">Jen W. &middot; Verified Buyer &middot; 4&times;10 White</div>
+  <p>[PH] Her room is at the end of the hall and it was always the worst one in the afternoon. I'd been running a fan at her all night and still going in to check. Room sits about five degrees cooler than it used to. I stopped checking.</p>
+</div>
+
+<div class="rev">
+  <div class="stars evr-rs">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+  <div class="rh">Helped a little. My problem was bigger than a vent.</div>
+  <div class="rm">Robert K. &middot; Verified Buyer &middot; 6&times;10 White</div>
+  <p>[PH] Honest review. It moved my office down about two degrees, which I can feel but isn't what I was hoping for. Turns out I've got a duct issue that needs a real fix. That's on me, not the product. Their own page told me to check the airflow first and I skipped that part.</p>
+</div>
+
+<div class="rev">
+  <div class="stars evr-rs">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+  <div class="rh">Ordered a second one a week later.</div>
+  <div class="rm">Alison M. &middot; Verified Buyer &middot; 4&times;10 Bronze</div>
+  <p>[PH] Did the bonus room first. Worked well enough that I ordered another for the guest room, which I should have done in the first order.</p>
+</div>
+
+<div class="rev">
+  <div class="stars evr-rs">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+  <div class="rh">Two screws. That's the whole install.</div>
+  <div class="rm">Tom H. &middot; Verified Buyer &middot; 4&times;10 White</div>
+  <p>[PH] I got a quote for just under $3,000 to rebalance the ductwork for one room and put it off for two summers. This was eighty-something dollars and a screwdriver. Wish I'd tried the cheap thing first.</p>
+</div>
+
+<div class="rev">
+  <div class="stars evr-rs">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+  <div class="rh">Finally understand why that room was hot.</div>
+  <div class="rm">Carla D. &middot; Verified Buyer &middot; 6&times;10 White</div>
+  <p>[PH] The explanation on their site about the room being last on the duct run was the first time anyone had put it that way. Two HVAC guys looked at it and neither said that. The unit helped, but honestly the explanation was worth something on its own.</p>
+</div>
+
+<div class="rev">
+  <div class="stars evr-rs">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+  <div class="rh">Measure first. I ordered wrong.</div>
+  <div class="rm">Sandra P. &middot; Verified Buyer &middot; 4&times;10 White</div>
+  <p>[PH] My fault entirely. I measured the cover instead of the hole and got a size that didn't fit. They swapped it without any fuss, but I lost a week. The page does tell you to measure the opening. Read that part.</p>
+</div>
+
+<div class="rev">
+  <div class="stars evr-rs">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+  <div class="rh">Upstairs office went from 84 to 78.</div>
+  <div class="rm">Greg A. &middot; Verified Buyer &middot; 6&times;10 White</div>
+  <p>[PH] That's it. That's the review.</p>
+</div>
+      </div>
+    {%- endif -%}
   </div>
 </div>
 {%- endif -%}
@@ -1026,7 +1114,8 @@
 
     { "type": "header", "content": "12: Reviews" },
     { "type": "paragraph", "content": "⛔ OFF by default. Placeholder reviews are mockup-only and must never be published. Grep for [PH] before any deploy." },
-    { "type": "checkbox", "id": "show_reviews", "label": "Show reviews section", "default": false },
+    { "type": "checkbox", "id": "show_reviews", "label": "Show reviews (section + stars under the title)", "default": true },
+    { "type": "checkbox", "id": "show_placeholder_reviews", "label": "⛔ Show placeholder reviews (mockup only, turn OFF before launch)", "default": true, "info": "Only used when the Reviews markup box is empty. Every placeholder starts with [PH]." },
     { "type": "text", "id": "rev_score", "label": "Score", "default": "4.6" },
     { "type": "text", "id": "rev_count", "label": "Count", "default": "Based on 38 reviews" },
     { "type": "html", "id": "reviews_html", "label": "Reviews markup" },

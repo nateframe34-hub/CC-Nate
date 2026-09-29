@@ -46,7 +46,8 @@ Shopify admin → Discounts → Create discount → Amount off order
 - [ ] The theme's header cart count updates (if not, it updates on the next page load; tell me the theme name and I'll hook it)
 - [ ] Sticky bar price updates when the tier changes
 - [ ] `grep -r "\[PH\]" ` over the theme returns **nothing**, placeholder reviews must not ship
-- [ ] `show_reviews` is off unless real reviews exist
+- [ ] ⛔ **"Show placeholder reviews" is OFF** (on by default for the mockup). With it on and no real reviews, the page shows 10 fake reviews starting with [PH]
+- [ ] Rating score/count set to real numbers, or "Show reviews" turned off until real reviews exist
 - [ ] Mobile: hero ATC, sticky bar, and the size/bundle steps all reachable one-handed
 
 ---
