@@ -92,7 +92,7 @@ I want to be careful here. I'm the person who bought two fans and a set of black
 
 So: I ordered one. It's called an Evenroom. It replaces the vent cover you already have.
 
-Two screws came out. The old cover came off. The new one went in the same hole, the same two screws, and the cord went into the outlet on the baseboard about a foot away. I did it myself on a Sunday morning in the time it takes to make coffee. There is a little screen on it and you tell it what temperature you want the room to be.
+Two screws came out. The old cover came off. The new one went in the same hole with the same two screws. The cord went into the outlet on the baseboard about a foot away. I did it myself on a Sunday morning in the time it takes to make coffee. There is a little screen on it and you tell it what temperature you want the room to be.
 
 I'll be straight about the result, because I'd want someone to be straight with me.
 
@@ -118,15 +118,15 @@ And then Kerry stayed again in August. She didn't say anything about the room, w
 
 Here's the bit that I think about.
 
-That room has been in this house the whole time. We pay for it. It's on the mortgage. It's got a desk in it and a bed in it and for two summers it was somewhere I walked through on the way to the bathroom.
+That room has been in this house the whole time. We pay for it. It's on the mortgage. It's got a desk in it and a bed in it. For two summers it was just somewhere I walked through on the way to the bathroom.
 
-I didn't lose it because it was hot. I lost it because I spent two years treating it as a room that needed more air moved around, when it was a room that wasn't getting enough air brought in.
+I didn't lose it because it was hot. I lost it because I spent two years treating it as a room that needed more air moved around. It was a room that wasn't getting enough air brought in.
 
 Those are not the same problem. I just couldn't tell the difference from the inside.
 
 ----------
 
-Both fans are in the garage. The box fan and the tower one. I keep meaning to put them on the curb and I keep not doing it, because some part of me still thinks I might need them.
+Both fans are in the garage. The box fan and the tower one. I keep meaning to put them on the curb. I keep not doing it. Some part of me still thinks I might need them.
 
 I haven't plugged either one in since June.
 
