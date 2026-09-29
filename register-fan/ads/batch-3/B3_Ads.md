@@ -1,8 +1,10 @@
-# BATCH 3: SA2 The Nightly Heater
+# BATCH 3: SA5 Checking Someone Else's Room
 
 **Rebuilt 2026-09-26** against `Brand_Mastery.md` Part 6.
 
 **Ad set = this sub-avatar. $20/day. 1 native + 2 non-native.**
+
+> ⭐ **This is the elevation play.** Swipe-file desire hierarchy: Comfort → **Relationships** → Status → Health, urgency rising. Our core desire sits at Comfort. **Health is permanently closed by our claim rules. Relationships is the only elevation available**, which makes this the higher-urgency positioning of the same product.
 
 ---
 
@@ -10,71 +12,71 @@
 
 | | |
 |---|---|
-| **Core desire** | This room the same temperature as the rest of the house |
-| **Behaviour** | Plugs in a space heater or oil-filled radiator **every night, October to April** |
-| **Emotion** | Irritation at paying twice; unease about leaving it running overnight |
-| **THE GAP** | **It works, and it's a second appliance, a second bill, and something to remember every night, in a house they already heat** |
+| **Core desire** | This room the same temperature as the rest of the house, **for someone they're responsible for** |
+| **Behaviour** | **Checks the room at night.** Adds blankets, buys warmer sleepwear, buys *around* the problem |
+| **Emotion** | **Guilt**, the strongest emotion in the project |
+| **THE GAP** | **They manage the symptom every night instead of changing the room** |
 
-**Evidence:** space heaters and oil radiators are the dominant purchase in every research pass. *"I have to use a space heater for supplemental heat in that room."* One poster runs a heater, a timed blanket **and** a heated bed pad.
+**Evidence:** four independent instances, *"feeling quite guilty at the prospect of putting baby in there"* · *"my son's room was very cold"* · a cold-rated sleeping bag bought instead of heating the room · someone researching on a partner's behalf.
 
 ## The two angles
 
 | | Angle |
 |---|---|
-| **A5** ⭐ | **Stops you running a space heater in a house you already pay to heat** |
-| **A6** ⚠️ | **Stops you paying twice to heat one room** *(cost framing, see the flag)* |
+| **A3** ⭐ | **Holds the room at a set temperature so you stop checking it** |
+| **A4** | **Changes the room instead of adding another layer** |
 
-> ⚠️ **A6 carries the unevidenced idea.** Nobody in any research pass complained about the cost of heating one room twice, it's an inference. It is here as a **secondary angle inside an evidenced batch** rather than as a batch of its own, so testing it costs one ad instead of a third of the budget. If it wins, the inference was good. If it loses, we stop guessing.
+> 🚨 **STRICTEST CLAIM RULES IN THE PROJECT.** Allowed: room temperature, degrees, the monitor reading, waking, sleeping through, not having to get up. **Banned: SIDS, safe sleep, risk, danger, hazard, any health framing.** We sell the not-worrying, never the thing they're worried about.
 
 ---
 
 ## B3C1: Native long-form · Julie Brennan page
 
-**Method 5, Identity/Relief · carries A5 → A6 · TOF · right column excluded**
+**Method 5, Identity/Relief · carries A4 → A3 · TOF · right column excluded**
 
-**Earns the read:** the ritual of plugging it in, named exactly.
+**Earns the read:** the nightly check, described precisely enough to be recognised.
 
-**Beats:** the first cold night and digging the heater out · doing it every night for two winters · the things it costs, the noise, the bill, the not-quite-trusting-it-overnight *(A5, A6)* · the duct run · putting something in the vent instead · **the box the heater went back into.**
+**Beats:** the habit of going in before bed · the things bought to compensate, the thicker duvet, the warmer sleepwear *(A4)* · noticing that none of it changed the room · the duct run · putting something in the vent · **the night they realised they hadn't gone in to check** *(A3)*.
 
-**Image:** authorless POV of a small oil-filled radiator against a bedroom wall, plugged in, cable running to a baseboard socket. Ordinary, unstyled, winter light. No product, no text.
-
----
-
-## B3C2: Static · **Angle A5**
-
-**Method 4, Contrast/Absence · TOF · all placements**
-**Earns the read:** states their own routine as if it were absurd, because it is.
-
-> **ZONE 1**
-> ## You run a space heater in a heated house.
->
-> **ZONE 2**
-> Not because the furnace isn't working. Because that room is last on the duct run and gets whatever air is left after every other room takes its share.
->
-> **ZONE 3**
-> The heat's already paid for. This pulls it into the room.
-> *$89, before it's properly cold.*
-
-**Design:** 4:5. Real photo of a space heater on a bedroom floor, plugged in, nothing staged. Type beneath on warm off-white, zone 3 in terracotta.
+**Image:** authorless POV from a doorway into a dim child's bedroom at night, hallway light falling across the carpet. Ordinary, unstyled. No people, no product, no text.
 
 ---
 
-## B3C3: Static · **Angle A6** ⚠️ the inferred one
+## B3C2: Static · **Angle A3**
 
-**Method 4, Contrast/Absence · TOF · all placements**
-**Earns the read:** a cost framing on a behaviour they don't price.
+**Method 1, Direct Naming · TOF · all placements**
+**Earns the read:** names a private habit back to them.
 
 > **ZONE 1**
-> ## Two things heating one room.
+> ## You check that room before you go to bed.
 >
 > **ZONE 2**
-> The furnace is already heating that room. The air just isn't reaching it. So the heater is doing a job you're paying for twice.
+> It's the last room on the duct run. It gets whatever air is left after every other room. That's why it never keeps up, however high the thermostat goes.
 >
 > **ZONE 3**
-> Fix the delivery instead of adding another appliance.
+> Set a temperature for that room and let it hold it.
 > *$89, before it's properly cold.*
 
-**Design:** 4:5, typographic. Warm off-white, Archivo bold, terracotta accents. No photo, deliberately the most different-looking ad in the batch, for register spread.
+**Design:** 4:5. Top 55%, real photo of a hallway door ajar at night with warm light inside. Bottom 45%, warm off-white, zones stacked, zone 3 in terracotta.
+
+---
+
+## B3C3: Static · **Angle A4**
+
+**Method 4, Contrast/Absence · TOF · all placements**
+**Earns the read:** a true sentence that indicts a purchase they already made.
+
+> **ZONE 1**
+> ## A thicker duvet doesn't make the room warmer.
+>
+> **ZONE 2**
+> Neither does a warmer sleepsuit, or a second blanket. They're all ways of living with a room that isn't getting enough warm air.
+>
+> **ZONE 3**
+> Warm the room instead.
+> *$89, before it's properly cold.*
+
+**Design:** 4:5. Real photo of a neatly folded stack of blankets on a bed, ordinary domestic light. Type block beneath on warm off-white.
 
 ---
 
@@ -83,5 +85,5 @@
 | Ad | Blocked by | Ready |
 |---|---|---|
 | B3C1 | - | Needs writing via `native-ad-writer` |
-| B3C2 | Space-heater photo | ✅ |
-| B3C3 | - | ✅ Type only |
+| B3C2 | Door-at-night photo | ✅ |
+| B3C3 | Blanket-stack photo | ✅ |

@@ -123,7 +123,7 @@ Many cells, near-zero production cost, answer *which avatar and angle lands.* Ea
 
 ## 4. Batch plan
 
-> **Current ads live in the batch files, read those, not old tables.** `ads/batch-1/B1_Ads.md` (SA1 Fan Runner: B1C1 native "The Fan In The Garage", B1C2 outcome static "No more switching rooms because of the heat", B1C3 whiteboard "Normal vent / Evenroom vent"), `ads/batch-2/B2_Ads.md` (SA5), `ads/batch-3/B3_Ads.md` (SA2). Earlier cell plans in this file were deleted 2026-09-26 (founder).
+> **Current ads live in the batch files, read those, not old tables.** `ads/batch-1/B1_Ads.md` (SA1 Fan Runner: B1C1 native "The Fan In The Garage", B1C2 outcome static "No more switching rooms because of the heat", B1C3 whiteboard "Normal vent / Evenroom vent"), `ads/batch-2/B2_Ads.md` (SA1 Angle A3), `ads/batch-3/B3_Ads.md` (SA5), `ads/batch-4/B4_Ads.md` (SA2). Earlier cell plans in this file were deleted 2026-09-26 (founder).
 
 ---
 

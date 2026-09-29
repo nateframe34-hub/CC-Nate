@@ -21,11 +21,12 @@ CAMPAIGN: Register Fan | Purchase | ABO
 │     ├── B1C2  Outcome static "No more switching rooms because of the heat"
 │     └── B1C3  Whiteboard "Normal vent / Evenroom vent"
 │
-├── AD SET 2 = BATCH 2, SA5 Checking Someone Else's Room   $20/day  (ads/batch-2)
-└── AD SET 3 = BATCH 3, SA2 The Nightly Heater             $20/day  (ads/batch-3)
+├── AD SET 2 = BATCH 2, SA1 Angle A3 "its own temperature" $20/day  (ads/batch-2)
+├── AD SET 3 = BATCH 3, SA5 Checking Someone Else's Room   $20/day  (ads/batch-3)
+└── AD SET 4 = BATCH 4, SA2 The Nightly Heater             $20/day  (ads/batch-4)
 ```
 
-> **Current ads live in the batch files, read those, not old tables.** `ads/batch-1/B1_Ads.md` (SA1 Fan Runner: B1C1 native "The Fan In The Garage", B1C2 outcome static "No more switching rooms because of the heat", B1C3 whiteboard "Normal vent / Evenroom vent"), `ads/batch-2/B2_Ads.md` (SA5), `ads/batch-3/B3_Ads.md` (SA2). Earlier cell plans in this file were deleted 2026-09-26 (founder).
+> **Current ads live in the batch files, read those, not old tables.** `ads/batch-1/B1_Ads.md` (SA1 Fan Runner: B1C1 native "The Fan In The Garage", B1C2 outcome static "No more switching rooms because of the heat", B1C3 whiteboard "Normal vent / Evenroom vent"), `ads/batch-2/B2_Ads.md` (SA1 Angle A3), `ads/batch-3/B3_Ads.md` (SA5), `ads/batch-4/B4_Ads.md` (SA2). Earlier cell plans in this file were deleted 2026-09-26 (founder).
 
 **$60/day. 7 days = $420.** Reserve $180 of the $600 cap for extending whatever wins.
 
