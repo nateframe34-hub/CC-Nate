@@ -89,7 +89,20 @@
 /* hero */
 #evr-pdp .hero{display:grid;grid-template-columns:1fr 1fr;gap:56px;padding:44px 0 64px;align-items:start}
 #evr-pdp .gal-main{width:100%;aspect-ratio:1/1;object-fit:cover;background:#fff;border:1px solid var(--line)}
-#evr-pdp .gal-thumbs{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+#evr-pdp .evr-car{position:relative}
+#evr-pdp .evr-car-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;scrollbar-width:none;border:1px solid var(--line);background:#fff}
+#evr-pdp .evr-car-track::-webkit-scrollbar{display:none}
+#evr-pdp .evr-car-slide{flex:0 0 100%;scroll-snap-align:start;aspect-ratio:1/1}
+#evr-pdp .evr-car-slide img{width:100%;height:100%;object-fit:cover;display:block}
+#evr-pdp .evr-car-btn{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.92);font-size:26px;line-height:1;color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0 0 3px}
+#evr-pdp .evr-car-btn.prev{left:10px}#evr-pdp .evr-car-btn.next{right:10px}
+#evr-pdp .evr-car-dots{position:absolute;left:0;right:0;bottom:12px;display:flex;justify-content:center;gap:7px;pointer-events:none}
+#evr-pdp .evr-car-dots span{width:7px;height:7px;border-radius:50%;background:rgba(28,26,23,.22);transition:background .2s,transform .2s}
+#evr-pdp .evr-car-dots span.on{background:var(--accent);transform:scale(1.25)}
+@media(hover:none){#evr-pdp .evr-car-btn{display:none}}
+#evr-pdp .gal-thumbs{display:flex;gap:8px;margin-top:8px;overflow-x:auto;scrollbar-width:none}
+#evr-pdp .gal-thumbs::-webkit-scrollbar{display:none}
+#evr-pdp .gal-thumbs img{flex:0 0 auto}
 #evr-pdp .gal-thumbs img{width:72px;height:72px;object-fit:cover;border:1px solid var(--line);cursor:pointer;background:#fff}
 #evr-pdp .gal-thumbs img.on{border-color:var(--accent);border-width:2px}
 #evr-pdp .sub{font-size:19px;color:var(--muted);margin:-.2em 0 24px;max-width:36ch}
@@ -274,11 +287,24 @@
   <div class="hero">
     <div>
       {%- if product.images.size > 0 -%}
-        <img class="gal-main" id="evr-gal" src="{{ product.featured_image | image_url: width: 1100 }}" alt="{{ product.title | escape }}">
+        <div class="evr-car">
+          <div class="evr-car-track" id="evr-car" tabindex="0" aria-label="Product images">
+            {%- for img in product.images -%}
+              <div class="evr-car-slide"><img src="{{ img | image_url: width: 1100 }}" alt="{{ img.alt | default: product.title | escape }}"{% unless forloop.first %} loading="lazy"{% endunless %} width="1100" height="1100"></div>
+            {%- endfor -%}
+          </div>
+          {%- if product.images.size > 1 -%}
+            <button type="button" class="evr-car-btn prev" aria-label="Previous image">&#8249;</button>
+            <button type="button" class="evr-car-btn next" aria-label="Next image">&#8250;</button>
+            <div class="evr-car-dots">
+              {%- for img in product.images -%}<span class="{% if forloop.first %}on{% endif %}"></span>{%- endfor -%}
+            </div>
+          {%- endif -%}
+        </div>
         {%- if product.images.size > 1 -%}
           <div class="gal-thumbs">
-            {%- for img in product.images limit: 6 -%}
-              <img src="{{ img | image_url: width: 180 }}" data-full="{{ img | image_url: width: 1100 }}" alt="" class="evr-thumb{% if forloop.first %} on{% endif %}">
+            {%- for img in product.images -%}
+              <img src="{{ img | image_url: width: 180 }}" alt="" data-i="{{ forloop.index0 }}" class="evr-thumb{% if forloop.first %} on{% endif %}">
             {%- endfor -%}
           </div>
         {%- endif -%}
@@ -702,15 +728,34 @@
     });
     syncFields();
 
-    // gallery
-    [].slice.call(root.querySelectorAll('.evr-thumb')).forEach(function(th){
-      th.addEventListener('click', function(){
-        var main = root.querySelector('#evr-gal');
-        if(main && th.getAttribute('data-full')) main.src = th.getAttribute('data-full');
-        [].slice.call(root.querySelectorAll('.evr-thumb')).forEach(function(o){ o.classList.remove('on'); });
-        th.classList.add('on');
-      });
-    });
+    // gallery carousel: swipe (native scroll-snap), arrows, dots, thumbs
+    var car = root.querySelector('#evr-car');
+    if(car){
+      var slides = [].slice.call(car.querySelectorAll('.evr-car-slide'));
+      var dots = [].slice.call(root.querySelectorAll('.evr-car-dots span'));
+      var thumbs = [].slice.call(root.querySelectorAll('.evr-thumb'));
+      var idx = 0;
+      function mark(i){
+        idx = i;
+        dots.forEach(function(d,k){ d.classList.toggle('on', k === i); });
+        thumbs.forEach(function(t,k){ t.classList.toggle('on', k === i); });
+      }
+      function go(i){
+        i = Math.max(0, Math.min(slides.length - 1, i));
+        car.scrollTo({left: i * car.clientWidth, behavior: 'smooth'});
+        mark(i);
+      }
+      var tmr;
+      car.addEventListener('scroll', function(){
+        clearTimeout(tmr);
+        tmr = setTimeout(function(){ mark(Math.round(car.scrollLeft / Math.max(1, car.clientWidth))); }, 60);
+      }, {passive: true});
+      var pv = root.querySelector('.evr-car-btn.prev'), nx = root.querySelector('.evr-car-btn.next');
+      if(pv) pv.addEventListener('click', function(){ go(idx - 1); });
+      if(nx) nx.addEventListener('click', function(){ go(idx + 1); });
+      thumbs.forEach(function(t){ t.addEventListener('click', function(){ go(parseInt(t.getAttribute('data-i'), 10) || 0); }); });
+      car.addEventListener('keydown', function(e){ if(e.key === 'ArrowRight') go(idx + 1); if(e.key === 'ArrowLeft') go(idx - 1); });
+    }
   }catch(e){ /* never let this break the theme */ }
 })();
 </script>

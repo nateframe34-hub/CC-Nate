@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-29** — PDP gallery is now a swipeable carousel: native scroll-snap, dots, arrows on desktop only, thumbnails in one scrollable row synced to the slide. Tested in a browser.
+
 - **2026-09-29** — PDP (founder): install section is now 2 steps, each with its photo inline; "Ships from the US" removed everywhere (announcement, trust rows, FAQ); trust line is now a 3-icon row (60-day returns / free size swap / two-screw install); the section has its own cart drawer (`use_drawer`, adds via /cart/add.js, shows the bundle discount, qty +/−, remove, checkout). Tested against a mocked cart in a browser.
 
 - **2026-09-28** — PDP: vent dropdown moved inside the bundle cards. "Two vents" shows two dropdowns (Vent 1 / Vent 2) so buyers can mix sizes or colours. A mixed pair adds as two line items. Logic tested in a browser against a stub; the live theme cart drawer still needs testing. The discount must apply to any variant of the product.
