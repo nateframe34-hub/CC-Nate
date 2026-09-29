@@ -32,7 +32,7 @@ At five I stopped pretending and carried my laptop to the kitchen table.
 
 Here's the part I didn't notice for a long time.
 
-When I turned the house down, the house got colder. The kitchen got cold. The living room got cold. My husband Dave works in the basement, and he started wearing a hoodie to his desk. In July.
+When I turned the house down, the house got colder. The kitchen got cold. The living room got cold. My husband Dave works in the basement, and he started keeping a blanket over his knees at his desk. In July.
 
 My office didn't change at all.
 
@@ -54,7 +54,7 @@ Because I'd been doing this for two summers. Every hot day. Down two degrees, wa
 
 The fans hadn't worked either. I had a box fan on the floor and a tower fan by the window. They felt nice while they blew on me. But a fan can't make a room colder. It just moves the hot air around.
 
-We even had an HVAC guy out in June. He checked everything. He said the system was fine and the thermostat was fine. Both were true. That was the frustrating part.
+We'd even had an HVAC guy out the August before. He checked everything. He said the system was fine and the thermostat was fine. Both were true. That was the frustrating part.
 
 As he was leaving, he said, "Some rooms are just far from the unit."
 
@@ -98,7 +98,7 @@ But it was $89.99, and the HVAC guy's quote for "balancing the ducts" had a comm
 
 ----------
 
-It took ten minutes on a Sunday. I took out the two screws on the old vent cover, dropped the new one in the same hole, put the same screws back in, and plugged it into the outlet by the baseboard.
+It took ten minutes on a Sunday. I took the two screws out of the old vent cover. I dropped the new one in the same hole and put the same screws back in. Then I plugged it into the outlet by the baseboard.
 
 I set it to 73.
 
@@ -118,11 +118,11 @@ Around week three, Dave came upstairs to ask me something. He stood in the doorw
 
 Then he said, "Is that why the house is warmer?"
 
-I told him I'd put it back to 74. He took off the hoodie right there in my doorway. I think he'd been waiting two summers to do that.
+I told him I'd put it back to 74. That night the blanket went back in the hall closet. I think he'd been waiting two summers to put it away.
 
 ----------
 
-It's not magic. On a really bad afternoon, my office is still the warmest room in the house. It has a big west window, and there's only so much you can do about the sun.
+It's not magic. On a bad afternoon, my office is still the warmest room in the house. It has a big west window, and there's only so much you can do about the sun.
 
 But it's a room I can work in now. The fans are in the garage. And the thermostat in the hallway stays on 74 all day, every day.
 

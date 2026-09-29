@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-29** — All three natives (B1C1, B2C1, B2C1b) audited against the native-ad-writer self-audit. Fixes: long sentences split, strike-list words cut, B1C1 given a real transformation timeline and an unexpected discovery (the door stays open), B2C1 headline trimmed to 26 chars, and Julie's timeline made consistent across the page (HVAC visit is the August before; Dave already wears a hoodie, so B2C1b uses a blanket).
+
 - **2026-09-29** — Batch 2 built (founder calls): B2C1 (fight frame) runs as is, plus a second native B2C1b "Two Degrees At A Time" (evidenced rung-7 frame) head to head. B2C2 Solution Exaggeration "SET THAT ROOM TO 72°. LEAVE THE THERMOSTAT ALONE." and B2C3 Pubity "WHY YOUR THERMOSTAT SAYS 72° WHILE YOUR HOME OFFICE IS 81°..." with copy and one-pass prompts. 4 ads in the ad set.
 
 - **2026-09-29** — Batch 2 = SA1 Angle A3 "gives the room its own temperature" (hook: the thermostat is standing in the wrong room). Old batch-2 (SA5) and batch-3 (SA2) renumbered to batch-3 and batch-4. B2C1 native "The Note On The Thermostat" written (Julie; same life as B1C1). Non-native formats proposed; waiting on founder approval before building.

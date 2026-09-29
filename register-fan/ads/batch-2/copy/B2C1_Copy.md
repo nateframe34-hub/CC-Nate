@@ -67,7 +67,7 @@ I'll be honest about what I tried next, because I think a lot of people do the s
 
 A box fan on the floor. Then a tower fan by the window. The fans made me feel better while they blew on me. But the room stayed at 81. A fan can't make a room cooler. It just moves the hot air around.
 
-We had an HVAC guy out in June. Nice man. He checked the system and said it was running great. He said the thermostat was fine too. And he was right. Both were fine. That's what made it so frustrating.
+We'd had an HVAC guy out the August before. Nice man. He checked the system and said it was running great. He said the thermostat was fine too. And he was right. Both were fine. That's what made it so frustrating.
 
 He did say one thing I didn't understand at the time. "That room's just a long way from the unit."
 
@@ -125,7 +125,7 @@ The sticky note came off a few days later. I didn't see him take it down. It was
 
 ----------
 
-It's not magic. My office is still the warmest room in the house on a really bad afternoon. It has a big west window, and there's only so much you can do about the sun.
+It's not magic. My office is still the warmest room in the house on a bad afternoon. It has a big west window, and there's only so much you can do about the sun.
 
 But it's a room I can work in now. The thermostat stays where Dave likes it. The fans are in the garage. And nobody in this house has touched that thermostat in a month.
 
@@ -148,7 +148,7 @@ And if there's a sticky note on your thermostat right now, you already know whic
 ---
 
 ## Meta Headline
-It was standing in the wrong room
+Standing in the wrong room
 
 ## Meta Description
 $89.99. 60-day returns.

@@ -12,7 +12,7 @@
 
 Last August I gave up on a room in my own house.
 
-It was a Friday. I work from home on Fridays. It was 3:40 in the afternoon and I was sitting at the desk in the upstairs room with my laptop, and there was a wet mark on the desk where my arm had been.
+It was a Friday. I work from home on Fridays. It was 3:40 in the afternoon. I was at the desk in the upstairs room with my laptop. There was a wet mark on the desk where my arm had been.
 
 I closed the laptop, carried it downstairs, and finished the day at the kitchen table.
 
@@ -54,13 +54,13 @@ I stood up. Fine. Sat down. Hot.
 
 The fan wasn't cooling the room. The fan was cooling **me**. And only the part of me standing directly in front of it.
 
-Which, when I thought about it for five seconds, is exactly what a fan does. It blows air at you. That's the whole job. It doesn't make air colder. It doesn't bring in any air from anywhere else. It picks up the hot air that's already in the room and moves it past your skin, and your skin feels that as cooler, and the room stays exactly as hot as it was.
+Which, when I thought about it for five seconds, is exactly what a fan does. It blows air at you. That's the whole job. It doesn't make air colder. It doesn't bring in any air from anywhere else. It picks up the hot air that's already in the room and moves it past your skin. Your skin feels that as cooler. The room stays exactly as hot as it was.
 
 I had been buying fans to fix a room. A fan cannot fix a room. It can only fix the three square feet in front of it.
 
 ----------
 
-I called an HVAC company that August. A man came out, went up in the attic, came back down, and gave me a number that made me say "okay, let me talk to my husband about it," which is what I say when I'm not going to do something.
+I called an HVAC company that August. A man came out and went up in the attic. He came back down and gave me a number. I said, "Okay, let me talk to my husband about it." That's what I say when I'm not going to do something.
 
 We did not do it.
 
@@ -68,7 +68,7 @@ So the room stayed the hot room. In October it got cool again on its own and I f
 
 ----------
 
-The thing that actually changed it came from my sister Kerry, and she wasn't trying to sell me anything. She was complaining.
+The thing that changed it came from my sister Kerry, and she wasn't trying to sell me anything. She was complaining.
 
 She'd stayed in that room over Memorial Day. She'd been polite about it at the time. On the phone a few weeks later she said, "You know that's the same as our back bedroom, right? Ours was the last one on the line."
 
@@ -88,7 +88,7 @@ She said, "It's a fan for the vent. Not a fan for the room."
 
 ----------
 
-I want to be careful here, because I was the person who bought two fans and a set of blackout curtains, and I'm aware of how I sound.
+I want to be careful here. I'm the person who bought two fans and a set of blackout curtains. I know how I sound.
 
 So: I ordered one. It's called an Evenroom. It replaces the vent cover you already have.
 
@@ -98,7 +98,11 @@ I'll be straight about the result, because I'd want someone to be straight with 
 
 That room is not the coolest room in my house. It's never going to be. It's got a west wall and a lot of glass and physics is physics.
 
-But on that first Friday I worked up there until 5:15 and I didn't go downstairs. Then I did it the next Friday. And the one after that.
+The first couple of days, I didn't notice much. By Wednesday I could feel the air on my hand from a foot away. That had never happened with the old cover.
+
+On that first Friday I worked up there until 5:15 and I didn't go downstairs. Then I did it the next Friday. And the one after that.
+
+Somewhere in the second week I noticed I'd stopped closing the door. I used to shut it all afternoon to hold in whatever cool air made it up there. Now it just stays open.
 
 ----------
 
@@ -132,7 +136,7 @@ It was $89.99 and a screwdriver and a Sunday morning. There's a 60-day thing whe
 
 Link's below if you want it.
 
-Kerry says hers has been in three years. Dave's now talking about doing the basement, which I find very funny, because Dave wears a hoodie in July.
+Kerry says hers has been in three years. Dave's now talking about doing the basement, which I find funny, because Dave wears a hoodie in July.
 
 I got the room back. That's the whole thing. Not the temperature. The room.
 
