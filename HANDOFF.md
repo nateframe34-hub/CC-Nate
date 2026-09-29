@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-29** — PDP (founder): install section is now 2 steps, each with its photo inline; "Ships from the US" removed everywhere (announcement, trust rows, FAQ); trust line is now a 3-icon row (60-day returns / free size swap / two-screw install); the section has its own cart drawer (`use_drawer`, adds via /cart/add.js, shows the bundle discount, qty +/−, remove, checkout). Tested against a mocked cart in a browser.
+
 - **2026-09-28** — PDP: vent dropdown moved inside the bundle cards. "Two vents" shows two dropdowns (Vent 1 / Vent 2) so buyers can mix sizes or colours. A mixed pair adds as two line items. Logic tested in a browser against a stub; the live theme cart drawer still needs testing. The discount must apply to any variant of the product.
 
 - **2026-09-28** — PDP hero (founder): big price and shipping line removed; size buttons replaced with a "Pick your vent" dropdown; bundle selector rebuilt in tallow's stacked radio-card layout (One vent / Two vents with a Best value badge, prices from the Shopify product). New settings: pick_label, pick_help, t1/t2 label and sub, t2_badge.

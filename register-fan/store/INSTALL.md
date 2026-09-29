@@ -19,7 +19,7 @@
 ### Mixed 2-packs (added 2026-09-28)
 When "Two vents" is picked with two **different** vents (e.g. one white, one bronze), the form adds two line items (`items[0]`, `items[1]`) instead of one item with quantity 2. Two checks:
 - **The discount must count any variant.** Set the automatic discount to "Minimum quantity of items: 2" on **the product** (all variants), not on a single variant, or a mixed pair won't get $19.99 off.
-- **Test the mixed add with your theme's cart drawer.** Most themes pass the form straight to `/cart/add` and both items land. If yours drops one, tell me and I'll switch the mixed case to a direct cart call.
+- The section now has **its own cart drawer** (setting "Use this section's cart drawer", on by default). It adds via `/cart/add.js` directly, so mixed pairs always land. Turn it off to fall back to the theme's cart.
 
 ### 3 in detail — do not skip this
 
@@ -42,7 +42,8 @@ Shopify admin → Discounts → Create discount → Amount off order
 - [ ] Cart total on the 2-pack reads $159.99
 - [ ] The "Pick your vent" dropdown changes the variant that lands in the cart
 - [ ] Two vents, same choice → 1 line × qty 2 · two vents, different choices → 2 lines × qty 1, both discounted
-- [ ] **Cart drawer still opens** after adding — the selector script is isolated to prevent this, but test it
+- [ ] **Our cart drawer opens** after adding: lines, bundle discount (−$19.99 on 2), subtotal, Check out goes to checkout
+- [ ] The theme's header cart count updates (if not, it updates on the next page load; tell me the theme name and I'll hook it)
 - [ ] Sticky bar price updates when the tier changes
 - [ ] `grep -r "\[PH\]" ` over the theme returns **nothing** — placeholder reviews must not ship
 - [ ] `show_reviews` is off unless real reviews exist

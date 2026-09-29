@@ -46,7 +46,7 @@
 # Copy
 
 ## 1. Announcement bar
-Ships from the US · 60-day returns · Free shipping on 2-packs
+60-day returns · Free shipping on 2-packs
 
 ## 2. Hero
 
@@ -139,7 +139,9 @@ Ships from the US · 60-day returns · Free shipping on 2-packs
 
 Two screws and an outlet. No ductwork, no tools you don't own, nobody in your house.
 
-*Two install photos under the steps (settings `install_img_1`, `install_img_2`): the old cover coming out as the new one goes in, then plugging it in.*
+*Now two steps, each with its photo directly under it: **1. Swap the cover** (`install_img_1`) · **2. Plug it in** (`install_img_2`).*
+
+*Under the buy button: a row of three icons, 60-day returns · free size swap · two-screw install.*
 
 ## 9. When this won't help
 
@@ -186,7 +188,7 @@ Two screws and an outlet. No ductwork, no tools you don't own, nobody in your ho
 
 Will it fit my vent? · Does it work for heat too? · Floor, wall or ceiling? · Do I need an electrician? · Does it use much electricity? · How fast does it ship? · What if it doesn't fix it? · Does it actually make the room cooler, or just blow air? · Why is only one room hot when the AC works everywhere else? · How do I know if this will work for my room? · Is it loud? · How does the temperature setting work? · Will it make the rest of the house warmer? · Can I use one in two rooms?
 
-*Full answers live in the section schema. Shipping answer: ships from the US, 5–12 days. Standard US plug. Wattage answer still needs a real supplier number.*
+*Full answers live in the section schema. Shipping answer: delivery takes 5–12 days (no "ships from the US" anywhere — founder 2026-09-29). Standard US plug. Wattage answer still needs a real supplier number.*
 
 ---
 
