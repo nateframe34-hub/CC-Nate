@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-30** — Scale rule gets a spend floor (founder OK): scale only on ≥~$150 spend and among the top spenders in the ad set. Ad-level pauses wait until about day 7. Added to `Kill_Rules.md` §3.
+
 - **2026-09-30** — Analysed the Moonlighters "M4 Method" guide (`register-fan/M4_Method_Analysis.md`). It matches our concept system. Keep ABO for the test (its own exception for experimental spend) and our product kill rules. Proposed: add a spend floor to the scale rule, set up audience segments and purchaser exclusion before launch, and a post-winner playbook (duplicate into a CBO Scale campaign, single-interest winner ad sets, 80/20 iteration). Proposals await founder approval.
 
 - **2026-09-29** — All three natives (B1C1, B2C1, B2C1b) audited against the native-ad-writer self-audit. Fixes: long sentences split, strike-list words cut, B1C1 given a real transformation timeline and an unexpected discovery (the door stays open), B2C1 headline trimmed to 26 chars, and Julie's timeline made consistent across the page (HVAC visit is the August before; Dave already wears a hoodie, so B2C1b uses a blanket).

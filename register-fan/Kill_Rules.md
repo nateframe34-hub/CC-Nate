@@ -89,6 +89,10 @@ Because the bundle carries a lower margin percentage, **2× ROAS is profitable o
 
 **Better still, judge on CAC, not ROAS.** ROAS hides the mix; CAC doesn't. **Scale when blended CAC sits below the contribution for the mix actually being sold**, $56.91 single, $75.39 bundle. If both numbers are available, CAC is the one to trust.
 
+### Spend floor: a winner needs spend, not just ROAS *(added 2026-09-30, from the M4 Method guide)*
+
+**An ad or ad set qualifies to scale only when it clears the ROAS/CAC bar above on at least ~$150 of spend, and it is one of the top spenders in its ad set.** A 6× ROAS on $20 is one lucky order, not a winner. If Meta isn't choosing to spend on it, it isn't scalable yet. Never scale a low-spend, high-ROAS ad.
+
 ### Scaling mechanics, so scaling doesn't kill the winner
 
 - **No more than +20-30% to an ad set's budget per 48 hours.** Larger jumps re-enter learning and can destroy the performance being scaled.
@@ -123,7 +127,7 @@ Returns are not in it. On a ~$100 electrical product with a size step, returns w
 
 ## §5: Rules that were missing
 
-**No kill decisions before day 4**, except catastrophic (zero delivery, policy rejection, a broken link). Ad sets are in learning; days 1-3 are noise, and CBO-style first-hour noise produced this account's worst historical reads.
+**No kill decisions before day 4**, and **no pausing individual ads inside an ad set before about day 7** unless clearly broken (Meta needs time to spread spend across the pack). Both except catastrophic (zero delivery, policy rejection, a broken link). Ad sets are in learning; days 1-3 are noise, and CBO-style first-hour noise produced this account's worst historical reads.
 
 **If all ad sets fail together, suspect the page, not the avatar.** Nine ads across three visual registers do not fail for one creative reason. Check the PDP before writing off the research.
 
