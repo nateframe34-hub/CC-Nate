@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-09-30** — Domain: **evenroom.store** (founder; traffic comes from ads). evenroom.com belongs to a live furniture dropshipper with no trademark. Name is provisional through the test. If the product wins, file a US trademark (class 11) before scaling.
+
 - **2026-09-30** — Register fan launch date: **October 3** (founder: payouts unavailable until then). Until then, polish only.
 
 - **2026-09-30** — Scale rule gets a spend floor (founder OK): scale only on ≥~$150 spend and among the top spenders in the ad set. Ad-level pauses wait until about day 7. Added to `Kill_Rules.md` §3.
