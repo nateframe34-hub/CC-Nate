@@ -48,10 +48,8 @@ At under $1K/day the guide waits 14 days before judging creative. At our ~$60–
 ### 4c. Winner definition: **add a spend condition to our scale rule**
 Our scale rule is ">2× ROAS". The guide's point is that a 15× ROAS on $20 is noise. **Update:** an ad qualifies to scale only at **>2× ROAS on at least ~$150 spent**, and it has to be among the top spenders in its ad set. That matches our $150 evaluation window.
 
-### 4d. Swimlanes and exclusions: **set up now, costs nothing**
-Before launch:
-- **Audience segments** (Ads Manager → Advertising settings → Audience segments): define engaged audiences and existing customers, so the "new vs existing" breakdown works from the first purchase.
-- **Prospecting excludes purchasers.** We have none yet, but add the purchaser custom audience as an exclusion now so it fills correctly.
+### 4d. Swimlanes and exclusions: **not yet** (founder call 2026-09-30: nobody to exclude)
+Audience segments and purchaser exclusions only matter once there are customers and visitors to separate. Set them up when a winner goes into a Scale campaign, as part of the post-winner playbook.
 - **No separate Retargeting or Retention campaign during the test.** The guide marks retargeting optional, and at $600 it would steal budget from the only question that matters. Our BOF formats (Free Ad, Classy Offer) wait until there's a pool of visitors worth retargeting, roughly 1,000+ site visitors.
 
 ### 4e. M3 breakdowns: **mostly not yet**
@@ -87,5 +85,5 @@ The guide recommends 2–4× over 7 days. At our spend frequency will stay low. 
 | Doc | Change |
 |---|---|
 | `Kill_Rules.md` | Scale rule: >2× ROAS **on ≥$150 spend, among the top spenders in the ad set**. Ad-level pauses lean to day 7; product-level rules unchanged |
-| `Launch_Campaign_SA1.md` | Pre-launch: set audience segments, and exclude purchasers in prospecting. Note: ABO for the test, CBO for the Scale campaign once winners exist |
+| `Launch_Campaign_SA1.md` | Note: ABO for the test, CBO for the Scale campaign once winners exist. Audience segments and exclusions go in at that point, not before |
 | `Launch_Campaign_SA1.md` | Post-winner playbook: duplicate into Scale, single-interest winner ad sets, 80/20 iteration |
