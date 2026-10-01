@@ -15,10 +15,12 @@ For `theme/sections/evenroom-pdp-sa1.liquid`.
 
 ### Gallery order and generation priority
 
+**Changed 2026-10-01 (founder):** the on-white shot leads. The floor shot is the best photo, but the product is small in the frame and takes a moment to find. The first image has to answer "what is this?" in one second, or people bounce. The floor shot comes second and answers "what will it look like in my house?".
+
 | Slot | Image | Priority |
 |---|---|---|
-| Gallery 1 | **1c, installed in the floor** | Generate first |
-| Gallery 2 | 1a, on white | First |
+| Gallery 1 | **1a, on white** (product readable in one second) | Generate first |
+| Gallery 2 | **1c, installed in the floor** (what it looks like in your house) | First |
 | Gallery 3 | 1f, what's in the box (unit + remote) | Second |
 | Gallery 4 | 1b, display close-up | Second |
 | Gallery 5 | 1e, bronze, same layout as 1f *(only if stocked)* | If needed |
@@ -30,7 +32,7 @@ For `theme/sections/evenroom-pdp-sa1.liquid`.
 
 ---
 
-## 1c. Installed in the floor ⭐ gallery image 1
+## 1c. Installed in the floor ⭐ gallery image 2
 
 **Attach:** REF-1 (remote cropped out)
 
