@@ -1,0 +1,273 @@
+{%- comment -%}
+  ============================================================================
+  EVENROOM HOMEPAGE. 2026-10-01.
+  Short, on-brand landing for anyone who types the URL. Its only job is to
+  send them to the product page. Self-contained: own styles, no snippets.
+  Pick the product in the theme editor; every button links to it.
+  ============================================================================
+{%- endcomment -%}
+
+{%- assign hp = section.settings.product -%}
+{%- if hp != blank -%}
+  {%- assign hp_url = hp.url -%}
+{%- else -%}
+  {%- assign hp_url = routes.all_products_collection_url -%}
+{%- endif -%}
+
+{%- if section.settings.load_fonts -%}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+{%- endif -%}
+
+<style>
+#evr-home{--bg:#FAF7F2;--ink:#1C1A17;--muted:#6B655C;--line:#E6DFD3;--accent:#B4553A;--soft:#FBF1EC;
+  --hdr:'Archivo',system-ui,sans-serif;--body:'Inter',system-ui,sans-serif;
+  background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+#evr-home *{box-sizing:border-box}
+#evr-home h1,#evr-home h2,#evr-home h3{font-family:var(--hdr);font-weight:800;line-height:1.1;letter-spacing:-.01em;margin:0 0 .5em}
+#evr-home h1{font-size:clamp(34px,5.4vw,58px)}
+#evr-home h2{font-size:clamp(26px,3.6vw,38px)}
+#evr-home h3{font-size:19px;font-weight:700}
+#evr-home p{margin:0 0 1em}
+#evr-home .wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+#evr-home .narrow{max-width:760px}
+#evr-home .sec{padding:72px 0}
+#evr-home .eyebrow{font-family:var(--hdr);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 14px}
+#evr-home .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-family:var(--hdr);font-weight:700;font-size:17px;padding:18px 34px;border-radius:10px;transition:filter .15s}
+#evr-home .btn:hover{filter:brightness(1.07)}
+#evr-home .sub{font-size:19px;color:var(--muted);max-width:34ch;margin-bottom:28px}
+
+/* top bar */
+#evr-home .top{position:sticky;top:0;z-index:50;height:56px;display:flex;align-items:center;justify-content:center;background:var(--bg);border-bottom:1px solid var(--line)}
+#evr-home .wordmark{font-family:var(--hdr);font-weight:800;letter-spacing:.14em;font-size:15px;text-transform:uppercase;color:var(--ink);text-decoration:none}
+#evr-home .cart{position:absolute;right:12px;top:50%;transform:translateY(-50%);color:var(--ink);display:flex;padding:8px}
+#evr-home .cart svg{width:25px;height:25px}
+#evr-home .cart-n{position:absolute;top:2px;right:0;min-width:18px;height:18px;border-radius:9px;background:var(--accent);color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;padding:0 4px}
+#evr-home .announce{background:var(--ink);color:var(--bg);font-size:13px;letter-spacing:.04em;text-align:center;padding:10px 16px}
+
+/* hero */
+#evr-home .hero{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center;padding:56px 0 72px}
+#evr-home .hero-img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:#fff;display:block}
+#evr-home .rating{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--muted);margin-top:18px}
+#evr-home .stars{color:var(--accent);letter-spacing:2px}
+
+/* trust row */
+#evr-home .trust{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;background:#fff}
+#evr-home .trust-i{display:flex;align-items:center;justify-content:center;gap:10px;font-size:14px;color:var(--muted)}
+#evr-home .trust-i b{color:var(--ink);font-weight:600}
+#evr-home .ic{flex:0 0 auto;width:34px;height:34px;border-radius:50%;background:var(--soft);color:var(--accent);display:flex;align-items:center;justify-content:center}
+#evr-home .ic svg{width:18px;height:18px}
+
+/* why band */
+#evr-home .band{background:var(--accent);color:#fff;padding:72px 0}
+#evr-home .band .eyebrow{color:rgba(255,255,255,.75)}
+#evr-home .band h2{color:#fff}
+#evr-home .band p{font-size:18px;max-width:52ch}
+#evr-home .nums{display:flex;gap:28px;margin-top:26px;flex-wrap:wrap}
+#evr-home .num{background:rgba(255,255,255,.12);border-radius:12px;padding:16px 22px;min-width:150px}
+#evr-home .num b{display:block;font-family:var(--hdr);font-size:40px;line-height:1}
+#evr-home .num span{font-size:13px;opacity:.85}
+
+/* how */
+#evr-home .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:30px}
+#evr-home .step .n{font-family:var(--hdr);font-size:38px;font-weight:800;color:var(--accent);line-height:1;margin-bottom:10px}
+#evr-home .step p{color:var(--muted);font-size:16px}
+#evr-home .split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+#evr-home .split img{width:100%;border-radius:14px;border:1px solid var(--line);display:block}
+
+/* faq */
+#evr-home .faq details{border-bottom:1px solid var(--line);padding:18px 0}
+#evr-home .faq summary{font-family:var(--hdr);font-weight:700;font-size:17px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px}
+#evr-home .faq summary::-webkit-details-marker{display:none}
+#evr-home .faq summary:after{content:"+";color:var(--accent);font-size:22px;line-height:1}
+#evr-home .faq details[open] summary:after{content:"\2212"}
+#evr-home .faq p{margin:10px 0 0;color:var(--muted)}
+
+/* final */
+#evr-home .final{text-align:center;background:#fff;border-top:1px solid var(--line)}
+#evr-home .final .sub{margin-left:auto;margin-right:auto}
+#evr-home .foot{text-align:center;font-size:13px;color:var(--muted);padding:26px 0}
+#evr-home .foot a{color:var(--muted);margin:0 8px}
+
+@media(max-width:860px){
+  #evr-home .hero,#evr-home .split{grid-template-columns:1fr;gap:28px}
+  #evr-home .hero{padding-top:28px}
+  #evr-home .hero-img{order:-1}
+  #evr-home .steps{grid-template-columns:1fr;gap:18px}
+  #evr-home .sec,#evr-home .band{padding:52px 0}
+  #evr-home .trust-i{flex-direction:column;text-align:center;gap:6px;font-size:12.5px}
+  #evr-home .btn{display:block;text-align:center}
+}
+</style>
+
+<section id="evr-home">
+
+{%- if section.settings.show_top_bar -%}
+<div class="top">
+  <a class="wordmark" href="{{ routes.root_url }}">{{ section.settings.wordmark }}</a>
+  <a class="cart" href="{{ routes.cart_url }}" aria-label="Cart">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2.2l2.1 10.2a1.5 1.5 0 0 0 1.5 1.2h8.4a1.5 1.5 0 0 0 1.5-1.1L20.5 8H6.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="19.5" r="1.4" fill="currentColor"/><circle cx="17" cy="19.5" r="1.4" fill="currentColor"/></svg>
+    {%- if cart.item_count > 0 -%}<span class="cart-n">{{ cart.item_count }}</span>{%- endif -%}
+  </a>
+</div>
+{%- endif -%}
+{%- if section.settings.announce != blank -%}<div class="announce">{{ section.settings.announce }}</div>{%- endif -%}
+
+<!-- HERO -->
+<div class="wrap">
+  <div class="hero">
+    <div>
+      <p class="eyebrow">{{ section.settings.hero_eyebrow }}</p>
+      <h1>{{ section.settings.hero_h }}</h1>
+      <p class="sub">{{ section.settings.hero_sub }}</p>
+      <a class="btn" href="{{ hp_url }}">{{ section.settings.cta }}</a>
+      {%- if section.settings.show_rating -%}
+        <div class="rating"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span><b style="color:var(--ink)">{{ section.settings.rating_score }}</b> · {{ section.settings.rating_count }}</span></div>
+      {%- endif -%}
+    </div>
+    <div>
+      {%- if section.settings.hero_image != blank -%}
+        <img class="hero-img" src="{{ section.settings.hero_image | image_url: width: 1200 }}" alt="{{ section.settings.hero_h | escape }}">
+      {%- elsif hp != blank and hp.featured_image -%}
+        <img class="hero-img" src="{{ hp.featured_image | image_url: width: 1200 }}" alt="{{ hp.title | escape }}">
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+<!-- TRUST ROW -->
+<div class="trust">
+  <div class="trust-i"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M3 4v4.5h4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><b>60-day</b> returns</span></div>
+  <div class="trust-i"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h14l-3.5-3.5M20 16H6l3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><b>Free size</b> swap</span></div>
+  <div class="trust-i"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5l4 4M4 20l8.5-8.5M12.5 11.5l2-2 4 4-2 2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><b>Two-screw</b> install</span></div>
+</div>
+
+<!-- WHY -->
+<div class="band">
+  <div class="wrap narrow">
+    <p class="eyebrow">Why that room stays hot</p>
+    <h2>{{ section.settings.why_h }}</h2>
+    <p>{{ section.settings.why_1 }}</p>
+    <p>{{ section.settings.why_2 }}</p>
+    <div class="nums">
+      <div class="num"><b>{{ section.settings.num_1 }}</b><span>{{ section.settings.num_1_label }}</span></div>
+      <div class="num"><b>{{ section.settings.num_2 }}</b><span>{{ section.settings.num_2_label }}</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW -->
+<div class="sec">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <p class="eyebrow">How it works</p>
+        <h2>{{ section.settings.how_h }}</h2>
+        <div class="steps" style="grid-template-columns:1fr;gap:18px">
+          <div class="step"><div class="n">1</div><h3>{{ section.settings.step_1_h }}</h3><p>{{ section.settings.step_1 }}</p></div>
+          <div class="step"><div class="n">2</div><h3>{{ section.settings.step_2_h }}</h3><p>{{ section.settings.step_2 }}</p></div>
+          <div class="step"><div class="n">3</div><h3>{{ section.settings.step_3_h }}</h3><p>{{ section.settings.step_3 }}</p></div>
+        </div>
+      </div>
+      <div>
+        {%- if section.settings.how_image != blank -%}
+          <img src="{{ section.settings.how_image | image_url: width: 1100 }}" alt="The vent installed in a room" loading="lazy">
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="sec" style="background:#fff;border-top:1px solid var(--line)">
+  <div class="wrap narrow faq">
+    <p class="eyebrow">Quick answers</p>
+    <h2>Before you buy</h2>
+    <details><summary>{{ section.settings.q1 }}</summary><p>{{ section.settings.a1 }}</p></details>
+    <details><summary>{{ section.settings.q2 }}</summary><p>{{ section.settings.a2 }}</p></details>
+    <details><summary>{{ section.settings.q3 }}</summary><p>{{ section.settings.a3 }}</p></details>
+    <details><summary>{{ section.settings.q4 }}</summary><p>{{ section.settings.a4 }}</p></details>
+  </div>
+</div>
+
+<!-- FINAL -->
+<div class="sec final">
+  <div class="wrap narrow">
+    <h2>{{ section.settings.final_h }}</h2>
+    <p class="sub">{{ section.settings.final_sub }}</p>
+    <a class="btn" href="{{ hp_url }}">{{ section.settings.cta }}</a>
+  </div>
+</div>
+
+{%- if section.settings.show_footer_links -%}
+<div class="foot">
+  &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
+  {%- for link in linklists[section.settings.footer_menu].links -%}<a href="{{ link.url }}">{{ link.title }}</a>{%- endfor -%}
+</div>
+{%- endif -%}
+
+</section>
+
+{% schema %}
+{
+  "name": "Evenroom Homepage",
+  "settings": [
+    { "type": "product", "id": "product", "label": "Product to send people to" },
+    { "type": "checkbox", "id": "load_fonts", "label": "Load Archivo + Inter fonts", "default": true },
+
+    { "type": "header", "content": "Top bar" },
+    { "type": "checkbox", "id": "show_top_bar", "label": "Show top bar with cart icon", "default": true },
+    { "type": "text", "id": "wordmark", "label": "Wordmark", "default": "Evenroom" },
+    { "type": "text", "id": "announce", "label": "Announcement bar", "default": "60-day returns · Free shipping on 2-packs" },
+
+    { "type": "header", "content": "Hero" },
+    { "type": "text", "id": "hero_eyebrow", "label": "Eyebrow", "default": "For the one hot room" },
+    { "type": "text", "id": "hero_h", "label": "Heading", "default": "No more switching rooms because of the heat." },
+    { "type": "textarea", "id": "hero_sub", "label": "Subline", "default": "A vent cover with two fans and its own thermostat. It pulls the cold air your AC already makes into the room that never gets enough." },
+    { "type": "text", "id": "cta", "label": "Button text", "default": "Shop the vent" },
+    { "type": "image_picker", "id": "hero_image", "label": "Hero image (uses the product photo if empty)" },
+    { "type": "checkbox", "id": "show_rating", "label": "Show star rating under the button", "default": false },
+    { "type": "text", "id": "rating_score", "label": "Rating score", "default": "4.6" },
+    { "type": "text", "id": "rating_count", "label": "Rating count", "default": "38 reviews" },
+
+    { "type": "header", "content": "Why band" },
+    { "type": "text", "id": "why_h", "label": "Heading", "default": "Your AC isn't broken. The air just isn't getting there." },
+    { "type": "textarea", "id": "why_1", "label": "Para 1", "default": "Your AC sends cold air through ducts. The rooms close to it get the most. The room at the end gets what's left." },
+    { "type": "textarea", "id": "why_2", "label": "Para 2", "default": "A fan just moves the hot air around. Turning the thermostat down just cools every other room." },
+    { "type": "text", "id": "num_1", "label": "Number 1", "default": "72°" },
+    { "type": "text", "id": "num_1_label", "label": "Number 1 label", "default": "the hallway" },
+    { "type": "text", "id": "num_2", "label": "Number 2", "default": "81°" },
+    { "type": "text", "id": "num_2_label", "label": "Number 2 label", "default": "that room" },
+
+    { "type": "header", "content": "How it works" },
+    { "type": "text", "id": "how_h", "label": "Heading", "default": "Two screws and an outlet." },
+    { "type": "text", "id": "step_1_h", "label": "Step 1 heading", "default": "Swap the cover" },
+    { "type": "text", "id": "step_1", "label": "Step 1 text", "default": "It replaces the vent cover that's already there. Same hole, same two screws." },
+    { "type": "text", "id": "step_2_h", "label": "Step 2 heading", "default": "Set the room's number" },
+    { "type": "text", "id": "step_2", "label": "Step 2 text", "default": "Pick the temperature you want for that one room." },
+    { "type": "text", "id": "step_3_h", "label": "Step 3 heading", "default": "Leave it alone" },
+    { "type": "text", "id": "step_3", "label": "Step 3 text", "default": "It turns on when the room is too warm and off when it gets there." },
+    { "type": "image_picker", "id": "how_image", "label": "Image (the installed-in-the-floor photo works best)" },
+
+    { "type": "header", "content": "FAQ" },
+    { "type": "text", "id": "q1", "label": "Q1", "default": "Will it fit my vent?" },
+    { "type": "textarea", "id": "a1", "label": "A1", "default": "It fits 4x10 and 6x10 vents. Measure the hole, not the cover. Wrong size? We swap it free." },
+    { "type": "text", "id": "q2", "label": "Q2", "default": "Does it work for heat too?" },
+    { "type": "textarea", "id": "a2", "label": "A2", "default": "Yes. It pulls in whatever your system sends. Cold air in summer. Warm air in winter." },
+    { "type": "text", "id": "q3", "label": "Q3", "default": "Do I need an electrician?" },
+    { "type": "textarea", "id": "a3", "label": "A3", "default": "No. Two screws and a regular US plug. No wiring. No ductwork." },
+    { "type": "text", "id": "q4", "label": "Q4", "default": "What if it doesn't help?" },
+    { "type": "textarea", "id": "a4", "label": "A4", "default": "Send it back within 60 days. If it's broken, we pay for the return. If not, you do." },
+
+    { "type": "header", "content": "Final" },
+    { "type": "text", "id": "final_h", "label": "Heading", "default": "Get your room back." },
+    { "type": "text", "id": "final_sub", "label": "Subline", "default": "Two screws, one outlet, and 60 days to try it." },
+
+    { "type": "header", "content": "Footer" },
+    { "type": "checkbox", "id": "show_footer_links", "label": "Show footer line", "default": true, "info": "Turn off if your theme already shows its own footer." },
+    { "type": "link_list", "id": "footer_menu", "label": "Footer menu (policies, contact)", "default": "footer" }
+  ],
+  "presets": [ { "name": "Evenroom Homepage" } ]
+}
+{% endschema %}

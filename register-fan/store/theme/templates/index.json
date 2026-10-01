@@ -1,0 +1,48 @@
+{
+  "sections": {
+    "main": {
+      "type": "evenroom-home",
+      "settings": {
+        "load_fonts": true,
+        "show_top_bar": true,
+        "wordmark": "Evenroom",
+        "announce": "60-day returns · Free shipping on 2-packs",
+        "hero_eyebrow": "For the one hot room",
+        "hero_h": "No more switching rooms because of the heat.",
+        "hero_sub": "A vent cover with two fans and its own thermostat. It pulls the cold air your AC already makes into the room that never gets enough.",
+        "cta": "Shop the vent",
+        "show_rating": false,
+        "rating_score": "4.6",
+        "rating_count": "38 reviews",
+        "why_h": "Your AC isn't broken. The air just isn't getting there.",
+        "why_1": "Your AC sends cold air through ducts. The rooms close to it get the most. The room at the end gets what's left.",
+        "why_2": "A fan just moves the hot air around. Turning the thermostat down just cools every other room.",
+        "num_1": "72°",
+        "num_1_label": "the hallway",
+        "num_2": "81°",
+        "num_2_label": "that room",
+        "how_h": "Two screws and an outlet.",
+        "step_1_h": "Swap the cover",
+        "step_1": "It replaces the vent cover that's already there. Same hole, same two screws.",
+        "step_2_h": "Set the room's number",
+        "step_2": "Pick the temperature you want for that one room.",
+        "step_3_h": "Leave it alone",
+        "step_3": "It turns on when the room is too warm and off when it gets there.",
+        "q1": "Will it fit my vent?",
+        "a1": "It fits 4x10 and 6x10 vents. Measure the hole, not the cover. Wrong size? We swap it free.",
+        "q2": "Does it work for heat too?",
+        "a2": "Yes. It pulls in whatever your system sends. Cold air in summer. Warm air in winter.",
+        "q3": "Do I need an electrician?",
+        "a3": "No. Two screws and a regular US plug. No wiring. No ductwork.",
+        "q4": "What if it doesn't help?",
+        "a4": "Send it back within 60 days. If it's broken, we pay for the return. If not, you do.",
+        "final_h": "Get your room back.",
+        "final_sub": "Two screws, one outlet, and 60 days to try it.",
+        "show_footer_links": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

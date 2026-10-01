@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-01** — Homepage built: `register-fan/store/theme/sections/evenroom-home.liquid` + `templates/index.json`. Short brand landing (hero, trust row, why band 72°/81°, 3 steps, 4 FAQs, final CTA) and every button goes to the PDP product picked in settings.
+
 - **2026-09-30** — Domain: **evenroom.store** (founder; traffic comes from ads). evenroom.com belongs to a live furniture dropshipper with no trademark. Name is provisional through the test. If the product wins, file a US trademark (class 11) before scaling.
 
 - **2026-09-30** — Register fan launch date: **October 3** (founder: payouts unavailable until then). Until then, polish only.
