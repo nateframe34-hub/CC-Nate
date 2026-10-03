@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-03** — Register fan ads scheduled to go live at midnight (founder). Batch 1 (SA1 A1: B1C1 native, B1C2 Relatable Hook, B1C3 whiteboard) and Batch 2 (SA1 A3: B2C1 + B2C1b natives, B2C2 Solution Exaggeration, B2C3 Pubity), ABO, $20/day per ad set. Kill/scale per `Kill_Rules.md`: no kills before day 4, no ad-level pauses before ~day 7, product kill at $300 with no purchase intent.
+
 - **2026-10-01** — Gallery order (founder): on-white e-commerce shot first, installed-in-carpet shot second. The hero must identify the product in one second.
 
 - **2026-10-01** — Homepage built: `register-fan/store/theme/sections/evenroom-home.liquid` + `templates/index.json`. Short brand landing (hero, trust row, why band 72°/81°, 3 steps, 4 FAQs, final CTA) and every button goes to the PDP product picked in settings.
