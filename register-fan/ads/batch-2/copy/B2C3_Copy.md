@@ -13,22 +13,57 @@
 > IS 81°...
 
 ## Primary text
+*(Rewritten 2026-10-03, founder: no advertorial between this ad and the product page, so the post text has to do the presell job. Medium length, covers: the answer, the hidden reason, why the usual fixes fail, what fixes it, objections, risk and the close. 5th-grade, no em dashes.)*
 
 Here's why.
 
-Your thermostat is on a wall in the hallway. It can only feel the air right next to it. When the hallway gets to 72, it thinks the whole house is 72. So it shuts the AC off.
+Your thermostat hangs on one wall, usually in a hallway. It can only feel the air right next to it.
 
-Your office never got a say.
+When the hallway hits 72, it thinks the whole house is 72. So it shuts the AC off.
 
-It's also at the end of the duct run. Your AC makes the cold air down by the unit. By the time it gets to that room, it's a trickle. Put your hand on the vent in there with the AC on. You'll feel it.
+Meanwhile your office is still sitting at 81. Nothing in your house knows that. The thermostat never asked that room.
 
-Turning the thermostat down doesn't fix that. It just makes every other room colder.
+**And there's a second reason that room stays hot.**
 
-The fix is to give that room its own thermostat. This one replaces the vent cover that's already there. Set it to 72. It pulls the cold air into the room until it gets there, then it stops.
+Your AC makes cold air in one place. Then it pushes it through ducts to every room. The rooms close to the unit get it first, and they get a lot. Every turn and every branch takes a little away.
 
-The hallway thermostat goes back to normal. The office finally gets a number of its own.
+The room at the end of the line gets what's left.
 
-$89.99, and it's only getting hotter.
+Go put your hand on the vent in that room while the AC is running. Air is probably coming out. It's probably barely moving. That trickle is the whole problem.
+
+**That's why the usual fixes don't work.**
+
+Turning the thermostat down makes every other room colder. The kitchen gets cold. The basement gets cold. That room barely moves, because it's still getting a trickle.
+
+A fan doesn't help either. A fan feels good while it's blowing on you. But it can't make a room colder. It just moves the hot air around.
+
+And calling an HVAC company to rebalance the ducts can cost thousands. Most people never do it.
+
+**What does work is giving that room its own thermostat.**
+
+The Evenroom Vent Thermostat replaces the vent cover that's already in that room. It has two small fans built in. They pull the cold air your AC is already making out of the duct and into the room, instead of waiting for it to drift in.
+
+It has its own little screen. You set the temperature you want for that one room. When the room is warmer than that, it runs. When the room gets there, it stops.
+
+The thermostat in the hallway goes back to where everyone likes it. You stop walking downstairs to turn it down.
+
+It won't turn a sunny west-facing room into the coolest room in the house. But it can make it a room you can use again in the afternoon.
+
+**Putting it in takes about ten minutes.**
+
+Take out the two screws on your old vent cover. Drop this one in the same hole. Put the same two screws back in. Plug it into a regular outlet.
+
+No ductwork. No wiring. No one coming to your house.
+
+It fits 4x10 and 6x10 floor vents. Measure the hole, not the cover. If you get the size wrong, we'll swap it for free.
+
+It works in winter too. In winter it pulls in the warm air from your furnace, so a cold room gets the same fix.
+
+**You have 60 days to try it.** Put it in on a hot afternoon and watch what happens. If it doesn't help, send it back.
+
+It's $89.99. Or get two for $159.99 if you have a second room like this one. Most homes do.
+
+It's only getting hotter. Tap below to see how it works.
 
 ## Meta headline
 It can only feel the hallway
