@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-05** — Plan (founder): current ads run unchanged through Oct 5. On Oct 6, launch all new ads (B1C1b, B3, B4) and consolidate into one CBO ad set. Early pattern: natives and Pubity-style are the best formats on CTR/CPC (B2C3 Pubity $1.25 CPC; B2C1b native 4.6–5.5% CTR). Not yet tied to ATC or purchases.
+
 - **2026-10-05** — B1C1b native "The Nap I Couldn't Take" (founder concept): SA1, A1 lead with A5/A2, sleep payoff. Julie can't nap after work in the west-sun upstairs room (84° vs 72°); blackout curtains and two fans fail; the vent doesn't stop the sun but keeps the room from climbing (founder's first-hand mechanism), 84°→74°. Image: sweat outline on sheets in sun stripes. Hot framing, so use while warm or hold for spring.
 
 - **2026-10-05** — Batch 3 (SA5, cold) and Batch 4 (SA2, cold) built with full copy and one-pass prompts. B3: native "Three Trips Down The Hall" (grandson Theo, 63° vs 70°), Indirect Avatar "KID'S ROOM ALWAYS COLD?", Accidental Ideal Outcome "I Accidentally Stopped Checking His Room At Night". B4: native "The Heater Went Back In The Box", Simplified Us vs Them (Nutella) "This is a second heater / This is the heat you already pay for", Minimal Us vs Them (Carepod, the A6 test) "Space heater / None of that." Oct 4 final logged: day total $48.60, 23 clicks, 0 ATC; cumulative ~$83, 36 clicks, ~34 LPV. Founder is considering moving to one CBO ad set.
