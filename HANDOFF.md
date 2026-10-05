@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-05** — Founder decision: final test window. Relaunch with the new batches (CBO, gift stack, cold ads) and run 2–3 days. If no buying intent (no ATC or checkout) shows, cut the register fan and move to a new product.
+
 - **2026-10-05** — Offer upgrade (founder: every extra must answer an objection; a thermometer was rejected because the unit has one built in). A gift stack appears in the selected bundle card: one row "Complete install kit" (remote, power cable, screws, simple manual; $24.99 value, FREE), Free size swap ($20, FREE), 60-day home trial; the 2-pack adds 2× kit and free shipping. The value stack row now shows the kit too. All values and text are editable (`show_gifts`, `gift_*`).
 
 - **2026-10-05** — Plan (founder): current ads run unchanged through Oct 5. On Oct 6, launch all new ads (B1C1b, B3, B4) and consolidate into one CBO ad set. Early pattern: natives and Pubity-style are the best formats on CTR/CPC (B2C3 Pubity $1.25 CPC; B2C1b native 4.6–5.5% CTR). Not yet tied to ATC or purchases.
