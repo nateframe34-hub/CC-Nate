@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-05** — Batch 3 (SA5, cold) and Batch 4 (SA2, cold) built with full copy and one-pass prompts. B3: native "Three Trips Down The Hall" (grandson Theo, 63° vs 70°), Indirect Avatar "KID'S ROOM ALWAYS COLD?", Accidental Ideal Outcome "I Accidentally Stopped Checking His Room At Night". B4: native "The Heater Went Back In The Box", Simplified Us vs Them (Nutella) "This is a second heater / This is the heat you already pay for", Minimal Us vs Them (Carepod, the A6 test) "Space heater / None of that." Oct 4 final logged: day total $48.60, 23 clicks, 0 ATC; cumulative ~$83, 36 clicks, ~34 LPV. Founder is considering moving to one CBO ad set.
+
 - **2026-10-05** — Founder corrections: shipping isn't shown until checkout, so it can't explain 0 ATC (it would show as ATC→purchase drop-off), so the free-shipping trigger is withdrawn. Added urgency: a "Fall sale · $89.99 ends in" countdown in the PDP announcement bar (settings `sale_on`, `sale_end` default 2026-10-31 23:59; it hides itself after the end date, and an empty date counts to midnight daily).
 
 - **2026-10-05** — Register fan days 1–2: ~$76 spend, 31 link clicks, ~30 LPV, 0 ATC. Tracking confirmed working (founder). Decision: hold, no offer change before ~$150 spend. Pre-committed first offer test if still 0 ATC at $150: free shipping on singles. Early leaders: B2C3 Pubity (5.8% CTR, $1.29 CPC) and B2C1b (5.45%). B1C2 has the highest CPM. Tracker started: `register-fan/tracking/Ad_Performance_Tracker.csv`.
