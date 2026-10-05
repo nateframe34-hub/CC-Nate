@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-05** — Offer upgrade (founder: every extra must answer an objection; a thermometer was rejected because the unit has one built in). A gift stack appears in the selected bundle card: one row "Complete install kit" (remote, power cable, screws, simple manual; $24.99 value, FREE), Free size swap ($20, FREE), 60-day home trial; the 2-pack adds 2× kit and free shipping. The value stack row now shows the kit too. All values and text are editable (`show_gifts`, `gift_*`).
+
 - **2026-10-05** — Plan (founder): current ads run unchanged through Oct 5. On Oct 6, launch all new ads (B1C1b, B3, B4) and consolidate into one CBO ad set. Early pattern: natives and Pubity-style are the best formats on CTR/CPC (B2C3 Pubity $1.25 CPC; B2C1b native 4.6–5.5% CTR). Not yet tied to ATC or purchases.
 
 - **2026-10-05** — B1C1b native "The Nap I Couldn't Take" (founder concept): SA1, A1 lead with A5/A2, sleep payoff. Julie can't nap after work in the west-sun upstairs room (84° vs 72°); blackout curtains and two fans fail; the vent doesn't stop the sun but keeps the room from climbing (founder's first-hand mechanism), 84°→74°. Image: sweat outline on sheets in sun stripes. Hot framing, so use while warm or hold for spring.

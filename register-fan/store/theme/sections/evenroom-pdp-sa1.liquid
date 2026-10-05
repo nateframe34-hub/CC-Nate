@@ -161,6 +161,19 @@
 #evr-pdp .evr-tier-main{display:flex;align-items:center;gap:12px;width:100%}
 #evr-pdp .evr-tier-picks{display:none;margin-top:4px;padding-left:32px;cursor:default}
 #evr-pdp .evr-tier.on .evr-tier-picks{display:block}
+#evr-pdp .evr-gifts{display:none;margin:12px 0 2px 32px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:default}
+#evr-pdp .evr-tier.on .evr-gifts{display:block}
+#evr-pdp .evr-gifts-h{font-family:var(--hdr);font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:0 0 6px}
+#evr-pdp .evr-gifts ul{list-style:none;margin:0;padding:0}
+#evr-pdp .evr-gifts li{display:flex;align-items:center;gap:10px;padding:7px 0;border-top:1px solid var(--line)}
+#evr-pdp .evr-gifts li:first-child{border-top:0}
+#evr-pdp .evr-gift-ic{flex:0 0 auto;width:28px;height:28px;border-radius:50%;background:#FBF1EC;color:var(--accent);display:flex;align-items:center;justify-content:center}
+#evr-pdp .evr-gift-ic svg{width:16px;height:16px}
+#evr-pdp .evr-gift-t{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;line-height:1.25}
+#evr-pdp .evr-gift-t b{font-size:13.5px;font-family:var(--hdr)}
+#evr-pdp .evr-gift-t small{font-size:12px;color:var(--muted)}
+#evr-pdp .evr-gift-v{flex:0 0 auto;text-align:right;font-family:var(--hdr);font-weight:800;font-size:12.5px;color:var(--accent);letter-spacing:.03em}
+#evr-pdp .evr-gift-v s{display:block;font-family:var(--body);font-weight:400;color:var(--muted);font-size:11.5px;letter-spacing:0}
 #evr-pdp .evr-tier-radio{flex:0 0 auto;width:20px;height:20px;border-radius:50%;border:1.5px solid #c9c0b3;background:#fff;position:relative}
 #evr-pdp .evr-tier.on .evr-tier-radio{border-color:var(--accent);border-width:2px}
 #evr-pdp .evr-tier.on .evr-tier-radio:after{content:"";position:absolute;inset:3px;border-radius:50%;background:var(--accent)}
@@ -388,6 +401,16 @@
           <div class="evr-tier-picks">
             <label class="evr-pick-row"><span class="evr-pick-l">{{ section.settings.pick_label }}</span><span class="evr-pick-wrap"><select class="evr-pick evr-v" data-slot="1" aria-label="{{ section.settings.pick_label }}">{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} (out of stock){% endunless %}</option>{%- endfor -%}</select></span></label>
           </div>
+          {%- if section.settings.show_gifts -%}
+          <div class="evr-gifts">
+            <p class="evr-gifts-h">{{ section.settings.gifts_heading }}</p>
+            <ul>
+            <li><span class="evr-gift-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 11h16v9H4zM3 7h18v4H3zM12 7v13M12 7c-1.5-3-5-3-5-.5S10 7 12 7zm0 0c1.5-3 5-3 5-.5S14 7 12 7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><span class="evr-gift-t"><b>{{ section.settings.gift_kit_title }}</b><small>{{ section.settings.gift_kit_sub }}</small></span><span class="evr-gift-v"><s>{{ section.settings.gift_kit_value }}</s>FREE</span></li>
+            <li><span class="evr-gift-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 11h16v9H4zM3 7h18v4H3zM12 7v13M12 7c-1.5-3-5-3-5-.5S10 7 12 7zm0 0c1.5-3 5-3 5-.5S14 7 12 7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><span class="evr-gift-t"><b>{{ section.settings.gift_swap_title }}</b><small>{{ section.settings.gift_swap_sub }}</small></span><span class="evr-gift-v"><s>{{ section.settings.gift_swap_value }}</s>FREE</span></li>
+            <li><span class="evr-gift-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 11h16v9H4zM3 7h18v4H3zM12 7v13M12 7c-1.5-3-5-3-5-.5S10 7 12 7zm0 0c1.5-3 5-3 5-.5S14 7 12 7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><span class="evr-gift-t"><b>{{ section.settings.gift_trial_title }}</b><small>{{ section.settings.gift_trial_sub }}</small></span><span class="evr-gift-v">INCLUDED</span></li>
+            </ul>
+          </div>
+          {%- endif -%}
         </div>
 
         <div class="evr-tier" tabindex="0" data-qty="2"
@@ -411,6 +434,17 @@
             <label class="evr-pick-row"><span class="evr-pick-l">{{ section.settings.pick_label_1 }}</span><span class="evr-pick-wrap"><select class="evr-pick evr-v" data-slot="1" aria-label="{{ section.settings.pick_label_1 }}">{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} (out of stock){% endunless %}</option>{%- endfor -%}</select></span></label>
             <label class="evr-pick-row"><span class="evr-pick-l">{{ section.settings.pick_label_2 }}</span><span class="evr-pick-wrap"><select class="evr-pick evr-v" data-slot="2" aria-label="{{ section.settings.pick_label_2 }}">{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} (out of stock){% endunless %}</option>{%- endfor -%}</select></span></label>
           </div>
+          {%- if section.settings.show_gifts -%}
+          <div class="evr-gifts">
+            <p class="evr-gifts-h">{{ section.settings.gifts_heading }}</p>
+            <ul>
+            <li><span class="evr-gift-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 11h16v9H4zM3 7h18v4H3zM12 7v13M12 7c-1.5-3-5-3-5-.5S10 7 12 7zm0 0c1.5-3 5-3 5-.5S14 7 12 7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><span class="evr-gift-t"><b>2 × {{ section.settings.gift_kit_title }}</b><small>{{ section.settings.gift_kit_sub }}</small></span><span class="evr-gift-v"><s>{{ section.settings.gift_kit_value_2 }}</s>FREE</span></li>
+            <li><span class="evr-gift-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 11h16v9H4zM3 7h18v4H3zM12 7v13M12 7c-1.5-3-5-3-5-.5S10 7 12 7zm0 0c1.5-3 5-3 5-.5S14 7 12 7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><span class="evr-gift-t"><b>{{ section.settings.gift_swap_title }}</b><small>{{ section.settings.gift_swap_sub }}</small></span><span class="evr-gift-v"><s>{{ section.settings.gift_swap_value }}</s>FREE</span></li>
+            <li><span class="evr-gift-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 11h16v9H4zM3 7h18v4H3zM12 7v13M12 7c-1.5-3-5-3-5-.5S10 7 12 7zm0 0c1.5-3 5-3 5-.5S14 7 12 7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><span class="evr-gift-t"><b>Free shipping</b><small>{{ section.settings.gift_ship_sub }}</small></span><span class="evr-gift-v"><s>{{ section.settings.gift_ship_value }}</s>FREE</span></li>
+            <li><span class="evr-gift-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 11h16v9H4zM3 7h18v4H3zM12 7v13M12 7c-1.5-3-5-3-5-.5S10 7 12 7zm0 0c1.5-3 5-3 5-.5S14 7 12 7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><span class="evr-gift-t"><b>{{ section.settings.gift_trial_title }}</b><small>{{ section.settings.gift_trial_sub }}</small></span><span class="evr-gift-v">INCLUDED</span></li>
+            </ul>
+          </div>
+          {%- endif -%}
         </div>
       </div>
       <p class="evr-pick-s">{{ section.settings.pick_help }}</p>
@@ -580,10 +614,9 @@
   <h2 id="evr-stack-h">{{ section.settings.stack_h }}</h2>
   <div class="stack">
     <div class="srow"><b>{{ product.title }}</b><span class="val" id="evr-stack-price">{{ p1 | money }}</span></div>
-    <div class="srow"><b>Remote control</b><span class="val">Included</span></div>
+    <div class="srow"><b>{{ section.settings.gift_kit_title }}</b><span class="val">{{ section.settings.gift_kit_value }} · Free</span></div>
     <div class="srow"><b>Free size swap</b><span class="val">{{ section.settings.swap_value }}</span></div>
-    <div class="srow"><b>Simple sizing and install card</b><span class="val">Included</span></div>
-    <div class="srow"><b>60-day home trial</b><span class="val">Included</span></div>
+        <div class="srow"><b>60-day home trial</b><span class="val">Included</span></div>
     <div class="srow"><b>Free shipping on 2-packs</b><span class="val">{{ section.settings.ship_value }}</span></div>
   </div>
   <p style="margin-top:22px"><b>Two rooms? {{ p2_each | money }} each.</b> {{ section.settings.stack_bundle_line }}</p>
@@ -855,7 +888,7 @@
 
     tiers.forEach(function(t){
       t.addEventListener('click', function(e){
-        if(e.target.closest && e.target.closest('.evr-tier-picks')) { if(!t.classList.contains('on')) pickTier(t); return; }
+        if(e.target.closest && e.target.closest('.evr-tier-picks, .evr-gifts')) { if(!t.classList.contains('on')) pickTier(t); return; }
         pickTier(t);
       });
       t.addEventListener('keydown', function(e){
@@ -1080,6 +1113,21 @@
     { "type": "text", "id": "t2_label", "label": "Tier 2 name", "default": "Two vents" },
     { "type": "text", "id": "t2_sub", "label": "Tier 2 subline", "default": "Two rooms \u00b7 mix sizes or colors \u00b7 free shipping" },
     { "type": "text", "id": "t2_badge", "label": "Tier 2 badge", "default": "Best value" },
+
+    { "type": "header", "content": "Free with your vent (gift stack in the bundle cards)" },
+    { "type": "checkbox", "id": "show_gifts", "label": "Show the gift stack", "default": true },
+    { "type": "text", "id": "gifts_heading", "label": "Heading", "default": "Free with your order" },
+    { "type": "text", "id": "gift_kit_title", "label": "Kit: name", "default": "Complete install kit" },
+    { "type": "text", "id": "gift_kit_sub", "label": "Kit: line", "default": "Remote, power cable, screws and a simple manual. Nothing else to buy." },
+    { "type": "text", "id": "gift_kit_value", "label": "Kit: value (one vent)", "default": "$24.99" },
+    { "type": "text", "id": "gift_kit_value_2", "label": "Kit: value (two vents)", "default": "$49.98" },
+    { "type": "text", "id": "gift_swap_title", "label": "Swap: name", "default": "Free size swap" },
+    { "type": "text", "id": "gift_swap_sub", "label": "Swap: line", "default": "Measured wrong? We send the right one." },
+    { "type": "text", "id": "gift_swap_value", "label": "Swap: value", "default": "$20.00" },
+    { "type": "text", "id": "gift_ship_sub", "label": "Free shipping line (two vents)", "default": "On the 2-pack" },
+    { "type": "text", "id": "gift_ship_value", "label": "Free shipping value", "default": "$9.95" },
+    { "type": "text", "id": "gift_trial_title", "label": "Trial: name", "default": "60-day home trial" },
+    { "type": "text", "id": "gift_trial_sub", "label": "Trial: line", "default": "Try it in that room. Not helping? Send it back." },
     { "type": "text", "id": "single_ship_note", "label": "Single price note", "default": "+ $9.95 shipping" },
     { "type": "text", "id": "bundle_ship_note", "label": "2-pack price note", "default": "Free shipping" },
     { "type": "text", "id": "size_note", "label": "Size option subline", "default": "Fits this duct opening" },
