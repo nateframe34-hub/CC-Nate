@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-05** — Founder corrections: shipping isn't shown until checkout, so it can't explain 0 ATC (it would show as ATC→purchase drop-off), so the free-shipping trigger is withdrawn. Added urgency: a "Fall sale · $89.99 ends in" countdown in the PDP announcement bar (settings `sale_on`, `sale_end` default 2026-10-31 23:59; it hides itself after the end date, and an empty date counts to midnight daily).
+
 - **2026-10-05** — Register fan days 1–2: ~$76 spend, 31 link clicks, ~30 LPV, 0 ATC. Tracking confirmed working (founder). Decision: hold, no offer change before ~$150 spend. Pre-committed first offer test if still 0 ATC at $150: free shipping on singles. Early leaders: B2C3 Pubity (5.8% CTR, $1.29 CPC) and B2C1b (5.45%). B1C2 has the highest CPM. Tracker started: `register-fan/tracking/Ad_Performance_Tracker.csv`.
 
 - **2026-10-03** — Register fan ads scheduled to go live at midnight (founder). Batch 1 (SA1 A1: B1C1 native, B1C2 Relatable Hook, B1C3 whiteboard) and Batch 2 (SA1 A3: B2C1 + B2C1b natives, B2C2 Solution Exaggeration, B2C3 Pubity), ABO, $20/day per ad set. Kill/scale per `Kill_Rules.md`: no kills before day 4, no ad-level pauses before ~day 7, product kill at $300 with no purchase intent.

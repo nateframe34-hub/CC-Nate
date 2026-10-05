@@ -91,6 +91,12 @@
 #evr-pdp .evr-cart-n{position:absolute;top:4px;right:2px;min-width:18px;height:18px;border-radius:9px;background:var(--accent);color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;padding:0 4px}
 #evr-pdp .evr-cart-n[hidden]{display:none}
 
+/* sale countdown bar */
+#evr-pdp .evr-sale{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;background:var(--accent);color:#fff}
+#evr-pdp .evr-sale span{margin:0}
+#evr-pdp .evr-sale-tag{background:#fff;color:var(--accent);font-family:var(--hdr);font-weight:800;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:999px}
+#evr-pdp .evr-sale-clock{font-family:'JetBrains Mono',ui-monospace,monospace;font-weight:700;font-size:14px;letter-spacing:.04em;font-variant-numeric:tabular-nums}
+
 /* announcement */
 #evr-pdp .announce{background:var(--ink);color:var(--bg);font-size:13px;letter-spacing:.04em;text-align:center;padding:10px 16px}
 #evr-pdp .announce span{margin:0 10px;white-space:nowrap}
@@ -309,9 +315,17 @@
   </button>
   {%- if section.settings.wordmark != blank -%}<span class="evr-wordmark">{{ section.settings.wordmark }}</span>{%- endif -%}
 </div>
+{%- if section.settings.sale_on -%}
+<div class="announce evr-sale" id="evr-sale" data-end="{{ section.settings.sale_end }}">
+  <span class="evr-sale-tag">{{ section.settings.sale_label }}</span>
+  <span>{{ section.settings.sale_text }}</span>
+  <span class="evr-sale-clock" id="evr-sale-clock" aria-live="off">--:--:--</span>
+</div>
+{%- else -%}
 <div class="announce">
   <span>60-day returns</span><span>·</span><span>Free shipping on 2-packs</span>
 </div>
+{%- endif -%}
 
 <!-- ================= 2. HERO ================= -->
 <div class="wrap">
@@ -1016,6 +1030,37 @@
 {%- endif -%}
 
 
+
+{%- if section.settings.sale_on -%}
+<script>
+(function(){
+  try{
+    var bar = document.getElementById('evr-sale'), clk = document.getElementById('evr-sale-clock');
+    if(!bar || !clk) return;
+    var raw = (bar.getAttribute('data-end') || '').trim();
+    function target(){
+      var now = new Date();
+      if(raw){
+        var t = new Date(raw.replace(' ', 'T'));
+        if(!isNaN(t) && t > now) return t;
+        if(!isNaN(t)) return null; // sale over
+      }
+      var m = new Date(now); m.setHours(24,0,0,0); return m; // no date set: counts to local midnight
+    }
+    function pad(n){ return (n < 10 ? '0' : '') + n; }
+    function tick(){
+      var t = target();
+      if(!t){ bar.style.display = 'none'; return; }
+      var d = Math.max(0, Math.floor((t - new Date()) / 1000));
+      var days = Math.floor(d / 86400), h = Math.floor(d % 86400 / 3600), m = Math.floor(d % 3600 / 60), sec = d % 60;
+      clk.textContent = (days ? days + 'd ' : '') + pad(h) + ':' + pad(m) + ':' + pad(sec);
+    }
+    tick(); setInterval(tick, 1000);
+  }catch(e){}
+})();
+</script>
+{%- endif -%}
+
 {% schema %}
 {
   "name": "Evenroom PDP (SA1)",
@@ -1065,6 +1110,12 @@
     { "type": "textarea", "id": "hand_yes_b", "label": "Yes: body", "default": "This fixes that. It pulls the cold air into the room." },
     { "type": "text", "id": "hand_no_h", "label": "No: heading", "default": "No air at all?" },
     { "type": "textarea", "id": "hand_no_b", "label": "No: body", "default": "Don't buy this. The duct is blocked, and no fan can fix that." },
+
+    { "type": "header", "content": "Sale countdown (announcement bar)" },
+    { "type": "checkbox", "id": "sale_on", "label": "Show sale countdown instead of the normal announcement", "default": true },
+    { "type": "text", "id": "sale_label", "label": "Badge", "default": "Fall sale" },
+    { "type": "text", "id": "sale_text", "label": "Text", "default": "$89.99 ends in" },
+    { "type": "text", "id": "sale_end", "label": "Sale end date and time", "default": "2026-10-31 23:59", "info": "Format YYYY-MM-DD HH:MM (shopper's local time). After this the bar hides itself. Leave empty to count down to midnight every day." },
 
     { "type": "header", "content": "Top bar + cart" },
     { "type": "text", "id": "wordmark", "label": "Wordmark in the top bar", "default": "Evenroom" },
