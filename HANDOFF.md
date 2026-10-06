@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-06** — Relaunch day 1 weak. Founder giving it one more day, then a final cut decision. Killed ads that spent past target CPA (~$57) with no purchase, or had CPM over $200 after $20+ spend, so the budget goes to the rest in the short window.
+
 - **2026-10-06** — Image fixes: B3C2 and B3C3 prompts now lock the vent's orientation (horizontal, no crossbar, display at the right end; it kept standing on end). B1C1b prompt: faint back-and-shoulder damp patch instead of a full-body silhouette, box fan standing on the carpet. Approved and shipping: B4C1, B4C2, B4C3, B3C1.
 
 - **2026-10-05** — Founder decision: final test window. Relaunch with the new batches (CBO, gift stack, cold ads) and run 2–3 days. If no buying intent (no ATC or checkout) shows, cut the register fan and move to a new product.
