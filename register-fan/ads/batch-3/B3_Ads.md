@@ -83,9 +83,14 @@ round photos on the right, and a red sale starburst.
        the last room on the duct run only gets the warm air that's left over
    (all lowercase, exactly as written).
 
-4. PRODUCT (left, from about x = 40 to x = 470, y = 560 to y = 1180): the vent cover
-   described below, tilted about 20 degrees as if floating, slightly angled toward the
-   viewer, display lit, with a soft shadow beneath.
+4. PRODUCT (left, from about x = 30 to x = 500, y = 640 to y = 1080): the vent cover
+   described below, lying HORIZONTALLY, tilted only slightly (about 10 degrees) as if
+   floating, display lit, with a soft shadow beneath.
+   ORIENTATION (critical): the vent is HORIZONTAL, wider than it is tall, exactly like
+   the reference. One continuous grille of 18 thin VERTICAL bars across the left 70%,
+   with NO crossbar dividing it. Two fans side by side behind the bars. The small black
+   display panel sits at the RIGHT end of the vent. Do NOT stand the vent on end. Do NOT
+   rotate it. Do NOT move the display to the top.
    Use the attached reference image ONLY for the product's appearance. Do NOT include the
    remote. Do not copy the reference's background or layout.
    THE PRODUCT: a flat rectangular WHITE floor vent cover with two built-in fans, about 2.4
@@ -180,10 +185,16 @@ headline, a product with a white sticker outline, and three handwritten bullet p
    Typeface: a clean, friendly, handwritten-style marker font (like Patrick Hand or
    Kalam), white (#FFFFFF), about 92 px. Centred. Not cursive, not messy.
 
-3. PRODUCT (left, x about 50 to 560, y about 430 to 1150): the vent cover described
-   below, standing upright and slightly angled, display lit, with a thick white (about
-   14 px) sticker-style outline traced around its whole silhouette, like a die-cut
-   sticker on the dark background. Soft drop shadow.
+3. PRODUCT (left, x about 40 to 600, y about 600 to 940): the vent cover described
+   below, lying HORIZONTALLY and slightly angled toward the viewer, display lit, with a
+   thick white (about 14 px) sticker-style outline traced around its whole silhouette,
+   like a die-cut sticker on the dark background. Soft drop shadow.
+   ORIENTATION (critical): the vent is HORIZONTAL, wider than it is tall, exactly like
+   the reference. One continuous grille of 18 thin VERTICAL bars across the left 70%,
+   with NO crossbar dividing it. Two fans side by side behind the bars. The small black
+   display panel sits at the RIGHT end of the vent. Do NOT stand the vent on end. Do NOT
+   rotate it. Do NOT move the display to the top.
+   The display digits are large, crisp and read exactly "69" with a small "°F".
    Use the attached reference image ONLY for the product's appearance. Do NOT include the
    remote. Do not copy the reference's background or layout.
    THE PRODUCT: a flat rectangular WHITE floor vent cover with two built-in fans, about 2.4

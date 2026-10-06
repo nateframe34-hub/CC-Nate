@@ -151,18 +151,20 @@ $89.99. 60-day returns.
 A candid, unposed smartphone photograph looking down at an unmade double bed in an
 ordinary North American suburban bedroom on a very hot summer afternoon, about 3:30 pm.
 
-THE BED: light grey cotton fitted sheet, rumpled and pulled loose at one corner, with a
-clearly visible damp, darker body-shaped sweat outline across the middle of the sheet
-where someone just lay, the damp patch slightly darker grey with soft uneven edges. The
-top sheet and a white duvet are kicked down into a heap at the foot of the bed. One
-pillow pushed aside, its case slightly crumpled with a faint damp mark.
+THE BED: light grey cotton fitted sheet, rumpled and pulled loose at one corner. On the
+sheet, a soft, irregular, FAINT damp patch where someone's back and shoulders were lying:
+slightly darker grey, uneven blurry edges fading into the dry sheet, about the size of a
+person's upper back. It is NOT a full body outline, NOT a silhouette, NOT a shape with
+arms or legs. A small faint damp spot on the pillowcase. The top sheet and a white duvet
+are kicked down into a heap at the foot and side of the bed. One pillow pushed aside.
 
 LIGHT: hard, low, golden late-afternoon sun (about 4500 K) coming through a west-facing
 window with white mini-blinds half-closed, throwing bright slatted stripes of light
 across the sheet and the damp patch. Warm, high contrast, clearly hot.
 
-PROPS: at the foot of the bed, the top edge of a black box fan on the carpet, running
-(blades a soft blur), its manufacturer's label visible like a real store-bought fan. A
+PROPS: a black 20-inch box fan standing upright on the carpet at the foot of the bed,
+facing the bed, running (blades a soft blur), its manufacturer's label visible like a
+real store-bought fan. It stands on the carpet, not inside anything. A
 glass of water with condensation on the nightstand at the edge of the frame. Greige
 walls (#D9D2C5).
 
@@ -172,7 +174,7 @@ stripes, natural warm white balance. No HDR, no cinematic grade, no vignette.
 
 MOOD: she just gave up on the nap and sat up.
 
-EXCLUDE: people, bodies, faces, hands, pets, any vent or vent cover, any text, captions,
+EXCLUDE: body outlines or silhouettes on the sheet, people, bodies, faces, hands, pets, any vent or vent cover, any text, captions,
 logos added to the image, overlays.
 
 Aspect ratio 4:5, 1080 x 1350.
