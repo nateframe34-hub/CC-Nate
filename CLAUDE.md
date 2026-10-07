@@ -4,6 +4,12 @@
 
 ## Active Focus
 
+> ## ⛔ REGISTER FAN (EVENROOM) DISCONTINUED 2026-10-07
+>
+> Launched Oct 3, cut after ~4 days of paid traffic and one relaunch. Cheap clicks (best $1.25 CPC, far below tallow) but zero buying intent, and the unit economics (COGS $39.83 on $89.99, breakeven ROAS 1.76×) left no room even if it had sold. With Q4 starting, the founder is moving to seasonal products.
+>
+> **Read `register-fan/POST_MORTEM.md` AND `tallow-cream/POST_MORTEM.md` before choosing the next product.** Together they hold the selection checklist (COGS ≤ ~30% of price, in season with 6+ weeks of runway, one-decision purchase with no measuring, not easily found cheaper, Q4 giftable/seasonal). The reusable store code (PDP section with bundles, cart drawer, gift stack, countdown) is in `register-fan/store/theme/`.
+
 > ## ⛔ TALLOW CREAM DISCONTINUED 2026-08-04
 >
 > Founder call after ~4 months, ~$2,000 spend, ~26 purchases and zero
