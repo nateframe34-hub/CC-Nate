@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-11** — Next product candidate (founder): a retro handheld emulator (Game Boy style), a Q4 gifting product. Founder ran it last Q4 and reached about breakeven by New Year with little experience. Proposed timeline: build Oct 11–20, test launch ~Oct 20–27, scale through November, BFCM Nov 27–Dec 1, last gift-delivery push to the shipping cutoff (~Dec 10–14), then a post-Christmas self-purchase/gift-card phase. Open: COGS, price, shipping time, stock depth, IP and ad-policy risk (preloaded games, Nintendo trade dress).
+
 - **2026-10-07** — **Register fan discontinued** (founder): no buying intent, and the unit economics needed too high a ROAS to justify more time. Q4 seasonal products are a better use of budget. Post-mortem: `register-fan/POST_MORTEM.md` (total spend still to be filled in from Ads Manager). Next: product selection for Q4, using both post-mortems' checklists.
 
 - **2026-10-06** — Relaunch day 1 weak. Founder giving it one more day, then a final cut decision. Killed ads that spent past target CPA (~$57) with no purchase, or had CPM over $200 after $20+ spend, so the budget goes to the rest in the short window.
