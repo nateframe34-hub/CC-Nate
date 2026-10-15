@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-15** — Analysed "The Brand Builder's Engine" (Mark Builds Brands) → `research/Brand_Builders_Engine_Analysis.md`. Adopt for the handheld: four Foundational Docs including the new **Necessary Beliefs** doc, swipe hunt (7+ days running), 80/20 swipes/originals, the without/discredit/specificity frameworks, video from week 1 (demo-able product, short Q4 window), and an advertorial test. Push back: curiosity must pre-qualify (register fan lesson), ~10–15 ads/week is our budget ceiling, direct ads matter more in Q4 gifting.
+
 - **2026-10-11** — Retro handheld AOV levers (founder): carry cases and joystick covers, as upsells and free gifts. Plan: the case answers "will it break / get scratched / travel" (free on 2+ units, paid add-on on singles); the joystick covers are a cheap cart/post-purchase add-on. Built into the existing gift-stack and cart-drawer code. Need unit costs for both.
 
 - **2026-10-11** — Retro handheld cleared by founder: IP and Meta-policy risk accepted (founder has run it, and a single-product store did ~$400k/month on it last year), supplier has stock, margins work. Remaining inputs before the build: exact COGS, price, shipping time and origin, last year's numbers. Standing creative rule: no Nintendo, Game Boy or real game names or screenshots in ads (cheap insurance).
