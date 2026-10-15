@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-15** — Retro handheld SA and angle map v1: `retro-handheld/SubAvatars_and_Angles.md`. Core avatar: "feel how those games made me feel, or give it to someone I love." SA1 Gamer (proven: founder's "Gamers walk don't run to Target" callout), SA2 Rememberer (proven: $400k store's nostalgia angle), SA3 Parent sharing with kids, SA4 Couple, SA5 Gift-giver (Q4 volume), SA6 Travel parent. Seven Necessary Beliefs. Test order: SA1 → SA2 → SA3 → SA5 → SA4. Needs product facts, economics, last year's ad, competitor ads, research pass.
+
 - **2026-10-15** — Analysed "The Brand Builder's Engine" (Mark Builds Brands) → `research/Brand_Builders_Engine_Analysis.md`. Adopt for the handheld: four Foundational Docs including the new **Necessary Beliefs** doc, swipe hunt (7+ days running), 80/20 swipes/originals, the without/discredit/specificity frameworks, video from week 1 (demo-able product, short Q4 window), and an advertorial test. Push back: curiosity must pre-qualify (register fan lesson), ~10–15 ads/week is our budget ceiling, direct ads matter more in Q4 gifting.
 
 - **2026-10-11** — Retro handheld AOV levers (founder): carry cases and joystick covers, as upsells and free gifts. Plan: the case answers "will it break / get scratched / travel" (free on 2+ units, paid add-on on singles); the joystick covers are a cheap cart/post-purchase add-on. Built into the existing gift-stack and cart-drawer code. Need unit costs for both.
