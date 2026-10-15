@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-15** — Founder correction: the research pack is written for self-buyers, but in Q4 PocketArcade sells mainly as a **gift**. SA map rebuilt as v3, gift-first (`retro-handheld/SubAvatars_and_Angles.md`): SA1 Partner buying for him, SA2 Parent buying for kid, SA3 Gamer gifting (proven call-out), SA4 Grandparent/aunt/uncle, SA5 Family bundle. Giver's 7-belief ladder (they'll love it, I can't get it wrong, not junk, arrives before Christmas, value, honest store, nothing bad on it). Self-buyer map kept as `SubAvatars_and_Angles_v2_selfbuyer.md` for after Christmas.
+
 - **2026-10-15** — PocketArcade research pack saved to `retro-handheld/research/` (Market Overview, Deep Research, Offer Brief, Necessary Beliefs, Avatar, Founder Ad Angles). SA map rebuilt as v2: SA1 Gamer (proven), SA2 Rememberer (proven), **SA3 Done-With-Modern-Gaming (strongest in the research)**, SA4 Parent (validated by quotes; car rides, no ads), SA5 Commuter/long drives, SA6 Gift-giver (Q4 volume), SA7 Couple. Belief ladder 1–6 from the pack plus 4 Q4 beliefs. Test order: SA1 → SA3 → SA2 → SA4, SA6 from ~Nov 10.
 
 - **2026-10-15** — Retro handheld SA and angle map v1: `retro-handheld/SubAvatars_and_Angles.md`. Core avatar: "feel how those games made me feel, or give it to someone I love." SA1 Gamer (proven: founder's "Gamers walk don't run to Target" callout), SA2 Rememberer (proven: $400k store's nostalgia angle), SA3 Parent sharing with kids, SA4 Couple, SA5 Gift-giver (Q4 volume), SA6 Travel parent. Seven Necessary Beliefs. Test order: SA1 → SA2 → SA3 → SA5 → SA4. Needs product facts, economics, last year's ad, competitor ads, research pass.
