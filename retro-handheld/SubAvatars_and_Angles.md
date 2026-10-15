@@ -1,129 +1,157 @@
-# Retro Handheld: Sub-Avatars & Angles (v1)
+# PocketArcade (R36S): Sub-Avatars & Angles (v2)
 
-**Created 2026-10-15.** Q4 gifting product. Built to the Origins spec: **sub-avatar = desire + experience + emotion + behaviour** (not demographics); **angle = the reason to buy**; **hook = how it's said**.
-**Read with:** `research/Brand_Builders_Engine_Analysis.md` (Foundational Docs, Necessary Beliefs), `register-fan/POST_MORTEM.md`.
+**Rebuilt 2026-10-15 from the founder's research pack** (`retro-handheld/research/`: Market Overview, Deep Research, Offer Brief, Necessary Beliefs, Avatar, Founder Ad Angles). Replaces v1.
+**Spec:** Origins. Sub-avatar = desire + experience + emotion + behaviour; angle = reason to buy; hook = how it's said.
 
-> **Evidence status.** Two proven signals: (1) the founder's own winning ad last Q4 was a **direct avatar call-out to gamers** ("Gamers walk don't run to Target for this" + product b-roll); (2) the **$400k/month store ran a nostalgia angle** ("play the classics you love"). Everything else below is a founder or strategist hypothesis until the customer research pass (Reddit, Amazon and competitor reviews, the big store's ad comments) confirms it. Each SA is marked.
-
-> **Standing creative rule:** never name Nintendo, Game Boy, Pokémon or real game titles, and never show real game screenshots. Sell the feeling: *"the classics"*, *"the games you grew up on"*, *"retro"*. Cheap insurance against ad rejections in December.
+> **Product facts from the pack:** R36S-class retro handheld, sold as **PocketArcade**, **$75.99**. Thousands of preloaded classic games, ready to play, **offline: no ads, no internet, no in-app payments**. Same hardware as competitors (Anbernic/PowKiddy class; "RetroGamer Pro" from Retro Games Official is near-identical).
+> **Standing creative rule:** no Nintendo, Game Boy, Pokémon or real game titles or screenshots in ads. The research is full of those names (that's how customers talk), but ads sell the feeling.
 
 ---
+
+## What the research changes from v1
+
+1. **A third proven-strength desire appears: escaping modern gaming.** The research's dominant emotion isn't only nostalgia. It's **anger at predatory modern/mobile gaming** (ads, paywalls, grind, "cash grabs") and **relief** at something offline and honest. The Offer Brief's big idea: *"Modern gaming didn't evolve, it got corrupted. PocketArcade is how you escape it."* That gets its own sub-avatar (SA3).
+2. **Nostalgia is reframed as sanity, not weakness.** Necessary Belief 2: *"my frustration is rational, not nostalgia or bitterness."* Nostalgia copy must never make the buyer feel "stuck in the past."
+3. **Kids + offline is validated by real customers:** *"My kids love it too, no ads, no distractions, just pure gaming."* · *"I got it for his 10th birthday and he loves me showing him the games I used to play."*
+4. **Gift-giving partner is validated:** a *"clueless wife"* on Reddit buying one for her husband's birthday. ~20–30% of buyers are women, mostly gift buyers.
+5. **Founder added three angles:** long drives / commute · kids' car rides · show your kids the classics you love.
+6. **Trust is a weapon.** The biggest ad-heavy competitor (Retro Games Official) has Trustpilot complaints: fake 50%-off pricing, poor QC, ghosted refunds. **Being the honest seller is an angle in its own right.**
 
 ## Core avatar
 
-**"I want to feel the way those games made me feel, or give that feeling to someone I love."**
-
-This product has **two buyers**, and Q4 changes which one matters most:
-- **Self-buyers:** adults buying for their own nostalgia. They buy year-round.
-- **Gift-givers:** buying for a gamer, a partner, a kid. **Q4 is mostly these**, and the buyer is often **not** the user.
+**"I want gaming to feel the way it used to: simple, fun, mine. Or I want to give that to someone I love."**
 
 ## Sub-avatars
 
-### SA1 · The Gamer ⭐ PROVEN (founder's winning ad)
+### SA1 · The Gamer ⭐ PROVEN (founder's winning ad last Q4)
 | | |
 |---|---|
-| **Desire** | A great handheld that's worth it, before everyone else finds out |
-| **Experience** | Already plays games. Knows what an emulator handheld is, or nearly. Watches gaming content |
-| **Emotion** | FOMO, deal-hunting, "insider find" excitement |
-| **Behaviour** | Hunts deals and gear; responds to "you need to see this" |
-| **Awareness** | Solution- to product-aware. Direct ads work |
-| **Why it worked** | The call-out names exactly who it's for in the first second, and the product b-roll does the selling. Simple and direct |
+| **Desire** | A great handheld at a great price, found before everyone else |
+| **Experience** | Plays games, knows roughly what an emulator handheld is |
+| **Emotion** | FOMO, "insider find" excitement |
+| **Behaviour** | Hunts gear and deals; responds to "you need to see this" |
+| **Awareness** | Solution → product aware. **Direct ads** |
 
-**Angles**
-- **A1 · The find:** this is the one gamers are grabbing. *"Gamers, walk don't run to Target for this"* (the proven hook; iterate it, don't replace it)
-- **A2 · Thousands of games in your pocket:** all the classics on one device, no cartridges
-- **A3 · The price:** a full retro library for less than one new console game
+- **A1 · The find:** *"Gamers, walk don't run to Target for this"* + product b-roll. **Rebuild first, then iterate the call-out**
+- **A2 · Thousands of games, one pocket, no cartridges**
+- **A3 · Value:** an entire classic library for the price of one new game ($75.99 vs ~$70 AAA)
 
-### SA2 · The Rememberer (relive your childhood favourites) ⭐ PROVEN (the big store's angle)
+### SA2 · The Rememberer ⭐ PROVEN (the $400k/month store's angle)
 | | |
 |---|---|
-| **Desire** | To feel like a kid again, even for 20 minutes |
-| **Experience** | Grew up on handhelds in the 90s/2000s. Hasn't gamed seriously in years. Modern games feel like too much |
-| **Emotion** | Nostalgia, warmth, a little longing |
-| **Behaviour** | Shares retro memes, watches "remember this?" videos, buys nostalgic things for themselves |
-| **Awareness** | Problem-unaware, desire-aware. Indirect ads, then the reveal |
+| **Desire** | To feel like a kid again; *"comfort food for my brain"* |
+| **Experience** | Grew up 80s–2000s on handhelds and consoles. Hasn't gamed seriously in years |
+| **Emotion** | Nostalgia, warmth; *"it's like a time machine"* |
+| **Behaviour** | Shares retro memes; *"bought a red one because I had an OG red one as a kid"* |
+| **Awareness** | Desire-aware. **Indirect → reveal** |
 
-**Angles**
-- **A1 · The classics you grew up on, in one pocket:** *"Remember staying up past bedtime with this under the covers?"*
-- **A2 · Simpler than modern gaming:** no updates, no accounts, no online, no microtransactions. Turn it on and play
-- **A3 · The feel:** real buttons, the click, the d-pad. Not a phone screen
+- **A1 · Play the classics you loved:** *"Remember playing under the covers with a flashlight?"*
+- **A2 · The feel:** real buttons, d-pad, the click. Not a phone screen
+- **A3 · Comfort before bed:** *"one more game before sleep"* (research: wind-down, nightstand use)
 
-### SA3 · The Parent Who Wants to Share It ⭐ founder hypothesis, strong for Q4
+### SA3 · The Done-With-Modern-Gaming Gamer ⭐ STRONGEST IN THE RESEARCH (new)
 | | |
 |---|---|
-| **Desire** | To share something they loved with their kids |
-| **Experience** | Has kids roughly 6–14. Grew up on these games. Kids live on tablets and phones |
-| **Emotion** | Warmth, pride, a little wistfulness ("they don't know what they missed") |
-| **Behaviour** | Tells their kids about "back in my day", looks for screen time they feel better about |
-| **Buyer ≠ user** | Often buys **two** (one for them, one for the kid) → the 2-pack |
+| **Desire** | Fun with no strings: no ads, no paywalls, no grind, no internet |
+| **Experience** | Tried mobile games, felt scammed. Consoles feel bloated. Gaming became a chore |
+| **Emotion** | **Anger and betrayal → relief.** *"Gaming used to be my escape, now it stresses me out."* |
+| **Behaviour** | Deletes mobile games in frustration; *"I refuse to spend money on mobile games"*; values ownership |
+| **Awareness** | Problem → solution aware. Offer Brief: Stage 4–5, skeptical; needs belief shift, not specs |
 
-**Angles**
-- **A1 · Share the classics you loved with your kids:** *"My son thinks I'm a legend now."*
-- **A2 · Screen time you actually feel okay about** ⚠️ verify the product claims first (offline, no ads, no in-app purchases, no internet). If true, this is a very strong parent reason to buy
-- **A3 · One for you, one for them:** play together. Drives the 2-pack
+- **A1 · Gaming before it was ruined:** *"No ads. No internet. No paywalls. Just games."*
+- **A2 · Buy once, own it forever:** no subscriptions, no microtransactions, nothing to update
+- **A3 · Your phone isn't a game console:** notifications, battery drain, touch controls. *"It's just not the same."* (Handle carefully: sell the experience, don't remind them a $50 phone controller exists)
+- **Mechanism (Offer Brief):** *"Closed-loop gaming"* (offline, finite, non-monetized, self-contained). Problem mechanism: *"the attention-extraction trap"*
 
-### SA4 · The Couple Who Plays Together · founder hypothesis
+### SA4 · The Parent Who Shares It ⭐ VALIDATED by customer quotes + founder angle
 | | |
 |---|---|
-| **Desire** | Something fun and shared with a partner that isn't another show |
-| **Experience** | Both grew up gaming, or one did. Evenings on the couch |
-| **Emotion** | Playfulness, connection, friendly rivalry |
-| **Behaviour** | Looks for date-night ideas and couple gifts |
+| **Desire** | To share what they loved with their kids, and screen time they feel good about |
+| **Experience** | Kids ~6–14 on tablets, ads and in-app purchases. Parent grew up on these games |
+| **Emotion** | Warmth and pride (*"he thinks I'm cool now"*), relief at no ads/no spending |
+| **Behaviour** | Shows kids "the games I used to play"; often buys **two** |
 
-**Angles**
-- **A1 · You and your partner can play your favourite games:** two handhelds, one couch
-- **A2 · The gift for the partner who has everything:** a nostalgic gift that gets an actual reaction
+- **A1 · Show your kids the classics you love** (founder angle; *"he loves me showing him the games I used to play"*)
+- **A2 · No ads, no internet, no in-app purchases:** screen time without the store, the chat or the surprise charges (*"no ads, no distractions, just pure gaming"*)
+- **A3 · Kids' car rides** (founder angle): road trips and flights without handing over your phone (*"6-hour flight… I had to let my kids use my phone"*)
+- **A4 · One for you, one for them** → the 2-pack
 
-### SA5 · The Gift-Giver for a Gamer · Q4 hypothesis, likely the biggest volume in Nov–Dec
+### SA5 · The Commuter / Downtime Gamer (founder angle)
 | | |
 |---|---|
-| **Desire** | To give a gift that gets a real reaction, without guessing wrong |
-| **Experience** | Buying for a gamer (son, nephew, partner, brother) but isn't one. Afraid of buying the wrong thing |
-| **Emotion** | Gift anxiety, wanting to be "the one who got the good present" |
-| **Behaviour** | Searches "gifts for gamers", buys in November and early December, cares about delivery date |
-| **Awareness** | Solution-aware (needs *a* gift). **Direct ads work here**, more than the guide suggests |
+| **Desire** | Something better than scrolling for dead time |
+| **Experience** | Train or bus commute, flights, waiting rooms, passenger on long drives |
+| **Emotion** | Boredom, "reclaiming" small moments; *"my best travel entertainment"* |
+| **Behaviour** | Doom-scrolls in transit; wants offline, long battery, pocketable |
 
-**Angles**
-- **A1 · The gift they'll actually use:** not another thing in a drawer
-- **A2 · Works for any age:** the 10-year-old and the 40-year-old both want one
-- **A3 · Arrives before Christmas** (the real deadline urgency once the shipping cutoff approaches)
-- **A4 · Stocking-stuffer price for a "big" gift reaction** (depends on the final price)
+- **A1 · Perfect for long drives and the commute** (founder angle; passengers, transit, flights; never the driver)
+- **A2 · Offline anywhere:** no signal, no data, no problem
+- **A3 · Swap the scroll for a game:** the 20-minute train ride becomes the best part of the day
 
-### SA6 · The Road-Trip / Travel Parent · hypothesis, test later
-Keeps kids busy in the car, on planes, at restaurants, without a tablet and data. Pocketable, long battery. **Test after SA1–SA5.**
+### SA6 · The Gift-Giver ⭐ Q4 VOLUME (validated: "clueless wife" buying for her husband)
+| | |
+|---|---|
+| **Desire** | A gift that gets a real reaction, without guessing wrong |
+| **Experience** | Buying for a husband, boyfriend, son, nephew, brother. Not a gamer. Afraid of buying the wrong thing or a scam |
+| **Emotion** | Gift anxiety → "I nailed it" |
+| **Behaviour** | Searches "gifts for him", "gifts for gamers"; buys Nov to early Dec; cares about delivery date |
+| **Awareness** | Solution-aware (needs *a* gift). **Direct ads work** |
+
+- **A1 · The gift he'll actually use:** *"perfect gift for your boyfriend or husband"* is already how the market talks
+- **A2 · No setup, nothing to buy:** turn it on and play, games included (removes "will I get it wrong?")
+- **A3 · Arrives before Christmas:** real shipping-cutoff urgency from late November
+- **A4 · Stocking-stuffer price, big-gift reaction**
+
+### SA7 · The Couple · founder hypothesis, lower priority
+Two handhelds, one couch; the shared nostalgia. Mostly a 2-pack lever inside SA4/SA6 copy rather than its own batch.
 
 ---
 
-## Necessary Beliefs (what they must believe before buying)
+## Necessary Beliefs: the research's ladder + the Q4 additions
 
-Every ad should install at least one of these, and the PDP must install all of them.
+**From the pack (install in this order):**
+1. Modern games are designed to extract money and attention, not to be fun
+2. My frustration is rational, not nostalgia or bitterness
+3. Real gaming doesn't need ads, internet, updates or ongoing payments
+4. Older games are still genuinely fun, not just memories
+5. A dedicated device is a better, calmer experience than a phone or console
+6. Owning PocketArcade is a permanent escape, not another temporary fix
 
-| # | Belief | Where it gets installed |
+**Q4 / gift additions (from v1, still needed):**
+7. It's good quality, not a cheap gadget that breaks by January
+8. It will arrive before Christmas
+9. It's a gift that gets a reaction
+10. This store is honest and safe to buy from (vs the fake-sale competitor)
+
+**Pack's routing:** ads install 1–2, a pre-sell/VSL installs 3–4, the sales page installs 5–6. Note: **our ads won't go to a pre-sell at first** (direct to PDP, like last year's winner), so the PDP must carry 3–6 itself, and the advertorial is a test (per the Brand Builder analysis).
+
+---
+
+## How the angles fit the season
+
+| Window | Lead SAs | Why |
 |---|---|---|
-| 1 | **It's good quality**, not a cheap toy that breaks by January | Close-up b-roll, real-hands footage, reviews, the free case |
-| 2 | **It has the games I want** (the classics, enough of them) | "Thousands of classic-style games", genre montage (no real titles) |
-| 3 | **It's easy:** turn it on and play, no setup, no tech skills | "Out of the box", unboxing video |
-| 4 | **It will arrive before Christmas** | Shipping cutoff date on the ad and PDP from late November |
-| 5 | **It's worth the price** next to a big-name console or a phone game | Price anchor and value stack |
-| 6 | **It's a good gift** (it'll get a reaction) | Reaction videos, gift wrap or note option |
-| 7 | **It's safe to buy from this store** | Guarantee, reviews, fast support, real shipping times |
+| **Oct 20 – Nov 9 (test)** | SA1, SA2, SA3, SA4 | Find the message while CPMs are low. Self-buyers and parents |
+| **Nov 10 – Nov 26 (scale + gift ramp)** | Winners + **SA6** | Gift intent rises; the gift-giver becomes the volume |
+| **BFCM Nov 27 – Dec 1** | Winners, direct offer ads | Best offer of the season (free case on singles) |
+| **Dec 2 – cutoff** | SA6 + SA4 with "arrives before Christmas" | Real deadline urgency |
+| **After cutoff → Jan** | SA2, SA3, SA5 | Self-purchase, gift cards, "treat yourself" |
 
 ## Testing priority (first batches)
 
-| # | SA | Angle | Why first |
+| # | SA · angle | Format | Why |
 |---|---|---|---|
-| **1** | SA1 Gamer | A1 the find ("walk don't run") | **Proven by the founder.** Rebuild it first, then iterate the hook |
-| **2** | SA2 Rememberer | A1 the classics you grew up on | **Proven by the $400k store** |
-| **3** | SA3 Parent | A1 share it with your kids | Strongest Q4 gift emotion; drives the 2-pack |
-| 4 | SA5 Gift-giver | A1 the gift they'll actually use | Ramps in November with the gift season |
-| 5 | SA4 Couple | A1 play together | Cheap test; drives the 2-pack |
+| **1** | SA1 · A1 the find | **Video:** call-out hook + product b-roll (rebuild last year's winner) + 1 static | Proven by the founder |
+| **2** | SA3 · A1 gaming before it was ruined | Pubity / native + 1 video | Strongest emotion in the research; the pack's big idea |
+| **3** | SA2 · A1 the classics you loved | Video + Relatable Hook static | Proven by the $400k store |
+| **4** | SA4 · A1/A2 show your kids, no ads | Native + video | Validated by customer quotes; drives the 2-pack |
+| 5 | SA6 · A1 the gift he'll use | Direct static + video | From ~Nov 10 |
+| 6 | SA5 · A1 long drives / commute | Static + video | Founder angle; cheap test |
 
-**One batch = one angle.** 1 video + 1–2 statics per batch, given the product is demo-able (see the Brand Builder analysis: video from week 1).
+## Open inputs
 
-## Open inputs (needed before writing ads)
-
-- Product facts: number of games, screen size, battery hours, controls, charging, **does it have internet/ads/in-app purchases (for SA3 A2)**, colours
-- Cost, price, shipping time and origin
-- Last year's winning ad file or link, and its numbers
-- The $400k store's ads and PDP (screenshots from the Meta Ad Library)
-- Customer research pass: reviews and Reddit threads on similar handhelds, for verbatim language
+- Last year's winning video (file or link) and its numbers
+- COGS, shipping cost and time/origin (sets the Christmas cutoff)
+- Case and joystick-cover costs (bundle math)
+- The $400k store's ads (Ad Library screenshots) and product page
+- Product specifics to confirm: game count, battery hours, screen size, kids mode, two-player support
