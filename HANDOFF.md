@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-16 · Pre-launch checklist** written (`retro-handheld/Prelaunch_Checklist.md`). Biggest risks: US duties (DDP?), Christmas cutoff, stock depth, processor holds, ad account health. Placeholder reviews must come off the reused PDP.
+
 - **2026-10-16 · Winner dissection:** the "not at Target" correction comments drove engagement and cheaper delivery. Reply playfully, pin where to buy, never delete those comments. Round 1b tests hooks built to get corrected (in `B1_Winner_Iterations.md`).
 
 - **2026-10-16 · PocketArcade Batch 1 = iterations of last year's winner** (`retro-handheld/ads/batch-1/B1_Winner_Iterations.md`). Change one variable at a time. Round 1 swaps the call-out ("[Who], walk don't run to Target for this") across the gift SAs, plus a static. Then opening visuals, then endings. The original video file is needed to make the control a true rebuild.
