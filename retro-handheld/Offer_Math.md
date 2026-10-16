@@ -36,7 +36,37 @@ Breakeven ROAS = price ÷ (price − COGS − fees).
 3. **Free cases on the single cost too much.** It pushes breakeven to 1.92×. Save it for BFCM, when conversion rates are highest.
 4. **The 2-pack is the hero offer for gifts** ("one for each kid", "one for you and one for him"). At $139.99 it brings in ~$82 per order vs ~$45 for a single.
 
-## Recommended launch offer
+## ⭐ CHOSEN OFFER (founder, 2026-10-16): replaces the recommendation below
+
+- **Single:** just the handheld, no gift, priced at $74.99 or $69.99. Shipping is **$4.99**.
+- **Duo:** 2 handhelds + 2 free cases, free shipping.
+- **Trio:** 3 handhelds + 3 free cases, free shipping.
+- **Case:** an in-cart upsell at $14.99.
+- **Free shipping threshold** = single + case, so adding the case removes the $4.99.
+
+Shopify counts shipping as revenue, so it is included in the ROAS. Case cost ranges from "bundled" ($2.55 each, almost no extra shipping) to worst case (shipped separately).
+
+| Order | Revenue | COGS | Margin | **Breakeven ROAS** |
+|---|---|---|---|---|
+| Single $74.99 + $4.99 ship | $79.98 | $28.23 | $49.13 | **1.63×** |
+| Single $69.99 + $4.99 ship | $74.98 | $28.23 | $44.28 | **1.69×** |
+| Single $74.99 + case (free ship) | $89.98 | $30.78–33.83 | $53.2–56.3 | **1.60–1.69×** |
+| Single $69.99 + case (free ship) | $84.98 | $30.78–33.83 | $48.4–51.4 | **1.65–1.76×** |
+| Duo $139.99 + 2 cases | $139.99 | $58.35–63.60 | $72.0–77.3 | **1.81–1.94×** |
+| Duo $129.99 + 2 cases | $129.99 | $58.35–63.60 | $62.3–67.6 | **1.92–2.09×** |
+| Trio $199.99 + 3 cases* | $199.99 | ~$86–93 | ~$101–108 | **~1.85–1.98×** |
+| Trio $189.99 + 3 cases* | $189.99 | ~$86–93 | ~$91–98 | **~1.93–2.09×** |
+
+*Trio COGS is estimated (3 × $20.40 + ~$17 shipping). We need the real figure from the supplier.
+
+**Notes**
+- **Single:** this structure is right. With the $4.99 shipping, a single at $74.99 breaks even at 1.63×, the best number of any option.
+- **Case upsell:** the free-shipping threshold uses up most of the case's margin. The customer pays $14.99 for the case but stops paying $4.99 for shipping, so the case adds only **~$4–7 of profit**. It still lifts order value and makes the purchase feel like a gift, so keep it, but the single is where most of the profit sits.
+- **$74.99 vs $69.99:** the cut costs ~$5 of margin per order and moves breakeven from 1.63× to 1.69×. $69.99 lands under $70 (it reads as "$69"). **Test both.** Keep $69.99 only if conversion rises by at least ~11%.
+- **Duo and trio:** two or three free cases make these the most expensive tiers to break even on (~1.8–2.0×). That's fine if they lift conversion and order value. Don't drop the duo below $139.99.
+- **Shipping shows at checkout:** show "Free shipping when you add a case" in the cart (a progress bar) and on the PDP so the $4.99 isn't a surprise. A surprise fee at checkout loses sales.
+
+## Earlier recommendation (superseded)
 
 | Tier | Price | What's included | Breakeven |
 |---|---|---|---|

@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-16 · PocketArcade offer locked (founder).** Single with no gift at $74.99 or $69.99 (test both), $4.99 shipping. Duo and trio come with 2 or 3 free cases. The case is a $14.99 cart upsell, and single + case reaches free shipping. Single breakeven 1.63× ($74.99). Duo ~1.8–1.9× at $139.99. Trio COGS still needed. Math in `retro-handheld/Offer_Math.md`.
+
 - **2026-10-16 · PocketArcade offer math** (`retro-handheld/Offer_Math.md`). Landed COGS $28.23 single, $53.25 2-pack, $5.60 case. Breakeven ~1.68× at $75.99, so COGS is ~37% of price, above the ≤30% rule. Proposed: single $79.99, 2-pack $139.99 with a free case, case add-on $14.99, free case on singles only at BFCM.
 
 - **2026-10-15** — Founder correction: the research pack is written for self-buyers, but in Q4 PocketArcade sells mainly as a **gift**. SA map rebuilt as v3, gift-first (`retro-handheld/SubAvatars_and_Angles.md`): SA1 Partner buying for him, SA2 Parent buying for kid, SA3 Gamer gifting (proven call-out), SA4 Grandparent/aunt/uncle, SA5 Family bundle. Giver's 7-belief ladder (they'll love it, I can't get it wrong, not junk, arrives before Christmas, value, honest store, nothing bad on it). Self-buyer map kept as `SubAvatars_and_Angles_v2_selfbuyer.md` for after Christmas.
