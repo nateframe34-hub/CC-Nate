@@ -15,6 +15,23 @@
 3. **A real store name:** "Target" makes it feel like a find you can actually get, and suggests it's a mainstream product, not junk.
 4. **Product b-roll:** the product is on screen from second 1, so clicks are pre-qualified (the opposite of the register fan's curiosity clicks).
 
+### Founder insight: the comment engine (2026-10-16)
+Lots of comments said **"they don't sell this at Target."** The hook invites a correction, and people love to correct. Comments → more engagement → Meta delivered it cheaper. The hook works *because* it is slightly "wrong."
+
+**Comment replies (keep the thread going, never claim it's in Target):**
+- "That's why you walk 😄 Save yourself the trip, link's in the post"
+- "Exactly. Skip the trip, it ships to your door"
+- To "where do I get it": "Right here! Tap Shop Now 👇"
+- Pin one reply that says where to buy. Hide only spam or abuse, not "not at Target" comments: those are the fuel.
+
+**Other likely reasons it worked:** tag-a-friend/gift comments ("@babe this is what I want") · nostalgia recognised in 1 second of b-roll · reads like a creator tip, not an ad · a broad call-out lets Meta find buyers · "Target" makes it feel mainstream, not junk · cheap-looking price for what it is · Q4 timing.
+
+**Round 1b: hooks built to get corrected** (test after Round 1)
+- "Gamers, walk don't run to Walmart for this" (same mechanic, different store)
+- "Nobody's talking about this at Target"
+- "Found the Christmas gift every 90s kid wants" (invites "80s kid here" replies)
+- Keep it a playful hook, never a false claim that a store stocks it.
+
 What we keep in every iteration: the **"[Who], walk don't run…"** structure + the product on screen from frame 1.
 
 ---
