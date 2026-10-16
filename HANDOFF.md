@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-16 · PocketArcade PDP built:** `retro-handheld/store/theme/sections/pocketarcade-pdp.liquid` + `templates/product.pocketarcade.json` (134 settings). Single/Duo/Trio tiers with color pickers. Free cases on bundles via a $0 case variant. Cart drawer with free-shipping bar and $12 case upsell. Arrives-by and Christmas order-by box. Reviews off by default (no placeholders). Admin setup steps are in the file header.
+
 - **2026-10-16 · Pre-launch checklist** written (`retro-handheld/Prelaunch_Checklist.md`). Biggest risks: US duties (DDP?), Christmas cutoff, stock depth, processor holds, ad account health. Placeholder reviews must come off the reused PDP.
 
 - **2026-10-16 · Winner dissection:** the "not at Target" correction comments drove engagement and cheaper delivery. Reply playfully, pin where to buy, never delete those comments. Round 1b tests hooks built to get corrected (in `B1_Winner_Iterations.md`).

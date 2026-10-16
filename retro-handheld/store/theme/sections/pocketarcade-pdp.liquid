@@ -1,0 +1,1030 @@
+{%- comment -%}
+  POCKETARCADE PDP · gift-first Q4 build · 2026-10-16
+  Reskinned from register-fan/store/theme/sections/evenroom-pdp-sa1.liquid.
+
+  OFFER (founder, 2026-10-16)
+    Single  = product.price, no gift, $4.99 shipping
+    Duo     = 2 handhelds + 2 FREE cases, free shipping   (display price: duo_price_cents)
+    Trio    = 3 handhelds + 3 FREE cases, free shipping   (display price: trio_price_cents)
+    Case    = $12 in-cart upsell. Single + case reaches the free-shipping threshold.
+
+  SHOPIFY ADMIN SETUP (the page only DISPLAYS prices; Shopify charges them)
+  1. Case product: pick it in the section setting "Case product". Give it TWO variants:
+       - "Silicone case"        $12.00   (the upsell)
+       - "Free with your bundle" $0.00   (the bundle gift; hide the product from
+                                          search and collections)
+     The section finds them by price: the $0 variant = gift, the other = upsell.
+  2. Automatic discounts → Amount off products → PocketArcade only →
+       "Only apply once per order":
+       - Min quantity 2: (2 × price) − duo price   e.g. 149.98 − 139.99 = $9.99
+       - Min quantity 3: (3 × price) − trio price  e.g. 224.97 − 199.99 = $24.98
+     Shopify applies the better one. Check the cart total matches the page.
+  3. Shipping: $4.99 flat, free at or over single + case (e.g. $86.99).
+     Match it in the setting "Free shipping threshold (cents)".
+
+  JS SAFETY (learned on tallow): each script is its own IIFE with its own
+  try/catch at the end of the file. A throw in one can never kill another.
+  No game titles, consoles or console brands anywhere on this page.
+{%- endcomment -%}
+
+{%- assign v = product.selected_or_first_available_variant -%}
+{%- assign p1 = product.price -%}
+{%- assign p1_cmp = product.compare_at_price | default: 0 -%}
+{%- if p1_cmp > p1 -%}{%- assign unit_cmp = p1_cmp -%}{%- else -%}{%- assign unit_cmp = p1 -%}{%- endif -%}
+{%- assign p2 = section.settings.duo_price_cents -%}
+{%- assign p3 = section.settings.trio_price_cents -%}
+{%- assign p2_cmp = unit_cmp | times: 2 -%}
+{%- assign p3_cmp = unit_cmp | times: 3 -%}
+{%- assign p2_each = p2 | divided_by: 2 -%}
+{%- assign p3_each = p3 | divided_by: 3 -%}
+
+{%- assign cp = section.settings.case_product -%}
+{%- assign case_up = nil -%}{%- assign case_gift = nil -%}
+{%- if cp != blank -%}
+  {%- for cv in cp.variants -%}
+    {%- if cv.price == 0 -%}{%- assign case_gift = cv -%}{%- elsif case_up == nil -%}{%- assign case_up = cv -%}{%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+<section id="pa-pdp" data-section-id="{{ section.id }}"
+  data-product="{{ product.id }}"
+  data-gift="{% if case_gift %}{{ case_gift.id }}{% endif %}"
+  data-upsell="{% if case_up %}{{ case_up.id }}{% endif %}"
+  data-freeship="{{ section.settings.free_ship_cents }}">
+
+{%- if section.settings.load_fonts -%}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;800&family=Inter:wght@400;500;600&family=Press+Start+2P&display=swap" rel="stylesheet">
+{%- endif -%}
+
+<style>
+#pa-pdp{
+  --bg:#FBF8F3; --ink:#17171F; --accent:#D63A2F; --accent-ink:#FFFFFF; --soft:#FCEDEA;
+  --green:#1F6F5C; --line:#E7E1D8; --muted:#666170; --card:#FFFFFF;
+  --hdr:'Rubik','Helvetica Neue',Arial,sans-serif;
+  --body:'Inter','Helvetica Neue',Arial,sans-serif;
+  --pix:'Press Start 2P',ui-monospace,monospace;
+  background:var(--bg); color:var(--ink); font-family:var(--body);
+  font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased;
+}
+#pa-pdp *,#pa-pdp *::before,#pa-pdp *::after{box-sizing:border-box}
+#pa-pdp .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+#pa-pdp .narrow{max-width:760px;margin:0 auto}
+#pa-pdp h1,#pa-pdp h2,#pa-pdp h3{font-family:var(--hdr);font-weight:800;line-height:1.12;letter-spacing:-.015em;margin:0 0 .5em}
+#pa-pdp h1{font-size:clamp(30px,5vw,44px)}
+#pa-pdp h2{font-size:clamp(26px,4vw,36px)}
+#pa-pdp h3{font-size:clamp(18px,2.4vw,21px);font-weight:700}
+#pa-pdp p{margin:0 0 1em;max-width:62ch}
+#pa-pdp .sec{padding:64px 0}
+#pa-pdp .white{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+#pa-pdp .band{background:var(--ink);color:#fff;padding:72px 0}
+#pa-pdp .band h2,#pa-pdp .band h3{color:#fff}
+#pa-pdp .eyebrow{font-family:var(--hdr);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;font-weight:700}
+#pa-pdp .band .eyebrow{color:#FF8C82}
+
+/* top bar */
+#pa-pdp .pa-top{position:sticky;top:0;z-index:55;display:flex;align-items:center;justify-content:center;height:54px;background:var(--bg);border-bottom:1px solid var(--line)}
+#pa-pdp .pa-wordmark{font-family:var(--pix);font-size:13px;letter-spacing:.06em;color:var(--ink)}
+#pa-pdp .pa-wordmark b{color:var(--accent);font-weight:400}
+#pa-pdp .pa-cart-btn{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border:0;background:none;color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center}
+#pa-pdp .pa-cart-left{left:10px}#pa-pdp .pa-cart-right{right:10px}
+#pa-pdp .pa-cart-btn svg{width:25px;height:25px}
+#pa-pdp .pa-cart-n{position:absolute;top:4px;right:2px;min-width:18px;height:18px;border-radius:9px;background:var(--accent);color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;padding:0 4px}
+#pa-pdp .pa-cart-n[hidden]{display:none}
+
+/* announcement + sale */
+#pa-pdp .announce{background:var(--ink);color:#fff;font-size:13px;letter-spacing:.03em;text-align:center;padding:10px 16px}
+#pa-pdp .announce span{margin:0 8px;white-space:nowrap}
+#pa-pdp .pa-sale{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;background:var(--accent)}
+#pa-pdp .pa-sale span{margin:0}
+#pa-pdp .pa-sale-tag{background:#fff;color:var(--accent);font-family:var(--hdr);font-weight:800;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:999px}
+#pa-pdp .pa-sale-clock{font-family:ui-monospace,Menlo,monospace;font-weight:700;font-size:14px;font-variant-numeric:tabular-nums}
+
+/* hero + gallery */
+#pa-pdp .hero{display:grid;grid-template-columns:1fr 1fr;gap:56px;padding:40px 0 64px;align-items:start}
+#pa-pdp .pa-car{position:relative}
+#pa-pdp .pa-car-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;scrollbar-width:none;border:1px solid var(--line);border-radius:14px;background:#fff}
+#pa-pdp .pa-car-track::-webkit-scrollbar{display:none}
+#pa-pdp .pa-car-slide{flex:0 0 100%;scroll-snap-align:start;aspect-ratio:1/1}
+#pa-pdp .pa-car-slide img{width:100%;height:100%;object-fit:cover;display:block}
+#pa-pdp .pa-car-btn{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.92);font-size:26px;line-height:1;color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0 0 3px}
+#pa-pdp .pa-car-btn.prev{left:10px}#pa-pdp .pa-car-btn.next{right:10px}
+#pa-pdp .pa-car-dots{position:absolute;left:0;right:0;bottom:12px;display:flex;justify-content:center;gap:7px;pointer-events:none}
+#pa-pdp .pa-car-dots span{width:7px;height:7px;border-radius:50%;background:rgba(23,23,31,.22);transition:background .2s,transform .2s}
+#pa-pdp .pa-car-dots span.on{background:var(--accent);transform:scale(1.25)}
+@media(hover:none){#pa-pdp .pa-car-btn{display:none}}
+#pa-pdp .gal-thumbs{display:flex;gap:8px;margin-top:8px;overflow-x:auto;scrollbar-width:none}
+#pa-pdp .gal-thumbs::-webkit-scrollbar{display:none}
+#pa-pdp .gal-thumbs img{flex:0 0 auto;width:72px;height:72px;object-fit:cover;border:1px solid var(--line);border-radius:8px;cursor:pointer;background:#fff}
+#pa-pdp .gal-thumbs img.on{border-color:var(--accent);border-width:2px}
+#pa-pdp .sub{font-size:18px;color:var(--muted);margin:-.2em 0 14px;max-width:38ch}
+#pa-pdp .pa-bul{list-style:none;padding:0;margin:0 0 20px}
+#pa-pdp .pa-bul li{position:relative;padding:4px 0 4px 28px;font-size:15.5px}
+#pa-pdp .pa-bul li:before{content:"";position:absolute;left:2px;top:9px;width:16px;height:16px;border-radius:50%;background:var(--green)}
+#pa-pdp .pa-bul li:after{content:"";position:absolute;left:7px;top:12px;width:5px;height:8px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+
+/* arrives-by */
+#pa-pdp .pa-arrive{display:flex;align-items:center;gap:10px;background:#EAF4F0;border:1px solid #CFE5DC;border-radius:10px;padding:10px 12px;font-size:14px;margin:0 0 16px}
+#pa-pdp .pa-arrive svg{flex:0 0 auto;width:22px;height:22px;color:var(--green)}
+#pa-pdp .pa-arrive b{color:var(--green)}
+
+/* tiers */
+#pa-pdp .pa-bundle{display:flex;flex-direction:column;gap:12px;margin:0 0 6px}
+#pa-pdp .pa-tier{position:relative;display:block;width:100%;padding:15px 14px;border:1.5px solid var(--line);border-radius:12px;background:#fff;text-align:left;cursor:pointer;color:inherit;transition:border-color .15s,background .15s}
+#pa-pdp .pa-tier:hover{border-color:var(--muted)}
+#pa-pdp .pa-tier:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#pa-pdp .pa-tier.on{border-color:var(--accent);border-width:2px;padding:14px 13px;background:var(--soft)}
+#pa-pdp .pa-tier-main{display:flex;align-items:center;gap:12px;width:100%}
+#pa-pdp .pa-tier-radio{flex:0 0 auto;width:20px;height:20px;border-radius:50%;border:1.5px solid #c9c0b3;background:#fff;position:relative}
+#pa-pdp .pa-tier.on .pa-tier-radio{border-color:var(--accent);border-width:2px}
+#pa-pdp .pa-tier.on .pa-tier-radio:after{content:"";position:absolute;inset:3px;border-radius:50%;background:var(--accent)}
+#pa-pdp .pa-tier-body{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:2px}
+#pa-pdp .pa-tier-name{font-family:var(--hdr);font-weight:700;font-size:16px;line-height:1.2}
+#pa-pdp .pa-tier-sub{font-size:12.5px;color:var(--muted)}
+#pa-pdp .pa-tier-prices{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:1px}
+#pa-pdp .pa-tier-now{font-family:var(--hdr);font-size:19px;font-weight:800;line-height:1.15}
+#pa-pdp .pa-tier-was{font-size:12.5px;color:var(--muted);text-decoration:line-through}
+#pa-pdp .pa-tier-each{font-size:11.5px;color:var(--muted)}
+#pa-pdp .pa-tier-badge{position:absolute;top:-10px;right:12px;background:var(--accent);color:#fff;font-family:var(--hdr);font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:999px;white-space:nowrap}
+#pa-pdp .pa-tier-badge.alt{background:var(--green)}
+#pa-pdp .pa-tier-picks{display:none;margin-top:6px;padding-left:32px;cursor:default}
+#pa-pdp .pa-tier.on .pa-tier-picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:8px}
+#pa-pdp .pa-pick-l{display:block;font-family:var(--hdr);font-weight:700;font-size:12.5px;margin:0 0 4px}
+#pa-pdp .pa-pick-wrap{position:relative;display:block}
+#pa-pdp .pa-pick-wrap:after{content:"";position:absolute;right:14px;top:50%;width:8px;height:8px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+#pa-pdp .pa-pick{width:100%;appearance:none;-webkit-appearance:none;background:#fff;border:1.5px solid var(--line);border-radius:10px;padding:10px 34px 10px 12px;font-family:var(--body);font-size:15px;color:var(--ink);cursor:pointer}
+#pa-pdp .pa-gifts{display:none;margin:12px 0 2px 32px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:default}
+#pa-pdp .pa-tier.on .pa-gifts{display:block}
+#pa-pdp .pa-gifts-h{font-family:var(--hdr);font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:0 0 6px}
+#pa-pdp .pa-gifts ul{list-style:none;margin:0;padding:0}
+#pa-pdp .pa-gifts li{display:flex;align-items:center;gap:10px;padding:7px 0;border-top:1px solid var(--line)}
+#pa-pdp .pa-gifts li:first-child{border-top:0}
+#pa-pdp .pa-gift-ic{flex:0 0 auto;width:28px;height:28px;border-radius:50%;background:var(--soft);color:var(--accent);display:flex;align-items:center;justify-content:center}
+#pa-pdp .pa-gift-ic svg{width:16px;height:16px}
+#pa-pdp .pa-gift-t{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;line-height:1.25}
+#pa-pdp .pa-gift-t b{font-size:13.5px;font-family:var(--hdr)}
+#pa-pdp .pa-gift-t small{font-size:12px;color:var(--muted)}
+#pa-pdp .pa-gift-v{flex:0 0 auto;text-align:right;font-family:var(--hdr);font-weight:800;font-size:12.5px;color:var(--accent)}
+#pa-pdp .pa-gift-v s{display:block;font-family:var(--body);font-weight:400;color:var(--muted);font-size:11.5px}
+#pa-pdp .pa-ship-note{font-size:13px;color:var(--muted);margin:10px 0 0}
+#pa-pdp .pa-ship-note b{color:var(--ink)}
+@media(max-width:380px){#pa-pdp .pa-tier{padding:12px 11px}#pa-pdp .pa-tier-name{font-size:14.5px}#pa-pdp .pa-tier-now{font-size:17.5px}}
+
+/* buttons + trust */
+#pa-pdp .atc{display:block;width:100%;background:var(--accent);color:#fff;border:0;border-radius:12px;font-family:var(--hdr);font-weight:800;font-size:17px;padding:19px;cursor:pointer;margin-top:18px;text-align:center;text-decoration:none}
+#pa-pdp .atc:hover{filter:brightness(1.07)}
+#pa-pdp .atc[disabled]{background:var(--muted);cursor:not-allowed}
+#pa-pdp .pa-trust{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0}
+#pa-pdp .pa-trust-i{display:flex;align-items:center;gap:8px;font-size:12.5px;line-height:1.25;color:var(--muted)}
+#pa-pdp .pa-trust-i b{color:var(--ink);font-weight:600}
+#pa-pdp .pa-trust-ic{flex:0 0 auto;width:30px;height:30px;border-radius:50%;background:var(--soft);color:var(--accent);display:flex;align-items:center;justify-content:center}
+#pa-pdp .pa-trust-ic svg{width:17px;height:17px}
+
+/* cards, grids */
+#pa-pdp .three{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}
+#pa-pdp .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px}
+#pa-pdp .card h3{margin-bottom:.35em}
+#pa-pdp .card p{margin:0;font-size:15.5px;color:var(--muted)}
+#pa-pdp .card img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;margin:0 0 14px;display:block}
+#pa-pdp .band .card{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)}
+#pa-pdp .band .card p{color:rgba(255,255,255,.8)}
+#pa-pdp .pa-num{font-family:var(--pix);font-size:18px;color:var(--accent);display:block;margin-bottom:12px}
+#pa-pdp .attrs{border-top:1px solid var(--line);margin:0}
+#pa-pdp .attr{display:grid;grid-template-columns:190px 1fr;gap:24px;padding:16px 0;border-bottom:1px solid var(--line)}
+#pa-pdp .attr dt{font-family:var(--hdr);font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--accent);font-weight:700}
+#pa-pdp .attr dd{margin:0;font-size:16px}
+#pa-pdp .pa-box{list-style:none;padding:0;margin:20px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+#pa-pdp .pa-box li{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:15px}
+#pa-pdp .pa-box li b{font-family:var(--hdr)}
+#pa-pdp .alt{display:grid;grid-template-columns:220px 1fr;gap:24px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.18)}
+#pa-pdp .alt b{font-family:var(--hdr)}
+#pa-pdp .alt p{margin:0;opacity:.88}
+#pa-pdp .alt.win b{color:#FF8C82}
+#pa-pdp .stack{background:#fff;border:1px solid var(--line);border-radius:14px;padding:8px 24px}
+#pa-pdp .srow{display:flex;justify-content:space-between;gap:16px;padding:15px 0;border-bottom:1px solid var(--line);font-size:16px}
+#pa-pdp .srow:last-child{border-bottom:0}
+#pa-pdp .srow b{font-family:var(--hdr)}
+#pa-pdp .srow .val{color:var(--accent);font-family:var(--hdr);font-weight:700;white-space:nowrap}
+
+/* faq */
+#pa-pdp details{border-bottom:1px solid var(--line)}
+#pa-pdp summary{cursor:pointer;list-style:none;padding:20px 0;font-family:var(--hdr);font-weight:700;font-size:17px;display:flex;justify-content:space-between;gap:16px}
+#pa-pdp summary::-webkit-details-marker{display:none}
+#pa-pdp summary::after{content:'+';color:var(--accent);font-size:22px;line-height:1}
+#pa-pdp details[open] summary::after{content:'\2013'}
+#pa-pdp details .fa{padding:0 0 20px;font-size:16px;color:var(--muted);max-width:66ch}
+
+/* reviews */
+#pa-pdp .rsum{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:26px}
+#pa-pdp .rnum{font-family:var(--hdr);font-size:52px;font-weight:800;line-height:1}
+#pa-pdp .pa-stars{position:relative;display:inline-block;font-size:17px;line-height:1;letter-spacing:2px;color:#ddd5c9}
+#pa-pdp .pa-stars:before{content:"\2605\2605\2605\2605\2605"}
+#pa-pdp .pa-stars i{position:absolute;left:0;top:0;overflow:hidden;white-space:nowrap;color:#F2A100;font-style:normal}
+#pa-pdp .pa-stars i:before{content:"\2605\2605\2605\2605\2605"}
+#pa-pdp .pa-rating{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--muted);text-decoration:none;margin:-4px 0 12px}
+#pa-pdp .pa-rating b{color:var(--ink);font-weight:600}
+#pa-pdp .rsum .pa-stars{font-size:22px}
+
+/* sticky */
+#pa-pdp .sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;background:#fff;border-top:1px solid var(--line);padding:10px 12px calc(10px + env(safe-area-inset-bottom));display:none;box-shadow:0 -8px 24px rgba(0,0,0,.08);transform:translateY(110%);transition:transform .25s ease}
+#pa-pdp .sticky.show{transform:none}
+#pa-pdp .sticky .in{display:flex;align-items:center;gap:10px;max-width:1180px;margin:0 auto}
+#pa-pdp .st-img{flex:0 0 auto;width:48px;height:48px;border-radius:8px;border:1px solid var(--line);object-fit:cover;background:#fff}
+#pa-pdp .st-info{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:1px}
+#pa-pdp .st-t{font-family:var(--hdr);font-weight:700;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#pa-pdp .st-v{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#pa-pdp .sticky .sp{font-family:var(--hdr);font-weight:700;font-size:14px;white-space:nowrap}
+#pa-pdp .sticky .sp s{color:var(--muted);font-weight:400;font-size:12px;margin-right:5px}
+#pa-pdp .sticky form{flex:0 0 auto;margin:0}
+#pa-pdp .sticky .atc{margin:0;width:auto;padding:13px 18px;font-size:14.5px;border-radius:10px;white-space:nowrap}
+
+/* cart drawer */
+#pa-pdp .pa-cd-ov{position:fixed;inset:0;background:rgba(23,23,31,.45);z-index:2147483000}
+#pa-pdp .pa-cd{position:fixed;top:0;right:0;height:100%;width:420px;max-width:100%;background:var(--bg);z-index:2147483001;display:flex;flex-direction:column;transform:translateX(100%);visibility:hidden;transition:transform .28s ease,visibility 0s linear .28s;box-shadow:-8px 0 30px rgba(0,0,0,.12)}
+#pa-pdp .pa-cd.open{transform:none;visibility:visible;transition:transform .28s ease}
+#pa-pdp .pa-cd-h{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;border-bottom:1px solid var(--line)}
+#pa-pdp .pa-cd-title{font-family:var(--hdr);font-weight:800;font-size:18px}
+#pa-pdp .pa-cd-x{background:none;border:0;font-size:30px;line-height:1;cursor:pointer;color:var(--ink);padding:0 4px}
+#pa-pdp .pa-cd-ship{padding:12px 20px;border-bottom:1px solid var(--line);font-size:13.5px}
+#pa-pdp .pa-cd-bar{height:8px;border-radius:4px;background:var(--line);margin-top:8px;overflow:hidden}
+#pa-pdp .pa-cd-bar i{display:block;height:100%;width:0;background:var(--green);transition:width .3s}
+#pa-pdp .pa-cd-msg{margin:12px 20px 0;padding:10px 12px;background:var(--soft);border-radius:8px;font-size:14px}
+#pa-pdp .pa-cd-lines{flex:1 1 auto;overflow-y:auto;padding:6px 20px}
+#pa-pdp .pa-cd-line{display:grid;grid-template-columns:64px 1fr auto;gap:12px;padding:14px 0;border-bottom:1px solid var(--line);align-items:start}
+#pa-pdp .pa-cd-line img{width:64px;height:64px;object-fit:cover;border:1px solid var(--line);border-radius:8px;background:#fff}
+#pa-pdp .pa-cd-name{font-family:var(--hdr);font-weight:700;font-size:14.5px;line-height:1.25}
+#pa-pdp .pa-cd-var{font-size:13px;color:var(--muted);margin-top:2px}
+#pa-pdp .pa-cd-qty{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:8px;margin-top:8px;background:#fff}
+#pa-pdp .pa-cd-qty button{background:none;border:0;width:32px;height:32px;font-size:17px;cursor:pointer;color:var(--ink)}
+#pa-pdp .pa-cd-qty span{min-width:22px;text-align:center;font-size:14px}
+#pa-pdp .pa-cd-price{text-align:right;font-family:var(--hdr);font-weight:700;font-size:15px}
+#pa-pdp .pa-cd-price s{display:block;font-family:var(--body);font-weight:400;font-size:12.5px;color:var(--muted)}
+#pa-pdp .pa-cd-free{color:var(--green)}
+#pa-pdp .pa-cd-rm{background:none;border:0;color:var(--muted);font-size:12.5px;text-decoration:underline;cursor:pointer;margin-top:8px;padding:0}
+#pa-pdp .pa-cd-empty{padding:40px 0;text-align:center;color:var(--muted)}
+#pa-pdp .pa-up{display:flex;align-items:center;gap:12px;margin:14px 0 6px;padding:12px;border:1.5px dashed var(--accent);border-radius:12px;background:#fff}
+#pa-pdp .pa-up img{width:52px;height:52px;object-fit:cover;border-radius:8px;flex:0 0 auto}
+#pa-pdp .pa-up-t{flex:1 1 auto;min-width:0;font-size:13px;line-height:1.3;color:var(--muted)}
+#pa-pdp .pa-up-t b{display:block;color:var(--ink);font-family:var(--hdr);font-size:14px}
+#pa-pdp .pa-up button{flex:0 0 auto;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:10px 14px;font-family:var(--hdr);font-weight:700;font-size:13.5px;cursor:pointer}
+#pa-pdp .pa-cd-f{border-top:1px solid var(--line);padding:16px 20px 20px;background:#fff}
+#pa-pdp .pa-cd-row{display:flex;justify-content:space-between;font-size:15px;margin-bottom:6px}
+#pa-pdp .pa-cd-disc{color:var(--accent)}
+#pa-pdp .pa-cd-tot{font-family:var(--hdr);font-weight:800;font-size:17px}
+#pa-pdp .pa-cd-note{font-size:12.5px;color:var(--muted);margin:4px 0 12px}
+#pa-pdp .pa-cd-go{margin-top:0}
+#pa-pdp .pa-cd-cont{display:block;width:100%;background:none;border:0;margin-top:10px;font-size:14px;color:var(--muted);text-decoration:underline;cursor:pointer}
+#pa-pdp .pa-busy{opacity:.6;pointer-events:none}
+
+@media(max-width:880px){
+  #pa-pdp .hero{grid-template-columns:1fr;gap:24px;padding-top:20px}
+  #pa-pdp .three{grid-template-columns:1fr}
+  #pa-pdp .attr,#pa-pdp .alt{grid-template-columns:1fr;gap:6px}
+  #pa-pdp .sec{padding:48px 0}
+  #pa-pdp .band{padding:52px 0}
+  #pa-pdp .sticky{display:block}
+  #pa-pdp .gal-thumbs{display:none}
+}
+@media(max-width:520px){#pa-pdp .pa-box{grid-template-columns:1fr}}
+</style>
+
+{%- capture pa_gift_svg -%}<svg viewBox="0 0 24 24"><path d="M4 11h16v9H4zM3 7h18v4H3zM12 7v13M12 7c-1.5-3-5-3-5-.5S10 7 12 7zm0 0c1.5-3 5-3 5-.5S14 7 12 7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>{%- endcapture -%}
+{%- capture pa_truck_svg -%}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 6h11v10H2zM13 9h4l3 3v4h-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="6" cy="17.5" r="1.8" fill="#fff" stroke="currentColor" stroke-width="1.6"/><circle cx="16.5" cy="17.5" r="1.8" fill="#fff" stroke="currentColor" stroke-width="1.6"/></svg>{%- endcapture -%}
+{%- capture pa_return_svg -%}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M3 4v4.5h4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>{%- endcapture -%}
+{%- capture pa_play_svg -%}<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="8" y="5.5" width="8" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 15.5h3M10.5 14v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="15.5" cy="16.5" r="1.1" fill="currentColor"/></svg>{%- endcapture -%}
+
+<div class="pa-top">
+  <button type="button" class="pa-cart-btn pa-cart-{{ section.settings.cart_icon_side }}" id="pa-cart-btn" aria-label="Open cart">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2.2l2.1 10.2a1.5 1.5 0 0 0 1.5 1.2h8.4a1.5 1.5 0 0 0 1.5-1.1L20.5 8H6.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="19.5" r="1.4" fill="currentColor"/><circle cx="17" cy="19.5" r="1.4" fill="currentColor"/></svg>
+    <span class="pa-cart-n" id="pa-cart-n"{% if cart.item_count == 0 %} hidden{% endif %}>{{ cart.item_count }}</span>
+  </button>
+  <span class="pa-wordmark">POCKET<b>ARCADE</b></span>
+</div>
+{%- if section.settings.sale_on -%}
+<div class="announce pa-sale" id="pa-sale" data-end="{{ section.settings.sale_end }}">
+  <span class="pa-sale-tag">{{ section.settings.sale_label }}</span>
+  <span>{{ section.settings.sale_text }}</span>
+  <span class="pa-sale-clock" id="pa-sale-clock" aria-live="off">--:--:--</span>
+</div>
+{%- else -%}
+<div class="announce"><span>{{ section.settings.announce_1 }}</span><span>·</span><span>{{ section.settings.announce_2 }}</span></div>
+{%- endif -%}
+
+<!-- ================= HERO ================= -->
+<div class="wrap">
+  <div class="hero">
+    <div>
+      {%- if product.images.size > 0 -%}
+        <div class="pa-car">
+          <div class="pa-car-track" id="pa-car" tabindex="0" aria-label="Product images">
+            {%- for img in product.images -%}
+              <div class="pa-car-slide"><img src="{{ img | image_url: width: 1100 }}" alt="{{ img.alt | default: product.title | escape }}"{% unless forloop.first %} loading="lazy"{% endunless %} width="1100" height="1100"></div>
+            {%- endfor -%}
+          </div>
+          {%- if product.images.size > 1 -%}
+            <button type="button" class="pa-car-btn prev" aria-label="Previous image">&#8249;</button>
+            <button type="button" class="pa-car-btn next" aria-label="Next image">&#8250;</button>
+            <div class="pa-car-dots">{%- for img in product.images -%}<span class="{% if forloop.first %}on{% endif %}"></span>{%- endfor -%}</div>
+          {%- endif -%}
+        </div>
+        {%- if product.images.size > 1 -%}
+          <div class="gal-thumbs">
+            {%- for img in product.images -%}<img src="{{ img | image_url: width: 180 }}" alt="" data-i="{{ forloop.index0 }}" class="pa-thumb{% if forloop.first %} on{% endif %}">{%- endfor -%}
+          </div>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+
+    <div>
+      <h1>{{ product.title }}</h1>
+      {%- if section.settings.show_reviews -%}
+        {%- assign pa_pct = section.settings.rev_score | times: 20 -%}
+        <a class="pa-rating" href="#pa-reviews"><span class="pa-stars" aria-label="{{ section.settings.rev_score }} out of 5 stars"><i style="width:{{ pa_pct }}%"></i></span><span><b>{{ section.settings.rev_score }}</b> · {{ section.settings.rev_count }}</span></a>
+      {%- endif -%}
+      <p class="sub">{{ section.settings.hero_sub }}</p>
+      <ul class="pa-bul">
+        {%- if section.settings.hero_b1 != blank -%}<li>{{ section.settings.hero_b1 }}</li>{%- endif -%}
+        {%- if section.settings.hero_b2 != blank -%}<li>{{ section.settings.hero_b2 }}</li>{%- endif -%}
+        {%- if section.settings.hero_b3 != blank -%}<li>{{ section.settings.hero_b3 }}</li>{%- endif -%}
+      </ul>
+
+      {%- if section.settings.show_arrive -%}
+      <div class="pa-arrive" id="pa-arrive" data-min="{{ section.settings.ship_min_days }}" data-max="{{ section.settings.ship_max_days }}" data-xmas="{{ section.settings.xmas_cutoff }}">
+        {{ pa_truck_svg }}<span id="pa-arrive-t">Order today and it arrives in {{ section.settings.ship_min_days }}–{{ section.settings.ship_max_days }} days.</span>
+      </div>
+      {%- endif -%}
+
+      {%- capture pa_opts -%}{%- for variant in product.variants -%}<option value="{{ variant.id }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} (sold out){% endunless %}</option>{%- endfor -%}{%- endcapture -%}
+      {%- assign pa_has_opts = true -%}
+      {%- if product.has_only_default_variant -%}{%- assign pa_has_opts = false -%}{%- endif -%}
+
+      <div class="pa-bundle" id="pa-tiers" role="radiogroup" aria-label="How many">
+        {%- for q in (1..3) -%}
+          {%- if q == 1 -%}
+            {%- assign t_name = section.settings.t1_label -%}{%- assign t_sub = section.settings.t1_sub -%}{%- assign t_badge = '' -%}
+            {%- assign t_price = p1 -%}{%- assign t_cmp = p1_cmp -%}{%- assign t_cta = section.settings.cta_1 -%}
+          {%- elsif q == 2 -%}
+            {%- assign t_name = section.settings.t2_label -%}{%- assign t_sub = section.settings.t2_sub -%}{%- assign t_badge = section.settings.t2_badge -%}
+            {%- assign t_price = p2 -%}{%- assign t_cmp = p2_cmp -%}{%- assign t_cta = section.settings.cta_2 -%}
+          {%- else -%}
+            {%- assign t_name = section.settings.t3_label -%}{%- assign t_sub = section.settings.t3_sub -%}{%- assign t_badge = section.settings.t3_badge -%}
+            {%- assign t_price = p3 -%}{%- assign t_cmp = p3_cmp -%}{%- assign t_cta = section.settings.cta_3 -%}
+          {%- endif -%}
+          {%- assign t_on = false -%}{%- if q == section.settings.default_tier -%}{%- assign t_on = true -%}{%- endif -%}
+          <div class="pa-tier{% if t_on %} on{% endif %}" tabindex="0" data-qty="{{ q }}"
+            data-price="{{ t_price }}" data-compare="{{ t_cmp }}" data-cta="{{ t_cta | escape }}"
+            role="radio" aria-checked="{% if t_on %}true{% else %}false{% endif %}">
+            {%- if t_badge != blank -%}<span class="pa-tier-badge{% if q == 3 %} alt{% endif %}">{{ t_badge }}</span>{%- endif -%}
+            <div class="pa-tier-main">
+              <span class="pa-tier-radio" aria-hidden="true"></span>
+              <span class="pa-tier-body">
+                <span class="pa-tier-name">{{ t_name }}</span>
+                <span class="pa-tier-sub">{{ t_sub }}</span>
+              </span>
+              <span class="pa-tier-prices">
+                <span class="pa-tier-now">{{ t_price | money }}</span>
+                {%- if t_cmp > t_price -%}<span class="pa-tier-was">{{ t_cmp | money }}</span>{%- endif -%}
+                {%- if q == 2 -%}<span class="pa-tier-each">{{ p2_each | money }} each</span>{%- elsif q == 3 -%}<span class="pa-tier-each">{{ p3_each | money }} each</span>{%- endif -%}
+              </span>
+            </div>
+            {%- if pa_has_opts -%}
+            <div class="pa-tier-picks">
+              {%- for n in (1..q) -%}
+                <label><span class="pa-pick-l">{% if q == 1 %}{{ section.settings.pick_label }}{% else %}{{ section.settings.pick_label_n }} {{ n }}{% endif %}</span><span class="pa-pick-wrap"><select class="pa-pick pa-v" aria-label="{{ section.settings.pick_label }} {{ n }}">{{ pa_opts }}</select></span></label>
+              {%- endfor -%}
+            </div>
+            {%- endif -%}
+            {%- if q > 1 and section.settings.show_gifts -%}
+            <div class="pa-gifts">
+              <p class="pa-gifts-h">{{ section.settings.gifts_heading }}</p>
+              <ul>
+                <li><span class="pa-gift-ic" aria-hidden="true">{{ pa_gift_svg }}</span><span class="pa-gift-t"><b>{{ q }} × {{ section.settings.gift_case_title }}</b><small>{{ section.settings.gift_case_sub }}</small></span><span class="pa-gift-v"><s>{{ section.settings.case_value_cents | times: q | money }}</s>FREE</span></li>
+                <li><span class="pa-gift-ic" aria-hidden="true">{{ pa_gift_svg }}</span><span class="pa-gift-t"><b>Free shipping</b><small>{{ section.settings.gift_ship_sub }}</small></span><span class="pa-gift-v"><s>{{ section.settings.ship_cost_cents | money }}</s>FREE</span></li>
+              </ul>
+            </div>
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+      <p class="pa-ship-note">{{ section.settings.single_ship_note }}</p>
+
+      {%- form 'product', product, id: 'pa-form-hero', class: 'pa-form' -%}
+        <input type="hidden" name="id" class="pa-variant-field" value="{{ v.id }}">
+        <input type="hidden" name="quantity" class="pa-qty-field" value="1"><span class="pa-items"></span>
+        <button type="submit" class="atc pa-cta"{% unless product.available %} disabled{% endunless %}>{%- if product.available -%}{{ section.settings.cta_1 }}{%- else -%}Sold out{%- endif -%}</button>
+      {%- endform -%}
+
+      <div class="pa-trust">
+        <div class="pa-trust-i"><span class="pa-trust-ic">{{ pa_truck_svg }}</span><span>{{ section.settings.trust_1 }}</span></div>
+        <div class="pa-trust-i"><span class="pa-trust-ic">{{ pa_return_svg }}</span><span>{{ section.settings.trust_2 }}</span></div>
+        <div class="pa-trust-i"><span class="pa-trust-ic">{{ pa_play_svg }}</span><span>{{ section.settings.trust_3 }}</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= THE GIFT ================= -->
+<div class="band"><div class="wrap">
+  <div class="narrow">
+    <p class="eyebrow">{{ section.settings.why_eyebrow }}</p>
+    <h2>{{ section.settings.why_h }}</h2>
+    <p>{{ section.settings.why_1 }}</p>
+  </div>
+  <div class="three">
+    {%- for i in (1..3) -%}
+      {%- assign kh = 'why_c' | append: i | append: '_h' -%}{%- assign kb = 'why_c' | append: i | append: '_b' -%}
+      <div class="card"><span class="pa-num">0{{ i }}</span><h3>{{ section.settings[kh] }}</h3><p>{{ section.settings[kb] }}</p></div>
+    {%- endfor -%}
+  </div>
+</div></div>
+
+<!-- ================= WHO IT'S FOR ================= -->
+<div class="sec"><div class="wrap">
+  <div class="narrow">
+    <p class="eyebrow">Who it's for</p>
+    <h2>{{ section.settings.who_h }}</h2>
+  </div>
+  <div class="three">
+    {%- for i in (1..3) -%}
+      {%- assign kh = 'who_' | append: i | append: '_h' -%}{%- assign kb = 'who_' | append: i | append: '_b' -%}{%- assign ki = 'who_' | append: i | append: '_img' -%}
+      <div class="card">
+        {%- if section.settings[ki] != blank -%}<img src="{{ section.settings[ki] | image_url: width: 800 }}" alt="{{ section.settings[kh] | escape }}" loading="lazy">{%- endif -%}
+        <h3>{{ section.settings[kh] }}</h3><p>{{ section.settings[kb] }}</p>
+      </div>
+    {%- endfor -%}
+  </div>
+</div></div>
+
+<!-- ================= EASY ================= -->
+<div class="sec white"><div class="wrap">
+  <div class="narrow">
+    <p class="eyebrow">You can't get this gift wrong</p>
+    <h2>{{ section.settings.easy_h }}</h2>
+    <p>{{ section.settings.easy_sub }}</p>
+  </div>
+  <div class="three">
+    {%- for i in (1..3) -%}
+      {%- assign kh = 'easy_' | append: i | append: '_h' -%}{%- assign kb = 'easy_' | append: i | append: '_b' -%}
+      <div class="card"><span class="pa-num">{{ i }}</span><h3>{{ section.settings[kh] }}</h3><p>{{ section.settings[kb] }}</p></div>
+    {%- endfor -%}
+  </div>
+</div></div>
+
+<!-- ================= SPECS + BOX ================= -->
+<div class="sec"><div class="wrap narrow">
+  <p class="eyebrow">The specifics</p>
+  <h2>What it is</h2>
+  <dl class="attrs">
+    {%- for i in (1..8) -%}
+      {%- assign kl = 'spec_' | append: i | append: '_l' -%}{%- assign kv = 'spec_' | append: i | append: '_v' -%}
+      {%- if section.settings[kl] != blank -%}<div class="attr"><dt>{{ section.settings[kl] }}</dt><dd>{{ section.settings[kv] }}</dd></div>{%- endif -%}
+    {%- endfor -%}
+  </dl>
+  <h3 style="margin-top:40px">{{ section.settings.box_h }}</h3>
+  <ul class="pa-box">
+    {%- for i in (1..4) -%}
+      {%- assign kb = 'box_' | append: i -%}
+      {%- if section.settings[kb] != blank -%}<li>{{ section.settings[kb] }}</li>{%- endif -%}
+    {%- endfor -%}
+  </ul>
+  <p style="margin-top:16px;font-size:15px;color:var(--muted)">{{ section.settings.box_note }}</p>
+</div></div>
+
+<!-- ================= ALTERNATIVES ================= -->
+<div class="band"><div class="wrap narrow">
+  <p class="eyebrow">Other gift ideas</p>
+  <h2>{{ section.settings.alts_h }}</h2>
+  {%- for i in (1..3) -%}
+    {%- assign kh = 'alt_' | append: i | append: '_h' -%}{%- assign kb = 'alt_' | append: i | append: '_b' -%}
+    <div class="alt"><b>{{ section.settings[kh] }}</b><p>{{ section.settings[kb] }}</p></div>
+  {%- endfor -%}
+  <div class="alt win" style="border-bottom:0"><b>{{ product.title }}</b><p>{{ section.settings.alt_win_b }}</p></div>
+</div></div>
+
+<!-- ================= VALUE STACK ================= -->
+<div class="sec"><div class="wrap narrow">
+  <p class="eyebrow">The best deal</p>
+  <h2>{{ section.settings.stack_h }}</h2>
+  <div class="stack">
+    <div class="srow"><b>2 × {{ product.title }}</b><span class="val">{{ p2_cmp | money }}</span></div>
+    <div class="srow"><b>2 × {{ section.settings.gift_case_title }}</b><span class="val">{{ section.settings.case_value_cents | times: 2 | money }} · Free</span></div>
+    <div class="srow"><b>Shipping</b><span class="val">{{ section.settings.ship_cost_cents | money }} · Free</span></div>
+    <div class="srow"><b>You pay</b><span class="val">{{ p2 | money }}</span></div>
+  </div>
+  <p style="margin-top:22px"><b>{{ p2_each | money }} each.</b> {{ section.settings.stack_line }}</p>
+</div></div>
+
+<!-- ================= REVIEWS ================= -->
+{%- if section.settings.show_reviews -%}
+{%- assign pa_pct = section.settings.rev_score | times: 20 -%}
+<div class="sec white" id="pa-reviews"><div class="wrap narrow">
+  <p class="eyebrow">What people say</p>
+  <div class="rsum">
+    <span class="rnum">{{ section.settings.rev_score }}</span>
+    <div><span class="pa-stars" aria-label="{{ section.settings.rev_score }} out of 5 stars"><i style="width:{{ pa_pct }}%"></i></span>
+      <div style="font-size:14px;color:var(--muted);margin-top:4px">{{ section.settings.rev_count }}</div></div>
+  </div>
+  {%- if section.settings.reviews_html != blank -%}<div>{{ section.settings.reviews_html }}</div>{%- endif -%}
+</div></div>
+{%- endif -%}
+
+<!-- ================= GUARANTEE ================= -->
+<div class="sec"><div class="wrap narrow">
+  <p class="eyebrow">Gift with no risk</p>
+  <h2>{{ section.settings.guar_h }}</h2>
+  <p>{{ section.settings.guar_1 }}</p>
+  <p>{{ section.settings.guar_2 }}</p>
+</div></div>
+
+<!-- ================= FAQ ================= -->
+<div class="sec white"><div class="wrap narrow">
+  <p class="eyebrow">Questions</p>
+  <h2>Before you buy</h2>
+  {%- for i in (1..12) -%}
+    {%- assign qk = 'faq_q_' | append: i -%}{%- assign ak = 'faq_a_' | append: i -%}
+    {%- if section.settings[qk] != blank -%}<details><summary>{{ section.settings[qk] }}</summary><div class="fa">{{ section.settings[ak] }}</div></details>{%- endif -%}
+  {%- endfor -%}
+</div></div>
+
+<!-- ================= FINAL CTA ================= -->
+<div class="sec"><div class="wrap narrow" style="text-align:center">
+  <h2>{{ section.settings.final_h }}</h2>
+  <p style="margin:0 auto 22px">{{ section.settings.final_sub }}</p>
+  {%- form 'product', product, id: 'pa-form-final', class: 'pa-form' -%}
+    <input type="hidden" name="id" class="pa-variant-field" value="{{ v.id }}">
+    <input type="hidden" name="quantity" class="pa-qty-field" value="1"><span class="pa-items"></span>
+    <button type="submit" class="atc pa-cta" style="max-width:420px;margin:0 auto"{% unless product.available %} disabled{% endunless %}>{%- if product.available -%}{{ section.settings.cta_1 }}{%- else -%}Sold out{%- endif -%}</button>
+  {%- endform -%}
+</div></div>
+
+<!-- ================= STICKY (mobile) ================= -->
+<div class="sticky" id="pa-sticky" aria-hidden="true">
+  <div class="in">
+    {%- if product.featured_image -%}<img class="st-img" src="{{ product.featured_image | image_url: width: 120 }}" alt="">{%- endif -%}
+    <div class="st-info">
+      <span class="st-t">{{ product.title }}</span>
+      <span class="st-v" id="pa-sticky-tier">{{ section.settings.t1_label }}</span>
+      <span class="sp" id="pa-sticky-price">{{ p1 | money }}</span>
+    </div>
+    {%- form 'product', product, id: 'pa-form-sticky', class: 'pa-form' -%}
+      <input type="hidden" name="id" class="pa-variant-field" value="{{ v.id }}">
+      <input type="hidden" name="quantity" class="pa-qty-field" value="1"><span class="pa-items"></span>
+      <button type="submit" class="atc pa-cta"{% unless product.available %} disabled{% endunless %}>{%- if product.available -%}{{ section.settings.cta_1 }}{%- else -%}Sold out{%- endif -%}</button>
+    {%- endform -%}
+  </div>
+</div>
+
+<!-- ================= CART DRAWER ================= -->
+{%- if section.settings.use_drawer -%}
+<div class="pa-cd-ov" id="pa-cd-ov" hidden></div>
+<aside class="pa-cd" id="pa-cd" aria-label="Your cart" aria-hidden="true" tabindex="-1">
+  <div class="pa-cd-h">
+    <span class="pa-cd-title">{{ section.settings.drawer_title }}</span>
+    <button type="button" class="pa-cd-x" id="pa-cd-x" aria-label="Close cart">&times;</button>
+  </div>
+  <div class="pa-cd-ship" id="pa-cd-ship"><span id="pa-cd-ship-t"></span><div class="pa-cd-bar"><i id="pa-cd-bar"></i></div></div>
+  <div class="pa-cd-msg" id="pa-cd-msg" hidden></div>
+  <div class="pa-cd-lines" id="pa-cd-lines"></div>
+  <div class="pa-cd-f">
+    {%- if case_up -%}
+    <div class="pa-up" id="pa-up" hidden>
+      {%- assign up_img = case_up.featured_image | default: cp.featured_image -%}
+      {%- if up_img -%}<img src="{{ up_img | image_url: width: 120 }}" alt="">{%- endif -%}
+      <div class="pa-up-t"><b>{{ section.settings.upsell_title }}</b>{{ section.settings.upsell_sub }}</div>
+      <button type="button" id="pa-up-add">Add {{ case_up.price | money_without_trailing_zeros }}</button>
+    </div>
+    {%- endif -%}
+    <div class="pa-cd-row pa-cd-disc" id="pa-cd-disc" hidden><span>Bundle savings</span><span id="pa-cd-disc-v"></span></div>
+    <div class="pa-cd-row pa-cd-tot"><span>Subtotal</span><span id="pa-cd-sub"></span></div>
+    <p class="pa-cd-note">{{ section.settings.drawer_note }}</p>
+    <a class="atc pa-cd-go" href="{{ routes.root_url | append: 'checkout' | replace: '//', '/' }}">{{ section.settings.drawer_cta }}</a>
+    <button type="button" class="pa-cd-cont" id="pa-cd-cont">Keep shopping</button>
+  </div>
+</aside>
+{%- endif -%}
+</section>
+
+{%- comment -%} SELECTOR SCRIPT: own IIFE, own try/catch. Only writes hidden inputs and toggles classes. {%- endcomment -%}
+<script>
+(function(){
+  try{
+    var root = document.getElementById('pa-pdp');
+    if(!root) return;
+    var forms = [].slice.call(root.querySelectorAll('.pa-form'));
+    var tiers = [].slice.call(root.querySelectorAll('.pa-tier'));
+    var ctas  = [].slice.call(root.querySelectorAll('.pa-cta'));
+    var gift  = root.getAttribute('data-gift');
+    var defV  = (root.querySelector('.pa-variant-field') || {}).value;
+    var cur   = '{{ cart.currency.symbol | default: "$" }}';
+    function money(c){ return cur + (c/100).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ','); }
+    function active(){ return root.querySelector('.pa-tier.on') || tiers[0]; }
+
+    // Build the cart lines for the selected tier: grouped handhelds + free cases on bundles.
+    function lines(){
+      var t = active(); if(!t) return [];
+      var qty = parseInt(t.getAttribute('data-qty'),10) || 1;
+      var picks = [].slice.call(t.querySelectorAll('.pa-v')).map(function(s){ return s.value; });
+      while(picks.length < qty) picks.push(defV);
+      var map = {}, order = [];
+      picks.forEach(function(id){ if(!map[id]){ map[id] = 0; order.push(id); } map[id]++; });
+      var out = order.map(function(id){ return {id: id, quantity: map[id]}; });
+      if(qty > 1 && gift) out.push({id: gift, quantity: qty});
+      return out;
+    }
+    function sync(){
+      var ls = lines();
+      forms.forEach(function(fm){
+        var idF = fm.querySelector('.pa-variant-field'), qF = fm.querySelector('.pa-qty-field'), box = fm.querySelector('.pa-items');
+        if(idF) idF.disabled = true; if(qF) qF.disabled = true;
+        if(box) box.innerHTML = ls.map(function(l,i){
+          return '<input type="hidden" name="items['+i+'][id]" value="'+l.id+'"><input type="hidden" name="items['+i+'][quantity]" value="'+l.quantity+'">';
+        }).join('');
+      });
+    }
+    function stickyTier(){
+      var el = root.querySelector('#pa-sticky-tier'), t = active(); if(!el || !t) return;
+      el.textContent = (t.querySelector('.pa-tier-name') || {}).textContent || '';
+    }
+    function pick(t){
+      tiers.forEach(function(x){ var on = (x === t); x.classList.toggle('on', on); x.setAttribute('aria-checked', on ? 'true' : 'false'); });
+      var pr = parseInt(t.getAttribute('data-price'),10), cmp = parseInt(t.getAttribute('data-compare'),10), cta = t.getAttribute('data-cta') || '';
+      var sp = root.querySelector('#pa-sticky-price');
+      if(sp && !isNaN(pr)) sp.innerHTML = (!isNaN(cmp) && cmp > pr ? '<s>'+money(cmp)+'</s>' : '') + money(pr);
+      ctas.forEach(function(b){ if(!b.disabled && cta) b.textContent = cta; });
+      sync(); stickyTier();
+    }
+    tiers.forEach(function(t){
+      t.addEventListener('click', function(e){
+        if(e.target.closest && e.target.closest('.pa-tier-picks, .pa-gifts')){ if(!t.classList.contains('on')) pick(t); return; }
+        pick(t);
+      });
+      t.addEventListener('keydown', function(e){
+        if((e.key === 'Enter' || e.key === ' ') && !(e.target.closest && e.target.closest('select'))){ e.preventDefault(); pick(t); }
+      });
+    });
+    [].slice.call(root.querySelectorAll('.pa-v')).forEach(function(s){ s.addEventListener('change', sync); });
+    pick(active());
+
+    var cbtn = root.querySelector('#pa-cart-btn');
+    if(cbtn && !document.getElementById('pa-cd')) cbtn.addEventListener('click', function(){ window.location.href = '{{ routes.cart_url }}'; });
+
+    var sticky = root.querySelector('#pa-sticky'), hero = root.querySelector('#pa-form-hero');
+    if(sticky && hero && 'IntersectionObserver' in window){
+      new IntersectionObserver(function(en){
+        var past = !en[0].isIntersecting && en[0].boundingClientRect.top < 0;
+        sticky.classList.toggle('show', past); sticky.setAttribute('aria-hidden', past ? 'false' : 'true');
+      }).observe(hero);
+    } else if(sticky){ sticky.classList.add('show'); }
+
+    var car = root.querySelector('#pa-car');
+    if(car){
+      var slides = [].slice.call(car.querySelectorAll('.pa-car-slide')), dots = [].slice.call(root.querySelectorAll('.pa-car-dots span')), thumbs = [].slice.call(root.querySelectorAll('.pa-thumb')), idx = 0, tmr;
+      function mark(i){ idx = i; dots.forEach(function(d,k){ d.classList.toggle('on', k === i); }); thumbs.forEach(function(x,k){ x.classList.toggle('on', k === i); }); }
+      function go(i){ i = Math.max(0, Math.min(slides.length - 1, i)); car.scrollTo({left: i * car.clientWidth, behavior: 'smooth'}); mark(i); }
+      car.addEventListener('scroll', function(){ clearTimeout(tmr); tmr = setTimeout(function(){ mark(Math.round(car.scrollLeft / Math.max(1, car.clientWidth))); }, 60); }, {passive: true});
+      var pv = root.querySelector('.pa-car-btn.prev'), nx = root.querySelector('.pa-car-btn.next');
+      if(pv) pv.addEventListener('click', function(){ go(idx - 1); });
+      if(nx) nx.addEventListener('click', function(){ go(idx + 1); });
+      thumbs.forEach(function(x){ x.addEventListener('click', function(){ go(parseInt(x.getAttribute('data-i'),10) || 0); }); });
+    }
+  }catch(e){}
+})();
+</script>
+
+{%- comment -%} ARRIVES-BY: own IIFE. Shows the delivery window and, before the cutoff, the Christmas order-by date. {%- endcomment -%}
+{%- if section.settings.show_arrive -%}
+<script>
+(function(){
+  try{
+    var box = document.getElementById('pa-arrive'), t = document.getElementById('pa-arrive-t');
+    if(!box || !t) return;
+    var mn = parseInt(box.getAttribute('data-min'),10) || 7, mx = parseInt(box.getAttribute('data-max'),10) || 12;
+    var now = new Date(), M = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    function add(d){ var x = new Date(now); x.setDate(x.getDate() + d); return x; }
+    function f(d){ return M[d.getMonth()] + ' ' + d.getDate(); }
+    var a = add(mn), b = add(mx), msg = 'Order today, arrives <b>' + f(a) + ' – ' + f(b) + '</b>.';
+    var raw = (box.getAttribute('data-xmas') || '').trim(), cut = raw ? new Date(raw + 'T23:59:59') : null;
+    if(cut && !isNaN(cut)){
+      if(now <= cut) msg = '<b>Arrives before Christmas.</b> Order by ' + f(cut) + '. Delivery ' + f(a) + ' – ' + f(b) + '.';
+    } else if(now.getMonth() >= 9 && b.getMonth() === 11 && b.getDate() <= 22){
+      msg = '<b>Arrives before Christmas.</b> Delivery ' + f(a) + ' – ' + f(b) + '.';
+    }
+    t.innerHTML = msg;
+  }catch(e){}
+})();
+</script>
+{%- endif -%}
+
+{%- comment -%} CART DRAWER: own IIFE. Adds via /cart/add.js, free-shipping bar, case upsell, keeps gift cases matched to bundles. {%- endcomment -%}
+{%- if section.settings.use_drawer -%}
+<script>
+(function(){
+  try{
+    var root = document.getElementById('pa-pdp'), cd = document.getElementById('pa-cd');
+    if(!root || !cd || !window.fetch) return;
+    var ov = document.getElementById('pa-cd-ov'), linesEl = document.getElementById('pa-cd-lines'), subEl = document.getElementById('pa-cd-sub');
+    var discRow = document.getElementById('pa-cd-disc'), discEl = document.getElementById('pa-cd-disc-v'), msgEl = document.getElementById('pa-cd-msg');
+    var shipT = document.getElementById('pa-cd-ship-t'), bar = document.getElementById('pa-cd-bar'), up = document.getElementById('pa-up');
+    var base = '{{ routes.root_url }}'.replace(/\/$/, ''), cur = '{{ cart.currency.symbol | default: "$" }}';
+    var pid = parseInt(root.getAttribute('data-product'),10), gift = parseInt(root.getAttribute('data-gift'),10), upsell = parseInt(root.getAttribute('data-upsell'),10);
+    var free = parseInt(root.getAttribute('data-freeship'),10) || 0;
+    var fixing = false;
+
+    function money(c){ return cur + (c/100).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ','); }
+    function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(m){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]; }); }
+    function msg(s){ if(!msgEl) return; if(s){ msgEl.textContent = s; msgEl.hidden = false; } else msgEl.hidden = true; }
+    function open(){ ov.hidden = false; cd.classList.add('open'); cd.setAttribute('aria-hidden','false'); document.documentElement.style.overflow = 'hidden'; try{ cd.focus(); }catch(e){} }
+    function close(){ cd.classList.remove('open'); cd.setAttribute('aria-hidden','true'); ov.hidden = true; document.documentElement.style.overflow = ''; }
+    function bubbles(n){
+      [].slice.call(document.querySelectorAll('.cart-count-bubble span, [data-cart-count], .cart-count, #CartCount')).forEach(function(el){ el.textContent = n; });
+      var mine = document.getElementById('pa-cart-n'); if(mine){ mine.textContent = n; mine.hidden = !n; }
+    }
+    function post(url, body){
+      return fetch(base + url, {method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json'}, body: JSON.stringify(body)})
+        .then(function(r){ return r.json().then(function(j){ return {ok: r.ok, j: j}; }); });
+    }
+
+    function render(cart){
+      var hand = 0, gifts = 0, giftLine = 0, hasUp = false;
+      cart.items.forEach(function(it, i){
+        if(it.product_id === pid) hand += it.quantity;
+        if(it.variant_id === gift){ gifts += it.quantity; giftLine = i + 1; }
+        if(it.variant_id === upsell) hasUp = true;
+      });
+      // Gift cases only belong with 2+ handhelds, one per handheld.
+      var want = hand >= 2 ? hand : 0;
+      if(giftLine && gifts !== want && !fixing){
+        fixing = true;
+        return post('/cart/change.js', {line: giftLine, quantity: want}).then(function(r){ fixing = false; return render(r.j); }, function(){ fixing = false; });
+      }
+      if(!cart.items.length){
+        linesEl.innerHTML = '<p class="pa-cd-empty">Your cart is empty.</p>';
+      } else {
+        linesEl.innerHTML = cart.items.map(function(it, i){
+          var img = it.image ? it.image.replace(/(\.[a-z]+)(\?|$)/i, '_160x160$1$2') : '';
+          var isGift = it.variant_id === gift;
+          var was = (it.original_line_price > it.final_line_price) ? '<s>' + money(it.original_line_price) + '</s>' : '';
+          var vt = (it.variant_title && it.variant_title !== 'Default Title') ? '<div class="pa-cd-var">' + esc(it.variant_title) + '</div>' : '';
+          var ctrl = isGift ? '<div class="pa-cd-var">Free with your bundle</div>' :
+            '<div class="pa-cd-qty"><button type="button" data-q="' + (it.quantity-1) + '" aria-label="Decrease">&minus;</button><span>' + it.quantity + '</span><button type="button" data-q="' + (it.quantity+1) + '" aria-label="Increase">+</button></div>' +
+            '<div><button type="button" class="pa-cd-rm" data-q="0">Remove</button></div>';
+          return '<div class="pa-cd-line" data-line="' + (i+1) + '">' + (img ? '<img src="' + esc(img) + '" alt="">' : '<span></span>') +
+            '<div><div class="pa-cd-name">' + (isGift ? it.quantity + ' × ' : '') + esc(it.product_title) + '</div>' + (isGift ? '' : vt) + ctrl + '</div>' +
+            '<div class="pa-cd-price">' + (isGift ? '<span class="pa-cd-free">FREE</span>' : was + money(it.final_line_price)) + '</div></div>';
+        }).join('');
+      }
+      var disc = cart.total_discount || 0;
+      if(disc > 0){ discEl.textContent = '−' + money(disc); discRow.hidden = false; } else discRow.hidden = true;
+      subEl.textContent = money(cart.total_price);
+      if(free && shipT && bar){
+        var left = free - cart.total_price;
+        if(!cart.items.length){ shipT.innerHTML = 'Free shipping on orders over <b>' + money(free) + '</b>'; bar.style.width = '0'; }
+        else if(left > 0){ shipT.innerHTML = 'You’re <b>' + money(left) + '</b> away from free shipping'; bar.style.width = Math.min(100, cart.total_price / free * 100) + '%'; }
+        else { shipT.innerHTML = '<b>You’ve got free shipping!</b>'; bar.style.width = '100%'; }
+      }
+      if(up) up.hidden = !(hand > 0 && hand < 2 && !hasUp && upsell);
+      bubbles(cart.item_count);
+    }
+
+    function load(){ return fetch(base + '/cart.js', {headers:{'Accept':'application/json'}}).then(function(r){ return r.json(); }).then(render); }
+    function change(line, q){
+      linesEl.classList.add('pa-busy');
+      return post('/cart/change.js', {line: line, quantity: q}).then(function(r){ msg(''); return render(r.j); })
+        .catch(function(){ msg('Something went wrong. Please try again.'); })
+        .then(function(){ linesEl.classList.remove('pa-busy'); });
+    }
+    function itemsFrom(form){
+      var fd = new FormData(form), items = [];
+      for(var i = 0; i < 6; i++){
+        var id = fd.get('items['+i+'][id]');
+        if(id) items.push({id: parseInt(id,10), quantity: parseInt(fd.get('items['+i+'][quantity]') || '1', 10)});
+      }
+      return items;
+    }
+
+    [].slice.call(root.querySelectorAll('.pa-form')).forEach(function(form){
+      form.addEventListener('submit', function(e){
+        var items = itemsFrom(form);
+        if(!items.length) return;
+        e.preventDefault(); e.stopPropagation();
+        var btn = form.querySelector('[type=submit]'); if(btn) btn.classList.add('pa-busy');
+        post('/cart/add.js', {items: items})
+          .then(function(res){ msg(res.ok ? '' : (res.j.description || res.j.message || 'That one is sold out.')); return load().then(open); })
+          .catch(function(){ form.submit(); })
+          .then(function(){ if(btn) btn.classList.remove('pa-busy'); });
+      }, true);
+    });
+    var upAdd = document.getElementById('pa-up-add');
+    if(upAdd) upAdd.addEventListener('click', function(){
+      upAdd.classList.add('pa-busy');
+      post('/cart/add.js', {items: [{id: upsell, quantity: 1}]}).then(load).catch(function(){ msg('Something went wrong. Please try again.'); })
+        .then(function(){ upAdd.classList.remove('pa-busy'); });
+    });
+    linesEl.addEventListener('click', function(e){
+      var b = e.target.closest && e.target.closest('[data-q]'); if(!b) return;
+      change(parseInt(b.closest('.pa-cd-line').getAttribute('data-line'),10), Math.max(0, parseInt(b.getAttribute('data-q'),10)));
+    });
+    var cbtn = document.getElementById('pa-cart-btn');
+    if(cbtn) cbtn.addEventListener('click', function(){ load().then(open); });
+    ov.addEventListener('click', close);
+    document.getElementById('pa-cd-x').addEventListener('click', close);
+    document.getElementById('pa-cd-cont').addEventListener('click', close);
+    document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && cd.classList.contains('open')) close(); });
+  }catch(e){}
+})();
+</script>
+{%- endif -%}
+
+{%- if section.settings.sale_on -%}
+<script>
+(function(){
+  try{
+    var bar = document.getElementById('pa-sale'), clk = document.getElementById('pa-sale-clock');
+    if(!bar || !clk) return;
+    var raw = (bar.getAttribute('data-end') || '').trim();
+    function target(){
+      var now = new Date();
+      if(raw){ var t = new Date(raw.replace(' ', 'T')); if(!isNaN(t) && t > now) return t; if(!isNaN(t)) return null; }
+      var m = new Date(now); m.setHours(24,0,0,0); return m;
+    }
+    function pad(n){ return (n < 10 ? '0' : '') + n; }
+    function tick(){
+      var t = target(); if(!t){ bar.style.display = 'none'; return; }
+      var d = Math.max(0, Math.floor((t - new Date()) / 1000));
+      var days = Math.floor(d / 86400), h = Math.floor(d % 86400 / 3600), m = Math.floor(d % 3600 / 60), s = d % 60;
+      clk.textContent = (days ? days + 'd ' : '') + pad(h) + ':' + pad(m) + ':' + pad(s);
+    }
+    tick(); setInterval(tick, 1000);
+  }catch(e){}
+})();
+</script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "PocketArcade PDP",
+  "settings": [
+    { "type": "checkbox", "id": "load_fonts", "label": "Load Rubik / Inter / Press Start 2P", "default": true },
+    { "type": "header", "content": "Top bar and announcement" },
+    { "type": "select", "id": "cart_icon_side", "label": "Cart icon side", "default": "right", "options": [ { "value": "left", "label": "Left" }, { "value": "right", "label": "Right" } ] },
+    { "type": "checkbox", "id": "sale_on", "label": "Show sale countdown", "default": true },
+    { "type": "text", "id": "sale_label", "label": "Sale badge", "default": "Holiday sale" },
+    { "type": "text", "id": "sale_text", "label": "Sale text", "default": "Free cases on 2+ ends in" },
+    { "type": "text", "id": "sale_end", "label": "Sale end (YYYY-MM-DD HH:MM)", "default": "2026-11-26 23:59", "info": "Empty = counts down to midnight every day." },
+    { "type": "text", "id": "announce_1", "label": "Announcement 1 (no sale)", "default": "Free shipping over $86" },
+    { "type": "text", "id": "announce_2", "label": "Announcement 2 (no sale)", "default": "Holiday returns until Jan 31" },
+    { "type": "header", "content": "Hero" },
+    { "type": "text", "id": "hero_sub", "label": "Subline", "default": "Thousands of classic games already on it. Turn it on and play." },
+    { "type": "text", "id": "hero_b1", "label": "Bullet 1", "default": "The gift they won't put down" },
+    { "type": "text", "id": "hero_b2", "label": "Bullet 2", "default": "No Wi-Fi, no ads, nothing to buy inside" },
+    { "type": "text", "id": "hero_b3", "label": "Bullet 3", "default": "Ready to play out of the box" },
+    { "type": "checkbox", "id": "show_arrive", "label": "Show arrives-by box", "default": true },
+    { "type": "number", "id": "ship_min_days", "label": "Delivery days (fastest)", "default": 7 },
+    { "type": "number", "id": "ship_max_days", "label": "Delivery days (slowest)", "default": 12 },
+    { "type": "text", "id": "xmas_cutoff", "label": "Christmas order-by date (YYYY-MM-DD)", "default": "2026-12-10", "info": "Before this date the box says 'Arrives before Christmas. Order by...'. Set it from the supplier's real delivery times." },
+    { "type": "header", "content": "Bundle tiers" },
+    { "type": "range", "id": "default_tier", "label": "Selected tier on load", "min": 1, "max": 3, "step": 1, "default": 2 },
+    { "type": "number", "id": "duo_price_cents", "label": "Duo price in cents", "default": 13999, "info": "Must match the qty-2 automatic discount in Shopify." },
+    { "type": "number", "id": "trio_price_cents", "label": "Trio price in cents", "default": 19999, "info": "Must match the qty-3 automatic discount in Shopify." },
+    { "type": "text", "id": "t1_label", "label": "Tier 1 name", "default": "1 PocketArcade" },
+    { "type": "text", "id": "t1_sub", "label": "Tier 1 subline", "default": "For one lucky person" },
+    { "type": "text", "id": "t2_label", "label": "Tier 2 name", "default": "2 PocketArcades" },
+    { "type": "text", "id": "t2_sub", "label": "Tier 2 subline", "default": "Play together · 2 free cases · free shipping" },
+    { "type": "text", "id": "t2_badge", "label": "Tier 2 badge", "default": "Most popular" },
+    { "type": "text", "id": "t3_label", "label": "Tier 3 name", "default": "3 PocketArcades" },
+    { "type": "text", "id": "t3_sub", "label": "Tier 3 subline", "default": "One for each kid · 3 free cases · free shipping" },
+    { "type": "text", "id": "t3_badge", "label": "Tier 3 badge", "default": "Best value" },
+    { "type": "text", "id": "pick_label", "label": "Color picker label", "default": "Color" },
+    { "type": "text", "id": "pick_label_n", "label": "Color picker label (bundles)", "default": "Color" },
+    { "type": "text", "id": "single_ship_note", "label": "Shipping note under tiers", "default": "1 PocketArcade ships for $4.99. Add a case in your cart for free shipping." },
+    { "type": "text", "id": "cta_1", "label": "Button: tier 1", "default": "Add to cart" },
+    { "type": "text", "id": "cta_2", "label": "Button: tier 2", "default": "Add 2 to cart" },
+    { "type": "text", "id": "cta_3", "label": "Button: tier 3", "default": "Add 3 to cart" },
+    { "type": "header", "content": "Gift stack and case" },
+    { "type": "product", "id": "case_product", "label": "Case product", "info": "Needs a paid variant (upsell) and a $0 variant (bundle gift)." },
+    { "type": "checkbox", "id": "show_gifts", "label": "Show the gift stack on bundles", "default": true },
+    { "type": "text", "id": "gifts_heading", "label": "Gift stack heading", "default": "Free with your bundle" },
+    { "type": "text", "id": "gift_case_title", "label": "Case name", "default": "Silicone case" },
+    { "type": "text", "id": "gift_case_sub", "label": "Case line", "default": "Keeps it safe in a bag or a stocking" },
+    { "type": "number", "id": "case_value_cents", "label": "Case value in cents", "default": 1200 },
+    { "type": "text", "id": "gift_ship_sub", "label": "Free shipping line", "default": "On every bundle" },
+    { "type": "number", "id": "ship_cost_cents", "label": "Shipping cost in cents", "default": 499 },
+    { "type": "header", "content": "Trust row" },
+    { "type": "text", "id": "trust_1", "label": "Trust 1", "default": "Free shipping over $86" },
+    { "type": "text", "id": "trust_2", "label": "Trust 2", "default": "Holiday returns until Jan 31" },
+    { "type": "text", "id": "trust_3", "label": "Trust 3", "default": "Ready to play out of the box" },
+    { "type": "header", "content": "Why it's the gift" },
+    { "type": "text", "id": "why_eyebrow", "label": "Eyebrow", "default": "Why it's the gift this year" },
+    { "type": "text", "id": "why_h", "label": "Heading", "default": "The gift they won't put down." },
+    { "type": "textarea", "id": "why_1", "label": "Intro", "default": "Most gifts get opened, smiled at and put in a drawer. This one gets played on the couch, in the car and under the covers." },
+    { "type": "text", "id": "why_c1_h", "label": "Card 1 heading", "default": "The games they grew up on" },
+    { "type": "textarea", "id": "why_c1_b", "label": "Card 1 body", "default": "Thousands of classic games from the arcade and the 80s and 90s. It feels like being 10 again." },
+    { "type": "text", "id": "why_c2_h", "label": "Card 2 heading", "default": "Nothing to buy. Nothing to download." },
+    { "type": "textarea", "id": "why_c2_b", "label": "Card 2 body", "default": "No Wi-Fi, no ads, no in-game stores. The games are already on it." },
+    { "type": "text", "id": "why_c3_h", "label": "Card 3 heading", "default": "Real buttons" },
+    { "type": "textarea", "id": "why_c3_b", "label": "Card 3 body", "default": "A real D-pad, buttons and two joysticks. Not a phone screen you tap at." },
+    { "type": "header", "content": "Who it's for" },
+    { "type": "text", "id": "who_h", "label": "Heading", "default": "Who's on your list?" },
+    { "type": "text", "id": "who_1_h", "label": "Card 1 heading", "default": "For him" },
+    { "type": "textarea", "id": "who_1_b", "label": "Card 1 body", "default": "He's impossible to buy for. You don't need to know anything about games. He'll know every one on it." },
+    { "type": "image_picker", "id": "who_1_img", "label": "Card 1 image" },
+    { "type": "text", "id": "who_2_h", "label": "Card 2 heading", "default": "For the kids" },
+    { "type": "textarea", "id": "who_2_b", "label": "Card 2 body", "default": "Screen time with no ads, no chat and no surprise charges. Great for car rides and flights." },
+    { "type": "image_picker", "id": "who_2_img", "label": "Card 2 image" },
+    { "type": "text", "id": "who_3_h", "label": "Card 3 heading", "default": "For the gamer" },
+    { "type": "textarea", "id": "who_3_b", "label": "Card 3 body", "default": "Fits in a pocket, and the battery lasts for hours. The one they'll take everywhere." },
+    { "type": "image_picker", "id": "who_3_img", "label": "Card 3 image" },
+    { "type": "header", "content": "Easy" },
+    { "type": "text", "id": "easy_h", "label": "Heading", "default": "Unwrap it. Turn it on. Play." },
+    { "type": "textarea", "id": "easy_sub", "label": "Subline", "default": "No setup, no accounts and nothing else to buy." },
+    { "type": "text", "id": "easy_1_h", "label": "Step 1 heading", "default": "Unwrap it" },
+    { "type": "textarea", "id": "easy_1_b", "label": "Step 1 body", "default": "It comes charged and ready, with the games already on it." },
+    { "type": "text", "id": "easy_2_h", "label": "Step 2 heading", "default": "Turn it on" },
+    { "type": "textarea", "id": "easy_2_b", "label": "Step 2 body", "default": "Pick a game from the menu. That's it." },
+    { "type": "text", "id": "easy_3_h", "label": "Step 3 heading", "default": "Play anywhere" },
+    { "type": "textarea", "id": "easy_3_b", "label": "Step 3 body", "default": "On the couch, in the car, on a plane. Save your game and pick it up later." },
+    { "type": "header", "content": "Specs (confirm every line)" },
+    { "type": "text", "id": "spec_1_l", "label": "Spec 1 label", "default": "Games" },
+    { "type": "text", "id": "spec_1_v", "label": "Spec 1 value", "default": "Thousands of classic games already loaded (128GB)" },
+    { "type": "text", "id": "spec_2_l", "label": "Spec 2 label", "default": "Screen" },
+    { "type": "text", "id": "spec_2_v", "label": "Spec 2 value", "default": "3.5-inch bright color screen" },
+    { "type": "text", "id": "spec_3_l", "label": "Spec 3 label", "default": "Battery" },
+    { "type": "text", "id": "spec_3_v", "label": "Spec 3 value", "default": "Rechargeable, hours of play per charge" },
+    { "type": "text", "id": "spec_4_l", "label": "Spec 4 label", "default": "Charging" },
+    { "type": "text", "id": "spec_4_v", "label": "Spec 4 value", "default": "USB-C cable included" },
+    { "type": "text", "id": "spec_5_l", "label": "Spec 5 label", "default": "Controls" },
+    { "type": "text", "id": "spec_5_v", "label": "Spec 5 value", "default": "D-pad, action buttons, shoulder buttons and two joysticks" },
+    { "type": "text", "id": "spec_6_l", "label": "Spec 6 label", "default": "Saving" },
+    { "type": "text", "id": "spec_6_v", "label": "Spec 6 value", "default": "Save your game anytime and pick it up later" },
+    { "type": "text", "id": "spec_7_l", "label": "Spec 7 label", "default": "Internet" },
+    { "type": "text", "id": "spec_7_v", "label": "Spec 7 value", "default": "None needed. No Wi-Fi, no accounts, no ads" },
+    { "type": "text", "id": "spec_8_l", "label": "Spec 8 label", "default": "Sound" },
+    { "type": "text", "id": "spec_8_v", "label": "Spec 8 value", "default": "Built-in speaker and a headphone jack" },
+    { "type": "text", "id": "box_h", "label": "In the box heading", "default": "What's in the box" },
+    { "type": "text", "id": "box_1", "label": "Box item 1", "default": "PocketArcade handheld" },
+    { "type": "text", "id": "box_2", "label": "Box item 2", "default": "128GB game card (already in it)" },
+    { "type": "text", "id": "box_3", "label": "Box item 3", "default": "USB-C charging cable" },
+    { "type": "text", "id": "box_4", "label": "Box item 4", "default": "Quick start card" },
+    { "type": "textarea", "id": "box_note", "label": "Box note", "default": "Charges from any USB phone plug. Nothing else to buy." },
+    { "type": "header", "content": "Alternatives" },
+    { "type": "text", "id": "alts_h", "label": "Heading", "default": "How it compares" },
+    { "type": "text", "id": "alt_1_h", "label": "Alt 1 name", "default": "A new console" },
+    { "type": "textarea", "id": "alt_1_b", "label": "Alt 1 body", "default": "Hundreds of dollars, and then every game costs more." },
+    { "type": "text", "id": "alt_2_h", "label": "Alt 2 name", "default": "Phone games" },
+    { "type": "textarea", "id": "alt_2_b", "label": "Alt 2 body", "default": "Free to start, then ads, timers and pop-ups asking for money." },
+    { "type": "text", "id": "alt_3_h", "label": "Alt 3 name", "default": "A gift card" },
+    { "type": "textarea", "id": "alt_3_b", "label": "Alt 3 body", "default": "Easy to give, easy to forget." },
+    { "type": "textarea", "id": "alt_win_b", "label": "PocketArcade line", "default": "Thousands of games, one price, nothing else to buy. A gift they open and use the same day." },
+    { "type": "header", "content": "Value stack" },
+    { "type": "text", "id": "stack_h", "label": "Heading", "default": "Get two and play together" },
+    { "type": "text", "id": "stack_line", "label": "Line under stack", "default": "One for them and one for you, or one for each kid. Free cases and free shipping included." },
+    { "type": "header", "content": "Reviews" },
+    { "type": "checkbox", "id": "show_reviews", "label": "Show reviews (stars + section)", "default": false, "info": "Only turn on once you have REAL reviews. No placeholder reviews on this build." },
+    { "type": "text", "id": "rev_score", "label": "Score", "default": "4.8" },
+    { "type": "text", "id": "rev_count", "label": "Count text", "default": "Based on real customer reviews" },
+    { "type": "html", "id": "reviews_html", "label": "Reviews app markup" },
+    { "type": "header", "content": "Guarantee" },
+    { "type": "text", "id": "guar_h", "label": "Heading", "default": "If they don't love it, send it back." },
+    { "type": "textarea", "id": "guar_1", "label": "Para 1", "default": "Holiday returns until January 31. Buy it now, give it at Christmas, and you still have time to return it." },
+    { "type": "textarea", "id": "guar_2", "label": "Para 2", "default": "If it arrives broken, we replace it for free. Just email us." },
+    { "type": "header", "content": "FAQ" },
+    { "type": "text", "id": "faq_q_1", "label": "Q1", "default": "Will it arrive before Christmas?" },
+    { "type": "textarea", "id": "faq_a_1", "label": "A1", "default": "Order by the date shown near the top of this page and it arrives before Christmas. Every order gets a tracking number." },
+    { "type": "text", "id": "faq_q_2", "label": "Q2", "default": "Do I need to set anything up?" },
+    { "type": "textarea", "id": "faq_a_2", "label": "A2", "default": "No. The games are already on it. Charge it, turn it on and pick a game." },
+    { "type": "text", "id": "faq_q_3", "label": "Q3", "default": "Do I need to buy games?" },
+    { "type": "textarea", "id": "faq_a_3", "label": "A3", "default": "No. Thousands of games are already on it, and there is nothing to buy inside." },
+    { "type": "text", "id": "faq_q_4", "label": "Q4", "default": "Is it OK for kids?" },
+    { "type": "textarea", "id": "faq_a_4", "label": "A4", "default": "Yes. There is no internet, no chat and no in-game stores, so no surprise charges." },
+    { "type": "text", "id": "faq_q_5", "label": "Q5", "default": "How long does the battery last?" },
+    { "type": "textarea", "id": "faq_a_5", "label": "A5", "default": "Hours of play on one charge. It charges with the USB-C cable in the box." },
+    { "type": "text", "id": "faq_q_6", "label": "Q6", "default": "Does it need Wi-Fi?" },
+    { "type": "textarea", "id": "faq_a_6", "label": "A6", "default": "No. It works anywhere: in the car, on a plane or at Grandma's." },
+    { "type": "text", "id": "faq_q_7", "label": "Q7", "default": "Can I save my game?" },
+    { "type": "textarea", "id": "faq_a_7", "label": "A7", "default": "Yes. Save anytime and pick up where you left off." },
+    { "type": "text", "id": "faq_q_8", "label": "Q8", "default": "What if they don't like it?" },
+    { "type": "textarea", "id": "faq_a_8", "label": "A8", "default": "Holiday returns until January 31. If it arrives broken, we replace it free." },
+    { "type": "text", "id": "faq_q_9", "label": "Q9", "default": "How does shipping work?" },
+    { "type": "textarea", "id": "faq_a_9", "label": "A9", "default": "One PocketArcade ships for $4.99. Add a case, or get 2 or more, and shipping is free." },
+    { "type": "text", "id": "faq_q_10", "label": "Q10", "default": "Is it hard to use for someone who isn't into games?" },
+    { "type": "textarea", "id": "faq_a_10", "label": "A10", "default": "No. Turn it on, pick a game from the list, press start. A quick start card is in the box." },
+    { "type": "text", "id": "faq_q_11", "label": "Q11" },
+    { "type": "textarea", "id": "faq_a_11", "label": "A11" },
+    { "type": "text", "id": "faq_q_12", "label": "Q12" },
+    { "type": "textarea", "id": "faq_a_12", "label": "A12" },
+    { "type": "header", "content": "Final CTA" },
+    { "type": "text", "id": "final_h", "label": "Heading", "default": "Christmas shopping, sorted." },
+    { "type": "text", "id": "final_sub", "label": "Subline", "default": "The gift they'll actually play. Holiday returns until January 31." },
+    { "type": "header", "content": "Cart drawer" },
+    { "type": "checkbox", "id": "use_drawer", "label": "Use this section's cart drawer", "default": true },
+    { "type": "text", "id": "drawer_title", "label": "Drawer title", "default": "Your cart" },
+    { "type": "number", "id": "free_ship_cents", "label": "Free shipping threshold (cents)", "default": 8699, "info": "Must match your Shopify shipping rate. Single + case." },
+    { "type": "text", "id": "upsell_title", "label": "Upsell title", "default": "Add a case, get free shipping" },
+    { "type": "text", "id": "upsell_sub", "label": "Upsell line", "default": "Save $4.99 on shipping and keep it safe" },
+    { "type": "text", "id": "drawer_note", "label": "Drawer note", "default": "Taxes calculated at checkout." },
+    { "type": "text", "id": "drawer_cta", "label": "Checkout button", "default": "Check out" }
+  ],
+  "presets": [ { "name": "PocketArcade PDP" } ]
+}
+{% endschema %}
