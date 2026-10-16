@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-16 · PocketArcade Batch 1 = iterations of last year's winner** (`retro-handheld/ads/batch-1/B1_Winner_Iterations.md`). Change one variable at a time. Round 1 swaps the call-out ("[Who], walk don't run to Target for this") across the gift SAs, plus a static. Then opening visuals, then endings. The original video file is needed to make the control a true rebuild.
+
 - **2026-10-16 · Case upsell price $12 (founder).** Raise it to $15 if it's added consistently. Its job is to lift order value and remove the $4.99 shipping from checkout (less drop-off), not to make profit. When it ships with the handheld, the case costs ~$4.55 ($2.55 + ~$2 shipping).
 
 - **2026-10-16 · PocketArcade offer locked (founder).** Single with no gift at $74.99 or $69.99 (test both), $4.99 shipping. Duo and trio come with 2 or 3 free cases. The case is a $14.99 cart upsell, and single + case reaches free shipping. Single breakeven 1.63× ($74.99). Duo ~1.8–1.9× at $139.99. Trio COGS still needed. Math in `retro-handheld/Offer_Math.md`.
