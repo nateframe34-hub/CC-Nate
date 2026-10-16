@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-16 · Case upsell price $12 (founder).** Raise it to $15 if it's added consistently. Its job is to lift order value and remove the $4.99 shipping from checkout (less drop-off), not to make profit. When it ships with the handheld, the case costs ~$4.55 ($2.55 + ~$2 shipping).
+
 - **2026-10-16 · PocketArcade offer locked (founder).** Single with no gift at $74.99 or $69.99 (test both), $4.99 shipping. Duo and trio come with 2 or 3 free cases. The case is a $14.99 cart upsell, and single + case reaches free shipping. Single breakeven 1.63× ($74.99). Duo ~1.8–1.9× at $139.99. Trio COGS still needed. Math in `retro-handheld/Offer_Math.md`.
 
 - **2026-10-16 · PocketArcade offer math** (`retro-handheld/Offer_Math.md`). Landed COGS $28.23 single, $53.25 2-pack, $5.60 case. Breakeven ~1.68× at $75.99, so COGS is ~37% of price, above the ≤30% rule. Proposed: single $79.99, 2-pack $139.99 with a free case, case add-on $14.99, free case on singles only at BFCM.
