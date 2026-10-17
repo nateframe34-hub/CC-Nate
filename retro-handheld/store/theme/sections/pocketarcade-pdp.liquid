@@ -699,7 +699,7 @@
   try{
     var box = document.getElementById('pa-arrive'), t = document.getElementById('pa-arrive-t');
     if(!box || !t) return;
-    var mn = parseInt(box.getAttribute('data-min'),10) || 7, mx = parseInt(box.getAttribute('data-max'),10) || 12;
+    var mn = parseInt(box.getAttribute('data-min'),10) || 5, mx = parseInt(box.getAttribute('data-max'),10) || 12;
     var now = new Date(), M = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
     function add(d){ var x = new Date(now); x.setDate(x.getDate() + d); return x; }
     function f(d){ return M[d.getMonth()] + ' ' + d.getDate(); }
@@ -880,9 +880,9 @@
     { "type": "text", "id": "hero_b2", "label": "Bullet 2", "default": "No Wi-Fi, no ads, nothing to buy inside" },
     { "type": "text", "id": "hero_b3", "label": "Bullet 3", "default": "Ready to play out of the box" },
     { "type": "checkbox", "id": "show_arrive", "label": "Show arrives-by box", "default": true },
-    { "type": "number", "id": "ship_min_days", "label": "Delivery days (fastest)", "default": 7 },
+    { "type": "number", "id": "ship_min_days", "label": "Delivery days (fastest)", "default": 5 },
     { "type": "number", "id": "ship_max_days", "label": "Delivery days (slowest)", "default": 12 },
-    { "type": "text", "id": "xmas_cutoff", "label": "Christmas order-by date (YYYY-MM-DD)", "default": "2026-12-10", "info": "Before this date the box says 'Arrives before Christmas. Order by...'. Set it from the supplier's real delivery times." },
+    { "type": "text", "id": "xmas_cutoff", "label": "Christmas order-by date (YYYY-MM-DD)", "default": "2026-12-11", "info": "Before this date the box says 'Arrives before Christmas. Order by...'. Set it from the supplier's real delivery times." },
     { "type": "header", "content": "Bundle tiers" },
     { "type": "range", "id": "default_tier", "label": "Selected tier on load", "min": 1, "max": 3, "step": 1, "default": 2 },
     { "type": "number", "id": "duo_price_cents", "label": "Duo price in cents", "default": 13999, "info": "Must match the qty-2 automatic discount in Shopify." },

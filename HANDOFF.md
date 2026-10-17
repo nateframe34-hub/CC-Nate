@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-17 · Shipping 5–12 days (founder).** The PDP arrives-by box is set to 5–12 days. Christmas order-by date is Dec 11 (12 days lands on Dec 23).
+
 - **2026-10-16 · PocketArcade PDP built:** `retro-handheld/store/theme/sections/pocketarcade-pdp.liquid` + `templates/product.pocketarcade.json` (134 settings). Single/Duo/Trio tiers with color pickers. Free cases on bundles via a $0 case variant. Cart drawer with free-shipping bar and $12 case upsell. Arrives-by and Christmas order-by box. Reviews off by default (no placeholders). Admin setup steps are in the file header.
 
 - **2026-10-16 · Pre-launch checklist** written (`retro-handheld/Prelaunch_Checklist.md`). Biggest risks: US duties (DDP?), Christmas cutoff, stock depth, processor holds, ad account health. Placeholder reviews must come off the reused PDP.
