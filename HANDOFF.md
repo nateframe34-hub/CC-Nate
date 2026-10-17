@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-17 · PDP color dropdown now switches the hero image** to that variant's image. Each variant needs its own image assigned in Shopify.
+
 - **2026-10-17 · Shipping 5–12 days (founder).** The PDP arrives-by box is set to 5–12 days. Christmas order-by date is Dec 11 (12 days lands on Dec 23).
 
 - **2026-10-16 · PocketArcade PDP built:** `retro-handheld/store/theme/sections/pocketarcade-pdp.liquid` + `templates/product.pocketarcade.json` (134 settings). Single/Duo/Trio tiers with color pickers. Free cases on bundles via a $0 case variant. Cart drawer with free-shipping bar and $12 case upsell. Arrives-by and Christmas order-by box. Reviews off by default (no placeholders). Admin setup steps are in the file header.
