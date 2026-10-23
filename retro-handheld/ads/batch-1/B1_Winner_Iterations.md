@@ -93,3 +93,16 @@ Same b-roll, same pacing. Only the first 2–3 seconds change (on-screen text + 
 - **The original video file**, so the control is a true rebuild and the iterations change only one thing
 - Any b-roll footage from last year (or a product sample to shoot new footage)
 - Last year's metrics for this ad (CTR, CPC, ROAS), to set the bar
+
+---
+
+## Last year's numbers (founder screenshot, 2026-10-23)
+
+| Ad | Spend | Impr. | CPM | CTR | CPC | Clicks | LPV | ATC* | Checkouts | Purchases | Value |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **AD1 (winner)** | $838.77 | 27,203 | $30.83 | 4.23% | $0.73 | 1,152 | 944 | 40 | 16 | 5 tracked | $529.81 |
+
+*ATC may be double-counted, as in our other accounts.
+- Tracked ROAS 0.63. With untracked sales, the founder puts it at **~1.3–1.4×**, about 15 orders, so ~1.3% click-to-purchase.
+- The other 14 ads barely spent (CBO put almost everything on AD1). AD5 got $83 and no sales.
+- **Read:** clicks were cheap and strong ($0.73, 4.2% CTR). The gap was conversion and AOV. At a 1.63× breakeven and ~$80 AOV, we can pay ~$49 per sale, which is ~67 clicks at $0.73, so we need **~1.5% click-to-purchase**. Last year was ~1.3% with a weaker page and no bundles. The fix is the page and the offer, not the hook.
