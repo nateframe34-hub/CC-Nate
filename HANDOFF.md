@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-24 · AD1 "why it worked" analysis** (`retro-handheld/ads/batch-1/AD1_Why_It_Worked.md`). AD1 won only on hook rate (~50% vs 34–44%) and CPM ($31 vs $40–79), not CTR or watch time. Cause: a store-exterior opening that reads as a "Target finds" TikTok, plus engagement. Iterate new store openings first, caption call-outs second.
+
 - **2026-10-24 · No re-filming (founder).** Existing footage, game names and characters are cleared for ads. Iterations are edits of the AD1 file and the existing clips only. The no-real-names rule is lifted.
 
 - **2026-10-24 · AD1 dissected from the video:** the real hook is "Gamers, RUN don't WALK to Target for this! 🎁". 11.8 s TikTok "Target finds" format: store, shelf, peel, "15,833 games", gameplay. Flagged: IP on screen, implied Target availability, third-party footage. Founder to decide control vs IP-safe rebuild.
