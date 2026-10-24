@@ -4,7 +4,7 @@
 **Written 2026-10-16 from the hook alone. Re-check every iteration once we have the original video file** (voiceover or text, length, b-roll order, end card).
 
 **Rule:** change ONE variable per iteration, so we know what moved. Keep the b-roll the same unless that is the variable being tested.
-**Standing rules:** no Nintendo, Game Boy or real game names or screenshots. 5th-grade reading level. No em dashes.
+**Standing rules:** real game names, characters and existing footage are cleared (founder, 2026-10-24). 5th-grade reading level. No em dashes.
 
 ---
 
@@ -53,7 +53,7 @@ Same b-roll, same pacing. Only the first 2–3 seconds change (on-screen text + 
 | ID | First frame / b-roll |
 |---|---|
 | **B1C6** | **Under the tree:** handheld sitting half out of wrapping paper, then the b-roll |
-| **B1C7** | **Hand POV gameplay:** thumbs on the buttons, screen bright, generic pixel game (no real titles) |
+| **B1C7** | **Hand POV gameplay:** thumbs on the buttons, screen bright, the most recognisable games |
 | **B1C8** | **Reaction:** a man or kid opening it and lighting up, then the b-roll |
 | **B1C9** | **Unboxing in 10 seconds:** box → turn on → playing. Answers "I can't get it wrong" |
 
@@ -142,3 +142,7 @@ Same b-roll, same pacing. Only the first 2–3 seconds change (on-screen text + 
 - **C1 Control:** the original file, unchanged (if the founder accepts the IP risk).
 - **C1b Own-footage rebuild:** same 8 beats and timing, own unit, screens limited to the menu with the game count plus gameplay without famous characters. Store-exterior footage: keep or swap for a "my Target run" style shot that doesn't show the box on a Target shelf.
 - Round 1 call-out swaps sit on top of whichever of C1 / C1b wins.
+
+### ✅ Founder decision (2026-10-24)
+**No re-filming. The existing footage, names and characters are cleared.** C1b (own-footage rebuild) is dropped.
+Every iteration is an **edit of the original file**: new caption/hook text, re-ordered or trimmed shots, a different opening clip from the existing library, a new end card. Footage library = the downloaded Meta creatives (the 13 clips in the media library).

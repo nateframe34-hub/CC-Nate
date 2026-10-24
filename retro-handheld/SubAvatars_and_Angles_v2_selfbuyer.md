@@ -4,7 +4,7 @@
 **Spec:** Origins. Sub-avatar = desire + experience + emotion + behaviour; angle = reason to buy; hook = how it's said.
 
 > **Product facts from the pack:** R36S-class retro handheld, sold as **PocketArcade**, **$75.99**. Thousands of preloaded classic games, ready to play, **offline: no ads, no internet, no in-app payments**. Same hardware as competitors (Anbernic/PowKiddy class; "RetroGamer Pro" from Retro Games Official is near-identical).
-> **Standing creative rule:** no Nintendo, Game Boy, Pokémon or real game titles or screenshots in ads. The research is full of those names (that's how customers talk), but ads sell the feeling.
+> **Creative rule (founder, 2026-10-24):** real game names, characters, logos and existing footage are cleared for ads. The no-names rule is lifted.
 
 ---
 

@@ -4,7 +4,7 @@
 
 So this version is built around **the giver**. The research isn't thrown away: it becomes **ammunition the giver uses to feel sure** ("he'll love it because…"). The self-buyer map is kept for after Christmas: `SubAvatars_and_Angles_v2_selfbuyer.md`.
 
-> **Standing creative rule:** no Nintendo, Game Boy, Pokémon or real game titles or screenshots in ads.
+> **Creative rule (founder, 2026-10-24):** real game names, characters, logos and existing footage are cleared for ads. The no-names rule is lifted.
 
 ---
 
