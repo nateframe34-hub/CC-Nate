@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-24 · AD1 dissected from the video:** the real hook is "Gamers, RUN don't WALK to Target for this! 🎁". 11.8 s TikTok "Target finds" format: store, shelf, peel, "15,833 games", gameplay. Flagged: IP on screen, implied Target availability, third-party footage. Founder to decide control vs IP-safe rebuild.
+
 - **2026-10-23 · Last year's winner (AD1) metrics logged:** $839 spend, $0.73 CPC, 4.2% CTR, ~1.3–1.4× real ROAS. We need ~1.5% click-to-purchase at the new breakeven. The lever is the PDP and bundles (AOV), not the hook.
 
 - **2026-10-17 · PDP color dropdown now switches the hero image** to that variant's image. Each variant needs its own image assigned in Shopify.

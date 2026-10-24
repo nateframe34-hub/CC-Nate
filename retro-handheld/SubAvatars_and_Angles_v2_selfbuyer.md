@@ -32,7 +32,7 @@
 | **Behaviour** | Hunts gear and deals; responds to "you need to see this" |
 | **Awareness** | Solution → product aware. **Direct ads** |
 
-- **A1 · The find:** *"Gamers, walk don't run to Target for this"* + product b-roll. **Rebuild first, then iterate the call-out**
+- **A1 · The find:** *"Gamers, RUN don't WALK to Target for this"* + product b-roll. **Rebuild first, then iterate the call-out**
 - **A2 · Thousands of games, one pocket, no cartridges**
 - **A3 · Value:** an entire classic library for the price of one new game ($75.99 vs ~$70 AAA)
 

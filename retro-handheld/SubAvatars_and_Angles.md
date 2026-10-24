@@ -62,7 +62,7 @@ The research gives us *why* the recipient will love it (nostalgia, no ads, real 
 | **Experience** | Gamer who knows what's good; others ask them what to buy |
 | **Emotion** | Insider excitement, FOMO |
 
-- **A1 · "Gamers, walk don't run to Target for this":** the proven hook, unchanged; it works for self-gifting and gifting alike
+- **A1 · "Gamers, RUN don't WALK to Target for this":** the proven hook, unchanged; it works for self-gifting and gifting alike
 - **A2 · "The gift every gamer on your list wants":** the call-out, aimed at the giver
 
 ### SA4 · The Grandparent / Aunt / Uncle
@@ -108,7 +108,7 @@ The research's ladder (modern gaming is broken…) is the *recipient's* reason. 
 
 | # | SA · angle | Format | Why |
 |---|---|---|---|
-| **1** | SA3 · A1 "Gamers, walk don't run…" | **Video:** rebuild last year's winner + 1 static | Proven by the founder; works for gifting too |
+| **1** | SA3 · A1 "Gamers, RUN don't WALK…" | **Video:** rebuild last year's winner + 1 static | Proven by the founder; works for gifting too |
 | **2** | SA1 · A1 the gift he'll actually use | Video (reaction / unboxing) + direct gift static | Biggest Q4 segment |
 | **3** | SA2 · A1 screen time without the store / A2 show them your games | Native + video | Validated by customer quotes; drives the 2-pack |
 | 4 | SA1 · A3 you don't need to know anything about games | Static | Removes the giver's main fear |
