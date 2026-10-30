@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-30 · PocketArcade media buying (founder).** Two CBOs. Scaling CBO starts with AD1 only. Testing CBO at $50/day with all old UGC videos in one ad set. Ads with sales but below breakeven get iterated; ads at scaling ROAS move to the scaling CBO by post ID. Guardrails proposed: winner = ≥$150 spend + ≥2.0 ROAS over 3 days (breakeven 1.63); iterate = 1.0–1.6; after 4 days, starved ads (<$10) go into a 2nd test ad set.
+
 - **2026-10-30 · Re-test last year's barely-tested UGC ads (founder).** Agreed: last year's CPMs were inflated by many stores running the same ads. Screen them first (store-style opening, no conflicting price or brand on screen, not live in this year's Ad Library), then test in their own ABO with a ~$25–40 floor each, judged on hook rate and CPM first.
 
 - **2026-10-24 · AD1 "why it worked" analysis** (`retro-handheld/ads/batch-1/AD1_Why_It_Worked.md`). AD1 won only on hook rate (~50% vs 34–44%) and CPM ($31 vs $40–79), not CTR or watch time. Cause: a store-exterior opening that reads as a "Target finds" TikTok, plus engagement. Iterate new store openings first, caption call-outs second.
