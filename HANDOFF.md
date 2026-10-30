@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-30 · Early kill (founder):** kill any ad at $49 spend (1× target CPA) with zero buying intent: no add-to-cart and no checkout initiated.
+
 - **2026-10-30 · Kill rule (founder):** never kill an ad for low spend. Meta may use it as top-of-funnel while other ads take the conversion. Kill only after meaningful spend above target CPA. Target CPA ≈ $49 (breakeven at ~$80 AOV, 1.63×). The starved-ad second-test ad set is optional, not a kill.
 
 - **2026-10-30 · PocketArcade media buying (founder).** Two CBOs. Scaling CBO starts with AD1 only. Testing CBO at $50/day with all old UGC videos in one ad set. Ads with sales but below breakeven get iterated; ads at scaling ROAS move to the scaling CBO by post ID. Guardrails proposed: winner = ≥$150 spend + ≥2.0 ROAS over 3 days (breakeven 1.63); iterate = 1.0–1.6; after 4 days, starved ads (<$10) go into a 2nd test ad set.
