@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-10-31 · Announcement bar: "Early Black Friday"** from launch (Mon Nov 2), countdown to Nov 26 23:59. Then "Black Friday" Nov 27–Dec 1, then "Order by Dec 11 for Christmas". The sale must be real: the bundles + free cases are the offer; no inflated compare-at prices.
+
 - **2026-10-30 · Early kill (founder):** kill any ad at $49 spend (1× target CPA) with zero buying intent: no add-to-cart and no checkout initiated.
 
 - **2026-10-30 · Kill rule (founder):** never kill an ad for low spend. Meta may use it as top-of-funnel while other ads take the conversion. Kill only after meaningful spend above target CPA. Target CPA ≈ $49 (breakeven at ~$80 AOV, 1.63×). The starved-ad second-test ad set is optional, not a kill.
