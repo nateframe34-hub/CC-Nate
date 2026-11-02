@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main": {
+      "type": "pocketarcade-case",
+      "settings": {
+        "load_fonts": true,
+        "cta": "Add to cart",
+        "b1": "Soft silicone that hugs the whole console",
+        "b2": "Cut-outs for every button, stick and port",
+        "b3": "Wrist lanyard included",
+        "b4": "Keeps it safe in a bag, a car or a stocking"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
