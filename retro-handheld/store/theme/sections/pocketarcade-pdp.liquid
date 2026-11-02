@@ -299,6 +299,14 @@
 }
 @media(max-width:520px){#pa-pdp .pa-box{grid-template-columns:1fr}}
 /* game library search */
+#pa-pdp .pa-gl-card{margin-top:18px;background:#fff;border:2px solid var(--ink);border-radius:14px;padding:18px 16px 14px}
+#pa-pdp .pa-gl-card .eyebrow{margin-bottom:6px}
+#pa-pdp .pa-gl-card h3{margin:0 0 4px}
+#pa-pdp .pa-gl-card .pa-gl-count{margin:0 0 12px;font-size:14px}
+#pa-pdp .pa-gl-card .pa-gl-list{grid-template-columns:1fr;max-height:300px;overflow-y:auto;-webkit-overflow-scrolling:touch;gap:0;border-top:1px solid var(--line)}
+#pa-pdp .pa-gl-card .pa-gl-list li{font-size:14.5px;padding:8px 2px}
+#pa-pdp .pa-gl-card .pa-gl-more{margin-top:10px;padding:10px 16px;font-size:14px}
+
 #pa-pdp .pa-gl-count{font-size:15px;color:var(--muted);margin:-6px 0 18px}
 #pa-pdp .pa-gl-count b{color:var(--ink)}
 #pa-pdp .pa-gl-search{position:relative;margin:0 0 12px}
@@ -453,6 +461,23 @@
         <div class="pa-trust-i"><span class="pa-trust-ic">{{ pa_return_svg }}</span><span>{{ section.settings.trust_2 }}</span></div>
         <div class="pa-trust-i"><span class="pa-trust-ic">{{ pa_play_svg }}</span><span>{{ section.settings.trust_3 }}</span></div>
       </div>
+<!-- ================= GAME LIBRARY SEARCH ================= -->
+{%- if section.settings.show_games -%}
+<div class="pa-gl-card" id="pa-games">
+  <p class="eyebrow">{{ section.settings.games_eyebrow }}</p>
+  <h3>{{ section.settings.games_h }}</h3>
+  <p class="pa-gl-count" id="pa-gl-count">{{ section.settings.games_sub }}</p>
+  <div class="pa-gl-search">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <input type="search" id="pa-gl-q" placeholder="{{ section.settings.games_placeholder | escape }}" aria-label="Search the game list" autocomplete="off" enterkeyhint="search">
+  </div>
+  <div class="pa-gl-chips" id="pa-gl-chips" role="tablist" aria-label="Filter by system"></div>
+  <p class="pa-gl-status" id="pa-gl-status" aria-live="polite">Loading the game list…</p>
+  <ul class="pa-gl-list" id="pa-gl-list"></ul>
+  <button type="button" class="pa-gl-more" id="pa-gl-more" hidden>Show more games</button>
+</div>
+{%- endif -%}
+
     </div>
   </div>
 </div>
@@ -472,23 +497,6 @@
   </div>
 </div></div>
 
-
-<!-- ================= GAME LIBRARY SEARCH ================= -->
-{%- if section.settings.show_games -%}
-<div class="sec white" id="pa-games"><div class="wrap narrow">
-  <p class="eyebrow">{{ section.settings.games_eyebrow }}</p>
-  <h2>{{ section.settings.games_h }}</h2>
-  <p class="pa-gl-count" id="pa-gl-count">{{ section.settings.games_sub }}</p>
-  <div class="pa-gl-search">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-    <input type="search" id="pa-gl-q" placeholder="{{ section.settings.games_placeholder | escape }}" aria-label="Search the game list" autocomplete="off" enterkeyhint="search">
-  </div>
-  <div class="pa-gl-chips" id="pa-gl-chips" role="tablist" aria-label="Filter by system"></div>
-  <p class="pa-gl-status" id="pa-gl-status" aria-live="polite">Loading the game list…</p>
-  <ul class="pa-gl-list" id="pa-gl-list"></ul>
-  <button type="button" class="pa-gl-more" id="pa-gl-more" hidden>Show more games</button>
-</div></div>
-{%- endif -%}
 
 <!-- ================= WHO IT'S FOR ================= -->
 <div class="sec"><div class="wrap">
@@ -911,7 +919,7 @@
     var q = document.getElementById('pa-gl-q'), chips = document.getElementById('pa-gl-chips'), list = document.getElementById('pa-gl-list');
     var status = document.getElementById('pa-gl-status'), more = document.getElementById('pa-gl-more'), count = document.getElementById('pa-gl-count');
     var url = {{ 'pocketarcade-games.json' | asset_url | json }};
-    var all = [], sys = [], cur = -1, shown = 0, hits = [], PAGE = 60, loaded = false, tmr;
+    var all = [], sys = [], cur = -1, shown = 0, hits = [], PAGE = 40, loaded = false, tmr;
     var SHORT = {'PlayStation Portable (PSP)':'PSP','PlayStation 1':'PS1','SFC (Super Famicom)':'SFC','Super Nintendo (SNES)':'SNES','Nintendo Entertainment System (NES)':'NES','Gameboy Advance':'GBA','Gameboy Color':'GBC','Capcom Play System I (CPS1)':'CPS1','Nintendo 64':'N64','Nintendo DS':'DS','NeoGeo Pocket Color':'NGPC','NeoGeo Pocket':'NGP','Arcade Games':'Arcade','Sega Genesis':'Genesis','Sega NAOMI':'NAOMI'};
     function norm(t){ return String(t).toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
     function esc(t){ return String(t).replace(/[&<>"]/g, function(m){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]; }); }
@@ -956,7 +964,7 @@
     q.addEventListener('input', function(){ load(); clearTimeout(tmr); tmr = setTimeout(function(){ if(all.length) run(); }, 120); });
     more.addEventListener('click', function(){ page(); });
     if('IntersectionObserver' in window){
-      var io = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ load(); io.disconnect(); } }, {rootMargin:'400px'});
+      var io = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ setTimeout(load, 600); io.disconnect(); } }, {rootMargin:'400px'});
       io.observe(box);
     } else load();
   }catch(e){}
