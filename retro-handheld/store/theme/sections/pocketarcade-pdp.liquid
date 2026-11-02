@@ -954,7 +954,7 @@
       if(loaded) return; loaded = true;
       fetch(url).then(function(r){ return r.json(); }).then(function(d){
         d.systems.forEach(function(s, i){ sys.push(s.s); s.g.forEach(function(t){ all.push([t, i, norm(t)]); }); });
-        count.innerHTML = '<b>' + fmt(d.total) + ' games</b> across ' + sys.length + ' classic systems. All already on it.';
+        count.innerHTML = '<b>' + fmt(d.total) + ' games</b> from ' + sys.length + ' classic consoles: NES, SNES, Game Boy, PS1, N64, Genesis and more.';
         chip(-1, 'All');
         d.systems.forEach(function(s, i){ chip(i, (SHORT[s.s] || s.s) + ' · ' + fmt(s.g.length)); });
         run();
@@ -1001,174 +1001,995 @@
 {
   "name": "PocketArcade PDP",
   "settings": [
-    { "type": "checkbox", "id": "load_fonts", "label": "Load Rubik / Inter / Press Start 2P", "default": true },
-    { "type": "header", "content": "Top bar and announcement" },
-    { "type": "checkbox", "id": "show_topbar", "label": "Show this section's own top bar", "default": false, "info": "Off = use your theme header. Its cart icon will open this page's cart drawer." },
-    { "type": "select", "id": "cart_icon_side", "label": "Cart icon side", "default": "right", "options": [ { "value": "left", "label": "Left" }, { "value": "right", "label": "Right" } ] },
-    { "type": "checkbox", "id": "sale_on", "label": "Show sale countdown", "default": true },
-    { "type": "text", "id": "sale_label", "label": "Sale badge", "default": "Early Black Friday" },
-    { "type": "text", "id": "sale_text", "label": "Sale text", "default": "Free cases on 2+ ends in" },
-    { "type": "text", "id": "sale_end", "label": "Sale end (YYYY-MM-DD HH:MM)", "default": "2026-11-26 23:59", "info": "Empty = counts down to midnight every day." },
-    { "type": "text", "id": "announce_1", "label": "Announcement 1 (no sale)", "default": "Free shipping over $86" },
-    { "type": "text", "id": "announce_2", "label": "Announcement 2 (no sale)", "default": "Holiday returns until Jan 31" },
-    { "type": "header", "content": "Hero" },
-    { "type": "text", "id": "hero_sub", "label": "Subline", "default": "Thousands of classic games already on it. Turn it on and play." },
-    { "type": "text", "id": "hero_b1", "label": "Bullet 1", "default": "The gift they won't put down" },
-    { "type": "text", "id": "hero_b2", "label": "Bullet 2", "default": "No Wi-Fi, no ads, nothing to buy inside" },
-    { "type": "text", "id": "hero_b3", "label": "Bullet 3", "default": "Ready to play out of the box" },
-    { "type": "checkbox", "id": "show_arrive", "label": "Show arrives-by box", "default": false },
-    { "type": "number", "id": "ship_min_days", "label": "Delivery days (fastest)", "default": 5 },
-    { "type": "number", "id": "ship_max_days", "label": "Delivery days (slowest)", "default": 12 },
-    { "type": "text", "id": "xmas_cutoff", "label": "Christmas order-by date (YYYY-MM-DD)", "default": "2026-12-11", "info": "Before this date the box says 'Arrives before Christmas. Order by...'. Set it from the supplier's real delivery times." },
-    { "type": "header", "content": "Bundle tiers" },
-    { "type": "range", "id": "default_tier", "label": "Selected tier on load", "min": 1, "max": 3, "step": 1, "default": 2 },
-    { "type": "text", "id": "variant_only", "label": "Only sell variants containing", "default": "128GB", "info": "Hides every variant whose name doesn't contain this (e.g. the 64GB ones). Dropdowns show only the color. Leave empty to show all." },
-    { "type": "number", "id": "duo_price_cents", "label": "Duo price in cents", "default": 13999, "info": "Must match the qty-2 automatic discount in Shopify." },
-    { "type": "number", "id": "trio_price_cents", "label": "Trio price in cents", "default": 19999, "info": "Must match the qty-3 automatic discount in Shopify." },
-    { "type": "text", "id": "t1_label", "label": "Tier 1 name", "default": "1 PocketArcade" },
-    { "type": "text", "id": "t1_sub", "label": "Tier 1 subline", "default": "For one lucky person" },
-    { "type": "text", "id": "t2_label", "label": "Tier 2 name", "default": "2 PocketArcades" },
-    { "type": "text", "id": "t2_sub", "label": "Tier 2 subline", "default": "Play together · 2 free cases · free shipping" },
-    { "type": "text", "id": "t2_badge", "label": "Tier 2 badge", "default": "Most popular" },
-    { "type": "text", "id": "t3_label", "label": "Tier 3 name", "default": "3 PocketArcades" },
-    { "type": "text", "id": "t3_sub", "label": "Tier 3 subline", "default": "One for each kid · 3 free cases · free shipping" },
-    { "type": "text", "id": "t3_badge", "label": "Tier 3 badge", "default": "Best value" },
-    { "type": "text", "id": "pick_label", "label": "Color picker label", "default": "Color" },
-    { "type": "text", "id": "pick_label_n", "label": "Color picker label (bundles)", "default": "Color" },
-    { "type": "text", "id": "single_ship_note", "label": "Shipping note under tiers", "default": "1 PocketArcade ships for $4.99. Add a case in your cart for free shipping." },
-    { "type": "text", "id": "cta_1", "label": "Button: tier 1", "default": "Add to cart" },
-    { "type": "text", "id": "cta_2", "label": "Button: tier 2", "default": "Add 2 to cart" },
-    { "type": "text", "id": "cta_3", "label": "Button: tier 3", "default": "Add 3 to cart" },
-    { "type": "header", "content": "Gift stack and case" },
-    { "type": "product", "id": "case_product", "label": "Case product", "info": "Needs a paid variant (upsell) and a $0 variant (bundle gift)." },
-    { "type": "checkbox", "id": "show_gifts", "label": "Show the gift stack on bundles", "default": true },
-    { "type": "text", "id": "gifts_heading", "label": "Gift stack heading", "default": "Free with your bundle" },
-    { "type": "text", "id": "gift_case_title", "label": "Case name", "default": "Silicone case" },
-    { "type": "text", "id": "gift_case_sub", "label": "Case line", "default": "Keeps it safe in a bag or a stocking" },
-    { "type": "number", "id": "case_value_cents", "label": "Case value in cents", "default": 1200 },
-    { "type": "text", "id": "gift_ship_sub", "label": "Free shipping line", "default": "On every bundle" },
-    { "type": "number", "id": "ship_cost_cents", "label": "Shipping cost in cents", "default": 499 },
-    { "type": "header", "content": "Trust row" },
-    { "type": "text", "id": "trust_1", "label": "Trust 1", "default": "Free shipping over $86" },
-    { "type": "text", "id": "trust_2", "label": "Trust 2", "default": "Holiday returns until Jan 31" },
-    { "type": "text", "id": "trust_3", "label": "Trust 3", "default": "Ready to play out of the box" },
-    { "type": "header", "content": "Why it's the gift" },
-    { "type": "text", "id": "why_eyebrow", "label": "Eyebrow", "default": "Why it's the gift this year" },
-    { "type": "text", "id": "why_h", "label": "Heading", "default": "The gift they won't put down." },
-    { "type": "textarea", "id": "why_1", "label": "Intro", "default": "Most gifts get opened, smiled at and put in a drawer. This one gets played on the couch, in the car and under the covers." },
-    { "type": "text", "id": "why_c1_h", "label": "Card 1 heading", "default": "The games they grew up on" },
-    { "type": "textarea", "id": "why_c1_b", "label": "Card 1 body", "default": "Thousands of classic games from the arcade and the 80s and 90s. It feels like being 10 again." },
-    { "type": "text", "id": "why_c2_h", "label": "Card 2 heading", "default": "Nothing to buy. Nothing to download." },
-    { "type": "textarea", "id": "why_c2_b", "label": "Card 2 body", "default": "No Wi-Fi, no ads, no in-game stores. The games are already on it." },
-    { "type": "text", "id": "why_c3_h", "label": "Card 3 heading", "default": "Real buttons" },
-    { "type": "textarea", "id": "why_c3_b", "label": "Card 3 body", "default": "A real D-pad, buttons and two joysticks. Not a phone screen you tap at." },
-    { "type": "header", "content": "Game library search" },
-    { "type": "checkbox", "id": "show_games", "label": "Show the game search", "default": true, "info": "Needs assets/pocketarcade-games.json uploaded to the theme." },
-    { "type": "text", "id": "games_eyebrow", "label": "Eyebrow", "default": "Every game on it" },
-    { "type": "text", "id": "games_h", "label": "Heading", "default": "Is their favorite game on it?" },
-    { "type": "text", "id": "games_sub", "label": "Subline (replaced by the live count)", "default": "Over 10,000 classic games, already loaded. Search for theirs." },
-    { "type": "text", "id": "games_placeholder", "label": "Search placeholder", "default": "Search a game, like Tetris or Street Fighter" },
-    { "type": "header", "content": "Who it's for" },
-    { "type": "text", "id": "who_h", "label": "Heading", "default": "Who's on your list?" },
-    { "type": "text", "id": "who_1_h", "label": "Card 1 heading", "default": "For him" },
-    { "type": "textarea", "id": "who_1_b", "label": "Card 1 body", "default": "He's impossible to buy for. You don't need to know anything about games. He'll know every one on it." },
-    { "type": "image_picker", "id": "who_1_img", "label": "Card 1 image" },
-    { "type": "text", "id": "who_2_h", "label": "Card 2 heading", "default": "For the kids" },
-    { "type": "textarea", "id": "who_2_b", "label": "Card 2 body", "default": "Screen time with no ads, no chat and no surprise charges. Great for car rides and flights." },
-    { "type": "image_picker", "id": "who_2_img", "label": "Card 2 image" },
-    { "type": "text", "id": "who_3_h", "label": "Card 3 heading", "default": "For the gamer" },
-    { "type": "textarea", "id": "who_3_b", "label": "Card 3 body", "default": "Fits in a pocket, and the battery lasts for hours. The one they'll take everywhere." },
-    { "type": "image_picker", "id": "who_3_img", "label": "Card 3 image" },
-    { "type": "header", "content": "Easy" },
-    { "type": "text", "id": "easy_h", "label": "Heading", "default": "Unwrap it. Turn it on. Play." },
-    { "type": "textarea", "id": "easy_sub", "label": "Subline", "default": "No setup, no accounts and nothing else to buy." },
-    { "type": "text", "id": "easy_1_h", "label": "Step 1 heading", "default": "Unwrap it" },
-    { "type": "textarea", "id": "easy_1_b", "label": "Step 1 body", "default": "It comes charged and ready, with the games already on it." },
-    { "type": "text", "id": "easy_2_h", "label": "Step 2 heading", "default": "Turn it on" },
-    { "type": "textarea", "id": "easy_2_b", "label": "Step 2 body", "default": "Pick a game from the menu. That's it." },
-    { "type": "text", "id": "easy_3_h", "label": "Step 3 heading", "default": "Play anywhere" },
-    { "type": "textarea", "id": "easy_3_b", "label": "Step 3 body", "default": "On the couch, in the car, on a plane. Save your game and pick it up later." },
-    { "type": "header", "content": "Specs (confirm every line)" },
-    { "type": "text", "id": "spec_1_l", "label": "Spec 1 label", "default": "Games" },
-    { "type": "text", "id": "spec_1_v", "label": "Spec 1 value", "default": "Thousands of classic games already loaded (128GB)" },
-    { "type": "text", "id": "spec_2_l", "label": "Spec 2 label", "default": "Screen" },
-    { "type": "text", "id": "spec_2_v", "label": "Spec 2 value", "default": "3.5-inch bright color screen" },
-    { "type": "text", "id": "spec_3_l", "label": "Spec 3 label", "default": "Battery" },
-    { "type": "text", "id": "spec_3_v", "label": "Spec 3 value", "default": "Rechargeable, hours of play per charge" },
-    { "type": "text", "id": "spec_4_l", "label": "Spec 4 label", "default": "Charging" },
-    { "type": "text", "id": "spec_4_v", "label": "Spec 4 value", "default": "USB-C cable included" },
-    { "type": "text", "id": "spec_5_l", "label": "Spec 5 label", "default": "Controls" },
-    { "type": "text", "id": "spec_5_v", "label": "Spec 5 value", "default": "D-pad, action buttons, shoulder buttons and two joysticks" },
-    { "type": "text", "id": "spec_6_l", "label": "Spec 6 label", "default": "Saving" },
-    { "type": "text", "id": "spec_6_v", "label": "Spec 6 value", "default": "Save your game anytime and pick it up later" },
-    { "type": "text", "id": "spec_7_l", "label": "Spec 7 label", "default": "Internet" },
-    { "type": "text", "id": "spec_7_v", "label": "Spec 7 value", "default": "None needed. No Wi-Fi, no accounts, no ads" },
-    { "type": "text", "id": "spec_8_l", "label": "Spec 8 label", "default": "Sound" },
-    { "type": "text", "id": "spec_8_v", "label": "Spec 8 value", "default": "Built-in speaker and a headphone jack" },
-    { "type": "text", "id": "box_h", "label": "In the box heading", "default": "What's in the box" },
-    { "type": "text", "id": "box_1", "label": "Box item 1", "default": "PocketArcade handheld" },
-    { "type": "text", "id": "box_2", "label": "Box item 2", "default": "128GB game card (already in it)" },
-    { "type": "text", "id": "box_3", "label": "Box item 3", "default": "USB-C charging cable" },
-    { "type": "text", "id": "box_4", "label": "Box item 4", "default": "Quick start card" },
-    { "type": "textarea", "id": "box_note", "label": "Box note", "default": "Charges from any USB phone plug. Nothing else to buy." },
-    { "type": "header", "content": "Alternatives" },
-    { "type": "text", "id": "alts_h", "label": "Heading", "default": "How it compares" },
-    { "type": "text", "id": "alt_1_h", "label": "Alt 1 name", "default": "A new console" },
-    { "type": "textarea", "id": "alt_1_b", "label": "Alt 1 body", "default": "Hundreds of dollars, and then every game costs more." },
-    { "type": "text", "id": "alt_2_h", "label": "Alt 2 name", "default": "Phone games" },
-    { "type": "textarea", "id": "alt_2_b", "label": "Alt 2 body", "default": "Free to start, then ads, timers and pop-ups asking for money." },
-    { "type": "text", "id": "alt_3_h", "label": "Alt 3 name", "default": "A gift card" },
-    { "type": "textarea", "id": "alt_3_b", "label": "Alt 3 body", "default": "Easy to give, easy to forget." },
-    { "type": "textarea", "id": "alt_win_b", "label": "PocketArcade line", "default": "Thousands of games, one price, nothing else to buy. A gift they open and use the same day." },
-    { "type": "header", "content": "Value stack" },
-    { "type": "text", "id": "stack_h", "label": "Heading", "default": "Get two and play together" },
-    { "type": "text", "id": "stack_line", "label": "Line under stack", "default": "One for them and one for you, or one for each kid. Free cases and free shipping included." },
-    { "type": "header", "content": "Reviews" },
-    { "type": "checkbox", "id": "show_reviews", "label": "Show reviews (stars + section)", "default": false, "info": "Only turn on once you have REAL reviews. No placeholder reviews on this build." },
-    { "type": "text", "id": "rev_score", "label": "Score", "default": "4.8" },
-    { "type": "text", "id": "rev_count", "label": "Count text", "default": "Based on real customer reviews" },
-    { "type": "html", "id": "reviews_html", "label": "Reviews app markup" },
-    { "type": "header", "content": "Guarantee" },
-    { "type": "text", "id": "guar_h", "label": "Heading", "default": "If they don't love it, send it back." },
-    { "type": "textarea", "id": "guar_1", "label": "Para 1", "default": "Holiday returns until January 31. Buy it now, give it at Christmas, and you still have time to return it." },
-    { "type": "textarea", "id": "guar_2", "label": "Para 2", "default": "If it arrives broken, we replace it for free. Just email us." },
-    { "type": "header", "content": "FAQ" },
-    { "type": "text", "id": "faq_q_1", "label": "Q1", "default": "Will it arrive before Christmas?" },
-    { "type": "textarea", "id": "faq_a_1", "label": "A1", "default": "Order by December 11 and it arrives before Christmas. Every order gets a tracking number." },
-    { "type": "text", "id": "faq_q_2", "label": "Q2", "default": "Do I need to set anything up?" },
-    { "type": "textarea", "id": "faq_a_2", "label": "A2", "default": "No. The games are already on it. Charge it, turn it on and pick a game." },
-    { "type": "text", "id": "faq_q_3", "label": "Q3", "default": "Do I need to buy games?" },
-    { "type": "textarea", "id": "faq_a_3", "label": "A3", "default": "No. Thousands of games are already on it, and there is nothing to buy inside." },
-    { "type": "text", "id": "faq_q_4", "label": "Q4", "default": "Is it OK for kids?" },
-    { "type": "textarea", "id": "faq_a_4", "label": "A4", "default": "Yes. There is no internet, no chat and no in-game stores, so no surprise charges." },
-    { "type": "text", "id": "faq_q_5", "label": "Q5", "default": "How long does the battery last?" },
-    { "type": "textarea", "id": "faq_a_5", "label": "A5", "default": "Hours of play on one charge. It charges with the USB-C cable in the box." },
-    { "type": "text", "id": "faq_q_6", "label": "Q6", "default": "Does it need Wi-Fi?" },
-    { "type": "textarea", "id": "faq_a_6", "label": "A6", "default": "No. It works anywhere: in the car, on a plane or at Grandma's." },
-    { "type": "text", "id": "faq_q_7", "label": "Q7", "default": "Can I save my game?" },
-    { "type": "textarea", "id": "faq_a_7", "label": "A7", "default": "Yes. Save anytime and pick up where you left off." },
-    { "type": "text", "id": "faq_q_8", "label": "Q8", "default": "What if they don't like it?" },
-    { "type": "textarea", "id": "faq_a_8", "label": "A8", "default": "Holiday returns until January 31. If it arrives broken, we replace it free." },
-    { "type": "text", "id": "faq_q_9", "label": "Q9", "default": "How does shipping work?" },
-    { "type": "textarea", "id": "faq_a_9", "label": "A9", "default": "One PocketArcade ships for $4.99. Add a case, or get 2 or more, and shipping is free." },
-    { "type": "text", "id": "faq_q_10", "label": "Q10", "default": "Is it hard to use for someone who isn't into games?" },
-    { "type": "textarea", "id": "faq_a_10", "label": "A10", "default": "No. Turn it on, pick a game from the list, press start. A quick start card is in the box." },
-    { "type": "text", "id": "faq_q_11", "label": "Q11" },
-    { "type": "textarea", "id": "faq_a_11", "label": "A11" },
-    { "type": "text", "id": "faq_q_12", "label": "Q12" },
-    { "type": "textarea", "id": "faq_a_12", "label": "A12" },
-    { "type": "header", "content": "Final CTA" },
-    { "type": "text", "id": "final_h", "label": "Heading", "default": "Christmas shopping, sorted." },
-    { "type": "text", "id": "final_sub", "label": "Subline", "default": "The gift they'll actually play. Holiday returns until January 31." },
-    { "type": "header", "content": "Cart drawer" },
-    { "type": "checkbox", "id": "use_drawer", "label": "Use this section's cart drawer", "default": true },
-    { "type": "text", "id": "drawer_title", "label": "Drawer title", "default": "Your cart" },
-    { "type": "number", "id": "free_ship_cents", "label": "Free shipping threshold (cents)", "default": 8699, "info": "Must match your Shopify shipping rate. Single + case." },
-    { "type": "text", "id": "upsell_title", "label": "Upsell title", "default": "Add a case, get free shipping" },
-    { "type": "text", "id": "upsell_sub", "label": "Upsell line", "default": "Save $4.99 on shipping and keep it safe" },
-    { "type": "text", "id": "drawer_note", "label": "Drawer note", "default": "Taxes calculated at checkout." },
-    { "type": "text", "id": "drawer_cta", "label": "Checkout button", "default": "Check out" }
+    {
+      "type": "checkbox",
+      "id": "load_fonts",
+      "label": "Load Rubik / Inter / Press Start 2P",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Top bar and announcement"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_topbar",
+      "label": "Show this section's own top bar",
+      "default": false,
+      "info": "Off = use your theme header. Its cart icon will open this page's cart drawer."
+    },
+    {
+      "type": "select",
+      "id": "cart_icon_side",
+      "label": "Cart icon side",
+      "default": "right",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "sale_on",
+      "label": "Show sale countdown",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "sale_label",
+      "label": "Sale badge",
+      "default": "Early Black Friday"
+    },
+    {
+      "type": "text",
+      "id": "sale_text",
+      "label": "Sale text",
+      "default": "Free cases on 2+ ends in"
+    },
+    {
+      "type": "text",
+      "id": "sale_end",
+      "label": "Sale end (YYYY-MM-DD HH:MM)",
+      "default": "2026-11-26 23:59",
+      "info": "Empty = counts down to midnight every day."
+    },
+    {
+      "type": "text",
+      "id": "announce_1",
+      "label": "Announcement 1 (no sale)",
+      "default": "Free shipping over $86"
+    },
+    {
+      "type": "text",
+      "id": "announce_2",
+      "label": "Announcement 2 (no sale)",
+      "default": "Holiday returns until Jan 31"
+    },
+    {
+      "type": "header",
+      "content": "Hero"
+    },
+    {
+      "type": "text",
+      "id": "hero_sub",
+      "label": "Subline",
+      "default": "Over 10,000 games from 20 classic consoles, already on it. Turn it on and play."
+    },
+    {
+      "type": "text",
+      "id": "hero_b1",
+      "label": "Bullet 1",
+      "default": "The gift they won't put down"
+    },
+    {
+      "type": "text",
+      "id": "hero_b2",
+      "label": "Bullet 2",
+      "default": "No Wi-Fi, no ads, nothing to buy inside"
+    },
+    {
+      "type": "text",
+      "id": "hero_b3",
+      "label": "Bullet 3",
+      "default": "NES, Super Nintendo, Game Boy, PS1, N64, Genesis, DS and more"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_arrive",
+      "label": "Show arrives-by box",
+      "default": false
+    },
+    {
+      "type": "number",
+      "id": "ship_min_days",
+      "label": "Delivery days (fastest)",
+      "default": 5
+    },
+    {
+      "type": "number",
+      "id": "ship_max_days",
+      "label": "Delivery days (slowest)",
+      "default": 12
+    },
+    {
+      "type": "text",
+      "id": "xmas_cutoff",
+      "label": "Christmas order-by date (YYYY-MM-DD)",
+      "default": "2026-12-11",
+      "info": "Before this date the box says 'Arrives before Christmas. Order by...'. Set it from the supplier's real delivery times."
+    },
+    {
+      "type": "header",
+      "content": "Bundle tiers"
+    },
+    {
+      "type": "range",
+      "id": "default_tier",
+      "label": "Selected tier on load",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 2
+    },
+    {
+      "type": "text",
+      "id": "variant_only",
+      "label": "Only sell variants containing",
+      "default": "128GB",
+      "info": "Hides every variant whose name doesn't contain this (e.g. the 64GB ones). Dropdowns show only the color. Leave empty to show all."
+    },
+    {
+      "type": "number",
+      "id": "duo_price_cents",
+      "label": "Duo price in cents",
+      "default": 13999,
+      "info": "Must match the qty-2 automatic discount in Shopify."
+    },
+    {
+      "type": "number",
+      "id": "trio_price_cents",
+      "label": "Trio price in cents",
+      "default": 19999,
+      "info": "Must match the qty-3 automatic discount in Shopify."
+    },
+    {
+      "type": "text",
+      "id": "t1_label",
+      "label": "Tier 1 name",
+      "default": "1 PocketArcade"
+    },
+    {
+      "type": "text",
+      "id": "t1_sub",
+      "label": "Tier 1 subline",
+      "default": "For one lucky person"
+    },
+    {
+      "type": "text",
+      "id": "t2_label",
+      "label": "Tier 2 name",
+      "default": "2 PocketArcades"
+    },
+    {
+      "type": "text",
+      "id": "t2_sub",
+      "label": "Tier 2 subline",
+      "default": "Play together · 2 free cases · free shipping"
+    },
+    {
+      "type": "text",
+      "id": "t2_badge",
+      "label": "Tier 2 badge",
+      "default": "Most popular"
+    },
+    {
+      "type": "text",
+      "id": "t3_label",
+      "label": "Tier 3 name",
+      "default": "3 PocketArcades"
+    },
+    {
+      "type": "text",
+      "id": "t3_sub",
+      "label": "Tier 3 subline",
+      "default": "One for each kid · 3 free cases · free shipping"
+    },
+    {
+      "type": "text",
+      "id": "t3_badge",
+      "label": "Tier 3 badge",
+      "default": "Best value"
+    },
+    {
+      "type": "text",
+      "id": "pick_label",
+      "label": "Color picker label",
+      "default": "Color"
+    },
+    {
+      "type": "text",
+      "id": "pick_label_n",
+      "label": "Color picker label (bundles)",
+      "default": "Color"
+    },
+    {
+      "type": "text",
+      "id": "single_ship_note",
+      "label": "Shipping note under tiers",
+      "default": "1 PocketArcade ships for $4.99. Add a case in your cart for free shipping."
+    },
+    {
+      "type": "text",
+      "id": "cta_1",
+      "label": "Button: tier 1",
+      "default": "Add to cart"
+    },
+    {
+      "type": "text",
+      "id": "cta_2",
+      "label": "Button: tier 2",
+      "default": "Add 2 to cart"
+    },
+    {
+      "type": "text",
+      "id": "cta_3",
+      "label": "Button: tier 3",
+      "default": "Add 3 to cart"
+    },
+    {
+      "type": "header",
+      "content": "Gift stack and case"
+    },
+    {
+      "type": "product",
+      "id": "case_product",
+      "label": "Case product",
+      "info": "Needs a paid variant (upsell) and a $0 variant (bundle gift)."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_gifts",
+      "label": "Show the gift stack on bundles",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "gifts_heading",
+      "label": "Gift stack heading",
+      "default": "Free with your bundle"
+    },
+    {
+      "type": "text",
+      "id": "gift_case_title",
+      "label": "Case name",
+      "default": "Silicone case"
+    },
+    {
+      "type": "text",
+      "id": "gift_case_sub",
+      "label": "Case line",
+      "default": "Keeps it safe in a bag or a stocking"
+    },
+    {
+      "type": "number",
+      "id": "case_value_cents",
+      "label": "Case value in cents",
+      "default": 1200
+    },
+    {
+      "type": "text",
+      "id": "gift_ship_sub",
+      "label": "Free shipping line",
+      "default": "On every bundle"
+    },
+    {
+      "type": "number",
+      "id": "ship_cost_cents",
+      "label": "Shipping cost in cents",
+      "default": 499
+    },
+    {
+      "type": "header",
+      "content": "Trust row"
+    },
+    {
+      "type": "text",
+      "id": "trust_1",
+      "label": "Trust 1",
+      "default": "Free shipping over $86"
+    },
+    {
+      "type": "text",
+      "id": "trust_2",
+      "label": "Trust 2",
+      "default": "Holiday returns until Jan 31"
+    },
+    {
+      "type": "text",
+      "id": "trust_3",
+      "label": "Trust 3",
+      "default": "Ready to play out of the box"
+    },
+    {
+      "type": "header",
+      "content": "Why it's the gift"
+    },
+    {
+      "type": "text",
+      "id": "why_eyebrow",
+      "label": "Eyebrow",
+      "default": "Why it's the gift this year"
+    },
+    {
+      "type": "text",
+      "id": "why_h",
+      "label": "Heading",
+      "default": "The gift they won't put down."
+    },
+    {
+      "type": "textarea",
+      "id": "why_1",
+      "label": "Intro",
+      "default": "Most gifts get opened, smiled at and put in a drawer. This one gets played on the couch, in the car and under the covers."
+    },
+    {
+      "type": "text",
+      "id": "why_c1_h",
+      "label": "Card 1 heading",
+      "default": "The games they grew up on"
+    },
+    {
+      "type": "textarea",
+      "id": "why_c1_b",
+      "label": "Card 1 body",
+      "default": "Every console from their childhood in one: NES, Super Nintendo, Game Boy, PlayStation, N64, Sega Genesis, DS and more. It feels like being 10 again."
+    },
+    {
+      "type": "text",
+      "id": "why_c2_h",
+      "label": "Card 2 heading",
+      "default": "Nothing to buy. Nothing to download."
+    },
+    {
+      "type": "textarea",
+      "id": "why_c2_b",
+      "label": "Card 2 body",
+      "default": "No Wi-Fi, no ads, no in-game stores. The games are already on it."
+    },
+    {
+      "type": "text",
+      "id": "why_c3_h",
+      "label": "Card 3 heading",
+      "default": "Real buttons"
+    },
+    {
+      "type": "textarea",
+      "id": "why_c3_b",
+      "label": "Card 3 body",
+      "default": "A real D-pad, buttons and two joysticks. Not a phone screen you tap at."
+    },
+    {
+      "type": "header",
+      "content": "Game library search"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_games",
+      "label": "Show the game search",
+      "default": true,
+      "info": "Needs assets/pocketarcade-games.json uploaded to the theme."
+    },
+    {
+      "type": "text",
+      "id": "games_eyebrow",
+      "label": "Eyebrow",
+      "default": "Every game on it"
+    },
+    {
+      "type": "text",
+      "id": "games_h",
+      "label": "Heading",
+      "default": "Is their favorite game on it?"
+    },
+    {
+      "type": "text",
+      "id": "games_sub",
+      "label": "Subline (replaced by the live count)",
+      "default": "10,000+ games from 20 classic consoles. Search for theirs."
+    },
+    {
+      "type": "text",
+      "id": "games_placeholder",
+      "label": "Search placeholder",
+      "default": "Search a game, like Pokemon or Mario Kart"
+    },
+    {
+      "type": "header",
+      "content": "Who it's for"
+    },
+    {
+      "type": "text",
+      "id": "who_h",
+      "label": "Heading",
+      "default": "Who's on your list?"
+    },
+    {
+      "type": "text",
+      "id": "who_1_h",
+      "label": "Card 1 heading",
+      "default": "For him"
+    },
+    {
+      "type": "textarea",
+      "id": "who_1_b",
+      "label": "Card 1 body",
+      "default": "He's impossible to buy for. You don't need to know anything about games. He'll know every one on it."
+    },
+    {
+      "type": "image_picker",
+      "id": "who_1_img",
+      "label": "Card 1 image"
+    },
+    {
+      "type": "text",
+      "id": "who_2_h",
+      "label": "Card 2 heading",
+      "default": "For the kids"
+    },
+    {
+      "type": "textarea",
+      "id": "who_2_b",
+      "label": "Card 2 body",
+      "default": "Screen time with no ads, no chat and no surprise charges. Great for car rides and flights."
+    },
+    {
+      "type": "image_picker",
+      "id": "who_2_img",
+      "label": "Card 2 image"
+    },
+    {
+      "type": "text",
+      "id": "who_3_h",
+      "label": "Card 3 heading",
+      "default": "For the gamer"
+    },
+    {
+      "type": "textarea",
+      "id": "who_3_b",
+      "label": "Card 3 body",
+      "default": "Fits in a pocket, and the battery lasts for hours. The one they'll take everywhere."
+    },
+    {
+      "type": "image_picker",
+      "id": "who_3_img",
+      "label": "Card 3 image"
+    },
+    {
+      "type": "header",
+      "content": "Easy"
+    },
+    {
+      "type": "text",
+      "id": "easy_h",
+      "label": "Heading",
+      "default": "Unwrap it. Turn it on. Play."
+    },
+    {
+      "type": "textarea",
+      "id": "easy_sub",
+      "label": "Subline",
+      "default": "No setup, no accounts and nothing else to buy."
+    },
+    {
+      "type": "text",
+      "id": "easy_1_h",
+      "label": "Step 1 heading",
+      "default": "Unwrap it"
+    },
+    {
+      "type": "textarea",
+      "id": "easy_1_b",
+      "label": "Step 1 body",
+      "default": "It comes charged and ready, with the games already on it."
+    },
+    {
+      "type": "text",
+      "id": "easy_2_h",
+      "label": "Step 2 heading",
+      "default": "Turn it on"
+    },
+    {
+      "type": "textarea",
+      "id": "easy_2_b",
+      "label": "Step 2 body",
+      "default": "Pick a game from the menu. That's it."
+    },
+    {
+      "type": "text",
+      "id": "easy_3_h",
+      "label": "Step 3 heading",
+      "default": "Play anywhere"
+    },
+    {
+      "type": "textarea",
+      "id": "easy_3_b",
+      "label": "Step 3 body",
+      "default": "On the couch, in the car, on a plane. Save your game and pick it up later."
+    },
+    {
+      "type": "header",
+      "content": "Specs (confirm every line)"
+    },
+    {
+      "type": "text",
+      "id": "spec_1_l",
+      "label": "Spec 1 label",
+      "default": "Games"
+    },
+    {
+      "type": "text",
+      "id": "spec_1_v",
+      "label": "Spec 1 value",
+      "default": "10,000+ games from 20 classic consoles, already loaded (128GB)"
+    },
+    {
+      "type": "text",
+      "id": "spec_2_l",
+      "label": "Spec 2 label",
+      "default": "Screen"
+    },
+    {
+      "type": "text",
+      "id": "spec_2_v",
+      "label": "Spec 2 value",
+      "default": "3.5-inch bright color screen"
+    },
+    {
+      "type": "text",
+      "id": "spec_3_l",
+      "label": "Spec 3 label",
+      "default": "Battery"
+    },
+    {
+      "type": "text",
+      "id": "spec_3_v",
+      "label": "Spec 3 value",
+      "default": "Rechargeable, hours of play per charge"
+    },
+    {
+      "type": "text",
+      "id": "spec_4_l",
+      "label": "Spec 4 label",
+      "default": "Charging"
+    },
+    {
+      "type": "text",
+      "id": "spec_4_v",
+      "label": "Spec 4 value",
+      "default": "USB-C cable included"
+    },
+    {
+      "type": "text",
+      "id": "spec_5_l",
+      "label": "Spec 5 label",
+      "default": "Controls"
+    },
+    {
+      "type": "text",
+      "id": "spec_5_v",
+      "label": "Spec 5 value",
+      "default": "D-pad, action buttons, shoulder buttons and two joysticks"
+    },
+    {
+      "type": "text",
+      "id": "spec_6_l",
+      "label": "Spec 6 label",
+      "default": "Saving"
+    },
+    {
+      "type": "text",
+      "id": "spec_6_v",
+      "label": "Spec 6 value",
+      "default": "Save your game anytime and pick it up later"
+    },
+    {
+      "type": "text",
+      "id": "spec_7_l",
+      "label": "Spec 7 label",
+      "default": "Internet"
+    },
+    {
+      "type": "text",
+      "id": "spec_7_v",
+      "label": "Spec 7 value",
+      "default": "None needed. No Wi-Fi, no accounts, no ads"
+    },
+    {
+      "type": "text",
+      "id": "spec_8_l",
+      "label": "Spec 8 label",
+      "default": "Sound"
+    },
+    {
+      "type": "text",
+      "id": "spec_8_v",
+      "label": "Spec 8 value",
+      "default": "Built-in speaker and a headphone jack"
+    },
+    {
+      "type": "text",
+      "id": "box_h",
+      "label": "In the box heading",
+      "default": "What's in the box"
+    },
+    {
+      "type": "text",
+      "id": "box_1",
+      "label": "Box item 1",
+      "default": "PocketArcade handheld"
+    },
+    {
+      "type": "text",
+      "id": "box_2",
+      "label": "Box item 2",
+      "default": "128GB game card (already in it)"
+    },
+    {
+      "type": "text",
+      "id": "box_3",
+      "label": "Box item 3",
+      "default": "USB-C charging cable"
+    },
+    {
+      "type": "text",
+      "id": "box_4",
+      "label": "Box item 4",
+      "default": "Quick start card"
+    },
+    {
+      "type": "textarea",
+      "id": "box_note",
+      "label": "Box note",
+      "default": "Charges from any USB phone plug. Nothing else to buy."
+    },
+    {
+      "type": "header",
+      "content": "Alternatives"
+    },
+    {
+      "type": "text",
+      "id": "alts_h",
+      "label": "Heading",
+      "default": "How it compares"
+    },
+    {
+      "type": "text",
+      "id": "alt_1_h",
+      "label": "Alt 1 name",
+      "default": "A new console"
+    },
+    {
+      "type": "textarea",
+      "id": "alt_1_b",
+      "label": "Alt 1 body",
+      "default": "Hundreds of dollars, and then every game costs more."
+    },
+    {
+      "type": "text",
+      "id": "alt_2_h",
+      "label": "Alt 2 name",
+      "default": "Phone games"
+    },
+    {
+      "type": "textarea",
+      "id": "alt_2_b",
+      "label": "Alt 2 body",
+      "default": "Free to start, then ads, timers and pop-ups asking for money."
+    },
+    {
+      "type": "text",
+      "id": "alt_3_h",
+      "label": "Alt 3 name",
+      "default": "A gift card"
+    },
+    {
+      "type": "textarea",
+      "id": "alt_3_b",
+      "label": "Alt 3 body",
+      "default": "Easy to give, easy to forget."
+    },
+    {
+      "type": "textarea",
+      "id": "alt_win_b",
+      "label": "PocketArcade line",
+      "default": "Their whole childhood game collection in one: 10,000+ games, one price, nothing else to buy. A gift they open and use the same day."
+    },
+    {
+      "type": "header",
+      "content": "Value stack"
+    },
+    {
+      "type": "text",
+      "id": "stack_h",
+      "label": "Heading",
+      "default": "Get two and play together"
+    },
+    {
+      "type": "text",
+      "id": "stack_line",
+      "label": "Line under stack",
+      "default": "One for them and one for you, or one for each kid. Free cases and free shipping included."
+    },
+    {
+      "type": "header",
+      "content": "Reviews"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_reviews",
+      "label": "Show reviews (stars + section)",
+      "default": false,
+      "info": "Only turn on once you have REAL reviews. No placeholder reviews on this build."
+    },
+    {
+      "type": "text",
+      "id": "rev_score",
+      "label": "Score",
+      "default": "4.8"
+    },
+    {
+      "type": "text",
+      "id": "rev_count",
+      "label": "Count text",
+      "default": "Based on real customer reviews"
+    },
+    {
+      "type": "html",
+      "id": "reviews_html",
+      "label": "Reviews app markup"
+    },
+    {
+      "type": "header",
+      "content": "Guarantee"
+    },
+    {
+      "type": "text",
+      "id": "guar_h",
+      "label": "Heading",
+      "default": "If they don't love it, send it back."
+    },
+    {
+      "type": "textarea",
+      "id": "guar_1",
+      "label": "Para 1",
+      "default": "Holiday returns until January 31. Buy it now, give it at Christmas, and you still have time to return it."
+    },
+    {
+      "type": "textarea",
+      "id": "guar_2",
+      "label": "Para 2",
+      "default": "If it arrives broken, we replace it for free. Just email us."
+    },
+    {
+      "type": "header",
+      "content": "FAQ"
+    },
+    {
+      "type": "text",
+      "id": "faq_q_1",
+      "label": "Q1",
+      "default": "Will it arrive before Christmas?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_a_1",
+      "label": "A1",
+      "default": "Order by December 11 and it arrives before Christmas. Every order gets a tracking number."
+    },
+    {
+      "type": "text",
+      "id": "faq_q_2",
+      "label": "Q2",
+      "default": "Do I need to set anything up?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_a_2",
+      "label": "A2",
+      "default": "No. The games are already on it. Charge it, turn it on and pick a game."
+    },
+    {
+      "type": "text",
+      "id": "faq_q_3",
+      "label": "Q3",
+      "default": "Do I need to buy games?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_a_3",
+      "label": "A3",
+      "default": "No. Over 10,000 games from consoles like the NES, Game Boy and PlayStation are already on it, and there is nothing to buy inside."
+    },
+    {
+      "type": "text",
+      "id": "faq_q_4",
+      "label": "Q4",
+      "default": "Is it OK for kids?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_a_4",
+      "label": "A4",
+      "default": "Yes. There is no internet, no chat and no in-game stores, so no surprise charges."
+    },
+    {
+      "type": "text",
+      "id": "faq_q_5",
+      "label": "Q5",
+      "default": "How long does the battery last?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_a_5",
+      "label": "A5",
+      "default": "Hours of play on one charge. It charges with the USB-C cable in the box."
+    },
+    {
+      "type": "text",
+      "id": "faq_q_6",
+      "label": "Q6",
+      "default": "Does it need Wi-Fi?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_a_6",
+      "label": "A6",
+      "default": "No. It works anywhere: in the car, on a plane or at Grandma's."
+    },
+    {
+      "type": "text",
+      "id": "faq_q_7",
+      "label": "Q7",
+      "default": "Can I save my game?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_a_7",
+      "label": "A7",
+      "default": "Yes. Save anytime and pick up where you left off."
+    },
+    {
+      "type": "text",
+      "id": "faq_q_8",
+      "label": "Q8",
+      "default": "What if they don't like it?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_a_8",
+      "label": "A8",
+      "default": "Holiday returns until January 31. If it arrives broken, we replace it free."
+    },
+    {
+      "type": "text",
+      "id": "faq_q_9",
+      "label": "Q9",
+      "default": "How does shipping work?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_a_9",
+      "label": "A9",
+      "default": "One PocketArcade ships for $4.99. Add a case, or get 2 or more, and shipping is free."
+    },
+    {
+      "type": "text",
+      "id": "faq_q_10",
+      "label": "Q10",
+      "default": "Is it hard to use for someone who isn't into games?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_a_10",
+      "label": "A10",
+      "default": "No. Turn it on, pick a game from the list, press start. A quick start card is in the box."
+    },
+    {
+      "type": "text",
+      "id": "faq_q_11",
+      "label": "Q11",
+      "default": "Which consoles' games are on it?"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_a_11",
+      "label": "A11",
+      "default": "NES, Famicom, Super Nintendo, Super Famicom, Game Boy Color, Game Boy Advance, Nintendo 64, Nintendo DS, PlayStation 1, PSP, Sega Genesis, Mega Drive, Dreamcast, Neo Geo, Neo Geo Pocket, Neo Geo Pocket Color, PC Engine, plus classic arcade games. Search for any game near the top of this page."
+    },
+    {
+      "type": "text",
+      "id": "faq_q_12",
+      "label": "Q12"
+    },
+    {
+      "type": "textarea",
+      "id": "faq_a_12",
+      "label": "A12"
+    },
+    {
+      "type": "header",
+      "content": "Final CTA"
+    },
+    {
+      "type": "text",
+      "id": "final_h",
+      "label": "Heading",
+      "default": "Christmas shopping, sorted."
+    },
+    {
+      "type": "text",
+      "id": "final_sub",
+      "label": "Subline",
+      "default": "The gift they'll actually play. Holiday returns until January 31."
+    },
+    {
+      "type": "header",
+      "content": "Cart drawer"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_drawer",
+      "label": "Use this section's cart drawer",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "drawer_title",
+      "label": "Drawer title",
+      "default": "Your cart"
+    },
+    {
+      "type": "number",
+      "id": "free_ship_cents",
+      "label": "Free shipping threshold (cents)",
+      "default": 8699,
+      "info": "Must match your Shopify shipping rate. Single + case."
+    },
+    {
+      "type": "text",
+      "id": "upsell_title",
+      "label": "Upsell title",
+      "default": "Add a case, get free shipping"
+    },
+    {
+      "type": "text",
+      "id": "upsell_sub",
+      "label": "Upsell line",
+      "default": "Save $4.99 on shipping and keep it safe"
+    },
+    {
+      "type": "text",
+      "id": "drawer_note",
+      "label": "Drawer note",
+      "default": "Taxes calculated at checkout."
+    },
+    {
+      "type": "text",
+      "id": "drawer_cta",
+      "label": "Checkout button",
+      "default": "Check out"
+    }
   ],
-  "presets": [ { "name": "PocketArcade PDP" } ]
+  "presets": [
+    {
+      "name": "PocketArcade PDP"
+    }
+  ]
 }
 {% endschema %}
