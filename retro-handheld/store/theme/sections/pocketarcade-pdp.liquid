@@ -854,7 +854,7 @@
       if(lastB && bundled > want && !fixing){
         fixing = true;
         var nq = Math.max(0, lastBq - (bundled - want));
-        return post('/cart/change.js', {line: lastB, quantity: nq}).then(function(r){ fixing = false; return render(r.j); }, function(){ fixing = false; });
+        return post('/cart/change.js', {line: lastB, quantity: nq}).then(function(){ return fetch(base + '/cart.js', {headers:{'Accept':'application/json'}}).then(function(x){ return x.json(); }); }).then(function(c){ fixing = false; return render(c); }, function(){ fixing = false; });
       }
       if(!cart.items.length){
         linesEl.innerHTML = '<p class="pa-cd-empty">Your cart is empty.</p>';
@@ -872,7 +872,10 @@
             '<div class="pa-cd-price">' + (isGift ? '<s>' + money(it.original_line_price) + '</s><span class="pa-cd-free">FREE</span>' : was + money(it.final_line_price)) + '</div></div>';
         }).join('');
       }
-      var disc = cart.total_discount || 0;
+      // Savings = what the items cost before discounts minus what the cart costs now.
+      // (Shopify's total_discount can lag behind after lines are changed.)
+      var orig = 0; cart.items.forEach(function(it){ orig += it.original_line_price || 0; });
+      var disc = Math.max(0, orig - (cart.total_price || 0));
       if(disc > 0){ discEl.textContent = '−' + money(disc); discRow.hidden = false; } else discRow.hidden = true;
       subEl.textContent = money(cart.total_price);
       if(free && shipT && bar){
@@ -888,7 +891,7 @@
     function load(){ return fetch(base + '/cart.js', {headers:{'Accept':'application/json'}}).then(function(r){ return r.json(); }).then(render); }
     function change(line, q){
       linesEl.classList.add('pa-busy');
-      return post('/cart/change.js', {line: line, quantity: q}).then(function(r){ msg(''); return render(r.j); })
+      return post('/cart/change.js', {line: line, quantity: q}).then(function(){ msg(''); return load(); })
         .catch(function(){ msg('Something went wrong. Please try again.'); })
         .then(function(){ linesEl.classList.remove('pa-busy'); });
     }
