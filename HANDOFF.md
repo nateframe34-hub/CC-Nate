@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-02 · PDP hero image prompt** (`retro-handheld/store/images/Hero_Image_Prompt.md`): the comp's Christmas living-room hero, minus the branded box (we have none). It uses a half-unwrapped red gift instead. One template with a color and game-screen swap per variant, plus 4 follow-up gallery shots.
+
 - **2026-11-02 · PDP copy reframed from "arcade games" to "classic consoles":** NES, SNES, Game Boy, PS1, N64, Genesis, DS (20 systems, 10,000+ games). Added an FAQ listing every console.
 
 - **2026-11-02 · Game search moved directly under the ATC + trust row (founder).** "Do they have X game" is the #1 objection. It is now a compact card with a scrolling list and loads 0.6 s after it comes into view.
