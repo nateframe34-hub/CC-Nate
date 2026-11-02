@@ -102,8 +102,10 @@
 #pa-pdp .pa-sale-clock{font-family:ui-monospace,Menlo,monospace;font-weight:700;font-size:14px;font-variant-numeric:tabular-nums}
 
 /* hero + gallery */
-#pa-pdp .hero{display:grid;grid-template-columns:1fr 1fr;gap:56px;padding:40px 0 64px;align-items:start}
-#pa-pdp .pa-car{position:relative}
+#pa-pdp .hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;padding:40px 0 64px;align-items:start}
+#pa-pdp .hero>div{min-width:0}
+#pa-pdp .pa-car{position:relative;max-width:100%}
+#pa-pdp .pa-top[hidden]{display:none}
 #pa-pdp .pa-car-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;scrollbar-width:none;border:1px solid var(--line);border-radius:14px;background:#fff}
 #pa-pdp .pa-car-track::-webkit-scrollbar{display:none}
 #pa-pdp .pa-car-slide{flex:0 0 100%;scroll-snap-align:start;aspect-ratio:1/1}
@@ -278,7 +280,7 @@
 #pa-pdp .pa-busy{opacity:.6;pointer-events:none}
 
 @media(max-width:880px){
-  #pa-pdp .hero{grid-template-columns:1fr;gap:24px;padding-top:20px}
+  #pa-pdp .hero{grid-template-columns:minmax(0,1fr);gap:24px;padding-top:20px}
   #pa-pdp .three{grid-template-columns:1fr}
   #pa-pdp .attr,#pa-pdp .alt{grid-template-columns:1fr;gap:6px}
   #pa-pdp .sec{padding:48px 0}
@@ -294,7 +296,7 @@
 {%- capture pa_return_svg -%}<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M3 4v4.5h4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>{%- endcapture -%}
 {%- capture pa_play_svg -%}<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="8" y="5.5" width="8" height="6" rx="1" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9 15.5h3M10.5 14v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="15.5" cy="16.5" r="1.1" fill="currentColor"/></svg>{%- endcapture -%}
 
-<div class="pa-top">
+<div class="pa-top"{% unless section.settings.show_topbar %} hidden{% endunless %}>
   <button type="button" class="pa-cart-btn pa-cart-{{ section.settings.cart_icon_side }}" id="pa-cart-btn" aria-label="Open cart">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2.2l2.1 10.2a1.5 1.5 0 0 0 1.5 1.2h8.4a1.5 1.5 0 0 0 1.5-1.1L20.5 8H6.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="19.5" r="1.4" fill="currentColor"/><circle cx="17" cy="19.5" r="1.4" fill="currentColor"/></svg>
     <span class="pa-cart-n" id="pa-cart-n"{% if cart.item_count == 0 %} hidden{% endif %}>{{ cart.item_count }}</span>
@@ -330,7 +332,7 @@
         </div>
         {%- if product.images.size > 1 -%}
           <div class="gal-thumbs">
-            {%- for img in product.images -%}<img src="{{ img | image_url: width: 180 }}" alt="" data-i="{{ forloop.index0 }}" class="pa-thumb{% if forloop.first %} on{% endif %}">{%- endfor -%}
+            {%- for img in product.images -%}<img src="{{ img | image_url: width: 180 }}" alt="" data-i="{{ forloop.index0 }}" class="pa-thumb{% if forloop.first %} on{% endif %}" width="72" height="72">{%- endfor -%}
           </div>
         {%- endif -%}
       {%- endif -%}
@@ -450,7 +452,7 @@
     {%- for i in (1..3) -%}
       {%- assign kh = 'who_' | append: i | append: '_h' -%}{%- assign kb = 'who_' | append: i | append: '_b' -%}{%- assign ki = 'who_' | append: i | append: '_img' -%}
       <div class="card">
-        {%- if section.settings[ki] != blank -%}<img src="{{ section.settings[ki] | image_url: width: 800 }}" alt="{{ section.settings[kh] | escape }}" loading="lazy">{%- endif -%}
+        {%- if section.settings[ki] != blank -%}<img src="{{ section.settings[ki] | image_url: width: 800 }}" alt="{{ section.settings[kh] | escape }}" loading="lazy" width="800" height="600">{%- endif -%}
         <h3>{{ section.settings[kh] }}</h3><p>{{ section.settings[kb] }}</p>
       </div>
     {%- endfor -%}
@@ -562,7 +564,7 @@
 <!-- ================= STICKY (mobile) ================= -->
 <div class="sticky" id="pa-sticky" aria-hidden="true">
   <div class="in">
-    {%- if product.featured_image -%}<img class="st-img" src="{{ product.featured_image | image_url: width: 120 }}" alt="">{%- endif -%}
+    {%- if product.featured_image -%}<img class="st-img" src="{{ product.featured_image | image_url: width: 120 }}" alt="" width="48" height="48">{%- endif -%}
     <div class="st-info">
       <span class="st-t">{{ product.title }}</span>
       <span class="st-v" id="pa-sticky-tier">{{ section.settings.t1_label }}</span>
@@ -591,7 +593,7 @@
     {%- if case_up -%}
     <div class="pa-up" id="pa-up" hidden>
       {%- assign up_img = case_up.featured_image | default: cp.featured_image -%}
-      {%- if up_img -%}<img src="{{ up_img | image_url: width: 120 }}" alt="">{%- endif -%}
+      {%- if up_img -%}<img src="{{ up_img | image_url: width: 120 }}" alt="" width="52" height="52">{%- endif -%}
       <div class="pa-up-t"><b>{{ section.settings.upsell_title }}</b>{{ section.settings.upsell_sub }}</div>
       <button type="button" id="pa-up-add">Add {{ case_up.price | money_without_trailing_zeros }}</button>
     </div>
@@ -836,6 +838,10 @@
     });
     var cbtn = document.getElementById('pa-cart-btn');
     if(cbtn) cbtn.addEventListener('click', function(){ load().then(open); });
+    // Theme header cart icon (Dawn: #cart-icon-bubble) opens this drawer instead of the theme's.
+    [].slice.call(document.querySelectorAll('#cart-icon-bubble, a[href$="/cart"].header__icon')).forEach(function(a){
+      a.addEventListener('click', function(e){ e.preventDefault(); e.stopPropagation(); load().then(open); }, true);
+    });
     ov.addEventListener('click', close);
     document.getElementById('pa-cd-x').addEventListener('click', close);
     document.getElementById('pa-cd-cont').addEventListener('click', close);
@@ -876,6 +882,7 @@
   "settings": [
     { "type": "checkbox", "id": "load_fonts", "label": "Load Rubik / Inter / Press Start 2P", "default": true },
     { "type": "header", "content": "Top bar and announcement" },
+    { "type": "checkbox", "id": "show_topbar", "label": "Show this section's own top bar", "default": false, "info": "Off = use your theme header. Its cart icon will open this page's cart drawer." },
     { "type": "select", "id": "cart_icon_side", "label": "Cart icon side", "default": "right", "options": [ { "value": "left", "label": "Left" }, { "value": "right", "label": "Right" } ] },
     { "type": "checkbox", "id": "sale_on", "label": "Show sale countdown", "default": true },
     { "type": "text", "id": "sale_label", "label": "Sale badge", "default": "Early Black Friday" },

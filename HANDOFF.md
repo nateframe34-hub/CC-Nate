@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-02 · PDP fixes on Dawn:** hero image overflow fixed (minmax grid). Added img width/height. Own top bar off by default (`show_topbar`); Dawn's header cart icon now opens our drawer.
+
 - **2026-10-31 · Announcement bar: "Early Black Friday"** from launch (Mon Nov 2), countdown to Nov 26 23:59. Then "Black Friday" Nov 27–Dec 1, then "Order by Dec 11 for Christmas". The sale must be real: the bundles + free cases are the offer; no inflated compare-at prices.
 
 - **2026-10-30 · Early kill (founder):** kill any ad at $49 spend (1× target CPA) with zero buying intent: no add-to-cart and no checkout initiated.
