@@ -876,7 +876,7 @@
       // (Shopify's total_discount can lag behind after lines are changed.)
       var orig = 0; cart.items.forEach(function(it){ orig += it.original_line_price || 0; });
       var disc = Math.max(0, orig - (cart.total_price || 0));
-      if(!cart.items.length || hand < 2) disc = 0; // no bundle in the cart: no bundle savings line
+      if(!(bundled > 0 && hand >= 2)) disc = 0; // only show savings when a bundle (with its cases) is in the cart
       if(disc > 0){ discEl.textContent = '−' + money(disc); discRow.hidden = false; } else discRow.hidden = true;
       subEl.textContent = money(cart.total_price);
       if(free && shipT && bar){
