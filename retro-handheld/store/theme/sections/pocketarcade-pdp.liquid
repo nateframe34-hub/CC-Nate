@@ -728,9 +728,9 @@
     var a = add(mn), b = add(mx), msg = 'Order today, arrives <b>' + f(a) + ' – ' + f(b) + '</b>.';
     var raw = (box.getAttribute('data-xmas') || '').trim(), cut = raw ? new Date(raw + 'T23:59:59') : null;
     if(cut && !isNaN(cut)){
-      if(now <= cut) msg = '<b>Arrives before Christmas.</b> Order by ' + f(cut) + '. Delivery ' + f(a) + ' – ' + f(b) + '.';
+      if(now <= cut) msg = '<b>Arrives before Christmas.</b> Order by ' + f(cut) + '.';
     } else if(now.getMonth() >= 9 && b.getMonth() === 11 && b.getDate() <= 22){
-      msg = '<b>Arrives before Christmas.</b> Delivery ' + f(a) + ' – ' + f(b) + '.';
+      msg = '<b>Arrives before Christmas.</b>';
     }
     t.innerHTML = msg;
   }catch(e){}
