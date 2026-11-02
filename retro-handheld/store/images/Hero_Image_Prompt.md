@@ -77,3 +77,20 @@ Fill `{COLOR DESCRIPTION}` from the real unit. Use the same game for every color
 - [ ] Color matches the real variant. Customers will compare it to what arrives
 - [ ] Screen readable and lit
 - [ ] No fake box, logo, text or price added
+
+---
+
+## Color-swap prompt (founder workflow, 2026-11-02)
+Make the first hero with the full prompt above. After that, for each color, attach **Image 1 = the finished hero** and **Image 2 = a real photo of the color**, and use:
+
+```
+Recreate Image 1 exactly: same scene, Christmas background, snow, lighting,
+camera angle, crop, hand pose, gift box and game on the screen. Change ONLY the
+handheld's body and button colors to match the handheld in Image 2 exactly:
+same plastic color, transparency or finish, and the same button and thumbstick
+colors. Keep the handheld's shape, size, position and button layout identical
+to Image 1. Do not change anything else. No added text or graphics.
+Aspect ratio 1:1, 2048 x 2048.
+```
+
+If it drifts (new pose, a different background), regenerate rather than edit. If the color comes out wrong, add one line describing it, e.g. "The body is translucent purple, see-through, showing the circuit board inside."
