@@ -27,9 +27,18 @@
   No game titles, consoles or console brands anywhere on this page.
 {%- endcomment -%}
 
+{%- comment -%} Only variants whose title contains "Only sell variants containing" (e.g. 128GB) are offered. {%- endcomment -%}
+{%- assign pa_only = section.settings.variant_only | strip -%}
 {%- assign v = product.selected_or_first_available_variant -%}
-{%- assign p1 = product.price -%}
-{%- assign p1_cmp = product.compare_at_price | default: 0 -%}
+{%- if pa_only != blank -%}
+  {%- assign pa_found = false -%}
+  {%- for variant in product.variants -%}{%- if pa_found == false and variant.available and variant.title contains pa_only -%}{%- assign v = variant -%}{%- assign pa_found = true -%}{%- endif -%}{%- endfor -%}
+{%- endif -%}
+{%- assign p1 = v.price -%}
+{%- assign p1_cmp = v.compare_at_price | default: 0 -%}
+{%- assign pa_cpos = 0 -%}
+{%- for o in product.options_with_values -%}{%- assign on = o.name | downcase -%}{%- if on == 'color' or on == 'colour' -%}{%- assign pa_cpos = forloop.index -%}{%- endif -%}{%- endfor -%}
+{%- assign pa_ci = pa_cpos | minus: 1 -%}
 {%- if p1_cmp > p1 -%}{%- assign unit_cmp = p1_cmp -%}{%- else -%}{%- assign unit_cmp = p1 -%}{%- endif -%}
 {%- assign p2 = section.settings.duo_price_cents -%}
 {%- assign p3 = section.settings.trio_price_cents -%}
@@ -149,7 +158,7 @@
 #pa-pdp .pa-tier-was{font-size:12.5px;color:var(--muted);text-decoration:line-through}
 #pa-pdp .pa-tier-each{font-size:11.5px;color:var(--muted)}
 #pa-pdp .pa-tier-badge{position:absolute;top:-10px;right:12px;background:var(--accent);color:#fff;font-family:var(--hdr);font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:999px;white-space:nowrap}
-#pa-pdp .pa-tier-badge.alt{background:var(--green)}
+#pa-pdp .pa-tier-badge.pa-b3{background:var(--green)}
 #pa-pdp .pa-tier-picks{display:none;margin-top:6px;padding-left:32px;cursor:default}
 #pa-pdp .pa-tier.on .pa-tier-picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:8px}
 #pa-pdp .pa-pick-l{display:block;font-family:var(--hdr);font-weight:700;font-size:12.5px;margin:0 0 4px}
@@ -358,7 +367,7 @@
       {%- endif -%}
 
       {%- comment -%} Each option carries the index of its variant's image in the gallery, so picking a color shows that color. {%- endcomment -%}
-      {%- capture pa_opts -%}{%- for variant in product.variants -%}{%- assign vi = '' -%}{%- if variant.featured_image -%}{%- for img in product.images -%}{%- if img.id == variant.featured_image.id -%}{%- assign vi = forloop.index0 -%}{%- endif -%}{%- endfor -%}{%- endif -%}<option value="{{ variant.id }}" data-img="{{ vi }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title }}{% unless variant.available %} (sold out){% endunless %}</option>{%- endfor -%}{%- endcapture -%}
+      {%- capture pa_opts -%}{%- for variant in product.variants -%}{%- if pa_only != blank -%}{%- unless variant.title contains pa_only -%}{%- continue -%}{%- endunless -%}{%- endif -%}{%- assign vi = '' -%}{%- if variant.featured_image -%}{%- for img in product.images -%}{%- if img.id == variant.featured_image.id -%}{%- assign vi = forloop.index0 -%}{%- endif -%}{%- endfor -%}{%- endif -%}<option value="{{ variant.id }}" data-img="{{ vi }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{% if pa_cpos > 0 %}{{ variant.options[pa_ci] }}{% else %}{{ variant.title }}{% endif %}{% unless variant.available %} (sold out){% endunless %}</option>{%- endfor -%}{%- endcapture -%}
       {%- assign pa_has_opts = true -%}
       {%- if product.has_only_default_variant -%}{%- assign pa_has_opts = false -%}{%- endif -%}
 
@@ -378,7 +387,7 @@
           <div class="pa-tier{% if t_on %} on{% endif %}" tabindex="0" data-qty="{{ q }}"
             data-price="{{ t_price }}" data-compare="{{ t_cmp }}" data-cta="{{ t_cta | escape }}"
             role="radio" aria-checked="{% if t_on %}true{% else %}false{% endif %}">
-            {%- if t_badge != blank -%}<span class="pa-tier-badge{% if q == 3 %} alt{% endif %}">{{ t_badge }}</span>{%- endif -%}
+            {%- if t_badge != blank -%}<span class="pa-tier-badge{% if q == 3 %} pa-b3{% endif %}">{{ t_badge }}</span>{%- endif -%}
             <div class="pa-tier-main">
               <span class="pa-tier-radio" aria-hidden="true"></span>
               <span class="pa-tier-body">
@@ -675,6 +684,8 @@
     [].slice.call(root.querySelectorAll('.pa-v')).forEach(function(s){ s.addEventListener('change', function(){ sync(); showColor(s); }); });
     tiers.forEach(function(t){ t.addEventListener('click', function(){ showColor(t.querySelector('.pa-v')); }); });
 
+    var top = root.querySelector('.pa-top'), tc = document.getElementById('cart-icon-bubble');
+    if(top && top.hidden && !(tc && tc.offsetParent !== null)) top.hidden = false; // no visible theme cart icon: show ours
     var cbtn = root.querySelector('#pa-cart-btn');
     if(cbtn && !document.getElementById('pa-cd')) cbtn.addEventListener('click', function(){ window.location.href = '{{ routes.cart_url }}'; });
 
@@ -901,6 +912,7 @@
     { "type": "text", "id": "xmas_cutoff", "label": "Christmas order-by date (YYYY-MM-DD)", "default": "2026-12-11", "info": "Before this date the box says 'Arrives before Christmas. Order by...'. Set it from the supplier's real delivery times." },
     { "type": "header", "content": "Bundle tiers" },
     { "type": "range", "id": "default_tier", "label": "Selected tier on load", "min": 1, "max": 3, "step": 1, "default": 2 },
+    { "type": "text", "id": "variant_only", "label": "Only sell variants containing", "default": "128GB", "info": "Hides every variant whose name doesn't contain this (e.g. the 64GB ones). Dropdowns show only the color. Leave empty to show all." },
     { "type": "number", "id": "duo_price_cents", "label": "Duo price in cents", "default": 13999, "info": "Must match the qty-2 automatic discount in Shopify." },
     { "type": "number", "id": "trio_price_cents", "label": "Trio price in cents", "default": 19999, "info": "Must match the qty-3 automatic discount in Shopify." },
     { "type": "text", "id": "t1_label", "label": "Tier 1 name", "default": "1 PocketArcade" },

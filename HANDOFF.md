@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-02 · PDP fixes round 2:** "Best value" badge clash with `.alt` fixed. Dropdowns show color only and only 128GB variants (`variant_only` setting); the single price comes from the 128GB variant. Our top bar auto-shows when the theme has no visible cart icon.
+
 - **2026-11-02 · PDP fixes on Dawn:** hero image overflow fixed (minmax grid). Added img width/height. Own top bar off by default (`show_topbar`); Dawn's header cart icon now opens our drawer.
 
 - **2026-10-31 · Announcement bar: "Early Black Friday"** from launch (Mon Nov 2), countdown to Nov 26 23:59. Then "Black Friday" Nov 27–Dec 1, then "Order by Dec 11 for Christmas". The sale must be real: the bundles + free cases are the offer; no inflated compare-at prices.

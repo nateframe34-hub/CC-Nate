@@ -137,7 +137,8 @@
         "upsell_sub": "Save $4.99 on shipping and keep it safe",
         "drawer_note": "Taxes calculated at checkout.",
         "drawer_cta": "Check out",
-        "show_topbar": false
+        "show_topbar": false,
+        "variant_only": "128GB"
       }
     }
   },
