@@ -166,6 +166,10 @@
 #pa-pdp .pa-pick-l{display:block;font-family:var(--hdr);font-weight:700;font-size:12.5px;margin:0 0 4px}
 #pa-pdp .pa-pick-wrap{position:relative;display:block}
 #pa-pdp .pa-pick-wrap:after{content:"";position:absolute;right:14px;top:50%;width:8px;height:8px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+#pa-pdp .pa-gifts li.pa-case-picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:6px;border-top:0;padding:0 0 8px 38px}
+#pa-pdp .pa-case-picks .pa-pick-l{font-size:11px;margin:0 0 2px}
+#pa-pdp .pa-case-picks .pa-pick{font-size:13px;padding:6px 26px 6px 8px;border-radius:8px}
+#pa-pdp .pa-case-picks .pa-pick-wrap:after{right:10px;width:6px;height:6px}
 #pa-pdp .pa-free-tag{font-style:normal;font-size:10px;font-weight:800;color:#fff;background:var(--green);border-radius:4px;padding:1px 5px;margin-left:4px;vertical-align:1px}
 #pa-pdp .pa-pick{width:100%;appearance:none;-webkit-appearance:none;background:#fff;border:1.5px solid var(--line);border-radius:10px;padding:10px 34px 10px 12px;font-family:var(--body);font-size:15px;color:var(--ink);cursor:pointer}
 #pa-pdp .pa-gifts{display:none;margin:12px 0 2px 32px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:default}
@@ -277,12 +281,12 @@
 #pa-pdp .pa-cd-free{color:var(--green)}
 #pa-pdp .pa-cd-rm{background:none;border:0;color:var(--muted);font-size:12.5px;text-decoration:underline;cursor:pointer;margin-top:8px;padding:0}
 #pa-pdp .pa-cd-empty{padding:40px 0;text-align:center;color:var(--muted)}
-#pa-pdp .pa-up{display:flex;align-items:center;gap:12px;margin:14px 0 6px;padding:12px;border:1.5px dashed var(--accent);border-radius:12px;background:#fff}
-#pa-pdp .pa-up-sel{display:block;margin-top:6px;width:100%;font:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink)}
-#pa-pdp .pa-up img{width:52px;height:52px;object-fit:cover;border-radius:8px;flex:0 0 auto}
+#pa-pdp .pa-up{display:flex;align-items:center;gap:10px;margin:10px 0 6px;padding:8px 10px;border:1.5px dashed var(--accent);border-radius:10px;background:#fff}
+#pa-pdp .pa-up-sel{display:block;margin-top:4px;width:100%;font:inherit;font-size:12px;padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink)}
+#pa-pdp .pa-up img{width:40px;height:40px;object-fit:cover;border-radius:6px;flex:0 0 auto}
 #pa-pdp .pa-up-t{flex:1 1 auto;min-width:0;font-size:13px;line-height:1.3;color:var(--muted)}
-#pa-pdp .pa-up-t b{display:block;color:var(--ink);font-family:var(--hdr);font-size:14px}
-#pa-pdp .pa-up button{flex:0 0 auto;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:10px 14px;font-family:var(--hdr);font-weight:700;font-size:13.5px;cursor:pointer}
+#pa-pdp .pa-up-t b{display:block;color:var(--ink);font-family:var(--hdr);font-size:13px}
+#pa-pdp .pa-up button{flex:0 0 auto;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:8px 12px;font-family:var(--hdr);font-weight:700;font-size:13px;cursor:pointer}
 #pa-pdp .pa-cd-f{border-top:1px solid var(--line);padding:16px 20px 20px;background:#fff}
 #pa-pdp .pa-cd-row{display:flex;justify-content:space-between;font-size:15px;margin-bottom:6px}
 #pa-pdp .pa-cd-disc{color:var(--accent)}
@@ -401,7 +405,7 @@
 
       {%- comment -%} Each option carries the index of its variant's image in the gallery, so picking a color shows that color. {%- endcomment -%}
       {%- capture pa_opts -%}{%- for variant in product.variants -%}{%- if pa_only != blank -%}{%- unless variant.title contains pa_only -%}{%- continue -%}{%- endunless -%}{%- endif -%}{%- assign vi = '' -%}{%- if variant.featured_image -%}{%- for img in product.images -%}{%- if img.id == variant.featured_image.id -%}{%- assign vi = forloop.index0 -%}{%- endif -%}{%- endfor -%}{%- endif -%}<option value="{{ variant.id }}" data-img="{{ vi }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{% if pa_cpos > 0 %}{{ variant.options[pa_ci] }}{% else %}{{ variant.title }}{% endif %}{% unless variant.available %} (sold out){% endunless %}</option>{%- endfor -%}{%- endcapture -%}
-      {%- capture pa_case_opts -%}{%- if cp != blank -%}{%- for cv in cp.variants -%}<option value="{{ cv.id }}"{% if case_up and cv.id == case_up.id %} selected{% endif %}{% unless cv.available %} disabled{% endunless %}>{{ cv.title }}{% unless cv.available %} (sold out){% endunless %}</option>{%- endfor -%}{%- endif -%}{%- endcapture -%}
+      {%- capture pa_case_opts -%}{%- if cp != blank -%}{%- for cv in cp.variants -%}<option value="{{ cv.id }}"{% if case_up and cv.id == case_up.id %} selected{% endif %}{% unless cv.available %} disabled{% endunless %}>{{ cv.option1 }}{% unless cv.available %} (sold out){% endunless %}</option>{%- endfor -%}{%- endif -%}{%- endcapture -%}
       {%- assign pa_case_choice = false -%}
       {%- if cp != blank and cp.has_only_default_variant == false -%}{%- assign pa_case_choice = true -%}{%- endif -%}
       {%- assign pa_has_opts = true -%}
@@ -441,11 +445,6 @@
               {%- for n in (1..q) -%}
                 <label><span class="pa-pick-l">{% if q == 1 %}{{ section.settings.pick_label }}{% else %}{{ section.settings.pick_label_n }} {{ n }}{% endif %}</span><span class="pa-pick-wrap"><select class="pa-pick pa-v" aria-label="{{ section.settings.pick_label }} {{ n }}">{{ pa_opts }}</select></span></label>
               {%- endfor -%}
-              {%- if q > 1 and pa_case_choice -%}
-                {%- for n in (1..q) -%}
-                  <label><span class="pa-pick-l">{{ section.settings.case_pick_label }} {{ n }} <em class="pa-free-tag">FREE</em></span><span class="pa-pick-wrap"><select class="pa-pick pa-cv" aria-label="{{ section.settings.case_pick_label }} {{ n }}">{{ pa_case_opts }}</select></span></label>
-                {%- endfor -%}
-              {%- endif -%}
             </div>
             {%- endif -%}
             {%- if q > 1 and section.settings.show_gifts -%}
@@ -453,6 +452,13 @@
               <p class="pa-gifts-h">{{ section.settings.gifts_heading }}</p>
               <ul>
                 <li><span class="pa-gift-ic" aria-hidden="true">{{ pa_gift_svg }}</span><span class="pa-gift-t"><b>{{ q }} × {{ section.settings.gift_case_title }}</b><small>{{ section.settings.gift_case_sub }}</small></span><span class="pa-gift-v"><s>{{ section.settings.case_value_cents | times: q | money }}</s>FREE</span></li>
+                {%- if pa_case_choice -%}
+                <li class="pa-case-picks">
+                  {%- for n in (1..q) -%}
+                    <label><span class="pa-pick-l">{{ section.settings.case_pick_label }} {{ n }}</span><span class="pa-pick-wrap"><select class="pa-pick pa-cv" aria-label="{{ section.settings.case_pick_label }} {{ n }}">{{ pa_case_opts }}</select></span></label>
+                  {%- endfor -%}
+                </li>
+                {%- endif -%}
                 <li><span class="pa-gift-ic" aria-hidden="true">{{ pa_gift_svg }}</span><span class="pa-gift-t"><b>Free shipping</b><small>{{ section.settings.gift_ship_sub }}</small></span><span class="pa-gift-v"><s>{{ section.settings.ship_cost_cents | money }}</s>FREE</span></li>
               </ul>
             </div>
@@ -661,7 +667,7 @@
     <div class="pa-up" id="pa-up" hidden>
       {%- assign up_img = case_up.featured_image | default: cp.featured_image -%}
       {%- if up_img -%}<img src="{{ up_img | image_url: width: 120 }}" alt="" width="52" height="52">{%- endif -%}
-      <div class="pa-up-t"><b>{{ section.settings.upsell_title }}</b>{{ section.settings.upsell_sub }}{%- if cp.has_only_default_variant == false -%}<select id="pa-up-color" class="pa-up-sel" aria-label="Case color">{{ pa_case_opts }}</select>{%- endif -%}</div>
+      <div class="pa-up-t"><b>{{ section.settings.upsell_title }}</b>{%- if cp.has_only_default_variant == false -%}<select id="pa-up-color" class="pa-up-sel" aria-label="Case color">{{ pa_case_opts }}</select>{%- endif -%}</div>
       <button type="button" id="pa-up-add">Add {{ case_up.price | money_without_trailing_zeros }}</button>
     </div>
     {%- endif -%}
