@@ -8,19 +8,15 @@
     Trio    = 3 handhelds + 3 FREE cases, free shipping   (display price: trio_price_cents)
     Case    = $12 in-cart upsell. Single + case reaches the free-shipping threshold.
 
-  SHOPIFY ADMIN SETUP (the page only DISPLAYS prices; Shopify charges them)
-  1. Case product: pick it in the section setting "Case product". Give it TWO variants:
-       - "Silicone case"        $12.00   (the upsell)
-       - "Free with your bundle" $0.00   (the bundle gift; hide the product from
-                                          search and collections)
-     The section finds them by price: the $0 variant = gift, the other = upsell.
-  2. Automatic discounts → Amount off products → PocketArcade only →
-       "Only apply once per order":
-       - Min quantity 2: (2 × price) − duo price   e.g. 149.98 − 139.99 = $9.99
-       - Min quantity 3: (3 × price) − trio price  e.g. 224.97 − 199.99 = $24.98
-     Shopify applies the better one. Check the cart total matches the page.
-  3. Shipping: $4.99 flat, free at or over single + case (e.g. $86.99).
-     Match it in the setting "Free shipping threshold (cents)".
+  SHOPIFY ADMIN SETUP (founder's discount design, 2026-11-02)
+  1. Case product ("Case product" setting): one variant per color, all $12.
+     - Bundles add one case per handheld in the colors picked, tagged _bundle.
+     - Singles get a $12 upsell (with color picker) in the cart drawer.
+  2. Buy X get Y (automatic): buy min 2 PocketArcade, get the cases 100% off.
+     The drawer shows bundle cases as FREE with the $12 crossed out.
+  3. Amount off order (automatic) for the bundle price, combinable with
+     product discounts. Duo $9.99 off, trio $24.98 off.
+  4. Shipping: $4.99 flat, free at or over single + case ($86.99).
 
   JS SAFETY (learned on tallow): each script is its own IIFE with its own
   try/catch at the end of the file. A throw in one can never kill another.
@@ -54,16 +50,16 @@
 {%- assign p3_each = p3 | divided_by: 3 -%}
 
 {%- assign cp = section.settings.case_product -%}
-{%- assign case_up = nil -%}{%- assign case_gift = nil -%}
+{%- assign case_up = nil -%}
 {%- if cp != blank -%}
   {%- for cv in cp.variants -%}
-    {%- if cv.price == 0 -%}{%- assign case_gift = cv -%}{%- elsif case_up == nil -%}{%- assign case_up = cv -%}{%- endif -%}
+    {%- if case_up == nil and cv.available -%}{%- assign case_up = cv -%}{%- endif -%}
   {%- endfor -%}
 {%- endif -%}
 
 <section id="pa-pdp" data-section-id="{{ section.id }}"
   data-product="{{ product.id }}"
-  data-gift="{% if case_gift %}{{ case_gift.id }}{% endif %}"
+  data-case="{% if cp != blank %}{{ cp.id }}{% endif %}"
   data-upsell="{% if case_up %}{{ case_up.id }}{% endif %}"
   data-freeship="{{ section.settings.free_ship_cents }}">
 
@@ -170,6 +166,7 @@
 #pa-pdp .pa-pick-l{display:block;font-family:var(--hdr);font-weight:700;font-size:12.5px;margin:0 0 4px}
 #pa-pdp .pa-pick-wrap{position:relative;display:block}
 #pa-pdp .pa-pick-wrap:after{content:"";position:absolute;right:14px;top:50%;width:8px;height:8px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+#pa-pdp .pa-free-tag{font-style:normal;font-size:10px;font-weight:800;color:#fff;background:var(--green);border-radius:4px;padding:1px 5px;margin-left:4px;vertical-align:1px}
 #pa-pdp .pa-pick{width:100%;appearance:none;-webkit-appearance:none;background:#fff;border:1.5px solid var(--line);border-radius:10px;padding:10px 34px 10px 12px;font-family:var(--body);font-size:15px;color:var(--ink);cursor:pointer}
 #pa-pdp .pa-gifts{display:none;margin:12px 0 2px 32px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:default}
 #pa-pdp .pa-tier.on .pa-gifts{display:block}
@@ -281,6 +278,7 @@
 #pa-pdp .pa-cd-rm{background:none;border:0;color:var(--muted);font-size:12.5px;text-decoration:underline;cursor:pointer;margin-top:8px;padding:0}
 #pa-pdp .pa-cd-empty{padding:40px 0;text-align:center;color:var(--muted)}
 #pa-pdp .pa-up{display:flex;align-items:center;gap:12px;margin:14px 0 6px;padding:12px;border:1.5px dashed var(--accent);border-radius:12px;background:#fff}
+#pa-pdp .pa-up-sel{display:block;margin-top:6px;width:100%;font:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink)}
 #pa-pdp .pa-up img{width:52px;height:52px;object-fit:cover;border-radius:8px;flex:0 0 auto}
 #pa-pdp .pa-up-t{flex:1 1 auto;min-width:0;font-size:13px;line-height:1.3;color:var(--muted)}
 #pa-pdp .pa-up-t b{display:block;color:var(--ink);font-family:var(--hdr);font-size:14px}
@@ -403,6 +401,9 @@
 
       {%- comment -%} Each option carries the index of its variant's image in the gallery, so picking a color shows that color. {%- endcomment -%}
       {%- capture pa_opts -%}{%- for variant in product.variants -%}{%- if pa_only != blank -%}{%- unless variant.title contains pa_only -%}{%- continue -%}{%- endunless -%}{%- endif -%}{%- assign vi = '' -%}{%- if variant.featured_image -%}{%- for img in product.images -%}{%- if img.id == variant.featured_image.id -%}{%- assign vi = forloop.index0 -%}{%- endif -%}{%- endfor -%}{%- endif -%}<option value="{{ variant.id }}" data-img="{{ vi }}"{% if variant.id == v.id %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{% if pa_cpos > 0 %}{{ variant.options[pa_ci] }}{% else %}{{ variant.title }}{% endif %}{% unless variant.available %} (sold out){% endunless %}</option>{%- endfor -%}{%- endcapture -%}
+      {%- capture pa_case_opts -%}{%- if cp != blank -%}{%- for cv in cp.variants -%}<option value="{{ cv.id }}"{% if case_up and cv.id == case_up.id %} selected{% endif %}{% unless cv.available %} disabled{% endunless %}>{{ cv.title }}{% unless cv.available %} (sold out){% endunless %}</option>{%- endfor -%}{%- endif -%}{%- endcapture -%}
+      {%- assign pa_case_choice = false -%}
+      {%- if cp != blank and cp.has_only_default_variant == false -%}{%- assign pa_case_choice = true -%}{%- endif -%}
       {%- assign pa_has_opts = true -%}
       {%- if product.has_only_default_variant -%}{%- assign pa_has_opts = false -%}{%- endif -%}
 
@@ -440,6 +441,11 @@
               {%- for n in (1..q) -%}
                 <label><span class="pa-pick-l">{% if q == 1 %}{{ section.settings.pick_label }}{% else %}{{ section.settings.pick_label_n }} {{ n }}{% endif %}</span><span class="pa-pick-wrap"><select class="pa-pick pa-v" aria-label="{{ section.settings.pick_label }} {{ n }}">{{ pa_opts }}</select></span></label>
               {%- endfor -%}
+              {%- if q > 1 and pa_case_choice -%}
+                {%- for n in (1..q) -%}
+                  <label><span class="pa-pick-l">{{ section.settings.case_pick_label }} {{ n }} <em class="pa-free-tag">FREE</em></span><span class="pa-pick-wrap"><select class="pa-pick pa-cv" aria-label="{{ section.settings.case_pick_label }} {{ n }}">{{ pa_case_opts }}</select></span></label>
+                {%- endfor -%}
+              {%- endif -%}
             </div>
             {%- endif -%}
             {%- if q > 1 and section.settings.show_gifts -%}
@@ -655,7 +661,7 @@
     <div class="pa-up" id="pa-up" hidden>
       {%- assign up_img = case_up.featured_image | default: cp.featured_image -%}
       {%- if up_img -%}<img src="{{ up_img | image_url: width: 120 }}" alt="" width="52" height="52">{%- endif -%}
-      <div class="pa-up-t"><b>{{ section.settings.upsell_title }}</b>{{ section.settings.upsell_sub }}</div>
+      <div class="pa-up-t"><b>{{ section.settings.upsell_title }}</b>{{ section.settings.upsell_sub }}{%- if cp.has_only_default_variant == false -%}<select id="pa-up-color" class="pa-up-sel" aria-label="Case color">{{ pa_case_opts }}</select>{%- endif -%}</div>
       <button type="button" id="pa-up-add">Add {{ case_up.price | money_without_trailing_zeros }}</button>
     </div>
     {%- endif -%}
@@ -678,7 +684,7 @@
     var forms = [].slice.call(root.querySelectorAll('.pa-form'));
     var tiers = [].slice.call(root.querySelectorAll('.pa-tier'));
     var ctas  = [].slice.call(root.querySelectorAll('.pa-cta'));
-    var gift  = root.getAttribute('data-gift');
+    var caseUp = root.getAttribute('data-upsell');
     var defV  = (root.querySelector('.pa-variant-field') || {}).value;
     var cur   = '{{ cart.currency.symbol | default: "$" }}';
     function money(c){ return cur + (c/100).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ','); }
@@ -693,7 +699,15 @@
       var map = {}, order = [];
       picks.forEach(function(id){ if(!map[id]){ map[id] = 0; order.push(id); } map[id]++; });
       var out = order.map(function(id){ return {id: id, quantity: map[id]}; });
-      if(qty > 1 && gift) out.push({id: gift, quantity: qty});
+      if(qty > 1 && caseUp){
+        // Bundle cases: one per handheld, in the chosen colors. Tagged _bundle so the drawer
+        // labels them and removes them if the bundle is broken. The Buy X get Y discount makes them free.
+        var cps = [].slice.call(t.querySelectorAll('.pa-cv')).map(function(s){ return s.value; });
+        while(cps.length < qty) cps.push(caseUp);
+        var cm = {}, co = [];
+        cps.forEach(function(id){ if(!cm[id]){ cm[id] = 0; co.push(id); } cm[id]++; });
+        co.forEach(function(id){ out.push({id: id, quantity: cm[id], bundle: true}); });
+      }
       return out;
     }
     function sync(){
@@ -702,7 +716,8 @@
         var idF = fm.querySelector('.pa-variant-field'), qF = fm.querySelector('.pa-qty-field'), box = fm.querySelector('.pa-items');
         if(idF) idF.disabled = true; if(qF) qF.disabled = true;
         if(box) box.innerHTML = ls.map(function(l,i){
-          return '<input type="hidden" name="items['+i+'][id]" value="'+l.id+'"><input type="hidden" name="items['+i+'][quantity]" value="'+l.quantity+'">';
+          return '<input type="hidden" name="items['+i+'][id]" value="'+l.id+'"><input type="hidden" name="items['+i+'][quantity]" value="'+l.quantity+'">' +
+            (l.bundle ? '<input type="hidden" name="items['+i+'][properties][_bundle]" value="1">' : '');
         }).join('');
       });
     }
@@ -734,6 +749,7 @@
       if(!isNaN(i) && typeof root.paGo === 'function') root.paGo(i);
     }
     [].slice.call(root.querySelectorAll('.pa-v')).forEach(function(s){ s.addEventListener('change', function(){ sync(); showColor(s); }); });
+    [].slice.call(root.querySelectorAll('.pa-cv')).forEach(function(s){ s.addEventListener('change', sync); });
     tiers.forEach(function(t){ t.addEventListener('click', function(){ showColor(t.querySelector('.pa-v')); }); });
 
     var top = root.querySelector('.pa-top'), tc = document.getElementById('cart-icon-bubble');
@@ -801,7 +817,7 @@
     var discRow = document.getElementById('pa-cd-disc'), discEl = document.getElementById('pa-cd-disc-v'), msgEl = document.getElementById('pa-cd-msg');
     var shipT = document.getElementById('pa-cd-ship-t'), bar = document.getElementById('pa-cd-bar'), up = document.getElementById('pa-up');
     var base = '{{ routes.root_url }}'.replace(/\/$/, ''), cur = '{{ cart.currency.symbol | default: "$" }}';
-    var pid = parseInt(root.getAttribute('data-product'),10), gift = parseInt(root.getAttribute('data-gift'),10), upsell = parseInt(root.getAttribute('data-upsell'),10);
+    var pid = parseInt(root.getAttribute('data-product'),10), casePid = parseInt(root.getAttribute('data-case'),10), upsell = parseInt(root.getAttribute('data-upsell'),10);
     var free = parseInt(root.getAttribute('data-freeship'),10) || 0;
     var fixing = false;
 
@@ -820,32 +836,33 @@
     }
 
     function render(cart){
-      var hand = 0, gifts = 0, giftLine = 0, hasUp = false;
+      var hand = 0, bundled = 0, lastB = 0, lastBq = 0, hasCase = false;
+      function isB(it){ return it.properties && it.properties._bundle; }
       cart.items.forEach(function(it, i){
         if(it.product_id === pid) hand += it.quantity;
-        if(it.variant_id === gift){ gifts += it.quantity; giftLine = i + 1; }
-        if(it.variant_id === upsell) hasUp = true;
+        if(it.product_id === casePid){ hasCase = true; if(isB(it)){ bundled += it.quantity; lastB = i + 1; lastBq = it.quantity; } }
       });
-      // Gift cases only belong with 2+ handhelds, one per handheld.
+      // Bundle cases belong with 2+ handhelds, at most one per handheld. Trim extras if the bundle is broken.
       var want = hand >= 2 ? hand : 0;
-      if(giftLine && gifts !== want && !fixing){
+      if(lastB && bundled > want && !fixing){
         fixing = true;
-        return post('/cart/change.js', {line: giftLine, quantity: want}).then(function(r){ fixing = false; return render(r.j); }, function(){ fixing = false; });
+        var nq = Math.max(0, lastBq - (bundled - want));
+        return post('/cart/change.js', {line: lastB, quantity: nq}).then(function(r){ fixing = false; return render(r.j); }, function(){ fixing = false; });
       }
       if(!cart.items.length){
         linesEl.innerHTML = '<p class="pa-cd-empty">Your cart is empty.</p>';
       } else {
         linesEl.innerHTML = cart.items.map(function(it, i){
           var img = it.image ? it.image.replace(/(\.[a-z]+)(\?|$)/i, '_160x160$1$2') : '';
-          var isGift = it.variant_id === gift;
+          var isGift = isB(it) || (it.product_id === casePid && it.final_line_price === 0);
           var was = (it.original_line_price > it.final_line_price) ? '<s>' + money(it.original_line_price) + '</s>' : '';
           var vt = (it.variant_title && it.variant_title !== 'Default Title') ? '<div class="pa-cd-var">' + esc(it.variant_title) + '</div>' : '';
           var ctrl = isGift ? '<div class="pa-cd-var">Free with your bundle</div>' :
             '<div class="pa-cd-qty"><button type="button" data-q="' + (it.quantity-1) + '" aria-label="Decrease">&minus;</button><span>' + it.quantity + '</span><button type="button" data-q="' + (it.quantity+1) + '" aria-label="Increase">+</button></div>' +
             '<div><button type="button" class="pa-cd-rm" data-q="0">Remove</button></div>';
           return '<div class="pa-cd-line" data-line="' + (i+1) + '">' + (img ? '<img src="' + esc(img) + '" alt="">' : '<span></span>') +
-            '<div><div class="pa-cd-name">' + (isGift ? it.quantity + ' × ' : '') + esc(it.product_title) + '</div>' + (isGift ? '' : vt) + ctrl + '</div>' +
-            '<div class="pa-cd-price">' + (isGift ? '<span class="pa-cd-free">FREE</span>' : was + money(it.final_line_price)) + '</div></div>';
+            '<div><div class="pa-cd-name">' + (isGift ? it.quantity + ' × ' : '') + esc(it.product_title) + '</div>' + vt + ctrl + '</div>' +
+            '<div class="pa-cd-price">' + (isGift ? '<s>' + money(it.original_line_price) + '</s><span class="pa-cd-free">FREE</span>' : was + money(it.final_line_price)) + '</div></div>';
         }).join('');
       }
       var disc = cart.total_discount || 0;
@@ -857,7 +874,7 @@
         else if(left > 0){ shipT.innerHTML = 'You’re <b>' + money(left) + '</b> away from free shipping'; bar.style.width = Math.min(100, cart.total_price / free * 100) + '%'; }
         else { shipT.innerHTML = '<b>You’ve got free shipping!</b>'; bar.style.width = '100%'; }
       }
-      if(up) up.hidden = !(hand > 0 && hand < 2 && !hasUp && upsell);
+      if(up) up.hidden = !(hand === 1 && !hasCase && upsell);
       bubbles(cart.item_count);
     }
 
@@ -872,7 +889,7 @@
       var fd = new FormData(form), items = [];
       for(var i = 0; i < 6; i++){
         var id = fd.get('items['+i+'][id]');
-        if(id) items.push({id: parseInt(id,10), quantity: parseInt(fd.get('items['+i+'][quantity]') || '1', 10)});
+        if(id){ var it = {id: parseInt(id,10), quantity: parseInt(fd.get('items['+i+'][quantity]') || '1', 10)}; if(fd.get('items['+i+'][properties][_bundle]')) it.properties = {_bundle: '1'}; items.push(it); }
       }
       return items;
     }
@@ -892,7 +909,8 @@
     var upAdd = document.getElementById('pa-up-add');
     if(upAdd) upAdd.addEventListener('click', function(){
       upAdd.classList.add('pa-busy');
-      post('/cart/add.js', {items: [{id: upsell, quantity: 1}]}).then(load).catch(function(){ msg('Something went wrong. Please try again.'); })
+      var upSel = document.getElementById('pa-up-color');
+      post('/cart/add.js', {items: [{id: upSel ? parseInt(upSel.value,10) : upsell, quantity: 1}]}).then(load).catch(function(){ msg('Something went wrong. Please try again.'); })
         .then(function(){ upAdd.classList.remove('pa-busy'); });
     });
     linesEl.addEventListener('click', function(e){
@@ -1254,7 +1272,13 @@
       "type": "product",
       "id": "case_product",
       "label": "Case product",
-      "info": "Needs a paid variant (upsell) and a $0 variant (bundle gift)."
+      "info": "Silicone case product: one variant per color, all $12. Bundles add these automatically; your Buy X get Y discount makes them free."
+    },
+    {
+      "type": "text",
+      "id": "case_pick_label",
+      "label": "Case color picker label (bundles)",
+      "default": "Case color"
     },
     {
       "type": "checkbox",

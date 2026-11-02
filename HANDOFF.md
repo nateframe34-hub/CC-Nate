@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-02 · Discount design (founder):** bundle price = automatic Amount off order (duo $9.99 off at $145+ min, trio $24.98 off at $220+ min, combinable with product discounts). Free cases = Buy X get Y (buy 2+ PocketArcade, get up to 3 cases free, 1 use per order). Case product = $12 colors. Bundles auto-add cases in the chosen colors, tagged `_bundle`. The drawer shows them FREE with $12 crossed out and trims them if the bundle breaks. Singles get a $12 upsell with a color picker.
+
 - **2026-11-02 · Case setup:** the single's shipping note was removed from the PDP. Bundles auto-add the case's $0 "Free with your bundle" variant (shown as FREE), so no discount slot is used. Singles see the $12 upsell in the cart drawer. The only discounts used are the duo/trio product discounts.
 
 - **2026-11-02 · PDP hero image prompt** (`retro-handheld/store/images/Hero_Image_Prompt.md`): the comp's Christmas living-room hero, minus the branded box (we have none). It uses a half-unwrapped red gift instead. One template with a color and game-screen swap per variant, plus 4 follow-up gallery shots.
