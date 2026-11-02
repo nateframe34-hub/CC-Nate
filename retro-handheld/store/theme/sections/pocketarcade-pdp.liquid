@@ -29,6 +29,12 @@
 
 {%- comment -%} Only variants whose title contains "Only sell variants containing" (e.g. 128GB) are offered. {%- endcomment -%}
 {%- assign pa_only = section.settings.variant_only | strip -%}
+{%- comment -%} Ignore the filter if no variant matches it (e.g. the size option was removed). {%- endcomment -%}
+{%- if pa_only != blank -%}
+  {%- assign pa_any = false -%}
+  {%- for variant in product.variants -%}{%- if variant.title contains pa_only -%}{%- assign pa_any = true -%}{%- endif -%}{%- endfor -%}
+  {%- if pa_any == false -%}{%- assign pa_only = '' -%}{%- endif -%}
+{%- endif -%}
 {%- assign v = product.selected_or_first_available_variant -%}
 {%- if pa_only != blank -%}
   {%- assign pa_found = false -%}
