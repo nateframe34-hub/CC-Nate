@@ -94,3 +94,51 @@ Aspect ratio 1:1, 2048 x 2048.
 ```
 
 If it drifts (new pose, a different background), regenerate rather than edit. If the color comes out wrong, add one line describing it, e.g. "The body is translucent purple, see-through, showing the circuit board inside."
+
+---
+
+## Silicone case image (2026-11-02)
+**Used in:** the drawer upsell (shown at 40px, so it must read at a glance), the "Free with your bundle" box, and the case product page.
+**Reference:** the supplier's flat-lay (front, back, sides, lanyard), one per color.
+
+### Master case image: attach Image 1 = our handheld hero (any color), Image 2 = the case reference in BLACK
+```
+Create a photorealistic product photo for an online store.
+Image 1 shows our handheld game console. Image 2 shows the silicone case made
+for it, laid out flat (front, back, side pieces and a wrist lanyard).
+
+Show ONE handheld from Image 1 fully fitted INSIDE the silicone case from
+Image 2, as if the case is snapped on: soft matte silicone hugging the edges
+and back, every cut-out in the case lining up exactly with the screen,
+D-pad, buttons and thumbsticks, exactly as in Image 2. Reproduce the case's
+shape, thickness, cut-outs and texture exactly. Do not invent a different case.
+The braided wrist lanyard from Image 2 is attached at the bottom corner and
+lies in a loose curve beside it.
+
+The handheld is upright, portrait orientation, front facing the camera,
+slightly angled, screen on and showing the same game as Image 1.
+
+Setting: resting on soft white faux snow, with the same warm Christmas
+living-room bokeh as Image 1 (tree lights, warm amber glow) behind, gently
+blurred. The handheld in its case fills about 60% of the frame and is
+centered, so it reads clearly even as a small thumbnail.
+
+Soft, even light that shows the silicone's matte texture; true-to-life case
+color. No text, no labels, no "Black" heading, no badges, no extra parts
+floating around, no hands.
+Aspect ratio 1:1, 2048 x 2048.
+```
+
+### Color swap for each case color: Image 1 = the finished master case image, Image 2 = that color's case reference
+```
+Recreate Image 1 exactly: same handheld, same pose, same snow, background,
+lighting, crop and lanyard. Change ONLY the silicone case color to match the
+case in Image 2 exactly (same color, same matte finish). Keep the handheld
+itself and everything else identical. No added text.
+Aspect ratio 1:1, 2048 x 2048.
+```
+
+**Tips**
+- Keep the handheld the same color in every case image (e.g. white or translucent purple) so the case color is the only thing that changes.
+- If the model puts the handheld *next to* the case instead of *inside* it, add: "The handheld is wearing the case; the case is not empty."
+- The supplier's flat-lay is still useful as a 2nd image on the case product page (it shows the lanyard and what's included).
