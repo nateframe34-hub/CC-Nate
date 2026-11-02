@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-02 · PDP game search added:** 10,963 games across 20 systems in `retro-handheld/store/theme/assets/pocketarcade-games.json`, built from the founder's list by `store/data/build_games.py`. Junk entries and duplicates removed. The CPS2 list (MAME short codes) is left out. The section has a search box, system filter chips and a "show more" button, and loads lazily.
+
 - **2026-11-02 · Arrives-by box removed from the PDP (founder):** it pushed the offer below the fold. FAQ now states the Dec 11 order-by date.
 
 - **2026-11-02 · PDP fixes round 2:** "Best value" badge clash with `.alt` fixed. Dropdowns show color only and only 128GB variants (`variant_only` setting); the single price comes from the 128GB variant. Our top bar auto-shows when the theme has no visible cart icon.

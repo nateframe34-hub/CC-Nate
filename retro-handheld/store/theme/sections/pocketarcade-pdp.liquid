@@ -298,6 +298,27 @@
   #pa-pdp .gal-thumbs{display:none}
 }
 @media(max-width:520px){#pa-pdp .pa-box{grid-template-columns:1fr}}
+/* game library search */
+#pa-pdp .pa-gl-count{font-size:15px;color:var(--muted);margin:-6px 0 18px}
+#pa-pdp .pa-gl-count b{color:var(--ink)}
+#pa-pdp .pa-gl-search{position:relative;margin:0 0 12px}
+#pa-pdp .pa-gl-search input{width:100%;font:inherit;font-size:17px;padding:15px 16px 15px 46px;border:2px solid var(--ink);border-radius:12px;background:#fff;color:var(--ink);-webkit-appearance:none;appearance:none}
+#pa-pdp .pa-gl-search input:focus{outline:none;border-color:var(--accent)}
+#pa-pdp .pa-gl-search svg{position:absolute;left:15px;top:50%;transform:translateY(-50%);width:20px;height:20px;color:var(--muted)}
+#pa-pdp .pa-gl-chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 0 12px;margin:0 0 6px}
+#pa-pdp .pa-gl-chips::-webkit-scrollbar{display:none}
+#pa-pdp .pa-gl-chip{flex:0 0 auto;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:7px 13px;font:inherit;font-size:13px;font-weight:600;color:var(--ink);cursor:pointer;white-space:nowrap}
+#pa-pdp .pa-gl-chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+#pa-pdp .pa-gl-status{font-size:13.5px;color:var(--muted);margin:0 0 10px;min-height:20px}
+#pa-pdp .pa-gl-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:6px 14px}
+#pa-pdp .pa-gl-list li{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:15px;min-width:0}
+#pa-pdp .pa-gl-list li span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#pa-pdp .pa-gl-list li small{flex:0 0 auto;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+#pa-pdp .pa-gl-list mark{background:#FFE8A3;color:inherit;padding:0 1px}
+#pa-pdp .pa-gl-more{display:block;margin:18px auto 0;background:#fff;border:1.5px solid var(--ink);border-radius:10px;padding:12px 20px;font:inherit;font-weight:700;cursor:pointer;color:var(--ink)}
+#pa-pdp .pa-gl-more[hidden]{display:none}
+@media(max-width:640px){#pa-pdp .pa-gl-list{grid-template-columns:1fr}}
+
 </style>
 
 {%- capture pa_gift_svg -%}<svg viewBox="0 0 24 24"><path d="M4 11h16v9H4zM3 7h18v4H3zM12 7v13M12 7c-1.5-3-5-3-5-.5S10 7 12 7zm0 0c1.5-3 5-3 5-.5S14 7 12 7z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>{%- endcapture -%}
@@ -450,6 +471,24 @@
     {%- endfor -%}
   </div>
 </div></div>
+
+
+<!-- ================= GAME LIBRARY SEARCH ================= -->
+{%- if section.settings.show_games -%}
+<div class="sec white" id="pa-games"><div class="wrap narrow">
+  <p class="eyebrow">{{ section.settings.games_eyebrow }}</p>
+  <h2>{{ section.settings.games_h }}</h2>
+  <p class="pa-gl-count" id="pa-gl-count">{{ section.settings.games_sub }}</p>
+  <div class="pa-gl-search">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <input type="search" id="pa-gl-q" placeholder="{{ section.settings.games_placeholder | escape }}" aria-label="Search the game list" autocomplete="off" enterkeyhint="search">
+  </div>
+  <div class="pa-gl-chips" id="pa-gl-chips" role="tablist" aria-label="Filter by system"></div>
+  <p class="pa-gl-status" id="pa-gl-status" aria-live="polite">Loading the game list…</p>
+  <ul class="pa-gl-list" id="pa-gl-list"></ul>
+  <button type="button" class="pa-gl-more" id="pa-gl-more" hidden>Show more games</button>
+</div></div>
+{%- endif -%}
 
 <!-- ================= WHO IT'S FOR ================= -->
 <div class="sec"><div class="wrap">
@@ -862,6 +901,69 @@
 </script>
 {%- endif -%}
 
+
+{%- comment -%} GAME LIBRARY SEARCH: own IIFE. Loads assets/pocketarcade-games.json only when the section nears the screen. {%- endcomment -%}
+{%- if section.settings.show_games -%}
+<script>
+(function(){
+  try{
+    var box = document.getElementById('pa-games'); if(!box || !window.fetch) return;
+    var q = document.getElementById('pa-gl-q'), chips = document.getElementById('pa-gl-chips'), list = document.getElementById('pa-gl-list');
+    var status = document.getElementById('pa-gl-status'), more = document.getElementById('pa-gl-more'), count = document.getElementById('pa-gl-count');
+    var url = {{ 'pocketarcade-games.json' | asset_url | json }};
+    var all = [], sys = [], cur = -1, shown = 0, hits = [], PAGE = 60, loaded = false, tmr;
+    var SHORT = {'PlayStation Portable (PSP)':'PSP','PlayStation 1':'PS1','SFC (Super Famicom)':'SFC','Super Nintendo (SNES)':'SNES','Nintendo Entertainment System (NES)':'NES','Gameboy Advance':'GBA','Gameboy Color':'GBC','Capcom Play System I (CPS1)':'CPS1','Nintendo 64':'N64','Nintendo DS':'DS','NeoGeo Pocket Color':'NGPC','NeoGeo Pocket':'NGP','Arcade Games':'Arcade','Sega Genesis':'Genesis','Sega NAOMI':'NAOMI'};
+    function norm(t){ return String(t).toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
+    function esc(t){ return String(t).replace(/[&<>"]/g, function(m){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]; }); }
+    function fmt(n){ return n.toLocaleString('en-US'); }
+    function hl(t, words){
+      var out = esc(t);
+      words.forEach(function(w){ if(w.length < 2) return; out = out.replace(new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')','ig'), '<mark>$1</mark>'); });
+      return out;
+    }
+    function run(){
+      var words = norm(q.value).split(' ').filter(Boolean);
+      hits = all.filter(function(g){ return (cur < 0 || g[1] === cur) && words.every(function(w){ return g[2].indexOf(w) > -1; }); });
+      shown = 0; list.innerHTML = ''; page(words);
+      var where = cur < 0 ? '' : ' on ' + sys[cur];
+      if(!words.length) status.textContent = 'Showing ' + fmt(hits.length) + ' games' + where + '. Type to search.';
+      else if(hits.length) status.textContent = fmt(hits.length) + ' match' + (hits.length === 1 ? '' : 'es') + ' for “' + q.value.trim() + '”' + where + '.';
+      else status.textContent = 'No match for “' + q.value.trim() + '”' + where + '. Try fewer words, or another spelling.';
+    }
+    function page(words){
+      words = words || norm(q.value).split(' ').filter(Boolean);
+      var html = '';
+      hits.slice(shown, shown + PAGE).forEach(function(g){ var n = sys[g[1]]; html += '<li><span>' + hl(g[0], words) + '</span><small>' + esc(SHORT[n] || n) + '</small></li>'; });
+      list.insertAdjacentHTML('beforeend', html); shown = Math.min(hits.length, shown + PAGE);
+      more.hidden = shown >= hits.length;
+    }
+    function chip(i, label){
+      var b = document.createElement('button'); b.type = 'button'; b.className = 'pa-gl-chip' + (i === cur ? ' on' : ''); b.textContent = label; b.setAttribute('role','tab');
+      b.addEventListener('click', function(){ cur = i; [].slice.call(chips.children).forEach(function(c){ c.classList.remove('on'); }); b.classList.add('on'); run(); });
+      chips.appendChild(b);
+    }
+    function load(){
+      if(loaded) return; loaded = true;
+      fetch(url).then(function(r){ return r.json(); }).then(function(d){
+        d.systems.forEach(function(s, i){ sys.push(s.s); s.g.forEach(function(t){ all.push([t, i, norm(t)]); }); });
+        count.innerHTML = '<b>' + fmt(d.total) + ' games</b> across ' + sys.length + ' classic systems. All already on it.';
+        chip(-1, 'All');
+        d.systems.forEach(function(s, i){ chip(i, (SHORT[s.s] || s.s) + ' · ' + fmt(s.g.length)); });
+        run();
+      }).catch(function(){ status.textContent = 'Could not load the game list. Please refresh.'; loaded = false; });
+    }
+    q.addEventListener('focus', load);
+    q.addEventListener('input', function(){ load(); clearTimeout(tmr); tmr = setTimeout(function(){ if(all.length) run(); }, 120); });
+    more.addEventListener('click', function(){ page(); });
+    if('IntersectionObserver' in window){
+      var io = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ load(); io.disconnect(); } }, {rootMargin:'400px'});
+      io.observe(box);
+    } else load();
+  }catch(e){}
+})();
+</script>
+{%- endif -%}
+
 {%- if section.settings.sale_on -%}
 <script>
 (function(){
@@ -952,6 +1054,12 @@
     { "type": "textarea", "id": "why_c2_b", "label": "Card 2 body", "default": "No Wi-Fi, no ads, no in-game stores. The games are already on it." },
     { "type": "text", "id": "why_c3_h", "label": "Card 3 heading", "default": "Real buttons" },
     { "type": "textarea", "id": "why_c3_b", "label": "Card 3 body", "default": "A real D-pad, buttons and two joysticks. Not a phone screen you tap at." },
+    { "type": "header", "content": "Game library search" },
+    { "type": "checkbox", "id": "show_games", "label": "Show the game search", "default": true, "info": "Needs assets/pocketarcade-games.json uploaded to the theme." },
+    { "type": "text", "id": "games_eyebrow", "label": "Eyebrow", "default": "Every game on it" },
+    { "type": "text", "id": "games_h", "label": "Heading", "default": "Is their favorite game on it?" },
+    { "type": "text", "id": "games_sub", "label": "Subline (replaced by the live count)", "default": "Over 10,000 classic games, already loaded. Search for theirs." },
+    { "type": "text", "id": "games_placeholder", "label": "Search placeholder", "default": "Search a game, like Tetris or Street Fighter" },
     { "type": "header", "content": "Who it's for" },
     { "type": "text", "id": "who_h", "label": "Heading", "default": "Who's on your list?" },
     { "type": "text", "id": "who_1_h", "label": "Card 1 heading", "default": "For him" },
