@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-02 · Arrives-by box removed from the PDP (founder):** it pushed the offer below the fold. FAQ now states the Dec 11 order-by date.
+
 - **2026-11-02 · PDP fixes round 2:** "Best value" badge clash with `.alt` fixed. Dropdowns show color only and only 128GB variants (`variant_only` setting); the single price comes from the 128GB variant. Our top bar auto-shows when the theme has no visible cart icon.
 
 - **2026-11-02 · PDP fixes on Dawn:** hero image overflow fixed (minmax grid). Added img width/height. Own top bar off by default (`show_topbar`); Dawn's header cart icon now opens our drawer.
