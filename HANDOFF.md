@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-02 · Case setup:** the single's shipping note was removed from the PDP. Bundles auto-add the case's $0 "Free with your bundle" variant (shown as FREE), so no discount slot is used. Singles see the $12 upsell in the cart drawer. The only discounts used are the duo/trio product discounts.
+
 - **2026-11-02 · PDP hero image prompt** (`retro-handheld/store/images/Hero_Image_Prompt.md`): the comp's Christmas living-room hero, minus the branded box (we have none). It uses a half-unwrapped red gift instead. One template with a color and game-screen swap per variant, plus 4 follow-up gallery shots.
 
 - **2026-11-02 · PDP copy reframed from "arcade games" to "classic consoles":** NES, SNES, Game Boy, PS1, N64, Genesis, DS (20 systems, 10,000+ games). Added an FAQ listing every console.
