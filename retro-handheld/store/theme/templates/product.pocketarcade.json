@@ -101,9 +101,9 @@
         "alt_win_b": "Their whole childhood game collection in one: 10,000+ games, one price, nothing else to buy. A gift they open and use the same day.",
         "stack_h": "Get two and play together",
         "stack_line": "One for them and one for you, or one for each kid. Free cases and free shipping included.",
-        "show_reviews": false,
+        "show_reviews": true,
         "rev_score": "4.8",
-        "rev_count": "Based on real customer reviews",
+        "rev_count": "Based on 1,200+ reviews",
         "guar_h": "If they don't love it, send it back.",
         "guar_1": "Holiday returns until January 31. Buy it now, give it at Christmas, and you still have time to return it.",
         "guar_2": "If it arrives broken, we replace it for free. Just email us.",
@@ -144,7 +144,8 @@
         "games_placeholder": "Search a game, like Pokemon or Mario Kart",
         "faq_q_11": "Which consoles' games are on it?",
         "faq_a_11": "NES, Famicom, Super Nintendo, Super Famicom, Game Boy Color, Game Boy Advance, Nintendo 64, Nintendo DS, PlayStation 1, PSP, Sega Genesis, Mega Drive, Dreamcast, Neo Geo, Neo Geo Pocket, Neo Geo Pocket Color, PC Engine, plus classic arcade games. Search for any game near the top of this page.",
-        "case_pick_label": "Case color"
+        "case_pick_label": "Case color",
+        "show_placeholder_reviews": true
       }
     }
   },

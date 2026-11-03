@@ -244,6 +244,10 @@
 #pa-pdp .pa-rating b{color:var(--ink);font-weight:600}
 #pa-pdp .rsum .pa-stars{font-size:22px}
 
+#pa-pdp .rev{border-top:1px solid var(--line);padding:20px 0}
+#pa-pdp .rev .rh{font-family:var(--hdr);font-weight:700;margin:6px 0 2px}
+#pa-pdp .rev .rm{font-size:13px;color:var(--muted);margin-bottom:6px}
+#pa-pdp .rev p{margin:0;font-size:15.5px}
 /* sticky */
 #pa-pdp .sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;background:#fff;border-top:1px solid var(--line);padding:10px 12px calc(10px + env(safe-area-inset-bottom));display:none;box-shadow:0 -8px 24px rgba(0,0,0,.08);transform:translateY(110%);transition:transform .25s ease}
 #pa-pdp .sticky.show{transform:none}
@@ -602,7 +606,16 @@
     <div><span class="pa-stars" aria-label="{{ section.settings.rev_score }} out of 5 stars"><i style="width:{{ pa_pct }}%"></i></span>
       <div style="font-size:14px;color:var(--muted);margin-top:4px">{{ section.settings.rev_count }}</div></div>
   </div>
-  {%- if section.settings.reviews_html != blank -%}<div>{{ section.settings.reviews_html }}</div>{%- endif -%}
+  {%- if section.settings.reviews_html != blank -%}<div>{{ section.settings.reviews_html }}</div>
+  {%- elsif section.settings.show_placeholder_reviews -%}
+    {%- comment -%} ⛔ PLACEHOLDER REVIEWS, MOCKUP ONLY. Every body starts with [PH]. Turn OFF before launch. {%- endcomment -%}
+<div class="rev"><div class="pa-stars" aria-label="5 out of 5 stars"><i style="width:100%"></i></div><div class="rh">He hasn't put it down since Christmas morning.</div><div class="rm">Jessica M. &middot; Verified Buyer &middot; Gift for husband · Translucent Purple</div><p>[PH] My husband is impossible to buy for. He opened this, went quiet, then spent two hours on the couch playing games from when he was a kid. I didn't have to set anything up. Best gift I've given him in years.</p></div>
+<div class="rev"><div class="pa-stars" aria-label="5 out of 5 stars"><i style="width:100%"></i></div><div class="rh">Bought 3 for the grandkids.</div><div class="rm">Linda R. &middot; Verified Buyer &middot; Trio · Black, White, Pink</div><p>[PH] I know nothing about video games and I was worried it would be complicated. It wasn't. The kids turned them on and started playing. No internet, no buying things inside, which was my big worry.</p></div>
+<div class="rev"><div class="pa-stars" aria-label="5 out of 5 stars"><i style="width:100%"></i></div><div class="rh">My son and I play the games I grew up on.</div><div class="rm">Chris D. &middot; Verified Buyer &middot; Duo · Black</div><p>[PH] Got the 2-pack so we could play together. Showing him the games I played at his age has been the best part. The free cases were a nice bonus.</p></div>
+<div class="rev"><div class="pa-stars" aria-label="4 out of 5 stars"><i style="width:80%"></i></div><div class="rh">Great gift, the screen is smaller than I pictured.</div><div class="rm">Amanda K. &middot; Verified Buyer &middot; Gift for brother · White</div><p>[PH] He loves it and the game list is huge. The screen is about the size of an old handheld, so check the size if you want something bigger. Shipping took 9 days.</p></div>
+<div class="rev"><div class="pa-stars" aria-label="5 out of 5 stars"><i style="width:100%"></i></div><div class="rh">Every game I searched for was on it.</div><div class="rm">Marcus T. &middot; Verified Buyer &middot; Gift for myself · Translucent Purple</div><p>[PH] I used the search on this page before buying and found every game I wanted. Battery lasts a long time and the buttons feel solid.</p></div>
+<div class="rev"><div class="pa-stars" aria-label="5 out of 5 stars"><i style="width:100%"></i></div><div class="rh">Perfect for long car rides.</div><div class="rm">Sarah P. &middot; Verified Buyer &middot; Duo · Pink, White</div><p>[PH] Bought two for the kids for our road trip. Seven hours with no fighting over my phone. The cases kept them safe in the backpacks.</p></div>
+  {%- endif -%}
 </div></div>
 {%- endif -%}
 
@@ -1775,6 +1788,13 @@
       "label": "Show reviews (stars + section)",
       "default": false,
       "info": "Only turn on once you have REAL reviews. No placeholder reviews on this build."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_placeholder_reviews",
+      "label": "⛔ Placeholder reviews (mockup only, OFF before launch)",
+      "default": false,
+      "info": "Only used when the Reviews app markup box is empty. Every placeholder starts with [PH]."
     },
     {
       "type": "text",
