@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-03 · Testing CBO copy written for 10 videos (T01–T10)** in `retro-handheld/ads/batch-1/B1_Testing_CBO_Copy.md`, from Whisper transcripts + frames. T07 = AD1 (scaling CBO). Flags: T01 audio says "$40" (cut it). T10 = T03 footage with a different VO (check its ending for a price).
+
 - **2026-11-03 · ⛔ Placeholder reviews ON in the PocketArcade template (mockup only).** 6 gift-giver [PH] reviews and a "1,200+ reviews" count. Turn OFF `show_reviews` / `show_placeholder_reviews` (or replace with real reviews) before any traffic.
 
 - **2026-11-02 · Homepage + case PDP built:** `sections/pocketarcade-home.liquid` + `templates/index.json` (gift hero, consoles strip linking to the game search, why cards, 1/2/3 deal tiers, FAQ). `sections/pocketarcade-case.liquid` + `templates/product.case.json` (color dropdown swaps image, "free with 2+ bundle" note linking to the main PDP).
