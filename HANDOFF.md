@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-04 · Day 1 (Nov 3) logged** (`retro-handheld/tracking/Ad_Performance_Tracker.csv`): $58 spend, 431 impr, ~$135 CPM, 37 clicks, 28 LPV, 2 ATC (AD8), 1 untracked IC, 0 purchases. CTR 7-12% is strong; CPM is the problem. Founder is creating PocketArcade FB/IG pages to replace the Julie Brennan page (hypothesis: page identity is raising CPM). Proposed: run the new-page campaign alongside the old one for a clean comparison.
+
 - **2026-11-03 · Testing CBO copy written for 10 videos (T01–T10)** in `retro-handheld/ads/batch-1/B1_Testing_CBO_Copy.md`, from Whisper transcripts + frames. T07 = AD1 (scaling CBO). Flags: T01 audio says "$40" (cut it). T10 = T03 footage with a different VO (check its ending for a price).
 
 - **2026-11-03 · ⛔ Placeholder reviews ON in the PocketArcade template (mockup only).** 6 gift-giver [PH] reviews and a "1,200+ reviews" count. Turn OFF `show_reviews` / `show_placeholder_reviews` (or replace with real reviews) before any traffic.
