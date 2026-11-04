@@ -4,9 +4,9 @@
       "type": "pocketarcade-home",
       "settings": {
         "load_fonts": true,
-        "hero_eyebrow": "The gift for anyone who grew up gaming",
-        "hero_h": "Every game they grew up on. In one gift.",
-        "hero_sub": "Over 10,000 games from 20 classic consoles, already loaded. No Wi-Fi, no downloads, nothing to buy. Unwrap it and play.",
+        "hero_eyebrow": "For anyone who grew up gaming",
+        "hero_h": "Replay your childhood.",
+        "hero_sub": "Every game you grew up on, in one handheld. Over 10,000 games from 20 classic consoles, already loaded. No Wi-Fi, no downloads, nothing to buy.",
         "cta": "Shop PocketArcade",
         "trust_1": "Free shipping on every order",
         "trust_2": "Holiday returns until Jan 31",
@@ -15,7 +15,7 @@
         "consoles_h": "20 classic consoles in your pocket",
         "consoles": "NES, Super Nintendo, Game Boy Color, Game Boy Advance, Nintendo 64, Nintendo DS, PlayStation 1, PSP, Sega Genesis, Dreamcast, Neo Geo, PC Engine, Arcade",
         "search_link": "Search for their favorite game →",
-        "why_h": "The gift they won't put down.",
+        "why_h": "Remember the games you couldn't put down?",
         "why_1_h": "Instant nostalgia",
         "why_1": "The games from every console they had as a kid, plus the ones they always wanted.",
         "why_2_h": "Nothing to set up",
@@ -23,7 +23,7 @@
         "why_3_h": "Nothing to buy inside",
         "why_3": "No ads, no chat, no in-game stores. Safe for kids, fun for grown-ups.",
         "deal_eyebrow": "Early Black Friday",
-        "deal_h": "Get one for everyone on your list",
+        "deal_h": "One for you, one for them",
         "duo_price_cents": 13999,
         "trio_price_cents": 19999,
         "deal_cta": "Choose your bundle",
@@ -35,8 +35,8 @@
         "a3": "No. It works anywhere: in the car, on a plane or at Grandma's.",
         "q4": "What if they don't love it?",
         "a4": "Holiday returns until January 31. If it arrives broken, we replace it free.",
-        "final_h": "Christmas shopping, sorted.",
-        "final_sub": "The gift they'll actually play."
+        "final_h": "Your childhood is waiting.",
+        "final_sub": "10,000+ games. Free shipping. Holiday returns until January 31."
       }
     }
   },

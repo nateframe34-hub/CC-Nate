@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-04 · PDP + homepage copy switched to player-first nostalgia ("Replay your childhood")** following the comp. Gift becomes a soft wrapper (Christmas images, banner, Dec 11 FAQ, "if it's a gift" returns) so buyers have their own "perfect for X" moment. "Who's on your list" became "Made for anyone who grew up gaming" (you / play together / next generation). Duo = "One for you, one for them". Ad copy unchanged; giver ads still work against a softer page.
+
 - **2026-11-04 · Comp PDP (RetroSnap) teardown** (`retro-handheld/research/Comp_RetroSnap_PDP_Analysis.md`). Their angle: "Replay your childhood" (player-first nostalgia), with gift as the wrapper, offer/proof/scarcity at Stage 3-4. SAs: nostalgic adult player, female self-gifter (pink hero), couple (play together), deal shopper. Our leader AD8 is a self-gifter nostalgia ad, which matches. Proposed: a player-voice line on the PDP for self-buyer ads.
 
 - **2026-11-04 · PocketArcade account does NOT double-count ATC** (founder checked Shopify). The CLAUDE.md halving rule was for the old account only. Day 2 so far: 4 ATC, 1 IC with no info entered (25% ATC→IC, low), 0 purchases.
