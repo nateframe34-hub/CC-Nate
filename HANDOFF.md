@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-04 · Free shipping on all orders (founder test).** Day 2: ATCs with no checkouts, and the drawer showed "$12 away from free shipping". Single breakeven moves 1.63x to ~1.69x. Theme: `free_ship_cents` 0 (drawer shows "Free shipping on every order"), upsell retitled "Add a matching case", copy updated. Check Shopify "reached checkout" to confirm whether ATC→IC is really the leak (iOS can hide IC).
+
 - **2026-11-04 · Day 1 (Nov 3) logged** (`retro-handheld/tracking/Ad_Performance_Tracker.csv`): $58 spend, 431 impr, ~$135 CPM, 37 clicks, 28 LPV, 2 ATC (AD8), 1 untracked IC, 0 purchases. CTR 7-12% is strong; CPM is the problem. Founder is creating PocketArcade FB/IG pages to replace the Julie Brennan page (hypothesis: page identity is raising CPM). Proposed: run the new-page campaign alongside the old one for a clean comparison.
 
 - **2026-11-03 · Testing CBO copy written for 10 videos (T01–T10)** in `retro-handheld/ads/batch-1/B1_Testing_CBO_Copy.md`, from Whisper transcripts + frames. T07 = AD1 (scaling CBO). Flags: T01 audio says "$40" (cut it). T10 = T03 footage with a different VO (check its ending for a price).

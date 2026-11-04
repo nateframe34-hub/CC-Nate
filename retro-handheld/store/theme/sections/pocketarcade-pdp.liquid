@@ -892,6 +892,7 @@
       if(!(bundled > 0 && hand >= 2)) disc = 0; // only show savings when a bundle (with its cases) is in the cart
       if(disc > 0){ discEl.textContent = '−' + money(disc); discRow.hidden = false; } else discRow.hidden = true;
       subEl.textContent = money(cart.total_price);
+      if(!free && shipT && bar){ shipT.innerHTML = '<b>\u2713 Free shipping on every order</b>'; bar.parentNode.style.display = 'none'; }
       if(free && shipT && bar){
         var left = free - cart.total_price;
         if(!cart.items.length){ shipT.innerHTML = 'Free shipping on orders over <b>' + money(free) + '</b>'; bar.style.width = '0'; }
