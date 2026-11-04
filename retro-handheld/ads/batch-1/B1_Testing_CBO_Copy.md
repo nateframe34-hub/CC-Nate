@@ -201,3 +201,20 @@ All already loaded. All in one gift. 🎁
 - **Primary text:** start with **A** on every ad. Add B as a second text option (Meta's multiple text options) if you want Meta to choose.
 - **Same-footage pair:** T03 and T10 use the same video. Keep both in. It tests voiceover A vs B on identical visuals.
 - **Comment-engine ads (T01, T05, T07, T09):** reply to every "is X on it?" comment with a yes/no within a few hours. Check the PDP game search first. That's where their cheap delivery came from.
+
+---
+
+## AD8 / T08 iterations (2026-11-04): AD8 leads on day 1 and day 2
+**Why it's likely working:** native "pov:" caption (reads like a TikTok, not an ad) · a woman buying for herself, nostalgic (the comp's SA1+SA2) · the pink aesthetic + cozy bedroom · an emotional payoff ("SO worth it 😭") · sound-off friendly · shows the unit from every angle (quality proof) · ends on "ALL GAMES 15,634".
+**Rule:** change ONE thing per version. Keep the footage, music and pacing.
+
+| ID | Change | On-screen text |
+|---|---|---|
+| **8A** | + offer sticker (founder idea) | Keep the POV caption. Add a small red "EARLY BLACK FRIDAY 🎁" tag in the lower third (not over the caption or the screen) |
+| **8B** | Caption: sharper nostalgia | "pov: you grew up on Game Boy and just found this 😭💗" |
+| **8C** | Caption: comp's couple angle | "pov: you got one for you and one for your bf and now it's game night every night 😭" |
+| **8D** | AD1 hook on AD8 footage (founder idea) | "Gamers, RUN don't WALK for this Early Black Friday sale 🎁" |
+| **8E** | AD1 hook, female call-out | "Girls who grew up on Game Boy, RUN don't WALK 🎀" |
+| **8F** | Same caption, other pink footage | AD8's caption on T02 (pink unboxing) footage. Tests whether the caption or the footage is the winner |
+
+**Copy for all 8x:** same as T08 (primary A). For 8A/8D add the line "Early Black Friday: free cases on 2+."
