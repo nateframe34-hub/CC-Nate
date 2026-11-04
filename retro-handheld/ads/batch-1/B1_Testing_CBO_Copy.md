@@ -204,17 +204,19 @@ All already loaded. All in one gift. 🎁
 
 ---
 
-## AD8 / T08 iterations (2026-11-04): AD8 leads on day 1 and day 2
-**Why it's likely working:** native "pov:" caption (reads like a TikTok, not an ad) · a woman buying for herself, nostalgic (the comp's SA1+SA2) · the pink aesthetic + cozy bedroom · an emotional payoff ("SO worth it 😭") · sound-off friendly · shows the unit from every angle (quality proof) · ends on "ALL GAMES 15,634".
-**Rule:** change ONE thing per version. Keep the footage, music and pacing.
+## Ads Manager "Test AD 8" = the Target winner (AD1 / T07): iterations (2026-11-04)
+**Correction:** Ads Manager's **Test AD 8 is the "Gamers, RUN don't WALK to Target" ad** (T07 in this doc), not the pink "pov" video. It leads on day 1 and day 2, again. Last year's winner is winning again.
+**Why it works** (see `AD1_Why_It_Worked.md`): a store-run opening that doesn't look like an ad · the call-out + "Target" invites "they don't sell this at Target" correction comments, so cheap delivery · product proof (peel, game count, gameplay).
+**Rule:** one change per version. Keep the music and pacing.
 
-| ID | Change | On-screen text |
+| ID | Change | On-screen text / edit |
 |---|---|---|
-| **8A** | + offer sticker (founder idea) | Keep the POV caption. Add a small red "EARLY BLACK FRIDAY 🎁" tag in the lower third (not over the caption or the screen) |
-| **8B** | Caption: sharper nostalgia | "pov: you grew up on Game Boy and just found this 😭💗" |
-| **8C** | Caption: comp's couple angle | "pov: you got one for you and one for your bf and now it's game night every night 😭" |
-| **8D** | AD1 hook on AD8 footage (founder idea) | "Gamers, RUN don't WALK for this Early Black Friday sale 🎁" |
-| **8E** | AD1 hook, female call-out | "Girls who grew up on Game Boy, RUN don't WALK 🎀" |
-| **8F** | Same caption, other pink footage | AD8's caption on T02 (pink unboxing) footage. Tests whether the caption or the footage is the winner |
+| **8A** | + offer sticker (founder idea) | Keep the caption. Add a small red "EARLY BLACK FRIDAY 🎁" tag in the lower third from ~3 s (after the store intro, not over the caption) |
+| **8B** | Offer in the hook (founder idea) | Caption: "Gamers, RUN don't WALK to Target for this Early Black Friday sale 🎁" (same footage) |
+| **8C** | New footage, same hook (founder idea) | Unboxing footage (T03/T10 red + teal, or T06 white) with "Gamers, RUN don't WALK for this Early Black Friday sale 🎁". Tests whether the hook carries without the Target store opening |
+| **8D** | Store swap | "Gamers, RUN don't WALK to Walmart for this! 🎁" + the same footage (new correction-comment bait) |
+| **8E** | Call-out swap | "If you grew up on Game Boy, RUN don't WALK to Target for this! 🎁" (wider than "Gamers") |
 
-**Copy for all 8x:** same as T08 (primary A). For 8A/8D add the line "Early Black Friday: free cases on 2+."
+**Priority:** 8A and 8B (smallest edits, keep everything that works) → 8C → 8D/8E.
+**Run them** in a separate test ad set so the original isn't starved or starving them. Keep the original untouched; move it to the scaling CBO by post ID once it hits ≥$150 spend and ≥2.0 ROAS over 3 days.
+**Copy:** T07 primary A. For 8A/8B/8C add "Early Black Friday: free cases on 2+."

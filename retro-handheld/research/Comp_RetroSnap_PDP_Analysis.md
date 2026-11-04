@@ -40,7 +40,7 @@ The page talks to "you" as the person who will play. Gift language ("perfect ret
 **Sophistication:** Stage 3–4. It competes on **offer + proof + scarcity**, not on a unique mechanism. Every R36S store makes the same "thousands of games" claim.
 
 ## What it means for us
-1. **We are gift-giver first; they were player first.** Both are valid in Q4, but our **early data agrees with them**: our leader is **AD8 "pov: you got this… to play all ur childhood games again and it was SO worth it"**, a female self-gifter nostalgia ad (their SA1 + SA2), not a giver ad.
+1. **We are gift-giver first; they were player first.** Both are valid in Q4. (Correction, 2026-11-04: our leader "Test AD 8" is the **"Gamers, RUN don't WALK to Target"** ad, a gamer call-out, i.e. their SA1 player, not a giver ad.)
 2. **Test a "Replay your childhood" PDP line** for the player SA: e.g. the hero subline or the first band, so traffic from self-buyer ads (T01, T02, T04, T08) lands on matching words. Keep the gift framing for giver ads (T03, T06, T09, T10).
 3. **Use the couple angle for the duo:** "One for you, one for them. Play together." (Our duo copy already says "Play together".)
 4. **Reviews from the player's voice:** when real reviews come in, put nostalgia ones ("took me right back to being a kid") next to giver ones.
