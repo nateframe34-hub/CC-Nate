@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-08 · Multi-day read:** the CBO feeds AD 8 (cheapest CPM, 45-50% hook) about 55-80% of spend. AD 8 ≈ $147 spend, ~127 LPV, 0 sales, 0 ATC for 3 days. AD 7 (T06) ≈ $51, the only full-funnel ad, 1 duo sale. Others starved (<$5). Total ≈ $250 spend / $140 revenue (≈0.56x). With so few purchases Meta can't learn purchases yet, so it chases cheap attention. Recommended: pause AD 8 (hits the $150 rule), launch 7A/7B in a new ad set, and watch whether AD 7 holds as it takes budget.
+
 - **2026-11-07 · Hook × body read (founder):** AD 8 = 49% hook rate, $62 CPM, $122 → 0 sales (no VO to sell). AD 7 (T06) = 34% hook, $140 CPM, $33 → 1 duo sale. Plan: put stronger hooks on AD 7's body. 7A = AD 8's Target intro + T06 VO; 7B = on-screen hook; 7C = "RUN don't WALK" text on T06; 8V = AD 8 + VO. In `B1_Testing_CBO_Copy.md`.
 
 - **2026-11-07 · Mapping + tracking fixes:** the sale came from Ads Manager "Test AD 7" = **T06 (Christmas gift VO, white unboxing)**. Real funnel: 8 LPV → 1 ATC → 1 IC → 1 purchase. Meta counts one ATC per line item (duo = 4, trio = 6). T06 iteration plan (6A-6E) added to `B1_Testing_CBO_Copy.md`.
