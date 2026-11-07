@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-08 · Test plan cut to 2 new ads** (`retro-handheld/ads/batch-1/Test_Plan_Current.md`, which replaces all earlier iteration lists). Campaign 1 (Testing CBO): AD 7 control + the 8 untested old ads (finally get spend). Campaign 2 (ABO $20 each): 7A (AD 8's Target intro + AD 7's VO/body) and 7B (AD 7 + on-screen "Still looking for a Christmas gift?"). Everything else cut, backed up or scheduled, with reasons.
+
 - **2026-11-08 · Test AD 8 (Target) killed at ~$147, 0 sales. Feedback loop written** (`retro-handheld/feedback-loops/Test_AD8_Target_RunDontWalk.md`): great soft metrics from the hook (45-50% hook, $44-62 CPM); no conversion because the ad has no body (no VO, no reasons) and no CTA/offer. Rules: hook ≠ ad; every ad needs hook + body + CTA; don't let one cheap-attention ad eat the CBO in week 1.
 
 - **2026-11-08 · Multi-day read:** the CBO feeds AD 8 (cheapest CPM, 45-50% hook) about 55-80% of spend. AD 8 ≈ $147 spend, ~127 LPV, 0 sales, 0 ATC for 3 days. AD 7 (T06) ≈ $51, the only full-funnel ad, 1 duo sale. Others starved (<$5). Total ≈ $250 spend / $140 revenue (≈0.56x). With so few purchases Meta can't learn purchases yet, so it chases cheap attention. Recommended: pause AD 8 (hits the $150 rule), launch 7A/7B in a new ad set, and watch whether AD 7 holds as it takes budget.
