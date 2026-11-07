@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-07 · FIRST SALE: a duo ($139.99) from Test AD 7** ($14.76 spend today: 8 LPV, 4 ATC, 1 IC, 1 purchase). Test AD 8 (Target): ~$119 cumulative, 96 LPV, 5 ATC, 0 purchases, 0 ATC for the last 2 days. That is past 2x target CPA by the founder's rule; proposed to give it until ~$150 or replace it with 8A/8B. Cumulative ~$194 spend / $140 revenue.
+
 - **2026-11-05 · Day 2 (Nov 4) logged:** $55.79, CPM $66 (down from $135), Test AD 8 (Target) took 83% of spend: 38 LPV, 3 ATC, 1 IC. Cumulative: $114, 69 LPV, 2 IC, 0 purchases. Checkout is the leak. AD8 has intent, so no kill; watch it against the ~$80-100 no-purchase line.
 
 - **2026-11-04 · CORRECTION: Ads Manager "Test AD 8" = the "Gamers, RUN don't WALK to Target" ad (AD1/T07), not the pink pov video.** It leads on days 1-2. Iteration plan (8A banner, 8B offer in hook, 8C unboxing footage + hook, 8D Walmart, 8E call-out) is in `B1_Testing_CBO_Copy.md`.
