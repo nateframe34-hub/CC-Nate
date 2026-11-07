@@ -220,3 +220,22 @@ All already loaded. All in one gift. 🎁
 **Priority:** 8A and 8B (smallest edits, keep everything that works) → 8C → 8D/8E.
 **Run them** in a separate test ad set so the original isn't starved or starving them. Keep the original untouched; move it to the scaling CBO by post ID once it hits ≥$150 spend and ≥2.0 ROAS over 3 days.
 **Copy:** T07 primary A. For 8A/8B/8C add "Early Black Friday: free cases on 2+."
+
+---
+
+## Ads Manager "Test AD 7" = T06 "Still looking for that Christmas gift" (FIRST SALE, 2026-11-07)
+**Day:** $14.76 → 8 LPV → 1 ATC → 1 IC → **1 purchase, the duo $139.99** (ROAS 9.48).
+**Note:** a gift-giver ad converted. Keep gift angles in the ads; the player-first PDP still works behind them.
+**Tracking quirk:** Meta counts **one AddToCart per line item**. A duo add = 4 ATC (2 handhelds + 2 cases), a trio = 6. Read ATC as "adds", not units.
+
+**Why it likely converted:** a solution-aware gift shopper ("still looking for that Christmas gift") · warm female voice, "let me share my find" (a friend's recommendation) · a Christmas set (silver gift bags, ornaments) · an unboxing that shows quality · "a hit with kids, a nostalgia trip for adults" (one gift, many recipients) · "three different colors".
+
+| ID | Change (one each) | Edit |
+|---|---|---|
+| **6A** | + offer sticker | Small red "EARLY BLACK FRIDAY 🎁" tag in the lower third from ~3 s |
+| **6B** | On-screen hook for sound-off viewers | Big top text for the first 3 s: "Still looking for a Christmas gift? 🎁" |
+| **6C** | End card for the duo (the buyer chose it) | Last 2 s: "2 for $139.99 + 2 free cases 🎁" |
+| **6D** | Same VO, other footage | Lay T06's voiceover over the purple/teal/red gift-bag footage (T09). Tests voice vs visuals |
+| **6E** | Deadline version (from Dec 1) | End card: "Order by Dec 11 for Christmas 🎄" |
+
+**Priority:** 6B (most viewers watch muted) → 6A → 6C. Run them in a separate test ad set; leave the original untouched.

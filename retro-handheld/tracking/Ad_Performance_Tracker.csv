@@ -26,7 +26,7 @@ date,campaign,ad,spend,impressions,frequency,cpm,ctr_link,link_clicks,cpc,lpv,at
 2026-11-06,Testing CBO,Test AD 3,2.80,20,1.18,140.00,10.00%,2,1.40,1,0,0,0,
 2026-11-06,Testing CBO,Others (2,1,4,9,10,5,6),4.04,28,,,,1,,1,0,0,0,
 2026-11-06,Testing CBO,DAY TOTAL,45.67,628,,72.72,,24,1.90,23,0,0,0,No intent at all this day
-2026-11-07,Testing CBO,Test AD 7,14.76,84,1.17,175.71,9.52%,8,1.85,8,4,1,1,FIRST SALE: duo $139.99 (ROAS 9.48). Partial day to 7:15pm
+2026-11-07,Testing CBO,Test AD 7 (= T06 Christmas gift VO),14.76,84,1.17,175.71,9.52%,8,1.85,8,1,1,1,FIRST SALE: duo $139.99 (ROAS 9.48). Meta showed 4 ATC = 1 duo add (2 handhelds + 2 cases). Partial day to 7:15pm
 2026-11-07,Testing CBO,Test AD 8 (Target),18.54,419,1.10,44.25,5.25%,22,0.84,21,0,0,0,Cheap clicks but 0 ATC for 2 days
 2026-11-07,Testing CBO,Others,1.28,22,,,,,,,0,0,0,
-2026-11-07,Testing CBO,DAY TOTAL (to 7:15pm),34.58,525,,65.87,,30,,29,4,1,1,Revenue $139.99; day ROAS ~4.0. Cumulative 4 days ~$194 spend / $139.99 rev (0.72x)
+2026-11-07,Testing CBO,DAY TOTAL (to 7:15pm),34.58,525,,65.87,,30,,29,1,1,1,Revenue $139.99; day ROAS ~4.0. Cumulative 4 days ~$194 spend / $139.99 rev (0.72x)

@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-07 · Mapping + tracking fixes:** the sale came from Ads Manager "Test AD 7" = **T06 (Christmas gift VO, white unboxing)**. Real funnel: 8 LPV → 1 ATC → 1 IC → 1 purchase. Meta counts one ATC per line item (duo = 4, trio = 6). T06 iteration plan (6A-6E) added to `B1_Testing_CBO_Copy.md`.
+
 - **2026-11-07 · FIRST SALE: a duo ($139.99) from Test AD 7** ($14.76 spend today: 8 LPV, 4 ATC, 1 IC, 1 purchase). Test AD 8 (Target): ~$119 cumulative, 96 LPV, 5 ATC, 0 purchases, 0 ATC for the last 2 days. That is past 2x target CPA by the founder's rule; proposed to give it until ~$150 or replace it with 8A/8B. Cumulative ~$194 spend / $140 revenue.
 
 - **2026-11-05 · Day 2 (Nov 4) logged:** $55.79, CPM $66 (down from $135), Test AD 8 (Target) took 83% of spend: 38 LPV, 3 ATC, 1 IC. Cumulative: $114, 69 LPV, 2 IC, 0 purchases. Checkout is the leak. AD8 has intent, so no kill; watch it against the ~$80-100 no-purchase line.
