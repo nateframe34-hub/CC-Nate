@@ -30,3 +30,4 @@ date,campaign,ad,spend,impressions,frequency,cpm,ctr_link,link_clicks,cpc,lpv,at
 2026-11-07,Testing CBO,Test AD 8 (Target),25.27,577,1.12,43.80,5.37%,31,0.82,27,0,0,0,FINAL. Hook 45% (257/577). 0 ATC for 3 days
 2026-11-07,Testing CBO,Others,1.31,21,,,,,,,0,0,0,
 2026-11-07,Testing CBO,DAY TOTAL,44.85,691,,64.91,,39,,35,1,1,1,Revenue $139.99; day ROAS 3.12
+2026-11-08,Testing CBO,Test AD 7 (= T06 Christmas gift VO),,,,,,,,,,,1,SECOND SALE ~1am: bundle. Both sales from AD 7 are bundles

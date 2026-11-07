@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-08 · AD 7 (T06) second sale, a bundle again** (1am). 2/2 sales are bundles from the Christmas-gift VO ad. 7A re-cut as v2: AD 8's full original hook with its "RUN don't WALK to Target" caption (0-3.3 s, through picking up the box on the shelf) → 0.2 s fade → T06 from its first frame (the box at home), so box matches box. T06 VO starts at the cut; AD 8 music fades under it. 27.7 s.
+
 - **2026-11-08 · 7A and 7B rendered with ffmpeg** (`retro-handheld/ads/batch-1/renders/`). 7A = AD 8's Target intro (0-2.5 s) + T06 from 2.5 s with T06's full VO from 0 (stays in sync). 7B = T06 + "Still looking for a Christmas gift?" on screen 0-3.5 s. Both 720x1280.
 
 - **2026-11-08 · Test plan cut to 2 new ads** (`retro-handheld/ads/batch-1/Test_Plan_Current.md`, which replaces all earlier iteration lists). Campaign 1 (Testing CBO): AD 7 control + the 8 untested old ads (finally get spend). Campaign 2 (ABO $20 each): 7A (AD 8's Target intro + AD 7's VO/body) and 7B (AD 7 + on-screen "Still looking for a Christmas gift?"). Everything else cut, backed up or scheduled, with reasons.
