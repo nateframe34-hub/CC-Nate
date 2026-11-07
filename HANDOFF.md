@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-08 · 7A and 7B rendered with ffmpeg** (`retro-handheld/ads/batch-1/renders/`). 7A = AD 8's Target intro (0-2.5 s) + T06 from 2.5 s with T06's full VO from 0 (stays in sync). 7B = T06 + "Still looking for a Christmas gift?" on screen 0-3.5 s. Both 720x1280.
+
 - **2026-11-08 · Test plan cut to 2 new ads** (`retro-handheld/ads/batch-1/Test_Plan_Current.md`, which replaces all earlier iteration lists). Campaign 1 (Testing CBO): AD 7 control + the 8 untested old ads (finally get spend). Campaign 2 (ABO $20 each): 7A (AD 8's Target intro + AD 7's VO/body) and 7B (AD 7 + on-screen "Still looking for a Christmas gift?"). Everything else cut, backed up or scheduled, with reasons.
 
 - **2026-11-08 · Test AD 8 (Target) killed at ~$147, 0 sales. Feedback loop written** (`retro-handheld/feedback-loops/Test_AD8_Target_RunDontWalk.md`): great soft metrics from the hook (45-50% hook, $44-62 CPM); no conversion because the ad has no body (no VO, no reasons) and no CTA/offer. Rules: hook ≠ ad; every ad needs hook + body + CTA; don't let one cheap-attention ad eat the CBO in week 1.
