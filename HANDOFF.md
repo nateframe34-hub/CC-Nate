@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-08 · Domain:** the founder is buying **pocket-arcade.shop** to replace evenroom.shop. Plan: make it the primary domain in Shopify, keep evenroom.shop connected (it redirects automatically), verify the new domain in Meta, leave the live AD 7 URL alone (the redirect covers it), and use the new domain on Sunday's ads.
+
 - **2026-11-08 · Launch timing (founder):** 7A v1, 7A v3 and 7B go live **Sunday**. Until then the Testing CBO runs without AD 8, so AD 7 (T06) gets clean budget for a read: does it keep converting at higher spend and CPM?
 
 - **2026-11-08 · Captions redone as TikTok-style rounded bubbles (with 🎁)** like AD 8, not a full-width white band: `renders/*_bubble_*.mp4`. v1 now also uses the smooth box-to-box cut, and the old "Gamers, RUN don't WALK" top line is blurred so it doesn't clash with the gift caption. v3 keeps that top line (it matches). The bubble generator is `renders/make_caption_bubble.py`.
