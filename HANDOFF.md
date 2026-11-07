@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-08 · Domain switched: pocket-arcade.shop is the primary.** evenroom.shop must stay connected (it forwards the live ads' links). New ads use `pocket-arcade.shop/products/pocketarcade`.
+
 - **2026-11-08 · Domain:** the founder is buying **pocket-arcade.shop** to replace evenroom.shop. Plan: make it the primary domain in Shopify, keep evenroom.shop connected (it redirects automatically), verify the new domain in Meta, leave the live AD 7 URL alone (the redirect covers it), and use the new domain on Sunday's ads.
 
 - **2026-11-08 · Launch timing (founder):** 7A v1, 7A v3 and 7B go live **Sunday**. Until then the Testing CBO runs without AD 8, so AD 7 (T06) gets clean budget for a read: does it keep converting at higher spend and CPM?
