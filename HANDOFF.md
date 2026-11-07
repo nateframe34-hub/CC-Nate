@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-08 · Captions redone as TikTok-style rounded bubbles (with 🎁)** like AD 8, not a full-width white band: `renders/*_bubble_*.mp4`. v1 now also uses the smooth box-to-box cut, and the old "Gamers, RUN don't WALK" top line is blurred so it doesn't clash with the gift caption. v3 keeps that top line (it matches). The bubble generator is `renders/make_caption_bubble.py`.
+
 - **2026-11-08 · 3 new test ads (founder): 7A v1, 7A v3, 7B.** v3 = Target intro with the caption changed to "Gamers, RUN don't WALK for this deal!" (no "to Target", to reduce "this isn't Target" bounces) + box-to-box fade into the full T06 body.
 
 - **2026-11-08 · AD 7 (T06) second sale, a bundle again** (1am). 2/2 sales are bundles from the Christmas-gift VO ad. 7A re-cut as v2: AD 8's full original hook with its "RUN don't WALK to Target" caption (0-3.3 s, through picking up the box on the shelf) → 0.2 s fade → T06 from its first frame (the box at home), so box matches box. T06 VO starts at the cut; AD 8 music fades under it. 27.7 s.
