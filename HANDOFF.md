@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-07 · Hook × body read (founder):** AD 8 = 49% hook rate, $62 CPM, $122 → 0 sales (no VO to sell). AD 7 (T06) = 34% hook, $140 CPM, $33 → 1 duo sale. Plan: put stronger hooks on AD 7's body. 7A = AD 8's Target intro + T06 VO; 7B = on-screen hook; 7C = "RUN don't WALK" text on T06; 8V = AD 8 + VO. In `B1_Testing_CBO_Copy.md`.
+
 - **2026-11-07 · Mapping + tracking fixes:** the sale came from Ads Manager "Test AD 7" = **T06 (Christmas gift VO, white unboxing)**. Real funnel: 8 LPV → 1 ATC → 1 IC → 1 purchase. Meta counts one ATC per line item (duo = 4, trio = 6). T06 iteration plan (6A-6E) added to `B1_Testing_CBO_Copy.md`.
 
 - **2026-11-07 · FIRST SALE: a duo ($139.99) from Test AD 7** ($14.76 spend today: 8 LPV, 4 ATC, 1 IC, 1 purchase). Test AD 8 (Target): ~$119 cumulative, 96 LPV, 5 ATC, 0 purchases, 0 ATC for the last 2 days. That is past 2x target CPA by the founder's rule; proposed to give it until ~$150 or replace it with 8A/8B. Cumulative ~$194 spend / $140 revenue.

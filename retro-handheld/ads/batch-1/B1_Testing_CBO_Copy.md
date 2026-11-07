@@ -239,3 +239,25 @@ All already loaded. All in one gift. 🎁
 | **6E** | Deadline version (from Dec 1) | End card: "Order by Dec 11 for Christmas 🎄" |
 
 **Priority:** 6B (most viewers watch muted) → 6A → 6C. Run them in a separate test ad set; leave the original untouched.
+
+---
+
+## Hook × body read (founder, 2026-11-07): put AD 8's hook on AD 7's body
+| | Test AD 8 (Target, T07) | Test AD 7 (Christmas gift VO, T06) |
+|---|---|---|
+| Hook rate (3s plays ÷ impressions) | **49%** (969/1,971) | 34% (79/235) |
+| CPM | **$62** | $140 |
+| Spend → LPV | $122 → 100 | $33 → 13 |
+| Purchases | 0 | **1 (duo $139.99)** |
+**Read:** AD 8 = a great hook with no selling after it (music only, no VO). AD 7 = a weak hook with a body that sells (a warm VO that sounds like a friend's tip, the gift framing, an unboxing). Iterate by putting stronger hooks on AD 7's body.
+
+| ID | Build | Notes |
+|---|---|---|
+| **7A** ⭐ | **AD 8's Target store-run intro (first ~2.5 s: storefront → doors) + T06's voiceover starting over it** ("If you're still looking for that Christmas gift, let me share my find…"), then cut into T06's unboxing | The VO line fits a store run. Caption: "Still looking for a Christmas gift? 🎁" |
+| **7B** | T06 unchanged + big on-screen hook for the first 3 s: "Still looking for a Christmas gift? 🎁" | Cheapest test; fixes sound-off viewers |
+| **7C** | T06 with AD 8's caption style: "Gamers, RUN don't WALK for this Christmas gift 🎁" (top bubble), VO unchanged | AD 8's hook text on AD 7's body |
+| **7D** | T06 re-cut: open on the brightest game-screen moment (lit screen, Mario/Sonic) for 1 s, then the original | Visual pattern interrupt |
+| **8V** | Reverse test: AD 8's full footage + T06-style voiceover selling over it | Confirms the "AD 8 needs a seller" theory from the other side |
+
+**Order:** 7A + 7B first (one combines the proven hook with the proven seller, the other is the cheapest fix), then 7C, 8V.
+**Judge hooks on the hook rate within ~$15–20** (target ≥ 45%), conversion on purchases after ≥$50.
