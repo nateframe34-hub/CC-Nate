@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-08 · 3 new test ads (founder): 7A v1, 7A v3, 7B.** v3 = Target intro with the caption changed to "Gamers, RUN don't WALK for this deal!" (no "to Target", to reduce "this isn't Target" bounces) + box-to-box fade into the full T06 body.
+
 - **2026-11-08 · AD 7 (T06) second sale, a bundle again** (1am). 2/2 sales are bundles from the Christmas-gift VO ad. 7A re-cut as v2: AD 8's full original hook with its "RUN don't WALK to Target" caption (0-3.3 s, through picking up the box on the shelf) → 0.2 s fade → T06 from its first frame (the box at home), so box matches box. T06 VO starts at the cut; AD 8 music fades under it. 27.7 s.
 
 - **2026-11-08 · 7A and 7B rendered with ffmpeg** (`retro-handheld/ads/batch-1/renders/`). 7A = AD 8's Target intro (0-2.5 s) + T06 from 2.5 s with T06's full VO from 0 (stays in sync). 7B = T06 + "Still looking for a Christmas gift?" on screen 0-3.5 s. Both 720x1280.
