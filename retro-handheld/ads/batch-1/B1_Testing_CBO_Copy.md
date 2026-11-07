@@ -261,3 +261,51 @@ All already loaded. All in one gift. 🎁
 
 **Order:** 7A + 7B first (one combines the proven hook with the proven seller, the other is the cheapest fix), then 7C, 8V.
 **Judge hooks on the hook rate within ~$15–20** (target ≥ 45%), conversion on purchases after ≥$50.
+
+---
+
+## Campaign 2 copy: 7A v1, 7A v3, 7B (launch Sun 2026-11-09)
+**Rule:** primary text A on all three is **AD 7's live copy (T06 A)** unchanged, so the video hook is the only thing that differs between the ads. Only the headline matches each ad's new hook. Primary text B is the second option Meta rotates.
+**URL:** `https://pocket-arcade.shop/products/pocketarcade` · **Params:** `utm_source=facebook&utm_medium=paid&utm_campaign={{campaign.name}}&utm_content={{ad.name}}`
+**Ad names:** `7A_v1_Target-GIFT`, `7A_v3_Target-DEAL`, `7B_T06-onscreen-GIFT`
+
+### 7A v1 · Target intro + "Still looking for a Christmas gift?" → T06 body
+**Primary text A (= AD 7)**
+Still looking for that Christmas gift? 🎄
+One present. 10,000+ games. The whole collection from every console they had as a kid.
+Kids love it. Adults lose an afternoon to it.
+Order by December 11 for Christmas.
+
+**Primary text B**
+Skip the store. 🎁
+10,000+ games from NES, Super Nintendo, Game Boy, PS1, N64 and more. All in one handheld.
+Get 2 for $139.99 with free cases. Free shipping on every order.
+
+**Headline:** Christmas gift: sorted 🎄
+**Description:** `Free shipping. Free cases on 2+.`
+
+### 7A v3 · Target intro + "Gamers, RUN don't WALK for this deal!" → T06 body
+**Primary text A (= AD 7)**
+(same as 7A v1 A)
+
+**Primary text B**
+Gamers, RUN don't WALK. 🏃‍♂️🎁
+10,000+ classic games, already loaded. Every console you grew up with, in your pocket.
+Early Black Friday: free cases on 2+ and free shipping on every order.
+
+**Headline:** Gamers, RUN don't WALK for this deal 🎁
+**Description:** `Early Black Friday. Free cases on 2+.`
+
+### 7B · T06 + on-screen "Still looking for a Christmas gift?"
+**Primary text A (= AD 7)**
+(same as 7A v1 A)
+
+**Primary text B**
+The gift for the person who has everything. 🎁
+Except every game they played as a kid. Now that's 10,000+ of them in one handheld.
+2 for $139.99 with free cases. Free shipping.
+
+**Headline:** Christmas gift: sorted 🎄
+**Description:** `Free shipping. Free cases on 2+.`
+
+**Notes:** CTA button "Shop now". Keep Advantage+ creative enhancements off (they can rewrite the text and blur the test).
