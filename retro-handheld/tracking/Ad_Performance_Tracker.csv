@@ -35,3 +35,4 @@ date,campaign,ad,spend,impressions,frequency,cpm,ctr_link,link_clicks,cpc,lpv,at
 2026-11-08,Testing CBO,DAY TOTAL,32.00,287,,,,9,,10,2,2,2,Revenue $279.98; day ROAS ~8.7
 2026-11-09,Testing CBO,Test AD 7 (= T06 Christmas gift VO),41.78,341,1.14,122.52,1.76%,6,6.96,4,9,4,2,PARTIAL to 2:15pm. Revenue $289.97 (1 trio + 1 single w/ case); hook 25.2% (86/341); Meta ATC inflated by line items
 2026-11-09,Testing CBO,Test AD 11/13 + AD 2,2.64,27,,,,1,,1,0,0,0,PARTIAL; new ads starved inside the CBO
+2026-11-09,Testing CBO,Test AD 7 (= T06 Christmas gift VO),53.93,451,1.16,119.58,2.22%,10,5.39,8,10,5,3,UPDATE later in day: Revenue $364.96 (trio + single w/ case + single); ROAS 6.77; hook 25.7%

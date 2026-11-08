@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-09 (cash):** 6 sales total, all AD 7 (today 3: \$364.96, ROAS 6.77). Founder holding everything as-is for a few days: Shopify payouts on hold until Nov 18, ~\$1.3k CAD cash + \$1.5k CAD credit, card bill due Nov 14. Hook-test campaign POSTPONED until cash allows. Risk flagged: more sales = more COGS fronted, so success drains cash faster until payouts release.
+
 - **2026-11-09:** Founder: separate new campaign for test ads (~\$20/day), Testing CBO untouched. Recommended: 2 ads not 3 (7A v3 + 7B, \$10/day each in own ad sets); 7A v1 held as backup.
 
 - **2026-11-09:** By 2:15pm AD 7 had 2 more sales (trio + single w/ case, \$289.97, ~\$110 profit). 5 sales total, all AD 7. Decision: don't move AD 7 (a reset risks the winner); put the new ads in their own ABO ad set so they get spend. Payouts don't land until Nov 18, so cap total spend at ~\$95–110/day until then.
