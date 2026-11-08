@@ -66,6 +66,18 @@ Shopify counts shipping as revenue, so it is included in the ROAS. Case cost ran
 - **Duo and trio:** two or three free cases make these the most expensive tiers to break even on (~1.8–2.0×). That's fine if they lift conversion and order value. Don't drop the duo below $139.99.
 - **Shipping shows at checkout:** show "Free shipping when you add a case" in the cart (a progress bar) and on the PDP so the $4.99 isn't a surprise. A surprise fee at checkout loses sales.
 
+## ✅ CONFIRMED DUO COST (founder, 2026-11-08)
+
+**Duo (2 handhelds + 2 cases, shipped) = $62.94 landed.** This is the real figure and replaces the $58.35–63.60 range above.
+
+| Order (live offer, free shipping on everything) | Revenue | COGS | Fees | Margin | **Breakeven ROAS** | **Max CPA** |
+|---|---|---|---|---|---|---|
+| **Duo $139.99 + 2 cases** | $139.99 | **$62.94** | $4.36 | **$72.69** | **1.93×** | **$72.69** |
+| Single $74.99 (free ship, no $4.99 any more) | $74.99 | $28.23 | $2.47 | $44.29 | 1.69× | $44.29 |
+
+- AD 7's two sales were both bundles: ~$145 margin on ~$51–60 of spend, so it is clearly profitable so far.
+- The kill rule ($49 with zero buying intent) still fits: that's below the duo's max CPA.
+
 ## Earlier recommendation (superseded)
 
 | Tier | Price | What's included | Breakeven |
