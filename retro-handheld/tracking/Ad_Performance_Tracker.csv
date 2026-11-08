@@ -30,6 +30,6 @@ date,campaign,ad,spend,impressions,frequency,cpm,ctr_link,link_clicks,cpc,lpv,at
 2026-11-07,Testing CBO,Test AD 8 (Target),25.27,577,1.12,43.80,5.37%,31,0.82,27,0,0,0,FINAL. Hook 45% (257/577). 0 ATC for 3 days
 2026-11-07,Testing CBO,Others,1.31,21,,,,,,,0,0,0,
 2026-11-07,Testing CBO,DAY TOTAL,44.85,691,,64.91,,39,,35,1,1,1,Revenue $139.99; day ROAS 3.12
-2026-11-08,Testing CBO,Test AD 7 (= T06 Christmas gift VO),30.48,257,1.13,118.60,3.50%,9,3.39,10,5,2,2,Revenue $279.98 (2 duos); ROAS 9.19; hook 24.9% (64/257); profit after ads ~$115
+2026-11-08,Testing CBO,Test AD 7 (= T06 Christmas gift VO),30.48,257,1.13,118.60,3.50%,9,3.39,10,2,2,2,Revenue $279.98 (2 duos); ROAS 9.19; Meta showed 5 ATC (bundle line items), Shopify says 2 real ATC; hook 24.9% (64/257); profit after ads ~$115
 2026-11-08,Testing CBO,Others (AD 1-6 and 9-13),1.52,30,,,,,,,0,0,0,CBO gave them almost nothing
-2026-11-08,Testing CBO,DAY TOTAL,32.00,287,,,,9,,10,5,2,2,Revenue $279.98; day ROAS ~8.7
+2026-11-08,Testing CBO,DAY TOTAL,32.00,287,,,,9,,10,2,2,2,Revenue $279.98; day ROAS ~8.7
