@@ -18,7 +18,7 @@ At ~$50–90/day, an ad needs ~$15–20 for a hook read and ~$50 for a purchase 
 | The 8 untested old ads | With AD 8 gone, they finally get budget. That is a free, honest first test. Apply the kill rule ($49 with zero intent). |
 
 ### Campaign 2: Iteration test (new ad set, ABO, $20/day each, 3–4 days). **3 ads (founder, 2026-11-08)**
-**Renders:** `renders/7A_Target-intro_T06-body.mp4` (v1), `renders/7A_v3_Target-hook_DEAL-caption_T06-body.mp4` (v3), `renders/7B_T06_onscreen-hook.mp4`.
+**Renders (final, the only 3 in the folder):** `renders/7A_v1_Target-GIFT.mp4`, `renders/7A_v3_Target-DEAL.mp4`, `renders/7B_T06-onscreen-GIFT.mp4`. File names match the Ads Manager ad names.
 - **7A v1:** Target intro with the caption replaced by "Still looking for a Christmas gift?" → T06 body (hard cut at 2.5 s, VO from 0).
 - **7A v3:** Target intro (through grabbing the box) with the caption replaced by **"Gamers, RUN don't WALK for this deal!"** (drops "to Target" to cut "this isn't Target" bounces) → 0.2 s fade, box-to-box → full T06 body with its VO.
 - **7B:** T06 + on-screen "Still looking for a Christmas gift?"

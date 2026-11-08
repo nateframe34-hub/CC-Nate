@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-08:** Renders folder cleaned: only the 3 final bubble versions remain, renamed to their ad names (7A_v1_Target-GIFT, 7A_v3_Target-DEAL, 7B_T06-onscreen-GIFT). Old drafts deleted.
+
 - **2026-11-08:** Copy written for Campaign 2 (7A v1, 7A v3, 7B) in `retro-handheld/ads/batch-1/B1_Testing_CBO_Copy.md`. Primary text A = AD 7's live copy on all three, so the hook is the only thing that changes; headlines match each hook; text B adds free shipping. pocket-arcade.shop URL.
 
 - **2026-11-08 · Domain switched: pocket-arcade.shop is the primary.** evenroom.shop must stay connected (it forwards the live ads' links). New ads use `pocket-arcade.shop/products/pocketarcade`.
