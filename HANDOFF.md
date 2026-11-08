@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-09:** Founder: separate new campaign for test ads (~\$20/day), Testing CBO untouched. Recommended: 2 ads not 3 (7A v3 + 7B, \$10/day each in own ad sets); 7A v1 held as backup.
+
 - **2026-11-09:** By 2:15pm AD 7 had 2 more sales (trio + single w/ case, \$289.97, ~\$110 profit). 5 sales total, all AD 7. Decision: don't move AD 7 (a reset risks the winner); put the new ads in their own ABO ad set so they get spend. Payouts don't land until Nov 18, so cap total spend at ~\$95–110/day until then.
 
 - **2026-11-08 (ATC rule, PocketArcade):** Meta logs one AddToCart per distinct variant line in the cart, not per order. Duo with 2 colors + same-color cases = 3; same colors = 2. Nov 8's 5 = those two duos. Use Shopify's ATC count as the real number.
