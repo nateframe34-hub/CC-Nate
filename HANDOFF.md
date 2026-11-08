@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-08 (ATC rule, PocketArcade):** Meta logs one AddToCart per distinct variant line in the cart, not per order. Duo with 2 colors + same-color cases = 3; same colors = 2. Nov 8's 5 = those two duos. Use Shopify's ATC count as the real number.
+
 - **2026-11-08:** Best day yet. AD 7: $30.48 spend, 2 duo sales, $279.98, ROAS 9.2x, ~$115 profit after ads. Totals so far ~3 sales, all bundles, all AD 7. Hook still weak (25%) and CPM high ($119), which is exactly what the 7A/7B tests target. AD 7 nearing the scale bar (>=$150 spend, >=2.0 ROAS).
 
 - **2026-11-08:** Duo landed cost confirmed at $62.94 (2 units + 2 cases). Margin $72.69, breakeven ROAS 1.93×, max CPA ~$73. Logged in `retro-handheld/Offer_Math.md`.
