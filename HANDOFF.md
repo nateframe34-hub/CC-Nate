@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-09:** Founder plan: hold Testing CBO at \$60 for 3 full days (Nov 10-12), then next +20% (~\$72) on Nov 13 if cost/sale held under ~\$40.
+
 - **2026-11-09 final:** 3 sales (trio + 2 singles), \$364.95, \$79 spend, ~\$121 USD (~\$168 CAD) profit. Shopify funnel 4 ATC -> 3 IC -> 3 purchases. 6 sales total, all AD 7.
 
 - **2026-11-09:** Trio sold at ~\$214.97 (discount applied ~\$10 instead of \$24.98; founder fixed it). Meta revenue \$784.93 is correct. Campaign lifetime profit ~\$104 USD (~\$145 CAD) on \$313.61 spend. If amount-off discounts overlap again, check that the duo discount (min \$145) isn't winning over the trio one on trio carts.
