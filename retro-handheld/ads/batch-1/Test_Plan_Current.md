@@ -5,6 +5,8 @@
 1. **AD 8 (Target):** a hook that stops people (45–50% 3s rate, $44–62 CPM) but **no body or CTA**, so 0 sales on $147. Killed. (`feedback-loops/Test_AD8_Target_RunDontWalk.md`)
 2. **AD 7 (T06, Christmas gift VO):** a **body that sells** (the only full funnel, 1 duo sale on ~$51) but a weak hook (33%) and expensive reach ($140–196 CPM).
 3. **The other 8 ads have never been tested** (<$5 each). AD 8 ate the budget.
+4. **Buyer (2026-11-10):** 5 of 6 purchases were women. AD 7's buyer is a female gift-giver. New hooks and PDP copy should talk to her.
+
 **The one question to answer next:** can we give AD 7's selling body a hook as strong as AD 8's, so it gets cheap reach *and* converts?
 
 ## Budget reality
