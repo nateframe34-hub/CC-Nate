@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-10 (reversed):** Founder turned AD 7 back on (pausing was too rash). Back to the rule: act at \$120 with no sale, judge on Nov 13.
+
 - **2026-11-10:** Buyer avatar built from the 6 real sales: `retro-handheld/Buyer_Avatar_From_Conversions.md`. Lead SA = The List-Finisher Buying in Multiples (4/6 multi-unit orders, 5/6 women, all from AD 7's gift VO). Next: post-purchase survey ("Who is this for?"), Meta age/gender breakdown, order ship-to/color check.
 
 - **2026-11-10 (DONE):** Founder paused AD 7 (reason: \$5 CPC not sustainable; reskins carry the same body). Reskins (7A v1, 7A v3, 7B) to run in their own ABO campaign. AD 7 post ID kept for relaunch.
