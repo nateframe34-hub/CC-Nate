@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-10 (DONE):** Founder paused AD 7 (reason: \$5 CPC not sustainable; reskins carry the same body). Reskins (7A v1, 7A v3, 7B) to run in their own ABO campaign. AD 7 post ID kept for relaunch.
+
 - **2026-11-10 (founder decision):** Pause AD 7 and launch the 3 reskins (7A v1, 7A v3, 7B) in a new ABO campaign, \$20/day each (= same \$60 total). If reskins don't convert, relaunch AD 7 by post ID in its own scaling campaign. Caution given: pausing AD 7 inside the CBO would push the \$60 to the 9 untested old ads, so pause the whole Testing CBO (or cut it to ~\$10). Read reskins at ~\$40-50 each: hook >=30%, CPC <\$3, any ATC.
 
 - **2026-11-10 (risk):** AD 7 at ~\$50 today, 12 clicks, 0 ATC. Founder's concern is valid: at \$5 CPC the ad needs ~9%+ click-to-purchase CVR to break even (lifetime ~12% on ~50 clicks, small sample; normal is 2-4%). Plan: hold AD 7 per rule (act at \$120 no sale); recommended launching 7B alone at \$15/day ABO now to start lowering CPC (needs CTR ~4% or CPM ~\$55 for ~\$2.50 CPC).
