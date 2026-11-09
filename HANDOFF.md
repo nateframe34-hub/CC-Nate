@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-10 (risk):** AD 7 at ~\$50 today, 12 clicks, 0 ATC. Founder's concern is valid: at \$5 CPC the ad needs ~9%+ click-to-purchase CVR to break even (lifetime ~12% on ~50 clicks, small sample; normal is 2-4%). Plan: hold AD 7 per rule (act at \$120 no sale); recommended launching 7B alone at \$15/day ABO now to start lowering CPC (needs CTR ~4% or CPM ~\$55 for ~\$2.50 CPC).
+
 - **2026-11-10 (buyer insight):** 5 of 6 buyers are women. With AD 7 (gift VO) the only converter, the buyer is a female gift-giver (likely for a partner/son/family), not the nostalgic player. Small sample; confirm with Meta's age/gender breakdown. Implications: keep targeting broad; next creatives and PDP should speak to her ("what to get him", order-by date, gift-ready). Keep the player copy as secondary.
 
 - **2026-11-09:** Founder plan: hold Testing CBO at \$60 for 3 full days (Nov 10-12), then next +20% (~\$72) on Nov 13 if cost/sale held under ~\$40.
