@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-09 final:** 3 sales (trio + 2 singles), \$364.95, \$79 spend, ~\$121 USD (~\$168 CAD) profit. Shopify funnel 4 ATC -> 3 IC -> 3 purchases. 6 sales total, all AD 7.
+
 - **2026-11-09:** Trio sold at ~\$214.97 (discount applied ~\$10 instead of \$24.98; founder fixed it). Meta revenue \$784.93 is correct. Campaign lifetime profit ~\$104 USD (~\$145 CAD) on \$313.61 spend. If amount-off discounts overlap again, check that the duo discount (min \$145) isn't winning over the trio one on trio carts.
 
 - **2026-11-09:** Landed COGS confirmed: single \$30.19, duo \$62.94, trio \$93.25 (breakevens 1.77x / 1.93x / 1.99x). Nov 9 so far: trio + 2 singles (one with case), \$364.96 revenue, ~\$134 USD (~\$186 CAD) profit after ads.
