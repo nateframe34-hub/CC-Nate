@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-09:** Founder raised Testing CBO budget \$50 -> \$60 (+20%) to scale AD 7. Next +20% step only after 2-3 days with cost/sale under ~\$50.
+
 - **2026-11-09 (cash):** 6 sales total, all AD 7 (today 3: \$364.96, ROAS 6.77). Founder holding everything as-is for a few days: Shopify payouts on hold until Nov 18, ~\$1.3k CAD cash + \$1.5k CAD credit, card bill due Nov 14. Hook-test campaign POSTPONED until cash allows. Risk flagged: more sales = more COGS fronted, so success drains cash faster until payouts release.
 
 - **2026-11-09:** Founder: separate new campaign for test ads (~\$20/day), Testing CBO untouched. Recommended: 2 ads not 3 (7A v3 + 7B, \$10/day each in own ad sets); 7A v1 held as backup.
