@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-09:** Landed COGS confirmed: single \$30.19, duo \$62.94, trio \$93.25 (breakevens 1.77x / 1.93x / 1.99x). Nov 9 so far: trio + 2 singles (one with case), \$364.96 revenue, ~\$134 USD (~\$186 CAD) profit after ads.
+
 - **2026-11-09:** Founder raised Testing CBO budget \$50 -> \$60 (+20%) to scale AD 7. Next +20% step only after 2-3 days with cost/sale under ~\$50.
 
 - **2026-11-09 (cash):** 6 sales total, all AD 7 (today 3: \$364.96, ROAS 6.77). Founder holding everything as-is for a few days: Shopify payouts on hold until Nov 18, ~\$1.3k CAD cash + \$1.5k CAD credit, card bill due Nov 14. Hook-test campaign POSTPONED until cash allows. Risk flagged: more sales = more COGS fronted, so success drains cash faster until payouts release.

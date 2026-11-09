@@ -66,6 +66,16 @@ Shopify counts shipping as revenue, so it is included in the ROAS. Case cost ran
 - **Duo and trio:** two or three free cases make these the most expensive tiers to break even on (~1.8–2.0×). That's fine if they lift conversion and order value. Don't drop the duo below $139.99.
 - **Shipping shows at checkout:** show "Free shipping when you add a case" in the cart (a progress bar) and on the PDP so the $4.99 isn't a surprise. A surprise fee at checkout loses sales.
 
+## ✅ CONFIRMED LANDED COSTS, ALL TIERS (founder, 2026-11-09)
+
+| Order (free shipping) | Price | COGS | Fees | Margin | **Breakeven ROAS** | **Max CPA** |
+|---|---|---|---|---|---|---|
+| Single | $74.99 | **$30.19** | $2.47 | $42.33 | **1.77×** | $42.33 |
+| Duo + 2 cases | $139.99 | **$62.94** | $4.36 | $72.69 | **1.93×** | $72.69 |
+| Trio + 3 cases | $199.99 | **$93.25** | $6.10 | $100.64 | **1.99×** | $100.64 |
+
+Case upsell ($14.99) cost is not in the single figure; ~$2.55–5.60 extra.
+
 ## ✅ CONFIRMED DUO COST (founder, 2026-11-08)
 
 **Duo (2 handhelds + 2 cases, shipped) = $62.94 landed.** This is the real figure and replaces the $58.35–63.60 range above.
