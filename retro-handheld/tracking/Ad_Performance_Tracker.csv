@@ -36,3 +36,4 @@ date,campaign,ad,spend,impressions,frequency,cpm,ctr_link,link_clicks,cpc,lpv,at
 2026-11-09,Testing CBO,Test AD 7 (= T06 Christmas gift VO),72.56,654,1.15,110.95,2.45%,16,4.54,14,4,3,3,FINAL. ATC/IC from Shopify (Meta showed 13/5). Revenue \$364.95 (trio \$214.97 w/ discount glitch + 2 singles); ROAS 5.03
 2026-11-09,Testing CBO,Others (AD 1-4 and 9-13),6.46,68,,,,4,,4,0,0,0,
 2026-11-09,Testing CBO,DAY TOTAL,79.02,722,,,,20,,18,4,3,3,Profit after COGS/fees/ads ~\$121 USD (~\$168 CAD). Budget raised to \$60 midday
+2026-11-10,Testing CBO,Test AD 7 (= T06 Christmas gift VO),39.49,387,1.11,102.04,1.55%,6,6.58,6,0,0,0,PARTIAL. Hook 26.1% (101/387), steady; CTR down; no sale yet. Hold per rule (act only >$120 no sale)
