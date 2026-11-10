@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-11:** ~2 days, ~\$120 spend, ~45 landing page views, 0 ATC after near-100% ATC->purchase on sale days. Clicks got CHEAPER (CPC \$5 -> \$2.60-3.18), so the drop is on the site/offer side, not delivery. Suspect a site issue introduced around the domain switch / discount-combine change. Action: full test order from the ad link on a phone; check Shopify sessions/ATC; check pixel on pocket-arcade.shop. Reskins early: AD 12 best (hook 41%, CPC \$1.39).
+
 - **2026-11-10:** Founder put AD 11/12/13 (the reskins) in their own ad set inside the Testing CBO with a \$20/day minimum spend limit. AD 7's ad set now gets ~\$40 of the \$60. Watch: Meta may favor one of the 3 inside the \$20; read at ~\$40-50 total per ad set.
 
 - **2026-11-10 (reversed):** Founder turned AD 7 back on (pausing was too rash). Back to the rule: act at \$120 with no sale, judge on Nov 13.
