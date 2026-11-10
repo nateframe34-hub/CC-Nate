@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-10:** Founder put AD 11/12/13 (the reskins) in their own ad set inside the Testing CBO with a \$20/day minimum spend limit. AD 7's ad set now gets ~\$40 of the \$60. Watch: Meta may favor one of the 3 inside the \$20; read at ~\$40-50 total per ad set.
+
 - **2026-11-10 (reversed):** Founder turned AD 7 back on (pausing was too rash). Back to the rule: act at \$120 with no sale, judge on Nov 13.
 
 - **2026-11-10:** Buyer avatar built from the 6 real sales: `retro-handheld/Buyer_Avatar_From_Conversions.md`. Lead SA = The List-Finisher Buying in Multiples (4/6 multi-unit orders, 5/6 women, all from AD 7's gift VO). Next: post-purchase survey ("Who is this for?"), Meta age/gender breakdown, order ship-to/color check.
