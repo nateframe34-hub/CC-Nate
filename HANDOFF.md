@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-11:** Founder confirmed site works on pocket-arcade.shop. Sales drop = ad/traffic side (CVR regressing from small-sample highs). Focus: does AD 12 (cheap \$1.39 CPC) convert at >=2.5%? Read at ~\$60-80.
+
 - **2026-11-11 (mapping):** Ads Manager Test AD 11 = 7A v1 (Target + gift caption), Test AD 12 = 7A v3 (Target + "RUN don't WALK for this deal"), Test AD 13 = 7B (T06 + on-screen gift hook, no Target clip).
 
 - **2026-11-11:** ~2 days, ~\$120 spend, ~45 landing page views, 0 ATC after near-100% ATC->purchase on sale days. Clicks got CHEAPER (CPC \$5 -> \$2.60-3.18), so the drop is on the site/offer side, not delivery. Suspect a site issue introduced around the domain switch / discount-combine change. Action: full test order from the ad link on a phone; check Shopify sessions/ATC; check pixel on pocket-arcade.shop. Reskins early: AD 12 best (hook 41%, CPC \$1.39).
