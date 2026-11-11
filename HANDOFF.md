@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-11:** Founder: keep Script 1's game names; add Script 1b (older games) as a variant. Success-likelihood estimates added to the simulation doc (Script 3 ~45-55%, Script 1 ~40-50%, Script 4 ~30-35%, Script 2 ~25-35%; judgment only).
+
 - **2026-11-11:** Buyer data corrected: 4 women 44-65+, 2 men 55-64 (buyers older than assumed). Desk funnel simulation in `retro-handheld/research/Funnel_Walk_Simulation_v1.md`: Script 3 (mom/son) best match; Script 1 needs era-matched games (Pac-Man/Space Invaders, not Mario Kart); Scripts 2/4 skew 25-40; PDP lacks arcade names above the fold and a giver line; reviews setting needs live check. Fixes proposed, not applied.
 
 - **2026-11-11:** Founder rejected product-led VO scripts. New brief: native story hook, her problem (don't know what to get him), nostalgia via HIS memory, end on him loving it, no offer. 4 scripts in `retro-handheld/ads/batch-1/VO_Scripts_Gift_Nostalgia_v1.md`. Rule: show scripts before spending ElevenLabs credits.

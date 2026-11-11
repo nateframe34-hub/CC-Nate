@@ -71,3 +71,16 @@ Labels: **clear** / **friction** / **blocked**. No scores.
 
 ## 6. Next
 Founder picks which fixes to apply. Then re-walk the same personas on the changed scripts and PDP. After launch: compare with real numbers (Shopify ATC → checkout → purchase by ad), and add a post-purchase "Who is this for?" survey so recipients stop being a guess.
+
+## 7. Likelihood of success (added 2026-11-11, founder request)
+**Judgment, not a prediction.** Baseline = AD 7: hook ~25%, CTR ~2–3%, ~6 sales from ~70 clicks (~9%, small sample). "Success" = cost per sale under ~$55 over the first ~$100 of spend.
+
+| Script | Est. hook rate | Est. CTR | Est. click→sale | Chance of success | Why |
+|---|---|---|---|---|---|
+| **3 Mom remembers** | 28–35% | 2–3% | 6–10% | **~45–55%** | Closest to real buyers; shared nostalgia; strong ending |
+| **1 Sneaky question** | 30–40% | 2.5–3.5% | 4–8% | **~40–50%** | Curiosity hook, copyable trick; recipient a bit younger than buyers |
+| 1b Sneaky question, older games | 30–40% | 2.5–3.5% | 5–9% | ~40–50% | Same, tested only as a variant |
+| 4 Comment reply | 30–40% | 3–4% | 3–6% | ~30–35% | Most native (cheap reach) but speaks as a 25–35 buyer |
+| 2 Dad | 25–35% | 2–3% | 3–6% | ~25–35% | Relatable, but buyers so far are the dads' age |
+
+Founder decision: keep the original game names in Script 1; add 1b (Pac-Man / Space Invaders / first Super Mario) as a separate variant.
