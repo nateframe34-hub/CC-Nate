@@ -18,8 +18,8 @@ Simulated personas are not real customers; this is a stress test, not a predicti
 | **"Fifteen thousand"** sounds made up (and the page says 10,000+) | all 4 | "thousands more" |
 | **Timeline holes** ("gave it early", "last year", why post now?) | scriptwriter, wife | Set it last Christmas, said plainly, or "already wrapped" |
 | **Nothing nudges a second unit**, but 4/6 orders were 2–3 | mom, scriptwriter, man | One natural line: "one for my brother too" / "one for each grandkid" |
-| Endings feel like a **greeting card** | wife, mom, man | Add a physical beat ("held it a long time", "got real quiet, then laughed") |
-| **First frame doesn't show the product** (AD 7 did) | scriptwriter | Open on her hands holding the lit screen; the caption tells the story |
+| ~~Endings feel like a greeting card~~ | wife, mom, man | **Founder: not applied (unsure).** Endings kept as v1; physical-beat lines kept as optional variants |
+| ~~First frame should show the product~~ | scriptwriter | **Founder: rejected.** AD 7's weakness is its hook; first frames stay story-led, not product-led |
 | Scripts run ~30 s | scriptwriter | 60–75 words (~20–24 s) |
 
 **Game names:** the persona reviews all said our buyers' people grew up on Pac-Man/Atari/early Mario. Founder's call: **keep the v1 game names**, and test the older games as **"b" variants**.
@@ -27,7 +27,7 @@ Simulated personas are not real customers; this is a stress test, not a predicti
 ---
 
 ## Script 1 v2 · The sneaky question (husband)
-**First frame:** her hands holding the lit screen. **Text:** "I finally figured out what to get my husband 😭"
+**First frame:** her phone's Notes app with the game list. **Text:** "I finally figured out what to get my husband 😭"
 > I finally figured out what to get my husband this year. I know nothing about video games. Like, nothing.
 > So I casually asked him what he played as a kid. Mario Kart, Pokémon, Zelda. I wrote it all down.
 > Then I found this. Every one of them is already on it, plus thousands more. No setup. He just turns it on.
@@ -37,28 +37,28 @@ Simulated personas are not real customers; this is a stress test, not a predicti
 **Changes:** cut "he's really into games" (her husband isn't a gamer anymore); ease line; "already wrapped" fixes the timeline and keeps the Christmas-is-coming tension; removed "his PC" (gamer signal).
 
 ## Script 2 v2 · "I don't need anything" (husband) ⭐ wife persona's pick
-**First frame:** his hands playing Mario on the unit. **Text:** "my husband every year: 'I don't need anything'"
+**First frame:** a pile of wrapped sweaters / gift boxes. **Text:** "my husband every year: 'I don't need anything'"
 > Every year my husband says he doesn't need anything. And every year I end up buying him a sweater.
 > But he always talks about staying up all night playing Mario with his brother.
 > So last Christmas I got him this. All his old games, already on it. You just turn it on.
-> He opened it, got real quiet, and then started laughing. I got his brother one too. Now they text each other high scores.
+> He opened it and went quiet for a second. Then he just started playing. I got his brother one too. Now they text each other high scores.
 
 (75 words) **Dad variant** (same script, "my dad" / "my uncle") for a younger buyer.
 **Changes:** speaker is now the wife (our real buyer). "Sweater" names her rut. Brother = second unit. The ending shows both "he loves it" and "it brought them together".
 
 ## Script 3 v2 · Mom remembers (son + grandkids) ⭐ best match to real buyers
-**First frame:** her hands holding the lit unit next to an old cartridge. **Text:** "my son is 30 and I still never know what to get him"
+**First frame:** an old photo of a kid with a Game Boy (generated, film look). **Text:** "my son is 30 and I still never know what to get him"
 > My son is thirty, and I still never know what to get him.
 > But I remember what he begged me for as a boy. Game Boy games. Every birthday, every Christmas.
 > Then I found this. Every one I used to wrap for him, already on it. You just turn it on.
 > I got one for each grandkid too, so nobody felt left out.
-> He held it for a long time. Then he said, "Mom. You remembered."
+> When he opened it, he just looked at me and said, "Mom. You remembered."
 
 (74 words)
-**Changes:** ease line; the grandkids line plants the 3-pack (how this buyer already thinks); "held it for a long time" makes the ending feel real.
+**Changes:** ease line; the grandkids line plants the 3-pack (how this buyer already thinks). Optional ending variant: "He held it for a long time. Then he said…"
 
 ## Script 4 v2 · Comment reply (husband)
-**First frame:** comment bubble on her hands holding the lit unit. **Comment:** "what do you even get a man who has everything??"
+**First frame:** comment bubble over a cozy living-room shot (no product yet). **Comment:** "what do you even get a man who has everything??"
 > Okay, I had the same problem with my husband. If he wants something, he just buys it.
 > But he'd never buy himself this. Every game he played as a kid, already on it. Mario. Zelda. Street Fighter.
 > No setup. He just turned it on and that was it.
