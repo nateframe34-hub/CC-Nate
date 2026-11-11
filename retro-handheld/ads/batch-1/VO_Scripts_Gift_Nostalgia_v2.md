@@ -52,10 +52,10 @@ Simulated personas are not real customers; this is a stress test, not a predicti
 > But I remember what he begged me for as a boy. Game Boy games. Every birthday, every Christmas.
 > Then I found this. Every one I used to wrap for him, already on it. You just turn it on.
 > I got one for each grandkid too, so nobody felt left out.
-> When he opened it, he just looked at me and said, "Mom. You remembered."
+> He laughed and said, "Where did you even find this?" Then he didn't put it down all night.
 
 (74 words)
-**Changes:** ease line; the grandkids line plants the 3-pack (how this buyer already thinks). Optional ending variant: "He held it for a long time. Then he said…"
+**Changes:** ease line; the grandkids line plants the 3-pack (how this buyer already thinks). Ending changed (founder, 2026-11-11): "Mom. You remembered." felt corny; now a casual line + "didn't put it down all night".
 
 ## Script 4 v2 · Comment reply (husband)
 **First frame:** comment bubble over a cozy living-room shot (no product yet). **Comment:** "what do you even get a man who has everything??"

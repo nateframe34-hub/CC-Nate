@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-11:** Script 3 ending changed to: 'He laughed and said, "Where did you even find this?" Then he didn't put it down all night.' ('Mom. You remembered.' felt corny.)
+
 - **2026-11-11:** Founder approved v2 script fixes except (5) greeting-card ending rewrites (kept v1 endings, variants optional) and (6) product in first frame (rejected: AD 7's issue is the hook, so first frames stay story-led).
 
 - **2026-11-11:** 4 independent reviewers (wife, mom/grandma, man 55-64 personas + UGC scriptwriter) attacked v1 scripts. v2 in `retro-handheld/ads/batch-1/VO_Scripts_Gift_Nostalgia_v2.md`: ease line, 'thousands' not '15,000', fixed timelines, multi-unit beat, real endings, product in first frame; Script 2 now husband; new Script 5 'Grandpa's turn'. Test first: Script 3 + Script 2.
