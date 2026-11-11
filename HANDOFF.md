@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-11:** Discount stacking fixed by founder. Arcade-themed abandoned-checkout email built: `retro-handheld/store/theme/notifications/abandoned_checkout.liquid` (paste into Settings > Notifications > Abandoned checkout). Bundle cases show FREE; reply-for-help line for declined cards.
+
 - **2026-11-11:** Script 3 ending changed to: 'He laughed and said, "Where did you even find this?" Then he didn't put it down all night.' ('Mom. You remembered.' felt corny.)
 
 - **2026-11-11:** Founder approved v2 script fixes except (5) greeting-card ending rewrites (kept v1 endings, variants optional) and (6) product in first frame (rejected: AD 7's issue is the hook, so first frames stay story-led).

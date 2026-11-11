@@ -1,0 +1,148 @@
+{%- comment -%}
+  POCKETARCADE · ABANDONED CHECKOUT EMAIL · 2026-11-11
+  Paste into: Shopify admin → Settings → Notifications → Customer notifications
+  → Abandoned checkout → Edit code (replace everything, then Save).
+  Arcade theme, kept premium: dark cabinet background, one red accent, pixel
+  headings (Press Start 2P where the mail app supports web fonts, monospace
+  fallback everywhere else). Table layout + inline styles for Gmail/Outlook.
+  Bundle cases ($0 lines) show as FREE. Hidden "_" properties are never shown.
+{%- endcomment -%}
+{%- assign accent = '#E5483B' -%}
+{%- assign gold = '#F2C14E' -%}
+{%- assign bg = '#0D0D14' -%}
+{%- assign card = '#16161F' -%}
+{%- assign line_c = '#2A2A38' -%}
+{%- assign ink = '#F4F1EA' -%}
+{%- assign muted = '#A3A0AE' -%}
+{%- assign pixel = "'Press Start 2P','Courier New',Courier,monospace" -%}
+{%- assign body_f = "-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" -%}
+{%- capture first_name -%}{%- if customer.first_name != blank -%}{{ customer.first_name }}{%- elsif billing_address.first_name != blank -%}{{ billing_address.first_name }}{%- endif -%}{%- endcapture -%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="supported-color-schemes" content="dark">
+<title>Your game is paused</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;padding:0;background:{{ bg }};}
+  a{color:{{ gold }};}
+  @media (max-width:600px){
+    .wrap{width:100% !important;}
+    .pad{padding-left:20px !important;padding-right:20px !important;}
+    .h1{font-size:22px !important;line-height:34px !important;}
+    .thumb{width:64px !important;height:64px !important;}
+  }
+</style>
+</head>
+<body style="margin:0;padding:0;background:{{ bg }};">
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;">Your cart is saved. Pick up right where you left off.</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:{{ bg }};">
+<tr><td align="center" style="padding:32px 12px;">
+
+<table role="presentation" class="wrap" width="560" cellpadding="0" cellspacing="0" border="0" style="width:560px;max-width:560px;">
+
+  {%- comment -%} Top bar: logo / store name + "1UP" style tag {%- endcomment -%}
+  <tr><td class="pad" style="padding:0 32px 22px 32px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td align="left" style="font-family:{{ pixel }};font-size:12px;letter-spacing:1px;color:{{ ink }};">
+        {%- if shop.email_logo_url -%}<img src="{{ shop.email_logo_url }}" alt="{{ shop.name }}" width="{{ shop.email_logo_width | default: 140 }}" style="display:block;border:0;max-width:160px;">{%- else -%}{{ shop.name | upcase }}{%- endif -%}
+      </td>
+      <td align="right" style="font-family:{{ pixel }};font-size:10px;color:{{ gold }};letter-spacing:1px;">PLAYER 1</td>
+    </tr></table>
+  </td></tr>
+
+  {%- comment -%} Cabinet screen {%- endcomment -%}
+  <tr><td style="background:{{ card }};border:2px solid {{ line_c }};border-radius:18px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+
+      <tr><td style="height:6px;background:{{ accent }};border-radius:16px 16px 0 0;font-size:0;line-height:0;">&nbsp;</td></tr>
+
+      <tr><td class="pad" align="center" style="padding:40px 32px 8px 32px;">
+        <div style="font-family:{{ pixel }};font-size:11px;letter-spacing:2px;color:{{ muted }};">GAME PAUSED</div>
+        <div class="h1" style="font-family:{{ pixel }};font-size:26px;line-height:40px;color:{{ ink }};margin:18px 0 6px 0;">CONTINUE?</div>
+        <div style="font-family:{{ pixel }};font-size:14px;letter-spacing:6px;color:{{ accent }};margin:0 0 22px 0;">9 &middot; 8 &middot; 7 &middot;&middot;&middot;</div>
+        <p style="font-family:{{ body_f }};font-size:16px;line-height:26px;color:{{ ink }};margin:0 0 6px 0;">
+          {%- if first_name != blank -%}Hi {{ first_name }}, your{%- else -%}Your{%- endif %} cart is saved right where you left it.
+        </p>
+        <p style="font-family:{{ body_f }};font-size:15px;line-height:24px;color:{{ muted }};margin:0;">
+          Thousands of the games they grew up on, already loaded and ready to play.
+        </p>
+      </td></tr>
+
+      {%- comment -%} Primary button {%- endcomment -%}
+      <tr><td align="center" style="padding:28px 32px 34px 32px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+          <td align="center" bgcolor="{{ accent }}" style="border-radius:12px;box-shadow:0 4px 0 #A22E25;">
+            <a href="{{ url }}" target="_blank" style="display:inline-block;padding:18px 34px;font-family:{{ pixel }};font-size:13px;letter-spacing:1px;color:#FFFFFF;text-decoration:none;">PRESS START &#9654;</a>
+          </td>
+        </tr></table>
+        <div style="font-family:{{ body_f }};font-size:13px;color:{{ muted }};margin-top:14px;">Finish your order in under a minute.</div>
+      </td></tr>
+
+      {%- comment -%} Inventory (cart lines) {%- endcomment -%}
+      <tr><td class="pad" style="padding:0 32px;">
+        <div style="font-family:{{ pixel }};font-size:10px;letter-spacing:2px;color:{{ gold }};padding:0 0 12px 0;border-bottom:1px dashed {{ line_c }};">INVENTORY</div>
+      </td></tr>
+      {%- for line in line_items -%}
+        {%- assign lp = line.final_line_price | default: line.line_price -%}
+        <tr><td class="pad" style="padding:0 32px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-bottom:1px dashed {{ line_c }};"><tr>
+            <td width="76" valign="middle" style="padding:14px 0;">
+              {%- if line.image -%}<img class="thumb" src="{{ line.image | img_url: '160x160', crop: 'center' }}" alt="" width="64" height="64" style="display:block;width:64px;height:64px;border-radius:10px;border:1px solid {{ line_c }};background:#fff;">{%- endif -%}
+            </td>
+            <td valign="middle" style="padding:14px 10px;font-family:{{ body_f }};">
+              <div style="font-size:15px;font-weight:600;color:{{ ink }};line-height:20px;">{{ line.product.title | default: line.title }}</div>
+              {%- if line.variant.title != blank and line.variant.title != 'Default Title' -%}<div style="font-size:13px;color:{{ muted }};line-height:20px;">{{ line.variant.title }}</div>{%- endif -%}
+              <div style="font-size:13px;color:{{ muted }};line-height:20px;">Qty {{ line.quantity }}</div>
+            </td>
+            <td align="right" valign="middle" style="padding:14px 0;font-family:{{ pixel }};font-size:11px;white-space:nowrap;">
+              {%- if lp == 0 -%}<span style="color:{{ gold }};">FREE</span>{%- else -%}<span style="color:{{ ink }};">{{ lp | money }}</span>{%- endif -%}
+            </td>
+          </tr></table>
+        </td></tr>
+      {%- endfor -%}
+
+      {%- comment -%} Score (total) {%- endcomment -%}
+      <tr><td class="pad" style="padding:16px 32px 6px 32px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+          <td style="font-family:{{ pixel }};font-size:10px;letter-spacing:2px;color:{{ muted }};">SUBTOTAL</td>
+          <td align="right" style="font-family:{{ pixel }};font-size:14px;color:{{ ink }};">{{ subtotal_price | money }}</td>
+        </tr></table>
+      </td></tr>
+      <tr><td class="pad" style="padding:0 32px 30px 32px;font-family:{{ body_f }};font-size:13px;color:{{ muted }};">Free shipping on every order. Taxes, if any, at checkout.</td></tr>
+
+      {%- comment -%} Power-ups (reassurance) {%- endcomment -%}
+      <tr><td class="pad" style="padding:0 32px 34px 32px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:{{ bg }};border-radius:12px;">
+          <tr><td style="padding:18px 20px 6px 20px;font-family:{{ pixel }};font-size:10px;letter-spacing:2px;color:{{ gold }};">POWER-UPS</td></tr>
+          <tr><td style="padding:6px 20px;font-family:{{ body_f }};font-size:14px;line-height:22px;color:{{ ink }};"><span style="color:{{ accent }};">&#9632;</span>&nbsp; No setup. Charge it, turn it on, play.</td></tr>
+          <tr><td style="padding:6px 20px;font-family:{{ body_f }};font-size:14px;line-height:22px;color:{{ ink }};"><span style="color:{{ accent }};">&#9632;</span>&nbsp; Free shipping on every order</td></tr>
+          <tr><td style="padding:6px 20px;font-family:{{ body_f }};font-size:14px;line-height:22px;color:{{ ink }};"><span style="color:{{ accent }};">&#9632;</span>&nbsp; Order by Dec 11 for Christmas</td></tr>
+          <tr><td style="padding:6px 20px 18px 20px;font-family:{{ body_f }};font-size:14px;line-height:22px;color:{{ ink }};"><span style="color:{{ accent }};">&#9632;</span>&nbsp; Holiday returns until Jan 31</td></tr>
+        </table>
+      </td></tr>
+
+      {%- comment -%} Help line (for declined cards etc.) {%- endcomment -%}
+      <tr><td class="pad" align="center" style="padding:0 32px 36px 32px;font-family:{{ body_f }};font-size:14px;line-height:22px;color:{{ muted }};">
+        Card trouble or a question? Just reply to this email.<br>A real person will help.
+      </td></tr>
+
+    </table>
+  </td></tr>
+
+  {%- comment -%} Footer {%- endcomment -%}
+  <tr><td align="center" class="pad" style="padding:26px 32px 0 32px;font-family:{{ pixel }};font-size:9px;letter-spacing:2px;color:#5E5B6A;">GAME OVER? NOT YET.</td></tr>
+  <tr><td align="center" class="pad" style="padding:12px 32px 0 32px;font-family:{{ body_f }};font-size:12px;line-height:18px;color:#5E5B6A;">
+    <a href="{{ shop.url }}" style="color:#8C8998;text-decoration:none;">{{ shop.name }}</a>
+    {% if shop.email %} &middot; <a href="mailto:{{ shop.email }}" style="color:#8C8998;text-decoration:none;">{{ shop.email }}</a>{%- endif -%}
+  </td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>
