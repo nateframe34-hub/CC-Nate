@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-11:** Founder emailed Margaret (abandoned 4-unit checkout) from a new support Gmail. Awaiting reply/recovery.
+
 - **2026-11-11:** Built v1 cuts of Scripts 1-4 from existing footage + Jessica v3 VO (sped 1.08x, ~1,500 ElevenLabs chars): `renders/S1_Sneaky-question.mp4`, `S2_I-dont-need-anything.mp4`, `S3_Mom-remembers.mp4`, `S4_Comment-reply.mp4` (no music yet). Image + video prompts for the missing hook/outcome shots: `ads/batch-1/Footage_Prompts_Gift_Nostalgia.md`.
 
 - **2026-11-11:** AD 7 got a new duo sale (7 sales total, all AD 7). Margaret's abandoned checkout has NOT gone through yet. AD 13 (7B, AD 7 + on-screen gift hook, no Target clip) got its first ATC + IC. Day stats pending.
