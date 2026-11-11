@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-11:** Founder rejected product-led VO scripts. New brief: native story hook, her problem (don't know what to get him), nostalgia via HIS memory, end on him loving it, no offer. 4 scripts in `retro-handheld/ads/batch-1/VO_Scripts_Gift_Nostalgia_v1.md`. Rule: show scripts before spending ElevenLabs credits.
+
 - **2026-11-11:** First ElevenLabs demo: `renders/DEMO_H3_He-has-everything_ElevenLabs.mp4` (AD 7 footage, original audio muted, Jessica VO, "He has everything. He didn't have this." bubble). Founder buying Starter plan for commercial rights.
 
 - **2026-11-11:** ElevenLabs connected (free tier, 10k chars/month; api.elevenlabs.io allowed in the Default env; key kept outside the repo). Voice samples (Jessica/Sarah/Bella) in `retro-handheld/ads/batch-1/vo-samples/`. Note: free plan requires attribution and doesn't cover commercial use; upgrade to Starter before VO ads run.
