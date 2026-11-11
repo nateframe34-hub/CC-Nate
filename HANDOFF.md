@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-11 (hypothesis, needs data):** Hooks that say "Christmas gift" outright get much higher CPMs (AD 11 \$214, AD 13 \$259, AD 7 ~\$105-120) than the deal/gamer hook (AD 12 \$81, AD 8 \$44-62). Tiny samples (41-69 impressions). Confirm at ~1,000+ impressions per ad. Judge on cost per sale, not CPM: gift hooks may cost more but convert more.
+
 - **2026-11-11:** Founder confirmed site works on pocket-arcade.shop. Sales drop = ad/traffic side (CVR regressing from small-sample highs). Focus: does AD 12 (cheap \$1.39 CPC) convert at >=2.5%? Read at ~\$60-80.
 
 - **2026-11-11 (mapping):** Ads Manager Test AD 11 = 7A v1 (Target + gift caption), Test AD 12 = 7A v3 (Target + "RUN don't WALK for this deal"), Test AD 13 = 7B (T06 + on-screen gift hook, no Target clip).
