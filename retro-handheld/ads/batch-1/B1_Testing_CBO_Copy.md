@@ -309,3 +309,23 @@ Except every game they played as a kid. Now that's 10,000+ of them in one handhe
 **Description:** `Free shipping. Free cases on 2+.`
 
 **Notes:** CTA button "Shop now". Keep Advantage+ creative enhancements off (they can rewrite the text and blur the test).
+
+---
+
+## Implied-gift hooks (2026-11-11): lead her to "great gift" without saying "Christmas gift"
+**Why:** hooks that say "Christmas gift" outright show high CPMs (AD 11 $214, AD 13 $259 vs AD 12 $81; small samples). The gift SA is still the one that sells (AD 7). So the hook stops people broadly and the visuals and situation imply the gift. The body stays AD 7's gift VO.
+**Rule:** no "gift", "Christmas" or "present" in the hook text. The gift comes from the **person** (him/son), the **moment** (unwrapping, hiding it) or the **props** (tree, wrapping, stocking).
+
+| # | Device | Hook (on screen) | Footage idea |
+|---|---|---|---|
+| H1 | Recipient reaction | "My husband's face when he opened this 😭" | His hands tearing wrapping paper → he sees the screen |
+| H2 | Recipient reaction | "My son hasn't put this down in 3 days" | Kid on the couch playing, tree lights behind |
+| H3 | Hard-to-buy-for | "He has everything. He didn't have this." | Her hand placing the box on a pile of wrapped presents |
+| H4 | Hiding it | "Hiding this until the 25th 🤫" | Box slid behind other boxes in a closet |
+| H5 | List / done | "Crossed 3 people off my list with one order" | Trio colors lined up, ribbon |
+| H6 | Price vs reaction | "$75 and he reacted like it was a PS5" | Reaction cut + price text |
+| H7 | Nostalgia via him | "Every game my husband played as a kid. In one handheld." | Close-up of screen: Mario, Pokémon, Sonic |
+| H8 | Stocking | "It fits in a stocking." | Unit dropped into a stocking |
+| H9 | Before he sees it | "Ordering this before he sees this ad" | Phone screen tapping "Add to cart" |
+
+**Test order:** H1 or H3 (strongest gift implication without the word), then H7 (nostalgia, broadest stop). Re-use AD 7's body from box opening onward, so only the first 2–3 s change.
