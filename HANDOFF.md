@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-11:** 4 independent reviewers (wife, mom/grandma, man 55-64 personas + UGC scriptwriter) attacked v1 scripts. v2 in `retro-handheld/ads/batch-1/VO_Scripts_Gift_Nostalgia_v2.md`: ease line, 'thousands' not '15,000', fixed timelines, multi-unit beat, real endings, product in first frame; Script 2 now husband; new Script 5 'Grandpa's turn'. Test first: Script 3 + Script 2.
+
 - **2026-11-11:** Founder: keep Script 1's game names; add Script 1b (older games) as a variant. Success-likelihood estimates added to the simulation doc (Script 3 ~45-55%, Script 1 ~40-50%, Script 4 ~30-35%, Script 2 ~25-35%; judgment only).
 
 - **2026-11-11:** Buyer data corrected: 4 women 44-65+, 2 men 55-64 (buyers older than assumed). Desk funnel simulation in `retro-handheld/research/Funnel_Walk_Simulation_v1.md`: Script 3 (mom/son) best match; Script 1 needs era-matched games (Pac-Man/Space Invaders, not Mario Kart); Scripts 2/4 skew 25-40; PDP lacks arcade names above the fold and a giver line; reviews setting needs live check. Fixes proposed, not applied.
