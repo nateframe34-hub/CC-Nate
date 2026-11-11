@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-11:** AD 7 got a sale (the abandoned checkout, Margaret, recovered; 7 sales total, all AD 7). AD 13 (7B, AD 7 + on-screen gift hook, no Target clip) got its first ATC + IC. Day stats pending.
+
 - **2026-11-11:** Discount stacking fixed by founder. Arcade-themed abandoned-checkout email built: `retro-handheld/store/theme/notifications/abandoned_checkout.liquid` (paste into Settings > Notifications > Abandoned checkout). Bundle cases show FREE; reply-for-help line for declined cards.
 
 - **2026-11-11:** Script 3 ending changed to: 'He laughed and said, "Where did you even find this?" Then he didn't put it down all night.' ('Mom. You remembered.' felt corny.)
