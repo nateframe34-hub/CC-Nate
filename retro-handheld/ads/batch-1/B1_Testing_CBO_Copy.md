@@ -329,3 +329,40 @@ Except every game they played as a kid. Now that's 10,000+ of them in one handhe
 | H9 | Before he sees it | "Ordering this before he sees this ad" | Phone screen tapping "Add to cart" |
 
 **Test order:** H1 or H3 (strongest gift implication without the word), then H7 (nostalgia, broadest stop). Re-use AD 7's body from box opening onward, so only the first 2–3 s change.
+
+---
+
+## S2 + S4 copy (2026-11-12) · new story scripts, run in the reskin ad set
+**Rule:** the video tells the story and has no offer, so the **copy carries the offer and the reassurance** (easy, arrives in time, free shipping). Text A continues the video's first-person voice. Text B is short and direct.
+**URL:** `https://pocket-arcade.shop/products/pocketarcade` · same URL parameters · **Ad names:** `S2_I-dont-need-anything`, `S4_Comment-reply` · Button: Shop now · Advantage+ creative enhancements off · auto-captions on.
+
+### S2 · "I don't need anything"
+**Primary text A**
+Every year he says "I don't need anything." 🙄
+This year he got every game he played as a kid instead. Mario, Zelda, Street Fighter and thousands more, already on it.
+No setup. He just turns it on.
+🎁 Get 2 and the cases are free (one for his brother 😉)
+🚚 Free shipping. Order by Dec 11 for Christmas.
+
+**Primary text B**
+For the man who says he doesn't need anything.
+Thousands of the games he grew up on, in one handheld. Ready to play out of the box.
+Free shipping. Order by Dec 11 for Christmas.
+
+**Headline:** The gift he didn't know he needed
+**Description:** `Free shipping. Free cases on 2+.`
+
+### S4 · Comment reply
+**Primary text A**
+Replying to everyone asking what to get the man who has everything 👇
+He'd never buy this for himself. Every game he played as a kid, already on it. Mario, Zelda, Street Fighter and thousands more.
+No Wi-Fi. No setup. Nothing else to buy.
+🚚 Free shipping. Order by Dec 11 for Christmas.
+
+**Primary text B**
+What do you get a man who has everything?
+His childhood. 🎮 Thousands of classic games in one handheld, ready to play.
+Free shipping, and free cases when you get 2.
+
+**Headline:** For the man who has everything
+**Description:** `Free shipping. Order by Dec 11.`
