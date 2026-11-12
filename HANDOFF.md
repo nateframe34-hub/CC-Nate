@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-11 final:** \$73.64 spend, 1 duo (AD 7), ~breakeven. Reskin ad set took ~\$38 (more than its \$20 min), AD 7 only \$36. AD 13 (7B) has the only reskin ATC/IC; reskin CPMs all \$104-224, so the 'deal hook = cheap CPM' idea isn't holding on these. Lifetime reskin spend: AD 13 ~\$41, AD 12 ~\$14, AD 11 ~\$12.
+
 - **2026-11-11:** Founder emailed Margaret (abandoned 4-unit checkout) from a new support Gmail. Awaiting reply/recovery.
 
 - **2026-11-11:** Built v1 cuts of Scripts 1-4 from existing footage + Jessica v3 VO (sped 1.08x, ~1,500 ElevenLabs chars): `renders/S1_Sneaky-question.mp4`, `S2_I-dont-need-anything.mp4`, `S3_Mom-remembers.mp4`, `S4_Comment-reply.mp4` (no music yet). Image + video prompts for the missing hook/outcome shots: `ads/batch-1/Footage_Prompts_Gift_Nostalgia.md`.

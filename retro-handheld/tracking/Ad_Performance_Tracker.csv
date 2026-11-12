@@ -38,7 +38,9 @@ date,campaign,ad,spend,impressions,frequency,cpm,ctr_link,link_clicks,cpc,lpv,at
 2026-11-09,Testing CBO,DAY TOTAL,79.02,722,,,,20,,18,4,3,3,Profit after COGS/fees/ads ~\$121 USD (~\$168 CAD). Budget raised to \$60 midday
 2026-11-10,Testing CBO,Test AD 7 (= T06 Christmas gift VO),66.76,648,1.12,103.02,3.24%,21,3.18,21,0,0,0,FINAL. Hook 26.5%. CPC down but 0 ATC on 21 LPV
 2026-11-10,Testing CBO,Others + old reskin copies,6.17,,,,,,,,0,0,0,
-2026-11-11,Testing CBO,Test AD 7 (= T06 Christmas gift VO),28.59,263,1.16,108.71,4.18%,11,2.60,10,0,0,0,PARTIAL (Meta labels this day Nov 10). Hook 22.8%
-2026-11-11,Testing CBO - reskin ad set,Test AD 12 (= 7A v3 Target + DEAL),5.56,69,1.11,80.58,5.80%,4,1.39,3,0,0,0,PARTIAL. Hook 40.6%
-2026-11-11,Testing CBO - reskin ad set,Test AD 11 (= 7A v1 Target + GIFT),8.78,41,1.08,214.15,4.88%,2,4.39,0,0,0,0,PARTIAL. Hook 63%
-2026-11-11,Testing CBO - reskin ad set,Test AD 13 (= 7B T06 on-screen GIFT),10.63,41,1.00,259.27,,0,,0,0,0,0,PARTIAL. Hook 34%, no clicks
+2026-11-11,Testing CBO,Test AD 7 (= T06 Christmas gift VO),35.73,272,1.21,131.36,4.04%,11,3.25,11,6,4,1,FINAL (Meta day). 1 duo \$139.99; ROAS 3.9; hook 25.4%. Meta ATC/IC inflated by line items
+2026-11-11,Testing CBO - reskin ad set,Test AD 13 (= 7B T06 on-screen GIFT),26.00,116,1.10,224.14,2.59%,3,8.67,3,2,1,0,Hook 29%. First ATC + IC of any reskin
+2026-11-11,Testing CBO - reskin ad set,Test AD 12 (= 7A v3 Target + DEAL),8.12,38,1.09,213.68,2.63%,1,8.12,1,0,0,0,Hook 47%
+2026-11-11,Testing CBO - reskin ad set,Test AD 11 (= 7A v1 Target + GIFT),3.54,34,1.03,104.12,11.76%,4,0.89,3,0,0,0,Hook 62%
+2026-11-11,Testing CBO,Others,0.25,,,,,,,,0,0,0,
+2026-11-11,Testing CBO,DAY TOTAL,73.64,,,,,19,,18,,,1,Revenue \$139.99; profit after COGS/fees/ads ~ -\$1 (breakeven)
