@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-12 (mapping):** Ads Manager Test AD 14 = S2 'I don't need anything' (with music); Test AD 15 = S4 'Comment reply' (with music). Launched in the reskin ad set. Judge at ~\$40-50 each: hook >=30%, any ATC; kill at \$49 with zero ATC.
+
 - **2026-11-12:** Ad copy written for S2 and S4 (copy carries offer + reassurance; video stays story-only) in `B1_Testing_CBO_Copy.md`.
 
 - **2026-11-12:** Added original background music (self-composed soft Christmas piano + bells, `renders/make_bg_music.py`; ElevenLabs music API needs paid plan) to S4 and S2: `renders/S4_Comment-reply_music.mp4`, `renders/S2_I-dont-need-anything_music.mp4`.
