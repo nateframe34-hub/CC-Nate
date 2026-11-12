@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-12:** Added original background music (self-composed soft Christmas piano + bells, `renders/make_bg_music.py`; ElevenLabs music API needs paid plan) to S4 and S2: `renders/S4_Comment-reply_music.mp4`, `renders/S2_I-dont-need-anything_music.mp4`.
+
 - **2026-11-12:** Founder killed AD 13 (7B) at ~\$41: its job was to fix AD 7's hook/reach cost; hook only 29% vs 25% and CPM \$224 vs AD 7's ~\$131. Verdict: on-screen gift text alone doesn't fix AD 7's hook. Next hook tests = new scripts S1-S4.
 
 - **2026-11-11 final:** \$73.64 spend, 1 duo (AD 7), ~breakeven. Reskin ad set took ~\$38 (more than its \$20 min), AD 7 only \$36. AD 13 (7B) has the only reskin ATC/IC; reskin CPMs all \$104-224, so the 'deal hook = cheap CPM' idea isn't holding on these. Lifetime reskin spend: AD 13 ~\$41, AD 12 ~\$14, AD 11 ~\$12.
