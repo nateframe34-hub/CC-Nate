@@ -375,16 +375,16 @@ Free shipping, and free cases when you get 2.
 **Build:** Target store walk-in (0–3.3 s, its own music) → 0.2 s fade → AD 7 in full (its voiceover starts at 3.3 s). Caption bubble **"Best Christmas find this year 🎄"** stays on from the first frame, as it did on the Target ad, and covers the old caption. In the last 4 s the same bubble changes to **"Free shipping 🚚 / Order by Dec 11 🎄"**. The caption's "find" matches AD 7's first spoken line, "let me share my find."
 **Versus AD 11 (7A v1):** same footage and body. New caption, caption now stays on for the whole ad, and a CTA at the end. Replaces AD 11 and AD 12.
 
-**Primary text** (AD 7's live copy, plus one line that asks for comments)
+**Primary text** (AD 7's live copy, plus one question at the end. No "comment below" wording: Meta treats explicit requests for comments as engagement bait and can cut delivery for it)
 Still looking for that Christmas gift? 🎄
 One present. 10,000+ games. The whole collection from every console they had as a kid.
 Kids love it. Adults lose an afternoon to it.
 Free shipping. Order by December 11 for Christmas.
-Which game would they play first? Tell us below 👇
+Which game would they play first?
 
 **Headline:** Best Christmas find this year 🎄
 **Description:** `Free shipping. Free cases on 2+.`
-**First comment (post it yourself, then pin it):** Ask me if your favorite game is on it 👇 I'll check.
+**First comment (post it yourself, then pin it):** Not sure if their favorite game is on it? Ask and I'll check.
 **Rule:** reply to every comment within a few hours. Check the game search on the PDP before answering.
 **URL / parameters / button / settings:** same as the other ads (pocket-arcade.shop, Shop now, Advantage+ creative enhancements off, auto-captions on, Stories off).
 
