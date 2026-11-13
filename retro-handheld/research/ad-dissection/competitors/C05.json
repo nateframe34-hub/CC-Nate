@@ -1,0 +1,76 @@
+{
+ "ad": "C05",
+ "seconds": 75.6,
+ "size": "720x1280",
+ "speech_starts_s": 0.05,
+ "words_first_3s": 6,
+ "hook_words": "I'm not sure what I want,",
+ "words_per_s": 0.86,
+ "cuts": [
+  3.0,
+  5.87,
+  9.07,
+  11.0,
+  13.53,
+  16.07,
+  18.93,
+  20.6,
+  22.73,
+  24.47,
+  26.03,
+  29.8,
+  31.13,
+  34.0,
+  37.57,
+  40.23,
+  43.63,
+  46.37,
+  48.97,
+  52.27,
+  56.53
+ ],
+ "cuts_first_3s": 0,
+ "cuts_per_10s": 2.8,
+ "segments": [
+  {
+   "start": 0.05,
+   "end": 56.52,
+   "text": "I'm not sure what I want, but I'm going to end it."
+  },
+  {
+   "start": 56.52,
+   "end": 56.74,
+   "text": "You're going to be in trouble."
+  },
+  {
+   "start": 56.74,
+   "end": 59.74,
+   "text": "Escutio una de lanto de tu canci\u00f3n gratis en cincominute."
+  },
+  {
+   "start": 60.22,
+   "end": 61.76,
+   "text": "Si tencanta la compres."
+  },
+  {
+   "start": 62.12,
+   "end": 63.58,
+   "text": "Si no, no pagas nada."
+  },
+  {
+   "start": 64.14,
+   "end": 68.38,
+   "text": "Cuatro punto nueva estrejas en trustpilot y m\u00e1s de quince milre se\u00f1as."
+  },
+  {
+   "start": 68.84,
+   "end": 71.62,
+   "text": "Tu canci\u00f3n completa lista en venti cuatro horas."
+  },
+  {
+   "start": 72.04,
+   "end": 73.82,
+   "text": "Aas clica bajo y crea a la t\u00falia."
+  }
+ ]
+}

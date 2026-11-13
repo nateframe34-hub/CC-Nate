@@ -1,0 +1,336 @@
+{
+ "ad": "C07",
+ "seconds": 182.2,
+ "size": "720x900",
+ "speech_starts_s": 0.0,
+ "words_first_3s": 12,
+ "hook_words": "I'm the founder of Quiet Protector and a lot of people ask",
+ "words_per_s": 2.74,
+ "cuts": [
+  2.0,
+  3.77,
+  5.43,
+  6.77,
+  8.0,
+  11.57,
+  13.67,
+  14.27,
+  15.9,
+  16.4,
+  17.57,
+  18.5,
+  20.53,
+  21.27,
+  22.43,
+  25.83,
+  28.93,
+  30.67,
+  34.2,
+  40.1,
+  41.57,
+  43.03,
+  44.87,
+  46.37,
+  47.6,
+  54.53,
+  55.67,
+  57.5,
+  61.87,
+  63.73,
+  66.27,
+  67.33,
+  68.23,
+  70.83,
+  71.87,
+  73.37,
+  76.87,
+  78.7,
+  81.2,
+  82.0,
+  86.0,
+  90.23,
+  93.03,
+  97.37,
+  101.43,
+  103.23,
+  105.07,
+  107.87,
+  112.53,
+  116.53,
+  118.0,
+  122.27,
+  124.57,
+  126.2,
+  129.07,
+  132.93,
+  134.57,
+  136.7,
+  138.67,
+  140.53,
+  142.5,
+  147.67,
+  150.23,
+  151.33,
+  152.93,
+  153.87,
+  155.9,
+  157.57,
+  159.33,
+  160.03,
+  161.03,
+  162.5,
+  164.83,
+  166.03,
+  167.07,
+  168.17,
+  169.37,
+  171.73,
+  174.27,
+  176.67,
+  178.6
+ ],
+ "cuts_first_3s": 1,
+ "cuts_per_10s": 4.4,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.54,
+   "text": "I'm the founder of Quiet Protector and a lot of people ask me what the difference is between"
+  },
+  {
+   "start": 5.54,
+   "end": 9.62,
+   "text": "Terrashell and all those cheap space blankets out there."
+  },
+  {
+   "start": 9.96,
+   "end": 11.08,
+   "text": "So here's the short version."
+  },
+  {
+   "start": 11.92,
+   "end": 14.18,
+   "text": "Terrashell isn't a flimsy foil blanket."
+  },
+  {
+   "start": 14.34,
+   "end": 15.72,
+   "text": "There is really no comparison."
+  },
+  {
+   "start": 16.06,
+   "end": 20.28,
+   "text": "Most emergency space blankets are kind of exactly what you think."
+  },
+  {
+   "start": 20.88,
+   "end": 24.24,
+   "text": "Thin, crinkly Mylar sheets that rip the second you shift around."
+  },
+  {
+   "start": 24.68,
+   "end": 28.8,
+   "text": "Bright reflective orange so you look like a traffic cone and completely open on the"
+  },
+  {
+   "start": 28.8,
+   "end": 29.04,
+   "text": "side."
+  },
+  {
+   "start": 29.04,
+   "end": 30.7,
+   "text": "So freezing drafts blow right through."
+  },
+  {
+   "start": 30.94,
+   "end": 33.94,
+   "text": "Terrashell is something entirely different."
+  },
+  {
+   "start": 34.48,
+   "end": 41.92,
+   "text": "We engineered it around the full hypothermia wrap protocol used in wilderness medicine and"
+  },
+  {
+   "start": 41.92,
+   "end": 42.9,
+   "text": "search and rescue."
+  },
+  {
+   "start": 43.1,
+   "end": 50.4,
+   "text": "It is a full body Vivian closure with an aluminized radiative mirror lining that reflects 90%"
+  },
+  {
+   "start": 50.4,
+   "end": 56.92,
+   "text": "of your body heat back to your core, sealed inside a windproof and waterproof tactical"
+  },
+  {
+   "start": 56.92,
+   "end": 57.32,
+   "text": "shell."
+  },
+  {
+   "start": 57.32,
+   "end": 63.34,
+   "text": "Plus, Terrashell is finished in a matte army green instead of bright orange foil."
+  },
+  {
+   "start": 63.8,
+   "end": 66.98,
+   "text": "So you keep your privacy and peace of mind during a crisis."
+  },
+  {
+   "start": 67.52,
+   "end": 71.84,
+   "text": "Every scene is reinforced to keep out wet snow and freezing air."
+  },
+  {
+   "start": 71.96,
+   "end": 76.3,
+   "text": "There are no batteries to die, no fuel tanks to fill and nothing mechanical that can break"
+  },
+  {
+   "start": 76.3,
+   "end": 76.86,
+   "text": "down on you."
+  },
+  {
+   "start": 76.94,
+   "end": 81.08,
+   "text": "It relies purely on thermodynamics to keep you warm."
+  },
+  {
+   "start": 81.22,
+   "end": 84.96,
+   "text": "You can use it in your living room when the power grid fails and the house drops"
+  },
+  {
+   "start": 84.96,
+   "end": 85.82,
+   "text": "to 40 degrees."
+  },
+  {
+   "start": 85.82,
+   "end": 90.08,
+   "text": "You can keep it in your glove box for highway breakdowns in a blizzard."
+  },
+  {
+   "start": 90.42,
+   "end": 95.84,
+   "text": "It weighs just four ounces, packs down smaller than a soda can and creates an instant warm"
+  },
+  {
+   "start": 95.84,
+   "end": 102.72,
+   "text": "microclimate around you in seconds, reflecting 90% of your heat while regular cotton blankets"
+  },
+  {
+   "start": 102.72,
+   "end": 105.02,
+   "text": "actually pull warmth away from your body."
+  },
+  {
+   "start": 105.42,
+   "end": 107.94,
+   "text": "But do not take my word for it."
+  },
+  {
+   "start": 108.0,
+   "end": 112.38,
+   "text": "Over 50,000 American families already keep these in their cars and homes."
+  },
+  {
+   "start": 112.38,
+   "end": 116.36,
+   "text": "You will not find Terrashell on Amazon or eBay."
+  },
+  {
+   "start": 116.62,
+   "end": 119.82,
+   "text": "We only ship direct from our own warehouse."
+  },
+  {
+   "start": 120.34,
+   "end": 127.54,
+   "text": "And when you order through our official winter preparedness page, you get free shipping with"
+  },
+  {
+   "start": 127.54,
+   "end": 128.66,
+   "text": "Roadside Plus."
+  },
+  {
+   "start": 129.06,
+   "end": 136.1,
+   "text": "It comes with an integrated tactical survival whistle and our complete winter survival checklist"
+  },
+  {
+   "start": 136.1,
+   "end": 138.46,
+   "text": "guide included for free."
+  },
+  {
+   "start": 138.46,
+   "end": 143.58,
+   "text": "And if you get them in the mail and decide they are just not for you, no problem, reach"
+  },
+  {
+   "start": 143.58,
+   "end": 144.3,
+   "text": "out to us."
+  },
+  {
+   "start": 144.6,
+   "end": 150.34,
+   "text": "We have a 120 day money back guarantee plus a two year warranty because this is something"
+  },
+  {
+   "start": 150.34,
+   "end": 156.44,
+   "text": "I keep in every single one of my own family's cars and something I hand out to the people"
+  },
+  {
+   "start": 156.44,
+   "end": 157.32,
+   "text": "I care about most."
+  },
+  {
+   "start": 157.72,
+   "end": 162.2,
+   "text": "If you are looking to stop relying on hope and cotton blankets when severe winter storms"
+  },
+  {
+   "start": 162.2,
+   "end": 166.62,
+   "text": "hit or you just want the peace of mind knowing your family will not freeze in a"
+  },
+  {
+   "start": 166.62,
+   "end": 167.0,
+   "text": "blackout."
+  },
+  {
+   "start": 167.0,
+   "end": 173.36,
+   "text": "Give this a shot, especially right now, multi packs are on sale for up to 55% off on our"
+  },
+  {
+   "start": 173.36,
+   "end": 174.2,
+   "text": "official site."
+  },
+  {
+   "start": 174.44,
+   "end": 178.44,
+   "text": "Click the link below to learn more, pick up a kit for your family."
+  },
+  {
+   "start": 178.84,
+   "end": 181.7,
+   "text": "And if you have any questions, let me know in the comments."
+  }
+ ]
+}

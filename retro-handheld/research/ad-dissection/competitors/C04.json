@@ -1,0 +1,48 @@
+{
+ "ad": "C04",
+ "seconds": 21.0,
+ "size": "720x1280",
+ "speech_starts_s": 0.0,
+ "words_first_3s": 11,
+ "hook_words": "oh my god what happened to my instagram there's no reels",
+ "words_per_s": 4.86,
+ "cuts": [
+  3.23,
+  6.03,
+  11.1
+ ],
+ "cuts_first_3s": 0,
+ "cuts_per_10s": 1.4,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.82,
+   "text": "oh my god what happened to my instagram there's no reels i'm just kidding that is literally done"
+  },
+  {
+   "start": 4.82,
+   "end": 8.06,
+   "text": "on purpose by the app socialize socialize keeps you connected with the accounts you follow so"
+  },
+  {
+   "start": 8.06,
+   "end": 11.38,
+   "text": "you can still get your home page like this you can also still look at stories still and the best"
+  },
+  {
+   "start": 11.38,
+   "end": 14.82,
+   "text": "part is you can still look at what people send you but if you try to scroll past these"
+  },
+  {
+   "start": 15.42,
+   "end": 18.3,
+   "text": "you're just not going to be able to that's how you're going to get rid of your phone addiction"
+  },
+  {
+   "start": 18.3,
+   "end": 20.72,
+   "text": "and actually start living the summer you should be living"
+  }
+ ]
+}

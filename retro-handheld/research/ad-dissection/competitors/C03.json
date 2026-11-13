@@ -1,0 +1,82 @@
+{
+ "ad": "C03",
+ "seconds": 33.2,
+ "size": "720x1280",
+ "speech_starts_s": 0.0,
+ "words_first_3s": 11,
+ "hook_words": "I'm a holly hosanna. I'm not the only holly black witch",
+ "words_per_s": 3.71,
+ "cuts": [
+  5.07,
+  6.23,
+  8.77,
+  10.1,
+  11.4,
+  14.4,
+  16.07,
+  17.13,
+  18.53,
+  19.33,
+  20.47,
+  21.57,
+  23.43,
+  24.47,
+  26.4,
+  27.5,
+  29.7
+ ],
+ "cuts_first_3s": 0,
+ "cuts_per_10s": 5.1,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.46,
+   "text": "I'm a holly hosanna. I'm not the only holly black witch that has to be born in black and black."
+  },
+  {
+   "start": 5.2,
+   "end": 7.02,
+   "text": "I'm not a holly hosanna, but I think that makes a lot of sense."
+  },
+  {
+   "start": 7.02,
+   "end": 9.18,
+   "text": "I was born with an extra voice for one of my friends."
+  },
+  {
+   "start": 9.48,
+   "end": 11.56,
+   "text": "She's a dancive holly holly, I think."
+  },
+  {
+   "start": 11.86,
+   "end": 14.32,
+   "text": "I'm a holly holly. She's a very old holly who's born."
+  },
+  {
+   "start": 14.54,
+   "end": 16.4,
+   "text": "She's a very old holly, but I think that's why it's important to stay here."
+  },
+  {
+   "start": 16.58,
+   "end": 19.86,
+   "text": "It's important to stay in a holly holly."
+  },
+  {
+   "start": 20.28,
+   "end": 24.32,
+   "text": "But I think that's the way I'm gonna get there and see if I can avoid it."
+  },
+  {
+   "start": 25.22,
+   "end": 28.62,
+   "text": "Not only this, but I think that's the way to get there,"
+  },
+  {
+   "start": 28.62,
+   "end": 31.2,
+   "text": "Don't forget to like, share and subscribe!"
+  }
+ ]
+}
