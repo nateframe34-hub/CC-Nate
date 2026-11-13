@@ -52,7 +52,9 @@ Sheets and numbers in `ours/`.
 5. **None of our ads has a face, or a person reacting.**
 
 ## Competitor ads
-*(to be filled as batches arrive)*
+| Batch | Ads | Write-up |
+|---|---|---|
+| 1 (2026-11-13) | C01 Click & Grow garden · C02 essie polish (DE, brand ad) · C03 Mad Lady trousers (FI, sale ad) · C04 Socialize app · C05 ForeverSongs (ES, gift reaction) · C06 travel toiletry bag · C07 TerraShell founder ad | `Batch1_C01-C07_Dissection.md` |
 
 ## Cross-ad patterns
 *(filled once 15+ ads are in: how often each first-frame type appears, typical time before the product shows, time before speech starts, cuts in the first 3 s, share with a face on camera, share with app-style captions, how they end)*

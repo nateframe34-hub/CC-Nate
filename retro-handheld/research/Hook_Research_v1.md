@@ -98,7 +98,7 @@ All of this comes from agency/tool blogs and talks, via search summaries. Treat 
 5. **Comments.** People replied to correct the Target claim, and engagement likely helped delivery. *(Guess.)*
 
 ## 4. The hook brief (what every new hook must do)
-1. **Open on a place or a moment, never on the product sitting on a table.**
+1. **Open on a person doing something: a place, a moment, or the product being used, tested or reacted to. Never the product lying still.** *(Updated 2026-11-13 after batch 1: five of seven winning ads show the product in the first frame, but always in someone's hands and in motion.)*
 2. **Something moves in the first second** (walking, wrapping, a hand reaching, a reaction).
 3. **Leave a question open** (what did she find, what's in the box, how did he react).
 4. **The caption names the giver's situation within 3 seconds**, so gift shoppers stay and browsers leave *after* they've counted as a view.
