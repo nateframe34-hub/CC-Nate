@@ -1,0 +1,4 @@
+ad,seconds,size,speech_starts_s,words_first_3s,words_per_s,cuts_first_3s,cuts_per_10s,first_line
+OURS_AD7_gift-voiceover,24.4,360x640,0.0,13,2.75,1,2.0,"If you're still looking for that Christmas gift,"
+OURS_AD8_Target-find,11.8,360x640,0.85,4,0.51,2,3.4,I thought you walked with me
+OURS_S2_I-dont-need-anything,26.6,720x1280,0.0,10,2.97,3,6.4,"Every year my husband says he doesn't need anything,"

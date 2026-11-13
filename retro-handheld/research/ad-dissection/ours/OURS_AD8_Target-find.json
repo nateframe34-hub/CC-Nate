@@ -1,0 +1,24 @@
+{
+ "ad": "OURS_AD8_Target-find",
+ "seconds": 11.8,
+ "size": "360x640",
+ "speech_starts_s": 0.85,
+ "words_first_3s": 4,
+ "hook_words": "I thought you walked",
+ "words_per_s": 0.51,
+ "cuts": [
+  0.83,
+  1.23,
+  3.3,
+  4.57
+ ],
+ "cuts_first_3s": 2,
+ "cuts_per_10s": 3.4,
+ "segments": [
+  {
+   "start": 0.85,
+   "end": 4.33,
+   "text": "I thought you walked with me"
+  }
+ ]
+}
