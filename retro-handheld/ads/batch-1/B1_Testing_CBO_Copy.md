@@ -366,3 +366,26 @@ Free shipping, and free cases when you get 2.
 
 **Headline:** For the man who has everything
 **Description:** `Free shipping. Order by Dec 11.`
+
+---
+
+## 7A v4 · Target footage + "Best Christmas find this year" → AD 7 body → CTA (2026-11-13)
+**Render:** `renders/7A_v4_Target-FIND.mp4` (27.7 s). **Ad name:** `7A_v4_Target-FIND`.
+**Founder's idea:** the Target ad's cheap delivery came with high engagement, and our other ads get little. So use the Target footage to open, with a caption that doesn't claim a store, then AD 7's body and a CTA.
+**Build:** Target store walk-in (0–3.3 s, its own music) → 0.2 s fade → AD 7 in full (its voiceover starts at 3.3 s). Caption bubble **"Best Christmas find this year 🎄"** stays on from the first frame, as it did on the Target ad, and covers the old caption. In the last 4 s the same bubble changes to **"Free shipping 🚚 / Order by Dec 11 🎄"**. The caption's "find" matches AD 7's first spoken line, "let me share my find."
+**Versus AD 11 (7A v1):** same footage and body. New caption, caption now stays on for the whole ad, and a CTA at the end. Replaces AD 11 and AD 12.
+
+**Primary text** (AD 7's live copy, plus one line that asks for comments)
+Still looking for that Christmas gift? 🎄
+One present. 10,000+ games. The whole collection from every console they had as a kid.
+Kids love it. Adults lose an afternoon to it.
+Free shipping. Order by December 11 for Christmas.
+Which game would they play first? Tell us below 👇
+
+**Headline:** Best Christmas find this year 🎄
+**Description:** `Free shipping. Free cases on 2+.`
+**First comment (post it yourself, then pin it):** Ask me if your favorite game is on it 👇 I'll check.
+**Rule:** reply to every comment within a few hours. Check the game search on the PDP before answering.
+**URL / parameters / button / settings:** same as the other ads (pocket-arcade.shop, Shop now, Advantage+ creative enhancements off, auto-captions on, Stories off).
+
+**Judge:** hook rate ≥45% (this footage has done 44–55% three times). Read CPM only on a day with ~500+ impressions. Kill at $49 with zero ATC.
