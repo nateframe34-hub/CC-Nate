@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-12 final / Nov 13 check:** \$64.71 spend, 0 sales. S2 (AD 15) got 2 ATC + 2 IC on \$11.74 day 1 (best early intent of any new ad). AD 7 3-day (Nov 10-12): ~\$141 for 1 sale, so no scale; hold \$60. Recommended turning off AD 11/12 (superseded) so the reskin set's \$20 goes to S2/S4.
+
 - **2026-11-12 (mapping):** Ads Manager Test AD 14 = S4 'Comment reply' (with music); Test AD 15 = S2 'I don't need anything' (with music). Launched in the reskin ad set. Judge at ~\$40-50 each: hook >=30%, any ATC; kill at \$49 with zero ATC.
 
 - **2026-11-12:** Ad copy written for S2 and S4 (copy carries offer + reassurance; video stays story-only) in `B1_Testing_CBO_Copy.md`.

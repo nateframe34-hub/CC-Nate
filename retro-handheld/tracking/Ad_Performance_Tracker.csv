@@ -44,3 +44,10 @@ date,campaign,ad,spend,impressions,frequency,cpm,ctr_link,link_clicks,cpc,lpv,at
 2026-11-11,Testing CBO - reskin ad set,Test AD 11 (= 7A v1 Target + GIFT),3.55,35,1.03,104.12,11.76%,4,0.89,3,0,0,0,Hook 62%
 2026-11-11,Testing CBO,Others,0.25,,,,,,,,0,0,0,
 2026-11-11,Testing CBO,DAY TOTAL,74.02,,,,,19,,18,,,1,Revenue \$139.99; profit after COGS/fees/ads ~ -\$1 (breakeven)
+2026-11-12,Testing CBO,Test AD 7 (= T06 Christmas gift VO),38.42,204,1.13,188.33,4.90%,10,3.84,10,0,0,0,Hook 33%. No ATC. CPM up
+2026-11-12,Testing CBO - reskin ad set,Test AD 15 (= S2 I don't need anything),11.74,49,1.11,239.59,6.12%,3,3.91,3,2,2,0,Hook 35%. 2 ATC + 2 IC (founder) on day 1
+2026-11-12,Testing CBO - reskin ad set,Test AD 14 (= S4 Comment reply),5.13,43,1.02,119.30,6.98%,3,1.71,3,0,0,0,Hook 23%
+2026-11-12,Testing CBO - reskin ad set,Test AD 11 (= 7A v1 Target + GIFT),6.35,37,1.06,171.62,2.70%,1,6.35,1,0,0,0,
+2026-11-12,Testing CBO - reskin ad set,Test AD 12 (= 7A v3 Target + DEAL),2.94,17,1.06,172.94,,0,,0,0,0,0,
+2026-11-12,Testing CBO,Others,0.13,,,,,,,,0,0,0,
+2026-11-12,Testing CBO,DAY TOTAL,64.71,,,,,17,,17,2,2,0,No sales. Loss ~ -$64.71
