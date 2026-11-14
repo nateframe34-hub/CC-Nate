@@ -42,7 +42,7 @@ Sheets and numbers in `ours/`.
 | Face on camera | No | No | No |
 | Cuts per 10 s | 3.4 | 2.0 | 6.4 |
 | Open question | "What's at Target?" | None. You see what it is at once | "What did she get him?" |
-| Ending | Gameplay, no offer | Product on the rug, no offer | Him "playing", no offer |
+| Ending | Gameplay, no offer | Soft spoken CTA ("I've left the link below…"), no offer | Him "playing", no offer |
 
 **What the baseline already shows**
 1. **AD 8 hides the product for 3 seconds and opens on a real place.** AD 7 shows the product in a staged set in frame 1. A viewer knows AD 7 is an ad before she has heard a word.

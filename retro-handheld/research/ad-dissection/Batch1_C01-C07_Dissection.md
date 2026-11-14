@@ -207,7 +207,7 @@ It enters most-aware and pushes on price. Allen Sauce notes that fast-scaling sh
 | A face, ever | 5 of 7 | **No** | No | No |
 | Hook names a person or a doubt | 7 of 7 | Yes, but only in the voice | "Gamers" | Yes ("my husband every year…") |
 | Main claim proved on camera | 5 of 5 | **No.** "A hit with kids, a nostalgia trip for adults" and nobody is shown enjoying it | n/a (no claim) | **No.** "He opened it… started playing" over footage of someone else's hands |
-| Offer or CTA in the video | 4 of 5 | **No** | No | No |
+| Offer or CTA in the video | 4 of 5 | A soft spoken CTA only ("I've left the link below…"). No offer *(corrected 2026-11-14)* | No | No |
 | Pace for a hands demo | 8.2 cuts per 10 s | **2.0** | 3.4 | 6.4 |
 
 **What we lack, most important first**
@@ -249,7 +249,7 @@ It enters most-aware and pushes on price. Allen Sauce notes that fast-scaling sh
 | 7 | Targets a specific sub-avatar | Broad: any gift shopper |
 | 8 | 6th-grade reading level | Yes |
 | 9 | Slippery slide | **Weak.** No open loop |
-| 10 | Clear CTA | **None in the video** |
+| 10 | Clear CTA | Soft: "I've left the link below because it's honestly a fantastic option this year." No offer, no reason to act now *(corrected 2026-11-14)* |
 | 11 | Objection → claim → proof → benefit | **No objection is handled** |
 | 12 | Showing, not telling | Half |
 | 13 | Format fits the angle | Yes |

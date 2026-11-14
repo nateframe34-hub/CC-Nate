@@ -102,7 +102,7 @@ Relive your childhood. 💗
 ---
 
 ## T06 · "If you're still looking for that Christmas gift" (white unboxing, Christmas set, voiceover)
-**Audio:** "If you're still looking for that Christmas gift, let me share my find. Over 15,000 games, entire collections in one. A hit with kids, a total nostalgia trip for adults. Three different colors."
+**Audio (full, verbatim, 2026-11-14):** "If you're still looking for that Christmas gift, let me share my find. Imagine giving a single present with access to over 15,000 games, entire collections in one. It's a hit with kids, but it's also a total nostalgia trip for adults. Plus, it comes in three different colors to match anyone's style. I've left the link below because it's honestly a fantastic option this year." Voice only, no music.
 **Angle:** Gift-first (SA1/SA2/SA4) · direct
 
 **Primary text A**
@@ -389,3 +389,46 @@ Which game would they play first?
 **URL / parameters / button / settings:** same as the other ads (pocket-arcade.shop, Shop now, Advantage+ creative enhancements off, auto-captions on, Stories off).
 
 **Judge:** hook rate ≥45% (this footage has done 44–55% three times). Read CPM only on a day with ~500+ impressions. Kill at $49 with zero ATC.
+
+---
+
+## 8V · Target ad footage + AD 7's voiceover, 3 captions (2026-11-14)
+**Founder's test:** the Target ad had the hook and cheap delivery but no voice. AD 7's voice is what sells. So put AD 7's audio on the Target ad's footage.
+**Renders (22.5 s each):** `renders/8V_A_Best-find.mp4`, `renders/8V_B_Husbands-gift.mp4`, `renders/8V_C_Every-game.mp4`. Built by `renders/make_8V.py`.
+
+**How it's cut**
+| Time | Picture | Voice (AD 7, unchanged words) |
+|---|---|---|
+| 0–3.3 s | Target store front → doors → the box on the shelf | "If you're still looking for that Christmas gift, let me share my find." |
+| 3.3–14.5 s | Target ad's teal unit: menus ("15,833 games"), then gameplay. Slowed to 76% so it lasts the length of the voice | "Imagine giving a single present with access to over 15,000 games… a hit with kids… a total nostalgia trip for adults." |
+| 14.5–18 s | AD 7's shot of the white unit with the purple and black ones behind | "Plus, it comes in three different colors to match anyone's style." |
+| 18–22.5 s | AD 7's closing shots. Caption changes to **"Free shipping 🚚 / Order by Dec 11 🎄"** | "I've left the link below because it's honestly a fantastic option this year." |
+
+- The Target ad is 11.8 s and AD 7's voice is 24 s, so two things were done to make them fit: 1.9 s of silence between the spoken lines was trimmed, and the last two lines play over AD 7's own footage (the Target ad has no shot of three colors).
+- AD 7's audio is voice only. There is no music in it, so there is none here. The Target ad's song is removed.
+- The caption stays on for the whole ad and covers the old "Gamers, RUN don't WALK to Target" text.
+
+**The 3 captions (the only difference between the ads)**
+| Ad name | Caption on screen | Why this one |
+|---|---|---|
+| `8V_A_Best-find` | Best Christmas find this year 🎄 | Founder's line. Matches "let me share my find" |
+| `8V_B_Husbands-gift` | Found my husband's Christmas gift 😭 | Names a person. All five direct-response winners in batch 1 open on a person or a doubt |
+| `8V_C_Every-game` | Every game he played as a kid. One gift 🎁 | Puts the proven selling point (nostalgia) on screen for muted viewers |
+
+**Primary text (all three: AD 7's live copy plus one question)**
+Still looking for that Christmas gift? 🎄
+One present. 10,000+ games. The whole collection from every console they had as a kid.
+Kids love it. Adults lose an afternoon to it.
+Free shipping. Order by December 11 for Christmas.
+Which game would they play first?
+
+**Headlines:** A: `Best Christmas find this year 🎄` · B: `Found my husband's Christmas gift 🎁` · C: `Every game he played as a kid 🎁`
+**Description (all):** `Free shipping. Free cases on 2+.`
+**First comment (post and pin):** Not sure if their favorite game is on it? Ask and I'll check.
+**Settings:** same URL, URL parameters and button as the other ads. Advantage+ creative enhancements off, auto-captions on, Stories off.
+
+**Reading the test**
+- All three share the same footage and voice, so expect similar hook rates (this footage has done 44–55% under three earlier captions). What the caption can change is who clicks and who buys.
+- The question this answers: does the Target hook sell once AD 7's voice is on it? Judge on add to carts and sales. Kill any of the three at $49 with zero ATC.
+- Read CPM only on a day with ~500+ impressions.
+- These replace AD 11, AD 12 and 7A v4 (same hook, older builds).
