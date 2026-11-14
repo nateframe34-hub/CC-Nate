@@ -394,7 +394,7 @@ Which game would they play first?
 
 ## 8V · Target ad footage + AD 7's voiceover, 3 captions (2026-11-14)
 **Founder's test:** the Target ad had the hook and cheap delivery but no voice. AD 7's voice is what sells. So put AD 7's audio on the Target ad's footage.
-**Renders (22.5 s each):** `renders/8V_A_Best-find.mp4`, `renders/8V_B_Husbands-gift.mp4`, `renders/8V_C_Every-game.mp4`. Built by `renders/make_8V.py`.
+**Renders (22.5 s each):** `renders/8V_A_Best-find.mp4`, `renders/8V_B_Husbands-gift.mp4`, `renders/8V_C_Original-RUN.mp4`. Built by `renders/make_8V.py`.
 
 **How it's cut**
 | Time | Picture | Voice (AD 7, unchanged words) |
@@ -413,7 +413,7 @@ Which game would they play first?
 |---|---|---|
 | `8V_A_Best-find` | Best Christmas find this year 🎄 | Founder's line. Matches "let me share my find" |
 | `8V_B_Husbands-gift` | Found my husband's Christmas gift 😭 | Names a person. All five direct-response winners in batch 1 open on a person or a doubt |
-| `8V_C_Every-game` | Every game he played as a kid. One gift 🎁 | Puts the proven selling point (nostalgia) on screen for muted viewers |
+| `8V_C_Original-RUN` | Gamers, RUN don't WALK to Target for this! 🎁 | The Target ad's original caption (replaced "Every game he played as a kid. One gift" on 2026-11-14, founder: swap the weakest for the original). Isolates the voice: same footage and caption as the ad that sold nothing, plus AD 7's voice |
 
 **Primary text (all three: AD 7's live copy plus one question)**
 Still looking for that Christmas gift? 🎄
@@ -422,7 +422,7 @@ Kids love it. Adults lose an afternoon to it.
 Free shipping. Order by December 11 for Christmas.
 Which game would they play first?
 
-**Headlines:** A: `Best Christmas find this year 🎄` · B: `Found my husband's Christmas gift 🎁` · C: `Every game he played as a kid 🎁`
+**Headlines:** A: `Best Christmas find this year 🎄` · B: `Found my husband's Christmas gift 🎁` · C: `Gamers, RUN don't WALK for this 🎁`
 **Description (all):** `Free shipping. Free cases on 2+.`
 **First comment (post and pin):** Not sure if their favorite game is on it? Ask and I'll check.
 **Settings:** same URL, URL parameters and button as the other ads. Advantage+ creative enhancements off, auto-captions on, Stories off.

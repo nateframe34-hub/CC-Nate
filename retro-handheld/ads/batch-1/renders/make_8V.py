@@ -2,7 +2,7 @@ import subprocess as sp, sys
 R='/home/user/CC-Nate/retro-handheld/ads/batch-1/renders'
 ADS={'8V_A_Best-find':('Best Christmas find','this year 🎄'),
      '8V_B_Husbands-gift':("Found my husband's",'Christmas gift 😭'),
-     '8V_C_Every-game':('Every game he played','as a kid. One gift 🎁')}
+     '8V_C_Original-RUN':("Gamers, RUN don't WALK",'to Target for this! 🎁')}
 SC='scale=720:1280:flags=lanczos,fps=30,setsar=1'
 # voice segments kept from AD 7 (source seconds); the cut-out gaps are near-silent
 A=[(0.00,3.30),(4.20,10.75),(11.05,15.70),(16.05,19.55),(19.90,24.40)]
