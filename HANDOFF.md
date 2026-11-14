@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-14 (launch):** Founder launched 8V_A (Best Christmas find) and 8V_C (original Gamers RUN caption); 8V_B (husband's gift) not launched. Turning off AD 15 (S2), keeping AD 14 (S4) running. Ads Manager numbers for 8V_A / 8V_C to be mapped when stats arrive.
+
 - **2026-11-14:** All three 8V ads re-rendered: hook caption fades out at 3.3-3.7 s (founder: like the original), CTA caption fades in at 18 s; the Target footage's burned-in old caption is erased with delogo after 3.3 s (faint smudge). Build script `renders/make_8V.py`.
 
 - **2026-11-14:** 8V C swapped: dropped "Every game he played as a kid. One gift" (weakest: long, starts on 'he' with no one introduced, repeats the voice) for the Target ad's original caption "Gamers, RUN don't WALK to Target for this!" -> `renders/8V_C_Original-RUN.mp4`. Now C is the clean test of the voice alone (same footage + caption as AD 8, plus AD 7's VO).
