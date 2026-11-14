@@ -406,7 +406,7 @@ Which game would they play first?
 
 - The Target ad is 11.8 s and AD 7's voice is 24 s, so two things were done to make them fit: 1.9 s of silence between the spoken lines was trimmed, and the last two lines play over AD 7's own footage (the Target ad has no shot of three colors).
 - AD 7's audio is voice only. There is no music in it, so there is none here. The Target ad's song is removed.
-- The caption stays on for the whole ad and covers the old "Gamers, RUN don't WALK to Target" text.
+- **Caption timing (updated 2026-11-14, founder):** the hook caption is on from the first frame and fades out at 3.3–3.7 s, right after the store hook. The CTA caption fades in at 18 s. The Target footage has its old caption burned in, so it is erased (delogo) from 3.3 s on; a faint smudge is visible where it was, mostly over the desk.
 
 **The 3 captions (the only difference between the ads)**
 | Ad name | Caption on screen | Why this one |

@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-14:** All three 8V ads re-rendered: hook caption fades out at 3.3-3.7 s (founder: like the original), CTA caption fades in at 18 s; the Target footage's burned-in old caption is erased with delogo after 3.3 s (faint smudge). Build script `renders/make_8V.py`.
+
 - **2026-11-14:** 8V C swapped: dropped "Every game he played as a kid. One gift" (weakest: long, starts on 'he' with no one introduced, repeats the voice) for the Target ad's original caption "Gamers, RUN don't WALK to Target for this!" -> `renders/8V_C_Original-RUN.mp4`. Now C is the clean test of the voice alone (same footage + caption as AD 8, plus AD 7's VO).
 
 - **2026-11-14 (8V test):** Founder: put AD 7's audio on the Target ad's footage, 3 ads with different captions. Built `renders/8V_A_Best-find.mp4` ("Best Christmas find this year"), `8V_B_Husbands-gift.mp4` ("Found my husband's Christmas gift"), `8V_C_Every-game.mp4` ("Every game he played as a kid. One gift"), 22.5 s each: Target footage 0-14.5 s (product part slowed to 76%), AD 7's three-colour and closing shots for the last two voice lines, CTA caption "Free shipping / Order by Dec 11" from 18 s. AD 7's audio is voice only (no music), 1.9 s of silent gaps trimmed. Copy in `B1_Testing_CBO_Copy.md`. These replace AD 11, AD 12 and 7A v4. CORRECTION: AD 7 does have a soft spoken CTA ("I've left the link below because it's honestly a fantastic option this year"); earlier notes said it had none (the tool's console print cut the transcript at 300 characters). Docs fixed. Ad relevance diagnostics are still blank for the founder.
