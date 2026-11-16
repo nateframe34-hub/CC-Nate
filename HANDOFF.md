@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-13 stats (added late):** AD 7 $31.32, CPM $154, hook 28%, 9 LPV, 0 ATC; AD 14 $0.47. No sales, ~-$32. Nov 13-15 together: ~$137 spend, 1 sale (~$73 profit before ads), ~-$64. AD 7 last 7 days (Nov 9-15): ~$307, 6 sales, ~$51/sale vs ~$55 break-even average.
+
 - **2026-11-14/15 stats:** Nov 14: $22.31, 1 duo (AD 7, CPM $86), ~+$50. Nov 15: $82.82, 0 sales, ~-$83. AD 17 (8V_C, gamer caption + AD 7 VO): lifetime $41.94, hook 46-52%, CPM $105 at 347 impr (vs AD 7 $122 same day, ~14% cheaper, not AD 8's $44-65), CPC $2.43 vs AD 7 $4.92, 16 LPV, 0 ATC. CBO picked AD 17 over AD 16 (8V_A, gift caption, $1.62) so the A-vs-C test isn't happening. Recommended: kill AD 17 at $49 with no ATC (close); AD 16 should then get the spend; turn off AD 14 (no delivery).
 
 - **2026-11-14 (mapping):** Ads Manager Test AD 16 = 8V_A (Target footage + AD 7 VO, "Best Christmas find this year"); Test AD 17 = 8V_C (same, original "Gamers, RUN don't WALK to Target" caption).

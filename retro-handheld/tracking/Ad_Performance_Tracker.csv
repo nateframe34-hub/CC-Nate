@@ -51,6 +51,9 @@ date,campaign,ad,spend,impressions,frequency,cpm,ctr_link,link_clicks,cpc,lpv,at
 2026-11-12,Testing CBO - reskin ad set,Test AD 12 (= 7A v3 Target + DEAL),2.94,17,1.06,172.94,,0,,0,0,0,0,
 2026-11-12,Testing CBO,Others,0.13,,,,,,,,0,0,0,
 2026-11-12,Testing CBO,DAY TOTAL,64.71,,,,,17,,17,2,2,0,No sales. Loss ~ -$64.71
+2026-11-13,Testing CBO,Test AD 7 (= T06 Christmas gift VO),31.32,204,1.23,153.53,4.41%,9,3.48,9,0,0,0,Hook 28%
+2026-11-13,Testing CBO,Test AD 14 (= S4 Comment reply),0.47,11,1.10,42.73,,0,,0,0,0,0,
+2026-11-13,Testing CBO,DAY TOTAL (ads shown),31.79,,,,,9,,9,0,0,0,No sales. Loss ~ -$32. Other reskin-set ads not in screenshot
 2026-11-14,Testing CBO,Test AD 7 (= T06 Christmas gift VO),16.82,196,1.08,85.82,4.59%,9,1.87,10,3,1,1,1 duo $139.99 (Meta ATC inflated). Hook 30%. Lowest AD 7 CPM in a week
 2026-11-14,Testing CBO,Test AD 17 (= 8V_C Target footage + AD 7 VO + Gamers RUN caption),5.48,52,1.02,105.38,7.69%,4,1.37,4,0,0,0,Launch day. Hook 52%
 2026-11-14,Testing CBO,Test AD 16 (= 8V_A Target footage + AD 7 VO + Best Christmas find),0.00,0,,,,,,,0,0,0,No delivery
