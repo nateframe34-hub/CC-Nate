@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-16 (AD 7, Nov 8-15):** Meta: $345.50, 2,913 impr, CPM $119, 95 LPV, 10 IC, 5 purchases, $644.94, $69/purchase, ROAS 1.87. Our tracker for the same days has 7 sales / $924.91 (Meta is missing the two Nov 8 duos: attribution or time zone); use Shopify as truth. Profit after product cost/fees/ads ~+$145 over the 8 days, but split: Nov 8-9 ~5 sales on ~$103; Nov 10-15 2 sales on ~$234 (~-$88). The earlier 'last 7 days' view was Nov 10-16.
+
 - **2026-11-16 (Meta last-7-days view, ~Nov 10-16):** AD 7 $271.76, 2,245 impr, CPM $121, hook 26.5%, CTR 3.6%, 81 LPV, 5 IC, 2 purchases ($279.98), $135.88/purchase, ROAS ~1.0. Account ~$325 spend, 2 duos, ~-$180 after product cost/fees/ads. AD 7's page-view->purchase rate fell from ~9% (first ~80 LPV, 7 sales) to ~2.5% (81 LPV, 2 sales): the early rate was partly luck, as the founder suspected. AD 7 has passed our stop line (cost/sale > ~$55 for 3+ days). Founder turned AD 17 off at $41.94 (0 ATC). Recommended: cut daily budget to protect cash until a new ad proves out; AD 16 is the live test.
 
 - **2026-11-13 stats (added late):** AD 7 $31.32, CPM $154, hook 28%, 9 LPV, 0 ATC; AD 14 $0.47. No sales, ~-$32. Nov 13-15 together: ~$137 spend, 1 sale (~$73 profit before ads), ~-$64. AD 7 last 7 days (Nov 9-15): ~$306 spend, 5 sales, $645 revenue (ROAS ~2.1), ~$61/sale, ~+$39 after product cost, fees and ads.
