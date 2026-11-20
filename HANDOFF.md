@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-20 (LIVE):** Scaling ad set + campaign live: AD 7, $40/day, placements Instagram Feed + Reels (FB Feed successfully excluded). Learning restarted; judge after ~$100 spend (~2.5 days). Targets: ROAS > ~2.5 to scale +20% every 2-3 days; < ~2.0 = put FB Feed back. Testing campaign (AD 14, AD 16) status to confirm.
+
 - **2026-11-20 (structure, founder):** Existing campaign (old 'Testing CBO', AD 7 inside) becomes the SCALING campaign; a NEW campaign is made for testing (AD 14 + AD 16). Placements for both: Instagram Feed + Instagram Reels + Facebook Reels only (profile feeds, FB Feed, Stories, etc. off). Checklist given: in scaling, everything but AD 7 off, budget ~$40, placement edit restarts learning (expect 2-3 wobbly days); duplicate AD 14 + AD 16 into testing by post ID and turn the originals off in scaling.
 
 - **2026-11-20 (founder decisions):** Testing campaign placements = same as Campaign A (FB + IG Reels, + IG Feed if A uses it), no FB Feed, no Stories, so a winner can move straight over. Post-purchase upsell DROPPED (most orders already bundles; not worth setup time). Accountant DROPPED for now (no budget); only free option noted: if already GST/HST registered, ITCs on Meta ad tax can be claimed on the founder's own return; otherwise revisit at the $30k small-supplier threshold.
