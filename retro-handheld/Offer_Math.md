@@ -66,6 +66,17 @@ Shopify counts shipping as revenue, so it is included in the ROAS. Case cost ran
 - **Duo and trio:** two or three free cases make these the most expensive tiers to break even on (~1.8–2.0×). That's fine if they lift conversion and order value. Don't drop the duo below $139.99.
 - **Shipping shows at checkout:** show "Free shipping when you add a case" in the cart (a progress bar) and on the PDP so the $4.99 isn't a surprise. A surprise fee at checkout loses sales.
 
+## ⚠️ 13% TAX ON META ADS (founder, 2026-11-20)
+Meta adds 13% HST to ad spend. Unless it is claimed back (see note), every $1 of ads costs $1.13, so break-even ROAS goes up:
+
+| Order | Profit before ads | Max ad spend per order (÷1.13) | **Break-even ROAS with tax** | (without tax) |
+|---|---|---|---|---|
+| Single $74.99 | $42.33 | $37.46 | **2.00** | 1.77 |
+| Duo $139.99 | $72.69 | $64.33 | **2.18** | 1.93 |
+| Trio $199.99 | $100.64 | $89.06 | **2.25** | 1.99 |
+
+**Note (not tax advice; confirm with an accountant):** a business registered for GST/HST can usually claim the HST it pays on ads back as input tax credits, and sales shipped to US customers are generally zero-rated exports. If that applies, the 13% is recoverable and the "without tax" column is the real one.
+
 ## ✅ CONFIRMED LANDED COSTS, ALL TIERS (founder, 2026-11-09)
 
 | Order (free shipping) | Price | COGS | Fees | Margin | **Breakeven ROAS** | **Max CPA** |
