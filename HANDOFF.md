@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-21 (Black Friday switch):** 'Early Black Friday' -> 'Black Friday', same offer (bundle prices + free cases on 2+, free shipping). Repo: PDP template sale_label 'Black Friday', sale_end moved 2026-11-26 23:59 -> 2026-11-30 23:59 (through Cyber Monday; the old date would have hidden the countdown bar before Black Friday itself), homepage deal_eyebrow 'Black Friday'; schema defaults updated. Founder applies in the Shopify theme editor. Live ad copy: AD 7 / AD 14 / AD 16 copy has no 'Early Black Friday'. Testing campaign: 2 ad sets at $10/day each (AD 14, AD 16); judge at ~$40-50 each (4-5 days).
+
 - **2026-11-20 (LIVE):** Scaling ad set + campaign live: AD 7, $40/day, placements Instagram Feed + Reels (FB Feed successfully excluded). Learning restarted; judge after ~$100 spend (~2.5 days). Targets: ROAS > ~2.5 to scale +20% every 2-3 days; < ~2.0 = put FB Feed back. Testing campaign (AD 14, AD 16) status to confirm.
 
 - **2026-11-20 (structure, founder):** Existing campaign (old 'Testing CBO', AD 7 inside) becomes the SCALING campaign; a NEW campaign is made for testing (AD 14 + AD 16). Placements for both: Instagram Feed + Instagram Reels + Facebook Reels only (profile feeds, FB Feed, Stories, etc. off). Checklist given: in scaling, everything but AD 7 off, budget ~$40, placement edit restarts learning (expect 2-3 wobbly days); duplicate AD 14 + AD 16 into testing by post ID and turn the originals off in scaling.
