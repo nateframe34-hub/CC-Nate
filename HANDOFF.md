@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-22 stats:** $47.02, 0 sales, 2 Shopify ATC. Scaling AD 7 (IG Feed + Reels): $27.04, CPM $132, hook 23%, 8 LPV -- still relearning, no judgement before ~$100. Testing: AD 16 $9.08, hook 42%, CPM $98, CTR 4.3%, 4 LPV, ATC; AD 14 $10.90, hook 23%, CTR 0.81%, 1 click -- weak in its own ad set (earlier 'good soft metrics' were on ~200 impressions).
+
 - **2026-11-21 (Black Friday switch):** 'Early Black Friday' -> 'Black Friday', same offer (bundle prices + free cases on 2+, free shipping). Repo: PDP template sale_label 'Black Friday', sale_end moved 2026-11-26 23:59 -> 2026-11-30 23:59 (through Cyber Monday; the old date would have hidden the countdown bar before Black Friday itself), homepage deal_eyebrow 'Black Friday'; schema defaults updated. Founder applies in the Shopify theme editor. Live ad copy: AD 7 / AD 14 / AD 16 copy has no 'Early Black Friday'. Testing campaign: 2 ad sets at $10/day each (AD 14, AD 16); judge at ~$40-50 each (4-5 days).
 
 - **2026-11-20 (LIVE):** Scaling ad set + campaign live: AD 7, $40/day, placements Instagram Feed + Reels (FB Feed successfully excluded). Learning restarted; judge after ~$100 spend (~2.5 days). Targets: ROAS > ~2.5 to scale +20% every 2-3 days; < ~2.0 = put FB Feed back. Testing campaign (AD 14, AD 16) status to confirm.
