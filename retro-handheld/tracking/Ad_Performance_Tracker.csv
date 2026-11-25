@@ -87,3 +87,10 @@ date,campaign,ad,spend,impressions,frequency,cpm,ctr_link,link_clicks,cpc,lpv,at
 2026-11-22,Testing - ad set AD 16,Test AD 16 (= 8V_A Target footage + AD 7 VO + Best Christmas find),16.54,84,1.08,196.90,4.76%,4,4.14,4,0,0,0,Hook 54%
 2026-11-22,Testing - ad set AD 14,Test AD 14 (= S4 Comment reply),14.26,94,1.02,151.70,,0,,0,0,0,0,Hook 19%. No clicks
 2026-11-22,All,DAY TOTAL,91.33,,,,,13,,12,2,1,1,Revenue $139.99; ~-$19 before ad tax, ~-$31 with it
+2026-11-23,Scaling (PocketArcade Test CBO),Test AD 7 (= T06 Christmas gift VO),50.82,264,1.17,192.50,2.65%,7,7.26,4,0,0,0,Campaign-level row
+2026-11-23,Testing (PocketArcade Test ABO),Test AD 16 (= 8V_A),19.29,68,1.03,283.68,5.88%,4,4.82,3,0,0,0,
+2026-11-24,Scaling (PocketArcade Test CBO),Test AD 7 (= T06 Christmas gift VO),50.24,275,1.13,182.69,2.55%,7,7.18,5,3,0,0,
+2026-11-24,Testing (PocketArcade Test ABO),Test AD 16 (= 8V_A),12.43,52,1.02,239.04,5.77%,3,4.14,4,2,0,0,
+2026-11-25,Scaling (PocketArcade Test CBO),Test AD 7 (= T06 Christmas gift VO),39.70,228,1.11,174.12,1.32%,3,13.23,3,0,0,0,
+2026-11-25,Testing (PocketArcade Test ABO),Test AD 16 (= 8V_A),8.50,27,1.13,314.81,,0,,0,0,0,0,
+2026-11-25,All,3-DAY TOTAL Nov 23-25,180.98,,,,,24,,19,5,0,0,No sales. Founder turned ALL campaigns off on Nov 25. Since the Nov 21 restructure: ~$319 spend, 1 sale

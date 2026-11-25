@@ -707,6 +707,8 @@ If/when ads resume, also pull the active batch's copy + feedback files.
 
 ## Recent Decisions
 
+- **2026-11-25 (ALL ADS OFF, founder):** Nov 23-25: $180.98, 0 sales. Since the Nov 21 restructure (AD 7 in IG Feed + Reels at $40, AD 16 and AD 14 in $10 ad sets): ~$319, 1 sale. AD 7 CPM went $121 (before) -> $132/168/193/183/174; CTR 3.6% -> 2.5-2.7% -> 1.3%. Two causes we can't separate: (1) the placement cut shrank AD 7's inventory and restarted learning; (2) Black Friday week auction prices. Lesson: the placement 'fix' was based on 12 sales and the Facebook Feed gap had already narrowed. Recommended restart: revert AD 7 to the setup that made ~2.8 ROAS on Nov 16-19 (all placements except Stories, ~$45-50/day), AD 16 alongside; stop-loss = pause if ~$150 spent at ROAS < 1.5; Dec 11 cutoff leaves ~2 weeks; the creative (engagement ranking below average) is still the real fix.
+
 - **2026-11-22 stats:** $91.33, 1 duo (AD 7), ~-$31 with ad tax. Scaling AD 7: $60.53 on a $40 budget (Meta can overspend a day by up to ~75%, evens out over the week), CPM $168, hook 23%, ROAS 2.31; ~$88 since the placement change, 1 sale -- still learning. AD 16: $16.54, hook 54%, CTR 4.8%, 4 LPV; lifetime ~$53, 1 sale. AD 14: $14.26, hook 19%, 0 clicks; ~$25 in its own ad set for 1 click, 0 ATC -> recommended OFF, move its $10 to AD 16.
 
 - **2026-11-21 stats (first logged as Nov 22):** $47.02, 0 sales, 2 Shopify ATC. Scaling AD 7 (IG Feed + Reels): $27.04, CPM $132, hook 23%, 8 LPV -- still relearning, no judgement before ~$100. Testing: AD 16 $9.08, hook 42%, CPM $98, CTR 4.3%, 4 LPV, ATC; AD 14 $10.90, hook 23%, CTR 0.81%, 1 click -- weak in its own ad set (earlier 'good soft metrics' were on ~200 impressions).
